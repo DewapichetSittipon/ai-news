@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-06-29T17:56:31.764Z",
+  "generatedAt": "2026-06-29T18:39:22.113Z",
   "items": [
+    {
+      "id": "huggingface__discoformer",
+      "slug": "discoformer",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/allenai/discoformer",
+      "category": "News",
+      "date": "2026-06-29T18:02:48.000Z",
+      "image": null,
+      "title": {
+        "en": "DiScoFormer: One transformer for density and score, across distributions",
+        "th": "DiScoFormer: One transformer for density and score, across distributions"
+      },
+      "summary": {
+        "en": "DiScoFormer: One transformer for density and score, across distributions",
+        "th": "DiScoFormer: One transformer for density and score, across distributions"
+      }
+    },
     {
       "id": "google-ai__full-stack-ai-explainer",
       "slug": "full-stack-ai-explainer",
@@ -84,23 +101,6 @@
       "summary": {
         "en": "Run a vLLM Server on HF Jobs in One Command",
         "th": "Run a vLLM Server on HF Jobs in One Command"
-      }
-    },
-    {
-      "id": "huggingface__hybrid-token-prediction",
-      "slug": "hybrid-token-prediction",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-      "category": "News",
-      "date": "2026-06-25T16:11:42.000Z",
-      "image": null,
-      "title": {
-        "en": "Which tokens does a hybrid model predict better?",
-        "th": "Which tokens does a hybrid model predict better?"
-      },
-      "summary": {
-        "en": "Which tokens does a hybrid model predict better?",
-        "th": "Which tokens does a hybrid model predict better?"
       }
     },
     {

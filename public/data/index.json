@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-06-29T09:15:25.984Z",
+  "generatedAt": "2026-06-29T11:15:39.691Z",
   "items": [
+    {
+      "id": "openai__mapping-ai-jobs-transition-eu",
+      "slug": "mapping-ai-jobs-transition-eu",
+      "source": "openai",
+      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "category": "Global Affairs",
+      "date": "2026-06-29T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Mapping Europe’s AI Workforce Opportunity",
+        "th": "Mapping Europe’s AI Workforce Opportunity"
+      },
+      "summary": {
+        "en": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+        "th": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes."
+      }
+    },
     {
       "id": "openai__hp-frontier-partnership",
       "slug": "hp-frontier-partnership",
@@ -308,23 +325,6 @@
       }
     },
     {
-      "id": "openai__patch-the-planet",
-      "slug": "patch-the-planet",
-      "source": "openai",
-      "url": "https://openai.com/index/patch-the-planet",
-      "category": "Security",
-      "date": "2026-06-22T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-        "th": "Patch the Planet: a Daybreak initiative to support open source maintainers"
-      },
-      "summary": {
-        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-        "th": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review."
-      }
-    },
-    {
       "id": "openai__daybreak-securing-the-world",
       "slug": "daybreak-securing-the-world",
       "source": "openai",
@@ -339,6 +339,23 @@
       "summary": {
         "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
         "th": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale."
+      }
+    },
+    {
+      "id": "openai__patch-the-planet",
+      "slug": "patch-the-planet",
+      "source": "openai",
+      "url": "https://openai.com/index/patch-the-planet",
+      "category": "Security",
+      "date": "2026-06-22T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+        "th": "Patch the Planet: a Daybreak initiative to support open source maintainers"
+      },
+      "summary": {
+        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+        "th": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review."
       }
     },
     {
@@ -835,23 +852,6 @@
       }
     },
     {
-      "id": "openai__bbva",
-      "slug": "bbva",
-      "source": "openai",
-      "url": "https://openai.com/index/bbva",
-      "category": "News",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "BBVA puts AI at the core of banking with OpenAI",
-        "th": "BBVA puts AI at the core of banking with OpenAI"
-      },
-      "summary": {
-        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-        "th": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide."
-      }
-    },
-    {
       "id": "openai__supporting-eu-trustworthy-ai-ecosystem",
       "slug": "supporting-eu-trustworthy-ai-ecosystem",
       "source": "openai",
@@ -866,6 +866,23 @@
       "summary": {
         "en": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
         "th": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content."
+      }
+    },
+    {
+      "id": "openai__bbva",
+      "slug": "bbva",
+      "source": "openai",
+      "url": "https://openai.com/index/bbva",
+      "category": "News",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "BBVA puts AI at the core of banking with OpenAI",
+        "th": "BBVA puts AI at the core of banking with OpenAI"
+      },
+      "summary": {
+        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+        "th": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide."
       }
     },
     {
@@ -1427,23 +1444,6 @@
       "summary": {
         "en": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
         "th": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security."
-      }
-    },
-    {
-      "id": "openai__public-policy-agenda",
-      "slug": "public-policy-agenda",
-      "source": "openai",
-      "url": "https://openai.com/index/public-policy-agenda",
-      "category": "Global Affairs",
-      "date": "2026-06-03T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "OpenAI public policy agenda",
-        "th": "OpenAI public policy agenda"
-      },
-      "summary": {
-        "en": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-        "th": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society."
       }
     },
     {

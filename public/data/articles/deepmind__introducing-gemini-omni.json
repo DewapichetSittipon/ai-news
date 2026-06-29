@@ -1,0 +1,420 @@
+{
+  "id": "deepmind__introducing-gemini-omni",
+  "slug": "introducing-gemini-omni",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+  "category": "News",
+  "date": "2026-05-17T19:50:57.000Z",
+  "image": null,
+  "title": {
+    "en": "Introducing Gemini Omni",
+    "th": "Introducing Gemini Omni"
+  },
+  "summary": {
+    "en": "Introducing Gemini Omni",
+    "th": "Introducing Gemini Omni"
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "Innovation & AI"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Models & research",
+        "th": "Models & research"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini Models",
+        "th": "Gemini Models"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Omni Flash is a model that can create anything from any input – starting with video.",
+        "th": "Gemini Omni Flash is a model that can create anything from any input – starting with video."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/koray.max-244x184.format-webp.webp",
+      "alt": "koray"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Last year, Nano Banana brought Gemini's intelligence to image generation and editing. Since then, it’s helped millions of people restore old photos, design from sketches and visualize ideas in ways that weren’t possible before. From the start we built Gemini to be natively multimodal from the ground up, and now we’re taking the next step.",
+        "th": "Last year, Nano Banana brought Gemini's intelligence to image generation and editing. Since then, it’s helped millions of people restore old photos, design from sketches and visualize ideas in ways that weren’t possible before. From the start we built Gemini to be natively multimodal from the ground up, and now we’re taking the next step."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re introducing Gemini Omni, where Gemini’s ability to reason meets the ability to create. Omni is our new model that can create anything from any input — starting with video. With Omni, you can combine images, audio, video and text as input and generate high-quality videos grounded in Gemini's real-world knowledge. You can also easily edit your videos through conversation.",
+        "th": "We’re introducing Gemini Omni, where Gemini’s ability to reason meets the ability to create. Omni is our new model that can create anything from any input — starting with video. With Omni, you can combine images, audio, video and text as input and generate high-quality videos grounded in Gemini's real-world knowledge. You can also easily edit your videos through conversation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re rolling out the first model in the Omni family: Gemini Omni Flash, to the Gemini app, Google Flow and YouTube Shorts. In time we will support output modalities like image and audio. Here’s some of what makes Omni special:",
+        "th": "Today, we’re rolling out the first model in the Omni family: Gemini Omni Flash, to the Gemini app, Google Flow and YouTube Shorts. In time we will support output modalities like image and audio. Here’s some of what makes Omni special:"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Edit your videos through conversation",
+        "th": "Edit your videos through conversation"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Omni gives you an easier way to edit video — with natural language. Every instruction builds on the last. Your characters stay consistent, the physics hold up and the scene remembers what came before.",
+        "th": "Gemini Omni gives you an easier way to edit video — with natural language. Every instruction builds on the last. Your characters stay consistent, the physics hold up and the scene remembers what came before."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Transform the world around you. Change specific things, or change everything. Your video becomes the starting point for something you never could have filmed yourself.",
+        "th": "Transform the world around you. Change specific things, or change everything. Your video becomes the starting point for something you never could have filmed yourself."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: Make the sculpture out of bubbles.",
+        "th": "Prompt: Make the sculpture out of bubbles."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reimagine the action. Take a video you shot and just ask Omni to change what’s happening. Edit the action, add in new characters or objects, or transform a moment into something unexpected.",
+        "th": "Reimagine the action. Take a video you shot and just ask Omni to change what’s happening. Edit the action, add in new characters or objects, or transform a moment into something unexpected."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: When the person touches the mirror, make the mirror ripple beautifully like liquid, and the person's arm turns into reflective mirror material.",
+        "th": "Prompt: When the person touches the mirror, make the mirror ripple beautifully like liquid, and the person's arm turns into reflective mirror material."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: Dim the lights in the room. Put a black and white checkerboard room inside a glass sphere that floats tracking above the hand, inside it contains a recursive representation of the same hand holding the sphere, creating an infinite recursive of rooms. Camera slowly gets closer into the sphere, creating a video loop.",
+        "th": "Prompt: Dim the lights in the room. Put a black and white checkerboard room inside a glass sphere that floats tracking above the hand, inside it contains a recursive representation of the same hand holding the sphere, creating an infinite recursive of rooms. Camera slowly gets closer into the sphere, creating a video loop."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: The lights of the apartments start turning on in sync with the music.",
+        "th": "Prompt: The lights of the apartments start turning on in sync with the music."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Refine your videos across multiple turns. Change the environment, angle, style or even specific details, without ever losing the thread of your original scene. Scroll through the carousel to see how edits build on each other.",
+        "th": "Refine your videos across multiple turns. Change the environment, angle, style or even specific details, without ever losing the thread of your original scene. Scroll through the carousel to see how edits build on each other."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: A video of a violinist playing a song.",
+        "th": "Prompt: A video of a violinist playing a song."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: Transport the violinist to the image environment",
+        "th": "Prompt: Transport the violinist to the image environment"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: Make the violin invisible",
+        "th": "Prompt: Make the violin invisible"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: Change the camera angle to be over the violinist’s shoulder.",
+        "th": "Prompt: Change the camera angle to be over the violinist’s shoulder."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Bring ideas to life, grounded in Gemini’s world knowledge",
+        "th": "Bring ideas to life, grounded in Gemini’s world knowledge"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Omni doesn't just build scenes that look real, it reasons about what should happen next. It combines an intuitive understanding of physics with Gemini's knowledge of history, science and cultural context, bridging the gap from photorealism to meaningful storytelling.",
+        "th": "Gemini Omni doesn't just build scenes that look real, it reasons about what should happen next. It combines an intuitive understanding of physics with Gemini's knowledge of history, science and cultural context, bridging the gap from photorealism to meaningful storytelling."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Create visuals with more accurate physics. Omni has an improved intuitive understanding of forces like gravity, kinetic energy and fluid dynamics, allowing you to create more realistic scenes.",
+        "th": "Create visuals with more accurate physics. Omni has an improved intuitive understanding of forces like gravity, kinetic energy and fluid dynamics, allowing you to create more realistic scenes."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: A marble rolling fast on a chain reaction style track, continuous smooth shot.",
+        "th": "Prompt: A marble rolling fast on a chain reaction style track, continuous smooth shot."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Blend knowledge and creativity. Omni draws on Gemini's knowledge to connect language, imagery and meaning in ways that go far beyond pattern matching.",
+        "th": "Blend knowledge and creativity. Omni draws on Gemini's knowledge to connect language, imagery and meaning in ways that go far beyond pattern matching."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: The video shows items of the alphabet. An unusual item starting with each letter is shown sitting on a table (like a Capybara for C, disco globe for D and Lava Lamp for L). All 26 letters must be represented by 26 items with matching lower thirds displaying the letter. Only one item and lower third at a time. Each lower third must look like a black marker written on a slip of paper in the bottom left. Rapid fire, roughly 9 frames per item at 24FPS. Last frame is a slip of paper \"THE END\". The whole video is accompanied by calm smooth music.",
+        "th": "Prompt: The video shows items of the alphabet. An unusual item starting with each letter is shown sitting on a table (like a Capybara for C, disco globe for D and Lava Lamp for L). All 26 letters must be represented by 26 items with matching lower thirds displaying the letter. Only one item and lower third at a time. Each lower third must look like a black marker written on a slip of paper in the bottom left. Rapid fire, roughly 9 frames per item at 24FPS. Last frame is a slip of paper \"THE END\". The whole video is accompanied by calm smooth music."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Complex ideas made visual. Omni can create compelling explainers from short prompts, generating visuals that break down more complex ideas.",
+        "th": "Complex ideas made visual. Omni can create compelling explainers from short prompts, generating visuals that break down more complex ideas."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: claymation explainer of protein folding, everything is made out of clay, no hands, stop motion, accurate",
+        "th": "Prompt: claymation explainer of protein folding, everything is made out of clay, no hands, stop motion, accurate"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Create videos from any combination of inputs",
+        "th": "Create videos from any combination of inputs"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reference anything. Omni turns any reference — image, text, video or audio — into a single, cohesive output. While only voice references will be supported for audio to start, we’ll roll out other types of audio inputs soon.",
+        "th": "Reference anything. Omni turns any reference — image, text, video or audio — into a single, cohesive output. While only voice references will be supported for audio to start, we’ll roll out other types of audio inputs soon."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: Dynamic sci-fi film style video based on image_0.png. Elements light up similar to video_0.mp4 synchronized to the beat of the music from audio_0.wav",
+        "th": "Prompt: Dynamic sci-fi film style video based on image_0.png. Elements light up similar to video_0.mp4 synchronized to the beat of the music from audio_0.wav"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: Referring to the extreme camera movement, perspective, and distortion in video-0, create a front-facing full-body walk cycle of the character from image-0, quickly style-shifting into multiple visual styles during the walk cycle, starting from realistic cinema. Keep the environment, only change styles. Hard cut backgrounds always centering the sky. Continuous walking, continuous audio, and style shifts in perfect sync to the beat of the audio. Cinematic, 16:9.",
+        "th": "Prompt: Referring to the extreme camera movement, perspective, and distortion in video-0, create a front-facing full-body walk cycle of the character from image-0, quickly style-shifting into multiple visual styles during the walk cycle, starting from realistic cinema. Keep the environment, only change styles. Hard cut backgrounds always centering the sky. Continuous walking, continuous audio, and style shifts in perfect sync to the beat of the audio. Cinematic, 16:9."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: Add harp sounds synchronized to when I touch each fern leaf. Change the leaf structure to all resemble semi translucent 3d bioluminescent plant life, with bioluminescent fireflies flying around it that react as I play, in sync with the sounds, subtle bokeh depth of field dynamic lighting, reflecting off the walls in the room, keeping the room structure the same",
+        "th": "Prompt: Add harp sounds synchronized to when I touch each fern leaf. Change the leaf structure to all resemble semi translucent 3d bioluminescent plant life, with bioluminescent fireflies flying around it that react as I play, in sync with the sounds, subtle bokeh depth of field dynamic lighting, reflecting off the walls in the room, keeping the room structure the same"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Start from what you have. With input references, you can use images of characters, scenes or drawings to create in a way that matches your vision.",
+        "th": "Start from what you have. With input references, you can use images of characters, scenes or drawings to create in a way that matches your vision."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: Imagine the world gradually changing into retro futuristic style (grainy and moody as image-1) as I walk. Use the audio for a retro-futuristic background music. 10s.",
+        "th": "Prompt: Imagine the world gradually changing into retro futuristic style (grainy and moody as image-1) as I walk. Use the audio for a retro-futuristic background music. 10s."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: turn this into realistic footage, using the drawing only as a guide for movement, do not show the drawing in the final video",
+        "th": "Prompt: turn this into realistic footage, using the drawing only as a guide for movement, do not show the drawing in the final video"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: Apply the pose and motion from input video to provided character from this image. Apply style from image reference to the new video",
+        "th": "Prompt: Apply the pose and motion from input video to provided character from this image. Apply style from image reference to the new video"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Apply styles, motion or effects. Define the visual language by using input references, or just describe it with natural language. Omni blends the input references to create a cohesive clip.",
+        "th": "Apply styles, motion or effects. Define the visual language by using input references, or just describe it with natural language. Omni blends the input references to create a cohesive clip."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: edit this keeping everything the same. add animated motion effects coming out of the skateboard",
+        "th": "Prompt: edit this keeping everything the same. add animated motion effects coming out of the skateboard"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt: Apply the motion of the whale swimming from the provided video to the provided image of fluid reflective material. Do not show the whale or water; instead, have this reflective moving material form a shape that resembles the whale as it swims. Replace water with white smooth material shapes that move",
+        "th": "Prompt: Apply the motion of the whale swimming from the provided video to the provided image of fluid reflective material. Do not show the whale or water; instead, have this reflective moving material form a shape that resembles the whale as it swims. Replace water with white smooth material shapes that move"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Create videos with your own digital avatar",
+        "th": "Create videos with your own digital avatar"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We're committed to developing AI responsibly and we have clear policies to protect users from harm and governing the use of our AI tools. To start, you can create videos with your own voice by using Avatars, which create a digital version of yourself so you can generate videos that look and sound like you. Beyond the avatar feature, in terms of editing videos to change audio and speech, we are still working to test this and better understand how we can bring this capability to users responsibly.",
+        "th": "We're committed to developing AI responsibly and we have clear policies to protect users from harm and governing the use of our AI tools. To start, you can create videos with your own voice by using Avatars, which create a digital version of yourself so you can generate videos that look and sound like you. Beyond the avatar feature, in terms of editing videos to change audio and speech, we are still working to test this and better understand how we can bring this capability to users responsibly."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "All videos created with Omni include our imperceptible SynthID digital watermark. You can easily verify that videos were generated with Gemini Omni through the Gemini app, Gemini in Chrome and Google Search. You can find out more about how we're expanding our content transparency and verification tools to help you understand how content was created and edited across the web in our blog post.",
+        "th": "All videos created with Omni include our imperceptible SynthID digital watermark. You can easily verify that videos were generated with Gemini Omni through the Gemini app, Gemini in Chrome and Google Search. You can find out more about how we're expanding our content transparency and verification tools to help you understand how content was created and edited across the web in our blog post."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Try Gemini Omni now",
+        "th": "Try Gemini Omni now"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re launching the first model in the Omni family — Gemini Omni Flash. Gemini Omni Flash is rolling out today to all Google AI Plus, Pro and Ultra subscribers globally through the Gemini app and Google Flow. It’s also rolling out at no cost to users on YouTube Shorts and YouTube Create App starting this week.",
+        "th": "Today, we’re launching the first model in the Omni family — Gemini Omni Flash. Gemini Omni Flash is rolling out today to all Google AI Plus, Pro and Ultra subscribers globally through the Gemini app and Google Flow. It’s also rolling out at no cost to users on YouTube Shorts and YouTube Create App starting this week."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In the coming weeks, we'll also be rolling it out to developers and enterprise customers via APIs.",
+        "th": "In the coming weeks, we'll also be rolling it out to developers and enterprise customers via APIs."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp",
+      "alt": "The image shows a colorful abstract design with the Google I/O 2026 logo."
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get more stories from Google in your inbox. Get more stories from Google in your inbox.",
+        "th": "Get more stories from Google in your inbox. Get more stories from Google in your inbox."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your information will be used in accordance with Google's privacy policy.",
+        "th": "Your information will be used in accordance with Google's privacy policy."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Done. Just one step more.",
+        "th": "Done. Just one step more."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check your inbox to confirm your subscription.",
+        "th": "Check your inbox to confirm your subscription."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You are already subscribed to our newsletter.",
+        "th": "You are already subscribed to our newsletter."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also subscribe with a different email address .",
+        "th": "You can also subscribe with a different email address ."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini models",
+        "th": "Gemini models"
+      }
+    }
+  ]
+}

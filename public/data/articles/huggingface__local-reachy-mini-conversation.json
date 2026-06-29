@@ -1,0 +1,794 @@
+{
+  "id": "huggingface__local-reachy-mini-conversation",
+  "slug": "local-reachy-mini-conversation",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+  "category": "News",
+  "date": "2026-05-27T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Reachy Mini goes fully local",
+    "th": "Reachy Mini goes fully local"
+  },
+  "summary": {
+    "en": "Reachy Mini goes fully local",
+    "th": "Reachy Mini goes fully local"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583857146757-5e67bdd61009063689407479.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1594144055859-5ee3a7cd2a3eae3cbdad1305.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1594651707950-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1605114051380-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617264212503-603d25b75f9d390ab190b777.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1643012094339-61914f536d34e827404ceb99.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+54",
+        "th": "+54"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/67f2f500e329a81a62a05d44/DOlzc8GFQzrnfVrsOdtbN.png",
+      "alt": "Amir Mahla's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65d66b494bbd0d92b641cdbb/6-7dm7B-JxcoS1QlCPdMN.jpeg",
+      "alt": "Andres Marafioti's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Quick start Locally serving the LLM Setting up speech-to-speech Connecting Reachy Mini to speech-to-speech",
+        "th": "Quick start Locally serving the LLM Setting up speech-to-speech Connecting Reachy Mini to speech-to-speech"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Locally serving the LLM",
+        "th": "Locally serving the LLM"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Setting up speech-to-speech",
+        "th": "Setting up speech-to-speech"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Connecting Reachy Mini to speech-to-speech",
+        "th": "Connecting Reachy Mini to speech-to-speech"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Going deeper Why run your own Speech-to-Speech server? Our opinionated defaults: VAD, STT, TTS Choosing your LLM Running the engine on your laptop, the app on the robot",
+        "th": "Going deeper Why run your own Speech-to-Speech server? Our opinionated defaults: VAD, STT, TTS Choosing your LLM Running the engine on your laptop, the app on the robot"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why run your own Speech-to-Speech server?",
+        "th": "Why run your own Speech-to-Speech server?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Our opinionated defaults: VAD, STT, TTS",
+        "th": "Our opinionated defaults: VAD, STT, TTS"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Choosing your LLM",
+        "th": "Choosing your LLM"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Running the engine on your laptop, the app on the robot",
+        "th": "Running the engine on your laptop, the app on the robot"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Wrap up",
+        "th": "Wrap up"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This stack is powered by speech-to-speech, our cascaded VAD → STT → LLM → TTS pipeline that exposes a Realtime API-compatible /v1/realtime WebSocket. Once you launch the backend, point the robot at it from the UI.",
+        "th": "This stack is powered by speech-to-speech, our cascaded VAD → STT → LLM → TTS pipeline that exposes a Realtime API-compatible /v1/realtime WebSocket. Once you launch the backend, point the robot at it from the UI."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cascades are the most flexible option in the open-source landscape today, and with the right pieces they're also the fastest. We'll recommend the components we like best, but the whole point of a cascade is that you can swap them. New models drop every week.",
+        "th": "Cascades are the most flexible option in the open-source landscape today, and with the right pieces they're also the fastest. We'll recommend the components we like best, but the whole point of a cascade is that you can swap them. New models drop every week."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "TL;DR",
+        "th": "TL;DR"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deploy a local speech backend for your Reachy Mini.",
+        "th": "Deploy a local speech backend for your Reachy Mini."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We use our speech-to-speech library, a cascade approach.",
+        "th": "We use our speech-to-speech library, a cascade approach."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Recommended: llama.cpp with Gemma 4, Silero VAD, Parakeet-TDT 0.6B v3 STT, Qwen3-TTS.",
+        "th": "Recommended: llama.cpp with Gemma 4, Silero VAD, Parakeet-TDT 0.6B v3 STT, Qwen3-TTS."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Quick start",
+        "th": "Quick start"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This blog walks you through running conversations with Reachy Mini fully locally. No cloud, no API keys, no data leaving your machine. Here's a video showing this live:",
+        "th": "This blog walks you through running conversations with Reachy Mini fully locally. No cloud, no API keys, no data leaving your machine. Here's a video showing this live:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Locally serving the LLM",
+        "th": "Locally serving the LLM"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To serve the LLM, we'll use Hugging Face's llama.cpp. If you need to install it, the simplest way is brew install llama.cpp or winget install llama.cpp, for more help, check the docs. First, we'll run:",
+        "th": "To serve the LLM, we'll use Hugging Face's llama.cpp. If you need to install it, the simplest way is brew install llama.cpp or winget install llama.cpp, for more help, check the docs. First, we'll run:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "And done! The first time it will download the model, subsequent launches are fast.",
+        "th": "And done! The first time it will download the model, subsequent launches are fast."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "-hf ggml-org/gemma-4-E4B-it-GGUF — pulls the model straight from the Hub. First run downloads it, subsequent runs use the cache.",
+        "th": "-hf ggml-org/gemma-4-E4B-it-GGUF — pulls the model straight from the Hub. First run downloads it, subsequent runs use the cache."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "-np 2 — two parallel slots. Lets the server handle a second request (e.g. a quick interruption) without blocking on the first.",
+        "th": "-np 2 — two parallel slots. Lets the server handle a second request (e.g. a quick interruption) without blocking on the first."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "-c 65536 — 64k context window, shared across slots. Plenty of headroom for long conversations.",
+        "th": "-c 65536 — 64k context window, shared across slots. Plenty of headroom for long conversations."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "-fa on — flash attention. Faster and lower memory, basically free on modern hardware.",
+        "th": "-fa on — flash attention. Faster and lower memory, basically free on modern hardware."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "--swa-full — keeps the full sliding-window attention cache instead of recomputing it. Trades a bit of RAM for noticeably faster prompt processing on Gemma.",
+        "th": "--swa-full — keeps the full sliding-window attention cache instead of recomputing it. Trades a bit of RAM for noticeably faster prompt processing on Gemma."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Setting up speech-to-speech",
+        "th": "Setting up speech-to-speech"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We'll begin by simply installing the library",
+        "th": "We'll begin by simply installing the library"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Then, while we are serving the LLM in another terminal, we can simply run:",
+        "th": "Then, while we are serving the LLM in another terminal, we can simply run:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "And you can start talking to the model through your terminal! The first time it will need to download Parakeet-TDT 0.6B v3 and Qwen3TTS, but subsequent launches are fast.",
+        "th": "And you can start talking to the model through your terminal! The first time it will need to download Parakeet-TDT 0.6B v3 and Qwen3TTS, but subsequent launches are fast."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Here's a video showing the local conversation mode:",
+        "th": "Here's a video showing the local conversation mode:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Now, after you've tried it in --mode local, you can run again the command without that option to serve speech-to-speech to the robot.",
+        "th": "Now, after you've tried it in --mode local, you can run again the command without that option to serve speech-to-speech to the robot."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Connecting Reachy Mini to speech-to-speech",
+        "th": "Connecting Reachy Mini to speech-to-speech"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Once you have llama.cpp and speech-to-speech running, you can start the robot with the desktop app and launch the conversation app. In the UI from the conversation app, you need to choose the local mode by clicking on \"edit connection\" in the HF backend. Here's a video showing how to do it:",
+        "th": "Once you have llama.cpp and speech-to-speech running, you can start the robot with the desktop app and launch the conversation app. In the UI from the conversation app, you need to choose the local mode by clicking on \"edit connection\" in the HF backend. Here's a video showing how to do it:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "And you're done. You can start talking to your robot. Every stage of the pipeline is a trade-off: there are faster TTS models with lower quality, slower STT models with higher quality. We optimized for multilingual, you might want to optimize for a single language. The rest of the blog covers how to customize.",
+        "th": "And you're done. You can start talking to your robot. Every stage of the pipeline is a trade-off: there are faster TTS models with lower quality, slower STT models with higher quality. We optimized for multilingual, you might want to optimize for a single language. The rest of the blog covers how to customize."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Going deeper",
+        "th": "Going deeper"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Why run your own Speech-to-Speech server?",
+        "th": "Why run your own Speech-to-Speech server?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hosted realtime backends are convenient, but running your own engine unlocks three things:",
+        "th": "Hosted realtime backends are convenient, but running your own engine unlocks three things:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Privacy. Audio never leaves your network, the entire pipeline runs on hardware you control.",
+        "th": "Privacy. Audio never leaves your network, the entire pipeline runs on hardware you control."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "No API costs. No per-minute or per-token fees.",
+        "th": "No API costs. No per-minute or per-token fees."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Full control over the pipeline. Swap any piece: VAD, STT, LLM, TTS. Whenever something better lands on the Hub 🤗.",
+        "th": "Full control over the pipeline. Swap any piece: VAD, STT, LLM, TTS. Whenever something better lands on the Hub 🤗."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The speech-to-speech repo gives you all of that in a single CLI. It boots a WebSocket server at /v1/realtime that speaks the same protocol Reachy Mini already knows how to talk to.",
+        "th": "The speech-to-speech repo gives you all of that in a single CLI. It boots a WebSocket server at /v1/realtime that speaks the same protocol Reachy Mini already knows how to talk to."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Our opinionated defaults: VAD, STT, TTS",
+        "th": "Our opinionated defaults: VAD, STT, TTS"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A cascaded voice pipeline has four stages: VAD, STT, LLM, and TTS. For three of them, we pick solid defaults so you can focus on the LLM:",
+        "th": "A cascaded voice pipeline has four stages: VAD, STT, LLM, and TTS. For three of them, we pick solid defaults so you can focus on the LLM:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are opinionated about these choices, feel free to swap them out for your own if you have a preference.",
+        "th": "We are opinionated about these choices, feel free to swap them out for your own if you have a preference."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Choosing your LLM",
+        "th": "Choosing your LLM"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The LLM is the layer with the most impact on latency and overall performance of the system. We support two options: run a model locally (llama.cpp, MLX, Transformers, vLLM), or use a server with a Responses API (OpenAI, Gemini, HF Inference Endpoints, llama.cpp, vLLM, etc).",
+        "th": "The LLM is the layer with the most impact on latency and overall performance of the system. We support two options: run a model locally (llama.cpp, MLX, Transformers, vLLM), or use a server with a Responses API (OpenAI, Gemini, HF Inference Endpoints, llama.cpp, vLLM, etc)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The main bottleneck in the system is LLM inference latency. To address that, we support external inference engines exposed through the Responses API protocol.",
+        "th": "The main bottleneck in the system is LLM inference latency. To address that, we support external inference engines exposed through the Responses API protocol."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The speech-to-speech engine therefore supports a second mode where the LLM lives in a separate process as long as it speaks the Responses API protocol. You launch your model server in one terminal, you launch the voice loop in another terminal, and the two talk over HTTP.",
+        "th": "The speech-to-speech engine therefore supports a second mode where the LLM lives in a separate process as long as it speaks the Responses API protocol. You launch your model server in one terminal, you launch the voice loop in another terminal, and the two talk over HTTP."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Terminal 1: llama.cpp server:",
+        "th": "Terminal 1: llama.cpp server:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Terminal 2: speech-to-speech client:",
+        "th": "Terminal 2: speech-to-speech client:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Requires vLLM ≥ 0.21.0. Full support for the Responses API protocol, including tool-call streaming used by the speech-to-speech backend, landed in vLLM 0.21.0. Older versions will boot but trip up as soon as the assistant tries to call a tool.",
+        "th": "Requires vLLM ≥ 0.21.0. Full support for the Responses API protocol, including tool-call streaming used by the speech-to-speech backend, landed in vLLM 0.21.0. Older versions will boot but trip up as soon as the assistant tries to call a tool."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When serving a model through vLLM for this pipeline, three flags are effectively required:",
+        "th": "When serving a model through vLLM for this pipeline, three flags are effectively required:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "--enable-auto-tool-choice",
+        "th": "--enable-auto-tool-choice"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "--tool-call-parser <tool_parser_name> — picks the per-family parser that turns the model's raw output into structured tool calls (e.g. qwen3_coder for Qwen3 instruct models, llama3_json for Llama 3, hermes for Hermes-style models, ...).",
+        "th": "--tool-call-parser <tool_parser_name> — picks the per-family parser that turns the model's raw output into structured tool calls (e.g. qwen3_coder for Qwen3 instruct models, llama3_json for Llama 3, hermes for Hermes-style models, ...)."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "--default-chat-template-kwargs '{\"enable_thinking\":false}' : disables the <think> reasoning channel for models that support it. For harder agentic tasks you can flip this to true and let the model reason, but for a natural-feeling conversation we strongly recommend keeping it off: every thinking token is latency the user hears as silence before the robot starts speaking.",
+        "th": "--default-chat-template-kwargs '{\"enable_thinking\":false}' : disables the <think> reasoning channel for models that support it. For harder agentic tasks you can flip this to true and let the model reason, but for a natural-feeling conversation we strongly recommend keeping it off: every thinking token is latency the user hears as silence before the robot starts speaking."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Terminal 1: vLLM inference server (Qwen/Qwen3-4B-Instruct-2507):",
+        "th": "Terminal 1: vLLM inference server (Qwen/Qwen3-4B-Instruct-2507):"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The --speculative-config line enables Multi-Token Prediction (MTP). It is optional, but it has a great impact on end-to-end latency. Leave it on whenever the model supports it.",
+        "th": "The --speculative-config line enables Multi-Token Prediction (MTP). It is optional, but it has a great impact on end-to-end latency. Leave it on whenever the model supports it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Terminal 2: speech-to-speech client:",
+        "th": "Terminal 2: speech-to-speech client:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Same protocol, but the model runs on a managed GPU on Hugging Face. Deploy any chat model as an Inference Endpoint, then point the voice loop at the endpoint URL:",
+        "th": "Same protocol, but the model runs on a managed GPU on Hugging Face. Deploy any chat model as an Inference Endpoint, then point the voice loop at the endpoint URL:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If you don't want to manage your own endpoint, use an Inference Provider. Hugging Face routes your request to a third-party backend (e.g. Together, Fireworks, Replicate) with a single URL:",
+        "th": "If you don't want to manage your own endpoint, use an Inference Provider. Hugging Face routes your request to a third-party backend (e.g. Together, Fireworks, Replicate) with a single URL:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When you want to test against a frontier model with zero infra, point the same flag at OpenAI:",
+        "th": "When you want to test against a frontier model with zero infra, point the same flag at OpenAI:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The --responses_api_* flags work the same for any provider that implements the protocol (OpenRouter, Together, Fireworks, …). Swap the base URL and the API key, keep the rest of the pipeline identical.",
+        "th": "The --responses_api_* flags work the same for any provider that implements the protocol (OpenRouter, Together, Fireworks, …). Swap the base URL and the API key, keep the rest of the pipeline identical."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If you are on a Mac, MLX is the lowest-friction way to run a real model with sane latency. We recommend Qwen3-4B-Instruct-2507, which is small enough to feel instant on M-series chips and capable enough to hold a conversation.",
+        "th": "If you are on a Mac, MLX is the lowest-friction way to run a real model with sane latency. We recommend Qwen3-4B-Instruct-2507, which is small enough to feel instant on M-series chips and capable enough to hold a conversation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The server listens on ws://127.0.0.1:8765/v1/realtime by default. Leave it running, connect the conversation app to the local backend, and you are talking to your robot.",
+        "th": "The server listens on ws://127.0.0.1:8765/v1/realtime by default. Leave it running, connect the conversation app to the local backend, and you are talking to your robot."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Same idea, but using vanilla transformers. Use this if you are on a CUDA box, on Linux, or if you want to swap models freely without re-converting weights for MLX.",
+        "th": "Same idea, but using vanilla transformers. Use this if you are on a CUDA box, on Linux, or if you want to swap models freely without re-converting weights for MLX."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Tip. Qwen3-4B-Instruct-2507 is another good option for LLM because it gives a good speed/quality balance on a single consumer GPU. You can point --model_name at any HF model the backend supports — for example a larger Gemma, Qwen, or a Mistral.",
+        "th": "Tip. Qwen3-4B-Instruct-2507 is another good option for LLM because it gives a good speed/quality balance on a single consumer GPU. You can point --model_name at any HF model the backend supports — for example a larger Gemma, Qwen, or a Mistral."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Running the engine on your laptop, the app on the robot",
+        "th": "Running the engine on your laptop, the app on the robot"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If you are running the voice engine on your laptop and the conversation app on a Reachy Mini Wireless, the only thing that changes is the URL. Make sure the engine binds to a LAN address (not just 127.0.0.1) and use the laptop's IP from the robot when you select the IP in the UI.",
+        "th": "If you are running the voice engine on your laptop and the conversation app on a Reachy Mini Wireless, the only thing that changes is the URL. Make sure the engine binds to a LAN address (not just 127.0.0.1) and use the laptop's IP from the robot when you select the IP in the UI."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If you don't know your IP, here's how to find it:",
+        "th": "If you don't know your IP, here's how to find it:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Look for \"IPv4 Address\" under your active adapter.",
+        "th": "Look for \"IPv4 Address\" under your active adapter."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You want the 192.168.x.x or 10.x.x.x one. If you see 169.254.x.x, you're not actually on the network.",
+        "th": "You want the 192.168.x.x or 10.x.x.x one. If you see 169.254.x.x, you're not actually on the network."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Wrap up",
+        "th": "Wrap up"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You now have a fully local voice loop:",
+        "th": "You now have a fully local voice loop:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A robot listening with Silero,",
+        "th": "A robot listening with Silero,"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "transcribing with Parakeet-TDT 0.6B v3,",
+        "th": "transcribing with Parakeet-TDT 0.6B v3,"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "thinking with whichever LLM you picked, whether that's local MLX, local Transformers, a vLLM or llama.cpp server next door, or a hosted Responses API endpoint,",
+        "th": "thinking with whichever LLM you picked, whether that's local MLX, local Transformers, a vLLM or llama.cpp server next door, or a hosted Responses API endpoint,"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "and answering with Qwen3-TTS.",
+        "th": "and answering with Qwen3-TTS."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Star huggingface/speech-to-speech and pollen-robotics/reachy_mini_conversation_app, and come tell us in the discussions which open-source cascade you ended up running on your robot.",
+        "th": "Star huggingface/speech-to-speech and pollen-robotics/reachy_mini_conversation_app, and come tell us in the discussions which open-source cascade you ended up running on your robot."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More Articles from our Blog",
+        "th": "More Articles from our Blog"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/adding-mcp-tools-to-reachy-mini/reachy_mini_remote_spaces_thumbnail.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Adding MCP Tools to Reachy Mini",
+        "th": "Adding MCP Tools to Reachy Mini"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63f5010dfcf95ecac2ad8652/vmRox4fcHMjT1y2bidjOL.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/voice-consent-gate/thumbnail.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Voice Cloning with Consent",
+        "th": "Voice Cloning with Consent"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1626214544196-60c757ea5f9a76ab3f844f12.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/ux7NRFAbgnlIVNh-Cbv9s.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "Community"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/62acc87e519b663b1610ccc4/wumnvAamrjCDnJvs8av8C.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Great improvement to the conversation app, I can't wait to tinker with this and add my own tools!",
+        "th": "Great improvement to the conversation app, I can't wait to tinker with this and add my own tools!"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/6bc0fd0ef1a27cb276cd88502b13e28e.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Fantastic to have now a local option ! I just set it up on my DGX Spark, and it runs very smoothly with your suggested default components. I would love to hear your thoughts on how reachy could become an interface to a Hermes Agent (running a bigger LLM model), by still keeping its low latency interactions. Many thanks for building such a cool platform.",
+        "th": "Fantastic to have now a local option ! I just set it up on my DGX Spark, and it runs very smoothly with your suggested default components. I would love to hear your thoughts on how reachy could become an interface to a Hermes Agent (running a bigger LLM model), by still keeping its low latency interactions. Many thanks for building such a cool platform."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/MknbZ-bwfHxsPlMnlKPLp.png",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hi,Great article. How can I find all the other articles related to Reachy Mini?",
+        "th": "Hi,Great article. How can I find all the other articles related to Reachy Mini?"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63793e653f575acc2f66fafd/BBVugVZKW37XW1zDQNcX4.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "incredible",
+        "th": "incredible"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· Sign up or log in to comment"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583857146757-5e67bdd61009063689407479.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1594144055859-5ee3a7cd2a3eae3cbdad1305.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1594651707950-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1605114051380-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617264212503-603d25b75f9d390ab190b777.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1643012094339-61914f536d34e827404ceb99.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1662561106124-626546da5909b93b24d4e4e1.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/627c7b641b02d7b5bf67f4cc/WDxJiOaqgh-BoH7AcvBYi.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1653590885464-noauth.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/62acc87e519b663b1610ccc4/wumnvAamrjCDnJvs8av8C.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/f02b5b457f818e87b3ab8c1341b12062.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+48",
+        "th": "+48"
+      }
+    }
+  ]
+}

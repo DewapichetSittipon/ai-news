@@ -1,0 +1,312 @@
+{
+  "id": "deepmind__gemini-3-1-flash-lite-built-for-intelligence-at-scale",
+  "slug": "gemini-3-1-flash-lite-built-for-intelligence-at-scale",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
+  "category": "News",
+  "date": "2026-03-03T16:35:55.000Z",
+  "image": "https://lh3.googleusercontent.com/L943nW-XsLGjzWrBOj8x7RhlajW6yigzhd8q45ia33L0uNyClu_XT600bTZevv5c2end6MZ5dFKekGXGMjfxIsYCdlqYlcnyNEmAy4Gd0B6Ovd6Z=w528-h297-n-nu-rw-lo",
+  "title": {
+    "en": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+    "th": "Gemini 3.1 Flash-Lite: Built for intelligence at scale"
+  },
+  "summary": {
+    "en": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet.",
+    "th": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet."
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "Innovation & AI"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Models & research",
+        "th": "Models & research"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini Models",
+        "th": "Gemini Models"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mar 03, 2026",
+        "th": "Mar 03, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Get best-in-class intelligence for your highest-volume workloads.",
+        "th": "Get best-in-class intelligence for your highest-volume workloads."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "General summary",
+        "th": "General summary"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini 3.1 Flash-Lite is now available in preview to developers via the Gemini API in Google AI Studio and for enterprises via Vertex AI. Priced at $0.25/1M input tokens and $1.50/1M output tokens, it's cost-efficient and faster than 2.5 Flash. Use 3.1 Flash-Lite for tasks like translation content moderation generating user interfaces and creating simulations.",
+        "th": "Gemini 3.1 Flash-Lite is now available in preview to developers via the Gemini API in Google AI Studio and for enterprises via Vertex AI. Priced at $0.25/1M input tokens and $1.50/1M output tokens, it's cost-efficient and faster than 2.5 Flash. Use 3.1 Flash-Lite for tasks like translation content moderation generating user interfaces and creating simulations."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Basic explainer",
+        "th": "Basic explainer"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Google made a new AI model called Gemini 3.1 Flash-Lite. It's super fast and cheap to use, so more people can use it. This AI is good at things like translating languages and checking content. Some companies are already using it to solve tough problems because it's both smart and efficient.",
+        "th": "Google made a new AI model called Gemini 3.1 Flash-Lite. It's super fast and cheap to use, so more people can use it. This AI is good at things like translating languages and checking content. Some companies are already using it to solve tough problems because it's both smart and efficient."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "General summary",
+        "th": "General summary"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Basic explainer",
+        "th": "Basic explainer"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.1_flash_Lite_blog_keywor.width-200.format-webp.webp",
+      "alt": "Gemini 3.1 Flash Lite logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "Your browser does not support the audio element."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we're introducing Gemini 3.1 Flash-Lite, our fastest and most cost-efficient Gemini 3 series model. Built for high-volume developer workloads at scale, 3.1 Flash-Lite delivers high quality for its price and model tier.",
+        "th": "Today, we're introducing Gemini 3.1 Flash-Lite, our fastest and most cost-efficient Gemini 3 series model. Built for high-volume developer workloads at scale, 3.1 Flash-Lite delivers high quality for its price and model tier."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Starting today, 3.1 Flash-Lite is rolling out in preview to developers via the Gemini API in Google AI Studio and for enterprises via Vertex AI.",
+        "th": "Starting today, 3.1 Flash-Lite is rolling out in preview to developers via the Gemini API in Google AI Studio and for enterprises via Vertex AI."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Cost-efficiency without compromise",
+        "th": "Cost-efficiency without compromise"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Priced at just $0.25/1M input tokens and $1.50/1M output tokens, 3.1 Flash-Lite delivers enhanced performance at a fraction of the cost of larger models. It outperforms 2.5 Flash with a 2.5X faster Time to First Answer Token and 45% increase in output speed, according to the Artificial Analysis benchmark while maintaining similar or better quality. This low latency is needed for high-frequency workflows, making it an ideal model for developers to build responsive, real-time experiences.",
+        "th": "Priced at just $0.25/1M input tokens and $1.50/1M output tokens, 3.1 Flash-Lite delivers enhanced performance at a fraction of the cost of larger models. It outperforms 2.5 Flash with a 2.5X faster Time to First Answer Token and 45% increase in output speed, according to the Artificial Analysis benchmark while maintaining similar or better quality. This low latency is needed for high-frequency workflows, making it an ideal model for developers to build responsive, real-time experiences."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini-3.1_speed-cost_chart_1.gif",
+      "alt": "The image shows two bar charts titled \"Speed & Cost Efficiency,\" comparing the \"Output speed (higher is better)\" and \"Price (lower is better)\" of Gemini 3.1 Flash-Lite against several other models, including Gemini 2.5 Flash-Lite, GPT-5 mini, Claude 4.5 Haiku, and Grok 4.1 Fast."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini 3.1 Flash-Lite outperforms 2.5 Flash in speed and quality.",
+        "th": "Gemini 3.1 Flash-Lite outperforms 2.5 Flash in speed and quality."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.1 Flash-Lite achieves an impressive Elo score of 1432 on the Arena.ai Leaderboard and outperforms other models of similar tier across reasoning and multimodal understanding benchmarks, including 86.9% on GPQA Diamond and 76.8% on MMMU Pro–even surpassing larger Gemini models from prior generations like 2.5 Flash.",
+        "th": "3.1 Flash-Lite achieves an impressive Elo score of 1432 on the Arena.ai Leaderboard and outperforms other models of similar tier across reasoning and multimodal understanding benchmarks, including 86.9% on GPQA Diamond and 76.8% on MMMU Pro–even surpassing larger Gemini models from prior generations like 2.5 Flash."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini-3.1-flash-lite-table_1.gif",
+      "alt": "The image displays a comparison table of several AI models, including \"Gemini 3.1 Flash-Lite,\" \"Gemini 2.5 Dynamic,\" \"Gemini 2.5 Flash-Lite,\" \"GPT-5 mini,\" \"Claude 4.5 Haiku,\" and \"Grok 4.1 Fast,\" across various metrics such as input/output price, output speed, and different academic, reasoning, and factual benchmarks."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Adaptive intelligence at scale for developers",
+        "th": "Adaptive intelligence at scale for developers"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Beyond its raw performance, Gemini 3.1 Flash-Lite comes standard with thinking levels in AI Studio and Vertex AI, giving developers the control and flexibility to select how much the model “thinks” for a task, which is critical for managing high-frequency workloads. 3.1 Flash-Lite can tackle tasks at scale, like high-volume translation and content moderation, where cost is a priority. And it can also handle more complex workloads where more in-depth reasoning is needed, like generating user interfaces and dashboards, creating simulations or following instructions.",
+        "th": "Beyond its raw performance, Gemini 3.1 Flash-Lite comes standard with thinking levels in AI Studio and Vertex AI, giving developers the control and flexibility to select how much the model “thinks” for a task, which is critical for managing high-frequency workloads. 3.1 Flash-Lite can tackle tasks at scale, like high-volume translation and content moderation, where cost is a priority. And it can also handle more complex workloads where more in-depth reasoning is needed, like generating user interfaces and dashboards, creating simulations or following instructions."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.1 Flash-Lite instantly fills an e-commerce wireframe with hundreds of products in different categories.",
+        "th": "3.1 Flash-Lite instantly fills an e-commerce wireframe with hundreds of products in different categories."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.1 Flash-Lite can generate dynamic weather dashboards in real-time, using live forecasts and historical data.",
+        "th": "3.1 Flash-Lite can generate dynamic weather dashboards in real-time, using live forecasts and historical data."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.1 Flash-Lite creates a SaaS agent capable of executing versatile, multi-step tasks for a business.",
+        "th": "3.1 Flash-Lite creates a SaaS agent capable of executing versatile, multi-step tasks for a business."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.1 Flash-Lite can analyze and sort large numbers of content like images quickly.",
+        "th": "3.1 Flash-Lite can analyze and sort large numbers of content like images quickly."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Early-access developers on AI Studio and Vertex AI, and companies like Latitude, Cartwheel and Whering are already using 3.1 Flash-Lite to solve complex problems at scale. Early testers highlighted 3.1 Flash-Lite’s efficiency and reasoning capabilities, saying it can handle complex inputs with the precision of a larger-tier model, plus follow instructions and maintain adherence.",
+        "th": "Early-access developers on AI Studio and Vertex AI, and companies like Latitude, Cartwheel and Whering are already using 3.1 Flash-Lite to solve complex problems at scale. Early testers highlighted 3.1 Flash-Lite’s efficiency and reasoning capabilities, saying it can handle complex inputs with the precision of a larger-tier model, plus follow instructions and maintain adherence."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/3Flash-Lite_Blog_Quote_1.png",
+      "alt": "Quote from Kolby Nottingham at Latitude regarding the instruction-following capabilities and speed of Google's model."
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/3Flash-Lite_Blog_Quote_2.png",
+      "alt": "Quote from Andrew Carr at Cartwheel highlighting the speed and multimodal labeling capabilities of 3.1 Flash-Lite.2"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/3Flash-Lite_Blog_Quote_3.png",
+      "alt": "Quote from Bianca Rangecroft at Whering about using 3.1 Flash-Lite for consistent item tagging and data labeling"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/3Flash-Lite_Blog_Quote_4.png",
+      "alt": "Quote from Kaan Ortabas at HubX detailing the performance metrics and cost efficiency of Gemini 3.1 Flash-Lite."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We look forward to seeing what you build with 3.1 Flash-Lite and the rest of the Gemini 3 series models.",
+        "th": "We look forward to seeing what you build with 3.1 Flash-Lite and the rest of the Gemini 3 series models."
+      }
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get more stories from Google in your inbox. Get more stories from Google in your inbox.",
+        "th": "Get more stories from Google in your inbox. Get more stories from Google in your inbox."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your information will be used in accordance with Google's privacy policy.",
+        "th": "Your information will be used in accordance with Google's privacy policy."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Done. Just one step more.",
+        "th": "Done. Just one step more."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check your inbox to confirm your subscription.",
+        "th": "Check your inbox to confirm your subscription."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You are already subscribed to our newsletter.",
+        "th": "You are already subscribed to our newsletter."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also subscribe with a different email address .",
+        "th": "You can also subscribe with a different email address ."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini models",
+        "th": "Gemini models"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "AI",
+        "th": "AI"
+      }
+    }
+  ]
+}

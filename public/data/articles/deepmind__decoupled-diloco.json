@@ -1,0 +1,217 @@
+{
+  "id": "deepmind__decoupled-diloco",
+  "slug": "decoupled-diloco",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/decoupled-diloco/",
+  "category": "News",
+  "date": "2026-04-22T10:20:03.000Z",
+  "image": "https://lh3.googleusercontent.com/1-K_kcmoX-fIzTJ13T0-uF4gylS2tK00ZVvx87B2WSayzUS2fxDoDDXFq5hOhxptrBeG8AbjG_URN5OOTpGMqad9zILjMsTdAHWroiDKpziBQjzErw=w528-h297-n-nu-rw-lo",
+  "title": {
+    "en": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+    "th": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training"
+  },
+  "summary": {
+    "en": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+    "th": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training"
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "Arthur Douillard and the DiLoCo team",
+        "th": "Arthur Douillard and the DiLoCo team"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/static/images/fallback/video_poster_fallback_light.57b61d57842a.jpg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/images/fallback/video_poster_fallback_dark.4d55bc99efa6.jpg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our new distributed architecture helps to train LLMs across distant data centers - with lower bandwidth and more hardware resiliency.",
+        "th": "Our new distributed architecture helps to train LLMs across distant data centers - with lower bandwidth and more hardware resiliency."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Training a frontier AI model traditionally depends on a large, tightly coupled system in which identical chips must stay in near-perfect synchronization. This approach is highly effective for today’s state-of-the-art models, but as we look toward future generations of scale, maintaining this level of synchronization across thousands of chips becomes a significant logistical challenge.",
+        "th": "Training a frontier AI model traditionally depends on a large, tightly coupled system in which identical chips must stay in near-perfect synchronization. This approach is highly effective for today’s state-of-the-art models, but as we look toward future generations of scale, maintaining this level of synchronization across thousands of chips becomes a significant logistical challenge."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, in a new paper we are excited to share a new approach to this problem, called Decoupled DiLoCo (Distributed Low-Communication). By dividing large training runs across decoupled “islands” of compute, with asynchronous data flowing between them, this architecture isolates local disruptions so that other parts of the system can keep learning efficiently.",
+        "th": "Today, in a new paper we are excited to share a new approach to this problem, called Decoupled DiLoCo (Distributed Low-Communication). By dividing large training runs across decoupled “islands” of compute, with asynchronous data flowing between them, this architecture isolates local disruptions so that other parts of the system can keep learning efficiently."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The result is a more resilient and flexible way to train advanced models across globally distributed data centers. And crucially, Decoupled DiLoCo does not suffer the communication delays that made previous distributed methods like Data-Parallel impractical at global scale.",
+        "th": "The result is a more resilient and flexible way to train advanced models across globally distributed data centers. And crucially, Decoupled DiLoCo does not suffer the communication delays that made previous distributed methods like Data-Parallel impractical at global scale."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As frontier models continue to grow in scale and complexity, we’re exploring diverse approaches to train models across more compute, locations and varied hardware.",
+        "th": "As frontier models continue to grow in scale and complexity, we’re exploring diverse approaches to train models across more compute, locations and varied hardware."
+      }
+    },
+    {
+      "type": "img",
+      "src": "/static/images/fallback/video_poster_fallback_light.57b61d57842a.jpg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/images/fallback/video_poster_fallback_dark.4d55bc99efa6.jpg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Figure 1: Decoupling training runs into separate “islands” of compute (learner units) allows largely uninterrupted training despite the same level of hardware failures, because the effects of those failures are isolated.",
+        "th": "Figure 1: Decoupling training runs into separate “islands” of compute (learner units) allows largely uninterrupted training despite the same level of hardware failures, because the effects of those failures are isolated."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Developing more fault-tolerant asynchronous training at scale",
+        "th": "Developing more fault-tolerant asynchronous training at scale"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Decoupled DiLoCo builds on two earlier advances: Pathways, which introduced a distributed AI system based on asynchronous data flow, and DiLoCo, which dramatically reduced the bandwidth required between distributed data centers, making it practical to train large language models across distant locations.",
+        "th": "Decoupled DiLoCo builds on two earlier advances: Pathways, which introduced a distributed AI system based on asynchronous data flow, and DiLoCo, which dramatically reduced the bandwidth required between distributed data centers, making it practical to train large language models across distant locations."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Decoupled DiLoCo brings those ideas together to train AI models more flexibly at scale. Built on top of Pathways, it enables asynchronous training across separate islands of compute (known as learner units) so that a chip failure in one area doesn’t interrupt the progress of the others.",
+        "th": "Decoupled DiLoCo brings those ideas together to train AI models more flexibly at scale. Built on top of Pathways, it enables asynchronous training across separate islands of compute (known as learner units) so that a chip failure in one area doesn’t interrupt the progress of the others."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This infrastructure is also self-healing. In testing, we used a method called “chaos engineering” to introduce artificial hardware failures during training runs. Decoupled DiLoCo continued the training process after the loss of entire learner units, and then seamlessly reintegrated them when they came back online.",
+        "th": "This infrastructure is also self-healing. In testing, we used a method called “chaos engineering” to introduce artificial hardware failures during training runs. Decoupled DiLoCo continued the training process after the loss of entire learner units, and then seamlessly reintegrated them when they came back online."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Testing Decoupled DiLoCo with Gemma 4 models demonstrated that, when hardware fails, the system maintains greater availability of learning clusters than more traditional training methods — while ultimately delivering the same benchmarked level of machine learning (ML) performance.",
+        "th": "Testing Decoupled DiLoCo with Gemma 4 models demonstrated that, when hardware fails, the system maintains greater availability of learning clusters than more traditional training methods — while ultimately delivering the same benchmarked level of machine learning (ML) performance."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://lh3.googleusercontent.com/dgWXJe3CEYV3TND6RvRPANNZ_YsErtYAWmFYC1BjQCn1QVLWx2mfBqyyUqAwaGPfBKV_81M6yE2IwV866_0EMu0Azx4_QFE3283E0Vz7dONAR7F5wA=w1440",
+      "alt": "This set of three bar charts compares the performance of Data-Parallel training against Decoupled DiLoCo across communication, resilience, and accuracy metrics. The first chart, Required Bandwidth, shows that DiLoCo reduces bandwidth needs from 198 Gbps to a mere 0.84 Gbps across 8 datacenters, representing a massive efficiency gain on a logarithmic scale. The second chart, Goodput, demonstrates that in a simulated environment of 1.2 million chips with high failure rates, DiLoCo maintains a 88% goodput compared to only 27% for standard Data-Parallel methods. Finally, the ML Benchmarks chart highlights that these gains come with virtually no cost to performance, as DiLoCo achieves 64.1% average accuracy, nearly matching the 64.4% achieved by the baseline."
+    },
+    {
+      "type": "img",
+      "src": "https://lh3.googleusercontent.com/mnCZCyP0c3sdhYWFJ5ElGFfTnnEiwRCHHQz4t1VdJlLt4XoN6YnbYzdFL-edBXdwy0apZ9ZWSPDnrRxSHQke7ikyUTrtoTgluIHfa6GP3s28B55cHGE=w1440",
+      "alt": "This set of three bar charts compares the performance of Data-Parallel training against Decoupled DiLoCo across communication, resilience, and accuracy metrics. The first chart, Required Bandwidth, shows that DiLoCo reduces bandwidth needs from 198 Gbps to a mere 0.84 Gbps across 8 datacenters, representing a massive efficiency gain on a logarithmic scale. The second chart, Goodput, demonstrates that in a simulated environment of 1.2 million chips with high failure rates, DiLoCo maintains a 88% goodput compared to only 27% for standard Data-Parallel methods. Finally, the ML Benchmarks chart highlights that these gains come with virtually no cost to performance, as DiLoCo achieves 64.1% average accuracy, nearly matching the 64.4% achieved by the baseline."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Figure 2: Left: The Decoupled DiLoCo approach requires orders of magnitude less bandwidth than conventional training methods, making it very efficient. Middle: With increasing levels of hardware failure, Decoupled DiLoCo continues to deliver a high level of “goodput”, or useful training, while that of other approaches nosedives. (The first two charts are based on simulated training runs). Right: In real-world experiments, the benchmarked ML performance of Gemma 4 models trained using Decoupled DiLoCo equalled the performance attained with conventional training approaches.",
+        "th": "Figure 2: Left: The Decoupled DiLoCo approach requires orders of magnitude less bandwidth than conventional training methods, making it very efficient. Middle: With increasing levels of hardware failure, Decoupled DiLoCo continues to deliver a high level of “goodput”, or useful training, while that of other approaches nosedives. (The first two charts are based on simulated training runs). Right: In real-world experiments, the benchmarked ML performance of Gemma 4 models trained using Decoupled DiLoCo equalled the performance attained with conventional training approaches."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Decoupled DiLoCo is not only more resilient to failures, but is also practical for executing production-level, fully distributed pre-training. We successfully trained a 12 billion parameter model across four separate U.S. regions using 2-5 Gbps of wide-area networking (a level relatively achievable using existing internet connectivity between datacenter facilities, rather than requiring new custom network infrastructure between facilities). Notably, the system achieved this training result more than 20 times faster than conventional synchronization methods. This is because our system incorporates required communication into longer periods of computation, avoiding the \"blocking\" bottlenecks where one part of the system must wait for another.",
+        "th": "Decoupled DiLoCo is not only more resilient to failures, but is also practical for executing production-level, fully distributed pre-training. We successfully trained a 12 billion parameter model across four separate U.S. regions using 2-5 Gbps of wide-area networking (a level relatively achievable using existing internet connectivity between datacenter facilities, rather than requiring new custom network infrastructure between facilities). Notably, the system achieved this training result more than 20 times faster than conventional synchronization methods. This is because our system incorporates required communication into longer periods of computation, avoiding the \"blocking\" bottlenecks where one part of the system must wait for another."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Driving the evolution of AI training infrastructure",
+        "th": "Driving the evolution of AI training infrastructure"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "At Google, we take a full-stack approach to AI training, spanning hardware, software infrastructure and research. Increasingly, gains are coming from rethinking how these layers fit together.",
+        "th": "At Google, we take a full-stack approach to AI training, spanning hardware, software infrastructure and research. Increasingly, gains are coming from rethinking how these layers fit together."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Decoupled DiLoCo is one example. By enabling training jobs at internet-scale bandwidth, it can tap any unused compute wherever it sits, turning stranded resources into useful capacity.",
+        "th": "Decoupled DiLoCo is one example. By enabling training jobs at internet-scale bandwidth, it can tap any unused compute wherever it sits, turning stranded resources into useful capacity."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Beyond efficiency and resilience, this training paradigm also unlocks the ability to mix different hardware generations, such as TPU v6e and TPU v5p, in a single training run. This approach not only extends the useful life of existing hardware, but also increases the total compute available for model training. In our experiments, chips from different generations running at different speeds still matched the ML performance of single-chip-type training runs, ensuring that even older hardware can meaningfully accelerate AI training.",
+        "th": "Beyond efficiency and resilience, this training paradigm also unlocks the ability to mix different hardware generations, such as TPU v6e and TPU v5p, in a single training run. This approach not only extends the useful life of existing hardware, but also increases the total compute available for model training. In our experiments, chips from different generations running at different speeds still matched the ML performance of single-chip-type training runs, ensuring that even older hardware can meaningfully accelerate AI training."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "What’s more, because new generations of hardware don’t arrive everywhere all at once, being able to train across generations can alleviate recurring logistical and capacity bottlenecks.",
+        "th": "What’s more, because new generations of hardware don’t arrive everywhere all at once, being able to train across generations can alleviate recurring logistical and capacity bottlenecks."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As we push the frontiers of AI infrastructure today, we’re continuing to explore approaches to resilient systems needed to unlock the next generation of AI.",
+        "th": "As we push the frontiers of AI infrastructure today, we’re continuing to explore approaches to resilient systems needed to unlock the next generation of AI."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Acknowledgements",
+        "th": "Acknowledgements"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This work was done by a team of members across Google DeepMind and Google Research.",
+        "th": "This work was done by a team of members across Google DeepMind and Google Research."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The leads and core contributors behind Decoupled DiLoCo are Arthur Douillard, Keith Rush, Yani Donchev, Zachary Charles, Ayush Dubey, Blake Woodworth, Ionel Gog, Josef Dean, Nova Fallen, Zachary Garrett. Operational support was done by Nate Keating and Jenny Bishop.",
+        "th": "The leads and core contributors behind Decoupled DiLoCo are Arthur Douillard, Keith Rush, Yani Donchev, Zachary Charles, Ayush Dubey, Blake Woodworth, Ionel Gog, Josef Dean, Nova Fallen, Zachary Garrett. Operational support was done by Nate Keating and Jenny Bishop."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are also grateful for the additional support and advising from Jeff Dean, Marc’Aurelio Ranzato, Raia Hadsell, Arthur Szlam, Edouard Yvinec, Henry Prior, Paul Barham, Michael Isard, Daniel Ramage, Brendan McMahan, Chase Hensel, and Zoltan Egyed.",
+        "th": "We are also grateful for the additional support and advising from Jeff Dean, Marc’Aurelio Ranzato, Raia Hadsell, Arthur Szlam, Edouard Yvinec, Henry Prior, Paul Barham, Michael Isard, Daniel Ramage, Brendan McMahan, Chase Hensel, and Zoltan Egyed."
+      }
+    }
+  ]
+}

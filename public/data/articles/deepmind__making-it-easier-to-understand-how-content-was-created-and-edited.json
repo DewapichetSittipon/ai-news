@@ -1,0 +1,290 @@
+{
+  "id": "deepmind__making-it-easier-to-understand-how-content-was-created-and-edited",
+  "slug": "making-it-easier-to-understand-how-content-was-created-and-edited",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/",
+  "category": "News",
+  "date": "2026-05-17T13:43:50.000Z",
+  "image": null,
+  "title": {
+    "en": "Making it easier to understand how content was created and edited",
+    "th": "Making it easier to understand how content was created and edited"
+  },
+  "summary": {
+    "en": "We're expanding our tools to help you understand how content was created and edited across the web.",
+    "th": "We're expanding our tools to help you understand how content was created and edited across the web."
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "Innovation & AI"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Products",
+        "th": "Products"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "May 19, 2026",
+        "th": "May 19, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We're expanding our tools to help you understand how content was created and edited across the web.",
+        "th": "We're expanding our tools to help you understand how content was created and edited across the web."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LaurieRichardson8971-_Formal_He.max-244x184.format-webp.webp",
+      "alt": "Laurie Richardson"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pushmeet.max-244x184.format-webp.webp",
+      "alt": "Pushmeet"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FINAL_SOCIAL_HERO_laWfMt0.width-200.format-webp.webp",
+      "alt": "A chat input box mockup featuring an uploaded thumbnail of dog-themed latte art, the text \"Is this generated with AI?\", and action icons for adding files, voice input, and sending."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As generative media becomes more advanced and accessible, it’s helpful to know where content comes from, and whether it’s been altered. Today, we’re expanding our content transparency and verification tools in Search, Gemini, Chrome, Pixel and Cloud, and deepening our partnership with the broader industry.",
+        "th": "As generative media becomes more advanced and accessible, it’s helpful to know where content comes from, and whether it’s been altered. Today, we’re expanding our content transparency and verification tools in Search, Gemini, Chrome, Pixel and Cloud, and deepening our partnership with the broader industry."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Scaling our technology",
+        "th": "Scaling our technology"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Three years ago, we introduced SynthID, our industry-leading digital watermarking technology that embeds imperceptible signals into AI-generated content. Since then, we've integrated SynthID into our generative media models and products, watermarking over 100 billion images and videos and 60,000 years of audio.",
+        "th": "Three years ago, we introduced SynthID, our industry-leading digital watermarking technology that embeds imperceptible signals into AI-generated content. Since then, we've integrated SynthID into our generative media models and products, watermarking over 100 billion images and videos and 60,000 years of audio."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Across a growing number of our generative media tools, we use C2PA Content Credentials, the industry standard that shows how media was created and modified, with or without AI. Pixel 10 was the first smartphone to provide Content Credentials for images in its native camera app, and we are expanding this technology to include video on Pixel 8, 9 and 10 phones in the coming weeks.",
+        "th": "Across a growing number of our generative media tools, we use C2PA Content Credentials, the industry standard that shows how media was created and modified, with or without AI. Pixel 10 was the first smartphone to provide Content Credentials for images in its native camera app, and we are expanding this technology to include video on Pixel 8, 9 and 10 phones in the coming weeks."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By using this technology at the point of capture, Pixel documents when content has been captured by a camera. In an era of generative media, we believe that identifying authentic, unedited content can be just as important as knowing when a file was made or edited using AI.",
+        "th": "By using this technology at the point of capture, Pixel documents when content has been captured by a camera. In an era of generative media, we believe that identifying authentic, unedited content can be just as important as knowing when a file was made or edited using AI."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Providing more ways to verify content",
+        "th": "Providing more ways to verify content"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our goal is to make it easier to learn more about the content you encounter online. That’s why we recently added SynthID verification for image, video and audio to the Gemini app. Already, it’s been used 50 million times globally, and we’re expanding this verification capability to Search today and Chrome over the coming weeks.",
+        "th": "Our goal is to make it easier to learn more about the content you encounter online. That’s why we recently added SynthID verification for image, video and audio to the Gemini app. Already, it’s been used 50 million times globally, and we’re expanding this verification capability to Search today and Chrome over the coming weeks."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can learn about an image's origin by using Search features like Lens, AI Mode and Circle to Search, as well as Gemini in Chrome. Just ask, \"Is this made with AI?” or “Is this AI generated?”",
+        "th": "You can learn about an image's origin by using Search features like Lens, AI Mode and Circle to Search, as well as Gemini in Chrome. Just ask, \"Is this made with AI?” or “Is this AI generated?”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re also adding verification for C2PA Content Credentials, to easily check if content is an unaltered original from a camera or if it has been modified, and by what tools. This feature is rolling out in the Gemini app starting today, and it will come to Search and Chrome in the coming months. This builds on features like the labels on YouTube that identify AI-generated content and our work with trusted testers on Backstory to make detection tools faster and more reliable.",
+        "th": "We’re also adding verification for C2PA Content Credentials, to easily check if content is an unaltered original from a camera or if it has been modified, and by what tools. This feature is rolling out in the Gemini app starting today, and it will come to Search and Chrome in the coming months. This builds on features like the labels on YouTube that identify AI-generated content and our work with trusted testers on Backstory to make detection tools faster and more reliable."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Partnering across the industry",
+        "th": "Partnering across the industry"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Because digital media travels across many platforms, industry-wide partnership and adoption of robust, interoperable tools is essential. More content across the web will soon carry these imperceptible watermarks, as companies like OpenAI, Kakao and ElevenLabs are bringing SynthID technology to more of their AI-generated content. This builds on our ongoing work to make content origins clearer, like open-sourcing our SynthID text watermarking technology and partnering with NVIDIA to watermark AI-generated video from their Cosmos world foundation models.",
+        "th": "Because digital media travels across many platforms, industry-wide partnership and adoption of robust, interoperable tools is essential. More content across the web will soon carry these imperceptible watermarks, as companies like OpenAI, Kakao and ElevenLabs are bringing SynthID technology to more of their AI-generated content. This builds on our ongoing work to make content origins clearer, like open-sourcing our SynthID text watermarking technology and partnering with NVIDIA to watermark AI-generated video from their Cosmos world foundation models."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To help more organizations identify AI-generated media, we’re launching a new AI Content Detection API on Google Cloud’s Gemini Enterprise Agent Platform. This gives businesses a powerful way to spot AI content made by both Google and other popular models, helping them decide how to evaluate and manage media across their own platforms — whether that’s for backend operations like sorting feeds and preventing insurance fraud, or for user-facing content like fact-checking and labeling synthetic media. We’re launching with a group of trusted partners and will continue to refine the API based on their feedback.",
+        "th": "To help more organizations identify AI-generated media, we’re launching a new AI Content Detection API on Google Cloud’s Gemini Enterprise Agent Platform. This gives businesses a powerful way to spot AI content made by both Google and other popular models, helping them decide how to evaluate and manage media across their own platforms — whether that’s for backend operations like sorting feeds and preventing insurance fraud, or for user-facing content like fact-checking and labeling synthetic media. We’re launching with a group of trusted partners and will continue to refine the API based on their feedback."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We also continue to advocate for global standards for provenance technology as a member of the C2PA steering committee. This ensures that transparency tools built into our devices work seamlessly across the platforms you use every day. For example, Meta — a fellow C2PA Steering Committee member — will start labeling camera-captured media with Content Credentials on Instagram. This means authentic photos and videos shot natively on Pixel phones will soon be recognized and labeled as such when you share them on Instagram.",
+        "th": "We also continue to advocate for global standards for provenance technology as a member of the C2PA steering committee. This ensures that transparency tools built into our devices work seamlessly across the platforms you use every day. For example, Meta — a fellow C2PA Steering Committee member — will start labeling camera-captured media with Content Credentials on Instagram. This means authentic photos and videos shot natively on Pixel phones will soon be recognized and labeled as such when you share them on Instagram."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Attestiv_CzAjtGt.width-100.format-webp.webp",
+      "alt": "Quote from Attestiv"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/2_Shutterstock.width-100.format-webp.webp",
+      "alt": "Shutterstock quote"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/3_Snap.width-100.format-webp.webp",
+      "alt": "Snap quote"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/5_Fox_Sports.width-100.format-webp.webp",
+      "alt": "Fox Sports quote"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/6_Nectar_Social.width-100.format-webp.webp",
+      "alt": "Nectar Social quote"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Canva_Eo5WvCR.width-100.format-webp.webp",
+      "alt": "Canva quote"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Avid_testimonial_IO2026.width-100.format-webp.webp",
+      "alt": "Avid quote"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’ve long invested in providing helpful context about the information you find online. Content transparency is a complex challenge, but we’ll keep developing ways to push the technology forward and set a high bar for the industry. Our goal is to empower you with the tools needed to determine the history of any content you encounter.",
+        "th": "We’ve long invested in providing helpful context about the information you find online. Content transparency is a complex challenge, but we’ll keep developing ways to push the technology forward and set a high bar for the industry. Our goal is to empower you with the tools needed to determine the history of any content you encounter."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp",
+      "alt": "The image shows a colorful abstract design with the Google I/O 2026 logo."
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get more stories from Google in your inbox. Get more stories from Google in your inbox.",
+        "th": "Get more stories from Google in your inbox. Get more stories from Google in your inbox."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your information will be used in accordance with Google's privacy policy.",
+        "th": "Your information will be used in accordance with Google's privacy policy."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Done. Just one step more.",
+        "th": "Done. Just one step more."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check your inbox to confirm your subscription.",
+        "th": "Check your inbox to confirm your subscription."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You are already subscribed to our newsletter.",
+        "th": "You are already subscribed to our newsletter."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also subscribe with a different email address .",
+        "th": "You can also subscribe with a different email address ."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "AI Products",
+        "th": "AI Products"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Google DeepMind",
+        "th": "Google DeepMind"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini",
+        "th": "Gemini"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Google Cloud",
+        "th": "Google Cloud"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1076 @@
+{
+  "id": "google-ai__google-io-2026-all-our-announcements",
+  "slug": "google-io-2026-all-our-announcements",
+  "source": "google-ai",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+  "category": "Search",
+  "date": "2026-05-20T19:30:00.000Z",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/100_things_Social.max-600x600.format-webp.webp",
+  "title": {
+    "en": "100 things we announced at I/O 2026",
+    "th": "100 things we announced at I/O 2026"
+  },
+  "summary": {
+    "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/100_things_Social.max-600x600.format-webp.webp\">We've been busy! Here’s a rundown of the top announcements, launches and demos at I/O 2026.",
+    "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/100_things_Social.max-600x600.format-webp.webp\">We've been busy! Here’s a rundown of the top announcements, launches and demos at I/O 2026."
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "Innovation & AI"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Technology",
+        "th": "Technology"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "AI",
+        "th": "AI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "May 20, 2026",
+        "th": "May 20, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We've been busy! Here’s a rundown of the top announcements, launches and demos at I/O 2026.",
+        "th": "We've been busy! Here’s a rundown of the top announcements, launches and demos at I/O 2026."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/superG_v3.max-244x184.format-webp.webp",
+      "alt": "SuperG"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This week at Google I/O 2026, we unveiled new models, agents and tools to help you build, search, create, discover, shop and get more done. You can dig into our I/O announcements — including an edited transcript of Google CEO Sundar Pichai’s remarks from the stage. And for a TL;DR (of sorts), keep scrolling for our annual list of 100 highlights from the event.",
+        "th": "This week at Google I/O 2026, we unveiled new models, agents and tools to help you build, search, create, discover, shop and get more done. You can dig into our I/O announcements — including an edited transcript of Google CEO Sundar Pichai’s remarks from the stage. And for a TL;DR (of sorts), keep scrolling for our annual list of 100 highlights from the event."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Create and build with our most advanced models",
+        "th": "Create and build with our most advanced models"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Gemini 3.5",
+        "th": "Gemini 3.5"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "1. We launched Gemini 3.5 Flash: the first in our latest series of models combining frontier intelligence with action.",
+        "th": "1. We launched Gemini 3.5 Flash: the first in our latest series of models combining frontier intelligence with action."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "2. Gemini 3.5 Flash is generally available today via our agent-first development platform Google Antigravity the Gemini API in Google AI Studio and Android Studio.",
+        "th": "2. Gemini 3.5 Flash is generally available today via our agent-first development platform Google Antigravity the Gemini API in Google AI Studio and Android Studio."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3. Gemini 3.5 Flash delivers intelligence that rivals large flagship models at speeds you expect from the Flash series. It outperforms Gemini 3.1 Pro on challenging coding and agentic benchmarks like Terminal-Bench 2.1 (76.2%), GDPval-AA (1656 Elo) and MCP Atlas (83.6%).",
+        "th": "3. Gemini 3.5 Flash delivers intelligence that rivals large flagship models at speeds you expect from the Flash series. It outperforms Gemini 3.1 Pro on challenging coding and agentic benchmarks like Terminal-Bench 2.1 (76.2%), GDPval-AA (1656 Elo) and MCP Atlas (83.6%)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "4. Landing in the top-right quadrant of the Artificial Analysis index, 3.5 Flash delivers frontier-level intelligence at exceptional speed — proving you no longer have to trade quality for latency.",
+        "th": "4. Landing in the top-right quadrant of the Artificial Analysis index, 3.5 Flash delivers frontier-level intelligence at exceptional speed — proving you no longer have to trade quality for latency."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "5. Gemini 3.5 Flash is ideal for tackling long-horizon agentic tasks. What used to take a developer days or an auditor weeks, 3.5 Flash can now help complete in a fraction of the time, often at less than half the cost of other frontier models. It rapidly plans, builds and iterates to solve real-world problems, whether it’s developing new applications, maintaining codebases or helping to prepare financial documents. Building on the strong multimodal foundation of Gemini 3, 3.5 Flash generates richer, more interactive web UIs and graphics.",
+        "th": "5. Gemini 3.5 Flash is ideal for tackling long-horizon agentic tasks. What used to take a developer days or an auditor weeks, 3.5 Flash can now help complete in a fraction of the time, often at less than half the cost of other frontier models. It rapidly plans, builds and iterates to solve real-world problems, whether it’s developing new applications, maintaining codebases or helping to prepare financial documents. Building on the strong multimodal foundation of Gemini 3, 3.5 Flash generates richer, more interactive web UIs and graphics."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "6. We’re also hard at work on Gemini 3.5 Pro. It’s already being used internally and we look forward to rolling it out next month.",
+        "th": "6. We’re also hard at work on Gemini 3.5 Pro. It’s already being used internally and we look forward to rolling it out next month."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Gemini Omni",
+        "th": "Gemini Omni"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "7. Gemini Omni is our new model that can create anything from any input — starting with video. It combines Gemini’s intelligence with the best of our generative media models for a new level of world understanding, multimodality and editing. We’re starting with video outputs now, but over time, Gemini Omni will be able to generate any output from any input.",
+        "th": "7. Gemini Omni is our new model that can create anything from any input — starting with video. It combines Gemini’s intelligence with the best of our generative media models for a new level of world understanding, multimodality and editing. We’re starting with video outputs now, but over time, Gemini Omni will be able to generate any output from any input."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "8. Gemini Omni combines an intuitive understanding of physics with Gemini's knowledge of history, science and culture, bridging the gap from photorealism to meaningful storytelling. It has an improved understanding of forces like gravity, kinetic energy and fluid dynamics, allowing you to create more realistic scenes.",
+        "th": "8. Gemini Omni combines an intuitive understanding of physics with Gemini's knowledge of history, science and culture, bridging the gap from photorealism to meaningful storytelling. It has an improved understanding of forces like gravity, kinetic energy and fluid dynamics, allowing you to create more realistic scenes."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "9. Videos created with Omni include our imperceptible SynthID digital watermark. You can easily verify content through the Gemini app, Gemini in Chrome and Search.",
+        "th": "9. Videos created with Omni include our imperceptible SynthID digital watermark. You can easily verify content through the Gemini app, Gemini in Chrome and Search."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "10. You can reference anything. Gemini Omni turns any reference — image, text, video or audio — into a single, cohesive output. While only voice references will be supported for audio to start, we’ll roll out other types of audio inputs soon.",
+        "th": "10. You can reference anything. Gemini Omni turns any reference — image, text, video or audio — into a single, cohesive output. While only voice references will be supported for audio to start, we’ll roll out other types of audio inputs soon."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Gemini Omni in the Gemini app, Google Flow and YouTube",
+        "th": "Gemini Omni in the Gemini app, Google Flow and YouTube"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "11. Gemini Omni Flash is rolling out now to all Google AI Plus, Pro and Ultra subscribers globally through the Gemini app and Google Flow. It’s also available today in YouTube Shorts Remix and the YouTube Create app to users (18+) at no cost.",
+        "th": "11. Gemini Omni Flash is rolling out now to all Google AI Plus, Pro and Ultra subscribers globally through the Gemini app and Google Flow. It’s also available today in YouTube Shorts Remix and the YouTube Create app to users (18+) at no cost."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "12. Creating, remixing and editing a video is easier than ever. Gemini Omni in the Gemini app offers a fluid, conversational way to create and edit videos — like applying cinematic zooms or changing backgrounds with a simple prompt.",
+        "th": "12. Creating, remixing and editing a video is easier than ever. Gemini Omni in the Gemini app offers a fluid, conversational way to create and edit videos — like applying cinematic zooms or changing backgrounds with a simple prompt."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "13. You can upload any photo or video from your camera roll, apply built-in templates with a single click and experience the magic without needing expensive equipment or technical jargon. You can even drop yourself into the action by creating a custom AI avatar that looks and sounds like you.",
+        "th": "13. You can upload any photo or video from your camera roll, apply built-in templates with a single click and experience the magic without needing expensive equipment or technical jargon. You can even drop yourself into the action by creating a custom AI avatar that looks and sounds like you."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "14. For creatives using Google Flow, Omni Flash allows you to blend real-world inspiration with generated content and iterate conversationally. Gemini Omni Flash also improves character consistency, meaning identity and voice are preserved across every scene.",
+        "th": "14. For creatives using Google Flow, Omni Flash allows you to blend real-world inspiration with generated content and iterate conversationally. Gemini Omni Flash also improves character consistency, meaning identity and voice are preserved across every scene."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "15. And you can try the new Gemini Omni model at no cost in YouTube Shorts Remix, with an exciting new upgrade that lets you step directly into your favorite Shorts. Just select an eligible Short, prompt what you want changed — like adding yourself or any visual reference — and get a fresh new version with your edits.",
+        "th": "15. And you can try the new Gemini Omni model at no cost in YouTube Shorts Remix, with an exciting new upgrade that lets you step directly into your favorite Shorts. Just select an eligible Short, prompt what you want changed — like adding yourself or any visual reference — and get a fresh new version with your edits."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Search, shop and discover exactly what you’re looking for",
+        "th": "Search, shop and discover exactly what you’re looking for"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "AI Search",
+        "th": "AI Search"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "16. AI Mode is our most powerful AI Search, and it has surpassed more than 1 billion monthly users. And today we’re upgrading the experience with Gemini 3.5 Flash as the new default model, globally. We’re seeing incredible momentum, with AI Mode queries more than doubling every quarter since launch. And last quarter, we saw Search queries reach an all-time high.",
+        "th": "16. AI Mode is our most powerful AI Search, and it has surpassed more than 1 billion monthly users. And today we’re upgrading the experience with Gemini 3.5 Flash as the new default model, globally. We’re seeing incredible momentum, with AI Mode queries more than doubling every quarter since launch. And last quarter, we saw Search queries reach an all-time high."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "17. Today we’re launching the biggest upgrade to our Search box in over 25 years — a new, intelligent Search box, now completely reimagined with AI. You can search using text, images, files, videos and Chrome tabs and Search reasons across them all. You’ll continue to get a range of results from Search, just like you do today.",
+        "th": "17. Today we’re launching the biggest upgrade to our Search box in over 25 years — a new, intelligent Search box, now completely reimagined with AI. You can search using text, images, files, videos and Chrome tabs and Search reasons across them all. You’ll continue to get a range of results from Search, just like you do today."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "18. We’re also making it even easier to continue the conversation with Search, bringing AI Overviews and AI Mode into one, seamless AI Search experience. You can flow effortlessly from your question, to a search results page with an AI Overview, to a follow-up in AI Mode, all with links to learn more. The new seamless AI Search experience is live today across desktop and mobile, worldwide.",
+        "th": "18. We’re also making it even easier to continue the conversation with Search, bringing AI Overviews and AI Mode into one, seamless AI Search experience. You can flow effortlessly from your question, to a search results page with an AI Overview, to a follow-up in AI Mode, all with links to learn more. The new seamless AI Search experience is live today across desktop and mobile, worldwide."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Information agents",
+        "th": "Information agents"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "19. We’re entering the era of Search agents, where you can easily create, customize and manage multiple AI agents for your many tasks, right in Search. And we’re starting with information agents, which operate in the background 24/7 so you can stay updated on any topic, task or project that matters to you.",
+        "th": "19. We’re entering the era of Search agents, where you can easily create, customize and manage multiple AI agents for your many tasks, right in Search. And we’re starting with information agents, which operate in the background 24/7 so you can stay updated on any topic, task or project that matters to you."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "20. Your agent will intelligently look across everything on the web, like blogs, news sites and social posts, plus our freshest data, such as real-time info on finance, shopping and sports, to monitor for changes related to your specific question. And your agent will send you an intelligent, synthesized update, with the ability to take action. You can spin up multiple information agents in Search simultaneously to get updated and make progress on all the things that matter to you.",
+        "th": "20. Your agent will intelligently look across everything on the web, like blogs, news sites and social posts, plus our freshest data, such as real-time info on finance, shopping and sports, to monitor for changes related to your specific question. And your agent will send you an intelligent, synthesized update, with the ability to take action. You can spin up multiple information agents in Search simultaneously to get updated and make progress on all the things that matter to you."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "21. You’ll be able to put information agents to work for you this summer, rolling out first to Google AI Pro and Ultra subscribers.",
+        "th": "21. You’ll be able to put information agents to work for you this summer, rolling out first to Google AI Pro and Ultra subscribers."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Generative UI and Antigravity in Search",
+        "th": "Generative UI and Antigravity in Search"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "22. With the power of Google Antigravity and the agentic coding capabilities of Gemini 3.5 Flash, Search can build you the ideal format exactly for your question, completely custom, on the fly.",
+        "th": "22. With the power of Google Antigravity and the agentic coding capabilities of Gemini 3.5 Flash, Search can build you the ideal format exactly for your question, completely custom, on the fly."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "23. You can get custom generative UI, with Search designing custom layouts, assembling components – like interactive visuals, tables, graphs or simulations – in real time – helping you better understand complicated topics. Generative UI with Antigravity is rolling out to Search this summer for everyone, free of charge.",
+        "th": "23. You can get custom generative UI, with Search designing custom layouts, assembling components – like interactive visuals, tables, graphs or simulations – in real time – helping you better understand complicated topics. Generative UI with Antigravity is rolling out to Search this summer for everyone, free of charge."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "24. Some projects aren’t one-off questions — they’re ongoing tasks, like planning a wedding or managing a home move. For these, Search can go a step further — helping you build entire custom experiences, like dashboards or trackers that you can continue coming back to. You can think of these like mini apps for your own specific tasks.",
+        "th": "24. Some projects aren’t one-off questions — they’re ongoing tasks, like planning a wedding or managing a home move. For these, Search can go a step further — helping you build entire custom experiences, like dashboards or trackers that you can continue coming back to. You can think of these like mini apps for your own specific tasks."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "25. You’ll be able to build custom experiences like mini apps with Antigravity right in Search in the coming months, starting with subscribers.",
+        "th": "25. You’ll be able to build custom experiences like mini apps with Antigravity right in Search in the coming months, starting with subscribers."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Personal Intelligence",
+        "th": "Personal Intelligence"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "26. We’re expanding Personal Intelligence in AI Mode to more people in nearly 200 countries and territories across 98 languages — no subscription required.",
+        "th": "26. We’re expanding Personal Intelligence in AI Mode to more people in nearly 200 countries and territories across 98 languages — no subscription required."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "27. With AI Mode in Search, you can securely connect apps like Gmail and Google Photos, and soon Google Calendar. Personal Intelligence was designed with transparency, choice and control at its core. You’re always in control — you choose if and when you want to connect apps like Gmail and Google Photos.",
+        "th": "27. With AI Mode in Search, you can securely connect apps like Gmail and Google Photos, and soon Google Calendar. Personal Intelligence was designed with transparency, choice and control at its core. You’re always in control — you choose if and when you want to connect apps like Gmail and Google Photos."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Universal Cart",
+        "th": "Universal Cart"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "28. We’re introducing Universal Cart: a truly intelligent shopping cart and your new hub for shopping on Google. You’ll be able to add things to your cart while you’re browsing Search, chatting with Gemini, watching YouTube or even reading your Gmail. The moment you add a product, your cart goes to work for you in the background. It finds deals and price drops, gives you insights on price history and alerts you when something comes back in stock. The Universal Cart runs on our Gemini models, so your cart gets smarter as the models improve.",
+        "th": "28. We’re introducing Universal Cart: a truly intelligent shopping cart and your new hub for shopping on Google. You’ll be able to add things to your cart while you’re browsing Search, chatting with Gemini, watching YouTube or even reading your Gmail. The moment you add a product, your cart goes to work for you in the background. It finds deals and price drops, gives you insights on price history and alerts you when something comes back in stock. The Universal Cart runs on our Gemini models, so your cart gets smarter as the models improve."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "29. It also uses intelligent reasoning to anticipate your needs and help solve problems before they arise. It’ll proactively flag any product incompatibilities and suggest alternatives. And since the cart was built on Google Wallet, it understands your payment method perks, loyalty information and merchant offers so it can intelligently help you choose between payment methods.",
+        "th": "29. It also uses intelligent reasoning to anticipate your needs and help solve problems before they arise. It’ll proactively flag any product incompatibilities and suggest alternatives. And since the cart was built on Google Wallet, it understands your payment method perks, loyalty information and merchant offers so it can intelligently help you choose between payment methods."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "30. Universal Commerce Protocol (UCP) makes checkout from your cart super smooth. For many of your favorite brands, you can check out right on Google in just a few taps with Google Pay, or transfer items straight to the retailer’s site and buy there.",
+        "th": "30. Universal Commerce Protocol (UCP) makes checkout from your cart super smooth. For many of your favorite brands, you can check out right on Google in just a few taps with Google Pay, or transfer items straight to the retailer’s site and buy there."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "31. We’re rolling out the Universal Cart across Search and the Gemini app this summer, with YouTube and Gmail to follow.",
+        "th": "31. We’re rolling out the Universal Cart across Search and the Gemini app this summer, with YouTube and Gmail to follow."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Streamline your day with the Gemini app",
+        "th": "Streamline your day with the Gemini app"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Gemini Spark",
+        "th": "Gemini Spark"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "32. Gemini Spark is your 24/7 personal AI agent that helps you navigate your digital life, takes action on your behalf and is under your direction. It works in the background on your phone or laptop even while they’re turned off.",
+        "th": "32. Gemini Spark is your 24/7 personal AI agent that helps you navigate your digital life, takes action on your behalf and is under your direction. It works in the background on your phone or laptop even while they’re turned off."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "33. Spark runs on Gemini 3.5 and is built on the Google Antigravity platform. It operates autonomously, under your direction. You choose to turn it on and it’s designed to check with you before taking major actions on your behalf.",
+        "th": "33. Spark runs on Gemini 3.5 and is built on the Google Antigravity platform. It operates autonomously, under your direction. You choose to turn it on and it’s designed to check with you before taking major actions on your behalf."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "34. Gemini Spark is very early in its product journey, and we’re prioritizing safety in this first release — that’s why we’re rolling it out to trusted testers, and we’re planning on bringing the Beta to Google AI Ultra subscribers in the U.S. next week.",
+        "th": "34. Gemini Spark is very early in its product journey, and we’re prioritizing safety in this first release — that’s why we’re rolling it out to trusted testers, and we’re planning on bringing the Beta to Google AI Ultra subscribers in the U.S. next week."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "35. Down the line, we’ve got a packed roadmap of features for Google Spark that we’ll be shipping throughout the summer. For example: You’ll be able to text or email Spark directly, create custom sub-agents and even authorize payments while specifying the budget and merchants.",
+        "th": "35. Down the line, we’ve got a packed roadmap of features for Google Spark that we’ll be shipping throughout the summer. For example: You’ll be able to text or email Spark directly, create custom sub-agents and even authorize payments while specifying the budget and merchants."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Daily Brief",
+        "th": "Daily Brief"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "36. Daily Brief is our new out-of-the-box agent that organizes and prioritizes your day ahead with a personalized digest based on your goals, and suggests next steps.",
+        "th": "36. Daily Brief is our new out-of-the-box agent that organizes and prioritizes your day ahead with a personalized digest based on your goals, and suggests next steps."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "37. With Daily Brief, Gemini works overnight for you, gathering info for your day ahead. It analyzes your inbox, calendar, and tasks to find the most important things for you. It’s concise and insightful, connecting the dots across your life. It’s actionable, anticipating your needs and suggesting next steps. And it learns over time, remembering your preferences, dates and times.",
+        "th": "37. With Daily Brief, Gemini works overnight for you, gathering info for your day ahead. It analyzes your inbox, calendar, and tasks to find the most important things for you. It’s concise and insightful, connecting the dots across your life. It’s actionable, anticipating your needs and suggesting next steps. And it learns over time, remembering your preferences, dates and times."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "38. Daily Brief is rolling out starting today to all Google AI subscribers (18+) in the Gemini app, starting in the U.S. In order to use Daily Brief, Google AI subscribers must have chosen to connect their Google apps.",
+        "th": "38. Daily Brief is rolling out starting today to all Google AI subscribers (18+) in the Gemini app, starting in the U.S. In order to use Daily Brief, Google AI subscribers must have chosen to connect their Google apps."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Neural Expressive",
+        "th": "Neural Expressive"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "39. We’ve completely redesigned the Gemini experience from the ground up. From the moment you open the app or visit the site, you’re greeted with a new design language we call Neural Expressive, which has fluid animations, vibrant colors, new typography and haptic feedback throughout.",
+        "th": "39. We’ve completely redesigned the Gemini experience from the ground up. From the moment you open the app or visit the site, you’re greeted with a new design language we call Neural Expressive, which has fluid animations, vibrant colors, new typography and haptic feedback throughout."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "40. We’ve simplified and streamlined everything, unifying our tools menu and making it easier to discover and generate gorgeous images, videos and music, with built-in templates you can instantly remix.",
+        "th": "40. We’ve simplified and streamlined everything, unifying our tools menu and making it easier to discover and generate gorgeous images, videos and music, with built-in templates you can instantly remix."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "41. The moment you send your prompt, Neural Expressive truly comes alive. You won’t see a wall of text anymore. Instead, Gemini will carefully lay out its response in real time, just for you. As you scroll, you might see interactive images that you can zoom in on and explore the information on a completely new level, or timelines that you can quickly skim, or embedded visuals.",
+        "th": "41. The moment you send your prompt, Neural Expressive truly comes alive. You won’t see a wall of text anymore. Instead, Gemini will carefully lay out its response in real time, just for you. As you scroll, you might see interactive images that you can zoom in on and explore the information on a completely new level, or timelines that you can quickly skim, or embedded visuals."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "42. We’ve also completely transformed the Gemini Live experience — it now opens immediately and inline. Gemini Live is also using a new model that’s smarter, faster and less distracted by background noise.",
+        "th": "42. We’ve also completely transformed the Gemini Live experience — it now opens immediately and inline. Gemini Live is also using a new model that’s smarter, faster and less distracted by background noise."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "43. Soon you’ll even be able to pick out a regional dialect that resonates with you. We’ll be rolling these out in the coming weeks.",
+        "th": "43. Soon you’ll even be able to pick out a regional dialect that resonates with you. We’ll be rolling these out in the coming weeks."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Uplevel your building with agents",
+        "th": "Uplevel your building with agents"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Introducing_Managed_Agents_in_the.width-100.format-webp.webp",
+      "alt": "Introducing Managed Agents in the Gemini API"
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Google Antigravity",
+        "th": "Google Antigravity"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "44. Google Antigravity is our agent-first development platform that allows anyone to be a builder. And today, Antigravity is massively expanding its suite of agentic capabilities, surfaces, integrations and product features.",
+        "th": "44. Google Antigravity is our agent-first development platform that allows anyone to be a builder. And today, Antigravity is massively expanding its suite of agentic capabilities, surfaces, integrations and product features."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "45. Google Antigravity 2.0 is a new, standalone desktop application that acts as a central home for agent interaction. You can orchestrate multiple agents to execute tasks in parallel, such as having one agent code a website while another generates brand assets.",
+        "th": "45. Google Antigravity 2.0 is a new, standalone desktop application that acts as a central home for agent interaction. You can orchestrate multiple agents to execute tasks in parallel, such as having one agent code a website while another generates brand assets."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "46. Antigravity CLI is for those who prefer to stay in the terminal. It’s a lightweight, high-velocity product surface that lets you create new agents instantly without a graphical user interface.",
+        "th": "46. Antigravity CLI is for those who prefer to stay in the terminal. It’s a lightweight, high-velocity product surface that lets you create new agents instantly without a graphical user interface."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "47. Antigravity SDK gives you programmatic access to the same agent harness powering Google’s products that’s co-optimized for our Gemini models. This SDK lets you customize agent behavior and host them on your own infrastructure.",
+        "th": "47. Antigravity SDK gives you programmatic access to the same agent harness powering Google’s products that’s co-optimized for our Gemini models. This SDK lets you customize agent behavior and host them on your own infrastructure."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "48. We’re also launching native voice support for Gemini audio models, as well as integration with many surfaces and platforms, like Android, Firebase and Google AI Studio.",
+        "th": "48. We’re also launching native voice support for Gemini audio models, as well as integration with many surfaces and platforms, like Android, Firebase and Google AI Studio."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "49. The new Antigravity is unabashedly agent-first, focusing on the core agent conversations, agent-produced artifacts and multi-agent orchestration. The Antigravity agent harness, the invisible framework for Gemini to perform real-world tasks, has become much more powerful, with new core primitives such as subagents, hooks and asynchronous task management. Underpinning all of this are the Gemini models, with Gemini 3.5 Flash having been co-optimized with the Antigravity agent harness.",
+        "th": "49. The new Antigravity is unabashedly agent-first, focusing on the core agent conversations, agent-produced artifacts and multi-agent orchestration. The Antigravity agent harness, the invisible framework for Gemini to perform real-world tasks, has become much more powerful, with new core primitives such as subagents, hooks and asynchronous task management. Underpinning all of this are the Gemini models, with Gemini 3.5 Flash having been co-optimized with the Antigravity agent harness."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "50. Multi-day engineering efforts are collapsing into hours, if not minutes. This is made possible by the new subagent teamwork capability. We’re bringing this to you as an early research preview in Antigravity.",
+        "th": "50. Multi-day engineering efforts are collapsing into hours, if not minutes. This is made possible by the new subagent teamwork capability. We’re bringing this to you as an early research preview in Antigravity."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "51. We are unifying on Antigravity as the only platform you need for agent-first development. We took what we learned from how you used Gemini CLI and rolled those insights into the Antigravity CLI. We encourage users to migrate to Antigravity CLI and have published a guide to help you port your custom skills over. You’ll now get the same harness as Antigravity 2.0 and a unified agentic experience across all your surfaces.",
+        "th": "51. We are unifying on Antigravity as the only platform you need for agent-first development. We took what we learned from how you used Gemini CLI and rolled those insights into the Antigravity CLI. We encourage users to migrate to Antigravity CLI and have published a guide to help you port your custom skills over. You’ll now get the same harness as Antigravity 2.0 and a unified agentic experience across all your surfaces."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "52. For enterprises, we’re allowing Google Antigravity to be connected directly to your Google Cloud projects, applying the same enterprise terms that you’d expect. For our existing Gemini Enterprise customers, you’ll soon see Antigravity rolled out in the coming months.",
+        "th": "52. For enterprises, we’re allowing Google Antigravity to be connected directly to your Google Cloud projects, applying the same enterprise terms that you’d expect. For our existing Gemini Enterprise customers, you’ll soon see Antigravity rolled out in the coming months."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Google AI Studio",
+        "th": "Google AI Studio"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "53. Coming soon, the new Google AI Studio app lets you capture an idea on the go and have a working prototype ready by the time you get to your desk.",
+        "th": "53. Coming soon, the new Google AI Studio app lets you capture an idea on the go and have a working prototype ready by the time you get to your desk."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "54. Google Workspace is now directly accessible from the apps you build within AI Studio. With this integration, you can build dashboards on top of your Sheets data, create tools that organize your users’ Drive or spin up apps that work with the documents and data your team already lives in. All without leaving AI Studio.",
+        "th": "54. Google Workspace is now directly accessible from the apps you build within AI Studio. With this integration, you can build dashboards on top of your Sheets data, create tools that organize your users’ Drive or spin up apps that work with the documents and data your team already lives in. All without leaving AI Studio."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "55. Starting today, you can now build native Android apps right in the build tab. Just select “Build an Android app” and begin prompting.",
+        "th": "55. Starting today, you can now build native Android apps right in the build tab. Just select “Build an Android app” and begin prompting."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "56. We’re also introducing support for the Google Play Console in AI Studio for developers to publish apps directly to the test track. You can preview your app on an Android Emulator running in the browser or install your app on an Android test device using the Android Debug Bridge (ADB). And you can connect your Google Play Developer account in AI Studio to publish your Android app to Google Play’s Internal Test Track with a single click.",
+        "th": "56. We’re also introducing support for the Google Play Console in AI Studio for developers to publish apps directly to the test track. You can preview your app on an Android Emulator running in the browser or install your app on an Android test device using the Android Debug Bridge (ADB). And you can connect your Google Play Developer account in AI Studio to publish your Android app to Google Play’s Internal Test Track with a single click."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "57. Builders who are just getting started with AI Studio can now deploy their first two apps to Google Cloud at no cost, no credit card required.",
+        "th": "57. Builders who are just getting started with AI Studio can now deploy their first two apps to Google Cloud at no cost, no credit card required."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "58. If you want local development for faster iteration, you can now export directly to Google Antigravity. Your conversation history, project files and secrets all come with you, so you can pick up exactly where you left off, bring in your wider team and start scaling your development workflow.",
+        "th": "58. If you want local development for faster iteration, you can now export directly to Google Antigravity. Your conversation history, project files and secrets all come with you, so you can pick up exactly where you left off, bring in your wider team and start scaling your development workflow."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "59. Within AI Studio, you now have more customization options to design how your app looks and feels. The AI Studio Build agent can automatically generate custom images on the fly using Nano Banana. This helps you build tailored interfaces or mock up specialized use cases without needing external placeholder assets. Our new edit tool lets you annotate directly in the preview window. You can draw on your app, tweak components and generate new visuals to iterate on your build, right in the flow.",
+        "th": "59. Within AI Studio, you now have more customization options to design how your app looks and feels. The AI Studio Build agent can automatically generate custom images on the fly using Nano Banana. This helps you build tailored interfaces or mock up specialized use cases without needing external placeholder assets. Our new edit tool lets you annotate directly in the preview window. You can draw on your app, tweak components and generate new visuals to iterate on your build, right in the flow."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Managed Agents",
+        "th": "Managed Agents"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "60. We’re launching Managed Agents in the Gemini API. With Managed Agents, a single API call to the Antigravity agent provisions a remote Linux environment where the agent can reason, plan and call tools using the harness; execute code and manage files in an isolated sandbox; and browse the web to fetch and process live data. Managed Agents are powered by the new Antigravity agent, built with Gemini 3.5 Flash and available via the Interactions API and in Google AI Studio.",
+        "th": "60. We’re launching Managed Agents in the Gemini API. With Managed Agents, a single API call to the Antigravity agent provisions a remote Linux environment where the agent can reason, plan and call tools using the harness; execute code and manage files in an isolated sandbox; and browse the web to fetch and process live data. Managed Agents are powered by the new Antigravity agent, built with Gemini 3.5 Flash and available via the Interactions API and in Google AI Studio."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "61. You can extend the Antigravity agent with your own instructions and skills. Instead of writing complex orchestration code, you can define everything in markdown files like AGENTS.md and SKILL.md and register them as a named agent.",
+        "th": "61. You can extend the Antigravity agent with your own instructions and skills. Instead of writing complex orchestration code, you can define everything in markdown files like AGENTS.md and SKILL.md and register them as a named agent."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "62. We announced the Build with Gemini XPRIZE Hackathon, a new global competition with a $2 million prize pool — the largest ever for a hackathon. We're asking developers to use Gemini to build real applications that solve some of the world's most pressing challenges.",
+        "th": "62. We announced the Build with Gemini XPRIZE Hackathon, a new global competition with a $2 million prize pool — the largest ever for a hackathon. We're asking developers to use Gemini to build real applications that solve some of the world's most pressing challenges."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "WebMCP and Chrome Dev Tools",
+        "th": "WebMCP and Chrome Dev Tools"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "63. We’re giving you a first look at WebMCP, a proposed open web standard that allows you to expose structured tools like JavaScript functions and HTML forms to browser-based agents.",
+        "th": "63. We’re giving you a first look at WebMCP, a proposed open web standard that allows you to expose structured tools like JavaScript functions and HTML forms to browser-based agents."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "64. Modern Web Guidance, now available in early preview, is a set of evergreen and expert-vetted skills that guide your AI coding tools across many common use cases to build modern web experiences that are more accessible, performant and secure.",
+        "th": "64. Modern Web Guidance, now available in early preview, is a set of evergreen and expert-vetted skills that guide your AI coding tools across many common use cases to build modern web experiences that are more accessible, performant and secure."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "65. Scale your workflow with Chrome DevTools for agents, which provides your AI agent with the visibility it needs to verify, debug, and optimize code in real time - available for Google Antigravity and more than 20 other coding agents now.",
+        "th": "65. Scale your workflow with Chrome DevTools for agents, which provides your AI agent with the visibility it needs to verify, debug, and optimize code in real time - available for Google Antigravity and more than 20 other coding agents now."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Subscriptions",
+        "th": "Subscriptions"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "66. We’re launching a new $100 AI Ultra plan, specifically tailored for developers, technical leads, knowledge workers and advanced creators. It includes 5X higher usage limits in the Gemini app and Antigravity than our AI Pro plan, plus 20TB of cloud storage and more features to help accelerate your dev cycles and bring the frontier of intelligence into your workflow.",
+        "th": "66. We’re launching a new $100 AI Ultra plan, specifically tailored for developers, technical leads, knowledge workers and advanced creators. It includes 5X higher usage limits in the Gemini app and Antigravity than our AI Pro plan, plus 20TB of cloud storage and more features to help accelerate your dev cycles and bring the frontier of intelligence into your workflow."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "67. Google AI Pro paid subscriptions now include the YouTube Premium Lite individual plan at no extra charge. This adds $8.99 in value monthly and lets you watch most YouTube and YouTube Kids videos ad-free, offline and in the background for an enhanced entertainment experience.",
+        "th": "67. Google AI Pro paid subscriptions now include the YouTube Premium Lite individual plan at no extra charge. This adds $8.99 in value monthly and lets you watch most YouTube and YouTube Kids videos ad-free, offline and in the background for an enhanced entertainment experience."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get more done at work and elevate your creativity",
+        "th": "Get more done at work and elevate your creativity"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "AI Inbox",
+        "th": "AI Inbox"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "68. Earlier this year, we introduced AI Inbox as a new view in Gmail that intelligently surfaces what matters most. It helps you prioritize your to-dos and provides updates on what’s important. It’s currently available for Google AI Ultra subscribers, and we’re starting to roll it out to all Google AI Plus and Pro subscribers in the U.S.",
+        "th": "68. Earlier this year, we introduced AI Inbox as a new view in Gmail that intelligently surfaces what matters most. It helps you prioritize your to-dos and provides updates on what’s important. It’s currently available for Google AI Ultra subscribers, and we’re starting to roll it out to all Google AI Plus and Pro subscribers in the U.S."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "69. AI Inbox now generates personalized draft replies based on contextual information so you can review and respond in seconds.",
+        "th": "69. AI Inbox now generates personalized draft replies based on contextual information so you can review and respond in seconds."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "70. Starting now, in AI Inbox, if a task requires reviewing a Google Doc, Sheet or Slide, the relevant link surfaces right next to your to-do.",
+        "th": "70. Starting now, in AI Inbox, if a task requires reviewing a Google Doc, Sheet or Slide, the relevant link surfaces right next to your to-do."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "71. We announced more ways to streamline your task management in AI Inbox. Keep your view clutter-free by marking individual tasks as done, dismissing unhelpful suggestions or marking all emails in a given topic as read with a single click.",
+        "th": "71. We announced more ways to streamline your task management in AI Inbox. Keep your view clutter-free by marking individual tasks as done, dismissing unhelpful suggestions or marking all emails in a given topic as read with a single click."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "72. Starting this summer, Google AI Pro and Ultra subscribers will be able to talk to your inbox with Gmail Live — asking specific queries without having to dig through threads.",
+        "th": "72. Starting this summer, Google AI Pro and Ultra subscribers will be able to talk to your inbox with Gmail Live — asking specific queries without having to dig through threads."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Google Pics",
+        "th": "Google Pics"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "73. We’re introducing Google Pics, our new image creation and editing tool, built on our latest Nano Banana model, that helps you create just about anything – from party flyers to infographics, with the creative controls you want. Whether you’re building a design from a blank canvas or editing an existing photo, Pics takes the hassle out of complex image generation. The new tool includes features including object segmentation (so you can select and edit specific elements with precision), text editing and translation, and integrations with Workspace.",
+        "th": "73. We’re introducing Google Pics, our new image creation and editing tool, built on our latest Nano Banana model, that helps you create just about anything – from party flyers to infographics, with the creative controls you want. Whether you’re building a design from a blank canvas or editing an existing photo, Pics takes the hassle out of complex image generation. The new tool includes features including object segmentation (so you can select and edit specific elements with precision), text editing and translation, and integrations with Workspace."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "74. Google Pics is launching today to a limited group of trusted testers. This summer, it will roll out globally to Google AI Pro and Ultra subscribers and in preview for Google Workspace business customers.",
+        "th": "74. Google Pics is launching today to a limited group of trusted testers. This summer, it will roll out globally to Google AI Pro and Ultra subscribers and in preview for Google Workspace business customers."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Docs Live and Talk to Keep",
+        "th": "Docs Live and Talk to Keep"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "75. Docs Live is a new feature that lets you create docs and edit them with your voice. Just talk, and Docs Live handles the heavy lifting — organizing your thoughts, structuring your document, and, with your permission, pulling relevant details from your Gmail, Drive, Chat and the web. Google AI Pro and Ultra subscribers will be able to talk to Docs starting this summer.",
+        "th": "75. Docs Live is a new feature that lets you create docs and edit them with your voice. Just talk, and Docs Live handles the heavy lifting — organizing your thoughts, structuring your document, and, with your permission, pulling relevant details from your Gmail, Drive, Chat and the web. Google AI Pro and Ultra subscribers will be able to talk to Docs starting this summer."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "76. You will soon be able to “brain dump” with Keep. Keep not only understands your rambles, it will get to work in the background, turning your stream of thoughts into organized notes and lists at the speed of your voice. This feature is rolling out this summer for Google AI Pro and Ultra subscribers and in preview to Google Workspace business customers.",
+        "th": "76. You will soon be able to “brain dump” with Keep. Keep not only understands your rambles, it will get to work in the background, turning your stream of thoughts into organized notes and lists at the speed of your voice. This feature is rolling out this summer for Google AI Pro and Ultra subscribers and in preview to Google Workspace business customers."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Google Flow",
+        "th": "Google Flow"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "77. On last year’s I/O stage, we introduced Google Flow. Since then we expanded Flow into an AI creative studio, with new capabilities in video and image generation and editing, and launched in over 140 countries around the world. Gemini Omni Flash is now available in Google Flow to Google AI subscribers globally.",
+        "th": "77. On last year’s I/O stage, we introduced Google Flow. Since then we expanded Flow into an AI creative studio, with new capabilities in video and image generation and editing, and launched in over 140 countries around the world. Gemini Omni Flash is now available in Google Flow to Google AI subscribers globally."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "78. For creatives using Google Flow, Gemini Omni Flash allows you to blend real-world inspiration with generated content and iterate conversationally. Gemini Omni Flash also improves character consistency, meaning identity and voice are preserved across every scene.",
+        "th": "78. For creatives using Google Flow, Gemini Omni Flash allows you to blend real-world inspiration with generated content and iterate conversationally. Gemini Omni Flash also improves character consistency, meaning identity and voice are preserved across every scene."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "79. We’re also introducing Google Flow Agent. Until today, Flow could only execute one prompt at a time. Now, your agent can take on multi-step tasks. Your agent in Google Flow is your creative partner that can plan and reason through complex tasks with your inputs, under your control.",
+        "th": "79. We’re also introducing Google Flow Agent. Until today, Flow could only execute one prompt at a time. Now, your agent can take on multi-step tasks. Your agent in Google Flow is your creative partner that can plan and reason through complex tasks with your inputs, under your control."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "80. Built with Gemini models, Google Flow Agent brings expertise and a deep understanding of your project to help with early brainstorming, creating and editing. For example, the agent can be a sounding board for dialogue between characters in a specific scene, or even make plot recommendations. When you’re deeper in a project, your agent can help create multiple variations at one time to give you more options, and even batch edit, so your tweaks are reflected across all your assets. Once you have your assets, your agent can organize them into collections, and it can even intuitively rename them. Google Flow Agent is now available to all Google Flow users globally.",
+        "th": "80. Built with Gemini models, Google Flow Agent brings expertise and a deep understanding of your project to help with early brainstorming, creating and editing. For example, the agent can be a sounding board for dialogue between characters in a specific scene, or even make plot recommendations. When you’re deeper in a project, your agent can help create multiple variations at one time to give you more options, and even batch edit, so your tweaks are reflected across all your assets. Once you have your assets, your agent can organize them into collections, and it can even intuitively rename them. Google Flow Agent is now available to all Google Flow users globally."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "81. We’re also introducing Google Flow Tools. Now you can vibe code any creative tool you can think of, right in Google Flow, custom built by you for your unique creative process – like designing video effects, hand-drawn animations, or layering text.",
+        "th": "81. We’re also introducing Google Flow Tools. Now you can vibe code any creative tool you can think of, right in Google Flow, custom built by you for your unique creative process – like designing video effects, hand-drawn animations, or layering text."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "82. You can use natural language to create bespoke tools and workflows in Google Flow. Whether you’re looking for a particular image editor, video resizer or custom shaders, you can now easily develop them, no coding experience required. And if you create something you think others might like, you can easily share your tool with other Flow users, who can remix it into their own. All Google Flow users globally are able to use existing Tools, while Google AI subscribers can also create and remix them.",
+        "th": "82. You can use natural language to create bespoke tools and workflows in Google Flow. Whether you’re looking for a particular image editor, video resizer or custom shaders, you can now easily develop them, no coding experience required. And if you create something you think others might like, you can easily share your tool with other Flow users, who can remix it into their own. All Google Flow users globally are able to use existing Tools, while Google AI subscribers can also create and remix them."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Google Flow Music, Pomelli and Stitch",
+        "th": "Google Flow Music, Pomelli and Stitch"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "83. With Google Flow Music, you’re also able to use Gemini Omni to work conversationally with the agent to direct shareable music videos. New refinement capabilities let you edit specific portions of your song with increased granularity. For example, you can change a section of lyrics to a different language, change the genre, adjust the instruments or fine-tune just about anything else you can imagine.",
+        "th": "83. With Google Flow Music, you’re also able to use Gemini Omni to work conversationally with the agent to direct shareable music videos. New refinement capabilities let you edit specific portions of your song with increased granularity. For example, you can change a section of lyrics to a different language, change the genre, adjust the instruments or fine-tune just about anything else you can imagine."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "84. Pomelli is adding new ways to build brand content and design websites.",
+        "th": "84. Pomelli is adding new ways to build brand content and design websites."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "85. With real-time design and steering, designing with Stitch is now a more natural and intuitive collaboration. You can now describe what you want through text, or say it aloud, and Stitch works alongside you to build out and reflow your ideas. You can also import existing codebase and design files, ensuring your builds are on-brand.",
+        "th": "85. With real-time design and steering, designing with Stitch is now a more natural and intuitive collaboration. You can now describe what you want through text, or say it aloud, and Stitch works alongside you to build out and reflow your ideas. You can also import existing codebase and design files, ensuring your builds are on-brand."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Drive scientific breakthroughs and discoveries",
+        "th": "Drive scientific breakthroughs and discoveries"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "86. We introduced Gemini for Science, a new collection of science tools and experiments designed to expand the scale and precision of scientific exploration at every stage of the research process. It includes three new experimental tools on Google Labs that can streamline daily scientific tasks, whether staying on top of new published papers, transforming research goals into usable code or generating new hypotheses. Those tools are:",
+        "th": "86. We introduced Gemini for Science, a new collection of science tools and experiments designed to expand the scale and precision of scientific exploration at every stage of the research process. It includes three new experimental tools on Google Labs that can streamline daily scientific tasks, whether staying on top of new published papers, transforming research goals into usable code or generating new hypotheses. Those tools are:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "87. Hypothesis Generation, built with Co-Scientist, simulates the scientific method. It collaborates with researchers to define a research challenge, then uses a multi-agent “idea tournament” to generate, debate and evaluate hypotheses. To ensure absolute rigor, claims are deeply verified and supported by clickable citations.",
+        "th": "87. Hypothesis Generation, built with Co-Scientist, simulates the scientific method. It collaborates with researchers to define a research challenge, then uses a multi-agent “idea tournament” to generate, debate and evaluate hypotheses. To ensure absolute rigor, claims are deeply verified and supported by clickable citations."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "88. Computational Discovery, an agentic research engine, built with AlphaEvolve and Empirical Research Assistance (ERA), which generates and scores thousands of code variations in parallel. This allows scientists to test novel modeling approaches — for complex fields like solar forecasting or epidemiology — that would take months to navigate manually.",
+        "th": "88. Computational Discovery, an agentic research engine, built with AlphaEvolve and Empirical Research Assistance (ERA), which generates and scores thousands of code variations in parallel. This allows scientists to test novel modeling approaches — for complex fields like solar forecasting or epidemiology — that would take months to navigate manually."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "89. And Literature Insights, built with NotebookLM, which searches scientific literature and structures results into tables with custom, searchable attributes for side-by-side analysis. Researchers can use chat to uncover nuances grounded in their curated corpus, and create high-fidelity artifacts such as reports, slide decks, infographics, and audio and video overviews.",
+        "th": "89. And Literature Insights, built with NotebookLM, which searches scientific literature and structures results into tables with custom, searchable attributes for side-by-side analysis. Researchers can use chat to uncover nuances grounded in their curated corpus, and create high-fidelity artifacts such as reports, slide decks, infographics, and audio and video overviews."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "90. We’re gradually opening access to these three experimental tools from 19 May. Users can visit labs.google/science to register interest.",
+        "th": "90. We’re gradually opening access to these three experimental tools from 19 May. Users can visit labs.google/science to register interest."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "91. As part of Gemini for Science, we’re also launching Science Skills, a specialized bundle that integrates insights from over 30 major life science databases and tools including UniProt, AlphaFold Database, AlphaGenome API and InterPro. Using these skills on agent-first agentic platforms like Google Antigravity allows researchers to perform complex and often manual workflows like structural bioinformatics and genomic analyses in minutes rather than hours. Science Skills is availablefrom May 19 on Github and for all Google Antigravity users.",
+        "th": "91. As part of Gemini for Science, we’re also launching Science Skills, a specialized bundle that integrates insights from over 30 major life science databases and tools including UniProt, AlphaFold Database, AlphaGenome API and InterPro. Using these skills on agent-first agentic platforms like Google Antigravity allows researchers to perform complex and often manual workflows like structural bioinformatics and genomic analyses in minutes rather than hours. Science Skills is availablefrom May 19 on Github and for all Google Antigravity users."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "92. We’ve also created dedicated pilots with leading scientific conferences like ICML, STOC and NeurIPS to develop pioneering tools for agentic peer review and scientific validation such as our experimental Paper Assistant Tool (PAT) and ScholarPeer.",
+        "th": "92. We’ve also created dedicated pilots with leading scientific conferences like ICML, STOC and NeurIPS to develop pioneering tools for agentic peer review and scientific validation such as our experimental Paper Assistant Tool (PAT) and ScholarPeer."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Transform the way you learn and explore",
+        "th": "Transform the way you learn and explore"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Ask YouTube",
+        "th": "Ask YouTube"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "93. We’re reimagining how users can search and discover content they’re interested in with our new conversational search experience, Ask YouTube. With Ask YouTube, you can ask more complex search queries, such as wanting tips on how to teach your kid to ride a bike. Ask YouTube will compile the most relevant videos across all of YouTube’s catalogue — including long-form videos and Shorts — and provide an interactive, structured response.",
+        "th": "93. We’re reimagining how users can search and discover content they’re interested in with our new conversational search experience, Ask YouTube. With Ask YouTube, you can ask more complex search queries, such as wanting tips on how to teach your kid to ride a bike. Ask YouTube will compile the most relevant videos across all of YouTube’s catalogue — including long-form videos and Shorts — and provide an interactive, structured response."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "94. Ask YouTube will begin rolling out this month on desktop as an experiment to a subset of users searching in English in the US.",
+        "th": "94. Ask YouTube will begin rolling out this month on desktop as an experiment to a subset of users searching in English in the US."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Android XR",
+        "th": "Android XR"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "95. The next big milestone for Android XR is intelligent eyewear. There will be two types of intelligent eyewear: audio glasses that offer spoken help in your ear, and display glasses that show you the information you need, right when you need it.",
+        "th": "95. The next big milestone for Android XR is intelligent eyewear. There will be two types of intelligent eyewear: audio glasses that offer spoken help in your ear, and display glasses that show you the information you need, right when you need it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "96. Our first audio glasses, made in partnership with Gentle Monster, Warby Parker, and Samsung, will arrive this fall and will be compatible with Android and iOS devices.",
+        "th": "96. Our first audio glasses, made in partnership with Gentle Monster, Warby Parker, and Samsung, will arrive this fall and will be compatible with Android and iOS devices."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "SynthID",
+        "th": "SynthID"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "97. Three years ago, we launched SynthID, our industry-leading watermarking technology that embeds imperceptible signals into AI-generated content. Our goal is to make it easier to learn more about the content you encounter online. That’s why we recently added SynthID verification for image, video and audio to the Gemini app. Already, it’s been used 50 million times globally, and we’re expanding this verification capability to Search today and Chrome over the coming weeks.",
+        "th": "97. Three years ago, we launched SynthID, our industry-leading watermarking technology that embeds imperceptible signals into AI-generated content. Our goal is to make it easier to learn more about the content you encounter online. That’s why we recently added SynthID verification for image, video and audio to the Gemini app. Already, it’s been used 50 million times globally, and we’re expanding this verification capability to Search today and Chrome over the coming weeks."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "98. You can learn about an image's origin by using Search features like Lens, AI Mode, and Circle to Search, as well as Gemini in Chrome. Just ask, \"Is this made with AI?” or “Is this AI generated?”",
+        "th": "98. You can learn about an image's origin by using Search features like Lens, AI Mode, and Circle to Search, as well as Gemini in Chrome. Just ask, \"Is this made with AI?” or “Is this AI generated?”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "99. We’re also adding verification for C2PA Content Credentials, to easily check if content is an unaltered original from a camera or if it has been modified, and by what tools. This feature is rolling out in the Gemini app starting today, and it will come to Search and Chrome in the coming months.",
+        "th": "99. We’re also adding verification for C2PA Content Credentials, to easily check if content is an unaltered original from a camera or if it has been modified, and by what tools. This feature is rolling out in the Gemini app starting today, and it will come to Search and Chrome in the coming months."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "100. Because digital media travels across many platforms, industry-wide partnership and adoption of robust, interoperable tools is essential. More content across the web will soon carry these imperceptible watermarks, as companies like OpenAI, Kakao and ElevenLabs are bringing SynthID technology to more of their AI-generated content.",
+        "th": "100. Because digital media travels across many platforms, industry-wide partnership and adoption of robust, interoperable tools is essential. More content across the web will soon carry these imperceptible watermarks, as companies like OpenAI, Kakao and ElevenLabs are bringing SynthID technology to more of their AI-generated content."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp",
+      "alt": "The image shows a colorful abstract design with the Google I/O 2026 logo."
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get more stories from Google in your inbox. Get more stories from Google in your inbox.",
+        "th": "Get more stories from Google in your inbox. Get more stories from Google in your inbox."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your information will be used in accordance with Google's privacy policy.",
+        "th": "Your information will be used in accordance with Google's privacy policy."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Done. Just one step more.",
+        "th": "Done. Just one step more."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check your inbox to confirm your subscription.",
+        "th": "Check your inbox to confirm your subscription."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You are already subscribed to our newsletter.",
+        "th": "You are already subscribed to our newsletter."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also subscribe with a different email address .",
+        "th": "You can also subscribe with a different email address ."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "AI",
+        "th": "AI"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini",
+        "th": "Gemini"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Search",
+        "th": "Search"
+      }
+    }
+  ]
+}

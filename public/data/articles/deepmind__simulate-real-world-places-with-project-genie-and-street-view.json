@@ -1,0 +1,241 @@
+{
+  "id": "deepmind__simulate-real-world-places-with-project-genie-and-street-view",
+  "slug": "simulate-real-world-places-with-project-genie-and-street-view",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+  "category": "News",
+  "date": "2026-05-17T19:53:18.000Z",
+  "image": null,
+  "title": {
+    "en": "Simulate real-world places with Project Genie and Street View",
+    "th": "Simulate real-world places with Project Genie and Street View"
+  },
+  "summary": {
+    "en": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+    "th": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View."
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "Innovation & AI"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Models & research",
+        "th": "Models & research"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Google DeepMind",
+        "th": "Google DeepMind"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "May 19, 2026",
+        "th": "May 19, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+        "th": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image_bIiabui.max-244x184.format-webp.webp",
+      "alt": "image"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Jonathan_Herbert.max-244x184.format-webp.webp",
+      "alt": "Jonathan Herbert"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/headshot_ZeOD3hw.max-244x184.format-webp.webp",
+      "alt": "headshot"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "Your browser does not support the audio element."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Genie is our general-purpose world model capable of generating diverse, interactive environments. Since launching, Genie has become a foundational tool for research, enabling agents to learn and reason in complex virtual settings and even helping Waymo simulate hyper-realistic road environments.",
+        "th": "Genie is our general-purpose world model capable of generating diverse, interactive environments. Since launching, Genie has become a foundational tool for research, enabling agents to learn and reason in complex virtual settings and even helping Waymo simulate hyper-realistic road environments."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Now, we’re taking a leap forward by connecting Genie’s generative power with the real-world imagery of Google Street View, allowing our models to anchor themselves in reality. This expansion of Genie’s capabilities can provide a virtual environment for AI agents or robots to navigate and interact with the complexities of the real world.",
+        "th": "Now, we’re taking a leap forward by connecting Genie’s generative power with the real-world imagery of Google Street View, allowing our models to anchor themselves in reality. This expansion of Genie’s capabilities can provide a virtual environment for AI agents or robots to navigate and interact with the complexities of the real world."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re launching this new Street View grounding capability within Project Genie, our experimental prototype. With this upgrade, you'll be able to leverage real-world imagery to explore your favorite spots, or reimagine them with a creative twist. We’re also expanding access to Project Genie to more people around the globe.",
+        "th": "Today, we’re launching this new Street View grounding capability within Project Genie, our experimental prototype. With this upgrade, you'll be able to leverage real-world imagery to explore your favorite spots, or reimagine them with a creative twist. We’re also expanding access to Project Genie to more people around the globe."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Select the “Ocean World” style to scuba dive with schools of fish around places grounded in the real world.",
+        "th": "Select the “Ocean World” style to scuba dive with schools of fish around places grounded in the real world."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Street View: ground your worlds in real places",
+        "th": "Street View: ground your worlds in real places"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When creating imaginative worlds in Project Genie, you can now also base them on real places. Just tap the Maps pin to choose a place in the U.S. and optionally select a style for your world, like “Desert Sands” or “Stone Age.” Then, describe your character — like your favorite animal, comic book hero or even a claymation monster — and Genie will use this information to create an imaginative world with its starting location tied to Street View’s real-world imagery. This capability is powered by Maps Imagery Grounding, the same technology developers use to create stunning AI visuals with Street View.",
+        "th": "When creating imaginative worlds in Project Genie, you can now also base them on real places. Just tap the Maps pin to choose a place in the U.S. and optionally select a style for your world, like “Desert Sands” or “Stone Age.” Then, describe your character — like your favorite animal, comic book hero or even a claymation monster — and Genie will use this information to create an imaginative world with its starting location tied to Street View’s real-world imagery. This capability is powered by Maps Imagery Grounding, the same technology developers use to create stunning AI visuals with Street View."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Want to see the Golden Gate Bridge under the sea? Select the “Ocean World” style to scuba dive with schools of fish around the bridge. Or, if you want to explore what the iconic Fort Worth Stockyards in Texas might have looked like in the 1920s, select the “B&W film” style to see a world with saloons, vintage cars and trading posts.",
+        "th": "Want to see the Golden Gate Bridge under the sea? Select the “Ocean World” style to scuba dive with schools of fish around the bridge. Or, if you want to explore what the iconic Fort Worth Stockyards in Texas might have looked like in the 1920s, select the “B&W film” style to see a world with saloons, vintage cars and trading posts."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Street View imagery in Project Genie is available now for places in the U.S. with plans to expand to more places over time.",
+        "th": "Street View imagery in Project Genie is available now for places in the U.S. with plans to expand to more places over time."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Project Genie: now available with Google AI Ultra",
+        "th": "Project Genie: now available with Google AI Ultra"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Starting today, Project Genie — including the new Street View capability — is gradually rolling out to all eligible Google AI Ultra $200 subscribers globally (18+). Try creating today with Project Genie.",
+        "th": "Starting today, Project Genie — including the new Street View capability — is gradually rolling out to all eligible Google AI Ultra $200 subscribers globally (18+). Try creating today with Project Genie."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Project Genie is still an experimental research prototype in Google Labs, so we're working behind the scenes to make the details even sharper and more accurate. You can read more about our progress and current limitations on our website.",
+        "th": "Project Genie is still an experimental research prototype in Google Labs, so we're working behind the scenes to make the details even sharper and more accurate. You can read more about our progress and current limitations on our website."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp",
+      "alt": "The image shows a colorful abstract design with the Google I/O 2026 logo."
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get more stories from Google in your inbox. Get more stories from Google in your inbox.",
+        "th": "Get more stories from Google in your inbox. Get more stories from Google in your inbox."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your information will be used in accordance with Google's privacy policy.",
+        "th": "Your information will be used in accordance with Google's privacy policy."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Done. Just one step more.",
+        "th": "Done. Just one step more."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check your inbox to confirm your subscription.",
+        "th": "Check your inbox to confirm your subscription."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You are already subscribed to our newsletter.",
+        "th": "You are already subscribed to our newsletter."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also subscribe with a different email address .",
+        "th": "You can also subscribe with a different email address ."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Google DeepMind",
+        "th": "Google DeepMind"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Maps",
+        "th": "Maps"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Google Labs",
+        "th": "Google Labs"
+      }
+    }
+  ]
+}

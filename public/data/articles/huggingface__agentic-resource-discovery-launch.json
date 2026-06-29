@@ -1,0 +1,549 @@
+{
+  "id": "huggingface__agentic-resource-discovery-launch",
+  "slug": "agentic-resource-discovery-launch",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+  "category": "News",
+  "date": "2026-06-17T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Agentic Resource Discovery: Let agents search",
+    "th": "Agentic Resource Discovery: Let agents search"
+  },
+  "summary": {
+    "en": "Agentic Resource Discovery: Let agents search",
+    "th": "Agentic Resource Discovery: Let agents search"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5f106ce5348d4c7346cd19ab/Uu08yZZlFuj3dtG4wld3n.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617264212503-603d25b75f9d390ab190b777.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6270d2ddbcef985363d774fa/HOKAxx_FKVRF-87WpGQbF.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/2b5cc6be85b5eb6b393522f4656e0c07.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6415a939e38b2bdc189f1da7/alb9EC84UTeGpVqqGD6VQ.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/31a868cd694a5540543e2a101530b586.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+9",
+        "th": "+9"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+      "alt": "ben burtenshaw's avatar"
+    },
+    {
+      "type": "img",
+      "src": "/avatars/909635453bf62a2a7118a01dd51b811c.svg",
+      "alt": "shaun smith's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The discovery problem",
+        "th": "The discovery problem"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ARD on the Hugging Face Hub",
+        "th": "ARD on the Hugging Face Hub"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Using it REST API and MCP Tool",
+        "th": "Using it REST API and MCP Tool"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "REST API and MCP Tool",
+        "th": "REST API and MCP Tool"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What this means for the specification",
+        "th": "What this means for the specification"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Learn more",
+        "th": "Learn more"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Agentic Resource Discovery (ARD) specification is the discovery layer that sits in front of them. It is a draft, open specification developed by contributors from Microsoft, Google, GoDaddy, Hugging Face, and others, with broad participation across the industry. It defines how agents and tools are cataloged, indexed, and searched across federated registries, so an agent can find capabilities at runtime instead of needing them pre-installed. It is not a product or a marketplace. It is a shared standard that any company can implement independently, and that any agent or tool can participate in.",
+        "th": "The Agentic Resource Discovery (ARD) specification is the discovery layer that sits in front of them. It is a draft, open specification developed by contributors from Microsoft, Google, GoDaddy, Hugging Face, and others, with broad participation across the industry. It defines how agents and tools are cataloged, indexed, and searched across federated registries, so an agent can find capabilities at runtime instead of needing them pre-installed. It is not a product or a marketplace. It is a shared standard that any company can implement independently, and that any agent or tool can participate in."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In this post, we'll explore the specification, how Hugging Face has implemented it, and how you can start building on ARD.",
+        "th": "In this post, we'll explore the specification, how Hugging Face has implemented it, and how you can start building on ARD."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The discovery problem",
+        "th": "The discovery problem"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The current model for agent capabilities is install-first, use-later. A developer hardcodes an MCP server URL into a config file. A user connects a service to their AI app via a plugin and reuses it. This works for the handful of tools an agent uses every day, but it doesn't scale to thousands of ad-hoc surfaces.",
+        "th": "The current model for agent capabilities is install-first, use-later. A developer hardcodes an MCP server URL into a config file. A user connects a service to their AI app via a plugin and reuses it. This works for the handful of tools an agent uses every day, but it doesn't scale to thousands of ad-hoc surfaces."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The fallback is to dump every available tool description into the LLM's context window and let the model pick. This is limited by the context budget. There are search-based strategies here too, but the descriptions are often too thin to disambiguate well.",
+        "th": "The fallback is to dump every available tool description into the LLM's context window and let the model pick. This is limited by the context budget. There are search-based strategies here too, but the descriptions are often too thin to disambiguate well."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ARD moves selection outside the LLM. A registry indexes capabilities with richer signals such as publisher identity, representative queries, compliance attestations, and tags. It exposes a REST endpoint. The client searches in natural language, and the model invokes whatever the search returns. The shift is from manually installed, static catalogs to intent-based search that lets an agent find the right capability dynamically, and reach a growing ecosystem of MCP tools, A2A agents, and other services without pre-configuring each one.",
+        "th": "ARD moves selection outside the LLM. A registry indexes capabilities with richer signals such as publisher identity, representative queries, compliance attestations, and tags. It exposes a REST endpoint. The client searches in natural language, and the model invokes whatever the search returns. The shift is from manually installed, static catalogs to intent-based search that lets an agent find the right capability dynamically, and reach a growing ecosystem of MCP tools, A2A agents, and other services without pre-configuring each one."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The specification defines two things:",
+        "th": "The specification defines two things:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A static manifest format called ai-catalog.json lets publishers host their capabilities at a well-known URL.",
+        "th": "A static manifest format called ai-catalog.json lets publishers host their capabilities at a well-known URL."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A dynamic registry API at POST /search provides live, ranked discovery.",
+        "th": "A dynamic registry API at POST /search provides live, ranked discovery."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "ARD on the Hugging Face Hub",
+        "th": "ARD on the Hugging Face Hub"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Hugging Face Discover Tool is our reference implementation of ARD. It provides search access to thousands of Skills, ML applications, and MCP Servers — on Hugging Face and across other ARD discovery services.",
+        "th": "The Hugging Face Discover Tool is our reference implementation of ARD. It provides search access to thousands of Skills, ML applications, and MCP Servers — on Hugging Face and across other ARD discovery services."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It works by combining the Hub's existing semantic search over Spaces, alongside our Agent Skills, and serving the results as ARD catalog entries. The Hub already hosts a catalog of Spaces running Gradio apps, MCP servers, and demos. Its semantic search supports an agents=true flag that returns Spaces ranked by agent-oriented metadata, and Discover translates that search into the ARD specification.",
+        "th": "It works by combining the Hub's existing semantic search over Spaces, alongside our Agent Skills, and serving the results as ARD catalog entries. The Hub already hosts a catalog of Spaces running Gradio apps, MCP servers, and demos. Its semantic search supports an agents=true flag that returns Spaces ranked by agent-oriented metadata, and Discover translates that search into the ARD specification."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The adapter applies two filters. First, the response includes only Spaces whose runtime stage is RUNNING. Second, the response media type is driven by the request. Three media types are supported:",
+        "th": "The adapter applies two filters. First, the response includes only Spaces whose runtime stage is RUNNING. Second, the response media type is driven by the request. Three media types are supported:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "application/ai-skill: the default. A generated SKILL.md wrapping the Space's agents.md.",
+        "th": "application/ai-skill: the default. A generated SKILL.md wrapping the Space's agents.md."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "application/mcp-server+json: an MCP server catalog entry for Spaces tagged mcp-server.",
+        "th": "application/mcp-server+json: an MCP server catalog entry for Spaces tagged mcp-server."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "application/vnd.huggingface.space+json: raw Space metadata for clients that want to handle it themselves.",
+        "th": "application/vnd.huggingface.space+json: raw Space metadata for clients that want to handle it themselves."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The skill type involves an additional transformation. Many Spaces ship an agents.md file describing how an agent should interact with them. Discover reads that file and wraps it with the frontmatter a skill consumer expects: name, description, and source metadata covering the Space ID, Hub URL, app URL, and original agents.md URL. The result is a skill any skill-aware client can install or load through its normal skill flow.",
+        "th": "The skill type involves an additional transformation. Many Spaces ship an agents.md file describing how an agent should interact with them. Discover reads that file and wraps it with the frontmatter a skill consumer expects: name, description, and source metadata covering the Space ID, Hub URL, app URL, and original agents.md URL. The result is a skill any skill-aware client can install or load through its normal skill flow."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For MCP-tagged Spaces, the adapter generates a catalog entry pointing at the Space's Gradio MCP endpoint over HTTP transport. The URL uses the Space's runtime domain when the Hub provides one, otherwise the standard .hf.space slug convention.",
+        "th": "For MCP-tagged Spaces, the adapter generates a catalog entry pointing at the Space's Gradio MCP endpoint over HTTP transport. The URL uses the Space's runtime domain when the Hub provides one, otherwise the standard .hf.space slug convention."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Using it",
+        "th": "Using it"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "discover is built into the Hugging Face CLI (hf). To get started and give you or your agent access:",
+        "th": "discover is built into the Hugging Face CLI (hf). To get started and give you or your agent access:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "REST API and MCP Tool",
+        "th": "REST API and MCP Tool"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also Search the catalog directly using either the REST API or an MCP Server.",
+        "th": "You can also Search the catalog directly using either the REST API or an MCP Server."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Hugging Face catalog is published at its well-known URL:",
+        "th": "The Hugging Face catalog is published at its well-known URL:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To call search directly:",
+        "th": "To call search directly:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Search for MCP servers",
+        "th": "Search for MCP servers"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Alternatively, connect any MCP Client to search via MCP endpoint using https://huggingface-hf-discover.hf.space/mcp to search the catalog.",
+        "th": "Alternatively, connect any MCP Client to search via MCP endpoint using https://huggingface-hf-discover.hf.space/mcp to search the catalog."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What this means for the specification",
+        "th": "What this means for the specification"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ARD separates discovery from execution. The static manifest format is driven by media type, so any artifact protocol can ride the same envelope without specification-level changes. The registry API is plain HTTP REST, so any client can federate against it. Discover is one of several reference implementations of the specification across the ecosystem, and because federation is built into the protocol, a search through one service can surface capabilities hosted by another.",
+        "th": "ARD separates discovery from execution. The static manifest format is driven by media type, so any artifact protocol can ride the same envelope without specification-level changes. The registry API is plain HTTP REST, so any client can federate against it. Discover is one of several reference implementations of the specification across the ecosystem, and because federation is built into the protocol, a search through one service can surface capabilities hosted by another."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Discover Tool is a working test of that design. It does not invent a new artifact format. It wraps an existing search backend, the Hub, in the specification's envelope, and lets the same Spaces surface as skills or MCP servers depending on what the client asked for.",
+        "th": "The Discover Tool is a working test of that design. It does not invent a new artifact format. It wraps an existing search backend, the Hub, in the specification's envelope, and lets the same Spaces surface as skills or MCP servers depending on what the client asked for."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Next steps are tighter integration with the specification's federation modes (auto, referrals, none) and Hub-side support for static ai-catalog.json manifests on user and organization profiles. Once that lands, any Space publisher will be able to advertise their capabilities through the standard well-known URI mechanism.",
+        "th": "Next steps are tighter integration with the specification's federation modes (auto, referrals, none) and Hub-side support for static ai-catalog.json manifests on user and organization profiles. Once that lands, any Space publisher will be able to advertise their capabilities through the standard well-known URI mechanism."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Learn more",
+        "th": "Learn more"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The Agentic Resource Discovery Specification: https://agenticresourcediscovery.org/",
+        "th": "The Agentic Resource Discovery Specification: https://agenticresourcediscovery.org/"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The Hugging Face Discover Tool: https://github.com/huggingface/hf-discover",
+        "th": "The Hugging Face Discover Tool: https://github.com/huggingface/hf-discover"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The Hugging Face CLI: https://github.com/huggingface/huggingface_hub",
+        "th": "The Hugging Face CLI: https://github.com/huggingface/huggingface_hub"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Agent Skills on the Hub: https://huggingface.co/docs/hub/agents-skills",
+        "th": "Agent Skills on the Hub: https://huggingface.co/docs/hub/agents-skills"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Hugging Face Spaces: https://huggingface.co/spaces",
+        "th": "Hugging Face Spaces: https://huggingface.co/spaces"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More Articles from our Blog",
+        "th": "More Articles from our Blog"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/python-tiny-agents/thumbnail.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Tiny Agents in Python: a MCP-powered agent in ~70 lines of code",
+        "th": "Tiny Agents in Python: a MCP-powered agent in ~70 lines of code"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6192895f3b8aa351a46fadfd/gsGa2PvHTKAv7MNbyLH8y.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/NQtzmrDdbG0H8qkZvRyGk.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1659336880158-6273f303f6d63a28483fde12.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/909635453bf62a2a7118a01dd51b811c.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/huggingface-hub-release-ci/thumbnail.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+        "th": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1659336880158-6273f303f6d63a28483fde12.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6192895f3b8aa351a46fadfd/gsGa2PvHTKAv7MNbyLH8y.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "Community"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6a1adda98e92da1d81998ba8/zun7xpKke0yytMCYsaghy.png",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Google just published Agentic Resource Discovery — an open standard (with the Linux Foundation) for how AI agents find and connect to capabilities across the web. Think DNS + a phone book for agents.",
+        "th": "Google just published Agentic Resource Discovery — an open standard (with the Linux Foundation) for how AI agents find and connect to capabilities across the web. Think DNS + a phone book for agents."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The model is simple: you publish an ai-catalog.json at a well‑known path on your domain → registries crawl it → an agent searches by intent → it verifies the publisher → then it connects (over MCP, A2A, or a plain API). Publish → crawl → search → verify → connect.",
+        "th": "The model is simple: you publish an ai-catalog.json at a well‑known path on your domain → registries crawl it → an agent searches by intent → it verifies the publisher → then it connects (over MCP, A2A, or a plain API). Publish → crawl → search → verify → connect."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Most of the coverage will fixate on discovery. I want to flag step 4, because it's the one that actually matters: verify. The agent is about to act on what it finds — call a tool, pull data, make a decision. \"I found a capability\" is worthless if it can't check who published it and whether it's been tampered with. Discovery without verification just industrialises trusting strangers.",
+        "th": "Most of the coverage will fixate on discovery. I want to flag step 4, because it's the one that actually matters: verify. The agent is about to act on what it finds — call a tool, pull data, make a decision. \"I found a capability\" is worthless if it can't check who published it and whether it's been tampered with. Discovery without verification just industrialises trusting strangers."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That's the half we've been building the whole time — so when the spec dropped this week, we shipped our catalog the same week. Dynamic Feed is now a verifiable ARD publisher: domain‑anchored identity, every datapoint Ed25519‑signed and checkable against our public key.",
+        "th": "That's the half we've been building the whole time — so when the spec dropped this week, we shipped our catalog the same week. Dynamic Feed is now a verifiable ARD publisher: domain‑anchored identity, every datapoint Ed25519‑signed and checkable against our public key."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The agentic web is going to be discovered and verified. Good to see the standard treat the second half as a first‑class citizen.",
+        "th": "The agentic web is going to be discovered and verified. Good to see the standard treat the second half as a first‑class citizen."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If you publish an API, an MCP server, or an agent — you can host an ai-catalog.json today. It's a single file. Spec's open: github.com/ards-project/ard-spec",
+        "th": "If you publish an API, an MCP server, or an agent — you can host an ai-catalog.json today. It's a single file. Spec's open: github.com/ards-project/ard-spec"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· Sign up or log in to comment"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5f106ce5348d4c7346cd19ab/Uu08yZZlFuj3dtG4wld3n.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617264212503-603d25b75f9d390ab190b777.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6270d2ddbcef985363d774fa/HOKAxx_FKVRF-87WpGQbF.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/2b5cc6be85b5eb6b393522f4656e0c07.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6415a939e38b2bdc189f1da7/alb9EC84UTeGpVqqGD6VQ.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/31a868cd694a5540543e2a101530b586.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/5efa04771596f487f6c285875d8ff3c0.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/fd439816d2e797457ff8a8aac0f82cc0.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/948444c25d245c3a3d68eee1c6c63dc1.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/67769df7f45aa32b2edfc87f/2_SnR2JHYQFlekOMnkYTM.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/acad0ca7fc6ea30d12a7a8c6f5ec83e5.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/1b381312fd84fe524c60ef5b6f81dd14.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+3",
+        "th": "+3"
+      }
+    }
+  ]
+}

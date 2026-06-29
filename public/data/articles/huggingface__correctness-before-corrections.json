@@ -1,0 +1,752 @@
+{
+  "id": "huggingface__correctness-before-corrections",
+  "slug": "correctness-before-corrections",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+  "category": "News",
+  "date": "2026-05-06T19:06:55.000Z",
+  "image": null,
+  "title": {
+    "en": "vLLM V0 to V1: Correctness Before Corrections in RL",
+    "th": "vLLM V0 to V1: Correctness Before Corrections in RL"
+  },
+  "summary": {
+    "en": "vLLM V0 to V1: Correctness Before Corrections in RL",
+    "th": "vLLM V0 to V1: Correctness Before Corrections in RL"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "/avatars/5aec4a666b524d0ca052fb82c45a0d25.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/58a9abce945e71a65abc8a54085de6d7.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/d4d2f4fe34348047ebbff6cb688b2f06.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/5427b05b3ef627d4d8281f9a33bb98ab.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65c20ee58aedd6edd2b89000/LtS4YTbmxiCFqHSGHfdC8.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/32c720b2d0070de401cef59350f346c2.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+5",
+        "th": "+5"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/FG49LyjRUUXYXJ1TPp6BF.png",
+      "alt": "Rafael Pardinas's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63d3095c2727d7888cbb54e2/Uv-Lx8PVGviqokfOyYlCN.png",
+      "alt": "ServiceNow-AI's avatar"
+    },
+    {
+      "type": "img",
+      "src": "/avatars/b2070b29f5583d93f2f4cdfd83fb0619.svg",
+      "alt": "Ehsan Kamalloo's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63d3095c2727d7888cbb54e2/Uv-Lx8PVGviqokfOyYlCN.png",
+      "alt": "ServiceNow-AI's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Migration Objective",
+        "th": "Migration Objective"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Failure Modes",
+        "th": "Failure Modes"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "V1 Backend Fixes Logprob Semantics Runtime Defaults Inflight Weight Updates",
+        "th": "V1 Backend Fixes Logprob Semantics Runtime Defaults Inflight Weight Updates"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Logprob Semantics",
+        "th": "Logprob Semantics"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Runtime Defaults",
+        "th": "Runtime Defaults"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Inflight Weight Updates",
+        "th": "Inflight Weight Updates"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The Remaining Gap: fp32 lm_head",
+        "th": "The Remaining Gap: fp32 lm_head"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Ablations",
+        "th": "Ablations"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why We Fixed Backend Correctness First",
+        "th": "Why We Fixed Backend Correctness First"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "TL;DR. vLLM V1 matched our vLLM V0 reference after we fixed four things: processed rollout logprobs, V1-specific runtime defaults, the inflight weight-update path, and the fp32 lm_head used for the final projection. We fixed the backend behavior before changing the RL objective.",
+        "th": "TL;DR. vLLM V1 matched our vLLM V0 reference after we fixed four things: processed rollout logprobs, V1-specific runtime defaults, the inflight weight-update path, and the fp32 lm_head used for the final projection. We fixed the backend behavior before changing the RL objective."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The reference run used vLLM 0.8.5; the V1 runs used vLLM 0.18.1. Figure 1 shows the final result. The red run is the initial V1 attempt, and the green run is the final V1 run after the fixes described below.",
+        "th": "The reference run used vLLM 0.8.5; the V1 runs used vLLM 0.18.1. Figure 1 shows the final result. The red run is the initial V1 attempt, and the green run is the final V1 run after the fixes described below."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/61f750055596aa721ce68efe/2Q2pkNtiYPrlLVLoH51dO.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Migration Objective",
+        "th": "Migration Objective"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "vLLM V1 is a substantial rewrite of the V0 engine. Our migration target was therefore deliberately narrow:",
+        "th": "vLLM V1 is a substantial rewrite of the V0 engine. Our migration target was therefore deliberately narrow:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "verify that V1 returned rollout logprobs in the form the trainer expected",
+        "th": "verify that V1 returned rollout logprobs in the form the trainer expected"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "rerun the same workload against the V0 reference",
+        "th": "rerun the same workload against the V0 reference"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "evaluate objective-level changes only after backend parity was restored",
+        "th": "evaluate objective-level changes only after backend parity was restored"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The first visible symptoms appeared in:",
+        "th": "The first visible symptoms appeared in:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "clamp_log_ratio_new_old_indicator",
+        "th": "clamp_log_ratio_new_old_indicator"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "kl_new_old",
+        "th": "kl_new_old"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "entropy",
+        "th": "entropy"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "reward",
+        "th": "reward"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Those metrics came from a GSPO training run, the objective used for this experiment. The same class of mismatch can surface in PPO, GRPO, or any online RL system that treats rollout-side logprobs as part of the optimization target.",
+        "th": "Those metrics came from a GSPO training run, the objective used for this experiment. The same class of mismatch can surface in PPO, GRPO, or any online RL system that treats rollout-side logprobs as part of the optimization target."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The initial V1 run showed the problem clearly. The trainer-side logprobs and reward moved away from the V0 reference early in training.",
+        "th": "The initial V1 run showed the problem clearly. The trainer-side logprobs and reward moved away from the V0 reference early in training."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/61f750055596aa721ce68efe/YhRfKIEKndf4LGG9g7Ck9.png",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The same pattern appears in the trainer metrics. Clip rate is the easiest signal to read in the initial comparison.",
+        "th": "The same pattern appears in the trainer metrics. Clip rate is the easiest signal to read in the initial comparison."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/61f750055596aa721ce68efe/6fQ4PVHFb_bbYMzducj1o.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Failure Modes",
+        "th": "Failure Modes"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We separated the possible causes into three layers:",
+        "th": "We separated the possible causes into three layers:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Semantic mismatch: the backend returns logprobs with different meaning relative to what the trainer expects.",
+        "th": "Semantic mismatch: the backend returns logprobs with different meaning relative to what the trainer expects."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Inference-path mismatch: the backend uses different runtime defaults for caching, scheduling, or request handling, so the same prompts follow a different execution path.",
+        "th": "Inference-path mismatch: the backend uses different runtime defaults for caching, scheduling, or request handling, so the same prompts follow a different execution path."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Objective mismatch: the RL objective needs correction for the amount of staleness or backend mismatch that remains.",
+        "th": "Objective mismatch: the RL objective needs correction for the amount of staleness or backend mismatch that remains."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We initially suspected the third category too early. The useful diagnosis came from treating the first two as backend behavior problems and ruling them out first.",
+        "th": "We initially suspected the third category too early. The useful diagnosis came from treating the first two as backend behavior problems and ruling them out first."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "V1 Backend Fixes",
+        "th": "V1 Backend Fixes"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Logprob Semantics",
+        "th": "Logprob Semantics"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The first issue was semantic. vLLM V1 returns logprobs from the raw model outputs by default, before logits post-processing such as temperature scaling, penalties, and top-k/top-p filtering. PipelineRL expected logprobs from the processed distribution used by the sampler.",
+        "th": "The first issue was semantic. vLLM V1 returns logprobs from the raw model outputs by default, before logits post-processing such as temperature scaling, penalties, and top-k/top-p filtering. PipelineRL expected logprobs from the processed distribution used by the sampler."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The required setting was:",
+        "th": "The required setting was:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "logprobs-mode=processed_logprobs",
+        "th": "logprobs-mode=processed_logprobs"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This removed the obvious mean offset in rollout logprobs. The training curves still showed a gap relative to the known-good reference, so the next issue had to be in the inference path.",
+        "th": "This removed the obvious mean offset in rollout logprobs. The training curves still showed a gap relative to the known-good reference, so the next issue had to be in the inference path."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The policy-ratio plot shows this directly. Once processed_logprobs is on for V1, the mean policy ratio stays centered extremely close to 1.0 across all three runs. That establishes the mean-bias fix. The remaining mismatch shows up in clip rate, KL, entropy, and downstream training behavior.",
+        "th": "The policy-ratio plot shows this directly. Once processed_logprobs is on for V1, the mean policy ratio stays centered extremely close to 1.0 across all three runs. That establishes the mean-bias fix. The remaining mismatch shows up in clip rate, KL, entropy, and downstream training behavior."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/61f750055596aa721ce68efe/K0PQyxwunQUipAXv9Iy1n.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Runtime Defaults",
+        "th": "Runtime Defaults"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The early V1 run mixed the engine version with V1 runtime defaults:",
+        "th": "The early V1 run mixed the engine version with V1 runtime defaults:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "prefix caching, left unset in the early run so the vLLM 0.18.1 default applied",
+        "th": "prefix caching, left unset in the early run so the vLLM 0.18.1 default applied"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "async scheduling, left unset in the early run so the vLLM 0.18.1 default applied",
+        "th": "async scheduling, left unset in the early run so the vLLM 0.18.1 default applied"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "an ad-hoc disable-cascade-attn override that was set through launch-time kwarg passthrough and sits outside the parity recipe in committed config",
+        "th": "an ad-hoc disable-cascade-attn override that was set through launch-time kwarg passthrough and sits outside the parity recipe in committed config"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For the parity run, we made these choices explicit:",
+        "th": "For the parity run, we made these choices explicit:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prefix caching deserves a separate note. It is normally a correctness-preserving inference optimization for a fixed model state. In this online RL setup, it was a V1-only difference in cache lifetime and reuse relative to the V0 reference path. The actor was also handling repeated prefixes, concurrent requests, async scheduling, and inflight weight updates.",
+        "th": "Prefix caching deserves a separate note. It is normally a correctness-preserving inference optimization for a fixed model state. In this online RL setup, it was a V1-only difference in cache lifetime and reuse relative to the V0 reference path. The actor was also handling repeated prefixes, concurrent requests, async scheduling, and inflight weight updates."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A prefix-cache hit can reuse state computed before a weight update when the cache policy ignores the weight-update boundary. Disabling prefix caching removed one V1-only degree of freedom from the parity comparison.",
+        "th": "A prefix-cache hit can reuse state computed before a weight update when the cache policy ignores the weight-update boundary. Disabling prefix caching removed one V1-only degree of freedom from the parity comparison."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Inflight Weight Updates",
+        "th": "Inflight Weight Updates"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Weight synchronization also had to match the online-RL update model. One option was to make V1 stricter than V0 by draining requests and clearing caches at every update. That would answer a separate question. We first needed to verify that V1 could match the existing V0 behavior.",
+        "th": "Weight synchronization also had to match the online-RL update model. One option was to make V1 stricter than V0 by draining requests and clearing caches at every update. That would answer a separate question. We first needed to verify that V1 could match the existing V0 behavior."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "What V0 effectively did was closer to:",
+        "th": "What V0 effectively did was closer to:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "block execution at an engine boundary",
+        "th": "block execution at an engine boundary"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "load the new weights",
+        "th": "load the new weights"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "resume without an explicit cached-state invalidation",
+        "th": "resume without an explicit cached-state invalidation"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The nearest V1 analogue was:",
+        "th": "The nearest V1 analogue was:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Two details matter:",
+        "th": "Two details matter:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "mode=\"keep\" matches the old inflight update model more closely than wait or abort",
+        "th": "mode=\"keep\" matches the old inflight update model more closely than wait or abort"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "clear_cache=False matches the V0 wrapper behavior, which left cached state intact on update",
+        "th": "clear_cache=False matches the V0 wrapper behavior, which left cached state intact on update"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Lag was a useful runtime diagnostic. The initial V1 path carries more persistent lag later in training than the corrected V1 run.",
+        "th": "Lag was a useful runtime diagnostic. The initial V1 path carries more persistent lag later in training than the corrected V1 run."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/680ba1729f7688275d2ce0f4/XWXONkgJtznG09PVLFCAl.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The Remaining Gap: fp32 lm_head",
+        "th": "The Remaining Gap: fp32 lm_head"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The V1 backend fixes above removed the obvious migration issues, but final parity still required matching the numerical path used to compute logits. The trainer used an fp32 lm_head for the final projection. The rollout backend had to match that behavior.",
+        "th": "The V1 backend fixes above removed the obvious migration issues, but final parity still required matching the numerical path used to compute logits. The trainer used an fp32 lm_head for the final projection. The rollout backend had to match that behavior."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A closely related issue appears in the MiniMax-M1 technical report: their RL run showed a training/inference token-probability mismatch that they traced to the LM output head and fixed by computing the head in fp32.",
+        "th": "A closely related issue appears in the MiniMax-M1 technical report: their RL run showed a training/inference token-probability mismatch that they traced to the LM output head and fixed by computing the head in fp32."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This matters because the RL update consumes token logprobs directly. Small changes in logits can become visible in policy ratios, KL, and clipping. The final projection precision is therefore part of the correctness surface for online RL. The ScaleRL paper later includes fp32 logits/head computation as part of its RL recipe and ablates it as a useful design choice for large-scale RL.",
+        "th": "This matters because the RL update consumes token logprobs directly. Small changes in logits can become visible in policy ratios, KL, and clipping. The final projection precision is therefore part of the correctness surface for online RL. The ScaleRL paper later includes fp32 logits/head computation as part of its RL recipe and ablates it as a useful design choice for large-scale RL."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With the fp32 lm_head path included, reward gives a compact view of the final parity result. In Figure 6, the final V1 run tracks the V0 reference; the initial V1 attempt produces a clearly different reward curve.",
+        "th": "With the fp32 lm_head path included, reward gives a compact view of the final parity result. In Figure 6, the final V1 run tracks the V0 reference; the initial V1 attempt produces a clearly different reward curve."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/680ba1729f7688275d2ce0f4/oCuXYiTLSl6-jPJLBzWoU.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Ablations",
+        "th": "Ablations"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The negative results are important because they rule out common explanations.",
+        "th": "The negative results are important because they rule out common explanations."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "processed_logprobs alone: fixed the semantic logprob bug; the training mismatch remained.",
+        "th": "processed_logprobs alone: fixed the semantic logprob bug; the training mismatch remained."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Batch invariance: the mismatch remained in a separate test, with higher lag, higher clip rate, and NCCL complications.",
+        "th": "Batch invariance: the mismatch remained in a separate test, with higher lag, higher clip rate, and NCCL complications."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Treating the first V1 run as a fair baseline: the first V1 run had multiple V1-only defaults enabled, so it was a confounded migration comparison.",
+        "th": "Treating the first V1 run as a fair baseline: the first V1 run had multiple V1-only defaults enabled, so it was a confounded migration comparison."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Why We Fixed Backend Correctness First",
+        "th": "Why We Fixed Backend Correctness First"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Objective-side corrections such as truncated importance sampling, importance-ratio reweighting, and related methods are useful tools. If rollouts are intentionally stale, generated asynchronously, or produced by a backend where equivalence to the trainer-side policy is unavailable, then some form of correction is often the right thing to add.",
+        "th": "Objective-side corrections such as truncated importance sampling, importance-ratio reweighting, and related methods are useful tools. If rollouts are intentionally stale, generated asynchronously, or produced by a backend where equivalence to the trainer-side policy is unavailable, then some form of correction is often the right thing to add."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The first problem here was inference correctness. After moving to V1, the rollout backend returned logprobs and runtime behavior that broke the trainer assumption. Adding an objective-side correction at that point would have mixed two questions:",
+        "th": "The first problem here was inference correctness. After moving to V1, the rollout backend returned logprobs and runtime behavior that broke the trainer assumption. Adding an objective-side correction at that point would have mixed two questions:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "is the inference backend producing the right logprobs?",
+        "th": "is the inference backend producing the right logprobs?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "given correct logprobs, does the objective still need an off-policy or async correction?",
+        "th": "given correct logprobs, does the objective still need an off-policy or async correction?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Those questions need to be separated. Otherwise an objective-side correction can compensate for broken inference-backend behavior, which makes the training curve harder to interpret.",
+        "th": "Those questions need to be separated. Otherwise an objective-side correction can compensate for broken inference-backend behavior, which makes the training curve harder to interpret."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The current objective can still improve. After inference parity is restored, the next improvement is the usual async/off-policy cleanup:",
+        "th": "The current objective can still improve. After inference parity is restored, the next improvement is the usual async/off-policy cleanup:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "keep explicit behavior-policy logprobs from rollout time",
+        "th": "keep explicit behavior-policy logprobs from rollout time"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "recompute trainer-side old-policy logprobs at optimization time",
+        "th": "recompute trainer-side old-policy logprobs at optimization time"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "separate backend mismatch correction from the policy-update ratio",
+        "th": "separate backend mismatch correction from the policy-update ratio"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "track diagnostics like ESS for the correction term alongside aggregate trainer metrics",
+        "th": "track diagnostics like ESS for the correction term alongside aggregate trainer metrics"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The main lesson from this migration is narrower: fix backend correctness first, then add corrections for the mismatch that remains.",
+        "th": "The main lesson from this migration is narrower: fix backend correctness first, then add corrections for the mismatch that remains."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More from this author",
+        "th": "More from this author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
+        "th": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63d3095c2727d7888cbb54e2/Uv-Lx8PVGviqokfOyYlCN.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
+        "th": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63d3095c2727d7888cbb54e2/Uv-Lx8PVGviqokfOyYlCN.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "Community"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· Sign up or log in to comment"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/5aec4a666b524d0ca052fb82c45a0d25.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/58a9abce945e71a65abc8a54085de6d7.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/d4d2f4fe34348047ebbff6cb688b2f06.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/5427b05b3ef627d4d8281f9a33bb98ab.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65c20ee58aedd6edd2b89000/LtS4YTbmxiCFqHSGHfdC8.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/32c720b2d0070de401cef59350f346c2.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/PSK4uWkqZ3rsa2XON79Zg.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/FG49LyjRUUXYXJ1TPp6BF.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/7_LwTQwoME1zXBsaChOCF.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/a90f02c7c81c0a9e440e4c839d3905cf.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/ee7606817b6af17b3c8a3af933c9487e.svg",
+      "alt": ""
+    }
+  ]
+}

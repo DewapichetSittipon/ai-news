@@ -1,0 +1,304 @@
+{
+  "id": "deepmind__gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery",
+  "slug": "gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/",
+  "category": "News",
+  "date": "2026-05-17T13:50:34.000Z",
+  "image": null,
+  "title": {
+    "en": "Gemini for Science: AI experiments and tools for a new era of discovery",
+    "th": "Gemini for Science: AI experiments and tools for a new era of discovery"
+  },
+  "summary": {
+    "en": "A collection of science tools and experiments to expand the scale and precision of scientific exploration.",
+    "th": "A collection of science tools and experiments to expand the scale and precision of scientific exploration."
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "Innovation & AI"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Technology",
+        "th": "Technology"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Research",
+        "th": "Research"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Explore the future of discovery with new Science Skills in Google Antigravity and three new experimental tools on Google Labs. These tools are designed to help accelerate core steps of the scientific method, built with Co-Scientist, AlphaEvolve, Empirical Research Assistance and NotebookLM.",
+        "th": "Explore the future of discovery with new Science Skills in Google Antigravity and three new experimental tools on Google Labs. These tools are designed to help accelerate core steps of the scientific method, built with Co-Scientist, AlphaEvolve, Empirical Research Assistance and NotebookLM."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pushmeet.max-244x184.format-webp.webp",
+      "alt": "Pushmeet"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/yossi-portrait-high-res_1.max-244x184.format-webp.webp",
+      "alt": "yossi-portrait-high-res (1)"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/science__keyword__blog-header.width-200.format-webp.webp",
+      "alt": "Person using a microscope with \"Gemini for Science\" text and star icon."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "Your browser does not support the audio element."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For centuries, the scientific method has been the greatest engine of human progress. At Google, our mission is deeply rooted in building tools to accelerate it. We believe that a new era of discovery won’t come from narrow, specialized models, but general agents that empower researchers across every scientific field.",
+        "th": "For centuries, the scientific method has been the greatest engine of human progress. At Google, our mission is deeply rooted in building tools to accelerate it. We believe that a new era of discovery won’t come from narrow, specialized models, but general agents that empower researchers across every scientific field."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That’s why we are introducing Gemini for Science, a collection of science tools and experiments designed to expand the scale and precision of scientific exploration.",
+        "th": "That’s why we are introducing Gemini for Science, a collection of science tools and experiments designed to expand the scale and precision of scientific exploration."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "A force multiplier for human ingenuity",
+        "th": "A force multiplier for human ingenuity"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today science faces a paradox: our collective knowledge is growing so fast that it’s becoming harder for individual scientists to see the full picture. Scientific breakthroughs often rely upon making creative connections between data, but the time required to do this manually can take weeks or even months. AI can help eliminate this bottleneck and serve as a force multiplier for scientific work by handling complex tasks. This allows researchers to focus on identifying and tackling the most impactful scientific problems and directions that would drive progress.",
+        "th": "Today science faces a paradox: our collective knowledge is growing so fast that it’s becoming harder for individual scientists to see the full picture. Scientific breakthroughs often rely upon making creative connections between data, but the time required to do this manually can take weeks or even months. AI can help eliminate this bottleneck and serve as a force multiplier for scientific work by handling complex tasks. This allows researchers to focus on identifying and tackling the most impactful scientific problems and directions that would drive progress."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini for Science experimental tools on Google Labs include three primary prototypes designed to handle such tasks.",
+        "th": "Gemini for Science experimental tools on Google Labs include three primary prototypes designed to handle such tasks."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Hypothesis Generation, built with Co-Scientist: Ideation is the heartbeat of science, but no human can synthesise the millions of papers published annually. Hypothesis Generation bridges this gap by simulating the scientific method: it collaborates with researchers to define a research challenge, then uses a multi-agent “idea tournament” to generate, debate and evaluate hypotheses. To ensure absolute rigor, claims are deeply verified and supported by clickable citations.",
+        "th": "Hypothesis Generation, built with Co-Scientist: Ideation is the heartbeat of science, but no human can synthesise the millions of papers published annually. Hypothesis Generation bridges this gap by simulating the scientific method: it collaborates with researchers to define a research challenge, then uses a multi-agent “idea tournament” to generate, debate and evaluate hypotheses. To ensure absolute rigor, claims are deeply verified and supported by clickable citations."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Computational Discovery, built with AlphaEvolve and ERA (Empirical Research Assistance): Scientific progress is often limited by the number of hypotheses we can realistically test with computational experiments. Computational Discovery, an agentic research engine, is a prototype that solves this by generating and scoring thousands of code variations in parallel. This allows scientists to test novel modeling approaches — for complex fields like solar forecasting or epidemiology — that would take months to navigate manually.",
+        "th": "Computational Discovery, built with AlphaEvolve and ERA (Empirical Research Assistance): Scientific progress is often limited by the number of hypotheses we can realistically test with computational experiments. Computational Discovery, an agentic research engine, is a prototype that solves this by generating and scoring thousands of code variations in parallel. This allows scientists to test novel modeling approaches — for complex fields like solar forecasting or epidemiology — that would take months to navigate manually."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Literature Insights, built with Google NotebookLM: Understanding scientific literature is a core part of all research journeys. Literature Insights searches scientific literature and structures results into tables with custom, searchable attributes for side-by-side analysis. Researchers can use chat to uncover nuances grounded in their curated corpus, and create high-fidelity artifacts such as reports, slide decks, infographics and audio and video overviews. With the power of NotebookLM, Literature insights helps synthesize findings across papers, identify research gaps and uncover areas of opportunity.",
+        "th": "Literature Insights, built with Google NotebookLM: Understanding scientific literature is a core part of all research journeys. Literature Insights searches scientific literature and structures results into tables with custom, searchable attributes for side-by-side analysis. Researchers can use chat to uncover nuances grounded in their curated corpus, and create high-fidelity artifacts such as reports, slide decks, infographics and audio and video overviews. With the power of NotebookLM, Literature insights helps synthesize findings across papers, identify research gaps and uncover areas of opportunity."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Starting today, we’ll begin gradually opening access to these experiments. Visit labs.google/science to register your interest.",
+        "th": "Starting today, we’ll begin gradually opening access to these experiments. Visit labs.google/science to register your interest."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Beyond the individual experiments, we’re also bringing these advanced AI capabilities to enterprise organizations through Google Cloud. Our enterprise-grade solutions for scientific and industrial R&D are already being used by a range of partners in private preview to drive real-world impact. Companies like BASF are using AlphaEvolve to optimize their supply chains, and Klarna is leveraging it to enhance their machine learning models. In parallel, organizations like Daiichi Sankyo, Bayer Crop Science and the U.S. National Labs (as part of the U.S. Department of Energy's Genesis Mission) are using Co-Scientist to accelerate their research and tackle fundamental scientific challenges. These enterprise-grade tools are demonstrating significant value in their current preview phase. We are excited about the breakthroughs our partners are unlocking and look forward to expanding access to more organizations in the coming months.",
+        "th": "Beyond the individual experiments, we’re also bringing these advanced AI capabilities to enterprise organizations through Google Cloud. Our enterprise-grade solutions for scientific and industrial R&D are already being used by a range of partners in private preview to drive real-world impact. Companies like BASF are using AlphaEvolve to optimize their supply chains, and Klarna is leveraging it to enhance their machine learning models. In parallel, organizations like Daiichi Sankyo, Bayer Crop Science and the U.S. National Labs (as part of the U.S. Department of Energy's Genesis Mission) are using Co-Scientist to accelerate their research and tackle fundamental scientific challenges. These enterprise-grade tools are demonstrating significant value in their current preview phase. We are excited about the breakthroughs our partners are unlocking and look forward to expanding access to more organizations in the coming months."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Several validation papers have been already published based on these and other tools. The ERA and Co-Scientist research papers are published today in Nature.",
+        "th": "Several validation papers have been already published based on these and other tools. The ERA and Co-Scientist research papers are published today in Nature."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "A scientific workbench on your desktop",
+        "th": "A scientific workbench on your desktop"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As part of Gemini for Science, we are also launching Science Skills, a specialized bundle that integrates insights from over 30 major life science databases and tools including UniProt, AlphaFold Database, AlphaGenome API and InterPro. Using these skills on agentic platforms like Google Antigravity allows researchers to perform complex and often manual workflows like structural bioinformatics and genomic analyses in minutes rather than hours.",
+        "th": "As part of Gemini for Science, we are also launching Science Skills, a specialized bundle that integrates insights from over 30 major life science databases and tools including UniProt, AlphaFold Database, AlphaGenome API and InterPro. Using these skills on agentic platforms like Google Antigravity allows researchers to perform complex and often manual workflows like structural bioinformatics and genomic analyses in minutes rather than hours."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our research teams using Science Skills have already seen this speedup in practice. In early testing, our team used Science Skills to perform a complex analysis that normally takes hours in minutes. This led to novel insights about potential mechanisms for a rare genetic disease caused by mutations in the AK2 gene.",
+        "th": "Our research teams using Science Skills have already seen this speedup in practice. In early testing, our team used Science Skills to perform a complex analysis that normally takes hours in minutes. This led to novel insights about potential mechanisms for a rare genetic disease caused by mutations in the AK2 gene."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To learn more on how to use Science Skills in Google Antigravity visit antigravity.google/use-cases/science.",
+        "th": "To learn more on how to use Science Skills in Google Antigravity visit antigravity.google/use-cases/science."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "A collaborative effort with the scientific community",
+        "th": "A collaborative effort with the scientific community"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our commitment to responsibly develop and deploy tools for science begins with the scientific ecosystem. We are collaborating with over 100 institutions — including Stanford University on liver fibrosis, Imperial College London on antimicrobial resistance and a multi-year effort with The Crick Institute — to validate our new systems and tools. To ensure the integrity of AI-generated insights, we’ve built a trusted tester community — ranging from PhD students to industry researchers to Nobel laureates — to stress test our systems against complex real-world challenges.",
+        "th": "Our commitment to responsibly develop and deploy tools for science begins with the scientific ecosystem. We are collaborating with over 100 institutions — including Stanford University on liver fibrosis, Imperial College London on antimicrobial resistance and a multi-year effort with The Crick Institute — to validate our new systems and tools. To ensure the integrity of AI-generated insights, we’ve built a trusted tester community — ranging from PhD students to industry researchers to Nobel laureates — to stress test our systems against complex real-world challenges."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In addition, we’ve also created dedicated pilots with leading scientific conferences like ICML, STOC and NeurIPS to develop pioneering tools for agentic peer review and scientific validation such as our experimental Paper Assistant Tool (PAT) and ScholarPeer.",
+        "th": "In addition, we’ve also created dedicated pilots with leading scientific conferences like ICML, STOC and NeurIPS to develop pioneering tools for agentic peer review and scientific validation such as our experimental Paper Assistant Tool (PAT) and ScholarPeer."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "All of this work builds on a long history of AI advancements. Our specialized AI models are already accelerating progress: AlphaFold has helped over 3 million researchers tackle malaria vaccines and plastic-eating enzymes; and AlphaGenome is helping scientists identify the drivers of disease. These sit alongside everyday tools researchers rely on — from Google Scholar and Earth Engine to Colab, MedGemma, Earth AI and Gemini Deep Research. With our latest Gemini Deep Think release, we continue to improve our core model capabilities on complex scientific tasks. Together, these tools have already become essential parts of the scientific ecosystem, helping researchers organize information and perform complex data analysis at scale.",
+        "th": "All of this work builds on a long history of AI advancements. Our specialized AI models are already accelerating progress: AlphaFold has helped over 3 million researchers tackle malaria vaccines and plastic-eating enzymes; and AlphaGenome is helping scientists identify the drivers of disease. These sit alongside everyday tools researchers rely on — from Google Scholar and Earth Engine to Colab, MedGemma, Earth AI and Gemini Deep Research. With our latest Gemini Deep Think release, we continue to improve our core model capabilities on complex scientific tasks. Together, these tools have already become essential parts of the scientific ecosystem, helping researchers organize information and perform complex data analysis at scale."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As we explore the future of agentic research together, we continue to work towards a future where AI accelerates scientific progress and helps solve our most pressing societal challenges.",
+        "th": "As we explore the future of agentic research together, we continue to work towards a future where AI accelerates scientific progress and helps solve our most pressing societal challenges."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp",
+      "alt": "The image shows a colorful abstract design with the Google I/O 2026 logo."
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get more stories from Google in your inbox. Get more stories from Google in your inbox.",
+        "th": "Get more stories from Google in your inbox. Get more stories from Google in your inbox."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your information will be used in accordance with Google's privacy policy.",
+        "th": "Your information will be used in accordance with Google's privacy policy."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Done. Just one step more.",
+        "th": "Done. Just one step more."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check your inbox to confirm your subscription.",
+        "th": "Check your inbox to confirm your subscription."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You are already subscribed to our newsletter.",
+        "th": "You are already subscribed to our newsletter."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also subscribe with a different email address .",
+        "th": "You can also subscribe with a different email address ."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Google Research",
+        "th": "Google Research"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini",
+        "th": "Gemini"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Google Labs",
+        "th": "Google Labs"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Google DeepMind",
+        "th": "Google DeepMind"
+      }
+    }
+  ]
+}

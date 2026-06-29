@@ -1,0 +1,164 @@
+{
+  "id": "deepmind__measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond",
+  "slug": "measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
+  "category": "News",
+  "date": "2026-06-08T13:04:59.000Z",
+  "image": "https://lh3.googleusercontent.com/5g2RQPPxqVGuOzfaYj1-8r_6B-Ytp79c9mpWXzBIrk2vUhtxZmA7bMywH41h-8b0EJAdW_K4l7kqHZlfS-QTFk8kFB5MA2bgxZ4hxbuAiOuDIn3ohA=w528-h297-n-nu-rw-lo",
+  "title": {
+    "en": "Measuring the impact of learning with AI in Sierra Leone and beyond",
+    "th": "Measuring the impact of learning with AI in Sierra Leone and beyond"
+  },
+  "summary": {
+    "en": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
+    "th": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "Zoubin Ghahramani",
+        "th": "Zoubin Ghahramani"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://lh3.googleusercontent.com/K9S2GhphTE5R60mhd4FbirKiVmeHlcZfOESfXniswrDGuq876-dblaqfT2VuzVeEeC-MbZ1tr4-FFdQpS-bHmsUao3sBIps6fOYTuooVeTxarP7P=w1440-h810-n-nu",
+      "alt": "A classroom setting where several school students in matching white uniforms sit at desks with desktop computers, working on lessons. An educator stands over a student on the right, guiding them through the computer screen. The backs of the students' shirts read \"Johanna Kuyvenhoven Model Junior Secondary School.\""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we are sharing the results and technical report from a randomized controlled trial (RCT), conducted in partnership with Fab AI and with the support of the Sierra Leone Ministry of Education1. Over eight weeks, we evaluated how Guided Learning in Gemini affected the math progress of 1,763 junior secondary students across 12 schools in Port Loko District of Sierra Leone.",
+        "th": "Today, we are sharing the results and technical report from a randomized controlled trial (RCT), conducted in partnership with Fab AI and with the support of the Sierra Leone Ministry of Education1. Over eight weeks, we evaluated how Guided Learning in Gemini affected the math progress of 1,763 junior secondary students across 12 schools in Port Loko District of Sierra Leone."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We look to be innovative and improve service delivery, but we must also rigorously study the results of our innovations…I am therefore delighted that we now have strong evidence that carefully designed AI can help improve learning outcomes in support of our many hard-working teachers.",
+        "th": "We look to be innovative and improve service delivery, but we must also rigorously study the results of our innovations…I am therefore delighted that we now have strong evidence that carefully designed AI can help improve learning outcomes in support of our many hard-working teachers."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The results from this pre-registered trial suggest that AI can be a powerful pedagogical partner — not by replacing teachers, but by augmenting their reach. This study is part of our ongoing effort to build a global evidence base for the impact of AI on teaching and learning.",
+        "th": "The results from this pre-registered trial suggest that AI can be a powerful pedagogical partner — not by replacing teachers, but by augmenting their reach. This study is part of our ongoing effort to build a global evidence base for the impact of AI on teaching and learning."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Beyond the answer engine: protecting critical thinking",
+        "th": "Beyond the answer engine: protecting critical thinking"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A common concern is that generative AI could become a shortcut for students, potentially bypassing the challenging yet essential cognitive effort required for deeper learning. Guided Learning is designed to address this concern: it’s built from years of research and work in our LearnLM efforts to be pedagogically-grounded and specifically tuned to prioritize building understanding over providing direct answers.",
+        "th": "A common concern is that generative AI could become a shortcut for students, potentially bypassing the challenging yet essential cognitive effort required for deeper learning. Guided Learning is designed to address this concern: it’s built from years of research and work in our LearnLM efforts to be pedagogically-grounded and specifically tuned to prioritize building understanding over providing direct answers."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The data from Sierra Leone suggests this approach is working. An analysis of over 113,000 interactions exchanged during our trial revealed that students used the tool to build conceptual understanding in 91.4% of conversations, rather than simply seeking solutions. Gemini responded by posing scaffolding questions in 76% of its messages, providing direct solutions in only 2% of cases. This \"Socratic\" interaction ensures that the cognitive heavy lifting remains with the student.",
+        "th": "The data from Sierra Leone suggests this approach is working. An analysis of over 113,000 interactions exchanged during our trial revealed that students used the tool to build conceptual understanding in 91.4% of conversations, rather than simply seeking solutions. Gemini responded by posing scaffolding questions in 76% of its messages, providing direct solutions in only 2% of cases. This \"Socratic\" interaction ensures that the cognitive heavy lifting remains with the student."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "A teacher-led intervention",
+        "th": "A teacher-led intervention"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The success of this trial was built on a partnership between AI and educators, where teachers remained firmly at the center of the experience. Educators designed the lessons, set the objectives, and facilitated classroom discussions that drove learning.",
+        "th": "The success of this trial was built on a partnership between AI and educators, where teachers remained firmly at the center of the experience. Educators designed the lessons, set the objectives, and facilitated classroom discussions that drove learning."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In focus groups, teachers reported that Gemini also supported their own professional growth. By using the tool for lesson preparation, they discovered new ways to explain familiar topics like fractions. Many described a shift from \"lecturers\" to \"facilitators,\" moving through the classroom to support pairs of students as they navigated their own learning journeys.",
+        "th": "In focus groups, teachers reported that Gemini also supported their own professional growth. By using the tool for lesson preparation, they discovered new ways to explain familiar topics like fractions. Many described a shift from \"lecturers\" to \"facilitators,\" moving through the classroom to support pairs of students as they navigated their own learning journeys."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To help others implement similar programs, we are releasing a teacher training guide with materials created in collaboration with Fab AI, including the specific protocols used for this study.",
+        "th": "To help others implement similar programs, we are releasing a teacher training guide with materials created in collaboration with Fab AI, including the specific protocols used for this study."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Measuring the impact",
+        "th": "Measuring the impact"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The quantitative results were significant. Students using Guided Learning saw a gain of +0.258 standard deviations in their math scores compared to the control group. In practical terms, this represents roughly 1.2 to 1.7 years of typical learning progress achieved within the eight-week trial.",
+        "th": "The quantitative results were significant. Students using Guided Learning saw a gain of +0.258 standard deviations in their math scores compared to the control group. In practical terms, this represents roughly 1.2 to 1.7 years of typical learning progress achieved within the eight-week trial."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Students in classrooms where their teachers incorporated Gemini into roughly half their lessons to meet a target of 12 hours during the trial saw even higher gains—roughly 1.8 to 2.5 years of progress. Engagement was also remarkably high: 69% of students met or exceeded usage targets, far surpassing the five percent typical for voluntary educational technology (famously known as “The Five Percent Problem”). That means students were not only engaged but they enjoyed coming to class more.",
+        "th": "Students in classrooms where their teachers incorporated Gemini into roughly half their lessons to meet a target of 12 hours during the trial saw even higher gains—roughly 1.8 to 2.5 years of progress. Engagement was also remarkably high: 69% of students met or exceeded usage targets, far surpassing the five percent typical for voluntary educational technology (famously known as “The Five Percent Problem”). That means students were not only engaged but they enjoyed coming to class more."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Beyond the numbers, we also saw a profound shift in behavior. Students reported enjoying math more and actively engaged with learning beyond regular instruction. Crucially, over time, their conversations and questions became more learning-oriented, shifting toward skill building instead of seeking direct solutions. Specifically, skill-building queries rose to 90% by the final week — up from 68% in the first week — while solution-seeking questions dropped from 25% to 10%, proving students didn’t just want answers, they wanted to understand how they got there.",
+        "th": "Beyond the numbers, we also saw a profound shift in behavior. Students reported enjoying math more and actively engaged with learning beyond regular instruction. Crucially, over time, their conversations and questions became more learning-oriented, shifting toward skill building instead of seeking direct solutions. Specifically, skill-building queries rose to 90% by the final week — up from 68% in the first week — while solution-seeking questions dropped from 25% to 10%, proving students didn’t just want answers, they wanted to understand how they got there."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To further understand the impact of Guided Learning on student learning, we are conducting a series of additional pre-registered RCTs globally. In the interest of advancing open science and disseminating timely insights, we are also releasing a playbook on our approach to RCTs with Fab AI to help others run faster, scalable studies aligned to their needs and contexts — to uncover robust localised evidence that keeps pace with technological advances. We will continue to publish our results and learnings as we conclude subsequent RCTs to construct a more comprehensive, cross-country evidence base, which we hope will inform responsible development of AI across the learning ecosystem. Additionally, our support of the Global AI for Learning Alliance (GAILA) will accelerate these commitments and others through collective action.",
+        "th": "To further understand the impact of Guided Learning on student learning, we are conducting a series of additional pre-registered RCTs globally. In the interest of advancing open science and disseminating timely insights, we are also releasing a playbook on our approach to RCTs with Fab AI to help others run faster, scalable studies aligned to their needs and contexts — to uncover robust localised evidence that keeps pace with technological advances. We will continue to publish our results and learnings as we conclude subsequent RCTs to construct a more comprehensive, cross-country evidence base, which we hope will inform responsible development of AI across the learning ecosystem. Additionally, our support of the Global AI for Learning Alliance (GAILA) will accelerate these commitments and others through collective action."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The path forward",
+        "th": "The path forward"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Though these results are promising, they also highlighted the challenge of the \"achievement gap.\" While the majority of students benefited, those who entered the trial with stronger math skills benefited most. This underscores an important need: to offer tools that deliver the strongest gains for the students who need it most.",
+        "th": "Though these results are promising, they also highlighted the challenge of the \"achievement gap.\" While the majority of students benefited, those who entered the trial with stronger math skills benefited most. This underscores an important need: to offer tools that deliver the strongest gains for the students who need it most."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Looking ahead, we plan to expand these trials to other countries and probe more deeply into areas like metacognition and relational intelligence to capture a more holistic view that explores the nuanced complexity of learning. By combining the relational foundation of a teacher-led classroom of students with the personalized, scaffolding capabilities of AI, we can help ensure that technology serves as a bridge to meaningful learning opportunities for all.",
+        "th": "Looking ahead, we plan to expand these trials to other countries and probe more deeply into areas like metacognition and relational intelligence to capture a more holistic view that explores the nuanced complexity of learning. By combining the relational foundation of a teacher-led classroom of students with the personalized, scaffolding capabilities of AI, we can help ensure that technology serves as a bridge to meaningful learning opportunities for all."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "1 We also received support from Google.org and the Gates Foundation to conduct the trial. EducAid, Laterite and Oxford MeasurEd also collaborated with us.",
+        "th": "1 We also received support from Google.org and the Gates Foundation to conduct the trial. EducAid, Laterite and Oxford MeasurEd also collaborated with us."
+      }
+    }
+  ]
+}

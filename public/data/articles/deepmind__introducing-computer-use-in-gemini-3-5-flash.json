@@ -1,0 +1,246 @@
+{
+  "id": "deepmind__introducing-computer-use-in-gemini-3-5-flash",
+  "slug": "introducing-computer-use-in-gemini-3-5-flash",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+  "category": "News",
+  "date": "2026-06-24T16:30:01.000Z",
+  "image": null,
+  "title": {
+    "en": "Introducing computer use in Gemini 3.5 Flash",
+    "th": "Introducing computer use in Gemini 3.5 Flash"
+  },
+  "summary": {
+    "en": "Introducing computer use in Gemini 3.5 Flash",
+    "th": "Introducing computer use in Gemini 3.5 Flash"
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "Innovation & AI"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Models & research",
+        "th": "Models & research"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini Models",
+        "th": "Gemini Models"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jun 24, 2026",
+        "th": "Jun 24, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Computer use is now a built-in tool in Gemini 3.5 Flash to build agents that can interact across platforms.",
+        "th": "Computer use is now a built-in tool in Gemini 3.5 Flash to build agents that can interact across platforms."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__keyword__blog-header_.width-200.format-webp_z1cHm8L.webp",
+      "alt": "Gemini 3.5 logo on a blue background"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "Your browser does not support the audio element."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Computer use is now a built-in tool supported in Gemini 3.5 Flash, delivering our best performance yet for agentic computer use tasks. Previously only available as a standalone Gemini 2.5 computer use model, computer use is now integrated natively in the main Gemini Flash model. Gemini already excels at function calling and using built-in tools like Search and Maps grounding. With built-in computer use capability, developers can now use 3.5 Flash to reliably build custom agents that can see, reason and take action across browser, mobile and desktop environments. This unlocks improved performance for long-horizon and enterprise automation tasks like continuous software testing and knowledge work across professional applications.",
+        "th": "Computer use is now a built-in tool supported in Gemini 3.5 Flash, delivering our best performance yet for agentic computer use tasks. Previously only available as a standalone Gemini 2.5 computer use model, computer use is now integrated natively in the main Gemini Flash model. Gemini already excels at function calling and using built-in tools like Search and Maps grounding. With built-in computer use capability, developers can now use 3.5 Flash to reliably build custom agents that can see, reason and take action across browser, mobile and desktop environments. This unlocks improved performance for long-horizon and enterprise automation tasks like continuous software testing and knowledge work across professional applications."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__benchmark-OSWorld-Ver.width-100.format-webp.webp",
+      "alt": "Gemini 3.5 benchmarks"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Developers and enterprises can start using computer use in 3.5 Flash via the Gemini API and Gemini Enterprise Agent Platform.",
+        "th": "Developers and enterprises can start using computer use in 3.5 Flash via the Gemini API and Gemini Enterprise Agent Platform."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.5 Flash uses computer use to analyse the Gemini app and return a categorized list of features.",
+        "th": "3.5 Flash uses computer use to analyse the Gemini app and return a categorized list of features."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.5 Flash with computer use audits its own documentation for accessibility issues.",
+        "th": "3.5 Flash with computer use audits its own documentation for accessibility issues."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Making computer use safe in 3.5 Flash",
+        "th": "Making computer use safe in 3.5 Flash"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To mitigate some of the prompt injection risks for agents operating in live environments, we use targeted adversarial training for computer use in Gemini 3.5 Flash. We’re also releasing two optional enterprise safeguard systems that enable enterprises to:",
+        "th": "To mitigate some of the prompt injection risks for agents operating in live environments, we use targeted adversarial training for computer use in Gemini 3.5 Flash. We’re also releasing two optional enterprise safeguard systems that enable enterprises to:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Require explicit user confirmation for sensitive or irreversible actions.",
+        "th": "Require explicit user confirmation for sensitive or irreversible actions."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Automatically stop tasks if an indirect prompt injection is identified.",
+        "th": "Automatically stop tasks if an indirect prompt injection is identified."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Taking a “defense-in-depth” approach, we encourage developers to combine these features with secure sandboxing, human-in-the-loop verification and strict access controls. Additional information on safety measures can be found in our best practices documentation.",
+        "th": "Taking a “defense-in-depth” approach, we encourage developers to combine these features with secure sandboxing, human-in-the-loop verification and strict access controls. Additional information on safety measures can be found in our best practices documentation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are already seeing customers drive value with computer use. Here’s what some of them have to say:",
+        "th": "We are already seeing customers drive value with computer use. Here’s what some of them have to say:"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_3.5_Flash_BrowserBase_v2.width-100.format-webp.webp",
+      "alt": "Quote from Migual Gonzalez Fernandez, Browserbase"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_3.5_Flash_Browser_Use_1.width-100.format-webp.webp",
+      "alt": "Quote from Magnus Muller, CEO, Browser Use"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_3.5_Flash_UiPath_v3.width-100.format-webp.webp",
+      "alt": "quote from Alvin Stanescu, Senior Director - UIPath"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To start building with computer use today:",
+        "th": "To start building with computer use today:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Try it now: Test the capabilities in a demo environment hosted by Browserbase.",
+        "th": "Try it now: Test the capabilities in a demo environment hosted by Browserbase."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Start building: Dive into our reference implementation and documentation via Gemini API and Gemini Enterprise Agent Platform.",
+        "th": "Start building: Dive into our reference implementation and documentation via Gemini API and Gemini Enterprise Agent Platform."
+      }
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get more stories from Google in your inbox. Get more stories from Google in your inbox.",
+        "th": "Get more stories from Google in your inbox. Get more stories from Google in your inbox."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your information will be used in accordance with Google's privacy policy.",
+        "th": "Your information will be used in accordance with Google's privacy policy."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Done. Just one step more.",
+        "th": "Done. Just one step more."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check your inbox to confirm your subscription.",
+        "th": "Check your inbox to confirm your subscription."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You are already subscribed to our newsletter.",
+        "th": "You are already subscribed to our newsletter."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also subscribe with a different email address .",
+        "th": "You can also subscribe with a different email address ."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini models",
+        "th": "Gemini models"
+      }
+    }
+  ]
+}

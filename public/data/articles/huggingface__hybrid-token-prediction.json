@@ -1,0 +1,424 @@
+{
+  "id": "huggingface__hybrid-token-prediction",
+  "slug": "hybrid-token-prediction",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+  "category": "News",
+  "date": "2026-06-25T16:11:42.000Z",
+  "image": null,
+  "title": {
+    "en": "Which tokens does a hybrid model predict better?",
+    "th": "Which tokens does a hybrid model predict better?"
+  },
+  "summary": {
+    "en": "Which tokens does a hybrid model predict better?",
+    "th": "Which tokens does a hybrid model predict better?"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/60bccec062080d33f875cd0c/KvEhYxx9-Tff_Qb7PsjAL.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/6836932945dbe04c398bec23bcae6262.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677431596830-631ce4b244503b72277fc89f.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/641c7e9a45487810d13448e4/v92SxVG0Wh9OqOipT16Mp.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/b72ed568a97b147b54339a5c26185f71.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/52bb99dcec5194642664e5da7b8919b1.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+2",
+        "th": "+2"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/fee5cceec7536851d7c6712760716a71.svg",
+      "alt": "Kyle Wiggers's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/652db071b62cf1f8463221e2/CxxwFiaomTa1MCX_B7-pT.png",
+      "alt": "Ai2's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Attention versus recurrence, and measuring the difference",
+        "th": "Attention versus recurrence, and measuring the difference"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What real text shows",
+        "th": "What real text shows"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Where this leaves us",
+        "th": "Where this leaves us"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/5-hA9oXDAmu9e__tV-FYM.png",
+      "alt": "Hybrid token prediction blog draft will also be published to Hugging Face - Goog-image-1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Which kinds of tokens does a model predict well, and which does it not? That question is especially intriguing in the case of hybrids, a language model architecture that’s begun to challenge the standard transformer and that we’ve been investigating with Olmo Hybrid.",
+        "th": "Which kinds of tokens does a model predict well, and which does it not? That question is especially intriguing in the case of hybrids, a language model architecture that’s begun to challenge the standard transformer and that we’ve been investigating with Olmo Hybrid."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hybrids can match or beat transformers on standard benchmarks, but the headline numbers don’t reveal much about what specific advantages hybrid models have over transformers.",
+        "th": "Hybrids can match or beat transformers on standard benchmarks, but the headline numbers don’t reveal much about what specific advantages hybrid models have over transformers."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In an attempt to shed light on these token-level behaviors, we recently conducted experiments comparing our own strongest 7B transformer, Olmo 3, and hybrid model, Olmo Hybrid, head-to-head. Specifically, we compare the differences in model predictions in a fine-grained way across different types of tokens, or units of information that appear as input to an LLM.",
+        "th": "In an attempt to shed light on these token-level behaviors, we recently conducted experiments comparing our own strongest 7B transformer, Olmo 3, and hybrid model, Olmo Hybrid, head-to-head. Specifically, we compare the differences in model predictions in a fine-grained way across different types of tokens, or units of information that appear as input to an LLM."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Because Olmo 3 and Olmo Hybrid were built to be as alike as possible outside their architectures — closely matched in data, tokenizer, and training recipe — any difference in their predictions mostly reflects the architecture itself. Viewing these differences at the token level allows us to glean insights about the specific strengths of hybrid models over transformers.",
+        "th": "Because Olmo 3 and Olmo Hybrid were built to be as alike as possible outside their architectures — closely matched in data, tokenizer, and training recipe — any difference in their predictions mostly reflects the architecture itself. Viewing these differences at the token level allows us to glean insights about the specific strengths of hybrid models over transformers."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our results show that the hybrid’s advantage is real across many tokens, but not all. Olmo Hybrid is strongest on tokens that carry meaning, such as nouns, verbs, and adjectives, and on tokens that can only be predicted by following what’s going on, like which person a pronoun refers to. But the hybrid’s advantage almost disappears on tokens that simply repeat something already in the input — a word or phrase reproduced verbatim from earlier — where the answer is sitting right there to be looked up. That’s where the transformer’s strength lies.",
+        "th": "Our results show that the hybrid’s advantage is real across many tokens, but not all. Olmo Hybrid is strongest on tokens that carry meaning, such as nouns, verbs, and adjectives, and on tokens that can only be predicted by following what’s going on, like which person a pronoun refers to. But the hybrid’s advantage almost disappears on tokens that simply repeat something already in the input — a word or phrase reproduced verbatim from earlier — where the answer is sitting right there to be looked up. That’s where the transformer’s strength lies."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Attention versus recurrence, and measuring the difference",
+        "th": "Attention versus recurrence, and measuring the difference"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A language model is built from a stack of repeated layers, each one refining its representation of every token using the tokens around it.",
+        "th": "A language model is built from a stack of repeated layers, each one refining its representation of every token using the tokens around it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A transformer uses attention in every layer. The model can draw directly on every earlier token at once, weighing how relevant each is to the current prediction. That makes attention good at recalling a specific earlier token exactly, even when that token appeared far back in the input. The catch is that every token is compared against all the earlier ones, so attention’s cost climbs steeply as the input grows. Additionally, while attention is strong at recalling and aggregating information, it also struggles to represent information that evolves sequentially over time.",
+        "th": "A transformer uses attention in every layer. The model can draw directly on every earlier token at once, weighing how relevant each is to the current prediction. That makes attention good at recalling a specific earlier token exactly, even when that token appeared far back in the input. The catch is that every token is compared against all the earlier ones, so attention’s cost climbs steeply as the input grows. Additionally, while attention is strong at recalling and aggregating information, it also struggles to represent information that evolves sequentially over time."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A hybrid model keeps a few attention layers but swaps the rest for recurrent layers. Unlike an attention layer, a recurrent layer reads tokens left to right and carries a fixed-size memory, folding each new token into memory as it goes so the cost of processing each token stays flat however long the input gets. That memory is compressed and lossy, so a recurrent layer can’t reach back for an exact earlier token the way attention can. But it is well suited to keeping a running account of anything that changes as the model reads tokens, providing a complementary strength to attention.",
+        "th": "A hybrid model keeps a few attention layers but swaps the rest for recurrent layers. Unlike an attention layer, a recurrent layer reads tokens left to right and carries a fixed-size memory, folding each new token into memory as it goes so the cost of processing each token stays flat however long the input gets. That memory is compressed and lossy, so a recurrent layer can’t reach back for an exact earlier token the way attention can. But it is well suited to keeping a running account of anything that changes as the model reads tokens, providing a complementary strength to attention."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To isolate the areas of strength and weakness for attention and recurrent layers, we fed Olmo 3 and Olmo Hybrid passages of text: articles, Wikipedia entries, books, and scientific papers, as well as structured text like Python, HTML, and LaTeX. We scored each model on how well it predicted each token from the tokens before it in a given sample.",
+        "th": "To isolate the areas of strength and weakness for attention and recurrent layers, we fed Olmo 3 and Olmo Hybrid passages of text: articles, Wikipedia entries, books, and scientific papers, as well as structured text like Python, HTML, and LaTeX. We scored each model on how well it predicted each token from the tokens before it in a given sample."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Both models saw the same earlier tokens and assigned a probability to every possible next token. We recorded the probability each gave to the token that actually followed. We then summarize the difference between the two models token by token by computing the loss gap, or the difference in loss between the two models. A positive gap means the hybrid predicted the real next token better. A negative gap means the transformer did.",
+        "th": "Both models saw the same earlier tokens and assigned a probability to every possible next token. We recorded the probability each gave to the token that actually followed. We then summarize the difference between the two models token by token by computing the loss gap, or the difference in loss between the two models. A positive gap means the hybrid predicted the real next token better. A negative gap means the transformer did."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To find where the loss gaps might concentrate, we ran several analyses. First, we sorted each token into a category and averaged the loss gap within these categories. Because a raw average can be skewed by other factors, such as a category’s rarity or how often tokens repeat in a sample of text, we re-checked each pattern with a regression that estimates the category’s own effect while holding other factors constant.",
+        "th": "To find where the loss gaps might concentrate, we ran several analyses. First, we sorted each token into a category and averaged the loss gap within these categories. Because a raw average can be skewed by other factors, such as a category’s rarity or how often tokens repeat in a sample of text, we re-checked each pattern with a regression that estimates the category’s own effect while holding other factors constant."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What real text shows",
+        "th": "What real text shows"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/jhU9qFfYhuKlt4BqOGyIh.png",
+      "alt": "Hybrid token prediction social copy - Google Docs-image-2"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We find that Olmo Hybrid has lower loss than Olmo 3 on most kinds of tokens, though not by the same amount on each.",
+        "th": "We find that Olmo Hybrid has lower loss than Olmo 3 on most kinds of tokens, though not by the same amount on each."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In prose, the clearest divide is between content words — meaning-bearing nouns, verbs, and adjectives — and function words like “the,” “of,” and “is.” The hybrid predicts content words better than the transformer, with a loss gap around 0.040.040.04, whereas the gap is closer to 0.020.020.02 on function words.",
+        "th": "In prose, the clearest divide is between content words — meaning-bearing nouns, verbs, and adjectives — and function words like “the,” “of,” and “is.” The hybrid predicts content words better than the transformer, with a loss gap around 0.040.040.04, whereas the gap is closer to 0.020.020.02 on function words."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In particular, on content-word categories like adverbs and adjectives, the advantage of hybrid models is especially pronounced, though some function-word categories like existentials, such as “there,” also show a large advantage for hybrid models. In short, the hybrid’s edge is biggest on the words that say what a sentence is about and smallest on the grammatical words any model can nearly guess from syntax.",
+        "th": "In particular, on content-word categories like adverbs and adjectives, the advantage of hybrid models is especially pronounced, though some function-word categories like existentials, such as “there,” also show a large advantage for hybrid models. In short, the hybrid’s edge is biggest on the words that say what a sentence is about and smallest on the grammatical words any model can nearly guess from syntax."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In contrast, we find some specific contexts where the advantage of hybrid models over transformers disappears. The first is closing, but not opening, braces, a pattern that is robust across brackets in language, code, and markup. Why? It’s known that attention suffices for representing bracket matching, which suggests attention alone suffices for closing brace prediction.",
+        "th": "In contrast, we find some specific contexts where the advantage of hybrid models over transformers disappears. The first is closing, but not opening, braces, a pattern that is robust across brackets in language, code, and markup. Why? It’s known that attention suffices for representing bracket matching, which suggests attention alone suffices for closing brace prediction."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/O_9IONHpoc8kd31TP1MnR.png",
+      "alt": "Hybrid token prediction social copy - Google Docs-image-3"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The second place where the hybrid’s advantage all but disappears is when the next token simply repeats something already in the passage. We spot these cases by looking for repeated n-grams: runs of text where the token that completes a sequence has appeared, verbatim, earlier in the same passage. The longer the repeated run, the smaller the hybrid’s lead, until it approaches zero.",
+        "th": "The second place where the hybrid’s advantage all but disappears is when the next token simply repeats something already in the passage. We spot these cases by looking for repeated n-grams: runs of text where the token that completes a sequence has appeared, verbatim, earlier in the same passage. The longer the repeated run, the smaller the hybrid’s lead, until it approaches zero."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Finally, inspired by these findings, we explore using filtered losses on specific types of tokens as an evaluation to better compare different architectures in pretraining experiments. We use three 1B-parameter models from our earlier Olmo Hybrid work: a transformer, a hybrid, and a pure recurrent model with no attention at all.",
+        "th": "Finally, inspired by these findings, we explore using filtered losses on specific types of tokens as an evaluation to better compare different architectures in pretraining experiments. We use three 1B-parameter models from our earlier Olmo Hybrid work: a transformer, a hybrid, and a pure recurrent model with no attention at all."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On meaning-bearing tokens that aren’t repeats, the hybrid and pure recurrent model overtake the transformer, with the hybrid performing the best. On repeated tokens, the pure recurrent model — with no attention to reach back for the copy — falls behind both the hybrid and the transformer.",
+        "th": "On meaning-bearing tokens that aren’t repeats, the hybrid and pure recurrent model overtake the transformer, with the hybrid performing the best. On repeated tokens, the pure recurrent model — with no attention to reach back for the copy — falls behind both the hybrid and the transformer."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Thus, these filtered token losses reveal different fine-grained differences between architectures, including copying abilities and differences on content words, early in training in a way that would not otherwise be visible.",
+        "th": "Thus, these filtered token losses reveal different fine-grained differences between architectures, including copying abilities and differences on content words, early in training in a way that would not otherwise be visible."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Where this leaves us",
+        "th": "Where this leaves us"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/6i5GcnfYp7U6KfYpsN3e2.png",
+      "alt": "Hybrid token prediction social copy - Google Docs-image-4"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Filtered token losses surface architecture differences during 1B pretraining. Token-loss curves at WSD-annealed checkpoints for a transformer, a hybrid, and a pure recurrent neural network, or RNN.",
+        "th": "Filtered token losses surface architecture differences during 1B pretraining. Token-loss curves at WSD-annealed checkpoints for a transformer, a hybrid, and a pure recurrent neural network, or RNN."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Two lessons follow from this work.",
+        "th": "Two lessons follow from this work."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "First, a single overall loss — the model’s average error across all tokens — is too blunt to compare transformer and hybrid architectures. Scoring the loss on just the tokens that test a specific model ability surfaces key differences.",
+        "th": "First, a single overall loss — the model’s average error across all tokens — is too blunt to compare transformer and hybrid architectures. Scoring the loss on just the tokens that test a specific model ability surfaces key differences."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Second, specifically for hybrid models, we found evidence of particular advantages on open-class tokens, which perhaps is related to the state-tracking capabilities of RNN layers.",
+        "th": "Second, specifically for hybrid models, we found evidence of particular advantages on open-class tokens, which perhaps is related to the state-tracking capabilities of RNN layers."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As a next step, we’re taking these findings into our ongoing hybrid modeling work. We believe the best hybrid architectures will come from understanding, token by token, what each component of a model does well. We hope studies like this help that understanding grow across the whole AI community.",
+        "th": "As a next step, we’re taking these findings into our ongoing hybrid modeling work. We believe the best hybrid architectures will come from understanding, token by token, what each component of a model does well. We hope studies like this help that understanding grow across the whole AI community."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We encourage you to read our full report, explore Olmo 3, try Olmo Hybrid, and dig into their associated open artifacts.",
+        "th": "We encourage you to read our full report, explore Olmo 3, try Olmo Hybrid, and dig into their associated open artifacts."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More from this author",
+        "th": "More from this author"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/wdq3AFZcDZAekGTb16VDy.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "MolmoMotion: Language-guided 3D motion forecasting",
+        "th": "MolmoMotion: Language-guided 3D motion forecasting"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/652db071b62cf1f8463221e2/CxxwFiaomTa1MCX_B7-pT.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/gacAOFYwPkpxu7cC4eeey.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "olmo-eval: An evaluation workbench for the model development loop",
+        "th": "olmo-eval: An evaluation workbench for the model development loop"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/652db071b62cf1f8463221e2/CxxwFiaomTa1MCX_B7-pT.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "Community"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/60bccec062080d33f875cd0c/KvEhYxx9-Tff_Qb7PsjAL.png",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cool work, I've been quite excited about AllenAI's take/improved hybrid arch. Question for you though:",
+        "th": "Cool work, I've been quite excited about AllenAI's take/improved hybrid arch. Question for you though:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The one genuinely matched-data comparison in the paper is the 1B ladder (transformer / hybrid / pure-RNN, identical mix), which you use for the 6 filtered-loss eval - but only as aggregate loss, not the POS/bracket/copy decomposition. Since that's forward-passes-only on released checkpoints, have you run (or can you) the same tag-stratified analysis on those models? It'd help show whether the content-word / open-close / copy structure survives when data is actually held constant (vs ~7b case).",
+        "th": "The one genuinely matched-data comparison in the paper is the 1B ladder (transformer / hybrid / pure-RNN, identical mix), which you use for the 6 filtered-loss eval - but only as aggregate loss, not the POS/bracket/copy decomposition. Since that's forward-passes-only on released checkpoints, have you run (or can you) the same tag-stratified analysis on those models? It'd help show whether the content-word / open-close / copy structure survives when data is actually held constant (vs ~7b case)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Curious if you've looked at this internally as well",
+        "th": "Curious if you've looked at this internally as well"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· Sign up or log in to comment"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/60bccec062080d33f875cd0c/KvEhYxx9-Tff_Qb7PsjAL.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/6836932945dbe04c398bec23bcae6262.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677431596830-631ce4b244503b72277fc89f.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/641c7e9a45487810d13448e4/v92SxVG0Wh9OqOipT16Mp.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/b72ed568a97b147b54339a5c26185f71.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/52bb99dcec5194642664e5da7b8919b1.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/-hTmvLgCD22VOVWP7Wq3L.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/ZfCHRKc6MNBGfZ_NvoXsK.png",
+      "alt": ""
+    }
+  ]
+}

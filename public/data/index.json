@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T16:22:27.632Z",
+  "generatedAt": "2026-06-30T17:12:54.327Z",
   "items": [
     {
       "id": "deepmind__start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
@@ -70,6 +70,40 @@
       }
     },
     {
+      "id": "anthropic__claude-science-ai-workbench",
+      "slug": "claude-science-ai-workbench",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "category": "News",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Claude Science, an AI workbench for scientists, is now available",
+        "th": "Claude Science, an AI workbench for scientists, is now available"
+      },
+      "summary": {
+        "en": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
+        "th": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources."
+      }
+    },
+    {
+      "id": "openai__introducing-genebench-pro",
+      "slug": "introducing-genebench-pro",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "category": "Research",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing GeneBench-Pro",
+        "th": "Introducing GeneBench-Pro"
+      },
+      "summary": {
+        "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+        "th": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets."
+      }
+    },
+    {
       "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
       "slug": "core-dump-epidemiology-data-infrastructure-bug",
       "source": "openai",
@@ -84,6 +118,23 @@
       "summary": {
         "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
         "th": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug."
+      }
+    },
+    {
+      "id": "openai__case-studies",
+      "slug": "case-studies",
+      "source": "openai",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "category": "News",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Inside Genebench-Pro",
+        "th": "Inside Genebench-Pro"
+      },
+      "summary": {
+        "en": "Inside Genebench-Pro",
+        "th": "Inside Genebench-Pro"
       }
     },
     {
@@ -971,23 +1022,6 @@
       }
     },
     {
-      "id": "openai__bbva",
-      "slug": "bbva",
-      "source": "openai",
-      "url": "https://openai.com/index/bbva",
-      "category": "News",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "BBVA puts AI at the core of banking with OpenAI",
-        "th": "BBVA puts AI at the core of banking with OpenAI"
-      },
-      "summary": {
-        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-        "th": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide."
-      }
-    },
-    {
       "id": "openai__openai-to-acquire-ona",
       "slug": "openai-to-acquire-ona",
       "source": "openai",
@@ -1019,6 +1053,23 @@
       "summary": {
         "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
         "th": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity."
+      }
+    },
+    {
+      "id": "openai__bbva",
+      "slug": "bbva",
+      "source": "openai",
+      "url": "https://openai.com/index/bbva",
+      "category": "News",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "BBVA puts AI at the core of banking with OpenAI",
+        "th": "BBVA puts AI at the core of banking with OpenAI"
+      },
+      "summary": {
+        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+        "th": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide."
       }
     },
     {
@@ -1447,23 +1498,6 @@
       }
     },
     {
-      "id": "openai__biodefense-in-the-intelligence-age",
-      "slug": "biodefense-in-the-intelligence-age",
-      "source": "openai",
-      "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
-      "category": "Global Affairs",
-      "date": "2026-06-04T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Biodefense in the Intelligence Age",
-        "th": "Biodefense in the Intelligence Age"
-      },
-      "summary": {
-        "en": "An action plan for AI-powered biological resilience",
-        "th": "An action plan for AI-powered biological resilience"
-      }
-    },
-    {
       "id": "huggingface__hf-cli-for-agents",
       "slug": "hf-cli-for-agents",
       "source": "huggingface",
@@ -1478,23 +1512,6 @@
       "summary": {
         "en": "Designing the hf CLI as an agent-optimized way to work with the Hub",
         "th": "Designing the hf CLI as an agent-optimized way to work with the Hub"
-      }
-    },
-    {
-      "id": "openai__introducing-new-capabilities-to-gpt-rosalind",
-      "slug": "introducing-new-capabilities-to-gpt-rosalind",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-      "category": "Product",
-      "date": "2026-06-03T13:15:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing new capabilities to GPT-Rosalind",
-        "th": "Introducing new capabilities to GPT-Rosalind"
-      },
-      "summary": {
-        "en": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
-        "th": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities."
       }
     },
     {
@@ -1546,23 +1563,6 @@
       "summary": {
         "en": "In March, we launched the Claude Partner Network, a program for the firms that help enterprises put Claude into production.. Today, we’re announcing two new components that make this ecosystem easier for customers to navigate.",
         "th": "In March, we launched the Claude Partner Network, a program for the firms that help enterprises put Claude into production.. Today, we’re announcing two new components that make this ecosystem easier for customers to navigate."
-      }
-    },
-    {
-      "id": "anthropic__AI-enabled-cyber-threats-mitre-attack",
-      "slug": "AI-enabled-cyber-threats-mitre-attack",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
-      "category": "News",
-      "date": "2026-06-03T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Object-LaptopSecure&backgroundColor=cactus",
-      "title": {
-        "en": "What we learned mapping a year’s worth of AI-enabled cyber threats",
-        "th": "What we learned mapping a year’s worth of AI-enabled cyber threats"
-      },
-      "summary": {
-        "en": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question.",
-        "th": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question."
       }
     },
     {

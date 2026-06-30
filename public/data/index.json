@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-06-30T18:11:38.568Z",
+  "generatedAt": "2026-06-30T19:08:17.729Z",
   "items": [
+    {
+      "id": "huggingface__scarfbench",
+      "slug": "scarfbench",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "category": "News",
+      "date": "2026-06-30T18:32:50.000Z",
+      "image": null,
+      "title": {
+        "en": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+        "th": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration"
+      },
+      "summary": {
+        "en": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+        "th": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration"
+      }
+    },
     {
       "id": "deepmind__start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
       "slug": "start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
@@ -91,7 +108,7 @@
       "slug": "claude-science-ai-workbench",
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
-      "category": "News",
+      "category": "Announcements",
       "date": "2026-06-30T00:00:00.000Z",
       "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
@@ -410,23 +427,6 @@
       }
     },
     {
-      "id": "huggingface__cuga-apps",
-      "slug": "cuga-apps",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
-      "category": "News",
-      "date": "2026-06-23T12:51:55.000Z",
-      "image": null,
-      "title": {
-        "en": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
-        "th": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness"
-      },
-      "summary": {
-        "en": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
-        "th": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness"
-      }
-    },
-    {
       "id": "anthropic__introducing-claude-tag",
       "slug": "introducing-claude-tag",
       "source": "anthropic",
@@ -512,23 +512,6 @@
       }
     },
     {
-      "id": "openai__patch-the-planet",
-      "slug": "patch-the-planet",
-      "source": "openai",
-      "url": "https://openai.com/index/patch-the-planet",
-      "category": "Security",
-      "date": "2026-06-22T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-        "th": "Patch the Planet: a Daybreak initiative to support open source maintainers"
-      },
-      "summary": {
-        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-        "th": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review."
-      }
-    },
-    {
       "id": "openai__daybreak-securing-the-world",
       "slug": "daybreak-securing-the-world",
       "source": "openai",
@@ -543,6 +526,23 @@
       "summary": {
         "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
         "th": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale."
+      }
+    },
+    {
+      "id": "openai__patch-the-planet",
+      "slug": "patch-the-planet",
+      "source": "openai",
+      "url": "https://openai.com/index/patch-the-planet",
+      "category": "Security",
+      "date": "2026-06-22T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+        "th": "Patch the Planet: a Daybreak initiative to support open source maintainers"
+      },
+      "summary": {
+        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+        "th": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review."
       }
     },
     {
@@ -1039,20 +1039,20 @@
       }
     },
     {
-      "id": "openai__openai-to-acquire-ona",
-      "slug": "openai-to-acquire-ona",
+      "id": "openai__bbva",
+      "slug": "bbva",
       "source": "openai",
-      "url": "https://openai.com/index/openai-to-acquire-ona",
-      "category": "Company",
+      "url": "https://openai.com/index/bbva",
+      "category": "News",
       "date": "2026-06-11T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "OpenAI to acquire Ona",
-        "th": "OpenAI to acquire Ona"
+        "en": "BBVA puts AI at the core of banking with OpenAI",
+        "th": "BBVA puts AI at the core of banking with OpenAI"
       },
       "summary": {
-        "en": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-        "th": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows."
+        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+        "th": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide."
       }
     },
     {
@@ -1073,20 +1073,20 @@
       }
     },
     {
-      "id": "openai__bbva",
-      "slug": "bbva",
+      "id": "openai__openai-to-acquire-ona",
+      "slug": "openai-to-acquire-ona",
       "source": "openai",
-      "url": "https://openai.com/index/bbva",
-      "category": "News",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "category": "Company",
       "date": "2026-06-11T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "BBVA puts AI at the core of banking with OpenAI",
-        "th": "BBVA puts AI at the core of banking with OpenAI"
+        "en": "OpenAI to acquire Ona",
+        "th": "OpenAI to acquire Ona"
       },
       "summary": {
-        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-        "th": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide."
+        "en": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+        "th": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows."
       }
     },
     {
@@ -1597,23 +1597,6 @@
       "summary": {
         "en": "Holo3.1: Fast & Local Computer Use Agents",
         "th": "Holo3.1: Fast & Local Computer Use Agents"
-      }
-    },
-    {
-      "id": "anthropic__expanding-project-glasswing",
-      "slug": "expanding-project-glasswing",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
-      "category": "Announcements",
-      "date": "2026-06-02T00:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/19e93d85e033d3f992b78cbce2c5a3f60709bd3b-3840x2160.jpg",
-      "title": {
-        "en": "Expanding Project Glasswing",
-        "th": "Expanding Project Glasswing"
-      },
-      "summary": {
-        "en": "We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries",
-        "th": "We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries"
       }
     },
     {

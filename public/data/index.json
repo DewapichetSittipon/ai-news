@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-06-30T15:21:48.530Z",
+  "generatedAt": "2026-06-30T16:22:27.632Z",
   "items": [
+    {
+      "id": "deepmind__start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
+      "slug": "start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+      "category": "News",
+      "date": "2026-06-30T16:02:40.000Z",
+      "image": null,
+      "title": {
+        "en": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+        "th": "Start building with Nano Banana 2 Lite and Gemini Omni Flash"
+      },
+      "summary": {
+        "en": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+        "th": "Start building with Nano Banana 2 Lite and Gemini Omni Flash"
+      }
+    },
     {
       "id": "huggingface__why-specialization-is-inevitable",
       "slug": "why-specialization-is-inevitable",
@@ -19,6 +36,23 @@
       }
     },
     {
+      "id": "openai__how-chatgpt-adoption-has-expanded",
+      "slug": "how-chatgpt-adoption-has-expanded",
+      "source": "openai",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "category": "Global Affairs",
+      "date": "2026-06-30T09:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How ChatGPT adoption has expanded",
+        "th": "How ChatGPT adoption has expanded"
+      },
+      "summary": {
+        "en": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+        "th": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages."
+      }
+    },
+    {
       "id": "google-ai__unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers",
       "slug": "unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers",
       "source": "google-ai",
@@ -33,6 +67,23 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp\">Google UK shares its latest Economic Impact Report and how to enable more people to ",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp\">Google UK shares its latest Economic Impact Report and how to enable more people to "
+      }
+    },
+    {
+      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
+      "slug": "core-dump-epidemiology-data-infrastructure-bug",
+      "source": "openai",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "category": "Engineering",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Core dump epidemiology: fixing an 18-year-old bug",
+        "th": "Core dump epidemiology: fixing an 18-year-old bug"
+      },
+      "summary": {
+        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+        "th": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug."
       }
     },
     {
@@ -393,23 +444,6 @@
       }
     },
     {
-      "id": "openai__daybreak-securing-the-world",
-      "slug": "daybreak-securing-the-world",
-      "source": "openai",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "category": "Security",
-      "date": "2026-06-22T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Daybreak: Tools for securing every organization in the world",
-        "th": "Daybreak: Tools for securing every organization in the world"
-      },
-      "summary": {
-        "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-        "th": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale."
-      }
-    },
-    {
       "id": "openai__patch-the-planet",
       "slug": "patch-the-planet",
       "source": "openai",
@@ -424,6 +458,23 @@
       "summary": {
         "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
         "th": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review."
+      }
+    },
+    {
+      "id": "openai__daybreak-securing-the-world",
+      "slug": "daybreak-securing-the-world",
+      "source": "openai",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "category": "Security",
+      "date": "2026-06-22T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Daybreak: Tools for securing every organization in the world",
+        "th": "Daybreak: Tools for securing every organization in the world"
+      },
+      "summary": {
+        "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+        "th": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale."
       }
     },
     {
@@ -920,23 +971,6 @@
       }
     },
     {
-      "id": "openai__supporting-eu-trustworthy-ai-ecosystem",
-      "slug": "supporting-eu-trustworthy-ai-ecosystem",
-      "source": "openai",
-      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-      "category": "Global Affairs",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-        "th": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem"
-      },
-      "summary": {
-        "en": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
-        "th": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content."
-      }
-    },
-    {
       "id": "openai__bbva",
       "slug": "bbva",
       "source": "openai",
@@ -985,6 +1019,23 @@
       "summary": {
         "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
         "th": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity."
+      }
+    },
+    {
+      "id": "openai__supporting-eu-trustworthy-ai-ecosystem",
+      "slug": "supporting-eu-trustworthy-ai-ecosystem",
+      "source": "openai",
+      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "category": "Global Affairs",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+        "th": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem"
+      },
+      "summary": {
+        "en": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+        "th": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content."
       }
     },
     {
@@ -1478,40 +1529,6 @@
       "summary": {
         "en": "Direct Preference Optimization Beyond Chatbots",
         "th": "Direct Preference Optimization Beyond Chatbots"
-      }
-    },
-    {
-      "id": "openai__wasmer",
-      "slug": "wasmer",
-      "source": "openai",
-      "url": "https://openai.com/index/wasmer",
-      "category": "News",
-      "date": "2026-06-03T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How Wasmer used Codex to build a Node.js runtime for the edge",
-        "th": "How Wasmer used Codex to build a Node.js runtime for the edge"
-      },
-      "summary": {
-        "en": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
-        "th": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months."
-      }
-    },
-    {
-      "id": "openai__frontier-safety-blueprint",
-      "slug": "frontier-safety-blueprint",
-      "source": "openai",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
-      "category": "Global Affairs",
-      "date": "2026-06-03T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "A blueprint for democratic governance of frontier AI",
-        "th": "A blueprint for democratic governance of frontier AI"
-      },
-      "summary": {
-        "en": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
-        "th": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security."
       }
     },
     {
@@ -2566,23 +2583,6 @@
       "summary": {
         "en": "Ten years since AlphaGo, we explore how it is catalyzing scientific discovery and paving a path to AGI.",
         "th": "Ten years since AlphaGo, we explore how it is catalyzing scientific discovery and paving a path to AGI."
-      }
-    },
-    {
-      "id": "deepmind__gemini-3-1-flash-lite-built-for-intelligence-at-scale",
-      "slug": "gemini-3-1-flash-lite-built-for-intelligence-at-scale",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
-      "category": "News",
-      "date": "2026-03-03T16:35:55.000Z",
-      "image": "https://lh3.googleusercontent.com/L943nW-XsLGjzWrBOj8x7RhlajW6yigzhd8q45ia33L0uNyClu_XT600bTZevv5c2end6MZ5dFKekGXGMjfxIsYCdlqYlcnyNEmAy4Gd0B6Ovd6Z=w528-h297-n-nu-rw-lo",
-      "title": {
-        "en": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
-        "th": "Gemini 3.1 Flash-Lite: Built for intelligence at scale"
-      },
-      "summary": {
-        "en": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet.",
-        "th": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet."
       }
     }
   ]

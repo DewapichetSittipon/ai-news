@@ -18,8 +18,521 @@
     {
       "type": "p",
       "text": {
-        "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-        "th": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale."
+        "en": "June 22, 2026",
+        "th": "June 22, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "New tools, partnerships, and the full version of GPT‑5.5‑Cyber to move past vulnerability discovery and onto the acceleration of end-to-end patch automation.",
+        "th": "New tools, partnerships, and the full version of GPT‑5.5‑Cyber to move past vulnerability discovery and onto the acceleration of end-to-end patch automation."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Cyber defense at an inflection point",
+        "th": "Cyber defense at an inflection point"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "From findings to fixes with Codex Security",
+        "th": "From findings to fixes with Codex Security"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Updating GPT-5.5-Cyber: pairing capability with permissiveness",
+        "th": "Updating GPT-5.5-Cyber: pairing capability with permissiveness"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Working with the security ecosystem",
+        "th": "Working with the security ecosystem"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Patch the Planet: landing fixes in open-source",
+        "th": "Patch the Planet: landing fixes in open-source"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Protecting critical infrastructure and sensitive systems",
+        "th": "Protecting critical infrastructure and sensitive systems"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What comes next",
+        "th": "What comes next"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Table of contents",
+        "th": "Table of contents"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Cyber defense at an inflection point",
+        "th": "Cyber defense at an inflection point"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "From findings to fixes with Codex Security",
+        "th": "From findings to fixes with Codex Security"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Updating GPT-5.5-Cyber: pairing capability with permissiveness",
+        "th": "Updating GPT-5.5-Cyber: pairing capability with permissiveness"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Working with the security ecosystem",
+        "th": "Working with the security ecosystem"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Patch the Planet: landing fixes in open-source",
+        "th": "Patch the Planet: landing fixes in open-source"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Protecting critical infrastructure and sensitive systems",
+        "th": "Protecting critical infrastructure and sensitive systems"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What comes next",
+        "th": "What comes next"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re expanding Daybreak⁠ to help democratize patching vulnerable software at machine speed. For example, we’ve applied our models to discover and generate patches for critical vulnerabilities⁠ in major browsers, network infrastructure, and operating systems such as FreeBSD and the Linux kernel. To scale the impact of these capabilities:",
+        "th": "We’re expanding Daybreak⁠ to help democratize patching vulnerable software at machine speed. For example, we’ve applied our models to discover and generate patches for critical vulnerabilities⁠ in major browsers, network infrastructure, and operating systems such as FreeBSD and the Linux kernel. To scale the impact of these capabilities:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Codex Security: We’re launching an update to the Codex Security plugin⁠, which implements what we’ve learned from internal and customer usage of our models into a solution to accelerate the process of discovering and patching vulnerabilities in existing systems as well as automatically preventing new vulnerabilities from ever reaching production.",
+        "th": "Codex Security: We’re launching an update to the Codex Security plugin⁠, which implements what we’ve learned from internal and customer usage of our models into a solution to accelerate the process of discovering and patching vulnerabilities in existing systems as well as automatically preventing new vulnerabilities from ever reaching production."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "GPT‑5.5‑Cyber: Following an initial permissive-only preview, we’re launching the full version of GPT‑5.5‑Cyber through our continued limited release to trusted defenders. This model sets new state-of-the-art performance on CyberGym, reaching 85.6% compared with 81.8% for GPT‑5.5.",
+        "th": "GPT‑5.5‑Cyber: Following an initial permissive-only preview, we’re launching the full version of GPT‑5.5‑Cyber through our continued limited release to trusted defenders. This model sets new state-of-the-art performance on CyberGym, reaching 85.6% compared with 81.8% for GPT‑5.5."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Daybreak Cyber Partner Program⁠: Enabling security partners to scale the benefits to more organizations through our most capable models with trusted access in their products and services.",
+        "th": "Daybreak Cyber Partner Program⁠: Enabling security partners to scale the benefits to more organizations through our most capable models with trusted access in their products and services."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Patch the Planet⁠: an initiative founded with Trail of Bits in collaboration with HackerOne, Calif, researchers, and maintainers to help widely used open-source projects move from findings to fixes.More than 30 open-source projects have committed to participate, with initial participants including cURL, Go, Python, Sigstore, and pyca/cryptography. With Patch the Planet, we are working with researchers, maintainers, enterprises, and partners to make powerful cyber capability available to defenders with appropriate access, governance, and human oversight. Hear from Clint and Dan about this here⁠(opens in a new window).",
+        "th": "Patch the Planet⁠: an initiative founded with Trail of Bits in collaboration with HackerOne, Calif, researchers, and maintainers to help widely used open-source projects move from findings to fixes.More than 30 open-source projects have committed to participate, with initial participants including cURL, Go, Python, Sigstore, and pyca/cryptography. With Patch the Planet, we are working with researchers, maintainers, enterprises, and partners to make powerful cyber capability available to defenders with appropriate access, governance, and human oversight. Hear from Clint and Dan about this here⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More than 30 open-source projects have committed to participate, with initial participants including cURL, Go, Python, Sigstore, and pyca/cryptography.",
+        "th": "More than 30 open-source projects have committed to participate, with initial participants including cURL, Go, Python, Sigstore, and pyca/cryptography."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "With Patch the Planet, we are working with researchers, maintainers, enterprises, and partners to make powerful cyber capability available to defenders with appropriate access, governance, and human oversight. Hear from Clint and Dan about this here⁠(opens in a new window).",
+        "th": "With Patch the Planet, we are working with researchers, maintainers, enterprises, and partners to make powerful cyber capability available to defenders with appropriate access, governance, and human oversight. Hear from Clint and Dan about this here⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Cyber defense at an inflection point",
+        "th": "Cyber defense at an inflection point"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "AI has changed the physics of cybersecurity. Frontier AI models have been increasingly accelerating vulnerability discovery. The bottleneck historically has been finding vulnerabilities, but now defenders are overwhelmed with the number of vulnerabilities found. Instead, the bottleneck is now patching vulnerabilities.",
+        "th": "AI has changed the physics of cybersecurity. Frontier AI models have been increasingly accelerating vulnerability discovery. The bottleneck historically has been finding vulnerabilities, but now defenders are overwhelmed with the number of vulnerabilities found. Instead, the bottleneck is now patching vulnerabilities."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For years, finding serious vulnerabilities required rare expertise, time, and deep familiarity with complex systems. Now, models can navigate large codebases, reason through attack paths, validate hypotheses, and surface security issues that might otherwise stay hidden. Defenders absolutely need access to these capabilities, and also need tools to fix what we can now find, before attackers do.",
+        "th": "For years, finding serious vulnerabilities required rare expertise, time, and deep familiarity with complex systems. Now, models can navigate large codebases, reason through attack paths, validate hypotheses, and surface security issues that might otherwise stay hidden. Defenders absolutely need access to these capabilities, and also need tools to fix what we can now find, before attackers do."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Vulnerability reports, on their own, do not protect anyone. The value comes from validating the issue, understanding its impact, developing and testing a patch, coordinating disclosure, and helping teams deploy the fix. We are investing alongside our partners to improve these latter steps, in order to turbocharge defenders and convert model capability into real-world risk reduction.",
+        "th": "Vulnerability reports, on their own, do not protect anyone. The value comes from validating the issue, understanding its impact, developing and testing a patch, coordinating disclosure, and helping teams deploy the fix. We are investing alongside our partners to improve these latter steps, in order to turbocharge defenders and convert model capability into real-world risk reduction."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Frontier defensive capabilities should not be concentrated in the hands of a few. Software touches all aspects of life, from critical infrastructure to business applications and government networks. As AI changes the pace of vulnerability discovery, defenders everywhere need democratized access to these models to find, fix, and protect their infrastructure before attackers can identify and abuse these flaws.",
+        "th": "Frontier defensive capabilities should not be concentrated in the hands of a few. Software touches all aspects of life, from critical infrastructure to business applications and government networks. As AI changes the pace of vulnerability discovery, defenders everywhere need democratized access to these models to find, fix, and protect their infrastructure before attackers can identify and abuse these flaws."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Daybreak brings together the frontier cyber capabilities OpenAI’s models, Trusted Access for Cyber, Codex Security workflows, and ecosystem partners to help approved defenders validate vulnerabilities, prioritize risk, generate and test fixes, and produce evidence inside existing security and development workflows. Our goal is to provide organizations the tools they need to stay secure even as the cyberthreat landscape continues to accelerate.",
+        "th": "Daybreak brings together the frontier cyber capabilities OpenAI’s models, Trusted Access for Cyber, Codex Security workflows, and ecosystem partners to help approved defenders validate vulnerabilities, prioritize risk, generate and test fixes, and produce evidence inside existing security and development workflows. Our goal is to provide organizations the tools they need to stay secure even as the cyberthreat landscape continues to accelerate."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "From findings to fixes with Codex Security",
+        "th": "From findings to fixes with Codex Security"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Since launching Codex Security cloud in research preview in March, it has scanned over 30 million commits across more than 30,000 codebases; human reviewers have manually marked more than 70,000 findings as fixed, and over 500,000 findings have automatically been determined to be fixed.",
+        "th": "Since launching Codex Security cloud in research preview in March, it has scanned over 30 million commits across more than 30,000 codebases; human reviewers have manually marked more than 70,000 findings as fixed, and over 500,000 findings have automatically been determined to be fixed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This is the scale at which patching must now happen.",
+        "th": "This is the scale at which patching must now happen."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7x54Eb1FniAlhNjopx6bKr/251c02c82c39cb8f82ca2f8401f65eac/Inline_Stats__1_.png?w=3840&q=90&fm=webp",
+      "alt": "Three large white stats on a peach-to-yellow gradient background: “30K Repos scanned,” “30M+ Commits scanned,” and “500K+ Fixed findings.”"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We built Codex Security around a simple premise: put the equivalent of a security engineer next to every software developer by integrating directly into Codex. Rather than just generating alerts, Codex Security will understand your team’s code and its threat model (or generate one if it doesn’t exist), identify plausible vulnerabilities, determine whether affected code is reachable, gather evidence to provide validation steps, develop a targeted patch, and verify the result. Humans remain in control of which findings to investigate, which changes to apply, and what information to share.",
+        "th": "We built Codex Security around a simple premise: put the equivalent of a security engineer next to every software developer by integrating directly into Codex. Rather than just generating alerts, Codex Security will understand your team’s code and its threat model (or generate one if it doesn’t exist), identify plausible vulnerabilities, determine whether affected code is reachable, gather evidence to provide validation steps, develop a targeted patch, and verify the result. Humans remain in control of which findings to investigate, which changes to apply, and what information to share."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re releasing an update to the Codex Security plugin⁠ that enables out-of-the-box defensive security workflows. Developers can run deep scans or review recent changes, generate reports with severity, affected code locations, validation evidence, and remediation guidance, trace attack paths, build threat models, validate findings, and generate codebase-specific patches for review.",
+        "th": "Today, we’re releasing an update to the Codex Security plugin⁠ that enables out-of-the-box defensive security workflows. Developers can run deep scans or review recent changes, generate reports with severity, affected code locations, validation evidence, and remediation guidance, trace attack paths, build threat models, validate findings, and generate codebase-specific patches for review."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6XYiIoqSFxKn0hFSilc95X/9880c09031f0c5a9d31d5741528afc6d/Image_1__1_.png?w=3840&q=90&fm=webp",
+      "alt": "Screenshot of the Codex desktop app on a peach-to-orange gradient background. The main chat shows Codex preparing to run a Codex Security scan, with a “Set up security scan” panel open for a codebase scan of the juice-shop repository, scan area set to entire codebase, current branch master, and a green “Start scan” button. A right sidebar lists environment details including changes, local, master branch, and commit or push."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Set up a scan to cover an entire codebase, a subset of the codebase, or a specific change or commit.",
+        "th": "Set up a scan to cover an entire codebase, a subset of the codebase, or a specific change or commit."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The plugin⁠ can also triage and validate existing findings from scanners, advisories, bug-bounty reports, or ticketing systems, then automate patch generation at scale to quickly close a backlog of vulnerabilities. When Codex Security completes a scan, it can also export to an existing vulnerability management system or integrate into tools with SARIF files, CodeQL queries, and more. The plugin makes these capabilities much more accessible to support automated pipelines with Codex CLI or integrate into developer workflows in the Codex app.",
+        "th": "The plugin⁠ can also triage and validate existing findings from scanners, advisories, bug-bounty reports, or ticketing systems, then automate patch generation at scale to quickly close a backlog of vulnerabilities. When Codex Security completes a scan, it can also export to an existing vulnerability management system or integrate into tools with SARIF files, CodeQL queries, and more. The plugin makes these capabilities much more accessible to support automated pipelines with Codex CLI or integrate into developer workflows in the Codex app."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Updating GPT‑5.5‑Cyber: pairing capability with permissiveness",
+        "th": "Updating GPT‑5.5‑Cyber: pairing capability with permissiveness"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are releasing an update to GPT‑5.5‑Cyber, our model that is both more permissive and more capable for advanced, authorized cybersecurity work.",
+        "th": "We are releasing an update to GPT‑5.5‑Cyber, our model that is both more permissive and more capable for advanced, authorized cybersecurity work."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our initial preview of GPT‑5.5‑Cyber was designed primarily to reduce unnecessary refusals in specialized workflows. This update goes further. It is our strongest model yet for finding and helping patch software vulnerabilities, while retaining GPT‑5.5’s general-purpose intelligence and ability to work across long, complex tasks.",
+        "th": "Our initial preview of GPT‑5.5‑Cyber was designed primarily to reduce unnecessary refusals in specialized workflows. This update goes further. It is our strongest model yet for finding and helping patch software vulnerabilities, while retaining GPT‑5.5’s general-purpose intelligence and ability to work across long, complex tasks."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The model can sustain deeper analysis across large codebases: identifying security-relevant components, tracing whether vulnerable code is reachable, validating likely issues in controlled environments, developing and testing patches, and preparing evidence for human review. The goal is to help defenders move through the full remediation loop—not simply produce more findings.",
+        "th": "The model can sustain deeper analysis across large codebases: identifying security-relevant components, tracing whether vulnerable code is reachable, validating likely issues in controlled environments, developing and testing patches, and preparing evidence for human review. The goal is to help defenders move through the full remediation loop—not simply produce more findings."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On CyberGym, which measures whether an agent can reproduce known vulnerabilities in software environments, the updated GPT‑5.5‑Cyber reached 85.6% in single-model evaluations, compared with 81.8% for GPT‑5.5. This is the highest CyberGym score we have measured from a single model.",
+        "th": "On CyberGym, which measures whether an agent can reproduce known vulnerabilities in software environments, the updated GPT‑5.5‑Cyber reached 85.6% in single-model evaluations, compared with 81.8% for GPT‑5.5. This is the highest CyberGym score we have measured from a single model."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑5.5‑Cyber also outperformed GPT‑5.5 on two demanding real-world security benchmarks: 39.5% versus 25.95% on ExploitGym, which tests whether agents can turn known vulnerabilities into working exploits that achieve unauthorized code execution. On SEC-bench Pro, which evaluates long-horizon vulnerability discovery and proof-of-concept generation across complex software targets, GPT‑5.5‑Cyber reached 69.8%, compared with 63.1% for GPT‑5.5.",
+        "th": "GPT‑5.5‑Cyber also outperformed GPT‑5.5 on two demanding real-world security benchmarks: 39.5% versus 25.95% on ExploitGym, which tests whether agents can turn known vulnerabilities into working exploits that achieve unauthorized code execution. On SEC-bench Pro, which evaluates long-horizon vulnerability discovery and proof-of-concept generation across complex software targets, GPT‑5.5‑Cyber reached 69.8%, compared with 63.1% for GPT‑5.5."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Benchmarks are only one part of the story. What matters in practice is whether a model can find real vulnerabilities, distinguish actionable issues from noise, and help defenders land fixes safely. We are continuing to evaluate the model’s performance on complex repositories and real remediation workflows as coordinated disclosures conclude.",
+        "th": "Benchmarks are only one part of the story. What matters in practice is whether a model can find real vulnerabilities, distinguish actionable issues from noise, and help defenders land fixes safely. We are continuing to evaluate the model’s performance on complex repositories and real remediation workflows as coordinated disclosures conclude."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’ve had ongoing dialogue with the U.S. government about our cyber approach, including today’s announcements and on our preparation for upcoming model releases. That includes continued collaboration with the Center for AI Standards and Innovation (CAISI) on pre-deployment testing for GPT‑5.5 and 5.5-Cyber, and work with the Office of the National Cyber Director (ONCD) and Office of Science and Technology Policy (OSTP) on implementation of the recent Executive Order⁠(opens in a new window) and associated industry standards.",
+        "th": "We’ve had ongoing dialogue with the U.S. government about our cyber approach, including today’s announcements and on our preparation for upcoming model releases. That includes continued collaboration with the Center for AI Standards and Innovation (CAISI) on pre-deployment testing for GPT‑5.5 and 5.5-Cyber, and work with the Office of the National Cyber Director (ONCD) and Office of Science and Technology Policy (OSTP) on implementation of the recent Executive Order⁠(opens in a new window) and associated industry standards."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For most defenders, GPT‑5.5 with Trusted Access for Cyber and Codex Security remains the right starting point. GPT‑5.5‑Cyber is intended for verified defenders whose authorized work requires our most advanced cyber capabilities and more permissive behavior, paired with stronger verification, monitoring, scoped controls, and review. Across early Daybreak work, GPT‑5.5 and Codex Security have helped defenders identify and validate vulnerabilities in widely used systems, including Firefox, V8, Safari, OpenBSD, FreeBSD, and HTTP/2⁠ implementations.",
+        "th": "For most defenders, GPT‑5.5 with Trusted Access for Cyber and Codex Security remains the right starting point. GPT‑5.5‑Cyber is intended for verified defenders whose authorized work requires our most advanced cyber capabilities and more permissive behavior, paired with stronger verification, monitoring, scoped controls, and review. Across early Daybreak work, GPT‑5.5 and Codex Security have helped defenders identify and validate vulnerabilities in widely used systems, including Firefox, V8, Safari, OpenBSD, FreeBSD, and HTTP/2⁠ implementations."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Working with the security ecosystem",
+        "th": "Working with the security ecosystem"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As part of this expansion, we’re also launching the OpenAI Daybreak Cyber Partner Program ⁠with leading security software and services providers. Through the program, participating partners can use GPT‑5.5 with Trusted Access for Cyber—our primary model for most defensive cybersecurity workflows—in the security products and services they provide to customers. This allows their customers to benefit from the model’s defensive capabilities and make their software more resilient, but keeps direct model access in the hands of participating partners.",
+        "th": "As part of this expansion, we’re also launching the OpenAI Daybreak Cyber Partner Program ⁠with leading security software and services providers. Through the program, participating partners can use GPT‑5.5 with Trusted Access for Cyber—our primary model for most defensive cybersecurity workflows—in the security products and services they provide to customers. This allows their customers to benefit from the model’s defensive capabilities and make their software more resilient, but keeps direct model access in the hands of participating partners."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6A6qyFaSLcyO8EjX0W5Id8/f8e9bede5a46a16d220f71f181e91b40/logo_cloud_for_codex_final.png?w=3840&q=90&fm=webp",
+      "alt": "Logo cloud on an orange-to-yellow gradient background showing customer or partner logos, including Accenture, Akamai, NCC Group, Capgemini, Cato Networks, Check Point, Cisco, Cloudflare, Cognizant, CrowdStrike, Darktrace, Elastic, EY, Fortinet, GuidePoint Security, IBM, KPMG, Okta, Palo Alto Networks, Proofpoint, PwC, SentinelOne, SpecterOps, Sophos, Tenable, Trend AI, Wiz, and Zscaler."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We will also collaborate with program partners to continue to strengthen the safeguards, monitoring, and abuse-prevention standards needed to deploy these capabilities responsibly across the security ecosystem. We're rolling this out with an initial set of partners⁠ and plan to continue expanding to more organizations in the coming months.",
+        "th": "We will also collaborate with program partners to continue to strengthen the safeguards, monitoring, and abuse-prevention standards needed to deploy these capabilities responsibly across the security ecosystem. We're rolling this out with an initial set of partners⁠ and plan to continue expanding to more organizations in the coming months."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Patch the Planet: landing fixes in open-source",
+        "th": "Patch the Planet: landing fixes in open-source"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Patch the Planet is an initiative built to help maintainers move from findings to fixes. Founded with Trail of Bits, and in collaboration with HackerOne and Calif, we are funding expert security researchers and equipping them with Codex Security and our advanced models to work directly with open source maintainers.",
+        "th": "Patch the Planet is an initiative built to help maintainers move from findings to fixes. Founded with Trail of Bits, and in collaboration with HackerOne and Calif, we are funding expert security researchers and equipping them with Codex Security and our advanced models to work directly with open source maintainers."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Open source software powers products, public services, developer tools, and critical infrastructure across sectors. A vulnerability in a widely used networking library can affect thousands of downstream systems. Yet many of these projects are sustained by very small teams with limited time and funding. Research from the Linux Foundation and Harvard⁠(opens in a new window) found that 94 percent of the widely used projects it studied had fewer than ten developers responsible for more than 90 percent of the code added in a year.",
+        "th": "Open source software powers products, public services, developer tools, and critical infrastructure across sectors. A vulnerability in a widely used networking library can affect thousands of downstream systems. Yet many of these projects are sustained by very small teams with limited time and funding. Research from the Linux Foundation and Harvard⁠(opens in a new window) found that 94 percent of the widely used projects it studied had fewer than ten developers responsible for more than 90 percent of the code added in a year."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As AI makes it possible to find and patch more vulnerabilities faster, it also creates more work for maintainers, who need to sift through thousands of reports, many of which are low-quality false positives. Maintainers should not be left with more reports and no additional capacity to fix them. That’s why Patch the Planet is built around expert human security review.",
+        "th": "As AI makes it possible to find and patch more vulnerabilities faster, it also creates more work for maintainers, who need to sift through thousands of reports, many of which are low-quality false positives. Maintainers should not be left with more reports and no additional capacity to fix them. That’s why Patch the Planet is built around expert human security review."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each engagement begins with consultation between our security researchers and the maintainers they are helping. Maintainers define their priorities, preferences, and established disclosure processes. Patch the Planet security researchers then manage the work end to end–validating and deduplicating both vulnerabilities and patches before they reach maintainers, significantly reducing the burden on maintainers and speeding up remediation.",
+        "th": "Each engagement begins with consultation between our security researchers and the maintainers they are helping. Maintainers define their priorities, preferences, and established disclosure processes. Patch the Planet security researchers then manage the work end to end–validating and deduplicating both vulnerabilities and patches before they reach maintainers, significantly reducing the burden on maintainers and speeding up remediation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Participating projects receive ChatGPT Pro, conditional access to Codex Security, and API credits for core development, maintainer automation, and release workflows.",
+        "th": "Participating projects receive ChatGPT Pro, conditional access to Codex Security, and API credits for core development, maintainer automation, and release workflows."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The initial five-day sprint across multiple projects surfaced hundreds of issues for review, merged dozens of patches with more underway, and built reusable fuzzing, variant-analysis, differential-testing, and specification-based testing workflows. You can read more on the Trail of Bits blog here⁠(opens in a new window).",
+        "th": "The initial five-day sprint across multiple projects surfaced hundreds of issues for review, merged dozens of patches with more underway, and built reusable fuzzing, variant-analysis, differential-testing, and specification-based testing workflows. You can read more on the Trail of Bits blog here⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Finding vulnerabilities is important, but it’s landing the fix that protects the world, and that takes collaboration and community support.",
+        "th": "Finding vulnerabilities is important, but it’s landing the fix that protects the world, and that takes collaboration and community support."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Protecting critical infrastructure and sensitive systems",
+        "th": "Protecting critical infrastructure and sensitive systems"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are also collaborating closely with governments and institutions around the world to uplift their defensive cybersecurity capabilities and protect critical infrastructure. We have been working closely with the US Government and relevant federal agencies as we prepare for increasingly cyber-capable AI models. In the past month we have already established Trusted Access for Cyber partnerships with Australia, Canada, France, Germany, Japan, Republic of Korea, and EU institutions like ENISA. We also have a growing and trusted partnership with the UK government around cyber, testing and evaluation, and other areas of mutual interest.",
+        "th": "We are also collaborating closely with governments and institutions around the world to uplift their defensive cybersecurity capabilities and protect critical infrastructure. We have been working closely with the US Government and relevant federal agencies as we prepare for increasingly cyber-capable AI models. In the past month we have already established Trusted Access for Cyber partnerships with Australia, Canada, France, Germany, Japan, Republic of Korea, and EU institutions like ENISA. We also have a growing and trusted partnership with the UK government around cyber, testing and evaluation, and other areas of mutual interest."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We plan to work directly with eligible operators of critical infrastructure, including government networks, to develop safeguards tailored to the systems they operate. The focus of this work is to make advanced AI more useful to defenders, while making it harder for malicious actors to cause real-world harm.",
+        "th": "We plan to work directly with eligible operators of critical infrastructure, including government networks, to develop safeguards tailored to the systems they operate. The focus of this work is to make advanced AI more useful to defenders, while making it harder for malicious actors to cause real-world harm."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We will also work with enterprise customers and trusted partners to incorporate broader context and identifiers about the specific systems they operate or protect, strengthening our cybersecurity safeguards and ability to prevent harmful cyber activity involving critical services.",
+        "th": "We will also work with enterprise customers and trusted partners to incorporate broader context and identifiers about the specific systems they operate or protect, strengthening our cybersecurity safeguards and ability to prevent harmful cyber activity involving critical services."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What comes next",
+        "th": "What comes next"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Daybreak brings together models, Codex Security, Patch the Planet, expert researchers, maintainers, security partners, critical infrastructure operators, and trusted access controls to help human defenders rise to the challenge.Organizations across the public and private sectors can work with OpenAI Daybreak to identify, validate, and remediate vulnerabilities across the software they build and rely on. Developers and maintainers can run Codex Security⁠ on code they own, review the findings, and help land fixes. Security partners and practitioners can use our frontier models to strengthen their defensive tools and bring those capabilities to more organizations quickly.",
+        "th": "Daybreak brings together models, Codex Security, Patch the Planet, expert researchers, maintainers, security partners, critical infrastructure operators, and trusted access controls to help human defenders rise to the challenge.Organizations across the public and private sectors can work with OpenAI Daybreak to identify, validate, and remediate vulnerabilities across the software they build and rely on. Developers and maintainers can run Codex Security⁠ on code they own, review the findings, and help land fixes. Security partners and practitioners can use our frontier models to strengthen their defensive tools and bring those capabilities to more organizations quickly."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The goal is to move beyond using models to find more vulnerabilities, towards a world of safer software and cyber resilience.",
+        "th": "The goal is to move beyond using models to find more vulnerabilities, towards a world of safer software and cyber resilience."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6phCuFzVSdCdVCh6YqXMa6/a4207917b5d7a43179a61f5de012168d/HP-1_1.png?w=3840&q=90&fm=webp",
+      "alt": "HP early AI wins — card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanyJun 28, 2026",
+        "th": "CompanyJun 28, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7hmtkjKv0DxS4Yt8mQZju2/c168bfa2010da64bcc9dd60d6b5491e8/Art_Card__1_.png?w=3840&q=90&fm=webp",
+      "alt": "How agents are transforming work > Cover image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanyJun 25, 2026",
+        "th": "CompanyJun 25, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/21KcazqOHUF7Cq71Hpfcnc/81ad98a1978845b441ab14e008168c75/openai-broadcom-jalapeno-inference-chip-image-1_1.png?w=3840&q=90&fm=webp",
+      "alt": "OpenAI and Broadcom Jalapeño inference chip card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanyJun 24, 2026",
+        "th": "CompanyJun 24, 2026"
       }
     }
   ]

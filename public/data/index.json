@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T17:12:54.327Z",
+  "generatedAt": "2026-06-30T18:11:38.568Z",
   "items": [
     {
       "id": "deepmind__start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
@@ -67,6 +67,23 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp\">Google UK shares its latest Economic Impact Report and how to enable more people to ",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp\">Google UK shares its latest Economic Impact Report and how to enable more people to "
+      }
+    },
+    {
+      "id": "anthropic__claude-sonnet-5",
+      "slug": "claude-sonnet-5",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "category": "Product",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/458ea645ef6b729f6847cba16932716e6b547f2f-2880x1620.png",
+      "title": {
+        "en": "Introducing Claude Sonnet 5",
+        "th": "Introducing Claude Sonnet 5"
+      },
+      "summary": {
+        "en": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+        "th": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work."
       }
     },
     {
@@ -988,23 +1005,6 @@
       }
     },
     {
-      "id": "anthropic__claude-corps",
-      "slug": "claude-corps",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/claude-corps",
-      "category": "Announcements",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/eb5d94573805e24cb381cd0676527cfada75c177-3840x2160.jpg",
-      "title": {
-        "en": "Introducing Claude Corps",
-        "th": "Introducing Claude Corps"
-      },
-      "summary": {
-        "en": "Anthropic is launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.",
-        "th": "Anthropic is launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America."
-      }
-    },
-    {
       "id": "anthropic__dxc-anthropic-alliance",
       "slug": "dxc-anthropic-alliance",
       "source": "anthropic",
@@ -1019,6 +1019,23 @@
       "summary": {
         "en": "Anthropic is announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies.",
         "th": "Anthropic is announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies."
+      }
+    },
+    {
+      "id": "anthropic__claude-corps",
+      "slug": "claude-corps",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/claude-corps",
+      "category": "News",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/eb5d94573805e24cb381cd0676527cfada75c177-3840x2160.jpg",
+      "title": {
+        "en": "Introducing Claude Corps",
+        "th": "Introducing Claude Corps"
+      },
+      "summary": {
+        "en": "Anthropic is launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.",
+        "th": "Anthropic is launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America."
       }
     },
     {
@@ -1546,23 +1563,6 @@
       "summary": {
         "en": "Direct Preference Optimization Beyond Chatbots",
         "th": "Direct Preference Optimization Beyond Chatbots"
-      }
-    },
-    {
-      "id": "anthropic__services-track-partner-hub",
-      "slug": "services-track-partner-hub",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/services-track-partner-hub",
-      "category": "News",
-      "date": "2026-06-03T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20ShapeBuild&backgroundColor=fig",
-      "title": {
-        "en": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
-        "th": "Introducing the Services Track and Partner Hub of the Claude Partner Network"
-      },
-      "summary": {
-        "en": "In March, we launched the Claude Partner Network, a program for the firms that help enterprises put Claude into production.. Today, we’re announcing two new components that make this ecosystem easier for customers to navigate.",
-        "th": "In March, we launched the Claude Partner Network, a program for the firms that help enterprises put Claude into production.. Today, we’re announcing two new components that make this ecosystem easier for customers to navigate."
       }
     },
     {

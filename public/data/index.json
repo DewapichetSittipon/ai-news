@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T09:08:33.558Z",
+  "generatedAt": "2026-07-01T09:13:39.870Z",
   "items": [
     {
       "id": "huggingface__scarfbench",
@@ -87,6 +87,57 @@
       }
     },
     {
+      "id": "anthropic__redeploying-fable-5",
+      "slug": "redeploying-fable-5",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "category": "Announcements",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Redeploying Fable 5",
+        "th": "การปรับใช้ Fable 5 ใหม่"
+      },
+      "summary": {
+        "en": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
+        "th": "Anthropic กำลังปรับใช้ Claude Fable 5 อีกครั้งตั้งแต่วันที่ 1 กรกฎาคม ภายหลังการยกเลิกการควบคุมการส่งออก พร้อมด้วยการป้องกันความปลอดภัยทางไซเบอร์ที่ได้รับการอัปเดต และเฟรมเวิร์กการเจลเบรกของอุตสาหกรรมใหม่"
+      }
+    },
+    {
+      "id": "anthropic__claude-sonnet-5",
+      "slug": "claude-sonnet-5",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "category": "Product",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/458ea645ef6b729f6847cba16932716e6b547f2f-2880x1620.png",
+      "title": {
+        "en": "Introducing Claude Sonnet 5",
+        "th": "ขอแนะนำโคลด โคลง 5"
+      },
+      "summary": {
+        "en": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+        "th": "Sonnet ที่เป็นตัวแทนมากที่สุดของเรา พร้อมด้วยความชาญฉลาดระดับสูงสุดสำหรับการเขียนโค้ดและการทำงานอย่างมืออาชีพในทุกๆ วัน"
+      }
+    },
+    {
+      "id": "anthropic__claude-science-ai-workbench",
+      "slug": "claude-science-ai-workbench",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "category": "Announcements",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Claude Science, an AI workbench for scientists, is now available",
+        "th": "Claude Science ซึ่งเป็นโต๊ะงาน AI สำหรับนักวิทยาศาสตร์ พร้อมใช้งานแล้ว"
+      },
+      "summary": {
+        "en": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
+        "th": "Claude Science เป็นแอปที่ปรับแต่งได้ซึ่งรวมเครื่องมือและแพ็คเกจที่นักวิจัยใช้บ่อยที่สุด สร้างสิ่งประดิษฐ์ที่ตรวจสอบได้ และให้การเข้าถึงทรัพยากรการประมวลผลที่ยืดหยุ่น"
+      }
+    },
+    {
       "id": "openai__introducing-genebench-pro",
       "slug": "introducing-genebench-pro",
       "source": "openai",
@@ -169,57 +220,6 @@
       "summary": {
         "en": "DiScoFormer: One transformer for density and score, across distributions",
         "th": "DiScoFormer: หม้อแปลงหนึ่งตัวสำหรับความหนาแน่นและคะแนน ทั่วทั้งการกระจาย"
-      }
-    },
-    {
-      "id": "anthropic__redeploying-fable-5",
-      "slug": "redeploying-fable-5",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/redeploying-fable-5",
-      "category": "Announcements",
-      "date": "2026-06-29T17:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Redeploying Fable 5",
-        "th": "การปรับใช้ Fable 5 ใหม่"
-      },
-      "summary": {
-        "en": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
-        "th": "Anthropic กำลังปรับใช้ Claude Fable 5 อีกครั้งตั้งแต่วันที่ 1 กรกฎาคม ภายหลังการยกเลิกการควบคุมการส่งออก พร้อมด้วยการป้องกันความปลอดภัยทางไซเบอร์ที่ได้รับการอัปเดต และเฟรมเวิร์กการเจลเบรกของอุตสาหกรรมใหม่"
-      }
-    },
-    {
-      "id": "anthropic__claude-sonnet-5",
-      "slug": "claude-sonnet-5",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "category": "Product",
-      "date": "2026-06-29T17:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/458ea645ef6b729f6847cba16932716e6b547f2f-2880x1620.png",
-      "title": {
-        "en": "Introducing Claude Sonnet 5",
-        "th": "ขอแนะนำโคลด โคลง 5"
-      },
-      "summary": {
-        "en": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
-        "th": "Sonnet ที่เป็นตัวแทนมากที่สุดของเรา พร้อมด้วยความชาญฉลาดระดับสูงสุดสำหรับการเขียนโค้ดและการทำงานอย่างมืออาชีพในทุกๆ วัน"
-      }
-    },
-    {
-      "id": "anthropic__claude-science-ai-workbench",
-      "slug": "claude-science-ai-workbench",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
-      "category": "Announcements",
-      "date": "2026-06-29T17:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Claude Science, an AI workbench for scientists, is now available",
-        "th": "Claude Science ซึ่งเป็นโต๊ะงาน AI สำหรับนักวิทยาศาสตร์ พร้อมใช้งานแล้ว"
-      },
-      "summary": {
-        "en": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
-        "th": "Claude Science เป็นแอปที่ปรับแต่งได้ซึ่งรวมเครื่องมือและแพ็คเกจที่นักวิจัยใช้บ่อยที่สุด สร้างสิ่งประดิษฐ์ที่ตรวจสอบได้ และให้การเข้าถึงทรัพยากรการประมวลผลที่ยืดหยุ่น"
       }
     },
     {
@@ -444,6 +444,23 @@
       }
     },
     {
+      "id": "anthropic__introducing-claude-tag",
+      "slug": "introducing-claude-tag",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "category": "Product",
+      "date": "2026-06-23T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/b9ba85fd4d8beaf4efe04a4cf6cec14761e52c78-2400x1260.jpg",
+      "title": {
+        "en": "Introducing Claude Tag",
+        "th": "ขอแนะนำ คล็อด แท็ก"
+      },
+      "summary": {
+        "en": "Claude Tag is a new way for teams to work with Claude.",
+        "th": "Claude Tag เป็นวิธีใหม่สำหรับทีมในการทำงานร่วมกับ Claude"
+      }
+    },
+    {
       "id": "openai__omio",
       "slug": "omio",
       "source": "openai",
@@ -492,23 +509,6 @@
       "summary": {
         "en": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
         "th": "การทดลองกับ Cross-Origin Storage API ที่นำเสนอใน Transformers.js"
-      }
-    },
-    {
-      "id": "anthropic__introducing-claude-tag",
-      "slug": "introducing-claude-tag",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/introducing-claude-tag",
-      "category": "Product",
-      "date": "2026-06-22T17:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/b9ba85fd4d8beaf4efe04a4cf6cec14761e52c78-2400x1260.jpg",
-      "title": {
-        "en": "Introducing Claude Tag",
-        "th": "ขอแนะนำ คล็อด แท็ก"
-      },
-      "summary": {
-        "en": "Claude Tag is a new way for teams to work with Claude.",
-        "th": "Claude Tag เป็นวิธีใหม่สำหรับทีมในการทำงานร่วมกับ Claude"
       }
     },
     {
@@ -784,6 +784,23 @@
       }
     },
     {
+      "id": "anthropic__seoul-office-partnerships-korean-ai-ecosystem",
+      "slug": "seoul-office-partnerships-korean-ai-ecosystem",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+      "category": "News",
+      "date": "2026-06-17T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Globe&backgroundColor=heather",
+      "title": {
+        "en": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+        "th": "Anthropic เปิดสำนักงานในกรุงโซลและประกาศความร่วมมือใหม่ทั่วทั้งระบบนิเวศ AI ของเกาหลี"
+      },
+      "summary": {
+        "en": "Anthropic opens in Seoul and announces new partnerships across the Korean AI ecosystem.",
+        "th": "Anthropic เปิดตัวในกรุงโซลและประกาศความร่วมมือครั้งใหม่ทั่วทั้งระบบนิเวศ AI ของเกาหลี"
+      }
+    },
+    {
       "id": "openai__introducing-life-sci-bench",
       "slug": "introducing-life-sci-bench",
       "source": "openai",
@@ -832,23 +849,6 @@
       "summary": {
         "en": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
         "th": "รัฐบาลสหราชอาณาจักรร่วมมือกับ Google DeepMind เพื่อสร้างต้นแบบที่ขับเคลื่อนด้วย AI ใหม่โดยมีเป้าหมายเพื่อการตัดสินใจเรื่องที่อยู่อาศัยที่รวดเร็วยิ่งขึ้น"
-      }
-    },
-    {
-      "id": "anthropic__seoul-office-partnerships-korean-ai-ecosystem",
-      "slug": "seoul-office-partnerships-korean-ai-ecosystem",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
-      "category": "News",
-      "date": "2026-06-16T17:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Globe&backgroundColor=heather",
-      "title": {
-        "en": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
-        "th": "Anthropic เปิดสำนักงานในกรุงโซลและประกาศความร่วมมือใหม่ทั่วทั้งระบบนิเวศ AI ของเกาหลี"
-      },
-      "summary": {
-        "en": "Anthropic opens in Seoul and announces new partnerships across the Korean AI ecosystem.",
-        "th": "Anthropic เปิดตัวในกรุงโซลและประกาศความร่วมมือครั้งใหม่ทั่วทั้งระบบนิเวศ AI ของเกาหลี"
       }
     },
     {
@@ -937,6 +937,57 @@
       }
     },
     {
+      "id": "anthropic__fable-mythos-access",
+      "slug": "fable-mythos-access",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "category": "News",
+      "date": "2026-06-12T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/50159fff55088f12070cc8a56eb51ff61006b631-2400x1260.png",
+      "title": {
+        "en": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+        "th": "แถลงการณ์เกี่ยวกับคำสั่งของรัฐบาลสหรัฐฯ ให้ระงับการเข้าถึง Fable 5 และ Mythos 5"
+      },
+      "summary": {
+        "en": "The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States.",
+        "th": "รัฐบาลสหรัฐฯ ได้ออกคำสั่งควบคุมการส่งออกเพื่อระงับการเข้าถึง Fable 5 และ Mythos 5 ทั้งหมดโดยชาวต่างชาติ ไม่ว่าจะอยู่ภายในหรือภายนอกสหรัฐอเมริกา"
+      }
+    },
+    {
+      "id": "anthropic__anthropic-public-record",
+      "slug": "anthropic-public-record",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/anthropic-public-record",
+      "category": "News",
+      "date": "2026-06-12T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Globe&backgroundColor=heather",
+      "title": {
+        "en": "Results from the first Anthropic Public Record",
+        "th": "ผลลัพธ์จากบันทึกสาธารณะมานุษยวิทยาฉบับแรก"
+      },
+      "summary": {
+        "en": "Anthropic Public Record is a national survey of attitudes and opinions towards AI.",
+        "th": "Anthropic Public Record คือการสำรวจทัศนคติและความคิดเห็นระดับชาติเกี่ยวกับ AI"
+      }
+    },
+    {
+      "id": "anthropic__tcs-anthropic-partnership",
+      "slug": "tcs-anthropic-partnership",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
+      "category": "News",
+      "date": "2026-06-12T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20NodeLine&backgroundColor=olive",
+      "title": {
+        "en": "TCS and Anthropic partner to bring Claude to regulated industries",
+        "th": "TCS และพันธมิตร Anthropic เพื่อนำ Claude เข้าสู่อุตสาหกรรมที่มีการควบคุม"
+      },
+      "summary": {
+        "en": "Anthropic is announcing a partnership with Tata Consultancy Services (TCS). TCS will provide Claude to 50,000 of its own employees across 56 countries; build Claude-powered products for clients in financial services, healthcare, the public sector, and other regulated industries; and join the Claude Partner Network.",
+        "th": "Anthropic กำลังประกาศความร่วมมือกับ Tata Consultancy Services (TCS) TCS จะจัดหา Claude ให้กับพนักงาน 50,000 คนใน 56 ประเทศ สร้างผลิตภัณฑ์ที่ขับเคลื่อนโดย Claude สำหรับลูกค้าในด้านบริการทางการเงิน การดูแลสุขภาพ ภาครัฐ และอุตสาหกรรมที่ได้รับการควบคุมอื่นๆ และเข้าร่วมเครือข่ายพันธมิตรของ Claude"
+      }
+    },
+    {
       "id": "openai__preply",
       "slug": "preply",
       "source": "openai",
@@ -971,54 +1022,37 @@
       }
     },
     {
-      "id": "anthropic__fable-mythos-access",
-      "slug": "fable-mythos-access",
+      "id": "anthropic__dxc-anthropic-alliance",
+      "slug": "dxc-anthropic-alliance",
       "source": "anthropic",
-      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
       "category": "News",
-      "date": "2026-06-11T17:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/50159fff55088f12070cc8a56eb51ff61006b631-2400x1260.png",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Megaphone&backgroundColor=coral",
       "title": {
-        "en": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
-        "th": "แถลงการณ์เกี่ยวกับคำสั่งของรัฐบาลสหรัฐฯ ให้ระงับการเข้าถึง Fable 5 และ Mythos 5"
+        "en": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+        "th": "DXC จะรวม Claude เข้ากับระบบที่ธนาคาร สายการบิน และอุตสาหกรรมที่ได้รับการควบคุมอื่นๆ พึ่งพา"
       },
       "summary": {
-        "en": "The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States.",
-        "th": "รัฐบาลสหรัฐฯ ได้ออกคำสั่งควบคุมการส่งออกเพื่อระงับการเข้าถึง Fable 5 และ Mythos 5 ทั้งหมดโดยชาวต่างชาติ ไม่ว่าจะอยู่ภายในหรือภายนอกสหรัฐอเมริกา"
+        "en": "Anthropic is announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies.",
+        "th": "Anthropic กำลังประกาศความร่วมมือระดับโลกระยะเวลาหลายปีกับ DXC Technology ซึ่งเป็นหนึ่งในบริษัทผู้ให้บริการด้านไอทีที่ใหญ่ที่สุดในโลก"
       }
     },
     {
-      "id": "anthropic__anthropic-public-record",
-      "slug": "anthropic-public-record",
+      "id": "anthropic__claude-corps",
+      "slug": "claude-corps",
       "source": "anthropic",
-      "url": "https://www.anthropic.com/news/anthropic-public-record",
+      "url": "https://www.anthropic.com/news/claude-corps",
       "category": "News",
-      "date": "2026-06-11T17:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Globe&backgroundColor=heather",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/eb5d94573805e24cb381cd0676527cfada75c177-3840x2160.jpg",
       "title": {
-        "en": "Results from the first Anthropic Public Record",
-        "th": "ผลลัพธ์จากบันทึกสาธารณะมานุษยวิทยาฉบับแรก"
+        "en": "Introducing Claude Corps",
+        "th": "ขอแนะนำ Claude Corps"
       },
       "summary": {
-        "en": "Anthropic Public Record is a national survey of attitudes and opinions towards AI.",
-        "th": "Anthropic Public Record คือการสำรวจทัศนคติและความคิดเห็นระดับชาติเกี่ยวกับ AI"
-      }
-    },
-    {
-      "id": "anthropic__tcs-anthropic-partnership",
-      "slug": "tcs-anthropic-partnership",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
-      "category": "News",
-      "date": "2026-06-11T17:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20NodeLine&backgroundColor=olive",
-      "title": {
-        "en": "TCS and Anthropic partner to bring Claude to regulated industries",
-        "th": "TCS และพันธมิตร Anthropic เพื่อนำ Claude เข้าสู่อุตสาหกรรมที่มีการควบคุม"
-      },
-      "summary": {
-        "en": "Anthropic is announcing a partnership with Tata Consultancy Services (TCS). TCS will provide Claude to 50,000 of its own employees across 56 countries; build Claude-powered products for clients in financial services, healthcare, the public sector, and other regulated industries; and join the Claude Partner Network.",
-        "th": "Anthropic กำลังประกาศความร่วมมือกับ Tata Consultancy Services (TCS) TCS จะจัดหา Claude ให้กับพนักงาน 50,000 คนใน 56 ประเทศ สร้างผลิตภัณฑ์ที่ขับเคลื่อนโดย Claude สำหรับลูกค้าในด้านบริการทางการเงิน การดูแลสุขภาพ ภาครัฐ และอุตสาหกรรมที่ได้รับการควบคุมอื่นๆ และเข้าร่วมเครือข่ายพันธมิตรของ Claude"
+        "en": "Anthropic is launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.",
+        "th": "Anthropic กำลังเปิดตัว Claude Corps ซึ่งเป็นโครงการมิตรภาพระดับชาติสำหรับผู้คนในช่วงเริ่มต้นอาชีพที่หลงใหลในการขยายประโยชน์ของ AI ไปยังชุมชนทั่วอเมริกา"
       }
     },
     {
@@ -1121,40 +1155,6 @@
       "summary": {
         "en": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
         "th": "เข้าถึงโมเดล OpenAI และ Codex ผ่าน Oracle Cloud โดยใช้ข้อผูกพันที่มีอยู่เพื่อสร้างและปรับใช้ AI ด้วยการรักษาความปลอดภัยและการกำกับดูแลระดับองค์กร"
-      }
-    },
-    {
-      "id": "anthropic__dxc-anthropic-alliance",
-      "slug": "dxc-anthropic-alliance",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
-      "category": "News",
-      "date": "2026-06-10T17:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Megaphone&backgroundColor=coral",
-      "title": {
-        "en": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
-        "th": "DXC จะรวม Claude เข้ากับระบบที่ธนาคาร สายการบิน และอุตสาหกรรมที่ได้รับการควบคุมอื่นๆ พึ่งพา"
-      },
-      "summary": {
-        "en": "Anthropic is announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies.",
-        "th": "Anthropic กำลังประกาศความร่วมมือระดับโลกระยะเวลาหลายปีกับ DXC Technology ซึ่งเป็นหนึ่งในบริษัทผู้ให้บริการด้านไอทีที่ใหญ่ที่สุดในโลก"
-      }
-    },
-    {
-      "id": "anthropic__claude-corps",
-      "slug": "claude-corps",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/claude-corps",
-      "category": "News",
-      "date": "2026-06-10T17:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/eb5d94573805e24cb381cd0676527cfada75c177-3840x2160.jpg",
-      "title": {
-        "en": "Introducing Claude Corps",
-        "th": "ขอแนะนำ Claude Corps"
-      },
-      "summary": {
-        "en": "Anthropic is launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.",
-        "th": "Anthropic กำลังเปิดตัว Claude Corps ซึ่งเป็นโครงการมิตรภาพระดับชาติสำหรับผู้คนในช่วงเริ่มต้นอาชีพที่หลงใหลในการขยายประโยชน์ของ AI ไปยังชุมชนทั่วอเมริกา"
       }
     },
     {

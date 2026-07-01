@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T03:04:26.526Z",
+  "generatedAt": "2026-07-01T05:03:10.883Z",
   "items": [
     {
       "id": "huggingface__scarfbench",
@@ -118,6 +118,23 @@
       "summary": {
         "en": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
         "th": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources."
+      }
+    },
+    {
+      "id": "anthropic__redeploying-fable-5",
+      "slug": "redeploying-fable-5",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "category": "News",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Redeploying Fable 5",
+        "th": "Redeploying Fable 5"
+      },
+      "summary": {
+        "en": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
+        "th": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework."
       }
     },
     {
@@ -1308,23 +1325,6 @@
       "summary": {
         "en": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
         "th": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams."
-      }
-    },
-    {
-      "id": "anthropic__claude-fable-5-mythos-5",
-      "slug": "claude-fable-5-mythos-5",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-      "category": "News",
-      "date": "2026-06-09T00:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/b7055119423427c40a0e4d84054aed17682b50a2-2880x1620.png",
-      "title": {
-        "en": "Claude Fable 5 and Claude Mythos 5",
-        "th": "Claude Fable 5 and Claude Mythos 5"
-      },
-      "summary": {
-        "en": "Today we’re launching Claude Fable 5: a Mythos-class model that we’ve made safe for general use.",
-        "th": "Today we’re launching Claude Fable 5: a Mythos-class model that we’ve made safe for general use."
       }
     },
     {

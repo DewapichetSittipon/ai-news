@@ -143,5 +143,17 @@ export async function translateArticles(articles: NewsArticle[]): Promise<void> 
     }
   }
 
+  // Prune: keep only translations still referenced by the current snapshot, so
+  // the cache stays bounded to one feed window instead of growing forever.
+  // (An article that later reappears simply gets re-translated — rare, cheap.)
+  const kept: Record<string, string> = {};
+  for (const a of articles) {
+    for (const en of stringsOf(a)) {
+      const key = en.trim();
+      if (key && cache[key] !== undefined) kept[key] = cache[key];
+    }
+  }
+  cache = kept;
+
   await saveCache();
 }

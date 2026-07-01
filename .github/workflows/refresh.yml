@@ -2,7 +2,7 @@ name: Refresh & Deploy
 
 on:
   schedule:
-    - cron: "*/30 * * * *" # every 30 min (GitHub may delay/skip high-frequency schedules)
+    - cron: "0 */2 * * *" # every 2 hours — AI-lab news is infrequent; keeps git history lean
   workflow_dispatch: {}
   push:
     branches: [main]
@@ -42,8 +42,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/data scripts/translation-cache.json
-          git diff --staged --quiet || git commit -m "chore: refresh news snapshot [skip ci]"
-          git push
+          # index.json's generatedAt bumps every run; only commit when the actual
+          # content (articles or translation cache) changed — avoids empty churn.
+          if git diff --staged --quiet -- . ':!public/data/index.json'; then
+            echo "No content changes — skipping commit."
+          else
+            git commit -m "chore: refresh news snapshot [skip ci]"
+            git push
+          fi
 
       - run: npm run build
 

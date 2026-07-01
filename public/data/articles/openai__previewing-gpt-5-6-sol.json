@@ -18,8 +18,401 @@
     {
       "type": "p",
       "text": {
-        "en": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
-        "th": "OpenAI แสดงตัวอย่าง GPT-5.6 Sol ซึ่งเป็นโมเดลเจเนอเรชันถัดไปที่มีความสามารถที่แข็งแกร่งยิ่งขึ้นในการเขียนโค้ด วิทยาศาสตร์ และความปลอดภัยทางไซเบอร์ จับคู่กับสแต็กความปลอดภัยที่ล้ำหน้าที่สุด"
+        "en": "June 26, 2026",
+        "th": "26 มิถุนายน 2569"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Capabilities",
+        "th": "ความสามารถ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Stronger cyber capabilities with stronger safeguards",
+        "th": "ความสามารถทางไซเบอร์ที่แข็งแกร่งยิ่งขึ้นพร้อมการป้องกันที่แข็งแกร่งยิ่งขึ้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A layered safeguard stack",
+        "th": "กองป้องกันแบบเป็นชั้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Improving robustness with automated red-teaming",
+        "th": "การปรับปรุงความแข็งแกร่งด้วยการจัดทีมสีแดงอัตโนมัติ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Availability and pricing",
+        "th": "ความพร้อมใช้งานและราคา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Table of contents",
+        "th": "สารบัญ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Capabilities",
+        "th": "ความสามารถ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Stronger cyber capabilities with stronger safeguards",
+        "th": "ความสามารถทางไซเบอร์ที่แข็งแกร่งยิ่งขึ้นพร้อมการป้องกันที่แข็งแกร่งยิ่งขึ้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A layered safeguard stack",
+        "th": "กองป้องกันแบบเป็นชั้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Improving robustness with automated red-teaming",
+        "th": "การปรับปรุงความแข็งแกร่งด้วยการจัดทีมสีแดงอัตโนมัติ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Availability and pricing",
+        "th": "ความพร้อมใช้งานและราคา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for everyday work; and Luna, a fast and affordable model. Terra has competitive performance to GPT‑5.5 while being 2x cheaper and Luna brings strong capability at our lowest cost.",
+        "th": "เรากำลังเริ่มการแสดงตัวอย่างแบบจำกัดของซีรีส์ GPT‑5.6: Sol ซึ่งเป็นรุ่นเรือธงของเรา; Terra โมเดลที่สมดุลสำหรับการทำงานในแต่ละวัน และลูน่ารุ่นที่รวดเร็วและราคาไม่แพง Terra มีประสิทธิภาพที่แข่งขันกับ GPT‑5.5 ในขณะที่ราคาถูกกว่า 2 เท่า และ Luna มาพร้อมความสามารถอันแข็งแกร่งในราคาที่ถูกที่สุด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑5.6 Sol launches with our most robust safety stack to date. We strengthened protections for higher-risk activity, sensitive cyber requests, and repeated misuse, and spent multiple weeks finding weaknesses, pressure-testing our system, and hardening it against real-world attacks.",
+        "th": "GPT‑5.6 Sol เปิดตัวพร้อมกับกลุ่มความปลอดภัยที่แข็งแกร่งที่สุดของเราในปัจจุบัน เราเสริมความแข็งแกร่งให้กับการป้องกันสำหรับกิจกรรมที่มีความเสี่ยงสูงกว่า คำขอทางไซเบอร์ที่ละเอียดอ่อน และการใช้งานในทางที่ผิดซ้ำๆ และใช้เวลาหลายสัปดาห์ในการค้นหาจุดอ่อน ทดสอบแรงกดดันระบบของเรา และเสริมความแข็งแกร่งให้กับการโจมตีในโลกแห่งความเป็นจริง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We believe in broad access, and we plan to make GPT‑5.6 Sol, Terra, and Luna generally available in the coming weeks. As part of our ongoing engagement with the U.S. government, we previewed our plans and the models’ capabilities ahead of today’s launch. At their request, we are starting with a limited preview for a small group of trusted partners whose participation has been shared with the government, before releasing more broadly. During this preview, we will continue testing and coordinating closely with partners as we work toward broader availability. We don’t believe this kind of government access process should become the long-term default. It keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them. We are taking this short-term step because we believe it is the strongest path to broader availability in the coming weeks, while we work with the Administration to develop the cyber Executive Order framework and a repeatable process for future model releases.",
+        "th": "เราเชื่อมั่นในการเข้าถึงในวงกว้าง และเราวางแผนที่จะทำให้ GPT‑5.6 Sol, Terra และ Luna พร้อมใช้งานโดยทั่วไปในอีกไม่กี่สัปดาห์ข้างหน้า ในฐานะส่วนหนึ่งของการมีส่วนร่วมอย่างต่อเนื่องกับรัฐบาลสหรัฐฯ เราได้แสดงตัวอย่างแผนและความสามารถของโมเดลต่างๆ ก่อนการเปิดตัวในวันนี้ ตามคำขอของพวกเขา เราจะเริ่มต้นด้วยการแสดงตัวอย่างแบบจำกัดสำหรับพันธมิตรที่เชื่อถือได้กลุ่มเล็กๆ ซึ่งมีการแบ่งปันการมีส่วนร่วมกับรัฐบาล ก่อนที่จะเผยแพร่ในวงกว้างมากขึ้น ในระหว่างการแสดงตัวอย่างนี้ เราจะทดสอบและประสานงานอย่างใกล้ชิดกับพันธมิตรต่อไปในขณะที่เราทำงานเพื่อความพร้อมใช้งานในวงกว้างยิ่งขึ้น เราไม่เชื่อว่ากระบวนการเข้าถึงของรัฐบาลประเภทนี้ควรกลายเป็นค่าเริ่มต้นในระยะยาว โดยจะเก็บเครื่องมือที่ดีที่สุดจากผู้ใช้ นักพัฒนา องค์กร นักปกป้องโลกไซเบอร์ และพันธมิตรระดับโลกที่ต้องการเครื่องมือเหล่านั้น เรากำลังดำเนินการตามขั้นตอนระยะสั้นนี้เนื่องจากเราเชื่อว่านี่เป็นเส้นทางที่แข็งแกร่งที่สุดเพื่อความพร้อมใช้งานที่กว้างขึ้นในอีกไม่กี่สัปดาห์ข้างหน้า ในขณะที่เราทำงานร่วมกับฝ่ายบริหารเพื่อพัฒนากรอบคำสั่งผู้บริหารทางไซเบอร์และกระบวนการที่ทำซ้ำได้สำหรับการเปิดตัวโมเดลในอนาคต"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Capabilities",
+        "th": "ความสามารถ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑5.6 Sol is our strongest model yet. To give a preview of model performance, we share a set of evaluations highlighting improved agentic capabilities in coding, biology, and cybersecurity, with additional safety and preparedness evaluations available in our system card⁠(opens in a new window). We will share an expanded suite of evaluation results when we make the model broadly available.",
+        "th": "GPT‑5.6 Sol เป็นรุ่นที่แข็งแกร่งที่สุดของเรา ในการดูตัวอย่างประสิทธิภาพของโมเดล เราแชร์ชุดการประเมินที่เน้นความสามารถเอเจนต์ที่ได้รับการปรับปรุงในด้านการเขียนโค้ด ชีววิทยา และความปลอดภัยทางไซเบอร์ พร้อมด้วยการประเมินความปลอดภัยและการเตรียมพร้อมเพิ่มเติมที่มีอยู่ในการ์ดระบบของเรา (เปิดในหน้าต่างใหม่) เราจะแบ่งปันชุดผลการประเมินเพิ่มเติมเมื่อเราทำให้แบบจำลองพร้อมใช้งานในวงกว้าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With GPT‑5.6, we’re introducing a new max reasoning effort to give Sol the most time to reason deeply. Additionally, we’re introducing a new ultra mode that goes beyond the capabilities of a single agent by leveraging subagents to accelerate complex work.",
+        "th": "ด้วย GPT-5.6 เรากำลังเปิดตัวความพยายามในการให้เหตุผลขั้นสูงสุดแบบใหม่เพื่อให้ Sol มีเวลามากที่สุดในการหาเหตุผลอย่างลึกซึ้ง นอกจากนี้ เรากำลังเปิดตัวโหมดพิเศษใหม่ที่นอกเหนือไปจากความสามารถของตัวแทนเพียงรายเดียว โดยใช้ประโยชน์จากตัวแทนย่อยเพื่อเร่งการทำงานที่ซับซ้อน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For coding workflows, GPT‑5.6 Sol sets a new state of the art on Terminal‑Bench 2.1, which tests command-line workflows requiring planning, iteration, and tool coordination.",
+        "th": "สำหรับเวิร์กโฟลว์การเขียนโค้ด GPT-5.6 Sol ได้สร้างมาตรฐานใหม่บน Terminal-Bench 2.1 ซึ่งทดสอบเวิร์กโฟลว์บรรทัดคำสั่งที่ต้องมีการวางแผน การวนซ้ำ และการประสานงานของเครื่องมือ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑5.6 Sol also shows broad improvements in biology workflows. On GeneBench v1, which evaluates long-horizon genomics and quantitative-biology analyses, it achieves stronger results than GPT‑5.5 while using fewer tokens.",
+        "th": "GPT‑5.6 Sol ยังแสดงการปรับปรุงขั้นตอนการทำงานทางชีววิทยาในวงกว้างอีกด้วย บน GeneBench v1 ซึ่งประเมินจีโนมิกขอบฟ้ายาวและการวิเคราะห์เชิงชีววิทยาเชิงปริมาณ นั้นให้ผลลัพธ์ที่ดีกว่า GPT-5.5 ในขณะที่ใช้โทเค็นน้อยลง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑5.6 Sol is our most capable model yet for cybersecurity. It shifts the performance-efficiency frontier for long-horizon security tasks including vulnerability research and exploitation. On ExploitBench², GPT‑5.6 Sol is competitive with Mythos Preview using only ~1/3 of the output tokens. On ExploitGym⁠(opens in a new window)3, a benchmark created by UC Berkeley researchers in collaboration with OpenAI and other frontier labs, GPT‑5.6 Sol, Terra, and Luna models all demonstrate strong improvements in cyber capabilities as we increase reasoning.",
+        "th": "GPT‑5.6 Sol เป็นรุ่นที่มีความสามารถมากที่สุดของเราในด้านความปลอดภัยทางไซเบอร์ โดยจะเปลี่ยนขอบเขตด้านประสิทธิภาพและประสิทธิภาพสำหรับงานรักษาความปลอดภัยในขอบเขตระยะยาว รวมถึงการวิจัยและการหาช่องโหว่ บน ExploitBench² นั้น GPT‑5.6 Sol สามารถแข่งขันกับ Mythos Preview ได้โดยใช้โทเค็นเอาต์พุตเพียง ~1/3 เท่านั้น ใน ExploitGym⁠(opens in a new window)3 ซึ่งเป็นเกณฑ์มาตรฐานที่สร้างขึ้นโดยนักวิจัย UC Berkeley ร่วมกับ OpenAI และห้องปฏิบัติการชายแดนอื่นๆ รุ่น GPT‑5.6 Sol, Terra และ Luna ล้วนแสดงให้เห็นถึงการปรับปรุงที่แข็งแกร่งในความสามารถทางไซเบอร์ในขณะที่เราเพิ่มการใช้เหตุผล"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Stronger cyber capabilities with stronger safeguards",
+        "th": "ความสามารถทางไซเบอร์ที่แข็งแกร่งยิ่งขึ้นพร้อมการป้องกันที่แข็งแกร่งยิ่งขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We developed GPT‑5.6 Sol, Terra and Luna with our most robust safeguards to date, with configurations matched to each model’s capabilities. As the model becomes more capable, we design safeguards to increasingly hold up to real-world adversarial pressure while preserving access to legitimate work such as code review, vulnerability research, patch development, debugging, security education, and defensive testing. Our goal is to make prohibited offensive activity more difficult, uncertain, and detectable without unnecessarily limiting those beneficial uses. Based on our assessment of the model and safeguards, we expect substantial benefit for legitimate defensive work, while meaningfully constraining prohibited offensive use.",
+        "th": "เราได้พัฒนา GPT‑5.6 Sol, Terra และ Luna ด้วยการป้องกันที่แข็งแกร่งที่สุดของเราในปัจจุบัน ด้วยการกำหนดค่าที่ตรงกับความสามารถของแต่ละรุ่น เมื่อโมเดลมีความสามารถมากขึ้น เราจึงออกแบบการป้องกันเพื่อรองรับแรงกดดันฝ่ายตรงข้ามในโลกแห่งความเป็นจริงมากขึ้น ในขณะเดียวกันก็รักษาการเข้าถึงงานที่ถูกต้องตามกฎหมาย เช่น การตรวจสอบโค้ด การวิจัยช่องโหว่ การพัฒนาแพตช์ การดีบัก การให้ความรู้ด้านความปลอดภัย และการทดสอบการป้องกัน เป้าหมายของเราคือการทำให้กิจกรรมที่น่ารังเกียจต้องห้ามทำได้ยากขึ้น ไม่แน่นอน และตรวจพบได้ โดยไม่จำกัดการใช้งานที่เป็นประโยชน์เหล่านั้นโดยไม่จำเป็น จากการประเมินแบบจำลองและการป้องกันของเรา เราคาดหวังว่าจะได้รับประโยชน์อย่างมากสำหรับงานป้องกันที่ถูกต้องตามกฎหมาย ขณะเดียวกันก็จำกัดการใช้งานที่ไม่เหมาะสมอย่างมีความหมาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑5.6 Sol is better at helping people find and fix vulnerabilities than reliably carrying out end-to-end attacks. As these capabilities continue to advance, our priority is to make sure they reach and benefit defenders, who can use these tools to find weaknesses, develop patches, and strengthen systems more broadly.",
+        "th": "GPT‑5.6 Sol ช่วยให้ผู้คนค้นหาและแก้ไขช่องโหว่ได้ดีกว่าการโจมตีจากต้นทางถึงปลายทางได้อย่างน่าเชื่อถือ เนื่องจากความสามารถเหล่านี้ยังคงพัฒนาต่อไป สิ่งสำคัญอันดับแรกของเราคือการทำให้แน่ใจว่าความสามารถเหล่านี้จะเข้าถึงและให้ประโยชน์แก่ผู้พิทักษ์ซึ่งสามารถใช้เครื่องมือเหล่านี้เพื่อค้นหาจุดอ่อน พัฒนาแพตช์ และเสริมความแข็งแกร่งให้กับระบบในวงกว้างมากขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑5.6 Sol does not cross the Cyber Critical threshold under our Preparedness Framework⁠. In evaluations involving Chromium and Firefox, it identified bugs and exploitation primitives—the building blocks of an exploit—but did not autonomously produce a functional full-chain exploit under the conditions tested. Still, benchmark thresholds cannot capture every way a model may be used or combined with other tools. That uncertainty, along with the model’s broader step change in capabilities, is why we are pairing the model’s increased capabilities with stronger safeguards and a phased release. We share more details about our safeguards in the GPT‑5.6 Preview system card⁠(opens in a new window).",
+        "th": "GPT‑5.6 Sol ไม่ผ่านเกณฑ์ Cyber ​​Critical ภายใต้กรอบการเตรียมพร้อมของเรา ในการประเมินที่เกี่ยวข้องกับ Chromium และ Firefox นั้น ได้มีการระบุจุดบกพร่องและการหาประโยชน์แบบดั้งเดิม ซึ่งเป็นองค์ประกอบสำคัญของการหาประโยชน์ แต่ไม่ได้สร้างการหาประโยชน์แบบเต็มรูปแบบที่ทำงานได้โดยอัตโนมัติภายใต้เงื่อนไขที่ทดสอบ ถึงกระนั้น เกณฑ์การเปรียบเทียบก็ไม่สามารถบันทึกทุกวิธีที่โมเดลอาจนำไปใช้หรือรวมกับเครื่องมืออื่นๆ ได้ ความไม่แน่นอนดังกล่าว ประกอบกับการเปลี่ยนแปลงความสามารถในขั้นตอนที่กว้างขึ้นของโมเดล คือสาเหตุที่เราจับคู่ความสามารถที่เพิ่มขึ้นของโมเดลเข้ากับการป้องกันที่แข็งแกร่งขึ้นและการเปิดตัวแบบเป็นช่วงๆ เราแชร์รายละเอียดเพิ่มเติมเกี่ยวกับการป้องกันของเราในการ์ดระบบ GPT-5.6 Preview (เปิดในหน้าต่างใหม่)"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "A layered safeguard stack",
+        "th": "กองป้องกันแบบเป็นชั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "No single safeguard is sufficient against determined or adaptive misuse. Across the GPT‑5.6 preview, we use layered safeguards, with exact configurations varying across models, and pressure-test them for real-world attacks. These include protections trained into the model, real-time checks during generation, account-level signals, differentiated access, monitoring, enforcement, and continued testing.",
+        "th": "ไม่มีการป้องกันใดที่เพียงพอต่อการใช้ในทางที่ผิดตามที่กำหนดหรือปรับเปลี่ยนได้ ในการแสดงตัวอย่าง GPT-5.6 เราใช้การป้องกันแบบหลายชั้น โดยมีการกำหนดค่าที่แน่นอนแตกต่างกันไปในแต่ละรุ่น และทดสอบแรงกดดันสำหรับการโจมตีในโลกแห่งความเป็นจริง ซึ่งรวมถึงการป้องกันที่ได้รับการฝึกอบรมเกี่ยวกับโมเดล การตรวจสอบแบบเรียลไทม์ระหว่างการสร้าง สัญญาณระดับบัญชี การเข้าถึงที่แตกต่าง การตรวจสอบ การบังคับใช้ และการทดสอบอย่างต่อเนื่อง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑5.6 is trained to refuse prohibited cyber assistance, including when users attempt to disguise their intent or jailbreak the model. These model-level safeguards establish the first boundary around what the model should and should not help with.",
+        "th": "GPT-5.6 ได้รับการฝึกให้ปฏิเสธความช่วยเหลือทางไซเบอร์ที่ต้องห้าม รวมถึงเมื่อผู้ใช้พยายามปกปิดเจตนาของตนหรือเจลเบรกโมเดล การป้องกันระดับแบบจำลองเหล่านี้กำหนดขอบเขตแรกเกี่ยวกับสิ่งที่แบบจำลองควรและไม่ควรช่วยเหลือ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Real-time cyber and biology misuse classifiers provide another layer by evaluating output as it is generated. For higher risk cases, if they detect a potential violation, the generation may be paused while a larger reasoning model reviews the conversation and its context. If the output is assessed as disallowed, it is withheld before it reaches the user.",
+        "th": "ตัวแยกประเภทการใช้งานในทางที่ผิดทางไซเบอร์และชีววิทยาแบบเรียลไทม์จะมีอีกชั้นหนึ่งโดยการประเมินผลลัพธ์ในขณะที่ถูกสร้างขึ้น สำหรับกรณีที่มีความเสี่ยงสูง หากตรวจพบการละเมิดที่อาจเกิดขึ้น การสร้างอาจถูกหยุดชั่วคราวในขณะที่โมเดลการให้เหตุผลขนาดใหญ่ตรวจสอบการสนทนาและบริบท หากเอาต์พุตได้รับการประเมินว่าไม่ได้รับอนุญาต ก็จะถูกระงับก่อนที่จะถึงผู้ใช้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Flagged activity can also trigger account-level review across relevant conversations and risk signals, consistent with our terms and policies around content retention and review. Looking beyond a single conversation helps our systems distinguish persistent malicious behavior from legitimate dual-use security work, where similar technical concepts may appear in very different contexts.",
+        "th": "กิจกรรมที่ถูกตั้งค่าสถานะยังสามารถกระตุ้นให้เกิดการตรวจสอบระดับบัญชีในการสนทนาที่เกี่ยวข้องและสัญญาณความเสี่ยง ซึ่งสอดคล้องกับข้อกำหนดและนโยบายของเราเกี่ยวกับการเก็บรักษาและการตรวจสอบเนื้อหา การมองข้ามการสนทนาเดียวช่วยให้ระบบของเราแยกแยะพฤติกรรมที่เป็นอันตรายอย่างต่อเนื่องจากงานรักษาความปลอดภัยการใช้งานสองทางที่ถูกต้องตามกฎหมาย ซึ่งแนวคิดทางเทคนิคที่คล้ายคลึงกันอาจปรากฏในบริบทที่แตกต่างกันมาก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Together, these layers make the overall approach more robust than any one safeguard on its own. Model behavior reduces the likelihood of harmful responses, real-time systems can intervene during generation, account-level review can identify broader patterns, and differentiated access preserves important defensive work without making the most sensitive capabilities broadly available by default.",
+        "th": "เมื่อรวมกันแล้ว เลเยอร์เหล่านี้จะทำให้แนวทางโดยรวมมีประสิทธิภาพมากกว่าการป้องกันใดๆ ด้วยตัวมันเอง พฤติกรรมของแบบจำลองช่วยลดโอกาสที่จะเกิดการตอบสนองที่เป็นอันตราย ระบบเรียลไทม์สามารถแทรกแซงได้ในระหว่างการสร้าง การตรวจสอบระดับบัญชีสามารถระบุรูปแบบที่กว้างขึ้น และการเข้าถึงที่แตกต่างจะรักษางานป้องกันที่สำคัญไว้โดยไม่ทำให้ความสามารถที่ละเอียดอ่อนที่สุดพร้อมใช้งานในวงกว้างตามค่าเริ่มต้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Especially during the preview, users may encounter safeguards that block or refuse some requests. Other requests may take longer because generation is paused for additional review. Safeguards may occasionally intervene on legitimate work, particularly in dual-use areas where defensive and offensive activity can initially look similar.",
+        "th": "โดยเฉพาะอย่างยิ่งในระหว่างการดูตัวอย่าง ผู้ใช้อาจพบมาตรการป้องกันที่บล็อกหรือปฏิเสธคำขอบางรายการ คำขออื่นๆ อาจใช้เวลานานกว่านั้นเนื่องจากการสร้างถูกหยุดชั่วคราวเพื่อตรวจสอบเพิ่มเติม การป้องกันอาจแทรกแซงการทำงานที่ถูกต้องตามกฎหมายในบางครั้ง โดยเฉพาะอย่างยิ่งในพื้นที่การใช้งานแบบคู่ซึ่งกิจกรรมการป้องกันและการโจมตีอาจมีลักษณะคล้ายกันในตอนแรก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That is part of what the preview is designed to test. We want to understand not only whether the safeguards constrain misuse, but whether legitimate users can still complete normal work reliably and efficiently. Feedback during the preview will help us reduce unnecessary blocks and delays, improve how the safeguards interpret context, and create a smoother experience before wider release.",
+        "th": "นั่นเป็นส่วนหนึ่งของสิ่งที่การแสดงตัวอย่างออกแบบมาเพื่อทดสอบ เราต้องการทำความเข้าใจไม่เพียงแต่ว่าการป้องกันจะจำกัดการใช้งานในทางที่ผิดหรือไม่ แต่ผู้ใช้ที่ถูกต้องตามกฎหมายยังสามารถทำงานตามปกติได้อย่างน่าเชื่อถือและมีประสิทธิภาพหรือไม่ ความคิดเห็นระหว่างการแสดงตัวอย่างจะช่วยเราลดการบล็อกและความล่าช้าที่ไม่จำเป็น ปรับปรุงวิธีที่การป้องกันตีความบริบท และสร้างประสบการณ์ที่ราบรื่นยิ่งขึ้นก่อนที่จะเผยแพร่ในวงกว้าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are also working with enterprise customers on longer-term approaches—including privacy-preserving detection, customer-operated safety controls, and access calibrated to the risk of a customer, user, or workload—to advance safety while supporting enterprise privacy requirements.",
+        "th": "นอกจากนี้เรายังทำงานร่วมกับลูกค้าองค์กรในแนวทางระยะยาว รวมถึงการตรวจจับการรักษาความเป็นส่วนตัว การควบคุมความปลอดภัยที่ดำเนินการโดยลูกค้า และการเข้าถึงที่ปรับให้เข้ากับความเสี่ยงของลูกค้า ผู้ใช้ หรือปริมาณงาน เพื่อเพิ่มความปลอดภัยในขณะที่สนับสนุนข้อกำหนดความเป็นส่วนตัวขององค์กร"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Improving robustness with automated red-teaming",
+        "th": "การปรับปรุงความแข็งแกร่งด้วยการจัดทีมสีแดงอัตโนมัติ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Safeguards also need to remain effective when attackers adapt their tactics. A protection that works only on a fixed set of known attacks is not robust enough for a frontier model.",
+        "th": "การป้องกันยังต้องมีประสิทธิภาพเมื่อผู้โจมตีปรับยุทธวิธีของตน การป้องกันที่ทำงานเฉพาะกับชุดการโจมตีที่ทราบอยู่แล้วนั้นไม่แข็งแกร่งเพียงพอสำหรับโมเดลชายแดน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That’s why we are applying more intelligence and compute than ever before to safety, using our own models to find weaknesses and improve safeguards faster. We dedicated over 700,000 A100-equivalent GPU hours to automated red teaming aimed at finding universal jailbreaks: attacks that can work across many prompts or contexts, not just one narrow setting. Focusing on these harder, more general attacks let us test the safeguards beyond a fixed set of known failures. It also lets us explore far more attack patterns than human testing alone could cover, identify failure patterns earlier, and shorten the path from finding a weakness to addressing it.",
+        "th": "นั่นเป็นเหตุผลที่เรานำความฉลาดและการประมวลผลมาใช้กับความปลอดภัยมากขึ้นกว่าเดิม โดยใช้แบบจำลองของเราเองเพื่อค้นหาจุดอ่อนและปรับปรุงการป้องกันได้เร็วขึ้น เราทุ่มเทเวลากว่า 700,000 ชั่วโมง GPU ที่เทียบเท่ากับ A100 ให้กับ Red Teaming อัตโนมัติที่มุ่งค้นหาการเจลเบรกแบบสากล: การโจมตีที่สามารถทำงานได้กับพร้อมท์หรือบริบทต่างๆ มากมาย ไม่ใช่แค่การตั้งค่าที่แคบเพียงจุดเดียว การมุ่งเน้นไปที่การโจมตีทั่วไปที่ยากขึ้นและยากขึ้นเหล่านี้ช่วยให้เราทดสอบการป้องกันนอกเหนือจากชุดความล้มเหลวที่ทราบคงที่ นอกจากนี้ยังช่วยให้เราสำรวจรูปแบบการโจมตีได้มากกว่าที่การทดสอบของมนุษย์เพียงอย่างเดียวจะครอบคลุม ระบุรูปแบบความล้มเหลวตั้งแต่เนิ่นๆ และลดเส้นทางจากการค้นหาจุดอ่อนไปสู่การแก้ไข"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In addition to automated red-teaming, we worked with third-party testers to conduct extensive human expert red teaming, which will continue in the preview period. Human red-teaming complements the automated work by testing safeguards against creative experts trying to misuse the model in ways our systems might not anticipate.",
+        "th": "นอกเหนือจากการจัดทีมสีแดงแบบอัตโนมัติแล้ว เรายังทำงานร่วมกับผู้ทดสอบจากภายนอกเพื่อดำเนินการจัดทีมสีแดงโดยผู้เชี่ยวชาญที่เป็นมนุษย์อย่างกว้างขวาง ซึ่งจะดำเนินต่อไปในช่วงแสดงตัวอย่าง การทำงานเป็นทีมโดยมนุษย์ช่วยเสริมการทำงานอัตโนมัติโดยการทดสอบการป้องกันผู้เชี่ยวชาญด้านการสร้างสรรค์ที่พยายามใช้แบบจำลองในทางที่ผิดในลักษณะที่ระบบของเราอาจคาดไม่ถึง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "No evaluation can represent every product configuration, multi-step attack, or real-world workflow. We therefore maintain a rapid-response process to reproduce, assess, prioritize, and remediate newly discovered jailbreaks, then add them to our ongoing evaluations so we can test against similar failures in the future.",
+        "th": "ไม่มีการประเมินใดที่สามารถแสดงถึงการกำหนดค่าผลิตภัณฑ์ การโจมตีแบบหลายขั้นตอน หรือเวิร์กโฟลว์ในโลกแห่งความเป็นจริง ดังนั้นเราจึงรักษากระบวนการตอบสนองที่รวดเร็วในการทำซ้ำ ประเมิน จัดลำดับความสำคัญ และแก้ไขการเจลเบรคที่ค้นพบใหม่ จากนั้นเพิ่มเข้าไปในการประเมินที่กำลังดำเนินอยู่ของเรา เพื่อให้เราสามารถทดสอบกับความล้มเหลวที่คล้ายกันได้ในอนาคต"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Availability and pricing",
+        "th": "ความพร้อมใช้งานและราคา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "During the preview, GPT‑5.6 models will initially be available through the API and Codex to a select group of trusted partners and organizations. We plan to make them more broadly available to people using ChatGPT, Codex, and the API soon.",
+        "th": "ในระหว่างการดูตัวอย่าง โมเดล GPT-5.6 จะพร้อมใช้งานในช่วงแรกผ่าน API และ Codex ให้กับกลุ่มพันธมิตรและองค์กรที่เชื่อถือได้ที่ได้รับเลือก เราวางแผนที่จะทำให้ผู้คนที่ใช้ ChatGPT, Codex และ API ใช้งานได้ในวงกว้างมากขึ้นเร็วๆ นี้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In this new naming system introduced with GPT‑5.6, the number identifies a model’s generation, while Sol, Terra, and Luna identify durable capability tiers that can advance on their own cadence. Together, the family gives people and developers clearer choices across intelligence, speed, and cost.",
+        "th": "ในระบบการตั้งชื่อใหม่นี้ที่นำมาใช้กับ GPT-5.6 ตัวเลขจะระบุรุ่นของรุ่น ในขณะที่ Sol, Terra และ Luna ระบุระดับความสามารถที่ทนทานซึ่งสามารถก้าวหน้าไปตามจังหวะของตัวเอง ครอบครัวนี้ช่วยให้ผู้คนและนักพัฒนามีทางเลือกที่ชัดเจนยิ่งขึ้นในด้านความฉลาด ความเร็ว และต้นทุน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑5.6 is priced per 1M tokens across three model sizes: Sol is $5 input / $30 output; Terra is $2.50 input / $15 output; and Luna is $1 input / $6 output. GPT‑5.6 also introduces more predictable prompt caching, including support for explicit cache breakpoints and a 30-minute minimum cache life. For GPT‑5.6 and later models, cache writes are billed at 1.25x the model’s uncached input rate, while cache reads continue to receive the 90% cached-input discount.",
+        "th": "GPT‑5.6 มีราคาต่อโทเค็น 1M สำหรับรุ่นสามขนาด: Sol คืออินพุต 5 ดอลลาร์ / เอาต์พุต 30 ดอลลาร์; Terra คืออินพุต 2.50 ดอลลาร์ / เอาต์พุต 15 ดอลลาร์ และ Luna คืออินพุต $1 / เอาต์พุต $6 GPT-5.6 ยังแนะนำการแคชพร้อมท์ที่คาดเดาได้มากขึ้น รวมถึงการรองรับเบรกพอยต์แคชที่ชัดเจนและอายุการใช้งานแคชขั้นต่ำ 30 นาที สำหรับรุ่น GPT-5.6 และใหม่กว่า การเขียนแคชจะถูกเรียกเก็บเงิน 1.25 เท่าของอัตราอินพุตที่ไม่ได้แคชของโมเดล ในขณะที่การอ่านแคชจะยังคงได้รับส่วนลดอินพุตแคช 90%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We're also launching GPT‑5.6 Sol on Cerebras at up to 750 tokens per second in July, bringing frontier intelligence to customers at unprecedented speed. Access will initially be limited to select customers as we expand capacity.",
+        "th": "นอกจากนี้ เรายังเปิดตัว GPT‑5.6 Sol บน Cerebras ด้วยความเร็วสูงสุด 750 โทเค็นต่อวินาทีในเดือนกรกฎาคม เพื่อนำความอัจฉริยะระดับแนวหน้ามาสู่ลูกค้าด้วยความเร็วที่ไม่เคยมีมาก่อน การเข้าถึงในตอนแรกจะถูกจำกัดไว้สำหรับลูกค้าที่เลือกในขณะที่เราขยายขีดความสามารถ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re excited to continue learning from this preview period, and to bring GPT‑5.6 Sol, Terra and Luna to more people soon.",
+        "th": "เรารู้สึกตื่นเต้นที่จะได้เรียนรู้ต่อจากช่วงตัวอย่างนี้ และจะนำ GPT‑5.6 Sol, Terra และ Luna มาสู่ผู้คนจำนวนมากขึ้นเร็วๆ นี้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "1. We estimate latency and API cost by looking at the production behavior of our models, and simulating offline. These estimates account for tool call details, sampled tokens, and input tokens. Real-world results may vary substantially, and depend on many factors not captured in our simulation. We simulate latency at fast API speeds, and cost at regular API pricing.",
+        "th": "1. เราประเมินเวลาแฝงและต้นทุน API โดยพิจารณาจากพฤติกรรมการใช้งานจริงของโมเดลของเรา และจำลองแบบออฟไลน์ การประมาณเหล่านี้คำนึงถึงรายละเอียดการเรียกใช้เครื่องมือ โทเค็นตัวอย่าง และโทเค็นอินพุต ผลลัพธ์ในโลกแห่งความเป็นจริงอาจแตกต่างกันอย่างมาก และขึ้นอยู่กับหลายปัจจัยที่ไม่ได้บันทึกไว้ในการจำลองของเรา เราจำลองเวลาแฝงด้วยความเร็ว API ที่รวดเร็ว และคิดค่าใช้จ่ายตามราคา API ปกติ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "2. All models are evaluated using the ExploitBench API harness with 5 seeds and reasoning continuity.",
+        "th": "2. โมเดลทั้งหมดได้รับการประเมินโดยใช้สายรัด ExploitBench API ที่มี 5 เมล็ดและความต่อเนื่องของการใช้เหตุผล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3. We ran ExploitGym on our alpha API, which outputs responses faster than our public API, and then rescaled to match our public API. When rescaling latencies to the speeds expected for our public API, this causes some estimated latencies to exceed the 2h and 6h hour time limits, despite being correctly obeyed in the evaluation run. To get faster speeds for time-sensitive work, we offer priority processing⁠ in the API and fast mode⁠ in Codex.",
+        "th": "3. เราใช้ ExploitGym บน alpha API ซึ่งแสดงการตอบสนองได้เร็วกว่า API สาธารณะของเรา จากนั้นจึงปรับขนาดใหม่ให้ตรงกับ API สาธารณะของเรา เมื่อปรับขนาดเวลาแฝงให้เป็นความเร็วที่คาดไว้สำหรับ API สาธารณะของเรา สิ่งนี้จะทำให้เวลาแฝงโดยประมาณบางส่วนเกินขีดจำกัดเวลา 2 ชั่วโมงและ 6 ชั่วโมงชั่วโมง แม้ว่าจะมีการปฏิบัติตามอย่างถูกต้องในการดำเนินการประเมินก็ตาม เพื่อให้ได้ความเร็วที่เร็วขึ้นสำหรับงานที่ต้องคำนึงถึงเวลา เราขอเสนอการประมวลผลตามลำดับความสำคัญใน API และโหมดรวดเร็วใน Codex"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "4. Models without reported output tokens, latency or cost are plotted as horizontal dotted lines.",
+        "th": "4. โมเดลที่ไม่มีโทเค็นเอาท์พุตที่รายงาน เวลาแฝง หรือต้นทุนจะถูกพล็อตเป็นเส้นประแนวนอน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "ผู้เขียน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "อ่านต่อ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3RkIKhLVsVWcJQ3czkTNMH/c63f9c43efd82ddf863f87d44edca201/Spend_Controls_Artcard.png?w=3840&q=90&fm=webp",
+      "alt": "Spend Controls_Artcard.png"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductJun 18, 2026",
+        "th": "สินค้า18มิ.ย.2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/25I93CBDfs6LgX4R4XCMBD/121ac551be0a9153314bf51fdbe91dae/1x1_Health_Art_1.png?w=3840&q=90&fm=webp",
+      "alt": "1x1 Health Art 1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductJun 18, 2026",
+        "th": "สินค้า18มิ.ย.2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/U6bb3rlwvYyhf2q835WWx/d50f5492dded3c21aa6d69c07d3b2a44/Introducing_OAI_Partner_Network_artcard.png?w=3840&q=90&fm=webp",
+      "alt": "Intro-OAI-Partner-ArtCard"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductJun 14, 2026",
+        "th": "สินค้า14มิ.ย.2569"
       }
     }
   ]

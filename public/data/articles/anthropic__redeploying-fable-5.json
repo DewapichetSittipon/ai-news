@@ -67,8 +67,8 @@
     {
       "type": "li",
       "text": {
-        "en": "A shared industry framework. Although we have reached a constructive resolution, these events have made clear that the industry needs a consistent way to assess and fix potential “jailbreaks” of AI models (techniques that bypass a model’s safeguards).2 A shared standard for judging the severity of a given jailbreak would help AI developers triage new findings as they arise, launch highly-capable models with greater safety, and communicate the level of risk consistently to government and industry partners. Together with Amazon, Microsoft, Google, and other Glasswing partners, we’ve started to develop such a framework, and we outline it below.",
-        "th": "A shared industry framework. Although we have reached a constructive resolution, these events have made clear that the industry needs a consistent way to assess and fix potential “jailbreaks” of AI models (techniques that bypass a model’s safeguards).2 A shared standard for judging the severity of a given jailbreak would help AI developers triage new findings as they arise, launch highly-capable models with greater safety, and communicate the level of risk consistently to government and industry partners. Together with Amazon, Microsoft, Google, and other Glasswing partners, we’ve started to develop such a framework, and we outline it below."
+        "en": "A shared industry framework. Although we have reached a constructive resolution, these events have made clear that the industry needs a consistent way to assess and fix potential “jailbreaks” of AI models (techniques that bypass a model’s safeguards).2 A shared standard for judging the severity of a given jailbreak would help AI developers triage new findings as they arise, launch highly capable models with greater safety, and communicate the level of risk consistently to government and industry partners. Together with Amazon, Microsoft, Google, and other Glasswing partners, we’ve started to develop such a framework, and we outline it below.",
+        "th": "A shared industry framework. Although we have reached a constructive resolution, these events have made clear that the industry needs a consistent way to assess and fix potential “jailbreaks” of AI models (techniques that bypass a model’s safeguards).2 A shared standard for judging the severity of a given jailbreak would help AI developers triage new findings as they arise, launch highly capable models with greater safety, and communicate the level of risk consistently to government and industry partners. Together with Amazon, Microsoft, Google, and other Glasswing partners, we’ve started to develop such a framework, and we outline it below."
       }
     },
     {
@@ -266,8 +266,8 @@
     {
       "type": "li",
       "text": {
-        "en": "Capability gain. How far beyond existing tools does the jailbreak take the user? If existing widely-available tools (including other, weaker AI models) can reach the same capability as the jailbroken model, the score here will be low; if the jailbreak unblocks model capabilities that can significantly accelerate even domain experts, the score will be high.",
-        "th": "Capability gain. How far beyond existing tools does the jailbreak take the user? If existing widely-available tools (including other, weaker AI models) can reach the same capability as the jailbroken model, the score here will be low; if the jailbreak unblocks model capabilities that can significantly accelerate even domain experts, the score will be high."
+        "en": "Capability gain. How far beyond existing tools does the jailbreak take the user? If existing widely available tools (including other, weaker AI models) can reach the same capability as the jailbroken model, the score here will be low; if the jailbreak unblocks model capabilities that can significantly accelerate even domain experts, the score will be high.",
+        "th": "Capability gain. How far beyond existing tools does the jailbreak take the user? If existing widely available tools (including other, weaker AI models) can reach the same capability as the jailbroken model, the score here will be low; if the jailbreak unblocks model capabilities that can significantly accelerate even domain experts, the score will be high."
       }
     },
     {
@@ -294,8 +294,8 @@
     {
       "type": "p",
       "text": {
-        "en": "We propose to use this severity framework to calibrate our response to newly-discovered jailbreaks. For the most severe class of jailbreaks (e.g., a jailbreak that, among other characteristics, is being used to actively cause a devastating impact on critical power grids or banking systems), we will immediately begin deploying preliminary mitigations upon confirmation of severity. We are also creating a team to provide 24/7 monitoring of key jailbreak submission channels.",
-        "th": "We propose to use this severity framework to calibrate our response to newly-discovered jailbreaks. For the most severe class of jailbreaks (e.g., a jailbreak that, among other characteristics, is being used to actively cause a devastating impact on critical power grids or banking systems), we will immediately begin deploying preliminary mitigations upon confirmation of severity. We are also creating a team to provide 24/7 monitoring of key jailbreak submission channels."
+        "en": "We propose to use this severity framework to calibrate our response to newlydiscovered jailbreaks. For the most severe class of jailbreaks (e.g., a jailbreak that, among other characteristics, is being used to actively cause a devastating impact on critical power grids or banking systems), we will immediately begin deploying preliminary mitigations upon confirmation of severity. We are also creating a team to provide 24/7 monitoring of key jailbreak submission channels.",
+        "th": "We propose to use this severity framework to calibrate our response to newlydiscovered jailbreaks. For the most severe class of jailbreaks (e.g., a jailbreak that, among other characteristics, is being used to actively cause a devastating impact on critical power grids or banking systems), we will immediately begin deploying preliminary mitigations upon confirmation of severity. We are also creating a team to provide 24/7 monitoring of key jailbreak submission channels."
       }
     },
     {
@@ -392,8 +392,8 @@
     {
       "type": "li",
       "text": {
-        "en": "Note that sometimes the term “bypass” is itself used instead of “jailbreak.” For current purposes, we consider these to be synonyms, but for the remainder of this article we use “jailbreak” because (a) this is a more commonly-used term and (b) it is consistent with the terminology we have used in previous work.",
-        "th": "Note that sometimes the term “bypass” is itself used instead of “jailbreak.” For current purposes, we consider these to be synonyms, but for the remainder of this article we use “jailbreak” because (a) this is a more commonly-used term and (b) it is consistent with the terminology we have used in previous work."
+        "en": "Note that sometimes the term “bypass” is itself used instead of “jailbreak.” For current purposes, we consider these to be synonyms, but for the remainder of this article we use “jailbreak” because (a) this is a more commonly used term and (b) it is consistent with the terminology we have used in previous work.",
+        "th": "Note that sometimes the term “bypass” is itself used instead of “jailbreak.” For current purposes, we consider these to be synonyms, but for the remainder of this article we use “jailbreak” because (a) this is a more commonly used term and (b) it is consistent with the terminology we have used in previous work."
       }
     },
     {

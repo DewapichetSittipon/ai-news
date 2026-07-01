@@ -18,8 +18,182 @@
     {
       "type": "p",
       "text": {
-        "en": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
-        "th": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes."
+        "en": "June 9, 2026",
+        "th": "June 9, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On Nextdoor’s core platform team, Codex investigates issues and puts product engineers in the driver’s seat.",
+        "th": "On Nextdoor’s core platform team, Codex investigates issues and puts product engineers in the driver’s seat."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2VQiKydNUVAutnHRuCIV4S/3262cc8deff3fe49c6b512f854e14dcf/oai_Nextdoor_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "Nextdoor customer story hero artwork."
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Product engineers can focus on the product",
+        "th": "Product engineers can focus on the product"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Compressing software engineering time",
+        "th": "Compressing software engineering time"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Table of contents",
+        "th": "Table of contents"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Product engineers can focus on the product",
+        "th": "Product engineers can focus on the product"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Compressing software engineering time",
+        "th": "Compressing software engineering time"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A product like Nextdoor, which serves over 110 million users across 11 countries, puts many demands on a platform team. For Cory Dolphin, Head of Engineering at, Codex represents an essential shift: “away from iteratively prompting an agent, and towards outcome engineering, where engineers start to think about the result they want to see and work with an agent to engineer that result.”",
+        "th": "A product like Nextdoor, which serves over 110 million users across 11 countries, puts many demands on a platform team. For Cory Dolphin, Head of Engineering at, Codex represents an essential shift: “away from iteratively prompting an agent, and towards outcome engineering, where engineers start to think about the result they want to see and work with an agent to engineer that result.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This means that individual engineers move up the stack—no longer locked up as specialists in a certain system or framework, they’re able to own the product experience more or less end-to-end, even across multiple platforms. Productivity has accelerated so much that the bottleneck is no longer engineering, but rather the hard strategic questions about what to build next.",
+        "th": "This means that individual engineers move up the stack—no longer locked up as specialists in a certain system or framework, they’re able to own the product experience more or less end-to-end, even across multiple platforms. Productivity has accelerated so much that the bottleneck is no longer engineering, but rather the hard strategic questions about what to build next."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Product engineers can focus on the product",
+        "th": "Product engineers can focus on the product"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With Codex, “engineers get to spend a lot less time thinking about exactly how they build, and more time thinking about the outcome,” Dolphin explains. That outcome might take the form of screenshots or video that the agent can build towards, a certain performance or test result, or a brand new feature idea.",
+        "th": "With Codex, “engineers get to spend a lot less time thinking about exactly how they build, and more time thinking about the outcome,” Dolphin explains. That outcome might take the form of screenshots or video that the agent can build towards, a certain performance or test result, or a brand new feature idea."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Nextdoor recently released Opportunity Alerts, which let people find service providers near them; with Codex, engineers are driving the product experience and roadmap. As an example, one engineer working on the alerts realized it would be helpful to show service providers on a map. Historically, that kind of feature would have required collaboration between three teams—mobile, frontend, and backend engineering—and might have never made it out of the backlog.",
+        "th": "Nextdoor recently released Opportunity Alerts, which let people find service providers near them; with Codex, engineers are driving the product experience and roadmap. As an example, one engineer working on the alerts realized it would be helpful to show service providers on a map. Historically, that kind of feature would have required collaboration between three teams—mobile, frontend, and backend engineering—and might have never made it out of the backlog."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "But with Codex, “we were able to have one engineer build it end to end,” Dolphin explains, “which means not only are they able to drive the product faster, but they’re able to better understand the actual product experience and what the right thing to ship is.”",
+        "th": "But with Codex, “we were able to have one engineer build it end to end,” Dolphin explains, “which means not only are they able to drive the product faster, but they’re able to better understand the actual product experience and what the right thing to ship is.”"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Compressing software engineering time",
+        "th": "Compressing software engineering time"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Working with embedded Rust databases and systems with tight race conditions, Nextdoor turns to Codex for help debugging the most hard-to-reproduce issues. The team provides the agent with a clean environment and harness for investigation, then uses it for everything from figuring out why Kubernetes pods won’t start, to finding the right trend line in a data analysis.",
+        "th": "Working with embedded Rust databases and systems with tight race conditions, Nextdoor turns to Codex for help debugging the most hard-to-reproduce issues. The team provides the agent with a clean environment and harness for investigation, then uses it for everything from figuring out why Kubernetes pods won’t start, to finding the right trend line in a data analysis."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“With GPT‑5.4 and 5.5, it’s been a really impressive upgrade. We see Codex excel at being extremely persistent and trying to figure out the right solution, diving deep into some seemingly esoteric technical details to arrive at the root cause,” Dolphin explains.",
+        "th": "“With GPT‑5.4 and 5.5, it’s been a really impressive upgrade. We see Codex excel at being extremely persistent and trying to figure out the right solution, diving deep into some seemingly esoteric technical details to arrive at the root cause,” Dolphin explains."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "About Fast Mode with Codex and GPT‑5.5, Dolphin says, “I’ve got to be honest, a lot of the team are addicted to it. When you have a quick feedback loop with the problem that you’re working on, the feeling is exhilarating as an engineer.”",
+        "th": "About Fast Mode with Codex and GPT‑5.5, Dolphin says, “I’ve got to be honest, a lot of the team are addicted to it. When you have a quick feedback loop with the problem that you’re working on, the feeling is exhilarating as an engineer.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Engineering work has gotten so much faster that Dolphin has seen a shift in the pressures on different parts of the organization. “We’re moving so much faster that the bottlenecks are no longer in engineering. It’s really now a question of, how can we identify the right things to build and the right strategy—and less about how we actually build it.”",
+        "th": "Engineering work has gotten so much faster that Dolphin has seen a shift in the pressures on different parts of the organization. “We’re moving so much faster that the bottlenecks are no longer in engineering. It’s really now a question of, how can we identify the right things to build and the right strategy—and less about how we actually build it.”"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Join the new era of work",
+        "th": "Join the new era of work"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6w2E1Bzj1zUr2xmW1TBK3l/1b7e0977246ac85ae1db5fbcd6eb1549/Frame.png?w=3840&q=90&fm=webp",
+      "alt": "Signals june update > Cover image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Global AffairsJun 30, 2026",
+        "th": "Global AffairsJun 30, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7sbJaKBi5qLXAqbewh72aK/93197556e903eac9df6f077eb12b7581/GenebenchPro_Blog_ArtCard.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing GeneBench-Pro > Cover image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchJun 30, 2026",
+        "th": "ResearchJun 30, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7qv6OiVDfumZUnibH5VTOU/d2d818ac6de1f7cb93dce7a343e456dc/Rockset-Art-Card.png?w=3840&q=90&fm=webp",
+      "alt": "Rockset > Art Card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EngineeringJun 30, 2026",
+        "th": "EngineeringJun 30, 2026"
       }
     }
   ]

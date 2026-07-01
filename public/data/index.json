@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-01T12:56:54.893Z",
+  "generatedAt": "2026-07-01T15:03:09.479Z",
   "items": [
+    {
+      "id": "huggingface__cerebras-gemma4-voice-ai",
+      "slug": "cerebras-gemma4-voice-ai",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "category": "News",
+      "date": "2026-07-01T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+        "th": "Hugging Face และ Cerebras นำ Gemma 4 มาสู่ AI เสียงแบบเรียลไทม์"
+      },
+      "summary": {
+        "en": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+        "th": "Hugging Face และ Cerebras นำ Gemma 4 มาสู่ AI เสียงแบบเรียลไทม์"
+      }
+    },
     {
       "id": "huggingface__scarfbench",
       "slug": "scarfbench",
@@ -2311,23 +2328,6 @@
       "summary": {
         "en": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
         "th": "สำรวจว่าอัลกอริธึมที่ขับเคลื่อนด้วย Gemini ของ AlphaEvolve ขับเคลื่อนผลกระทบในธุรกิจ โครงสร้างพื้นฐาน และวิทยาศาสตร์อย่างไร"
-      }
-    },
-    {
-      "id": "huggingface__open-asr-leaderboard-private-data",
-      "slug": "open-asr-leaderboard-private-data",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
-      "category": "News",
-      "date": "2026-05-06T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
-        "th": "การเพิ่ม Benchmaxxer Repellant ให้กับ Open ASR Leaderboard"
-      },
-      "summary": {
-        "en": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
-        "th": "การเพิ่ม Benchmaxxer Repellant ให้กับ Open ASR Leaderboard"
       }
     },
     {

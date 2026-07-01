@@ -18,8 +18,234 @@
     {
       "type": "p",
       "text": {
-        "en": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-        "th": "OpenAI เปิดตัวการควบคุมการใช้จ่ายและการวิเคราะห์การใช้งานใหม่สำหรับ ChatGPT Enterprise ช่วยให้องค์กรจัดการต้นทุนและปรับขนาด AI ได้อย่างมั่นใจ"
+        "en": "June 18, 2026",
+        "th": "18 มิถุนายน 2569"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "New usage analytics and updated spend controls give ChatGPT Enterprise admins more visibility, control, and confidence in their AI deployments.",
+        "th": "การวิเคราะห์การใช้งานใหม่และการควบคุมการใช้จ่ายที่ได้รับการอัปเดตทำให้ผู้ดูแลระบบ ChatGPT Enterprise มองเห็น ควบคุม และมั่นใจมากขึ้นในการปรับใช้ AI ของตน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As AI becomes part of everyday work, organizations need the ability to manage it with the same rigor they apply to any critical business investment. Companies need a clear view of usage, adoption, and spend so they can scale with confidence and understand where AI is creating value.",
+        "th": "เนื่องจาก AI กลายเป็นส่วนหนึ่งของการทำงานในแต่ละวัน องค์กรต่างๆ จึงต้องการความสามารถในการจัดการด้วยความเข้มงวดแบบเดียวกับที่ใช้กับการลงทุนทางธุรกิจที่สำคัญ บริษัทต่างๆ ต้องการมุมมองที่ชัดเจนเกี่ยวกับการใช้งาน การนำไปใช้ และการใช้จ่าย เพื่อให้สามารถขยายขนาดด้วยความมั่นใจและเข้าใจว่า AI กำลังสร้างมูลค่าอยู่ที่ไหน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re introducing credit usage analytics and updated spend controls for ChatGPT Enterprise. These capabilities help companies track credit usage, understand adoption patterns, and make more informed decisions about how AI is deployed across their organizations. With clearer visibility and more flexible controls, organizations can proactively manage costs, give teams the access they need, and keep AI investments focused on the work that matters most.",
+        "th": "วันนี้ เราจะมาแนะนำการวิเคราะห์การใช้เครดิตและการควบคุมการใช้จ่ายที่อัปเดตสำหรับ ChatGPT Enterprise ความสามารถเหล่านี้ช่วยให้บริษัทต่างๆ ติดตามการใช้เครดิต เข้าใจรูปแบบการรับเลี้ยงบุตรบุญธรรม และตัดสินใจได้อย่างมีข้อมูลมากขึ้นเกี่ยวกับวิธีการใช้งาน AI ในองค์กรของตน ด้วยการมองเห็นที่ชัดเจนและการควบคุมที่ยืดหยุ่นมากขึ้น องค์กรต่างๆ จึงสามารถจัดการต้นทุนในเชิงรุก ให้ทีมเข้าถึงได้ตามต้องการ และให้ความสำคัญกับการลงทุนด้าน AI ให้กับงานที่สำคัญที่สุด"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1Ui1inexKRcs55eMfo8d55/712ac54427ee5576e20601a72fc13573/Billing_tab_and_overall_plan_view_in_the_global_admin_console.png?w=3840&q=90&fm=webp",
+      "alt": "Billing tab and overall plan view in the global admin console"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Billing tab and overall plan view in the global admin console.",
+        "th": "แท็บการเรียกเก็บเงินและมุมมองแผนโดยรวมในคอนโซลผู้ดูแลระบบส่วนกลาง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "New credit usage analytics in the Global Admin Console",
+        "th": "การวิเคราะห์การใช้เครดิตใหม่ในคอนโซลผู้ดูแลระบบส่วนกลาง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Global Admin Console brings ChatGPT and Codex credit usage into one view, so admins can see a more granular breakdown of credit consumption across users, products, and models—helping them understand where spend is coming from and how it maps to actual credit usage. This makes it easier to distinguish between increased usage driven by valuable work and usage patterns that may require closer review.",
+        "th": "คอนโซลผู้ดูแลระบบส่วนกลางนำการใช้เครดิต ChatGPT และ Codex มาไว้ในมุมมองเดียว ดังนั้นผู้ดูแลระบบจึงสามารถดูรายละเอียดการใช้เครดิตของผู้ใช้ ผลิตภัณฑ์ และโมเดลต่างๆ ได้ละเอียดยิ่งขึ้น ช่วยให้พวกเขาเข้าใจว่าการใช้จ่ายมาจากไหนและเชื่อมโยงกับการใช้เครดิตจริงอย่างไร ช่วยให้แยกแยะระหว่างการใช้งานที่เพิ่มขึ้นซึ่งขับเคลื่อนโดยงานที่มีคุณค่าและรูปแบบการใช้งานที่อาจต้องมีการตรวจสอบอย่างใกล้ชิดได้ง่ายขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Now admins can:",
+        "th": "ตอนนี้ผู้ดูแลระบบสามารถ:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Track usage and credit trends over time",
+        "th": "ติดตามแนวโน้มการใช้งานและเครดิตในช่วงเวลาหนึ่ง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Identify top users and emerging credit usage patterns",
+        "th": "ระบุผู้ใช้อันดับต้นๆ และรูปแบบการใช้เครดิตที่เกิดขึ้นใหม่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Break down credit spend across the workspace, including by user, product, and model",
+        "th": "แจกแจงการใช้จ่ายด้านเครดิตทั่วทั้งพื้นที่ทำงาน รวมถึงตามผู้ใช้ ผลิตภัณฑ์ และรุ่น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Access the same credit usage data through the unified Cost API for deeper analysis in their own systems",
+        "th": "เข้าถึงข้อมูลการใช้เครดิตเดียวกันผ่าน Cost API แบบรวมเพื่อการวิเคราะห์เชิงลึกในระบบของตนเอง"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1gJ3fPBJqHzTlBnY9aD2zY/ef5078b9e7e9fc6219bfab0548241188/Analytics_overview_showing_ChatGPT_and_Codex_usage_and_credit_consumption.png?w=3840&q=90&fm=webp",
+      "alt": "Analytics overview showing ChatGPT and Codex usage and credit consumption"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Analytics overview showing ChatGPT and Codex usage and credit consumption.",
+        "th": "ภาพรวมการวิเคราะห์แสดงการใช้งาน ChatGPT และ Codex และการใช้เครดิต"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Set spend controls around the way teams work",
+        "th": "กำหนดการควบคุมการใช้จ่ายเกี่ยวกับวิธีการทำงานของทีม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Earlier this year, we introduced granular credit usage limits⁠(opens in a new window) for custom roles in ChatGPT Enterprise, helping workspace owners manage advanced model usage across different types of users without one-size-fits-all restrictions.",
+        "th": "เมื่อต้นปีนี้ เราได้แนะนำขีดจำกัดการใช้เครดิตแบบละเอียด (เปิดในหน้าต่างใหม่) สำหรับบทบาทที่กำหนดเองใน ChatGPT Enterprise ซึ่งช่วยให้เจ้าของพื้นที่ทำงานจัดการการใช้งานโมเดลขั้นสูงกับผู้ใช้ประเภทต่างๆ โดยไม่มีข้อจำกัดขนาดเดียวที่เหมาะกับทุกคน"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3vqZfFalkLwVWgjt4zlU5V/aa1057b6008c233923aa8b5b4ece6b8b/End-user_view_of_spend_controls_and_requesting_limit_increase.png?w=3840&q=90&fm=webp",
+      "alt": "End-user view of spend controls and requesting limit increase"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "End-user view of spend controls and requesting limit increase.",
+        "th": "มุมมองของผู้ใช้ปลายทางเกี่ยวกับการควบคุมการใช้จ่ายและการขอเพิ่มขีดจำกัด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Now admins can also set a default limit for their ChatGPT Enterprise workspace, configure limits for specific groups, and create individual overrides for people who need more capacity. Employees can see their credit usage against their available budget, request additional credits when needed, and include context about what they’re working on so admins can make an informed decision. This allows individual power users to keep working without interruption or the need to increase limits for everyone else.",
+        "th": "ตอนนี้ผู้ดูแลระบบยังตั้งค่าขีดจำกัดเริ่มต้นสำหรับพื้นที่ทำงาน ChatGPT Enterprise กำหนดค่าขีดจำกัดสำหรับกลุ่มที่ต้องการ และสร้างการลบล้างแต่ละรายการสำหรับผู้ที่ต้องการความจุเพิ่มได้ พนักงานสามารถดูการใช้เครดิตของตนเทียบกับงบประมาณที่มีอยู่ ขอเครดิตเพิ่มเติมเมื่อจำเป็น และรวมบริบทเกี่ยวกับสิ่งที่พวกเขากำลังทำอยู่ เพื่อให้ผู้ดูแลระบบสามารถตัดสินใจได้อย่างมีข้อมูล สิ่งนี้ช่วยให้ผู้ใช้ระดับสูงสามารถทำงานต่อไปได้โดยไม่หยุดชะงักหรือไม่จำเป็นต้องเพิ่มขีดจำกัดสำหรับคนอื่นๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Together, these updated controls help companies deploy intelligence more thoughtfully at scale, while giving teams the capabilities they need to do high-impact work.",
+        "th": "การควบคุมที่อัปเดตเหล่านี้ร่วมกันช่วยให้บริษัทต่างๆ ปรับใช้ระบบอัจฉริยะอย่างรอบคอบมากขึ้นในวงกว้าง ขณะเดียวกันก็มอบความสามารถที่พวกเขาต้องการในการทำงานที่มีผลกระทบสูง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Availability and what you can do next",
+        "th": "ความพร้อมใช้งานและสิ่งที่คุณสามารถทำได้ต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ChatGPT Enterprise admins can start using the new analytics and updated spend controls today. Users in these workspaces can also view their credit usage by going to their workspace settings.",
+        "th": "ผู้ดูแลระบบ ChatGPT Enterprise เริ่มใช้การวิเคราะห์ใหม่และการควบคุมการใช้จ่ายที่อัปเดตได้แล้ววันนี้ ผู้ใช้ในพื้นที่ทำงานเหล่านี้ยังสามารถดูการใช้เครดิตของตนได้โดยไปที่การตั้งค่าพื้นที่ทำงาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Learn more in the help center on usage limits⁠(opens in a new window) and the global admin console⁠(opens in a new window).",
+        "th": "เรียนรู้เพิ่มเติมในศูนย์ช่วยเหลือเกี่ยวกับขีดจำกัดการใช้งาน (เปิดในหน้าต่างใหม่) และคอนโซลผู้ดูแลระบบส่วนกลาง (เปิดในหน้าต่างใหม่)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Have questions about how best to implement controls for your workspace? Contact us here, or reach out directly to your OpenAI team.",
+        "th": "มีคำถามเกี่ยวกับวิธีที่ดีที่สุดในการใช้การควบคุมในพื้นที่ทำงานของคุณหรือไม่? ติดต่อเราที่นี่ หรือติดต่อทีม OpenAI ของคุณโดยตรง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ChatGPT",
+        "th": "ChatGPT"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "ผู้เขียน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "อ่านต่อ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/687HyyF4C0A2OsktQGlTZJ/1ca5b061daa5e22fd338e9910292dac5/blog_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "Art Card 1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductJun 26, 2026",
+        "th": "สินค้า26มิ.ย.2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/25I93CBDfs6LgX4R4XCMBD/121ac551be0a9153314bf51fdbe91dae/1x1_Health_Art_1.png?w=3840&q=90&fm=webp",
+      "alt": "1x1 Health Art 1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductJun 18, 2026",
+        "th": "สินค้า18มิ.ย.2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/U6bb3rlwvYyhf2q835WWx/d50f5492dded3c21aa6d69c07d3b2a44/Introducing_OAI_Partner_Network_artcard.png?w=3840&q=90&fm=webp",
+      "alt": "Intro-OAI-Partner-ArtCard"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductJun 14, 2026",
+        "th": "สินค้า14มิ.ย.2569"
       }
     }
   ]

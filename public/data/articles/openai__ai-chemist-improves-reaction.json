@@ -18,8 +18,382 @@
     {
       "type": "p",
       "text": {
-        "en": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
-        "th": "OpenAI และ Molecule.one แสดงให้เห็นว่านักเคมี AI ใกล้อัตโนมัติที่ใช้ GPT-5.4 ช่วยปรับปรุงปฏิกิริยาการผลิตยาที่สำคัญได้อย่างไร และทำให้การวิจัยทางเคมีทางการแพทย์ก้าวหน้ายิ่งขึ้น"
+        "en": "June 17, 2026",
+        "th": "17 มิถุนายน 2569"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With Molecule.one’s Maria, GPT‑5.4 found a surprising additive boosting Chan-Lam Coupling yields for over 80% of tested substrates.",
+        "th": "ด้วย Maria ของ Molecule.one GPT-5.4 พบว่าสารเติมแต่งที่น่าแปลกใจช่วยเพิ่มผลผลิตข้อต่อ Chan-Lam ได้มากกว่า 80% ของซับสเตรตที่ทดสอบ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why the chemistry problem matters",
+        "th": "เหตุใดปัญหาทางเคมีจึงมีความสำคัญ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Connecting GPT-5.4 to Maria AI and Lab",
+        "th": "กำลังเชื่อมต่อ GPT-5.4 กับ Maria AI และ Lab"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What we found",
+        "th": "สิ่งที่เราค้นพบ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Limitations",
+        "th": "ข้อจำกัด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Preparedness",
+        "th": "การเตรียมความพร้อม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What's next",
+        "th": "อะไรต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Table of contents",
+        "th": "สารบัญ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why the chemistry problem matters",
+        "th": "เหตุใดปัญหาทางเคมีจึงมีความสำคัญ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Connecting GPT-5.4 to Maria AI and Lab",
+        "th": "กำลังเชื่อมต่อ GPT-5.4 กับ Maria AI และ Lab"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What we found",
+        "th": "สิ่งที่เราค้นพบ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Limitations",
+        "th": "ข้อจำกัด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Preparedness",
+        "th": "การเตรียมความพร้อม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What's next",
+        "th": "อะไรต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI’s work in science is motivated by a simple belief: advanced AI can become a powerful partner for scientists, helping them explore more ideas, connect distant concepts, design better experiments, and accelerate discoveries that benefit humanity. We have already shared early examples of models contributing to novel results in mathematics, including work on the unit distance problem⁠, in theoretical physics, through a new result on gluon amplitudes⁠, and in biology, where GPT‑5 helped lower the cost of cell-free protein synthesis⁠ in an automated lab. We also introduced GPT‑Rosalind⁠, a purpose-built model to support life sciences research and drug discovery workflows.",
+        "th": "งานทางวิทยาศาสตร์ของ OpenAI ได้รับแรงบันดาลใจจากความเชื่อง่ายๆ นั่นคือ AI ขั้นสูงสามารถเป็นพันธมิตรที่ทรงพลังสำหรับนักวิทยาศาสตร์ ช่วยให้พวกเขาสำรวจแนวคิดเพิ่มเติม เชื่อมโยงแนวคิดที่ห่างไกล ออกแบบการทดลองที่ดีขึ้น และเร่งการค้นพบที่เป็นประโยชน์ต่อมนุษยชาติ เราได้แบ่งปันตัวอย่างในช่วงแรกๆ ของแบบจำลองที่ทำให้เกิดผลลัพธ์ใหม่ๆ ในวิชาคณิตศาสตร์ รวมถึงงานเกี่ยวกับปัญหาระยะทางต่อหน่วย ในฟิสิกส์เชิงทฤษฎี ผ่านผลลัพธ์ใหม่เกี่ยวกับแอมพลิจูดของกลูออน และในชีววิทยา โดยที่ GPT-5 ช่วยลดต้นทุนของการสังเคราะห์โปรตีนไร้เซลล์ ในห้องปฏิบัติการอัตโนมัติ นอกจากนี้เรายังแนะนำ GPT‑Rosalind⁠ ซึ่งเป็นโมเดลที่สร้างขึ้นโดยเฉพาะเพื่อสนับสนุนการวิจัยด้านวิทยาศาสตร์ชีวภาพและขั้นตอนการทำงานในการค้นคว้ายา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This project extends that trajectory into medicinal chemistry, where progress cannot be measured by reasoning alone. A hypothesis has to work in the lab with real molecules, instruments, and experimental noise. Working with Molecule.one⁠(opens in a new window), we connected GPT‑5.4 to Maria—an agentic chemistry AI integrated with a high-throughput laboratory for autonomous research—and gave it an open-ended goal: to improve one of several important reaction classes. The system generated research proposals, designed and ran experiments, analyzed experimental data, and proposed follow-up experiments. Humans remained in the loop by designing steering and grading prompts and selecting proposals to test. They also made limited corrections to experimental plans, assisted with basic laboratory operations, and independently validated the final result.",
+        "th": "โครงงานนี้ขยายขอบเขตไปสู่เคมีทางการแพทย์ ซึ่งความก้าวหน้าไม่สามารถวัดได้ด้วยการให้เหตุผลเพียงอย่างเดียว สมมติฐานต้องทำงานในห้องทดลองที่มีโมเลกุล เครื่องมือ และเสียงจากการทดลองจริง เมื่อทำงานร่วมกับ Molecule.one (เปิดในหน้าต่างใหม่) เราได้เชื่อมต่อ GPT‑5.4 กับ Maria ซึ่งเป็น AI เคมีเชิงตัวแทนที่ผสานรวมกับห้องปฏิบัติการที่มีปริมาณงานสูงสำหรับการวิจัยแบบอัตโนมัติ และตั้งเป้าหมายปลายเปิดไว้ นั่นคือ ปรับปรุงหนึ่งในชั้นเรียนปฏิกิริยาที่สำคัญหลายรายการ ระบบสร้างข้อเสนอการวิจัย ออกแบบและดำเนินการทดลอง วิเคราะห์ข้อมูลการทดลอง และการทดลองติดตามผลที่เสนอ มนุษย์ยังคงอยู่ในวงจรโดยการออกแบบคำแนะนำในการบังคับเลี้ยวและการให้คะแนน และเลือกข้อเสนอที่จะทดสอบ พวกเขายังทำการแก้ไขแผนการทดลองอย่างจำกัด ช่วยในการปฏิบัติการขั้นพื้นฐานในห้องปฏิบัติการ และตรวจสอบผลลัพธ์สุดท้ายอย่างเป็นอิสระ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The most promising proposal, OAI-M1-03, focused on a difficult but useful version of Chan–Lam coupling, a reaction chemists use to form carbon-nitrogen bonds. Starting from the open-ended goal of improving Chan–Lam coupling for process chemistry, GPT‑5.4 independently identified primary sulfonamides as a challenging, high-value substrate class and suggested that mild oxidants, including TEMPO, could improve the reaction.",
+        "th": "ข้อเสนอที่มีแนวโน้มมากที่สุดคือ OAI-M1-03 มุ่งเน้นไปที่ข้อต่อ Chan-Lam เวอร์ชันที่ยากแต่มีประโยชน์ ซึ่งเป็นนักเคมีปฏิกิริยาที่ใช้ในการสร้างพันธะคาร์บอน-ไนโตรเจน เริ่มต้นจากเป้าหมายปลายเปิดในการปรับปรุงการเชื่อมต่อ Chan–Lam สำหรับเคมีในกระบวนการ GPT-5.4 ระบุซัลโฟนาไมด์ปฐมภูมิอย่างอิสระว่าเป็นคลาสซับสเตรตที่มีมูลค่าสูงและท้าทาย และแนะนำว่าสารออกซิแดนท์อ่อน รวมถึง TEMPO สามารถปรับปรุงปฏิกิริยาได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Across two cycles of experimentation in Maria Lab that idea produced a significant improvement. Under the optimized conditions, measured yields improved for 88% of the boronic acids and 83% of the sulfonamides tested. The mean yield rose from 16.6% to 25.2%, and the share of reactions above 30% yield increased from 15.6% to 37.5%. Human chemists then repeated representative reactions at bench scale. Those experiments confirmed the microliter-scale results, showing higher yields for 11 of 14 substrate pairs, with a more than twofold increase in most cases. That matters because medicinal chemists need reactions that work not just in micro-liter screening experiments, but also in practical lab workflows used during drug discovery.",
+        "th": "ในการทดลองสองรอบใน Maria Lab แนวคิดดังกล่าวทำให้เกิดการปรับปรุงที่สำคัญ ภายใต้สภาวะที่เหมาะสมที่สุด อัตราผลตอบแทนที่วัดได้เพิ่มขึ้นสำหรับกรดโบโรนิก 88% และซัลโฟนาไมด์ที่ทดสอบ 83% อัตราผลตอบแทนเฉลี่ยเพิ่มขึ้นจาก 16.6% เป็น 25.2% และส่วนแบ่งของปฏิกิริยาที่สูงกว่า 30% อัตราผลตอบแทนเพิ่มขึ้นจาก 15.6% เป็น 37.5% จากนั้นนักเคมีที่เป็นมนุษย์จะทำปฏิกิริยาตัวแทนซ้ำในระดับมาตรฐาน การทดลองเหล่านั้นยืนยันผลลัพธ์ในระดับไมโครลิตร ซึ่งแสดงผลลัพธ์ที่สูงขึ้นสำหรับคู่ซับสเตรต 11 จาก 14 คู่ โดยเพิ่มขึ้นมากกว่าสองเท่าในกรณีส่วนใหญ่ เรื่องดังกล่าวมีความสำคัญเนื่องจากนักเคมียาต้องการปฏิกิริยาที่ไม่เพียงได้ผลในการทดลองคัดกรองระดับไมโครลิตรเท่านั้น แต่ยังรวมถึงขั้นตอนการปฏิบัติงานในห้องปฏิบัติการที่ใช้ในระหว่างการค้นพบยาด้วย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Improvements in this area of medicinal chemistry are particularly exciting because synthesis is often a major bottleneck in drug discovery: scientists can only test the molecules they can make or otherwise obtain. The sulfonamide group appears in medicines across a wide range of therapeutic areas, including anticancer drugs, antimicrobials, and diuretics, yet the Chan–Lam coupling of primary sulfonamides with boronic acids has historically given low yields. Making this form of the reaction more reliable could give medicinal chemists a broader and more practical way to produce and explore potentially useful molecules.",
+        "th": "การปรับปรุงเคมียาในสาขานี้น่าตื่นเต้นเป็นพิเศษ เนื่องจากการสังเคราะห์มักเป็นคอขวดที่สำคัญในการค้นคว้ายา นักวิทยาศาสตร์สามารถทดสอบได้เฉพาะโมเลกุลที่สามารถสร้างหรือได้รับเท่านั้น กลุ่มซัลโฟนาไมด์ปรากฏในยารักษาโรคหลายประเภท รวมถึงยาต้านมะเร็ง ยาต้านจุลชีพ และยาขับปัสสาวะ แต่การมีเพศสัมพันธ์ของซัลโฟนาไมด์ปฐมภูมิกับกรดโบโรนิกในอดีตให้ผลตอบแทนต่ำ การทำให้ปฏิกิริยารูปแบบนี้มีความน่าเชื่อถือมากขึ้นอาจทำให้นักเคมียามีวิธีการผลิตและสำรวจโมเลกุลที่อาจมีประโยชน์ได้กว้างขวางและเป็นประโยชน์มากขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "While this is still an early result, it provides another concrete example of the broader direction we are working toward: AI systems that can become valuable partners to scientists across much of the research loop. The model reviewed the literature, proposed an unexpected idea, helped design and analyze experiments, and arrived at a scientific finding that human chemists could evaluate.",
+        "th": "แม้ว่านี่จะยังเป็นผลลัพธ์ในช่วงแรก แต่ก็เป็นอีกตัวอย่างที่เป็นรูปธรรมของทิศทางที่กว้างขึ้นที่เรากำลังดำเนินการ: ระบบ AI ที่สามารถเป็นพันธมิตรที่มีคุณค่าสำหรับนักวิทยาศาสตร์ในวงการวิจัยส่วนใหญ่ แบบจำลองนี้ทบทวนวรรณกรรม เสนอแนวคิดที่ไม่คาดคิด ช่วยออกแบบและวิเคราะห์การทดลอง และมาถึงการค้นพบทางวิทยาศาสตร์ที่นักเคมีของมนุษย์สามารถประเมินได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Maria Lab: Molecule.one's specialized high-throughput laboratory that ran 10,080 reactions in OAI-M1-03",
+        "th": "Maria Lab: ห้องปฏิบัติการเฉพาะทางที่มีปริมาณงานสูงของ Molecule.one ซึ่งดำเนินการปฏิกิริยา 10,080 ครั้งใน OAI-M1-03"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Why the chemistry problem matters",
+        "th": "เหตุใดปัญหาทางเคมีจึงมีความสำคัญ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Organic chemistry underpins all small-molecule medicines, as well as products in agriculture, electronics, and materials science. A reaction is especially useful when it can make the same kind of chemical bond reliably across many different starting materials. When reactions produce low yields or too many unwanted byproducts, chemists may have to abandon otherwise promising molecules or spend significant time developing a different route. This makes synthesis a major bottleneck in drug discovery: scientists can generally only test the molecules they can make or otherwise obtain.",
+        "th": "เคมีอินทรีย์เป็นรากฐานของยาที่มีโมเลกุลขนาดเล็กทั้งหมด เช่นเดียวกับผลิตภัณฑ์ในด้านการเกษตร อิเล็กทรอนิกส์ และวัสดุศาสตร์ ปฏิกิริยามีประโยชน์อย่างยิ่งเมื่อสามารถสร้างพันธะเคมีชนิดเดียวกันบนวัสดุตั้งต้นต่างๆ ได้อย่างน่าเชื่อถือ เมื่อปฏิกิริยาให้ผลผลิตต่ำหรือเป็นผลพลอยได้ที่ไม่พึงประสงค์มากเกินไป นักเคมีอาจต้องละทิ้งโมเลกุลที่มีแนวโน้มดีหรือใช้เวลาอย่างมากในการพัฒนาเส้นทางอื่น สิ่งนี้ทำให้การสังเคราะห์กลายเป็นปัญหาคอขวดที่สำคัญในการค้นพบยา โดยทั่วไปนักวิทยาศาสตร์สามารถทดสอบได้เฉพาะโมเลกุลที่พวกเขาสามารถสร้างหรือได้มาเท่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Chan–Lam coupling is useful in medicinal chemistry because it forms carbon-nitrogen bonds, which are common in medicines. However, the reaction does not work equally well for every class of molecule. In particular, coupling primary sulfonamides with boronic acids has historically produced low yields. Sulfonamides are an important family of molecules found in medicines used in oncology and infectious disease. Making this reaction more reliable could give medicinal chemists a broader and more practical way to produce and explore potentially useful molecules.",
+        "th": "การมีเพศสัมพันธ์แบบชานลัมมีประโยชน์ในเคมีทางการแพทย์ เนื่องจากเป็นพันธะคาร์บอน-ไนโตรเจน ซึ่งพบได้ทั่วไปในยา อย่างไรก็ตาม ปฏิกิริยานี้ทำงานได้ไม่ดีเท่ากันสำหรับโมเลกุลทุกประเภท โดยเฉพาะอย่างยิ่ง การจับคู่ซัลโฟนาไมด์ปฐมภูมิกับกรดโบโรนิกในอดีตเคยให้ผลตอบแทนต่ำ ซัลโฟนาไมด์เป็นกลุ่มโมเลกุลที่สำคัญที่พบในยาที่ใช้ในด้านเนื้องอกวิทยาและโรคติดเชื้อ การทำให้ปฏิกิริยานี้มีความน่าเชื่อถือมากขึ้นอาจทำให้นักเคมียามีวิธีการผลิตและสำรวจโมเลกุลที่อาจมีประโยชน์ได้กว้างขวางและเป็นประโยชน์มากขึ้น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Connecting GPT‑5.4 to Maria AI and Lab",
+        "th": "กำลังเชื่อมต่อ GPT‑5.4 กับ Maria AI และ Lab"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The combined system paired complementary capabilities. Prompts written by scientists working with Maria AI were used with GPT‑5.4 within a harness to generate and rank thousands of possible research proposals. Human chemists reviewed the small subset of proposals that ranked highest according to the system and selected four for laboratory testing. Maria AI then translated selected high-level plans into detailed lab instructions, ran thousands of high-throughput experiments, analyzed the raw data, and returned structured results to GPT‑5.4.",
+        "th": "ระบบที่รวมกันได้จับคู่ความสามารถเสริมเข้าด้วยกัน ข้อความที่เขียนโดยนักวิทยาศาสตร์ที่ทำงานร่วมกับ Maria AI ถูกนำมาใช้กับ GPT‑5.4 เพื่อสร้างและจัดอันดับข้อเสนอการวิจัยที่เป็นไปได้หลายพันรายการ นักเคมีที่เป็นมนุษย์ได้ตรวจสอบข้อเสนอชุดย่อยเล็กๆ ที่ได้รับการจัดอันดับสูงสุดตามระบบ และเลือกสี่ข้อสำหรับการทดสอบในห้องปฏิบัติการ จากนั้น Maria AI ก็แปลแผนระดับสูงที่เลือกไว้เป็นคำแนะนำในห้องปฏิบัติการโดยละเอียด รันการทดลองที่มีปริมาณงานสูงหลายพันรายการ วิเคราะห์ข้อมูลดิบ และส่งคืนผลลัพธ์ที่มีโครงสร้างเป็น GPT-5.4"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One of the four selected proposals, OAI-M1-03, suggested using mild oxidants such as TEMPO to improve the performance of the Chan-Lam reaction for sulfonamide synthesis. Chemists found the suggestion both surprising and interesting. We share the detailed findings from OAI-M1-03 in this blog post and in the paper⁠(opens in a new window). We’re also sharing the rewritten model chain-of-thought⁠(opens in a new window) for OAI-M1-03.",
+        "th": "OAI-M1-03 หนึ่งในสี่ข้อเสนอที่เลือก แนะนำให้ใช้สารออกซิแดนท์อ่อน เช่น TEMPO เพื่อปรับปรุงประสิทธิภาพของปฏิกิริยาชาน-ลำสำหรับการสังเคราะห์ซัลโฟนาไมด์ นักเคมีพบว่าข้อเสนอแนะนี้ทั้งน่าประหลาดใจและน่าสนใจ เราแบ่งปันรายละเอียดการค้นพบจาก OAI-M1-03 ในบล็อกโพสต์นี้และในรายงาน (เปิดในหน้าต่างใหม่) นอกจากนี้ เรายังแชร์โมเดลห่วงโซ่แห่งความคิดที่เขียนขึ้นใหม่ (เปิดในหน้าต่างใหม่) สำหรับ OAI-M1-03"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The final research proposal was then used by Maria to generate experimental grids, with slight corrections by humans. The largest human correction was to avoid dimethyl sulfoxide, or DMSO, as a solvent because chemists were concerned it could react with the stronger oxidants used as comparisons.",
+        "th": "มาเรียใช้ข้อเสนอการวิจัยขั้นสุดท้ายเพื่อสร้างตารางการทดลอง โดยมีการแก้ไขเล็กน้อยโดยมนุษย์ การแก้ไขโดยมนุษย์ที่ใหญ่ที่สุดคือการหลีกเลี่ยงไดเมทิลซัลฟอกไซด์หรือ DMSO ที่เป็นตัวทำละลาย เนื่องจากนักเคมีกังวลว่าสารดังกล่าวอาจทำปฏิกิริยากับสารออกซิแดนท์ที่แรงกว่าซึ่งใช้ในการเปรียบเทียบได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The full process took three months, from the first prompt on March 4th to sharing the OAI-M1-03 results with independent experts on June 4th.",
+        "th": "กระบวนการทั้งหมดใช้เวลาสามเดือน นับตั้งแต่การแจ้งเตือนครั้งแรกในวันที่ 4 มีนาคม จนถึงการแบ่งปันผลลัพธ์ OAI-M1-03 กับผู้เชี่ยวชาญอิสระในวันที่ 4 มิถุนายน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We describe this workflow as near-autonomous, not fully autonomous, because human chemists still made important decisions throughout the process. The model proposed the key research ideas, while human chemists provided high-level steering and judgment, corrected experimental details, helped prepare lab consumables and reagents, and repeated key experiments by hand.",
+        "th": "เราอธิบายขั้นตอนการทำงานนี้ว่าเป็นแบบเกือบอัตโนมัติ ไม่ใช่แบบอัตโนมัติเต็มรูปแบบ เนื่องจากนักเคมีที่เป็นมนุษย์ยังคงทำการตัดสินใจที่สำคัญตลอดกระบวนการ แบบจำลองดังกล่าวเสนอแนวคิดการวิจัยที่สำคัญ ในขณะที่นักเคมีของมนุษย์ให้การควบคุมและการตัดสินในระดับสูง แก้ไขรายละเอียดการทดลอง ช่วยเตรียมวัสดุสิ้นเปลืองและรีเอเจนต์ในห้องปฏิบัติการ และทำการทดลองหลักซ้ำ ๆ ด้วยมือ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What we found",
+        "th": "สิ่งที่เราค้นพบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OAI-M1-03 identified TEMPO as a useful additive for the primary sulfonamide Chan-Lam coupling studied here. Under the optimized conditions, the reaction improved in two ways: average yield went up, and more substrate combinations reached practically useful yields.",
+        "th": "OAI-M1-03 ระบุว่า TEMPO เป็นสารเติมแต่งที่มีประโยชน์สำหรับข้อต่อซัลโฟนาไมด์ชาน-ลำหลักที่ศึกษาที่นี่ ภายใต้สภาวะที่เหมาะสม ปฏิกิริยาได้รับการปรับปรุงในสองวิธี: อัตราผลตอบแทนเฉลี่ยเพิ่มขึ้น และการผสมซับสเตรตมากขึ้นทำให้ได้ผลลัพธ์ที่เป็นประโยชน์ในทางปฏิบัติ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Across two cycles, Maria ran a total of 10,080 reactions – more than a chemist running three reactions every day would run in a decade. That scale mattered because chemistry results can be misleading when they are tested on only a few examples. A reaction can look promising on one pair of starting materials, but fail across a broader set of molecules. Thousands of reactions made it possible to identify TEMPO among ten tested oxidants, see the effect repeat across diverse combinations, and find its limitations.",
+        "th": "ตลอดสองรอบ มาเรียทำปฏิกิริยาทั้งหมด 10,080 ครั้ง ซึ่งมากกว่านักเคมีที่ทำปฏิกิริยา 3 ครั้งทุกวันจะใช้เวลาในหนึ่งทศวรรษ ระดับนั้นมีความสำคัญเนื่องจากผลลัพธ์ทางเคมีอาจทำให้เข้าใจผิดได้เมื่อทดสอบด้วยตัวอย่างเพียงไม่กี่ตัวอย่าง ปฏิกิริยาอาจดูมีแนวโน้มดีกับวัสดุตั้งต้นคู่เดียว แต่จะล้มเหลวทั่วทั้งชุดโมเลกุลที่กว้างกว่า ปฏิกิริยานับพันรายการทำให้สามารถระบุ TEMPO จากสารออกซิไดซ์ที่ผ่านการทดสอบสิบรายการ ดูผลที่เกิดซ้ำในชุดค่าผสมที่หลากหลาย และค้นหาข้อจำกัดของมัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "After analyzing the first round of data, the system proposed a more focused second round of experiments to test follow-up hypotheses. One useful follow-up finding was that TEMPO could be replaced by a much cheaper analog, 4-hydroxy-TEMPO, with little loss in performance.",
+        "th": "หลังจากวิเคราะห์ข้อมูลรอบแรกแล้ว ระบบได้เสนอการทดลองรอบที่สองที่เน้นมากขึ้นเพื่อทดสอบสมมติฐานที่ตามมา ผลการวิจัยที่เป็นประโยชน์ประการหนึ่งคือ TEMPO สามารถถูกแทนที่ด้วยอะนาล็อกที่ราคาถูกกว่ามาก นั่นคือ 4-hydroxy-TEMPO โดยสูญเสียประสิทธิภาพเพียงเล็กน้อย"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1SnQ0CLsr8u50eucr6TeDs/39cf7b8defc32f16118fa612206f51c3/4-hydroxy-TEMPO_matches_TEMPO_performance_light_desktop.svg?w=3840&q=90",
+      "alt": "Chart comparing TEMPO, 4-hydroxy-TEMPO, 4-oxo-TEMPO, and PMP performance with chemical structures."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The result also held up beyond Maria Lab’s microliter-scale screening format. Human chemists reproduced representative reactions manually at bench scale and observed an increase in yield for 11 of 14 substrate pairs; for eight pairs the increase was greater than twofold. That replication matters because very small-scale experiments can sometimes introduce artifacts that disappear at a larger scale. Bench-scale validation is also customary before research is published in a scientific journal.",
+        "th": "ผลลัพธ์ยังเหนือกว่ารูปแบบการคัดกรองระดับไมโครลิตรของ Maria Lab นักเคมีที่เป็นมนุษย์จำลองปฏิกิริยาที่เป็นตัวแทนด้วยตนเองในระดับตั้งโต๊ะ และสังเกตเห็นการเพิ่มขึ้นของผลผลิตสำหรับซับสเตรต 11 จาก 14 คู่ สำหรับแปดคู่การเพิ่มขึ้นมากกว่าสองเท่า การจำลองแบบนั้นมีความสำคัญเนื่องจากบางครั้งการทดลองขนาดเล็กมากอาจทำให้เกิดสิ่งประดิษฐ์ที่หายไปในขนาดที่ใหญ่ขึ้นได้ การตรวจสอบความถูกต้องแบบตั้งโต๊ะยังเป็นเรื่องปกติก่อนที่การวิจัยจะตีพิมพ์ในวารสารทางวิทยาศาสตร์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3HngPL2DaHWLljjCOssIXZ/95145bf823ed849d5ffce743bf76f9a7/Photo.png?w=3840&q=90&fm=webp",
+      "alt": "Labeled glass reaction vials from Molecule.one bench-scale validation experiments."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reaction vials from the manual bench-scale validation.",
+        "th": "ขวดปฏิกิริยาจากการตรวจสอบความถูกต้องระดับตั้งโต๊ะด้วยตนเอง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Four external chemistry experts reviewed the preprint describing OAI-M1-03. Their assessments supported our view that the result was novel and worth sharing with the scientific community. The stronger test will come next: whether independent labs can reproduce the result, and whether chemists find it useful across a broader range of molecules.",
+        "th": "ผู้เชี่ยวชาญด้านเคมีภายนอกสี่คนตรวจสอบการพิมพ์ล่วงหน้าที่อธิบาย OAI-M1-03 การประเมินของพวกเขาสนับสนุนมุมมองของเราว่าผลลัพธ์ที่ได้นั้นแปลกใหม่และคุ้มค่าที่จะแบ่งปันกับชุมชนวิทยาศาสตร์ การทดสอบที่เข้มข้นขึ้นครั้งต่อไปจะเกิดขึ้น: ห้องปฏิบัติการอิสระสามารถทำซ้ำผลลัพธ์ได้หรือไม่ และนักเคมีพบว่ามีประโยชน์ในโมเลกุลที่หลากหลายมากขึ้นหรือไม่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Of the other three proposals generated by GPT‑5.4 and tested by Maria during the three-month period, OAI-M1-02 and OAI-M1-04 were experimentally proven in the Maria Lab, while OAI-M1-01 was disproven. Analysis of these results is ongoing.",
+        "th": "จากข้อเสนออีกสามข้อเสนอที่สร้างโดย GPT‑5.4 และทดสอบโดย Maria ในช่วงระยะเวลาสามเดือน OAI-M1-02 และ OAI-M1-04 ได้รับการพิสูจน์เชิงทดลองใน Maria Lab ในขณะที่ OAI-M1-01 นั้นไม่ได้รับการพิสูจน์ การวิเคราะห์ผลลัพธ์เหล่านี้ยังดำเนินอยู่"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Limitations",
+        "th": "ข้อจำกัด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This work shows that a model can make a useful contribution in organic chemistry. It did more than summarize the literature or suggest a one-off experiment: it proposed a specific surprising hypothesis and surfaced it for human review, designed experiments, interpreted experimental data, and designed follow-up experiments.",
+        "th": "งานนี้แสดงให้เห็นว่าแบบจำลองสามารถมีส่วนสนับสนุนที่เป็นประโยชน์ในเคมีอินทรีย์ได้ โดยทำมากกว่าการสรุปวรรณกรรมหรือแนะนำการทดลองแบบครั้งเดียว: เสนอสมมติฐานที่น่าแปลกใจที่เฉพาะเจาะจงและนำเสนอให้มนุษย์ตรวจสอบ ออกแบบการทดลอง ตีความข้อมูลการทดลอง และออกแบบการทดลองติดตามผล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It does not show that AI can independently run a chemistry research program from end to end. Human judgment remained essential, and the workflow depended on specialized high-throughput infrastructure. It also does not establish that the method will generalize to other coupling reactions, other substrate classes, or manufacturing conditions.",
+        "th": "ไม่ได้แสดงให้เห็นว่า AI สามารถดำเนินโครงการวิจัยทางเคมีตั้งแต่ต้นจนจบได้อย่างอิสระ การตัดสินใจของมนุษย์ยังคงเป็นสิ่งสำคัญ และขั้นตอนการทำงานขึ้นอยู่กับโครงสร้างพื้นฐานเฉพาะทางที่มีปริมาณงานสูง นอกจากนี้ยังไม่ได้กำหนดว่าวิธีการนี้จะมีลักษณะทั่วไปกับปฏิกิริยาคัปปลิ้งอื่นๆ ประเภทของซับสเตรตอื่นๆ หรือสภาวะการผลิต"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The yield estimates came from a high-throughput platform, and bench validation covered 14 representative substrate pairs. More work is needed to characterize the reaction mechanism, define the substrate scope, measure performance under different laboratory conditions, and reproduce the result independently.",
+        "th": "การประมาณการผลผลิตมาจากแพลตฟอร์มที่มีปริมาณงานสูงและการตรวจสอบความถูกต้องแบบตั้งโต๊ะครอบคลุมคู่ซับสเตรตที่เป็นตัวแทน 14 คู่ จำเป็นต้องมีการทำงานเพิ่มเติมเพื่อระบุลักษณะกลไกของปฏิกิริยา กำหนดขอบเขตของสารตั้งต้น วัดประสิทธิภาพภายใต้สภาวะห้องปฏิบัติการที่แตกต่างกัน และสร้างผลลัพธ์อย่างอิสระ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Preparedness",
+        "th": "การเตรียมความพร้อม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Chemistry capabilities require careful treatment because the same tools that can support medicine and materials science could also be misused. We deliberately scoped this work to a legitimate medicinal-chemistry problem: improving a known coupling reaction used to make drug-like molecules. The experiments did not involve toxins, chemical weapons, or requests to design harmful compounds. These results should not be read as evidence that the system can help with those harmful applications. The project did not test or demonstrate that.",
+        "th": "ความสามารถทางเคมีจำเป็นต้องได้รับการดูแลอย่างระมัดระวัง เนื่องจากเครื่องมือแบบเดียวกันที่สามารถรองรับการแพทย์และวัสดุศาสตร์อาจถูกนำไปใช้ในทางที่ผิดได้ เราจงใจกำหนดขอบเขตงานนี้ให้เป็นปัญหาเคมีทางการแพทย์ที่ถูกต้องตามกฎหมาย นั่นคือ การปรับปรุงปฏิกิริยาเชื่อมต่อที่ทราบซึ่งใช้ในการสร้างโมเลกุลที่มีลักษณะคล้ายยา การทดลองไม่เกี่ยวข้องกับสารพิษ อาวุธเคมี หรือการร้องขอให้ออกแบบสารประกอบที่เป็นอันตราย ไม่ควรอ่านผลลัพธ์เหล่านี้เพื่อเป็นหลักฐานว่าระบบสามารถช่วยเหลือแอปพลิเคชันที่เป็นอันตรายเหล่านั้นได้ โครงการไม่ได้ทดสอบหรือสาธิตสิ่งนั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We assess and mitigate emerging risks from advanced model capabilities through our Preparedness Framework⁠, including risks related to chemical and biological domains. The model used in this work had already undergone relevant evaluations with the UK AI Security Institute, and the system was designed to refuse requests focused on harmful applications. The experimental workflow added another layer of control: human chemists selected which proposals entered the lab, reviewed experimental plans, and retained control of the physical infrastructure.",
+        "th": "เราประเมินและลดความเสี่ยงที่เกิดขึ้นจากความสามารถของโมเดลขั้นสูงผ่านกรอบการเตรียมความพร้อม ซึ่งรวมถึงความเสี่ยงที่เกี่ยวข้องกับโดเมนทางเคมีและชีวภาพ แบบจำลองที่ใช้ในงานนี้ได้รับการประเมินที่เกี่ยวข้องกับ UK AI Security Institute แล้ว และระบบได้รับการออกแบบมาเพื่อปฏิเสธคำขอที่เน้นไปที่แอปพลิเคชันที่เป็นอันตราย ขั้นตอนการทดลองได้เพิ่มการควบคุมอีกชั้นหนึ่ง: นักเคมีที่เป็นมนุษย์เลือกข้อเสนอที่จะเข้าห้องปฏิบัติการ ทบทวนแผนการทดลอง และยังคงการควบคุมโครงสร้างพื้นฐานทางกายภาพไว้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We think this is the responsible way to study AI's potential in experimental chemistry: choose a problem space with clear scientific value, pair model-level safeguards with expert oversight, and evaluate the system through constrained physical experiments. As these capabilities improve, we will continue to assess emerging risks, strengthen safeguards, and be specific about what a result does and does not imply.",
+        "th": "เราคิดว่านี่เป็นวิธีที่มีความรับผิดชอบในการศึกษาศักยภาพของ AI ในด้านเคมีทดลอง: เลือกพื้นที่ปัญหาที่มีคุณค่าทางวิทยาศาสตร์ที่ชัดเจน จับคู่การป้องกันระดับแบบจำลองกับการกำกับดูแลของผู้เชี่ยวชาญ และประเมินระบบผ่านการทดลองทางกายภาพที่มีข้อจำกัด เมื่อความสามารถเหล่านี้ได้รับการปรับปรุง เราจะยังคงประเมินความเสี่ยงที่เกิดขึ้น เสริมสร้างการป้องกัน และระบุอย่างเฉพาะเจาะจงเกี่ยวกับผลลัพธ์ที่เกิดขึ้นและไม่ได้บอกเป็นนัย"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What's next",
+        "th": "อะไรต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The immediate next steps are scientific: test a broader range of starting materials, investigate why the additives improve the reaction, map where the effect works and fails, and support independent replication. Together, these studies will determine how broadly the method can be applied and how useful it is in practical medicinal chemistry workflows.",
+        "th": "ขั้นตอนถัดไปในทันทีนั้นเป็นขั้นตอนทางวิทยาศาสตร์: ทดสอบวัสดุตั้งต้นที่หลากหลายขึ้น ตรวจสอบว่าทำไมสารเติมแต่งจึงปรับปรุงปฏิกิริยา ทำแผนที่ตำแหน่งที่ผลลัพธ์ได้ผลและล้มเหลว และสนับสนุนการจำลองแบบอิสระ การศึกษาเหล่านี้จะร่วมกันกำหนดว่าวิธีการนี้สามารถนำไปใช้ได้กว้างเพียงใด และมีประโยชน์เพียงใดในกระบวนการทำงานด้านเคมียาเชิงปฏิบัติ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our longer-term goal is to make AI systems reliable scientific partners that help researchers generate hypotheses, design experiments, interpret results, and decide what to test next, while remaining grounded in expert judgment, reliable measurement, and strong safeguards. Organic chemistry is a particularly high-leverage area because progress in small-molecule discovery and manufacturing depends on being able to make molecules reliably. Scientists can only test molecules they can make, and better synthesis can expand the range of ideas they can explore across medicine, agriculture, electronics, energy, and materials science. This result is one early example of that broader direction: a frontier model, specialized agents, an automated laboratory, and human chemists working together to move faster through the research loop and produce findings the scientific community can evaluate, reproduce, and build on.",
+        "th": "เป้าหมายระยะยาวของเราคือการทำให้ระบบ AI พันธมิตรทางวิทยาศาสตร์ที่เชื่อถือได้ ซึ่งช่วยให้นักวิจัยสร้างสมมติฐาน ออกแบบการทดลอง ตีความผลลัพธ์ และตัดสินใจว่าจะทดสอบอะไรต่อไป ในขณะที่ยังคงยึดหลักการพิจารณาของผู้เชี่ยวชาญ การวัดผลที่เชื่อถือได้ และการป้องกันที่แข็งแกร่ง เคมีอินทรีย์เป็นสาขาที่ใช้ประโยชน์สูงเป็นพิเศษ เนื่องจากความก้าวหน้าในการค้นพบและการผลิตโมเลกุลขนาดเล็กขึ้นอยู่กับความสามารถในการสร้างโมเลกุลได้อย่างน่าเชื่อถือ นักวิทยาศาสตร์สามารถทดสอบได้เพียงโมเลกุลที่พวกมันสร้างขึ้นได้ และการสังเคราะห์ที่ดีขึ้นสามารถขยายขอบเขตแนวคิดที่พวกเขาสามารถสำรวจได้ครอบคลุมทั้งด้านการแพทย์ เกษตรกรรม อิเล็กทรอนิกส์ พลังงาน และวัสดุศาสตร์ ผลลัพธ์นี้เป็นตัวอย่างแรกเริ่มของทิศทางที่กว้างขึ้น: แบบจำลองชายแดน ตัวแทนเฉพาะทาง ห้องปฏิบัติการอัตโนมัติ และนักเคมีในมนุษย์ที่ทำงานร่วมกันเพื่อดำเนินการให้เร็วขึ้นผ่านวงจรการวิจัย และสร้างข้อค้นพบที่ชุมชนวิทยาศาสตร์สามารถประเมิน ทำซ้ำ และต่อยอดได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are grateful to the Molecule.one team and to the independent chemists who reviewed this work.",
+        "th": "เราขอขอบคุณทีมงาน Molecule.one และนักเคมีอิสระที่ตรวจสอบงานนี้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "ผู้เขียน"
       }
     }
   ]

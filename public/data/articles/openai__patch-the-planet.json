@@ -18,8 +18,448 @@
     {
       "type": "p",
       "text": {
-        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-        "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
+        "en": "June 22, 2026",
+        "th": "22 มิถุนายน 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How Patch the Planet works",
+        "th": "Patch the Planet ทำงานอย่างไร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Early field notes and findings from developers",
+        "th": "บันทึกภาคสนามเบื้องต้นและข้อค้นพบจากนักพัฒนา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What OpenAI Daybreak is already findingOperating systemsNetworkBrowsers",
+        "th": "สิ่งที่ OpenAI Daybreak กำลังค้นพบระบบปฏิบัติการเครือข่ายเบราว์เซอร์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Operating systems",
+        "th": "ระบบปฏิบัติการ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Network",
+        "th": "เครือข่าย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Browsers",
+        "th": "เบราว์เซอร์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Shared infrastructure, shared defense",
+        "th": "โครงสร้างพื้นฐานที่ใช้ร่วมกัน การป้องกันร่วมกัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Table of contents",
+        "th": "สารบัญ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How Patch the Planet works",
+        "th": "Patch the Planet ทำงานอย่างไร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Early field notes and findings from developers",
+        "th": "บันทึกภาคสนามเบื้องต้นและข้อค้นพบจากนักพัฒนา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What OpenAI Daybreak is already findingOperating systemsNetworkBrowsers",
+        "th": "สิ่งที่ OpenAI Daybreak กำลังค้นพบระบบปฏิบัติการเครือข่ายเบราว์เซอร์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Operating systems",
+        "th": "ระบบปฏิบัติการ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Network",
+        "th": "เครือข่าย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Browsers",
+        "th": "เบราว์เซอร์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Shared infrastructure, shared defense",
+        "th": "โครงสร้างพื้นฐานที่ใช้ร่วมกัน การป้องกันร่วมกัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are introducing Patch the Planet, a Daybreak⁠ initiative built with Trail of Bits to help maintainers strengthen the critical open-source software the world relies on. We’re pairing AI-assisted security research using our most cyber-capable models with expert human review to not only identify vulnerabilities, but help patch them.",
+        "th": "เรากำลังเปิดตัว Patch the Planet ซึ่งเป็นความคิดริเริ่ม Daybreak ที่สร้างขึ้นด้วย Trail of Bits เพื่อช่วยผู้ดูแลเสริมความแข็งแกร่งให้กับซอฟต์แวร์โอเพ่นซอร์สที่สำคัญที่โลกต้องพึ่งพา เรากำลังจับคู่การวิจัยด้านความปลอดภัยที่ได้รับความช่วยเหลือจาก AI โดยใช้โมเดลที่มีความสามารถทางไซเบอร์มากที่สุดของเรา ร่วมกับการตรวจสอบโดยผู้เชี่ยวชาญ เพื่อไม่เพียงระบุช่องโหว่เท่านั้น แต่ยังช่วยแก้ไขช่องโหว่อีกด้วย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "AI is accelerating vulnerability discovery, but discovery alone does not protect users. Many maintainers are already being asked to sort through more reports, more quickly, with the same limited time and resources. Patch the Planet is built to reduce that burden, not add to it: security engineers review findings before they reach maintainers, work with projects to develop patches and tests, and build reusable workflows that help teams continue improving security after the first fixes land.",
+        "th": "AI กำลังเร่งการค้นพบช่องโหว่ แต่การค้นพบเพียงอย่างเดียวไม่ได้ปกป้องผู้ใช้ ผู้ดูแลจำนวนมากถูกขอให้จัดเรียงรายงานมากขึ้น เร็วขึ้น โดยมีเวลาและทรัพยากรที่จำกัดเท่าเดิม Patch the Planet ได้รับการสร้างขึ้นเพื่อลดภาระนั้น ไม่ใช่เพิ่มเข้าไป: วิศวกรความปลอดภัยจะตรวจสอบสิ่งที่ค้นพบก่อนที่จะถึงผู้ดูแล ทำงานร่วมกับโครงการเพื่อพัฒนาแพตช์และการทดสอบ และสร้างเวิร์กโฟลว์ที่นำกลับมาใช้ใหม่ได้ซึ่งช่วยให้ทีมปรับปรุงความปลอดภัยต่อไปหลังจากการแก้ไขครั้งแรก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Trail of Bits has committed their entire security research organization⁠(opens in a new window) towards this effort for our initial surge. They are working directly with maintainers to investigate and validate vulnerabilities, develop and test patches, and coordinate disclosure of vulnerabilities.",
+        "th": "Trail of Bits ได้ทุ่มเทให้กับองค์กรวิจัยด้านความปลอดภัยทั้งหมด (เปิดในหน้าต่างใหม่) ต่อความพยายามนี้เพื่อเพิ่มกระแสครั้งแรกของเรา พวกเขากำลังทำงานโดยตรงกับผู้ดูแลเพื่อตรวจสอบและตรวจสอบช่องโหว่ พัฒนาและทดสอบแพตช์ และประสานงานการเปิดเผยช่องโหว่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Additionally, we will be partnering with HackerOne and Calif who are helping us take our efforts further with vulnerability triage, coordinated disclosure, and additional focused vulnerability discovery efforts.",
+        "th": "นอกจากนี้ เราจะเป็นพันธมิตรกับ HackerOne และ Calif ที่จะช่วยให้เราดำเนินการต่อไปด้วยการตรวจสอบช่องโหว่ การเปิดเผยข้อมูลที่มีการประสานงาน และความพยายามในการค้นหาช่องโหว่ที่มุ่งเน้นเพิ่มเติม"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How Patch the Planet works",
+        "th": "Patch the Planet ทำงานอย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each engagement under Patch the Planet begins in consultation with the maintainer. For each collaboration, security engineers work with maintainers to understand each project’s needs, preferences, and where additional security effort would be most useful: vulnerability validation, patch development, CI/CD improvements, or longer-term security engineering. Once aligned, researchers investigate potential vulnerabilities, validate meaningful issues, develop or refine patches, support testing, and coordinate disclosure through the project's established channels.",
+        "th": "การมีส่วนร่วมภายใต้ Patch the Planet แต่ละครั้งจะเริ่มต้นจากการปรึกษาหารือกับผู้ดูแล สำหรับการทำงานร่วมกันแต่ละครั้ง วิศวกรความปลอดภัยจะทำงานร่วมกับผู้ดูแลเพื่อทำความเข้าใจความต้องการ ความชอบของแต่ละโครงการ และจุดที่ความพยายามด้านความปลอดภัยเพิ่มเติมจะมีประโยชน์มากที่สุด: การตรวจสอบช่องโหว่ การพัฒนาแพตช์ การปรับปรุง CI/CD หรือวิศวกรรมความปลอดภัยในระยะยาว เมื่อปรับแนวแล้ว นักวิจัยจะตรวจสอบช่องโหว่ที่อาจเกิดขึ้น ตรวจสอบปัญหาที่สำคัญ พัฒนาหรือปรับแต่งแพตช์ สนับสนุนการทดสอบ และประสานงานการเปิดเผยข้อมูลผ่านช่องทางที่จัดตั้งขึ้นของโครงการ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Initial participants include cURL, NATS Server, pyca/cryptography, Sigstore, aiohttp, the Go project, freenginx, Python, and python.org. These projects support widely used networking, cryptography, software supply chain, and language infrastructure, where stronger security can benefit a broad range of downstream products and services. Additional projects will join in future rounds.",
+        "th": "ผู้เข้าร่วมในช่วงแรก ได้แก่ cURL, NATS Server, pyca/cryptography, Sigstore, aiohttp, โครงการ Go, freenginx, Python และ python.org โครงการเหล่านี้สนับสนุนระบบเครือข่ายที่ใช้กันอย่างแพร่หลาย การเข้ารหัส ห่วงโซ่อุปทานซอฟต์แวร์ และโครงสร้างพื้นฐานทางภาษา ซึ่งการรักษาความปลอดภัยที่แข็งแกร่งยิ่งขึ้นจะเป็นประโยชน์ต่อผลิตภัณฑ์และบริการขั้นปลายที่หลากหลาย โครงการเพิ่มเติมจะเข้าร่วมในรอบต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Security researchers are equipped with our frontier models as well as Codex Security⁠(opens in a new window) to support the analysis, patch development, testing, and documentation. Participating projects receive access to ChatGPT Pro; conditional access to Codex Security; and API credits for core open-source development, maintainer automation, and release workflows. Trail of Bits has developed AI-assisted workflows for deduplication, triage, and patching that projects can run with this support.",
+        "th": "นักวิจัยด้านความปลอดภัยได้รับการติดตั้งโมเดลชายแดนของเราตลอดจน Codex Security (เปิดในหน้าต่างใหม่) เพื่อรองรับการวิเคราะห์ การพัฒนาแพตช์ การทดสอบ และเอกสารประกอบ โครงการที่เข้าร่วมจะได้รับสิทธิ์เข้าถึง ChatGPT Pro การเข้าถึง Codex Security แบบมีเงื่อนไข และเครดิต API สำหรับการพัฒนาโอเพ่นซอร์สหลัก การบำรุงรักษาอัตโนมัติ และเวิร์กโฟลว์การเผยแพร่ Trail of Bits ได้พัฒนาเวิร์กโฟลว์ที่ได้รับความช่วยเหลือจาก AI สำหรับการขจัดข้อมูลซ้ำซ้อน การคัดแยก และแพตช์ที่โปรเจ็กต์สามารถทำงานได้ด้วยการสนับสนุนนี้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Early field notes and findings from developers",
+        "th": "บันทึกภาคสนามเบื้องต้นและข้อค้นพบจากนักพัฒนา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Trail of Bits has dedicated security engineers to work full-time with Codex and GPT‑5.5‑Cyber across 19 open-source projects, and has already identified hundreds of security issues and merged dozens of patches, with many more still undergoing coordinated disclosure.",
+        "th": "Trail of Bits ได้ทุ่มเทวิศวกรความปลอดภัยในการทำงานเต็มเวลากับ Codex และ GPT-5.5-Cyber ​​ในโปรเจ็กต์โอเพ่นซอร์ส 19 โปรเจ็กต์ และได้ระบุปัญหาด้านความปลอดภัยหลายร้อยรายการแล้วและได้รวมแพตช์หลายสิบรายการเข้าด้วยกัน โดยที่อีกหลายรายการยังอยู่ระหว่างการเปิดเผยข้อมูลที่มีการประสานงานกัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The initial sprint also produced reusable security infrastructure: fuzzing harnesses, historical-CVE analysis pipelines, differential-testing systems, threat models, expanded test suites, and workflows for deduplication, false-positive filtering, severity correction, and patch generation. Some project-specific details will be shared later as testing, remediation, and coordinated disclosure progress. A few early examples show what the team was able to build and find:",
+        "th": "การวิ่งครั้งแรกยังสร้างโครงสร้างพื้นฐานด้านความปลอดภัยที่สามารถนำกลับมาใช้ใหม่ได้: fuzzing harnesses, ไปป์ไลน์การวิเคราะห์ในอดีต-CVE, ระบบการทดสอบความแตกต่าง, โมเดลภัยคุกคาม, ชุดการทดสอบที่ขยาย และเวิร์กโฟลว์สำหรับการขจัดข้อมูลซ้ำซ้อน, การกรองผลบวกลวง, การแก้ไขความรุนแรง และการสร้างแพตช์ รายละเอียดเฉพาะโครงการบางส่วนจะถูกแชร์ในภายหลังในฐานะความคืบหน้าของการทดสอบ การแก้ไข และการเปิดเผยข้อมูลที่มีการประสานงาน ตัวอย่างเบื้องต้นบางส่วนแสดงให้เห็นว่าทีมสามารถสร้างและค้นหาอะไรได้บ้าง:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A fuzzing lab in less than a day. Trail of Bits engineers used repeated Codex /goal runs with GPT‑5.5‑Cyber to build an entire fuzzing lab covering dozens of entry points, variant builds, platforms, and novel test seeds. Engineers set the objectives and refined the prompts; the system then used coverage feedback to keep expanding into new surfaces, target edge cases, and filter weak or invalid candidates.",
+        "th": "ห้องปฏิบัติการคลุมเครือในเวลาไม่ถึงวัน วิศวกรของ Trail of Bits ใช้ Codex /goal run ซ้ำๆ กับ GPT‑5.5‑Cyber ​​เพื่อสร้างห้องปฏิบัติการคลุมเครือทั้งหมดซึ่งครอบคลุมจุดเริ่มต้น หลายสิบรุ่น รุ่นต่างๆ แพลตฟอร์ม และชุดทดสอบใหม่ วิศวกรกำหนดวัตถุประสงค์และปรับปรุงคำแนะนำ จากนั้นระบบจะใช้คำติชมที่ครอบคลุมเพื่อขยายไปสู่พื้นผิวใหม่ กำหนดเป้าหมายเคส Edge และกรองผู้สมัครที่อ่อนแอหรือไม่ถูกต้อง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Trail of Bits engineers found that, with limited guidance, GPT‑5.5‑Cyber made useful choices about where to expand coverage, which builds and entry points to probe, and which candidates were too weak to pursue. The completed setup took less than a day. Trail of Bits estimates that building the same lab manually would ordinarily take at least several weeks.",
+        "th": "วิศวกรของ Trail of Bits พบว่าด้วยคำแนะนำที่จำกัด GPT-5.5-Cyber ​​ได้สร้างทางเลือกที่เป็นประโยชน์เกี่ยวกับพื้นที่ที่จะขยายความครอบคลุม จุดสร้างและจุดเริ่มต้นในการสอบสวน และจุดใดที่ผู้สมัครอ่อนแอเกินกว่าจะติดตามได้ การตั้งค่าที่เสร็จสมบูรณ์ใช้เวลาไม่ถึงหนึ่งวัน Trail of Bits ประมาณการว่าการสร้างห้องปฏิบัติการเดียวกันด้วยตนเองโดยปกติจะใช้เวลาอย่างน้อยหลายสัปดาห์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A reusable pipeline for finding variants of known vulnerabilities. The team built an end-to-end system that ingests historical CVEs, extracts relevant vulnerability patterns, searches target codebases for related flaws, and sends candidate findings through specialized judging agents. The pipeline deduplicates results, filters likely false positives, and routes the strongest evidence to security engineers for manual confirmation.",
+        "th": "ไปป์ไลน์ที่นำมาใช้ซ้ำได้สำหรับการค้นหาตัวแปรของช่องโหว่ที่ทราบ ทีมงานสร้างระบบ end-to-end ที่นำเข้า CVE ในอดีต แยกรูปแบบช่องโหว่ที่เกี่ยวข้อง ค้นหาฐานโค้ดเป้าหมายเพื่อหาข้อบกพร่องที่เกี่ยวข้อง และส่งข้อค้นพบของผู้สมัครผ่านตัวแทนการตัดสินที่เชี่ยวชาญ ไปป์ไลน์จะกรองผลลัพธ์ที่ซ้ำกัน กรองผลบวกลวงที่อาจเกิดขึ้น และกำหนดเส้นทางหลักฐานที่แข็งแกร่งที่สุดไปยังวิศวกรความปลอดภัยเพื่อยืนยันด้วยตนเอง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This turns years of public vulnerability history into a repeatable search strategy that can be applied across projects. Trail of Bits found the models especially effective at this kind of variant analysis, which uncovered many additional issues across the codebases under review.",
+        "th": "สิ่งนี้จะเปลี่ยนประวัติช่องโหว่สาธารณะที่ดำเนินมาหลายปีให้กลายเป็นกลยุทธ์การค้นหาที่ทำซ้ำได้ซึ่งสามารถนำไปใช้กับโปรเจ็กต์ต่างๆ ได้ Trail of Bits พบว่าโมเดลมีประสิทธิภาพโดยเฉพาะในการวิเคราะห์ตัวแปรประเภทนี้ ซึ่งเผยให้เห็นปัญหาเพิ่มเติมมากมายในโค้ดเบสที่อยู่ระหว่างการตรวจสอบ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1FdfJiqBj3KDJuILWCMDNL/5c20edb9ff6251562ea2a9fad651c9ae/Historical_CVE_variant_analysis_light_desktop.svg?w=3840&q=90",
+      "alt": "Diagram titled “Historical CVE-Driven variant discovery and validation” showing a left-to-right workflow. A historical CVE feed is processed by an orchestrator into artifacts, then fanned out to Codex per issue. Each issue passes through an issue gate, two false-positive judge checks, duplicate checks, and a final reporting gate. Outcomes include skip/no variant, reject as false positive or duplicate, or report a valid non-duplicate finding."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Differential testing in days instead of weeks or months. Different implementations of the same protocol should usually behave the same way under the same inputs. When they diverge, one may contain a bug. Applying this idea at scale is normally difficult because engineers must write custom shim and glue code connecting each implementation to a common test harness.",
+        "th": "การทดสอบส่วนต่างเป็นวันแทนที่จะเป็นสัปดาห์หรือเป็นเดือน การใช้งานที่แตกต่างกันของโปรโตคอลเดียวกันมักจะทำงานในลักษณะเดียวกันภายใต้อินพุตเดียวกัน เมื่อพวกมันแยกจากกัน อาจมีข้อบกพร่อง โดยปกติแล้วการนำแนวคิดนี้ไปประยุกต์ใช้ในวงกว้างเป็นเรื่องยาก เนื่องจากวิศวกรจะต้องเขียนแผ่นชิมและโค้ดกาวแบบกำหนดเองเพื่อเชื่อมต่อการใช้งานแต่ละอย่างเข้ากับชุดทดสอบทั่วไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Codex generated and iterated on that code, allowing multiple implementations to be fuzzed against one another and their behavioral differences investigated. The workflow filtered many weak or invalid results and produced a comparatively high-signal set of candidates for expert review. The team reached those results within days, compressing work that has historically taken weeks or months. Trail of Bits is continuing to expand and refine these tests before publishing project-specific details.",
+        "th": "Codex สร้างและวนซ้ำโค้ดนั้น ทำให้การใช้งานหลายรายการไม่ชัดเจนและเปรียบเทียบความแตกต่างทางพฤติกรรมได้ ขั้นตอนการทำงานกรองผลลัพธ์ที่อ่อนแอหรือไม่ถูกต้องจำนวนมาก และสร้างกลุ่มผู้สมัครที่มีสัญญาณค่อนข้างสูงเพื่อให้ผู้เชี่ยวชาญตรวจสอบ ทีมงานบรรลุผลดังกล่าวได้ภายในไม่กี่วัน โดยบีบอัดงานที่ต้องใช้เวลาหลายสัปดาห์หรือหลายเดือนในอดีต Trail of Bits กำลังขยายและปรับแต่งการทดสอบเหล่านี้อย่างต่อเนื่องก่อนที่จะเผยแพร่รายละเอียดเฉพาะโครงการ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Testing software against the behavior its specifications promise. The teams used Codex to develop threat models, attack taxonomies, invariant tests, and property-based tests grounded in project specifications and RFCs. These methods exposed notable differences between intended and actual behavior while leaving projects with broader test coverage, stronger documentation, and improvements to CI/CD and software-supply-chain tooling.",
+        "th": "การทดสอบซอฟต์แวร์กับลักษณะการทำงานตามที่ข้อกำหนดกำหนดไว้ ทีมงานใช้ Codex เพื่อพัฒนาโมเดลภัยคุกคาม การจัดหมวดหมู่การโจมตี การทดสอบแบบไม่แปรผัน และการทดสอบตามคุณสมบัติซึ่งมีพื้นฐานอยู่ในข้อกำหนดเฉพาะของโครงการและ RFC วิธีการเหล่านี้เผยให้เห็นความแตกต่างอย่างเห็นได้ชัดระหว่างพฤติกรรมที่ตั้งใจไว้และพฤติกรรมจริง ในขณะที่ปล่อยให้โปรเจ็กต์มีความครอบคลุมการทดสอบที่กว้างขึ้น เอกสารประกอบที่แข็งแกร่งขึ้น และการปรับปรุง CI/CD และเครื่องมือห่วงโซ่อุปทานซอฟต์แวร์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Security engineers reviewed every finding before it reached a maintainer. Trail of Bits engineers manually reviewed every security issue before it was submitted to a maintainer, and the added value of this step cannot be understated. While frontier AI models are highly capable of finding vulnerabilities and patching them, they also produce a high volume of false positives that can contribute to the already overwhelming backlog maintainers are facing. Patch the Planet solves for this by having dedicated Trail of Bits researchers reproduce the evidence, check findings against project-specific documentation and threat models, remove duplicates, reassess severity, and prioritize confirmed vulnerabilities for remediation. They also develop and submit patches in accordance with maintainers preferences. Maintainers remain in control of what patches are deployed and how disclosure is handled.",
+        "th": "วิศวกรความปลอดภัยตรวจสอบทุกการค้นพบก่อนที่จะถึงผู้ดูแล วิศวกรของ Trail of Bits ได้ตรวจสอบปัญหาด้านความปลอดภัยทั้งหมดด้วยตนเองก่อนที่จะส่งไปยังผู้ดูแล และมูลค่าเพิ่มของขั้นตอนนี้ไม่สามารถมองข้ามได้ แม้ว่าโมเดล AI ระดับแนวหน้าจะมีความสามารถในการค้นหาช่องโหว่และแก้ไขช่องโหว่เหล่านั้นได้สูง แต่ก็ยังสร้างผลบวกลวงในปริมาณมาก ซึ่งอาจส่งผลให้ผู้ดูแลงานในมือที่ค้างอยู่อย่างล้นหลามกำลังเผชิญอยู่ Patch the Planet แก้ปัญหานี้โดยให้นักวิจัย Trail of Bits ทุ่มเทสร้างหลักฐาน ตรวจสอบสิ่งที่ค้นพบกับเอกสารเฉพาะของโครงการและแบบจำลองภัยคุกคาม ลบรายการที่ซ้ำกัน ประเมินความรุนแรงอีกครั้ง และจัดลำดับความสำคัญของช่องโหว่ที่ได้รับการยืนยันสำหรับการแก้ไข พวกเขายังพัฒนาและส่งแพตช์ตามความต้องการของผู้ดูแลอีกด้วย ผู้ดูแลยังคงควบคุมว่าแพตช์ใดบ้างที่จะปรับใช้และวิธีจัดการการเปิดเผยข้อมูล"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What OpenAI Daybreak is already finding",
+        "th": "สิ่งที่ OpenAI Daybreak กำลังค้นพบอยู่แล้ว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Patch the Planet builds on a broader body of Daybreak work showing how frontier models can help defenders find, validate, and remediate serious vulnerabilities in widely used software.",
+        "th": "Patch the Planet สร้างขึ้นจากงาน Daybreak ที่กว้างขึ้น ซึ่งแสดงให้เห็นว่าโมเดลชายแดนสามารถช่วยผู้ปกป้องค้นหา ตรวจสอบ และแก้ไขช่องโหว่ร้ายแรงในซอฟต์แวร์ที่ใช้กันอย่างแพร่หลายได้อย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are sharing a few early highlights here, while withholding exploit mechanics and project-specific details where disclosure is still underway. As fixes land and coordinated disclosures conclude, we plan to publish deeper technical reports that walk through individual findings, research methods, validation workflows, and lessons other defenders can apply.",
+        "th": "เรากำลังแบ่งปันไฮไลท์ในช่วงแรกๆ บางส่วนที่นี่ ในขณะที่ระงับกลไกการหาประโยชน์และรายละเอียดเฉพาะโครงการที่ยังอยู่ระหว่างการเปิดเผยข้อมูล เมื่อการแก้ไขที่ดินและการเปิดเผยข้อมูลที่ประสานกันสรุปได้ เราวางแผนที่จะเผยแพร่รายงานทางเทคนิคเชิงลึกที่อธิบายการค้นพบส่วนบุคคล วิธีการวิจัย ขั้นตอนการตรวจสอบ และบทเรียนที่ผู้พิทักษ์คนอื่นสามารถนำไปใช้ได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our findings span every layer of the software stack, with many more still in the disclosure process.",
+        "th": "การค้นพบของเราครอบคลุมทุกชั้นของชุดซอฟต์แวร์ โดยยังมีอีกหลายชั้นที่ยังอยู่ในกระบวนการเปิดเผยข้อมูล"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Operating systems",
+        "th": "ระบบปฏิบัติการ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Linux Kernel: GPT‑5.5‑Cyber identified security-relevant components across more than 30 million lines of code, flagged potential security issues, and then validated them dynamically, generating 8 kernel pointer information leak proof-of-concepts (PoCs) and 24 local privilege escalation exploits. We note that hundreds of issues were identified, this is the subset for which PoCs were automatically generated.",
+        "th": "เคอร์เนล Linux: GPT-5.5-Cyber ​​ระบุส่วนประกอบที่เกี่ยวข้องกับความปลอดภัยในโค้ดมากกว่า 30 ล้านบรรทัด ทำเครื่องหมายปัญหาด้านความปลอดภัยที่อาจเกิดขึ้น และจากนั้นตรวจสอบความถูกต้องแบบไดนามิก สร้างข้อมูลเคอร์เนลพอยน์เตอร์ 8 ตัวที่พิสูจน์แนวคิด (PoC) รั่วไหล และ 24 การใช้ประโยชน์จากการยกระดับสิทธิ์ในเครื่อง เราทราบว่ามีการระบุปัญหาหลายร้อยรายการ ซึ่งเป็นส่วนย่อยที่ PoC ถูกสร้างขึ้นโดยอัตโนมัติ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "OpenBSD: Our models identified a 23-year-old use-after-free⁠(opens in a new window) in OpenBSD’s kernel implementation of System V semaphores. OpenAI researchers reproduced the issue and confirmed that it could allow an unprivileged local user to escalate privileges to root.",
+        "th": "OpenBSD: โมเดลของเราระบุการใช้งานฟรีมา 23 ปี (เปิดในหน้าต่างใหม่) ในการใช้เซมาฟอร์ System V เคอร์เนลของ OpenBSD นักวิจัยของ OpenAI จำลองปัญหานี้และยืนยันว่าอาจทำให้ผู้ใช้ในพื้นที่ที่ไม่มีสิทธิ์เพิ่มสิทธิ์ในการรูทได้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "FreeBSD: Security researchers at Calif used Codex to find and validate using proof-of-concept exploits for several⁠(opens in a new window) LPEs⁠(opens in a new window) in FreeBSD⁠(opens in a new window). Across a broader FreeBSD campaign, OpenAI researchers confirmed 34 vulnerabilities and produced 7 local privilege escalation PoCs.",
+        "th": "FreeBSD: นักวิจัยด้านความปลอดภัยที่แคลิฟอร์เนียใช้ Codex เพื่อค้นหาและตรวจสอบโดยใช้การใช้ประโยชน์จากการพิสูจน์แนวคิดสำหรับหลาย ๆ (opens in a new window) LPEs (opens in a new window) ใน FreeBSD⁠(opens in a new window) ในแคมเปญ FreeBSD ที่กว้างขึ้น นักวิจัยของ OpenAI ยืนยันช่องโหว่ 34 รายการ และสร้าง PoC การยกระดับสิทธิ์ในพื้นที่ 7 รายการ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Network",
+        "th": "เครือข่าย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "dnsmasq: Codex Security independently identified vulnerable patterns corresponding to four of the six dnsmasq CVEs later fixed in 2.92rel2: CVE-2026-4890⁠(opens in a new window), CVE-2026-4891⁠(opens in a new window), CVE-2026-4892⁠(opens in a new window), and CVE-2026-5172⁠(opens in a new window).",
+        "th": "dnsmasq: Codex Security ระบุรูปแบบช่องโหว่ได้อย่างอิสระซึ่งสอดคล้องกับสี่ในหก DNS CVE ที่ได้รับการแก้ไขในภายหลังใน 2.92rel2: CVE-2026-4890 (เปิดในหน้าต่างใหม่), CVE-2026-4891 (เปิดในหน้าต่างใหม่), CVE-2026-4892 (เปิดในหน้าต่างใหม่) และ CVE-2026-5172⁠(เปิดในหน้าต่างใหม่)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "HTTP/2 Bomb: Calif used Codex to identify \"HTTP/2 Bomb⁠(opens in a new window),\" a denial-of-service technique affecting major HTTP/2 implementations including NGINX, Apache, IIS and Pingora. Calif’s analysis suggested that more than 880,000 Internet-facing websites were running affected server software with HTTP/2 enabled.",
+        "th": "HTTP/2 Bomb: Calif ใช้ Codex เพื่อระบุ \"HTTP/2 Bomb⁠(opens in a new window)\" ซึ่งเป็นเทคนิคการปฏิเสธการให้บริการที่ส่งผลต่อการใช้งาน HTTP/2 หลักๆ รวมถึง NGINX, Apache, IIS และ Pingora การวิเคราะห์ของแคลิฟอร์เนียชี้ให้เห็นว่าเว็บไซต์ที่เชื่อมต่ออินเทอร์เน็ตมากกว่า 880,000 แห่งใช้งานซอฟต์แวร์เซิร์ฟเวอร์ที่ได้รับผลกระทบโดยเปิดใช้งาน HTTP/2"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Browsers",
+        "th": "เบราว์เซอร์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Chrome: OpenAI researchers found and reported five exploitable vulnerabilities in Chrome’s V8 JavaScript engine, including three that were identified and remediated within days of being introduced.",
+        "th": "Chrome: นักวิจัยของ OpenAI พบและรายงานช่องโหว่ห้าช่องโหว่ในกลไก V8 JavaScript ของ Chrome รวมถึงช่องโหว่สามรายการที่ได้รับการระบุและแก้ไขภายในไม่กี่วันนับจากเปิดตัว"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Safari: In roughly a week of focused WebKit work, over 10 exploitable Safari vulnerabilities were found and reported.",
+        "th": "Safari: ในช่วงเวลาประมาณหนึ่งสัปดาห์ของการทำงาน WebKit ที่มุ่งเน้น มีการค้นพบและรายงานช่องโหว่ของ Safari ที่สามารถใช้ประโยชน์ได้มากกว่า 10 รายการ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Firefox: OpenAI Preparedness identified a WebAssembly vulnerability (CVE-2026-8390⁠(opens in a new window)) with GPT‑5.5 during safety evaluations⁠(opens in a new window) that Mozilla patched two days before Pwn2Own Berlin, prompting five of six registered Firefox entries to withdraw. No Firefox exploit was successfully demonstrated at the competition.",
+        "th": "Firefox: การเตรียมความพร้อมของ OpenAI ระบุช่องโหว่ WebAssembly (CVE-2026-8390⁠(opens in a new window)) ด้วย GPT‑5.5 ระหว่างการประเมินความปลอดภัย (opens in a new window) ที่ Mozilla แพตช์สองวันก่อน Pwn2Own Berlin ส่งผลให้รายการ Firefox ที่ลงทะเบียนห้าจากหกรายการถูกถอนออก ไม่มีการสาธิตการใช้ Firefox อย่างประสบความสำเร็จในการแข่งขัน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Shared infrastructure, shared defense",
+        "th": "โครงสร้างพื้นฐานที่ใช้ร่วมกัน การป้องกันร่วมกัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Open-source software is shared infrastructure. Securing it should be shared work. AI is changing the pace of vulnerability discovery, and the work now is to make sure the benefits reach the maintainers and users who need them most.",
+        "th": "ซอฟต์แวร์โอเพ่นซอร์สเป็นโครงสร้างพื้นฐานที่ใช้ร่วมกัน การรักษาความปลอดภัยควรจะเป็นงานร่วมกัน AI กำลังเปลี่ยนแปลงความเร็วในการค้นพบช่องโหว่ และงานในตอนนี้คือการทำให้แน่ใจว่าผลประโยชน์จะไปถึงผู้ดูแลและผู้ใช้ที่ต้องการสิ่งเหล่านั้นมากที่สุด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Patch the Planet is designed to put that full defensive loop in service of maintainers: discovery, validation, severity review, disclosure, patch development, testing, and deployment. Frontier models can make parts of that loop faster, but the aim is to give the people responsible for shared infrastructure better tools and more capacity, while preserving their agency over how changes land.",
+        "th": "Patch the Planet ได้รับการออกแบบมาเพื่อให้บริการผู้ดูแลครบวงจร: การค้นหา การตรวจสอบ การตรวจสอบความรุนแรง การเปิดเผย การพัฒนาแพตช์ การทดสอบ และการปรับใช้ โมเดล Frontier สามารถทำให้ส่วนของลูปนั้นเร็วขึ้นได้ แต่เป้าหมายคือเพื่อให้ผู้ที่รับผิดชอบด้านโครงสร้างพื้นฐานที่ใช้ร่วมกันมีเครื่องมือที่ดีขึ้นและมีความสามารถมากขึ้น ขณะเดียวกันก็รักษาหน่วยงานของตนต่อการเปลี่ยนแปลงที่เกิดขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This first sprint shows what sustained collaboration among maintainers, security engineers, and AI-assisted workflows can produce: immediate fixes, stronger project infrastructure, and reusable security work that can continue improving open-source software over time.",
+        "th": "การเร่งความเร็วครั้งแรกนี้แสดงให้เห็นว่าการทำงานร่วมกันอย่างยั่งยืนระหว่างผู้ดูแล วิศวกรความปลอดภัย และเวิร์กโฟลว์ที่ได้รับความช่วยเหลือจาก AI สามารถเกิดขึ้นได้: การแก้ไขทันที โครงสร้างพื้นฐานของโครงการที่แข็งแกร่งขึ้น และงานรักษาความปลอดภัยที่นำกลับมาใช้ใหม่ได้ซึ่งสามารถปรับปรุงซอฟต์แวร์โอเพ่นซอร์สได้อย่างต่อเนื่องเมื่อเวลาผ่านไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This is just the beginning. As more fixes land and coordinated disclosures complete, we plan to publish deeper technical reports on selected findings, the methods used to discover and validate them, and the workflows defenders can adapt to help protect the software everyone depends on. If you are a maintainer, you can apply to join Patch the Planet here⁠(opens in a new window).",
+        "th": "นี่เป็นเพียงจุดเริ่มต้น เมื่อการแก้ไขที่ดินและการเปิดเผยข้อมูลที่ประสานงานกันเสร็จสิ้นมากขึ้น เราวางแผนที่จะเผยแพร่รายงานทางเทคนิคเชิงลึกเกี่ยวกับข้อค้นพบที่เลือก วิธีการที่ใช้ในการค้นพบและตรวจสอบความถูกต้อง และผู้ปกป้องเวิร์กโฟลว์สามารถปรับตัวเพื่อช่วยปกป้องซอฟต์แวร์ที่ทุกคนต้องพึ่งพา หากคุณเป็นผู้ดูแล คุณสามารถสมัครเข้าร่วม Patch the Planet ได้ที่นี่ (opens in a new window)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "ผู้เขียน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "อ่านต่อ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/735NOZviyogUBIFxd2EmWX/fa8baf9fc26e64f442ffa86d5fd9a41e/Art_Card__6_.png?w=3840&q=90&fm=webp",
+      "alt": "Expanding Daybreak Art Card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SecurityJun 22, 2026",
+        "th": "ความปลอดภัย 22 มิ.ย. 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6ZvTl8ZL23BOhoI6jz0EmR/49d6038b9f92773d4f866f4bfacabdbf/Art_Card__5_.png?w=3840&q=90&fm=webp",
+      "alt": "codex windows > art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EngineeringMay 13, 2026",
+        "th": "วิศวกรรมศาสตร์ 13 พฤษภาคม 2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/32jPyVqUObkTrIIyA6tJV1/4eb384b5bb2f21ccea5de7665858a37a/Frame.png?w=3840&q=90&fm=webp",
+      "alt": "Frame"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanyMay 13, 2026",
+        "th": "บริษัท13 พฤษภาคม 2569"
       }
     }
   ]

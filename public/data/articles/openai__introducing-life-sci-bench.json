@@ -18,8 +18,868 @@
     {
       "type": "p",
       "text": {
-        "en": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
-        "th": "ขอแนะนำ LifeSciBench ซึ่งเป็นเกณฑ์มาตรฐานที่เขียนโดยผู้เชี่ยวชาญและผ่านการตรวจสอบโดยผู้เชี่ยวชาญสำหรับการประเมินวิธีที่ระบบ AI จัดการกับงานวิจัยและการตัดสินใจด้านวิทยาศาสตร์ชีวภาพในโลกแห่งความเป็นจริง"
+        "en": "June 17, 2026",
+        "th": "17 มิถุนายน 2569"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An expert-written, expert-reviewed benchmark grounded in real-world life science research",
+        "th": "เกณฑ์มาตรฐานที่เขียนโดยผู้เชี่ยวชาญและผ่านการตรวจสอบโดยผู้เชี่ยวชาญซึ่งมีพื้นฐานมาจากการวิจัยด้านวิทยาศาสตร์ชีวภาพในโลกแห่งความเป็นจริง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Agentic AI systems are becoming increasingly capable of performing scientific tasks. However, their usefulness to life science researchers depends on how well they handle the complexity of real research. That work rarely looks like a single fact-recall question or a clean prediction problem. Researchers interpret incomplete evidence, reconcile conflicting results, design difficult experiments, troubleshoot assays, evaluate translational risk, and decide what to do next under uncertainty.",
+        "th": "ระบบ Agentic AI มีความสามารถในการทำงานทางวิทยาศาสตร์เพิ่มมากขึ้น อย่างไรก็ตาม ประโยชน์ที่มีต่อนักวิจัยด้านชีววิทยาศาสตร์ขึ้นอยู่กับว่าพวกเขาจัดการกับความซับซ้อนของการวิจัยจริงได้ดีเพียงใด งานนี้ไม่ค่อยดูเหมือนคำถามเพื่อระลึกถึงข้อเท็จจริงหรือปัญหาการทำนายที่ชัดเจน นักวิจัยตีความหลักฐานที่ไม่สมบูรณ์ ปรับผลลัพธ์ที่ขัดแย้งกัน ออกแบบการทดลองที่ยากลำบาก แก้ไขปัญหาการทดสอบ ประเมินความเสี่ยงในการแปล และตัดสินใจว่าจะทำอย่างไรต่อไปภายใต้ความไม่แน่นอน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Current benchmarks do not fully capture these capabilities. Many life science evaluations focus on narrow domains or isolated skills, resulting in questions with structured question formats and clean reference answers. While valuable, they often fail to truly assess whether a model can contribute across the broader span of research-level work.",
+        "th": "การวัดประสิทธิภาพในปัจจุบันยังไม่สามารถรวบรวมความสามารถเหล่านี้ได้อย่างสมบูรณ์ การประเมินด้านวิทยาศาสตร์ชีวภาพจำนวนมากมุ่งเน้นไปที่ขอบเขตที่แคบหรือทักษะที่แยกออกมา ส่งผลให้เกิดคำถามที่มีรูปแบบคำถามที่มีโครงสร้างและคำตอบอ้างอิงที่ชัดเจน แม้ว่าจะมีคุณค่า แต่ก็มักจะล้มเหลวในการประเมินอย่างแท้จริงว่าแบบจำลองสามารถมีส่วนช่วยในงานระดับการวิจัยในวงกว้างได้หรือไม่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We designed LifeSciBench to help close this gap. Every task is grounded in the judgment of practicing life scientists with Ph.D.-level training and direct experience advancing drug discovery programs in biotech and pharmaceutical settings.",
+        "th": "เราออกแบบ LifeSciBench เพื่อช่วยปิดช่องว่างนี้ งานทุกอย่างมีพื้นฐานมาจากการตัดสินของการฝึกนักวิทยาศาสตร์เพื่อชีวิตด้วยการฝึกอบรมระดับปริญญาเอกและประสบการณ์ตรงในการพัฒนาโครงการค้นพบยาในการตั้งค่าเทคโนโลยีชีวภาพและเภสัชกรรม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "LifeSciBench includes 750 expert-authored tasks spanning seven workflows and seven biological domains.",
+        "th": "LifeSciBench มีงานเขียนโดยผู้เชี่ยวชาญ 750 งาน ซึ่งครอบคลุมขั้นตอนการทำงาน 7 ขั้นตอนและโดเมนทางชีววิทยา 7 โดเมน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "1,062",
+        "th": "1,062"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Task artifacts",
+        "th": "สิ่งประดิษฐ์ของงาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "173",
+        "th": "173"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Scientist contributors",
+        "th": "นักวิทยาศาสตร์ผู้มีส่วนร่วม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "19,020",
+        "th": "19,020"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Rubric criteria",
+        "th": "เกณฑ์รูบริก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "453",
+        "th": "453"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Expert reviewers",
+        "th": "ผู้ตรวจสอบผู้เชี่ยวชาญ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What LifeSciBench measures",
+        "th": "LifeSciBench ใช้มาตรการอะไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "LifeSciBench measures whether AI systems can support realistic life science research tasks, not just answer biology questions. To define the benchmark taxonomy, we surveyed practicing life scientists about the workflows they use most often in applied research settings. Then, we grouped their responses into seven recurring categories: evidence handling, analysis, design and optimization, scientific reasoning, validation and operations, translation, and scientific communication.",
+        "th": "LifeSciBench วัดว่าระบบ AI สามารถรองรับงานวิจัยด้านวิทยาศาสตร์ชีวภาพที่สมจริงได้หรือไม่ ไม่ใช่แค่ตอบคำถามทางชีววิทยาเท่านั้น เพื่อกำหนดอนุกรมวิธานเกณฑ์มาตรฐาน เราได้สำรวจการฝึกนักวิทยาศาสตร์เพื่อชีวิตเกี่ยวกับขั้นตอนการทำงานที่พวกเขาใช้บ่อยที่สุดในการตั้งค่าการวิจัยประยุกต์ จากนั้น เราจัดกลุ่มคำตอบออกเป็นเจ็ดหมวดหมู่ที่เกิดซ้ำ: การจัดการหลักฐาน การวิเคราะห์ การออกแบบและการเพิ่มประสิทธิภาพ การใช้เหตุผลทางวิทยาศาสตร์ การตรวจสอบและการดำเนินการ การแปล และการสื่อสารทางวิทยาศาสตร์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each task is structured like a request a scientist might give to a knowledgeable collaborator: scientific prompt, any relevant context or artifacts, and a free-response answer. Expert-written rubrics evaluate whether a model can produce the right answer for a specific problem, with the right level of detail, justification, caveats, and formatting a scientist would expect.",
+        "th": "แต่ละงานมีโครงสร้างเหมือนคำขอที่นักวิทยาศาสตร์อาจมอบให้กับผู้ทำงานร่วมกันที่มีความรู้: การตอบสนองทางวิทยาศาสตร์ บริบทหรือสิ่งประดิษฐ์ที่เกี่ยวข้อง และคำตอบที่ตอบกลับโดยอิสระ รูบริกที่ผู้เชี่ยวชาญเขียนขึ้นจะประเมินว่าแบบจำลองสามารถสร้างคำตอบที่เหมาะสมสำหรับปัญหาเฉพาะเจาะจงได้หรือไม่ โดยมีรายละเอียด การให้เหตุผล คำเตือน และการจัดรูปแบบที่เหมาะสมตามที่นักวิทยาศาสตร์คาดหวัง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Dataset construction",
+        "th": "การสร้างชุดข้อมูล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "LifeSciBench evaluates scientific reasoning alongside the less well-defined, practical skills necessary for real-world scientific use. Its tasks ask models to work through realistic research problems: interpreting evidence, making domain-grounded judgments, and communicating conclusions that would be useful to expert reviewers. Many tasks also require models to handle uncertainty and reason over supporting data files rather than relying on prompt text alone.",
+        "th": "LifeSciBench ประเมินการใช้เหตุผลทางวิทยาศาสตร์ควบคู่ไปกับทักษะเชิงปฏิบัติที่มีการกำหนดนิยามไว้ไม่ชัดเจนซึ่งจำเป็นสำหรับการใช้งานทางวิทยาศาสตร์ในโลกแห่งความเป็นจริง หน้าที่ของโครงการคือการขอให้แบบจำลองทำงานผ่านปัญหาการวิจัยที่สมจริง เช่น การตีความหลักฐาน การตัดสินโดยอิงตามโดเมน และการสื่อสารข้อสรุปที่จะเป็นประโยชน์สำหรับผู้ตรวจสอบที่เชี่ยวชาญ งานจำนวนมากยังต้องการแบบจำลองเพื่อจัดการกับความไม่แน่นอนและเหตุผลในการสนับสนุนไฟล์ข้อมูล แทนที่จะอาศัยข้อความพร้อมท์เพียงอย่างเดียว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The benchmark is designed to reflect the complexity of life science work. Overall, 79% of tasks require multiple reasoning or decision-making steps, with an average of four steps per task. LifeSciBench includes 1,062 attached artifacts spanning figures, PDFs, tables, sequence files, structure or chemical files, and web references. More than half of tasks (53%) require models to interpret or synthesize information from at least one artifact.",
+        "th": "เกณฑ์มาตรฐานนี้ออกแบบมาเพื่อสะท้อนถึงความซับซ้อนของงานด้านวิทยาศาสตร์ชีวภาพ โดยรวมแล้ว 79% ของงานต้องใช้เหตุผลหรือขั้นตอนการตัดสินใจหลายประการ โดยมีขั้นตอนโดยเฉลี่ย 4 ขั้นตอนต่องาน LifeSciBench มีสิ่งประดิษฐ์ที่แนบมา 1,062 รายการซึ่งประกอบไปด้วยตัวเลข, PDF, ตาราง, ไฟล์ลำดับ, ไฟล์โครงสร้างหรือสารเคมี และการอ้างอิงเว็บ งานมากกว่าครึ่งหนึ่ง (53%) ต้องใช้แบบจำลองในการตีความหรือสังเคราะห์ข้อมูลจากสิ่งประดิษฐ์อย่างน้อยหนึ่งชิ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Tasks were created by 173 expert scientists across different life science disciplines. Each scientist had Ph.D.-level training and biotechnology or pharmaceutical industry experience. Tasks could undergo as many revision cycles as needed before acceptance, with no fixed cap on the number of rounds; accepted tasks averaged six self-directed automated review cycles and completed at least two rounds of expert reviews. Reviews were anchored in either a verifiable correct answer or strong expert consensus, with at least 90% agreement among reviewers in the relevant domain. This process helped ensure that accepted tasks were scientifically grounded, clear enough to grade, and representative of applied research.",
+        "th": "งานต่างๆ สร้างขึ้นโดยนักวิทยาศาสตร์ผู้เชี่ยวชาญ 173 คนจากสาขาวิชาชีววิทยาศาสตร์ต่างๆ นักวิทยาศาสตร์แต่ละคนได้รับการฝึกอบรมระดับปริญญาเอกและเทคโนโลยีชีวภาพหรือประสบการณ์ในอุตสาหกรรมยา งานอาจผ่านรอบการแก้ไขได้มากเท่าที่จำเป็นก่อนที่จะยอมรับ โดยไม่มีการกำหนดขีดจำกัดจำนวนรอบ งานที่ได้รับการยอมรับเฉลี่ยหกรอบการตรวจสอบอัตโนมัติที่กำกับตนเองและเสร็จสิ้นการตรวจสอบโดยผู้เชี่ยวชาญอย่างน้อยสองรอบ บทวิจารณ์ยึดติดอยู่กับคำตอบที่ถูกต้องที่ตรวจสอบได้หรือความเห็นพ้องต้องกันของผู้เชี่ยวชาญ โดยมีความเห็นพ้องต้องกันอย่างน้อย 90% ระหว่างผู้วิจารณ์ในโดเมนที่เกี่ยวข้อง กระบวนการนี้ช่วยให้แน่ใจว่างานที่ได้รับการยอมรับนั้นมีพื้นฐานทางวิทยาศาสตร์ มีความชัดเจนเพียงพอในการให้คะแนน และเป็นตัวแทนของการวิจัยประยุกต์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/716oBPKMZGd3LIw5YmA9Yl/55b22e84602f6bf833ac1472f4ad120b/Diagram1-desktop-light.svg?w=3840&q=90",
+      "alt": "Diagram showing LifeSciBench tasks that combine life-science data sources such as genomic sequences, molecular structures, figures, documents, spreadsheets, and web links with multi-step reasoning and expert review."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Grading and rubric breakdown",
+        "th": "การแบ่งเกรดและเกณฑ์การให้คะแนน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "LifeSciBench tasks are graded with a detailed, task-specific rubric that breaks down the expected response into specific scientific claims, calculations, decisions, justifications, and so on. Across the benchmark, expert-developed rubrics include 19,020 criteria—an average of 25 per task—to assess both scientific correctness and usefulness for research decisions.",
+        "th": "งานของ LifeSciBench ได้รับการให้คะแนนด้วยรูบริกเฉพาะงานโดยละเอียด ซึ่งจะแจกแจงการตอบสนองที่คาดหวังไว้เป็นการกล่าวอ้างทางวิทยาศาสตร์ การคำนวณ การตัดสินใจ การให้เหตุผล และอื่นๆ จากเกณฑ์มาตรฐาน รูบริกที่ผู้เชี่ยวชาญพัฒนาขึ้นมีเกณฑ์ 19,020 เกณฑ์ โดยเฉลี่ย 25 ​​รายการต่องาน เพื่อประเมินทั้งความถูกต้องทางวิทยาศาสตร์และประโยชน์สำหรับการตัดสินใจในการวิจัย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This design reflects how scientific work is evaluated in practice: many life science tasks cannot be graded by checking the final answer alone. A response may reach the correct high-level conclusion but still be judged incomplete if, for example, it overlooks a key assay limitation or fails to proactively bring up a highly consequential biological nuance. Conversely, a partial response may contain high-quality reasoning even if it does not fully solve the task.",
+        "th": "การออกแบบนี้สะท้อนถึงวิธีประเมินงานทางวิทยาศาสตร์ในทางปฏิบัติ งานด้านวิทยาศาสตร์ชีวภาพจำนวนมากไม่สามารถให้คะแนนโดยการตรวจสอบคำตอบสุดท้ายเพียงอย่างเดียว คำตอบอาจได้ข้อสรุปในระดับสูงที่ถูกต้อง แต่ยังคงถูกตัดสินว่าไม่สมบูรณ์ เช่น หากมองข้ามข้อจำกัดในการทดสอบที่สำคัญ หรือไม่สามารถหยิบยกความแตกต่างทางชีววิทยาที่เป็นผลสืบเนื่องสูงในเชิงรุก ในทางกลับกัน การตอบสนองบางส่วนอาจมีเหตุผลคุณภาพสูง แม้ว่าจะไม่สามารถแก้ปัญหาได้ทั้งหมดก็ตาม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The granular rubrics capture this nuance. LifeSciBench evaluates not only final-answer accuracy, but whether a model reaches its answer in a scientifically valid and operationally useful way.",
+        "th": "รูบริกแบบละเอียดจับความแตกต่างเล็กๆ น้อยๆ นี้ LifeSciBench ไม่เพียงแต่ประเมินความแม่นยำของคำตอบสุดท้ายเท่านั้น แต่ยังประเมินว่าแบบจำลองบรรลุคำตอบด้วยวิธีที่ถูกต้องตามหลักวิทยาศาสตร์และมีประโยชน์ในการปฏิบัติงานหรือไม่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Extracting, reconciling, and auditing scientific evidence from papers, figures, tables, and experimental records.",
+        "th": "การแยก การกระทบยอด และตรวจสอบหลักฐานทางวิทยาศาสตร์จากเอกสาร ตัวเลข ตาราง และบันทึกการทดลอง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Eval Example",
+        "th": "ตัวอย่างการประเมิน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re preparing for a Type B FDA meeting on AAV9-microDys-X, an AAV9-based micro-dystrophin gene therapy for Duchenne muscular dystrophy that expresses a 138 kDa construct from an MCK promoter, and we want a hard-nosed critique of whether our current package really supports accelerated approval on micro-dystrophin expression as a surrogate endpoint reasonably likely to predict clinical benefit.",
+        "th": "เรากำลังเตรียมการประชุม Type B FDA เกี่ยวกับ AAV9-microDys-X ซึ่งเป็นยีนบำบัดไมโครดิสโทรฟินที่ใช้ AAV9 สำหรับโรคกล้ามเนื้อเสื่อม Duchenne ซึ่งแสดงออกถึงโครงสร้าง 138 kDa จากโปรโมเตอร์ MCK และเราต้องการคำวิพากษ์วิจารณ์อย่างหนักว่าแพ็คเกจปัจจุบันของเรารองรับการอนุมัติแบบเร่งด่วนในการแสดงออกของไมโคร-ดีสโตรฟินจริง ๆ หรือไม่ เนื่องจากเป็นจุดสิ้นสุดของตัวแทนที่มีแนวโน้มที่จะทำนายผลประโยชน์ทางคลินิกได้อย่างสมเหตุสมผล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Study context: open-label Phase 1b/2 in 12 ambulatory boys age 4–7 with confirmed DMD and out-of-frame rod-domain deletions. The package is:",
+        "th": "บริบทการศึกษา: เฟส 1b/2 แบบ open-label ในเด็กชายผู้ป่วยนอก 12 คนอายุ 4-7 ขวบที่ได้รับการยืนยัน DMD และการลบโดเมนแบบร็อดนอกเฟรม แพ็คเกจคือ:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Pre-treatment vastus lateralis biopsies: 0–3% of healthy-control dystrophin by quantitative Western blot using MANEX1A against the N-terminal actin-binding domain.",
+        "th": "การตรวจชิ้นเนื้อ laterus กว้างใหญ่ก่อนการรักษา: 0–3% ของ dystrophin ที่ควบคุมสุขภาพโดย Western blot เชิงปริมาณโดยใช้ MANEX1A เทียบกับโดเมนที่มีผลผูกพันกับแอคตินที่เทอร์มินัล N"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "12-week post-treatment contralateral vastus lateralis biopsies: mean micro-dystrophin 38% of healthy control (range 18–61%) by the same Western blot, normalized to total protein by Coomassie staining.",
+        "th": "หลังการรักษา 12 สัปดาห์ contralateral กว้างใหญ่ lateralis การตรวจชิ้นเนื้อ: หมายถึงไมโคร - ดีสโตรฟิน 38% ของการควบคุมสุขภาพที่ดี (ช่วง 18–61%) โดย Western blot เดียวกัน, ทำให้เป็นมาตรฐานเป็นโปรตีนทั้งหมดโดยการย้อมสี Coomassie"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Post-treatment immunofluorescence: sarcolemmal signal in 75–95% of fibers using a polyclonal anti-dystrophin C-terminal antibody.",
+        "th": "อิมมูโนฟลูออเรสเซนต์หลังการรักษา: สัญญาณ sarcolemmal ใน 75–95% ของเส้นใยโดยใช้แอนติบอดี C-terminal โพลีโคลนอลต่อต้าน dystrophin"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "48-week function: mean NSAA change +1.4 points from baseline versus −0.6 in an external published natural-history registry cohort (p = 0.03 by unpaired t-test).",
+        "th": "ฟังก์ชั่น 48 สัปดาห์: ค่าเฉลี่ย NSAA เปลี่ยน +1.4 คะแนนจากพื้นฐานเทียบกับ −0.6 ในกลุ่มสตรีประวัติศาสตร์ธรรมชาติที่เผยแพร่ภายนอก (p = 0.03 โดยการทดสอบทีแบบไม่มีคู่)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Safety: transient transaminitis in 8/12 patients managed with steroid taper; one resolved myocarditis; no deaths.",
+        "th": "ความปลอดภัย: transaminitis ชั่วคราวในผู้ป่วย 8/12 รายที่ได้รับการรักษาด้วยสเตียรอยด์เรียว โรคกล้ามเนื้อหัวใจอักเสบที่แก้ไขแล้วหนึ่งอัน; ไม่มีผู้เสียชีวิต"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Biodistribution/persistence: AAV9 vector genomes detectable in muscle at 12 weeks at a mean of 2.3 vector genomes per nucleus.",
+        "th": "การกระจายตัวทางชีวภาพ/การคงอยู่: จีโนมเวกเตอร์ AAV9 ตรวจพบได้ในกล้ามเนื้อที่ 12 สัปดาห์ โดยมีค่าเฉลี่ยจีโนมเวกเตอร์ 2.3 ต่อนิวเคลียส"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Eligibility: no baseline anti-AAV9 neutralizing antibodies (titer <1:400) and no exon-44 deletions.",
+        "th": "คุณสมบัติ: ไม่มีแอนติบอดีต่อต้าน AAV9 ที่เป็นพื้นฐาน (ไทเทอร์ <1:400) และไม่มีการลบออกของ exon-44"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Please pressure-test this package item by item: where would FDA or a skeptical reviewer say the evidence, as presented, fails to support our conclusion, and what additional data, analyses, or design changes would be needed to close those gaps if possible? For anything not specified, assume what is known from other clinical-grade 138 kDa micro-dystrophin programs and relevant clinical trials through December 31, 2025 also applies.",
+        "th": "โปรดทดสอบความดันรายการบรรจุภัณฑ์นี้ทีละรายการ: FDA หรือผู้ตรวจสอบที่ไม่เชื่อจะพูดว่าหลักฐานตามที่นำเสนอนั้นล้มเหลวในการสนับสนุนข้อสรุปของเราที่ใด และจำเป็นต้องมีข้อมูลเพิ่มเติม การวิเคราะห์ หรือการเปลี่ยนแปลงการออกแบบใดบ้างเพื่อปิดช่องว่างเหล่านั้นหากเป็นไปได้ สำหรับสิ่งใดก็ตามที่ไม่ได้ระบุไว้ ให้ถือว่าสิ่งที่ทราบจากโปรแกรมไมโครไดสโตรฟินระดับ 138 kDa ทางคลินิกอื่นๆ และการทดลองทางคลินิกที่เกี่ยวข้องจนถึงวันที่ 31 ธันวาคม 2025 มีผลบังคับใช้ด้วย"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Candidate Response",
+        "th": "การตอบรับของผู้สมัคร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Bottom line: As presented, this package is not strong enough to support accelerated approval on micro-dystrophin expression as a surrogate endpoint reasonably likely to predict clinical benefit. A skeptical FDA reviewer would likely view the biomarker, functional, durability, safety, and generalizability evidence as materially under-supported.",
+        "th": "ประเด็นสำคัญ: ตามที่นำเสนอ แพ็คเกจนี้ไม่แข็งแกร่งพอที่จะรองรับการอนุมัติแบบเร่งในการแสดงออกของไมโคร-ดีสโตรฟิน เนื่องจากจุดยุติตัวแทนมีแนวโน้มที่จะทำนายประโยชน์ทางคลินิกได้อย่างสมเหตุสมผล ผู้ตรวจสอบของ FDA ที่น่าสงสัยอาจมองว่าตัวชี้วัดทางชีวภาพ การทำงาน ความทนทาน ความปลอดภัย และหลักฐานความสามารถทั่วไปนั้นไม่ได้รับการสนับสนุนอย่างมีนัยสำคัญ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Package Item",
+        "th": "รายการแพ็คเกจ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Key Failure Mode",
+        "th": "โหมดความล้มเหลวที่สำคัญ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "What Would Be Needed",
+        "th": "สิ่งที่จำเป็น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Western blot quantification",
+        "th": "ปริมาณ Western blot"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "MANEX1A binds an N-terminal epitope shared by endogenous full-length dystrophin and the micro-dystrophin transgene, so the assay does not cleanly distinguish transgene from residual/revertant dystrophin. Quantifying a 138 kDa micro-dystrophin against a healthy full-length dystrophin standard is also invalid.",
+        "th": "MANEX1A ผูกอีพิโทปที่ปลาย N ที่ใช้ร่วมกันโดยดิสโทรฟีนความยาวเต็มภายนอกและไมโครดิสโทรฟินทรานส์ยีน ดังนั้นการทดสอบจึงไม่แยกแยะทรานส์ยีนจากดิสโทรฟินที่ตกค้าง/ย้อนกลับได้อย่างชัดเจน การหาปริมาณไมโคร-ดิสโทรฟินขนาด 138 kDa เทียบกับมาตรฐานดิสโทรฟินแบบเต็มความยาวสุขภาพที่ดีต่อสุขภาพก็ไม่ถูกต้องเช่นกัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Use a recombinant micro-dystrophin standard and an orthogonal method that distinguishes transgene from endogenous dystrophin, such as targeted mass spectrometry or a transgene-specific/epitope-specific assay.",
+        "th": "ใช้มาตรฐานไมโคร-ไดสโตรฟินแบบรีคอมบิแนนท์และวิธีการตั้งฉากที่แยกทรานส์ยีนจากดิสโทรฟินที่เกิดภายใน เช่น แมสสเปกโตรเมทรีแบบกำหนดเป้าหมายหรือการสอบวิเคราะห์ที่จำเพาะต่อทรานส์ยีน/ซึ่งจำเพาะต่ออีพิโทป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Immunofluorescence",
+        "th": "อิมมูโนฟลูออเรสเซนต์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The C-terminal polyclonal antibody is poorly suited because the 138 kDa construct lacks the C-terminal domain. Many DMD patients have revertant fibers, and revertant dystrophin can retain C-terminal epitopes. Revertant fibers may expand clonally with age, biasing IF signal, especially in older boys.",
+        "th": "พอลิโคลนอลแอนติบอดีที่ปลาย C ไม่เหมาะสมเนื่องจากโครงสร้าง 138 kDa ขาดโดเมนที่ปลาย C ผู้ป่วย DMD จำนวนมากมีเส้นใยแบบผันกลับได้ และดิสโทรฟินแบบผันกลับสามารถคงรักษาอีพิโทปที่ปลาย C ได้ เส้นใยย้อนกลับอาจขยายตัวแบบโคลนตามอายุ ซึ่งส่งผลต่อสัญญาณ IF โดยเฉพาะในเด็กผู้ชายที่มีอายุมากกว่า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Repeat IF with an antibody against an epitope present in the transgene but absent from revertant dystrophin. Quantify transgene-positive fibers separately from revertant fibers.",
+        "th": "ทำซ้ำ IF ด้วยแอนติบอดีต่ออีพิโทปที่มีอยู่ในทรานส์ยีน แต่ไม่มีหายไปจากดิสโทรฟีนที่กลับคืนสภาพเดิม หาปริมาณเส้นใยทรานส์ยีนบวกแยกจากเส้นใยผันกลับ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Surrogate endpoint validity",
+        "th": "ความถูกต้องของจุดสิ้นสุดตัวแทน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The package conflates protein amount with clinical function. “38% of healthy-control protein mass” does not mean 38% of normal dystrophin function because micro-dystrophin is structurally truncated.",
+        "th": "แพคเกจจะรวมปริมาณโปรตีนเข้ากับการทำงานทางคลินิก “38% ของมวลโปรตีนที่ควบคุมสุขภาพได้ดี” ไม่ได้หมายถึง 38% ของการทำงานของดิสโทรฟินตามปกติ เนื่องจากไมโครดิสโทรฟินถูกตัดทอนเชิงโครงสร้าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Empirically validate the relationship between micro-dystrophin mass-percent, sarcolemmal localization, downstream functional restoration, and clinical benefit before treating expression as a surrogate endpoint.",
+        "th": "ตรวจสอบความสัมพันธ์เชิงประจักษ์ระหว่างไมโคร-ดีสโตรฟิน-เปอร์เซ็นต์มวล การแปลแบบซาร์โคเลมมัล การฟื้นฟูการทำงานขั้นปลายน้ำ และประโยชน์ทางคลินิก ก่อนที่จะรักษาการแสดงออกเป็นจุดสิ้นสุดตัวแทน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Biopsy design",
+        "th": "การออกแบบชิ้นเนื้อ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Pre- and post-treatment contralateral vastus lateralis biopsies introduce left-right and intramuscular spatial variability. Disease progression and fibro-fatty replacement can also change total-protein-normalized signal.",
+        "th": "การตรวจชิ้นเนื้อก่อนและหลังการรักษา contralateral กว้างใหญ่ lateralis จะแนะนำความแปรปรวนเชิงพื้นที่ด้านซ้าย-ขวาและในกล้ามเนื้อ การลุกลามของโรคและการทดแทนไฟโบร-ไขมันยังสามารถเปลี่ยนแปลงสัญญาณที่ทำให้โปรตีนทั้งหมดเป็นมาตรฐานได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Standardize biopsy site using consistent anatomical landmarks, normalize to muscle-specific proteins, and measure fibro-fatty composition in parallel.",
+        "th": "กำหนดมาตรฐานของตำแหน่งการตรวจชิ้นเนื้อโดยใช้จุดสังเกตทางกายวิภาคที่สอดคล้องกัน ปรับโปรตีนเฉพาะกล้ามเนื้อให้เป็นมาตรฐาน และวัดองค์ประกอบของไฟโบรและไขมันในแบบคู่ขนาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "NSAA comparator/statistics",
+        "th": "เครื่องมือเปรียบเทียบ/สถิติของ NSAA"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An external natural-history cohort is not a randomized concurrent control. Trial eligibility, supportive care, participation effects, baseline NSAA, steroid regimen, age, and exon class can all bias the comparison. An unpaired t-test is not sufficient. Also, a +1.4 NSAA change is within test-retest variability for this age group.",
+        "th": "กลุ่มร่วมประวัติศาสตร์ธรรมชาติภายนอกไม่ใช่กลุ่มควบคุมแบบสุ่มที่เกิดขึ้นพร้อมกัน สิทธิ์ในการทดลอง การดูแลแบบประคับประคอง ผลการมีส่วนร่วม NSAA พื้นฐาน สูตรการใช้สเตียรอยด์ อายุ และคลาสเอ็กซอน ล้วนสามารถทำให้เกิดอคติในการเปรียบเทียบได้ การทดสอบทีแบบไม่มีการจับคู่นั้นไม่เพียงพอ นอกจากนี้ การเปลี่ยนแปลง NSAA +1.4 ยังอยู่ภายในความแปรปรวนของการทดสอบซ้ำสำหรับกลุ่มอายุนี้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Run a randomized concurrent placebo-controlled study, or at minimum use adjusted analyses accounting for baseline NSAA, age, steroid regimen, exon class, and other confounders.",
+        "th": "ดำเนินการศึกษาที่มีกลุ่มควบคุมด้วยยาหลอกแบบสุ่มพร้อมกัน หรืออย่างน้อยใช้การวิเคราะห์ที่ปรับแล้วโดยคำนึงถึง NSAA พื้นฐาน อายุ สูตรการใช้สเตียรอยด์ ระดับเอ็กซอน และสิ่งรบกวนอื่นๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Age-window confounding",
+        "th": "ความสับสนในหน้าต่างอายุ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Boys age 4–7 are in a developmental window where untreated ambulatory DMD patients may gain motor function before decline dominates. A 48-week NSAA change mixes developmental gain, disease progression, and possible treatment effect.",
+        "th": "เด็กชายอายุ 4-7 ปีอยู่ในช่วงพัฒนาการที่ผู้ป่วย DMD นอกสถานที่ที่ไม่ได้รับการรักษาอาจได้รับการทำงานของการเคลื่อนไหวก่อนที่จะครอบงำ การเปลี่ยนแปลง NSAA เป็นเวลา 48 สัปดาห์ผสมผสานพัฒนาการ การลุกลามของโรค และผลการรักษาที่เป็นไปได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Use a concurrent randomized control with age stratification to separate developmental trajectory from treatment effect.",
+        "th": "ใช้การควบคุมแบบสุ่มพร้อมกันกับการแบ่งชั้นอายุเพื่อแยกวิถีการพัฒนาออกจากผลการรักษา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prior clinical precedent",
+        "th": "แบบอย่างทางคลินิกก่อนหน้า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Open-label micro-dystrophin functional signals have not reliably predicted confirmatory benefit; published precedent includes micro-dystrophin gene therapy confirmatory trials failing to reproduce open-label NSAA improvements.",
+        "th": "สัญญาณการทำงานของไมโครไดสโตรฟินแบบเปิดฉลากไม่สามารถคาดการณ์ประโยชน์ที่ยืนยันได้อย่างน่าเชื่อถือ แบบอย่างที่ได้รับการตีพิมพ์รวมถึงการทดลองเพื่อยืนยันการบำบัดด้วยยีนไมโครดิสโทรฟินซึ่งล้มเหลวในการปรับปรุงการปรับปรุง NSAA แบบ open-label"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Do not rely on open-label NSAA change as decisive support. Require controlled functional evidence.",
+        "th": "อย่าพึ่งพาการเปลี่ยนแปลง NSAA แบบ open-label เพื่อเป็นการสนับสนุนอย่างเด็ดขาด ต้องมีหลักฐานการทำงานที่ได้รับการควบคุม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Structural limits of the construct",
+        "th": "ขีดจำกัดโครงสร้างของสิ่งปลูกสร้าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The 138 kDa construct deletes spectrin repeats R16/17, which contain nNOS-binding sites. Loss of nNOS recruitment can impair functional sympatholysis and ischemia protection during exercise, creating a mechanistic ceiling on rescue independent of expression level.",
+        "th": "โครงสร้างขนาด 138 kDa จะลบสเปกตรัมซ้ำ R16/17 ซึ่งประกอบด้วยไซต์ที่มีผลผูกพัน nNOS การสูญเสียการสรรหา nNOS อาจทำให้การทำงานของซิมพาโทไลซิสและการป้องกันภาวะขาดเลือดขาดเลือดในระหว่างการออกกำลังกายลดลง ทำให้เกิดเพดานกลไกในการช่วยเหลือโดยไม่ขึ้นกับระดับการแสดงออก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Add mechanistic studies showing whether this specific construct restores relevant dystrophin-associated complex function, nNOS localization, exercise physiology, and muscle protection.",
+        "th": "เพิ่มการศึกษากลไกที่แสดงให้เห็นว่าโครงสร้างเฉพาะนี้ฟื้นฟูการทำงานที่ซับซ้อนที่เกี่ยวข้องกับดิสโทรฟินที่เกี่ยวข้อง การแปล nNOS เฉพาะที่ สรีรวิทยาการออกกำลังกาย และการป้องกันกล้ามเนื้อหรือไม่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "AAV durability",
+        "th": "ความทนทานของเอเอวี"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Vector genomes at 12 weeks do not establish durable expression. AAV9 genomes are largely non-integrating episomes and may decline over time. Vector-genome persistence is not the same as persistent protein expression.",
+        "th": "จีโนมของเวกเตอร์ในสัปดาห์ที่ 12 ไม่สร้างการแสดงออกที่คงทน จีโนม AAV9 ส่วนใหญ่เป็นอีพิโซมที่ไม่มีการบูรณาการและอาจลดลงเมื่อเวลาผ่านไป การคงอยู่ของเวกเตอร์จีโนมนั้นไม่เหมือนกับการแสดงออกของโปรตีนแบบถาวร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Measure longitudinal transgene protein expression and functional biomarker durability beyond 12 weeks.",
+        "th": "วัดการแสดงออกของโปรตีนทรานส์ยีนตามยาวและความทนทานของตัวบ่งชี้ทางชีวภาพเชิงฟังก์ชันที่เกินกว่า 12 สัปดาห์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Immune/safety profile",
+        "th": "โปรไฟล์ภูมิคุ้มกัน/ความปลอดภัย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Transaminitis in 8/12 patients is consistent with immune response to AAV-transduced cells, but the mechanism is not established. One myocarditis case is concerning given AAV9 cardiac tropism.",
+        "th": "Transaminitis ในผู้ป่วย 8/12 รายมีความสอดคล้องกับการตอบสนองทางภูมิคุ้มกันต่อเซลล์ที่ถูกแปลง AAV แต่กลไกดังกล่าวไม่ได้ถูกสร้างขึ้น กรณีหนึ่งของภาวะกล้ามเนื้อหัวใจอักเสบเกี่ยวข้องกับ AAV9 cardiac tropism"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Provide deeper immune monitoring, liver/cardiac safety characterization, and intensified cardiac follow-up.",
+        "th": "ให้การตรวจติดตามภูมิคุ้มกันที่ลึกยิ่งขึ้น การวิเคราะห์ลักษณะความปลอดภัยของตับ/หัวใจ และการติดตามผลการเต้นของหัวใจที่เข้มข้นยิ่งขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Patient selection/generalizability",
+        "th": "การคัดเลือกผู้ป่วย/ลักษณะทั่วไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Excluding anti-AAV9 neutralizing-antibody-positive patients limits generalizability. Excluding exon-44 deletions limits applicability to that DMD subgroup. n=12 is too small to characterize safety and efficacy across the broader DMD population.",
+        "th": "การยกเว้นผู้ป่วยที่มีฤทธิ์เป็นกลาง-แอนติบอดี-บวกที่ต้าน AAV9 จะจำกัดความสามารถทั่วไป การยกเว้นการลบ exon-44 จะจำกัดการบังคับใช้กับกลุ่มย่อย DMD นั้น n=12 น้อยเกินไปที่จะระบุลักษณะความปลอดภัยและประสิทธิภาพในกลุ่มประชากร DMD ในวงกว้าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Broaden eligibility where possible or pre-specify stratified analyses by antibody status, genotype/exon class, age, and baseline function before using the result to support broad approval.",
+        "th": "ขยายขอบเขตคุณสมบัติหากเป็นไปได้หรือระบุการวิเคราะห์แบบแบ่งชั้นล่วงหน้าตามสถานะของแอนติบอดี จีโนไทป์/คลาสเอ็กซอน อายุ และการทำงานพื้นฐาน ก่อนที่จะใช้ผลลัพธ์เพื่อสนับสนุนการอนุมัติในวงกว้าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Regulatory conclusion: The package may show biological activity, but it does not yet establish that the measured micro-dystrophin expression is a reliable surrogate reasonably likely to predict clinical benefit. The main gaps are assay specificity, invalid quantification standards, possible revertant-fiber confounding, lack of a randomized control, age-related NSAA confounding, uncertain durability, and unresolved safety/generalizability issues.",
+        "th": "ข้อสรุปด้านกฎระเบียบ: บรรจุภัณฑ์อาจแสดงฤทธิ์ทางชีวภาพ แต่ยังไม่ได้พิสูจน์ว่าการแสดงออกของไมโคร-ดิสโทรฟินที่วัดได้นั้นเป็นตัวแทนที่เชื่อถือได้ มีแนวโน้มสมเหตุสมผลที่จะทำนายประโยชน์ทางคลินิกได้ ช่องว่างหลักคือความจำเพาะของการทดสอบ มาตรฐานการวัดปริมาณที่ไม่ถูกต้อง การรบกวนไฟเบอร์แบบย้อนกลับที่เป็นไปได้ การขาดการควบคุมแบบสุ่ม การรบกวน NSAA ที่เกี่ยวข้องกับอายุ ความทนทานที่ไม่แน่นอน และปัญหาด้านความปลอดภัย/ความสามารถทั่วไปที่ยังไม่ได้รับการแก้ไข"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To close the gap, the program would need a controlled, age-stratified clinical design with transgene-specific expression assays, orthogonal protein quantification, tissue-composition controls, longitudinal durability data, mechanistic functional assays for the truncated construct, and stronger safety monitoring, especially hepatic and cardiac.",
+        "th": "เพื่อปิดช่องว่าง โปรแกรมนี้จำเป็นต้องมีการออกแบบทางคลินิกที่มีการควบคุมและแบ่งชั้นอายุด้วยการตรวจการแสดงออกจำเพาะของยีน การวัดปริมาณโปรตีนในมุมฉาก การควบคุมองค์ประกอบของเนื้อเยื่อ ข้อมูลความทนทานตามยาว การตรวจวิเคราะห์การทำงานของกลไกสำหรับโครงสร้างที่ถูกตัดทอน และการตรวจสอบความปลอดภัยที่แข็งแกร่งยิ่งขึ้น โดยเฉพาะอย่างยิ่งในตับและหัวใจ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Rubric Criteria & Grades",
+        "th": "เกณฑ์รูบริกและเกรด"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Validating LifeSciBench",
+        "th": "กำลังตรวจสอบ LifeSciBench"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We validated LifeSciBench through an independent expert review. Feedback came from 453 reviewers who were not involved in writing the tasks. Of those reviewers, 97% held a Ph.D. or equivalent doctorate, with an average of 12 years of field experience and 14 peer-reviewed publications; 88% reported receiving at least one award or fellowship.",
+        "th": "เราตรวจสอบ LifeSciBench ผ่านการทบทวนโดยผู้เชี่ยวชาญอิสระ ผลตอบรับมาจากผู้ตรวจสอบ 453 รายที่ไม่เกี่ยวข้องกับการเขียนงาน ในบรรดาผู้ตรวจสอบเหล่านั้น 97% สำเร็จการศึกษาระดับปริญญาเอก หรือปริญญาเอกเทียบเท่า โดยมีประสบการณ์ภาคสนามโดยเฉลี่ย 12 ปีและสิ่งพิมพ์ที่ผ่านการตรวจสอบโดยผู้ทรงคุณวุฒิ 14 ฉบับ 88% รายงานว่าได้รับรางวัลหรือมิตรภาพอย่างน้อยหนึ่งรายการ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reviewers scored whether each task reflected the qualities needed for a strong benchmark question: alignment with real-world research work, appropriate testing of scientific reasoning and domain expertise, grounding in evidence or expert consensus, and overall usefulness for assessing model performance. Agreement exceeded 96% in every category.",
+        "th": "ผู้ตรวจสอบให้คะแนนว่าแต่ละงานสะท้อนถึงคุณสมบัติที่จำเป็นสำหรับคำถามเกณฑ์มาตรฐานที่แข็งแกร่งหรือไม่: ความสอดคล้องกับงานวิจัยในโลกแห่งความเป็นจริง การทดสอบการใช้เหตุผลทางวิทยาศาสตร์และความเชี่ยวชาญในขอบเขตที่เหมาะสม หลักฐานหรือความเห็นพ้องต้องกันของผู้เชี่ยวชาญ และประโยชน์โดยรวมสำหรับการประเมินประสิทธิภาพของแบบจำลอง ข้อตกลงเกิน 96% ในทุกหมวด"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Real-world relevance",
+        "th": "ความเกี่ยวข้องในโลกแห่งความเป็นจริง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Does this task reflect realistic real-world life science work?",
+        "th": "งานนี้สะท้อนถึงงานด้านวิทยาศาสตร์เพื่อชีวิตในโลกแห่งความเป็นจริงที่สมจริงหรือไม่?"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Scientific reasoning / domain skill",
+        "th": "การใช้เหตุผลทางวิทยาศาสตร์ / ทักษะด้านโดเมน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Does this task test and grade the right scientific reasoning and life science domain skills?",
+        "th": "งานนี้ทดสอบและให้คะแนนทักษะการใช้เหตุผลทางวิทยาศาสตร์และวิทยาศาสตร์ชีวภาพที่เหมาะสมหรือไม่"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Scientific grounding",
+        "th": "การต่อสายดินทางวิทยาศาสตร์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Is this task scientifically grounded, answerable, and anchored in appropriate evidence, data, artifacts, or expert consensus?",
+        "th": "งานนี้มีเหตุผลทางวิทยาศาสตร์ ตอบได้ และยึดหลักหลักฐาน ข้อมูล สิ่งประดิษฐ์ หรือมติของผู้เชี่ยวชาญอย่างเหมาะสมหรือไม่"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Overall usefulness",
+        "th": "ประโยชน์โดยรวม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Overall, is this a strong life science evaluation task?",
+        "th": "โดยรวมแล้ว นี่เป็นงานประเมินด้านชีววิทยาศาสตร์ที่แข็งแกร่งหรือไม่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reviewer comments reinforced the quantitative ratings:",
+        "th": "ความคิดเห็นของผู้ตรวจสอบช่วยเสริมการให้คะแนนเชิงปริมาณ:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Uncertainty-Aware",
+        "th": "ความไม่แน่นอน-Aware"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Cross-Domain",
+        "th": "ข้ามโดเมน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Evidence-Based",
+        "th": "ตามหลักฐาน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Uncertainty-Aware",
+        "th": "ความไม่แน่นอน-Aware"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Cross-Domain",
+        "th": "ข้ามโดเมน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Evidence-Based",
+        "th": "ตามหลักฐาน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Results",
+        "th": "ผลลัพธ์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We report two complementary metrics. Pass rate is the percentage of tasks on which a model meets the task-level success threshold of 70%. Score is the average rubric reward, giving partial credit for individual criteria even when the full task is not solved. Both matter because a response to a scientific task can be partially correct or useful without meeting every requirement for a complete answer.",
+        "th": "เรารายงานตัวชี้วัดเสริมสองรายการ อัตราการผ่านคือเปอร์เซ็นต์ของงานที่แบบจำลองตรงตามเกณฑ์ความสำเร็จระดับงาน 70% คะแนนคือรางวัลตามรูบริกโดยเฉลี่ย โดยให้เครดิตบางส่วนสำหรับเกณฑ์แต่ละรายการ แม้ว่างานทั้งหมดจะไม่ได้รับการแก้ไขก็ตาม ทั้งสองมีความสำคัญเนื่องจากการตอบสนองต่องานทางวิทยาศาสตร์อาจมีความถูกต้องบางส่วนหรือมีประโยชน์โดยไม่ต้องปฏิบัติตามข้อกำหนดทุกประการเพื่อให้ได้คำตอบที่สมบูรณ์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Model performance varies substantially by task type, workflow, and response format.",
+        "th": "ประสิทธิภาพของโมเดลจะแตกต่างกันอย่างมากตามประเภทงาน เวิร์กโฟลว์ และรูปแบบการตอบสนอง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Where AI systems show early strength",
+        "th": "โดยที่ระบบ AI แสดงให้เห็นความเข้มแข็งตั้งแต่เนิ่นๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "LifeSciBench shows that frontier models are relatively strongest on tasks involving scientific synthesis, communication, and structured interpretation. Absolute pass rates are still modest, so these benchmark domains are far from saturated, but GPT‑Rosalind shows meaningful progress over GPT‑5.5, improving overall exact pass rate from 25.7% to 36.1%.",
+        "th": "LifeSciBench แสดงให้เห็นว่าแบบจำลองระดับแนวหน้าค่อนข้างแข็งแกร่งที่สุดในงานที่เกี่ยวข้องกับการสังเคราะห์ทางวิทยาศาสตร์ การสื่อสาร และการตีความแบบมีโครงสร้าง อัตราการส่งผ่านแบบสัมบูรณ์ยังอยู่ในระดับปานกลาง ดังนั้นโดเมนการวัดประสิทธิภาพเหล่านี้ยังห่างไกลจากความอิ่มตัว แต่ GPT‑Rosalind แสดงความก้าวหน้าอย่างมีนัยสำคัญเหนือ GPT‑5.5 โดยปรับปรุงอัตราการส่งผ่านที่แน่นอนโดยรวมจาก 25.7% เป็น 36.1%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The strongest directions of progression in model capabilities appear in Scientific Communication and Translation. For example, the Scientific Communication pass rate increases from 56.3% for GPT‑5.5 to 71.1% for GPT‑Rosalind; this category is small (n=9), so it should be interpreted cautiously, but it suggests frontier models are improving rapidly in their ability to organize evidence and produce convincing expert-facing explanations. Translation (the \"bench-to-bedside\" process of drug development) shows a similar pattern, rising from 36.8% for GPT‑5.5 to 57.7% for GPT‑Rosalind, suggesting models are quickly improving on their ability to connect preclinical evidence to clinical implications.",
+        "th": "ทิศทางที่ชัดเจนที่สุดของความก้าวหน้าในความสามารถของโมเดลปรากฏในการสื่อสารทางวิทยาศาสตร์และการแปล ตัวอย่างเช่น อัตราการส่งผ่านการสื่อสารทางวิทยาศาสตร์เพิ่มขึ้นจาก 56.3% สำหรับ GPT‑5.5 เป็น 71.1% สำหรับ GPT‑Rosalind หมวดหมู่นี้มีขนาดเล็ก (n=9) ดังนั้นจึงควรตีความอย่างระมัดระวัง แต่แนะนำว่าแบบจำลองชายแดนกำลังพัฒนาอย่างรวดเร็วในด้านความสามารถในการจัดระเบียบหลักฐานและสร้างคำอธิบายที่น่าเชื่อถือโดยเผชิญหน้าผู้เชี่ยวชาญ การแปล (กระบวนการพัฒนายา \"แบบตั้งโต๊ะถึงข้างเตียง\") แสดงให้เห็นรูปแบบที่คล้ายกัน โดยเพิ่มขึ้นจาก 36.8% สำหรับ GPT‑5.5 เป็น 57.7% สำหรับ GPT‑Rosalind โดยแนะนำว่าแบบจำลองมีการปรับปรุงอย่างรวดเร็วในด้านความสามารถในการเชื่อมโยงหลักฐานพรีคลินิกกับผลกระทบทางคลินิก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Rubric-level results point in the same direction. On tasks requiring expert-useful or actionable outputs, GPT‑Rosalind scores 44.7%, compared with 29.1% for GPT‑5.5. On tasks requiring uncertainty and caveat handling, it scores 44.8%, compared with 29.3%. This pattern suggests models are most useful when the task has a clear evidence boundary and calls for structured scientific judgment.",
+        "th": "ผลลัพธ์ระดับรูบริกชี้ไปในทิศทางเดียวกัน ในงานที่ต้องการเอาต์พุตที่เป็นประโยชน์หรือนำไปปฏิบัติได้จริง GPT‑Rosalind ได้คะแนน 44.7% เทียบกับ 29.1% สำหรับ GPT‑5.5 ในงานที่ต้องการความไม่แน่นอนและการจัดการข้อควรระวัง ได้คะแนน 44.8% เทียบกับ 29.3% รูปแบบนี้ชี้ให้เห็นว่าแบบจำลองมีประโยชน์มากที่สุดเมื่องานนั้นมีขอบเขตหลักฐานที่ชัดเจน และจำเป็นต้องมีการตัดสินทางวิทยาศาสตร์ที่มีโครงสร้าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑Rosalind leads performance across scientifically-valuable tasks identified by industry and academic experts.",
+        "th": "GPT‑Rosalind เป็นผู้นำการปฏิบัติงานที่มีคุณค่าทางวิทยาศาสตร์ ซึ่งระบุโดยผู้เชี่ยวชาญในอุตสาหกรรมและนักวิชาการ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑Rosalind improves performance over GPT‑5.5 across core life-science workflows, with the strongest gains in translation and scientific communication.",
+        "th": "GPT‑Rosalind ปรับปรุงประสิทธิภาพเหนือ GPT‑5.5 ในเวิร์กโฟลว์หลักด้านวิทยาศาสตร์ชีวภาพ โดยได้รับความได้เปรียบสูงสุดในด้านการแปลและการสื่อสารทางวิทยาศาสตร์"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Where AI systems still fall short",
+        "th": "ที่ระบบ AI ยังขาดอยู่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Performance remains much weaker on artifact-heavy, design-heavy, and operationally constrained scientific work. Namely, Design, Optimization, & Prediction remains one of the hardest workflows, with GPT‑Rosalind passrate at 30.7%; Analysis is similarly difficult at 30.3%.",
+        "th": "ประสิทธิภาพยังคงด้อยกว่ามากในงานทางวิทยาศาสตร์ที่เน้นสิ่งประดิษฐ์หนัก เน้นการออกแบบ และมีข้อจำกัดในการปฏิบัติงาน กล่าวคือ การออกแบบ การเพิ่มประสิทธิภาพ และการคาดการณ์ยังคงเป็นหนึ่งในเวิร์กโฟลว์ที่ยากที่สุด โดยมีอัตราการส่งผ่าน GPT‑Rosalind อยู่ที่ 30.7%; วิเคราะห์ยากพอๆ กันที่ 30.3%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Artifact use is a particularly clear gap. While GPT‑Rosalind performs better than GPT‑5.5 in artifact-heavy settings, its pass rate still drops from 45.1% on text-only tasks to 28.1% on tasks with artifacts or URLs. GPT‑5.5 shows the same pattern, dropping from 29.9% to 21.9%. A more detailed analysis confirms that frontier models struggle at extracting information from complex figures or large sequence files and integrating that information into the final answer.",
+        "th": "การใช้สิ่งประดิษฐ์ถือเป็นช่องว่างที่ชัดเจนเป็นพิเศษ แม้ว่า GPT‑Rosalind จะทำงานได้ดีกว่า GPT‑5.5 ในการตั้งค่าที่มีอาร์ติแฟกต์จำนวนมาก แต่อัตราการส่งผ่านยังคงลดลงจาก 45.1% ในงานแบบข้อความเท่านั้น เป็น 28.1% ในงานที่มีอาร์ติแฟกต์หรือ URL GPT‑5.5 แสดงรูปแบบเดียวกัน โดยลดลงจาก 29.9% เป็น 21.9% การวิเคราะห์โดยละเอียดเพิ่มเติมยืนยันว่าแบบจำลองชายแดนมีปัญหาในการดึงข้อมูลจากตัวเลขที่ซับซ้อนหรือไฟล์ลำดับขนาดใหญ่ และรวมข้อมูลนั้นเข้ากับคำตอบสุดท้าย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Pass rates drop when tasks require source-grounded reasoning or working with artifacts",
+        "th": "อัตราการผ่านจะลดลงเมื่องานต้องใช้เหตุผลจากแหล่งที่มาหรือการทำงานกับสิ่งประดิษฐ์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The answer format also matters. Tasks requiring exact sequence, structure, or construct-level outputs show lower pass rates: GPT‑Rosalind reaches only 14.8% on numeric tasks and 24.0% on sequence or structure outputs. Construct-generation tasks are also brittle, with GPT‑Rosalind at 27.3% and showing little improvement over GPT‑5.5. Some of this gap may reflect a stricter grading surface for exact-answer tasks, where small differences in calculation or formatting can cause a response to fall under pass threshold. Still, these failures are scientifically meaningful because many life science workflows require outputs that are exact enough to be used directly, such as in CRISPR/HDR donor design or siRNA design.",
+        "th": "รูปแบบคำตอบก็มีความสำคัญเช่นกัน งานที่ต้องการลำดับ โครงสร้าง หรือเอาต์พุตระดับโครงสร้างที่แน่นอนจะแสดงอัตราการผ่านที่ต่ำกว่า: GPT‑Rosalind เข้าถึงได้เพียง 14.8% สำหรับงานตัวเลข และ 24.0% สำหรับเอาต์พุตลำดับหรือโครงสร้าง งานการสร้างโครงสร้างยังเปราะบางเช่นกัน โดย GPT‑Rosalind อยู่ที่ 27.3% และมีการปรับปรุงเล็กน้อยจาก GPT‑5.5 ช่องว่างบางส่วนอาจสะท้อนถึงเกณฑ์การให้คะแนนที่เข้มงวดมากขึ้นสำหรับงานที่มีคำตอบที่แน่นอน ซึ่งความแตกต่างเล็กน้อยในการคำนวณหรือการจัดรูปแบบอาจทำให้การตอบสนองอยู่ภายใต้เกณฑ์ที่ผ่าน อย่างไรก็ตาม ความล้มเหลวเหล่านี้มีความหมายทางวิทยาศาสตร์ เนื่องจากขั้นตอนการทำงานด้านชีววิทยาศาสตร์จำนวนมากต้องการผลลัพธ์ที่แม่นยำพอที่จะนำไปใช้โดยตรง เช่น ในการออกแบบผู้บริจาค CRISPR/HDR หรือการออกแบบ siRNA"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Models also often get part of the way there without fully solving the task. In roughly 14% of tasks, models earned substantial rubric credit despite failing the exact-pass threshold. For GPT‑Rosalind, 109 tasks had pass rates below 20% while still earning at least 50% rubric reward. In practice, this means models may identify relevant evidence or produce a plausible partial answer, but still fail because they miss a key constraint, use the wrong evidence, make an incomplete calculation, or do not connect their reasoning to a scientifically useful final decision.",
+        "th": "โมเดลมักจะเป็นส่วนหนึ่งของแนวทางนั้นโดยไม่ได้แก้ไขปัญหาทั้งหมด ในงานประมาณ 14% โมเดลได้รับเครดิตตามรูบริกจำนวนมาก แม้ว่าจะไม่ผ่านเกณฑ์ที่แน่นอนก็ตาม สำหรับ GPT‑Rosalind งาน 109 งานมีอัตราการผ่านต่ำกว่า 20% แต่ยังคงได้รับรางวัลตามเกณฑ์อย่างน้อย 50% ในทางปฏิบัติ หมายความว่าแบบจำลองอาจระบุหลักฐานที่เกี่ยวข้องหรือให้คำตอบบางส่วนที่เป็นไปได้ แต่ยังคงล้มเหลวเนื่องจากพลาดข้อจำกัดที่สำคัญ ใช้หลักฐานผิด ทำการคำนวณที่ไม่สมบูรณ์ หรือไม่เชื่อมโยงเหตุผลกับการตัดสินใจขั้นสุดท้ายที่เป็นประโยชน์ทางวิทยาศาสตร์"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Limitations & what’s next",
+        "th": "ข้อจำกัดและสิ่งต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "LifeSciBench is a step toward measuring how useful AI systems can be for life science research, but it is not a substitute for studying models in live research environments. The benchmark focuses on self-contained tasks that reflect recurring industry workflows, while leaving many scientific specialties and task types outside its current scope. Real research is iterative: scientists gather new evidence, revise hypotheses, design follow-up experiments, and adapt their plans as results emerge.",
+        "th": "LifeSciBench เป็นก้าวหนึ่งในการวัดว่าระบบ AI มีประโยชน์สำหรับการวิจัยด้านวิทยาศาสตร์ชีวภาพได้อย่างไร แต่ไม่สามารถทดแทนการศึกษาแบบจำลองในสภาพแวดล้อมการวิจัยแบบเรียลไทม์ได้ เกณฑ์มาตรฐานมุ่งเน้นไปที่งานที่มีความสมบูรณ์ในตัวเองซึ่งสะท้อนถึงขั้นตอนการทำงานของอุตสาหกรรมที่เกิดขึ้นซ้ำๆ ขณะเดียวกันก็ปล่อยให้ความเชี่ยวชาญพิเศษทางวิทยาศาสตร์และประเภทงานต่างๆ อยู่นอกขอบเขตปัจจุบัน การวิจัยที่แท้จริงคือการทำซ้ำ: นักวิทยาศาสตร์รวบรวมหลักฐานใหม่ แก้ไขสมมติฐาน ออกแบบการทดลองติดตามผล และปรับแผนเมื่อผลลัพธ์ปรากฏ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Strong performance on LifeSciBench should therefore be interpreted as evidence of realistic task-level capability, not as a direct measure of downstream research impact. The benchmark is grounded in industry workflows, but it does not capture the full diversity or dynamics of live research programs, where progress depends on factors that unfold over time.",
+        "th": "ดังนั้นประสิทธิภาพที่แข็งแกร่งบน LifeSciBench จึงควรตีความว่าเป็นหลักฐานของความสามารถในระดับงานที่สมจริง ไม่ใช่เป็นการวัดโดยตรงของผลกระทบต่อการวิจัยขั้นปลายน้ำ เกณฑ์มาตรฐานนี้มีพื้นฐานอยู่ในขั้นตอนการทำงานของอุตสาหกรรม แต่ไม่ได้รวบรวมความหลากหลายหรือพลวัตของโปรแกรมการวิจัยสดอย่างสมบูรณ์ ซึ่งความคืบหน้าขึ้นอยู่กับปัจจัยที่เปิดเผยเมื่อเวลาผ่านไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The next step is to connect benchmark performance to deployment studies in live research workflows. While LifeSciBench was developed with practicing scientists, measuring whether AI systems accelerate discovery or improve R&D outcomes will require studying model use and performance in real research settings, over longer horizons, and across multiple rounds of reasoning, feedback, and experimental follow-up.",
+        "th": "ขั้นตอนต่อไปคือการเชื่อมต่อประสิทธิภาพเกณฑ์มาตรฐานกับการศึกษาการใช้งานในเวิร์กโฟลว์การวิจัยสด ในขณะที่ LifeSciBench ได้รับการพัฒนาร่วมกับนักวิทยาศาสตร์ฝึกหัด การวัดว่าระบบ AI เร่งการค้นพบหรือปรับปรุงผลการวิจัยและพัฒนาหรือไม่นั้น จำเป็นต้องศึกษาการใช้แบบจำลองและประสิทธิภาพในการตั้งค่าการวิจัยจริง ในขอบเขตที่ยาวขึ้น และในการให้เหตุผล ข้อเสนอแนะ และการติดตามผลการทดลองหลายรอบ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get involved",
+        "th": "มีส่วนร่วม"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "ผู้เขียน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "อ่านต่อ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7sbJaKBi5qLXAqbewh72aK/93197556e903eac9df6f077eb12b7581/GenebenchPro_Blog_ArtCard.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing GeneBench-Pro > Cover image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchJun 30, 2026",
+        "th": "การวิจัย 30 มิ.ย. 2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/QgPPg4etNE5C4Ao0G94sk/e5f2a50e5de4619d0e0fe8483698718b/molecule-one-art-card.png?w=3840&q=90&fm=webp",
+      "alt": "A near-autonomous AI chemist improves a challenging reaction"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchJun 17, 2026",
+        "th": "การวิจัย 17 มิ.ย. 2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6TwSElUf3XVkAiLOvIis8O/de2de5d4b9f94a3dea5403702a4f34ce/Art_Card.png?w=3840&q=90&fm=webp",
+      "alt": "Production Resampling > Art Card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchJun 16, 2026",
+        "th": "การวิจัย 16 มิ.ย. 2569"
       }
     }
   ]

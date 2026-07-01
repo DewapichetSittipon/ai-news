@@ -8,6 +8,7 @@ import { DATA_DIR, writeJson } from "./lib.ts";
 import { SOURCES } from "./sources.ts";
 import { fetchAnthropic } from "./adapters/anthropic.ts";
 import { fetchRss } from "./adapters/rss.ts";
+import { translateArticles } from "./translate.ts";
 import type { NewsArticle, NewsMeta, SnapshotIndex } from "../src/types.ts";
 
 async function main() {
@@ -26,14 +27,24 @@ async function main() {
     }
   }
 
-  // Rewrite the articles directory from scratch so removed items don't linger.
-  await rm(`${DATA_DIR}/articles`, { recursive: true, force: true });
-
+  // Dedupe (slugs can collide across labs) before translating so we never pay
+  // to translate the same item twice.
   const seen = new Set<string>();
-  const metas: NewsMeta[] = [];
+  const unique: NewsArticle[] = [];
   for (const a of all) {
     if (seen.has(a.id)) continue;
     seen.add(a.id);
+    unique.push(a);
+  }
+
+  console.log("Translating to Thai...");
+  await translateArticles(unique);
+
+  // Rewrite the articles directory from scratch so removed items don't linger.
+  await rm(`${DATA_DIR}/articles`, { recursive: true, force: true });
+
+  const metas: NewsMeta[] = [];
+  for (const a of unique) {
     await writeJson(`${DATA_DIR}/articles/${a.id}.json`, a);
     const { body: _body, ...meta } = a;
     metas.push(meta);

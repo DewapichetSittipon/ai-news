@@ -4,15 +4,14 @@ import { NesButton } from "../components/NesButton";
 import { SourceBadge } from "../components/SourceBadge";
 import { useArticle } from "../hooks/useSnapshot";
 import { useLocale } from "../hooks/useLocale";
-import { useT } from "../hooks/useTranslator";
 import { useBookmarks } from "../hooks/useBookmarks";
 import { useSound } from "../hooks/useSound";
 import { formatDate } from "../lib/date";
-import type { NewsBlock } from "../types";
+import type { Localized, NewsBlock } from "../types";
 
 function Block({ block }: { block: NewsBlock }) {
-  // Hooks must run unconditionally, so translate before the type switch.
-  const text = useT(block.type === "img" ? "" : block.text.en);
+  const { pick } = useLocale();
+  const text = block.type === "img" ? "" : pick(block.text);
   switch (block.type) {
     case "h2":
       return <h2 className="mt-6 text-sm text-coin">{text}</h2>;
@@ -29,8 +28,9 @@ function Block({ block }: { block: NewsBlock }) {
   }
 }
 
-function Headline({ en }: { en: string }) {
-  return <h1 className="text-base leading-relaxed text-coin">{useT(en)}</h1>;
+function Headline({ title }: { title: Localized }) {
+  const { pick } = useLocale();
+  return <h1 className="text-base leading-relaxed text-coin">{pick(title)}</h1>;
 }
 
 export function ArticleScreen() {
@@ -63,7 +63,7 @@ export function ArticleScreen() {
             <span>{formatDate(article.data.date, locale)}</span>
           </div>
 
-          <Headline en={article.data.title.en} />
+          <Headline title={article.data.title} />
 
           <div className="mt-3 flex flex-wrap gap-2">
             <NesButton

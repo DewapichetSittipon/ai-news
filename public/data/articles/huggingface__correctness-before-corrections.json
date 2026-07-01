@@ -8,11 +8,11 @@
   "image": null,
   "title": {
     "en": "vLLM V0 to V1: Correctness Before Corrections in RL",
-    "th": "vLLM V0 to V1: Correctness Before Corrections in RL"
+    "th": "vLLM V0 ถึง V1: ความถูกต้องก่อนการแก้ไขใน RL"
   },
   "summary": {
     "en": "vLLM V0 to V1: Correctness Before Corrections in RL",
-    "th": "vLLM V0 to V1: Correctness Before Corrections in RL"
+    "th": "vLLM V0 ถึง V1: ความถูกต้องก่อนการแก้ไขใน RL"
   },
   "body": [
     {
@@ -76,77 +76,77 @@
       "type": "li",
       "text": {
         "en": "Migration Objective",
-        "th": "Migration Objective"
+        "th": "วัตถุประสงค์การย้ายถิ่น"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Failure Modes",
-        "th": "Failure Modes"
+        "th": "โหมดความล้มเหลว"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "V1 Backend Fixes Logprob Semantics Runtime Defaults Inflight Weight Updates",
-        "th": "V1 Backend Fixes Logprob Semantics Runtime Defaults Inflight Weight Updates"
+        "th": "V1 Backend แก้ไข Logprob Semantics Runtime Defaults การอัปเดตน้ำหนักบนเครื่องบิน"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Logprob Semantics",
-        "th": "Logprob Semantics"
+        "th": "Logprob ความหมาย"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Runtime Defaults",
-        "th": "Runtime Defaults"
+        "th": "ค่าเริ่มต้นรันไทม์"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Inflight Weight Updates",
-        "th": "Inflight Weight Updates"
+        "th": "การอัปเดตน้ำหนักบนเครื่องบิน"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "The Remaining Gap: fp32 lm_head",
-        "th": "The Remaining Gap: fp32 lm_head"
+        "th": "ช่องว่างที่เหลืออยู่: fp32 lm_head"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Ablations",
-        "th": "Ablations"
+        "th": "การระเหย"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Why We Fixed Backend Correctness First",
-        "th": "Why We Fixed Backend Correctness First"
+        "th": "เหตุใดเราจึงแก้ไขความถูกต้องของแบ็กเอนด์ก่อน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "TL;DR. vLLM V1 matched our vLLM V0 reference after we fixed four things: processed rollout logprobs, V1-specific runtime defaults, the inflight weight-update path, and the fp32 lm_head used for the final projection. We fixed the backend behavior before changing the RL objective.",
-        "th": "TL;DR. vLLM V1 matched our vLLM V0 reference after we fixed four things: processed rollout logprobs, V1-specific runtime defaults, the inflight weight-update path, and the fp32 lm_head used for the final projection. We fixed the backend behavior before changing the RL objective."
+        "th": "TL;ดร. vLLM V1 ตรงกับการอ้างอิง vLLM V0 ของเราหลังจากที่เราแก้ไขสี่สิ่ง: logprobs การเปิดตัวที่ประมวลผลแล้ว ค่าเริ่มต้นรันไทม์เฉพาะ V1 เส้นทางการอัปเดตน้ำหนักบนเที่ยวบิน และ fp32 lm_head ที่ใช้สำหรับฉายภาพขั้นสุดท้าย เราได้แก้ไขพฤติกรรมแบ็กเอนด์ก่อนที่จะเปลี่ยนวัตถุประสงค์ RL"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The reference run used vLLM 0.8.5; the V1 runs used vLLM 0.18.1. Figure 1 shows the final result. The red run is the initial V1 attempt, and the green run is the final V1 run after the fixes described below.",
-        "th": "The reference run used vLLM 0.8.5; the V1 runs used vLLM 0.18.1. Figure 1 shows the final result. The red run is the initial V1 attempt, and the green run is the final V1 run after the fixes described below."
+        "th": "การดำเนินการอ้างอิงใช้ vLLM 0.8.5; V1 ทำงานใช้ vLLM 0.18.1 รูปที่ 1 แสดงผลสุดท้าย การรันสีแดงคือความพยายาม V1 ครั้งแรก และการรันสีเขียวคือการรัน V1 สุดท้ายหลังจากการแก้ไขที่อธิบายไว้ด้านล่าง"
       }
     },
     {
@@ -158,49 +158,49 @@
       "type": "h2",
       "text": {
         "en": "Migration Objective",
-        "th": "Migration Objective"
+        "th": "วัตถุประสงค์การย้ายถิ่น"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "vLLM V1 is a substantial rewrite of the V0 engine. Our migration target was therefore deliberately narrow:",
-        "th": "vLLM V1 is a substantial rewrite of the V0 engine. Our migration target was therefore deliberately narrow:"
+        "th": "vLLM V1 เป็นการเขียนใหม่ที่สำคัญของเครื่องยนต์ V0 เป้าหมายการย้ายถิ่นของเราจึงแคบลงโดยเจตนา:"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "verify that V1 returned rollout logprobs in the form the trainer expected",
-        "th": "verify that V1 returned rollout logprobs in the form the trainer expected"
+        "th": "ตรวจสอบว่า V1 ส่งคืน logprobs การเปิดตัวในรูปแบบที่ผู้ฝึกสอนคาดหวัง"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "rerun the same workload against the V0 reference",
-        "th": "rerun the same workload against the V0 reference"
+        "th": "รันปริมาณงานเดียวกันกับการอ้างอิง V0 อีกครั้ง"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "evaluate objective-level changes only after backend parity was restored",
-        "th": "evaluate objective-level changes only after backend parity was restored"
+        "th": "ประเมินการเปลี่ยนแปลงระดับวัตถุประสงค์หลังจากคืนค่าพาริตีแบ็กเอนด์แล้วเท่านั้น"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The first visible symptoms appeared in:",
-        "th": "The first visible symptoms appeared in:"
+        "th": "อาการที่มองเห็นได้ครั้งแรกปรากฏใน:"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "clamp_log_ratio_new_old_indicator",
-        "th": "clamp_log_ratio_new_old_indicator"
+        "th": "ตัวบ่งชี้แคลมป์_log_ratio_new_old_indicator"
       }
     },
     {
@@ -214,28 +214,28 @@
       "type": "li",
       "text": {
         "en": "entropy",
-        "th": "entropy"
+        "th": "เอนโทรปี"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "reward",
-        "th": "reward"
+        "th": "รางวัล"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Those metrics came from a GSPO training run, the objective used for this experiment. The same class of mismatch can surface in PPO, GRPO, or any online RL system that treats rollout-side logprobs as part of the optimization target.",
-        "th": "Those metrics came from a GSPO training run, the objective used for this experiment. The same class of mismatch can surface in PPO, GRPO, or any online RL system that treats rollout-side logprobs as part of the optimization target."
+        "th": "เมตริกเหล่านั้นมาจากการฝึกอบรม GSPO ซึ่งเป็นวัตถุประสงค์ที่ใช้ในการทดสอบนี้ คลาสที่ไม่ตรงกันเดียวกันอาจปรากฏใน PPO, GRPO หรือระบบ RL ออนไลน์ใดๆ ที่ถือว่า logprobs ฝั่งการเปิดตัวเป็นส่วนหนึ่งของเป้าหมายการปรับให้เหมาะสม"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The initial V1 run showed the problem clearly. The trainer-side logprobs and reward moved away from the V0 reference early in training.",
-        "th": "The initial V1 run showed the problem clearly. The trainer-side logprobs and reward moved away from the V0 reference early in training."
+        "th": "การวิ่ง V1 ครั้งแรกแสดงให้เห็นปัญหาอย่างชัดเจน Logprobs ฝั่งผู้ฝึกสอนและรางวัลย้ายออกจากการอ้างอิง V0 ในช่วงต้นของการฝึกซ้อม"
       }
     },
     {
@@ -247,7 +247,7 @@
       "type": "p",
       "text": {
         "en": "The same pattern appears in the trainer metrics. Clip rate is the easiest signal to read in the initial comparison.",
-        "th": "The same pattern appears in the trainer metrics. Clip rate is the easiest signal to read in the initial comparison."
+        "th": "รูปแบบเดียวกันนี้ปรากฏในเมตริกเทรนเนอร์ อัตราคลิปเป็นสัญญาณที่ง่ายที่สุดในการอ่านในการเปรียบเทียบครั้งแรก"
       }
     },
     {
@@ -259,70 +259,70 @@
       "type": "h2",
       "text": {
         "en": "Failure Modes",
-        "th": "Failure Modes"
+        "th": "โหมดความล้มเหลว"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "We separated the possible causes into three layers:",
-        "th": "We separated the possible causes into three layers:"
+        "th": "เราแยกสาเหตุที่เป็นไปได้ออกเป็นสามชั้น:"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Semantic mismatch: the backend returns logprobs with different meaning relative to what the trainer expects.",
-        "th": "Semantic mismatch: the backend returns logprobs with different meaning relative to what the trainer expects."
+        "th": "ความหมายไม่ตรงกัน: แบ็กเอนด์ส่งคืน logprobs ที่มีความหมายแตกต่างกันโดยสัมพันธ์กับสิ่งที่ผู้ฝึกสอนคาดหวัง"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Inference-path mismatch: the backend uses different runtime defaults for caching, scheduling, or request handling, so the same prompts follow a different execution path.",
-        "th": "Inference-path mismatch: the backend uses different runtime defaults for caching, scheduling, or request handling, so the same prompts follow a different execution path."
+        "th": "เส้นทางการอนุมานไม่ตรงกัน: แบ็กเอนด์ใช้ค่าเริ่มต้นรันไทม์ที่แตกต่างกันสำหรับการแคช การกำหนดเวลา หรือการจัดการคำขอ ดังนั้นข้อความแจ้งเดียวกันจึงเป็นไปตามเส้นทางการดำเนินการที่แตกต่างกัน"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Objective mismatch: the RL objective needs correction for the amount of staleness or backend mismatch that remains.",
-        "th": "Objective mismatch: the RL objective needs correction for the amount of staleness or backend mismatch that remains."
+        "th": "วัตถุประสงค์ไม่ตรงกัน: วัตถุประสงค์ RL จำเป็นต้องได้รับการแก้ไขสำหรับจำนวนความเก่าหรือแบ็กเอนด์ที่ไม่ตรงกันที่ยังคงอยู่"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "We initially suspected the third category too early. The useful diagnosis came from treating the first two as backend behavior problems and ruling them out first.",
-        "th": "We initially suspected the third category too early. The useful diagnosis came from treating the first two as backend behavior problems and ruling them out first."
+        "th": "ตอนแรกเราสงสัยว่าประเภทที่สามเร็วเกินไป การวินิจฉัยที่เป็นประโยชน์มาจากการปฏิบัติต่อสองข้อแรกเป็นปัญหาพฤติกรรมแบ็กเอนด์และวินิจฉัยปัญหาเหล่านั้นก่อน"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "V1 Backend Fixes",
-        "th": "V1 Backend Fixes"
+        "th": "การแก้ไขแบ็กเอนด์ V1"
       }
     },
     {
       "type": "h3",
       "text": {
         "en": "Logprob Semantics",
-        "th": "Logprob Semantics"
+        "th": "Logprob ความหมาย"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The first issue was semantic. vLLM V1 returns logprobs from the raw model outputs by default, before logits post-processing such as temperature scaling, penalties, and top-k/top-p filtering. PipelineRL expected logprobs from the processed distribution used by the sampler.",
-        "th": "The first issue was semantic. vLLM V1 returns logprobs from the raw model outputs by default, before logits post-processing such as temperature scaling, penalties, and top-k/top-p filtering. PipelineRL expected logprobs from the processed distribution used by the sampler."
+        "th": "ประเด็นแรกคือความหมาย vLLM V1 ส่งคืน logprobs จากเอาต์พุตโมเดล Raw ตามค่าเริ่มต้น ก่อนที่จะบันทึกการประมวลผลภายหลัง เช่น การปรับขนาดอุณหภูมิ บทลงโทษ และการกรอง top-k/top-p PipelineRL ต้องการ logprobs จากการกระจายที่ประมวลผลซึ่งใช้โดยตัวอย่าง"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The required setting was:",
-        "th": "The required setting was:"
+        "th": "การตั้งค่าที่จำเป็นคือ:"
       }
     },
     {
@@ -336,14 +336,14 @@
       "type": "p",
       "text": {
         "en": "This removed the obvious mean offset in rollout logprobs. The training curves still showed a gap relative to the known-good reference, so the next issue had to be in the inference path.",
-        "th": "This removed the obvious mean offset in rollout logprobs. The training curves still showed a gap relative to the known-good reference, so the next issue had to be in the inference path."
+        "th": "สิ่งนี้จะลบค่าชดเชยเฉลี่ยที่ชัดเจนใน logprobs การเปิดตัว เส้นโค้งการฝึกยังคงแสดงช่องว่างที่สัมพันธ์กับการอ้างอิงที่ทราบว่าดี ดังนั้นประเด็นถัดไปจึงต้องอยู่ในเส้นทางอนุมาน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The policy-ratio plot shows this directly. Once processed_logprobs is on for V1, the mean policy ratio stays centered extremely close to 1.0 across all three runs. That establishes the mean-bias fix. The remaining mismatch shows up in clip rate, KL, entropy, and downstream training behavior.",
-        "th": "The policy-ratio plot shows this directly. Once processed_logprobs is on for V1, the mean policy ratio stays centered extremely close to 1.0 across all three runs. That establishes the mean-bias fix. The remaining mismatch shows up in clip rate, KL, entropy, and downstream training behavior."
+        "th": "โครงเรื่องอัตราส่วนนโยบายแสดงให้เห็นสิ่งนี้โดยตรง เมื่อเปิดprocessed_logprobsสำหรับ V1 แล้ว อัตราส่วนนโยบายเฉลี่ยจะยังคงอยู่ที่กึ่งกลางใกล้กับ 1.0 อย่างมากในการเรียกใช้ทั้งสามรายการ นั่นทำให้เกิดการแก้ไขอคติเฉลี่ย ความไม่ตรงกันที่เหลือจะแสดงในอัตราคลิป, KL, เอนโทรปี และพฤติกรรมการฝึกดาวน์สตรีม"
       }
     },
     {
@@ -355,133 +355,133 @@
       "type": "h3",
       "text": {
         "en": "Runtime Defaults",
-        "th": "Runtime Defaults"
+        "th": "ค่าเริ่มต้นรันไทม์"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The early V1 run mixed the engine version with V1 runtime defaults:",
-        "th": "The early V1 run mixed the engine version with V1 runtime defaults:"
+        "th": "การรัน V1 ในช่วงต้นผสมเวอร์ชันของเอ็นจิ้นกับค่าเริ่มต้นรันไทม์ V1:"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "prefix caching, left unset in the early run so the vLLM 0.18.1 default applied",
-        "th": "prefix caching, left unset in the early run so the vLLM 0.18.1 default applied"
+        "th": "การแคชคำนำหน้า ไม่ได้ตั้งค่าไว้ในช่วงเริ่มต้น ดังนั้นจึงใช้ค่าเริ่มต้นของ vLLM 0.18.1"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "async scheduling, left unset in the early run so the vLLM 0.18.1 default applied",
-        "th": "async scheduling, left unset in the early run so the vLLM 0.18.1 default applied"
+        "th": "การตั้งเวลาแบบอะซิงโครนัส ไม่ได้ตั้งค่าไว้ในช่วงเริ่มต้น ดังนั้นจึงใช้ค่าเริ่มต้น vLLM 0.18.1"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "an ad-hoc disable-cascade-attn override that was set through launch-time kwarg passthrough and sits outside the parity recipe in committed config",
-        "th": "an ad-hoc disable-cascade-attn override that was set through launch-time kwarg passthrough and sits outside the parity recipe in committed config"
+        "th": "การแทนที่ ad-hoc Disable-cascade-attn ที่ถูกตั้งค่าผ่านการส่งผ่าน kwarg ในเวลาเปิดตัวและอยู่นอกสูตรพาริตีในการกำหนดค่าที่คอมมิต"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "For the parity run, we made these choices explicit:",
-        "th": "For the parity run, we made these choices explicit:"
+        "th": "สำหรับการดำเนินการแบบพาริตี เราได้กำหนดตัวเลือกเหล่านี้ไว้อย่างชัดเจน:"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Prefix caching deserves a separate note. It is normally a correctness-preserving inference optimization for a fixed model state. In this online RL setup, it was a V1-only difference in cache lifetime and reuse relative to the V0 reference path. The actor was also handling repeated prefixes, concurrent requests, async scheduling, and inflight weight updates.",
-        "th": "Prefix caching deserves a separate note. It is normally a correctness-preserving inference optimization for a fixed model state. In this online RL setup, it was a V1-only difference in cache lifetime and reuse relative to the V0 reference path. The actor was also handling repeated prefixes, concurrent requests, async scheduling, and inflight weight updates."
+        "th": "การแคชคำนำหน้าควรได้รับหมายเหตุแยกต่างหาก โดยปกติจะเป็นการปรับการอนุมานการรักษาความถูกต้องสำหรับสถานะโมเดลคงที่ ในการตั้งค่า RL ออนไลน์นี้ ความแตกต่างเพียงอย่างเดียวของ V1 ในด้านอายุการใช้งานแคชและการนำกลับมาใช้ใหม่สัมพันธ์กับพาธอ้างอิง V0 นักแสดงยังจัดการคำนำหน้าซ้ำๆ คำขอที่เกิดขึ้นพร้อมกัน การกำหนดเวลาที่ไม่พร้อมกัน และการอัปเดตน้ำหนักบนเที่ยวบิน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "A prefix-cache hit can reuse state computed before a weight update when the cache policy ignores the weight-update boundary. Disabling prefix caching removed one V1-only degree of freedom from the parity comparison.",
-        "th": "A prefix-cache hit can reuse state computed before a weight update when the cache policy ignores the weight-update boundary. Disabling prefix caching removed one V1-only degree of freedom from the parity comparison."
+        "th": "การเข้าสู่แคชคำนำหน้าสามารถนำสถานะที่คำนวณแล้วกลับมาใช้ใหม่ได้ก่อนการอัปเดตน้ำหนัก เมื่อนโยบายแคชละเว้นขอบเขตการอัปเดตน้ำหนัก การปิดใช้งานการแคชคำนำหน้าจะลบระดับความเป็นอิสระของ V1 เท่านั้นหนึ่งระดับจากการเปรียบเทียบพาริตี"
       }
     },
     {
       "type": "h3",
       "text": {
         "en": "Inflight Weight Updates",
-        "th": "Inflight Weight Updates"
+        "th": "การอัปเดตน้ำหนักบนเครื่องบิน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Weight synchronization also had to match the online-RL update model. One option was to make V1 stricter than V0 by draining requests and clearing caches at every update. That would answer a separate question. We first needed to verify that V1 could match the existing V0 behavior.",
-        "th": "Weight synchronization also had to match the online-RL update model. One option was to make V1 stricter than V0 by draining requests and clearing caches at every update. That would answer a separate question. We first needed to verify that V1 could match the existing V0 behavior."
+        "th": "การซิงโครไนซ์น้ำหนักต้องตรงกับโมเดลการอัปเดต online-RL ด้วย ทางเลือกหนึ่งคือทำให้ V1 เข้มงวดกว่า V0 โดยระบายคำขอและล้างแคชทุกครั้งที่อัปเดต นั่นจะตอบคำถามแยกต่างหาก ก่อนอื่นเราต้องตรวจสอบก่อนว่า V1 สามารถตรงกับพฤติกรรม V0 ที่มีอยู่ได้"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "What V0 effectively did was closer to:",
-        "th": "What V0 effectively did was closer to:"
+        "th": "สิ่งที่ V0 ทำได้มีประสิทธิภาพใกล้เคียงกับ:"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "block execution at an engine boundary",
-        "th": "block execution at an engine boundary"
+        "th": "บล็อกการดำเนินการที่ขอบเขตเครื่องยนต์"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "load the new weights",
-        "th": "load the new weights"
+        "th": "โหลดตุ้มน้ำหนักใหม่"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "resume without an explicit cached-state invalidation",
-        "th": "resume without an explicit cached-state invalidation"
+        "th": "ดำเนินการต่อโดยไม่มีการยกเลิกสถานะแคชอย่างชัดเจน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The nearest V1 analogue was:",
-        "th": "The nearest V1 analogue was:"
+        "th": "อะนาล็อก V1 ที่ใกล้ที่สุดคือ:"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Two details matter:",
-        "th": "Two details matter:"
+        "th": "มีรายละเอียดสองประการ:"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "mode=\"keep\" matches the old inflight update model more closely than wait or abort",
-        "th": "mode=\"keep\" matches the old inflight update model more closely than wait or abort"
+        "th": "mode=\"keep\" จะจับคู่โมเดลการอัปเดตบนเที่ยวบินเก่าอย่างใกล้ชิดมากกว่ารอหรือยกเลิก"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "clear_cache=False matches the V0 wrapper behavior, which left cached state intact on update",
-        "th": "clear_cache=False matches the V0 wrapper behavior, which left cached state intact on update"
+        "th": "clear_cache=False ตรงกับพฤติกรรมของ Wrapper ของ V0 ซึ่งทำให้สถานะแคชยังคงอยู่เมื่ออัปเดต"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Lag was a useful runtime diagnostic. The initial V1 path carries more persistent lag later in training than the corrected V1 run.",
-        "th": "Lag was a useful runtime diagnostic. The initial V1 path carries more persistent lag later in training than the corrected V1 run."
+        "th": "Lag เป็นการวินิจฉัยรันไทม์ที่มีประโยชน์ เส้นทาง V1 เริ่มต้นมีความล่าช้าอย่างต่อเนื่องในการฝึกซ้อมมากกว่าการวิ่ง V1 ที่ถูกแก้ไข"
       }
     },
     {
@@ -493,35 +493,35 @@
       "type": "h2",
       "text": {
         "en": "The Remaining Gap: fp32 lm_head",
-        "th": "The Remaining Gap: fp32 lm_head"
+        "th": "ช่องว่างที่เหลืออยู่: fp32 lm_head"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The V1 backend fixes above removed the obvious migration issues, but final parity still required matching the numerical path used to compute logits. The trainer used an fp32 lm_head for the final projection. The rollout backend had to match that behavior.",
-        "th": "The V1 backend fixes above removed the obvious migration issues, but final parity still required matching the numerical path used to compute logits. The trainer used an fp32 lm_head for the final projection. The rollout backend had to match that behavior."
+        "th": "การแก้ไขแบ็กเอนด์ V1 ข้างต้นได้ขจัดปัญหาการย้ายข้อมูลที่ชัดเจน แต่ความเท่าเทียมกันขั้นสุดท้ายยังจำเป็นต้องมีการจับคู่เส้นทางตัวเลขที่ใช้ในการคำนวณบันทึก ผู้ฝึกสอนใช้ fp32 lm_head สำหรับการฉายภาพขั้นสุดท้าย แบ็กเอนด์การเปิดตัวต้องตรงกับลักษณะการทำงานนั้น"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "A closely related issue appears in the MiniMax-M1 technical report: their RL run showed a training/inference token-probability mismatch that they traced to the LM output head and fixed by computing the head in fp32.",
-        "th": "A closely related issue appears in the MiniMax-M1 technical report: their RL run showed a training/inference token-probability mismatch that they traced to the LM output head and fixed by computing the head in fp32."
+        "th": "ปัญหาที่เกี่ยวข้องอย่างใกล้ชิดปรากฏในรายงานทางเทคนิคของ MiniMax-M1: การเรียกใช้ RL ของพวกเขาแสดงให้เห็นว่าความน่าจะเป็นของโทเค็นการฝึกอบรม/การอนุมานไม่ตรงกัน ซึ่งพวกเขาติดตามไปยังส่วนหัวเอาต์พุต LM และแก้ไขโดยการคำนวณส่วนหัวใน fp32"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "This matters because the RL update consumes token logprobs directly. Small changes in logits can become visible in policy ratios, KL, and clipping. The final projection precision is therefore part of the correctness surface for online RL. The ScaleRL paper later includes fp32 logits/head computation as part of its RL recipe and ablates it as a useful design choice for large-scale RL.",
-        "th": "This matters because the RL update consumes token logprobs directly. Small changes in logits can become visible in policy ratios, KL, and clipping. The final projection precision is therefore part of the correctness surface for online RL. The ScaleRL paper later includes fp32 logits/head computation as part of its RL recipe and ablates it as a useful design choice for large-scale RL."
+        "th": "เรื่องนี้สำคัญเนื่องจากการอัพเดต RL ใช้โทเค็น logprobs โดยตรง การเปลี่ยนแปลงเล็กๆ น้อยๆ ในบันทึกสามารถเห็นได้ในอัตราส่วนนโยบาย, KL และการตัดทอน ความแม่นยำในการฉายภาพขั้นสุดท้ายจึงเป็นส่วนหนึ่งของพื้นผิวความถูกต้องสำหรับ RL ออนไลน์ กระดาษ ScaleRL ในภายหลังได้รวมการคำนวณ fp32 logits/head เป็นส่วนหนึ่งของสูตร RL และยกเลิกให้เป็นตัวเลือกการออกแบบที่มีประโยชน์สำหรับ RL ขนาดใหญ่"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "With the fp32 lm_head path included, reward gives a compact view of the final parity result. In Figure 6, the final V1 run tracks the V0 reference; the initial V1 attempt produces a clearly different reward curve.",
-        "th": "With the fp32 lm_head path included, reward gives a compact view of the final parity result. In Figure 6, the final V1 run tracks the V0 reference; the initial V1 attempt produces a clearly different reward curve."
+        "th": "เมื่อรวมพาธ fp32 lm_head ไว้ด้วย รางวัลจะให้มุมมองที่กระชับของผลลัพธ์พาริตีสุดท้าย ในรูปที่ 6 การรัน V1 สุดท้ายจะติดตามการอ้างอิง V0 ความพยายาม V1 ครั้งแรกจะสร้างเส้นรางวัลที่แตกต่างอย่างชัดเจน"
       }
     },
     {
@@ -533,133 +533,133 @@
       "type": "h2",
       "text": {
         "en": "Ablations",
-        "th": "Ablations"
+        "th": "การระเหย"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The negative results are important because they rule out common explanations.",
-        "th": "The negative results are important because they rule out common explanations."
+        "th": "ผลลัพธ์เชิงลบมีความสำคัญเนื่องจากไม่มีคำอธิบายทั่วไป"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "processed_logprobs alone: fixed the semantic logprob bug; the training mismatch remained.",
-        "th": "processed_logprobs alone: fixed the semantic logprob bug; the training mismatch remained."
+        "th": "processed_logprobs เพียงอย่างเดียว: แก้ไขข้อผิดพลาด logprob ความหมาย การฝึกที่ไม่ตรงกันยังคงอยู่"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Batch invariance: the mismatch remained in a separate test, with higher lag, higher clip rate, and NCCL complications.",
-        "th": "Batch invariance: the mismatch remained in a separate test, with higher lag, higher clip rate, and NCCL complications."
+        "th": "ความแปรปรวนของแบตช์: ความไม่ตรงกันยังคงอยู่ในการทดสอบแยกต่างหาก โดยมีความล่าช้าสูงกว่า อัตราคลิปที่สูงขึ้น และภาวะแทรกซ้อนของ NCCL"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Treating the first V1 run as a fair baseline: the first V1 run had multiple V1-only defaults enabled, so it was a confounded migration comparison.",
-        "th": "Treating the first V1 run as a fair baseline: the first V1 run had multiple V1-only defaults enabled, so it was a confounded migration comparison."
+        "th": "ถือว่าการรัน V1 ครั้งแรกเป็นพื้นฐานที่ยุติธรรม: การรัน V1 ครั้งแรกมีการเปิดใช้งานค่าเริ่มต้นเฉพาะ V1 หลายรายการ ดังนั้นจึงเป็นการเปรียบเทียบการย้ายข้อมูลที่น่าสับสน"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Why We Fixed Backend Correctness First",
-        "th": "Why We Fixed Backend Correctness First"
+        "th": "เหตุใดเราจึงแก้ไขความถูกต้องของแบ็กเอนด์ก่อน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Objective-side corrections such as truncated importance sampling, importance-ratio reweighting, and related methods are useful tools. If rollouts are intentionally stale, generated asynchronously, or produced by a backend where equivalence to the trainer-side policy is unavailable, then some form of correction is often the right thing to add.",
-        "th": "Objective-side corrections such as truncated importance sampling, importance-ratio reweighting, and related methods are useful tools. If rollouts are intentionally stale, generated asynchronously, or produced by a backend where equivalence to the trainer-side policy is unavailable, then some form of correction is often the right thing to add."
+        "th": "การแก้ไขด้านวัตถุประสงค์ เช่น การสุ่มตัวอย่างความสำคัญที่ถูกตัดทอน การกำหนดอัตราส่วนความสำคัญใหม่ และวิธีการที่เกี่ยวข้อง เป็นเครื่องมือที่มีประโยชน์ หากการเปิดตัวไม่มีการอัปเดตโดยเจตนา สร้างขึ้นแบบอะซิงโครนัส หรือผลิตโดยแบ็กเอนด์ที่ไม่มีความเท่าเทียมกับนโยบายฝั่งผู้ฝึกสอน การแก้ไขบางรูปแบบมักจะเป็นสิ่งที่ถูกต้องที่จะเพิ่ม"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The first problem here was inference correctness. After moving to V1, the rollout backend returned logprobs and runtime behavior that broke the trainer assumption. Adding an objective-side correction at that point would have mixed two questions:",
-        "th": "The first problem here was inference correctness. After moving to V1, the rollout backend returned logprobs and runtime behavior that broke the trainer assumption. Adding an objective-side correction at that point would have mixed two questions:"
+        "th": "ปัญหาแรกที่นี่คือความถูกต้องของการอนุมาน หลังจากเปลี่ยนไปใช้ V1 แล้ว การเปิดตัวแบ็กเอนด์ก็ส่งคืน logprobs และลักษณะการทำงานรันไทม์ที่ขัดต่อสมมติฐานของผู้ฝึกสอน การเพิ่มการแก้ไขด้านวัตถุประสงค์ ณ จุดนั้นจะทำให้มีคำถามสองข้อผสมกัน:"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "is the inference backend producing the right logprobs?",
-        "th": "is the inference backend producing the right logprobs?"
+        "th": "แบ็กเอนด์การอนุมานสร้าง logprobs ที่ถูกต้องหรือไม่"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "given correct logprobs, does the objective still need an off-policy or async correction?",
-        "th": "given correct logprobs, does the objective still need an off-policy or async correction?"
+        "th": "เมื่อได้รับ logprobs ที่ถูกต้อง วัตถุประสงค์ยังจำเป็นต้องมีการแก้ไขแบบนอกนโยบายหรือแบบอะซิงก์หรือไม่"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Those questions need to be separated. Otherwise an objective-side correction can compensate for broken inference-backend behavior, which makes the training curve harder to interpret.",
-        "th": "Those questions need to be separated. Otherwise an objective-side correction can compensate for broken inference-backend behavior, which makes the training curve harder to interpret."
+        "th": "คำถามเหล่านั้นจำเป็นต้องแยกออกจากกัน มิฉะนั้น การแก้ไขด้านวัตถุประสงค์สามารถชดเชยพฤติกรรมการอนุมาน-แบ็กเอนด์ที่เสียหาย ซึ่งทำให้เส้นโค้งการฝึกยากขึ้นในการตีความ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The current objective can still improve. After inference parity is restored, the next improvement is the usual async/off-policy cleanup:",
-        "th": "The current objective can still improve. After inference parity is restored, the next improvement is the usual async/off-policy cleanup:"
+        "th": "วัตถุประสงค์ปัจจุบันยังสามารถปรับปรุงได้ หลังจากคืนค่าพาริตีการอนุมานแล้ว การปรับปรุงครั้งต่อไปคือการล้างข้อมูลอะซิงก์/นอกนโยบายตามปกติ:"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "keep explicit behavior-policy logprobs from rollout time",
-        "th": "keep explicit behavior-policy logprobs from rollout time"
+        "th": "เก็บ logprobs นโยบายพฤติกรรมที่ชัดเจนจากเวลาเปิดตัว"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "recompute trainer-side old-policy logprobs at optimization time",
-        "th": "recompute trainer-side old-policy logprobs at optimization time"
+        "th": "คำนวณ logprobs นโยบายเก่าฝั่งผู้ฝึกสอนอีกครั้งในเวลาการปรับให้เหมาะสม"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "separate backend mismatch correction from the policy-update ratio",
-        "th": "separate backend mismatch correction from the policy-update ratio"
+        "th": "แยกการแก้ไขที่ไม่ตรงกันของแบ็กเอนด์ออกจากอัตราส่วนการอัปเดตนโยบาย"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "track diagnostics like ESS for the correction term alongside aggregate trainer metrics",
-        "th": "track diagnostics like ESS for the correction term alongside aggregate trainer metrics"
+        "th": "ติดตามการวินิจฉัย เช่น ESS สำหรับเงื่อนไขการแก้ไขควบคู่ไปกับตัวชี้วัดผู้ฝึกสอนแบบรวม"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The main lesson from this migration is narrower: fix backend correctness first, then add corrections for the mismatch that remains.",
-        "th": "The main lesson from this migration is narrower: fix backend correctness first, then add corrections for the mismatch that remains."
+        "th": "บทเรียนหลักจากการย้ายครั้งนี้แคบกว่า: แก้ไขความถูกต้องของแบ็กเอนด์ก่อน จากนั้นจึงเพิ่มการแก้ไขสำหรับความไม่ตรงกันที่ยังคงอยู่"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "More from this author",
-        "th": "More from this author"
+        "th": "เพิ่มเติมจากผู้เขียนคนนี้"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
-        "th": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech"
+        "th": "Voice Agent สามารถจัดการลูกค้าสองภาษาได้หรือไม่ การเปรียบเทียบ Frontier ASR กับคำพูดที่สลับรหัส"
       }
     },
     {
@@ -671,7 +671,7 @@
       "type": "h2",
       "text": {
         "en": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
-        "th": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios"
+        "th": "EVA-Bench Data 2.0: 3 โดเมน, 121 เครื่องมือ, 213 สถานการณ์"
       }
     },
     {
@@ -683,14 +683,14 @@
       "type": "h3",
       "text": {
         "en": "Community",
-        "th": "Community"
+        "th": "ชุมชน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
-        "th": "· Sign up or log in to comment"
+        "th": "· ลงทะเบียนหรือเข้าสู่ระบบเพื่อแสดงความคิดเห็น"
       }
     },
     {

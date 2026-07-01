@@ -8,88 +8,88 @@
   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp",
   "title": {
     "en": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-    "th": "New research shows how AMIE, our medical AI, could help manage health conditions."
+    "th": "การวิจัยใหม่แสดงให้เห็นว่า AMIE ซึ่งเป็น AI ทางการแพทย์ของเราสามารถช่วยจัดการภาวะสุขภาพได้อย่างไร"
   },
   "summary": {
     "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\">Research in “Nature” shows our conversational AI system matches primary care physici",
-    "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\">Research in “Nature” shows our conversational AI system matches primary care physici"
+    "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\">การวิจัยใน “ธรรมชาติ” แสดงให้เห็นว่าระบบ AI การสนทนาของเราตรงกับนักกายภาพบำบัดระดับปฐมภูมิ"
   },
   "body": [
     {
       "type": "li",
       "text": {
         "en": "Innovation & AI",
-        "th": "Innovation & AI"
+        "th": "นวัตกรรมและเอไอ"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Models & research",
-        "th": "Models & research"
+        "th": "แบบจำลองและการวิจัย"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Google Research",
-        "th": "Google Research"
+        "th": "การวิจัยของ Google"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Giving a diagnosis is the first step in treating a patient. Once a diagnosis is established, the challenge becomes managing a health condition over time — tracking symptoms across multiple appointments, parsing guidelines as they’re updated and fine-tuning medications.",
-        "th": "Giving a diagnosis is the first step in treating a patient. Once a diagnosis is established, the challenge becomes managing a health condition over time — tracking symptoms across multiple appointments, parsing guidelines as they’re updated and fine-tuning medications."
+        "th": "การให้การวินิจฉัยเป็นขั้นตอนแรกในการรักษาผู้ป่วย เมื่อได้รับการวินิจฉัยแล้ว ความท้าทายจะกลายเป็นการจัดการสภาวะสุขภาพเมื่อเวลาผ่านไป การติดตามอาการในการนัดหมายหลายครั้ง การแยกวิเคราะห์แนวทางในขณะที่มีการปรับปรุง และปรับแต่งยา"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Research published today in “Nature” shows the capabilities of the Articulate Medical Intelligence Explorer (AMIE), our best-in-class research AI system for medical reasoning and conversations, evolving from one-off diagnostic conversations to long-term disease management using drug formularies and clinical guidelines.",
-        "th": "Research published today in “Nature” shows the capabilities of the Articulate Medical Intelligence Explorer (AMIE), our best-in-class research AI system for medical reasoning and conversations, evolving from one-off diagnostic conversations to long-term disease management using drug formularies and clinical guidelines."
+        "th": "งานวิจัยที่เผยแพร่ในวันนี้ใน “Nature” แสดงให้เห็นถึงความสามารถของ Articulate Medical Intelligence Explorer (AMIE) ซึ่งเป็นระบบ AI การวิจัยที่ดีที่สุดในระดับเดียวกันของเราสำหรับการให้เหตุผลทางการแพทย์และการสนทนา ซึ่งพัฒนาจากการสนทนาเพื่อวินิจฉัยครั้งเดียวไปจนถึงการจัดการโรคในระยะยาวโดยใช้สูตรยาและแนวปฏิบัติทางคลินิก"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Using the long-context capabilities of Gemini models, AMIE for disease management features an empathetic dialogue agent for real-time patient conversations and a deep-thinking management reasoning agent that cross-references hundreds of pages of authoritative clinical knowledge. In this blinded study with patient actors, specialist physicians compared AMIE with 21 primary care doctors. AMIE matched clinicians in overall management reasoning and scored significantly higher in plan preciseness and guideline alignment, which suggests AI could someday support medical care, giving physicians more time to spend with patients.",
-        "th": "Using the long-context capabilities of Gemini models, AMIE for disease management features an empathetic dialogue agent for real-time patient conversations and a deep-thinking management reasoning agent that cross-references hundreds of pages of authoritative clinical knowledge. In this blinded study with patient actors, specialist physicians compared AMIE with 21 primary care doctors. AMIE matched clinicians in overall management reasoning and scored significantly higher in plan preciseness and guideline alignment, which suggests AI could someday support medical care, giving physicians more time to spend with patients."
+        "th": "AMIE สำหรับการจัดการโรคใช้ความสามารถในบริบทระยะยาวของโมเดล Gemini โดยนำเสนอบทสนทนาที่เอาใจใส่สำหรับการสนทนาของผู้ป่วยแบบเรียลไทม์ และตัวแทนการให้เหตุผลในการจัดการเชิงลึกที่อ้างอิงโยงความรู้ทางคลินิกที่เชื่อถือได้หลายร้อยหน้า ในการศึกษาแบบปกปิดนี้กับนักแสดงผู้ป่วย แพทย์ผู้เชี่ยวชาญเปรียบเทียบ AMIE กับแพทย์ปฐมภูมิ 21 คน AMIE จับคู่แพทย์ในด้านเหตุผลในการจัดการโดยรวม และได้คะแนนความแม่นยำของแผนและแนวปฏิบัติที่สูงขึ้นอย่างมีนัยสำคัญ ซึ่งชี้ให้เห็นว่าสักวันหนึ่ง AI จะสามารถรองรับการรักษาพยาบาลได้ ทำให้แพทย์มีเวลามากขึ้นในการอยู่กับผู้ป่วย"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Next up: We're exploring how AMIE could work in clinical settings, and we launched a nationwide study to assess AI in real-world virtual care.",
-        "th": "Next up: We're exploring how AMIE could work in clinical settings, and we launched a nationwide study to assess AI in real-world virtual care."
+        "th": "ถัดไป: เรากำลังสำรวจว่า AMIE สามารถทำงานในสภาพแวดล้อมทางคลินิกได้อย่างไร และเราได้เปิดตัวการศึกษาทั่วประเทศเพื่อประเมิน AI ในการดูแลเสมือนจริงในโลกแห่งความเป็นจริง"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Google's new research on medical AI for disease management was published in \"Nature\" today. (Credit: Google, with permission from \"Nature.\")",
-        "th": "Google's new research on medical AI for disease management was published in \"Nature\" today. (Credit: Google, with permission from \"Nature.\")"
+        "th": "งานวิจัยใหม่ของ Google เกี่ยวกับ AI ทางการแพทย์สำหรับการจัดการโรคได้รับการตีพิมพ์ใน \"Nature\" วันนี้ (เครดิต: Google โดยได้รับอนุญาตจาก \"ธรรมชาติ\")"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Google Research",
-        "th": "Google Research"
+        "th": "การวิจัยของ Google"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Google DeepMind",
-        "th": "Google DeepMind"
+        "th": "Google Deep Mind"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Health",
-        "th": "Health"
+        "th": "สุขภาพ"
       }
     },
     {
@@ -103,7 +103,7 @@
       "type": "h2",
       "text": {
         "en": "Related stories",
-        "th": "Related stories"
+        "th": "เรื่องราวที่เกี่ยวข้อง"
       }
     }
   ]

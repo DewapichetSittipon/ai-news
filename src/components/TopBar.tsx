@@ -1,23 +1,11 @@
 import { Link } from "react-router-dom";
 import { useLocale } from "../hooks/useLocale";
-import { useTranslator } from "../hooks/useTranslator";
 import { useSound } from "../hooks/useSound";
 import { NesButton } from "./NesButton";
 
 export function TopBar() {
   const { locale, toggle, t } = useLocale();
-  const { availability, progress } = useTranslator();
   const { enabled, setEnabled, play } = useSound();
-
-  // Only meaningful once the user has switched to Thai.
-  const status =
-    locale !== "th"
-      ? null
-      : availability === "downloading"
-        ? `⏬ ${progress || ""}%`
-        : availability === "unsupported"
-          ? "⚠ EN"
-          : null;
 
   return (
     <header className="mb-6 flex flex-wrap items-center justify-between gap-3 border-b-4 border-ink pb-4">
@@ -27,18 +15,6 @@ export function TopBar() {
       </Link>
 
       <nav className="flex items-center gap-2">
-        {status && (
-          <span
-            className="text-[8px] uppercase tracking-widest text-ink-dim"
-            title={
-              availability === "unsupported"
-                ? "On-device translation needs a recent Chrome/Edge; showing English."
-                : "Downloading the on-device translation model…"
-            }
-          >
-            {status}
-          </span>
-        )}
         <Link to="/bookmarks">
           <NesButton sfx="move">★ {t("bookmarks")}</NesButton>
         </Link>

@@ -1,19 +1,18 @@
 import { Link } from "react-router-dom";
 import type { NewsMeta } from "../types";
 import { useLocale } from "../hooks/useLocale";
-import { useT } from "../hooks/useTranslator";
 import { useBookmarks } from "../hooks/useBookmarks";
 import { useSound } from "../hooks/useSound";
 import { formatDate, isRecent } from "../lib/date";
 import { SourceBadge } from "./SourceBadge";
 
 export function NewsRow({ item }: { item: NewsMeta }) {
-  const { locale, t } = useLocale();
+  const { locale, t, pick } = useLocale();
   const { has, toggle } = useBookmarks();
   const { play } = useSound();
   const saved = has(item.id);
-  const title = useT(item.title.en);
-  const summary = useT(item.summary.en);
+  const title = pick(item.title);
+  const summary = pick(item.summary);
 
   return (
     <article className="pixel-box flex gap-3 bg-panel p-3 hover:bg-panel-2">

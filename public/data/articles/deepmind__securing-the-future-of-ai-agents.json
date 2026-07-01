@@ -8,18 +8,18 @@
   "image": "https://lh3.googleusercontent.com/X6w_t9eA7TLFiq3JMp1kXlon25qi9N6O0AxPyp7j0qOIu8oz-QDsaOP-oKz7FIuqlA3W1evDbeLYssDJM_fjkqeyscPO_fHJd0xeD0IoDlHkiUQW1w=w528-h297-n-nu-rw-lo",
   "title": {
     "en": "Securing the future of AI agents",
-    "th": "Securing the future of AI agents"
+    "th": "การรักษาความปลอดภัยแห่งอนาคตของตัวแทน AI"
   },
   "summary": {
     "en": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
-    "th": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring."
+    "th": "การรักษาความปลอดภัยระบบภายในด้วยแผนงานการควบคุม AI ผสมผสานการป้องกันแบบดั้งเดิมและการตรวจสอบแบบเรียลไทม์"
   },
   "body": [
     {
       "type": "p",
       "text": {
         "en": "Rohin Shah and Four Flynn",
-        "th": "Rohin Shah and Four Flynn"
+        "th": "โรฮิน ชาห์ และโฟร์ ฟลินน์"
       }
     },
     {
@@ -31,112 +31,112 @@
       "type": "p",
       "text": {
         "en": "How we’re securing internal systems against increasingly capable and imperfectly aligned AI",
-        "th": "How we’re securing internal systems against increasingly capable and imperfectly aligned AI"
+        "th": "วิธีที่เรารักษาความปลอดภัยให้กับระบบภายในจาก AI ที่มีความสามารถมากขึ้นและปรับตัวได้ไม่สมบูรณ์"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "AI agents are transforming our relationship with technology. By autonomously executing complex tasks — from cyber defence to scientific discovery and product development — these systems are unlocking a new era of productivity. In the U.S alone, AI agents could create $2.9 trillion in economic value by 2030.",
-        "th": "AI agents are transforming our relationship with technology. By autonomously executing complex tasks — from cyber defence to scientific discovery and product development — these systems are unlocking a new era of productivity. In the U.S alone, AI agents could create $2.9 trillion in economic value by 2030."
+        "th": "ตัวแทน AI กำลังเปลี่ยนแปลงความสัมพันธ์ของเรากับเทคโนโลยี ด้วยการดำเนินงานที่ซับซ้อนโดยอัตโนมัติ ตั้งแต่การป้องกันทางไซเบอร์ไปจนถึงการค้นพบทางวิทยาศาสตร์และการพัฒนาผลิตภัณฑ์ ระบบเหล่านี้กำลังปลดล็อกยุคใหม่ของประสิทธิภาพการทำงาน ในสหรัฐอเมริกาเพียงประเทศเดียว ตัวแทน AI สามารถสร้างมูลค่าทางเศรษฐกิจได้ถึง 2.9 ล้านล้านดอลลาร์ภายในปี 2573"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "As these agents become more capable, they also require more sophisticated safeguards. That’s why we developed our AI Control Roadmap: a framework for building and managing the advanced AI we deploy within Google. This “defense-in-depth” approach, which could serve as a model for the wider industry, goes beyond traditional model alignment, adding a crucial layer of system-level security that provides assurance even if alignment is imperfect.",
-        "th": "As these agents become more capable, they also require more sophisticated safeguards. That’s why we developed our AI Control Roadmap: a framework for building and managing the advanced AI we deploy within Google. This “defense-in-depth” approach, which could serve as a model for the wider industry, goes beyond traditional model alignment, adding a crucial layer of system-level security that provides assurance even if alignment is imperfect."
+        "th": "เมื่อตัวแทนเหล่านี้มีความสามารถมากขึ้น พวกเขายังต้องการการป้องกันที่ซับซ้อนมากขึ้นด้วย นั่นเป็นเหตุผลที่เราพัฒนาแผนงานการควบคุม AI ซึ่งเป็นกรอบงานสำหรับการสร้างและจัดการ AI ขั้นสูงที่เราปรับใช้ภายใน Google แนวทาง \"การป้องกันในเชิงลึก\" นี้ ซึ่งสามารถใช้เป็นต้นแบบสำหรับอุตสาหกรรมในวงกว้างได้ นอกเหนือไปจากการจัดตำแหน่งโมเดลแบบเดิม โดยเพิ่มชั้นการรักษาความปลอดภัยระดับระบบที่สำคัญซึ่งให้ความมั่นใจแม้ว่าการจัดตำแหน่งจะไม่สมบูรณ์ก็ตาม"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Understanding AI Control",
-        "th": "Understanding AI Control"
+        "th": "ทำความเข้าใจการควบคุม AI"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Our approach to security starts with a strong foundation, incorporating traditional safeguards like sandboxing, endpoint security, and prompt injection resistance. On top of this, the AI Control Roadmap uses model alignment, i.e. training AI to be inherently safe and helpful, as a primary defense. It provides an additional layer of security by treating internal agents as potentially misaligned, providing assurance even if alignment is imperfect.",
-        "th": "Our approach to security starts with a strong foundation, incorporating traditional safeguards like sandboxing, endpoint security, and prompt injection resistance. On top of this, the AI Control Roadmap uses model alignment, i.e. training AI to be inherently safe and helpful, as a primary defense. It provides an additional layer of security by treating internal agents as potentially misaligned, providing assurance even if alignment is imperfect."
+        "th": "แนวทางการรักษาความปลอดภัยของเราเริ่มต้นด้วยรากฐานที่แข็งแกร่ง โดยผสมผสานการป้องกันแบบดั้งเดิม เช่น แซนด์บ็อกซ์ การรักษาความปลอดภัยปลายทาง และการต้านทานการฉีดที่รวดเร็ว ยิ่งไปกว่านั้น แผนงานการควบคุม AI ยังใช้การจัดตำแหน่งโมเดล เช่น การฝึก AI ให้ปลอดภัยและเป็นประโยชน์เป็นการป้องกันเบื้องต้น โดยให้การรักษาความปลอดภัยเพิ่มเติมอีกชั้นหนึ่งโดยปฏิบัติต่อตัวแทนภายในว่าอาจอยู่ในแนวที่ไม่ตรง โดยให้การรับประกันแม้ว่าการวางแนวจะไม่สมบูรณ์ก็ตาม"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Think of it like a driving instructor with dual controls. The instructor trusts the student but stays ready to take the wheel or hit the brakes if a mistake occurs. Similarly, our AI control system grants AI agents permissions based on their verified behavior, allowing us to build trust through controlled, incremental access.",
-        "th": "Think of it like a driving instructor with dual controls. The instructor trusts the student but stays ready to take the wheel or hit the brakes if a mistake occurs. Similarly, our AI control system grants AI agents permissions based on their verified behavior, allowing us to build trust through controlled, incremental access."
+        "th": "คิดว่ามันเหมือนกับผู้สอนขับรถที่มีการควบคุมแบบคู่ ผู้สอนเชื่อใจผู้เรียนแต่ก็พร้อมจะขึ้นล้อหรือเหยียบเบรกหากเกิดข้อผิดพลาด ในทำนองเดียวกัน ระบบควบคุม AI ของเราให้สิทธิ์แก่ตัวแทน AI ตามพฤติกรรมที่ได้รับการตรวจสอบแล้ว ทำให้เราสามารถสร้างความไว้วางใจผ่านการควบคุมการเข้าถึงที่เพิ่มขึ้น"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Our roadmap is built on a simple but cautious assumption: what if a highly capable AI agent isn’t aligned with our goals and acts in unexpected ways? To address this, our plan focuses on three key areas.",
-        "th": "Our roadmap is built on a simple but cautious assumption: what if a highly capable AI agent isn’t aligned with our goals and acts in unexpected ways? To address this, our plan focuses on three key areas."
+        "th": "แผนงานของเราสร้างขึ้นบนสมมติฐานที่เรียบง่ายแต่ระมัดระวัง: จะเกิดอะไรขึ้นหากตัวแทน AI ที่มีความสามารถสูงไม่สอดคล้องกับเป้าหมายของเราและดำเนินการในลักษณะที่ไม่คาดคิด เพื่อแก้ไขปัญหานี้ แผนของเรามุ่งเน้นไปที่ประเด็นสำคัญสามประการ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "First, following best practices in cybersecurity, we have developed a novel threat-modelling framework for AI. The roadmap treats untrusted AI agents as potential “insider threats” — similar to the way a company would treat a potential rogue employee who already has access to the office. By building on the industry-standard MITRE ATT&CK framework, a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations, we break down potential attacks into smaller tactics and techniques. This allows us to methodically track risks, spot bad behavior before it causes damage and safely run drills to test if our defenses actually hold up.",
-        "th": "First, following best practices in cybersecurity, we have developed a novel threat-modelling framework for AI. The roadmap treats untrusted AI agents as potential “insider threats” — similar to the way a company would treat a potential rogue employee who already has access to the office. By building on the industry-standard MITRE ATT&CK framework, a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations, we break down potential attacks into smaller tactics and techniques. This allows us to methodically track risks, spot bad behavior before it causes damage and safely run drills to test if our defenses actually hold up."
+        "th": "ประการแรก ตามแนวทางปฏิบัติที่ดีที่สุดในความปลอดภัยทางไซเบอร์ เราได้พัฒนากรอบงานการสร้างแบบจำลองภัยคุกคามใหม่สำหรับ AI แผนงานปฏิบัติต่อตัวแทน AI ที่ไม่น่าเชื่อถือว่าเป็น “ภัยคุกคามจากวงใน” ที่อาจเกิดขึ้น — คล้ายกับวิธีที่บริษัทจะปฏิบัติต่อผู้ที่อาจเป็นพนักงานโกงที่สามารถเข้าถึงสำนักงานได้แล้ว ด้วยการสร้างบนกรอบงาน MITER ATT&CK ที่เป็นมาตรฐานอุตสาหกรรม ซึ่งเป็นฐานความรู้ที่เข้าถึงได้ทั่วโลกเกี่ยวกับกลยุทธ์และเทคนิคของฝ่ายตรงข้ามตามการสังเกตในโลกแห่งความเป็นจริง เราแบ่งการโจมตีที่อาจเกิดขึ้นออกเป็นกลยุทธ์และเทคนิคที่มีขนาดเล็กลง สิ่งนี้ช่วยให้เราติดตามความเสี่ยงอย่างเป็นระบบ ตรวจพบพฤติกรรมที่ไม่ดีก่อนที่จะทำให้เกิดความเสียหาย และดำเนินการฝึกซ้อมอย่างปลอดภัยเพื่อทดสอบว่าการป้องกันของเราสู้ได้จริงหรือไม่"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Second, we develop a plan to deploy AI control mitigations to address these risks.",
-        "th": "Second, we develop a plan to deploy AI control mitigations to address these risks."
+        "th": "ประการที่สอง เราพัฒนาแผนการปรับใช้การลดการควบคุม AI เพื่อจัดการกับความเสี่ยงเหล่านี้"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Identifying the problem (Detection): Monitoring is the backbone of AI control. We use other, trusted AI systems as \"supervisors\" to constantly review a working agent's reasoning, actions and plans to see if it is going off track.",
-        "th": "Identifying the problem (Detection): Monitoring is the backbone of AI control. We use other, trusted AI systems as \"supervisors\" to constantly review a working agent's reasoning, actions and plans to see if it is going off track."
+        "th": "การระบุปัญหา (การตรวจจับ): การตรวจสอบเป็นหัวใจสำคัญของการควบคุม AI เราใช้ระบบ AI อื่นๆ ที่เชื่อถือได้ในฐานะ \"หัวหน้างาน\" เพื่อตรวจสอบเหตุผล การดำเนินการ และแผนของตัวแทนที่ทำงานอย่างต่อเนื่อง เพื่อดูว่าระบบนั้นผิดแผนหรือไม่"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Managing the problem (Prevention and Response): If a supervisor sees the agent trying to do something harmful, it can step in to block the action before damage occurs.",
-        "th": "Managing the problem (Prevention and Response): If a supervisor sees the agent trying to do something harmful, it can step in to block the action before damage occurs."
+        "th": "การจัดการปัญหา (การป้องกันและการตอบสนอง): หากหัวหน้างานเห็นเจ้าหน้าที่พยายามทำสิ่งที่เป็นอันตราย ก็สามารถเข้ามาขัดขวางการดำเนินการก่อนที่ความเสียหายจะเกิดขึ้น"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Finally, to ensure our systems are functional, we constantly measure performance across three critical metrics: coverage (the fraction of traffic monitored), recall (the fraction of misaligned behaviors caught), and time-to-response.",
-        "th": "Finally, to ensure our systems are functional, we constantly measure performance across three critical metrics: coverage (the fraction of traffic monitored), recall (the fraction of misaligned behaviors caught), and time-to-response."
+        "th": "สุดท้ายนี้ เพื่อให้แน่ใจว่าระบบของเราใช้งานได้ เราจึงวัดประสิทธิภาพอย่างต่อเนื่องผ่านตัวชี้วัดสำคัญ 3 ตัว ได้แก่ ความครอบคลุม (สัดส่วนของการรับส่งข้อมูลที่ได้รับการตรวจสอบ) การเรียกคืน (สัดส่วนของพฤติกรรมที่ไม่ตรงแนวที่ตรวจพบ) และเวลาในการตอบสนอง"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Scaling security as AI gets smarter",
-        "th": "Scaling security as AI gets smarter"
+        "th": "ปรับขนาดความปลอดภัยเมื่อ AI ฉลาดขึ้น"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "As AI models continue to advance, our defenses must also strengthen in tandem. In our AI Control Roadmap, we map security protocols to measurable milestones in AI capabilities on two critical fronts:",
-        "th": "As AI models continue to advance, our defenses must also strengthen in tandem. In our AI Control Roadmap, we map security protocols to measurable milestones in AI capabilities on two critical fronts:"
+        "th": "เนื่องจากโมเดล AI ก้าวหน้าอย่างต่อเนื่อง การป้องกันของเราจึงต้องแข็งแกร่งขึ้นควบคู่ไปด้วย ในแผนงานการควบคุม AI ของเรา เราแมปโปรโตคอลความปลอดภัยกับเหตุการณ์สำคัญที่วัดได้ในความสามารถของ AI ในสองด้านที่สำคัญ:"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Ability to evade detection: Today, we monitor a model's visible chain-of-thought. However, as models learn to hide their reasoning — either through oversight awareness (knowing they are being monitored) or opaque reasoning (reasoning without using visible text) — simply reading their verbalized reasoning will not be enough. We will need to analyze their behavior and potentially inspect the model’s inner workings.",
-        "th": "Ability to evade detection: Today, we monitor a model's visible chain-of-thought. However, as models learn to hide their reasoning — either through oversight awareness (knowing they are being monitored) or opaque reasoning (reasoning without using visible text) — simply reading their verbalized reasoning will not be enough. We will need to analyze their behavior and potentially inspect the model’s inner workings."
+        "th": "ความสามารถในการหลบเลี่ยงการตรวจจับ: วันนี้ เราตรวจสอบห่วงโซ่แห่งความคิดที่มองเห็นได้ของแบบจำลอง อย่างไรก็ตาม เนื่องจากแบบจำลองเรียนรู้ที่จะซ่อนเหตุผลของตนเอง ไม่ว่าจะผ่านการรับรู้แบบกำกับดูแล (รู้ว่ากำลังถูกติดตาม) หรือการให้เหตุผลแบบคลุมเครือ (การให้เหตุผลโดยไม่ใช้ข้อความที่มองเห็นได้) เพียงแค่อ่านการให้เหตุผลด้วยวาจาจะไม่เพียงพอ เราจะต้องวิเคราะห์พฤติกรรมของพวกเขาและตรวจสอบการทำงานภายในของแบบจำลอง"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Ability for potential harm: For low-risk and reversible actions, we can rely on reviewing transcripts with a delay and remediating issues quickly after they occur (asynchronous response). For particularly high-risk actions, such as major cyber attacks, we must shift to real-time prevention, blocking harmful actions before they can be executed (synchronous response). In other words, our response strategy must scale with the severity of the threat.",
-        "th": "Ability for potential harm: For low-risk and reversible actions, we can rely on reviewing transcripts with a delay and remediating issues quickly after they occur (asynchronous response). For particularly high-risk actions, such as major cyber attacks, we must shift to real-time prevention, blocking harmful actions before they can be executed (synchronous response). In other words, our response strategy must scale with the severity of the threat."
+        "th": "ความสามารถในการก่ออันตรายที่อาจเกิดขึ้น: สำหรับการดำเนินการที่มีความเสี่ยงต่ำและย้อนกลับได้ เราสามารถพึ่งพาการตรวจสอบสำเนาบทสนทนาที่มีความล่าช้าและแก้ไขปัญหาได้อย่างรวดเร็วหลังจากที่เกิดขึ้น (การตอบสนองแบบอะซิงโครนัส) สำหรับการกระทำที่มีความเสี่ยงสูงโดยเฉพาะ เช่น การโจมตีทางไซเบอร์ครั้งใหญ่ เราต้องเปลี่ยนไปใช้การป้องกันแบบเรียลไทม์ โดยบล็อกการกระทำที่เป็นอันตรายก่อนจึงจะสามารถดำเนินการได้ (การตอบสนองแบบซิงโครนัส) กล่าวอีกนัยหนึ่ง กลยุทธ์การตอบสนองของเราต้องปรับขนาดตามความรุนแรงของภัยคุกคาม"
       }
     },
     {
@@ -153,105 +153,105 @@
       "type": "p",
       "text": {
         "en": "The AI Control Roadmap recommends security measures based on the deployed model’s capability. The model’s detection evasion capability determines the Detection level (D1-D4), and the model’s attack execution capability determines the Prevention and Response level (R1-R3).",
-        "th": "The AI Control Roadmap recommends security measures based on the deployed model’s capability. The model’s detection evasion capability determines the Detection level (D1-D4), and the model’s attack execution capability determines the Prevention and Response level (R1-R3)."
+        "th": "แผนงานการควบคุม AI แนะนำมาตรการรักษาความปลอดภัยตามความสามารถของโมเดลที่ปรับใช้ ความสามารถในการหลบเลี่ยงการตรวจจับของโมเดลจะกำหนดระดับการตรวจจับ (D1-D4) และความสามารถในการดำเนินการโจมตีของโมเดลจะกำหนดระดับการป้องกันและการตอบสนอง (R1-R3)"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Analyzing a million agent trajectories to inform live monitoring",
-        "th": "Analyzing a million agent trajectories to inform live monitoring"
+        "th": "วิเคราะห์เส้นทางของตัวแทนนับล้านเพื่อแจ้งการติดตามแบบเรียลไทม์"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "To build these systems, we need data. Our team has built an internal prototype of an asynchronous monitoring system that reviews coding agent trajectories, and escalates findings for human review. Each flagged event is classified against the threat taxonomy from our roadmap.",
-        "th": "To build these systems, we need data. Our team has built an internal prototype of an asynchronous monitoring system that reviews coding agent trajectories, and escalates findings for human review. Each flagged event is classified against the threat taxonomy from our roadmap."
+        "th": "ในการสร้างระบบเหล่านี้ เราต้องการข้อมูล ทีมงานของเราได้สร้างต้นแบบภายในของระบบตรวจสอบแบบอะซิงโครนัสที่จะตรวจสอบวิถีการเข้ารหัสของเอเจนต์ และเพิ่มผลการค้นพบสำหรับการตรวจสอบโดยมนุษย์ แต่ละเหตุการณ์ที่ถูกตั้งค่าสถานะจะถูกจัดประเภทตามอนุกรมวิธานภัยคุกคามจากแผนงานของเรา"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "We’ve already analyzed a million coding agent tasks, giving us valuable insights to refine our safety protocols and allowing us to move beyond simple keyword filtering to identifying high-signal behavioral patterns. For example, this research has been instrumental in building a live monitor for the Gemini Spark agent, allowing us to respond in real-time to emerging issues, like unintentional data deletion.",
-        "th": "We’ve already analyzed a million coding agent tasks, giving us valuable insights to refine our safety protocols and allowing us to move beyond simple keyword filtering to identifying high-signal behavioral patterns. For example, this research has been instrumental in building a live monitor for the Gemini Spark agent, allowing us to respond in real-time to emerging issues, like unintentional data deletion."
+        "th": "เราได้วิเคราะห์งานเอเจนต์การเขียนโค้ดนับล้านงานแล้ว ซึ่งให้ข้อมูลเชิงลึกอันมีค่าแก่เราในการปรับแต่งโปรโตคอลด้านความปลอดภัยของเรา และช่วยให้เราก้าวไปไกลกว่าการกรองคำหลักธรรมดา ๆ ไปจนถึงการระบุรูปแบบพฤติกรรมที่มีสัญญาณสูง ตัวอย่างเช่น งานวิจัยนี้เป็นเครื่องมือในการสร้างระบบตรวจสอบแบบเรียลไทม์สำหรับตัวแทน Gemini Spark ซึ่งช่วยให้เราสามารถตอบสนองต่อปัญหาที่เกิดขึ้นแบบเรียลไทม์ เช่น การลบข้อมูลโดยไม่ได้ตั้งใจ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "It is important to note that our data shows the majority of flagged events do not stem from adversarial intent; instead, they often result from agent misinterpretation or overeagerness to achieve a user’s goal. Understanding these nuances is critical for refining our safety and security protocols.",
-        "th": "It is important to note that our data shows the majority of flagged events do not stem from adversarial intent; instead, they often result from agent misinterpretation or overeagerness to achieve a user’s goal. Understanding these nuances is critical for refining our safety and security protocols."
+        "th": "สิ่งสำคัญคือต้องทราบว่าข้อมูลของเราแสดงให้เห็นว่าเหตุการณ์ที่ถูกตั้งค่าสถานะส่วนใหญ่ไม่ได้เกิดจากเจตนาที่ไม่เป็นมิตร แต่มักเป็นผลมาจากการตีความที่ไม่ถูกต้องของตัวแทนหรือความกระตือรือร้นมากเกินไปเพื่อให้บรรลุเป้าหมายของผู้ใช้ การทำความเข้าใจความแตกต่างเหล่านี้เป็นสิ่งสำคัญในการปรับปรุงโปรโตคอลด้านความปลอดภัยและการรักษาความปลอดภัยของเรา"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Defending the agent ecosystem is a shared responsibility",
-        "th": "Defending the agent ecosystem is a shared responsibility"
+        "th": "การปกป้องระบบนิเวศของตัวแทนถือเป็นความรับผิดชอบร่วมกัน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The AI Control Roadmap is one vital element of our multilayered approach to agent security. By integrating these protocols with our broader infrastructure, we are scaling our internal security to safely manage our most advanced AI models.",
-        "th": "The AI Control Roadmap is one vital element of our multilayered approach to agent security. By integrating these protocols with our broader infrastructure, we are scaling our internal security to safely manage our most advanced AI models."
+        "th": "แผนงานการควบคุม AI เป็นองค์ประกอบสำคัญประการหนึ่งของแนวทางหลายชั้นของเราในการรักษาความปลอดภัยให้กับตัวแทน ด้วยการรวมโปรโตคอลเหล่านี้เข้ากับโครงสร้างพื้นฐานที่กว้างขึ้น เรากำลังปรับขนาดความปลอดภัยภายในเพื่อจัดการโมเดล AI ที่ทันสมัยที่สุดของเราอย่างปลอดภัย"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Additionally, this multilayered approach to agent security should be a collaborative priority for industry, policymakers, and academia. By aligning the ecosystem around best practices and standards, we can empower cyber defenders and build societal resilience. That’s why today we are also publishing a technical framework for policymakers, 'Three Layers of Agent Security’. The paper details how we need to improve security at the level of individual agents; in multi-agent systems; and to empower cyber defenders and build resilience across the broader ecosystem.",
-        "th": "Additionally, this multilayered approach to agent security should be a collaborative priority for industry, policymakers, and academia. By aligning the ecosystem around best practices and standards, we can empower cyber defenders and build societal resilience. That’s why today we are also publishing a technical framework for policymakers, 'Three Layers of Agent Security’. The paper details how we need to improve security at the level of individual agents; in multi-agent systems; and to empower cyber defenders and build resilience across the broader ecosystem."
+        "th": "นอกจากนี้ แนวทางการรักษาความปลอดภัยของตัวแทนแบบหลายชั้นนี้ควรให้ความสำคัญเป็นอันดับแรกในการทำงานร่วมกันสำหรับภาคอุตสาหกรรม ผู้กำหนดนโยบาย และสถาบันการศึกษา การปรับระบบนิเวศให้สอดคล้องกับแนวปฏิบัติและมาตรฐานที่ดีที่สุดทำให้เราสามารถเสริมพลังให้กับผู้พิทักษ์ในโลกไซเบอร์และสร้างความยืดหยุ่นทางสังคมได้ นั่นเป็นเหตุผลที่วันนี้เรายังเผยแพร่กรอบการทำงานทางเทคนิคสำหรับผู้กำหนดนโยบาย 'Three Layers of Agent Security' เอกสารนี้ให้รายละเอียดว่าเราจำเป็นต้องปรับปรุงการรักษาความปลอดภัยในระดับตัวแทนแต่ละรายอย่างไร ในระบบหลายตัวแทน และเพื่อเพิ่มศักยภาพให้กับผู้พิทักษ์ในโลกไซเบอร์และสร้างความยืดหยุ่นในระบบนิเวศที่กว้างขึ้น"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "We intend to build on these frameworks to confidently deploy capable AI today while we continue to build a secure foundation for the future.",
-        "th": "We intend to build on these frameworks to confidently deploy capable AI today while we continue to build a secure foundation for the future."
+        "th": "เราตั้งใจที่จะสร้างบนเฟรมเวิร์กเหล่านี้เพื่อปรับใช้ AI ที่มีความสามารถอย่างมั่นใจในปัจจุบัน ในขณะที่เรายังคงสร้างรากฐานที่ปลอดภัยสำหรับอนาคต"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Read the full technical report here:",
-        "th": "Read the full technical report here:"
+        "th": "อ่านรายงานทางเทคนิคฉบับเต็มได้ที่นี่:"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "AI Control Roadmap",
-        "th": "AI Control Roadmap"
+        "th": "แผนงานการควบคุม AI"
       }
     },
     {
       "type": "h3",
       "text": {
         "en": "Research authors",
-        "th": "Research authors"
+        "th": "ผู้เขียนงานวิจัย"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Mary Phuong, Erik Jenner, Laurent Simon, Lewis Ho, Rohin Shah, Sebastian Farquhar, and Scott Coull.",
-        "th": "Mary Phuong, Erik Jenner, Laurent Simon, Lewis Ho, Rohin Shah, Sebastian Farquhar, and Scott Coull."
+        "th": "แมรี่ เฟือง, เอริค เจนเนอร์, โลรองต์ ไซมอน, ลูอิส โฮ, โรฮิน ชาห์, เซบาสเตียน ฟาร์คูฮาร์ และสก็อตต์ คูลล์"
       }
     },
     {
       "type": "h3",
       "text": {
         "en": "Acknowledgements",
-        "th": "Acknowledgements"
+        "th": "รับทราบ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Four Flynn, Anca Dragan, Alan Cooney, Bilal Chughtai, Buck Shlegeris, Cody Wild, David Lindner, Julian Stastny, Kevin Klyman, Li Ding, Myriam Khan, Raluca Ada Popa, Roland Zimmermann, Ryan Greenblatt, Senthooran Rajamanoharan, Victoria Krakovna and Xerxes Dotiwalla.",
-        "th": "Four Flynn, Anca Dragan, Alan Cooney, Bilal Chughtai, Buck Shlegeris, Cody Wild, David Lindner, Julian Stastny, Kevin Klyman, Li Ding, Myriam Khan, Raluca Ada Popa, Roland Zimmermann, Ryan Greenblatt, Senthooran Rajamanoharan, Victoria Krakovna and Xerxes Dotiwalla."
+        "th": "สี่คน ฟลินน์, อันคา ดราแกน, อลัน คูนีย์, บิลาล ชูห์ไต, บัค ชเลเจอริส, โคดี้ ไวลด์, เดวิด ลินด์เนอร์, จูเลียน สตาสต์นี่, เควิน ไคลแมน, หลี่ ติง, มีเรียม ข่าน, ราลูกา อาดา โปปา, โรแลนด์ ซิมเมอร์มันน์, ไรอัน กรีนแบลตต์, เซนตูรัน ราชมาโนฮาราน, วิกตอเรีย คราคอฟนา และเซอร์เซส โดติวัลลา"
       }
     }
   ]

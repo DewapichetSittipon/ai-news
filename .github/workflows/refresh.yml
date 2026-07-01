@@ -32,8 +32,8 @@ jobs:
 
       - run: npm ci
 
-      # Scrape all sources into the static Snapshot. Thai is translated on-device
-      # in the visitor's browser at runtime, so there is no translation step here.
+      # Scrape all sources, then translate EN→TH into the Snapshot (ADR-0003).
+      # The disk cache means only genuinely new strings hit the translator.
       - name: Refresh data
         run: npm run scrape
 
@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data
+          git add public/data scripts/translation-cache.json
           git diff --staged --quiet || git commit -m "chore: refresh news snapshot [skip ci]"
           git push
 

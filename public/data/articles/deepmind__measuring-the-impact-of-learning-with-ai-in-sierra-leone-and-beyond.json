@@ -8,18 +8,18 @@
   "image": "https://lh3.googleusercontent.com/5g2RQPPxqVGuOzfaYj1-8r_6B-Ytp79c9mpWXzBIrk2vUhtxZmA7bMywH41h-8b0EJAdW_K4l7kqHZlfS-QTFk8kFB5MA2bgxZ4hxbuAiOuDIn3ohA=w528-h297-n-nu-rw-lo",
   "title": {
     "en": "Measuring the impact of learning with AI in Sierra Leone and beyond",
-    "th": "Measuring the impact of learning with AI in Sierra Leone and beyond"
+    "th": "การวัดผลกระทบของการเรียนรู้ด้วย AI ในเซียร์ราลีโอนและที่อื่นๆ"
   },
   "summary": {
     "en": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
-    "th": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning."
+    "th": "ผลลัพธ์จากการทดลองแบบสุ่มที่มีกลุ่มควบคุมแสดงให้เห็นถึงศักยภาพของฟีเจอร์การเรียนรู้พร้อมคำแนะนำของ Gemini ในการเพิ่มการมีส่วนร่วมและเร่งการเรียนรู้"
   },
   "body": [
     {
       "type": "p",
       "text": {
         "en": "Zoubin Ghahramani",
-        "th": "Zoubin Ghahramani"
+        "th": "ซูบิน กาห์รามานี"
       }
     },
     {
@@ -31,133 +31,133 @@
       "type": "p",
       "text": {
         "en": "Today, we are sharing the results and technical report from a randomized controlled trial (RCT), conducted in partnership with Fab AI and with the support of the Sierra Leone Ministry of Education1. Over eight weeks, we evaluated how Guided Learning in Gemini affected the math progress of 1,763 junior secondary students across 12 schools in Port Loko District of Sierra Leone.",
-        "th": "Today, we are sharing the results and technical report from a randomized controlled trial (RCT), conducted in partnership with Fab AI and with the support of the Sierra Leone Ministry of Education1. Over eight weeks, we evaluated how Guided Learning in Gemini affected the math progress of 1,763 junior secondary students across 12 schools in Port Loko District of Sierra Leone."
+        "th": "วันนี้ เรากำลังแบ่งปันผลลัพธ์และรายงานทางเทคนิคจากการทดลองแบบสุ่มที่มีกลุ่มควบคุม (RCT) ซึ่งดำเนินการร่วมกับ Fab AI และด้วยการสนับสนุนจากกระทรวงศึกษาธิการของเซียร์ราลีโอน1 ตลอดระยะเวลาแปดสัปดาห์ เราได้ประเมินว่าการเรียนรู้แบบมีคำแนะนำในภาษาราศีเมถุนส่งผลต่อความก้าวหน้าทางคณิตศาสตร์ของนักเรียนมัธยมศึกษาตอนต้น 1,763 คนในโรงเรียน 12 แห่งในเขตพอร์ตโลโค ประเทศเซียร์ราลีโอนอย่างไร"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "We look to be innovative and improve service delivery, but we must also rigorously study the results of our innovations…I am therefore delighted that we now have strong evidence that carefully designed AI can help improve learning outcomes in support of our many hard-working teachers.",
-        "th": "We look to be innovative and improve service delivery, but we must also rigorously study the results of our innovations…I am therefore delighted that we now have strong evidence that carefully designed AI can help improve learning outcomes in support of our many hard-working teachers."
+        "th": "เรามุ่งมั่นที่จะสร้างสรรค์นวัตกรรมและปรับปรุงการให้บริการ แต่เรายังต้องศึกษาผลลัพธ์ของนวัตกรรมของเราอย่างเข้มงวดด้วย...ดังนั้นฉันจึงดีใจที่ตอนนี้เรามีหลักฐานที่ชัดเจนว่า AI ที่ออกแบบมาอย่างระมัดระวังสามารถช่วยปรับปรุงผลลัพธ์การเรียนรู้โดยสนับสนุนครูที่ทำงานหนักของเราหลายคน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The results from this pre-registered trial suggest that AI can be a powerful pedagogical partner — not by replacing teachers, but by augmenting their reach. This study is part of our ongoing effort to build a global evidence base for the impact of AI on teaching and learning.",
-        "th": "The results from this pre-registered trial suggest that AI can be a powerful pedagogical partner — not by replacing teachers, but by augmenting their reach. This study is part of our ongoing effort to build a global evidence base for the impact of AI on teaching and learning."
+        "th": "ผลลัพธ์จากการทดลองที่ลงทะเบียนล่วงหน้านี้ชี้ให้เห็นว่า AI สามารถเป็นพันธมิตรด้านการสอนที่ทรงพลังได้ ไม่ใช่โดยการแทนที่ครู แต่โดยการเพิ่มการเข้าถึงของพวกเขา การศึกษานี้เป็นส่วนหนึ่งของความพยายามอย่างต่อเนื่องของเราในการสร้างฐานหลักฐานระดับโลกสำหรับผลกระทบของ AI ต่อการเรียนการสอน"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Beyond the answer engine: protecting critical thinking",
-        "th": "Beyond the answer engine: protecting critical thinking"
+        "th": "นอกเหนือจากคำตอบ: การปกป้องการคิดอย่างมีวิจารณญาณ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "A common concern is that generative AI could become a shortcut for students, potentially bypassing the challenging yet essential cognitive effort required for deeper learning. Guided Learning is designed to address this concern: it’s built from years of research and work in our LearnLM efforts to be pedagogically-grounded and specifically tuned to prioritize building understanding over providing direct answers.",
-        "th": "A common concern is that generative AI could become a shortcut for students, potentially bypassing the challenging yet essential cognitive effort required for deeper learning. Guided Learning is designed to address this concern: it’s built from years of research and work in our LearnLM efforts to be pedagogically-grounded and specifically tuned to prioritize building understanding over providing direct answers."
+        "th": "ข้อกังวลที่พบบ่อยคือ AI แบบกำเนิดอาจกลายเป็นทางลัดสำหรับนักเรียน ซึ่งอาจข้ามความพยายามด้านการรับรู้ที่ท้าทายแต่จำเป็นสำหรับการเรียนรู้เชิงลึก Guided Learning ได้รับการออกแบบมาเพื่อจัดการกับข้อกังวลนี้: สร้างขึ้นจากการวิจัยและการทำงานหลายปีในความพยายามของ LearnLM ของเรา โดยมีพื้นฐานการสอนและปรับแต่งเป็นพิเศษเพื่อจัดลำดับความสำคัญของการสร้างความเข้าใจมากกว่าการให้คำตอบโดยตรง"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The data from Sierra Leone suggests this approach is working. An analysis of over 113,000 interactions exchanged during our trial revealed that students used the tool to build conceptual understanding in 91.4% of conversations, rather than simply seeking solutions. Gemini responded by posing scaffolding questions in 76% of its messages, providing direct solutions in only 2% of cases. This \"Socratic\" interaction ensures that the cognitive heavy lifting remains with the student.",
-        "th": "The data from Sierra Leone suggests this approach is working. An analysis of over 113,000 interactions exchanged during our trial revealed that students used the tool to build conceptual understanding in 91.4% of conversations, rather than simply seeking solutions. Gemini responded by posing scaffolding questions in 76% of its messages, providing direct solutions in only 2% of cases. This \"Socratic\" interaction ensures that the cognitive heavy lifting remains with the student."
+        "th": "ข้อมูลจากเซียร์ราลีโอนแนะนำว่าแนวทางนี้ใช้ได้ผล การวิเคราะห์ปฏิสัมพันธ์มากกว่า 113,000 รายการที่แลกเปลี่ยนระหว่างการทดลองของเราพบว่านักเรียนใช้เครื่องมือเพื่อสร้างความเข้าใจเชิงแนวคิดใน 91.4% ของการสนทนา แทนที่จะเพียงค้นหาวิธีแก้ไข Gemini ตอบกลับโดยตั้งคำถามเชิงสนับสนุนใน 76% ของข้อความ โดยให้วิธีแก้ปัญหาโดยตรงเพียง 2% ของกรณีเท่านั้น ปฏิสัมพันธ์แบบ \"โสคราตีส\" นี้ช่วยให้แน่ใจว่าการยกภาระทางการรับรู้ยังคงอยู่กับนักเรียน"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "A teacher-led intervention",
-        "th": "A teacher-led intervention"
+        "th": "การแทรกแซงที่นำโดยครู"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The success of this trial was built on a partnership between AI and educators, where teachers remained firmly at the center of the experience. Educators designed the lessons, set the objectives, and facilitated classroom discussions that drove learning.",
-        "th": "The success of this trial was built on a partnership between AI and educators, where teachers remained firmly at the center of the experience. Educators designed the lessons, set the objectives, and facilitated classroom discussions that drove learning."
+        "th": "ความสำเร็จของการทดลองนี้สร้างขึ้นจากความร่วมมือระหว่าง AI และนักการศึกษา โดยที่ครูยังคงเป็นศูนย์กลางของประสบการณ์อย่างมั่นคง นักการศึกษาออกแบบบทเรียน กำหนดเป้าหมาย และอำนวยความสะดวกในการอภิปรายในชั้นเรียนที่ขับเคลื่อนการเรียนรู้"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "In focus groups, teachers reported that Gemini also supported their own professional growth. By using the tool for lesson preparation, they discovered new ways to explain familiar topics like fractions. Many described a shift from \"lecturers\" to \"facilitators,\" moving through the classroom to support pairs of students as they navigated their own learning journeys.",
-        "th": "In focus groups, teachers reported that Gemini also supported their own professional growth. By using the tool for lesson preparation, they discovered new ways to explain familiar topics like fractions. Many described a shift from \"lecturers\" to \"facilitators,\" moving through the classroom to support pairs of students as they navigated their own learning journeys."
+        "th": "ในการสนทนากลุ่ม ครูรายงานว่าราศีเมถุนยังสนับสนุนการเติบโตทางอาชีพของตนเองด้วย ด้วยการใช้เครื่องมือในการเตรียมบทเรียน พวกเขาค้นพบวิธีใหม่ๆ ในการอธิบายหัวข้อที่คุ้นเคย เช่น เศษส่วน หลายคนอธิบายถึงการเปลี่ยนจาก \"อาจารย์\" มาเป็น \"วิทยากรอำนวยความสะดวก\" โดยการย้ายห้องเรียนเพื่อสนับสนุนนักเรียนเป็นคู่ในขณะที่พวกเขาสำรวจเส้นทางการเรียนรู้ของตนเอง"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "To help others implement similar programs, we are releasing a teacher training guide with materials created in collaboration with Fab AI, including the specific protocols used for this study.",
-        "th": "To help others implement similar programs, we are releasing a teacher training guide with materials created in collaboration with Fab AI, including the specific protocols used for this study."
+        "th": "เพื่อช่วยให้ผู้อื่นนำโปรแกรมที่คล้ายกันไปใช้ เรากำลังเผยแพร่คู่มือการฝึกอบรมครูพร้อมสื่อที่สร้างขึ้นโดยความร่วมมือกับ Fab AI รวมถึงโปรโตคอลเฉพาะที่ใช้สำหรับการศึกษานี้"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Measuring the impact",
-        "th": "Measuring the impact"
+        "th": "การวัดผลกระทบ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The quantitative results were significant. Students using Guided Learning saw a gain of +0.258 standard deviations in their math scores compared to the control group. In practical terms, this represents roughly 1.2 to 1.7 years of typical learning progress achieved within the eight-week trial.",
-        "th": "The quantitative results were significant. Students using Guided Learning saw a gain of +0.258 standard deviations in their math scores compared to the control group. In practical terms, this represents roughly 1.2 to 1.7 years of typical learning progress achieved within the eight-week trial."
+        "th": "ผลลัพธ์เชิงปริมาณมีนัยสำคัญ นักเรียนที่ใช้การเรียนรู้แบบชี้แนะพบว่าคะแนนคณิตศาสตร์ของตนมีค่าเบี่ยงเบนมาตรฐานเพิ่มขึ้น +0.258 เมื่อเปรียบเทียบกับกลุ่มควบคุม ในทางปฏิบัติ นี่แสดงถึงความก้าวหน้าในการเรียนรู้ทั่วไปประมาณ 1.2 ถึง 1.7 ปีที่เกิดขึ้นภายในการทดลองแปดสัปดาห์"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Students in classrooms where their teachers incorporated Gemini into roughly half their lessons to meet a target of 12 hours during the trial saw even higher gains—roughly 1.8 to 2.5 years of progress. Engagement was also remarkably high: 69% of students met or exceeded usage targets, far surpassing the five percent typical for voluntary educational technology (famously known as “The Five Percent Problem”). That means students were not only engaged but they enjoyed coming to class more.",
-        "th": "Students in classrooms where their teachers incorporated Gemini into roughly half their lessons to meet a target of 12 hours during the trial saw even higher gains—roughly 1.8 to 2.5 years of progress. Engagement was also remarkably high: 69% of students met or exceeded usage targets, far surpassing the five percent typical for voluntary educational technology (famously known as “The Five Percent Problem”). That means students were not only engaged but they enjoyed coming to class more."
+        "th": "นักเรียนในห้องเรียนที่ครูรวม Gemini ไว้ประมาณครึ่งหนึ่งของบทเรียนเพื่อให้บรรลุเป้าหมาย 12 ชั่วโมงในระหว่างการทดลองพบว่ามีความก้าวหน้ามากขึ้นไปอีก นั่นคือประมาณ 1.8 ถึง 2.5 ปีของความก้าวหน้า นอกจากนี้ การมีส่วนร่วมยังสูงอย่างน่าทึ่งอีกด้วย โดยนักเรียน 69% บรรลุเป้าหมายหรือเกินเป้าหมายการใช้งาน ซึ่งเกินกว่าร้อยละ 5 โดยทั่วไปสำหรับเทคโนโลยีการศึกษาแบบสมัครใจ (รู้จักกันในชื่อ “ปัญหาห้าเปอร์เซ็นต์”) นั่นหมายความว่านักเรียนไม่เพียงแต่มีส่วนร่วมเท่านั้น แต่ยังสนุกกับการมาชั้นเรียนมากขึ้นอีกด้วย"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Beyond the numbers, we also saw a profound shift in behavior. Students reported enjoying math more and actively engaged with learning beyond regular instruction. Crucially, over time, their conversations and questions became more learning-oriented, shifting toward skill building instead of seeking direct solutions. Specifically, skill-building queries rose to 90% by the final week — up from 68% in the first week — while solution-seeking questions dropped from 25% to 10%, proving students didn’t just want answers, they wanted to understand how they got there.",
-        "th": "Beyond the numbers, we also saw a profound shift in behavior. Students reported enjoying math more and actively engaged with learning beyond regular instruction. Crucially, over time, their conversations and questions became more learning-oriented, shifting toward skill building instead of seeking direct solutions. Specifically, skill-building queries rose to 90% by the final week — up from 68% in the first week — while solution-seeking questions dropped from 25% to 10%, proving students didn’t just want answers, they wanted to understand how they got there."
+        "th": "นอกเหนือจากตัวเลขแล้ว เรายังเห็นการเปลี่ยนแปลงพฤติกรรมอย่างลึกซึ้งอีกด้วย นักเรียนรายงานว่าเพลิดเพลินกับคณิตศาสตร์มากขึ้นและมีส่วนร่วมกับการเรียนรู้นอกเหนือจากการสอนปกติมากขึ้น เมื่อเวลาผ่านไป การสนทนาและคำถามของพวกเขาเน้นการเรียนรู้มากขึ้น โดยเปลี่ยนไปสู่การสร้างทักษะแทนที่จะแสวงหาวิธีแก้ปัญหาโดยตรง โดยเฉพาะอย่างยิ่ง ข้อความค้นหาเพื่อสร้างทักษะเพิ่มขึ้นเป็น 90% ในสัปดาห์สุดท้าย เพิ่มขึ้นจาก 68% ในสัปดาห์แรก ในขณะที่คำถามค้นหาวิธีแก้ปัญหาลดลงจาก 25% เป็น 10% ซึ่งพิสูจน์ได้ว่านักเรียนไม่ได้ต้องการเพียงคำตอบเท่านั้น แต่พวกเขาต้องการเข้าใจว่าพวกเขามาถึงจุดนั้นได้อย่างไร"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "To further understand the impact of Guided Learning on student learning, we are conducting a series of additional pre-registered RCTs globally. In the interest of advancing open science and disseminating timely insights, we are also releasing a playbook on our approach to RCTs with Fab AI to help others run faster, scalable studies aligned to their needs and contexts — to uncover robust localised evidence that keeps pace with technological advances. We will continue to publish our results and learnings as we conclude subsequent RCTs to construct a more comprehensive, cross-country evidence base, which we hope will inform responsible development of AI across the learning ecosystem. Additionally, our support of the Global AI for Learning Alliance (GAILA) will accelerate these commitments and others through collective action.",
-        "th": "To further understand the impact of Guided Learning on student learning, we are conducting a series of additional pre-registered RCTs globally. In the interest of advancing open science and disseminating timely insights, we are also releasing a playbook on our approach to RCTs with Fab AI to help others run faster, scalable studies aligned to their needs and contexts — to uncover robust localised evidence that keeps pace with technological advances. We will continue to publish our results and learnings as we conclude subsequent RCTs to construct a more comprehensive, cross-country evidence base, which we hope will inform responsible development of AI across the learning ecosystem. Additionally, our support of the Global AI for Learning Alliance (GAILA) will accelerate these commitments and others through collective action."
+        "th": "เพื่อทำความเข้าใจเพิ่มเติมถึงผลกระทบของ Guided Learning ต่อการเรียนรู้ของนักเรียน เรากำลังดำเนินการชุด RCT ที่ลงทะเบียนล่วงหน้าเพิ่มเติมทั่วโลก เพื่อประโยชน์ของการพัฒนาวิทยาศาสตร์แบบเปิดและการเผยแพร่ข้อมูลเชิงลึกอย่างทันท่วงที เรายังเผยแพร่ Playbook เกี่ยวกับแนวทาง RCT ของเราด้วย Fab AI เพื่อช่วยให้ผู้อื่นทำงานได้เร็วขึ้นและการศึกษาที่ปรับขนาดได้ซึ่งสอดคล้องกับความต้องการและบริบทของพวกเขา - เพื่อเปิดเผยหลักฐานที่มีการแปลเป็นภาษาท้องถิ่นที่มีประสิทธิภาพซึ่งตามทันความก้าวหน้าทางเทคโนโลยี เราจะเผยแพร่ผลลัพธ์และการเรียนรู้ของเราต่อไปในขณะที่เราสรุป RCT ครั้งต่อไปเพื่อสร้างฐานหลักฐานข้ามประเทศที่ครอบคลุมมากขึ้น ซึ่งเราหวังว่าจะแจ้งการพัฒนาที่รับผิดชอบของ AI ทั่วทั้งระบบนิเวศการเรียนรู้ นอกจากนี้ การสนับสนุน Global AI for Learning Alliance (GAILA) จะช่วยเร่งความมุ่งมั่นเหล่านี้และอื่นๆ ผ่านการดำเนินการร่วมกัน"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "The path forward",
-        "th": "The path forward"
+        "th": "เส้นทางข้างหน้า"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Though these results are promising, they also highlighted the challenge of the \"achievement gap.\" While the majority of students benefited, those who entered the trial with stronger math skills benefited most. This underscores an important need: to offer tools that deliver the strongest gains for the students who need it most.",
-        "th": "Though these results are promising, they also highlighted the challenge of the \"achievement gap.\" While the majority of students benefited, those who entered the trial with stronger math skills benefited most. This underscores an important need: to offer tools that deliver the strongest gains for the students who need it most."
+        "th": "แม้ว่าผลลัพธ์เหล่านี้จะมีแนวโน้มดี แต่ก็เน้นย้ำถึงความท้าทายของ \"ช่องว่างแห่งความสำเร็จ\" แม้ว่านักเรียนส่วนใหญ่จะได้รับประโยชน์ แต่ผู้ที่เข้าร่วมการทดลองด้วยทักษะทางคณิตศาสตร์ที่แข็งแกร่งกว่าจะได้รับประโยชน์มากที่สุด สิ่งนี้เน้นย้ำถึงความต้องการที่สำคัญ นั่นคือ การนำเสนอเครื่องมือที่มอบประโยชน์สูงสุดให้กับนักเรียนที่ต้องการมันมากที่สุด"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Looking ahead, we plan to expand these trials to other countries and probe more deeply into areas like metacognition and relational intelligence to capture a more holistic view that explores the nuanced complexity of learning. By combining the relational foundation of a teacher-led classroom of students with the personalized, scaffolding capabilities of AI, we can help ensure that technology serves as a bridge to meaningful learning opportunities for all.",
-        "th": "Looking ahead, we plan to expand these trials to other countries and probe more deeply into areas like metacognition and relational intelligence to capture a more holistic view that explores the nuanced complexity of learning. By combining the relational foundation of a teacher-led classroom of students with the personalized, scaffolding capabilities of AI, we can help ensure that technology serves as a bridge to meaningful learning opportunities for all."
+        "th": "เมื่อมองไปข้างหน้า เราวางแผนที่จะขยายการทดลองเหล่านี้ไปยังประเทศอื่นๆ และเจาะลึกมากขึ้นในด้านต่างๆ เช่น อภิปัญญาและข่าวกรองเชิงสัมพันธ์ เพื่อรวบรวมมุมมองแบบองค์รวมมากขึ้นที่สำรวจความซับซ้อนของการเรียนรู้ที่ละเอียดยิ่งขึ้น ด้วยการรวมรากฐานเชิงสัมพันธ์ของห้องเรียนที่นำโดยครูของนักเรียนเข้ากับความสามารถส่วนบุคคลและการสนับสนุนของ AI เราสามารถช่วยให้แน่ใจว่าเทคโนโลยีทำหน้าที่เป็นสะพานเชื่อมสู่โอกาสการเรียนรู้ที่มีความหมายสำหรับทุกคน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "1 We also received support from Google.org and the Gates Foundation to conduct the trial. EducAid, Laterite and Oxford MeasurEd also collaborated with us.",
-        "th": "1 We also received support from Google.org and the Gates Foundation to conduct the trial. EducAid, Laterite and Oxford MeasurEd also collaborated with us."
+        "th": "1 เรายังได้รับการสนับสนุนจาก Google.org และมูลนิธิ Gates เพื่อดำเนินการทดลองนี้ด้วย EducAid, Lateite และ Oxford MeasurEd ก็ร่วมมือกับเราเช่นกัน"
       }
     }
   ]

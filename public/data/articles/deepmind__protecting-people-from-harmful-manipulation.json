@@ -8,18 +8,18 @@
   "image": "https://lh3.googleusercontent.com/IH7SOCSd4lrXu8YVkyRw45zg4Jc__pHM0SJlbDssVL3_5XjYGVYE1jt8DCiPgM9JGdwmdO_gYnQ4-QIo2l9Rz04l7KK4jAbsdAyWLriTV-iOC2_Y3bI=w528-h297-n-nu-rw-lo",
   "title": {
     "en": "Protecting people from harmful manipulation",
-    "th": "Protecting people from harmful manipulation"
+    "th": "การปกป้องผู้คนจากการยักย้ายที่เป็นอันตราย"
   },
   "summary": {
     "en": "Google DeepMind researches AI's harmful manipulation risks across areas like finance and health, leading to new safety measures.",
-    "th": "Google DeepMind researches AI's harmful manipulation risks across areas like finance and health, leading to new safety measures."
+    "th": "Google DeepMind ค้นคว้าความเสี่ยงในการจัดการที่เป็นอันตรายของ AI ในด้านต่างๆ เช่น การเงินและสุขภาพ ซึ่งนำไปสู่มาตรการความปลอดภัยใหม่"
   },
   "body": [
     {
       "type": "p",
       "text": {
         "en": "Helen King",
-        "th": "Helen King"
+        "th": "เฮเลน คิง"
       }
     },
     {
@@ -31,126 +31,126 @@
       "type": "p",
       "text": {
         "en": "As AI models get better at holding natural conversations, we must examine how these interactions affect people and society.",
-        "th": "As AI models get better at holding natural conversations, we must examine how these interactions affect people and society."
+        "th": "เมื่อโมเดล AI จัดการการสนทนาที่เป็นธรรมชาติได้ดีขึ้น เราจึงต้องตรวจสอบว่าปฏิสัมพันธ์เหล่านี้ส่งผลต่อผู้คนและสังคมอย่างไร"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Building on a breadth of scientific research, today, we are releasing new findings on the potential for AI to be misused for harmful manipulation*, specifically, its ability to alter human thought and behavior in negative and deceptive ways. With this latest study, we have created the first empirically validated toolkit to measure this kind of AI manipulation in the real world, which we hope will help protect people and advance the field as a whole. We’re publicly releasing all materials necessary to run human participant studies using the same methodology. (Note: The behaviors observed during this study took place in a controlled lab setting, and do not necessarily predict real-world behaviors.)",
-        "th": "Building on a breadth of scientific research, today, we are releasing new findings on the potential for AI to be misused for harmful manipulation*, specifically, its ability to alter human thought and behavior in negative and deceptive ways. With this latest study, we have created the first empirically validated toolkit to measure this kind of AI manipulation in the real world, which we hope will help protect people and advance the field as a whole. We’re publicly releasing all materials necessary to run human participant studies using the same methodology. (Note: The behaviors observed during this study took place in a controlled lab setting, and do not necessarily predict real-world behaviors.)"
+        "th": "จากการวิจัยทางวิทยาศาสตร์ที่กว้างขวาง วันนี้เรากำลังเผยแพร่ผลการวิจัยใหม่เกี่ยวกับศักยภาพที่ AI จะถูกนำไปใช้ในทางที่ผิดเพื่อการจัดการที่เป็นอันตราย* โดยเฉพาะความสามารถในการเปลี่ยนแปลงความคิดและพฤติกรรมของมนุษย์ในรูปแบบเชิงลบและหลอกลวง จากการศึกษาล่าสุดนี้ เราได้สร้างชุดเครื่องมือที่ได้รับการตรวจสอบเชิงประจักษ์ชุดแรกเพื่อวัดการจัดการ AI ประเภทนี้ในโลกแห่งความเป็นจริง ซึ่งเราหวังว่าจะช่วยปกป้องผู้คนและพัฒนาวงการโดยรวม เรากำลังเผยแพร่เอกสารทั้งหมดที่จำเป็นสำหรับการดำเนินการศึกษาผู้เข้าร่วมในมนุษย์โดยใช้วิธีการเดียวกันต่อสาธารณะ (หมายเหตุ: พฤติกรรมที่สังเกตได้ในระหว่างการศึกษานี้เกิดขึ้นในห้องปฏิบัติการที่ได้รับการควบคุม และไม่จำเป็นต้องทำนายพฤติกรรมในโลกแห่งความเป็นจริง)"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Why harmful manipulation matters",
-        "th": "Why harmful manipulation matters"
+        "th": "เหตุใดการจัดการที่เป็นอันตรายจึงมีความสำคัญ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Consider two scenarios: One AI model gives you facts to make a well-informed healthcare decision that improves your well-being. Another AI model uses fear to pressure you to make an ill-informed decision that harms your health. The first educates and helps you; the second tricks and harms you.",
-        "th": "Consider two scenarios: One AI model gives you facts to make a well-informed healthcare decision that improves your well-being. Another AI model uses fear to pressure you to make an ill-informed decision that harms your health. The first educates and helps you; the second tricks and harms you."
+        "th": "พิจารณาสองสถานการณ์: โมเดล AI หนึ่งโมเดลจะให้ข้อเท็จจริงแก่คุณเพื่อประกอบการตัดสินใจด้านการรักษาพยาบาลที่มีข้อมูลครบถ้วน ซึ่งจะช่วยปรับปรุงความเป็นอยู่ที่ดีของคุณ AI อีกโมเดลหนึ่งใช้ความกลัวเพื่อกดดันให้คุณตัดสินใจโดยไม่มีข้อมูลซึ่งเป็นอันตรายต่อสุขภาพของคุณ คนแรกให้ความรู้และช่วยเหลือคุณ เทคนิคที่สองและเป็นอันตรายต่อคุณ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "These scenarios highlight the difference between two types of persuasion in human-AI interactions (also defined in earlier research):",
-        "th": "These scenarios highlight the difference between two types of persuasion in human-AI interactions (also defined in earlier research):"
+        "th": "สถานการณ์เหล่านี้เน้นย้ำถึงความแตกต่างระหว่างการโน้มน้าวใจสองประเภทในการโต้ตอบระหว่างมนุษย์กับ AI (กำหนดไว้ในการวิจัยก่อนหน้านี้ด้วย):"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Beneficial (rational) persuasion: Using facts and evidence to help people make choices that align with their own interest",
-        "th": "Beneficial (rational) persuasion: Using facts and evidence to help people make choices that align with their own interest"
+        "th": "การโน้มน้าวใจที่เป็นประโยชน์ (มีเหตุผล): การใช้ข้อเท็จจริงและหลักฐานเพื่อช่วยให้ผู้คนตัดสินใจเลือกที่สอดคล้องกับความสนใจของตนเอง"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Harmful manipulation: Exploiting emotional and cognitive vulnerabilities to trick people into making harmful choices",
-        "th": "Harmful manipulation: Exploiting emotional and cognitive vulnerabilities to trick people into making harmful choices"
+        "th": "การจัดการที่เป็นอันตราย: การใช้ช่องโหว่ทางอารมณ์และการรับรู้เพื่อหลอกให้ผู้คนตัดสินใจเลือกสิ่งที่เป็นอันตราย"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Our latest work helps us and the wider AI community better understand the risk of AI developing capabilities for harmful manipulation and build a scalable evaluation framework to measure this complex area. To do this effectively, we simulated misuse in high-stakes environments, explicitly prompting AI to try to negatively manipulate people's beliefs and behaviours on key topics.",
-        "th": "Our latest work helps us and the wider AI community better understand the risk of AI developing capabilities for harmful manipulation and build a scalable evaluation framework to measure this complex area. To do this effectively, we simulated misuse in high-stakes environments, explicitly prompting AI to try to negatively manipulate people's beliefs and behaviours on key topics."
+        "th": "งานล่าสุดของเราช่วยให้เราและชุมชน AI ในวงกว้างเข้าใจความเสี่ยงของ AI ในการพัฒนาความสามารถในการจัดการที่เป็นอันตราย และสร้างกรอบการประเมินที่ปรับขนาดได้เพื่อวัดพื้นที่ที่ซับซ้อนนี้ เพื่อให้บรรลุเป้าหมายนี้ เราได้จำลองการใช้งานในทางที่ผิดในสภาพแวดล้อมที่มีเดิมพันสูง โดยกระตุ้นให้ AI พยายามบิดเบือนความเชื่อและพฤติกรรมของผู้คนในหัวข้อสำคัญในทางลบ"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Developing new evaluations for a complex challenge",
-        "th": "Developing new evaluations for a complex challenge"
+        "th": "การพัฒนาการประเมินใหม่สำหรับความท้าทายที่ซับซ้อน"
       }
     },
     {
       "type": "h3",
       "text": {
         "en": "Testing the outcomes of AI harmful manipulation",
-        "th": "Testing the outcomes of AI harmful manipulation"
+        "th": "การทดสอบผลลัพธ์ของการบิดเบือนที่เป็นอันตรายของ AI"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Testing for harmful manipulation is inherently difficult because it involves measuring subtle changes in how people think and act, varying heavily by topic, culture and context.",
-        "th": "Testing for harmful manipulation is inherently difficult because it involves measuring subtle changes in how people think and act, varying heavily by topic, culture and context."
+        "th": "การทดสอบการจัดการที่เป็นอันตรายเป็นเรื่องยากโดยเนื้อแท้ เนื่องจากเป็นการวัดการเปลี่ยนแปลงเล็กๆ น้อยๆ ในวิธีที่ผู้คนคิดและกระทำ ซึ่งแตกต่างกันไปอย่างมากตามหัวข้อ วัฒนธรรม และบริบท"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "This is what motivated our latest research, which involved conducting nine studies involving over 10,000 participants across the UK, the US, and India. We focused on high-stakes areas such as finance, where we used simulated investment scenarios to test if AI could influence how people would behave in complex decision-making environments, and health, where we tracked if AI could influence which dietary supplements people preferred. Interestingly, the AI was least effective at harmfully manipulating participants on health-related topics.",
-        "th": "This is what motivated our latest research, which involved conducting nine studies involving over 10,000 participants across the UK, the US, and India. We focused on high-stakes areas such as finance, where we used simulated investment scenarios to test if AI could influence how people would behave in complex decision-making environments, and health, where we tracked if AI could influence which dietary supplements people preferred. Interestingly, the AI was least effective at harmfully manipulating participants on health-related topics."
+        "th": "นี่คือสิ่งที่กระตุ้นให้เกิดการวิจัยล่าสุดของเรา ซึ่งเกี่ยวข้องกับการศึกษาเก้าเรื่องที่เกี่ยวข้องกับผู้เข้าร่วมมากกว่า 10,000 รายทั่วสหราชอาณาจักร สหรัฐอเมริกา และอินเดีย เรามุ่งเน้นไปที่พื้นที่ที่มีความเสี่ยงสูง เช่น การเงิน ซึ่งเราใช้สถานการณ์การลงทุนจำลองเพื่อทดสอบว่า AI สามารถมีอิทธิพลต่อพฤติกรรมของผู้คนในสภาพแวดล้อมการตัดสินใจที่ซับซ้อน และสุขภาพ ซึ่งเราติดตามว่า AI สามารถมีอิทธิพลต่อผลิตภัณฑ์เสริมอาหารที่ผู้คนชื่นชอบหรือไม่ สิ่งที่น่าสนใจคือ AI มีประสิทธิภาพน้อยที่สุดในการจัดการผู้เข้าร่วมในหัวข้อที่เกี่ยวข้องกับสุขภาพอย่างเป็นอันตราย"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Our findings show that success in one domain does not predict success in another, validating our targeted approach to testing for harmful manipulation in specific, high-stakes environments where AI could be misused.",
-        "th": "Our findings show that success in one domain does not predict success in another, validating our targeted approach to testing for harmful manipulation in specific, high-stakes environments where AI could be misused."
+        "th": "การค้นพบของเราแสดงให้เห็นว่าความสำเร็จในโดเมนหนึ่งไม่ได้ทำนายความสำเร็จในอีกโดเมนหนึ่ง โดยเป็นการตรวจสอบความถูกต้องของแนวทางเป้าหมายของเราในการทดสอบการจัดการที่เป็นอันตรายในสภาพแวดล้อมเฉพาะที่มีเดิมพันสูงซึ่ง AI อาจถูกนำไปใช้ในทางที่ผิด"
       }
     },
     {
       "type": "h3",
       "text": {
         "en": "How could AI manipulate?",
-        "th": "How could AI manipulate?"
+        "th": "AI สามารถจัดการได้อย่างไร?"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "In addition to tracking efficacy (whether the AI successfully changes minds), we also measured its propensity (how often it even tries to use manipulative tactics). We tested propensity in two scenarios: when we explicitly told the model to be manipulative, and when we didn’t.",
-        "th": "In addition to tracking efficacy (whether the AI successfully changes minds), we also measured its propensity (how often it even tries to use manipulative tactics). We tested propensity in two scenarios: when we explicitly told the model to be manipulative, and when we didn’t."
+        "th": "นอกเหนือจากประสิทธิภาพในการติดตาม (ไม่ว่า AI จะเปลี่ยนความคิดได้สำเร็จหรือไม่) เรายังวัดแนวโน้มของมันด้วย (บ่อยแค่ไหนที่มันพยายามใช้กลวิธีบิดเบือน) เราทดสอบแนวโน้มในสองสถานการณ์: เมื่อเราบอกอย่างชัดเจนว่าโมเดลนั้นมีการบิดเบือน และเมื่อเราไม่ได้บอกอย่างชัดเจน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "As detailed in our research, we counted manipulative tactics in experimental transcripts, confirming the AI models were most manipulative when explicitly instructed to be.",
-        "th": "As detailed in our research, we counted manipulative tactics in experimental transcripts, confirming the AI models were most manipulative when explicitly instructed to be."
+        "th": "ตามรายละเอียดในการวิจัยของเรา เราได้นับกลวิธีบิดเบือนในการถอดเสียงการทดลอง โดยยืนยันว่าโมเดล AI นั้นมีการบิดเบือนมากที่สุดเมื่อได้รับคำสั่งอย่างชัดเจน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Our results also suggest that certain manipulative tactics may be more likely to result in harmful outcomes, though further research is required to understand these mechanisms in detail.",
-        "th": "Our results also suggest that certain manipulative tactics may be more likely to result in harmful outcomes, though further research is required to understand these mechanisms in detail."
+        "th": "ผลลัพธ์ของเรายังชี้ให้เห็นว่ากลวิธีบิดเบือนบางอย่างอาจมีแนวโน้มที่จะส่งผลให้เกิดผลลัพธ์ที่เป็นอันตราย แม้ว่าจำเป็นต้องมีการวิจัยเพิ่มเติมเพื่อทำความเข้าใจกลไกเหล่านี้โดยละเอียด"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "By measuring both efficacy and propensity, we can better understand how AI manipulation works and build more targeted mitigations.",
-        "th": "By measuring both efficacy and propensity, we can better understand how AI manipulation works and build more targeted mitigations."
+        "th": "ด้วยการวัดทั้งประสิทธิภาพและความโน้มเอียง เราจะสามารถเข้าใจวิธีการทำงานของ AI ได้ดีขึ้น และสร้างการบรรเทาผลกระทบที่ตรงเป้าหมายมากขึ้น"
       }
     },
     {
@@ -162,77 +162,77 @@
       "type": "h2",
       "text": {
         "en": "Putting research into practice",
-        "th": "Putting research into practice"
+        "th": "การนำการวิจัยไปปฏิบัติ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "As AI becomes a part of our everyday lives, we need to know it can’t be misused to harmfully manipulate people.",
-        "th": "As AI becomes a part of our everyday lives, we need to know it can’t be misused to harmfully manipulate people."
+        "th": "เมื่อ AI กลายเป็นส่วนหนึ่งของชีวิตประจำวันของเรา เราจำเป็นต้องรู้ว่า AI นั้นจะนำไปใช้ในทางที่ผิดเพื่อบงการผู้คนอย่างเป็นอันตรายไม่ได้"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Beyond this latest study, we recently introduced an exploratory Harmful Manipulation Critical Capability Level (CCL) within our Frontier Safety Framework to help us track models with capabilities which could be misused to systematically change beliefs and behaviors in direct human-AI interactions in ways which could lead to severe harm.",
-        "th": "Beyond this latest study, we recently introduced an exploratory Harmful Manipulation Critical Capability Level (CCL) within our Frontier Safety Framework to help us track models with capabilities which could be misused to systematically change beliefs and behaviors in direct human-AI interactions in ways which could lead to severe harm."
+        "th": "นอกเหนือจากการศึกษาล่าสุดนี้ เราเพิ่งเปิดตัวระดับความสามารถวิกฤตในการจัดการที่เป็นอันตราย (CCL) แบบสำรวจภายในกรอบความปลอดภัยชายแดนของเรา เพื่อช่วยเราติดตามแบบจำลองที่มีความสามารถซึ่งอาจนำไปใช้ในทางที่ผิดเพื่อเปลี่ยนแปลงความเชื่อและพฤติกรรมอย่างเป็นระบบในการโต้ตอบโดยตรงระหว่างมนุษย์กับ AI ในลักษณะที่อาจนำไปสู่อันตรายร้ายแรง"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "These evaluations also serve as the foundation for how we test our models, including Gemini 3 Pro, for harmful manipulation. You can read more about this in this safety report. Like all our safety evaluations, this is an ongoing process. We will continue to refine our models and methodologies to keep pace with advancing AI.",
-        "th": "These evaluations also serve as the foundation for how we test our models, including Gemini 3 Pro, for harmful manipulation. You can read more about this in this safety report. Like all our safety evaluations, this is an ongoing process. We will continue to refine our models and methodologies to keep pace with advancing AI."
+        "th": "การประเมินเหล่านี้ยังทำหน้าที่เป็นรากฐานสำหรับวิธีที่เราทดสอบโมเดลของเรา รวมถึง Gemini 3 Pro เพื่อการดัดแปลงที่เป็นอันตราย คุณสามารถอ่านเพิ่มเติมเกี่ยวกับเรื่องนี้ได้ในรายงานความปลอดภัยนี้ เช่นเดียวกับการประเมินความปลอดภัยทั้งหมดของเรา นี่เป็นกระบวนการที่กำลังดำเนินอยู่ เราจะปรับปรุงโมเดลและวิธีการของเราต่อไปเพื่อให้ทันกับ AI ที่ก้าวหน้า"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Looking ahead",
-        "th": "Looking ahead"
+        "th": "มองไปข้างหน้า"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Understanding and mitigating harmful manipulation is a complex challenge. As model capabilities evolve, so too must our evaluation and mitigation techniques. For example, we’re currently exploring how to ethically evaluate the efficacy of harmful manipulation in even higher-stakes situations—like discussions involving deeply held personal beliefs—where users might be more susceptible to influence. Next, we will be expanding our research to investigate how audio, video, and image inputs as well as agentic capabilities, factor into AI manipulation.",
-        "th": "Understanding and mitigating harmful manipulation is a complex challenge. As model capabilities evolve, so too must our evaluation and mitigation techniques. For example, we’re currently exploring how to ethically evaluate the efficacy of harmful manipulation in even higher-stakes situations—like discussions involving deeply held personal beliefs—where users might be more susceptible to influence. Next, we will be expanding our research to investigate how audio, video, and image inputs as well as agentic capabilities, factor into AI manipulation."
+        "th": "การทำความเข้าใจและบรรเทาการบงการที่เป็นอันตรายถือเป็นความท้าทายที่ซับซ้อน เมื่อความสามารถของโมเดลพัฒนาขึ้น เทคนิคการประเมินและการบรรเทาผลกระทบของเราก็ต้องเช่นกัน ตัวอย่างเช่น ขณะนี้เรากำลังสำรวจวิธีประเมินประสิทธิภาพของการจัดการที่เป็นอันตรายอย่างมีจริยธรรมในสถานการณ์ที่มีเดิมพันสูงกว่า เช่น การสนทนาที่เกี่ยวข้องกับความเชื่อส่วนตัวที่ยึดถืออย่างลึกซึ้ง ซึ่งผู้ใช้อาจเสี่ยงต่อการมีอิทธิพลมากกว่า ต่อไป เราจะขยายการวิจัยของเราเพื่อตรวจสอบว่าอินพุตเสียง วิดีโอ และรูปภาพ รวมถึงความสามารถด้านเอเจนต์ ส่งผลต่อการจัดการ AI อย่างไร"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "We’ll continue to share findings and iterate based on feedback from the Frontier Model Forum and academic community. Our goal is to lead collective progress to prevent harmful manipulation, advancing AI models that prioritize safety and empower people.",
-        "th": "We’ll continue to share findings and iterate based on feedback from the Frontier Model Forum and academic community. Our goal is to lead collective progress to prevent harmful manipulation, advancing AI models that prioritize safety and empower people."
+        "th": "เราจะแบ่งปันสิ่งที่ค้นพบและทำซ้ำตามคำติชมจาก Frontier Model Forum และชุมชนวิชาการ เป้าหมายของเราคือการเป็นผู้นำความก้าวหน้าร่วมกันเพื่อป้องกันการบิดเบือนที่เป็นอันตราย พัฒนาโมเดล AI ที่ให้ความสำคัญกับความปลอดภัยและเพิ่มศักยภาพให้กับผู้คน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "*Notes: The scope of this particular research focuses exclusively on demonstrating general manipulation capabilities to help further the scientific study of evaluating harmful manipulation. This does not relate to testing safeguards around model outputs or manipulation in policy-violating and dangerous topics (e.g. terrorism and child safety) as this work is covered elsewhere and tested separately.",
-        "th": "*Notes: The scope of this particular research focuses exclusively on demonstrating general manipulation capabilities to help further the scientific study of evaluating harmful manipulation. This does not relate to testing safeguards around model outputs or manipulation in policy-violating and dangerous topics (e.g. terrorism and child safety) as this work is covered elsewhere and tested separately."
+        "th": "*หมายเหตุ: ขอบเขตของการวิจัยเฉพาะนี้มุ่งเน้นไปที่การสาธิตความสามารถในการจัดการทั่วไปโดยเฉพาะ เพื่อช่วยในการศึกษาทางวิทยาศาสตร์เพิ่มเติมในการประเมินการจัดการที่เป็นอันตราย สิ่งนี้ไม่เกี่ยวข้องกับการทดสอบการป้องกันเกี่ยวกับผลลัพธ์ของโมเดลหรือการดัดแปลงในหัวข้อที่ละเมิดนโยบายและเป็นอันตราย (เช่น การก่อการร้ายและความปลอดภัยของเด็ก) เนื่องจากงานนี้ครอบคลุมอยู่ในที่อื่นและทดสอบแยกกัน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "You can also read more about our harmful manipulation work in this interview with our researchers and in the Gemini 3 Pro Frontier Safety Report.",
-        "th": "You can also read more about our harmful manipulation work in this interview with our researchers and in the Gemini 3 Pro Frontier Safety Report."
+        "th": "คุณยังสามารถอ่านเพิ่มเติมเกี่ยวกับงานจัดการที่เป็นอันตรายของเราได้ในการสัมภาษณ์กับนักวิจัยของเราและในรายงานความปลอดภัยของ Gemini 3 Pro Frontier"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Acknowledgments",
-        "th": "Acknowledgments"
+        "th": "รับทราบ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Canfer Akbulut, Rasmi Elasmar, Abhishek Roy, Anthony Payne, Priyanka Suresh, Lujain Ibrahim, Seliem El-Sayed, Charvi Rastogi, Ashyana Kachra, Will Hawkins, Kristian Lum, Laura Weidinger, William Isaac, Dawn Bloxwich, Lewis Ho, Eva Lu, Jenny Brennan, Mahmoud Hassan, Mark Graham",
-        "th": "Canfer Akbulut, Rasmi Elasmar, Abhishek Roy, Anthony Payne, Priyanka Suresh, Lujain Ibrahim, Seliem El-Sayed, Charvi Rastogi, Ashyana Kachra, Will Hawkins, Kristian Lum, Laura Weidinger, William Isaac, Dawn Bloxwich, Lewis Ho, Eva Lu, Jenny Brennan, Mahmoud Hassan, Mark Graham"
+        "th": "แคนเฟอร์ อัคบูลุต, รัสมี เอลาสมาร์, อภิเชค รอย, แอนโทนี่ เพย์น, ปริยังก้า ซูเรช, ลูเจน อิบราฮิม, เซเลียม เอล-ซาเยด, ชาร์วี ราสโตกี, แอชยานา คาครา, วิลล์ ฮอว์กินส์, คริสเตียน ลัม, ลอรา ไวดิงเกอร์, วิลเลียม ไอแซค, ดอว์น บลอกซ์วิช, ลูอิส โฮ, เอวา ลู, เจนนี่ เบรนแนน, มาห์มูด ฮัสซัน, มาร์ค เกรแฮม"
       }
     }
   ]

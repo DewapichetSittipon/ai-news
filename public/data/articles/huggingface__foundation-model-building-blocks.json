@@ -8,11 +8,11 @@
   "image": null,
   "title": {
     "en": "Building Blocks for Foundation Model Training and Inference on AWS",
-    "th": "Building Blocks for Foundation Model Training and Inference on AWS"
+    "th": "Building Block สำหรับการฝึกอบรมโมเดลพื้นฐานและการอนุมานบน AWS"
   },
   "summary": {
     "en": "Building Blocks for Foundation Model Training and Inference on AWS",
-    "th": "Building Blocks for Foundation Model Training and Inference on AWS"
+    "th": "Building Block สำหรับการฝึกอบรมโมเดลพื้นฐานและการอนุมานบน AWS"
   },
   "body": [
     {
@@ -86,49 +86,49 @@
       "type": "li",
       "text": {
         "en": "The AWS Building Blocks Infrastructure: Compute, Network, and Storage Resource Orchestration: Slurm and Kubernetes ML Software Stack Observability",
-        "th": "The AWS Building Blocks Infrastructure: Compute, Network, and Storage Resource Orchestration: Slurm and Kubernetes ML Software Stack Observability"
+        "th": "โครงสร้างพื้นฐาน AWS Building Blocks: การประมวลผล เครือข่าย และพื้นที่จัดเก็บ การจัดการทรัพยากร: Slurm และ Kubernetes ความสามารถในการสังเกตสแต็กซอฟต์แวร์ ML"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Infrastructure: Compute, Network, and Storage",
-        "th": "Infrastructure: Compute, Network, and Storage"
+        "th": "โครงสร้างพื้นฐาน: การประมวลผล เครือข่าย และพื้นที่เก็บข้อมูล"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Resource Orchestration: Slurm and Kubernetes",
-        "th": "Resource Orchestration: Slurm and Kubernetes"
+        "th": "การจัดทรัพยากร: Slurm และ Kubernetes"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "ML Software Stack",
-        "th": "ML Software Stack"
+        "th": "กองซอฟต์แวร์ ML"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Observability",
-        "th": "Observability"
+        "th": "ความสามารถในการสังเกต"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Conclusion",
-        "th": "Conclusion"
+        "th": "บทสรุป"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Authors",
-        "th": "Authors"
+        "th": "ผู้เขียน"
       }
     },
     {
@@ -140,21 +140,21 @@
       "type": "p",
       "text": {
         "en": "Figure: Adapted from \"AI's Three Scaling Laws, Explained\" (NVIDIA Blog).",
-        "th": "Figure: Adapted from \"AI's Three Scaling Laws, Explained\" (NVIDIA Blog)."
+        "th": "รูปภาพ: ดัดแปลงมาจาก \"อธิบายกฎสามมาตราส่วนของ AI\" (บล็อก NVIDIA)"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Taken together, these scaling regimes push the foundation-model lifecycle—pre-training, post-training, and inference—toward convergent infrastructure requirements: tightly coupled accelerator compute, a high-bandwidth low-latency network, and a distributed storage backend. They also raise the importance of orchestration for resource management, and of application- and hardware-level observability to maintain cluster health and diagnose performance pathologies at scale.",
-        "th": "Taken together, these scaling regimes push the foundation-model lifecycle—pre-training, post-training, and inference—toward convergent infrastructure requirements: tightly coupled accelerator compute, a high-bandwidth low-latency network, and a distributed storage backend. They also raise the importance of orchestration for resource management, and of application- and hardware-level observability to maintain cluster health and diagnose performance pathologies at scale."
+        "th": "เมื่อนำมารวมกัน ระบบการปรับขนาดเหล่านี้จะผลักดันวงจรชีวิตของโมเดลพื้นฐาน—ก่อนการฝึกอบรม หลังการฝึกอบรม และการอนุมาน—ไปสู่ข้อกำหนดโครงสร้างพื้นฐานแบบหลอมรวม: การประมวลผลตัวเร่งความเร็วที่เชื่อมโยงกันอย่างแน่นหนา เครือข่ายที่มีแบนด์วิธสูง เวลาแฝงต่ำ และแบ็กเอนด์พื้นที่จัดเก็บข้อมูลแบบกระจาย นอกจากนี้ยังเพิ่มความสำคัญของการเรียบเรียงสำหรับการจัดการทรัพยากร และความสามารถในการสังเกตระดับแอปพลิเคชันและฮาร์ดแวร์ เพื่อรักษาสภาพของคลัสเตอร์และวินิจฉัยโรคด้านประสิทธิภาพในวงกว้าง"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Another key trend is the increasing reliance of the foundation-model lifecycle on an open-source software (OSS) ecosystem that spans model development frameworks, cluster resource management, and operational tooling. At the cluster layer, resource management is typically provided by systems such as Slurm and Kubernetes. Model development and distributed training are commonly implemented in frameworks such as PyTorch and JAX. Monitoring and visualization—that is, observability—are often achieved using Prometheus for metrics collection and Grafana for visualization and alerting, positioned as an operational layer atop infrastructure and resource management. Figure 1 illustrates this layered architecture, showing how hardware infrastructure supports resource orchestration, which in turn enables ML frameworks, with observability spanning across all layers.",
-        "th": "Another key trend is the increasing reliance of the foundation-model lifecycle on an open-source software (OSS) ecosystem that spans model development frameworks, cluster resource management, and operational tooling. At the cluster layer, resource management is typically provided by systems such as Slurm and Kubernetes. Model development and distributed training are commonly implemented in frameworks such as PyTorch and JAX. Monitoring and visualization—that is, observability—are often achieved using Prometheus for metrics collection and Grafana for visualization and alerting, positioned as an operational layer atop infrastructure and resource management. Figure 1 illustrates this layered architecture, showing how hardware infrastructure supports resource orchestration, which in turn enables ML frameworks, with observability spanning across all layers."
+        "th": "แนวโน้มสำคัญอีกประการหนึ่งคือการพึ่งพาที่เพิ่มขึ้นของวงจรการใช้งานโมเดลพื้นฐานในระบบนิเวศของซอฟต์แวร์โอเพ่นซอร์ส (OSS) ซึ่งครอบคลุมกรอบงานการพัฒนาโมเดล การจัดการทรัพยากรคลัสเตอร์ และเครื่องมือในการดำเนินงาน ที่เลเยอร์คลัสเตอร์ โดยทั่วไปการจัดการทรัพยากรจะได้รับจากระบบ เช่น Slurm และ Kubernetes โดยทั่วไปการพัฒนาแบบจำลองและการฝึกอบรมแบบกระจายจะดำเนินการในเฟรมเวิร์ก เช่น PyTorch และ JAX การตรวจสอบและการแสดงภาพ ซึ่งก็คือความสามารถในการสังเกต มักจะทำได้โดยใช้ Prometheus สำหรับการรวบรวมตัววัด และ Grafana สำหรับการแสดงภาพและการแจ้งเตือน โดยวางตำแหน่งเป็นเลเยอร์ปฏิบัติการบนโครงสร้างพื้นฐานและการจัดการทรัพยากร รูปที่ 1 แสดงให้เห็นสถาปัตยกรรมแบบเลเยอร์นี้ ซึ่งแสดงให้เห็นว่าโครงสร้างพื้นฐานของฮาร์ดแวร์สนับสนุนการประสานทรัพยากรอย่างไร ซึ่งจะช่วยเปิดใช้งานเฟรมเวิร์ก ML ได้ด้วยความสามารถในการสังเกตที่ครอบคลุมในทุกเลเยอร์"
       }
     },
     {
@@ -166,119 +166,119 @@
       "type": "p",
       "text": {
         "en": "Figure 1: The layered architecture of open-source software stacks for foundation model training and inference",
-        "th": "Figure 1: The layered architecture of open-source software stacks for foundation model training and inference"
+        "th": "รูปที่ 1: สถาปัตยกรรมแบบเลเยอร์ของสแต็กซอฟต์แวร์โอเพ่นซอร์สสำหรับการฝึกโมเดลพื้นฐานและการอนุมาน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "This post is intended for machine learning engineers and researchers involved in foundation model training and inference, with particular attention to workflows built atop OSS frameworks. It analyzes how AWS infrastructure—including multi-node accelerator compute, high-bandwidth low-latency networking, distributed shared storage, and associated managed services—interacts with common OSS stacks across the foundation model lifecycle. The primary goal is to provide a technical foundation for understanding systems bottlenecks and scaling characteristics spanning pre-training, post-training, and inference. This introductory post surfaces the overall system architecture, emphasizing the integration points between AWS infrastructure components and OSS tools that underpin large-scale distributed training and inference.",
-        "th": "This post is intended for machine learning engineers and researchers involved in foundation model training and inference, with particular attention to workflows built atop OSS frameworks. It analyzes how AWS infrastructure—including multi-node accelerator compute, high-bandwidth low-latency networking, distributed shared storage, and associated managed services—interacts with common OSS stacks across the foundation model lifecycle. The primary goal is to provide a technical foundation for understanding systems bottlenecks and scaling characteristics spanning pre-training, post-training, and inference. This introductory post surfaces the overall system architecture, emphasizing the integration points between AWS infrastructure components and OSS tools that underpin large-scale distributed training and inference."
+        "th": "โพสต์นี้มีไว้สำหรับวิศวกรการเรียนรู้ของเครื่องและนักวิจัยที่เกี่ยวข้องกับการฝึกอบรมโมเดลพื้นฐานและการอนุมาน โดยให้ความสนใจเป็นพิเศษกับเวิร์กโฟลว์ที่สร้างขึ้นบนเฟรมเวิร์ก OSS โดยจะวิเคราะห์ว่าโครงสร้างพื้นฐานของ AWS รวมถึงการประมวลผลแบบเร่งความเร็วหลายโหนด เครือข่ายที่มีแบนด์วิธสูง เวลาแฝงต่ำ พื้นที่จัดเก็บที่ใช้ร่วมกันแบบกระจาย และบริการที่ได้รับการจัดการที่เกี่ยวข้อง โต้ตอบกับสแต็ก OSS ทั่วไปตลอดวงจรชีวิตของโมเดลพื้นฐานอย่างไร เป้าหมายหลักคือการจัดเตรียมรากฐานทางเทคนิคสำหรับการทำความเข้าใจคอขวดของระบบและคุณลักษณะการปรับขนาดที่ครอบคลุมตั้งแต่การฝึกอบรมก่อนการฝึกอบรม หลังการฝึกอบรม และการอนุมาน โพสต์แนะนำนี้แสดงสถาปัตยกรรมระบบโดยรวม โดยเน้นจุดบูรณาการระหว่างส่วนประกอบโครงสร้างพื้นฐาน AWS และเครื่องมือ OSS ที่รองรับการฝึกอบรมและการอนุมานแบบกระจายขนาดใหญ่"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "The AWS Building Blocks",
-        "th": "The AWS Building Blocks"
+        "th": "AWS Building Block"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The remainder of this series examines how this layered architecture is realized on AWS, progressing through infrastructure, resource orchestration, the ML software stack, and observability. The following sections preview each layer.",
-        "th": "The remainder of this series examines how this layered architecture is realized on AWS, progressing through infrastructure, resource orchestration, the ML software stack, and observability. The following sections preview each layer."
+        "th": "ส่วนที่เหลือของซีรีส์นี้จะตรวจสอบว่าสถาปัตยกรรมแบบเลเยอร์นี้เกิดขึ้นได้อย่างไรบน AWS ความคืบหน้าผ่านโครงสร้างพื้นฐาน การประสานทรัพยากร สแต็กซอฟต์แวร์ ML และความสามารถในการสังเกต ส่วนต่อไปนี้แสดงตัวอย่างแต่ละเลเยอร์"
       }
     },
     {
       "type": "h3",
       "text": {
         "en": "Infrastructure: Compute, Network, and Storage",
-        "th": "Infrastructure: Compute, Network, and Storage"
+        "th": "โครงสร้างพื้นฐาน: การประมวลผล เครือข่าย และพื้นที่เก็บข้อมูล"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "As illustrated in Figure 1, infrastructure is anchored by three coupled building blocks—accelerated compute with large device memory, wide-bandwidth interconnect for collective communication, and scalable distributed storage for data and checkpoints.",
-        "th": "As illustrated in Figure 1, infrastructure is anchored by three coupled building blocks—accelerated compute with large device memory, wide-bandwidth interconnect for collective communication, and scalable distributed storage for data and checkpoints."
+        "th": "ดังที่แสดงในรูปที่ 1 โครงสร้างพื้นฐานถูกยึดด้วยบล็อกการสร้างสามบล็อก ได้แก่ การประมวลผลที่เร่งความเร็วด้วยหน่วยความจำอุปกรณ์ขนาดใหญ่ การเชื่อมต่อระหว่างกันที่มีแบนด์วิธกว้างสำหรับการสื่อสารโดยรวม และพื้นที่จัดเก็บข้อมูลแบบกระจายที่ปรับขนาดได้สำหรับข้อมูลและจุดตรวจสอบ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Accelerated compute forms the foundation of large-scale foundation model pre-training, post-training, and inference. AWS offers several generations of NVIDIA GPUs as part of its Amazon EC2 accelerated computing instances, including the Amazon EC2 P instance family. The P5 instance family includes p5.48xlarge with eight NVIDIA H100 GPUs, p5.4xlarge with a single H100 GPU for smaller-scale workloads, and p5e.48xlarge/p5en.48xlarge variants with NVIDIA H200 GPUs. The P6 instance family introduces NVIDIA Blackwell B200 architecture with p6-b200.48xlarge and Blackwell Ultra B300 with p6-b300.48xlarge. Across these generations, the dominant scaling axes are peak Tensor throughput, HBM capacity and bandwidth, and interconnect bandwidth (within and across nodes).",
-        "th": "Accelerated compute forms the foundation of large-scale foundation model pre-training, post-training, and inference. AWS offers several generations of NVIDIA GPUs as part of its Amazon EC2 accelerated computing instances, including the Amazon EC2 P instance family. The P5 instance family includes p5.48xlarge with eight NVIDIA H100 GPUs, p5.4xlarge with a single H100 GPU for smaller-scale workloads, and p5e.48xlarge/p5en.48xlarge variants with NVIDIA H200 GPUs. The P6 instance family introduces NVIDIA Blackwell B200 architecture with p6-b200.48xlarge and Blackwell Ultra B300 with p6-b300.48xlarge. Across these generations, the dominant scaling axes are peak Tensor throughput, HBM capacity and bandwidth, and interconnect bandwidth (within and across nodes)."
+        "th": "การประมวลผลแบบเร่งสร้างรากฐานของแบบจำลองพื้นฐานขนาดใหญ่ ก่อนการฝึกอบรม หลังการฝึกอบรม และการอนุมาน AWS นำเสนอ NVIDIA GPU หลายรุ่นโดยเป็นส่วนหนึ่งของอินสแตนซ์การประมวลผลเร่งความเร็วของ Amazon EC2 รวมถึงกลุ่มอินสแตนซ์ Amazon EC2 P กลุ่มอินสแตนซ์ P5 ประกอบด้วย p5.48xlarge พร้อม NVIDIA H100 GPU แปดตัว, p5.4xlarge พร้อม H100 GPU เดี่ยวสำหรับปริมาณงานขนาดเล็ก และรูปแบบ p5e.48xlarge/p5en.48xlarge พร้อม NVIDIA H200 GPU กลุ่มอินสแตนซ์ P6 เปิดตัวสถาปัตยกรรม NVIDIA Blackwell B200 พร้อม p6-b200.48xlarge และ Blackwell Ultra B300 พร้อม p6-b300.48xlarge แกนการปรับขนาดที่โดดเด่นในรุ่นเหล่านี้คือปริมาณการประมวลผล Tensor สูงสุด ความจุและแบนด์วิดท์ HBM และแบนด์วิดท์ที่เชื่อมต่อถึงกัน (ภายในและข้ามโหนด)"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "As a first-order approximation, peak Tensor Core throughput—measured in floating point operations per second (FLOPS)—helps situate these accelerators on a common axis. The table below summarizes per-GPU peak throughput for dense BF16/FP16 and FP8 Tensor operations, along with HBM capacity and HBM bandwidth, using SXM/HGX-class specifications that align with NVSwitch/NVLink-based multi-GPU nodes.",
-        "th": "As a first-order approximation, peak Tensor Core throughput—measured in floating point operations per second (FLOPS)—helps situate these accelerators on a common axis. The table below summarizes per-GPU peak throughput for dense BF16/FP16 and FP8 Tensor operations, along with HBM capacity and HBM bandwidth, using SXM/HGX-class specifications that align with NVSwitch/NVLink-based multi-GPU nodes."
+        "th": "ในการประมาณลำดับที่หนึ่ง ปริมาณงาน Tensor Core สูงสุดซึ่งวัดในการดำเนินการจุดลอยตัวต่อวินาที (FLOPS) จะช่วยระบุตำแหน่งตัวเร่งความเร็วเหล่านี้บนแกนร่วม ตารางด้านล่างสรุปปริมาณการประมวลผลสูงสุดต่อ GPU สำหรับการดำเนินการ BF16/FP16 และ FP8 Tensor ที่หนาแน่น พร้อมด้วยความจุ HBM และแบนด์วิดท์ HBM โดยใช้ข้อกำหนดเฉพาะคลาส SXM/HGX ที่สอดคล้องกับโหนด multi-GPU ที่ใช้ NVSwitch/NVLink"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Note: NVIDIA product tables often report Tensor throughput “with sparsity”; this table reports dense throughput. Where applicable, dense throughput is taken as half of sparse throughput, following NVIDIA’s guidance for HGX-class platforms (NVIDIA). DGX figures are system-level; the B200 HBM capacity and bandwidth values are expressed per GPU by dividing DGX totals by eight (NVIDIA).",
-        "th": "Note: NVIDIA product tables often report Tensor throughput “with sparsity”; this table reports dense throughput. Where applicable, dense throughput is taken as half of sparse throughput, following NVIDIA’s guidance for HGX-class platforms (NVIDIA). DGX figures are system-level; the B200 HBM capacity and bandwidth values are expressed per GPU by dividing DGX totals by eight (NVIDIA)."
+        "th": "หมายเหตุ: ตารางผลิตภัณฑ์ NVIDIA มักจะรายงานปริมาณงานของเทนเซอร์ “ด้วยความกระจัดกระจาย”; ตารางนี้รายงานปริมาณงานหนาแน่น หากเป็นไปได้ ปริมาณการประมวลผลที่หนาแน่นจะถูกถือเป็นครึ่งหนึ่งของปริมาณงานแบบกระจาย ตามคำแนะนำของ NVIDIA สำหรับแพลตฟอร์มคลาส HGX (NVIDIA) ตัวเลข DGX เป็นระดับระบบ ความจุ B200 HBM และค่าแบนด์วิธจะแสดงต่อ GPU โดยหารผลรวม DGX ด้วยแปด (NVIDIA)"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "As models scale, step time is often dominated by collective communication and memory movement rather than raw compute throughput, motivating explicit scale-up and scale-out bandwidth accounting. For the multi-GPU instances, GPU communication spans two regimes. Internal scale-up (NVLink/NVSwitch) provides high-bandwidth, low-latency GPU-to-GPU connectivity within a node, enabling collectives such as all-reduce and all-gather to execute without traversing the host networking stack. External scale-out (EFA) provides OS-bypass networking across nodes, which AWS uses as a building block for Amazon EC2 UltraClusters where communication-heavy collectives span thousands of instances. The following table summarizes key specifications across these instance types:",
-        "th": "As models scale, step time is often dominated by collective communication and memory movement rather than raw compute throughput, motivating explicit scale-up and scale-out bandwidth accounting. For the multi-GPU instances, GPU communication spans two regimes. Internal scale-up (NVLink/NVSwitch) provides high-bandwidth, low-latency GPU-to-GPU connectivity within a node, enabling collectives such as all-reduce and all-gather to execute without traversing the host networking stack. External scale-out (EFA) provides OS-bypass networking across nodes, which AWS uses as a building block for Amazon EC2 UltraClusters where communication-heavy collectives span thousands of instances. The following table summarizes key specifications across these instance types:"
+        "th": "เมื่อโมเดลปรับขนาด เวลาของขั้นตอนมักถูกครอบงำโดยการสื่อสารแบบรวมและการเคลื่อนไหวของหน่วยความจำ แทนที่จะเป็นปริมาณการประมวลผลแบบดิบ ซึ่งกระตุ้นให้เกิดการขยายขนาดและการทำบัญชีแบนด์วิธแบบขยายขนาดอย่างชัดเจน สำหรับอินสแตนซ์ที่มี GPU หลายตัว การสื่อสารด้วย GPU จะครอบคลุมสองระบบ การขยายขนาดภายใน (NVLink/NVSwitch) มอบการเชื่อมต่อ GPU-to-GPU ที่มีแบนด์วิธสูงและมีความหน่วงต่ำภายในโหนด ช่วยให้กลุ่มต่างๆ เช่น all-reduce และ all-gather สามารถดำเนินการได้โดยไม่ต้องผ่านสแต็กเครือข่ายโฮสต์ การขยายขนาดภายนอก (EFA) มอบเครือข่าย OS-bypass ข้ามโหนด ซึ่ง AWS ใช้เป็น Building Block สำหรับ Amazon EC2 UltraClusters ซึ่งกลุ่มที่มีการสื่อสารจำนวนมากจะขยายอินสแตนซ์นับพันรายการ ตารางต่อไปนี้สรุปข้อกำหนดหลักสำหรับประเภทอินสแตนซ์เหล่านี้:"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Note: EFA bandwidth is converted from Gbps to GB/s (÷8) for consistency with other bandwidth metrics; see the EC2 accelerated computing networking specifications. NVLink and EFA bandwidth figures are shown as aggregate per-instance values rather than per-link values; see the P5 instance family page and the P6 instance family page for the corresponding intra-node interconnect and networking characteristics.",
-        "th": "Note: EFA bandwidth is converted from Gbps to GB/s (÷8) for consistency with other bandwidth metrics; see the EC2 accelerated computing networking specifications. NVLink and EFA bandwidth figures are shown as aggregate per-instance values rather than per-link values; see the P5 instance family page and the P6 instance family page for the corresponding intra-node interconnect and networking characteristics."
+        "th": "หมายเหตุ: แบนด์วิดท์ EFA จะถูกแปลงจาก Gbps เป็น GB/s (÷8) เพื่อให้สอดคล้องกับตัววัดแบนด์วิดท์อื่นๆ ดูข้อมูลจำเพาะเครือข่ายคอมพิวเตอร์เร่งความเร็ว EC2 ตัวเลขแบนด์วิธของ NVLink และ EFA จะแสดงเป็นค่ารวมต่ออินสแตนซ์ แทนที่จะเป็นค่าต่อลิงก์ ดูหน้ากลุ่มอินสแตนซ์ P5 และหน้ากลุ่มอินสแตนซ์ P6 สำหรับการเชื่อมต่อภายในโหนดและคุณลักษณะเครือข่ายที่เกี่ยวข้อง"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Elastic Fabric Adapter (EFA) is a network interface for Amazon EC2 that provides OS-bypass remote direct memory access (RDMA) capability using the Scalable Reliable Datagram (SRD) protocol. By enabling applications to communicate directly with the network device through the Libfabric API—bypassing the operating system kernel—EFA reduces latency and improves throughput for collective operations in distributed training.",
-        "th": "Elastic Fabric Adapter (EFA) is a network interface for Amazon EC2 that provides OS-bypass remote direct memory access (RDMA) capability using the Scalable Reliable Datagram (SRD) protocol. By enabling applications to communicate directly with the network device through the Libfabric API—bypassing the operating system kernel—EFA reduces latency and improves throughput for collective operations in distributed training."
+        "th": "Elastic Fabric Adapter (EFA) เป็นอินเทอร์เฟซเครือข่ายสำหรับ Amazon EC2 ที่ให้ความสามารถ OS-bypass remote direct memory access (RDMA) โดยใช้โปรโตคอล Scalable Trusted Datagram (SRD) ด้วยการทำให้แอปพลิเคชันสามารถสื่อสารโดยตรงกับอุปกรณ์เครือข่ายผ่าน Libfabric API โดยเลี่ยงเคอร์เนลของระบบปฏิบัติการ EFA จะช่วยลดเวลาแฝงและปรับปรุงปริมาณงานสำหรับการดำเนินการโดยรวมในการฝึกอบรมแบบกระจาย"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Multiple generations of EFA are available on different instance families. Amazon EC2 P5 and P5e instances are equipped with EFA version 2 (EFAv2). EFA version 3 (EFAv3), provided on P5en instances, reduces packet latency by approximately 35% compared to EFAv2. EFA version 4 (EFAv4), available on P6 instances, delivers an additional 18% improvement in collective communication performance relative to EFAv3.",
-        "th": "Multiple generations of EFA are available on different instance families. Amazon EC2 P5 and P5e instances are equipped with EFA version 2 (EFAv2). EFA version 3 (EFAv3), provided on P5en instances, reduces packet latency by approximately 35% compared to EFAv2. EFA version 4 (EFAv4), available on P6 instances, delivers an additional 18% improvement in collective communication performance relative to EFAv3."
+        "th": "EFA หลายรุ่นพร้อมใช้งานในกลุ่มอินสแตนซ์ที่แตกต่างกัน อินสแตนซ์ Amazon EC2 P5 และ P5e ติดตั้ง EFA เวอร์ชัน 2 (EFAv2) EFA เวอร์ชัน 3 (EFAv3) ซึ่งมีให้บนอินสแตนซ์ P5en ช่วยลดเวลาแฝงของแพ็กเก็ตลงประมาณ 35% เมื่อเทียบกับ EFAv2 EFA เวอร์ชัน 4 (EFAv4) ซึ่งพร้อมใช้งานบนอินสแตนซ์ P6 มอบการปรับปรุงประสิทธิภาพการสื่อสารโดยรวมเพิ่มเติม 18% เมื่อเทียบกับ EFAv3"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "At scale, both distributed training (streaming corpora and writing multi-terabyte checkpoints) and large-scale inference (staging weights and managing KV cache growth) motivate a tiered storage hierarchy—local NVMe SSD for hot data, Lustre for shared high-throughput access, and Amazon S3 for durable persistence.",
-        "th": "At scale, both distributed training (streaming corpora and writing multi-terabyte checkpoints) and large-scale inference (staging weights and managing KV cache growth) motivate a tiered storage hierarchy—local NVMe SSD for hot data, Lustre for shared high-throughput access, and Amazon S3 for durable persistence."
+        "th": "ในวงกว้าง ทั้งการฝึกอบรมแบบกระจาย (การสตรีมองค์กรและการเขียนจุดตรวจสอบหลายเทราไบต์) และการอนุมานขนาดใหญ่ (การจัดเตรียมน้ำหนักและการจัดการการเติบโตของแคช KV) จะกระตุ้นให้เกิดลำดับชั้นพื้นที่จัดเก็บข้อมูลแบบเป็นชั้น ได้แก่ NVMe SSD ภายในสำหรับข้อมูลร้อน ความมันวาวสำหรับการเข้าถึงที่มีปริมาณงานสูงที่ใช้ร่วมกัน และ Amazon S3 เพื่อความคงอยู่ที่คงทน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "In this series’ primary multi-GPU instances, local NVMe is provided as instance store (ephemeral) with 30.72 TB raw capacity (8 × 3.84 TB NVMe SSD); see the EC2 accelerated-computing instance store specifications.",
-        "th": "In this series’ primary multi-GPU instances, local NVMe is provided as instance store (ephemeral) with 30.72 TB raw capacity (8 × 3.84 TB NVMe SSD); see the EC2 accelerated-computing instance store specifications."
+        "th": "ในอินสแตนซ์ multi-GPU หลักของซีรีส์นี้ NVMe ภายในจะถูกจัดเตรียมไว้เป็นพื้นที่จัดเก็บอินสแตนซ์ (ชั่วคราว) โดยมีความจุรวม 30.72 TB (8 × 3.84 TB NVMe SSD) ดูข้อมูลจำเพาะของร้านค้าอินสแตนซ์การประมวลผลแบบเร่งความเร็ว EC2"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Lustre is an open-source, POSIX compliant distributed file system widely used in high-performance computing (HPC) to provide a shared namespace with high aggregate throughput across many clients. Amazon FSx for Lustre provides Lustre as a fully managed service and exposes it as a parallel file system capable of terabytes per second of throughput, millions of IOPS, and sub-millisecond latencies. Data Repository Associations enable integration with Amazon S3, supporting lazy loading of training datasets and automatic checkpoint export for durability.",
-        "th": "Lustre is an open-source, POSIX compliant distributed file system widely used in high-performance computing (HPC) to provide a shared namespace with high aggregate throughput across many clients. Amazon FSx for Lustre provides Lustre as a fully managed service and exposes it as a parallel file system capable of terabytes per second of throughput, millions of IOPS, and sub-millisecond latencies. Data Repository Associations enable integration with Amazon S3, supporting lazy loading of training datasets and automatic checkpoint export for durability."
+        "th": "Luster เป็นระบบไฟล์แบบกระจายที่สอดคล้องกับ POSIX แบบโอเพ่นซอร์ส ซึ่งใช้กันอย่างแพร่หลายในการประมวลผลประสิทธิภาพสูง (HPC) เพื่อให้เนมสเปซที่ใช้ร่วมกันมีปริมาณงานรวมสูงในไคลเอนต์จำนวนมาก Amazon FSx for Luster มอบ Luster เป็นบริการที่มีการจัดการเต็มรูปแบบ และแสดงเป็นระบบไฟล์แบบขนานที่สามารถรับส่งข้อมูลได้ระดับเทราไบต์ต่อวินาที, IOPS หลายล้าน และมีเวลาแฝงต่ำกว่ามิลลิวินาที Data Repository Associations ช่วยให้สามารถทำงานร่วมกับ Amazon S3 ได้ โดยรองรับการโหลดชุดข้อมูลการฝึกอบรมแบบ Lazy Loading และการส่งออกจุดตรวจสอบอัตโนมัติเพื่อความคงทน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "At cluster scale, these instances are deployed in Amazon EC2 UltraClusters, which provision thousands of accelerated instances as a single, tightly placed cluster within an Availability Zone and interconnect them using a petabit-scale nonblocking network.",
-        "th": "At cluster scale, these instances are deployed in Amazon EC2 UltraClusters, which provision thousands of accelerated instances as a single, tightly placed cluster within an Availability Zone and interconnect them using a petabit-scale nonblocking network."
+        "th": "ในระดับคลัสเตอร์ อินสแตนซ์เหล่านี้ได้รับการปรับใช้ใน Amazon EC2 UltraClusters ซึ่งจัดเตรียมอินสแตนซ์แบบเร่งความเร็วหลายพันอินสแตนซ์เป็นคลัสเตอร์เดียวที่วางไว้อย่างแน่นหนาภายใน Availability Zone และเชื่อมต่อระหว่างกันโดยใช้เครือข่ายที่ไม่บล็อกขนาดเพตะบิต"
       }
     },
     {
@@ -290,63 +290,63 @@
       "type": "p",
       "text": {
         "en": "Figure: 2nd-generation Amazon EC2 UltraClusters (example P5 UltraCluster).",
-        "th": "Figure: 2nd-generation Amazon EC2 UltraClusters (example P5 UltraCluster)."
+        "th": "รูปภาพ: Amazon EC2 UltraClusters รุ่นที่ 2 (ตัวอย่าง P5 UltraCluster)"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "For workloads with high per-step communication intensity (e.g., expert parallelism in MoE models where all-to-all token dispatch spans many GPUs), the size of the NVLink domain can become a first-order constraint. As an extension of the internal scale-up axis, increasing the NVLink domain reduces how often performance-critical communication must leave the NVLink fabric.",
-        "th": "For workloads with high per-step communication intensity (e.g., expert parallelism in MoE models where all-to-all token dispatch spans many GPUs), the size of the NVLink domain can become a first-order constraint. As an extension of the internal scale-up axis, increasing the NVLink domain reduces how often performance-critical communication must leave the NVLink fabric."
+        "th": "สำหรับปริมาณงานที่มีความเข้มข้นในการสื่อสารต่อขั้นตอนสูง (เช่น ความคล้ายคลึงกันของผู้เชี่ยวชาญในรุ่น MoE ซึ่งการส่งโทเค็นแบบ all-to-all ครอบคลุม GPU จำนวนมาก) ขนาดของโดเมน NVLink อาจกลายเป็นข้อจำกัดอันดับหนึ่งได้ ในฐานะที่เป็นส่วนขยายของแกนการขยายขนาดภายใน การเพิ่มโดเมน NVLink จะช่วยลดความถี่ที่การสื่อสารที่มีความสำคัญต่อประสิทธิภาพจะต้องออกจาก NVLink Fabric"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Amazon EC2 UltraServers extend the NVLink domain beyond a single EC2 instance by connecting multiple component instances through a dedicated accelerator interconnect. AWS reports that P6e-GB200 UltraServers are built on the NVIDIA GB200 NVL72 platform and expose up to 72 Blackwell GPUs and 13.4 TB of aggregate HBM3e within one NVLink domain. At larger scales, EFA remains the cross-node fabric for multi-UltraServer jobs, but increasing the intra-domain GPU count can reduce how often performance-critical communication must leave the NVLink fabric.",
-        "th": "Amazon EC2 UltraServers extend the NVLink domain beyond a single EC2 instance by connecting multiple component instances through a dedicated accelerator interconnect. AWS reports that P6e-GB200 UltraServers are built on the NVIDIA GB200 NVL72 platform and expose up to 72 Blackwell GPUs and 13.4 TB of aggregate HBM3e within one NVLink domain. At larger scales, EFA remains the cross-node fabric for multi-UltraServer jobs, but increasing the intra-domain GPU count can reduce how often performance-critical communication must leave the NVLink fabric."
+        "th": "Amazon EC2 UltraServers ขยายโดเมน NVLink ไปไกลกว่าอินสแตนซ์ EC2 เดียวโดยการเชื่อมต่ออินสแตนซ์ส่วนประกอบหลายรายการผ่านการเชื่อมต่อระหว่างตัวเร่งความเร็วเฉพาะ AWS รายงานว่า P6e-GB200 UltraServers สร้างขึ้นบนแพลตฟอร์ม NVIDIA GB200 NVL72 และเปิดเผย GPU Blackwell สูงสุด 72 ตัวและ HBM3e รวม 13.4 TB ภายในโดเมน NVLink เดียว ในขนาดที่ใหญ่ขึ้น EFA ยังคงเป็น cross-node Fabric สำหรับงาน Multi-UltraServer แต่การเพิ่มจำนวน GPU ภายในโดเมนสามารถลดความถี่ที่การสื่อสารที่มีความสำคัญต่อประสิทธิภาพจะต้องออกจาก NVLink Fabric"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "These systems are built from NVIDIA Grace–Blackwell superchips, which couple Grace CPU memory and Blackwell GPU HBM via cache-coherent NVLink-C2C, enabling direct access across CPU- and GPU-attached memory without explicit host–device copies. In practice, this can extend the effective memory available to GPU workloads (e.g., by placing colder model state or KV cache in CPU-attached memory) while avoiding PCIe-scale copy overheads, albeit with higher latency and lower bandwidth than local HBM.",
-        "th": "These systems are built from NVIDIA Grace–Blackwell superchips, which couple Grace CPU memory and Blackwell GPU HBM via cache-coherent NVLink-C2C, enabling direct access across CPU- and GPU-attached memory without explicit host–device copies. In practice, this can extend the effective memory available to GPU workloads (e.g., by placing colder model state or KV cache in CPU-attached memory) while avoiding PCIe-scale copy overheads, albeit with higher latency and lower bandwidth than local HBM."
+        "th": "ระบบเหล่านี้สร้างจากซูเปอร์ชิป NVIDIA Grace–Blackwell ซึ่งจับคู่หน่วยความจำ CPU Grace และ GPU Blackwell HBM ผ่าน NVLink-C2C ที่เชื่อมโยงแคช ซึ่งเปิดใช้งานการเข้าถึงโดยตรงผ่านหน่วยความจำที่เชื่อมต่อกับ CPU และ GPU โดยไม่ต้องคัดลอกโฮสต์และอุปกรณ์อย่างชัดเจน ในทางปฏิบัติ สิ่งนี้สามารถขยายหน่วยความจำที่มีประสิทธิภาพให้กับปริมาณงาน GPU (เช่น โดยการวางสถานะโมเดลที่เย็นกว่าหรือแคช KV ในหน่วยความจำที่เชื่อมต่อกับ CPU) ในขณะเดียวกันก็หลีกเลี่ยงค่าใช้จ่ายในการคัดลอกในระดับ PCIe แม้ว่าจะมีเวลาแฝงที่สูงกว่าและแบนด์วิดท์ต่ำกว่า HBM ในเครื่อง"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The component instance type for P6e-GB200 UltraServers is p6e-gb200.36xlarge, which provides four GPUs and Elastic Fabric Adapter (EFA) v4 networking. The tables below summarize the per-instance and composed UltraServer configurations.",
-        "th": "The component instance type for P6e-GB200 UltraServers is p6e-gb200.36xlarge, which provides four GPUs and Elastic Fabric Adapter (EFA) v4 networking. The tables below summarize the per-instance and composed UltraServer configurations."
+        "th": "ประเภทอินสแตนซ์ส่วนประกอบสำหรับ P6e-GB200 UltraServers คือ p6e-gb200.36xlarge ซึ่งมี GPU สี่ตัวและเครือข่าย Elastic Fabric Adapter (EFA) v4 ตารางด้านล่างสรุปการกำหนดค่า UltraServer ต่ออินสแตนซ์และแบบประกอบ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Note: The p6e-gb200.36xlarge EFA bandwidth is converted from the published aggregate EFA networking (4 × 400 Gbps) to GB/s (÷8); see the EC2 accelerated computing networking specifications.",
-        "th": "Note: The p6e-gb200.36xlarge EFA bandwidth is converted from the published aggregate EFA networking (4 × 400 Gbps) to GB/s (÷8); see the EC2 accelerated computing networking specifications."
+        "th": "หมายเหตุ: แบนด์วิดท์ EFA p6e-gb200.36xlarge จะถูกแปลงจากเครือข่าย EFA รวมที่เผยแพร่ (4 × 400 Gbps) เป็น GB/s (9) ดูข้อมูลจำเพาะเครือข่ายคอมพิวเตอร์เร่งความเร็ว EC2"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Note: UltraServer EFA bandwidth is converted from terabits per second (Tbps), as reported by AWS, to GB/s (÷8); see the P6e-GB200 UltraServers announcement and the P6 instance family page.",
-        "th": "Note: UltraServer EFA bandwidth is converted from terabits per second (Tbps), as reported by AWS, to GB/s (÷8); see the P6e-GB200 UltraServers announcement and the P6 instance family page."
+        "th": "หมายเหตุ: แบนด์วิดท์ UltraServer EFA จะถูกแปลงจากเทราบิตต่อวินาที (Tbps) ตามที่รายงานโดย AWS เป็น GB/s (÷8) ดูประกาศ P6e-GB200 UltraServers และหน้ากลุ่มอินสแตนซ์ P6"
       }
     },
     {
       "type": "h3",
       "text": {
         "en": "Resource Orchestration: Slurm and Kubernetes",
-        "th": "Resource Orchestration: Slurm and Kubernetes"
+        "th": "การจัดทรัพยากร: Slurm และ Kubernetes"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "When training spans hundreds or thousands of accelerators, manual resource management becomes intractable. For example, a training job requiring 512 GPUs must co-schedule 64 eight-GPU nodes (P-instances) simultaneously, and release resources atomically upon completion or failure. Both Slurm and Kubernetes address this challenge through a control-plane architecture: a centralized scheduler maintains cluster state and makes allocation decisions, while worker nodes execute assigned workloads.",
-        "th": "When training spans hundreds or thousands of accelerators, manual resource management becomes intractable. For example, a training job requiring 512 GPUs must co-schedule 64 eight-GPU nodes (P-instances) simultaneously, and release resources atomically upon completion or failure. Both Slurm and Kubernetes address this challenge through a control-plane architecture: a centralized scheduler maintains cluster state and makes allocation decisions, while worker nodes execute assigned workloads."
+        "th": "เมื่อการฝึกอบรมครอบคลุมตัวเร่งความเร็วหลายร้อยหรือหลายพันตัว การจัดการทรัพยากรด้วยตนเองกลายเป็นเรื่องยาก ตัวอย่างเช่น งานฝึกอบรมที่ต้องใช้ GPU 512 ตัวจะต้องจัดตารางเวลาโหนด GPU แปดตัว (อินสแตนซ์ P) 64 ตัวพร้อมกัน และปล่อยทรัพยากรแบบอะตอมมิกเมื่อเสร็จสิ้นหรือล้มเหลว ทั้ง Slurm และ Kubernetes จัดการกับความท้าทายนี้ผ่านสถาปัตยกรรมระนาบควบคุม: ตัวกำหนดเวลาแบบรวมศูนย์จะรักษาสถานะของคลัสเตอร์และทำการตัดสินใจในการจัดสรร ในขณะที่โหนดของผู้ปฏิบัติงานดำเนินการปริมาณงานที่ได้รับมอบหมาย"
       }
     },
     {
@@ -358,56 +358,56 @@
       "type": "p",
       "text": {
         "en": "Figure 2: High-level architecture of Slurm-based and Kubernetes-based resource orchestration on AWS",
-        "th": "Figure 2: High-level architecture of Slurm-based and Kubernetes-based resource orchestration on AWS"
+        "th": "รูปที่ 2: สถาปัตยกรรมระดับสูงของการจัดการทรัพยากรบน Slurm และ Kubernetes บน AWS"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Slurm (Simple Linux Utility for Resource Management) is the dominant workload manager in high-performance computing, built on a modular plugin architecture that allows the scheduling algorithm, topology model, resource types, and accounting backend to be configured independently. Its scheduling model organizes resources into partitions (logical groupings of nodes), accepts job submissions via sbatch, and launches parallel tasks via srun with synchronized startup across allocated nodes. Critically for distributed training, Slurm schedules at the job level—allocating entire multi-node jobs atomically before any task launches. A backfill scheduler starts lower-priority jobs in idle slots without delaying higher-priority ones, while a multi-factor priority system weighs fair-share usage, job age, and QOS tiers to order the queue across tenants. Slurm also supports topology-aware placement through plugins that model network switch hierarchies—on AWS, encoding the EFA fabric topology to co-locate jobs on nodes with minimal switch hops—and native GPU scheduling through its Generic Resource (GRES) interface, which tracks GPU types and enforces device affinity.",
-        "th": "Slurm (Simple Linux Utility for Resource Management) is the dominant workload manager in high-performance computing, built on a modular plugin architecture that allows the scheduling algorithm, topology model, resource types, and accounting backend to be configured independently. Its scheduling model organizes resources into partitions (logical groupings of nodes), accepts job submissions via sbatch, and launches parallel tasks via srun with synchronized startup across allocated nodes. Critically for distributed training, Slurm schedules at the job level—allocating entire multi-node jobs atomically before any task launches. A backfill scheduler starts lower-priority jobs in idle slots without delaying higher-priority ones, while a multi-factor priority system weighs fair-share usage, job age, and QOS tiers to order the queue across tenants. Slurm also supports topology-aware placement through plugins that model network switch hierarchies—on AWS, encoding the EFA fabric topology to co-locate jobs on nodes with minimal switch hops—and native GPU scheduling through its Generic Resource (GRES) interface, which tracks GPU types and enforces device affinity."
+        "th": "Slurm (ยูทิลิตี้ Linux อย่างง่ายสำหรับการจัดการทรัพยากร) เป็นตัวจัดการปริมาณงานที่โดดเด่นในการประมวลผลประสิทธิภาพสูง สร้างขึ้นบนสถาปัตยกรรมปลั๊กอินแบบแยกส่วนที่ช่วยให้อัลกอริทึมการกำหนดเวลา โมเดลโทโพโลยี ประเภททรัพยากร และแบ็กเอนด์การบัญชีสามารถกำหนดค่าได้อย่างอิสระ โมเดลการจัดกำหนดการจะจัดระเบียบทรัพยากรเป็นพาร์ติชัน (การจัดกลุ่มโหนดแบบลอจิคัล) ยอมรับการส่งงานผ่าน sbatch และเรียกใช้งานแบบขนานผ่าน srun พร้อมการเริ่มต้นแบบซิงโครไนซ์ข้ามโหนดที่จัดสรร มีความสำคัญอย่างยิ่งสำหรับการฝึกอบรมแบบกระจาย Slurm จัดกำหนดการที่ระดับงาน โดยจัดสรรงานแบบหลายโหนดทั้งหมดแบบอะตอมมิกก่อนที่จะเริ่มงานใดๆ ตัวกำหนดเวลาทดแทนจะเริ่มงานที่มีลำดับความสำคัญต่ำกว่าในช่องว่างโดยไม่ทำให้งานที่มีลำดับความสำคัญสูงกว่าล่าช้า ในขณะที่ระบบที่มีลำดับความสำคัญหลายปัจจัยจะชั่งน้ำหนักการใช้งานส่วนแบ่งที่ยุติธรรม อายุงาน และระดับ QOS เพื่อเรียงลำดับคิวจากผู้เช่า Slurm ยังรองรับการวางตำแหน่งที่รับรู้โทโพโลยีผ่านปลั๊กอินที่สร้างโมเดลลำดับชั้นสวิตช์เครือข่ายบน AWS เข้ารหัสโทโพโลยีแฟบริค EFA เพื่อระบุตำแหน่งงานบนโหนดที่มีการสลับสับเปลี่ยนน้อยที่สุด และการตั้งเวลา GPU แบบเนทีฟผ่านอินเทอร์เฟซ Generic Resource (GRES) ซึ่งจะติดตามประเภท GPU และบังคับใช้ความสัมพันธ์ของอุปกรณ์"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "AWS provides multiple deployment options for Slurm-based orchestration. AWS ParallelCluster is an open-source cluster management tool that automates the deployment of Slurm clusters on EC2, handling head node provisioning, compute fleet scaling, and integration with shared storage. AWS Parallel Computing Service (PCS) offers an alternative that provides the managed control plane. For distributed training workloads specifically, Amazon SageMaker HyperPod supports Slurm mode with additional capabilities tailored to large-scale training, such as continuous node health monitoring and job auto-resume functionality.",
-        "th": "AWS provides multiple deployment options for Slurm-based orchestration. AWS ParallelCluster is an open-source cluster management tool that automates the deployment of Slurm clusters on EC2, handling head node provisioning, compute fleet scaling, and integration with shared storage. AWS Parallel Computing Service (PCS) offers an alternative that provides the managed control plane. For distributed training workloads specifically, Amazon SageMaker HyperPod supports Slurm mode with additional capabilities tailored to large-scale training, such as continuous node health monitoring and job auto-resume functionality."
+        "th": "AWS มีตัวเลือกการปรับใช้ที่หลากหลายสำหรับการจัดการแบบ Slurm AWS ParallelCluster เป็นเครื่องมือการจัดการคลัสเตอร์แบบโอเพ่นซอร์สที่ทำให้การปรับใช้คลัสเตอร์ Slurm บน EC2 เป็นแบบอัตโนมัติ จัดการการจัดเตรียมโหนดหลัก ปรับขนาดฟลีตการประมวลผล และการผสานรวมกับพื้นที่จัดเก็บข้อมูลที่ใช้ร่วมกัน AWS Parallel Computing Service (PCS) นำเสนอทางเลือกอื่นที่มอบ Control Plane ที่มีการจัดการ สำหรับปริมาณงานการฝึกอบรมแบบกระจายโดยเฉพาะ Amazon SageMaker HyperPod รองรับโหมด Slurm พร้อมความสามารถเพิ่มเติมที่ปรับให้เหมาะกับการฝึกอบรมขนาดใหญ่ เช่น การตรวจสอบสภาพของโหนดอย่างต่อเนื่องและฟังก์ชันการทำงานต่ออัตโนมัติของงาน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Kubernetes takes a declarative, API-driven approach: users specify desired state through resource manifests, and controllers reconcile actual state to match. While Kubernetes excels at model deployment, its native scheduling model exposes several gaps for tightly coupled distributed training. Kubernetes schedules at the pod level; without job-level atomicity, a multi-node training job can partially start—some ranks running while others remain Pending—wasting GPUs or causing deadlocks. Vanilla Kubernetes also lacks batch queue semantics with priority-based backfill, built-in awareness of network fabric topology (NVLink domains, EFA interconnects) for placement of communication-heavy collectives.",
-        "th": "Kubernetes takes a declarative, API-driven approach: users specify desired state through resource manifests, and controllers reconcile actual state to match. While Kubernetes excels at model deployment, its native scheduling model exposes several gaps for tightly coupled distributed training. Kubernetes schedules at the pod level; without job-level atomicity, a multi-node training job can partially start—some ranks running while others remain Pending—wasting GPUs or causing deadlocks. Vanilla Kubernetes also lacks batch queue semantics with priority-based backfill, built-in awareness of network fabric topology (NVLink domains, EFA interconnects) for placement of communication-heavy collectives."
+        "th": "Kubernetes ใช้วิธีการประกาศที่ขับเคลื่อนด้วย API: ผู้ใช้ระบุสถานะที่ต้องการผ่านรายการทรัพยากร และผู้ควบคุมจะปรับสถานะจริงให้ตรงกัน แม้ว่า Kubernetes จะเก่งในเรื่องการปรับใช้โมเดล แต่โมเดลการจัดกำหนดการดั้งเดิมก็เผยให้เห็นช่องว่างหลายประการสำหรับการฝึกอบรมแบบกระจายที่เชื่อมโยงกันอย่างแน่นหนา กำหนดการ Kubernetes ที่ระดับพ็อด หากไม่มีอะตอมมิกชันระดับงาน งานการฝึกแบบหลายโหนดสามารถเริ่มต้นได้บางส่วน—บางอันดับกำลังทำงานอยู่ในขณะที่บางอันดับยังคงรอดำเนินการ—ทำให้ GPU สิ้นเปลืองหรือทำให้เกิดการหยุดชะงัก Vanilla Kubernetes ยังขาดซีแมนทิกส์คิวแบบแบตช์ที่มีการทดแทนข้อมูลตามลำดับความสำคัญ การรับรู้ในตัวของโทโพโลยีเครือข่าย (โดเมน NVLink, การเชื่อมต่อระหว่าง EFA) สำหรับการจัดวางกลุ่มที่มีการสื่อสารจำนวนมาก"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Several Kubernetes-native projects address these gaps at different layers. Kueue operates as an admission controller atop the default scheduler, managing job-level gang admission, multi-tenant quotas with hierarchical fair sharing, and priority-based preemption—while delegating pod placement to the underlying scheduler. Volcano and NVIDIA KAI Scheduler take a different approach, replacing or augmenting the default scheduler to integrate gang scheduling directly with topology-aware pod placement—Volcano as a general-purpose batch scheduler, KAI Scheduler with deep NVLink/NVSwitch awareness for GPU-optimized placement. These layers are complementary: Kueue can manage admission and quota policy while passing admitted jobs to a topology-aware scheduler for placement.",
-        "th": "Several Kubernetes-native projects address these gaps at different layers. Kueue operates as an admission controller atop the default scheduler, managing job-level gang admission, multi-tenant quotas with hierarchical fair sharing, and priority-based preemption—while delegating pod placement to the underlying scheduler. Volcano and NVIDIA KAI Scheduler take a different approach, replacing or augmenting the default scheduler to integrate gang scheduling directly with topology-aware pod placement—Volcano as a general-purpose batch scheduler, KAI Scheduler with deep NVLink/NVSwitch awareness for GPU-optimized placement. These layers are complementary: Kueue can manage admission and quota policy while passing admitted jobs to a topology-aware scheduler for placement."
+        "th": "โปรเจ็กต์ดั้งเดิมของ Kubernetes หลายโปรเจ็กต์แก้ไขช่องว่างเหล่านี้ในเลเยอร์ต่างๆ Kueue ทำหน้าที่เป็นผู้ควบคุมการรับเข้าบนตัวกำหนดเวลาเริ่มต้น จัดการการรับเข้ากลุ่มงานในระดับงาน โควต้าผู้เช่าหลายรายพร้อมการแบ่งปันที่ยุติธรรมตามลำดับชั้น และการขอจองตามลำดับความสำคัญ ขณะเดียวกันก็มอบหมายการจัดวางพ็อดให้กับผู้จัดกำหนดการพื้นฐาน Volcano และ NVIDIA KAI Scheduler ใช้แนวทางที่แตกต่างออกไป แทนที่หรือเพิ่มตัวกำหนดเวลาเริ่มต้นเพื่อรวมการตั้งเวลาแบบกลุ่มโดยตรงกับการวางตำแหน่งพ็อดที่รับรู้โทโพโลยี—Volcano เป็นตัวกำหนดเวลาแบบแบตช์วัตถุประสงค์ทั่วไป KAI Scheduler พร้อมการรับรู้ NVLink/NVSwitch แบบลึกสำหรับตำแหน่งที่ปรับให้เหมาะสมกับ GPU เลเยอร์เหล่านี้เป็นส่วนเสริม: Kueue สามารถจัดการนโยบายการรับเข้าเรียนและโควต้า ในขณะที่ส่งงานที่รับเข้าไปยังตัวกำหนดเวลาที่รับรู้โทโพโลยีสำหรับการจัดวาง"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "For Kubernetes-based orchestration on AWS, Amazon Elastic Kubernetes Service (EKS) provides managed Kubernetes with GPU scheduling via the NVIDIA device plugin. Amazon SageMaker HyperPod also supports EKS mode, combining Kubernetes orchestration with HyperPod's training-specific capabilities. HyperPod EKS extends EKS with features designed for foundation model training at scale. Task governance provides compute allocation and policy enforcement across teams, integrating managed Kueue for admission control and Karpenter for just-in-time node provisioning. Checkpointless training addresses the recovery latency inherent in traditional checkpoint-based fault tolerance. Rather than periodically serializing model state to shared storage, checkpointless training maintains continuous peer-to-peer state replication across GPUs. When a failure occurs, surviving nodes reconstruct the lost state through EFA-based communication rather than reading multi-terabyte checkpoints from FSx for Lustre or S3. Elastic training enables jobs to automatically scale based on resource availability. When additional accelerators become available (e.g., from completed jobs or newly provisioned capacity), elastic jobs can expand to utilize them; when higher-priority workloads require resources, jobs can contract while maintaining training progress.",
-        "th": "For Kubernetes-based orchestration on AWS, Amazon Elastic Kubernetes Service (EKS) provides managed Kubernetes with GPU scheduling via the NVIDIA device plugin. Amazon SageMaker HyperPod also supports EKS mode, combining Kubernetes orchestration with HyperPod's training-specific capabilities. HyperPod EKS extends EKS with features designed for foundation model training at scale. Task governance provides compute allocation and policy enforcement across teams, integrating managed Kueue for admission control and Karpenter for just-in-time node provisioning. Checkpointless training addresses the recovery latency inherent in traditional checkpoint-based fault tolerance. Rather than periodically serializing model state to shared storage, checkpointless training maintains continuous peer-to-peer state replication across GPUs. When a failure occurs, surviving nodes reconstruct the lost state through EFA-based communication rather than reading multi-terabyte checkpoints from FSx for Lustre or S3. Elastic training enables jobs to automatically scale based on resource availability. When additional accelerators become available (e.g., from completed jobs or newly provisioned capacity), elastic jobs can expand to utilize them; when higher-priority workloads require resources, jobs can contract while maintaining training progress."
+        "th": "สำหรับการจัดการตาม Kubernetes บน AWS นั้น Amazon Elastic Kubernetes Service (EKS) จะมอบ Kubernetes ที่มีการจัดการด้วยการกำหนดเวลา GPU ผ่านปลั๊กอินอุปกรณ์ NVIDIA Amazon SageMaker HyperPod ยังรองรับโหมด EKS โดยรวมการจัดการ Kubernetes เข้ากับความสามารถเฉพาะด้านการฝึกอบรมของ HyperPod HyperPod EKS ขยาย EKS ด้วยคุณสมบัติที่ออกแบบมาสำหรับการฝึกโมเดลพื้นฐานในวงกว้าง การกำกับดูแลงานให้การจัดสรรการประมวลผลและการบังคับใช้นโยบายระหว่างทีม โดยผสานรวม Kueue ที่มีการจัดการสำหรับการควบคุมการรับเข้าและ Karpenter สำหรับการจัดเตรียมโหนดแบบทันเวลาพอดี การฝึกอบรมแบบไร้จุดตรวจสอบจะจัดการกับเวลาแฝงในการกู้คืนที่มีอยู่ในความทนทานต่อข้อบกพร่องตามจุดตรวจสอบแบบดั้งเดิม แทนที่จะทำซีเรียลไลซ์สถานะโมเดลเป็นระยะไปยังพื้นที่จัดเก็บข้อมูลที่ใช้ร่วมกัน การฝึกอบรมแบบไร้จุดตรวจสอบจะรักษาการจำลองสถานะแบบเพียร์ทูเพียร์อย่างต่อเนื่องใน GPU เมื่อเกิดความล้มเหลว โหนดที่รอดชีวิตจะสร้างสถานะที่สูญหายขึ้นใหม่ผ่านการสื่อสารตาม EFA แทนที่จะอ่านจุดตรวจสอบหลายเทราไบต์จาก FSx สำหรับ Luster หรือ S3 การฝึกอบรมแบบยืดหยุ่นช่วยให้งานปรับขนาดได้โดยอัตโนมัติตามความพร้อมของทรัพยากร เมื่อตัวเร่งความเร็วเพิ่มเติมพร้อมใช้งาน (เช่น จากงานที่เสร็จสมบูรณ์หรือความจุที่จัดเตรียมใหม่) งานแบบยืดหยุ่นสามารถขยายเพื่อใช้ประโยชน์ได้ เมื่อปริมาณงานที่มีลำดับความสำคัญสูงกว่าต้องใช้ทรัพยากร งานสามารถหดตัวได้ในขณะที่ยังคงรักษาความก้าวหน้าในการฝึกอบรมไว้ได้"
       }
     },
     {
       "type": "h3",
       "text": {
         "en": "ML Software Stack",
-        "th": "ML Software Stack"
+        "th": "กองซอฟต์แวร์ ML"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Distributed training and inference involve multiple software layers that must be correctly configured and coordinated. A useful model treats the runtime stack as five layers, ordered from hardware-adjacent components (which must function correctly for anything to run) to framework-level abstractions (which determine programmer productivity and model throughput): hardware enablement, accelerator runtime and math libraries, communication substrate, ML frameworks, and distributed training/inference frameworks.",
-        "th": "Distributed training and inference involve multiple software layers that must be correctly configured and coordinated. A useful model treats the runtime stack as five layers, ordered from hardware-adjacent components (which must function correctly for anything to run) to framework-level abstractions (which determine programmer productivity and model throughput): hardware enablement, accelerator runtime and math libraries, communication substrate, ML frameworks, and distributed training/inference frameworks."
+        "th": "การฝึกอบรมและการอนุมานแบบกระจายเกี่ยวข้องกับเลเยอร์ซอฟต์แวร์หลายชั้นที่ต้องกำหนดค่าและประสานงานอย่างถูกต้อง โมเดลที่มีประโยชน์จะถือว่ารันไทม์สแต็กเป็นห้าเลเยอร์ โดยเรียงลำดับจากส่วนประกอบที่ติดกับฮาร์ดแวร์ (ซึ่งจะต้องทำงานอย่างถูกต้องเพื่อให้ทุกอย่างทำงาน) ไปจนถึงนามธรรมระดับเฟรมเวิร์ก (ซึ่งกำหนดประสิทธิภาพของโปรแกรมเมอร์และปริมาณงานของโมเดล): การเปิดใช้งานฮาร์ดแวร์ รันไทม์เร่งความเร็วและไลบรารีคณิตศาสตร์ วัสดุพิมพ์การสื่อสาร เฟรมเวิร์ก ML และเฟรมเวิร์กการฝึกอบรม/การอนุมานแบบกระจาย"
       }
     },
     {
@@ -419,168 +419,168 @@
       "type": "p",
       "text": {
         "en": "Figure 3: The ML software stack for distributed training and inference on EC2 instances",
-        "th": "Figure 3: The ML software stack for distributed training and inference on EC2 instances"
+        "th": "รูปที่ 3: สแต็กซอฟต์แวร์ ML สำหรับการฝึกอบรมและการอนุมานแบบกระจายบนอินสแตนซ์ EC2"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "At the foundation, Linux kernel drivers provide direct hardware access. The NVIDIA GPU driver exposes compute capabilities and supports GPUDirect RDMA for direct data transfers between GPUs and network adapters. The GDRCopy driver (gdrdrv) enables low-latency CPU-initiated copies to and from GPU memory, used by NCCL for small-message transfers. The EFA driver provides OS-bypass networking through the libfabric API, and the Lustre client driver enables POSIX access to FSx for Lustre parallel file systems.",
-        "th": "At the foundation, Linux kernel drivers provide direct hardware access. The NVIDIA GPU driver exposes compute capabilities and supports GPUDirect RDMA for direct data transfers between GPUs and network adapters. The GDRCopy driver (gdrdrv) enables low-latency CPU-initiated copies to and from GPU memory, used by NCCL for small-message transfers. The EFA driver provides OS-bypass networking through the libfabric API, and the Lustre client driver enables POSIX access to FSx for Lustre parallel file systems."
+        "th": "โดยพื้นฐานแล้ว ไดรเวอร์เคอร์เนล Linux ช่วยให้สามารถเข้าถึงฮาร์ดแวร์ได้โดยตรง ไดรเวอร์ NVIDIA GPU เปิดเผยความสามารถในการคำนวณและรองรับ GPUDirect RDMA สำหรับการถ่ายโอนข้อมูลโดยตรงระหว่าง GPU และอะแดปเตอร์เครือข่าย ไดรเวอร์ GDRCopy (gdrdrv) เปิดใช้งานการคัดลอกที่เริ่มต้นโดย CPU ที่มีความหน่วงต่ำไปยังและจากหน่วยความจำ GPU ซึ่ง NCCL ใช้สำหรับการถ่ายโอนข้อความขนาดเล็ก ไดรเวอร์ EFA จัดเตรียมเครือข่าย OS-bypass ผ่าน libfabric API และไดรเวอร์ไคลเอ็นต์ Luster ช่วยให้ POSIX เข้าถึง FSx สำหรับระบบไฟล์แบบขนาน Luster"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The CUDA platform provides the programming model and runtime for GPU compute. Applications compiled against CUDA can launch kernels on NVIDIA GPUs, manage device memory, and coordinate execution across multiple devices. The current release is CUDA Toolkit 13.x, with support for Blackwell architecture (compute capability 10.x).",
-        "th": "The CUDA platform provides the programming model and runtime for GPU compute. Applications compiled against CUDA can launch kernels on NVIDIA GPUs, manage device memory, and coordinate execution across multiple devices. The current release is CUDA Toolkit 13.x, with support for Blackwell architecture (compute capability 10.x)."
+        "th": "แพลตฟอร์ม CUDA มอบโมเดลการเขียนโปรแกรมและรันไทม์สำหรับการประมวลผล GPU แอปพลิเคชันที่คอมไพล์ด้วย CUDA สามารถเรียกใช้เคอร์เนลบน NVIDIA GPU จัดการหน่วยความจำอุปกรณ์ และประสานงานการดำเนินการในอุปกรณ์หลายเครื่อง รุ่นปัจจุบันคือ CUDA Toolkit 13.x พร้อมรองรับสถาปัตยกรรม Blackwell (ความสามารถในการคำนวณ 10.x)"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Modern training and inference performance is increasingly driven by specialized optimization libraries and custom kernels, not just general-purpose vendor primitives. Kernels like FlashAttention fuse attention into a single memory-efficient pass, cutting HBM traffic and improving throughput. Many teams also write shape- and precision-specialized fused kernels (e.g., layernorm/residual/activation, quantized GEMMs, MoE dispatch, KV-cache ops) tuned to their exact models. This is enabled by programmable toolchains such as Triton (Python GPU kernel compiler) and NVIDIA's CuTe (tensor layout and warp-level DSL), with libraries like CUTLASS providing highly optimized GEMM and fusion building blocks. In practice, this kernel and compiler layer often determines end-to-end performance as much as the ML framework.",
-        "th": "Modern training and inference performance is increasingly driven by specialized optimization libraries and custom kernels, not just general-purpose vendor primitives. Kernels like FlashAttention fuse attention into a single memory-efficient pass, cutting HBM traffic and improving throughput. Many teams also write shape- and precision-specialized fused kernels (e.g., layernorm/residual/activation, quantized GEMMs, MoE dispatch, KV-cache ops) tuned to their exact models. This is enabled by programmable toolchains such as Triton (Python GPU kernel compiler) and NVIDIA's CuTe (tensor layout and warp-level DSL), with libraries like CUTLASS providing highly optimized GEMM and fusion building blocks. In practice, this kernel and compiler layer often determines end-to-end performance as much as the ML framework."
+        "th": "ประสิทธิภาพการฝึกอบรมและการอนุมานสมัยใหม่ได้รับแรงผลักดันมากขึ้นจากไลบรารีการปรับให้เหมาะสมเฉพาะทางและเคอร์เนลแบบกำหนดเอง ไม่ใช่แค่ผู้จำหน่ายทั่วไปเท่านั้น เคอร์เนลอย่าง FlashAttention หลอมรวมความสนใจให้เป็นการส่งผ่านหน่วยความจำเดียวที่มีประสิทธิภาพ ลดการรับส่งข้อมูล HBM และปรับปรุงปริมาณงาน หลายทีมยังเขียนเคอร์เนลหลอมรวมเฉพาะทางที่มีรูปทรงและความแม่นยำ (เช่น layernorm/residual/activation, GEMM เชิงปริมาณ, MoE Dispatch, KV-cache ops) ที่ปรับให้เป็นโมเดลที่แน่นอน สิ่งนี้เปิดใช้งานได้โดย toolchains ที่ตั้งโปรแกรมได้ เช่น Triton (คอมไพเลอร์เคอร์เนล Python GPU) และ CuTe ของ NVIDIA (เลย์เอาต์เทนเซอร์และ DSL ระดับวาร์ป) พร้อมด้วยไลบรารีอย่าง CUTLASS ที่ให้ GEMM และบล็อคการสร้างฟิวชั่นที่ได้รับการปรับปรุงอย่างสูง ในทางปฏิบัติ เคอร์เนลและเลเยอร์คอมไพเลอร์นี้มักจะกำหนดประสิทธิภาพแบบ end-to-end มากเท่ากับเฟรมเวิร์ก ML"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Multi-GPU training depends on efficient collective communication. NVIDIA Collective Communications Library (NCCL) implements collective operations—all-reduce, all-gather, reduce-scatter, all-to-all, broadcast, and point-to-point send/receive—with topology-aware algorithms that exploit NVLink for intra-node communication and network transports for inter-node traffic. NCCL dynamically detects the communication topology and selects ring or tree algorithms depending on message size and available bandwidth. While data-parallel and tensor-parallel strategies rely primarily on all-reduce and all-gather, Mixture-of-Experts (MoE) models with expert parallelism depend on all-to-all collectives to route tokens between GPUs: a dispatch all-to-all sends each token to the GPU hosting its assigned expert, and a combine all-to-all returns expert outputs to the originating GPUs (NVIDIA Developer Blog). Because every GPU exchanges data with every other GPU in the expert-parallel group, all-to-all communication volume scales with the number of experts and can become a dominant bottleneck at high expert-parallelism degrees.",
-        "th": "Multi-GPU training depends on efficient collective communication. NVIDIA Collective Communications Library (NCCL) implements collective operations—all-reduce, all-gather, reduce-scatter, all-to-all, broadcast, and point-to-point send/receive—with topology-aware algorithms that exploit NVLink for intra-node communication and network transports for inter-node traffic. NCCL dynamically detects the communication topology and selects ring or tree algorithms depending on message size and available bandwidth. While data-parallel and tensor-parallel strategies rely primarily on all-reduce and all-gather, Mixture-of-Experts (MoE) models with expert parallelism depend on all-to-all collectives to route tokens between GPUs: a dispatch all-to-all sends each token to the GPU hosting its assigned expert, and a combine all-to-all returns expert outputs to the originating GPUs (NVIDIA Developer Blog). Because every GPU exchanges data with every other GPU in the expert-parallel group, all-to-all communication volume scales with the number of experts and can become a dominant bottleneck at high expert-parallelism degrees."
+        "th": "การฝึกอบรม Multi-GPU ขึ้นอยู่กับการสื่อสารโดยรวมที่มีประสิทธิภาพ NVIDIA Collective Communications Library (NCCL) ใช้การดำเนินการแบบรวม—ลดทั้งหมด, รวบรวมทั้งหมด, ลดกระจาย, ทั้งหมดต่อทั้งหมด, ออกอากาศและส่ง/รับแบบจุดต่อจุด—ด้วยอัลกอริธึมการรับรู้โทโพโลยีที่ใช้ประโยชน์จาก NVLink สำหรับการสื่อสารภายในโหนดและการขนส่งเครือข่ายสำหรับการรับส่งข้อมูลระหว่างโหนด NCCL ตรวจจับโทโพโลยีการสื่อสารแบบไดนามิก และเลือกอัลกอริธึมวงแหวนหรือแผนผัง ขึ้นอยู่กับขนาดข้อความและแบนด์วิธที่มีอยู่ ในขณะที่กลยุทธ์ข้อมูลแบบขนานและเทนเซอร์แบบขนานนั้นขึ้นอยู่กับ all-reduce และ all-gather เป็นหลัก โมเดล Mixture-of-Experts (MoE) ที่มีการขนานกันของผู้เชี่ยวชาญนั้นขึ้นอยู่กับกลุ่มแบบ all-to-all เพื่อกำหนดเส้นทางโทเค็นระหว่าง GPU: การจัดส่งแบบ all-to-all จะส่งแต่ละโทเค็นไปยัง GPU ที่โฮสต์ผู้เชี่ยวชาญที่ได้รับมอบหมาย และการรวมแบบ all-to-all จะส่งคืนเอาต์พุตของผู้เชี่ยวชาญไปยัง GPU ต้นกำเนิด (บล็อกนักพัฒนา NVIDIA) เนื่องจาก GPU ทุกตัวแลกเปลี่ยนข้อมูลกับ GPU ตัวอื่นๆ ทุกตัวในกลุ่มผู้เชี่ยวชาญ-คู่ขนาน ปริมาณการสื่อสารแบบ all-to-all จึงปรับขนาดตามจำนวนผู้เชี่ยวชาญ และอาจกลายเป็นคอขวดที่ครอบงำในระดับผู้เชี่ยวชาญ-คู่ขนานในระดับสูง"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "On AWS, NCCL's inter-node communication is enabled through the aws-ofi-nccl plugin, which maps NCCL's transport APIs to libfabric interfaces. This allows NCCL to leverage EFA's OS-bypass and Scalable Reliable Datagram (SRD) protocol without application changes.",
-        "th": "On AWS, NCCL's inter-node communication is enabled through the aws-ofi-nccl plugin, which maps NCCL's transport APIs to libfabric interfaces. This allows NCCL to leverage EFA's OS-bypass and Scalable Reliable Datagram (SRD) protocol without application changes."
+        "th": "บน AWS การสื่อสารระหว่างโหนดของ NCCL เปิดใช้งานผ่านปลั๊กอิน aws-ofi-nccl ซึ่งจะแมป API การขนส่งของ NCCL กับอินเทอร์เฟซ libfabric ซึ่งช่วยให้ NCCL สามารถใช้ประโยชน์จากโปรโตคอล OS-bypass และ Scalable Trusted Datagram (SRD) ของ EFA ได้โดยไม่ต้องเปลี่ยนแปลงแอปพลิเคชัน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "For inference workloads, collective operations do not capture all communication patterns. Disaggregated inference architectures—which separate prefill and decode phases onto distinct GPU pools—require efficient point-to-point data movement, particularly for transferring KV cache state between instances. NVIDIA Inference Xfer Library (NIXL) addresses this requirement by providing a unified API for point-to-point transfers across memory tiers (HBM, DRAM, NVMe, distributed storage) and interconnects (NVLink, InfiniBand, Ethernet). NIXL integrates with inference frameworks such as NVIDIA Dynamo and supports backends including UCX and GPUDirect Storage.",
-        "th": "For inference workloads, collective operations do not capture all communication patterns. Disaggregated inference architectures—which separate prefill and decode phases onto distinct GPU pools—require efficient point-to-point data movement, particularly for transferring KV cache state between instances. NVIDIA Inference Xfer Library (NIXL) addresses this requirement by providing a unified API for point-to-point transfers across memory tiers (HBM, DRAM, NVMe, distributed storage) and interconnects (NVLink, InfiniBand, Ethernet). NIXL integrates with inference frameworks such as NVIDIA Dynamo and supports backends including UCX and GPUDirect Storage."
+        "th": "สำหรับเวิร์กโหลดการอนุมาน การดำเนินการโดยรวมไม่ได้บันทึกรูปแบบการสื่อสารทั้งหมด สถาปัตยกรรมการอนุมานแบบแยกส่วน ซึ่งแยกขั้นตอนการกรอกข้อมูลล่วงหน้าและถอดรหัสไปยังพูล GPU ที่แตกต่างกัน จำเป็นต้องมีการเคลื่อนย้ายข้อมูลแบบจุดต่อจุดที่มีประสิทธิภาพ โดยเฉพาะอย่างยิ่งสำหรับการถ่ายโอนสถานะแคช KV ระหว่างอินสแตนซ์ NVIDIA Inference Xfer Library (NIXL) ตอบสนองความต้องการนี้โดยจัดให้มี API แบบรวมสำหรับการถ่ายโอนแบบจุดต่อจุดข้ามระดับหน่วยความจำ (HBM, DRAM, NVMe, พื้นที่เก็บข้อมูลแบบกระจาย) และการเชื่อมต่อระหว่างกัน (NVLink, InfiniBand, Ethernet) NIXL ทำงานร่วมกับเฟรมเวิร์กการอนุมาน เช่น NVIDIA Dynamo และรองรับแบ็กเอนด์ รวมถึง UCX และ GPUDirect Storage"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The two dominant frameworks for foundation model development are PyTorch and JAX. JAX takes an SPMD (Single Program Multiple Data) approach through XLA, where the same program executes across devices with automatic data distribution and collective lowering. This blog focuses on PyTorch, which sees broader adoption in the open-source ecosystem and forms the basis for the distributed training and inference frameworks discussed below.",
-        "th": "The two dominant frameworks for foundation model development are PyTorch and JAX. JAX takes an SPMD (Single Program Multiple Data) approach through XLA, where the same program executes across devices with automatic data distribution and collective lowering. This blog focuses on PyTorch, which sees broader adoption in the open-source ecosystem and forms the basis for the distributed training and inference frameworks discussed below."
+        "th": "กรอบงานที่โดดเด่นสองประการสำหรับการพัฒนาแบบจำลองพื้นฐานคือ PyTorch และ JAX JAX ใช้แนวทาง SPMD (Single Program Multiple Data) ผ่าน XLA โดยที่โปรแกรมเดียวกันจะดำเนินการบนอุปกรณ์ที่มีการกระจายข้อมูลอัตโนมัติและการลดระดับโดยรวม บล็อกนี้มุ่งเน้นไปที่ PyTorch ซึ่งมองเห็นการนำไปใช้ในระบบนิเวศโอเพ่นซอร์สในวงกว้างมากขึ้น และสร้างพื้นฐานสำหรับกรอบการฝึกอบรมแบบกระจายและการอนุมานที่กล่าวถึงด้านล่าง"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "PyTorch provides tensor computation with GPU acceleration, automatic differentiation, and a flexible eager-execution model. For distributed workloads, PyTorch's torch.distributed module provides the core primitives: process groups for collective communication, and distributed data-parallel abstractions including Distributed Data Parallel (DDP) and Fully Sharded Data Parallel (FSDP2). DDP replicates models across GPUs and synchronizes gradients via all-reduce, while FSDP2 shards parameters, gradients, and optimizer states across workers using techniques from the ZeRO algorithm, enabling training of models that exceed single-GPU memory capacity.",
-        "th": "PyTorch provides tensor computation with GPU acceleration, automatic differentiation, and a flexible eager-execution model. For distributed workloads, PyTorch's torch.distributed module provides the core primitives: process groups for collective communication, and distributed data-parallel abstractions including Distributed Data Parallel (DDP) and Fully Sharded Data Parallel (FSDP2). DDP replicates models across GPUs and synchronizes gradients via all-reduce, while FSDP2 shards parameters, gradients, and optimizer states across workers using techniques from the ZeRO algorithm, enabling training of models that exceed single-GPU memory capacity."
+        "th": "PyTorch ให้การคำนวณเทนเซอร์ด้วยการเร่งความเร็ว GPU การสร้างความแตกต่างอัตโนมัติ และโมเดลการดำเนินการที่ยืดหยุ่น สำหรับปริมาณงานแบบกระจาย โมดูล torch.distributed ของ PyTorch จัดเตรียมแกนหลัก: กลุ่มกระบวนการสำหรับการสื่อสารแบบรวม และบทคัดย่อข้อมูลแบบขนานแบบกระจาย รวมถึง Distributed Data Parallel (DDP) และ Fully Sharded Data Parallel (FSDP2) DDP จำลองโมเดลทั่วทั้ง GPU และซิงโครไนซ์การไล่ระดับสีผ่านการลดทั้งหมด ในขณะที่ FSDP2 แบ่งพารามิเตอร์ การไล่ระดับสี และสถานะเครื่องมือเพิ่มประสิทธิภาพให้กับผู้ปฏิบัติงานโดยใช้เทคนิคจากอัลกอริธึม ZeRO ช่วยให้สามารถฝึกฝนโมเดลที่เกินความจุของหน่วยความจำ GPU เดี่ยวได้"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The top layer comprises frameworks that build on PyTorch to provide higher-level abstractions for distributed training and inference at scale. For training, three categories of frameworks address different points in the complexity-performance tradeoff. Below are few examples",
-        "th": "The top layer comprises frameworks that build on PyTorch to provide higher-level abstractions for distributed training and inference at scale. For training, three categories of frameworks address different points in the complexity-performance tradeoff. Below are few examples"
+        "th": "ชั้นบนสุดประกอบด้วยเฟรมเวิร์กที่สร้างบน PyTorch เพื่อจัดเตรียมนามธรรมในระดับที่สูงขึ้นสำหรับการฝึกอบรมแบบกระจายและการอนุมานตามขนาด สำหรับการฝึกอบรม กรอบงานสามประเภทจะกล่าวถึงจุดที่แตกต่างกันในการแลกเปลี่ยนระหว่างความซับซ้อนและประสิทธิภาพ ด้านล่างนี้เป็นตัวอย่างบางส่วน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Hugging Face Transformers provides the Trainer class with built-in support for distributed training via Accelerate, which abstracts over DDP, FSDP, and DeepSpeed. This path prioritizes ease of use and broad model compatibility, making it suitable for fine-tuning and moderate-scale training where configuration simplicity matters more than maximum throughput.",
-        "th": "Hugging Face Transformers provides the Trainer class with built-in support for distributed training via Accelerate, which abstracts over DDP, FSDP, and DeepSpeed. This path prioritizes ease of use and broad model compatibility, making it suitable for fine-tuning and moderate-scale training where configuration simplicity matters more than maximum throughput."
+        "th": "Hugging Face Transformers มอบคลาส Trainer ที่รองรับการฝึกอบรมแบบกระจายผ่าน Accelerate ซึ่งจะสรุปผ่าน DDP, FSDP และ DeepSpeed เส้นทางนี้ให้ความสำคัญกับความสะดวกในการใช้งานและความเข้ากันได้ของโมเดลในวงกว้าง ทำให้เหมาะสำหรับการปรับแต่งอย่างละเอียดและการฝึกฝนในระดับปานกลาง ซึ่งความเรียบง่ายในการกำหนดค่ามีความสำคัญมากกว่าปริมาณงานสูงสุด"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "NVIDIA Megatron Core targets maximum efficiency at scale, implementing 3D parallelism (tensor, pipeline, and expert parallelism) with optimizations including FP8 mixed precision via Transformer Engine. The NeMo Framework builds on Megatron Core to provide end-to-end workflows for pre-training and fine-tuning.",
-        "th": "NVIDIA Megatron Core targets maximum efficiency at scale, implementing 3D parallelism (tensor, pipeline, and expert parallelism) with optimizations including FP8 mixed precision via Transformer Engine. The NeMo Framework builds on Megatron Core to provide end-to-end workflows for pre-training and fine-tuning."
+        "th": "NVIDIA Megatron Core มุ่งเป้าไปที่ประสิทธิภาพสูงสุดในวงกว้าง โดยใช้ระบบ 3D Parallelism (เทนเซอร์ ไปป์ไลน์ และระบบ Parallelism ของผู้เชี่ยวชาญ) พร้อมการปรับให้เหมาะสม รวมถึงความแม่นยำแบบผสม FP8 ผ่าน Transformer Engine NeMo Framework สร้างขึ้นบน Megatron Core เพื่อให้ขั้นตอนการทำงานแบบ end-to-end สำหรับการฝึกอบรมล่วงหน้าและการปรับแต่งอย่างละเอียด"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "For reinforcement learning from human feedback (RLHF) and related post-training methods, veRL (Volcano Engine Reinforcement Learning) provides a flexible framework that implements algorithms including PPO, GRPO, and REINFORCE++. veRL's HybridFlow architecture allows mixing training backends (FSDP2, Megatron) with inference engines (vLLM, SGLang) in the same job, avoiding weight synchronization overhead by sharing model weights in memory between actor and rollout components.",
-        "th": "For reinforcement learning from human feedback (RLHF) and related post-training methods, veRL (Volcano Engine Reinforcement Learning) provides a flexible framework that implements algorithms including PPO, GRPO, and REINFORCE++. veRL's HybridFlow architecture allows mixing training backends (FSDP2, Megatron) with inference engines (vLLM, SGLang) in the same job, avoiding weight synchronization overhead by sharing model weights in memory between actor and rollout components."
+        "th": "สำหรับการเรียนรู้แบบเสริมกำลังจากผลตอบรับของมนุษย์ (RLHF) และวิธีการหลังการฝึกอบรมที่เกี่ยวข้อง veRL (การเรียนรู้การเสริมกำลังเครื่องยนต์ภูเขาไฟ) มอบเฟรมเวิร์กที่ยืดหยุ่นซึ่งใช้อัลกอริธึม รวมถึง PPO, GRPO และ REINFORCE++ สถาปัตยกรรม HybridFlow ของ veRL ช่วยให้สามารถผสมแบ็กเอนด์การฝึกอบรม (FSDP2, Megatron) กับกลไกการอนุมาน (vLLM, SGLang) ในงานเดียวกัน หลีกเลี่ยงค่าใช้จ่ายในการซิงโครไนซ์น้ำหนักด้วยการแบ่งปันน้ำหนักโมเดลในหน่วยความจำระหว่างนักแสดงและส่วนประกอบการเปิดตัว"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "For inference serving, vLLM implements PagedAttention, managing the KV cache as paged virtual memory to reduce fragmentation and enable higher batch sizes. SGLang extends this with RadixAttention for automatic prefix reuse across requests, a zero-overhead batch scheduler that overlaps CPU scheduling with GPU computation, and a cache-aware load balancer that routes requests based on predicted cache hit rates. Both frameworks support tensor parallelism for serving models that exceed single-GPU memory, and both integrate with NVIDIA Dynamo for disaggregated serving architectures that separate prefill and decode phases.",
-        "th": "For inference serving, vLLM implements PagedAttention, managing the KV cache as paged virtual memory to reduce fragmentation and enable higher batch sizes. SGLang extends this with RadixAttention for automatic prefix reuse across requests, a zero-overhead batch scheduler that overlaps CPU scheduling with GPU computation, and a cache-aware load balancer that routes requests based on predicted cache hit rates. Both frameworks support tensor parallelism for serving models that exceed single-GPU memory, and both integrate with NVIDIA Dynamo for disaggregated serving architectures that separate prefill and decode phases."
+        "th": "สำหรับการให้บริการการอนุมาน vLLM จะใช้ PagedAttention โดยจัดการแคช KV เป็นหน่วยความจำเสมือนแบบเพจเพื่อลดการกระจายตัวและเปิดใช้งานขนาดแบตช์ที่สูงขึ้น SGLang ขยายขอบเขตสิ่งนี้ด้วย RadixAttention สำหรับการนำคำนำหน้ามาใช้ซ้ำโดยอัตโนมัติในคำขอต่างๆ ตัวกำหนดเวลาแบทช์ที่มีค่าใช้จ่ายเป็นศูนย์ที่ทับซ้อนการกำหนดเวลา CPU กับการคำนวณ GPU และตัวโหลดบาลานเซอร์ที่รับรู้แคชซึ่งกำหนดเส้นทางคำขอตามอัตราการเข้าถึงแคชที่คาดการณ์ไว้ เฟรมเวิร์กทั้งสองรองรับเทนเซอร์ขนานสำหรับการให้บริการโมเดลที่มีหน่วยความจำ GPU เดี่ยวเกิน และทั้งสองทำงานร่วมกับ NVIDIA Dynamo สำหรับสถาปัตยกรรมการให้บริการแบบแยกส่วนซึ่งแยกขั้นตอนการเติมล่วงหน้าและถอดรหัส"
       }
     },
     {
       "type": "h3",
       "text": {
         "en": "Observability",
-        "th": "Observability"
+        "th": "ความสามารถในการสังเกต"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Observability is a prerequisite for debugging and operating distributed training systems at scale. When a training job stalls or throughput degrades, practitioners need visibility into whether the cause is hardware failure, network congestion, storage bottlenecks, or application-level inefficiency. At the infrastructure scale discussed in this series—thousands of GPUs, petabits of interconnect bandwidth, and terabytes of checkpoint data—the challenge shifts from simple monitoring to systematic telemetry collection, storage, and analysis. Observability spans three telemetry categories: infrastructure metrics (GPU, network, storage), workload metrics (training throughput, queue latency), and alerting for proactive fault detection.",
-        "th": "Observability is a prerequisite for debugging and operating distributed training systems at scale. When a training job stalls or throughput degrades, practitioners need visibility into whether the cause is hardware failure, network congestion, storage bottlenecks, or application-level inefficiency. At the infrastructure scale discussed in this series—thousands of GPUs, petabits of interconnect bandwidth, and terabytes of checkpoint data—the challenge shifts from simple monitoring to systematic telemetry collection, storage, and analysis. Observability spans three telemetry categories: infrastructure metrics (GPU, network, storage), workload metrics (training throughput, queue latency), and alerting for proactive fault detection."
+        "th": "ความสามารถในการสังเกตเป็นข้อกำหนดเบื้องต้นสำหรับการดีบักและใช้งานระบบการฝึกอบรมแบบกระจายในวงกว้าง เมื่องานฝึกอบรมชะงักหรือปริมาณการประมวลผลลดลง ผู้ปฏิบัติงานจำเป็นต้องเข้าใจว่าสาเหตุมาจากความล้มเหลวของฮาร์ดแวร์ ความแออัดของเครือข่าย ปัญหาคอขวดในการจัดเก็บข้อมูล หรือความไร้ประสิทธิภาพระดับแอปพลิเคชัน ในระดับโครงสร้างพื้นฐานที่กล่าวถึงในซีรี่ส์นี้ ไม่ว่าจะเป็น GPU หลายพันตัว แบนด์วิดท์การเชื่อมต่อระหว่างกันระดับเพตะบิต และข้อมูลจุดตรวจสอบหลายเทราไบต์ ความท้าทายจะเปลี่ยนจากการตรวจสอบอย่างง่ายไปสู่การรวบรวม การจัดเก็บ และการวิเคราะห์การวัดและส่งข้อมูลทางไกลอย่างเป็นระบบ ความสามารถในการสังเกตครอบคลุมการวัดและส่งข้อมูลทางไกลสามประเภท: ตัววัดโครงสร้างพื้นฐาน (GPU, เครือข่าย, พื้นที่จัดเก็บ), ตัววัดภาระงาน (ปริมาณงานการฝึกอบรม, เวลาแฝงของคิว) และการแจ้งเตือนสำหรับการตรวจหาข้อผิดพลาดเชิงรุก"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The de facto standard for observability in Kubernetes and HPC environments combines Prometheus for metrics collection with Grafana for visualization and alerting. Prometheus operates on a pull-based model, periodically scraping HTTP endpoints exposed by metric exporters. Collected metrics are stored in a time-series database (TSDB) and queried via PromQL, a flexible query language for aggregation, filtering, and alerting rule evaluation. Grafana consumes Prometheus as a data source, rendering dashboards and triggering alerts based on PromQL expressions.",
-        "th": "The de facto standard for observability in Kubernetes and HPC environments combines Prometheus for metrics collection with Grafana for visualization and alerting. Prometheus operates on a pull-based model, periodically scraping HTTP endpoints exposed by metric exporters. Collected metrics are stored in a time-series database (TSDB) and queried via PromQL, a flexible query language for aggregation, filtering, and alerting rule evaluation. Grafana consumes Prometheus as a data source, rendering dashboards and triggering alerts based on PromQL expressions."
+        "th": "มาตรฐานโดยพฤตินัยสำหรับความสามารถในการสังเกตในสภาพแวดล้อม Kubernetes และ HPC จะรวม Prometheus สำหรับการรวบรวมตัววัดเข้ากับ Grafana สำหรับการแสดงภาพและการแจ้งเตือน Prometheus ทำงานบนโมเดลแบบดึงข้อมูล โดยจะขูดจุดสิ้นสุด HTTP ที่เปิดเผยโดยผู้ส่งออกเมตริกเป็นระยะๆ ตัววัดที่รวบรวมไว้จะถูกจัดเก็บไว้ในฐานข้อมูลอนุกรมเวลา (TSDB) และสอบถามผ่าน PromQL ซึ่งเป็นภาษาการสืบค้นที่ยืดหยุ่นสำหรับการรวบรวม การกรอง และการประเมินกฎการแจ้งเตือน Grafana ใช้ Prometheus เป็นแหล่งข้อมูล เรนเดอร์แดชบอร์ดและทริกเกอร์การแจ้งเตือนตามนิพจน์ PromQL"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "For production deployments, Amazon Managed Service for Prometheus (AMP) provides a fully managed, Prometheus-compatible time-series database that scales to ingest millions of samples per second without requiring operators to manage storage, replication, or high availability. Amazon Managed Grafana (AMG) offers a managed Grafana workspace with native integration to AMP and AWS authentication via IAM Identity Center. Together, these services eliminate operational overhead while preserving compatibility with existing Prometheus exporters and Grafana dashboards.",
-        "th": "For production deployments, Amazon Managed Service for Prometheus (AMP) provides a fully managed, Prometheus-compatible time-series database that scales to ingest millions of samples per second without requiring operators to manage storage, replication, or high availability. Amazon Managed Grafana (AMG) offers a managed Grafana workspace with native integration to AMP and AWS authentication via IAM Identity Center. Together, these services eliminate operational overhead while preserving compatibility with existing Prometheus exporters and Grafana dashboards."
+        "th": "สำหรับการปรับใช้จริง Amazon Managed Service for Prometheus (AMP) มอบฐานข้อมูลอนุกรมเวลาที่เข้ากันได้กับ Prometheus ที่มีการจัดการเต็มรูปแบบ ซึ่งปรับขนาดเพื่อนำเข้าตัวอย่างหลายล้านตัวอย่างต่อวินาที โดยไม่ต้องให้ผู้ปฏิบัติงานจัดการพื้นที่จัดเก็บ การจำลอง หรือความพร้อมใช้งานสูง Amazon Managed Grafana (AMG) นำเสนอพื้นที่ทำงาน Grafana ที่มีการจัดการพร้อมการผสานรวมแบบเนทิฟกับการตรวจสอบสิทธิ์ AMP และ AWS ผ่าน IAM Identity Center บริการเหล่านี้ร่วมกันขจัดค่าใช้จ่ายในการดำเนินงาน ในขณะเดียวกันก็รักษาความเข้ากันได้กับผู้ส่งออก Prometheus และแดชบอร์ด Grafana ที่มีอยู่"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "DCGM-Exporter exposes NVIDIA GPU metrics in Prometheus format, including utilization, memory usage, power, temperature, and hardware health indicators such as ECC errors and XID events. For training workloads, SM activity (DCGM_FI_PROF_SM_ACTIVE) often provides a more accurate measure of compute efficiency than basic utilization metrics.",
-        "th": "DCGM-Exporter exposes NVIDIA GPU metrics in Prometheus format, including utilization, memory usage, power, temperature, and hardware health indicators such as ECC errors and XID events. For training workloads, SM activity (DCGM_FI_PROF_SM_ACTIVE) often provides a more accurate measure of compute efficiency than basic utilization metrics."
+        "th": "DCGM-Exporter เปิดเผยตัววัด NVIDIA GPU ในรูปแบบ Prometheus รวมถึงการใช้งาน การใช้หน่วยความจำ พลังงาน อุณหภูมิ และตัวบ่งชี้ความสมบูรณ์ของฮาร์ดแวร์ เช่น ข้อผิดพลาด ECC และเหตุการณ์ XID สำหรับปริมาณงานการฝึกอบรม กิจกรรม SM (DCGM_FI_PROF_SM_ACTIVE) มักจะให้การวัดประสิทธิภาพการประมวลผลที่แม่นยำมากกว่าตัวชี้วัดการใช้งานพื้นฐาน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "EFA exposes driver-level statistics (bytes, packets, retransmits, timeouts) that help diagnose collective operation bottlenecks in distributed training. The aws-ofi-nccl plugin bridges NCCL to the libfabric interface, and operators can combine EFA counters with NCCL diagnostics (NCCL_DEBUG=INFO) to isolate network-layer issues.",
-        "th": "EFA exposes driver-level statistics (bytes, packets, retransmits, timeouts) that help diagnose collective operation bottlenecks in distributed training. The aws-ofi-nccl plugin bridges NCCL to the libfabric interface, and operators can combine EFA counters with NCCL diagnostics (NCCL_DEBUG=INFO) to isolate network-layer issues."
+        "th": "EFA เปิดเผยสถิติระดับไดรเวอร์ (ไบต์ แพ็กเก็ต การส่งซ้ำ การหมดเวลา) ที่ช่วยวินิจฉัยปัญหาคอขวดของการดำเนินงานโดยรวมในการฝึกอบรมแบบกระจาย ปลั๊กอิน aws-ofi-nccl เชื่อมโยง NCCL กับอินเทอร์เฟซ libfabric และผู้ปฏิบัติงานสามารถรวมตัวนับ EFA เข้ากับการวินิจฉัย NCCL (NCCL_DEBUG=INFO) เพื่อแยกปัญหาเลเยอร์เครือข่าย"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Amazon FSx for Lustre exposes client-side metrics including throughput and metadata latency, while application-level metrics (step time, tokens per second, loss values for training; TTFT, inter-token latency for inference) can be exported via Prometheus client libraries.",
-        "th": "Amazon FSx for Lustre exposes client-side metrics including throughput and metadata latency, while application-level metrics (step time, tokens per second, loss values for training; TTFT, inter-token latency for inference) can be exported via Prometheus client libraries."
+        "th": "Amazon FSx for Luster เปิดเผยตัววัดฝั่งไคลเอ็นต์ซึ่งรวมถึงปริมาณงานและเวลาแฝงของข้อมูลเมตา ในขณะที่ตัววัดระดับแอปพลิเคชัน (เวลาเป็นขั้นตอน โทเค็นต่อวินาที ค่าที่สูญเสียไปสำหรับการฝึกฝน TTFT เวลาแฝงระหว่างโทเค็นสำหรับการอนุมาน) สามารถส่งออกผ่านไลบรารีไคลเอ็นต์ Prometheus"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Proactive fault detection prevents hardware issues from propagating into extended training interruptions. A typical workflow monitors DCGM health metrics and triggers alerts when error counts exceed thresholds. ECC single-bit errors (SBE) may be tolerable in small numbers, but accelerating SBE rates often precede double-bit errors (DBE) or other failures. XID 63 (row remap failure), XID 64 (GPU fallen off bus), and XID 94/95 (contained/uncontained errors) typically warrant immediate node replacement.",
-        "th": "Proactive fault detection prevents hardware issues from propagating into extended training interruptions. A typical workflow monitors DCGM health metrics and triggers alerts when error counts exceed thresholds. ECC single-bit errors (SBE) may be tolerable in small numbers, but accelerating SBE rates often precede double-bit errors (DBE) or other failures. XID 63 (row remap failure), XID 64 (GPU fallen off bus), and XID 94/95 (contained/uncontained errors) typically warrant immediate node replacement."
+        "th": "การตรวจจับข้อบกพร่องเชิงรุกจะป้องกันไม่ให้ปัญหาด้านฮาร์ดแวร์แพร่กระจายไปสู่การหยุดชะงักในการฝึกอบรมที่ขยายเวลาออกไป ขั้นตอนการทำงานทั่วไปจะตรวจสอบตัววัดความสมบูรณ์ของ DCGM และทริกเกอร์การแจ้งเตือนเมื่อจำนวนข้อผิดพลาดเกินเกณฑ์ ข้อผิดพลาดบิตเดียวของ ECC (SBE) อาจยอมรับได้ในจำนวนน้อย แต่การเร่งอัตรา SBE มักจะอยู่ข้างหน้าข้อผิดพลาดบิตสองเท่า (DBE) หรือความล้มเหลวอื่นๆ XID 63 (การรีแมปแถวล้มเหลว), XID 64 (GPU หลุดจากบัส) และ XID 94/95 (ข้อผิดพลาดที่มี/ไม่มี) โดยทั่วไปรับประกันการเปลี่ยนโหนดทันที"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The GPU Health - Cluster dashboard (Grafana dashboard ID 21645) provides a reference visualization for common GPU error patterns. The dashboard aggregates ECC errors, XID events, thermal violations, and row remapping status across all cluster nodes, enabling operators to identify failing hardware before it impacts training jobs.",
-        "th": "The GPU Health - Cluster dashboard (Grafana dashboard ID 21645) provides a reference visualization for common GPU error patterns. The dashboard aggregates ECC errors, XID events, thermal violations, and row remapping status across all cluster nodes, enabling operators to identify failing hardware before it impacts training jobs."
+        "th": "ความสมบูรณ์ของ GPU - แดชบอร์ดคลัสเตอร์ (แดชบอร์ด Grafana ID 21645) ให้การแสดงภาพข้อมูลอ้างอิงสำหรับรูปแบบข้อผิดพลาดทั่วไปของ GPU แดชบอร์ดจะรวมข้อผิดพลาด ECC, เหตุการณ์ XID, การละเมิดอุณหภูมิ และสถานะการแมปแถวในโหนดคลัสเตอร์ทั้งหมด ช่วยให้ผู้ปฏิบัติงานสามารถระบุฮาร์ดแวร์ที่ล้มเหลวก่อนที่จะส่งผลกระทบต่องานการฝึกอบรม"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Figure 4: GPU Health - Cluster dashboard showing GPU error patterns and instance reporting",
-        "th": "Figure 4: GPU Health - Cluster dashboard showing GPU error patterns and instance reporting"
+        "th": "รูปที่ 4: ความสมบูรณ์ของ GPU - แดชบอร์ดคลัสเตอร์ที่แสดงรูปแบบข้อผิดพลาดของ GPU และการรายงานอินสแตนซ์"
       }
     },
     {
@@ -592,63 +592,63 @@
       "type": "h2",
       "text": {
         "en": "Conclusion",
-        "th": "Conclusion"
+        "th": "บทสรุป"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The shift from a single pre-training scaling law to three complementary regimes—pre-training, post-training, and test-time compute—has not fragmented infrastructure requirements; it has reinforced them. All three regimes demand tightly coupled accelerator compute, high-bandwidth low-latency networking, and scalable distributed storage, differing mainly in workload profile and resource scheduling patterns.",
-        "th": "The shift from a single pre-training scaling law to three complementary regimes—pre-training, post-training, and test-time compute—has not fragmented infrastructure requirements; it has reinforced them. All three regimes demand tightly coupled accelerator compute, high-bandwidth low-latency networking, and scalable distributed storage, differing mainly in workload profile and resource scheduling patterns."
+        "th": "การเปลี่ยนจากกฎหมายการปรับขนาดก่อนการฝึกอบรมฉบับเดียวไปเป็นระบอบการปกครองเสริมสามรูปแบบ ได้แก่ การประมวลผลก่อนการฝึกอบรม หลังการฝึกอบรม และการประมวลผลเวลาทดสอบ ไม่ได้ทำให้ข้อกำหนดด้านโครงสร้างพื้นฐานกระจัดกระจาย มันได้เสริมกำลังพวกเขา ทั้งสามระบบต้องการการประมวลผลแบบเร่งความเร็วที่เชื่อมโยงกันอย่างแน่นหนา เครือข่ายที่มีแบนด์วิธสูง เวลาแฝงต่ำ และพื้นที่จัดเก็บแบบกระจายที่ปรับขนาดได้ โดยส่วนใหญ่จะแตกต่างกันที่โปรไฟล์ปริมาณงานและรูปแบบการกำหนดเวลาทรัพยากร"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "This post surfaced the four-layer architecture that addresses those requirements on AWS: infrastructure building blocks (EC2 P-instances, EFA networking, and tiered storage), resource orchestration (Slurm and Kubernetes with SageMaker HyperPod), the ML software stack (from kernel drivers and CUDA through NCCL to PyTorch), and observability (Prometheus, Grafana, and GPU health monitoring). Each layer constrains and enables the layers above it—a misconfigured driver or saturated network link can bottleneck an otherwise well-tuned training run just as effectively as a suboptimal parallelism strategy.",
-        "th": "This post surfaced the four-layer architecture that addresses those requirements on AWS: infrastructure building blocks (EC2 P-instances, EFA networking, and tiered storage), resource orchestration (Slurm and Kubernetes with SageMaker HyperPod), the ML software stack (from kernel drivers and CUDA through NCCL to PyTorch), and observability (Prometheus, Grafana, and GPU health monitoring). Each layer constrains and enables the layers above it—a misconfigured driver or saturated network link can bottleneck an otherwise well-tuned training run just as effectively as a suboptimal parallelism strategy."
+        "th": "โพสต์นี้แสดงสถาปัตยกรรมสี่เลเยอร์ที่ตอบสนองความต้องการเหล่านั้นบน AWS: โครงสร้างโครงสร้างพื้นฐาน (อินสแตนซ์ P ของ EC2, เครือข่าย EFA และพื้นที่จัดเก็บแบบแบ่งระดับ), การประสานทรัพยากร (Slurm และ Kubernetes พร้อม SageMaker HyperPod), สแต็กซอฟต์แวร์ ML (จากไดรเวอร์เคอร์เนลและ CUDA ผ่าน NCCL ไปจนถึง PyTorch) และความสามารถในการสังเกต (การตรวจสอบสภาพของ Prometheus, Grafana และ GPU) แต่ละเลเยอร์จะจำกัดและเปิดใช้งานเลเยอร์ที่อยู่ด้านบนได้ ไดรเวอร์ที่กำหนดค่าไม่ถูกต้องหรือลิงก์เครือข่ายที่อิ่มตัวอาจทำให้เกิดคอขวดในการดำเนินการฝึกอบรมที่ได้รับการปรับแต่งมาอย่างดีอย่างมีประสิทธิผลพอๆ กับกลยุทธ์การทำงานแบบขนานที่ต่ำกว่ามาตรฐาน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Understanding these integration points is the foundation for diagnosing performance bottlenecks and making informed scaling decisions across the foundation model lifecycle.",
-        "th": "Understanding these integration points is the foundation for diagnosing performance bottlenecks and making informed scaling decisions across the foundation model lifecycle."
+        "th": "การทำความเข้าใจจุดบูรณาการเหล่านี้เป็นรากฐานสำหรับการวินิจฉัยปัญหาคอขวดของประสิทธิภาพ และการตัดสินใจในการปรับขนาดอย่างมีข้อมูลตลอดวงจรชีวิตของโมเดลพื้นฐาน"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Authors",
-        "th": "Authors"
+        "th": "ผู้เขียน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Aman Shanbhag is an AI Performance and Infrastructure Engineer on the MARS MLOps team at NVIDIA, where he helps research teams build scalable, high-performance ML training and inference systems. He previously worked as a Specialist Solutions Architect at AWS, supporting customers worldwide with ML training and inference optimization on AWS. Aman holds degrees in computer science, mathematics, and entrepreneurship from Rice University and focuses on AI infrastructure, performance optimization, and distributed training and inference.",
-        "th": "Aman Shanbhag is an AI Performance and Infrastructure Engineer on the MARS MLOps team at NVIDIA, where he helps research teams build scalable, high-performance ML training and inference systems. He previously worked as a Specialist Solutions Architect at AWS, supporting customers worldwide with ML training and inference optimization on AWS. Aman holds degrees in computer science, mathematics, and entrepreneurship from Rice University and focuses on AI infrastructure, performance optimization, and distributed training and inference."
+        "th": "Aman Shanbhag เป็นวิศวกรด้านประสิทธิภาพและโครงสร้างพื้นฐานของ AI ในทีม MARS MLOps ที่ NVIDIA ซึ่งเขาช่วยทีมวิจัยสร้างระบบการฝึกอบรมและการอนุมาน ML ประสิทธิภาพสูงที่ปรับขนาดได้ ก่อนหน้านี้เขาเคยทำงานเป็นสถาปนิกโซลูชันผู้เชี่ยวชาญที่ AWS ซึ่งสนับสนุนลูกค้าทั่วโลกด้วยการฝึกอบรม ML และการเพิ่มประสิทธิภาพการอนุมานบน AWS Aman สำเร็จการศึกษาระดับปริญญาตรีสาขาวิทยาการคอมพิวเตอร์ คณิตศาสตร์ และการเป็นผู้ประกอบการจาก Rice University และมุ่งเน้นไปที่โครงสร้างพื้นฐาน AI การเพิ่มประสิทธิภาพการทำงาน และการฝึกอบรมและการอนุมานแบบกระจาย"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Pavel Belevich is a Senior Applied Scientist in the GenAI ML Frameworks team at Amazon Web Services. He applies his research in distributed training and large-model inference to real customer workloads at production scale. Before joining AWS, Pavel worked on the PyTorch Distributed team, contributing to core distributed training techniques such as FSDP and Pipeline Parallelism. At AWS, he works on MoE communication patterns and large-scale serving/training workflows. He also regularly shares best practices through technical deep dives on expert parallelism and large-model systems.",
-        "th": "Pavel Belevich is a Senior Applied Scientist in the GenAI ML Frameworks team at Amazon Web Services. He applies his research in distributed training and large-model inference to real customer workloads at production scale. Before joining AWS, Pavel worked on the PyTorch Distributed team, contributing to core distributed training techniques such as FSDP and Pipeline Parallelism. At AWS, he works on MoE communication patterns and large-scale serving/training workflows. He also regularly shares best practices through technical deep dives on expert parallelism and large-model systems."
+        "th": "Pavel Belevich เป็นนักวิทยาศาสตร์ประยุกต์อาวุโสในทีม GenAI ML Frameworks ที่ Amazon Web Services เขาใช้งานวิจัยของเขาในการฝึกอบรมแบบกระจายและการอนุมานแบบจำลองขนาดใหญ่กับปริมาณงานของลูกค้าจริงในระดับการผลิต ก่อนที่จะมาร่วมงานกับ AWS Pavel ทำงานในทีม PyTorch Distributed โดยมีส่วนร่วมในเทคนิคการฝึกอบรมหลักแบบกระจาย เช่น FSDP และ Pipeline Parallelism ที่ AWS เขาทำงานเกี่ยวกับรูปแบบการสื่อสาร MoE และเวิร์กโฟลว์การให้บริการ/การฝึกอบรมขนาดใหญ่ นอกจากนี้เขายังแบ่งปันแนวทางปฏิบัติที่ดีที่สุดเป็นประจำผ่านการเจาะลึกทางเทคนิคเกี่ยวกับความเท่าเทียมของผู้เชี่ยวชาญและระบบแบบจำลองขนาดใหญ่"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Keita Watanabe is a Principal Solutions Architect in the GenAI ML Frameworks team at Amazon Web Services, where he specializes in ML systems performance engineering and supporting customers worldwide with ML training and inference optimization on AWS. His background is in machine learning research and development. Prior to joining AWS, Keita worked at Rakuten as a research scientist, developing an image-based product search system. Keita holds a PhD in Science from the University of Tokyo.",
-        "th": "Keita Watanabe is a Principal Solutions Architect in the GenAI ML Frameworks team at Amazon Web Services, where he specializes in ML systems performance engineering and supporting customers worldwide with ML training and inference optimization on AWS. His background is in machine learning research and development. Prior to joining AWS, Keita worked at Rakuten as a research scientist, developing an image-based product search system. Keita holds a PhD in Science from the University of Tokyo."
+        "th": "Keita Watanabe เป็นสถาปนิกโซลูชันหลักในทีม GenAI ML Frameworks ที่ Amazon Web Services ซึ่งเขาเชี่ยวชาญด้านวิศวกรรมประสิทธิภาพของระบบ ML และให้การสนับสนุนลูกค้าทั่วโลกด้วยการฝึกอบรม ML และการเพิ่มประสิทธิภาพการอนุมานบน AWS พื้นหลังของเขาอยู่ในการวิจัยและพัฒนาการเรียนรู้ของเครื่อง ก่อนที่จะมาร่วมงานกับ AWS Keita เคยทำงานที่ Rakuten ในตำแหน่งนักวิทยาศาสตร์การวิจัย โดยพัฒนาระบบค้นหาผลิตภัณฑ์ตามรูปภาพ Keita สำเร็จการศึกษาระดับปริญญาเอกสาขาวิทยาศาสตร์จากมหาวิทยาลัยโตเกียว"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "More from this author",
-        "th": "More from this author"
+        "th": "เพิ่มเติมจากผู้เขียนคนนี้"
       }
     },
     {
@@ -660,7 +660,7 @@
       "type": "h2",
       "text": {
         "en": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-        "th": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot"
+        "th": "ตั้งแต่ Hugging Face Hub ไปจนถึงฮาร์ดแวร์หุ่นยนต์ด้วย Strands Agents และ LeRobot"
       }
     },
     {
@@ -672,7 +672,7 @@
       "type": "h3",
       "text": {
         "en": "Community",
-        "th": "Community"
+        "th": "ชุมชน"
       }
     },
     {
@@ -684,14 +684,14 @@
       "type": "p",
       "text": {
         "en": "Super helpful.",
-        "th": "Super helpful."
+        "th": "มีประโยชน์สุดๆ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
-        "th": "· Sign up or log in to comment"
+        "th": "· ลงทะเบียนหรือเข้าสู่ระบบเพื่อแสดงความคิดเห็น"
       }
     },
     {

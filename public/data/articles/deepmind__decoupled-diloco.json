@@ -8,18 +8,18 @@
   "image": "https://lh3.googleusercontent.com/1-K_kcmoX-fIzTJ13T0-uF4gylS2tK00ZVvx87B2WSayzUS2fxDoDDXFq5hOhxptrBeG8AbjG_URN5OOTpGMqad9zILjMsTdAHWroiDKpziBQjzErw=w528-h297-n-nu-rw-lo",
   "title": {
     "en": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
-    "th": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training"
+    "th": "DiLoCo แบบแยกส่วน: ขอบเขตใหม่สำหรับการฝึกอบรม AI แบบกระจายที่มีความยืดหยุ่น"
   },
   "summary": {
     "en": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
-    "th": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training"
+    "th": "DiLoCo แบบแยกส่วน: ขอบเขตใหม่สำหรับการฝึกอบรม AI แบบกระจายที่มีความยืดหยุ่น"
   },
   "body": [
     {
       "type": "p",
       "text": {
         "en": "Arthur Douillard and the DiLoCo team",
-        "th": "Arthur Douillard and the DiLoCo team"
+        "th": "Arthur Douillard และทีมงาน DiLoCo"
       }
     },
     {
@@ -36,35 +36,35 @@
       "type": "p",
       "text": {
         "en": "Our new distributed architecture helps to train LLMs across distant data centers - with lower bandwidth and more hardware resiliency.",
-        "th": "Our new distributed architecture helps to train LLMs across distant data centers - with lower bandwidth and more hardware resiliency."
+        "th": "สถาปัตยกรรมแบบกระจายใหม่ของเราช่วยฝึกอบรม LLM ทั่วทั้งศูนย์ข้อมูลที่ห่างไกล - ด้วยแบนด์วิธที่ต่ำกว่าและความยืดหยุ่นของฮาร์ดแวร์ที่มากขึ้น"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Training a frontier AI model traditionally depends on a large, tightly coupled system in which identical chips must stay in near-perfect synchronization. This approach is highly effective for today’s state-of-the-art models, but as we look toward future generations of scale, maintaining this level of synchronization across thousands of chips becomes a significant logistical challenge.",
-        "th": "Training a frontier AI model traditionally depends on a large, tightly coupled system in which identical chips must stay in near-perfect synchronization. This approach is highly effective for today’s state-of-the-art models, but as we look toward future generations of scale, maintaining this level of synchronization across thousands of chips becomes a significant logistical challenge."
+        "th": "การฝึกโมเดล AI ระดับแนวหน้านั้นแต่เดิมจะขึ้นอยู่กับระบบขนาดใหญ่ที่เชื่อมต่อกันแน่น ซึ่งชิปที่เหมือนกันจะต้องอยู่ในการซิงโครไนซ์ที่เกือบจะสมบูรณ์แบบ แนวทางนี้มีประสิทธิภาพสูงสำหรับโมเดลที่ล้ำสมัยในปัจจุบัน แต่เมื่อเรามองไปยังรุ่นต่อๆ ไป การรักษาระดับการซิงโครไนซ์ชิปนับพันตัวในระดับนี้จะกลายเป็นความท้าทายด้านลอจิสติกส์ที่สำคัญ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Today, in a new paper we are excited to share a new approach to this problem, called Decoupled DiLoCo (Distributed Low-Communication). By dividing large training runs across decoupled “islands” of compute, with asynchronous data flowing between them, this architecture isolates local disruptions so that other parts of the system can keep learning efficiently.",
-        "th": "Today, in a new paper we are excited to share a new approach to this problem, called Decoupled DiLoCo (Distributed Low-Communication). By dividing large training runs across decoupled “islands” of compute, with asynchronous data flowing between them, this architecture isolates local disruptions so that other parts of the system can keep learning efficiently."
+        "th": "วันนี้ ในรายงานฉบับใหม่ เรารู้สึกตื่นเต้นที่จะแบ่งปันแนวทางใหม่ในการแก้ไขปัญหานี้ ที่เรียกว่า Decoupled DiLoCo (Distributed Low-Communication) ด้วยการแบ่งการฝึกอบรมขนาดใหญ่ข้าม “เกาะ” ของการประมวลผลที่แยกจากกัน โดยมีข้อมูลแบบอะซิงโครนัสไหลไปมาระหว่างกัน สถาปัตยกรรมนี้จะแยกการหยุดชะงักในพื้นที่ เพื่อให้ส่วนอื่นๆ ของระบบสามารถเรียนรู้ได้อย่างมีประสิทธิภาพต่อไป"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The result is a more resilient and flexible way to train advanced models across globally distributed data centers. And crucially, Decoupled DiLoCo does not suffer the communication delays that made previous distributed methods like Data-Parallel impractical at global scale.",
-        "th": "The result is a more resilient and flexible way to train advanced models across globally distributed data centers. And crucially, Decoupled DiLoCo does not suffer the communication delays that made previous distributed methods like Data-Parallel impractical at global scale."
+        "th": "ผลลัพธ์ที่ได้คือวิธีที่ยืดหยุ่นและยืดหยุ่นมากขึ้นในการฝึกอบรมโมเดลขั้นสูงในศูนย์ข้อมูลที่กระจายอยู่ทั่วโลก และที่สำคัญ Decoupled DiLoCo จะไม่ประสบปัญหาความล่าช้าในการสื่อสาร ซึ่งทำให้วิธีการแบบกระจายก่อนหน้านี้ เช่น Data-Parallel ไม่สามารถทำได้ในระดับโลก"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "As frontier models continue to grow in scale and complexity, we’re exploring diverse approaches to train models across more compute, locations and varied hardware.",
-        "th": "As frontier models continue to grow in scale and complexity, we’re exploring diverse approaches to train models across more compute, locations and varied hardware."
+        "th": "เนื่องจากโมเดลระดับแนวหน้ายังคงเติบโตทั้งในด้านขนาดและความซับซ้อน เรากำลังสำรวจแนวทางที่หลากหลายเพื่อฝึกฝนโมเดลผ่านการประมวลผล สถานที่ และฮาร์ดแวร์ที่หลากหลายมากขึ้น"
       }
     },
     {
@@ -81,42 +81,42 @@
       "type": "p",
       "text": {
         "en": "Figure 1: Decoupling training runs into separate “islands” of compute (learner units) allows largely uninterrupted training despite the same level of hardware failures, because the effects of those failures are isolated.",
-        "th": "Figure 1: Decoupling training runs into separate “islands” of compute (learner units) allows largely uninterrupted training despite the same level of hardware failures, because the effects of those failures are isolated."
+        "th": "รูปที่ 1: การแยกการฝึกอบรมออกเป็น “ส่วนต่างๆ” ของการประมวลผล (หน่วยงานผู้เรียน) ที่แยกจากกัน ช่วยให้การฝึกอบรมส่วนใหญ่ไม่หยุดชะงัก แม้ว่าฮาร์ดแวร์จะล้มเหลวในระดับเดียวกันก็ตาม เนื่องจากผลกระทบของความล้มเหลวเหล่านั้นจะถูกแยกออกจากกัน"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Developing more fault-tolerant asynchronous training at scale",
-        "th": "Developing more fault-tolerant asynchronous training at scale"
+        "th": "การพัฒนาการฝึกอบรมแบบอะซิงโครนัสที่ทนต่อข้อผิดพลาดได้มากขึ้นในวงกว้าง"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Decoupled DiLoCo builds on two earlier advances: Pathways, which introduced a distributed AI system based on asynchronous data flow, and DiLoCo, which dramatically reduced the bandwidth required between distributed data centers, making it practical to train large language models across distant locations.",
-        "th": "Decoupled DiLoCo builds on two earlier advances: Pathways, which introduced a distributed AI system based on asynchronous data flow, and DiLoCo, which dramatically reduced the bandwidth required between distributed data centers, making it practical to train large language models across distant locations."
+        "th": "DiLoCo แบบแยกส่วนสร้างขึ้นจากความก้าวหน้าก่อนหน้านี้สองประการ: Pathways ซึ่งนำเสนอระบบ AI แบบกระจายตามกระแสข้อมูลแบบอะซิงโครนัส และ DiLoCo ซึ่งลดแบนด์วิดท์ที่จำเป็นระหว่างศูนย์ข้อมูลแบบกระจายลงอย่างมาก ทำให้สามารถฝึกโมเดลภาษาขนาดใหญ่ข้ามสถานที่ห่างไกลได้"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Decoupled DiLoCo brings those ideas together to train AI models more flexibly at scale. Built on top of Pathways, it enables asynchronous training across separate islands of compute (known as learner units) so that a chip failure in one area doesn’t interrupt the progress of the others.",
-        "th": "Decoupled DiLoCo brings those ideas together to train AI models more flexibly at scale. Built on top of Pathways, it enables asynchronous training across separate islands of compute (known as learner units) so that a chip failure in one area doesn’t interrupt the progress of the others."
+        "th": "DiLoCo แบบแยกส่วนนำแนวคิดเหล่านั้นมารวมกันเพื่อฝึกฝนโมเดล AI ได้อย่างยืดหยุ่นมากขึ้นในขนาดต่างๆ สร้างขึ้นบน Pathways ช่วยให้สามารถฝึกอบรมแบบอะซิงโครนัสข้ามเกาะแห่งการประมวลผลที่แยกจากกัน (เรียกว่าหน่วยผู้เรียน) เพื่อให้ชิปที่ล้มเหลวในพื้นที่หนึ่งไม่ขัดขวางความก้าวหน้าของพื้นที่อื่น"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "This infrastructure is also self-healing. In testing, we used a method called “chaos engineering” to introduce artificial hardware failures during training runs. Decoupled DiLoCo continued the training process after the loss of entire learner units, and then seamlessly reintegrated them when they came back online.",
-        "th": "This infrastructure is also self-healing. In testing, we used a method called “chaos engineering” to introduce artificial hardware failures during training runs. Decoupled DiLoCo continued the training process after the loss of entire learner units, and then seamlessly reintegrated them when they came back online."
+        "th": "โครงสร้างพื้นฐานนี้ยังสามารถรักษาตัวเองได้ ในการทดสอบ เราใช้วิธีที่เรียกว่า “วิศวกรรมความโกลาหล” เพื่อแนะนำความล้มเหลวของฮาร์ดแวร์เทียมระหว่างการฝึกซ้อม DiLoCo แบบแยกส่วนยังคงดำเนินกระบวนการฝึกอบรมต่อไปหลังจากสูญเสียหน่วยการเรียนรู้ทั้งหมด จากนั้นจึงรวมหน่วยเหล่านั้นกลับคืนสู่ระบบออนไลน์ได้อย่างราบรื่น"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Testing Decoupled DiLoCo with Gemma 4 models demonstrated that, when hardware fails, the system maintains greater availability of learning clusters than more traditional training methods — while ultimately delivering the same benchmarked level of machine learning (ML) performance.",
-        "th": "Testing Decoupled DiLoCo with Gemma 4 models demonstrated that, when hardware fails, the system maintains greater availability of learning clusters than more traditional training methods — while ultimately delivering the same benchmarked level of machine learning (ML) performance."
+        "th": "การทดสอบ DiLoCo แบบแยกส่วนด้วยโมเดล Gemma 4 แสดงให้เห็นว่า เมื่อฮาร์ดแวร์ล้มเหลว ระบบจะรักษาความพร้อมใช้งานของคลัสเตอร์การเรียนรู้ไว้มากกว่าวิธีการฝึกอบรมแบบเดิมๆ ขณะเดียวกันก็มอบประสิทธิภาพการเรียนรู้ของเครื่องจักร (ML) ในระดับมาตรฐานเดียวกันในท้ายที่สุด"
       }
     },
     {
@@ -133,84 +133,84 @@
       "type": "p",
       "text": {
         "en": "Figure 2: Left: The Decoupled DiLoCo approach requires orders of magnitude less bandwidth than conventional training methods, making it very efficient. Middle: With increasing levels of hardware failure, Decoupled DiLoCo continues to deliver a high level of “goodput”, or useful training, while that of other approaches nosedives. (The first two charts are based on simulated training runs). Right: In real-world experiments, the benchmarked ML performance of Gemma 4 models trained using Decoupled DiLoCo equalled the performance attained with conventional training approaches.",
-        "th": "Figure 2: Left: The Decoupled DiLoCo approach requires orders of magnitude less bandwidth than conventional training methods, making it very efficient. Middle: With increasing levels of hardware failure, Decoupled DiLoCo continues to deliver a high level of “goodput”, or useful training, while that of other approaches nosedives. (The first two charts are based on simulated training runs). Right: In real-world experiments, the benchmarked ML performance of Gemma 4 models trained using Decoupled DiLoCo equalled the performance attained with conventional training approaches."
+        "th": "รูปที่ 2: ซ้าย: วิธี Decoupled DiLoCo ต้องการแบนด์วิธที่มีขนาดน้อยกว่าวิธีการฝึกอบรมแบบเดิมๆ ทำให้มีประสิทธิภาพมาก กลาง: ด้วยระดับความล้มเหลวของฮาร์ดแวร์ที่เพิ่มขึ้น Decoupled DiLoCo ยังคงมอบ \"goodput\" หรือการฝึกอบรมที่เป็นประโยชน์ในระดับสูง ในขณะที่แนวทางอื่นๆ ตกต่ำลง (สองแผนภูมิแรกอิงตามการวิ่งฝึกซ้อมจำลอง) ขวา: ในการทดลองในโลกแห่งความเป็นจริง ประสิทธิภาพ ML ที่ได้รับการเปรียบเทียบของโมเดล Gemma 4 ที่ได้รับการฝึกโดยใช้ Decoupled DiLoCo เท่ากับประสิทธิภาพที่ได้รับจากแนวทางการฝึกแบบเดิมๆ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Decoupled DiLoCo is not only more resilient to failures, but is also practical for executing production-level, fully distributed pre-training. We successfully trained a 12 billion parameter model across four separate U.S. regions using 2-5 Gbps of wide-area networking (a level relatively achievable using existing internet connectivity between datacenter facilities, rather than requiring new custom network infrastructure between facilities). Notably, the system achieved this training result more than 20 times faster than conventional synchronization methods. This is because our system incorporates required communication into longer periods of computation, avoiding the \"blocking\" bottlenecks where one part of the system must wait for another.",
-        "th": "Decoupled DiLoCo is not only more resilient to failures, but is also practical for executing production-level, fully distributed pre-training. We successfully trained a 12 billion parameter model across four separate U.S. regions using 2-5 Gbps of wide-area networking (a level relatively achievable using existing internet connectivity between datacenter facilities, rather than requiring new custom network infrastructure between facilities). Notably, the system achieved this training result more than 20 times faster than conventional synchronization methods. This is because our system incorporates required communication into longer periods of computation, avoiding the \"blocking\" bottlenecks where one part of the system must wait for another."
+        "th": "DiLoCo แบบแยกส่วนไม่เพียงแต่มีความยืดหยุ่นต่อความล้มเหลวมากขึ้นเท่านั้น แต่ยังใช้งานได้จริงในการดำเนินการฝึกอบรมล่วงหน้าระดับการผลิตแบบกระจายเต็มรูปแบบอีกด้วย เราประสบความสำเร็จในการฝึกโมเดลพารามิเตอร์ 12 พันล้านตัวในภูมิภาคสี่แห่งของสหรัฐอเมริกาโดยใช้เครือข่ายบริเวณกว้าง 2-5 Gbps (ระดับที่ค่อนข้างทำได้โดยใช้การเชื่อมต่ออินเทอร์เน็ตที่มีอยู่ระหว่างศูนย์ข้อมูล แทนที่จะต้องใช้โครงสร้างพื้นฐานเครือข่ายแบบกำหนดเองใหม่ระหว่างสิ่งอำนวยความสะดวก) โดยเฉพาะอย่างยิ่ง ระบบได้รับผลการฝึกนี้เร็วกว่าวิธีการซิงโครไนซ์แบบเดิมๆ ถึง 20 เท่า เนื่องจากระบบของเรารวมการสื่อสารที่จำเป็นเข้ากับระยะเวลาการคำนวณที่ยาวนานขึ้น หลีกเลี่ยงปัญหาคอขวดที่ \"ปิดกั้น\" ซึ่งส่วนหนึ่งของระบบต้องรออีกส่วนหนึ่ง"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Driving the evolution of AI training infrastructure",
-        "th": "Driving the evolution of AI training infrastructure"
+        "th": "ขับเคลื่อนวิวัฒนาการของโครงสร้างพื้นฐานการฝึกอบรม AI"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "At Google, we take a full-stack approach to AI training, spanning hardware, software infrastructure and research. Increasingly, gains are coming from rethinking how these layers fit together.",
-        "th": "At Google, we take a full-stack approach to AI training, spanning hardware, software infrastructure and research. Increasingly, gains are coming from rethinking how these layers fit together."
+        "th": "ที่ Google เราใช้แนวทางเต็มรูปแบบในการฝึกอบรม AI ครอบคลุมทั้งฮาร์ดแวร์ โครงสร้างพื้นฐานซอฟต์แวร์ และการวิจัย ผลกำไรเพิ่มมากขึ้นจากการคิดใหม่ว่าเลเยอร์เหล่านี้เข้ากันได้อย่างไร"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Decoupled DiLoCo is one example. By enabling training jobs at internet-scale bandwidth, it can tap any unused compute wherever it sits, turning stranded resources into useful capacity.",
-        "th": "Decoupled DiLoCo is one example. By enabling training jobs at internet-scale bandwidth, it can tap any unused compute wherever it sits, turning stranded resources into useful capacity."
+        "th": "DiLoCo แบบแยกส่วนเป็นตัวอย่างหนึ่ง ด้วยการเปิดใช้งานการฝึกอบรมที่แบนด์วิดธ์ระดับอินเทอร์เน็ต ทำให้สามารถแตะคอมพิวเตอร์ที่ไม่ได้ใช้ไม่ว่าจะอยู่ที่ใดก็ตาม เปลี่ยนทรัพยากรที่ค้างอยู่ให้กลายเป็นความสามารถที่มีประโยชน์"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Beyond efficiency and resilience, this training paradigm also unlocks the ability to mix different hardware generations, such as TPU v6e and TPU v5p, in a single training run. This approach not only extends the useful life of existing hardware, but also increases the total compute available for model training. In our experiments, chips from different generations running at different speeds still matched the ML performance of single-chip-type training runs, ensuring that even older hardware can meaningfully accelerate AI training.",
-        "th": "Beyond efficiency and resilience, this training paradigm also unlocks the ability to mix different hardware generations, such as TPU v6e and TPU v5p, in a single training run. This approach not only extends the useful life of existing hardware, but also increases the total compute available for model training. In our experiments, chips from different generations running at different speeds still matched the ML performance of single-chip-type training runs, ensuring that even older hardware can meaningfully accelerate AI training."
+        "th": "นอกเหนือจากประสิทธิภาพและความยืดหยุ่นแล้ว กระบวนทัศน์การฝึกอบรมนี้ยังปลดล็อกความสามารถในการผสมผสานฮาร์ดแวร์รุ่นต่างๆ เช่น TPU v6e และ TPU v5p ในการฝึกซ้อมครั้งเดียว แนวทางนี้ไม่เพียงแต่ช่วยยืดอายุการใช้งานของฮาร์ดแวร์ที่มีอยู่เท่านั้น แต่ยังเพิ่มการประมวลผลทั้งหมดสำหรับการฝึกโมเดลอีกด้วย ในการทดลองของเรา ชิปจากรุ่นต่างๆ ที่ทำงานด้วยความเร็วที่แตกต่างกันยังคงตรงกับประสิทธิภาพ ML ของการฝึกซ้อมประเภทชิปเดี่ยว ทำให้มั่นใจได้ว่าแม้แต่ฮาร์ดแวร์รุ่นเก่าก็สามารถเร่งการฝึก AI ได้อย่างมีนัยสำคัญ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "What’s more, because new generations of hardware don’t arrive everywhere all at once, being able to train across generations can alleviate recurring logistical and capacity bottlenecks.",
-        "th": "What’s more, because new generations of hardware don’t arrive everywhere all at once, being able to train across generations can alleviate recurring logistical and capacity bottlenecks."
+        "th": "ยิ่งไปกว่านั้น เนื่องจากฮาร์ดแวร์รุ่นใหม่ไม่ได้มาถึงทุกที่พร้อมกัน ความสามารถในการฝึกอบรมข้ามรุ่นจึงสามารถบรรเทาปัญหาคอขวดด้านลอจิสติกส์และความจุที่เกิดซ้ำได้"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "As we push the frontiers of AI infrastructure today, we’re continuing to explore approaches to resilient systems needed to unlock the next generation of AI.",
-        "th": "As we push the frontiers of AI infrastructure today, we’re continuing to explore approaches to resilient systems needed to unlock the next generation of AI."
+        "th": "ขณะที่เราขยายขอบเขตของโครงสร้างพื้นฐาน AI ในปัจจุบัน เรากำลังสำรวจแนวทางต่างๆ ของระบบที่มีความยืดหยุ่นซึ่งจำเป็นต่อการปลดล็อก AI รุ่นต่อไปต่อไป"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Acknowledgements",
-        "th": "Acknowledgements"
+        "th": "รับทราบ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "This work was done by a team of members across Google DeepMind and Google Research.",
-        "th": "This work was done by a team of members across Google DeepMind and Google Research."
+        "th": "งานนี้ดำเนินการโดยทีมงานของ Google DeepMind และ Google Research"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The leads and core contributors behind Decoupled DiLoCo are Arthur Douillard, Keith Rush, Yani Donchev, Zachary Charles, Ayush Dubey, Blake Woodworth, Ionel Gog, Josef Dean, Nova Fallen, Zachary Garrett. Operational support was done by Nate Keating and Jenny Bishop.",
-        "th": "The leads and core contributors behind Decoupled DiLoCo are Arthur Douillard, Keith Rush, Yani Donchev, Zachary Charles, Ayush Dubey, Blake Woodworth, Ionel Gog, Josef Dean, Nova Fallen, Zachary Garrett. Operational support was done by Nate Keating and Jenny Bishop."
+        "th": "ผู้นำและผู้มีส่วนร่วมหลักที่อยู่เบื้องหลัง Decoupled DiLoCo ได้แก่ Arthur Douillard, Keith Rush, Yani Donchev, Zachary Charles, Ayush Dubey, Blake Woodworth, Ionel Gog, Josef Dean, Nova Fallen, Zachary Garrett การสนับสนุนการปฏิบัติงานดำเนินการโดย Nate Keating และ Jenny Bishop"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "We are also grateful for the additional support and advising from Jeff Dean, Marc’Aurelio Ranzato, Raia Hadsell, Arthur Szlam, Edouard Yvinec, Henry Prior, Paul Barham, Michael Isard, Daniel Ramage, Brendan McMahan, Chase Hensel, and Zoltan Egyed.",
-        "th": "We are also grateful for the additional support and advising from Jeff Dean, Marc’Aurelio Ranzato, Raia Hadsell, Arthur Szlam, Edouard Yvinec, Henry Prior, Paul Barham, Michael Isard, Daniel Ramage, Brendan McMahan, Chase Hensel, and Zoltan Egyed."
+        "th": "นอกจากนี้เรายังรู้สึกขอบคุณสำหรับการสนับสนุนและคำแนะนำเพิ่มเติมจาก Jeff Dean, Marc’Aurelio Ranzato, Raia Hadsell, Arthur Szlam, Edouard Yvinec, Henry Prior, Paul Barham, Michael Isard, Daniel Ramage, Brendan McMahan, Chase Hensel และ Zoltan Egyed"
       }
     }
   ]

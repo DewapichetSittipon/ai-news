@@ -8,46 +8,46 @@
   "image": null,
   "title": {
     "en": "DiffusionGemma: 4x faster text generation",
-    "th": "DiffusionGemma: 4x faster text generation"
+    "th": "DiffusionGemma: การสร้างข้อความเร็วขึ้น 4 เท่า"
   },
   "summary": {
     "en": "DiffusionGemma: 4x faster text generation",
-    "th": "DiffusionGemma: 4x faster text generation"
+    "th": "DiffusionGemma: การสร้างข้อความเร็วขึ้น 4 เท่า"
   },
   "body": [
     {
       "type": "li",
       "text": {
         "en": "Innovation & AI",
-        "th": "Innovation & AI"
+        "th": "นวัตกรรมและเอไอ"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Technology",
-        "th": "Technology"
+        "th": "เทคโนโลยี"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Developer tools",
-        "th": "Developer tools"
+        "th": "เครื่องมือสำหรับนักพัฒนา"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Jun 10, 2026",
-        "th": "Jun 10, 2026"
+        "th": "10 มิ.ย. 2569"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Our newest open experimental model delivers up to 4x faster inference on dedicated GPUs and opens the door to exploring speed-critical, interactive local workflows.",
-        "th": "Our newest open experimental model delivers up to 4x faster inference on dedicated GPUs and opens the door to exploring speed-critical, interactive local workflows."
+        "th": "โมเดลทดลองแบบเปิดใหม่ล่าสุดของเราให้การอนุมานเร็วขึ้นสูงสุด 4 เท่าบน GPU เฉพาะ และเปิดประตูสู่การสำรวจเวิร์กโฟลว์ท้องถิ่นแบบโต้ตอบที่มีความสำคัญต่อความเร็ว"
       }
     },
     {
@@ -59,7 +59,7 @@
       "type": "p",
       "text": {
         "en": "Today, we’re introducing DiffusionGemma, an experimental open model that explores text diffusion, an exceptionally fast approach to text generation. Released under an Apache 2.0 license, this 26B Mixture of Experts (MoE) model moves beyond the sequential token-by-token processing of typical autoregressive Large Language Models (LLMs). Instead, it generates entire blocks of text simultaneously, delivering up to 4x faster text generation on GPUs.",
-        "th": "Today, we’re introducing DiffusionGemma, an experimental open model that explores text diffusion, an exceptionally fast approach to text generation. Released under an Apache 2.0 license, this 26B Mixture of Experts (MoE) model moves beyond the sequential token-by-token processing of typical autoregressive Large Language Models (LLMs). Instead, it generates entire blocks of text simultaneously, delivering up to 4x faster text generation on GPUs."
+        "th": "วันนี้ เราขอแนะนำ DiffusionGemma ซึ่งเป็นโมเดลทดลองแบบเปิดที่สำรวจการแพร่กระจายของข้อความ ซึ่งเป็นแนวทางที่รวดเร็วเป็นพิเศษในการสร้างข้อความ โมเดล 26B Mixture of Experts (MoE) ที่เผยแพร่ภายใต้ใบอนุญาต Apache 2.0 นี้ก้าวไปไกลกว่าการประมวลผลโทเค็นต่อโทเค็นตามลำดับของโมเดลภาษาขนาดใหญ่แบบถอยหลังอัตโนมัติ (LLM) ทั่วไป แต่จะสร้างข้อความทั้งบล็อกพร้อมกัน ส่งผลให้การสร้างข้อความบน GPU เร็วขึ้นถึง 4 เท่า"
       }
     },
     {
@@ -71,56 +71,56 @@
       "type": "p",
       "text": {
         "en": "Built upon the industry-leading intelligence-per-parameter of our Gemma 4 family and cutting-edge Gemini Diffusion research, DiffusionGemma integrates a novel diffusion head designed to maximize generation speed. While autoregressive Gemma 4 models remain the standard for high-quality production outputs, DiffusionGemma is designed for researchers and developers exploring speed-critical, interactive local workflows such as in-line editing, rapid iteration, and generating non-linear text structures.",
-        "th": "Built upon the industry-leading intelligence-per-parameter of our Gemma 4 family and cutting-edge Gemini Diffusion research, DiffusionGemma integrates a novel diffusion head designed to maximize generation speed. While autoregressive Gemma 4 models remain the standard for high-quality production outputs, DiffusionGemma is designed for researchers and developers exploring speed-critical, interactive local workflows such as in-line editing, rapid iteration, and generating non-linear text structures."
+        "th": "สร้างขึ้นจากความชาญฉลาดต่อพารามิเตอร์ชั้นนำของอุตสาหกรรมในกลุ่ม Gemma 4 ของเราและการวิจัย Gemini Diffusion ที่ล้ำสมัย DiffusionGemma ผสานรวมหัวกระจายแบบใหม่ที่ออกแบบมาเพื่อเพิ่มความเร็วในการสร้างสูงสุด แม้ว่าโมเดล Gemma 4 แบบ autoregressive ยังคงเป็นมาตรฐานสำหรับผลลัพธ์การผลิตคุณภาพสูง แต่ DiffusionGemma ได้รับการออกแบบมาสำหรับนักวิจัยและนักพัฒนาในการสำรวจเวิร์กโฟลว์ท้องถิ่นแบบโต้ตอบที่เน้นความเร็ว เช่น การแก้ไขอินไลน์ การวนซ้ำอย่างรวดเร็ว และการสร้างโครงสร้างข้อความที่ไม่ใช่เชิงเส้น"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Unlocking new value for developers",
-        "th": "Unlocking new value for developers"
+        "th": "ปลดล็อกคุณค่าใหม่สำหรับนักพัฒนา"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Developers building real-time interactive AI applications often struggle with the latency bottlenecks of local inference. DiffusionGemma addresses these challenges directly, with some key trade-offs:",
-        "th": "Developers building real-time interactive AI applications often struggle with the latency bottlenecks of local inference. DiffusionGemma addresses these challenges directly, with some key trade-offs:"
+        "th": "นักพัฒนาที่สร้างแอปพลิเคชัน AI แบบโต้ตอบแบบเรียลไทม์มักจะประสบปัญหาคอขวดด้านความล่าช้าของการอนุมานเฉพาะที่ DiffusionGemma จัดการกับความท้าทายเหล่านี้โดยตรง โดยมีข้อดีข้อเสียที่สำคัญบางประการ:"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Blazing fast inference: By shifting the decode bottleneck from memory-bandwidth to compute, DiffusionGemma generates up to 4x faster token output on dedicated GPUs. (1000+ tokens per second on a single NVIDIA H100, 700+ tokens per second on NVIDIA GeForce RTX 5090). 1",
-        "th": "Blazing fast inference: By shifting the decode bottleneck from memory-bandwidth to compute, DiffusionGemma generates up to 4x faster token output on dedicated GPUs. (1000+ tokens per second on a single NVIDIA H100, 700+ tokens per second on NVIDIA GeForce RTX 5090). 1"
+        "th": "การอนุมานที่รวดเร็วอย่างเห็นได้ชัด: ด้วยการเปลี่ยนคอขวดในการถอดรหัสจากแบนด์วิธหน่วยความจำไปเป็นการคำนวณ DiffusionGemma จะสร้างเอาต์พุตโทเค็นที่เร็วขึ้นสูงสุด 4 เท่าบน GPU เฉพาะ (1,000+ โทเค็นต่อวินาทีบน NVIDIA H100 เดียว, 700+ โทเค็นต่อวินาทีบน NVIDIA GeForce RTX 5090) 1"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Accessible hardware footprint: Operating as a 26B total Mixture of Experts (MoE) model that activates only 3.8B parameters during inference, DiffusionGemma fits comfortably within 18GB VRAM limits of high-end dedicated consumer GPUs when quantized.",
-        "th": "Accessible hardware footprint: Operating as a 26B total Mixture of Experts (MoE) model that activates only 3.8B parameters during inference, DiffusionGemma fits comfortably within 18GB VRAM limits of high-end dedicated consumer GPUs when quantized."
+        "th": "รอยเท้าของฮาร์ดแวร์ที่สามารถเข้าถึงได้: การทำงานเป็นโมเดล Mixture of Experts (MoE) รวม 26B ที่เปิดใช้งานพารามิเตอร์ 3.8B เท่านั้นในระหว่างการอนุมาน DiffusionGemma เข้ากันได้อย่างสะดวกสบายภายในขีดจำกัด 18GB VRAM ของ GPU สำหรับผู้บริโภคระดับไฮเอนด์โดยเฉพาะเมื่อทำการหาปริมาณ"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Bi-directional attention: Generating 256 tokens in parallel with each forward pass allows every token to attend to all others. This provides significant advantages for non-linear domains such as in-line editing, code infilling, amino acid sequences or mathematical graphs.",
-        "th": "Bi-directional attention: Generating 256 tokens in parallel with each forward pass allows every token to attend to all others. This provides significant advantages for non-linear domains such as in-line editing, code infilling, amino acid sequences or mathematical graphs."
+        "th": "ความสนใจแบบสองทิศทาง: การสร้างโทเค็น 256 อันขนานกับการส่งต่อแต่ละครั้งทำให้ทุกโทเค็นสามารถเข้าร่วมกับโทเค็นอื่น ๆ ทั้งหมดได้ สิ่งนี้ให้ข้อได้เปรียบที่สำคัญสำหรับโดเมนที่ไม่ใช่เชิงเส้น เช่น การแก้ไขในบรรทัด การเติมโค้ด ลำดับกรดอะมิโน หรือกราฟทางคณิตศาสตร์"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Intelligent self-correction: The model iteratively refines its own output, allowing it to evaluate the entire text block at once to fix mistakes in real-time.",
-        "th": "Intelligent self-correction: The model iteratively refines its own output, allowing it to evaluate the entire text block at once to fix mistakes in real-time."
+        "th": "การแก้ไขตัวเองอย่างชาญฉลาด: โมเดลจะปรับแต่งเอาท์พุตของตัวเองซ้ำๆ ทำให้สามารถประเมินบล็อกข้อความทั้งหมดพร้อมกันเพื่อแก้ไขข้อผิดพลาดแบบเรียลไทม์"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Experimental status & production recommendations: Because it prioritizes speed and parallel layout generation, DiffusionGemma’s overall output quality is lower than standard Gemma 4. For applications that demand maximum quality, we recommend deploying standard Gemma 4.",
-        "th": "Experimental status & production recommendations: Because it prioritizes speed and parallel layout generation, DiffusionGemma’s overall output quality is lower than standard Gemma 4. For applications that demand maximum quality, we recommend deploying standard Gemma 4."
+        "th": "สถานะการทดลองและคำแนะนำในการผลิต: เนื่องจากให้ความสำคัญกับความเร็วและการสร้างเลย์เอาต์แบบขนาน คุณภาพเอาต์พุตโดยรวมของ DiffusionGemma จึงต่ำกว่ามาตรฐาน Gemma 4 สำหรับแอปพลิเคชันที่ต้องการคุณภาพสูงสุด เราขอแนะนำให้ปรับใช้ Gemma 4 มาตรฐาน"
       }
     },
     {
@@ -132,14 +132,14 @@
       "type": "p",
       "text": {
         "en": "You can improve DiffusionGemma's performance on specific tasks through fine-tuning. In the example below, Unsloth fine-tuned DiffusionGemma to play Sudoku — a task autoregressive models struggle with because each token depends on future tokens. DiffusionGemma's bi-directional attention makes this much easier.",
-        "th": "You can improve DiffusionGemma's performance on specific tasks through fine-tuning. In the example below, Unsloth fine-tuned DiffusionGemma to play Sudoku — a task autoregressive models struggle with because each token depends on future tokens. DiffusionGemma's bi-directional attention makes this much easier."
+        "th": "คุณสามารถปรับปรุงประสิทธิภาพของ DiffusionGemma ในงานเฉพาะเจาะจงได้ผ่านการปรับแต่งอย่างละเอียด ในตัวอย่างด้านล่าง Unsloth DiffusionGemma ที่ได้รับการปรับแต่งอย่างละเอียดเพื่อเล่น Sudoku ซึ่งเป็นงานที่โมเดล autoregressive ประสบปัญหา เนื่องจากแต่ละโทเค็นขึ้นอยู่กับโทเค็นในอนาคต ความสนใจแบบสองทิศทางของ DiffusionGemma ทำให้สิ่งนี้ง่ายขึ้นมาก"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Fine-tuned DiffusionGemma solving Sudoku.",
-        "th": "Fine-tuned DiffusionGemma solving Sudoku."
+        "th": "DiffusionGemma ที่ปรับแต่งมาอย่างดีเพื่อแก้ซูโดกุ"
       }
     },
     {
@@ -151,140 +151,140 @@
       "type": "h2",
       "text": {
         "en": "Why diffusion for text?",
-        "th": "Why diffusion for text?"
+        "th": "ทำไมต้องกระจายข้อความ?"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "While the AI research community has explored diffusion-based text generation for years, applying it to large models has remained a challenge. DiffusionGemma changes this by shifting how models use hardware.",
-        "th": "While the AI research community has explored diffusion-based text generation for years, applying it to large models has remained a challenge. DiffusionGemma changes this by shifting how models use hardware."
+        "th": "ในขณะที่ชุมชนวิจัย AI ได้สำรวจการสร้างข้อความตามการแพร่กระจายมานานหลายปี แต่การนำไปประยุกต์ใช้กับโมเดลขนาดใหญ่ยังคงเป็นความท้าทาย DiffusionGemma เปลี่ยนแปลงสิ่งนี้โดยการเปลี่ยนวิธีที่โมเดลใช้ฮาร์ดแวร์"
       }
     },
     {
       "type": "h3",
       "text": {
         "en": "The trade-off with traditional models",
-        "th": "The trade-off with traditional models"
+        "th": "การแลกเปลี่ยนกับโมเดลแบบดั้งเดิม"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Most language models act like a typewriter, generating one token at a time from left to right. In the cloud, this is efficient because servers can batch thousands of user requests together to share the hardware load. But when run locally for a single user, this word-by-word process leaves your dedicated GPU or TPU underutilized — it spends most of its time simply waiting for the next \"keystroke.\"",
-        "th": "Most language models act like a typewriter, generating one token at a time from left to right. In the cloud, this is efficient because servers can batch thousands of user requests together to share the hardware load. But when run locally for a single user, this word-by-word process leaves your dedicated GPU or TPU underutilized — it spends most of its time simply waiting for the next \"keystroke.\""
+        "th": "โมเดลภาษาส่วนใหญ่ทำหน้าที่เหมือนเครื่องพิมพ์ดีด โดยสร้างโทเค็นทีละรายการจากซ้ายไปขวา สิ่งนี้มีประสิทธิภาพในระบบคลาวด์เนื่องจากเซิร์ฟเวอร์สามารถรวมคำขอของผู้ใช้นับพันเข้าด้วยกันเพื่อแบ่งปันโหลดฮาร์ดแวร์ แต่เมื่อเรียกใช้ภายในเครื่องสำหรับผู้ใช้รายเดียว กระบวนการแบบคำต่อคำนี้จะทำให้ GPU หรือ TPU เฉพาะของคุณใช้งานน้อยเกินไป โดยจะใช้เวลาส่วนใหญ่เพียงแค่รอ \"การกดแป้นพิมพ์\" ครั้งถัดไป"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "DiffusionGemma reverses this inefficiency. Instead of predicting words sequentially, it drafts an entire 256-token paragraph simultaneously. By giving the computer's processor a larger chunk of work at once, DiffusionGemma utilizes your hardware to its full potential. It upgrades your model inference from a single, sequential typewriter to a massive printing press that stamps the entire block of text simultaneously.",
-        "th": "DiffusionGemma reverses this inefficiency. Instead of predicting words sequentially, it drafts an entire 256-token paragraph simultaneously. By giving the computer's processor a larger chunk of work at once, DiffusionGemma utilizes your hardware to its full potential. It upgrades your model inference from a single, sequential typewriter to a massive printing press that stamps the entire block of text simultaneously."
+        "th": "DiffusionGemma พลิกกลับความไร้ประสิทธิภาพนี้ แทนที่จะทำนายคำตามลำดับ ระบบจะร่างย่อหน้าที่มีโทเค็น 256 ทั้งหมดพร้อมกัน ด้วยการให้โปรเซสเซอร์ของคอมพิวเตอร์ทำงานชิ้นใหญ่ในคราวเดียว DiffusionGemma จึงใช้ฮาร์ดแวร์ของคุณอย่างเต็มศักยภาพ โดยจะอัปเกรดการอนุมานแบบจำลองของคุณจากเครื่องพิมพ์ดีดต่อเนื่องเครื่องเดียวไปเป็นแท่นพิมพ์ขนาดใหญ่ที่ประทับตราทั้งบล็อกพร้อมกัน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "DiffusionGemma text-to-3D SVG demo by Hugging Face. Step-by-step generation.",
-        "th": "DiffusionGemma text-to-3D SVG demo by Hugging Face. Step-by-step generation."
+        "th": "DiffusionGemma การสาธิต SVG จากข้อความเป็น 3D โดย Hugging Face การสร้างทีละขั้นตอน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "This means DiffusionGemma's speedup is designed for local and low-concurrency inference. In high-QPS cloud serving, autoregressive models can be deployed to saturate compute efficiently, so DiffusionGemma's parallel decoding offers diminishing returns and can result in higher serving costs. The throughput advantage is strongest at low-to-medium batch sizes on a single accelerator.",
-        "th": "This means DiffusionGemma's speedup is designed for local and low-concurrency inference. In high-QPS cloud serving, autoregressive models can be deployed to saturate compute efficiently, so DiffusionGemma's parallel decoding offers diminishing returns and can result in higher serving costs. The throughput advantage is strongest at low-to-medium batch sizes on a single accelerator."
+        "th": "ซึ่งหมายความว่าการเร่งความเร็วของ DiffusionGemma ได้รับการออกแบบมาเพื่อการอนุมานเฉพาะที่และการอนุมานที่เกิดขึ้นพร้อมกันต่ำ ในการให้บริการคลาวด์ QPS สูง โมเดล autoregressive สามารถนำไปใช้เพื่อทำให้การประมวลผลมีประสิทธิภาพมากขึ้น ดังนั้นการถอดรหัสแบบขนานของ DiffusionGemma จึงให้ผลตอบแทนที่ลดลงและอาจส่งผลให้ต้นทุนการให้บริการสูงขึ้น ความได้เปรียบด้านปริมาณงานจะแข็งแกร่งที่สุดที่ขนาดชุดงานต่ำถึงปานกลางบนตัวเร่งความเร็วตัวเดียว"
       }
     },
     {
       "type": "h3",
       "text": {
         "en": "How text diffusion works",
-        "th": "How text diffusion works"
+        "th": "การแพร่กระจายข้อความทำงานอย่างไร"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Similar to AI image generators that start with visual static and iteratively refine it into a clear picture, DiffusionGemma applies this to text:",
-        "th": "Similar to AI image generators that start with visual static and iteratively refine it into a clear picture, DiffusionGemma applies this to text:"
+        "th": "เช่นเดียวกับตัวสร้างภาพ AI ที่เริ่มต้นด้วยภาพคงที่และปรับแต่งซ้ำๆ ให้เป็นภาพที่ชัดเจน DiffusionGemma จะนำสิ่งนี้ไปใช้กับข้อความ:"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "The canvas: The model starts with a canvas of random placeholder tokens.",
-        "th": "The canvas: The model starts with a canvas of random placeholder tokens."
+        "th": "แคนวาส: โมเดลเริ่มต้นด้วยแคนวาสของโทเค็นตัวยึดตำแหน่งแบบสุ่ม"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Iterative refinement: The model makes multiple passes, locking in correct tokens and using them as context clues to refine the rest.",
-        "th": "Iterative refinement: The model makes multiple passes, locking in correct tokens and using them as context clues to refine the rest."
+        "th": "การปรับแต่งซ้ำ: โมเดลสร้างการส่งผ่านหลายครั้ง โดยล็อคโทเค็นที่ถูกต้องและใช้เป็นเบาะแสบริบทเพื่อปรับแต่งส่วนที่เหลือ"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Final polish: The text converges into high-quality output.",
-        "th": "Final polish: The text converges into high-quality output."
+        "th": "การขัดเกลาขั้นสุดท้าย: ข้อความมาบรรจบกันเป็นผลลัพธ์คุณภาพสูง"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Because the model can process the whole paragraph while generating, it unlocks new patterns of model behavior, like perfectly closing complex markdown formatting or generating and rendering code in near real-time.",
-        "th": "Because the model can process the whole paragraph while generating, it unlocks new patterns of model behavior, like perfectly closing complex markdown formatting or generating and rendering code in near real-time."
+        "th": "เนื่องจากโมเดลสามารถประมวลผลทั้งย่อหน้าในขณะที่สร้าง โมเดลจึงปลดล็อกรูปแบบใหม่ๆ ของพฤติกรรมของโมเดล เช่น ปิดการจัดรูปแบบมาร์กดาวน์ที่ซับซ้อนได้อย่างสมบูรณ์แบบ หรือการสร้างและเรนเดอร์โค้ดในเวลาใกล้เคียงเรียลไทม์"
       }
     },
     {
       "type": "h3",
       "text": {
         "en": "Get started today",
-        "th": "Get started today"
+        "th": "เริ่มต้นวันนี้เลย"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Download the weights: Access the experimental model weights (released under a permissive Apache 2.0 license) right now on Hugging Face.",
-        "th": "Download the weights: Access the experimental model weights (released under a permissive Apache 2.0 license) right now on Hugging Face."
+        "th": "ดาวน์โหลดตุ้มน้ำหนัก: เข้าถึงตุ้มน้ำหนักโมเดลทดลอง (เผยแพร่ภายใต้ลิขสิทธิ์ Apache 2.0 ที่ได้รับอนุญาต) ได้ทันทีที่ Hugging Face"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Integrate & learn: Learn more in our DiffusionGemma developer guide. Or deep dive into A Visual Guide to DiffusionGemma to understand the mechanics under the hood.",
-        "th": "Integrate & learn: Learn more in our DiffusionGemma developer guide. Or deep dive into A Visual Guide to DiffusionGemma to understand the mechanics under the hood."
+        "th": "บูรณาการและเรียนรู้: เรียนรู้เพิ่มเติมในคู่มือนักพัฒนา DiffusionGemma ของเรา หรือเจาะลึกเข้าไปใน A Visual Guide to DiffusionGemma เพื่อทำความเข้าใจกลไกภายใต้ประทุน"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Use your favorite development tools: Serve the model efficiently using MLX, vLLM (with integration supported by Red Hat), and Hugging Face Transformers. For rapid experimentation, we are releasing a fine-tuning tutorial using Hackable Diffusion, a modular JAX toolbox designed for composability. You can also explore fine-tuning with Unsloth and NVIDIA NeMo. Additionally, official support for llama.cpp is arriving soon.",
-        "th": "Use your favorite development tools: Serve the model efficiently using MLX, vLLM (with integration supported by Red Hat), and Hugging Face Transformers. For rapid experimentation, we are releasing a fine-tuning tutorial using Hackable Diffusion, a modular JAX toolbox designed for composability. You can also explore fine-tuning with Unsloth and NVIDIA NeMo. Additionally, official support for llama.cpp is arriving soon."
+        "th": "ใช้เครื่องมือการพัฒนาที่คุณชื่นชอบ: ให้บริการโมเดลอย่างมีประสิทธิภาพโดยใช้ MLX, vLLM (พร้อมการผสานรวมที่สนับสนุนโดย Red Hat) และ Hugging Face Transformers เพื่อการทดลองที่รวดเร็ว เรากำลังเผยแพร่บทช่วยสอนการปรับแต่งอย่างละเอียดโดยใช้ Hackable Diffusion ซึ่งเป็นกล่องเครื่องมือ JAX แบบโมดูลาร์ที่ออกแบบมาเพื่อความสามารถในการเขียนองค์ประกอบ คุณยังสามารถสำรวจการปรับแต่งอย่างละเอียดด้วย Unsloth และ NVIDIA NeMo นอกจากนี้ การสนับสนุนอย่างเป็นทางการสำหรับ llama.cpp กำลังจะมาถึงเร็วๆ นี้"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Experience optimized performance: We worked with NVIDIA to optimize across their hardware stack, ensuring compatibility with consumer setups (quantized for GeForce RTX 5090 and 4090 GPUs) alongside high performance on enterprise systems (Hopper and Blackwell using advanced NVFP4 kernels), including NVIDIA DGX Spark and DGX Station for local deskside deployment, and RTX PRO for AI professionals. Native support for NVFP4 (4-bit floating-point) accelerates compute throughput, allowing the model to run at faster speeds with near-lossless accuracy.",
-        "th": "Experience optimized performance: We worked with NVIDIA to optimize across their hardware stack, ensuring compatibility with consumer setups (quantized for GeForce RTX 5090 and 4090 GPUs) alongside high performance on enterprise systems (Hopper and Blackwell using advanced NVFP4 kernels), including NVIDIA DGX Spark and DGX Station for local deskside deployment, and RTX PRO for AI professionals. Native support for NVFP4 (4-bit floating-point) accelerates compute throughput, allowing the model to run at faster speeds with near-lossless accuracy."
+        "th": "สัมผัสประสบการณ์ประสิทธิภาพที่ได้รับการปรับให้เหมาะสม: เราทำงานร่วมกับ NVIDIA เพื่อปรับให้เหมาะสมทั่วทั้งสแต็กฮาร์ดแวร์ รับรองความเข้ากันได้กับการตั้งค่าของผู้บริโภค (ปริมาณสำหรับ GeForce RTX 5090 และ 4090 GPU) ควบคู่ไปกับประสิทธิภาพสูงบนระบบองค์กร (Hopper และ Blackwell โดยใช้เคอร์เนล NVFP4 ขั้นสูง) รวมถึง NVIDIA DGX Spark และ DGX Station สำหรับการปรับใช้บนโต๊ะในเครื่อง และ RTX PRO สำหรับผู้เชี่ยวชาญด้าน AI การรองรับ NVFP4 (จุดลอยตัว 4 บิต) แบบเนทีฟช่วยเร่งปริมาณการประมวลผล ทำให้โมเดลทำงานด้วยความเร็วที่เร็วขึ้นโดยแทบไม่สูญเสียความแม่นยำ"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Try your way: Run on your desktop dedicated GPU or in the cloud through Gemini Enterprise Agent Platform Model Garden or NVIDIA NIM.",
-        "th": "Try your way: Run on your desktop dedicated GPU or in the cloud through Gemini Enterprise Agent Platform Model Garden or NVIDIA NIM."
+        "th": "ลองในแบบของคุณ: ทำงานบน GPU เฉพาะสำหรับเดสก์ท็อปของคุณหรือในระบบคลาวด์ผ่าน Gemini Enterprise Agent Platform Model Garden หรือ NVIDIA NIM"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Developer tools",
-        "th": "Developer tools"
+        "th": "เครื่องมือสำหรับนักพัฒนา"
       }
     }
   ]

@@ -8,11 +8,11 @@
   "image": null,
   "title": {
     "en": "The Open Source Community is backing OpenEnv for Agentic RL",
-    "th": "The Open Source Community is backing OpenEnv for Agentic RL"
+    "th": "ชุมชนโอเพ่นซอร์สกำลังสนับสนุน OpenEnv สำหรับ Agentic RL"
   },
   "summary": {
     "en": "The Open Source Community is backing OpenEnv for Agentic RL",
-    "th": "The Open Source Community is backing OpenEnv for Agentic RL"
+    "th": "ชุมชนโอเพ่นซอร์สกำลังสนับสนุน OpenEnv สำหรับ Agentic RL"
   },
   "body": [
     {
@@ -151,35 +151,35 @@
       "type": "li",
       "text": {
         "en": "Why we need OpenEnv to train open source agents",
-        "th": "Why we need OpenEnv to train open source agents"
+        "th": "เหตุใดเราจึงต้องใช้ OpenEnv เพื่อฝึกอบรมตัวแทนโอเพ่นซอร์ส"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Why we need to be (even) more open",
-        "th": "Why we need to be (even) more open"
+        "th": "ทำไมเราจึงต้อง (แม้แต่) เปิดกว้างมากขึ้น"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "A protocol layer, not a reward framework",
-        "th": "A protocol layer, not a reward framework"
+        "th": "ชั้นโปรโตคอล ไม่ใช่กรอบรางวัล"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "What's next",
-        "th": "What's next"
+        "th": "อะไรต่อไป"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Get involved",
-        "th": "Get involved"
+        "th": "มีส่วนร่วม"
       }
     },
     {
@@ -191,56 +191,56 @@
       "type": "p",
       "text": {
         "en": "OpenEnv is a tool for creating an agentic execution environment like terminals, browsers, or anything an agent can interact with. And today, we’re excited to announce that OpenEnv is becoming even more open, to make the future of training agents open source.",
-        "th": "OpenEnv is a tool for creating an agentic execution environment like terminals, browsers, or anything an agent can interact with. And today, we’re excited to announce that OpenEnv is becoming even more open, to make the future of training agents open source."
+        "th": "OpenEnv เป็นเครื่องมือสำหรับสร้างสภาพแวดล้อมการดำเนินการแบบเอเจนต์ เช่น เทอร์มินัล เบราว์เซอร์ หรืออะไรก็ตามที่ตัวแทนสามารถโต้ตอบด้วยได้ และวันนี้ เรารู้สึกตื่นเต้นที่จะประกาศว่า OpenEnv กำลังเปิดกว้างมากขึ้น เพื่อสร้างอนาคตของตัวแทนการฝึกอบรมโอเพ่นซอร์ส"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Starting today, OpenEnv will be coordinated by a committee that so far includes Meta-PyTorch, Reflection, Unsloth, Modal, Prime Intellect, Nvidia, Mercor, Fleet AI, Microsoft, and Hugging Face. OpenEnv now lives at huggingface/OpenEnv",
-        "th": "Starting today, OpenEnv will be coordinated by a committee that so far includes Meta-PyTorch, Reflection, Unsloth, Modal, Prime Intellect, Nvidia, Mercor, Fleet AI, Microsoft, and Hugging Face. OpenEnv now lives at huggingface/OpenEnv"
+        "th": "เริ่มตั้งแต่วันนี้เป็นต้นไป OpenEnv จะได้รับการประสานงานโดยคณะกรรมการซึ่งรวมถึง Meta-PyTorch, Reflection, Unsloth, Modal, Prime Intellect, Nvidia, Mercor, Fleet AI, Microsoft และ Hugging Face ตอนนี้ OpenEnv อยู่ที่ Huggingface/OpenEnv"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "OpenEnv project is supported and adopted by some of the leading organizations in the AI ecosystem, including PyTorch Foundation, vLLM, SkyRL (UCB), Lightning AI, Axolotl AI, Stanford Scaling Intelligence Lab, Mithril, OpenMined, Scaler AI Labs, Scale AI, Patronus AI, Surge AI, Halluminate, Turing, Scorecard, and Snorkel AI.",
-        "th": "OpenEnv project is supported and adopted by some of the leading organizations in the AI ecosystem, including PyTorch Foundation, vLLM, SkyRL (UCB), Lightning AI, Axolotl AI, Stanford Scaling Intelligence Lab, Mithril, OpenMined, Scaler AI Labs, Scale AI, Patronus AI, Surge AI, Halluminate, Turing, Scorecard, and Snorkel AI."
+        "th": "โครงการ OpenEnv ได้รับการสนับสนุนและนำไปใช้โดยองค์กรชั้นนำบางแห่งในระบบนิเวศ AI รวมถึง PyTorch Foundation, vLLM, SkyRL (UCB), Lightning AI, Axolotl AI, Stanford Scaling Intelligence Lab, Mithril, OpenMined, Scaler AI Labs, Scale AI, Patronus AI, Surge AI, Halluminate, Turing, Scorecard และ Snorkel AI"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Why we need OpenEnv to train open source agents",
-        "th": "Why we need OpenEnv to train open source agents"
+        "th": "เหตุใดเราจึงต้องใช้ OpenEnv เพื่อฝึกอบรมตัวแทนโอเพ่นซอร์ส"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Agent harnesses like Claude Code, Codex, OpenClaw, and Hermes just keep improving. One reason for their improvement is that models like GPT-5.5 and Opus 4.8 are trained to use their respective harnesses.",
-        "th": "Agent harnesses like Claude Code, Codex, OpenClaw, and Hermes just keep improving. One reason for their improvement is that models like GPT-5.5 and Opus 4.8 are trained to use their respective harnesses."
+        "th": "การควบคุมตัวแทนเช่น Claude Code, Codex, OpenClaw และ Hermes ปรับปรุงอย่างต่อเนื่อง เหตุผลประการหนึ่งในการปรับปรุงคือรุ่นอย่าง GPT-5.5 และ Opus 4.8 ได้รับการฝึกฝนให้ใช้สายรัดที่เกี่ยวข้อง"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "We want those gains with open source models too: training local models that use harnesses effectively, and saving compute by specializing models for specific tasks.",
-        "th": "We want those gains with open source models too: training local models that use harnesses effectively, and saving compute by specializing models for specific tasks."
+        "th": "เราต้องการประโยชน์เหล่านั้นจากโมเดลโอเพ่นซอร์สเช่นกัน เช่น การฝึกโมเดลในพื้นที่ที่ใช้สายรัดอย่างมีประสิทธิภาพ และประหยัดการประมวลผลโดยการสร้างโมเดลเฉพาะทางสำหรับงานเฉพาะ"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Why we need to be (even) more open",
-        "th": "Why we need to be (even) more open"
+        "th": "ทำไมเราจึงต้อง (แม้แต่) เปิดกว้างมากขึ้น"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Frontier labs train models and harnesses that, for the most part, work like hand in glove. The model is trained to use the harness and optimised for its characteristics. Models can generalise beyond these harnesses, to some extent, but nothing beats the efficiency of training.",
-        "th": "Frontier labs train models and harnesses that, for the most part, work like hand in glove. The model is trained to use the harness and optimised for its characteristics. Models can generalise beyond these harnesses, to some extent, but nothing beats the efficiency of training."
+        "th": "ห้องปฏิบัติการ Frontier ฝึกฝนโมเดลและควบคุมซึ่งโดยส่วนใหญ่แล้วทำงานเหมือนสวมถุงมือ โมเดลนี้ได้รับการฝึกฝนให้ใช้สายรัดและปรับปรุงให้เหมาะกับคุณลักษณะเฉพาะของมัน โมเดลสามารถสรุปได้มากกว่าสายรัดเหล่านี้ได้ในระดับหนึ่ง แต่ไม่มีสิ่งใดจะดีไปกว่าประสิทธิภาพของการฝึก"
       }
     },
     {
@@ -252,140 +252,140 @@
       "type": "p",
       "text": {
         "en": "In the open, this isn’t the case. Developers use any harness, any model, any inference engine, on whatever use case they value. This is fundamental to the community, but it’s also a challenge that requires infrastructure and tooling to tackle.",
-        "th": "In the open, this isn’t the case. Developers use any harness, any model, any inference engine, on whatever use case they value. This is fundamental to the community, but it’s also a challenge that requires infrastructure and tooling to tackle."
+        "th": "ในที่เปิดเผยนี่ไม่ใช่กรณี นักพัฒนาใช้สายรัด รุ่นใดก็ได้ เครื่องมืออนุมานใดๆ ในกรณีการใช้งานใดก็ตามที่พวกเขาให้ความสำคัญ นี่เป็นพื้นฐานของชุมชน แต่ก็เป็นความท้าทายที่ต้องใช้โครงสร้างพื้นฐานและเครื่องมือในการแก้ไขด้วย"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "That’s where OpenEnv comes in. It’s a library to interface between harness, environment, and trainer, which works on any model. For this to stick, it will need to be owned by all the major stakeholders.",
-        "th": "That’s where OpenEnv comes in. It’s a library to interface between harness, environment, and trainer, which works on any model. For this to stick, it will need to be owned by all the major stakeholders."
+        "th": "นั่นคือที่มาของ OpenEnv เป็นไลบรารีสำหรับเชื่อมต่อระหว่างสายรัด สภาพแวดล้อม และผู้ฝึกสอน ซึ่งทำงานได้กับทุกรุ่น เพื่อให้สิ่งนี้คงอยู่ต่อไปได้ จะต้องเป็นเจ้าของโดยผู้มีส่วนได้ส่วนเสียหลักทั้งหมด"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "A protocol layer, not a reward framework",
-        "th": "A protocol layer, not a reward framework"
+        "th": "ชั้นโปรโตคอล ไม่ใช่กรอบรางวัล"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Alongside the governance change, we're tightening what OpenEnv is.",
-        "th": "Alongside the governance change, we're tightening what OpenEnv is."
+        "th": "นอกจากการเปลี่ยนแปลงการกำกับดูแลแล้ว เรายังกระชับว่า OpenEnv คืออะไร"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "In recent releases, OpenEnv has become an interoperability layer for RL environments. Its job is to standardize how environments are published, deployed, and consumed by agents. It will not dictate how rewards are defined or how training loops work. Reward definition, scoring rubrics, and trainer-specific logic belong in the libraries that specialize in them. OpenEnv is the common socket they can all plug into.",
-        "th": "In recent releases, OpenEnv has become an interoperability layer for RL environments. Its job is to standardize how environments are published, deployed, and consumed by agents. It will not dictate how rewards are defined or how training loops work. Reward definition, scoring rubrics, and trainer-specific logic belong in the libraries that specialize in them. OpenEnv is the common socket they can all plug into."
+        "th": "ในรุ่นล่าสุด OpenEnv ได้กลายเป็นเลเยอร์การทำงานร่วมกันสำหรับสภาพแวดล้อม RL หน้าที่ของบริษัทคือสร้างมาตรฐานวิธีการเผยแพร่ ปรับใช้ และใช้งานสภาพแวดล้อมโดยตัวแทน จะไม่กำหนดวิธีการกำหนดรางวัลหรือวิธีการทำงานของลูปการฝึกอบรม คำจำกัดความของรางวัล รูบริกการให้คะแนน และตรรกะเฉพาะของผู้ฝึกสอนอยู่ในไลบรารีที่เชี่ยวชาญด้านเหล่านั้น OpenEnv เป็นซ็อกเก็ตทั่วไปที่ทุกคนสามารถเสียบเข้าไปได้"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "In practice this means:",
-        "th": "In practice this means:"
+        "th": "ในทางปฏิบัติหมายถึง:"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "One interface, many environments which all expose the familiar Gymnasium-style API (reset(), step(), state()) running on a client/server architecture. A trainer that speaks OpenEnv can drive any compliant environment without bespoke code.",
-        "th": "One interface, many environments which all expose the familiar Gymnasium-style API (reset(), step(), state()) running on a client/server architecture. A trainer that speaks OpenEnv can drive any compliant environment without bespoke code."
+        "th": "อินเทอร์เฟซเดียว สภาพแวดล้อมมากมายซึ่งทั้งหมดเปิดเผย API สไตล์ Gymnasium ที่คุ้นเคย (รีเซ็ต() ขั้นตอน() สถานะ()) ที่ทำงานบนสถาปัตยกรรมไคลเอนต์/เซิร์ฟเวอร์ ผู้ฝึกสอนที่พูดได้กับ OpenEnv สามารถขับเคลื่อนสภาพแวดล้อมที่เป็นไปตามข้อกำหนดโดยไม่ต้องมีโค้ดสั่งทำ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Familiar protocols and canonical packaging. Environments are served over standard protocols like HTTP and WebSocket and packaged with Docker. MCP is a first-class citizen, so OpenEnv environments are instantly compatible with MCP servers and the same environment behaves consistently in both simulation (train/eval) and production modes.",
-        "th": "Familiar protocols and canonical packaging. Environments are served over standard protocols like HTTP and WebSocket and packaged with Docker. MCP is a first-class citizen, so OpenEnv environments are instantly compatible with MCP servers and the same environment behaves consistently in both simulation (train/eval) and production modes."
+        "th": "โปรโตคอลที่คุ้นเคยและบรรจุภัณฑ์ที่เป็นที่ยอมรับ สภาพแวดล้อมให้บริการผ่านโปรโตคอลมาตรฐาน เช่น HTTP และ WebSocket และมาพร้อมกับ Docker MCP เป็นพลเมืองชั้นหนึ่ง ดังนั้นสภาพแวดล้อม OpenEnv จึงเข้ากันได้กับเซิร์ฟเวอร์ MCP ได้ทันที และสภาพแวดล้อมเดียวกันจะทำงานอย่างสม่ำเสมอทั้งในโหมดการจำลอง (ฝึกฝน/ประเมิน) และโหมดการใช้งานจริง"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Interop across env libraries. You can define and consume environments across different ecosystems (verifiers, harbor, and others) and on the infrastructure and hub of your choice. OpenEnv is the deployment and interface layer underneath them, rather than a competitor to them.",
-        "th": "Interop across env libraries. You can define and consume environments across different ecosystems (verifiers, harbor, and others) and on the infrastructure and hub of your choice. OpenEnv is the deployment and interface layer underneath them, rather than a competitor to them."
+        "th": "ทำงานร่วมกันระหว่างไลบรารี env คุณสามารถกำหนดและใช้สภาพแวดล้อมในระบบนิเวศต่างๆ (ผู้ตรวจสอบ ท่าเรือ และอื่นๆ) และบนโครงสร้างพื้นฐานและฮับที่คุณเลือก OpenEnv เป็นเลเยอร์การปรับใช้และอินเทอร์เฟซที่อยู่ข้างใต้ แทนที่จะเป็นคู่แข่ง"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "What's next",
-        "th": "What's next"
+        "th": "อะไรต่อไป"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Over the coming months we will focus on the things that turn OpenEnv from a fast-growing project into a dependable standard:",
-        "th": "Over the coming months we will focus on the things that turn OpenEnv from a fast-growing project into a dependable standard:"
+        "th": "ในอีกไม่กี่เดือนข้างหน้า เราจะมุ่งเน้นไปที่สิ่งที่เปลี่ยน OpenEnv จากโปรเจ็กต์ที่เติบโตอย่างรวดเร็วให้เป็นมาตรฐานที่เชื่อถือได้:"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "External rewards: letting rewards be defined in whichever library you already use, with OpenEnv as the deployment layer (RFC 006).",
-        "th": "External rewards: letting rewards be defined in whichever library you already use, with OpenEnv as the deployment layer (RFC 006)."
+        "th": "รางวัลภายนอก: ให้กำหนดรางวัลในไลบรารีใดก็ตามที่คุณใช้อยู่แล้ว โดยมี OpenEnv เป็นเลเยอร์การปรับใช้ (RFC 006)"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Tasksets via datasets: wiring environment tasks to Hugging Face datasets so environments and benchmarks compose cleanly (RFC 007).",
-        "th": "Tasksets via datasets: wiring environment tasks to Hugging Face datasets so environments and benchmarks compose cleanly (RFC 007)."
+        "th": "ชุดงานผ่านชุดข้อมูล: การเดินสายงานสภาพแวดล้อมไปยังชุดข้อมูล Hugging Face เพื่อให้สภาพแวดล้อมและเกณฑ์มาตรฐานเขียนได้หมดจด (RFC 007)"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Continued Harness integration: first-class support for agentic harnesses.",
-        "th": "Continued Harness integration: first-class support for agentic harnesses."
+        "th": "การบูรณาการสายรัดอย่างต่อเนื่อง: การสนับสนุนชั้นหนึ่งสำหรับสายรัดตัวแทน"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "End-to-end examples: full training and evaluation walkthroughs in TRL, Unsloth, and beyond.",
-        "th": "End-to-end examples: full training and evaluation walkthroughs in TRL, Unsloth, and beyond."
+        "th": "ตัวอย่างตั้งแต่ต้นจนจบ: การฝึกอบรมและการประเมินผลแบบสมบูรณ์ใน TRL, Unsloth และอื่นๆ"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Auto-validation: measure environment quality and contribution to model learning. This will give the community a scalable way to evaluate their environments and drive up quality (think hackathons!). RFC 008.",
-        "th": "Auto-validation: measure environment quality and contribution to model learning. This will give the community a scalable way to evaluate their environments and drive up quality (think hackathons!). RFC 008."
+        "th": "การตรวจสอบความถูกต้องอัตโนมัติ: วัดคุณภาพสภาพแวดล้อมและการมีส่วนร่วมในการเรียนรู้แบบจำลอง สิ่งนี้จะทำให้ชุมชนมีวิธีที่สามารถปรับขนาดได้ในการประเมินสภาพแวดล้อมและขับเคลื่อนคุณภาพ (ลองนึกถึง Hackathons!) อาร์เอฟซี 008."
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Get involved",
-        "th": "Get involved"
+        "th": "มีส่วนร่วม"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "OpenEnv is community-centric by design, and it's still early — expect rough edges, and help us smooth them. Check out the code and RFCs: github.com/huggingface/OpenEnv",
-        "th": "OpenEnv is community-centric by design, and it's still early — expect rough edges, and help us smooth them. Check out the code and RFCs: github.com/huggingface/OpenEnv"
+        "th": "OpenEnv ให้ความสำคัญกับชุมชนโดยการออกแบบ และยังเร็วเกินไป คาดหวังขอบคร่าวๆ และช่วยให้เราราบรื่น ตรวจสอบโค้ดและ RFC: github.com/huggingface/OpenEnv"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Thanks to everyone who helped make this transition happen. Let's build the common substrate for open-source agentic RL together.",
-        "th": "Thanks to everyone who helped make this transition happen. Let's build the common substrate for open-source agentic RL together."
+        "th": "ขอขอบคุณทุกคนที่ช่วยทำให้การเปลี่ยนแปลงนี้เกิดขึ้น เรามาสร้างสารตั้งต้นทั่วไปสำหรับ RL เอเจนต์โอเพ่นซอร์สด้วยกัน"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "More Articles from our Blog",
-        "th": "More Articles from our Blog"
+        "th": "บทความเพิ่มเติมจากบล็อกของเรา"
       }
     },
     {
@@ -397,7 +397,7 @@
       "type": "h2",
       "text": {
         "en": "OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments",
-        "th": "OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments"
+        "th": "OpenEnv ในทางปฏิบัติ: การประเมินตัวแทนการใช้เครื่องมือในสภาพแวดล้อมโลกแห่งความเป็นจริง"
       }
     },
     {
@@ -436,7 +436,7 @@
       "type": "h2",
       "text": {
         "en": "Building the Open Agent Ecosystem Together: Introducing OpenEnv",
-        "th": "Building the Open Agent Ecosystem Together: Introducing OpenEnv"
+        "th": "การสร้างระบบนิเวศ Open Agent ร่วมกัน: ขอแนะนำ OpenEnv"
       }
     },
     {
@@ -470,7 +470,7 @@
       "type": "h3",
       "text": {
         "en": "Community",
-        "th": "Community"
+        "th": "ชุมชน"
       }
     },
     {
@@ -482,14 +482,14 @@
       "type": "p",
       "text": {
         "en": "There is some excellent work here to check. https://a2eprotocol.github.io/docs/",
-        "th": "There is some excellent work here to check. https://a2eprotocol.github.io/docs/"
+        "th": "มีงานที่ยอดเยี่ยมที่นี่ให้ตรวจสอบ https://a2eprotocol.github.io/docs/"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
-        "th": "· Sign up or log in to comment"
+        "th": "· ลงทะเบียนหรือเข้าสู่ระบบเพื่อแสดงความคิดเห็น"
       }
     },
     {

@@ -33,6 +33,6 @@ The language a visitor reads in — Thai (`th`) or English (`en`). Every News It
 _Avoid_: Language, lang, i18n
 
 **Translation**:
-The Thai rendering of a News Item's text, produced on-device in the visitor's browser at runtime (Chrome Translator API) and cached in their localStorage. Never stored in the Snapshot; English is the only language baked into the data.
+The Thai rendering of a News Item's text, produced at build time during scrape (`scripts/translate.ts`) and baked into the Snapshot alongside the English. Every Localized field carries both `en` and `th`; the app just reads the current Locale with `pick()`.
 _Avoid_: Localization, machine translation
 

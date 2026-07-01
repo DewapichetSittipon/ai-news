@@ -40,9 +40,9 @@ Adding a Source touches **both**:
 
 `src/types.ts` is the shared contract used by app *and* scripts. Every item carries a composite **`id` = `${source}__${slug}`** (slugs collide across labs) — it's both the route param and the article filename.
 
-### Bilingual: Thai is translated on-device, not baked (ADR-0003)
+### Bilingual: Thai is baked in at build time (ADR-0003)
 
-The Snapshot is **English-only**. When a visitor switches to Thai, their browser translates visible text at runtime via the Chrome Translator API (`window.Translator`), cached in `localStorage`. `useTranslator`/`useT` wrap this; Safari/Firefox/older Chrome fall back to English (surfaced in the UI). Do not add a build-time translation step or expect `th` text in the JSON.
+The Snapshot carries **both `en` and `th`** for every Localized field. `scripts/translate.ts` fills the `th` side during `npm run scrape` via the free, keyless Google Translate endpoint, memoised in a committed disk cache (`scripts/translation-cache.json`) so a refresh only translates new strings. At runtime the app just reads the current locale with `pick()` (EN fallback) — no browser translation, so Thai works on every browser including mobile. (An earlier on-device `window.Translator` approach was dropped because it was Chromium-desktop-only and left mobile/Safari/Firefox in English.)
 
 ### Routing & deploy
 

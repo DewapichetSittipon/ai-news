@@ -4,15 +4,15 @@
   "source": "anthropic",
   "url": "https://www.anthropic.com/news/claude-sonnet-5",
   "category": "Product",
-  "date": "2026-06-30T00:00:00.000Z",
+  "date": "2026-06-29T17:00:00.000Z",
   "image": "https://cdn.sanity.io/images/4zrzovbb/website/458ea645ef6b729f6847cba16932716e6b547f2f-2880x1620.png",
   "title": {
     "en": "Introducing Claude Sonnet 5",
-    "th": "Introducing Claude Sonnet 5"
+    "th": "ขอแนะนำโคลด โคลง 5"
   },
   "summary": {
     "en": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
-    "th": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work."
+    "th": "Sonnet ที่เป็นตัวแทนมากที่สุดของเรา พร้อมด้วยความชาญฉลาดระดับสูงสุดสำหรับการเขียนโค้ดและการทำงานอย่างมืออาชีพในทุกๆ วัน"
   },
   "body": [
     {
@@ -24,21 +24,21 @@
       "type": "p",
       "text": {
         "en": "Claude Sonnet 5 is built to be the most agentic Sonnet model yet. It can make plans, use tools like browsers and terminals, and run autonomously at a level that, just a few months ago, required larger and more expensive models.",
-        "th": "Claude Sonnet 5 is built to be the most agentic Sonnet model yet. It can make plans, use tools like browsers and terminals, and run autonomously at a level that, just a few months ago, required larger and more expensive models."
+        "th": "Claude Sonnet 5 ได้รับการสร้างขึ้นให้เป็นรุ่น Sonnet ที่มีความคล่องตัวมากที่สุด สามารถวางแผน ใช้เครื่องมือ เช่น เบราว์เซอร์และเทอร์มินัล และทำงานอัตโนมัติในระดับที่เมื่อไม่กี่เดือนก่อน ต้องใช้โมเดลที่ใหญ่กว่าและมีราคาแพงกว่า"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "For many developers, the agentic AI era began with Sonnet-class models: Claude Sonnet 3.5, 3.6, and 3.7 were the first models that showed impressive skills in coding and tool use. More recently, though, the clearest gains in agentic capabilities have been in our Opus-class models.",
-        "th": "For many developers, the agentic AI era began with Sonnet-class models: Claude Sonnet 3.5, 3.6, and 3.7 were the first models that showed impressive skills in coding and tool use. More recently, though, the clearest gains in agentic capabilities have been in our Opus-class models."
+        "th": "สำหรับนักพัฒนาจำนวนมาก ยุคเอเจนต์ AI เริ่มต้นด้วยโมเดลระดับ Sonnet โดยที่ Claude Sonnet 3.5, 3.6 และ 3.7 เป็นรุ่นแรกที่แสดงทักษะที่น่าประทับใจในการเขียนโค้ดและการใช้เครื่องมือ อย่างไรก็ตาม เมื่อเร็วๆ นี้ ความสามารถด้านเอเจนต์ที่เพิ่มขึ้นอย่างชัดเจนที่สุดนั้นอยู่ในโมเดลระดับ Opus ของเรา"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Sonnet 5 narrows the gap: its performance is close to that of Opus 4.8, but at lower prices. It’s a substantial improvement over its predecessor, Sonnet 4.6, on important aspects of agentic performance like reasoning, tool use, coding, and knowledge work:",
-        "th": "Sonnet 5 narrows the gap: its performance is close to that of Opus 4.8, but at lower prices. It’s a substantial improvement over its predecessor, Sonnet 4.6, on important aspects of agentic performance like reasoning, tool use, coding, and knowledge work:"
+        "th": "Sonnet 5 ทำให้ช่องว่างแคบลง: ประสิทธิภาพใกล้เคียงกับ Opus 4.8 แต่มีราคาที่ต่ำกว่า เป็นการปรับปรุงที่สำคัญกว่า Sonnet 4.6 รุ่นก่อนในด้านที่สำคัญของประสิทธิภาพของเอเจนต์ เช่น การใช้เหตุผล การใช้เครื่องมือ การเขียนโค้ด และงานความรู้:"
       }
     },
     {
@@ -50,28 +50,28 @@
       "type": "p",
       "text": {
         "en": "Our safety assessments found that Sonnet 5 shows an overall lower rate of undesirable behaviors than Sonnet 4.6, and is generally safer to use in agentic contexts. Evaluations also show that it has a much lower ability to perform cybersecurity tasks than our current Opus models.",
-        "th": "Our safety assessments found that Sonnet 5 shows an overall lower rate of undesirable behaviors than Sonnet 4.6, and is generally safer to use in agentic contexts. Evaluations also show that it has a much lower ability to perform cybersecurity tasks than our current Opus models."
+        "th": "การประเมินความปลอดภัยของเราพบว่า Sonnet 5 แสดงอัตราพฤติกรรมไม่พึงประสงค์โดยรวมที่ต่ำกว่า Sonnet 4.6 และโดยทั่วไปจะปลอดภัยกว่าหากใช้ในบริบทเอเจนต์ การประเมินยังแสดงให้เห็นว่ามีความสามารถในการทำงานด้านความปลอดภัยทางไซเบอร์ต่ำกว่าโมเดล Opus ในปัจจุบันของเรามาก"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "From today, Claude Sonnet 5 is available across all plans: it is the default model for Free and Pro plans, and is available to Max, Team, and Enterprise users. It’s also available in Claude Code and on the Claude Platform, where it launches with introductory pricing of $2 per million input tokens and $10 per million output tokens through August 31, 2026, after which it will be priced at $3 per million input tokens and $15 per million output tokens. Developers can use claude-sonnet-5 via the Claude API.",
-        "th": "From today, Claude Sonnet 5 is available across all plans: it is the default model for Free and Pro plans, and is available to Max, Team, and Enterprise users. It’s also available in Claude Code and on the Claude Platform, where it launches with introductory pricing of $2 per million input tokens and $10 per million output tokens through August 31, 2026, after which it will be priced at $3 per million input tokens and $15 per million output tokens. Developers can use claude-sonnet-5 via the Claude API."
+        "th": "ตั้งแต่วันนี้ Claude Sonnet 5 พร้อมใช้งานในทุกแผน โดยเป็นรุ่นเริ่มต้นสำหรับแผน Free และ Pro และพร้อมใช้งานสำหรับผู้ใช้ Max, Team และ Enterprise นอกจากนี้ยังมีให้บริการใน Claude Code และบนแพลตฟอร์ม Claude ซึ่งเปิดตัวด้วยราคาเบื้องต้นที่ 2 ดอลลาร์ต่ออินพุตโทเค็นหนึ่งล้าน และ 10 ดอลลาร์ต่อล้านเอาท์พุตโทเค็น จนถึงวันที่ 31 สิงหาคม 2569 หลังจากนั้นจะมีราคาอยู่ที่ 3 ดอลลาร์ต่อหนึ่งล้านอินพุตโทเค็น และ 15 ดอลลาร์ต่อล้านเอาท์พุตโทเค็น นักพัฒนาสามารถใช้ claude-sonnet-5 ผ่านทาง Claude API"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Working with Claude Sonnet 5",
-        "th": "Working with Claude Sonnet 5"
+        "th": "การร่วมงานกับโคลด ซอนเน็ต 5"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "The charts below compare the performance of Sonnet 5 with Sonnet 4.6 and Opus 4.8 at different effort levels on the agentic search evaluation BrowseComp and the computer use evaluation OSWorld-Verified. Sonnet 5 (orange line) is a strict improvement over Sonnet 4.6 (gray line) and covers a much wider range of cost-performance options than Opus 4.8 (yellow line). It provides substantially improved cost efficiency at medium effort; its higher-effort performance can match Opus 4.8 on some tasks. Between Sonnet 5 and Opus 4.8, users can adjust the effort level to find the right balance of cost and performance.",
-        "th": "The charts below compare the performance of Sonnet 5 with Sonnet 4.6 and Opus 4.8 at different effort levels on the agentic search evaluation BrowseComp and the computer use evaluation OSWorld-Verified. Sonnet 5 (orange line) is a strict improvement over Sonnet 4.6 (gray line) and covers a much wider range of cost-performance options than Opus 4.8 (yellow line). It provides substantially improved cost efficiency at medium effort; its higher-effort performance can match Opus 4.8 on some tasks. Between Sonnet 5 and Opus 4.8, users can adjust the effort level to find the right balance of cost and performance."
+        "th": "แผนภูมิด้านล่างเปรียบเทียบประสิทธิภาพของ Sonnet 5 กับ Sonnet 4.6 และ Opus 4.8 ที่ระดับความพยายามที่แตกต่างกันในการประเมินการค้นหาแบบตัวแทน BrowserComp และการประเมินการใช้คอมพิวเตอร์ OSWorld-Verified Sonnet 5 (เส้นสีส้ม) เป็นการปรับปรุงที่เข้มงวดเหนือ Sonnet 4.6 (เส้นสีเทา) และครอบคลุมตัวเลือกด้านต้นทุนและประสิทธิภาพที่กว้างกว่า Opus 4.8 (เส้นสีเหลือง) มันให้ประสิทธิภาพด้านต้นทุนที่ดีขึ้นอย่างมากในระดับปานกลาง ประสิทธิภาพความพยายามที่สูงกว่าสามารถจับคู่กับ Opus 4.8 ในบางงานได้ ระหว่าง Sonnet 5 และ Opus 4.8 ผู้ใช้สามารถปรับระดับความพยายามเพื่อค้นหาความสมดุลระหว่างต้นทุนและประสิทธิภาพที่เหมาะสม"
       }
     },
     {
@@ -88,7 +88,7 @@
       "type": "p",
       "text": {
         "en": "Feedback from our early access partners has been consistent: Sonnet 5 is much more agentic than its predecessors. Testers described how it finishes complex tasks where previous Sonnet models would stop short, how it checks its own output without explicitly being asked, and how it does all this agentic work at an attractive price point:",
-        "th": "Feedback from our early access partners has been consistent: Sonnet 5 is much more agentic than its predecessors. Testers described how it finishes complex tasks where previous Sonnet models would stop short, how it checks its own output without explicitly being asked, and how it does all this agentic work at an attractive price point:"
+        "th": "ผลตอบรับจากพันธมิตรที่ทดลองใช้ก่อนเปิดตัวของเรามีความสม่ำเสมอ: Sonnet 5 เป็นตัวแทนมากกว่ารุ่นก่อนมาก ผู้ทดสอบอธิบายว่ามันทำงานที่ซับซ้อนให้เสร็จสิ้นได้อย่างไร โดยที่ Sonnet รุ่นก่อนหน้านี้หยุดทำงานชั่วคราว วิธีตรวจสอบเอาต์พุตของตัวเองโดยไม่ต้องถามอย่างชัดเจน และวิธีการทำงานของเอเจนต์ทั้งหมดนี้ในราคาที่น่าดึงดูดใจ:"
       }
     },
     {
@@ -145,14 +145,14 @@
       "type": "h2",
       "text": {
         "en": "Safety evaluations",
-        "th": "Safety evaluations"
+        "th": "การประเมินความปลอดภัย"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Our pre-deployment safety evaluations found that Sonnet 5 was overall an improvement on Sonnet 4.6. On agentic safety, the model is better at refusing malicious requests and resisting hijack attempts in prompt injection attacks. The model shows lower rates of hallucination and sycophancy than Sonnet 4.6. On our automated behavioral audit, which tests a wide range of misaligned behaviors such as cooperation with misuse and deception, Sonnet 5 scored lower (that is, safer) overall. However, it did show somewhat higher rates of misaligned behavior on this assessment compared to the more capable Opus 4.8 and Claude Mythos Preview.",
-        "th": "Our pre-deployment safety evaluations found that Sonnet 5 was overall an improvement on Sonnet 4.6. On agentic safety, the model is better at refusing malicious requests and resisting hijack attempts in prompt injection attacks. The model shows lower rates of hallucination and sycophancy than Sonnet 4.6. On our automated behavioral audit, which tests a wide range of misaligned behaviors such as cooperation with misuse and deception, Sonnet 5 scored lower (that is, safer) overall. However, it did show somewhat higher rates of misaligned behavior on this assessment compared to the more capable Opus 4.8 and Claude Mythos Preview."
+        "th": "การประเมินความปลอดภัยก่อนการใช้งานของเราพบว่า Sonnet 5 โดยรวมมีการปรับปรุงใน Sonnet 4.6 ในเรื่องความปลอดภัยของเอเจนต์ โมเดลจะดีกว่าในการปฏิเสธคำขอที่เป็นอันตราย และต่อต้านการพยายามจี้ในการโจมตีแบบฉีดพร้อมท์ แบบจำลองนี้แสดงอัตราภาพหลอนและอาการประสาทหลอนต่ำกว่า Sonnet 4.6 ในการตรวจสอบพฤติกรรมอัตโนมัติของเรา ซึ่งทดสอบพฤติกรรมที่ไม่สอดคล้องกัน เช่น ความร่วมมือในการใช้งานในทางที่ผิดและการหลอกลวง Sonnet 5 ได้คะแนนโดยรวมต่ำกว่า (นั่นคือ ปลอดภัยกว่า) อย่างไรก็ตาม การประเมินนี้แสดงอัตราพฤติกรรมที่ไม่ตรงแนวค่อนข้างสูงกว่า เมื่อเทียบกับ Opus 4.8 และ Claude Mythos Preview ที่มีความสามารถมากกว่า"
       }
     },
     {
@@ -164,7 +164,7 @@
       "type": "p",
       "text": {
         "en": "We did not deliberately train Sonnet 5 on cybersecurity tasks. It can perform some routine, non-harmful cyber tasks, but on evaluations testing potentially dangerous cyber skills, such as developing software exploits, it shows substantially poorer performance than models such as Opus 4.8 and Mythos 5. Scores from one evaluation, which tested models’ ability to develop exploits for vulnerabilities in the Firefox browser, are shown in the chart below. Sonnet 5 was never able to develop a full working exploit, but it does show a slightly higher rate of partial success than Sonnet 4.6. This latter change is likely due to improvements in general intelligence rather than specific training.",
-        "th": "We did not deliberately train Sonnet 5 on cybersecurity tasks. It can perform some routine, non-harmful cyber tasks, but on evaluations testing potentially dangerous cyber skills, such as developing software exploits, it shows substantially poorer performance than models such as Opus 4.8 and Mythos 5. Scores from one evaluation, which tested models’ ability to develop exploits for vulnerabilities in the Firefox browser, are shown in the chart below. Sonnet 5 was never able to develop a full working exploit, but it does show a slightly higher rate of partial success than Sonnet 4.6. This latter change is likely due to improvements in general intelligence rather than specific training."
+        "th": "เราไม่ได้จงใจฝึกอบรม Sonnet 5 เกี่ยวกับงานด้านความปลอดภัยทางไซเบอร์ โดยสามารถทำงานทางไซเบอร์เป็นประจำและไม่เป็นอันตราย แต่ในการประเมินผลการทดสอบทักษะทางไซเบอร์ที่อาจเป็นอันตราย เช่น การพัฒนาการหาประโยชน์จากซอฟต์แวร์ พบว่ามีประสิทธิภาพต่ำกว่ารุ่นอย่าง Opus 4.8 และ Mythos 5 อย่างมาก คะแนนจากการประเมินครั้งหนึ่งซึ่งทดสอบความสามารถของโมเดลในการพัฒนาช่องโหว่ในเบราว์เซอร์ Firefox แสดงในแผนภูมิด้านล่าง Sonnet 5 ไม่สามารถพัฒนาช่องโหว่ที่ใช้งานได้เต็มรูปแบบ แต่แสดงอัตราความสำเร็จบางส่วนที่สูงกว่า Sonnet 4.6 เล็กน้อย การเปลี่ยนแปลงครั้งหลังนี้น่าจะเกิดจากการปรับปรุงสติปัญญาทั่วไปมากกว่าการฝึกอบรมเฉพาะด้าน"
       }
     },
     {
@@ -176,126 +176,126 @@
       "type": "p",
       "text": {
         "en": "Since Sonnet 5 is somewhat stronger than its predecessor on these tasks, we’ve launched it with cyber safeguards enabled by default. These safeguards—which detect and block dangerous cyber usage in real time—are the same as those present in Claude Opus 4.7 and 4.8 (because we judged that the overall level of cybersecurity risk from Sonnet 5 was low, the safeguards are less strict than those launched with Fable 5, which block a much wider range of cybersecurity tasks).1",
-        "th": "Since Sonnet 5 is somewhat stronger than its predecessor on these tasks, we’ve launched it with cyber safeguards enabled by default. These safeguards—which detect and block dangerous cyber usage in real time—are the same as those present in Claude Opus 4.7 and 4.8 (because we judged that the overall level of cybersecurity risk from Sonnet 5 was low, the safeguards are less strict than those launched with Fable 5, which block a much wider range of cybersecurity tasks).1"
+        "th": "เนื่องจาก Sonnet 5 ค่อนข้างแข็งแกร่งกว่ารุ่นก่อนในงานเหล่านี้ เราจึงเปิดตัวโดยเปิดใช้งานการป้องกันทางไซเบอร์เป็นค่าเริ่มต้น การป้องกันเหล่านี้—ซึ่งตรวจจับและบล็อกการใช้งานไซเบอร์ที่เป็นอันตรายแบบเรียลไทม์—จะเหมือนกับที่มีอยู่ใน Claude Opus 4.7 และ 4.8 (เนื่องจากเราตัดสินว่าระดับความเสี่ยงด้านความปลอดภัยทางไซเบอร์โดยรวมจาก Sonnet 5 อยู่ในระดับต่ำ การป้องกันจะเข้มงวดน้อยกว่าที่เปิดตัวด้วย Fable 5 ซึ่งบล็อกงานด้านความปลอดภัยทางไซเบอร์ในขอบเขตที่กว้างกว่ามาก)"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Our full assessment of Sonnet 5 across many safety and capability evaluations is reported in the Claude Sonnet 5 System Card.",
-        "th": "Our full assessment of Sonnet 5 across many safety and capability evaluations is reported in the Claude Sonnet 5 System Card."
+        "th": "การประเมิน Sonnet 5 อย่างเต็มรูปแบบของเราในการประเมินด้านความปลอดภัยและความสามารถต่างๆ มีการรายงานอยู่ในการ์ดระบบ Claude Sonnet 5"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Availability and pricing",
-        "th": "Availability and pricing"
+        "th": "ความพร้อมใช้งานและราคา"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Claude Sonnet 5 is available everywhere today at an introductory price of $2 per million input tokens and $10 per million output tokens through August 31, 2026. It then moves to standard pricing at $3 per million input tokens and $15 per million output tokens.2 We’ve increased rate limits across Chat, Cowork, Claude Code, and the Claude Platform3 to accommodate the higher token usage of higher effort levels; users can select whichever level makes sense for their particular project.",
-        "th": "Claude Sonnet 5 is available everywhere today at an introductory price of $2 per million input tokens and $10 per million output tokens through August 31, 2026. It then moves to standard pricing at $3 per million input tokens and $15 per million output tokens.2 We’ve increased rate limits across Chat, Cowork, Claude Code, and the Claude Platform3 to accommodate the higher token usage of higher effort levels; users can select whichever level makes sense for their particular project."
+        "th": "Claude Sonnet 5 มีจำหน่ายทุกที่แล้ววันนี้ในราคาเบื้องต้น 2 ดอลลาร์ต่ออินพุตโทเค็น 1 ล้านโทเค็น และ 10 ดอลลาร์ต่อโทเค็นเอาท์พุต 10 ดอลลาร์ต่อล้านโทเค็นเอาท์พุต จนถึงวันที่ 31 สิงหาคม 2569 จากนั้นจะย้ายไปใช้ราคามาตรฐานที่ 3 ดอลลาร์ต่อโทเค็นอินพุตหนึ่งล้าน และ 15 ดอลลาร์ต่อโทเค็นเอาท์พุต 15 ดอลลาร์2 เราได้เพิ่มขีดจำกัดอัตราสำหรับ Chat, Cowork, Claude Code และ Claude Platform3 เพื่อรองรับการใช้โทเค็นที่สูงขึ้นในระดับความพยายามที่สูงขึ้น ผู้ใช้สามารถเลือกระดับที่เหมาะสมสำหรับโครงการของตนได้"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Edit June 30, 2026: In the original version of this post, we included a cost-performance chart for the BrowseComp evaluation that was based on data from a simpler methodology that did not reflect the standard methodology we use for agentic search evaluations. This had the result of underestimating Sonnet 5's performance on the evaluation.",
-        "th": "Edit June 30, 2026: In the original version of this post, we included a cost-performance chart for the BrowseComp evaluation that was based on data from a simpler methodology that did not reflect the standard methodology we use for agentic search evaluations. This had the result of underestimating Sonnet 5's performance on the evaluation."
+        "th": "แก้ไขวันที่ 30 มิถุนายน 2569: ในเวอร์ชันดั้งเดิมของโพสต์นี้ เราได้รวมแผนภูมิต้นทุน-ประสิทธิภาพสำหรับการประเมิน BrowserComp ที่ใช้ข้อมูลจากวิธีการที่ง่ายกว่าซึ่งไม่ได้สะท้อนถึงวิธีการมาตรฐานที่เราใช้สำหรับการประเมินการค้นหาแบบตัวแทน นี่เป็นผลมาจากการประเมินประสิทธิภาพของ Sonnet 5 ต่ำไป"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "We have now updated the chart so that it matches the methodology that we used and discussed in the Sonnet 5 system card (which used a 10M token budget with compaction and programmatic tool calling). We have also updated the surrounding text.",
-        "th": "We have now updated the chart so that it matches the methodology that we used and discussed in the Sonnet 5 system card (which used a 10M token budget with compaction and programmatic tool calling). We have also updated the surrounding text."
+        "th": "ขณะนี้เราได้อัปเดตแผนภูมิเพื่อให้ตรงกับวิธีการที่เราใช้และอภิปรายในการ์ดระบบ Sonnet 5 (ซึ่งใช้งบประมาณโทเค็น 10M พร้อมการบีบอัดและการเรียกใช้เครื่องมือแบบเป็นโปรแกรม) เราได้อัปเดตข้อความโดยรอบด้วย"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "1 Sonnet 5 is part of our Cyber Verification Program, which is available today on the native Claude Platform, the Claude Platform on AWS, and Claude in Microsoft Foundry (hosted on Azure and Anthropic), and coming soon on Claude in Google Vertex. Organizations that are already enrolled in the Cyber Verification Program automatically have the same access on Sonnet 5, with no need to reapply. Overall, we recommend Claude Opus 4.8 for cybersecurity work that requires reduced guardrails.",
-        "th": "1 Sonnet 5 is part of our Cyber Verification Program, which is available today on the native Claude Platform, the Claude Platform on AWS, and Claude in Microsoft Foundry (hosted on Azure and Anthropic), and coming soon on Claude in Google Vertex. Organizations that are already enrolled in the Cyber Verification Program automatically have the same access on Sonnet 5, with no need to reapply. Overall, we recommend Claude Opus 4.8 for cybersecurity work that requires reduced guardrails."
+        "th": "1 Sonnet 5 เป็นส่วนหนึ่งของ Cyber ​​Verification Program ของเรา ซึ่งมีให้บริการแล้ววันนี้บน Claude Platform, Claude Platform บน AWS และ Claude ใน Microsoft Foundry (โฮสต์บน Azure และ Anthropic) และจะให้บริการบน Claude ใน Google Vertex เร็วๆ นี้ องค์กรที่ลงทะเบียนใน Cyber ​​Verification Program แล้วจะสามารถเข้าถึง Sonnet 5 ได้โดยอัตโนมัติ โดยไม่จำเป็นต้องสมัครใหม่ โดยรวมแล้ว เราขอแนะนำ Claude Opus 4.8 สำหรับงานรักษาความปลอดภัยทางไซเบอร์ที่ต้องใช้รั้วที่ลดลง"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "2 Sonnet 5 is an upgrade to Sonnet 4.6, but it uses an updated tokenizer that changes how the model processes text to improve performance (this is similar to the tokenizer change we introduced with Claude Opus 4.7). The tradeoff is that the same input can map to more tokens: roughly 1.0–1.35× depending on the content type. The introductory pricing is set so that the transition to Sonnet 5 is roughly cost-neutral.",
-        "th": "2 Sonnet 5 is an upgrade to Sonnet 4.6, but it uses an updated tokenizer that changes how the model processes text to improve performance (this is similar to the tokenizer change we introduced with Claude Opus 4.7). The tradeoff is that the same input can map to more tokens: roughly 1.0–1.35× depending on the content type. The introductory pricing is set so that the transition to Sonnet 5 is roughly cost-neutral."
+        "th": "2 Sonnet 5 เป็นการอัปเกรดเป็น Sonnet 4.6 แต่ใช้โทเค็นที่ได้รับการอัปเดตซึ่งเปลี่ยนวิธีการประมวลผลข้อความของโมเดลเพื่อปรับปรุงประสิทธิภาพ (ซึ่งคล้ายกับการเปลี่ยนแปลงโทเค็นที่เราแนะนำกับ Claude Opus 4.7) ข้อเสียคืออินพุตเดียวกันสามารถแมปกับโทเค็นได้มากขึ้น: ประมาณ 1.0–1.35× ขึ้นอยู่กับประเภทเนื้อหา ราคาช่วงแนะนำได้รับการตั้งค่าเพื่อให้การเปลี่ยนไปใช้ Sonnet 5 มีราคาที่เป็นกลางโดยประมาณ"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "3 On April 26, 2026, we raised Sonnet and Haiku rate limits at every usage tier and simplified to three tiers (Start, Build, and Scale) on the native Claude Platform. You can view your tier and current limits in the Claude Console or read the documentation to learn more.",
-        "th": "3 On April 26, 2026, we raised Sonnet and Haiku rate limits at every usage tier and simplified to three tiers (Start, Build, and Scale) on the native Claude Platform. You can view your tier and current limits in the Claude Console or read the documentation to learn more."
+        "th": "3 ในวันที่ 26 เมษายน 2026 เราได้เพิ่มขีดจำกัดอัตรา Sonnet และ Haiku ในทุกระดับการใช้งานและลดความซับซ้อนลงเหลือสามระดับ (เริ่ม สร้าง และปรับขนาด) บนแพลตฟอร์ม Claude ดั้งเดิม คุณสามารถดูระดับและขีดจำกัดปัจจุบันของคุณได้ใน Claude Console หรืออ่านเอกสารเพื่อเรียนรู้เพิ่มเติม"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "Humanity’s Last Exam: We updated the grader model for Humanity’s Last Exam and have updated the Sonnet 4.6 score to 34.6% (no tools) and 46.8% (with tools). This is the reason the score differs from that reported in the Sonnet 4.6 launch blog.",
-        "th": "Humanity’s Last Exam: We updated the grader model for Humanity’s Last Exam and have updated the Sonnet 4.6 score to 34.6% (no tools) and 46.8% (with tools). This is the reason the score differs from that reported in the Sonnet 4.6 launch blog."
+        "th": "การสอบครั้งสุดท้ายของมนุษยชาติ: เราได้อัปเดตโมเดลตัวให้คะแนนสำหรับการสอบครั้งสุดท้ายของมนุษยชาติ และได้อัปเดตคะแนน Sonnet 4.6 เป็น 34.6% (ไม่มีเครื่องมือ) และ 46.8% (พร้อมเครื่องมือ) นี่คือเหตุผลที่คะแนนแตกต่างจากที่รายงานในบล็อกเปิดตัว Sonnet 4.6"
       }
     },
     {
       "type": "li",
       "text": {
         "en": "OSWorld-Verified: We made changes to how we run the OSWorld-Verified evaluation to more accurately reflect the model’s performance in the real world, and have updated the Sonnet 4.6 score to 78.5%. This is the reason the score differs from that reported in the Sonnet 4.6 launch blog.",
-        "th": "OSWorld-Verified: We made changes to how we run the OSWorld-Verified evaluation to more accurately reflect the model’s performance in the real world, and have updated the Sonnet 4.6 score to 78.5%. This is the reason the score differs from that reported in the Sonnet 4.6 launch blog."
+        "th": "OSWorld-Verified: เราทำการเปลี่ยนแปลงวิธีที่เราดำเนินการประเมิน OSWorld-Verified เพื่อสะท้อนประสิทธิภาพของโมเดลในโลกแห่งความเป็นจริงได้แม่นยำยิ่งขึ้น และได้อัปเดตคะแนน Sonnet 4.6 เป็น 78.5% นี่คือเหตุผลที่คะแนนแตกต่างจากที่รายงานในบล็อกเปิดตัว Sonnet 4.6"
       }
     },
     {
       "type": "h2",
       "text": {
         "en": "Related content",
-        "th": "Related content"
+        "th": "เนื้อหาที่เกี่ยวข้อง"
       }
     },
     {
       "type": "h3",
       "text": {
         "en": "Redeploying Fable 5",
-        "th": "Redeploying Fable 5"
+        "th": "การปรับใช้ Fable 5 ใหม่"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Fable 5 returns globally July 1. We're also proposing an industry-wide framework for scoring jailbreak severity, together with Amazon, Microsoft, Google, and other Glasswing partners.",
-        "th": "Fable 5 returns globally July 1. We're also proposing an industry-wide framework for scoring jailbreak severity, together with Amazon, Microsoft, Google, and other Glasswing partners."
+        "th": "Fable 5 กลับมาทั่วโลกในวันที่ 1 กรกฎาคม นอกจากนี้ เรายังนำเสนอเฟรมเวิร์กทั่วทั้งอุตสาหกรรมเพื่อประเมินความรุนแรงของการเจลเบรก ร่วมกับ Amazon, Microsoft, Google และพันธมิตร Glasswing อื่นๆ"
       }
     },
     {
       "type": "h3",
       "text": {
         "en": "Claude Science, an AI workbench for scientists, is now available",
-        "th": "Claude Science, an AI workbench for scientists, is now available"
+        "th": "Claude Science ซึ่งเป็นโต๊ะงาน AI สำหรับนักวิทยาศาสตร์ พร้อมใช้งานแล้ว"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
-        "th": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources."
+        "th": "Claude Science เป็นแอปที่ปรับแต่งได้ซึ่งรวมเครื่องมือและแพ็คเกจที่นักวิจัยใช้บ่อยที่สุด สร้างสิ่งประดิษฐ์ที่ตรวจสอบได้ และให้การเข้าถึงทรัพยากรการประมวลผลที่ยืดหยุ่น"
       }
     },
     {
       "type": "h3",
       "text": {
         "en": "Introducing Claude Tag",
-        "th": "Introducing Claude Tag"
+        "th": "ขอแนะนำ คล็อด แท็ก"
       }
     },
     {
       "type": "p",
       "text": {
         "en": "Claude Tag is a new way for teams to work with Claude.",
-        "th": "Claude Tag is a new way for teams to work with Claude."
+        "th": "Claude Tag เป็นวิธีใหม่สำหรับทีมในการทำงานร่วมกับ Claude"
       }
     }
   ]

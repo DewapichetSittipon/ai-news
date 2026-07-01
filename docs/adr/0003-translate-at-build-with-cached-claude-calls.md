@@ -1,7 +1,39 @@
-# Thai is translated on-device in the browser at runtime
+# Thai is translated at build time and baked into the Snapshot
 
-**Status:** accepted — supersedes the original build-time decision recorded here.
+**Status:** accepted — supersedes an interim on-device-translation decision.
 
-Originally we translated at build time with an LLM (Gemini, then OpenRouter) and shipped pre-translated JSON. In practice the free LLM tiers were rate-limited too hard to finish a run, and any keyed approach reintroduces a secret + recurring cost. So we switched to **on-device, real-time translation** using the browser's built-in Translator API (`window.Translator`): when a visitor switches to Thai, their browser translates the visible text locally, cached in `localStorage`.
+We translate every News Item EN→TH during `npm run scrape` and commit the Thai
+text into the Snapshot JSON. At runtime the app just reads the `th` field; the
+browser never translates.
 
-Why: zero keys, zero server, zero recurring cost, and the Snapshot stays English-only (simpler build, no translation step in CI). Trade-offs: the Translator API is Chromium-only (recent Chrome/Edge) and needs a one-time on-device model download, so Safari/Firefox/older browsers fall back to English (surfaced in the UI). Quality is the browser's, not an LLM's. Rejected alternatives: build-time LLM (key + cost + rate-limits), a runtime serverless proxy (adds a backend, per-view cost, abuse surface), and relying on the browser's full-page translate menu (not themable, not programmatic).
+## History
+
+1. Originally we translated at build time with an LLM (Gemini, then OpenRouter).
+   The free tiers were rate-limited too hard to finish a run.
+2. We then moved to **on-device** translation via the browser's built-in
+   Translator API (`window.Translator`) — zero keys, zero cost. But that API is
+   **Chromium-desktop-only**: Safari, Firefox, and — critically — **all mobile
+   browsers** have no `window.Translator`, so those visitors only ever saw
+   English. For a news reader that is mostly opened on phones, that failed the
+   core use case.
+3. So we returned to **build time**, but avoided the original rate-limit pain
+   with two changes: the free, keyless Google Translate endpoint
+   (`translate.googleapis.com`), and a **persisted disk cache**
+   (`scripts/translation-cache.json`, committed) so a refresh only translates
+   genuinely new strings.
+
+## Why this shape
+
+- **Works everywhere**, including mobile and Safari/Firefox — the whole reason
+  for the change.
+- **Still no API key and no runtime backend**: the Snapshot stays a pile of
+  static JSON; translation is a build step, not a per-view request.
+- **Cheap refreshes**: with the cache, the 30-min cron only pays for new items.
+
+Trade-offs: quality is Google's, not an LLM's; the free endpoint is unofficial
+and could rate-limit or change shape (`translate.ts` fails soft — it keeps the
+English text and never breaks a run). Rejected again: a runtime serverless proxy
+(adds a backend + per-view cost + abuse surface), and a keyed cloud translator
+(reintroduces a secret + billing).
+
+See `scripts/translate.ts` for the implementation.

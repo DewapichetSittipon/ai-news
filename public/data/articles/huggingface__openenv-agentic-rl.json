@@ -148,6 +148,11 @@
       "alt": "Banghua Zhu's avatar"
     },
     {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/JVXuBeU32ISbkQeG9v_gS.jpeg",
+      "alt": "Haoguang Cai's avatar"
+    },
+    {
       "type": "li",
       "text": {
         "en": "Why we need OpenEnv to train open source agents",
@@ -197,15 +202,15 @@
     {
       "type": "p",
       "text": {
-        "en": "Starting today, OpenEnv will be coordinated by a committee that so far includes Meta-PyTorch, Reflection, Unsloth, Modal, Prime Intellect, Nvidia, Mercor, Fleet AI, Microsoft, and Hugging Face. OpenEnv now lives at huggingface/OpenEnv",
-        "th": "เริ่มตั้งแต่วันนี้เป็นต้นไป OpenEnv จะได้รับการประสานงานโดยคณะกรรมการซึ่งรวมถึง Meta-PyTorch, Reflection, Unsloth, Modal, Prime Intellect, Nvidia, Mercor, Fleet AI, Microsoft และ Hugging Face ตอนนี้ OpenEnv อยู่ที่ Huggingface/OpenEnv"
+        "en": "Starting today, OpenEnv will be coordinated by a committee that so far includes Meta-PyTorch, Reflection, Unsloth, Modal, Prime Intellect, Nvidia, Mercor, Fleet AI, Microsoft, Hugging Face, and RadixArk. OpenEnv now lives at huggingface/OpenEnv",
+        "th": "เริ่มตั้งแต่วันนี้เป็นต้นไป OpenEnv จะได้รับการประสานงานโดยคณะกรรมการซึ่งรวมถึง Meta-PyTorch, Reflection, Unsloth, Modal, Prime Intellect, Nvidia, Mercor, Fleet AI, Microsoft, Hugging Face และ RadixArk ตอนนี้ OpenEnv อยู่ที่ Huggingface/OpenEnv"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "OpenEnv project is supported and adopted by some of the leading organizations in the AI ecosystem, including PyTorch Foundation, vLLM, SkyRL (UCB), Lightning AI, Axolotl AI, Stanford Scaling Intelligence Lab, Mithril, OpenMined, Scaler AI Labs, Scale AI, Patronus AI, Surge AI, Halluminate, Turing, Scorecard, and Snorkel AI.",
-        "th": "โครงการ OpenEnv ได้รับการสนับสนุนและนำไปใช้โดยองค์กรชั้นนำบางแห่งในระบบนิเวศ AI รวมถึง PyTorch Foundation, vLLM, SkyRL (UCB), Lightning AI, Axolotl AI, Stanford Scaling Intelligence Lab, Mithril, OpenMined, Scaler AI Labs, Scale AI, Patronus AI, Surge AI, Halluminate, Turing, Scorecard และ Snorkel AI"
+        "en": "OpenEnv project is supported and adopted by some of the leading organizations in the AI ecosystem, including PyTorch Foundation, vLLM, SkyRL (UCB), Lightning AI, Axolotl AI, Stanford Scaling Intelligence Lab, Mithril, OpenMined, Scaler AI Labs, Scale AI, Patronus AI, Surge AI, Halluminate, Turing, Scorecard, Snorkel AI, SGLang, and Miles.",
+        "th": "โครงการ OpenEnv ได้รับการสนับสนุนและนำไปใช้โดยองค์กรชั้นนำบางแห่งในระบบนิเวศ AI รวมถึง PyTorch Foundation, vLLM, SkyRL (UCB), Lightning AI, Axolotl AI, Stanford Scaling Intelligence Lab, Mithril, OpenMined, Scaler AI Labs, Scale AI, Patronus AI, Surge AI, Halluminate, Turing, Scorecard, Snorkel AI, SGLang และ Miles"
       }
     },
     {
@@ -349,8 +354,8 @@
     {
       "type": "li",
       "text": {
-        "en": "End-to-end examples: full training and evaluation walkthroughs in TRL, Unsloth, and beyond.",
-        "th": "ตัวอย่างตั้งแต่ต้นจนจบ: การฝึกอบรมและการประเมินผลแบบสมบูรณ์ใน TRL, Unsloth และอื่นๆ"
+        "en": "End-to-end examples: full training and evaluation walkthroughs in TRL, Unsloth, Miles, and beyond.",
+        "th": "ตัวอย่างตั้งแต่ต้นจนจบ: การฝึกอบรมและการประเมินผลแบบสมบูรณ์ใน TRL, Unsloth, Miles และอื่นๆ"
       }
     },
     {

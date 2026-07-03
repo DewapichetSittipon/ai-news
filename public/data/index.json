@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-02T23:00:07.535Z",
+  "generatedAt": "2026-07-03T02:11:37.146Z",
   "items": [
+    {
+      "id": "anthropic__fable-safeguards-jailbreak-framework",
+      "slug": "fable-safeguards-jailbreak-framework",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+      "category": "News",
+      "date": "2026-07-02T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Lock&backgroundColor=cactus",
+      "title": {
+        "en": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
+        "th": "รายละเอียดเพิ่มเติมเกี่ยวกับการป้องกันทางไซเบอร์ของ Fable 5 และกรอบการเจลเบรคของเรา"
+      },
+      "summary": {
+        "en": "What is and isn't blocked by our cyber classifiers, and a first draft of our jailbreak severity framework",
+        "th": "สิ่งที่ถูกและไม่ถูกบล็อกโดยตัวแยกประเภททางไซเบอร์ของเรา และร่างแรกของเฟรมเวิร์กความรุนแรงของการเจลเบรกของเรา"
+      }
+    },
     {
       "id": "google-ai__google-ai-updates-june-2026",
       "slug": "google-ai-updates-june-2026",
@@ -1087,23 +1104,6 @@
       "summary": {
         "en": "Anthropic is announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies.",
         "th": "Anthropic กำลังประกาศความร่วมมือระดับโลกระยะเวลาหลายปีกับ DXC Technology ซึ่งเป็นหนึ่งในบริษัทผู้ให้บริการด้านไอทีที่ใหญ่ที่สุดในโลก"
-      }
-    },
-    {
-      "id": "anthropic__claude-corps",
-      "slug": "claude-corps",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/claude-corps",
-      "category": "News",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/eb5d94573805e24cb381cd0676527cfada75c177-3840x2160.jpg",
-      "title": {
-        "en": "Introducing Claude Corps",
-        "th": "ขอแนะนำ Claude Corps"
-      },
-      "summary": {
-        "en": "Anthropic is launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.",
-        "th": "Anthropic กำลังเปิดตัว Claude Corps ซึ่งเป็นโครงการมิตรภาพระดับชาติสำหรับผู้คนในช่วงเริ่มต้นอาชีพที่หลงใหลในการขยายประโยชน์ของ AI ไปยังชุมชนทั่วอเมริกา"
       }
     },
     {

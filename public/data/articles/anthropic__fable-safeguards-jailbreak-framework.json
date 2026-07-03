@@ -161,8 +161,8 @@
     {
       "type": "li",
       "text": {
-        "en": "Exfiltration of stolen data from the data owner’s devices to devices outside that owner’s control (going directly to the attacker’s devices or through well known third parties such as cloud providers or known services);",
-        "th": "การกรองข้อมูลที่ถูกขโมยจากอุปกรณ์ของเจ้าของข้อมูลไปยังอุปกรณ์ที่อยู่นอกการควบคุมของเจ้าของนั้น (ไปยังอุปกรณ์ของผู้โจมตีโดยตรงหรือผ่านบุคคลที่สามที่รู้จักกันดี เช่น ผู้ให้บริการคลาวด์หรือบริการที่รู้จัก)"
+        "en": "Exfiltration of stolen data from the data owner’s devices to devices outside that owner’s control (going directly to the attacker’s devices or through well-known third parties such as cloud providers or known services);",
+        "th": "การกรองข้อมูลที่ถูกขโมยจากอุปกรณ์ของเจ้าของข้อมูลไปยังอุปกรณ์ที่อยู่นอกการควบคุมของเจ้าของข้อมูล (ไปยังอุปกรณ์ของผู้โจมตีโดยตรงหรือผ่านบุคคลที่สามที่มีชื่อเสียง เช่น ผู้ให้บริการระบบคลาวด์หรือบริการที่รู้จัก)"
       }
     },
     {
@@ -196,7 +196,7 @@
     {
       "type": "p",
       "text": {
-        "en": "The extent to which each item in this category can be considered dual use varies. Some prohibited use items, such as defense evasion or data exfiltration, are used regularly by defenders. But because the actions in this list have such high potential for harm and are frequently seen in real world attacks, we prohibit them. We may evolve this category over time to add or remove specific items.",
+        "en": "The extent to which each item in this category can be considered dual use varies. Some prohibited use items, such as defense evasion or data exfiltration, are used regularly by defenders. But because the actions in this list have such high potential for harm and are frequently seen in real-world attacks, we prohibit them. We may evolve this category over time to add or remove specific items.",
         "th": "ขอบเขตที่แต่ละรายการในหมวดหมู่นี้ถือได้ว่าเป็นการใช้งานแบบคู่จะแตกต่างกันไป สิ่งของการใช้งานที่ต้องห้ามบางรายการ เช่น การหลีกเลี่ยงการป้องกันหรือการขโมยข้อมูล จะถูกใช้เป็นประจำโดยผู้พิทักษ์ แต่เนื่องจากการกระทำในรายการนี้มีโอกาสเกิดอันตรายสูงและมักพบเห็นได้ในการโจมตีในโลกแห่งความเป็นจริง เราจึงห้ามการกระทำเหล่านั้น เราอาจพัฒนาหมวดหมู่นี้เมื่อเวลาผ่านไปเพื่อเพิ่มหรือลบรายการเฉพาะ"
       }
     },
@@ -294,14 +294,14 @@
     {
       "type": "p",
       "text": {
-        "en": "Cyber attackers do sometimes benefit from vulnerability finding: for example, it’s sometimes possible to build software exploits on the basis of public vulnerability reports or from seeing a security patch. For this reason, we block the automatic generation of exploits. Out of caution, we also aim to block our models from finding the very complex vulnerabilities that can typically only be identified by top security experts. If a jailbreak were to allow Fable to reliably identify types of vulnerabilities that no other model can identify, then this is something we do not want to fall into the hands of malicious actors. On the other hand, if many widely-available models in the industry are capable of finding that vulnerability, then it is beneficial to allow Fable to find and fix it.",
+        "en": "Cyber attackers do sometimes benefit from vulnerability finding: for example, it’s sometimes possible to build software exploits on the basis of public vulnerability reports or from seeing a security patch. For this reason, we block the automatic generation of exploits. Out of caution, we also aim to block our models from finding the very complex vulnerabilities that can typically only be identified by top security experts. If a jailbreak were to allow Fable to reliably identify types of vulnerabilities that no other model can identify, then this is something we do not want to fall into the hands of malicious actors. On the other hand, if many widely available models in the industry are capable of finding that vulnerability, then it is beneficial to allow Fable to find and fix it.",
         "th": "ผู้โจมตีทางไซเบอร์บางครั้งได้รับประโยชน์จากการค้นหาช่องโหว่ เช่น บางครั้งเป็นไปได้ที่จะสร้างช่องโหว่ของซอฟต์แวร์ตามรายงานช่องโหว่สาธารณะหรือจากการดูแพตช์รักษาความปลอดภัย ด้วยเหตุนี้ เราจึงบล็อกการสร้างช่องโหว่โดยอัตโนมัติ ด้วยความระมัดระวัง เรายังมุ่งหวังที่จะบล็อกโมเดลของเราจากการค้นหาช่องโหว่ที่ซับซ้อนมาก ซึ่งโดยปกติแล้วผู้เชี่ยวชาญด้านความปลอดภัยชั้นนำเท่านั้นที่สามารถระบุได้ หากการเจลเบรกเพื่อให้ Fable สามารถระบุประเภทของช่องโหว่ที่โมเดลอื่นไม่สามารถระบุได้อย่างน่าเชื่อถือ นี่คือสิ่งที่เราไม่ต้องการตกไปอยู่ในมือของนักแสดงที่เป็นอันตราย ในทางกลับกัน หากโมเดลที่มีอยู่อย่างแพร่หลายในอุตสาหกรรมสามารถค้นหาช่องโหว่ดังกล่าวได้ การปล่อยให้ Fable ค้นหาและแก้ไขจะเป็นประโยชน์"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "The security community has long held that vulnerability finding and responsible public disclosure is a net positive: defenders gain more from knowing what to fix than attackers gain from the same reports. The US government has long taken the same position, noting that “[i]n the vast majority of cases, responsibly disclosing a newly discovered vulnerability is clearly in the national interest”. The government supports many programs that make it easier for ethical actors to find, report, and fix vulnerabilities.",
+        "en": "The security community has long held that vulnerability finding and responsible public disclosure is a net positive: defenders gain more from knowing what to fix than attackers gain from the same reports. The US government has long taken the same position, noting that “[i]n the vast majority of cases, responsibly disclosing a newly discovered vulnerability is clearly in the national interest.” The government supports many programs that make it easier for ethical actors to find, report, and fix vulnerabilities.",
         "th": "ชุมชนความปลอดภัยยึดถือมานานแล้วว่าการค้นพบช่องโหว่และการเปิดเผยข้อมูลต่อสาธารณะอย่างมีความรับผิดชอบนั้นเป็นผลบวกสุทธิ: ผู้ปกป้องจะได้ประโยชน์จากการรู้ว่าจะต้องแก้ไขอะไรมากกว่าผู้โจมตีจะได้รับจากรายงานเดียวกัน รัฐบาลสหรัฐฯ ดำรงตำแหน่งเดียวกันมานานแล้ว โดยสังเกตว่า “ในกรณีส่วนใหญ่ การเปิดเผยช่องโหว่ที่เพิ่งค้นพบอย่างมีความรับผิดชอบนั้นถือเป็นผลประโยชน์ของชาติอย่างชัดเจน” รัฐบาลสนับสนุนโครงการต่างๆ มากมายที่ช่วยให้ผู้มีบทบาทด้านจริยธรรมสามารถค้นหา รายงาน และแก้ไขช่องโหว่ได้ง่ายขึ้น"
       }
     },
@@ -413,8 +413,8 @@
     {
       "type": "li",
       "text": {
-        "en": "News, policy, and high level descriptions of cyber activity;",
-        "th": "ข่าวสาร นโยบาย และคำอธิบายระดับสูงของกิจกรรมทางไซเบอร์"
+        "en": "News, policy, and high-level descriptions of cyber activity;",
+        "th": "ข่าวสาร นโยบาย และคำอธิบายระดับสูงเกี่ยวกับกิจกรรมทางไซเบอร์"
       }
     },
     {
@@ -602,7 +602,7 @@
     {
       "type": "p",
       "text": {
-        "en": "This first axis reflects how far a single successful jailbreak takes an attacker beyond the tools and information to which they already have access (which might include scanners, fuzzers, public exploit frameworks, or comparable publicly-deployed resources). Does it unblock capabilities useful to domain experts (and not only novices) in completing a dangerous cyber task? In other words, to what extent does it provide uplift?",
+        "en": "This first axis reflects how far a single successful jailbreak takes an attacker beyond the tools and information to which they already have access (which might include scanners, fuzzers, public exploit frameworks, or comparable publicly deployed resources). Does it unblock capabilities useful to domain experts (and not only novices) in completing a dangerous cyber task? In other words, to what extent does it provide uplift?",
         "th": "แกนแรกนี้สะท้อนให้เห็นว่าการเจลเบรกที่ประสบความสำเร็จเพียงครั้งเดียวสามารถพาผู้โจมตีไปได้ไกลเพียงใด นอกเหนือจากเครื่องมือและข้อมูลที่พวกเขาสามารถเข้าถึงได้ (ซึ่งอาจรวมถึงเครื่องสแกน เครื่องดักฟัง เฟรมเวิร์กการหาประโยชน์สาธารณะ หรือทรัพยากรที่เทียบเคียงได้กับการใช้งานสาธารณะ) มันปลดบล็อกความสามารถที่เป็นประโยชน์สำหรับผู้เชี่ยวชาญโดเมน (และไม่ใช่เฉพาะมือใหม่) ในการดำเนินงานทางไซเบอร์ที่เป็นอันตรายหรือไม่? กล่าวอีกนัยหนึ่งมันช่วยยกระดับได้มากน้อยเพียงใด?"
       }
     },
@@ -735,8 +735,8 @@
     {
       "type": "li",
       "text": {
-        "en": "Specific outputs that are severe enough to drive a response on their own: for example, a novel and difficult-to-discover critical vulnerability in widely-deployed software. This could be the case even if the technique that produced the vulnerability is narrow or unreliable;",
-        "th": "ผลลัพธ์เฉพาะที่รุนแรงพอที่จะขับเคลื่อนการตอบสนองด้วยตัวมันเอง เช่น ช่องโหว่ร้ายแรงแบบใหม่ที่ยากต่อการค้นพบในซอฟต์แวร์ที่มีการปรับใช้กันอย่างแพร่หลาย อาจเป็นกรณีนี้แม้ว่าเทคนิคที่ทำให้เกิดช่องโหว่จะแคบหรือไม่น่าเชื่อถือก็ตาม"
+        "en": "Specific outputs that are severe enough to drive a response on their own: for example, a novel and difficult-to-discover critical vulnerability in widely deployed software. This could be the case even if the technique that produced the vulnerability is narrow or unreliable;",
+        "th": "ผลลัพธ์เฉพาะที่รุนแรงพอที่จะขับเคลื่อนการตอบสนองด้วยตัวมันเอง เช่น ช่องโหว่ร้ายแรงแบบใหม่ที่ยากต่อการค้นพบในซอฟต์แวร์ที่ใช้งานกันอย่างแพร่หลาย อาจเป็นกรณีนี้แม้ว่าเทคนิคที่ทำให้เกิดช่องโหว่จะแคบหรือไม่น่าเชื่อถือก็ตาม"
       }
     },
     {

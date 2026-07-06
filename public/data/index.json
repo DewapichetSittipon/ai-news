@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T16:50:25.790Z",
+  "generatedAt": "2026-07-06T19:46:28.266Z",
   "items": [
     {
       "id": "huggingface__lerobot-release-v060",
@@ -33,6 +33,23 @@
       "summary": {
         "en": "PRX Part 4: Our Data Strategy",
         "th": "PRX ส่วนที่ 4: กลยุทธ์ข้อมูลของเรา"
+      }
+    },
+    {
+      "id": "anthropic__alberta-government-claude-cybersecurity",
+      "slug": "alberta-government-claude-cybersecurity",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+      "category": "News",
+      "date": "2026-07-06T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Object-LaptopSecure&backgroundColor=sky",
+      "title": {
+        "en": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
+        "th": "รัฐบาลอัลเบอร์ตาใช้ Claude เพื่อค้นหาและแก้ไขช่องโหว่ด้านความปลอดภัยทางไซเบอร์ทั่วทั้งระบบของรัฐบาล"
+      },
+      "summary": {
+        "en": "The Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them.",
+        "th": "รัฐบาลอัลเบอร์ตาใช้ Claude Code กับทั้งแบบจำลอง Opus และ Sonnet เพื่อตรวจสอบระบบ ค้นหาช่องโหว่ และแก้ไข"
       }
     },
     {
@@ -1155,23 +1172,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\">We’re helping build the state’s next-generation workforce and investing in energy programs.",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\">เรากำลังช่วยสร้างบุคลากรรุ่นต่อไปของรัฐและการลงทุนในโครงการพลังงาน"
-      }
-    },
-    {
-      "id": "anthropic__dxc-anthropic-alliance",
-      "slug": "dxc-anthropic-alliance",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
-      "category": "News",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Megaphone&backgroundColor=coral",
-      "title": {
-        "en": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
-        "th": "DXC จะรวม Claude เข้ากับระบบที่ธนาคาร สายการบิน และอุตสาหกรรมที่ได้รับการควบคุมอื่นๆ พึ่งพา"
-      },
-      "summary": {
-        "en": "Anthropic is announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies.",
-        "th": "Anthropic กำลังประกาศความร่วมมือระดับโลกระยะเวลาหลายปีกับ DXC Technology ซึ่งเป็นหนึ่งในบริษัทผู้ให้บริการด้านไอทีที่ใหญ่ที่สุดในโลก"
       }
     },
     {

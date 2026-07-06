@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+6",
-        "th": "+6"
+        "en": "+9",
+        "th": "+9"
       }
     },
     {
@@ -707,6 +707,11 @@
     },
     {
       "type": "img",
+      "src": "/avatars/4fd4859d07aa35cc790dc3e57ffa7be1.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
       "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6452d5ba3f80ad88c77b2f05/yuvfzgqOeK8-bFxEZ2gg9.jpeg",
       "alt": ""
     },
@@ -716,9 +721,11 @@
       "alt": ""
     },
     {
-      "type": "img",
-      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6752234b878f57a95d5ced76/5XbdEpEUbwGpIZ-IVGBoo.png",
-      "alt": ""
+      "type": "li",
+      "text": {
+        "en": "+3",
+        "th": "+3"
+      }
     }
   ]
 }

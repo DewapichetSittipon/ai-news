@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T13:41:11.739Z",
+  "generatedAt": "2026-07-06T16:50:25.790Z",
   "items": [
     {
       "id": "huggingface__lerobot-release-v060",
@@ -16,6 +16,23 @@
       "summary": {
         "en": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
         "th": "LeRobot v0.6.0: ลองจินตนาการ ประเมิน ปรับปรุง"
+      }
+    },
+    {
+      "id": "huggingface__prx-part4-data",
+      "slug": "prx-part4-data",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+      "category": "News",
+      "date": "2026-07-06T15:30:55.000Z",
+      "image": null,
+      "title": {
+        "en": "PRX Part 4: Our Data Strategy",
+        "th": "PRX ส่วนที่ 4: กลยุทธ์ข้อมูลของเรา"
+      },
+      "summary": {
+        "en": "PRX Part 4: Our Data Strategy",
+        "th": "PRX ส่วนที่ 4: กลยุทธ์ข้อมูลของเรา"
       }
     },
     {
@@ -2294,23 +2311,6 @@
       "summary": {
         "en": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
         "th": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings พร้อมบริบท 32K — คุณภาพการดึงข้อมูล Sub-100M ที่ดีที่สุด"
-      }
-    },
-    {
-      "id": "huggingface__continuous-async",
-      "slug": "continuous-async",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/continuous_async",
-      "category": "News",
-      "date": "2026-05-14T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Unlocking asynchronicity in continuous batching",
-        "th": "ปลดล็อกความไม่ซิงโครไนซ์ในการแบทช์ต่อเนื่อง"
-      },
-      "summary": {
-        "en": "Unlocking asynchronicity in continuous batching",
-        "th": "ปลดล็อกความไม่ซิงโครไนซ์ในการแบทช์ต่อเนื่อง"
       }
     },
     {

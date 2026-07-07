@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T23:01:20.346Z",
+  "generatedAt": "2026-07-07T02:24:56.564Z",
   "items": [
     {
       "id": "huggingface__lerobot-release-v060",
@@ -291,20 +291,20 @@
       }
     },
     {
-      "id": "openai__case-studies",
-      "slug": "case-studies",
+      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
+      "slug": "core-dump-epidemiology-data-infrastructure-bug",
       "source": "openai",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
-      "category": "News",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "category": "Engineering",
       "date": "2026-06-30T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
+        "en": "Core dump epidemiology: fixing an 18-year-old bug",
+        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
       },
       "summary": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
+        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
       }
     },
     {
@@ -325,20 +325,20 @@
       }
     },
     {
-      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
-      "slug": "core-dump-epidemiology-data-infrastructure-bug",
+      "id": "openai__case-studies",
+      "slug": "case-studies",
       "source": "openai",
-      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "category": "Engineering",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "category": "News",
       "date": "2026-06-30T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Core dump epidemiology: fixing an 18-year-old bug",
-        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
       },
       "summary": {
-        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
       }
     },
     {
@@ -1175,20 +1175,20 @@
       }
     },
     {
-      "id": "openai__using-codex-to-simulate-black-holes",
-      "slug": "using-codex-to-simulate-black-holes",
+      "id": "openai__bbva",
+      "slug": "bbva",
       "source": "openai",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "category": "Applied AI",
+      "url": "https://openai.com/index/bbva",
+      "category": "News",
       "date": "2026-06-11T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "How an astrophysicist uses Codex to help simulate black holes",
-        "th": "นักดาราศาสตร์ฟิสิกส์ใช้ Codex เพื่อช่วยจำลองหลุมดำอย่างไร"
+        "en": "BBVA puts AI at the core of banking with OpenAI",
+        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
       },
       "summary": {
-        "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-        "th": "ค้นพบวิธีที่นักฟิสิกส์ดาราศาสตร์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
+        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
       }
     },
     {
@@ -1209,20 +1209,20 @@
       }
     },
     {
-      "id": "openai__bbva",
-      "slug": "bbva",
+      "id": "openai__using-codex-to-simulate-black-holes",
+      "slug": "using-codex-to-simulate-black-holes",
       "source": "openai",
-      "url": "https://openai.com/index/bbva",
-      "category": "News",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "category": "Applied AI",
       "date": "2026-06-11T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "BBVA puts AI at the core of banking with OpenAI",
-        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
+        "en": "How an astrophysicist uses Codex to help simulate black holes",
+        "th": "นักดาราศาสตร์ฟิสิกส์ใช้ Codex เพื่อช่วยจำลองหลุมดำอย่างไร"
       },
       "summary": {
-        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
+        "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+        "th": "ค้นพบวิธีที่นักฟิสิกส์ดาราศาสตร์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
       }
     },
     {

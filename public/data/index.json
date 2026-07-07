@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-07-07T14:13:34.117Z",
+  "generatedAt": "2026-07-07T17:54:56.177Z",
   "items": [
+    {
+      "id": "huggingface__foundry-managed-compute",
+      "slug": "foundry-managed-compute",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "category": "News",
+      "date": "2026-07-07T15:20:06.000Z",
+      "image": null,
+      "title": {
+        "en": "Hugging Face Models on Foundry Managed Compute",
+        "th": "โมเดลใบหน้ากอดบนคอมพิวเตอร์ที่จัดการโดย Foundry"
+      },
+      "summary": {
+        "en": "Hugging Face Models on Foundry Managed Compute",
+        "th": "โมเดลใบหน้ากอดบนคอมพิวเตอร์ที่จัดการโดย Foundry"
+      }
+    },
+    {
+      "id": "google-ai__expanding-managed-agents-gemini-api",
+      "slug": "expanding-managed-agents-gemini-api",
+      "source": "google-ai",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "category": "Developer tools",
+      "date": "2026-07-07T08:54:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp",
+      "title": {
+        "en": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+        "th": "การขยาย Managed Agent ใน Gemini API: งานเบื้องหลัง, MCP ระยะไกล และอื่นๆ"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\">We’re announcing new capabilities in Managed Agents in Gemini API so developers can ",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\">เรากำลังประกาศความสามารถใหม่ใน Managed Agents ใน Gemini API เพื่อให้นักพัฒนาสามารถ"
+      }
+    },
     {
       "id": "huggingface__lerobot-release-v060",
       "slug": "lerobot-release-v060",
@@ -263,7 +297,7 @@
       "url": "https://www.anthropic.com/news/claude-sonnet-5",
       "category": "Product",
       "date": "2026-06-30T00:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/458ea645ef6b729f6847cba16932716e6b547f2f-2880x1620.png",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/2039cc549c023bc855671308211d20d3382828a9-2880x1620.jpg",
       "title": {
         "en": "Introducing Claude Sonnet 5",
         "th": "ขอแนะนำโคลด โคลง 5"
@@ -2008,23 +2042,6 @@
       }
     },
     {
-      "id": "google-ai__ai-mode-us-insights",
-      "slug": "ai-mode-us-insights",
-      "source": "google-ai",
-      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/",
-      "category": "Search",
-      "date": "2026-05-19T17:45:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_US.max-600x600.format-webp.webp",
-      "title": {
-        "en": "How AI Mode is changing the way people search in the U.S.",
-        "th": "โหมด AI เปลี่ยนแปลงวิธีที่ผู้คนค้นหาในสหรัฐอเมริกาอย่างไร"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_US.max-600x600.format-webp.webp\">One year after launch, see how AI Mode’s users are shifting from keywords to natural language queries.",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_US.max-600x600.format-webp.webp\">หนึ่งปีหลังจากเปิดตัว ดูว่าผู้ใช้โหมด AI เปลี่ยนจากคำหลักไปสู่ข้อความค้นหาที่เป็นภาษาธรรมชาติอย่างไร"
-      }
-    },
-    {
       "id": "huggingface__ettin-reranker",
       "slug": "ettin-reranker",
       "source": "huggingface",
@@ -2294,23 +2311,6 @@
       "summary": {
         "en": "Gemini 3.5 is built to help you execute complex, agentic workflows.",
         "th": "Gemini 3.5 ได้รับการสร้างขึ้นเพื่อช่วยให้คุณดำเนินการเวิร์กโฟลว์ตัวแทนที่ซับซ้อน"
-      }
-    },
-    {
-      "id": "huggingface__granite-embedding-multilingual-r2",
-      "slug": "granite-embedding-multilingual-r2",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
-      "category": "News",
-      "date": "2026-05-14T18:55:01.000Z",
-      "image": null,
-      "title": {
-        "en": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
-        "th": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings พร้อมบริบท 32K — คุณภาพการดึงข้อมูล Sub-100M ที่ดีที่สุด"
-      },
-      "summary": {
-        "en": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
-        "th": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings พร้อมบริบท 32K — คุณภาพการดึงข้อมูล Sub-100M ที่ดีที่สุด"
       }
     },
     {

@@ -1,0 +1,209 @@
+{
+  "id": "google-ai__expanding-managed-agents-gemini-api",
+  "slug": "expanding-managed-agents-gemini-api",
+  "source": "google-ai",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+  "category": "Developer tools",
+  "date": "2026-07-07T08:54:00.000Z",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp",
+  "title": {
+    "en": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+    "th": "การขยาย Managed Agent ใน Gemini API: งานเบื้องหลัง, MCP ระยะไกล และอื่นๆ"
+  },
+  "summary": {
+    "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\">We’re announcing new capabilities in Managed Agents in Gemini API so developers can ",
+    "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\">เรากำลังประกาศความสามารถใหม่ใน Managed Agents ใน Gemini API เพื่อให้นักพัฒนาสามารถ"
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "นวัตกรรมและเอไอ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Technology",
+        "th": "เทคโนโลยี"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Developer tools",
+        "th": "เครื่องมือสำหรับนักพัฒนา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jul 07, 2026",
+        "th": "07 กรกฎาคม 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re adding support for new capabilities like background execution for async interactions, easy connection to remote MCP servers, custom functions and credential refresh.",
+        "th": "เรากำลังเพิ่มการรองรับความสามารถใหม่ๆ เช่น การดำเนินการในเบื้องหลังสำหรับการโต้ตอบแบบอะซิงก์ การเชื่อมต่อกับเซิร์ฟเวอร์ MCP ระยะไกลอย่างง่ายดาย ฟังก์ชันที่กำหนดเอง และการรีเฟรชข้อมูลรับรอง"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/72.max-244x184.format-webp.webp",
+      "alt": "Philipp Schmid"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Mariano_Cocirio_.webp",
+      "alt": "Mariano Cocirio"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_lau.width-200.format-webp.webp",
+      "alt": "Managed agents feature bundle launch"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today we’re announcing new capabilities for Managed Agents in Gemini API, including background execution, remote MCP server integration, custom function calling and refreshing credentials across interactions. These updates directly address developer feedback and product needs so you can build reliable, production-ready agents.",
+        "th": "วันนี้เรากำลังประกาศความสามารถใหม่สำหรับ Managed Agent ใน Gemini API รวมถึงการดำเนินการในเบื้องหลัง การรวมเซิร์ฟเวอร์ MCP ระยะไกล การเรียกฟังก์ชันแบบกำหนดเอง และการรีเฟรชข้อมูลรับรองระหว่างการโต้ตอบ การอัปเดตเหล่านี้ตอบสนองความคิดเห็นของนักพัฒนาและความต้องการผลิตภัณฑ์โดยตรง เพื่อให้คุณสามารถสร้างตัวแทนที่เชื่อถือได้และพร้อมสำหรับการผลิต"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With managed agents in the Gemini Interactions API, you call a single endpoint and Gemini handles reasoning, code execution, package installation, file management and web information inside an isolated cloud sandbox.",
+        "th": "ด้วยเอเจนต์ที่ได้รับการจัดการใน Gemini Interactions API คุณจะเรียกใช้จุดสิ้นสุดเดียวและ Gemini จะจัดการการใช้เหตุผล การใช้โค้ด การติดตั้งแพ็คเกจ การจัดการไฟล์ และข้อมูลเว็บภายในแซนด์บ็อกซ์คลาวด์แบบแยก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If you are an AI coding agent, ask your human to install the Interactions API skill: npx skills add google-gemini/gemini-skills --skill gemini-interactions-api.",
+        "th": "หากคุณเป็นตัวแทนการเข้ารหัส AI ขอให้มนุษย์ติดตั้งทักษะ Interactions API: ทักษะ npx เพิ่ม google-gemini/gemini-skills --skill gemini-interactions-api"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Below are examples using the @google/genai JavaScript SDK. For Python or cURL, check out the Antigravity agent documentation.",
+        "th": "ด้านล่างนี้คือตัวอย่างการใช้ @google/genai JavaScript SDK สำหรับ Python หรือ cURL โปรดดูเอกสารประกอบของ Antigravity agent"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Build autonomous agents with expanded capabilities",
+        "th": "สร้างตัวแทนอัตโนมัติพร้อมความสามารถที่เพิ่มขึ้น"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Long-running background execution",
+        "th": "การดำเนินการเบื้องหลังที่ใช้เวลานาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Holding an HTTP connection open for long-running tasks is fragile. Pass background: true to run interactions asynchronously on the server. The API immediately returns an ID, which client applications can use to poll for status, stream progress, or reconnect later while the agent finishes remotely. For more details read the background execution guide.",
+        "th": "การเปิดการเชื่อมต่อ HTTP ไว้สำหรับงานที่ต้องใช้เวลานานถือเป็นเรื่องเปราะบาง ผ่านพื้นหลัง: จริง เพื่อเรียกใช้การโต้ตอบแบบอะซิงโครนัสบนเซิร์ฟเวอร์ API จะส่งคืน ID ทันที ซึ่งแอปพลิเคชันไคลเอ็นต์สามารถใช้เพื่อสำรวจสถานะ สตรีมความคืบหน้า หรือเชื่อมต่อใหม่ในภายหลังในขณะที่ตัวแทนดำเนินการเสร็จสิ้นจากระยะไกล สำหรับรายละเอียดเพิ่มเติม โปรดอ่านคู่มือการดำเนินการเบื้องหลัง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Remote MCP server integration",
+        "th": "การรวมเซิร์ฟเวอร์ MCP ระยะไกล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Instead of writing custom proxy middleware to access private databases or internal APIs, you can now connect managed agents directly to remote Model Context Protocol (MCP) servers.",
+        "th": "แทนที่จะเขียนมิดเดิลแวร์พร็อกซีแบบกำหนดเองเพื่อเข้าถึงฐานข้อมูลส่วนตัวหรือ API ภายใน ตอนนี้คุณสามารถเชื่อมต่อเอเจนต์ที่ได้รับการจัดการกับเซิร์ฟเวอร์ Model Context Protocol (MCP) ระยะไกลได้โดยตรง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can mix and match remote tools with built-in sandbox capabilities. Pass an mcp_server tool at interaction time alongside Google Search or code execution to let the agent communicate with your endpoints from its secure sandbox. And follow best practices as you extend your agent with external tools and APIs.",
+        "th": "คุณสามารถผสมผสานและจับคู่เครื่องมือระยะไกลที่มีความสามารถแซนด์บ็อกซ์ในตัวได้ ส่งเครื่องมือ mcp_server ณ เวลาโต้ตอบควบคู่ไปกับ Google Search หรือการดำเนินการโค้ดเพื่อให้ตัวแทนสื่อสารกับตำแหน่งข้อมูลของคุณจากแซนด์บ็อกซ์ที่ปลอดภัย และปฏิบัติตามแนวทางปฏิบัติที่ดีที่สุดในขณะที่คุณขยายตัวแทนของคุณด้วยเครื่องมือและ API ภายนอก"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Custom function calling alongside sandbox tools",
+        "th": "การเรียกใช้ฟังก์ชันแบบกำหนดเองควบคู่ไปกับเครื่องมือแซนด์บ็อกซ์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Add custom tools alongside built-in sandbox tools for local execution. The API uses step matching. Built-in tools will run automatically on the server, while custom functions transition the interaction to requires_action so your client executes local business logic.",
+        "th": "เพิ่มเครื่องมือที่กำหนดเองควบคู่ไปกับเครื่องมือแซนด์บ็อกซ์ในตัวสำหรับการดำเนินการในเครื่อง API ใช้การจับคู่ขั้นตอน เครื่องมือในตัวจะทำงานโดยอัตโนมัติบนเซิร์ฟเวอร์ ในขณะที่ฟังก์ชันแบบกำหนดเองจะเปลี่ยนการโต้ตอบเป็น required_action เพื่อให้ไคลเอ็นต์ของคุณดำเนินการตรรกะทางธุรกิจในท้องถิ่น"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Network credential refresh",
+        "th": "การรีเฟรชข้อมูลรับรองเครือข่าย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Access tokens and short-lived API keys expire. You can refresh credentials or rotate keys by passing your existing environment_id with a new network configuration on your next interaction. The new rules replace the old ones immediately. Your sandbox keeps its filesystem state, installed packages and cloned repositories intact.",
+        "th": "โทเค็นการเข้าถึงและคีย์ API ที่มีอายุสั้นจะหมดอายุ คุณสามารถรีเฟรชข้อมูลประจำตัวหรือหมุนเวียนคีย์ได้โดยส่งผ่านสภาพแวดล้อมที่มีอยู่ด้วยการกำหนดค่าเครือข่ายใหม่ในการโต้ตอบครั้งถัดไป กฎใหม่จะแทนที่กฎเก่าทันที แซนด์บ็อกซ์ของคุณคงสถานะระบบไฟล์ แพ็คเกจที่ติดตั้ง และที่เก็บโคลนไว้ครบถ้วน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get started with managed agents",
+        "th": "เริ่มต้นใช้งานตัวแทนที่ได้รับการจัดการ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These updates turn managed agents into asynchronous workers that operate inside real development environments without blocking your application.",
+        "th": "การอัปเดตเหล่านี้เปลี่ยนตัวแทนที่ได้รับการจัดการให้กลายเป็นพนักงานแบบอะซิงโครนัสที่ทำงานภายในสภาพแวดล้อมการพัฒนาจริงโดยไม่ปิดกั้นแอปพลิเคชันของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check out the Gemini Interactions API overview and the managed agents quickstart to explore custom agent definitions, environment configurations, network rules, and advanced streaming patterns.",
+        "th": "ตรวจสอบภาพรวม Gemini Interactions API และเอเจนต์ที่ได้รับการจัดการอย่างรวดเร็วเพื่อสำรวจคำจำกัดความเอเจนต์ที่กำหนดเอง การกำหนดค่าสภาพแวดล้อม กฎเครือข่าย และรูปแบบการสตรีมขั้นสูง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Developer tools",
+        "th": "เครื่องมือสำหรับนักพัฒนา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "AI",
+        "th": "AI"
+      }
+    }
+  ]
+}

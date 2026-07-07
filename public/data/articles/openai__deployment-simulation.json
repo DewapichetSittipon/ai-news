@@ -18,8 +18,712 @@
     {
       "type": "p",
       "text": {
-        "en": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-        "th": "OpenAI ขอแนะนำ Deployment Simulation ซึ่งเป็นวิธีการทำนายพฤติกรรมของโมเดล AI ก่อนที่จะปรับใช้โดยใช้ข้อมูลการสนทนาจริง เพื่อปรับปรุงความปลอดภัยและความแม่นยำในการประเมิน"
+        "en": "June 16, 2026",
+        "th": "16 มิถุนายน 2569"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using realistic conversation contexts to better estimate undesired model behavior before release.",
+        "th": "การใช้บริบทการสนทนาที่สมจริงเพื่อประเมินพฤติกรรมของโมเดลที่ไม่พึงประสงค์ได้ดียิ่งขึ้นก่อนเผยแพร่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Introduction",
+        "th": "การแนะนำ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How Deployment Simulation works",
+        "th": "การจำลองการใช้งานทำงานอย่างไร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How we tested Deployment Simulation",
+        "th": "เราทดสอบ Deployment Simulation อย่างไร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deployment Simulation significantly expands pre-deployment risk assessment",
+        "th": "Deployment Simulation ช่วยขยายการประเมินความเสี่ยงก่อนการปรับใช้งานอย่างมีนัยสำคัญ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Reducing evaluation awareness",
+        "th": "การลดความตระหนักในการประเมิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Tool simulation for agentic trajectories",
+        "th": "การจำลองเครื่องมือสำหรับวิถีเอเจนต์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "WildChat and external auditing",
+        "th": "WildChat และการตรวจสอบภายนอก"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Limitations",
+        "th": "ข้อจำกัด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Conclusion",
+        "th": "บทสรุป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Table of contents",
+        "th": "สารบัญ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Introduction",
+        "th": "การแนะนำ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How Deployment Simulation works",
+        "th": "การจำลองการใช้งานทำงานอย่างไร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How we tested Deployment Simulation",
+        "th": "เราทดสอบ Deployment Simulation อย่างไร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deployment Simulation significantly expands pre-deployment risk assessment",
+        "th": "Deployment Simulation ช่วยขยายการประเมินความเสี่ยงก่อนการปรับใช้งานอย่างมีนัยสำคัญ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Reducing evaluation awareness",
+        "th": "การลดความตระหนักในการประเมิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Tool simulation for agentic trajectories",
+        "th": "การจำลองเครื่องมือสำหรับวิถีเอเจนต์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "WildChat and external auditing",
+        "th": "WildChat และการตรวจสอบภายนอก"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Limitations",
+        "th": "ข้อจำกัด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Conclusion",
+        "th": "บทสรุป"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Introduction",
+        "th": "การแนะนำ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before releasing a new model, labs need to understand not just what it can do, but how it is likely to behave in real-world use, including where it might introduce new risks. This becomes even more important as capabilities increase. As part of our pre-deployment safety review, we leverage targeted evaluations, red-teaming, and other checks to understand model behavior. We’ve now started using a method for simulating model deployments before they happen, which adds a complementary signal: a deployment-like preview of how a candidate model may behave before it reaches users.",
+        "th": "ก่อนที่จะเปิดตัวโมเดลใหม่ ห้องปฏิบัติการต้องเข้าใจไม่เพียงแต่ว่าโมเดลสามารถทำอะไรได้บ้าง แต่ยังรวมถึงพฤติกรรมในการใช้งานจริงด้วย รวมถึงจุดที่อาจทำให้เกิดความเสี่ยงใหม่ๆ สิ่งนี้จะมีความสำคัญมากยิ่งขึ้นเมื่อความสามารถเพิ่มขึ้น ในส่วนหนึ่งของการตรวจสอบความปลอดภัยก่อนการปรับใช้งาน เราใช้การประเมินแบบกำหนดเป้าหมาย ทีมงานสีแดง และการตรวจสอบอื่นๆ เพื่อทำความเข้าใจพฤติกรรมของโมเดล ตอนนี้เราได้เริ่มใช้วิธีการจำลองการปรับใช้โมเดลก่อนที่จะเกิดขึ้น ซึ่งเพิ่มสัญญาณเสริม: การแสดงตัวอย่างที่คล้ายกับการปรับใช้ว่าโมเดลผู้สมัครอาจทำงานอย่างไรก่อนที่จะถึงมือผู้ใช้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Deployment Simulation is a method for simulating a future deployment before it happens. We do so by replaying previous conversations in a privacy-preserving manner with a new candidate model. This enables us to study how the new model responds in realistic contexts before release, including whether new undesired behaviors emerge and how often they may appear.",
+        "th": "Deployment Simulation เป็นวิธีการจำลองการใช้งานในอนาคตก่อนที่จะเกิดขึ้น เราทำเช่นนั้นโดยเล่นซ้ำการสนทนาก่อนหน้านี้ในลักษณะการรักษาความเป็นส่วนตัวด้วยโมเดลผู้สมัครใหม่ สิ่งนี้ช่วยให้เราสามารถศึกษาว่าโมเดลใหม่ตอบสนองอย่างไรในบริบทที่สมจริงก่อนที่จะเผยแพร่ ซึ่งรวมถึงพฤติกรรมที่ไม่พึงประสงค์ใหม่ๆ ที่เกิดขึ้นหรือไม่ และอาจปรากฏขึ้นบ่อยเพียงใด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Across multiple GPT‑5‑series Thinking deployments, Deployment Simulation improved our estimates of undesired model behavior rates, helped surface novel forms of misalignment before release, and helped reduce the risk that models would be able to tell they were being tested. We also applied the method to challenging agentic rollouts, showing that it can extend beyond standard chat to more complex agent settings involving tool use, and can also be used for risk assessment before internal model deployments.",
+        "th": "ในการปรับใช้ Thinking ซีรีส์ GPT-5 หลายๆ รุ่น Deployment Simulation ได้ปรับปรุงการประมาณอัตราพฤติกรรมของโมเดลที่ไม่ต้องการ ช่วยให้แสดงรูปแบบที่ไม่ตรงแนวก่อนที่จะเผยแพร่ และช่วยลดความเสี่ยงที่โมเดลจะสามารถบอกได้ว่ากำลังถูกทดสอบ นอกจากนี้เรายังนำวิธีการนี้ไปใช้กับความท้าทายในการเปิดตัวเอเจนต์ โดยแสดงให้เห็นว่าสามารถขยายได้มากกว่าการแชทมาตรฐาน ไปสู่การตั้งค่าเอเจนต์ที่ซับซ้อนมากขึ้นที่เกี่ยวข้องกับการใช้เครื่องมือ และยังสามารถใช้เพื่อการประเมินความเสี่ยงก่อนการปรับใช้โมเดลภายในอีกด้วย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We have already used insights from Deployment Simulation during model development to identify blind spots in traditional evaluations and inform mitigations and deployment decisions. As we make the pipeline easier to run, we expect it to play a larger role in the future model development process.",
+        "th": "เราได้ใช้ข้อมูลเชิงลึกจาก Deployment Simulation ในระหว่างการพัฒนาโมเดลเพื่อระบุจุดบอดในการประเมินแบบดั้งเดิม และแจ้งการบรรเทาและการตัดสินใจในการปรับใช้ เมื่อเราทำให้ไปป์ไลน์ทำงานได้ง่ายขึ้น เราคาดหวังว่าท่อจะมีบทบาทมากขึ้นในกระบวนการพัฒนาโมเดลในอนาคต"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How Deployment Simulation works",
+        "th": "การจำลองการใช้งานทำงานอย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Pre-deployment evaluations used across the industry generally consist of a mix of synthetic, manually written, or production prompts intentionally selected to be difficult, high severity, or adversarial. These evaluations have generally had two intertwined goals: assessing how the model responds when stress-tested in situations that have a very small chance of occurring in deployment traffic, and gaining a general understanding of undesired model behaviors, including finding novel undesired behaviors and predicting their deployment-time frequencies.",
+        "th": "การประเมินก่อนการปรับใช้งานที่ใช้ทั่วทั้งอุตสาหกรรมโดยทั่วไปประกอบด้วยพรอมต์สังเคราะห์ เขียนด้วยตนเอง หรือการผลิตที่ตั้งใจเลือกว่ายาก มีความรุนแรงสูง หรือขัดแย้งกัน โดยทั่วไปการประเมินเหล่านี้มีเป้าหมายสองประการที่เชื่อมโยงกัน: การประเมินว่าแบบจำลองตอบสนองอย่างไรเมื่อได้รับการทดสอบความเครียดในสถานการณ์ที่มีโอกาสน้อยมากที่จะเกิดขึ้นในการรับส่งข้อมูลการปรับใช้ และการทำความเข้าใจทั่วไปเกี่ยวกับพฤติกรรมของแบบจำลองที่ไม่พึงประสงค์ รวมถึงการค้นหาพฤติกรรมที่ไม่พึงประสงค์ใหม่ๆ และการทำนายความถี่ของเวลาในการปรับใช้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "While traditional evaluations remain crucial for the first goal, Deployment Simulation represents a significant step forward with regards to the second goal for non-tail risks (in our experiments, our approach can’t be expected to measure behaviors that occur with frequency less than 1 in 200,000 messages). Deployment Simulation’s strength comes from side-stepping some core challenges with traditional evaluations:",
+        "th": "แม้ว่าการประเมินแบบเดิมๆ ยังคงมีความสำคัญสำหรับเป้าหมายแรก แต่การจำลองการปรับใช้งานถือเป็นก้าวสำคัญที่ก้าวไปข้างหน้าโดยคำนึงถึงเป้าหมายที่สองสำหรับความเสี่ยงที่ไม่ใช่ส่วนท้าย (ในการทดลองของเรา ไม่สามารถคาดหวังแนวทางของเราจะวัดพฤติกรรมที่เกิดขึ้นด้วยความถี่น้อยกว่า 1 ใน 200,000 ข้อความ) จุดแข็งของ Deployment Simulation มาจากการก้าวข้ามความท้าทายหลักบางประการด้วยการประเมินแบบดั้งเดิม:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Coverage: it is difficult to be confident that evaluation prompts will cover all possible types of undesired model behavior. Measuring new types of undesired behavior requires creating new evaluations, and knowing what harms to measure. This can be time and labor intensive, and evaluations can saturate over time.",
+        "th": "ความครอบคลุม: เป็นเรื่องยากที่จะมั่นใจได้ว่าข้อความแจ้งเตือนการประเมินจะครอบคลุมพฤติกรรมของโมเดลที่ไม่พึงประสงค์ทุกประเภทที่เป็นไปได้ การวัดพฤติกรรมที่ไม่พึงประสงค์ประเภทใหม่ๆ จำเป็นต้องสร้างการประเมินใหม่ และการรู้ว่าอะไรเป็นอันตรายที่จะวัด ซึ่งอาจต้องใช้เวลาและแรงงานจำนวนมาก และการประเมินอาจอิ่มตัวเมื่อเวลาผ่านไป"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Selection biases: traditional evaluations generally are built with specific undesired model behaviors in mind, selected in ways that bias towards contexts have previously occurred. This may make their estimates less informative about incidence of such behaviors in the full breadth of the deployment distribution.",
+        "th": "อคติในการเลือก: การประเมินแบบดั้งเดิมโดยทั่วไปถูกสร้างขึ้นโดยคำนึงถึงพฤติกรรมของแบบจำลองที่ไม่ต้องการโดยเฉพาะ โดยเลือกในลักษณะที่มีอคติต่อบริบทที่เคยเกิดขึ้นมาก่อน สิ่งนี้อาจทำให้การประมาณการมีข้อมูลน้อยลงเกี่ยวกับอุบัติการณ์ของพฤติกรรมดังกล่าวในการกระจายการปรับใช้แบบเต็มความกว้าง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Being recognizable as tests by models: models have been increasingly able to determine they are being tested, which can distort their behavior and our downstream measurements of their safety. While many of the traditional evaluations we use at OpenAI are also drawn from production traffic and don’t suffer from this issue, this is a common concern for many traditional evaluations used across the industry.",
+        "th": "เป็นที่รู้จักว่าเป็นการทดสอบตามแบบจำลอง: โมเดลต่างๆ สามารถตรวจสอบได้มากขึ้นว่ากำลังถูกทดสอบ ซึ่งสามารถบิดเบือนพฤติกรรมและการวัดผลด้านความปลอดภัยขั้นปลายน้ำของเราได้ แม้ว่าการประเมินแบบดั้งเดิมหลายอย่างที่เราใช้ที่ OpenAI จะมาจากปริมาณการใช้งานจริงและไม่ได้ประสบปัญหานี้ แต่นี่เป็นข้อกังวลทั่วไปสำหรับการประเมินแบบดั้งเดิมจำนวนมากที่ใช้ทั่วทั้งอุตสาหกรรม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The main technique behind Deployment Simulation is simple: we take recent conversations from deployment, remove the original assistant response from the older model, and regenerate it with a candidate model to be released. We evaluate the completions by searching for new failure modes, and estimate deployment-time undesired behavior frequency based on frequency in this deployment-like distribution. We can perform the same measurements after release on real deployment traffic, enabling us to validate our pre-deployment forecasts.",
+        "th": "เทคนิคหลักเบื้องหลังการจำลองการปรับใช้นั้นเรียบง่าย: เรานำการสนทนาล่าสุดจากการปรับใช้ ลบการตอบกลับของผู้ช่วยเดิมออกจากโมเดลเก่า และสร้างใหม่ด้วยโมเดลผู้สมัครที่จะเผยแพร่ เราประเมินความสำเร็จโดยการค้นหาโหมดความล้มเหลวใหม่ๆ และประเมินความถี่ของพฤติกรรมที่ไม่พึงประสงค์เวลาปรับใช้ตามความถี่ในการกระจายที่คล้ายกับการใช้งานนี้ เราดำเนินการวัดแบบเดียวกันได้หลังจากเผยแพร่ปริมาณการใช้งานจริง ทำให้เราสามารถตรวจสอบการคาดการณ์ก่อนการปรับใช้งานของเราได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Deployment Simulation significantly mitigates the three limitations listed above: sampling bias is addressed by using a distribution of evaluation prompts representative of recent usage. Deployment Simulation with representative prompts can also mitigate concerns about coverage: we get greater coverage of undesirable model behaviors by simply simulating more traffic. This tradeoff between compute and coverage is important, because it makes the quality of this axis of risk assessment scale with compute, rather than the manual effort required to build more evaluations. Models also don’t seem to be able to distinguish between conversations obtained via deployment simulation and real deployment traffic.",
+        "th": "การจำลองการปรับใช้ช่วยลดข้อจำกัดสามประการที่ระบุไว้ข้างต้นได้อย่างมาก: ความลำเอียงในการสุ่มตัวอย่างได้รับการแก้ไขโดยใช้การกระจายการแจ้งเตือนการประเมินซึ่งเป็นตัวแทนของการใช้งานล่าสุด การจำลองการปรับใช้พร้อมข้อความแจ้งของตัวแทนยังสามารถลดความกังวลเกี่ยวกับการครอบคลุมได้: เราได้รับการครอบคลุมมากขึ้นเกี่ยวกับพฤติกรรมของโมเดลที่ไม่พึงประสงค์โดยเพียงแค่จำลองการรับส่งข้อมูลมากขึ้น การแลกเปลี่ยนระหว่างการประมวลผลและความครอบคลุมเป็นสิ่งสำคัญ เนื่องจากจะทำให้คุณภาพของแกนของระดับการประเมินความเสี่ยงด้วยการประมวลผล แทนที่จะต้องใช้ความพยายามด้วยตนเองเพื่อสร้างการประเมินเพิ่มเติม ดูเหมือนว่าแบบจำลองจะไม่สามารถแยกแยะระหว่างการสนทนาที่ได้รับจากการจำลองการใช้งานและปริมาณการใช้งานจริงได้"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/34b4USsI8MwmMIRAdjXRlO/1b3ea22bf5ded11cc1dea3805542ef22/Diagram1-desktop-light.svg?w=3840&q=90",
+      "alt": "Diagram showing the Production Resampling pipeline from production conversations through privacy-preserving resampling, model completion generation, evaluation, and deployment-time estimates."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Figure 1: Overview of our Deployment Simulation pipeline",
+        "th": "รูปที่ 1: ภาพรวมของไปป์ไลน์การจำลองการปรับใช้ของเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Area",
+        "th": "พื้นที่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Traditional Evaluations",
+        "th": "การประเมินแบบดั้งเดิม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Deployment Simulation",
+        "th": "การจำลองการใช้งาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Coverage",
+        "th": "ความคุ้มครอง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Better for low prevalence but high severity risks that we want to make sure we have coverage for",
+        "th": "ดีกว่าสำหรับความชุกต่ำแต่มีความเสี่ยงความรุนแรงสูง ซึ่งเราต้องการให้แน่ใจว่าได้รับความคุ้มครอง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Better for understanding the spectrum of risks we’re likely to see in deployment traffic",
+        "th": "ดีกว่าสำหรับการทำความเข้าใจขอบเขตความเสี่ยงที่เราน่าจะพบในการรับส่งข้อมูลการปรับใช้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Representativeness / bias",
+        "th": "ความเป็นตัวแทน / อคติ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Focused on evaluating targeted past or predicted risks, even for behaviors that have extremely low prevalence in deployment",
+        "th": "มุ่งเน้นไปที่การประเมินความเสี่ยงในอดีตหรือที่คาดการณ์ไว้ที่เป็นเป้าหมาย แม้ว่าพฤติกรรมที่มีความแพร่หลายในการปรับใช้ต่ำมาก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Representative of risks that occur above a certain prevalence in current deployment traffic",
+        "th": "เป็นตัวแทนของความเสี่ยงที่เกิดขึ้นเหนือความชุกบางอย่างในการรับส่งข้อมูลการปรับใช้ในปัจจุบัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Evaluation awareness",
+        "th": "การรับรู้การประเมิน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Potentially obvious test cues (e.g., with synthetic data) unless evals are created with deployment data",
+        "th": "ตัวชี้นำการทดสอบที่ชัดเจนที่อาจเกิดขึ้น (เช่น ด้วยข้อมูลสังเคราะห์) เว้นแต่จะสร้างการประเมินด้วยข้อมูลการปรับใช้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Deployment-like context seems to significantly mitigate eval awareness",
+        "th": "บริบทที่คล้ายกับการปรับใช้ดูเหมือนจะลดการรับรู้การประเมินได้อย่างมาก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Effort",
+        "th": "ความพยายาม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Custom prompt distributions and setups requires significantly more manual effort",
+        "th": "การกระจายและการตั้งค่าพรอมต์แบบกำหนดเองต้องใช้ความพยายามด้วยตนเองมากขึ้นอย่างมาก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Requires a one-time infrastructure cost, and then reuses prefixes from deployment and graders from known undesired behaviors",
+        "th": "ต้องใช้ต้นทุนโครงสร้างพื้นฐานเพียงครั้งเดียว จากนั้นนำคำนำหน้าจากการนำไปใช้งานและตัวให้คะแนนจากพฤติกรรมที่ไม่พึงประสงค์ที่ทราบมาใช้ซ้ำ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "High level comparison between traditional evaluations and Deployment Simulation",
+        "th": "การเปรียบเทียบระดับสูงระหว่างการประเมินแบบดั้งเดิมกับการจำลองการใช้งาน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How we tested Deployment Simulation",
+        "th": "เราทดสอบ Deployment Simulation อย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To evaluate Deployment Simulation, we pre-registered predictions for the deployment-time frequency of 20 types of undesirable behavior for GPT‑5.4 Thinking. We also ran retrospective studies across other deployments of Thinking models of the GPT‑5‑series. The model behaviors we analyze cover both misalignment and disallowed content categories which we have been reporting in system cards (e.g. the model lying about tools, or outputting disallowed sexual content). While for these results we only track 20 categories of undesired model behavior, and only look for novel misaligned behaviors, Deployment Simulation is a general technique which could be applied to simulate any deployment-time model property.",
+        "th": "เพื่อประเมินการจำลองการปรับใช้ เราได้ลงทะเบียนการคาดการณ์ล่วงหน้าสำหรับความถี่ของเวลาในการใช้งานของพฤติกรรมไม่พึงประสงค์ 20 ประเภทสำหรับการคิด GPT-5.4 นอกจากนี้เรายังทำการศึกษาย้อนหลังเกี่ยวกับการใช้งานโมเดล Thinking อื่นๆ ของซีรีส์ GPT-5 พฤติกรรมของโมเดลที่เราวิเคราะห์ครอบคลุมทั้งหมวดหมู่เนื้อหาที่ไม่ตรงแนวและไม่ได้รับอนุญาตซึ่งเราได้รายงานไว้ในการ์ดระบบ (เช่น โมเดลโกหกเกี่ยวกับเครื่องมือ หรือแสดงเนื้อหาเกี่ยวกับเรื่องเพศที่ไม่ได้รับอนุญาต) แม้ว่าผลลัพธ์เหล่านี้ เราจะติดตามพฤติกรรมของแบบจำลองที่ไม่ต้องการเพียง 20 หมวดหมู่ และมองหาเฉพาะพฤติกรรมที่ไม่ตรงแนวใหม่เท่านั้น Deployment Simulation เป็นเทคนิคทั่วไปที่สามารถนำไปใช้ในการจำลองคุณสมบัติของโมเดลเวลาปรับใช้ใดๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The production traffic we leveraged was also from Thinking models of the GPT‑5‑series. Before running our evaluations, we automatically removed account-linked identifiers and identifiable information. In accordance with our privacy policy, we only analyzed ChatGPT traffic from users who allow their data to be used for model improvements. We report only aggregate findings from these evaluations. In total, we analyzed approximately 1.3 million de-identified conversations across GPT‑5 Thinking through GPT‑5.4 deployments, spanning August 2025 to March 2026.",
+        "th": "ปริมาณการผลิตที่เราใช้ประโยชน์นั้นมาจากโมเดล Thinking ของซีรีส์ GPT-5 เช่นกัน ก่อนดำเนินการประเมิน เราได้ลบตัวระบุที่เชื่อมโยงกับบัญชีและข้อมูลที่สามารถระบุตัวตนออกโดยอัตโนมัติ ตามนโยบายความเป็นส่วนตัวของเรา เราจะวิเคราะห์เฉพาะการรับส่งข้อมูล ChatGPT จากผู้ใช้ที่อนุญาตให้ใช้ข้อมูลของตนเพื่อการปรับปรุงโมเดล เรารายงานเฉพาะผลรวมจากการประเมินเหล่านี้ โดยรวมแล้ว เราได้วิเคราะห์การสนทนาที่ไม่ระบุตัวตนประมาณ 1.3 ล้านการสนทนาใน GPT‑5 Thinking ผ่านการปรับใช้ GPT‑5.4 ครอบคลุมตั้งแต่เดือนสิงหาคม 2025 ถึงเดือนมีนาคม 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We evaluate the quality of the pre-deployment risk-assessment produced by Deployment Simulation in three main ways:",
+        "th": "เราประเมินคุณภาพของการประเมินความเสี่ยงก่อนการปรับใช้งานที่สร้างโดย Deployment Simulation ในสามวิธีหลัก:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Taxonomy coverage: did post-release auditing surface any important misaligned behaviors missing from our initial bad behavior taxonomy?",
+        "th": "ความครอบคลุมด้านอนุกรมวิธาน: การตรวจสอบหลังเผยแพร่พบพฤติกรรมที่ไม่สอดคล้องที่สำคัญที่ขาดหายไปจากอนุกรมวิธานพฤติกรรมที่ไม่ดีในช่วงแรกของเราหรือไม่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Directional accuracy: did the simulation correctly predict whether deployment prevalence would increase or decrease for known behaviors?",
+        "th": "ความแม่นยำของทิศทาง: การจำลองคาดการณ์ได้อย่างถูกต้องหรือไม่ว่าความแพร่หลายในการใช้งานจะเพิ่มขึ้นหรือลดลงสำหรับพฤติกรรมที่ทราบหรือไม่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Rate calibration: were our pre-deployment estimates close to the rates we later observed in deployment? Achieving good rate calibration requires more than directional accuracy, making this the highest possible quality standard.",
+        "th": "การสอบเทียบอัตรา: การประมาณการก่อนการปรับใช้งานของเราใกล้เคียงกับอัตราที่เราพบในการปรับใช้ในภายหลังหรือไม่ การสอบเทียบอัตราที่ดีต้องอาศัยมากกว่าความแม่นยำในทิศทาง ทำให้สิ่งนี้เป็นมาตรฐานคุณภาพสูงสุดที่เป็นไปได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We also measure how much models are able to tell they are in an evaluation during Deployment Simulation, and test how robust the method is to different forms of deployment traffic and to challenging tool use settings.",
+        "th": "นอกจากนี้เรายังวัดจำนวนโมเดลที่สามารถบอกได้ว่าอยู่ในการประเมินระหว่าง Deployment Simulation และทดสอบว่าวิธีการนี้มีประสิทธิภาพเพียงใดต่อรูปแบบต่างๆ ของการรับส่งข้อมูลการปรับใช้ และการตั้งค่าการใช้เครื่องมือที่ท้าทาย"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Deployment Simulation significantly expands pre-deployment risk assessment",
+        "th": "Deployment Simulation ช่วยขยายการประเมินความเสี่ยงก่อนการปรับใช้งานอย่างมีนัยสำคัญ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Across GPT‑5‑series Thinking deployments, Deployment Simulation outperformed challenging-prompt baselines in determining actual risk rate, was able to surface calculator hacking before release, and appeared potentially indistinguishable from deployment to the model.",
+        "th": "ในการปรับใช้ Thinking ซีรีส์ GPT-5 ต่างๆ นั้น Deployment Simulation มีประสิทธิภาพเหนือกว่าพื้นฐานที่ท้าทายในการพิจารณาอัตราความเสี่ยงที่แท้จริง สามารถแสดงการแฮ็กของเครื่องคิดเลขก่อนที่จะเผยแพร่ และอาจแยกไม่ออกจากการปรับใช้กับโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Overview of our predictions. For a visualization of all predictions for Thinking model deployments of the GPT‑5‑series, see Figure 2. The predictions for GPT‑5.4 Thinking were pre-registered, while the others were retroactive predictions. In aggregate, our predictions had a median multiplicative error of 1.5x (e.g. if the undesirable behavior rate is 10 in 100k, this would correspond to estimating a rate of 15 or 6.67 in 100k). While tail errors of our method can be roughly 10x larger, we expect they can be significantly reduced with further improvements to our simulation pipeline, as discussed below.",
+        "th": "ภาพรวมการคาดการณ์ของเรา หากต้องการแสดงภาพการคาดการณ์ทั้งหมดสำหรับการนำโมเดล Thinking ไปใช้ของซีรีส์ GPT-5 โปรดดูรูปที่ 2 การคาดคะเนสำหรับ GPT-5.4 Thinking ได้รับการลงทะเบียนล่วงหน้า ในขณะที่รายการอื่นๆ เป็นการคาดการณ์ย้อนหลัง โดยรวมแล้ว การคาดการณ์ของเรามีข้อผิดพลาดในการคูณมัธยฐานที่ 1.5 เท่า (เช่น หากอัตราพฤติกรรมที่ไม่พึงประสงค์คือ 10 ใน 100,000 สิ่งนี้จะสอดคล้องกับการประมาณอัตรา 15 หรือ 6.67 ใน 100,000) แม้ว่าข้อผิดพลาดส่วนท้ายของวิธีการของเราอาจมีขนาดใหญ่กว่าประมาณ 10 เท่า แต่เราคาดหวังว่าข้อผิดพลาดเหล่านี้จะลดลงได้อย่างมากด้วยการปรับปรุงไปป์ไลน์การจำลองของเราเพิ่มเติม ตามที่กล่าวไว้ด้านล่าง"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7JIBwJMplKThuVkp4gnlwq/b38b936b0497dd8c710a1c1c219067da/Diagram2-desktop-light.svg?w=3840&q=90",
+      "alt": "Chart showing Deployment Simulation exact-rate predictions of deployment-time undesirable behavior based on prior deployment data."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Figure 2. Deployment Simulation frequency predictions of deployment-time undesirable behavior based on prior deployment data. The notation 5.1 → 5 indicates that we are resampling prefixes from GPT‑5 with GPT‑5.1, that is, simulating GPT‑5.1’s deployment based on data from GPT‑5. The highest rate of misaligned behavior was “calculator hacking” in GPT‑5.1, which we have discussed previously⁠(opens in a new window).",
+        "th": "รูปที่ 2 การคาดการณ์ความถี่การจำลองการใช้งานของพฤติกรรมที่ไม่พึงประสงค์ในเวลาใช้งานโดยพิจารณาจากข้อมูลการใช้งานก่อนหน้า สัญลักษณ์ 5.1 → 5 ระบุว่าเรากำลังสุ่มตัวอย่างคำนำหน้าจาก GPT‑5 ใหม่ด้วย GPT‑5.1 นั่นคือการจำลองการใช้งาน GPT‑5.1 โดยอิงตามข้อมูลจาก GPT‑5 อัตราสูงสุดของพฤติกรรมที่ไม่สอดคล้องกันคือ “การแฮ็กเครื่องคิดเลข” ใน GPT‑5.1 ซึ่งเราได้พูดคุยไปแล้วก่อนหน้านี้ (เปิดในหน้าต่างใหม่)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Comparing Deployment Simulation predictions to baselines. The most important categories to estimate correctly for pre-deployment risk-assessments are ones that have large changes of incidence after the model’s deployment (e.g. >= 1.5x). On this subset, Deployment Simulation is substantially better than baselines both at predicting whether a certain undesirable behavior will increase or decrease in prevalence with a model’s deployment (Figure 3, left), and at estimating its exact deployment-time incidence (Figure 3, right). We use two main baselines: a Challenging Prompts baseline which we currently use for system cards and launch decisions, and a naive baseline of using rates from the previous deployment as estimates for the new model.",
+        "th": "การเปรียบเทียบการคาดการณ์การจำลองการปรับใช้งานกับข้อมูลพื้นฐาน หมวดหมู่ที่สำคัญที่สุดในการประมาณอย่างถูกต้องสำหรับการประเมินความเสี่ยงก่อนการปรับใช้งานคือประเภทที่มีการเปลี่ยนแปลงอุบัติการณ์อย่างมากหลังจากการปรับใช้แบบจำลอง (เช่น >= 1.5x) ในชุดย่อยนี้ การจำลองการปรับใช้จะดีกว่าเส้นพื้นฐานอย่างมาก ทั้งในการทำนายว่าพฤติกรรมที่ไม่พึงประสงค์บางอย่างจะเพิ่มขึ้นหรือลดลงตามความชุกของการปรับใช้แบบจำลอง (รูปที่ 3 ซ้าย) และในการประมาณอุบัติการณ์ของเวลาในการปรับใช้ที่แน่นอน (รูปที่ 3 ขวา) เราใช้พื้นฐานสองประการ: พื้นฐานที่ท้าทายซึ่งปัจจุบันเราใช้สำหรับการ์ดระบบและการตัดสินใจเปิดตัว และพื้นฐานที่ไร้เดียงสาของการใช้อัตราจากการปรับใช้ครั้งก่อนเป็นการประมาณการสำหรับโมเดลใหม่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Figure 3. Deployment Simulation predicts both the direction of incidence changes (left) and exact production rates (right) better than static evals.",
+        "th": "รูปที่ 3 การจำลองการใช้งานคาดการณ์ทั้งทิศทางของการเปลี่ยนแปลงอุบัติการณ์ (ซ้าย) และอัตราการผลิตที่แน่นอน (ขวา) ได้ดีกว่าการประเมินแบบคงที่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sources of simulation error in our pipeline. We also studied the current sources of error in our pipeline. Specifically, large tail errors make the pipeline less trustworthy for deployment decisions: for example, when seeing a large predicted increase in an undesirable behavior of a certain type, if the pipeline is known to have even occasional large errors, it raises doubt about whether this is a reliable estimate or an artifact of the pipeline. There are two main sources of possible error:",
+        "th": "แหล่งที่มาของข้อผิดพลาดในการจำลองในไปป์ไลน์ของเรา เรายังศึกษาแหล่งที่มาของข้อผิดพลาดในปัจจุบันในไปป์ไลน์ของเราด้วย โดยเฉพาะอย่างยิ่ง ข้อผิดพลาดส่วนท้ายขนาดใหญ่ทำให้ไปป์ไลน์น่าเชื่อถือน้อยลงสำหรับการตัดสินใจนำไปใช้งาน: ตัวอย่างเช่น เมื่อเห็นพฤติกรรมที่ไม่พึงประสงค์บางประเภทเพิ่มขึ้นอย่างมากที่คาดการณ์ไว้ หากรู้ว่าไปป์ไลน์มีข้อผิดพลาดขนาดใหญ่เป็นครั้งคราว ก็จะทำให้เกิดข้อสงสัยว่านี่เป็นการประมาณการที่เชื่อถือได้หรือเป็นเพียงส่วนที่ผิดปกติของไปป์ไลน์ มีสองแหล่งที่มาหลักของข้อผิดพลาดที่เป็นไปได้:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Resampling environment fidelity error: to estimate production rates accurately, our simulation pipeline needs to be as realistic as possible. This is in part an engineering problem (sampling from the model using the same pipelines used for production traffic), and in part an interesting challenge for tools which need read/write access to external resources which are constantly changing (e.g. web searches or interacting with local files). We can isolate the simulation fidelity error by comparing predictions from an actual deployment and its simulation (that is, simulating the deployment of the already deployed model).",
+        "th": "ข้อผิดพลาดด้านความเที่ยงตรงของสภาพแวดล้อมในการสุ่มตัวอย่างใหม่: เพื่อประเมินอัตราการผลิตอย่างแม่นยำ ไปป์ไลน์การจำลองของเราจะต้องสมจริงที่สุดเท่าที่จะเป็นไปได้ นี่เป็นส่วนหนึ่งของปัญหาทางวิศวกรรม (การสุ่มตัวอย่างจากแบบจำลองโดยใช้ไปป์ไลน์เดียวกันกับที่ใช้สำหรับปริมาณการใช้งานจริง) และส่วนหนึ่งเป็นความท้าทายที่น่าสนใจสำหรับเครื่องมือที่จำเป็นต้องเข้าถึงทรัพยากรภายนอกเพื่ออ่าน/เขียนซึ่งเปลี่ยนแปลงอยู่ตลอดเวลา (เช่น การค้นหาเว็บหรือการโต้ตอบกับไฟล์ในเครื่อง) เราสามารถแยกข้อผิดพลาดความเที่ยงตรงของการจำลองได้โดยการเปรียบเทียบการคาดการณ์จากการปรับใช้จริงและการจำลอง (นั่นคือ การจำลองการใช้งานของโมเดลที่ใช้งานแล้ว)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Prompt distribution shift error: a major concern with Deployment Simulation is that any model’s deployment will cause a distributional shift in inputs, especially if users adapt to new model affordances. We isolate prompt distribution error by comparing estimates when simulating the deployment using recent prompts vs prompts from the realized deployment.",
+        "th": "ข้อผิดพลาดในการเปลี่ยนแปลงการกระจายอย่างรวดเร็ว: ข้อกังวลหลักของ Deployment Simulation คือ การใช้งานของโมเดลใดๆ จะทำให้เกิดการเปลี่ยนแปลงในการกระจายอินพุต โดยเฉพาะอย่างยิ่งหากผู้ใช้ปรับตัวเข้ากับโมเดลใหม่ เราแยกข้อผิดพลาดในการกระจายพร้อมท์โดยการเปรียบเทียบการประมาณการเมื่อจำลองการปรับใช้โดยใช้พร้อมท์ล่าสุดเทียบกับพร้อมท์จากการปรับใช้ที่รับรู้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As seen in Figure 4, we find that a large fraction of the error in our pipeline–especially for tail errors–is currently due to simulation fidelity. This is good news, as we expect simulation fidelity to be generally easier to improve than reducing prompt distribution shift. We also find that prompt distribution shift error may be reduced by using the most recent data from the previous deployment. More detail can be found in the research paper.",
+        "th": "ดังที่เห็นในรูปที่ 4 เราพบว่าข้อผิดพลาดส่วนใหญ่ในไปป์ไลน์ของเรา โดยเฉพาะข้อผิดพลาดส่วนท้าย ในปัจจุบันเกิดจากความเที่ยงตรงของการจำลอง นี่เป็นข่าวดี เนื่องจากเราคาดว่าโดยทั่วไปแล้วความเที่ยงตรงของการจำลองจะปรับปรุงได้ง่ายกว่าการลดการเปลี่ยนแปลงการกระจายทันที นอกจากนี้เรายังพบว่าข้อผิดพลาดในการเปลี่ยนแปลงการแจกจ่ายพร้อมท์อาจลดลงได้โดยใช้ข้อมูลล่าสุดจากการปรับใช้ครั้งก่อน รายละเอียดเพิ่มเติมสามารถพบได้ในรายงานการวิจัย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Figure 4: Resampling environment fidelity seems to be the largest source of error in our estimates, especially for the most extreme errors.",
+        "th": "รูปที่ 4: การสุ่มตัวอย่างความเที่ยงตรงของสภาพแวดล้อมอาจเป็นสาเหตุที่ใหญ่ที่สุดของข้อผิดพลาดในการประมาณค่าของเรา โดยเฉพาะอย่างยิ่งสำหรับข้อผิดพลาดที่รุนแรงที่สุด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Automated auditing found the one new misalignment introduced in these deployments. In the deployment window we studied, our automated auditing pipeline based on simulated deployments would have surfaced ‘calculator hacking’ before release, which was the only novel misalignment we identified in the analyzed ChatGPT traffic. Calculator hacking is a form of reward hacking which involves the model using a browser tool as a calculator while presenting the action as a search. This does not mean large-scale auditing will catch every new failure, but it shows why realistic contexts matter: they can elicit behaviors that narrower eval sets may never surface directly, even if they were not present in the original traffic used to seed the simulation.",
+        "th": "การตรวจสอบอัตโนมัติพบความผิดปกติแบบใหม่ที่เกิดขึ้นในการปรับใช้เหล่านี้ ในหน้าต่างการปรับใช้ที่เราศึกษา ไปป์ไลน์การตรวจสอบอัตโนมัติของเราตามการปรับใช้งานจำลองอาจเกิด \"การแฮ็กเครื่องคิดเลข\" ก่อนที่จะเผยแพร่ ซึ่งเป็นความผิดปกติแบบใหม่เดียวที่เราระบุในการรับส่งข้อมูล ChatGPT ที่วิเคราะห์แล้ว การแฮ็กเครื่องคิดเลขเป็นรูปแบบหนึ่งของการแฮ็กรางวัลที่เกี่ยวข้องกับโมเดลโดยใช้เครื่องมือเบราว์เซอร์เป็นเครื่องคิดเลขในขณะที่แสดงการกระทำเป็นการค้นหา นี่ไม่ได้หมายความว่าการตรวจสอบในวงกว้างจะตรวจจับความล้มเหลวใหม่ๆ ได้ทุกครั้ง แต่มันแสดงให้เห็นว่าเหตุใดบริบทที่สมจริงจึงมีความสำคัญ: พวกเขาสามารถล้วงเอาพฤติกรรมที่ชุดการประเมินที่แคบลงอาจไม่ปรากฏให้เห็นโดยตรง แม้ว่าสิ่งเหล่านั้นจะไม่ปรากฏในการรับส่งข้อมูลดั้งเดิมที่ใช้ในการจำลองสถานการณ์ก็ตาม"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Reducing evaluation awareness",
+        "th": "การลดความตระหนักในการประเมิน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Another advantage of using deployment-like contexts is that they may reduce distortions that arise when models recognize they are being tested. In prior research, we as well as others⁠(opens in a new window) have found that models are often aware of when they’re being tested. For example, models may reason in their chain-of-thought about what they’re being tested on, what an evaluator might like, and – if they’re misbehaving – whether they’ll be caught. This poses a problem for alignment evaluations: if a model is only well behaved because it thinks it's being tested, how do we build confidence that it’ll behave safely once it learns it’s been deployed?",
+        "th": "ข้อดีอีกประการหนึ่งของการใช้บริบทที่คล้ายกับการปรับใช้ก็คืออาจลดการบิดเบือนที่เกิดขึ้นเมื่อโมเดลรับรู้ว่ากำลังถูกทดสอบ ในการวิจัยก่อนหน้านี้ เราและคนอื่นๆ (เปิดในหน้าต่างใหม่) พบว่าแบบจำลองต่างๆ มักจะทราบเมื่อมีการทดสอบ ตัวอย่างเช่น โมเดลอาจให้เหตุผลในห่วงโซ่ความคิดเกี่ยวกับสิ่งที่พวกเขากำลังทดสอบ สิ่งที่ผู้ประเมินอาจชอบ และหากพวกเขาประพฤติตัวไม่เหมาะสม ไม่ว่าพวกเขาจะถูกจับหรือไม่ สิ่งนี้ทำให้เกิดปัญหาในการประเมินการจัดตำแหน่ง: หากแบบจำลองประพฤติตัวดีเพียงเพราะคิดว่ากำลังถูกทดสอบ เราจะสร้างความมั่นใจได้อย่างไรว่าแบบจำลองจะทำงานได้อย่างปลอดภัยเมื่อรู้ว่ามันถูกนำไปใช้งานแล้ว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We show that Deployment Simulation substantially reduces levels of evaluation awareness exhibited by models relative to traditional evaluations which are not based on real deployment data. We measure evaluation awareness in three ways: by asking a model to classify whether a trajectory came from production or an evaluation, monitoring chain-of-thought for explicit statements about being evaluated for alignment, as well as for metagaming⁠(opens in a new window): any reasoning about oversight. Simulated deployment traffic closely matched real deployment traffic across all three measures. For example, GPT‑5.2 labeled real production traffic as evaluation-like 5.4% of the time and simulated traffic 5.1% of the time, while traditional evaluations (such as SWE-Bench or MonorepoBench, which are composed primarily of synthetic examples) were classified as evaluations almost 100% of the time.",
+        "th": "เราแสดงให้เห็นว่าการจำลองการปรับใช้ช่วยลดระดับการรับรู้การประเมินที่แสดงโดยแบบจำลองที่สัมพันธ์กับการประเมินแบบดั้งเดิมซึ่งไม่ได้ขึ้นอยู่กับข้อมูลการใช้งานจริง เราวัดความตระหนักรู้ในการประเมินได้สามวิธี: โดยการขอให้แบบจำลองจัดประเภทว่าวิถีมาจากการผลิตหรือการประเมิน การตรวจสอบห่วงโซ่ความคิดสำหรับข้อความที่ชัดเจนเกี่ยวกับการประเมินเพื่อการจัดตำแหน่ง รวมถึงสำหรับ metagaming (เปิดในหน้าต่างใหม่): เหตุผลใด ๆ เกี่ยวกับการกำกับดูแล ปริมาณการใช้งานที่จำลองขึ้นนั้นตรงกับปริมาณการใช้งานจริงของมาตรการทั้งสามอย่างใกล้ชิด ตัวอย่างเช่น GPT-5.2 กำหนดปริมาณการรับส่งข้อมูลการผลิตจริงว่าคล้ายกับการประเมิน 5.4% ของเวลา และปริมาณการรับส่งข้อมูลจำลอง 5.1% ของเวลา ในขณะที่การประเมินแบบดั้งเดิม (เช่น SWE-Bench หรือ MonorepoBench ซึ่งประกอบด้วยตัวอย่างสังเคราะห์เป็นหลัก) ถูกจัดประเภทเป็นการประเมินเกือบ 100% ของเวลาทั้งหมด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Figure 5. Evaluation-awareness comparison: real production traffic and simulated traffic show similar rates for eval detection, verbalized alignment evaluation awareness, and metagaming, while traditional eval datasets report much higher rates.",
+        "th": "รูปที่ 5 การเปรียบเทียบการประเมินและการรับรู้: ปริมาณการใช้งานจริงและปริมาณข้อมูลจำลองแสดงอัตราที่ใกล้เคียงกันสำหรับการตรวจจับ eval, ความตระหนักในการประเมินการจัดตำแหน่งด้วยวาจา และ metagaming ในขณะที่ชุดข้อมูล eval แบบดั้งเดิมรายงานอัตราที่สูงกว่ามาก"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Tool simulation for agentic trajectories",
+        "th": "การจำลองเครื่องมือสำหรับวิถีเอเจนต์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To test whether the method could extend beyond standard chat modes, we also studied simulating deployments for challenging agentic coding settings. Specifically, we use 120,000 internal employee agentic trajectories from GPT‑5.4 to simulate the internal deployment of coding agents based on GPT‑5.5. This serves two purposes: this shows how deployment simulation can also be used for risk-assessment for internal deployments, and it demonstrates that it is possible to make simulation fidelity high even in agentic settings via careful tool simulation.",
+        "th": "เพื่อทดสอบว่าวิธีการนี้สามารถขยายเกินกว่าโหมดแชทมาตรฐานได้หรือไม่ เรายังศึกษาการจำลองการใช้งานสำหรับการตั้งค่าการเข้ารหัสเอเจนต์ที่ท้าทายอีกด้วย โดยเฉพาะอย่างยิ่ง เราใช้วิถีตัวแทนของพนักงานภายใน 120,000 รายการจาก GPT-5.4 เพื่อจำลองการใช้งานภายในของตัวแทนการเข้ารหัสตาม GPT-5.5 สิ่งนี้มีจุดประสงค์สองประการ: สิ่งนี้แสดงให้เห็นว่าการจำลองการใช้งานสามารถใช้เพื่อการประเมินความเสี่ยงสำหรับการปรับใช้ภายในได้อย่างไร และแสดงให้เห็นว่าเป็นไปได้ที่จะทำให้การจำลองมีความเที่ยงตรงสูงแม้ในการตั้งค่าแบบเอเจนต์ผ่านการจำลองเครื่องมืออย่างระมัดระวัง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Above we discussed that the simulation fidelity is one of the main sources of error in our current pipeline. One of the challenges with making deployment simulations realistic is that it requires tools to act in realistic ways, even when they need read/write access to external resources which are constantly changing (e.g. web searches or interacting with local files).",
+        "th": "ข้างต้นเราได้พูดคุยกันว่าความเที่ยงตรงของการจำลองเป็นหนึ่งในสาเหตุหลักของข้อผิดพลาดในไปป์ไลน์ปัจจุบันของเรา หนึ่งในความท้าทายในการทำการจำลองการใช้งานให้สมจริงก็คือมันต้องใช้เครื่องมือในการดำเนินการในลักษณะที่สมจริง แม้ว่าพวกเขาต้องการการเข้าถึงแบบอ่าน/เขียนในทรัพยากรภายนอกที่เปลี่ยนแปลงอยู่ตลอดเวลา (เช่น การค้นหาเว็บ หรือการโต้ตอบกับไฟล์ในเครื่อง)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This is especially challenging for settings such as agentic deployments: a single agent trajectory can depend on hundreds of tool calls, repository state, network responses, or transient failures. This makes resampling with real tool access both challenging and potentially dangerous. In light of this, instead of applying tool calls to live systems, we simulate them with another LLM. We show that giving this LLM extra affordances is essential to realism and therefore estimation quality.",
+        "th": "นี่เป็นสิ่งที่ท้าทายเป็นพิเศษสำหรับการตั้งค่า เช่น การปรับใช้เอเจนต์: วิถีเอเจนต์เดียวอาจขึ้นอยู่กับการเรียกเครื่องมือ สถานะพื้นที่เก็บข้อมูล การตอบสนองของเครือข่าย หรือความล้มเหลวชั่วคราวนับร้อยครั้ง ซึ่งทำให้การสุ่มตัวอย่างใหม่ด้วยการเข้าถึงเครื่องมือจริงมีทั้งความท้าทายและอาจเป็นอันตราย ด้วยเหตุนี้ แทนที่จะใช้การเรียกเครื่องมือกับระบบที่ใช้งานจริง เราจึงจำลองการเรียกเครื่องมือเหล่านั้นด้วย LLM อื่น เราแสดงให้เห็นว่าการให้ LLM พิเศษนี้เป็นสิ่งจำเป็นต่อความสมจริงและคุณภาพการประมาณค่า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We give the tool-simulator model the original final-turn rollout, the repository from the time of the conversation, a database of tool-call/response pairs, and read-only connectors. In a test where a discriminator tried to tell simulated from real rollouts, realism improved from an 11.6% win rate to 49.5%, near the 50% chance level.",
+        "th": "เรามอบแบบจำลองเครื่องมือ-จำลองให้กับการเปิดตัวครั้งสุดท้ายครั้งสุดท้าย พื้นที่เก็บข้อมูลจากเวลาของการสนทนา ฐานข้อมูลคู่การเรียกเครื่องมือ/การตอบกลับ และตัวเชื่อมต่อแบบอ่านอย่างเดียว ในการทดสอบที่ผู้เลือกปฏิบัติพยายามบอกการจำลองจากการเปิดตัวจริง ความสมจริงได้รับการปรับปรุงจากอัตราการชนะ 11.6% เป็น 49.5% ใกล้ระดับโอกาส 50%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Figure 6: One can make resampling realism almost indistinguishable from real sampling even in tool-heavy settings when simulating tool calls with increased affordances.",
+        "th": "รูปที่ 6: เราสามารถทำให้ความสมจริงของการสุ่มตัวอย่างใหม่แทบจะแยกไม่ออกจากการสุ่มตัวอย่างจริง แม้ในการตั้งค่าเครื่องมือจำนวนมาก เมื่อจำลองการเรียกเครื่องมือด้วยต้นทุนที่เพิ่มขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As additional evidence of simulation fidelity, when simulating GPT‑5.4 Codex thinking traffic with GPT‑5.4, the misalignment rates are, just about, within error bars. By contrast, in our pre-deployment testing GPT‑5.5 was more misaligned in most categories.",
+        "th": "เพื่อเป็นหลักฐานเพิ่มเติมของความแม่นยำในการจำลอง เมื่อจำลองการรับส่งข้อมูลการคิด GPT-5.4 Codex ด้วย GPT-5.4 อัตราการวางแนวที่คลาดเคลื่อนจะอยู่ภายในแถบข้อผิดพลาดโดยประมาณ ในทางตรงกันข้าม ในการทดสอบก่อนการปรับใช้งาน GPT-5.5 ของเรานั้นมีแนวที่ไม่ตรงมากกว่าในหมวดหมู่ส่วนใหญ่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Figure 7: With tool simulation, behavior rates for conversations resampled with GPT‑5.4 and actual GPT‑5.4 production traffic are quite similar – indicating high resampling environment fidelity. See the GPT‑5.5 system card⁠(opens in a new window) for more context on the categories.",
+        "th": "รูปที่ 7: ด้วยการจำลองเครื่องมือ อัตราพฤติกรรมสำหรับการสนทนาที่สุ่มตัวอย่างใหม่ด้วย GPT-5.4 และปริมาณการใช้งานจริงของ GPT-5.4 ค่อนข้างใกล้เคียงกัน ซึ่งบ่งชี้ถึงความเที่ยงตรงของสภาพแวดล้อมในการสุ่มตัวอย่างสูง ดูการ์ดระบบ GPT‑5.5 (เปิดในหน้าต่างใหม่) สำหรับบริบทเพิ่มเติมเกี่ยวกับหมวดหมู่ต่างๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These results suggest that Deployment Simulation can extend to complex agent settings when the surrounding tool environment is simulated with sufficient fidelity.",
+        "th": "ผลลัพธ์เหล่านี้ชี้ให้เห็นว่า Deployment Simulation สามารถขยายไปสู่การตั้งค่าเอเจนต์ที่ซับซ้อนได้ เมื่อสภาพแวดล้อมของเครื่องมือโดยรอบถูกจำลองด้วยความเที่ยงตรงที่เพียงพอ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "WildChat and external auditing",
+        "th": "WildChat และการตรวจสอบภายนอก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A natural question is whether external auditors can get some of the same benefits without access to private production traffic. We tested this with 100,000 WildChat conversations used as prefixes. WildChat was less accurate than recent OpenAI production data, but still informative: recent production data had lower average multiplicative error than WildChat (1.75× vs. 2.44×), while WildChat often stayed within roughly 3× of production rates and identified the better model at above-chance rates. We see WildChat-style evaluations as a promising complement to developer-run Deployment Simulation. See this companion Alignment blogpost⁠(opens in a new window) for more results on this point.",
+        "th": "คำถามทั่วไปก็คือว่าผู้ตรวจสอบภายนอกจะได้รับประโยชน์แบบเดียวกันนี้หรือไม่ โดยไม่ต้องเข้าถึงปริมาณการผลิตภาคเอกชน เราทดสอบสิ่งนี้ด้วยการสนทนา WildChat 100,000 รายการที่ใช้เป็นคำนำหน้า WildChat มีความแม่นยำน้อยกว่าข้อมูลการผลิต OpenAI ล่าสุด แต่ยังคงให้ข้อมูล: ข้อมูลการผลิตล่าสุดมีข้อผิดพลาดในการคูณโดยเฉลี่ยต่ำกว่า WildChat (1.75× เทียบกับ 2.44×) ในขณะที่ WildChat มักจะอยู่ภายในประมาณ 3× ของอัตราการผลิต และระบุโมเดลที่ดีกว่าในอัตราโอกาสที่สูงกว่า เรามองว่าการประเมินแบบ WildChat เป็นส่วนเสริมที่มีแนวโน้มดีสำหรับ Deployment Simulation ที่ดำเนินการโดยนักพัฒนา ดูบล็อกโพสต์ Alignment ที่แสดงร่วมกัน (เปิดในหน้าต่างใหม่) เพื่อดูผลลัพธ์เพิ่มเติมในประเด็นนี้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Limitations",
+        "th": "ข้อจำกัด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Deployment Simulation is a complement to, not a replacement for, adversarial evaluations, red-teaming, and targeted tail-risk analysis. The detection of some undesired model behaviors relies on chain-of-thought monitorability: if future models reason less legibly, omit key steps, or learn to obscure intent, we may not be able to detect these forms of undesirable behavior. Furthermore, because production data is private, developers currently have stronger access to representative contexts than external auditors. Better public datasets could narrow that gap.",
+        "th": "การจำลองการใช้งานเป็นส่วนเสริม ไม่ใช่การแทนที่ การประเมินฝ่ายตรงข้าม การรวมทีมสีแดง และการวิเคราะห์ความเสี่ยงส่วนท้ายแบบกำหนดเป้าหมาย การตรวจจับพฤติกรรมของโมเดลที่ไม่พึงประสงค์บางอย่างขึ้นอยู่กับความสามารถในการตรวจสอบแบบลูกโซ่: หากโมเดลในอนาคตให้เหตุผลชัดเจนน้อยลง ละเว้นขั้นตอนสำคัญ หรือเรียนรู้ที่จะปิดบังเจตนา เราอาจไม่สามารถตรวจจับพฤติกรรมที่ไม่พึงประสงค์ในรูปแบบเหล่านี้ได้ นอกจากนี้ เนื่องจากข้อมูลการผลิตเป็นแบบส่วนตัว ปัจจุบันนักพัฒนาจึงสามารถเข้าถึงบริบทตัวแทนได้ดีกว่าผู้ตรวจสอบภายนอก ชุดข้อมูลสาธารณะที่ดีกว่าสามารถจำกัดช่องว่างนั้นให้แคบลงได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Deployment Simulation is most useful for behaviors that occur often enough to appear in sampled prefixes. A failure that occurs once in ten million conversations is unlikely to be discovered in a million-sample run, so adversarial evaluations, red-teaming, and targeted tail-risk analysis remain necessary. We currently focus on simulating a single assistant response, as in preliminary experiments we did not find meaningful improvements to our estimates by simulating multiple turns. This may be an important area for improving simulation fidelity in the future.",
+        "th": "การจำลองการปรับใช้มีประโยชน์มากที่สุดสำหรับพฤติกรรมที่เกิดขึ้นบ่อยพอที่จะปรากฏในคำนำหน้าตัวอย่าง ความล้มเหลวที่เกิดขึ้นครั้งหนึ่งในสิบล้านการสนทนาไม่น่าจะถูกค้นพบในการเรียกใช้ตัวอย่างนับล้าน ดังนั้นการประเมินฝ่ายตรงข้าม การรวมทีมสีแดง และการวิเคราะห์ความเสี่ยงหางแบบกำหนดเป้าหมายยังคงเป็นสิ่งจำเป็น ขณะนี้เรามุ่งเน้นไปที่การจำลองการตอบสนองของผู้ช่วยเพียงคนเดียว เนื่องจากในการทดลองเบื้องต้น เราไม่พบการปรับปรุงที่สำคัญในการประมาณค่าของเราโดยการจำลองหลายรอบ นี่อาจเป็นส่วนสำคัญในการปรับปรุงความแม่นยำของการจำลองในอนาคต"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The method also depends on the prefix distribution—the mix of conversations that are being resampled. Historical traffic may not match how users interact with a more capable model after a major product change, new tool release, world event, or seasonal shift. Analysis in the full paper suggests that this issue can be mitigated by using the most recent data available.",
+        "th": "วิธีการนี้ยังขึ้นอยู่กับการกระจายคำนำหน้าด้วย ซึ่งเป็นการผสมผสานระหว่างการสนทนาที่กำลังสุ่มตัวอย่างใหม่ ปริมาณการเข้าชมในอดีตอาจไม่ตรงกับวิธีที่ผู้ใช้โต้ตอบกับโมเดลที่มีความสามารถมากขึ้นหลังจากการเปลี่ยนแปลงผลิตภัณฑ์ที่สำคัญ การเปิดตัวเครื่องมือใหม่ เหตุการณ์สำคัญระดับโลก หรือการเปลี่ยนแปลงตามฤดูกาล การวิเคราะห์ในรายงานฉบับเต็มชี้ให้เห็นว่าปัญหานี้สามารถบรรเทาได้โดยใช้ข้อมูลล่าสุดที่มีอยู่"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Conclusion",
+        "th": "บทสรุป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Deployment simulation is a new approach to pre-deployment risk assessment that helps frontier labs and evaluators predict how language models may behave in the real world and understand the risks they pose before deployment. It complements existing safety evaluations, red-teaming, and targeted analysis by adding a more production-like prediction layer that can improve estimates of deployment behavior, reduce evaluation-awareness effects, and make pre-deployment predictions checkable after release. Used alongside traditional evaluations, Deployment Simulation can help make model risk assessment more realistic, more quantitative, and more useful for deployment decisions.",
+        "th": "การจำลองการใช้งานเป็นแนวทางใหม่ในการประเมินความเสี่ยงก่อนการปรับใช้งาน ซึ่งช่วยให้ห้องปฏิบัติการและผู้ประเมินระดับแนวหน้าคาดการณ์ว่าโมเดลภาษาอาจมีพฤติกรรมอย่างไรในโลกแห่งความเป็นจริง และเข้าใจความเสี่ยงที่เกิดขึ้นก่อนการปรับใช้งาน ช่วยเสริมการประเมินความปลอดภัยที่มีอยู่ การรวมทีมสีแดง และการวิเคราะห์แบบกำหนดเป้าหมายโดยการเพิ่มชั้นการคาดการณ์ที่คล้ายกับการใช้งานจริงมากขึ้น ซึ่งสามารถปรับปรุงการประมาณค่าพฤติกรรมการใช้งาน ลดผลกระทบจากการรับรู้การประเมิน และทำให้การคาดการณ์ก่อนการปรับใช้งานสามารถตรวจสอบได้หลังการเปิดตัว เมื่อใช้ร่วมกับการประเมินแบบดั้งเดิม การจำลองการปรับใช้สามารถช่วยทำให้การประเมินความเสี่ยงของแบบจำลองมีความสมจริงมากขึ้น ในเชิงปริมาณมากขึ้น และมีประโยชน์มากขึ้นสำหรับการตัดสินใจปรับใช้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "ผู้เขียน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "อ่านต่อ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7sbJaKBi5qLXAqbewh72aK/93197556e903eac9df6f077eb12b7581/GenebenchPro_Blog_ArtCard.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing GeneBench-Pro > Cover image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchJun 30, 2026",
+        "th": "การวิจัย 30 มิ.ย. 2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/QgPPg4etNE5C4Ao0G94sk/e5f2a50e5de4619d0e0fe8483698718b/molecule-one-art-card.png?w=3840&q=90&fm=webp",
+      "alt": "A near-autonomous AI chemist improves a challenging reaction"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchJun 17, 2026",
+        "th": "การวิจัย 17 มิ.ย. 2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1iV0eZRf28MZRvIxYY4eLf/4379e20807f5ff44efccf518a97e480a/LifeSciBench_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "LifeSciBench 1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchJun 17, 2026",
+        "th": "การวิจัย 17 มิ.ย. 2569"
       }
     }
   ]

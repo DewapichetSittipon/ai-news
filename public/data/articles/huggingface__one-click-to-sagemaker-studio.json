@@ -1,0 +1,421 @@
+{
+  "id": "huggingface__one-click-to-sagemaker-studio",
+  "slug": "one-click-to-sagemaker-studio",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+  "category": "News",
+  "date": "2026-07-07T21:15:33.000Z",
+  "image": null,
+  "title": {
+    "en": "From Hugging Face to Amazon SageMaker Studio in one click",
+    "th": "จาก Hugging Face ไปจนถึง Amazon SageMaker Studio ได้ในคลิกเดียว"
+  },
+  "summary": {
+    "en": "From Hugging Face to Amazon SageMaker Studio in one click",
+    "th": "จาก Hugging Face ไปจนถึง Amazon SageMaker Studio ได้ในคลิกเดียว"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "/avatars/ece30a606e051d84134bc5403746a51c.svg",
+      "alt": "Hazim Qudah's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/66f19ed428ae41c20c470792/8y7msN6A6W82LdQhQd85a.png",
+      "alt": "Amazon's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What’s new Deep links from Hugging Face into SageMaker Studio Pre-configured permissions GPU quota visibility",
+        "th": "มีอะไรใหม่ ลิงก์ลึกจาก Hugging Face เข้าสู่ SageMaker Studio สิทธิ์ที่กำหนดค่าไว้ล่วงหน้า การมองเห็นโควต้า GPU"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deep links from Hugging Face into SageMaker Studio",
+        "th": "ลิงก์เชิงลึกจาก Hugging Face ไปยัง SageMaker Studio"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Pre-configured permissions",
+        "th": "สิทธิ์ที่กำหนดไว้ล่วงหน้า"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "GPU quota visibility",
+        "th": "การมองเห็นโควต้า GPU"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Walkthrough: Deep-linking from Hugging Face to SageMaker Studio Step 1: Discover and select Step 2: Sign in Step 3: Land in Studio Step 4: Test your endpoint",
+        "th": "บทสรุป: การเชื่อมโยงเชิงลึกจาก Hugging Face ไปยัง SageMaker Studio ขั้นตอนที่ 1: ค้นหาและเลือก ขั้นตอนที่ 2: ลงชื่อเข้าใช้ ขั้นตอนที่ 3: เข้าสู่ Studio ขั้นตอนที่ 4: ทดสอบจุดสิ้นสุดของคุณ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Step 1: Discover and select",
+        "th": "ขั้นตอนที่ 1: ค้นหาและเลือก"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Step 2: Sign in",
+        "th": "ขั้นตอนที่ 2: ลงชื่อเข้าใช้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Step 3: Land in Studio",
+        "th": "ขั้นตอนที่ 3: ลงจอดในสตูดิโอ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Step 4: Test your endpoint",
+        "th": "ขั้นตอนที่ 4: ทดสอบตำแหน่งข้อมูลของคุณ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Getting started",
+        "th": "เริ่มต้นใช้งาน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Conclusion",
+        "th": "บทสรุป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Previously, getting started on SageMaker Studio after discovering a model on Hugging Face required navigating multiple steps. These included opening Amazon SageMaker AI on the AWS Management Console, creating a domain, configuring AWS Identity and Access Management (IAM) permissions, and sometimes requesting graphics processing unit (GPU) quota. For developers who want to iterate quickly, this friction slows down the path from inspiration to experimentation. The integration creates a more direct path from discovery to enterprise deployment.",
+        "th": "ก่อนหน้านี้ การเริ่มต้นใช้งาน SageMaker Studio หลังจากค้นพบโมเดลบน Hugging Face จำเป็นต้องดำเนินการหลายขั้นตอน สิ่งเหล่านี้รวมถึงการเปิด Amazon SageMaker AI บน AWS Management Console การสร้างโดเมน การกำหนดค่าสิทธิ์ AWS Identity and Access Management (IAM) และบางครั้งก็ขอโควต้าหน่วยประมวลผลกราฟิก (GPU) สำหรับนักพัฒนาที่ต้องการทำซ้ำอย่างรวดเร็ว ความขัดแย้งนี้จะทำให้เส้นทางจากแรงบันดาลใจไปสู่การทดลองช้าลง การบูรณาการจะสร้างเส้นทางที่ตรงมากขึ้นจากการค้นพบไปสู่การใช้งานระดับองค์กร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“At Arcee, we build open models so developers and enterprises can actually own what they run: inspect the weights, post-train on their own data, and deploy on their own terms. This integration takes that promise the last mile. Going from an open model on Hugging Face straight into SageMaker Studio in a single click, then fine-tuning or deploying it inside your own AWS environment with nothing to wire up, is the kind of experience open models have been missing. Open weights you own, running in the cloud you control. That is exactly the combination our customers have been asking for.”",
+        "th": "“ที่ Arcee เราสร้างโมเดลแบบเปิดเพื่อให้นักพัฒนาและองค์กรสามารถเป็นเจ้าของสิ่งที่พวกเขาดำเนินการได้จริง: ตรวจสอบน้ำหนัก หลังการฝึกอบรมเกี่ยวกับข้อมูลของตนเอง และปรับใช้ตามเงื่อนไขของตนเอง การบูรณาการนี้ให้คำมั่นสัญญาในขั้นสุดท้าย การเปลี่ยนจากโมเดลแบบเปิดบน Hugging Face ตรงไปยัง SageMaker Studio ในคลิกเดียว จากนั้นปรับแต่งหรือปรับใช้ภายในสภาพแวดล้อม AWS ของคุณเองโดยไม่มีอะไรต้องเชื่อมต่อ ถือเป็นประสบการณ์แบบที่โมเดลแบบเปิดขาดหายไป เปิดน้ำหนักที่คุณเป็นเจ้าของ ซึ่งทำงานบนคลาวด์ที่คุณเป็นเจ้าของ การควบคุมนั่นแหละคือส่วนผสมที่ลูกค้าของเราร้องขอ”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "— Mark McQuade, Founder and CEO, Arcee AI",
+        "th": "— มาร์ค แมคเควด ผู้ก่อตั้งและซีอีโอ Arcee AI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With the launch of a one-click Studio landing experience, choosing Customize on SageMaker AI or Deploy on SageMaker AI on a supported Hugging Face model page takes you directly to the console. SageMaker AI then automatically provisions a new domain with pre-configured permissions in seconds and carries the model context through.",
+        "th": "ด้วยการเปิดตัวประสบการณ์การลงจอด Studio เพียงคลิกเดียว การเลือกปรับแต่งบน SageMaker AI หรือปรับใช้บน SageMaker AI บนหน้าโมเดล Hugging Face ที่รองรับ จะนำคุณไปยังคอนโซลโดยตรง จากนั้น SageMaker AI จะจัดเตรียมโดเมนใหม่โดยอัตโนมัติด้วยสิทธิ์ที่กำหนดค่าไว้ล่วงหน้าในไม่กี่วินาที และนำบริบทของโมเดลไปใช้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What’s new",
+        "th": "มีอะไรใหม่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This launch introduces three capabilities that shorten the path from a Hugging Face model to a working SageMaker Studio workflow.",
+        "th": "การเปิดตัวครั้งนี้นำเสนอความสามารถสามประการที่ย่นเส้นทางจากโมเดล Hugging Face ไปสู่เวิร์กโฟลว์ SageMaker Studio ที่ใช้งานได้"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Deep links from Hugging Face into SageMaker Studio",
+        "th": "ลิงก์เชิงลึกจาก Hugging Face ไปยัง SageMaker Studio"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When you browse models on Hugging Face, you’ll now see action buttons alongside supported models that map directly to SageMaker Studio workflows:",
+        "th": "เมื่อคุณเรียกดูโมเดลบน Hugging Face คุณจะเห็นปุ่มการทำงานข้างโมเดลที่รองรับซึ่งแมปโดยตรงกับเวิร์กโฟลว์ SageMaker Studio:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Customize on SageMaker AI opens the Model Customization page in Studio with the selected model pre-loaded, ready to fine-tune.",
+        "th": "ปรับแต่งบน SageMaker AI จะเปิดหน้าการปรับแต่งโมเดลใน Studio พร้อมด้วยโมเดลที่เลือกไว้ล่วงหน้า และพร้อมที่จะปรับแต่ง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deploy on SageMaker AI opens the Deployment page in Studio with the model pre-configured for endpoint deployment.",
+        "th": "การปรับใช้บน SageMaker AI จะเปิดหน้าการปรับใช้ใน Studio พร้อมด้วยโมเดลที่กำหนดค่าไว้ล่วงหน้าสำหรับการปรับใช้ตำแหน่งข้อมูล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each entry point preserves the context, meaning you don’t need to search for the model again once inside Studio.",
+        "th": "แต่ละจุดเริ่มต้นจะรักษาบริบท ซึ่งหมายความว่าคุณไม่จำเป็นต้องค้นหาโมเดลอีกครั้งเมื่ออยู่ใน Studio"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Pre-configured permissions",
+        "th": "สิทธิ์ที่กำหนดไว้ล่วงหน้า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "New Studio environments created through this flow come with permissions already configured for the full range of SageMaker AI capabilities, including model customization, training jobs, notebook experimentation, and endpoint deployment. A new managed policy, AmazonSageMakerModelCustomizationCoreAccess, is created and attached for you. It provides permissions for serverless model customization jobs using supervised fine-tuning (SFT), direct preference optimization (DPO), reinforcement learning with verifiable rewards (RLVR), and reinforcement learning from AI feedback (RLAIF), with supported deployment to SageMaker AI or Amazon Bedrock endpoints. This alleviates the need to manually create and configure AWS Identity and Access Management (IAM) roles and policies before you can start experimenting. For existing Studio environments, actionable messages with direct links to documentation guide you through adding these permissions.",
+        "th": "สภาพแวดล้อม Studio ใหม่ที่สร้างขึ้นผ่านโฟลว์นี้มาพร้อมกับสิทธิ์ที่กำหนดค่าไว้แล้วสำหรับความสามารถ SageMaker AI อย่างเต็มรูปแบบ รวมถึงการปรับแต่งโมเดล งานการฝึกอบรม การทดลองโน้ตบุ๊ก และการปรับใช้จุดสิ้นสุด นโยบายที่ได้รับการจัดการใหม่ AmazonSageMakerModelCustomizationCoreAccess ถูกสร้างขึ้นและแนบมาให้คุณ โดยให้สิทธิ์สำหรับงานปรับแต่งโมเดลแบบไร้เซิร์ฟเวอร์โดยใช้การปรับแต่งแบบละเอียดภายใต้การดูแล (SFT), การเพิ่มประสิทธิภาพการตั้งค่าโดยตรง (DPO), การเรียนรู้แบบเสริมแรงด้วยรางวัลที่ตรวจสอบได้ (RLVR) และการเรียนรู้แบบเสริมแรงจากข้อเสนอแนะของ AI (RLAIF) พร้อมการปรับใช้งานที่รองรับกับจุดสิ้นสุด SageMaker AI หรือ Amazon Bedrock ซึ่งช่วยลดความจำเป็นในการสร้างและกำหนดค่าบทบาทและนโยบาย AWS Identity and Access Management (IAM) ด้วยตนเองก่อนที่คุณจะเริ่มการทดลองได้ สำหรับสภาพแวดล้อม Studio ที่มีอยู่ ข้อความที่ดำเนินการได้พร้อมลิงก์โดยตรงไปยังเอกสารจะแนะนำคุณในการเพิ่มสิทธิ์เหล่านี้"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "GPU quota visibility",
+        "th": "การมองเห็นโควต้า GPU"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When selecting instance types for deployment or training, the Studio UI now surfaces quota availability directly in the instance selection list. You can immediately see which GPU instance types (G5, G6) are available under your account’s current limits. You don’t need to navigate separately to Service Quotas. If you still need to request a limit increase, you’re redirected directly to the Service Quotas page for the respective instance type.",
+        "th": "เมื่อเลือกประเภทอินสแตนซ์สำหรับการปรับใช้หรือการฝึกอบรม Studio UI จะแสดงโควต้าความพร้อมใช้งานโดยตรงในรายการการเลือกอินสแตนซ์ คุณสามารถดูได้ทันทีว่าประเภทอินสแตนซ์ GPU ใด (G5, G6) ที่ใช้งานได้ภายใต้ขีดจำกัดปัจจุบันของบัญชีของคุณ คุณไม่จำเป็นต้องนำทางไปยังโควต้าบริการแยกกัน หากคุณยังคงต้องการขอเพิ่มขีดจำกัด คุณจะถูกนำไปยังหน้าโควต้าบริการสำหรับประเภทอินสแตนซ์ที่เกี่ยวข้องโดยตรง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Walkthrough: Deep-linking from Hugging Face to SageMaker Studio",
+        "th": "บทสรุป: การเชื่อมโยงเชิงลึกจาก Hugging Face ไปยัง SageMaker Studio"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Let’s walk through the experience of customizing or deploying a model starting from Hugging Face.",
+        "th": "มาดูประสบการณ์การปรับแต่งหรือการปรับใช้โมเดลโดยเริ่มจาก Hugging Face กัน"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Step 1: Discover and select",
+        "th": "ขั้นตอนที่ 1: ค้นหาและเลือก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On the Hugging Face model page, select Customize on SageMaker AI for a supported model.",
+        "th": "ในหน้าโมเดล Hugging Face ให้เลือกปรับแต่งบน SageMaker AI สำหรับโมเดลที่รองรับ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/07/06/ML-21254-1.png",
+      "alt": "Hugging Face model page showing the Customize on SageMaker AI button for a supported model"
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Step 2: Sign in",
+        "th": "ขั้นตอนที่ 2: ลงชื่อเข้าใช้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You’re prompted to sign in to AWS using your existing credentials. If you already have an active console session, this step is skipped automatically. For more information, see Sign in to the AWS Management Console.",
+        "th": "คุณได้รับแจ้งให้ลงชื่อเข้าใช้ AWS โดยใช้ข้อมูลประจำตัวที่มีอยู่ หากคุณมีเซสชันคอนโซลที่ใช้งานอยู่แล้ว ขั้นตอนนี้จะถูกข้ามโดยอัตโนมัติ สำหรับข้อมูลเพิ่มเติม โปรดดูลงชื่อเข้าใช้ AWS Management Console"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Step 3: Land in Studio",
+        "th": "ขั้นตอนที่ 3: ลงจอดในสตูดิโอ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You arrive directly on the Model Customization page inside SageMaker Studio with your model pre-selected. Next, configure your fine-tuning parameters such as training data, hyperparameters, and instance type, then submit the customization job.",
+        "th": "คุณมาถึงหน้าการปรับแต่งโมเดลภายใน SageMaker Studio โดยตรงโดยเลือกโมเดลของคุณไว้ล่วงหน้า ถัดไป กำหนดค่าพารามิเตอร์การปรับแต่งของคุณ เช่น ข้อมูลการฝึก ไฮเปอร์พารามิเตอร์ และประเภทอินสแตนซ์ จากนั้นส่งงานการปรับแต่ง"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/07/06/ML-21254-2.png",
+      "alt": "SageMaker Studio Model Customization page with the selected model pre-loaded and fine-tuning parameters ready to configure"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Alternatively, selecting Deploy on SageMaker AI opens the endpoint deployment page in Studio with the model pre-configured. Select your instance type (quota visibility included), review the settings, and deploy.",
+        "th": "หรืออีกทางหนึ่ง การเลือกปรับใช้บน SageMaker AI จะเปิดหน้าการปรับใช้ตำแหน่งข้อมูลใน Studio โดยมีโมเดลที่กำหนดค่าไว้ล่วงหน้า เลือกประเภทอินสแตนซ์ของคุณ (รวมการเปิดเผยโควต้า) ตรวจสอบการตั้งค่า และปรับใช้"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/07/06/ML-21254-3.png",
+      "alt": "SageMaker Studio endpoint deployment page with the model pre-configured and instance type selection showing quota visibility"
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Step 4: Test your endpoint",
+        "th": "ขั้นตอนที่ 4: ทดสอบตำแหน่งข้อมูลของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "After you deploy your endpoint, test inference directly from Studio’s endpoint testing interface.",
+        "th": "หลังจากที่คุณปรับใช้ปลายทางแล้ว ให้ทดสอบการอนุมานโดยตรงจากอินเทอร์เฟซการทดสอบปลายทางของ Studio"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Getting started",
+        "th": "เริ่มต้นใช้งาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can try this experience today:",
+        "th": "คุณสามารถลองประสบการณ์นี้ได้วันนี้:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Browse models on Hugging Face.",
+        "th": "เลือกดูโมเดลต่างๆ บน Hugging Face"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Look for the Customize on SageMaker AI or Deploy on SageMaker AI buttons on supported models.",
+        "th": "มองหาปุ่มปรับแต่งบน SageMaker AI หรือปรับใช้บน SageMaker AI บนรุ่นที่รองรับ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Select and follow the streamlined sign-in flow.",
+        "th": "เลือกและปฏิบัติตามขั้นตอนการลงชื่อเข้าใช้ที่มีประสิทธิภาพยิ่งขึ้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Start building in a fully configured SageMaker Studio environment.",
+        "th": "เริ่มสร้างในสภาพแวดล้อม SageMaker Studio ที่กำหนดค่าอย่างสมบูรณ์"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Conclusion",
+        "th": "บทสรุป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The launch of a one-click Studio landing experience minimizes the friction between discovering a model and experimenting with it. By connecting Hugging Face directly to the SageMaker Studio workflows, developers can stay in their flow. There’s no context switching, no manual environment setup, and no permission troubleshooting.",
+        "th": "การเปิดตัวประสบการณ์การลงจอดในสตูดิโอเพียงคลิกเดียวจะช่วยลดความขัดแย้งระหว่างการค้นหาโมเดลและการทดลองกับโมเดลดังกล่าว ด้วยการเชื่อมต่อ Hugging Face เข้ากับเวิร์กโฟลว์ SageMaker Studio โดยตรง นักพัฒนาจึงสามารถดำเนินการตามขั้นตอนของตนได้ ไม่มีการสลับบริบท ไม่มีการตั้งค่าสภาพแวดล้อมด้วยตนเอง และไม่มีการแก้ไขปัญหาสิทธิ์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To get started, visit the Amazon SageMaker Studio page or explore models on Hugging Face and choose Deploy or Customize on SageMaker AI.",
+        "th": "ในการเริ่มต้น ให้ไปที่หน้า Amazon SageMaker Studio หรือสำรวจโมเดลบน Hugging Face แล้วเลือกปรับใช้หรือปรับแต่งบน SageMaker AI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More from this author",
+        "th": "เพิ่มเติมจากผู้เขียนคนนี้"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/6a1dc0f2b4238bb17ff94794/qvSGZ0tZsgr4U4BCx_bVX.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+        "th": "ตั้งแต่ Hugging Face Hub ไปจนถึงฮาร์ดแวร์หุ่นยนต์ด้วย Strands Agents และ LeRobot"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/66f19ed428ae41c20c470792/8y7msN6A6W82LdQhQd85a.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/64d6b270c2eedf9af82baa23/YybsyZaGr5f0fLe0qDuLn.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Building Blocks for Foundation Model Training and Inference on AWS",
+        "th": "Building Block สำหรับการฝึกอบรมโมเดลพื้นฐานและการอนุมานบน AWS"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/66f19ed428ae41c20c470792/8y7msN6A6W82LdQhQd85a.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "ชุมชน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· ลงทะเบียนหรือเข้าสู่ระบบเพื่อแสดงความคิดเห็น"
+      }
+    }
+  ]
+}

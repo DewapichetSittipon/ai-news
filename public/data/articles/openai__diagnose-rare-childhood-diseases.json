@@ -18,8 +18,692 @@
     {
       "type": "p",
       "text": {
-        "en": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-        "th": "นักวิจัยใช้แบบจำลองการใช้เหตุผลของ OpenAI เพื่อช่วยวินิจฉัยโรคหายาก โดยระบุการวินิจฉัยใหม่ 18 รายการในกรณีที่ยังไม่ได้รับการแก้ไขก่อนหน้านี้"
+        "en": "June 18, 2026",
+        "th": "18 มิถุนายน 2569"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In an NEJM AI study, experts used an OpenAI reasoning model to reanalyze 376 previously unsolved cases and surface leads for 18 diagnoses.",
+        "th": "ในการศึกษา NEJM AI ผู้เชี่ยวชาญใช้แบบจำลองการให้เหตุผลของ OpenAI เพื่อวิเคราะห์เคสที่ยังไม่ได้รับการแก้ไขก่อนหน้านี้ 376 ราย และเบาะแสสำหรับการวินิจฉัย 18 รายการ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why an old case can contain a new answer",
+        "th": "ทำไมคดีเก่าถึงมีคำตอบใหม่ได้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How the reanalysis worked",
+        "th": "การวิเคราะห์ซ้ำทำงานอย่างไร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What the researchers foundResults by cohort",
+        "th": "สิ่งที่ผู้วิจัยพบผลลัพธ์ตามกลุ่มประชากรตามรุ่น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Results by cohort",
+        "th": "ผลลัพธ์ตามกลุ่มประชากรตามรุ่น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Demonstrating flexibility when identifying variants",
+        "th": "แสดงให้เห็นถึงความยืดหยุ่นเมื่อระบุตัวแปร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Producing a testable, biologically coherent hypothesis",
+        "th": "สร้างสมมติฐานที่ทดสอบได้และสอดคล้องกันทางชีวภาพ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Limitations",
+        "th": "ข้อจำกัด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What comes next",
+        "th": "อะไรจะเกิดขึ้นต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Table of contents",
+        "th": "สารบัญ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why an old case can contain a new answer",
+        "th": "ทำไมคดีเก่าถึงมีคำตอบใหม่ได้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How the reanalysis worked",
+        "th": "การวิเคราะห์ซ้ำทำงานอย่างไร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What the researchers foundResults by cohort",
+        "th": "สิ่งที่ผู้วิจัยพบผลลัพธ์ตามกลุ่มประชากรตามรุ่น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Results by cohort",
+        "th": "ผลลัพธ์ตามกลุ่มประชากรตามรุ่น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Demonstrating flexibility when identifying variants",
+        "th": "แสดงให้เห็นถึงความยืดหยุ่นเมื่อระบุตัวแปร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Producing a testable, biologically coherent hypothesis",
+        "th": "สร้างสมมติฐานที่ทดสอบได้และสอดคล้องกันทางชีวภาพ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Limitations",
+        "th": "ข้อจำกัด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What comes next",
+        "th": "อะไรจะเกิดขึ้นต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Even with genomic sequencing, many people with rare diseases never receive a clear genetic diagnosis. Roughly half remain undiagnosed after extensive testing and specialist review. Their medical data may contain clues but finding them can require sifting through thousands to millions of possible genetic variants, fragmented clinical records, and rapidly changing scientific literature.",
+        "th": "แม้ว่าจะมีการจัดลำดับจีโนม แต่ผู้ที่เป็นโรคหายากจำนวนมากก็ไม่เคยได้รับการวินิจฉัยทางพันธุกรรมที่ชัดเจน ประมาณครึ่งหนึ่งยังคงไม่ได้รับการวินิจฉัยหลังจากการทดสอบอย่างละเอียดและการทบทวนโดยผู้เชี่ยวชาญ ข้อมูลทางการแพทย์ของพวกเขาอาจมีเบาะแส แต่การค้นหาสิ่งเหล่านั้นอาจต้องอาศัยการกรองตัวแปรทางพันธุกรรมที่เป็นไปได้นับพันถึงล้าน รายการบันทึกทางคลินิกที่กระจัดกระจาย และวรรณกรรมทางวิทยาศาสตร์ที่เปลี่ยนแปลงอย่างรวดเร็ว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As new gene-disease relationships, case reports, and classification evidence accumulate, unsolved cases can become newly interpretable.",
+        "th": "เมื่อความสัมพันธ์ระหว่างยีนกับโรค รายงานผู้ป่วย และหลักฐานการจำแนกประเภทใหม่ๆ สะสมมากขึ้น กรณีที่ยังไม่ได้รับการแก้ไขก็สามารถตีความใหม่ได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Researchers from Boston Children’s Hospital’s Manton Center for Orphan Disease Research, Harvard University, and OpenAI used the OpenAI o3 Deep Research reasoning model to analyze de-identified clinical and genomic information from 376 previously analyzed cases that remained unsolved. The model surfaced evidence-linked candidate explanations for researchers and clinicians to review. Following expert review, additional testing, and clinical confirmation, physicians established diagnoses in 18 cases—an additional diagnostic yield of 4.8% after earlier analysis by specialists. This study was published on June 18, 2026, in NEJM AI and shows how an AI-assisted research workflow can help experts generate leads when revisiting some of the most difficult cases.",
+        "th": "นักวิจัยจาก Manton Center for Orphan Disease Research ของโรงพยาบาลเด็กบอสตัน มหาวิทยาลัยฮาร์วาร์ด และ OpenAI ใช้แบบจำลองการให้เหตุผลของ OpenAI o3 Deep Research เพื่อวิเคราะห์ข้อมูลทางคลินิกและจีโนมที่ไม่ระบุตัวตนจากเคส 376 กรณีที่ได้รับการวิเคราะห์ก่อนหน้านี้ที่ยังไม่ได้รับการแก้ไข แบบจำลองดังกล่าวแสดงคำอธิบายของผู้สมัครที่เชื่อมโยงกับหลักฐานเพื่อให้นักวิจัยและแพทย์ได้ทบทวน หลังจากการทบทวนของผู้เชี่ยวชาญ การทดสอบเพิ่มเติม และการยืนยันทางคลินิก แพทย์ได้ทำการวินิจฉัยในผู้ป่วย 18 ราย ซึ่งให้ผลการวินิจฉัยเพิ่มเติมที่ 4.8% หลังจากการวิเคราะห์ก่อนหน้านี้โดยผู้เชี่ยวชาญ การศึกษานี้เผยแพร่เมื่อวันที่ 18 มิถุนายน 2569 ใน NEJM AI และแสดงให้เห็นว่าขั้นตอนการวิจัยที่ได้รับความช่วยเหลือจาก AI สามารถช่วยให้ผู้เชี่ยวชาญสร้างโอกาสในการขายเมื่อทบทวนกรณีที่ยากที่สุดบางกรณีได้อย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Many of these cases had evaded years of expert analysis. In this study, OpenAI o3 Deep Research helped researchers identify leads that were later assessed through established clinical processes, suggesting that expert-led periodic reanalysis could become more scalable as knowledge evolves. The model did not diagnose any patient or make any clinical decision. It produced evidence-linked hypotheses for specialists to review and, where appropriate, investigate through additional testing and confirm in a clinical laboratory.",
+        "th": "กรณีเหล่านี้จำนวนมากได้หลบเลี่ยงการวิเคราะห์ของผู้เชี่ยวชาญเป็นเวลาหลายปี ในการศึกษานี้ การวิจัยเชิงลึกของ OpenAI o3 ช่วยให้นักวิจัยระบุโอกาสในการขายที่ได้รับการประเมินในภายหลังผ่านกระบวนการทางคลินิกที่เป็นที่ยอมรับ ซึ่งบ่งชี้ว่าการวิเคราะห์ซ้ำตามระยะเวลาที่นำโดยผู้เชี่ยวชาญสามารถปรับขนาดได้มากขึ้นเมื่อความรู้พัฒนาขึ้น แบบจำลองนี้ไม่ได้วินิจฉัยผู้ป่วยรายใดหรือทำการตัดสินใจทางคลินิกใดๆ โดยสร้างสมมติฐานที่เชื่อมโยงกับหลักฐานเพื่อให้ผู้เชี่ยวชาญทบทวนและตรวจสอบผ่านการทดสอบเพิ่มเติมและยืนยันในห้องปฏิบัติการทางคลินิกตามความเหมาะสม"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Why an old case can contain a new answer",
+        "th": "ทำไมคดีเก่าถึงมีคำตอบใหม่ได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An inconclusive genetic test is not always a permanent finding. A patient’s phenotype descriptions, test results, and family history can be split across databases that use different identifiers, formats, and vocabularies. Linking those records is difficult, so even specialists can miss a diagnosis. Experts may also sequence a child’s genome before a relevant gene or its variants have been linked to disease. As scientific knowledge advances, the same data can reveal answers that were previously impossible to uncover.",
+        "th": "การทดสอบทางพันธุกรรมที่ไม่สามารถสรุปผลได้ไม่ใช่การค้นพบที่ถาวรเสมอไป คำอธิบายฟีโนไทป์ของผู้ป่วย ผลการทดสอบ และประวัติครอบครัวสามารถแบ่งออกเป็นฐานข้อมูลต่างๆ ที่ใช้ตัวระบุ รูปแบบ และคำศัพท์ที่แตกต่างกัน การเชื่อมโยงบันทึกเหล่านั้นเป็นเรื่องยาก ดังนั้นแม้แต่ผู้เชี่ยวชาญก็อาจพลาดการวินิจฉัยได้ ผู้เชี่ยวชาญอาจจัดลำดับจีโนมของเด็กก่อนที่ยีนที่เกี่ยวข้องหรือตัวแปรต่างๆ จะเชื่อมโยงกับโรค เมื่อความรู้ทางวิทยาศาสตร์ก้าวหน้าไป ข้อมูลเดียวกันสามารถเปิดเผยคำตอบที่ไม่เคยเปิดเผยมาก่อนได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Rare-disease reanalysis is both a scientific and a maintenance problem. The patient’s genome may stay the same, but the evidence around it keeps changing: researchers link new genes and variants to disease, labs reclassify old variants, and case databases and papers accumulate new observations. Each update can make an old inconclusive case worth revisiting, so many institutions inherit a growing backlog of genomes to keep in sync with a moving knowledge base.",
+        "th": "การวิเคราะห์โรคหายากซ้ำเป็นทั้งปัญหาทางวิทยาศาสตร์และการบำรุงรักษา จีโนมของผู้ป่วยอาจยังคงเหมือนเดิม แต่หลักฐานที่อยู่รอบๆ มีการเปลี่ยนแปลงอยู่ตลอดเวลา นักวิจัยเชื่อมโยงยีนใหม่และตัวแปรเข้ากับโรค ห้องปฏิบัติการจัดประเภทสายพันธุ์เก่าใหม่ และฐานข้อมูลผู้ป่วยและเอกสารต่างๆ สะสมข้อสังเกตใหม่ การอัปเดตแต่ละครั้งสามารถทำให้เคสเก่าๆ ที่ไม่อาจสรุปได้แน่ชัดคุ้มค่าแก่การกลับมาเยี่ยมชมอีกครั้ง ดังนั้น สถาบันหลายแห่งจึงสืบทอดจีโนมที่ค้างอยู่เพิ่มขึ้นเรื่อยๆ เพื่อซิงค์กับฐานความรู้ที่กำลังเคลื่อนไหว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In this study, researchers designed the workflow so that the model acted as an explanation-first reasoning layer on top of existing genomic pipelines. Instead of returning only a ranked gene, it was asked to connect the clinical features, inheritance pattern, variant evidence, and scientific literature into a justification that a human reviewer could interrogate.",
+        "th": "ในการศึกษานี้ นักวิจัยได้ออกแบบขั้นตอนการทำงานเพื่อให้แบบจำลองทำหน้าที่เป็นชั้นการให้เหตุผลเชิงอธิบายเป็นอันดับแรก นอกเหนือจากไปป์ไลน์จีโนมที่มีอยู่ แทนที่จะส่งคืนเฉพาะยีนที่ได้รับการจัดอันดับ ระบบจะขอให้เชื่อมโยงลักษณะทางคลินิก รูปแบบการสืบทอด หลักฐานที่แตกต่าง และวรรณกรรมทางวิทยาศาสตร์ เข้ากับเหตุผลที่ผู้ตรวจสอบที่เป็นมนุษย์สามารถซักถามได้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How the reanalysis worked",
+        "th": "การวิเคราะห์ซ้ำทำงานอย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For each case, the team assembled a de-identified packet containing standardized Human Phenotype Ontology terms to describe the patient’s clinical presentation, occasional clinician notes and any descriptive clinical diagnosis, metadata such as age and gender, and a filtered variant table. The table captured each variant’s rarity, its predicted effect on the encoded protein, ClinVar classification, and signal quality across available family members. Most cases included data from the child and both biological parents.",
+        "th": "ในแต่ละกรณี ทีมงานได้รวบรวมแพ็กเก็ตที่ไม่ระบุตัวตนซึ่งประกอบด้วยคำศัพท์เกี่ยวกับอภิปรัชญาฟีโนไทป์มนุษย์ที่เป็นมาตรฐานเพื่ออธิบายการนำเสนอทางคลินิกของผู้ป่วย บันทึกของแพทย์เป็นครั้งคราว และการวินิจฉัยเชิงพรรณนาทางคลินิก ข้อมูลเมตา เช่น อายุและเพศ และตารางตัวแปรที่กรองแล้ว ตารางบันทึกความหายากของตัวแปรแต่ละตัว ผลที่คาดการณ์ไว้ต่อโปรตีนที่เข้ารหัส การจำแนกประเภท ClinVar และคุณภาพสัญญาณของสมาชิกครอบครัวที่มีอยู่ กรณีส่วนใหญ่จะรวมข้อมูลจากเด็กและผู้ปกครองทางสายเลือดทั้งสองคน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The team asked the model to propose the most plausible molecular explanation and to show its work. Researchers then reviewed the outputs using the same ACMG/AMP framework that clinical labs use to classify genetic variants. At least two team members reviewed each candidate, disagreements were resolved by consensus, and a model output was never treated as a diagnosis. A finding counted as a diagnosis only after qualified experts reviewed the evidence, the variant was classified as pathogenic or likely pathogenic, a CLIA-certified laboratory confirmed it, and the clinical team returned the result to the family.",
+        "th": "ทีมงานขอให้แบบจำลองเสนอคำอธิบายเกี่ยวกับโมเลกุลที่เป็นไปได้มากที่สุดและเพื่อแสดงการทำงานของมัน จากนั้น นักวิจัยได้ตรวจสอบผลลัพธ์โดยใช้กรอบงาน ACMG/AMP แบบเดียวกับที่ห้องปฏิบัติการทางคลินิกใช้เพื่อจำแนกตัวแปรทางพันธุกรรม สมาชิกในทีมอย่างน้อยสองคนตรวจสอบผู้สมัครแต่ละคน ความขัดแย้งได้รับการแก้ไขโดยฉันทามติ และผลลัพธ์ของแบบจำลองไม่เคยถือเป็นการวินิจฉัย การค้นพบนี้จะนับเป็นการวินิจฉัยหลังจากที่ผู้เชี่ยวชาญที่มีคุณสมบัติเหมาะสมได้ตรวจสอบหลักฐานแล้วเท่านั้น ตัวแปรดังกล่าวถูกจัดอยู่ในประเภทที่ทำให้เกิดโรคหรือมีแนวโน้มว่าจะทำให้เกิดโรค ห้องปฏิบัติการที่ได้รับการรับรองจาก CLIA ยืนยันแล้ว และทีมคลินิกก็ส่งผลผลกลับคืนสู่ครอบครัว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before analyzing unsolved cases, the team refined the workflow on cases with established diagnoses. It recovered the correct gene and variant in duplicate runs for 48 of 51 cases that included a variety of rare conditions. In a set of 57 neuromuscular cases, the workflow returned the correct diagnosis in duplicate runs for 45 of the cases. In a 15-case long-read genome set, it named the correct gene in every case and both disease-causing alleles in 12 cases. These evaluations aided in prompt development and showed where expert review remained essential.",
+        "th": "ก่อนที่จะวิเคราะห์กรณีที่ยังไม่ได้รับการแก้ไข ทีมงานได้ปรับปรุงขั้นตอนการทำงานในกรณีที่ได้รับการวินิจฉัยแล้ว สามารถกู้คืนยีนและตัวแปรที่ถูกต้องในการทำซ้ำสำหรับผู้ป่วย 48 รายจาก 51 รายซึ่งรวมถึงสภาวะที่หายากหลายประการ ในกลุ่มผู้ป่วยโรคประสาทและกล้ามเนื้อ 57 ราย กระบวนการทำงานส่งคืนการวินิจฉัยที่ถูกต้องในการทำซ้ำสำหรับผู้ป่วย 45 ราย ในชุดจีโนมที่อ่านมานาน 15 กรณี มีการตั้งชื่อยีนที่ถูกต้องในทุกกรณี และอัลลีลที่ทำให้เกิดโรคทั้งสองใน 12 กรณี การประเมินเหล่านี้ช่วยในการพัฒนาอย่างทันท่วงทีและแสดงให้เห็นว่าการทบทวนโดยผู้เชี่ยวชาญยังคงเป็นสิ่งสำคัญ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The model’s self-reported confidence scores tracked with correct diagnoses in these previously solved cases: the mean minimum score was 85.6 for consistently correct calls and 42.1 for incorrect or unknown calls. The scores were not calibrated probabilities, and the team did not use them as a substitute for evidence or clinical adjudication. But they were helpful in guiding the expert reviewers to focus on the most promising candidate diagnoses.",
+        "th": "คะแนนความเชื่อมั่นที่รายงานด้วยตนเองของโมเดลติดตามด้วยการวินิจฉัยที่ถูกต้องในกรณีที่แก้ไขก่อนหน้านี้: คะแนนเฉลี่ยขั้นต่ำคือ 85.6 สำหรับการโทรที่ถูกต้องอย่างสม่ำเสมอ และ 42.1 สำหรับการโทรที่ไม่ถูกต้องหรือไม่ทราบ คะแนนไม่ได้รับการปรับเทียบความน่าจะเป็น และทีมงานไม่ได้ใช้คะแนนเหล่านี้เพื่อทดแทนหลักฐานหรือการพิจารณาตัดสินทางคลินิก แต่สิ่งเหล่านี้มีประโยชน์ในการชี้แนะผู้ตรวจสอบที่เชี่ยวชาญให้มุ่งเน้นไปที่การวินิจฉัยผู้สมัครที่มีแนวโน้มมากที่สุด"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/530BGqngq1VALa92VeoOPc/6452837ccdeb136584360b02ea3d904b/Human-guided_AI_workflow_for_rare_disease_genomic_reanalysis_desktop_light__1_.svg?w=3840&q=90",
+      "alt": "Workflow diagram titled “Human-guided AI workflow for rare disease genomic reanalysis,” showing de-identified patient data flowing through human decisions, LLM evidence synthesis, expert review, testing, clinical confirmation, and return of results to the family."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What the researchers found",
+        "th": "สิ่งที่นักวิจัยค้นพบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The team then applied the workflow to four groups of previously unsolved cases: children with neurodevelopmental conditions, people with rare neuromuscular disease, children and adolescents with early psychosis, and cases of sudden unexpected death in pediatrics. These were not fresh cases awaiting a first review. Many had already been examined by multiple commercial or institutional pipelines and discussed by multidisciplinary teams.",
+        "th": "จากนั้น ทีมงานได้ประยุกต์ขั้นตอนการทำงานกับกลุ่มกรณีที่ยังไม่ได้รับการแก้ไขก่อนหน้านี้ 4 กลุ่ม ได้แก่ เด็กที่มีภาวะพัฒนาการทางระบบประสาท ผู้ที่เป็นโรคทางระบบประสาทและกล้ามเนื้อที่พบไม่บ่อย เด็กและวัยรุ่นที่เป็นโรคจิตในระยะเริ่มแรก และกรณีการเสียชีวิตอย่างกะทันหันในกุมารเวชศาสตร์ กรณีเหล่านี้ไม่ใช่กรณีใหม่ที่รอการตรวจสอบครั้งแรก หลายคนได้รับการตรวจสอบโดยหน่วยงานเชิงพาณิชย์หรือสถาบันหลายแห่งแล้ว และได้มีการหารือกันโดยทีมงานจากสหสาขาวิชาชีพ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Results by cohort",
+        "th": "ผลลัพธ์ตามกลุ่มประชากรตามรุ่น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cohort",
+        "th": "กลุ่มประชากรตามรุ่น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cases",
+        "th": "กรณีต่างๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Diagnoses surfaced",
+        "th": "การวินิจฉัยปรากฏขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Yield",
+        "th": "ผลผลิต"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Neurodevelopmental",
+        "th": "พัฒนาการทางระบบประสาท"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "100",
+        "th": "100"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "10",
+        "th": "10"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "10.0%",
+        "th": "10.0%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Neuromuscular disease",
+        "th": "โรคประสาทและกล้ามเนื้อ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "61",
+        "th": "61"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "6.6%",
+        "th": "6.6%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sudden unexpected death in pediatrics",
+        "th": "การเสียชีวิตกะทันหันในกุมารเวชศาสตร์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "200",
+        "th": "200"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "1.0%",
+        "th": "1.0%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Early psychosis",
+        "th": "โรคจิตระยะแรก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "15",
+        "th": "15"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "13.3%",
+        "th": "13.3%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Total",
+        "th": "ทั้งหมด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "376",
+        "th": "376"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "18",
+        "th": "18"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "4.8%",
+        "th": "4.8%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The early psychosis cohort was small, so its percentage has a wide confidence interval. Yield also reflects how likely each cohort was to have a single-gene explanation.",
+        "th": "กลุ่มผู้ป่วยโรคจิตในระยะเริ่มแรกมีขนาดเล็ก ดังนั้นเปอร์เซ็นต์จึงมีช่วงความเชื่อมั่นที่กว้าง อัตราผลตอบแทนยังสะท้อนให้เห็นถึงแนวโน้มที่แต่ละกลุ่มจะมีคำอธิบายของยีนเดี่ยว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "After the model surfaced candidates and experts completed review and clinical confirmation, physicians established diagnoses in 4.8% of the cases. That rate is modest but meaningful in this population because previous expert reviews had not resolved the cases. Similar reanalysis studies report single-digit gains in heavily reviewed cases; higher yields usually come from studies containing new cases or well-known disorders awaiting genetic confirmation.",
+        "th": "หลังจากแบบจำลองปรากฏต่อผู้สมัครและผู้เชี่ยวชาญเสร็จสิ้นการตรวจสอบและการยืนยันทางคลินิก แพทย์ได้ทำการวินิจฉัยใน 4.8% ของกรณีทั้งหมด อัตราดังกล่าวไม่มากนักแต่มีความหมายในกลุ่มประชากรกลุ่มนี้ เนื่องจากการทบทวนของผู้เชี่ยวชาญครั้งก่อนๆ ไม่สามารถแก้ไขกรณีต่างๆ ได้ การศึกษาการวิเคราะห์ซ้ำที่คล้ายกันรายงานการเพิ่มขึ้นของตัวเลขหลักเดียวในกรณีที่ได้รับการตรวจสอบอย่างหนัก อัตราผลตอบแทนที่สูงขึ้นมักมาจากการศึกษาที่มีผู้ป่วยรายใหม่หรือความผิดปกติที่ทราบซึ่งรอการยืนยันทางพันธุกรรม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Of the 18 diagnoses, 7 were rediscoveries: diagnoses established outside the local research workflow but absent from the record the team reviewed. In several cases, the variants were already listed as pathogenic or likely pathogenic in public databases, highlighting the operational challenge of synthesizing information across data sources.",
+        "th": "จากการวินิจฉัย 18 รายการ มี 7 รายการเป็นการค้นพบซ้ำ: การวินิจฉัยที่เกิดขึ้นนอกขั้นตอนการวิจัยในท้องถิ่น แต่ไม่มีอยู่ในบันทึกที่ทีมตรวจสอบ ในหลายกรณี ตัวแปรต่างๆ ได้รับการระบุว่าเป็นสาเหตุที่ทำให้เกิดโรคหรือมีแนวโน้มว่าจะทำให้เกิดโรคในฐานข้อมูลสาธารณะ โดยเน้นถึงความท้าทายในการปฏิบัติงานในการสังเคราะห์ข้อมูลข้ามแหล่งข้อมูล"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Demonstrating flexibility when identifying variants",
+        "th": "แสดงให้เห็นถึงความยืดหยุ่นเมื่อระบุตัวแปร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In one early-psychosis case, the model inferred a structural event in the genome that was not listed in the input data. It connected a run of low-quality calls on chromosome 22 with the child’s cardiac, immune, neurodevelopmental, and psychiatric features, then hypothesized a 22q11.2 deletion associated with DiGeorge syndrome. This hypothesized variant was confirmed with follow-up genome sequencing.",
+        "th": "ในกรณีโรคจิตระยะแรก แบบจำลองอนุมานเหตุการณ์เชิงโครงสร้างในจีโนมที่ไม่ได้ระบุไว้ในข้อมูลอินพุต โดยเชื่อมโยงการโทรคุณภาพต่ำบนโครโมโซม 22 กับลักษณะด้านหัวใจ ภูมิคุ้มกัน พัฒนาการทางระบบประสาท และจิตเวชของเด็ก จากนั้นตั้งสมมติฐานการลบ 22q11.2 ที่เกี่ยวข้องกับกลุ่มอาการ DiGeorge ตัวแปรที่ตั้งสมมติฐานนี้ได้รับการยืนยันด้วยการจัดลำดับจีโนมที่ติดตามผล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Although the prompt asked for one monogenic cause, the model sometimes surfaced two genes that better explained a complex presentation. Variants in LAMA2 and FOXP1 together helped account for muscle and neurodevelopmental features in one case; another had a previously unrecognized digenic explanation involving TTN and SRPK3.",
+        "th": "แม้ว่าข้อความถามถึงสาเหตุ monogenic หนึ่งสาเหตุ แต่บางครั้งแบบจำลองก็แสดงยีนสองตัวที่อธิบายการนำเสนอที่ซับซ้อนได้ดีกว่า ตัวแปรใน LAMA2 และ FOXP1 ร่วมกันช่วยอธิบายคุณสมบัติของกล้ามเนื้อและพัฒนาการทางระบบประสาทในกรณีเดียว อีกคนหนึ่งมีคำอธิบายเกี่ยวกับ TTN และ SRPK3 ที่ไม่รู้จักก่อนหน้านี้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Producing a testable, biologically coherent hypothesis",
+        "th": "สร้างสมมติฐานที่ทดสอบได้และสอดคล้องกันทางชีวภาพ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In addition to diagnoses, the model also identified a possible novel mechanistic explanation for a condition called vitiligo. In one neurodevelopmental case, the model highlighted an 11-amino-acid deletion in S1PR1 in a person with vitiligo. S1PR1 encodes a cell-surface receptor involved in signaling, immune-cell movement, and tissue biology. The model integrated evidence suggesting that the deletion could alter receptor structure and signaling in ways that reduce pigment production while also helping immune cells persist in the skin.",
+        "th": "นอกเหนือจากการวินิจฉัยแล้ว แบบจำลองยังระบุคำอธิบายกลไกใหม่ที่เป็นไปได้สำหรับสภาพที่เรียกว่าโรคด่างขาว ในกรณีหนึ่งของการพัฒนาทางระบบประสาท แบบจำลองดังกล่าวเน้นย้ำถึงการลบกรดอะมิโน 11 ตัวใน S1PR1 ในบุคคลที่เป็นโรคด่างขาว S1PR1 เข้ารหัสตัวรับผิวเซลล์ที่เกี่ยวข้องกับการส่งสัญญาณ การเคลื่อนไหวของเซลล์ภูมิคุ้มกัน และชีววิทยาของเนื้อเยื่อ แบบจำลองนี้รวบรวมหลักฐานที่ชี้ให้เห็นว่าการลบออกอาจเปลี่ยนแปลงโครงสร้างตัวรับและการส่งสัญญาณในลักษณะที่ลดการผลิตเม็ดสีในขณะเดียวกันก็ช่วยให้เซลล์ภูมิคุ้มกันยังคงอยู่ในผิวหนัง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The proposed S1PR1-vitiligo relationship requires additional experimental validation but it illustrates a powerful role for AI in translating scattered findings from structural biology, immunology, and clinical genetics into concrete, testable hypotheses.",
+        "th": "ความสัมพันธ์ S1PR1-โรคด่างขาวที่เสนอนั้นจำเป็นต้องมีการตรวจสอบการทดลองเพิ่มเติม แต่แสดงให้เห็นถึงบทบาทอันทรงพลังสำหรับ AI ในการแปลการค้นพบที่กระจัดกระจายจากชีววิทยาเชิงโครงสร้าง ภูมิคุ้มกันวิทยา และพันธุศาสตร์ทางคลินิกให้เป็นสมมติฐานที่เป็นรูปธรรมและทดสอบได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The team also saw possible phenotype expansion in the neuromuscular cohort. Damaging variants in HSPB8 and CDK13 did not perfectly match the genes’ best-known disorders, suggesting a broader clinical spectrum that more cases and laboratory work will need to test.",
+        "th": "ทีมงานยังเห็นการขยายตัวของฟีโนไทป์ที่เป็นไปได้ในกลุ่มประสาทและกล้ามเนื้อ ตัวแปรที่สร้างความเสียหายใน HSPB8 และ CDK13 ไม่ตรงกับความผิดปกติที่รู้จักกันดีที่สุดของยีนได้อย่างสมบูรณ์แบบ ซึ่งบ่งบอกถึงสเปกตรัมทางคลินิกที่กว้างขึ้น ซึ่งต้องมีการทดสอบกรณีและงานในห้องปฏิบัติการเพิ่มเติม"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Case study: Kyra’s diagnosis after nearly two decades",
+        "th": "กรณีศึกษา: การวินิจฉัยของ Kyra หลังจากผ่านไปเกือบสองทศวรรษ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It started in karate class, when Kyra’s mother noticed that her 9-year-old daughter was not getting as low in her stances as she used to. Kyra was also slowing down during soccer practice and staying up on her toes while walking and running. Her pediatrician could not identify the cause of her muscle weakness, so he referred her to a specialist. What followed was a nearly 20-year journey through tests, treatments, and consultations without a diagnosis.",
+        "th": "เริ่มต้นในชั้นเรียนคาราเต้ เมื่อแม่ของ Kyra สังเกตเห็นว่าลูกสาววัย 9 ขวบของเธอมีท่าทางที่ไม่ต่ำเหมือนเมื่อก่อน Kyra ยังชะลอความเร็วในระหว่างการฝึกซ้อมฟุตบอลและยืนหยัดยืนขึ้นขณะเดินและวิ่ง กุมารแพทย์ของเธอไม่สามารถระบุสาเหตุของกล้ามเนื้ออ่อนแรงของเธอได้ เขาจึงส่งเธอไปพบผู้เชี่ยวชาญ สิ่งที่ตามมาคือการเดินทางเกือบ 20 ปีผ่านการทดสอบ การรักษา และการให้คำปรึกษาโดยไม่มีการวินิจฉัย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Kyra’s case was one of the four diagnoses surfaced in the neuromuscular cohort. The team linked her condition to a frameshift variant in HSPB8 and diagnosed a form of myofibrillar myopathy, in which abnormal protein structures build up in muscle fibers and contribute to weakness. A genetic counselor from the Manton Center called Kyra about a week before her 28th birthday.",
+        "th": "กรณีของ Kyra เป็นหนึ่งในสี่การวินิจฉัยที่เกิดขึ้นในกลุ่มประสาทและกล้ามเนื้อ ทีมงานเชื่อมโยงอาการของเธอกับตัวแปร frameshift ใน HSPB8 และวินิจฉัยรูปแบบของผงาด myofibrillar ซึ่งโครงสร้างโปรตีนที่ผิดปกติสร้างขึ้นในเส้นใยกล้ามเนื้อและมีส่วนทำให้เกิดความอ่อนแอ ที่ปรึกษาทางพันธุกรรมจาก Manton Center โทรหา Kyra ประมาณหนึ่งสัปดาห์ก่อนวันเกิดปีที่ 28 ของเธอ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By then, Kyra had spent much of her life adapting to the disease. She was dependent on a ventilator and in a wheelchair by the time she was 13, although her condition has since plateaued. Though Kyra’s form of myofibrillar myopathy is so rare that little is known about its long-term course, the diagnosis has brought some closure.",
+        "th": "เมื่อถึงตอนนั้น Kyra ใช้เวลาส่วนใหญ่ในชีวิตของเธอในการปรับตัวเข้ากับโรคนี้ เธอต้องพึ่งเครื่องช่วยหายใจและต้องนั่งรถเข็นเมื่อตอนที่เธออายุ 13 ปี แม้ว่าอาการของเธอจะดีขึ้นแล้วก็ตาม แม้ว่ารูปแบบของผงาด myofibrillar ของ Kyra จะหายากมากจนไม่ค่อยมีใครทราบเกี่ยวกับระยะของโรคในระยะยาว แต่การวินิจฉัยก็ทำให้ปิดฉากลงได้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Limitations",
+        "th": "ข้อจำกัด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This study shows that a general-purpose reasoning model can contribute to retrospective genomic reanalysis by combining phenotype, inheritance, variant annotations, data-quality patterns, and scientific literature into reviewable hypotheses. It also shows why periodic reanalysis matters: some answers surface only after knowledge advances or fragmented records are brought together.",
+        "th": "การศึกษานี้แสดงให้เห็นว่าแบบจำลองการใช้เหตุผลเพื่อจุดประสงค์ทั่วไปสามารถนำไปสู่การวิเคราะห์จีโนมย้อนหลังได้โดยการรวมฟีโนไทป์ การสืบทอด คำอธิบายประกอบแบบแปรผัน รูปแบบคุณภาพข้อมูล และวรรณกรรมทางวิทยาศาสตร์เข้าไว้ในสมมติฐานที่ทบทวนได้ นอกจากนี้ยังแสดงให้เห็นว่าเหตุใดการวิเคราะห์ซ้ำเป็นระยะจึงมีความสำคัญ: คำตอบบางข้อจะปรากฏหลังจากนำความรู้ที่ก้าวหน้าหรือบันทึกที่กระจัดกระจายมารวมกันเท่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This research is not evidence that patients, clinicians, or customers should use OpenAI models to diagnose disease or make medical decisions. It does not describe or endorse an intended customer use of OpenAI o3 Deep Research, ChatGPT, or any other OpenAI product for diagnosis. The model did not diagnose any participant; physicians and other qualified clinical experts made every diagnosis through established review, testing, and clinical-confirmation processes.",
+        "th": "การวิจัยนี้ไม่ใช่หลักฐานว่าผู้ป่วย แพทย์ หรือลูกค้าควรใช้แบบจำลอง OpenAI เพื่อวินิจฉัยโรคหรือตัดสินใจทางการแพทย์ ไม่ได้อธิบายหรือสนับสนุนการใช้งาน OpenAI o3 Deep Research, ChatGPT หรือผลิตภัณฑ์ OpenAI อื่นใดของลูกค้าเพื่อการวินิจฉัย แบบจำลองไม่ได้วินิจฉัยผู้เข้าร่วมคนใดเลย แพทย์และผู้เชี่ยวชาญทางคลินิกที่มีคุณสมบัติเหมาะสมได้ทำการวินิจฉัยทุกครั้งผ่านการทบทวน การทดสอบ และกระบวนการยืนยันทางคลินิกที่เป็นที่ยอมรับ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The study was retrospective, the cohorts were heterogeneous, and reviewers were not blinded to model confidence. The researchers did not measure time saved, cost, clinician effort, false-positive workload, or changes in care. Nor did they systematically evaluate other forms of genetic variation such as structural variants, repeat expansions, deep-intronic changes, or mosaicism.",
+        "th": "การศึกษาเป็นแบบย้อนหลัง กลุ่มร่วมรุ่นมีความแตกต่างกัน และผู้ตรวจสอบไม่ได้มองข้ามความเชื่อมั่นของแบบจำลอง นักวิจัยไม่ได้วัดเวลาที่ประหยัดเวลา ต้นทุน ความพยายามของแพทย์ ปริมาณงานที่เป็นผลบวกลวง หรือการเปลี่ยนแปลงในการดูแล และไม่ได้ประเมินรูปแบบอื่นของความแปรปรวนทางพันธุกรรมอย่างเป็นระบบ เช่น การเปลี่ยนแปลงทางโครงสร้าง การขยายซ้ำ การเปลี่ยนแปลงแบบลึกภายใน หรือโมเสก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Large language models can misread context or produce plausible explanations that fail upon closer inspection. Therefore, every result passed through human adjudication and clinical confirmation. The model widened the search and focused the subsequent human-led analysis; it did not decide what information or diagnosis should be returned to a family.",
+        "th": "โมเดลภาษาขนาดใหญ่อาจอ่านบริบทผิดหรือสร้างคำอธิบายที่น่าเชื่อถือซึ่งล้มเหลวเมื่อตรวจสอบอย่างใกล้ชิด ดังนั้นทุกผลลัพธ์จึงผ่านการตัดสินของมนุษย์และการยืนยันทางคลินิก แบบจำลองนี้ขยายขอบเขตการค้นหาและมุ่งเน้นไปที่การวิเคราะห์ที่นำโดยมนุษย์ในภายหลัง ไม่ได้ตัดสินใจว่าควรส่งคืนข้อมูลหรือการวินิจฉัยใดให้กับครอบครัว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This study used de-identified information, with no protected health information utilized or transmitted outside approved environments. Broader clinical deployment will require the same attention to privacy, security, auditability, and local regulation that applies to all medical care. Model access does not replace sequencing infrastructure, genetic counseling, confirmatory testing, or specialist judgment.",
+        "th": "การศึกษานี้ใช้ข้อมูลที่ไม่ระบุตัวตน โดยไม่มีการใช้หรือส่งข้อมูลด้านสุขภาพที่ได้รับการคุ้มครองนอกสภาพแวดล้อมที่ได้รับอนุมัติ การใช้งานทางคลินิกในวงกว้างจะต้องให้ความสำคัญกับความเป็นส่วนตัว ความปลอดภัย การตรวจสอบได้ และกฎระเบียบท้องถิ่นที่ใช้กับการรักษาพยาบาลทั้งหมดเช่นเดียวกัน การเข้าถึงแบบจำลองไม่ได้แทนที่โครงสร้างพื้นฐานในการเรียงลำดับ การให้คำปรึกษาทางพันธุกรรม การทดสอบเพื่อยืนยัน หรือการตัดสินของผู้เชี่ยวชาญ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/J8ufRYSGrTZnsNRo1Sppx/e7e43f347c49972b51336aa591b7c581/quote_1.png?w=3840&q=90&fm=webp",
+      "alt": "Abstract blue gradient background with soft transitions between light blue, cyan, and deep blue tones, creating a smooth, blurred effect."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“The bottleneck is time. An expert can devote only so much of their day to any one particular person.”",
+        "th": "“คอขวดคือเวลา ผู้เชี่ยวชาญสามารถอุทิศเวลาส่วนใหญ่ให้กับบุคคลใดบุคคลหนึ่งได้”"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/J8ufRYSGrTZnsNRo1Sppx/e7e43f347c49972b51336aa591b7c581/quote_1.png?w=3840&q=90&fm=webp",
+      "alt": "Abstract blue gradient background with soft transitions between light blue, cyan, and deep blue tones, creating a smooth, blurred effect."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“The bottleneck is time. An expert can devote only so much of their day to any one particular person.”",
+        "th": "“คอขวดคือเวลา ผู้เชี่ยวชาญสามารถอุทิศเวลาส่วนใหญ่ให้กับบุคคลใดบุคคลหนึ่งได้”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Dr. Catherine Brownstein, Boston Children’s Hospital’s Manton Center for Orphan Disease Research",
+        "th": "ดร. แคทเธอรีน บราวน์สไตน์ ศูนย์วิจัยโรคเด็กกำพร้าของโรงพยาบาลเด็กบอสตัน"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1kzAgWuhd2cIrdZLaP2JMj/c6a35772d8a4f8ed1d86271eb6d3d125/quote_2.png?w=3840&q=90&fm=webp",
+      "alt": "Abstract blue gradient background with soft transitions between light blue, cyan, and deep blue tones, creating a smooth, blurred effect."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Researchers like Catherine and me can’t possibly keep 8,000 different diseases in our heads. That’s the power of AI.”",
+        "th": "“นักวิจัยอย่างแคทเธอรีนและฉันไม่สามารถรักษาโรคต่างๆ กว่า 8,000 โรคในหัวของเราได้ นั่นคือพลังของ AI”"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1kzAgWuhd2cIrdZLaP2JMj/c6a35772d8a4f8ed1d86271eb6d3d125/quote_2.png?w=3840&q=90&fm=webp",
+      "alt": "Abstract blue gradient background with soft transitions between light blue, cyan, and deep blue tones, creating a smooth, blurred effect."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Researchers like Catherine and me can’t possibly keep 8,000 different diseases in our heads. That’s the power of AI.”",
+        "th": "“นักวิจัยอย่างแคทเธอรีนและฉันไม่สามารถรักษาโรคต่างๆ กว่า 8,000 โรคในหัวของเราได้ นั่นคือพลังของ AI”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Alan Beggs, director of the Manton Center for Orphan Disease Research",
+        "th": "อลัน เบกส์ ผู้อำนวยการศูนย์วิจัยโรคเด็กกำพร้าแมนตัน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What comes next",
+        "th": "อะไรจะเกิดขึ้นต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prospective, multi-center studies should compare LLM-assisted reanalysis with standard practice on diagnostic yield, time to a candidate, clinician effort, false-positive burden, cost, and effects on care. Versioned prompts, reference checks, audit logs, and calibrated uncertainty will be important for reproducibility and safety. Such studies would still require qualified clinicians to evaluate evidence, order appropriate tests, and make any diagnosis or treatment decision.",
+        "th": "การศึกษาแบบหลายศูนย์ในอนาคตควรเปรียบเทียบการวิเคราะห์ซ้ำที่ได้รับความช่วยเหลือจาก LLM กับแนวปฏิบัติมาตรฐานเกี่ยวกับผลการวินิจฉัย ระยะเวลาในการวินิจฉัย ความพยายามของแพทย์ ภาระผลบวกลวง ต้นทุน และผลกระทบต่อการดูแล ข้อความแจ้งเวอร์ชัน การตรวจสอบอ้างอิง บันทึกการตรวจสอบ และความไม่แน่นอนที่ปรับเทียบแล้ว จะมีความสำคัญต่อความสามารถในการทำซ้ำและความปลอดภัย การศึกษาดังกล่าวยังคงต้องการให้แพทย์ที่มีคุณสมบัติเหมาะสมประเมินหลักฐาน สั่งการทดสอบที่เหมาะสม และทำการตัดสินใจในการวินิจฉัยหรือการรักษา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This study used OpenAI o3 Deep Research. Newer general-purpose models can search and synthesize more scientific material, while purpose-built systems such as GPT‑Rosalind are designed for deeper life-sciences work, including variant effects on protein structure and function. Those capabilities were not tested here and will require their own evaluations and access controls.",
+        "th": "การศึกษานี้ใช้การวิจัยเชิงลึกของ OpenAI o3 โมเดลสำหรับใช้งานทั่วไปรุ่นใหม่สามารถค้นหาและสังเคราะห์วัสดุทางวิทยาศาสตร์ได้มากขึ้น ในขณะที่ระบบที่สร้างขึ้นตามวัตถุประสงค์ เช่น GPT-Rosalind ได้รับการออกแบบมาเพื่องานด้านชีววิทยาศาสตร์เชิงลึก รวมถึงผลกระทบที่แตกต่างกันต่อโครงสร้างและการทำงานของโปรตีน ความสามารถเหล่านั้นไม่ได้รับการทดสอบที่นี่ และจะต้องมีการประเมินและการควบคุมการเข้าถึงของตนเอง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "While OpenAI helped support this initial research study, the Manton Center will lead the next stage of the work through a grant from the OpenAI Foundation. The grant will support the Center's broader effort to develop a platform-agnostic, low-cost genetics AI copilot that helps clinical teams analyze rare disease cases more quickly and consistently.",
+        "th": "ในขณะที่ OpenAI ช่วยสนับสนุนการศึกษาวิจัยเบื้องต้นนี้ Manton Center จะเป็นผู้นำในขั้นต่อไปของงานผ่านการได้รับทุนสนับสนุนจากมูลนิธิ OpenAI เงินช่วยเหลือดังกล่าวจะสนับสนุนความพยายามในวงกว้างของศูนย์ในการพัฒนาระบบนำร่อง AI ทางพันธุกรรมราคาประหยัดที่ไม่เชื่อเรื่องแพลตฟอร์ม ซึ่งช่วยให้ทีมคลินิกวิเคราะห์กรณีโรคหายากได้รวดเร็วและสม่ำเสมอยิ่งขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The longer-term research opportunity is to explore whether expert-led AI-assisted reanalysis can help scientific understanding keep pace with discovery. The promise is not that AI replaces a doctor’s diagnosis, but that carefully evaluated research tools may help specialists identify evidence worth investigating. For thousands of families, today’s unanswered questions do not have to remain unanswered forever.",
+        "th": "โอกาสในการวิจัยในระยะยาวคือการสำรวจว่าการวิเคราะห์ซ้ำที่ได้รับความช่วยเหลือจาก AI ที่นำโดยผู้เชี่ยวชาญสามารถช่วยให้ความเข้าใจทางวิทยาศาสตร์ก้าวทันการค้นพบหรือไม่ คำมั่นสัญญาไม่ใช่ว่า AI จะเข้ามาแทนที่การวินิจฉัยของแพทย์ แต่เครื่องมือการวิจัยที่ได้รับการประเมินอย่างรอบคอบอาจช่วยให้ผู้เชี่ยวชาญระบุหลักฐานที่คุ้มค่าในการตรวจสอบได้ สำหรับหลายพันครอบครัว คำถามที่ยังไม่มีคำตอบในปัจจุบันไม่จำเป็นต้องไม่ได้รับคำตอบตลอดไป"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "ผู้เขียน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "อ่านต่อ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/QgPPg4etNE5C4Ao0G94sk/e5f2a50e5de4619d0e0fe8483698718b/molecule-one-art-card.png?w=3840&q=90&fm=webp",
+      "alt": "A near-autonomous AI chemist improves a challenging reaction"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchJun 17, 2026",
+        "th": "การวิจัย 17 มิ.ย. 2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6USIQM1B7TggUvvTFxxwoi/0176ac6633c8bdc24641d25d1d2db824/GPT-Rosalind_ArtCard.png?w=3840&q=90&fm=webp",
+      "alt": "Rosalind5.5 ArtCard"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductJun 3, 2026",
+        "th": "สินค้า3มิ.ย.2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2SsfYMwzLvPgXAwHZJn3ns/c84388126c95fce54b1106a8443557c8/ginkgo_art_card.png?w=3840&q=90&fm=webp",
+      "alt": "ginkgo > card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchFeb 5, 2026",
+        "th": "การวิจัย 5 ก.พ. 2569"
       }
     }
   ]

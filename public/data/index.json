@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-07T19:46:01.596Z",
+  "generatedAt": "2026-07-07T21:20:37.635Z",
   "items": [
+    {
+      "id": "huggingface__one-click-to-sagemaker-studio",
+      "slug": "one-click-to-sagemaker-studio",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+      "category": "News",
+      "date": "2026-07-07T21:15:33.000Z",
+      "image": null,
+      "title": {
+        "en": "From Hugging Face to Amazon SageMaker Studio in one click",
+        "th": "จาก Hugging Face ไปจนถึง Amazon SageMaker Studio ได้ในคลิกเดียว"
+      },
+      "summary": {
+        "en": "From Hugging Face to Amazon SageMaker Studio in one click",
+        "th": "จาก Hugging Face ไปจนถึง Amazon SageMaker Studio ได้ในคลิกเดียว"
+      }
+    },
     {
       "id": "huggingface__foundry-managed-compute",
       "slug": "foundry-managed-compute",
@@ -2056,23 +2073,6 @@
       "summary": {
         "en": "OlmoEarth v1.1: A more efficient family of Earth observation models",
         "th": "OlmoEarth v1.1: กลุ่มโมเดลการสังเกตการณ์โลกที่มีประสิทธิภาพมากขึ้น"
-      }
-    },
-    {
-      "id": "huggingface__ettin-reranker",
-      "slug": "ettin-reranker",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/ettin-reranker",
-      "category": "News",
-      "date": "2026-05-19T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing the Ettin Reranker Family",
-        "th": "ขอแนะนำครอบครัว Ettin Reranker"
-      },
-      "summary": {
-        "en": "Introducing the Ettin Reranker Family",
-        "th": "ขอแนะนำครอบครัว Ettin Reranker"
       }
     },
     {

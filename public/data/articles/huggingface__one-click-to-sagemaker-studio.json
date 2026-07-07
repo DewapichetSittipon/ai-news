@@ -105,8 +105,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Previously, getting started on SageMaker Studio after discovering a model on Hugging Face required navigating multiple steps. These included opening Amazon SageMaker AI on the AWS Management Console, creating a domain, configuring AWS Identity and Access Management (IAM) permissions, and sometimes requesting graphics processing unit (GPU) quota. For developers who want to iterate quickly, this friction slows down the path from inspiration to experimentation. The integration creates a more direct path from discovery to enterprise deployment.",
-        "th": "ก่อนหน้านี้ การเริ่มต้นใช้งาน SageMaker Studio หลังจากค้นพบโมเดลบน Hugging Face จำเป็นต้องดำเนินการหลายขั้นตอน สิ่งเหล่านี้รวมถึงการเปิด Amazon SageMaker AI บน AWS Management Console การสร้างโดเมน การกำหนดค่าสิทธิ์ AWS Identity and Access Management (IAM) และบางครั้งก็ขอโควต้าหน่วยประมวลผลกราฟิก (GPU) สำหรับนักพัฒนาที่ต้องการทำซ้ำอย่างรวดเร็ว ความขัดแย้งนี้จะทำให้เส้นทางจากแรงบันดาลใจไปสู่การทดลองช้าลง การบูรณาการจะสร้างเส้นทางที่ตรงมากขึ้นจากการค้นพบไปสู่การใช้งานระดับองค์กร"
+        "en": "Previously, getting started on SageMaker Studio after discovering a model on Hugging Face required navigating multiple steps between opening Amazon SageMaker AI in the AWS Console, creating a domain, configuring IAM permissions, and sometimes requesting GPU quota. For developers who want to iterate quickly, this friction slows down the path from inspiration to experimentation. The integration creates a more direct path from discovery to enterprise deployment.",
+        "th": "ก่อนหน้านี้ การเริ่มต้นใช้งาน SageMaker Studio หลังจากค้นพบโมเดลบน Hugging Face จำเป็นต้องดำเนินการหลายขั้นตอนระหว่างการเปิด Amazon SageMaker AI ในคอนโซล AWS การสร้างโดเมน การกำหนดค่าสิทธิ์ IAM และบางครั้งก็ขอโควต้า GPU สำหรับนักพัฒนาที่ต้องการทำซ้ำอย่างรวดเร็ว ความขัดแย้งนี้จะทำให้เส้นทางจากแรงบันดาลใจไปสู่การทดลองช้าลง การบูรณาการจะสร้างเส้นทางที่ตรงมากขึ้นจากการค้นพบไปสู่การใช้งานระดับองค์กร"
       }
     },
     {
@@ -231,8 +231,8 @@
     {
       "type": "p",
       "text": {
-        "en": "On the Hugging Face model page, select Customize on SageMaker AI for a supported model.",
-        "th": "ในหน้าโมเดล Hugging Face ให้เลือกปรับแต่งบน SageMaker AI สำหรับโมเดลที่รองรับ"
+        "en": "On the Hugging Face model page, click on “Deploy” and select “Amazon SageMaker AI”. If the model is supported, you will see two buttons, “Deploy on SageMaker AI” and “Customize on SageMaker AI”. Then select “Customize on SageMaker AI” for a supported model.",
+        "th": "ในหน้าโมเดล Hugging Face ให้คลิก \"ปรับใช้\" และเลือก \"Amazon SageMaker AI\" หากโมเดลได้รับการสนับสนุน คุณจะเห็นปุ่มสองปุ่ม “ปรับใช้บน SageMaker AI” และ “ปรับแต่งบน SageMaker AI” จากนั้นเลือก “ปรับแต่งบน SageMaker AI” สำหรับรุ่นที่รองรับ"
       }
     },
     {

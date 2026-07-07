@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T21:20:37.635Z",
+  "generatedAt": "2026-07-07T22:54:54.210Z",
   "items": [
     {
       "id": "huggingface__one-click-to-sagemaker-studio",
@@ -376,23 +376,6 @@
       }
     },
     {
-      "id": "openai__case-studies",
-      "slug": "case-studies",
-      "source": "openai",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
-      "category": "News",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
-      },
-      "summary": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
-      }
-    },
-    {
       "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
       "slug": "core-dump-epidemiology-data-infrastructure-bug",
       "source": "openai",
@@ -424,6 +407,23 @@
       "summary": {
         "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
         "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
+      }
+    },
+    {
+      "id": "openai__case-studies",
+      "slug": "case-studies",
+      "source": "openai",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "category": "News",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
+      },
+      "summary": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
       }
     },
     {
@@ -563,6 +563,23 @@
       }
     },
     {
+      "id": "openai__designing-organisations-that-can-keep-up-with-ai",
+      "slug": "designing-organisations-that-can-keep-up-with-ai",
+      "source": "openai",
+      "url": "https://openai.com/deployco/news/designing-organisations-that-can-keep-up-with-ai",
+      "category": "News",
+      "date": "2026-06-25T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Designing Organisations That Can Keep Up With AI",
+        "th": "การออกแบบองค์กรที่สามารถตามทัน AI"
+      },
+      "summary": {
+        "en": "Why organisational latency is becoming the biggest barrier to fully realising AI’s benefits",
+        "th": "เหตุใดความล่าช้าขององค์กรจึงกลายเป็นอุปสรรคที่ใหญ่ที่สุดในการตระหนักถึงประโยชน์ของ AI อย่างเต็มที่"
+      }
+    },
+    {
       "id": "openai__how-agents-are-transforming-work",
       "slug": "how-agents-are-transforming-work",
       "source": "openai",
@@ -679,6 +696,23 @@
       "summary": {
         "en": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
         "th": "OpenAI ช่วยสร้างมาตรฐานที่ใช้ร่วมกันสำหรับ AI ขั้นสูง สนับสนุนกรอบการประเมิน แนวปฏิบัติด้านความปลอดภัย และความร่วมมือระดับโลกผ่านทาง Appia Foundation"
+      }
+    },
+    {
+      "id": "openai__meta-harness-enterprise-self-improvement-long-horizon-ai-workflows",
+      "slug": "meta-harness-enterprise-self-improvement-long-horizon-ai-workflows",
+      "source": "openai",
+      "url": "https://openai.com/deployco/news/meta-harness-enterprise-self-improvement-long-horizon-ai-workflows",
+      "category": "News",
+      "date": "2026-06-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Meta-Harness R&D: Enterprise-Grade Self-Improvement for Long-Horizon AI Workflows",
+        "th": "Meta-Harness R&D: การปรับปรุงตนเองระดับองค์กรสำหรับเวิร์กโฟลว์ AI ระยะไกล"
+      },
+      "summary": {
+        "en": "How autonomous code improvement can be made disciplined enough for enterprise use",
+        "th": "การปรับปรุงโค้ดแบบอัตโนมัติมีระเบียบวินัยเพียงพอสำหรับการใช้งานในองค์กรได้อย่างไร"
       }
     },
     {
@@ -1260,20 +1294,20 @@
       }
     },
     {
-      "id": "openai__using-codex-to-simulate-black-holes",
-      "slug": "using-codex-to-simulate-black-holes",
+      "id": "openai__openai-to-acquire-ona",
+      "slug": "openai-to-acquire-ona",
       "source": "openai",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "category": "Applied AI",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "category": "Company",
       "date": "2026-06-11T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "How an astrophysicist uses Codex to help simulate black holes",
-        "th": "นักดาราศาสตร์ฟิสิกส์ใช้ Codex เพื่อช่วยจำลองหลุมดำอย่างไร"
+        "en": "OpenAI to acquire Ona",
+        "th": "OpenAI เพื่อรับ Ona"
       },
       "summary": {
-        "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-        "th": "ค้นพบวิธีที่นักฟิสิกส์ดาราศาสตร์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
+        "en": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+        "th": "OpenAI วางแผนที่จะซื้อ Ona เพื่อขยาย Codex ด้วยสภาพแวดล้อมคลาวด์ที่ปลอดภัยและคงอยู่ ช่วยให้ตัวแทน AI ที่ทำงานระยะยาวทั่วทั้งเวิร์กโฟลว์ขององค์กร"
       }
     },
     {
@@ -1294,6 +1328,23 @@
       }
     },
     {
+      "id": "openai__using-codex-to-simulate-black-holes",
+      "slug": "using-codex-to-simulate-black-holes",
+      "source": "openai",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "category": "Applied AI",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How an astrophysicist uses Codex to help simulate black holes",
+        "th": "นักดาราศาสตร์ฟิสิกส์ใช้ Codex เพื่อช่วยจำลองหลุมดำอย่างไร"
+      },
+      "summary": {
+        "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+        "th": "ค้นพบวิธีที่นักฟิสิกส์ดาราศาสตร์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
+      }
+    },
+    {
       "id": "openai__supporting-eu-trustworthy-ai-ecosystem",
       "slug": "supporting-eu-trustworthy-ai-ecosystem",
       "source": "openai",
@@ -1308,23 +1359,6 @@
       "summary": {
         "en": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
         "th": "OpenAI สนับสนุนหลักปฏิบัติของสหภาพยุโรปเกี่ยวกับความโปร่งใสของเนื้อหา AI พัฒนามาตรฐานแหล่งที่มาและเครื่องมือเพื่อช่วยให้ผู้คนเข้าใจเนื้อหาที่สร้างโดย AI"
-      }
-    },
-    {
-      "id": "openai__openai-to-acquire-ona",
-      "slug": "openai-to-acquire-ona",
-      "source": "openai",
-      "url": "https://openai.com/index/openai-to-acquire-ona",
-      "category": "Company",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "OpenAI to acquire Ona",
-        "th": "OpenAI เพื่อรับ Ona"
-      },
-      "summary": {
-        "en": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-        "th": "OpenAI วางแผนที่จะซื้อ Ona เพื่อขยาย Codex ด้วยสภาพแวดล้อมคลาวด์ที่ปลอดภัยและคงอยู่ ช่วยให้ตัวแทน AI ที่ทำงานระยะยาวทั่วทั้งเวิร์กโฟลว์ขององค์กร"
       }
     },
     {
@@ -1617,23 +1651,6 @@
       }
     },
     {
-      "id": "openai__economic-research-exchange",
-      "slug": "economic-research-exchange",
-      "source": "openai",
-      "url": "https://openai.com/index/economic-research-exchange",
-      "category": "Company",
-      "date": "2026-06-08T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing the OpenAI Economic Research Exchange",
-        "th": "ขอแนะนำการแลกเปลี่ยนวิจัยเศรษฐกิจ OpenAI"
-      },
-      "summary": {
-        "en": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
-        "th": "OpenAI เปิดตัว Economic Research Exchange เพื่อศึกษาผลกระทบของ AI ที่มีต่องาน ผลผลิต และเศรษฐกิจ ขณะนี้เปิดรับสมัครสำหรับโครงการวิจัยที่ได้รับคัดเลือกแล้ว"
-      }
-    },
-    {
       "id": "huggingface__openenv-agentic-rl",
       "slug": "openenv-agentic-rl",
       "source": "huggingface",
@@ -1682,23 +1699,6 @@
       "summary": {
         "en": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
         "th": "ความปลอดภัยของเนื้อหา Nemotron 3.5: ความปลอดภัยหลายรูปแบบที่ปรับแต่งได้สำหรับ Global Enterprise AI"
-      }
-    },
-    {
-      "id": "openai__endava-frontiers",
-      "slug": "endava-frontiers",
-      "source": "openai",
-      "url": "https://openai.com/index/endava-frontiers",
-      "category": "News",
-      "date": "2026-06-04T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How Endava is redesigning software delivery around AI agents",
-        "th": "Endava ออกแบบการส่งมอบซอฟต์แวร์ใหม่เกี่ยวกับตัวแทน AI อย่างไร"
-      },
-      "summary": {
-        "en": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-        "th": "เรียนรู้ว่า Endava ใช้ตัวแทน AI, ChatGPT Enterprise และ Codex เพื่อเร่งการส่งมอบซอฟต์แวร์ ทำให้เวิร์กโฟลว์เป็นอัตโนมัติ และสร้างวัฒนธรรม AI ดั้งเดิมทั่วทั้งองค์กรได้อย่างไร"
       }
     },
     {

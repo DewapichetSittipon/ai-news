@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T17:54:56.177Z",
+  "generatedAt": "2026-07-07T19:46:01.596Z",
   "items": [
     {
       "id": "huggingface__foundry-managed-compute",
@@ -33,6 +33,40 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\">We’re announcing new capabilities in Managed Agents in Gemini API so developers can ",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\">เรากำลังประกาศความสามารถใหม่ใน Managed Agents ใน Gemini API เพื่อให้นักพัฒนาสามารถ"
+      }
+    },
+    {
+      "id": "openai__australian-payments-plus",
+      "slug": "australian-payments-plus",
+      "source": "openai",
+      "url": "https://openai.com/index/australian-payments-plus",
+      "category": "News",
+      "date": "2026-07-07T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Australian Payments Plus moves faster with ChatGPT and Codex",
+        "th": "Australian Payments Plus เคลื่อนไหวเร็วขึ้นด้วย ChatGPT และ Codex"
+      },
+      "summary": {
+        "en": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+        "th": "ดูว่า Australian Payments Plus ใช้ ChatGPT Enterprise และ Codex เพื่อดำเนินการได้เร็วขึ้นผ่านความซับซ้อนในการชำระเงินได้อย่างไร AP+ ช่วยประหยัดเวลา ปรับปรุงคุณภาพ และให้ความสำคัญกับการตัดสินของมนุษย์"
+      }
+    },
+    {
+      "id": "huggingface__skypilot-hf-storage",
+      "slug": "skypilot-hf-storage",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/skypilot-hf-storage",
+      "category": "News",
+      "date": "2026-07-07T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+        "th": "รันปริมาณงาน AI บนคลาวด์ใดๆ จัดเก็บบน Hugging Face: พื้นที่จัดเก็บข้อมูลแบบไม่มีทางออกด้วย SkyPilot"
+      },
+      "summary": {
+        "en": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+        "th": "รันปริมาณงาน AI บนคลาวด์ใดๆ จัดเก็บบน Hugging Face: พื้นที่จัดเก็บข้อมูลแบบไม่มีทางออกด้วย SkyPilot"
       }
     },
     {
@@ -325,6 +359,23 @@
       }
     },
     {
+      "id": "openai__case-studies",
+      "slug": "case-studies",
+      "source": "openai",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "category": "News",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
+      },
+      "summary": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
+      }
+    },
+    {
       "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
       "slug": "core-dump-epidemiology-data-infrastructure-bug",
       "source": "openai",
@@ -356,23 +407,6 @@
       "summary": {
         "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
         "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
-      }
-    },
-    {
-      "id": "openai__case-studies",
-      "slug": "case-studies",
-      "source": "openai",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
-      "category": "News",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
-      },
-      "summary": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
       }
     },
     {
@@ -716,23 +750,6 @@
       }
     },
     {
-      "id": "openai__patch-the-planet",
-      "slug": "patch-the-planet",
-      "source": "openai",
-      "url": "https://openai.com/index/patch-the-planet",
-      "category": "Security",
-      "date": "2026-06-22T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-        "th": "Patch the Planet: โครงการริเริ่ม Daybreak เพื่อสนับสนุนผู้ดูแลโอเพ่นซอร์ส"
-      },
-      "summary": {
-        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-        "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
-      }
-    },
-    {
       "id": "openai__daybreak-securing-the-world",
       "slug": "daybreak-securing-the-world",
       "source": "openai",
@@ -747,6 +764,23 @@
       "summary": {
         "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
         "th": "OpenAI เปิดตัวเครื่องมือ Daybreak ใหม่ รวมถึง Codex Security และ GPT-5.5-Cyber ​​เพื่อช่วยให้องค์กรค้นหา ตรวจสอบ และแก้ไขช่องโหว่ในวงกว้าง"
+      }
+    },
+    {
+      "id": "openai__patch-the-planet",
+      "slug": "patch-the-planet",
+      "source": "openai",
+      "url": "https://openai.com/index/patch-the-planet",
+      "category": "Security",
+      "date": "2026-06-22T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+        "th": "Patch the Planet: โครงการริเริ่ม Daybreak เพื่อสนับสนุนผู้ดูแลโอเพ่นซอร์ส"
+      },
+      "summary": {
+        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+        "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
       }
     },
     {
@@ -1209,40 +1243,6 @@
       }
     },
     {
-      "id": "openai__bbva",
-      "slug": "bbva",
-      "source": "openai",
-      "url": "https://openai.com/index/bbva",
-      "category": "News",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "BBVA puts AI at the core of banking with OpenAI",
-        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
-      },
-      "summary": {
-        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
-      }
-    },
-    {
-      "id": "openai__openai-to-acquire-ona",
-      "slug": "openai-to-acquire-ona",
-      "source": "openai",
-      "url": "https://openai.com/index/openai-to-acquire-ona",
-      "category": "Company",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "OpenAI to acquire Ona",
-        "th": "OpenAI เพื่อรับ Ona"
-      },
-      "summary": {
-        "en": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-        "th": "OpenAI วางแผนที่จะซื้อ Ona เพื่อขยาย Codex ด้วยสภาพแวดล้อมคลาวด์ที่ปลอดภัยและคงอยู่ ช่วยให้ตัวแทน AI ที่ทำงานระยะยาวทั่วทั้งเวิร์กโฟลว์ขององค์กร"
-      }
-    },
-    {
       "id": "openai__using-codex-to-simulate-black-holes",
       "slug": "using-codex-to-simulate-black-holes",
       "source": "openai",
@@ -1260,6 +1260,23 @@
       }
     },
     {
+      "id": "openai__bbva",
+      "slug": "bbva",
+      "source": "openai",
+      "url": "https://openai.com/index/bbva",
+      "category": "News",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "BBVA puts AI at the core of banking with OpenAI",
+        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
+      },
+      "summary": {
+        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
+      }
+    },
+    {
       "id": "openai__supporting-eu-trustworthy-ai-ecosystem",
       "slug": "supporting-eu-trustworthy-ai-ecosystem",
       "source": "openai",
@@ -1274,6 +1291,23 @@
       "summary": {
         "en": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
         "th": "OpenAI สนับสนุนหลักปฏิบัติของสหภาพยุโรปเกี่ยวกับความโปร่งใสของเนื้อหา AI พัฒนามาตรฐานแหล่งที่มาและเครื่องมือเพื่อช่วยให้ผู้คนเข้าใจเนื้อหาที่สร้างโดย AI"
+      }
+    },
+    {
+      "id": "openai__openai-to-acquire-ona",
+      "slug": "openai-to-acquire-ona",
+      "source": "openai",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "category": "Company",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "OpenAI to acquire Ona",
+        "th": "OpenAI เพื่อรับ Ona"
+      },
+      "summary": {
+        "en": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+        "th": "OpenAI วางแผนที่จะซื้อ Ona เพื่อขยาย Codex ด้วยสภาพแวดล้อมคลาวด์ที่ปลอดภัยและคงอยู่ ช่วยให้ตัวแทน AI ที่ทำงานระยะยาวทั่วทั้งเวิร์กโฟลว์ขององค์กร"
       }
     },
     {
@@ -1648,23 +1682,6 @@
       "summary": {
         "en": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
         "th": "เรียนรู้ว่า Endava ใช้ตัวแทน AI, ChatGPT Enterprise และ Codex เพื่อเร่งการส่งมอบซอฟต์แวร์ ทำให้เวิร์กโฟลว์เป็นอัตโนมัติ และสร้างวัฒนธรรม AI ดั้งเดิมทั่วทั้งองค์กรได้อย่างไร"
-      }
-    },
-    {
-      "id": "openai__chatgpt-memory-dreaming",
-      "slug": "chatgpt-memory-dreaming",
-      "source": "openai",
-      "url": "https://openai.com/index/chatgpt-memory-dreaming",
-      "category": "Research",
-      "date": "2026-06-04T09:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Dreaming: Better memory for a more helpful ChatGPT",
-        "th": "ความฝัน: หน่วยความจำที่ดีขึ้นสำหรับ ChatGPT ที่เป็นประโยชน์มากขึ้น"
-      },
-      "summary": {
-        "en": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
-        "th": "ChatGPT แนะนำระบบหน่วยความจำใหม่เพื่อให้จดจำการตั้งค่าได้ดีขึ้น ทำให้บริบทใหม่อยู่เสมอและมีความเกี่ยวข้องในการสนทนา"
       }
     },
     {
@@ -2073,23 +2090,6 @@
       "summary": {
         "en": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
         "th": "นักชีววิทยาใช้นักวิทยาศาสตร์ร่วมเพื่อค้นหาปัจจัยใหม่ๆ ที่ช่วยฟื้นฟูเซลล์ของมนุษย์ได้สำเร็จ"
-      }
-    },
-    {
-      "id": "huggingface__paddleocr-transformers",
-      "slug": "paddleocr-transformers",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
-      "category": "News",
-      "date": "2026-05-18T15:12:46.000Z",
-      "image": null,
-      "title": {
-        "en": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
-        "th": "PaddleOCR 3.5: การรัน OCR และงานการแยกวิเคราะห์เอกสารด้วยแบ็กเอนด์ Transformers"
-      },
-      "summary": {
-        "en": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
-        "th": "PaddleOCR 3.5: การรัน OCR และงานการแยกวิเคราะห์เอกสารด้วยแบ็กเอนด์ Transformers"
       }
     },
     {

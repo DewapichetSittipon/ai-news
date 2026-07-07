@@ -122,12 +122,12 @@
     {
       "type": "img",
       "src": "https://lh3.googleusercontent.com/dgWXJe3CEYV3TND6RvRPANNZ_YsErtYAWmFYC1BjQCn1QVLWx2mfBqyyUqAwaGPfBKV_81M6yE2IwV866_0EMu0Azx4_QFE3283E0Vz7dONAR7F5wA=w1440",
-      "alt": "This set of three bar charts compares the performance of Data-Parallel training against Decoupled DiLoCo across communication, resilience, and accuracy metrics. The first chart, Required Bandwidth, shows that DiLoCo reduces bandwidth needs from 198 Gbps to a mere 0.84 Gbps across 8 datacenters, representing a massive efficiency gain on a logarithmic scale. The second chart, Goodput, demonstrates that in a simulated environment of 1.2 million chips with high failure rates, DiLoCo maintains a 88% goodput compared to only 27% for standard Data-Parallel methods. Finally, the ML Benchmarks chart highlights that these gains come with virtually no cost to performance, as DiLoCo achieves 64.1% average accuracy, nearly matching the 64.4% achieved by the baseline."
+      "alt": "Three side-by-side bar charts comparing Data-Parallel (gray) and Decoupled DiLoCo (blue) across three metrics. \"Required Bandwidth\" on a logarithmic scale shows Data-Parallel at 198 Gbps and Decoupled DiLoCo at 0.84 Gbps across 8 datacenters. \"Goodput\" shows Data-Parallel at 27% and Decoupled DiLoCo at 88% under high rates of hardware failure. \"ML Benchmarks\" shows average accuracy at 64.4% for Data-Parallel and 64.1% for Decoupled DiLoCo."
     },
     {
       "type": "img",
       "src": "https://lh3.googleusercontent.com/mnCZCyP0c3sdhYWFJ5ElGFfTnnEiwRCHHQz4t1VdJlLt4XoN6YnbYzdFL-edBXdwy0apZ9ZWSPDnrRxSHQke7ikyUTrtoTgluIHfa6GP3s28B55cHGE=w1440",
-      "alt": "This set of three bar charts compares the performance of Data-Parallel training against Decoupled DiLoCo across communication, resilience, and accuracy metrics. The first chart, Required Bandwidth, shows that DiLoCo reduces bandwidth needs from 198 Gbps to a mere 0.84 Gbps across 8 datacenters, representing a massive efficiency gain on a logarithmic scale. The second chart, Goodput, demonstrates that in a simulated environment of 1.2 million chips with high failure rates, DiLoCo maintains a 88% goodput compared to only 27% for standard Data-Parallel methods. Finally, the ML Benchmarks chart highlights that these gains come with virtually no cost to performance, as DiLoCo achieves 64.1% average accuracy, nearly matching the 64.4% achieved by the baseline."
+      "alt": "Three side-by-side bar charts comparing Data-Parallel (gray) and Decoupled DiLoCo (blue) across three metrics. \"Required Bandwidth\" on a logarithmic scale shows Data-Parallel at 198 Gbps and Decoupled DiLoCo at 0.84 Gbps across 8 datacenters. \"Goodput\" shows Data-Parallel at 27% and Decoupled DiLoCo at 88% under high rates of hardware failure. \"ML Benchmarks\" shows average accuracy at 64.4% for Data-Parallel and 64.1% for Decoupled DiLoCo."
     },
     {
       "type": "p",

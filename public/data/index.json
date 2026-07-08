@@ -1,6 +1,57 @@
 {
-  "generatedAt": "2026-07-08T16:00:15.096Z",
+  "generatedAt": "2026-07-08T17:38:25.084Z",
   "items": [
+    {
+      "id": "huggingface__open-data-for-agents",
+      "slug": "open-data-for-agents",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "category": "News",
+      "date": "2026-07-08T17:16:05.000Z",
+      "image": null,
+      "title": {
+        "en": "Data for Agents",
+        "th": "ข้อมูลสำหรับตัวแทน"
+      },
+      "summary": {
+        "en": "Data for Agents",
+        "th": "ข้อมูลสำหรับตัวแทน"
+      }
+    },
+    {
+      "id": "openai__k-12-educators-practical-skills",
+      "slug": "k-12-educators-practical-skills",
+      "source": "openai",
+      "url": "https://openai.com/index/k-12-educators-practical-skills",
+      "category": "Global Affairs",
+      "date": "2026-07-08T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Helping K–12 educators build practical AI skills",
+        "th": "ช่วยให้นักการศึกษาระดับอนุบาลถึงมัธยมศึกษา (K–12) สร้างทักษะ AI ที่ใช้งานได้จริง"
+      },
+      "summary": {
+        "en": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+        "th": "OpenAI Academy และ Walton Family Foundation นำเสนอ AI Skills Jams เพื่อช่วยให้นักการศึกษาระดับอนุบาลถึงมัธยมศึกษาตอนปลาย (K-12) สร้างทักษะ AI ที่ใช้งานได้จริงสำหรับห้องเรียน"
+      }
+    },
+    {
+      "id": "openai__introducing-gpt-live",
+      "slug": "introducing-gpt-live",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-gpt-live",
+      "category": "Product",
+      "date": "2026-07-08T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing GPT-Live",
+        "th": "ขอแนะนำ GPT-Live"
+      },
+      "summary": {
+        "en": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+        "th": "โมเดลเสียงรุ่นใหม่สำหรับการโต้ตอบระหว่างมนุษย์กับ AI โดยธรรมชาติ ขับเคลื่อน ChatGPT Voice แล้ว"
+      }
+    },
     {
       "id": "huggingface__native-speed-vllm-transformers-backend",
       "slug": "native-speed-vllm-transformers-backend",
@@ -427,23 +478,6 @@
       }
     },
     {
-      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
-      "slug": "core-dump-epidemiology-data-infrastructure-bug",
-      "source": "openai",
-      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "category": "Engineering",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Core dump epidemiology: fixing an 18-year-old bug",
-        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
-      },
-      "summary": {
-        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
-      }
-    },
-    {
       "id": "openai__introducing-genebench-pro",
       "slug": "introducing-genebench-pro",
       "source": "openai",
@@ -458,6 +492,23 @@
       "summary": {
         "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
         "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
+      }
+    },
+    {
+      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
+      "slug": "core-dump-epidemiology-data-infrastructure-bug",
+      "source": "openai",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "category": "Engineering",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Core dump epidemiology: fixing an 18-year-old bug",
+        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
+      },
+      "summary": {
+        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
       }
     },
     {
@@ -801,23 +852,6 @@
       }
     },
     {
-      "id": "openai__daybreak-securing-the-world",
-      "slug": "daybreak-securing-the-world",
-      "source": "openai",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "category": "Security",
-      "date": "2026-06-22T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Daybreak: Tools for securing every organization in the world",
-        "th": "Daybreak: เครื่องมือสำหรับการรักษาความปลอดภัยให้กับทุกองค์กรในโลก"
-      },
-      "summary": {
-        "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-        "th": "OpenAI เปิดตัวเครื่องมือ Daybreak ใหม่ รวมถึง Codex Security และ GPT-5.5-Cyber ​​เพื่อช่วยให้องค์กรค้นหา ตรวจสอบ และแก้ไขช่องโหว่ในวงกว้าง"
-      }
-    },
-    {
       "id": "openai__patch-the-planet",
       "slug": "patch-the-planet",
       "source": "openai",
@@ -832,6 +866,23 @@
       "summary": {
         "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
         "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
+      }
+    },
+    {
+      "id": "openai__daybreak-securing-the-world",
+      "slug": "daybreak-securing-the-world",
+      "source": "openai",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "category": "Security",
+      "date": "2026-06-22T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Daybreak: Tools for securing every organization in the world",
+        "th": "Daybreak: เครื่องมือสำหรับการรักษาความปลอดภัยให้กับทุกองค์กรในโลก"
+      },
+      "summary": {
+        "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+        "th": "OpenAI เปิดตัวเครื่องมือ Daybreak ใหม่ รวมถึง Codex Security และ GPT-5.5-Cyber ​​เพื่อช่วยให้องค์กรค้นหา ตรวจสอบ และแก้ไขช่องโหว่ในวงกว้าง"
       }
     },
     {
@@ -1294,40 +1345,6 @@
       }
     },
     {
-      "id": "openai__bbva",
-      "slug": "bbva",
-      "source": "openai",
-      "url": "https://openai.com/index/bbva",
-      "category": "News",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "BBVA puts AI at the core of banking with OpenAI",
-        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
-      },
-      "summary": {
-        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
-      }
-    },
-    {
-      "id": "openai__using-codex-to-simulate-black-holes",
-      "slug": "using-codex-to-simulate-black-holes",
-      "source": "openai",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "category": "Applied AI",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How an astrophysicist uses Codex to help simulate black holes",
-        "th": "นักดาราศาสตร์ฟิสิกส์ใช้ Codex เพื่อช่วยจำลองหลุมดำอย่างไร"
-      },
-      "summary": {
-        "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-        "th": "ค้นพบวิธีที่นักฟิสิกส์ดาราศาสตร์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
-      }
-    },
-    {
       "id": "openai__openai-to-acquire-ona",
       "slug": "openai-to-acquire-ona",
       "source": "openai",
@@ -1359,6 +1376,40 @@
       "summary": {
         "en": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
         "th": "OpenAI สนับสนุนหลักปฏิบัติของสหภาพยุโรปเกี่ยวกับความโปร่งใสของเนื้อหา AI พัฒนามาตรฐานแหล่งที่มาและเครื่องมือเพื่อช่วยให้ผู้คนเข้าใจเนื้อหาที่สร้างโดย AI"
+      }
+    },
+    {
+      "id": "openai__using-codex-to-simulate-black-holes",
+      "slug": "using-codex-to-simulate-black-holes",
+      "source": "openai",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "category": "Applied AI",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How an astrophysicist uses Codex to help simulate black holes",
+        "th": "นักดาราศาสตร์ฟิสิกส์ใช้ Codex เพื่อช่วยจำลองหลุมดำอย่างไร"
+      },
+      "summary": {
+        "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+        "th": "ค้นพบวิธีที่นักฟิสิกส์ดาราศาสตร์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
+      }
+    },
+    {
+      "id": "openai__bbva",
+      "slug": "bbva",
+      "source": "openai",
+      "url": "https://openai.com/index/bbva",
+      "category": "News",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "BBVA puts AI at the core of banking with OpenAI",
+        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
+      },
+      "summary": {
+        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
       }
     },
     {
@@ -1631,40 +1682,6 @@
       "summary": {
         "en": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
         "th": "ผลลัพธ์จากการทดลองแบบสุ่มที่มีกลุ่มควบคุมแสดงให้เห็นถึงศักยภาพของฟีเจอร์การเรียนรู้พร้อมคำแนะนำของ Gemini ในการเพิ่มการมีส่วนร่วมและเร่งการเรียนรู้"
-      }
-    },
-    {
-      "id": "openai__built-to-benefit-everyone-our-plan",
-      "slug": "built-to-benefit-everyone-our-plan",
-      "source": "openai",
-      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
-      "category": "Company",
-      "date": "2026-06-08T01:30:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Built to benefit everyone: our plan",
-        "th": "สร้างขึ้นเพื่อประโยชน์ของทุกคน: แผนของเรา"
-      },
-      "summary": {
-        "en": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
-        "th": "วิสัยทัศน์สำหรับอนาคตของ AI ที่มุ่งเน้นไปที่การเข้าถึง ความปลอดภัย และแบ่งปันความเจริญรุ่งเรืองในขณะที่ OpenAI ทำงานเพื่อให้แน่ใจว่า AGI จะเป็นประโยชน์ต่อทุกคน"
-      }
-    },
-    {
-      "id": "openai__economic-research-exchange",
-      "slug": "economic-research-exchange",
-      "source": "openai",
-      "url": "https://openai.com/index/economic-research-exchange",
-      "category": "Company",
-      "date": "2026-06-08T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing the OpenAI Economic Research Exchange",
-        "th": "ขอแนะนำการแลกเปลี่ยนวิจัยเศรษฐกิจ OpenAI"
-      },
-      "summary": {
-        "en": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
-        "th": "OpenAI เปิดตัว Economic Research Exchange เพื่อศึกษาผลกระทบของ AI ที่มีต่องาน ผลผลิต และเศรษฐกิจ ขณะนี้เปิดรับสมัครสำหรับโครงการวิจัยที่ได้รับคัดเลือกแล้ว"
       }
     },
     {
@@ -1971,23 +1988,6 @@
       "summary": {
         "en": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
         "th": "จัดส่งพารามิเตอร์ล้านล้านด้วย Hub Bucket: Delta Weight Sync ใน TRL"
-      }
-    },
-    {
-      "id": "huggingface__agent-glossary",
-      "slug": "agent-glossary",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/agent-glossary",
-      "category": "News",
-      "date": "2026-05-25T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
-        "th": "ข้อกำหนดของ Harness, Scaffold และ AI Agent ที่ควรค่าแก่การได้รับความถูกต้อง"
-      },
-      "summary": {
-        "en": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
-        "th": "ข้อกำหนดของ Harness, Scaffold และ AI Agent ที่ควรค่าแก่การได้รับความถูกต้อง"
       }
     },
     {

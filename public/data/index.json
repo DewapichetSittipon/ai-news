@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T19:13:26.802Z",
+  "generatedAt": "2026-07-08T21:01:09.015Z",
   "items": [
     {
       "id": "huggingface__open-data-for-agents",
@@ -16,6 +16,40 @@
       "summary": {
         "en": "Data for Agents",
         "th": "ข้อมูลสำหรับตัวแทน"
+      }
+    },
+    {
+      "id": "openai__government-national-security-partnerships",
+      "slug": "government-national-security-partnerships",
+      "source": "openai",
+      "url": "https://openai.com/index/government-national-security-partnerships",
+      "category": "Global Affairs",
+      "date": "2026-07-08T13:30:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Our approach to government and national security partnerships",
+        "th": "แนวทางของเราต่อรัฐบาลและความร่วมมือด้านความมั่นคงแห่งชาติ"
+      },
+      "summary": {
+        "en": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+        "th": "เรียนรู้ว่า OpenAI เข้าถึงความร่วมมือระหว่างรัฐบาลและความมั่นคงแห่งชาติได้อย่างไร โดยมีหลักการในการใช้ AI อย่างมีความรับผิดชอบ ความรับผิดชอบตามระบอบประชาธิปไตย และความปลอดภัยสาธารณะ"
+      }
+    },
+    {
+      "id": "openai__separating-signal-from-noise-coding-evaluations",
+      "slug": "separating-signal-from-noise-coding-evaluations",
+      "source": "openai",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "category": "Research",
+      "date": "2026-07-08T13:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Separating signal from noise in coding evaluations",
+        "th": "การแยกสัญญาณออกจากสัญญาณรบกวนในการประเมินการเข้ารหัส"
+      },
+      "summary": {
+        "en": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+        "th": "การวิเคราะห์ใหม่จาก OpenAI เผยให้เห็นปัญหาใน SWE-Bench Pro ซึ่งเป็นเกณฑ์มาตรฐานการเข้ารหัสยอดนิยม ทำให้เกิดความกังวลเกี่ยวกับความน่าเชื่อถือและความแม่นยำในการประเมินโมเดล AI"
       }
     },
     {
@@ -461,23 +495,6 @@
       }
     },
     {
-      "id": "openai__case-studies",
-      "slug": "case-studies",
-      "source": "openai",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
-      "category": "News",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
-      },
-      "summary": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
-      }
-    },
-    {
       "id": "openai__introducing-genebench-pro",
       "slug": "introducing-genebench-pro",
       "source": "openai",
@@ -492,6 +509,23 @@
       "summary": {
         "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
         "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
+      }
+    },
+    {
+      "id": "openai__case-studies",
+      "slug": "case-studies",
+      "source": "openai",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "category": "News",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
+      },
+      "summary": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
       }
     },
     {
@@ -852,23 +886,6 @@
       }
     },
     {
-      "id": "openai__patch-the-planet",
-      "slug": "patch-the-planet",
-      "source": "openai",
-      "url": "https://openai.com/index/patch-the-planet",
-      "category": "Security",
-      "date": "2026-06-22T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-        "th": "Patch the Planet: โครงการริเริ่ม Daybreak เพื่อสนับสนุนผู้ดูแลโอเพ่นซอร์ส"
-      },
-      "summary": {
-        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-        "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
-      }
-    },
-    {
       "id": "openai__daybreak-securing-the-world",
       "slug": "daybreak-securing-the-world",
       "source": "openai",
@@ -883,6 +900,23 @@
       "summary": {
         "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
         "th": "OpenAI เปิดตัวเครื่องมือ Daybreak ใหม่ รวมถึง Codex Security และ GPT-5.5-Cyber ​​เพื่อช่วยให้องค์กรค้นหา ตรวจสอบ และแก้ไขช่องโหว่ในวงกว้าง"
+      }
+    },
+    {
+      "id": "openai__patch-the-planet",
+      "slug": "patch-the-planet",
+      "source": "openai",
+      "url": "https://openai.com/index/patch-the-planet",
+      "category": "Security",
+      "date": "2026-06-22T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+        "th": "Patch the Planet: โครงการริเริ่ม Daybreak เพื่อสนับสนุนผู้ดูแลโอเพ่นซอร์ส"
+      },
+      "summary": {
+        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+        "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
       }
     },
     {
@@ -1345,6 +1379,23 @@
       }
     },
     {
+      "id": "openai__using-codex-to-simulate-black-holes",
+      "slug": "using-codex-to-simulate-black-holes",
+      "source": "openai",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "category": "Applied AI",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How an astrophysicist uses Codex to help simulate black holes",
+        "th": "นักดาราศาสตร์ฟิสิกส์ใช้ Codex เพื่อช่วยจำลองหลุมดำอย่างไร"
+      },
+      "summary": {
+        "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+        "th": "ค้นพบวิธีที่นักฟิสิกส์ดาราศาสตร์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
+      }
+    },
+    {
       "id": "openai__openai-to-acquire-ona",
       "slug": "openai-to-acquire-ona",
       "source": "openai",
@@ -1376,23 +1427,6 @@
       "summary": {
         "en": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
         "th": "OpenAI สนับสนุนหลักปฏิบัติของสหภาพยุโรปเกี่ยวกับความโปร่งใสของเนื้อหา AI พัฒนามาตรฐานแหล่งที่มาและเครื่องมือเพื่อช่วยให้ผู้คนเข้าใจเนื้อหาที่สร้างโดย AI"
-      }
-    },
-    {
-      "id": "openai__using-codex-to-simulate-black-holes",
-      "slug": "using-codex-to-simulate-black-holes",
-      "source": "openai",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "category": "Applied AI",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How an astrophysicist uses Codex to help simulate black holes",
-        "th": "นักดาราศาสตร์ฟิสิกส์ใช้ Codex เพื่อช่วยจำลองหลุมดำอย่างไร"
-      },
-      "summary": {
-        "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-        "th": "ค้นพบวิธีที่นักฟิสิกส์ดาราศาสตร์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
       }
     },
     {
@@ -1617,23 +1651,6 @@
       }
     },
     {
-      "id": "openai__industrial-policy-for-the-intelligence-age",
-      "slug": "industrial-policy-for-the-intelligence-age",
-      "source": "openai",
-      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
-      "category": "Global Affairs",
-      "date": "2026-06-09T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Industrial policy for the Intelligence Age",
-        "th": "นโยบายอุตสาหกรรมสำหรับยุคข่าวกรอง"
-      },
-      "summary": {
-        "en": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
-        "th": "สำรวจแนวคิดนโยบายอุตสาหกรรมที่ให้ความสำคัญกับผู้คนเป็นหลักสำหรับยุค AI ซึ่งมุ่งเน้นไปที่การขยายโอกาส แบ่งปันความเจริญรุ่งเรือง และการสร้างสถาบันที่มีความยืดหยุ่นในขณะที่สติปัญญาขั้นสูงพัฒนาขึ้น"
-      }
-    },
-    {
       "id": "huggingface__github-ci-hf-jobs",
       "slug": "github-ci-hf-jobs",
       "source": "huggingface",
@@ -1648,23 +1665,6 @@
       "summary": {
         "en": "Migrating Your GitHub CI to Hugging Face Jobs",
         "th": "ย้าย GitHub CI ของคุณไปยัง Hugging Face Jobs"
-      }
-    },
-    {
-      "id": "openai__openai-submits-confidential-s-1",
-      "slug": "openai-submits-confidential-s-1",
-      "source": "openai",
-      "url": "https://openai.com/index/openai-submits-confidential-s-1",
-      "category": "Company",
-      "date": "2026-06-08T14:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Confidential submission of draft S-1 to the SEC",
-        "th": "ยื่นร่าง S-1 อย่างเป็นความลับต่อ ก.ล.ต"
-      },
-      "summary": {
-        "en": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
-        "th": "OpenAI ยืนยันการส่ง S-1 ที่เป็นความลับไปยัง SEC และยังไม่ได้กำหนดเวลาสำหรับการดำเนินการต่อไป"
       }
     },
     {

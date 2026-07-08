@@ -437,6 +437,28 @@
     },
     {
       "type": "img",
+      "src": "/blog/assets/native-speed-vllm-transformers-backend/thumbnail.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Native-speed vLLM transformers modeling backend",
+        "th": "แบ็กเอนด์การสร้างแบบจำลองหม้อแปลง vLLM ความเร็วดั้งเดิม"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/ov-55uEKP4mJhavhdQ42x.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
       "src": "/blog/assets/github-ci-hf-jobs/thumbnail.gif",
       "alt": ""
     },
@@ -451,45 +473,6 @@
       "type": "img",
       "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1621947938344-noauth.png",
       "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/blog/assets/fast-whisper-endpoints/thumbnail.png",
-      "alt": ""
-    },
-    {
-      "type": "h2",
-      "text": {
-        "en": "Blazingly fast whisper transcriptions with Inference Endpoints",
-        "th": "การถอดเสียงกระซิบที่รวดเร็วอย่างน่าทึ่งด้วย Inference Endpoints"
-      }
-    },
-    {
-      "type": "img",
-      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583858935715-5e67c47c100906368940747e.jpeg",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1654278567459-626a9bfa03e2e2796f24ca11.jpeg",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/654bcb6fae75d15300d48205/T4L1RZUgCZgdik4ZhEWCq.jpeg",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1655385361868-61b85ce86eb1f2c5e6233736.jpeg",
-      "alt": ""
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "+2",
-        "th": "+2"
-      }
     },
     {
       "type": "h3",

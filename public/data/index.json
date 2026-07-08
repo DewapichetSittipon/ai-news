@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-08T11:44:39.192Z",
+  "generatedAt": "2026-07-08T16:00:15.096Z",
   "items": [
+    {
+      "id": "huggingface__native-speed-vllm-transformers-backend",
+      "slug": "native-speed-vllm-transformers-backend",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "category": "News",
+      "date": "2026-07-08T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Native-speed vLLM transformers modeling backend",
+        "th": "แบ็กเอนด์การสร้างแบบจำลองหม้อแปลง vLLM ความเร็วดั้งเดิม"
+      },
+      "summary": {
+        "en": "Native-speed vLLM transformers modeling backend",
+        "th": "แบ็กเอนด์การสร้างแบบจำลองหม้อแปลง vLLM ความเร็วดั้งเดิม"
+      }
+    },
     {
       "id": "huggingface__one-click-to-sagemaker-studio",
       "slug": "one-click-to-sagemaker-studio",
@@ -393,6 +410,23 @@
       }
     },
     {
+      "id": "openai__case-studies",
+      "slug": "case-studies",
+      "source": "openai",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "category": "News",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
+      },
+      "summary": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
+      }
+    },
+    {
       "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
       "slug": "core-dump-epidemiology-data-infrastructure-bug",
       "source": "openai",
@@ -424,23 +458,6 @@
       "summary": {
         "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
         "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
-      }
-    },
-    {
-      "id": "openai__case-studies",
-      "slug": "case-studies",
-      "source": "openai",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
-      "category": "News",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
-      },
-      "summary": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
       }
     },
     {
@@ -1277,20 +1294,20 @@
       }
     },
     {
-      "id": "openai__openai-to-acquire-ona",
-      "slug": "openai-to-acquire-ona",
+      "id": "openai__bbva",
+      "slug": "bbva",
       "source": "openai",
-      "url": "https://openai.com/index/openai-to-acquire-ona",
-      "category": "Company",
+      "url": "https://openai.com/index/bbva",
+      "category": "News",
       "date": "2026-06-11T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "OpenAI to acquire Ona",
-        "th": "OpenAI เพื่อรับ Ona"
+        "en": "BBVA puts AI at the core of banking with OpenAI",
+        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
       },
       "summary": {
-        "en": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-        "th": "OpenAI วางแผนที่จะซื้อ Ona เพื่อขยาย Codex ด้วยสภาพแวดล้อมคลาวด์ที่ปลอดภัยและคงอยู่ ช่วยให้ตัวแทน AI ที่ทำงานระยะยาวทั่วทั้งเวิร์กโฟลว์ขององค์กร"
+        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
       }
     },
     {
@@ -1311,20 +1328,20 @@
       }
     },
     {
-      "id": "openai__bbva",
-      "slug": "bbva",
+      "id": "openai__openai-to-acquire-ona",
+      "slug": "openai-to-acquire-ona",
       "source": "openai",
-      "url": "https://openai.com/index/bbva",
-      "category": "News",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "category": "Company",
       "date": "2026-06-11T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "BBVA puts AI at the core of banking with OpenAI",
-        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
+        "en": "OpenAI to acquire Ona",
+        "th": "OpenAI เพื่อรับ Ona"
       },
       "summary": {
-        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
+        "en": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+        "th": "OpenAI วางแผนที่จะซื้อ Ona เพื่อขยาย Codex ด้วยสภาพแวดล้อมคลาวด์ที่ปลอดภัยและคงอยู่ ช่วยให้ตัวแทน AI ที่ทำงานระยะยาวทั่วทั้งเวิร์กโฟลว์ขององค์กร"
       }
     },
     {
@@ -2056,23 +2073,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2026-05-15_at_4.21.2.max-600x600.format-webp.webp\">See and hear your colleagues in true-to-life size and sound, making hybrid meetings ",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2026-05-15_at_4.21.2.max-600x600.format-webp.webp\">ดูและฟังเพื่อนร่วมงานของคุณด้วยขนาดและเสียงที่สมจริง ทำให้เกิดการประชุมแบบไฮบริด"
-      }
-    },
-    {
-      "id": "huggingface__olmoearth-v1-1",
-      "slug": "olmoearth-v1-1",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
-      "category": "News",
-      "date": "2026-05-19T18:38:09.000Z",
-      "image": null,
-      "title": {
-        "en": "OlmoEarth v1.1: A more efficient family of Earth observation models",
-        "th": "OlmoEarth v1.1: กลุ่มโมเดลการสังเกตการณ์โลกที่มีประสิทธิภาพมากขึ้น"
-      },
-      "summary": {
-        "en": "OlmoEarth v1.1: A more efficient family of Earth observation models",
-        "th": "OlmoEarth v1.1: กลุ่มโมเดลการสังเกตการณ์โลกที่มีประสิทธิภาพมากขึ้น"
       }
     },
     {

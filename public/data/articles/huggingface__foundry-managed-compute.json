@@ -712,13 +712,6 @@
     {
       "type": "p",
       "text": {
-        "en": "Sign up for the preview: forms.cloud.microsoft/r/8Jnx1LALLA",
-        "th": "ลงทะเบียนเพื่อดูตัวอย่าง: forms.cloud.microsoft/r/8Jnx1LALLA"
-      }
-    },
-    {
-      "type": "p",
-      "text": {
         "en": "On the roadmap: broader coverage of the Hugging Face ecosystem, additional accelerator families, and Bring Your Own Weights for fine-tuned and proprietary variants deployed through the same templates and governance as Collection models.",
         "th": "บนแผนงาน: ความครอบคลุมที่กว้างขึ้นของระบบนิเวศ Hugging Face กลุ่มตัวเร่งความเร็วเพิ่มเติม และ Bring Your Own Weights สำหรับตัวแปรที่ได้รับการปรับแต่งอย่างละเอียดและเป็นกรรมสิทธิ์ ซึ่งใช้งานผ่านเทมเพลตและการกำกับดูแลเดียวกันกับโมเดล Collection"
       }
@@ -726,8 +719,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Hugging Face is where open models are published and discovered. Microsoft Foundry is where enterprises operationalize them — on curated, license-screened, security-screened weights hosted in Azure; on community-built and CVE-scanned runtimes; behind a single endpoint with enterprise identity, networking, observability, and agent integration on top. **The breadth of the open-source ecosystem, with the operational layer Microsoft runs underneath.**For a deep dive on Foundry Managed Compute — pricing, accelerator SKUs, data residency, enterprise readiness, observability, and the full Responses API + memory pattern — see the Managed Compute launch blog.",
-        "th": "Hugging Face คือที่ซึ่งโมเดลแบบเปิดถูกเผยแพร่และค้นพบ Microsoft Foundry เป็นที่ที่องค์กรต่างๆ ดำเนินการได้ บนตุ้มน้ำหนักที่ผ่านการคัดเลือก คัดกรองลิขสิทธิ์ และคัดกรองความปลอดภัยที่โฮสต์ใน Azure บนรันไทม์ที่สร้างโดยชุมชนและสแกนด้วย CVE เบื้องหลังจุดสิ้นสุดเดียวที่มีเอกลักษณ์เฉพาะองค์กร เครือข่าย ความสามารถในการสังเกต และการบูรณาการตัวแทนที่ด้านบน **ความกว้างของระบบนิเวศแบบโอเพ่นซอร์ส โดยมีเลเยอร์การดำเนินงานที่ Microsoft ทำงานอยู่ข้างใต้**สำหรับการเจาะลึกเกี่ยวกับ Foundry Managed Compute — ราคา, SKU ตัวเร่งความเร็ว, ถิ่นที่อยู่ของข้อมูล, ความพร้อมขององค์กร, ความสามารถในการสังเกต และรูปแบบการตอบสนอง API + หน่วยความจำแบบเต็ม — ดูบล็อกเปิดตัว Managed Compute"
+        "en": "Hugging Face is where open models are published and discovered. Microsoft Foundry is where enterprises operationalize them — on curated, license-screened, security-screened weights hosted in Azure; on community-built and CVE-scanned runtimes; behind a single endpoint with enterprise identity, networking, observability, and agent integration on top. The breadth of the open-source ecosystem, with the operational layer Microsoft runs underneath. For a deep dive on Foundry Managed Compute — pricing, accelerator SKUs, data residency, enterprise readiness, observability, and the full Responses API + memory pattern — see the Managed Compute launch blog.",
+        "th": "Hugging Face คือที่ซึ่งโมเดลแบบเปิดถูกเผยแพร่และค้นพบ Microsoft Foundry เป็นที่ที่องค์กรต่างๆ ดำเนินการได้ บนตุ้มน้ำหนักที่ผ่านการคัดเลือก คัดกรองลิขสิทธิ์ และคัดกรองความปลอดภัยที่โฮสต์ใน Azure บนรันไทม์ที่สร้างโดยชุมชนและสแกนด้วย CVE เบื้องหลังจุดสิ้นสุดเดียวที่มีเอกลักษณ์เฉพาะองค์กร เครือข่าย ความสามารถในการสังเกต และการบูรณาการตัวแทนที่ด้านบน ความกว้างของระบบนิเวศโอเพ่นซอร์ส โดยมีเลเยอร์การดำเนินงานที่ Microsoft ทำงานอยู่ข้างใต้ หากต้องการเจาะลึกเกี่ยวกับ Foundry Managed Compute — ราคา, SKU ตัวเร่งความเร็ว, ถิ่นที่อยู่ของข้อมูล, ความพร้อมขององค์กร, ความสามารถในการสังเกต และรูปแบบการตอบสนอง API + หน่วยความจำแบบเต็ม — โปรดดูบล็อกเปิดตัว Managed Compute"
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T22:54:54.210Z",
+  "generatedAt": "2026-07-08T01:58:21.338Z",
   "items": [
     {
       "id": "huggingface__one-click-to-sagemaker-studio",
@@ -67,6 +67,23 @@
       "summary": {
         "en": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
         "th": "ดูว่า Australian Payments Plus ใช้ ChatGPT Enterprise และ Codex เพื่อดำเนินการได้เร็วขึ้นผ่านความซับซ้อนในการชำระเงินได้อย่างไร AP+ ช่วยประหยัดเวลา ปรับปรุงคุณภาพ และให้ความสำคัญกับการตัดสินของมนุษย์"
+      }
+    },
+    {
+      "id": "openai__mufg",
+      "slug": "mufg",
+      "source": "openai",
+      "url": "https://openai.com/index/mufg",
+      "category": "News",
+      "date": "2026-07-07T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "MUFG aims to become AI-native with OpenAI",
+        "th": "MUFG ตั้งเป้าที่จะเป็น AI-native ด้วย OpenAI"
+      },
+      "summary": {
+        "en": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+        "th": "MUFG ใช้ ChatGPT Enterprise เพื่อสร้างองค์กรที่ขับเคลื่อนด้วย AI ปรับปรุงขั้นตอนการทำงาน และนำเสนอบริการทางการเงินที่ขับเคลื่อนด้วย AI ในวงกว้าง"
       }
     },
     {
@@ -563,23 +580,6 @@
       }
     },
     {
-      "id": "openai__designing-organisations-that-can-keep-up-with-ai",
-      "slug": "designing-organisations-that-can-keep-up-with-ai",
-      "source": "openai",
-      "url": "https://openai.com/deployco/news/designing-organisations-that-can-keep-up-with-ai",
-      "category": "News",
-      "date": "2026-06-25T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Designing Organisations That Can Keep Up With AI",
-        "th": "การออกแบบองค์กรที่สามารถตามทัน AI"
-      },
-      "summary": {
-        "en": "Why organisational latency is becoming the biggest barrier to fully realising AI’s benefits",
-        "th": "เหตุใดความล่าช้าขององค์กรจึงกลายเป็นอุปสรรคที่ใหญ่ที่สุดในการตระหนักถึงประโยชน์ของ AI อย่างเต็มที่"
-      }
-    },
-    {
       "id": "openai__how-agents-are-transforming-work",
       "slug": "how-agents-are-transforming-work",
       "source": "openai",
@@ -696,23 +696,6 @@
       "summary": {
         "en": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
         "th": "OpenAI ช่วยสร้างมาตรฐานที่ใช้ร่วมกันสำหรับ AI ขั้นสูง สนับสนุนกรอบการประเมิน แนวปฏิบัติด้านความปลอดภัย และความร่วมมือระดับโลกผ่านทาง Appia Foundation"
-      }
-    },
-    {
-      "id": "openai__meta-harness-enterprise-self-improvement-long-horizon-ai-workflows",
-      "slug": "meta-harness-enterprise-self-improvement-long-horizon-ai-workflows",
-      "source": "openai",
-      "url": "https://openai.com/deployco/news/meta-harness-enterprise-self-improvement-long-horizon-ai-workflows",
-      "category": "News",
-      "date": "2026-06-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Meta-Harness R&D: Enterprise-Grade Self-Improvement for Long-Horizon AI Workflows",
-        "th": "Meta-Harness R&D: การปรับปรุงตนเองระดับองค์กรสำหรับเวิร์กโฟลว์ AI ระยะไกล"
-      },
-      "summary": {
-        "en": "How autonomous code improvement can be made disciplined enough for enterprise use",
-        "th": "การปรับปรุงโค้ดแบบอัตโนมัติมีระเบียบวินัยเพียงพอสำหรับการใช้งานในองค์กรได้อย่างไร"
       }
     },
     {
@@ -1311,23 +1294,6 @@
       }
     },
     {
-      "id": "openai__bbva",
-      "slug": "bbva",
-      "source": "openai",
-      "url": "https://openai.com/index/bbva",
-      "category": "News",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "BBVA puts AI at the core of banking with OpenAI",
-        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
-      },
-      "summary": {
-        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
-      }
-    },
-    {
       "id": "openai__using-codex-to-simulate-black-holes",
       "slug": "using-codex-to-simulate-black-holes",
       "source": "openai",
@@ -1342,6 +1308,23 @@
       "summary": {
         "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
         "th": "ค้นพบวิธีที่นักฟิสิกส์ดาราศาสตร์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
+      }
+    },
+    {
+      "id": "openai__bbva",
+      "slug": "bbva",
+      "source": "openai",
+      "url": "https://openai.com/index/bbva",
+      "category": "News",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "BBVA puts AI at the core of banking with OpenAI",
+        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
+      },
+      "summary": {
+        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
       }
     },
     {
@@ -1648,6 +1631,23 @@
       "summary": {
         "en": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
         "th": "วิสัยทัศน์สำหรับอนาคตของ AI ที่มุ่งเน้นไปที่การเข้าถึง ความปลอดภัย และแบ่งปันความเจริญรุ่งเรืองในขณะที่ OpenAI ทำงานเพื่อให้แน่ใจว่า AGI จะเป็นประโยชน์ต่อทุกคน"
+      }
+    },
+    {
+      "id": "openai__economic-research-exchange",
+      "slug": "economic-research-exchange",
+      "source": "openai",
+      "url": "https://openai.com/index/economic-research-exchange",
+      "category": "Company",
+      "date": "2026-06-08T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing the OpenAI Economic Research Exchange",
+        "th": "ขอแนะนำการแลกเปลี่ยนวิจัยเศรษฐกิจ OpenAI"
+      },
+      "summary": {
+        "en": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
+        "th": "OpenAI เปิดตัว Economic Research Exchange เพื่อศึกษาผลกระทบของ AI ที่มีต่องาน ผลผลิต และเศรษฐกิจ ขณะนี้เปิดรับสมัครสำหรับโครงการวิจัยที่ได้รับคัดเลือกแล้ว"
       }
     },
     {

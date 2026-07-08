@@ -18,8 +18,235 @@
     {
       "type": "p",
       "text": {
-        "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-        "th": "ค้นพบวิธีที่นักฟิสิกส์ดาราศาสตร์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
+        "en": "June 11, 2026",
+        "th": "11 มิถุนายน 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Codex helps Chi-kwan Chan to refine and test algorithms that simulate the movement of electrons and ions around a black hole.",
+        "th": "Codex ช่วยให้ Chi-kwan Chan ปรับแต่งและทดสอบอัลกอริทึมที่จำลองการเคลื่อนที่ของอิเล็กตรอนและไอออนรอบหลุมดำ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The gravity around a black hole is so extreme that nothing, not even light, can escape once it gets close enough. Astrophysicists like Chi-kwan Chan study black holes with computer simulations and observations. But current algorithms and computing power limit how realistic those simulations can be.",
+        "th": "แรงโน้มถ่วงรอบหลุมดำนั้นรุนแรงมากจนไม่มีสิ่งใดแม้แต่แสงสามารถหลบหนีไปได้เมื่อมันเข้ามาใกล้เพียงพอ นักดาราศาสตร์ฟิสิกส์เช่น Chi-kwan Chan ศึกษาหลุมดำด้วยการจำลองและการสังเกตการณ์ด้วยคอมพิวเตอร์ แต่อัลกอริธึมและพลังการประมวลผลในปัจจุบันจำกัดความสมจริงของการจำลองเหล่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With Codex, Chan—a researcher at the University of Arizona and Steward Observatory—is tackling this problem.",
+        "th": "ด้วย Codex ชานซึ่งเป็นนักวิจัยจากมหาวิทยาลัยแอริโซนาและหอดูดาวสจ๊วตกำลังแก้ไขปัญหานี้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Black holes are among the best places to test Einstein’s general theory of relativity, he said. The theory is currently our best explanation of gravity: instead of a force pulling objects together, gravity is the result of mass and energy bending the fabric of space and time.",
+        "th": "หลุมดำเป็นหนึ่งในสถานที่ที่ดีที่สุดในการทดสอบทฤษฎีสัมพัทธภาพทั่วไปของไอน์สไตน์ เขากล่าว ในปัจจุบัน ทฤษฎีนี้เป็นคำอธิบายที่ดีที่สุดเกี่ยวกับแรงโน้มถ่วง แทนที่จะใช้แรงดึงดูดวัตถุเข้าด้วยกัน แรงโน้มถ่วงเป็นผลมาจากมวลและพลังงานที่บิดงอโครงสร้างของอวกาศและเวลา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Chan is part of the international Event Horizon Telescope (EHT) collaboration, which published the first image of a black hole in 2019. The team is currently gathering observations to produce the first video of a supermassive black hole, focusing on the one at the center of the M87 galaxy.",
+        "th": "ชานเป็นส่วนหนึ่งของความร่วมมือระหว่างกล้องโทรทรรศน์อีเวนท์ฮอไรซอน (EHT) ซึ่งเผยแพร่ภาพแรกของหลุมดำในปี 2562 ทีมงานกำลังรวบรวมข้อสังเกตเพื่อสร้างวิดีโอแรกของหลุมดำมวลมหาศาล โดยมุ่งเน้นไปที่หลุมดำที่ใจกลางกาแลคซี M87"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "But turning observations into scientific understanding requires enormous amounts of data processing, large-scale computing workflows, and simulations capable of modeling some of the most extreme physics in the universe.",
+        "th": "แต่การเปลี่ยนการสังเกตให้เป็นความเข้าใจทางวิทยาศาสตร์นั้นต้องใช้การประมวลผลข้อมูลจำนวนมหาศาล ขั้นตอนการทำงานของคอมพิวเตอร์ขนาดใหญ่ และการจำลองที่สามารถสร้างแบบจำลองทางฟิสิกส์ที่รุนแรงที่สุดในจักรวาลได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Since light can’t escape a black hole, scientists instead study the region around it called the event horizon, a boundary beyond which matter can’t escape. “It’s a surface of no return,” said Chan. Matter swirling just outside this boundary emits light that astrophysicists can see, measure, and simulate.",
+        "th": "เนื่องจากแสงไม่สามารถหนีจากหลุมดำได้ นักวิทยาศาสตร์จึงศึกษาบริเวณรอบๆ ที่เรียกว่าขอบฟ้าเหตุการณ์ ซึ่งเป็นขอบเขตที่สสารไม่สามารถหลบหนีออกไปได้ “มันเป็นพื้นผิวที่ไม่มีทางหวนกลับ” ชานกล่าว สสารที่หมุนวนอยู่นอกขอบเขตนี้จะปล่อยแสงที่นักดาราศาสตร์ฟิสิกส์สามารถมองเห็น วัด และจำลองได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The 2019 image released by the EHT showed a black hole’s shadow embedded in glowing plasma near the event horizon. Chan helped develop the simulation and computing tools the team used to interpret the observations. Since then, Chan and his colleagues have continued improving their instruments and observing capabilities as the team moves from still images toward videos.",
+        "th": "ภาพถ่ายปี 2019 ที่เผยแพร่โดย EHT แสดงให้เห็นเงาของหลุมดำที่ฝังอยู่ในพลาสมาเรืองแสงใกล้กับขอบฟ้าเหตุการณ์ ชานช่วยพัฒนาเครื่องมือจำลองและคอมพิวเตอร์ที่ทีมใช้ในการตีความข้อสังเกต ตั้งแต่นั้นมา Chan และเพื่อนร่วมงานของเขาก็ได้ปรับปรุงเครื่องมือของพวกเขาอย่างต่อเนื่องและสังเกตความสามารถในขณะที่ทีมเปลี่ยนจากภาพนิ่งไปสู่วิดีโอ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A short video generated by a supercomputer simulation showing the movement of plasma around the black hole at the center of the Milky Way galaxy.",
+        "th": "วิดีโอสั้นที่สร้างโดยการจำลองซูเปอร์คอมพิวเตอร์ซึ่งแสดงการเคลื่อนที่ของพลาสมารอบหลุมดำที่ใจกลางกาแลคซีทางช้างเผือก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Credit: EHT Theory Working Group / CK Chan",
+        "th": "เครดิต: คณะทำงานทฤษฎี EHT / CK Chan"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Addressing a spiraling problem",
+        "th": "จัดการกับปัญหาที่วนเวียนอยู่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One of the biggest roadblocks for Chan and his team is modeling the plasma around black holes. Plasma is superheated matter made up of electrically charged electrons and ions.",
+        "th": "อุปสรรคที่ใหญ่ที่สุดประการหนึ่งสำหรับ Chan และทีมของเขาคือการสร้างแบบจำลองพลาสมารอบหลุมดำ พลาสมาเป็นสสารที่ให้ความร้อนยวดยิ่งซึ่งประกอบด้วยอิเล็กตรอนและไอออนที่มีประจุไฟฟ้า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In many simulations, scientists simplify plasma by treating it like a fluid, using well-known equations to model its movement around a black hole. That works reasonably well in denser plasma where the electrons and ions constantly collide with each other.",
+        "th": "ในการจำลองหลายๆ ครั้ง นักวิทยาศาสตร์ลดความซับซ้อนของพลาสมาโดยปฏิบัติต่อพลาสมาเหมือนของเหลว โดยใช้สมการที่รู้จักกันดีในการจำลองการเคลื่อนที่ของมันรอบหลุมดำ ซึ่งทำงานได้ดีพอสมควรในพลาสมาที่หนาแน่นกว่าซึ่งอิเล็กตรอนและไอออนชนกันตลอดเวลา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "But near the supermassive black holes that Chan and his colleagues are studying, some regions become so hot and diffuse that particles rarely encounter each other. “They don’t really collide with each other,” he said. Instead, the particles mostly spiral around magnetic field lines.",
+        "th": "แต่ใกล้กับหลุมดำมวลมหาศาลที่ชานและเพื่อนร่วมงานของเขากำลังศึกษาอยู่ บางพื้นที่ก็ร้อนมากและกระจายตัวจนอนุภาคแทบจะไม่เจอกันเลย “พวกเขาไม่ได้ปะทะกันจริงๆ” เขากล่าว ในทางกลับกัน อนุภาคส่วนใหญ่จะหมุนวนรอบเส้นสนามแม่เหล็กแทน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To model that behavior correctly, researchers need to follow trillions of electrons and ions as they rapidly corkscrew around a black hole. Standard simulations must calculate every tiny turn, forcing computers to take extremely small timesteps.",
+        "th": "เพื่อจำลองพฤติกรรมนั้นได้อย่างถูกต้อง นักวิจัยจำเป็นต้องติดตามอิเล็กตรอนและไอออนหลายล้านล้านในขณะที่พวกมันหมุนเกลียวรอบหลุมดำอย่างรวดเร็ว การจำลองแบบมาตรฐานจะต้องคำนวณทุกๆ รอบเล็กๆ น้อยๆ ทำให้คอมพิวเตอร์ต้องใช้เวลาน้อยมาก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As a result, even the world’s fastest supercomputers can spend most of their time calculating these minuscule particle motions instead of simulating the larger behavior scientists actually want to study.",
+        "th": "เป็นผลให้แม้แต่ซูเปอร์คอมพิวเตอร์ที่เร็วที่สุดในโลกก็สามารถใช้เวลาส่วนใหญ่ในการคำนวณการเคลื่อนที่ของอนุภาคจิ๋วเหล่านี้ แทนที่จะจำลองพฤติกรรมที่ใหญ่กว่าที่นักวิทยาศาสตร์ต้องการศึกษาจริงๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“For decades, this has limited how realistically we can simulate black hole plasma,” Chan said.",
+        "th": "“เป็นเวลาหลายทศวรรษแล้วที่สิ่งนี้จำกัดความสมจริงที่เราสามารถจำลองพลาสมาหลุมดำได้” ชานกล่าว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using AI to build a better digital twin",
+        "th": "การใช้ AI เพื่อสร้างแฝดดิจิทัลที่ดีขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Chan suspected that new mathematical techniques could help work around some of these limitations. The basic idea was to change, mathematically, how the simulation tracked particle motion so the computer no longer had to follow every tiny spiral directly.",
+        "th": "ชานสงสัยว่าเทคนิคทางคณิตศาสตร์ใหม่ๆ สามารถช่วยแก้ไขข้อจำกัดเหล่านี้ได้ แนวคิดพื้นฐานคือการเปลี่ยนแปลงวิธีที่การจำลองติดตามการเคลื่อนที่ของอนุภาคเพื่อให้คอมพิวเตอร์ไม่ต้องติดตามเกลียวเล็กๆ ทุกอันโดยตรงอีกต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“But exploring all the mathematical possibilities by hand would have taken an enormous amount of time,” Chan said. So he turned to Codex to help derive candidate algorithms and test them against known solutions.",
+        "th": "“แต่การสำรวจความเป็นไปได้ทางคณิตศาสตร์ทั้งหมดด้วยมือคงต้องใช้เวลามหาศาล” ชานกล่าว ดังนั้นเขาจึงหันมาใช้ Codex เพื่อช่วยรับอัลกอริธึมของผู้สมัครและทดสอบกับโซลูชันที่ทราบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Codex generated many potential approaches—not all of them correct. “But that’s okay,” Chan said. “Most scientific ideas fail. What matters is that these algorithms are testable. Once you find one that works, it can potentially unlock simulations that were previously impossible.”",
+        "th": "Codex สร้างแนวทางที่เป็นไปได้มากมาย—ไม่ใช่ทั้งหมดที่ถูกต้อง “แต่ก็ไม่เป็นไร” ชานกล่าว “แนวคิดทางวิทยาศาสตร์ส่วนใหญ่ล้มเหลว สิ่งสำคัญคืออัลกอริธึมเหล่านี้สามารถทดสอบได้ เมื่อคุณพบอันที่ได้ผล ก็อาจปลดล็อกการจำลองที่ก่อนหน้านี้เป็นไปไม่ได้”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Some AI systems can return results without showing the steps they used to produce their conclusions. But Chan’s group uses Codex to propose and implement numerical schemes that they can inspect, test, and understand physically.",
+        "th": "ระบบ AI บางระบบสามารถส่งคืนผลลัพธ์ได้โดยไม่ต้องแสดงขั้นตอนที่ใช้ในการสรุปผล แต่กลุ่มของ Chan ใช้ Codex เพื่อเสนอและใช้แผนการเชิงตัวเลขที่พวกเขาสามารถตรวจสอบ ทดสอบ และทำความเข้าใจทางกายภาพได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Large language models still make mistakes, and many scientists remain cautious about using AI in research. But Chan believes science may be one of the best uses for today’s AI systems precisely because scientific ideas can be tested rigorously.",
+        "th": "โมเดลภาษาขนาดใหญ่ยังคงทำผิดพลาด และนักวิทยาศาสตร์จำนวนมากยังคงระมัดระวังในการใช้ AI ในการวิจัย แต่ Chan เชื่อว่าวิทยาศาสตร์อาจเป็นหนึ่งในการใช้งานที่ดีที่สุดสำหรับระบบ AI ในปัจจุบัน เนื่องจากแนวคิดทางวิทยาศาสตร์สามารถทดสอบได้อย่างเข้มงวด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“We don’t accept an idea because it came from Einstein, from a bright student, or from an AI model,” he said. “We accept it only after repeated testing.”",
+        "th": "“เราไม่ยอมรับแนวคิดเพราะมันมาจากไอน์สไตน์ จากนักเรียนที่เก่ง หรือจากแบบจำลอง AI” เขากล่าว “เรายอมรับมันหลังจากการทดสอบซ้ำแล้วซ้ำอีกเท่านั้น”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Chan sees AI as a tool that can help researchers explore more ideas, test them faster, and accelerate discovery while remaining grounded in verification and reproducibility.",
+        "th": "Chan มองว่า AI เป็นเครื่องมือที่สามารถช่วยให้นักวิจัยสำรวจแนวคิดต่างๆ ได้มากขึ้น ทดสอบแนวคิดเหล่านั้นได้เร็วขึ้น และเร่งการค้นพบ ในขณะที่ยังคงยึดมั่นในการตรวจสอบและความสามารถในการทำซ้ำ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If the approaches that Chan is testing with Codex succeed, the new algorithms could eventually allow scientists to simulate trillions of particles around black holes. That would enable researchers to study physics that has remained out of reach for decades.",
+        "th": "หากแนวทางที่ชานทดสอบด้วย Codex ประสบความสำเร็จ อัลกอริธึมใหม่อาจทำให้นักวิทยาศาสตร์จำลองอนุภาคนับล้านล้านรอบหลุมดำได้ในที่สุด นั่นจะช่วยให้นักวิจัยสามารถศึกษาฟิสิกส์ที่ยังห่างไกลจากการเข้าถึงมานานหลายทศวรรษ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "ผู้เขียน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "อ่านต่อ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6By12NX9sglstfwFKQTzYB/a28d6f84e91a8dae838f240db4c2524c/derya_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "Derya Unutmaz card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Applied AIJun 23, 2026",
+        "th": "ประยุกต์ใช้ AI เมื่อวันที่ 23 มิถุนายน 2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1VrF8z79R2Khy4PWmHRKME/38077532a039ebb39f054e84d6ae89c7/Art_Card.png?w=3840&q=90&fm=webp",
+      "alt": "Boston's Children Hospital NEJM > Cover image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Applied AIJun 18, 2026",
+        "th": "ประยุกต์ใช้ AI เมื่อวันที่ 18 มิถุนายน 2569"
       }
     }
   ]

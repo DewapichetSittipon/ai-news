@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-09T02:10:54.772Z",
+  "generatedAt": "2026-07-09T14:39:08.310Z",
   "items": [
+    {
+      "id": "anthropic__reflect-with-claude",
+      "slug": "reflect-with-claude",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/reflect-with-claude",
+      "category": "News",
+      "date": "2026-07-09T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Quill&backgroundColor=cactus",
+      "title": {
+        "en": "Introducing a way to reflect on how you use Claude",
+        "th": "ขอแนะนำวิธีการไตร่ตรองว่าคุณใช้ Claude อย่างไร"
+      },
+      "summary": {
+        "en": "Introducing a new way to reflect on and refine how you use Claude. It lets you easily track and visualize how you use Claude, and decide whether that time aligns with your goals.",
+        "th": "ขอแนะนำวิธีใหม่ในการไตร่ตรองและปรับปรุงวิธีการใช้ Claude ช่วยให้คุณติดตามและเห็นภาพวิธีการใช้ Claude ได้อย่างง่ายดาย และตัดสินใจว่าเวลานั้นสอดคล้องกับเป้าหมายของคุณหรือไม่"
+      }
+    },
     {
       "id": "huggingface__open-data-for-agents",
       "slug": "open-data-for-agents",
@@ -495,20 +512,20 @@
       }
     },
     {
-      "id": "openai__introducing-genebench-pro",
-      "slug": "introducing-genebench-pro",
+      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
+      "slug": "core-dump-epidemiology-data-infrastructure-bug",
       "source": "openai",
-      "url": "https://openai.com/index/introducing-genebench-pro",
-      "category": "Research",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "category": "Engineering",
       "date": "2026-06-30T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Introducing GeneBench-Pro",
-        "th": "ขอแนะนำ GeneBench-Pro"
+        "en": "Core dump epidemiology: fixing an 18-year-old bug",
+        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
       },
       "summary": {
-        "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-        "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
+        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
       }
     },
     {
@@ -529,20 +546,20 @@
       }
     },
     {
-      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
-      "slug": "core-dump-epidemiology-data-infrastructure-bug",
+      "id": "openai__introducing-genebench-pro",
+      "slug": "introducing-genebench-pro",
       "source": "openai",
-      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "category": "Engineering",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "category": "Research",
       "date": "2026-06-30T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Core dump epidemiology: fixing an 18-year-old bug",
-        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
+        "en": "Introducing GeneBench-Pro",
+        "th": "ขอแนะนำ GeneBench-Pro"
       },
       "summary": {
-        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
+        "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+        "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
       }
     },
     {
@@ -1328,23 +1345,6 @@
       }
     },
     {
-      "id": "anthropic__tcs-anthropic-partnership",
-      "slug": "tcs-anthropic-partnership",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
-      "category": "News",
-      "date": "2026-06-12T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20NodeLine&backgroundColor=olive",
-      "title": {
-        "en": "TCS and Anthropic partner to bring Claude to regulated industries",
-        "th": "TCS และพันธมิตร Anthropic เพื่อนำ Claude เข้าสู่อุตสาหกรรมที่มีการควบคุม"
-      },
-      "summary": {
-        "en": "Anthropic is announcing a partnership with Tata Consultancy Services (TCS). TCS will provide Claude to 50,000 of its own employees across 56 countries; build Claude-powered products for clients in financial services, healthcare, the public sector, and other regulated industries; and join the Claude Partner Network.",
-        "th": "Anthropic กำลังประกาศความร่วมมือกับ Tata Consultancy Services (TCS) TCS จะจัดหา Claude ให้กับพนักงาน 50,000 คนใน 56 ประเทศ สร้างผลิตภัณฑ์ที่ขับเคลื่อนโดย Claude สำหรับลูกค้าในด้านบริการทางการเงิน การดูแลสุขภาพ ภาครัฐ และอุตสาหกรรมที่ได้รับการควบคุมอื่นๆ และเข้าร่วมเครือข่ายพันธมิตรของ Claude"
-      }
-    },
-    {
       "id": "openai__preply",
       "slug": "preply",
       "source": "openai",
@@ -1379,6 +1379,40 @@
       }
     },
     {
+      "id": "openai__bbva",
+      "slug": "bbva",
+      "source": "openai",
+      "url": "https://openai.com/index/bbva",
+      "category": "News",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "BBVA puts AI at the core of banking with OpenAI",
+        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
+      },
+      "summary": {
+        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
+      }
+    },
+    {
+      "id": "openai__supporting-eu-trustworthy-ai-ecosystem",
+      "slug": "supporting-eu-trustworthy-ai-ecosystem",
+      "source": "openai",
+      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "category": "Global Affairs",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+        "th": "สนับสนุนงานของยุโรปในการรับรองระบบนิเวศ AI ที่น่าเชื่อถือ"
+      },
+      "summary": {
+        "en": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+        "th": "OpenAI สนับสนุนหลักปฏิบัติของสหภาพยุโรปเกี่ยวกับความโปร่งใสของเนื้อหา AI พัฒนามาตรฐานแหล่งที่มาและเครื่องมือเพื่อช่วยให้ผู้คนเข้าใจเนื้อหาที่สร้างโดย AI"
+      }
+    },
+    {
       "id": "openai__using-codex-to-simulate-black-holes",
       "slug": "using-codex-to-simulate-black-holes",
       "source": "openai",
@@ -1410,40 +1444,6 @@
       "summary": {
         "en": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
         "th": "OpenAI วางแผนที่จะซื้อ Ona เพื่อขยาย Codex ด้วยสภาพแวดล้อมคลาวด์ที่ปลอดภัยและคงอยู่ ช่วยให้ตัวแทน AI ที่ทำงานระยะยาวทั่วทั้งเวิร์กโฟลว์ขององค์กร"
-      }
-    },
-    {
-      "id": "openai__supporting-eu-trustworthy-ai-ecosystem",
-      "slug": "supporting-eu-trustworthy-ai-ecosystem",
-      "source": "openai",
-      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-      "category": "Global Affairs",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-        "th": "สนับสนุนงานของยุโรปในการรับรองระบบนิเวศ AI ที่น่าเชื่อถือ"
-      },
-      "summary": {
-        "en": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
-        "th": "OpenAI สนับสนุนหลักปฏิบัติของสหภาพยุโรปเกี่ยวกับความโปร่งใสของเนื้อหา AI พัฒนามาตรฐานแหล่งที่มาและเครื่องมือเพื่อช่วยให้ผู้คนเข้าใจเนื้อหาที่สร้างโดย AI"
-      }
-    },
-    {
-      "id": "openai__bbva",
-      "slug": "bbva",
-      "source": "openai",
-      "url": "https://openai.com/index/bbva",
-      "category": "News",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "BBVA puts AI at the core of banking with OpenAI",
-        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
-      },
-      "summary": {
-        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
       }
     },
     {

@@ -1,6 +1,91 @@
 {
-  "generatedAt": "2026-07-09T14:39:08.310Z",
+  "generatedAt": "2026-07-09T17:50:22.400Z",
   "items": [
+    {
+      "id": "openai__gpt-5-6",
+      "slug": "gpt-5-6",
+      "source": "openai",
+      "url": "https://openai.com/index/gpt-5-6",
+      "category": "Product",
+      "date": "2026-07-09T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "GPT-5.6: Frontier intelligence that scales with your ambition",
+        "th": "GPT-5.6: ความฉลาดระดับแนวหน้าที่จะปรับขนาดตามความทะเยอทะยานของคุณ"
+      },
+      "summary": {
+        "en": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+        "th": "ความชาญฉลาดที่มากขึ้นจากทุกโทเค็น ประสิทธิภาพที่แข็งแกร่งต่อดอลลาร์ และความสามารถที่มากขึ้นตามความต้องการสำหรับงานที่หนักที่สุดของคุณ"
+      }
+    },
+    {
+      "id": "openai__chatgpt-for-your-most-ambitious-work",
+      "slug": "chatgpt-for-your-most-ambitious-work",
+      "source": "openai",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "category": "Product",
+      "date": "2026-07-09T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "ChatGPT is now a partner for your most ambitious work",
+        "th": "ChatGPT เป็นพันธมิตรสำหรับงานที่ทะเยอทะยานที่สุดของคุณแล้ว"
+      },
+      "summary": {
+        "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+        "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
+      }
+    },
+    {
+      "id": "openai__bio-bug-bounty",
+      "slug": "bio-bug-bounty",
+      "source": "openai",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "category": "Safety",
+      "date": "2026-07-09T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "GPT-5.5 Bio Bug Bounty",
+        "th": "GPT-5.5 รางวัลแมลงชีวภาพ"
+      },
+      "summary": {
+        "en": "Details about the OpenAI Bio Bounty program",
+        "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
+      }
+    },
+    {
+      "id": "anthropic__hard-questions",
+      "slug": "hard-questions",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/hard-questions",
+      "category": "Announcements",
+      "date": "2026-07-09T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/b3ddb82292e92030f4677d004bf0d7d795be7bd1-1200x630.jpg",
+      "title": {
+        "en": "Inviting hard questions",
+        "th": "เชิญชวนถามคำถามยากๆ"
+      },
+      "summary": {
+        "en": "We're asking the public for their hardest questions about AI, and committing to show our work as we address them.",
+        "th": "เรากำลังขอให้สาธารณชนถามคำถามที่ยากที่สุดเกี่ยวกับ AI และมุ่งมั่นที่จะแสดงผลงานของเราในขณะที่เราพูดคุยกับพวกเขา"
+      }
+    },
+    {
+      "id": "anthropic__ben-bernanke",
+      "slug": "ben-bernanke",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/ben-bernanke",
+      "category": "News",
+      "date": "2026-07-09T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
+        "th": "Ben Bernanke ได้รับการแต่งตั้งให้เป็น Long-Term Benefit Trust ของ Anthropic"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+      }
+    },
     {
       "id": "anthropic__reflect-with-claude",
       "slug": "reflect-with-claude",
@@ -172,23 +257,6 @@
       }
     },
     {
-      "id": "openai__australian-payments-plus",
-      "slug": "australian-payments-plus",
-      "source": "openai",
-      "url": "https://openai.com/index/australian-payments-plus",
-      "category": "News",
-      "date": "2026-07-07T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Australian Payments Plus moves faster with ChatGPT and Codex",
-        "th": "Australian Payments Plus เคลื่อนไหวเร็วขึ้นด้วย ChatGPT และ Codex"
-      },
-      "summary": {
-        "en": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-        "th": "ดูว่า Australian Payments Plus ใช้ ChatGPT Enterprise และ Codex เพื่อดำเนินการได้เร็วขึ้นผ่านความซับซ้อนในการชำระเงินได้อย่างไร AP+ ช่วยประหยัดเวลา ปรับปรุงคุณภาพ และให้ความสำคัญกับการตัดสินของมนุษย์"
-      }
-    },
-    {
       "id": "openai__mufg",
       "slug": "mufg",
       "source": "openai",
@@ -203,6 +271,23 @@
       "summary": {
         "en": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
         "th": "MUFG ใช้ ChatGPT Enterprise เพื่อสร้างองค์กรที่ขับเคลื่อนด้วย AI ปรับปรุงขั้นตอนการทำงาน และนำเสนอบริการทางการเงินที่ขับเคลื่อนด้วย AI ในวงกว้าง"
+      }
+    },
+    {
+      "id": "openai__australian-payments-plus",
+      "slug": "australian-payments-plus",
+      "source": "openai",
+      "url": "https://openai.com/index/australian-payments-plus",
+      "category": "News",
+      "date": "2026-07-07T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Australian Payments Plus moves faster with ChatGPT and Codex",
+        "th": "Australian Payments Plus เคลื่อนไหวเร็วขึ้นด้วย ChatGPT และ Codex"
+      },
+      "summary": {
+        "en": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+        "th": "ดูว่า Australian Payments Plus ใช้ ChatGPT Enterprise และ Codex เพื่อดำเนินการได้เร็วขึ้นผ่านความซับซ้อนในการชำระเงินได้อย่างไร AP+ ช่วยประหยัดเวลา ปรับปรุงคุณภาพ และให้ความสำคัญกับการตัดสินของมนุษย์"
       }
     },
     {
@@ -529,23 +614,6 @@
       }
     },
     {
-      "id": "openai__case-studies",
-      "slug": "case-studies",
-      "source": "openai",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
-      "category": "News",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
-      },
-      "summary": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
-      }
-    },
-    {
       "id": "openai__introducing-genebench-pro",
       "slug": "introducing-genebench-pro",
       "source": "openai",
@@ -560,6 +628,23 @@
       "summary": {
         "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
         "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
+      }
+    },
+    {
+      "id": "openai__case-studies",
+      "slug": "case-studies",
+      "source": "openai",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "category": "News",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
+      },
+      "summary": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
       }
     },
     {
@@ -822,7 +907,7 @@
       "slug": "introducing-claude-tag",
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/introducing-claude-tag",
-      "category": "Product",
+      "category": "News",
       "date": "2026-06-23T00:00:00.000Z",
       "image": "https://cdn.sanity.io/images/4zrzovbb/website/b9ba85fd4d8beaf4efe04a4cf6cec14761e52c78-2400x1260.jpg",
       "title": {
@@ -903,23 +988,6 @@
       }
     },
     {
-      "id": "openai__daybreak-securing-the-world",
-      "slug": "daybreak-securing-the-world",
-      "source": "openai",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "category": "Security",
-      "date": "2026-06-22T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Daybreak: Tools for securing every organization in the world",
-        "th": "Daybreak: เครื่องมือสำหรับการรักษาความปลอดภัยให้กับทุกองค์กรในโลก"
-      },
-      "summary": {
-        "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-        "th": "OpenAI เปิดตัวเครื่องมือ Daybreak ใหม่ รวมถึง Codex Security และ GPT-5.5-Cyber ​​เพื่อช่วยให้องค์กรค้นหา ตรวจสอบ และแก้ไขช่องโหว่ในวงกว้าง"
-      }
-    },
-    {
       "id": "openai__patch-the-planet",
       "slug": "patch-the-planet",
       "source": "openai",
@@ -934,6 +1002,23 @@
       "summary": {
         "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
         "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
+      }
+    },
+    {
+      "id": "openai__daybreak-securing-the-world",
+      "slug": "daybreak-securing-the-world",
+      "source": "openai",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "category": "Security",
+      "date": "2026-06-22T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Daybreak: Tools for securing every organization in the world",
+        "th": "Daybreak: เครื่องมือสำหรับการรักษาความปลอดภัยให้กับทุกองค์กรในโลก"
+      },
+      "summary": {
+        "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+        "th": "OpenAI เปิดตัวเครื่องมือ Daybreak ใหม่ รวมถึง Codex Security และ GPT-5.5-Cyber ​​เพื่อช่วยให้องค์กรค้นหา ตรวจสอบ และแก้ไขช่องโหว่ในวงกว้าง"
       }
     },
     {
@@ -1311,40 +1396,6 @@
       }
     },
     {
-      "id": "anthropic__fable-mythos-access",
-      "slug": "fable-mythos-access",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/fable-mythos-access",
-      "category": "News",
-      "date": "2026-06-12T00:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/50159fff55088f12070cc8a56eb51ff61006b631-2400x1260.png",
-      "title": {
-        "en": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
-        "th": "แถลงการณ์เกี่ยวกับคำสั่งของรัฐบาลสหรัฐฯ ให้ระงับการเข้าถึง Fable 5 และ Mythos 5"
-      },
-      "summary": {
-        "en": "The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States.",
-        "th": "รัฐบาลสหรัฐฯ ได้ออกคำสั่งควบคุมการส่งออกเพื่อระงับการเข้าถึง Fable 5 และ Mythos 5 ทั้งหมดโดยชาวต่างชาติ ไม่ว่าจะอยู่ภายในหรือภายนอกสหรัฐอเมริกา"
-      }
-    },
-    {
-      "id": "anthropic__anthropic-public-record",
-      "slug": "anthropic-public-record",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/anthropic-public-record",
-      "category": "News",
-      "date": "2026-06-12T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Globe&backgroundColor=heather",
-      "title": {
-        "en": "Results from the first Anthropic Public Record",
-        "th": "ผลลัพธ์จากบันทึกสาธารณะมานุษยวิทยาฉบับแรก"
-      },
-      "summary": {
-        "en": "Anthropic Public Record is a national survey of attitudes and opinions towards AI.",
-        "th": "Anthropic Public Record คือการสำรวจทัศนคติและความคิดเห็นระดับชาติเกี่ยวกับ AI"
-      }
-    },
-    {
       "id": "openai__preply",
       "slug": "preply",
       "source": "openai",
@@ -1532,23 +1583,6 @@
       }
     },
     {
-      "id": "openai__lseg",
-      "slug": "lseg",
-      "source": "openai",
-      "url": "https://openai.com/index/lseg",
-      "category": "News",
-      "date": "2026-06-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "From data to decisions: how LSEG is scaling trusted AI",
-        "th": "จากข้อมูลสู่การตัดสินใจ: LSEG ปรับขนาด AI ที่เชื่อถือได้อย่างไร"
-      },
-      "summary": {
-        "en": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
-        "th": "ดูว่า LSEG ใช้ OpenAI เพื่อปรับขนาด AI ที่เชื่อถือได้ทั่วทั้งธุรกิจทั่วโลก เร่งข้อมูลเชิงลึก ลดรอบการเปิดตัว และเสริมศักยภาพพนักงาน 4,000 คนได้อย่างไร"
-      }
-    },
-    {
       "id": "deepmind__fluid-natural-voice-translation-with-gemini-35-live-translate",
       "slug": "fluid-natural-voice-translation-with-gemini-35-live-translate",
       "source": "deepmind",
@@ -1600,23 +1634,6 @@
       }
     },
     {
-      "id": "openai__nextdoor",
-      "slug": "nextdoor",
-      "source": "openai",
-      "url": "https://openai.com/index/nextdoor",
-      "category": "News",
-      "date": "2026-06-09T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How engineers at Nextdoor use Codex to build without limits",
-        "th": "วิศวกรที่ Nextdoor ใช้ Codex เพื่อสร้างได้อย่างไร้ขีดจำกัด"
-      },
-      "summary": {
-        "en": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
-        "th": "วิธีที่วิศวกรที่ Nextdoor ใช้ Codex กับ GPT-5.5 เพื่อตรวจสอบปัญหาที่ทำซ้ำได้ยาก สร้างข้ามแพลตฟอร์ม และมุ่งเน้นไปที่ผลลัพธ์ของผลิตภัณฑ์"
-      }
-    },
-    {
       "id": "huggingface__spaces-agents-md",
       "slug": "spaces-agents-md",
       "source": "huggingface",
@@ -1631,23 +1648,6 @@
       "summary": {
         "en": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
         "th": "วิธีการที่ตัวแทนสร้างแกลเลอรี 3 มิติในปารีสโดยการเชื่อมโยงพื้นที่ใบหน้ากอดกัน 2 แห่ง"
-      }
-    },
-    {
-      "id": "openai__notion",
-      "slug": "notion",
-      "source": "openai",
-      "url": "https://openai.com/index/notion",
-      "category": "News",
-      "date": "2026-06-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "What Codex unlocks for Notion",
-        "th": "สิ่งที่ Codex ปลดล็อคสำหรับ Notion"
-      },
-      "summary": {
-        "en": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
-        "th": "วิธีที่ Notion ใช้ Codex กับข้อมูลจำเพาะแบบช็อตเดียว สร้างการป้อนข้อมูลด้วยเสียงด้วย AI สำหรับเว็บ และเพิ่มพลังทางวิศวกรรมในทีมขนาดเล็ก"
       }
     },
     {

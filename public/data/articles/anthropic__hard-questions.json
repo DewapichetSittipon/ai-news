@@ -1,0 +1,199 @@
+{
+  "id": "anthropic__hard-questions",
+  "slug": "hard-questions",
+  "source": "anthropic",
+  "url": "https://www.anthropic.com/news/hard-questions",
+  "category": "Announcements",
+  "date": "2026-07-09T00:00:00.000Z",
+  "image": "https://cdn.sanity.io/images/4zrzovbb/website/b3ddb82292e92030f4677d004bf0d7d795be7bd1-1200x630.jpg",
+  "title": {
+    "en": "Inviting hard questions",
+    "th": "เชิญชวนถามคำถามยากๆ"
+  },
+  "summary": {
+    "en": "We're asking the public for their hardest questions about AI, and committing to show our work as we address them.",
+    "th": "เรากำลังขอให้สาธารณชนถามคำถามที่ยากที่สุดเกี่ยวกับ AI และมุ่งมั่นที่จะแสดงผลงานของเราในขณะที่เราพูดคุยกับพวกเขา"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3fe58a56e696628496e95871e00b8287035ea645-2000x1125.jpg&w=3840&q=75",
+      "alt": "Inviting hard questions"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Who decides the rules for AI?",
+        "th": "ใครเป็นผู้กำหนดกฎเกณฑ์สำหรับ AI?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Can AI give my children a better future?",
+        "th": "AI ช่วยให้ลูก ๆ ของฉันมีอนาคตที่ดีกว่าได้หรือไม่?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Does AI make the world a more dangerous place?",
+        "th": "AI ทำให้โลกเป็นสถานที่ที่อันตรายมากขึ้นหรือไม่?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Can AI help scientists cure diseases?",
+        "th": "AI สามารถช่วยนักวิทยาศาสตร์รักษาโรคได้หรือไม่?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "People have a lot of hard questions about AI. It’s our job to address them.",
+        "th": "ผู้คนมีคำถามยากๆ มากมายเกี่ยวกับ AI เป็นหน้าที่ของเราที่จะจัดการกับพวกเขา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Many people are positively disposed to AI. They already use it every day, and they see its potential for making our work and our lives less laborious, for changing the way we learn, for helping speed up scientific and technological progress, for creating new sources of prosperity, and for solving some of the biggest medical and social problems we face.",
+        "th": "หลายๆ คนมีทัศนคติเชิงบวกต่อ AI พวกเขาใช้มันทุกวันแล้ว และพวกเขามองเห็นศักยภาพในการทำให้งานและชีวิตของเราใช้แรงงานน้อยลง สำหรับการเปลี่ยนแปลงวิธีที่เราเรียนรู้ เพื่อช่วยเร่งความก้าวหน้าทางวิทยาศาสตร์และเทคโนโลยี สำหรับการสร้างแหล่งความเจริญรุ่งเรืองใหม่ และเพื่อแก้ไขปัญหาทางการแพทย์และสังคมที่ใหญ่ที่สุดที่เราเผชิญอยู่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "But many also hold serious concerns. Some are worried about AI’s potential contribution to job loss. Some fear that it could devalue creative work. Others are concerned about human agency: that AI might affect our ability to think for ourselves, to make human connections, and to have meaning in our lives. Many are concerned about what it means if AI’s capabilities fall into the wrong hands—and wonder whether the benefits outweigh the costs.",
+        "th": "แต่หลายคนก็มีความกังวลอย่างมากเช่นกัน บางคนกังวลเกี่ยวกับการมีส่วนร่วมของ AI ต่อการสูญเสียงาน บางคนกลัวว่างานสร้างสรรค์จะลดคุณค่าลง คนอื่นๆ มีความกังวลเกี่ยวกับสิทธิ์เสรีของมนุษย์: AI อาจส่งผลต่อความสามารถของเราในการคิดเพื่อตนเอง สร้างการเชื่อมโยงของมนุษย์ และการมีความหมายในชีวิตของเรา หลายๆ คนมีความกังวลเกี่ยวกับความหมายหากความสามารถของ AI ตกไปอยู่ในมือของคนผิด และสงสัยว่าผลประโยชน์จะมีมากกว่าต้นทุนหรือไม่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In the film below, you can hear some of these hopes and concerns from people we’ve spoken with.",
+        "th": "ในภาพยนตร์ด้านล่างนี้ คุณจะได้ยินความหวังและข้อกังวลบางส่วนจากคนที่เราพูดคุยด้วย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Anthropic is a Public Benefit Corporation—it’s our mission to secure the benefits of advanced AI models and mitigate their risks. That public benefit mission has led us, for example, to invest in AI safeguards to reduce the risk of misuse, to research the behavior and inner workings of AI models to help us align them to beneficial goals, to give our AI models for free to scientists, and to launch a fellowship program that pairs early-career Claude users with nonprofits to help extend the benefits of AI.",
+        "th": "Anthropic คือบริษัทเพื่อสาธารณประโยชน์ ภารกิจของเราคือรักษาคุณประโยชน์ของโมเดล AI ขั้นสูงและลดความเสี่ยง ภารกิจเพื่อสาธารณประโยชน์ดังกล่าวได้นำเราไปสู่การลงทุนในการป้องกัน AI เพื่อลดความเสี่ยงของการใช้งานในทางที่ผิด วิจัยพฤติกรรมและการทำงานภายในของโมเดล AI เพื่อช่วยเราจัดโมเดล AI ของเราให้บรรลุเป้าหมายที่เป็นประโยชน์ เพื่อมอบโมเดล AI ของเราฟรีให้กับนักวิทยาศาสตร์ และเปิดตัวโครงการคบหาที่จับคู่ผู้ใช้ Claude ที่เพิ่งเริ่มต้นอาชีพกับองค์กรไม่แสวงหากำไร เพื่อช่วยขยายประโยชน์ของ AI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To truly act in the public interest, we need to fully understand the hopes and concerns the public has about this new technology. As part of our new initiative on hard questions, we’re taking further steps to understand people’s views and questions on a variety of AI-related topics, and transparently chart our progress toward our public benefit goals.",
+        "th": "เพื่อดำเนินการเพื่อประโยชน์สาธารณะอย่างแท้จริง เราจำเป็นต้องเข้าใจความหวังและข้อกังวลของสาธารณชนเกี่ยวกับเทคโนโลยีใหม่นี้อย่างถ่องแท้ ในฐานะส่วนหนึ่งของความคิดริเริ่มใหม่ของเราสำหรับคำถามยากๆ เรากำลังดำเนินการเพิ่มเติมเพื่อทำความเข้าใจมุมมองและคำถามของผู้คนในหัวข้อที่เกี่ยวข้องกับ AI ที่หลากหลาย และจัดทำแผนภูมิความคืบหน้าของเราไปสู่เป้าหมายเพื่อสาธารณประโยชน์ของเราอย่างโปร่งใส"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’ve already been laying the groundwork, asking thousands of people for their views on AI:",
+        "th": "เราได้วางรากฐานแล้ว โดยขอให้ผู้คนหลายพันคนแสดงความคิดเห็นเกี่ยวกับ AI:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We’ve begun the Anthropic Public Record—a public survey that, in its first round, asked 52,000 Americans to set out their biggest hopes and concerns about this technology;",
+        "th": "เราได้เริ่ม Anthropic Public Record ซึ่งเป็นแบบสำรวจสาธารณะที่ขอให้ชาวอเมริกัน 52,000 คนระบุความหวังและความกังวลเกี่ยวกับเทคโนโลยีนี้ในรอบแรก"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We surveyed 81,000 Claude users across 159 countries and 70 languages through our Anthropic Interviewer;",
+        "th": "เราสำรวจผู้ใช้ Claude จำนวน 81,000 รายใน 159 ประเทศและ 70 ภาษาผ่านทางผู้สัมภาษณ์ด้านมนุษยธรรมของเรา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We conducted dozens of in-person focus groups and convened sessions with groups whose work and traditions bear on the questions raised by AI; and",
+        "th": "เราได้จัดการสนทนากลุ่มแบบตัวต่อตัวหลายสิบครั้งและจัดการประชุมกับกลุ่มที่ทำงานและประเพณีที่เกี่ยวข้องกับคำถามที่ AI หยิบยกขึ้นมา และ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We’ve been studying the use of Claude through anonymized, real-world data.",
+        "th": "เรากำลังศึกษาการใช้ Claude ผ่านข้อมูลจริงที่ไม่เปิดเผยตัวตน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We created the Anthropic Institute—a research effort within the company with the goal of confronting the most significant challenges that AI will pose to society—and since early in our company’s history our Long-Term Benefit Trust has provided impartial oversight on how effectively we’re advancing our public benefit mission.",
+        "th": "เราก่อตั้ง Anthropic Institute ซึ่งเป็นความพยายามด้านการวิจัยภายในบริษัทโดยมีเป้าหมายในการเผชิญหน้ากับความท้าทายที่สำคัญที่สุดที่ AI จะก่อให้เกิดต่อสังคม และตั้งแต่ช่วงต้นๆ ในประวัติศาสตร์ของบริษัทของเรา Long-Term Benefit Trust ของเราได้ให้การกำกับดูแลที่เป็นกลางว่าเรากำลังพัฒนาภารกิจเพื่อสาธารณประโยชน์อย่างมีประสิทธิผลเพียงใด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Now, we’re explicitly asking you to send us your hardest questions on AI: questions about AI’s effects on jobs, society, and families; questions about how we achieve the dramatic potential of AI for science and medicine; questions about where one of the most powerful technologies in human history can take us next.",
+        "th": "ตอนนี้ เราขอให้คุณส่งคำถามที่ยากที่สุดเกี่ยวกับ AI มาให้เราอย่างชัดเจน: คำถามเกี่ยวกับผลกระทบของ AI ต่องาน สังคม และครอบครัว คำถามเกี่ยวกับวิธีที่เราบรรลุศักยภาพอันน่าทึ่งของ AI สำหรับวิทยาศาสตร์และการแพทย์ คำถามว่าหนึ่งในเทคโนโลยีที่ทรงพลังที่สุดในประวัติศาสตร์ของมนุษย์จะพาเราไปที่ไหนต่อไปได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In return, we’ll publicly track and report the specific actions we’re taking to address those questions—and we’ll be clear about the ways in which we might fall short of our stated goals.",
+        "th": "เพื่อเป็นการตอบแทน เราจะติดตามและรายงานการดำเนินการเฉพาะที่เรากำลังดำเนินการเพื่อตอบคำถามเหล่านั้นต่อสาธารณะ และเราจะชัดเจนเกี่ยวกับวิธีการที่เราอาจพลาดเป้าหมายที่ระบุไว้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To see some of the questions others are asking, and to share your own, visit our hard questions website.",
+        "th": "หากต้องการดูคำถามที่คนอื่นถาม และแบ่งปันคำถามของคุณเอง โปรดไปที่เว็บไซต์คำถามยากของเรา"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Related content",
+        "th": "เนื้อหาที่เกี่ยวข้อง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
+        "th": "Ben Bernanke ได้รับการแต่งตั้งให้เป็น Long-Term Benefit Trust ของ Anthropic"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Introducing a way to reflect on how you use Claude",
+        "th": "ขอแนะนำวิธีการไตร่ตรองว่าคุณใช้ Claude อย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Introducing a new way to reflect on and refine how you use Claude. It lets you easily track and visualize how you use Claude, and decide whether that time aligns with your goals.",
+        "th": "ขอแนะนำวิธีใหม่ในการไตร่ตรองและปรับปรุงวิธีการใช้ Claude ช่วยให้คุณติดตามและเห็นภาพวิธีการใช้ Claude ได้อย่างง่ายดาย และตัดสินใจว่าเวลานั้นสอดคล้องกับเป้าหมายของคุณหรือไม่"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
+        "th": "รัฐบาลอัลเบอร์ตาใช้ Claude เพื่อค้นหาและแก้ไขช่องโหว่ด้านความปลอดภัยทางไซเบอร์ทั่วทั้งระบบของรัฐบาล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Since 2025, the Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them.",
+        "th": "ตั้งแต่ปี 2025 รัฐบาลอัลเบอร์ตาได้ใช้ Claude Code กับทั้งแบบจำลอง Opus และ Sonnet เพื่อตรวจสอบระบบ ค้นหาช่องโหว่ และแก้ไข"
+      }
+    }
+  ]
+}

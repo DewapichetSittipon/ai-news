@@ -1,23 +1,6 @@
 {
-  "generatedAt": "2026-07-09T17:50:22.400Z",
+  "generatedAt": "2026-07-09T19:27:38.871Z",
   "items": [
-    {
-      "id": "openai__gpt-5-6",
-      "slug": "gpt-5-6",
-      "source": "openai",
-      "url": "https://openai.com/index/gpt-5-6",
-      "category": "Product",
-      "date": "2026-07-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "GPT-5.6: Frontier intelligence that scales with your ambition",
-        "th": "GPT-5.6: ความฉลาดระดับแนวหน้าที่จะปรับขนาดตามความทะเยอทะยานของคุณ"
-      },
-      "summary": {
-        "en": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-        "th": "ความชาญฉลาดที่มากขึ้นจากทุกโทเค็น ประสิทธิภาพที่แข็งแกร่งต่อดอลลาร์ และความสามารถที่มากขึ้นตามความต้องการสำหรับงานที่หนักที่สุดของคุณ"
-      }
-    },
     {
       "id": "openai__chatgpt-for-your-most-ambitious-work",
       "slug": "chatgpt-for-your-most-ambitious-work",
@@ -50,6 +33,23 @@
       "summary": {
         "en": "Details about the OpenAI Bio Bounty program",
         "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
+      }
+    },
+    {
+      "id": "openai__gpt-5-6",
+      "slug": "gpt-5-6",
+      "source": "openai",
+      "url": "https://openai.com/index/gpt-5-6",
+      "category": "Product",
+      "date": "2026-07-09T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "GPT-5.6: Frontier intelligence that scales with your ambition",
+        "th": "GPT-5.6: ความฉลาดระดับแนวหน้าที่จะปรับขนาดตามความทะเยอทะยานของคุณ"
+      },
+      "summary": {
+        "en": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+        "th": "ความชาญฉลาดที่มากขึ้นจากทุกโทเค็น ประสิทธิภาพที่แข็งแกร่งต่อดอลลาร์ และความสามารถที่มากขึ้นตามความต้องการสำหรับงานที่หนักที่สุดของคุณ"
       }
     },
     {
@@ -597,6 +597,23 @@
       }
     },
     {
+      "id": "openai__case-studies",
+      "slug": "case-studies",
+      "source": "openai",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "category": "News",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
+      },
+      "summary": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
+      }
+    },
+    {
       "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
       "slug": "core-dump-epidemiology-data-infrastructure-bug",
       "source": "openai",
@@ -628,23 +645,6 @@
       "summary": {
         "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
         "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
-      }
-    },
-    {
-      "id": "openai__case-studies",
-      "slug": "case-studies",
-      "source": "openai",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
-      "category": "News",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
-      },
-      "summary": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
       }
     },
     {
@@ -988,23 +988,6 @@
       }
     },
     {
-      "id": "openai__patch-the-planet",
-      "slug": "patch-the-planet",
-      "source": "openai",
-      "url": "https://openai.com/index/patch-the-planet",
-      "category": "Security",
-      "date": "2026-06-22T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-        "th": "Patch the Planet: โครงการริเริ่ม Daybreak เพื่อสนับสนุนผู้ดูแลโอเพ่นซอร์ส"
-      },
-      "summary": {
-        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-        "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
-      }
-    },
-    {
       "id": "openai__daybreak-securing-the-world",
       "slug": "daybreak-securing-the-world",
       "source": "openai",
@@ -1019,6 +1002,23 @@
       "summary": {
         "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
         "th": "OpenAI เปิดตัวเครื่องมือ Daybreak ใหม่ รวมถึง Codex Security และ GPT-5.5-Cyber ​​เพื่อช่วยให้องค์กรค้นหา ตรวจสอบ และแก้ไขช่องโหว่ในวงกว้าง"
+      }
+    },
+    {
+      "id": "openai__patch-the-planet",
+      "slug": "patch-the-planet",
+      "source": "openai",
+      "url": "https://openai.com/index/patch-the-planet",
+      "category": "Security",
+      "date": "2026-06-22T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+        "th": "Patch the Planet: โครงการริเริ่ม Daybreak เพื่อสนับสนุนผู้ดูแลโอเพ่นซอร์ส"
+      },
+      "summary": {
+        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+        "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
       }
     },
     {
@@ -1430,23 +1430,6 @@
       }
     },
     {
-      "id": "openai__bbva",
-      "slug": "bbva",
-      "source": "openai",
-      "url": "https://openai.com/index/bbva",
-      "category": "News",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "BBVA puts AI at the core of banking with OpenAI",
-        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
-      },
-      "summary": {
-        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
-      }
-    },
-    {
       "id": "openai__supporting-eu-trustworthy-ai-ecosystem",
       "slug": "supporting-eu-trustworthy-ai-ecosystem",
       "source": "openai",
@@ -1464,23 +1447,6 @@
       }
     },
     {
-      "id": "openai__using-codex-to-simulate-black-holes",
-      "slug": "using-codex-to-simulate-black-holes",
-      "source": "openai",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "category": "Applied AI",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How an astrophysicist uses Codex to help simulate black holes",
-        "th": "นักดาราศาสตร์ฟิสิกส์ใช้ Codex เพื่อช่วยจำลองหลุมดำอย่างไร"
-      },
-      "summary": {
-        "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-        "th": "ค้นพบวิธีที่นักฟิสิกส์ดาราศาสตร์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
-      }
-    },
-    {
       "id": "openai__openai-to-acquire-ona",
       "slug": "openai-to-acquire-ona",
       "source": "openai",
@@ -1495,6 +1461,40 @@
       "summary": {
         "en": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
         "th": "OpenAI วางแผนที่จะซื้อ Ona เพื่อขยาย Codex ด้วยสภาพแวดล้อมคลาวด์ที่ปลอดภัยและคงอยู่ ช่วยให้ตัวแทน AI ที่ทำงานระยะยาวทั่วทั้งเวิร์กโฟลว์ขององค์กร"
+      }
+    },
+    {
+      "id": "openai__bbva",
+      "slug": "bbva",
+      "source": "openai",
+      "url": "https://openai.com/index/bbva",
+      "category": "News",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "BBVA puts AI at the core of banking with OpenAI",
+        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
+      },
+      "summary": {
+        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
+      }
+    },
+    {
+      "id": "openai__using-codex-to-simulate-black-holes",
+      "slug": "using-codex-to-simulate-black-holes",
+      "source": "openai",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "category": "Applied AI",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How an astrophysicist uses Codex to help simulate black holes",
+        "th": "นักดาราศาสตร์ฟิสิกส์ใช้ Codex เพื่อช่วยจำลองหลุมดำอย่างไร"
+      },
+      "summary": {
+        "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+        "th": "ค้นพบวิธีที่นักฟิสิกส์ดาราศาสตร์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
       }
     },
     {

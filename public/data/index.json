@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-09T19:27:38.871Z",
+  "generatedAt": "2026-07-09T21:16:57.077Z",
   "items": [
+    {
+      "id": "openai__gpt-5-6-preferred-model-microsoft-365-copilot",
+      "slug": "gpt-5-6-preferred-model-microsoft-365-copilot",
+      "source": "openai",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "category": "Product",
+      "date": "2026-07-09T13:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+        "th": "ขณะนี้ GPT-5.6 เป็นรุ่นที่ต้องการใน Microsoft 365 Copilot"
+      },
+      "summary": {
+        "en": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+        "th": "เรียนรู้ว่า GPT-5.6 ขับเคลื่อน Microsoft 365 Copilot ด้วยความสามารถ AI ที่แข็งแกร่งยิ่งขึ้นใน Word, Excel, PowerPoint, Chat และ Cowork เพื่อการทำงานที่รวดเร็วและมีคุณภาพสูงขึ้นได้อย่างไร"
+      }
+    },
     {
       "id": "openai__chatgpt-for-your-most-ambitious-work",
       "slug": "chatgpt-for-your-most-ambitious-work",
@@ -597,20 +614,20 @@
       }
     },
     {
-      "id": "openai__case-studies",
-      "slug": "case-studies",
+      "id": "openai__introducing-genebench-pro",
+      "slug": "introducing-genebench-pro",
       "source": "openai",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
-      "category": "News",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "category": "Research",
       "date": "2026-06-30T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
+        "en": "Introducing GeneBench-Pro",
+        "th": "ขอแนะนำ GeneBench-Pro"
       },
       "summary": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
+        "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+        "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
       }
     },
     {
@@ -631,20 +648,20 @@
       }
     },
     {
-      "id": "openai__introducing-genebench-pro",
-      "slug": "introducing-genebench-pro",
+      "id": "openai__case-studies",
+      "slug": "case-studies",
       "source": "openai",
-      "url": "https://openai.com/index/introducing-genebench-pro",
-      "category": "Research",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "category": "News",
       "date": "2026-06-30T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Introducing GeneBench-Pro",
-        "th": "ขอแนะนำ GeneBench-Pro"
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
       },
       "summary": {
-        "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-        "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
       }
     },
     {
@@ -988,23 +1005,6 @@
       }
     },
     {
-      "id": "openai__daybreak-securing-the-world",
-      "slug": "daybreak-securing-the-world",
-      "source": "openai",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "category": "Security",
-      "date": "2026-06-22T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Daybreak: Tools for securing every organization in the world",
-        "th": "Daybreak: เครื่องมือสำหรับการรักษาความปลอดภัยให้กับทุกองค์กรในโลก"
-      },
-      "summary": {
-        "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-        "th": "OpenAI เปิดตัวเครื่องมือ Daybreak ใหม่ รวมถึง Codex Security และ GPT-5.5-Cyber ​​เพื่อช่วยให้องค์กรค้นหา ตรวจสอบ และแก้ไขช่องโหว่ในวงกว้าง"
-      }
-    },
-    {
       "id": "openai__patch-the-planet",
       "slug": "patch-the-planet",
       "source": "openai",
@@ -1019,6 +1019,23 @@
       "summary": {
         "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
         "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
+      }
+    },
+    {
+      "id": "openai__daybreak-securing-the-world",
+      "slug": "daybreak-securing-the-world",
+      "source": "openai",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "category": "Security",
+      "date": "2026-06-22T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Daybreak: Tools for securing every organization in the world",
+        "th": "Daybreak: เครื่องมือสำหรับการรักษาความปลอดภัยให้กับทุกองค์กรในโลก"
+      },
+      "summary": {
+        "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+        "th": "OpenAI เปิดตัวเครื่องมือ Daybreak ใหม่ รวมถึง Codex Security และ GPT-5.5-Cyber ​​เพื่อช่วยให้องค์กรค้นหา ตรวจสอบ และแก้ไขช่องโหว่ในวงกว้าง"
       }
     },
     {
@@ -1464,23 +1481,6 @@
       }
     },
     {
-      "id": "openai__bbva",
-      "slug": "bbva",
-      "source": "openai",
-      "url": "https://openai.com/index/bbva",
-      "category": "News",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "BBVA puts AI at the core of banking with OpenAI",
-        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
-      },
-      "summary": {
-        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
-      }
-    },
-    {
       "id": "openai__using-codex-to-simulate-black-holes",
       "slug": "using-codex-to-simulate-black-holes",
       "source": "openai",
@@ -1495,6 +1495,23 @@
       "summary": {
         "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
         "th": "ค้นพบวิธีที่นักฟิสิกส์ดาราศาสตร์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
+      }
+    },
+    {
+      "id": "openai__bbva",
+      "slug": "bbva",
+      "source": "openai",
+      "url": "https://openai.com/index/bbva",
+      "category": "News",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "BBVA puts AI at the core of banking with OpenAI",
+        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
+      },
+      "summary": {
+        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
       }
     },
     {
@@ -1546,23 +1563,6 @@
       "summary": {
         "en": "DiffusionGemma: 4x faster text generation",
         "th": "DiffusionGemma: การสร้างข้อความเร็วขึ้น 4 เท่า"
-      }
-    },
-    {
-      "id": "openai__prc-linked-influence-operations-ai-debates",
-      "slug": "prc-linked-influence-operations-ai-debates",
-      "source": "openai",
-      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "category": "Global Affairs",
-      "date": "2026-06-10T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "PRC-linked influence operations are targeting AI debates in the US",
-        "th": "ปฏิบัติการที่มีอิทธิพลเชื่อมโยงกับจีนมุ่งเป้าไปที่การอภิปรายเรื่อง AI ในสหรัฐอเมริกา"
-      },
-      "summary": {
-        "en": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
-        "th": "รายงานใหม่จาก OpenAI ให้รายละเอียดเกี่ยวกับการดำเนินงานที่เชื่อมโยงกับ PRC โดยใช้ AI เพื่อกำหนดเป้าหมายการอภิปรายทางเทคโนโลยีของสหรัฐอเมริกา เรื่องเล่าของศูนย์ข้อมูล ภาษี และการกล่าวอ้างที่เป็นเท็จเกี่ยวกับ ChatGPT"
       }
     },
     {

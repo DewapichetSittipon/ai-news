@@ -1,0 +1,199 @@
+{
+  "id": "anthropic__ust-claude",
+  "slug": "ust-claude",
+  "source": "anthropic",
+  "url": "https://www.anthropic.com/news/ust-claude",
+  "category": "News",
+  "date": "2026-07-09T00:00:00.000Z",
+  "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Build&backgroundColor=coral",
+  "title": {
+    "en": "UST is bringing Claude to physical AI",
+    "th": "UST กำลังนำ Claude มาสู่ AI ทางกายภาพ"
+  },
+  "summary": {
+    "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+    "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg",
+      "alt": "UST is bringing Claude to physical AI"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before a factory commits to manufacturing millions of chips, engineers stress-test the design in the fab. Before a product ships, a fault on the assembly line has to be caught before it becomes a recall. When AI does this kind of work, it’s called physical AI: intelligence built into the equipment and engineering processes that produce the things people use.",
+        "th": "ก่อนที่โรงงานจะมุ่งมั่นที่จะผลิตชิปหลายล้านชิ้น วิศวกรจะทดสอบความเครียดกับการออกแบบในโรงงาน ก่อนจัดส่งผลิตภัณฑ์ จะต้องตรวจพบข้อผิดพลาดในสายการประกอบก่อนที่จะทำการเรียกคืน เมื่อ AI ทำงานประเภทนี้ จะเรียกว่า AI ทางกายภาพ: ความฉลาดที่สร้างขึ้นในอุปกรณ์และกระบวนการทางวิศวกรรมที่ผลิตสิ่งที่ผู้คนใช้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re partnering with UST, a technology and engineering services company that builds and runs the engineering environments its clients depend on to get chips, cars, and connected devices to market. UST is putting Claude to work inside those environments, and training 20,000 of its engineers, architects, and consultants on Claude worldwide.",
+        "th": "เรากำลังร่วมมือกับ UST ซึ่งเป็นบริษัทผู้ให้บริการด้านเทคโนโลยีและวิศวกรรมที่สร้างและดำเนินการสภาพแวดล้อมทางวิศวกรรมที่ลูกค้าต้องพึ่งพาเพื่อนำชิป รถยนต์ และอุปกรณ์ที่เชื่อมต่อออกสู่ตลาด UST กำลังให้ Claude ทำงานในสภาพแวดล้อมเหล่านั้น และฝึกอบรมวิศวกร สถาปนิก และที่ปรึกษาของบริษัทจำนวน 20,000 คนเกี่ยวกับ Claude ทั่วโลก"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "How UST is putting Claude into the production processes behind physical products",
+        "th": "UST นำ Claude เข้าสู่กระบวนการผลิตที่อยู่เบื้องหลังผลิตภัณฑ์ที่จับต้องได้อย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "UST works alongside semiconductor, automotive, manufacturing, telecom, embedded, and IoT companies. It builds the systems those companies use to verify their designs, validate their chips, run their factories, and service their products once they’re out in the world.",
+        "th": "UST ทำงานร่วมกับบริษัทเซมิคอนดักเตอร์ ยานยนต์ การผลิต โทรคมนาคม อุปกรณ์ฝังตัว และ IoT สร้างระบบที่บริษัทเหล่านั้นใช้เพื่อตรวจสอบการออกแบบ ตรวจสอบชิป ดำเนินโรงงาน และให้บริการผลิตภัณฑ์ของตนเมื่อออกสู่ตลาดโลก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These are long, multi-step processes where an early mistake gets more expensive with every step that follows. A design flaw caught during verification costs an engineer an afternoon; the same flaw caught after a factory has committed to manufacturing costs a production run.",
+        "th": "กระบวนการเหล่านี้เป็นกระบวนการที่ยาวนานและมีหลายขั้นตอน ซึ่งความผิดพลาดตั้งแต่เนิ่นๆ จะมีราคาแพงขึ้นในทุกขั้นตอนที่ตามมา ข้อบกพร่องด้านการออกแบบที่ตรวจพบระหว่างการตรวจสอบทำให้วิศวกรต้องเสียค่าใช้จ่ายในช่วงบ่าย ข้อบกพร่องเดียวกันนี้เกิดขึ้นหลังจากที่โรงงานมุ่งมั่นที่จะต้นทุนการผลิตในระหว่างดำเนินการผลิต"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "UST is bringing Claude into this work. Claude Code reads the schematics and pinouts an engineer works from, then writes and runs the tests that check the design. It carries that task across many steps, holding the context of a design through hours-long tasks. UST is aiming to catch design flaws earlier, speed up chip validation, and bring hardware and software together in a single system.",
+        "th": "UST กำลังนำ Claude มาร่วมงานนี้ Claude Code อ่านแผนผังและ pinouts ที่วิศวกรใช้งาน จากนั้นจึงเขียนและดำเนินการทดสอบเพื่อตรวจสอบการออกแบบ ดำเนินภารกิจนั้นในหลายขั้นตอน โดยยึดบริบทของการออกแบบผ่านงานที่ใช้เวลานานหลายชั่วโมง UST มีเป้าหมายที่จะตรวจจับข้อบกพร่องด้านการออกแบบตั้งแต่เนิ่นๆ เร่งการตรวจสอบชิป และนำฮาร์ดแวร์และซอฟต์แวร์มารวมกันไว้ในระบบเดียว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The clearest example is a UST platform called iDEC, which its engineers use to validate hardware and silicon before it goes to production. Validation is the work of proving a chip actually behaves the way its designers intended, and it’s arduous: engineers write test scripts by hand, run them, read the results, and repeat the cycle many times over. UST reports that iDEC’s closed-loop pipeline,reads hardware designs, generates and runs regression tests, and compares live equipment data against its digital twin to flag issues early, already cuts validation cycle times by 50 to 70%, condensing standard four-day turnarounds into 48 hours.",
+        "th": "ตัวอย่างที่ชัดเจนที่สุดคือแพลตฟอร์ม UST ที่เรียกว่า iDEC ซึ่งวิศวกรใช้เพื่อตรวจสอบฮาร์ดแวร์และซิลิคอนก่อนที่จะเริ่มใช้งานจริง การตรวจสอบความถูกต้องเป็นงานในการพิสูจน์ว่าชิปมีพฤติกรรมตามที่นักออกแบบตั้งใจไว้จริงๆ และเป็นเรื่องยาก: วิศวกรจะเขียนสคริปต์ทดสอบด้วยมือ เรียกใช้งาน อ่านผลลัพธ์ และทำซ้ำวงจรหลายๆ ครั้ง UST รายงานว่าไปป์ไลน์แบบวงปิดของ iDEC อ่านการออกแบบฮาร์ดแวร์ สร้างและดำเนินการทดสอบการถดถอย และเปรียบเทียบข้อมูลอุปกรณ์ที่ใช้งานจริงกับแฝดดิจิทัลเพื่อแจ้งปัญหาตั้งแต่เนิ่นๆ ได้ลดรอบเวลาการตรวจสอบลง 50 ถึง 70% แล้ว โดยย่อการหยุดซ่อมบำรุงสี่วันมาตรฐานลงเหลือ 48 ชั่วโมง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "UST is now integrating Claude into that pipeline as its reasoning layer. Claude Code reads chip pinouts and hardware schematics directly, then writes and runs regression tests—the checks that confirm a change to a design didn’t cause an unintended downstream effect—which engineers used to script by hand. Claude also compares the live data from real equipment against its digital twin—the software model of how that hardware is supposed to behave—and flags firmware regressions and signal-integrity faults. UST’s goal is to make its pipeline even faster, with less hand scripting and earlier fault detection, and no new tools for engineers to learn.",
+        "th": "ขณะนี้ UST กำลังรวม Claude เข้ากับไปป์ไลน์นั้นเป็นเลเยอร์การให้เหตุผล Claude Code อ่านพินเอาท์ของชิปและแผนผังฮาร์ดแวร์โดยตรง จากนั้นจึงเขียนและรันการทดสอบการถดถอย การตรวจสอบที่ยืนยันการเปลี่ยนแปลงในการออกแบบไม่ทำให้เกิดผลกระทบดาวน์สตรีมโดยไม่ได้ตั้งใจ ซึ่งวิศวกรใช้สคริปต์ด้วยมือ Claude ยังเปรียบเทียบข้อมูลสดจากอุปกรณ์จริงกับแฝดดิจิทัล ซึ่งเป็นโมเดลซอฟต์แวร์ที่แสดงให้เห็นว่าฮาร์ดแวร์ควรจะทำงานอย่างไร และแจ้งการถดถอยของเฟิร์มแวร์และข้อบกพร่องด้านความสมบูรณ์ของสัญญาณ เป้าหมายของ UST คือการทำให้ไปป์ไลน์เร็วขึ้น โดยใช้การเขียนสคริปต์ด้วยมือน้อยลงและการตรวจจับข้อผิดพลาดเร็วขึ้น และไม่มีเครื่องมือใหม่สำหรับวิศวกรที่จะเรียนรู้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Our alliance with Anthropic reflects UST’s unwavering commitment to helping clients navigate the AI landscape with confidence and achieve meaningful business outcomes. By combining the capabilities of Claude with UST’s engineering, industry knowledge, and delivery expertise, we are bringing to market industry-specific platforms and digital and engineering solutions that improve productivity, accelerate business outcomes, and help clients operationalize AI-led decisions in a safe and secure environment,” said Krishna Sudheendra, Chief Executive Officer, UST.",
+        "th": "“การเป็นพันธมิตรของเรากับ Anthropic สะท้อนให้เห็นถึงความมุ่งมั่นอันแน่วแน่ของ UST ในการช่วยให้ลูกค้าสำรวจภูมิทัศน์ AI ด้วยความมั่นใจและบรรลุผลลัพธ์ทางธุรกิจที่มีความหมาย ด้วยการรวมความสามารถของ Claude เข้ากับความรู้ด้านวิศวกรรม ความรู้ในอุตสาหกรรม และความเชี่ยวชาญในการส่งมอบของ UST เรากำลังนำเสนอแพลตฟอร์มเฉพาะอุตสาหกรรมและโซลูชันดิจิทัลและวิศวกรรมที่ปรับปรุงประสิทธิภาพการผลิต เร่งผลลัพธ์ทางธุรกิจ และช่วยให้ลูกค้าดำเนินการตัดสินใจที่นำโดย AI ในสภาพแวดล้อมที่ปลอดภัย” Krishna Sudheendra ประธานเจ้าหน้าที่บริหารของ UST กล่าว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“UST helps the world’s banks, telecoms, and manufacturers put new technology to work. They’re proving Claude inside their own engineering first, and training 20,000 of their own people on it, before bringing it into the systems they build and run for clients,” said Paul Smith, Chief Commercial Officer, Anthropic.",
+        "th": "“UST ช่วยให้ธนาคาร โทรคมนาคม และผู้ผลิตของโลกนำเทคโนโลยีใหม่มาใช้ในการทำงาน พวกเขากำลังพิสูจน์ Claude ในด้านวิศวกรรมของตนเองก่อน และฝึกอบรมบุคลากร 20,000 คนของตนเกี่ยวกับเทคโนโลยีดังกล่าว ก่อนที่จะนำเข้าสู่ระบบที่พวกเขาสร้างและดำเนินการให้กับลูกค้า” Paul Smith ประธานเจ้าหน้าที่ฝ่ายพาณิชย์ของ Anthropic กล่าว"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "How UST is putting Claude into healthcare, telecom, and banking systems",
+        "th": "UST นำ Claude เข้าสู่ระบบการดูแลสุขภาพ โทรคมนาคม และการธนาคารอย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "UST is bringing Claude into three other platforms it operates for clients:",
+        "th": "UST กำลังนำ Claude เข้าสู่แพลตฟอร์มอื่นอีกสามแพลตฟอร์มที่ดำเนินงานให้กับลูกค้า:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "In healthcare, insurers and providers use UST CarePath to run member services, care management, and claims. Claude connects CarePath directly to its underlying claims and care systems, and turns scattered health data into clear next steps for care teams. Every recommended action routes to a person for approval before it reaches a member, and it stays inside the data controls healthcare requires.",
+        "th": "ในด้านการดูแลสุขภาพ บริษัทประกันและผู้ให้บริการใช้ UST CarePath เพื่อให้บริการสมาชิก การจัดการการดูแล และการเรียกร้องค่าสินไหมทดแทน Claude เชื่อมต่อ CarePath เข้ากับการเรียกร้องและระบบการดูแลที่เกี่ยวข้องโดยตรง และเปลี่ยนข้อมูลด้านสุขภาพที่กระจัดกระจายให้เป็นขั้นตอนต่อไปที่ชัดเจนสำหรับทีมผู้ดูแล ทุกเส้นทางการดำเนินการที่แนะนำไปยังบุคคลเพื่อขออนุมัติก่อนที่จะถึงสมาชิก และจะอยู่ภายในการควบคุมข้อมูลที่ต้องการด้านการดูแลสุขภาพ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "In telecom, UST IntelliOps runs network operations. To keep networks up and running, teams work through the alerts that spot problems and outages, but this is a time-consuming process. Claude now helps operators spot service issues, predict failures in the radio access network (the towers and antennas that connect phones to the network), and shorten outages through response workflows, which a person still approves. For the teams watching the alerts, that means less time separating real problems from noise.",
+        "th": "ในด้านโทรคมนาคม UST IntelliOps ดำเนินการด้านเครือข่าย เพื่อให้เครือข่ายทำงานได้อย่างต่อเนื่อง ทีมจะทำงานตามการแจ้งเตือนที่ตรวจพบปัญหาและการหยุดทำงาน แต่นี่เป็นกระบวนการที่ใช้เวลานาน ตอนนี้ Claude ช่วยให้ผู้ปฏิบัติงานมองเห็นปัญหาการบริการ คาดการณ์ความล้มเหลวในเครือข่ายการเข้าถึงวิทยุ (เสาและเสาอากาศที่เชื่อมต่อโทรศัพท์เข้ากับเครือข่าย) และลดปัญหาการหยุดทำงานผ่านเวิร์กโฟลว์การตอบสนอง ซึ่งบุคคลยังคงอนุมัติอยู่ สำหรับทีมที่เฝ้าดูการแจ้งเตือน นั่นหมายถึงมีเวลาน้อยลงในการแยกปัญหาที่แท้จริงออกจากเสียงรบกวน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "In banking, most mid-sized institutions still run on core systems old enough that the ledger updates once a night rather than in real time. Banks often license these systems rather than own them, so every new product or integration means months of waiting for a vendor to make the change. UST FinX helps banks modernize progressively by solving immediate business and operational challenges while reducing the dependency on disruptive, high-risk transformation programs. FinX will use Claude to embed AI agents directly into bank workflows and processes, supporting both operations teams and customers through intelligent case handling, servicing automation, knowledge retrieval, workflow assistance, and decision support.",
+        "th": "ในระบบธนาคาร สถาบันขนาดกลางส่วนใหญ่ยังคงทำงานบนระบบหลักที่เก่าเพียงพอที่บัญชีแยกประเภทจะอัปเดตคืนละครั้ง แทนที่จะเป็นแบบเรียลไทม์ ธนาคารมักจะออกใบอนุญาตระบบเหล่านี้แทนที่จะเป็นเจ้าของ ดังนั้นผลิตภัณฑ์ใหม่หรือการบูรณาการทั้งหมดจึงหมายถึงการรอหลายเดือนให้ผู้จำหน่ายทำการเปลี่ยนแปลง UST FinX ช่วยให้ธนาคารมีความทันสมัยอย่างก้าวหน้าโดยการแก้ปัญหาทางธุรกิจและการดำเนินงานที่เกิดขึ้นทันที ในขณะเดียวกันก็ลดการพึ่งพาโปรแกรมการเปลี่ยนแปลงที่มีความเสี่ยงสูงและก่อกวน FinX จะใช้ Claude เพื่อฝังตัวแทน AI ลงในเวิร์กโฟลว์และกระบวนการของธนาคารโดยตรง โดยสนับสนุนทั้งทีมปฏิบัติการและลูกค้าผ่านการจัดการเคสอัจฉริยะ การให้บริการอัตโนมัติ การดึงความรู้ ความช่วยเหลือเวิร์กโฟลว์ และการสนับสนุนการตัดสินใจ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "A partnership in AI adoption and training",
+        "th": "ความร่วมมือในการปรับใช้และการฝึกอบรม AI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "UST is committing to train 20,000 of its associates on Claude worldwide, including engineers, architects, consultants, industry specialists, and forward-deployed engineers, who sit alongside client teams. It’s also building specialized teams to deploy Claude. We’re supporting UST in this effort with enablement, technical guidance, and certification through the Claude Partner Network. This partnership also makes UST a Global Premier Partner in the Claude Partner Network.",
+        "th": "UST มุ่งมั่นที่จะฝึกอบรมพนักงานจำนวน 20,000 คนให้กับ Claude ทั่วโลก รวมถึงวิศวกร สถาปนิก ที่ปรึกษา ผู้เชี่ยวชาญในอุตสาหกรรม และวิศวกรที่ทำงานในแนวหน้า ซึ่งนั่งเคียงข้างทีมลูกค้า นอกจากนี้ยังสร้างทีมพิเศษเพื่อปรับใช้ Claude เรากำลังสนับสนุน UST ในความพยายามนี้ด้วยการเปิดใช้งาน คำแนะนำด้านเทคนิค และการรับรองผ่านเครือข่ายพันธมิตรของ Claude ความร่วมมือนี้ยังทำให้ UST กลายเป็นพันธมิตรระดับพรีเมียร์ระดับโลกในเครือข่ายพันธมิตรของ Claude"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Pairing reliability, safety, and governance",
+        "th": "การจับคู่ความน่าเชื่อถือ ความปลอดภัย และการกำกับดูแล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The industries UST serves are extremely high-stakes. Human approval steps and audit controls are important forms of governance that make it possible for the systems to run in production. The reliability and safety we’ve prioritized in building Claude, paired with UST’s experience in governance and regulated delivery, enables this work to move out of a pilot and into the systems that run a business.",
+        "th": "อุตสาหกรรมที่ UST ให้บริการถือเป็นเดิมพันที่สูงมาก ขั้นตอนการอนุมัติโดยมนุษย์และการควบคุมการตรวจสอบเป็นรูปแบบการกำกับดูแลที่สำคัญที่ทำให้ระบบสามารถทำงานได้จริง ความน่าเชื่อถือและความปลอดภัยที่เราให้ความสำคัญในการสร้าง Claude ควบคู่ไปกับประสบการณ์ของ UST ในการกำกับดูแลและการส่งมอบที่มีการควบคุม ช่วยให้งานนี้ย้ายออกจากโครงการนำร่องและเข้าสู่ระบบที่ดำเนินธุรกิจได้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Related content",
+        "th": "เนื้อหาที่เกี่ยวข้อง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Inviting hard questions",
+        "th": "เชิญชวนถามคำถามยากๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re asking the public for their hardest questions about AI, and committing to show our work as we address them.",
+        "th": "เรากำลังขอให้สาธารณชนถามคำถามที่ยากที่สุดเกี่ยวกับ AI และมุ่งมั่นที่จะแสดงผลงานของเราในขณะที่เราพูดคุยกับพวกเขา"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
+        "th": "Ben Bernanke ได้รับการแต่งตั้งให้เป็น Long-Term Benefit Trust ของ Anthropic"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Introducing a way to reflect on how you use Claude",
+        "th": "ขอแนะนำวิธีการไตร่ตรองว่าคุณใช้ Claude อย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Introducing a new way to reflect on and refine how you use Claude. It lets you easily track and visualize how you use Claude, and decide whether that time aligns with your goals.",
+        "th": "ขอแนะนำวิธีใหม่ในการไตร่ตรองและปรับปรุงวิธีการใช้ Claude ช่วยให้คุณติดตามและเห็นภาพวิธีการใช้ Claude ได้อย่างง่ายดาย และตัดสินใจว่าเวลานั้นสอดคล้องกับเป้าหมายของคุณหรือไม่"
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T23:05:34.699Z",
+  "generatedAt": "2026-07-10T02:10:54.991Z",
   "items": [
     {
       "id": "openai__gpt-5-6-preferred-model-microsoft-365-copilot",
@@ -84,6 +84,23 @@
       "summary": {
         "en": "We're asking the public for their hardest questions about AI, and committing to show our work as we address them.",
         "th": "เรากำลังขอให้สาธารณชนถามคำถามที่ยากที่สุดเกี่ยวกับ AI และมุ่งมั่นที่จะแสดงผลงานของเราในขณะที่เราพูดคุยกับพวกเขา"
+      }
+    },
+    {
+      "id": "anthropic__ust-claude",
+      "slug": "ust-claude",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/ust-claude",
+      "category": "News",
+      "date": "2026-07-09T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Build&backgroundColor=coral",
+      "title": {
+        "en": "UST is bringing Claude to physical AI",
+        "th": "UST กำลังนำ Claude มาสู่ AI ทางกายภาพ"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
       }
     },
     {
@@ -1257,23 +1274,6 @@
       "summary": {
         "en": "GLM-5.2: Built for Long-Horizon Tasks",
         "th": "GLM-5.2: สร้างขึ้นสำหรับงานระยะยาว"
-      }
-    },
-    {
-      "id": "anthropic__seoul-office-partnerships-korean-ai-ecosystem",
-      "slug": "seoul-office-partnerships-korean-ai-ecosystem",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
-      "category": "News",
-      "date": "2026-06-17T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Globe&backgroundColor=heather",
-      "title": {
-        "en": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
-        "th": "Anthropic เปิดสำนักงานในกรุงโซลและประกาศความร่วมมือใหม่ทั่วทั้งระบบนิเวศ AI ของเกาหลี"
-      },
-      "summary": {
-        "en": "Anthropic opens in Seoul and announces new partnerships across the Korean AI ecosystem.",
-        "th": "Anthropic เปิดตัวในกรุงโซลและประกาศความร่วมมือครั้งใหม่ทั่วทั้งระบบนิเวศ AI ของเกาหลี"
       }
     },
     {

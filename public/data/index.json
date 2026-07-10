@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-07-10T07:29:39.092Z",
+  "generatedAt": "2026-07-10T10:47:57.481Z",
   "items": [
+    {
+      "id": "openai__deutsche-telekom",
+      "slug": "deutsche-telekom",
+      "source": "openai",
+      "url": "https://openai.com/index/deutsche-telekom",
+      "category": "News",
+      "date": "2026-07-10T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How Deutsche Telekom is rewiring telecommunications with AI",
+        "th": "Deutsche Telekom เปลี่ยนเส้นทางโทรคมนาคมด้วย AI อย่างไร"
+      },
+      "summary": {
+        "en": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+        "th": "วิธีที่ Deutsche Telekom กลายเป็นบริษัทโทรคมนาคมที่มี AI ดั้งเดิมด้วย OpenAI ที่พลิกโฉมการบริการลูกค้า เวิร์กโฟลว์ของพนักงาน การดำเนินงานเครือข่าย และอนาคตของเสียง"
+      }
+    },
+    {
+      "id": "huggingface__torch-attention-profile",
+      "slug": "torch-attention-profile",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/torch-attention-profile",
+      "category": "News",
+      "date": "2026-07-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Profiling in PyTorch (Part 3): Attention is all you profile",
+        "th": "การทำโปรไฟล์ใน PyTorch (ตอนที่ 3): ความสนใจคือสิ่งที่คุณทำ"
+      },
+      "summary": {
+        "en": "Profiling in PyTorch (Part 3): Attention is all you profile",
+        "th": "การทำโปรไฟล์ใน PyTorch (ตอนที่ 3): ความสนใจคือสิ่งที่คุณทำ"
+      }
+    },
     {
       "id": "openai__gpt-5-6-preferred-model-microsoft-365-copilot",
       "slug": "gpt-5-6-preferred-model-microsoft-365-copilot",
@@ -16,6 +50,23 @@
       "summary": {
         "en": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
         "th": "เรียนรู้ว่า GPT-5.6 ขับเคลื่อน Microsoft 365 Copilot ด้วยความสามารถ AI ที่แข็งแกร่งยิ่งขึ้นใน Word, Excel, PowerPoint, Chat และ Cowork เพื่อการทำงานที่รวดเร็วและมีคุณภาพสูงขึ้นได้อย่างไร"
+      }
+    },
+    {
+      "id": "openai__gpt-5-6",
+      "slug": "gpt-5-6",
+      "source": "openai",
+      "url": "https://openai.com/index/gpt-5-6",
+      "category": "Product",
+      "date": "2026-07-09T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "GPT-5.6: Frontier intelligence that scales with your ambition",
+        "th": "GPT-5.6: ความฉลาดระดับแนวหน้าที่จะปรับขนาดตามความทะเยอทะยานของคุณ"
+      },
+      "summary": {
+        "en": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+        "th": "ความชาญฉลาดที่มากขึ้นจากทุกโทเค็น ประสิทธิภาพที่แข็งแกร่งต่อดอลลาร์ และความสามารถที่มากขึ้นตามความต้องการสำหรับงานที่หนักที่สุดของคุณ"
       }
     },
     {
@@ -50,23 +101,6 @@
       "summary": {
         "en": "Details about the OpenAI Bio Bounty program",
         "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
-      }
-    },
-    {
-      "id": "openai__gpt-5-6",
-      "slug": "gpt-5-6",
-      "source": "openai",
-      "url": "https://openai.com/index/gpt-5-6",
-      "category": "Product",
-      "date": "2026-07-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "GPT-5.6: Frontier intelligence that scales with your ambition",
-        "th": "GPT-5.6: ความฉลาดระดับแนวหน้าที่จะปรับขนาดตามความทะเยอทะยานของคุณ"
-      },
-      "summary": {
-        "en": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-        "th": "ความชาญฉลาดที่มากขึ้นจากทุกโทเค็น ประสิทธิภาพที่แข็งแกร่งต่อดอลลาร์ และความสามารถที่มากขึ้นตามความต้องการสำหรับงานที่หนักที่สุดของคุณ"
       }
     },
     {
@@ -631,23 +665,6 @@
       }
     },
     {
-      "id": "openai__introducing-genebench-pro",
-      "slug": "introducing-genebench-pro",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-genebench-pro",
-      "category": "Research",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing GeneBench-Pro",
-        "th": "ขอแนะนำ GeneBench-Pro"
-      },
-      "summary": {
-        "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-        "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
-      }
-    },
-    {
       "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
       "slug": "core-dump-epidemiology-data-infrastructure-bug",
       "source": "openai",
@@ -662,6 +679,23 @@
       "summary": {
         "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
         "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
+      }
+    },
+    {
+      "id": "openai__introducing-genebench-pro",
+      "slug": "introducing-genebench-pro",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "category": "Research",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing GeneBench-Pro",
+        "th": "ขอแนะนำ GeneBench-Pro"
+      },
+      "summary": {
+        "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+        "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
       }
     },
     {
@@ -1022,23 +1056,6 @@
       }
     },
     {
-      "id": "openai__patch-the-planet",
-      "slug": "patch-the-planet",
-      "source": "openai",
-      "url": "https://openai.com/index/patch-the-planet",
-      "category": "Security",
-      "date": "2026-06-22T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-        "th": "Patch the Planet: โครงการริเริ่ม Daybreak เพื่อสนับสนุนผู้ดูแลโอเพ่นซอร์ส"
-      },
-      "summary": {
-        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-        "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
-      }
-    },
-    {
       "id": "openai__daybreak-securing-the-world",
       "slug": "daybreak-securing-the-world",
       "source": "openai",
@@ -1053,6 +1070,23 @@
       "summary": {
         "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
         "th": "OpenAI เปิดตัวเครื่องมือ Daybreak ใหม่ รวมถึง Codex Security และ GPT-5.5-Cyber ​​เพื่อช่วยให้องค์กรค้นหา ตรวจสอบ และแก้ไขช่องโหว่ในวงกว้าง"
+      }
+    },
+    {
+      "id": "openai__patch-the-planet",
+      "slug": "patch-the-planet",
+      "source": "openai",
+      "url": "https://openai.com/index/patch-the-planet",
+      "category": "Security",
+      "date": "2026-06-22T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+        "th": "Patch the Planet: โครงการริเริ่ม Daybreak เพื่อสนับสนุนผู้ดูแลโอเพ่นซอร์ส"
+      },
+      "summary": {
+        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+        "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
       }
     },
     {
@@ -1447,20 +1481,20 @@
       }
     },
     {
-      "id": "openai__supporting-eu-trustworthy-ai-ecosystem",
-      "slug": "supporting-eu-trustworthy-ai-ecosystem",
+      "id": "openai__using-codex-to-simulate-black-holes",
+      "slug": "using-codex-to-simulate-black-holes",
       "source": "openai",
-      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-      "category": "Global Affairs",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "category": "Applied AI",
       "date": "2026-06-11T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-        "th": "สนับสนุนงานของยุโรปในการรับรองระบบนิเวศ AI ที่น่าเชื่อถือ"
+        "en": "How an astrophysicist uses Codex to help simulate black holes",
+        "th": "นักดาราศาสตร์ฟิสิกส์ใช้ Codex เพื่อช่วยจำลองหลุมดำอย่างไร"
       },
       "summary": {
-        "en": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
-        "th": "OpenAI สนับสนุนหลักปฏิบัติของสหภาพยุโรปเกี่ยวกับความโปร่งใสของเนื้อหา AI พัฒนามาตรฐานแหล่งที่มาและเครื่องมือเพื่อช่วยให้ผู้คนเข้าใจเนื้อหาที่สร้างโดย AI"
+        "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+        "th": "ค้นพบวิธีที่นักฟิสิกส์ดาราศาสตร์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
       }
     },
     {
@@ -1481,23 +1515,6 @@
       }
     },
     {
-      "id": "openai__using-codex-to-simulate-black-holes",
-      "slug": "using-codex-to-simulate-black-holes",
-      "source": "openai",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "category": "Applied AI",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How an astrophysicist uses Codex to help simulate black holes",
-        "th": "นักดาราศาสตร์ฟิสิกส์ใช้ Codex เพื่อช่วยจำลองหลุมดำอย่างไร"
-      },
-      "summary": {
-        "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-        "th": "ค้นพบวิธีที่นักฟิสิกส์ดาราศาสตร์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
-      }
-    },
-    {
       "id": "openai__bbva",
       "slug": "bbva",
       "source": "openai",
@@ -1515,6 +1532,23 @@
       }
     },
     {
+      "id": "openai__supporting-eu-trustworthy-ai-ecosystem",
+      "slug": "supporting-eu-trustworthy-ai-ecosystem",
+      "source": "openai",
+      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "category": "Global Affairs",
+      "date": "2026-06-11T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+        "th": "สนับสนุนงานของยุโรปในการรับรองระบบนิเวศ AI ที่น่าเชื่อถือ"
+      },
+      "summary": {
+        "en": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+        "th": "OpenAI สนับสนุนหลักปฏิบัติของสหภาพยุโรปเกี่ยวกับความโปร่งใสของเนื้อหา AI พัฒนามาตรฐานแหล่งที่มาและเครื่องมือเพื่อช่วยให้ผู้คนเข้าใจเนื้อหาที่สร้างโดย AI"
+      }
+    },
+    {
       "id": "huggingface__torch-mlp-fusion",
       "slug": "torch-mlp-fusion",
       "source": "huggingface",
@@ -1529,23 +1563,6 @@
       "summary": {
         "en": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
         "th": "การสร้างโปรไฟล์ใน PyTorch (ตอนที่ 2): จาก nn.Linear ไปจนถึง Fused MLP"
-      }
-    },
-    {
-      "id": "openai__openai-on-oracle-cloud",
-      "slug": "openai-on-oracle-cloud",
-      "source": "openai",
-      "url": "https://openai.com/index/openai-on-oracle-cloud",
-      "category": "Company",
-      "date": "2026-06-10T20:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Access OpenAI models and Codex through your Oracle cloud commitment",
-        "th": "เข้าถึงโมเดล OpenAI และ Codex ผ่านความมุ่งมั่นของ Oracle Cloud"
-      },
-      "summary": {
-        "en": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
-        "th": "เข้าถึงโมเดล OpenAI และ Codex ผ่าน Oracle Cloud โดยใช้ข้อผูกพันที่มีอยู่เพื่อสร้างและปรับใช้ AI ด้วยการรักษาความปลอดภัยและการกำกับดูแลระดับองค์กร"
       }
     },
     {
@@ -1971,23 +1988,6 @@
       "summary": {
         "en": "Reachy Mini goes fully local",
         "th": "Reachy Mini เข้าถึงท้องถิ่นได้อย่างเต็มรูปแบบ"
-      }
-    },
-    {
-      "id": "huggingface__delta-weight-sync",
-      "slug": "delta-weight-sync",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/delta-weight-sync",
-      "category": "News",
-      "date": "2026-05-27T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
-        "th": "จัดส่งพารามิเตอร์ล้านล้านด้วย Hub Bucket: Delta Weight Sync ใน TRL"
-      },
-      "summary": {
-        "en": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
-        "th": "จัดส่งพารามิเตอร์ล้านล้านด้วย Hub Bucket: Delta Weight Sync ใน TRL"
       }
     },
     {

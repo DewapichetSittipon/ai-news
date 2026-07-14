@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-14T13:16:26.183Z",
+  "generatedAt": "2026-07-14T15:20:18.724Z",
   "items": [
+    {
+      "id": "anthropic__claude-for-teachers",
+      "slug": "claude-for-teachers",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/claude-for-teachers",
+      "category": "News",
+      "date": "2026-07-14T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Introducing Claude for Teachers",
+        "th": "ขอแนะนำคลอดด์สำหรับครู"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+      }
+    },
     {
       "id": "anthropic__canadian-ai-research",
       "slug": "canadian-ai-research",
@@ -19,23 +36,6 @@
       }
     },
     {
-      "id": "openai__how-data-science-teams-use-codex",
-      "slug": "how-data-science-teams-use-codex",
-      "source": "openai",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "category": "OpenAI Academy",
-      "date": "2026-07-14T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How data science teams use ChatGPT Work",
-        "th": "ทีมวิทยาศาสตร์ข้อมูลใช้งาน ChatGPT อย่างไร"
-      },
-      "summary": {
-        "en": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-        "th": "ดูว่าทีมวิทยาศาสตร์ข้อมูลสามารถใช้ ChatGPT Work เพื่อสร้างบทสรุปที่ต้นตอ การอ่านผลกระทบ บันทึก KPI การวิเคราะห์แบบกำหนดขอบเขต และข้อมูลจำเพาะของแดชบอร์ดจากอินพุตงานจริงได้อย่างไร"
-      }
-    },
-    {
       "id": "openai__how-sales-teams-use-codex",
       "slug": "how-sales-teams-use-codex",
       "source": "openai",
@@ -50,6 +50,23 @@
       "summary": {
         "en": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
         "th": "ดูว่าทีมขายสามารถใช้ ChatGPT Work เพื่อสร้างบทสรุปไปป์ไลน์ แพคเกจการเตรียมการประชุม การตรวจสอบการคาดการณ์ แผนบัญชี และการวินิจฉัยข้อตกลงที่หยุดชะงักจากอินพุตงานจริงได้อย่างไร"
+      }
+    },
+    {
+      "id": "openai__how-data-science-teams-use-codex",
+      "slug": "how-data-science-teams-use-codex",
+      "source": "openai",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "category": "OpenAI Academy",
+      "date": "2026-07-14T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How data science teams use ChatGPT Work",
+        "th": "ทีมวิทยาศาสตร์ข้อมูลใช้งาน ChatGPT อย่างไร"
+      },
+      "summary": {
+        "en": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+        "th": "ดูว่าทีมวิทยาศาสตร์ข้อมูลสามารถใช้ ChatGPT Work เพื่อสร้างบทสรุปที่ต้นตอ การอ่านผลกระทบ บันทึก KPI การวิเคราะห์แบบกำหนดขอบเขต และข้อมูลจำเพาะของแดชบอร์ดจากอินพุตงานจริงได้อย่างไร"
       }
     },
     {
@@ -138,6 +155,23 @@
       }
     },
     {
+      "id": "openai__bio-bug-bounty",
+      "slug": "bio-bug-bounty",
+      "source": "openai",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "category": "Safety",
+      "date": "2026-07-09T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "GPT-5.5 Bio Bug Bounty",
+        "th": "GPT-5.5 รางวัลแมลงชีวภาพ"
+      },
+      "summary": {
+        "en": "Details about the OpenAI Bio Bounty program",
+        "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
+      }
+    },
+    {
       "id": "openai__gpt-5-6",
       "slug": "gpt-5-6",
       "source": "openai",
@@ -169,23 +203,6 @@
       "summary": {
         "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
         "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
-      }
-    },
-    {
-      "id": "openai__bio-bug-bounty",
-      "slug": "bio-bug-bounty",
-      "source": "openai",
-      "url": "https://openai.com/index/bio-bug-bounty",
-      "category": "Safety",
-      "date": "2026-07-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "GPT-5.5 Bio Bug Bounty",
-        "th": "GPT-5.5 รางวัลแมลงชีวภาพ"
-      },
-      "summary": {
-        "en": "Details about the OpenAI Bio Bounty program",
-        "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
       }
     },
     {
@@ -410,23 +427,6 @@
       }
     },
     {
-      "id": "openai__australian-payments-plus",
-      "slug": "australian-payments-plus",
-      "source": "openai",
-      "url": "https://openai.com/index/australian-payments-plus",
-      "category": "News",
-      "date": "2026-07-07T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Australian Payments Plus moves faster with ChatGPT and Codex",
-        "th": "Australian Payments Plus เคลื่อนไหวเร็วขึ้นด้วย ChatGPT และ Codex"
-      },
-      "summary": {
-        "en": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-        "th": "ดูว่า Australian Payments Plus ใช้ ChatGPT Enterprise และ Codex เพื่อดำเนินการได้เร็วขึ้นผ่านความซับซ้อนในการชำระเงินได้อย่างไร AP+ ช่วยประหยัดเวลา ปรับปรุงคุณภาพ และให้ความสำคัญกับการตัดสินของมนุษย์"
-      }
-    },
-    {
       "id": "openai__mufg",
       "slug": "mufg",
       "source": "openai",
@@ -441,6 +441,23 @@
       "summary": {
         "en": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
         "th": "MUFG ใช้ ChatGPT Enterprise เพื่อสร้างองค์กรที่ขับเคลื่อนด้วย AI ปรับปรุงขั้นตอนการทำงาน และนำเสนอบริการทางการเงินที่ขับเคลื่อนด้วย AI ในวงกว้าง"
+      }
+    },
+    {
+      "id": "openai__australian-payments-plus",
+      "slug": "australian-payments-plus",
+      "source": "openai",
+      "url": "https://openai.com/index/australian-payments-plus",
+      "category": "News",
+      "date": "2026-07-07T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Australian Payments Plus moves faster with ChatGPT and Codex",
+        "th": "Australian Payments Plus เคลื่อนไหวเร็วขึ้นด้วย ChatGPT และ Codex"
+      },
+      "summary": {
+        "en": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+        "th": "ดูว่า Australian Payments Plus ใช้ ChatGPT Enterprise และ Codex เพื่อดำเนินการได้เร็วขึ้นผ่านความซับซ้อนในการชำระเงินได้อย่างไร AP+ ช่วยประหยัดเวลา ปรับปรุงคุณภาพ และให้ความสำคัญกับการตัดสินของมนุษย์"
       }
     },
     {
@@ -750,20 +767,20 @@
       }
     },
     {
-      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
-      "slug": "core-dump-epidemiology-data-infrastructure-bug",
+      "id": "openai__introducing-genebench-pro",
+      "slug": "introducing-genebench-pro",
       "source": "openai",
-      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "category": "Engineering",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "category": "Research",
       "date": "2026-06-30T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Core dump epidemiology: fixing an 18-year-old bug",
-        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
+        "en": "Introducing GeneBench-Pro",
+        "th": "ขอแนะนำ GeneBench-Pro"
       },
       "summary": {
-        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
+        "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+        "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
       }
     },
     {
@@ -784,20 +801,20 @@
       }
     },
     {
-      "id": "openai__introducing-genebench-pro",
-      "slug": "introducing-genebench-pro",
+      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
+      "slug": "core-dump-epidemiology-data-infrastructure-bug",
       "source": "openai",
-      "url": "https://openai.com/index/introducing-genebench-pro",
-      "category": "Research",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "category": "Engineering",
       "date": "2026-06-30T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Introducing GeneBench-Pro",
-        "th": "ขอแนะนำ GeneBench-Pro"
+        "en": "Core dump epidemiology: fixing an 18-year-old bug",
+        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
       },
       "summary": {
-        "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-        "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
+        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
       }
     },
     {
@@ -1549,20 +1566,20 @@
       }
     },
     {
-      "id": "openai__bbva",
-      "slug": "bbva",
+      "id": "openai__using-codex-to-simulate-black-holes",
+      "slug": "using-codex-to-simulate-black-holes",
       "source": "openai",
-      "url": "https://openai.com/index/bbva",
-      "category": "News",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "category": "Applied AI",
       "date": "2026-06-11T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "BBVA puts AI at the core of banking with OpenAI",
-        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
+        "en": "How an astrophysicist uses Codex to help simulate black holes",
+        "th": "นักดาราศาสตร์ฟิสิกส์ใช้ Codex เพื่อช่วยจำลองหลุมดำอย่างไร"
       },
       "summary": {
-        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
+        "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+        "th": "ค้นพบวิธีที่นักฟิสิกส์ดาราศาสตร์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
       }
     },
     {

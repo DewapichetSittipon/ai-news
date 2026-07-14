@@ -1,0 +1,318 @@
+{
+  "id": "anthropic__claude-for-teachers",
+  "slug": "claude-for-teachers",
+  "source": "anthropic",
+  "url": "https://www.anthropic.com/news/claude-for-teachers",
+  "category": "News",
+  "date": "2026-07-14T00:00:00.000Z",
+  "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+  "title": {
+    "en": "Introducing Claude for Teachers",
+    "th": "ขอแนะนำคลอดด์สำหรับครู"
+  },
+  "summary": {
+    "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+    "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc39f489c0763bac41638f8ea29a0ae1335c3ecb2-1200x630.jpg&w=3840&q=75",
+      "alt": "Introducing Claude for Teachers"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We're introducing Claude for Teachers, providing verified K-12 educators in the US free access to premium Claude capabilities, a library of teaching skills, and a direct connection to evidence-based curricula, mapped to academic standards in all 50 states.",
+        "th": "เรากำลังเปิดตัว Claude for Teachers ซึ่งให้นักการศึกษาระดับอนุบาลถึงมัธยมศึกษา (K-12) ในสหรัฐอเมริกาที่ได้รับการรับรองเข้าถึงความสามารถระดับพรีเมียมของ Claude คลังทักษะการสอน และการเชื่อมต่อโดยตรงกับหลักสูตรที่อิงหลักฐานเชิงประจักษ์ ซึ่งสอดคล้องกับมาตรฐานการศึกษาใน 50 รัฐ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Why we’re building for teachers",
+        "th": "เหตุใดเราจึงสร้างเพื่อครู"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Decades of research show that practices like differentiation, mastery-based learning, and small group instruction reliably improve student achievement, but teachers are often short on time and resources to implement them. Budgets are stretched, classes may be too large to meet every student's individual needs, and planning often spills into evenings. This strain is heaviest in under-resourced schools. Claude for Teachers is designed to close the gap between educational best practices and what a teacher's week allows.",
+        "th": "การวิจัยหลายทศวรรษแสดงให้เห็นว่าแนวทางปฏิบัติ เช่น การสร้างความแตกต่าง การเรียนรู้จากความเชี่ยวชาญ และการสอนกลุ่มย่อยสามารถปรับปรุงผลสัมฤทธิ์ของนักเรียนได้อย่างน่าเชื่อถือ แต่ครูมักมีเวลาและทรัพยากรไม่เพียงพอในการนำไปปฏิบัติ งบประมาณถูกขยายออกไป ชั้นเรียนอาจมีมากเกินไปที่จะสนองความต้องการส่วนบุคคลของนักเรียนทุกคน และการวางแผนมักจะล้นไปจนถึงช่วงเย็น ความเครียดนี้หนักที่สุดในโรงเรียนที่มีทรัพยากรไม่เพียงพอ Claude for Teachers ได้รับการออกแบบมาเพื่อปิดช่องว่างระหว่างแนวทางปฏิบัติที่ดีที่สุดในด้านการศึกษากับสิ่งที่สัปดาห์ของครูอนุญาต"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Early evidence suggests that while the impact of AI tools for students is mixed and depends on the implementation, AI tools for teachers can strengthen instructional practice and improve student outcomes. This is the aim of Claude for Teachers: support the craft behind great teaching and protect what teachers value most—time with their students.",
+        "th": "หลักฐานเบื้องต้นชี้ให้เห็นว่าแม้ว่าผลกระทบของเครื่องมือ AI สำหรับนักเรียนจะมีความหลากหลายและขึ้นอยู่กับการใช้งาน แต่เครื่องมือ AI สำหรับครูสามารถเสริมสร้างการปฏิบัติงานด้านการสอนและปรับปรุงผลลัพธ์ของนักเรียนได้ นี่คือเป้าหมายของ Claude for Teachers: สนับสนุนงานฝีมือเบื้องหลังการสอนที่ยอดเยี่ยม และปกป้องสิ่งที่ครูให้ความสำคัญมากที่สุด นั่นก็คือการใช้เวลากับนักเรียน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Connected to evidence-based curricula and the K-12 ecosystem",
+        "th": "เชื่อมต่อกับหลักสูตรที่อิงหลักฐานเชิงประจักษ์และระบบนิเวศ K-12"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Claude for Teachers connects to Learning Commons, giving Claude access to academic standards across all 50 states—and beneath each standard, the smaller learning competencies it's built from and the order students typically learn them. So when Claude drafts a lesson plan, it’s scaffolded and aligned to teaching standards. Claude for Teachers also brings in trusted curricular resources like OpenSciEd and IM v.360 from Illustrative Mathematics.",
+        "th": "Claude for Teachers เชื่อมต่อกับ Learning Commons ทำให้ Claude สามารถเข้าถึงมาตรฐานการศึกษาทั่วทั้ง 50 รัฐ และภายใต้แต่ละมาตรฐาน ความสามารถในการเรียนรู้เล็กๆ น้อยๆ ที่สร้างขึ้นและลำดับที่นักเรียนมักจะเรียนรู้ ดังนั้นเมื่อ Claude ร่างแผนการสอน แผนการสอนก็จะช่วยสนับสนุนและสอดคล้องกับมาตรฐานการสอน Claude for Teachers ยังนำแหล่งข้อมูลหลักสูตรที่เชื่อถือได้ เช่น OpenSciEd และ IM v.360 จาก Illustrative Mathematics มาด้วย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As of today, educators can now connect Claude across an entire ecosystem of K-12 tools.",
+        "th": "ณ วันนี้ นักการศึกษาสามารถเชื่อมต่อ Claude เข้ากับระบบนิเวศทั้งหมดของเครื่องมือระดับอนุบาลถึงมัธยมศึกษาตอนปลาย (K-12) ได้แล้ว"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ASSISTments: Generate auto-scored, standards-aligned math problems for practice and assessment.",
+        "th": "ความช่วยเหลือ: สร้างปัญหาทางคณิตศาสตร์ที่ได้คะแนนอัตโนมัติและเป็นไปตามมาตรฐานสำหรับแบบฝึกหัดและการประเมิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Brisk Teaching: Create interactive student activities and standards-aligned lessons, turning your ideas into classroom-ready materials in seconds.",
+        "th": "การสอนที่รวดเร็ว: สร้างกิจกรรมนักเรียนแบบโต้ตอบและบทเรียนที่ได้มาตรฐาน เปลี่ยนความคิดของคุณให้เป็นสื่อที่พร้อมสำหรับชั้นเรียนในไม่กี่วินาที"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Canva Education: Turn lesson materials into classroom-ready designs and interactive learning experiences.",
+        "th": "Canva Education: เปลี่ยนสื่อการสอนให้เป็นการออกแบบที่พร้อมใช้ในชั้นเรียนและประสบการณ์การเรียนรู้เชิงโต้ตอบ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Coteach: Create high-quality math diagrams grounded in K-12 curriculum.",
+        "th": "Coteach: สร้างไดอะแกรมคณิตศาสตร์คุณภาพสูงที่มีพื้นฐานอยู่ในหลักสูตร K-12"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Diffit: Create and adapt instructional materials for every student.",
+        "th": "ปัญหา: สร้างและปรับใช้สื่อการสอนสำหรับนักเรียนทุกคน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Eedi: Generate diagnostic questions that go beyond right and wrong to reveal student thinking and deepen insights, in both English and Spanish.",
+        "th": "Eedi: สร้างคำถามวินิจฉัยที่นอกเหนือไปจากสิ่งที่ถูกและผิดเพื่อเปิดเผยความคิดของนักเรียนและข้อมูลเชิงลึกทั้งในภาษาอังกฤษและสเปน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "MagicSchool: Make instructional content classroom-ready.",
+        "th": "MagicSchool: เตรียมเนื้อหาการสอนให้พร้อมในชั้นเรียน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Snorkl: Get insights about your classes, assignments, and student progress to inform your instruction.",
+        "th": "Snorkl: รับข้อมูลเชิงลึกเกี่ยวกับชั้นเรียน งาน และความก้าวหน้าของนักเรียนเพื่อแจ้งการสอนของคุณ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "TeachFX: Get personalized instructional feedback grounded in real classroom talk.",
+        "th": "TeachFX: รับข้อเสนอแนะด้านการสอนที่เป็นส่วนตัวซึ่งมีพื้นฐานมาจากการพูดคุยในห้องเรียนจริง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How it works",
+        "th": "มันทำงานอย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Once verified, K-12 educators in the US get access to Claude for Teachers with the Learning Commons connector and a set of tailored teaching skills grounded in learning science. The skills, co-developed with Learning Commons, were designed around the tasks teachers told us mattered most. These were evaluated to ensure rigor, pedagogical alignment, and classroom usability, and refined through early feedback from classroom teachers, including those in schools like Prospect Schools in Brooklyn.",
+        "th": "เมื่อผ่านการตรวจสอบแล้ว นักการศึกษาระดับอนุบาลถึงมัธยมศึกษา (K-12) ในสหรัฐอเมริกาจะสามารถเข้าถึง Claude for Teachers ที่มีตัวเชื่อมต่อ Learning Commons และชุดทักษะการสอนที่ปรับให้เหมาะกับการเรียนรู้ทางวิทยาศาสตร์ ทักษะที่พัฒนาร่วมกับ Learning Commons ได้รับการออกแบบโดยคำนึงถึงงานที่ครูบอกเราว่าสำคัญที่สุด สิ่งเหล่านี้ได้รับการประเมินเพื่อให้แน่ใจว่ามีความเข้มงวด การจัดแนวการสอน และการใช้งานในชั้นเรียน และได้รับการปรับปรุงผ่านการตอบรับตั้งแต่เนิ่นๆ จากครูประจำชั้น รวมถึงโรงเรียนในโรงเรียนอย่าง Prospect Schools ในบรูคลิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Plan a lesson from high-quality instructional materials. Ask for a lesson and Claude draws on widely used curricula mapped to your state's standards, as well as fine-grained learning components and progressions beneath them, then drafts a plan and student-facing materials you can revise and take into class.",
+        "th": "วางแผนบทเรียนจากสื่อการสอนคุณภาพสูง ขอบทเรียนและ Claude ใช้หลักสูตรที่ใช้กันอย่างแพร่หลายซึ่งสอดคล้องกับมาตรฐานของรัฐของคุณ ตลอดจนองค์ประกอบการเรียนรู้ที่ละเอียดและความก้าวหน้าที่อยู่ข้างใต้ จากนั้นจึงร่างแผนและสื่อการสอนสำหรับนักเรียนที่คุณสามารถแก้ไขและนำไปใช้ในชั้นเรียนได้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Differentiate for every learner in your room. Ask Claude to adapt materials for students at different readiness levels and it builds a differentiation plan for you, plus personalized student-facing materials for each proficiency level. The scaffolds make materials accessible to students, while students who are ready can be further challenged.",
+        "th": "สร้างความแตกต่างให้กับผู้เรียนทุกคนในห้องของคุณ ขอให้ Claude ปรับสื่อการสอนสำหรับนักเรียนในระดับความพร้อมที่แตกต่างกัน และสร้างแผนสร้างความแตกต่างให้กับคุณ รวมถึงสื่อการสอนสำหรับนักเรียนแต่ละคนที่เหมาะกับแต่ละระดับความสามารถ โครงช่วยให้นักเรียนเข้าถึงสื่อต่างๆ ได้ ในขณะที่นักเรียนที่พร้อมก็สามารถท้าทายเพิ่มเติมได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Claude for Teachers includes Claude Code and Cowork, which means Claude can carry work forward on its own. Some examples:",
+        "th": "Claude for Teachers ประกอบด้วย Claude Code และ Cowork ซึ่งหมายความว่า Claude สามารถดำเนินงานต่อไปได้ด้วยตัวเอง ตัวอย่างบางส่วน:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Analyze class data to plan instruction. Hand Claude a folder of data—roster, diagnostics, attendance, your own notes—and it builds a clear picture of where every student is, allowing teachers to better tailor instruction. You control what data is shared; nothing you share is used in model training.",
+        "th": "วิเคราะห์ข้อมูลในชั้นเรียนเพื่อวางแผนการสอน มอบโฟลเดอร์ข้อมูลให้กับ Claude ไม่ว่าจะเป็นบัญชีรายชื่อ การวินิจฉัย การเข้าเรียน บันทึกของคุณเอง และจะสร้างภาพที่ชัดเจนว่านักเรียนทุกคนอยู่ที่ไหน ช่วยให้ครูปรับแต่งการสอนได้ดียิ่งขึ้น คุณสามารถควบคุมข้อมูลที่จะแบ่งปันได้ ไม่มีการใช้สิ่งใดที่คุณแชร์ในการฝึกโมเดล"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Schedule repeated tasks. Hand off a task once—like reviewing each day's exit tickets to see what students mastered and adapting tomorrow's plan to match—and it runs every school day at 4pm. Claude works while you drive home.",
+        "th": "กำหนดเวลางานซ้ำ มอบหมายงานเพียงครั้งเดียว เช่น การตรวจสอบตั๋วทางออกในแต่ละวันเพื่อดูว่านักเรียนเชี่ยวชาญอะไรและปรับแผนของวันพรุ่งนี้ให้ตรงกัน และจะดำเนินการทุกวันที่โรงเรียนเวลา 16.00 น. โคลดทำงานในขณะที่คุณขับรถกลับบ้าน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Learn more from two teachers, Zac and Karina, explaining how they use Claude for Teachers in their own classrooms.",
+        "th": "เรียนรู้เพิ่มเติมจากครูสองคน Zac และ Karina ซึ่งอธิบายวิธีที่พวกเขาใช้ Claude for Teachers ในห้องเรียนของตนเอง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Built for educators, safe with student data",
+        "th": "สร้างขึ้นเพื่อนักการศึกษา ปลอดภัยด้วยข้อมูลของนักเรียน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Claude for Teachers is for educators only, consistent with Claude's 18-and-over policy. It comes with its own teacher terms, built for K-12 privacy. Claude for Teachers data is not used for model training purposes, and student information is protected by our K-12 Data Processing Addendum, written to comply with FERPA.",
+        "th": "Claude for Teachers มีไว้สำหรับนักการศึกษาเท่านั้น ซึ่งสอดคล้องกับนโยบายอายุ 18 ปีขึ้นไปของ Claude มีเงื่อนไขการเป็นครูของตัวเอง ซึ่งสร้างขึ้นเพื่อความเป็นส่วนตัวในระดับอนุบาลถึงมัธยมศึกษาตอนปลาย (K-12) ข้อมูล Claude for Teachers จะไม่ถูกใช้เพื่อวัตถุประสงค์ในการฝึกอบรมแบบจำลอง และข้อมูลนักเรียนได้รับการคุ้มครองโดยภาคผนวกการประมวลผลข้อมูลระดับอนุบาลถึงมัธยมศึกษาตอนปลาย (K-12 Data Processing Addendum) ซึ่งเขียนขึ้นเพื่อให้สอดคล้องกับ FERPA"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re also working with the American Federation of Teachers to align our terms and privacy practices with gold standards they’re developing:",
+        "th": "นอกจากนี้ เรายังทำงานร่วมกับ American Federation of Teachers เพื่อปรับข้อกำหนดและหลักปฏิบัติด้านความเป็นส่วนตัวให้สอดคล้องกับมาตรฐานทองคำที่พวกเขากำลังพัฒนา:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“We've been working with Anthropic on a Gold Standard that sets out industry best practices for safety and privacy in K-12 education,” said Randi Weingarten, President of the American Federation of Teachers. “It’s important that Anthropic is committing to these principles in their new Claude for Teachers — a tool designed by and for educators to assist them instructionally and hopefully give them more time for the human relationships at the heart of learning.”",
+        "th": "“เราได้ทำงานร่วมกับ Anthropic ในเรื่องมาตรฐานทองคำที่กำหนดแนวทางปฏิบัติที่ดีที่สุดในอุตสาหกรรมด้านความปลอดภัยและความเป็นส่วนตัวในการศึกษาระดับอนุบาลถึงมัธยมศึกษา (K-12)” Randi Weingarten ประธานสหพันธ์ครูแห่งอเมริกากล่าว “สิ่งสำคัญคือ Anthropic จะต้องปฏิบัติตามหลักการเหล่านี้ใน Claude for Teachers ใหม่ ซึ่งเป็นเครื่องมือที่ออกแบบโดยและสำหรับนักการศึกษาเพื่อช่วยเหลือพวกเขาในการเรียนการสอน และหวังว่าจะทำให้พวกเขามีเวลามากขึ้นสำหรับความสัมพันธ์ของมนุษย์ที่เป็นหัวใจของการเรียนรู้”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can read more about our K-12 data privacy standards for Claude for Teachers here.",
+        "th": "คุณสามารถอ่านเพิ่มเติมเกี่ยวกับมาตรฐานความเป็นส่วนตัวของข้อมูลระดับอนุบาลถึงมัธยมศึกษาตอนปลาย (K-12) สำหรับ Claude for Teachers ได้ที่นี่"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "AI fluency for teachers",
+        "th": "ความคล่องแคล่วของ AI สำหรับครู"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Teachers can also access our newly released AI Fluency for K-12 Teachers, a course co-created with Teach for America, and a train-the-trainer module co-created with the American Federation of Teachers. The guidance is model-agnostic, Creative Commons-licensed, and practical, covering which classroom tasks AI is suited for and how to use it responsibly with students.",
+        "th": "ครูยังสามารถเข้าถึง AI Fluency สำหรับครูระดับอนุบาลถึงมัธยมศึกษาตอนปลาย (K-12 Teachers) ที่เพิ่งเปิดตัว ซึ่งเป็นหลักสูตรที่ร่วมสร้างกับ Teach for America และโมดูล Train-the-Trainer ที่สร้างร่วมกับ American Federation of Teachers คำแนะนำนี้เป็นแบบไม่เชื่อเรื่องพระเจ้าตามแบบจำลอง มีใบอนุญาตครีเอทีฟคอมมอนส์ และใช้งานได้จริง โดยครอบคลุมถึงงานในชั้นเรียนที่ AI เหมาะสม และวิธีการใช้งานอย่างมีความรับผิดชอบกับนักเรียน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Sharing what we build",
+        "th": "แบ่งปันสิ่งที่เราสร้าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This product stems from Anthropic's broader efforts in education, focused on supporting teachers and improving learning outcomes for students. As part of our Beneficial Deployments mission, we’re releasing a set of public goods to support the community focused on building for teachers.",
+        "th": "ผลิตภัณฑ์นี้เกิดขึ้นจากความพยายามด้านการศึกษาที่กว้างขึ้นของ Anthropic โดยมุ่งเน้นที่การสนับสนุนครูและปรับปรุงผลการเรียนรู้สำหรับนักเรียน ในฐานะส่วนหนึ่งของภารกิจการปรับใช้เพื่อประโยชน์ของเรา เรากำลังเผยแพร่ชุดสินค้าสาธารณะเพื่อสนับสนุนชุมชนที่มุ่งเน้นการสร้างสำหรับครู"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This includes the launch of new connectors in Anthropic’s directory, an open-source repository of the teaching skills, and a technical write-up of how we evaluated these skills and how other builders in education can use them. We’ll pilot an evaluation of Claude for Teachers in the Detroit Public Schools Community District, working closely with teachers to study the impact on educator well-being and practice. Together, these efforts support the goals of our partnership with the Gates Foundation to co-develop tools that improve educational outcomes for K-12 students. In addition, Playlab will support a national network of lab schools in implementing AI, helping educators become builders of the AI tools used in their classrooms.",
+        "th": "ซึ่งรวมถึงการเปิดตัวตัวเชื่อมต่อใหม่ในไดเร็กทอรีของ Anthropic พื้นที่เก็บข้อมูลโอเพ่นซอร์สสำหรับทักษะการสอน และการเขียนทางเทคนิคเกี่ยวกับวิธีที่เราประเมินทักษะเหล่านี้ และวิธีที่ผู้สร้างรายอื่นในด้านการศึกษาสามารถใช้ทักษะเหล่านั้นได้ เราจะนำร่องการประเมิน Claude for Teachers ในเขตชุมชนโรงเรียนของรัฐในเมืองดีทรอยต์ โดยทำงานอย่างใกล้ชิดกับครูเพื่อศึกษาผลกระทบต่อความเป็นอยู่และการปฏิบัติของนักการศึกษา ความพยายามเหล่านี้ร่วมกันสนับสนุนเป้าหมายของการเป็นหุ้นส่วนของเรากับมูลนิธิ Gates เพื่อร่วมกันพัฒนาเครื่องมือที่ปรับปรุงผลลัพธ์ทางการศึกษาสำหรับนักเรียนระดับอนุบาลถึงมัธยมศึกษา (K-12) นอกจากนี้ Playlab จะสนับสนุนเครือข่ายโรงเรียนห้องปฏิบัติการระดับชาติในการใช้ AI เพื่อช่วยให้นักการศึกษากลายเป็นผู้สร้างเครื่องมือ AI ที่ใช้ในห้องเรียนของตน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Getting started",
+        "th": "เริ่มต้นใช้งาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Once verified, educators can access Claude for Teachers entirely free. Sign up by June 30, 2027 for a full year of access.",
+        "th": "เมื่อได้รับการยืนยันแล้ว นักการศึกษาจะสามารถเข้าถึง Claude for Teachers ได้ฟรี ลงทะเบียนภายในวันที่ 30 มิถุนายน 2027 เพื่อสิทธิ์การเข้าถึงหนึ่งปีเต็ม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Claude for Teachers is for individual educators. A dedicated offering for schools and districts is coming soon. In the meantime, districts interested in Claude can continue using Claude for Nonprofits.",
+        "th": "Claude for Teachers มีไว้สำหรับนักการศึกษารายบุคคล ข้อเสนอเฉพาะสำหรับโรงเรียนและเขตในเร็วๆ นี้ ในระหว่างนี้ เขตที่สนใจ Claude สามารถใช้ Claude for Nonprofits ต่อไปได้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Related content",
+        "th": "เนื้อหาที่เกี่ยวข้อง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Anthropic commits $10 million to Canadian AI research",
+        "th": "Anthropic ทุ่มเงิน 10 ล้านเหรียญสหรัฐให้กับการวิจัย AI ของแคนาดา"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "UST is bringing Claude to physical AI",
+        "th": "UST กำลังนำ Claude มาสู่ AI ทางกายภาพ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Inviting hard questions",
+        "th": "เชิญชวนถามคำถามยากๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re asking the public for their hardest questions about AI, and committing to show our work as we address them.",
+        "th": "เรากำลังขอให้สาธารณชนถามคำถามที่ยากที่สุดเกี่ยวกับ AI และมุ่งมั่นที่จะแสดงผลงานของเราในขณะที่เราพูดคุยกับพวกเขา"
+      }
+    }
+  ]
+}

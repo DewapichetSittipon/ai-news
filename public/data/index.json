@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-14T04:45:39.457Z",
+  "generatedAt": "2026-07-14T07:51:15.503Z",
   "items": [
+    {
+      "id": "deepmind__empowering-indias-next-generation-of-innovators-with-atl-saathi",
+      "slug": "empowering-indias-next-generation-of-innovators-with-atl-saathi",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+      "category": "News",
+      "date": "2026-07-13T12:37:28.000Z",
+      "image": "https://lh3.googleusercontent.com/0BYvIo8ObViyRtRGOYajXHdEGUFX6cKMTQ6lxys98kN0sB6H7rrTo1pdW8M4kCUGnBnidJWbIr6VvcxGKDEDD4YxOVqYRlyxj_a48uqNw_AytF7c-A=w528-h297-n-nu-rw-lo",
+      "title": {
+        "en": "Empowering India’s next generation of innovators with ATL Saathi",
+        "th": "เพิ่มขีดความสามารถของนักสร้างสรรค์รุ่นต่อไปของอินเดียด้วย ATL Saathi"
+      },
+      "summary": {
+        "en": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
+        "th": "Google และ AIM เปิดตัว ATL Saathi ซึ่งเป็นเครื่องมือ AI ที่ขับเคลื่อนโดย Gemini ซึ่งเพิ่มศักยภาพให้กับนักการศึกษาชาวอินเดียในห้องปฏิบัติการหุ่นยนต์"
+      }
+    },
     {
       "id": "openai__deutsche-telekom",
       "slug": "deutsche-telekom",
@@ -682,6 +699,23 @@
       }
     },
     {
+      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
+      "slug": "core-dump-epidemiology-data-infrastructure-bug",
+      "source": "openai",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "category": "Engineering",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Core dump epidemiology: fixing an 18-year-old bug",
+        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
+      },
+      "summary": {
+        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
+      }
+    },
+    {
       "id": "openai__introducing-genebench-pro",
       "slug": "introducing-genebench-pro",
       "source": "openai",
@@ -713,23 +747,6 @@
       "summary": {
         "en": "Inside Genebench-Pro",
         "th": "ภายใน Genebench-Pro"
-      }
-    },
-    {
-      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
-      "slug": "core-dump-epidemiology-data-infrastructure-bug",
-      "source": "openai",
-      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "category": "Engineering",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Core dump epidemiology: fixing an 18-year-old bug",
-        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
-      },
-      "summary": {
-        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
       }
     },
     {
@@ -1073,23 +1090,6 @@
       }
     },
     {
-      "id": "openai__patch-the-planet",
-      "slug": "patch-the-planet",
-      "source": "openai",
-      "url": "https://openai.com/index/patch-the-planet",
-      "category": "Security",
-      "date": "2026-06-22T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-        "th": "Patch the Planet: โครงการริเริ่ม Daybreak เพื่อสนับสนุนผู้ดูแลโอเพ่นซอร์ส"
-      },
-      "summary": {
-        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-        "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
-      }
-    },
-    {
       "id": "openai__daybreak-securing-the-world",
       "slug": "daybreak-securing-the-world",
       "source": "openai",
@@ -1104,6 +1104,23 @@
       "summary": {
         "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
         "th": "OpenAI เปิดตัวเครื่องมือ Daybreak ใหม่ รวมถึง Codex Security และ GPT-5.5-Cyber ​​เพื่อช่วยให้องค์กรค้นหา ตรวจสอบ และแก้ไขช่องโหว่ในวงกว้าง"
+      }
+    },
+    {
+      "id": "openai__patch-the-planet",
+      "slug": "patch-the-planet",
+      "source": "openai",
+      "url": "https://openai.com/index/patch-the-planet",
+      "category": "Security",
+      "date": "2026-06-22T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+        "th": "Patch the Planet: โครงการริเริ่ม Daybreak เพื่อสนับสนุนผู้ดูแลโอเพ่นซอร์ส"
+      },
+      "summary": {
+        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+        "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
       }
     },
     {
@@ -1498,20 +1515,20 @@
       }
     },
     {
-      "id": "openai__bbva",
-      "slug": "bbva",
+      "id": "openai__openai-to-acquire-ona",
+      "slug": "openai-to-acquire-ona",
       "source": "openai",
-      "url": "https://openai.com/index/bbva",
-      "category": "News",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "category": "Company",
       "date": "2026-06-11T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "BBVA puts AI at the core of banking with OpenAI",
-        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
+        "en": "OpenAI to acquire Ona",
+        "th": "OpenAI เพื่อรับ Ona"
       },
       "summary": {
-        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
+        "en": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+        "th": "OpenAI วางแผนที่จะซื้อ Ona เพื่อขยาย Codex ด้วยสภาพแวดล้อมคลาวด์ที่ปลอดภัยและคงอยู่ ช่วยให้ตัวแทน AI ที่ทำงานระยะยาวทั่วทั้งเวิร์กโฟลว์ขององค์กร"
       }
     },
     {
@@ -1532,20 +1549,20 @@
       }
     },
     {
-      "id": "openai__openai-to-acquire-ona",
-      "slug": "openai-to-acquire-ona",
+      "id": "openai__using-codex-to-simulate-black-holes",
+      "slug": "using-codex-to-simulate-black-holes",
       "source": "openai",
-      "url": "https://openai.com/index/openai-to-acquire-ona",
-      "category": "Company",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "category": "Applied AI",
       "date": "2026-06-11T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "OpenAI to acquire Ona",
-        "th": "OpenAI เพื่อรับ Ona"
+        "en": "How an astrophysicist uses Codex to help simulate black holes",
+        "th": "นักดาราศาสตร์ฟิสิกส์ใช้ Codex เพื่อช่วยจำลองหลุมดำอย่างไร"
       },
       "summary": {
-        "en": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-        "th": "OpenAI วางแผนที่จะซื้อ Ona เพื่อขยาย Codex ด้วยสภาพแวดล้อมคลาวด์ที่ปลอดภัยและคงอยู่ ช่วยให้ตัวแทน AI ที่ทำงานระยะยาวทั่วทั้งเวิร์กโฟลว์ขององค์กร"
+        "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+        "th": "ค้นพบวิธีที่นักดาราศาสตร์ฟิสิกส์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
       }
     },
     {
@@ -2532,23 +2549,6 @@
       "summary": {
         "en": "Introducing Lyria 3 Pro, which unlocks longer tracks with structural awareness. We’re also bringing Lyria to more Google products and surfaces.",
         "th": "ขอแนะนำ Lyria 3 Pro ซึ่งปลดล็อกเส้นทางที่ยาวขึ้นด้วยการรับรู้ถึงโครงสร้าง เรายังนำ Lyria มาสู่ผลิตภัณฑ์และแพลตฟอร์มต่างๆ ของ Google อีกด้วย"
-      }
-    },
-    {
-      "id": "deepmind__measuring-progress-toward-agi-a-cognitive-framework",
-      "slug": "measuring-progress-toward-agi-a-cognitive-framework",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/",
-      "category": "News",
-      "date": "2026-03-17T16:03:47.000Z",
-      "image": "https://lh3.googleusercontent.com/kOpPqSCIuZr9xSaOZM-eZl314VHQ80Nmv-PfUJgzGOaHU0KY08nNAahjcjoNWT4T_xy5DH6TfOCXwhgR6POERmrPoXnpCsN8J2LJPgoM01rO3nAWPg=w528-h297-n-nu-rw-lo",
-      "title": {
-        "en": "Measuring progress toward AGI: A cognitive framework",
-        "th": "การวัดความก้าวหน้าสู่ AGI: กรอบความรู้ความเข้าใจ"
-      },
-      "summary": {
-        "en": "We’re introducing a framework to measure progress toward AGI, and launching a Kaggle hackathon to build the relevant evaluations.",
-        "th": "เรากำลังแนะนำกรอบงานเพื่อวัดความก้าวหน้าของ AGI และเปิดตัวแฮ็กกาธอน Kaggle เพื่อสร้างการประเมินที่เกี่ยวข้อง"
       }
     }
   ]

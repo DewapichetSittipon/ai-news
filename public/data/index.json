@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-14T11:20:57.709Z",
+  "generatedAt": "2026-07-14T13:16:26.183Z",
   "items": [
+    {
+      "id": "anthropic__canadian-ai-research",
+      "slug": "canadian-ai-research",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/canadian-ai-research",
+      "category": "News",
+      "date": "2026-07-14T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Globe&backgroundColor=cactus",
+      "title": {
+        "en": "Anthropic commits $10 million to Canadian AI research",
+        "th": "Anthropic ทุ่มเงิน 10 ล้านเหรียญสหรัฐให้กับการวิจัย AI ของแคนาดา"
+      },
+      "summary": {
+        "en": "Anthropic is committing $10M to Canadian research institutions to fund the next generation of AI research.",
+        "th": "Anthropic ทุ่มเงิน 10 ล้านเหรียญสหรัฐให้กับสถาบันวิจัยของแคนาดาเพื่อเป็นทุนสนับสนุนการวิจัย AI รุ่นต่อไป"
+      }
+    },
     {
       "id": "openai__how-data-science-teams-use-codex",
       "slug": "how-data-science-teams-use-codex",
@@ -1036,23 +1053,6 @@
       "summary": {
         "en": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
         "th": "OpenAI ช่วยสร้างมาตรฐานที่ใช้ร่วมกันสำหรับ AI ขั้นสูง สนับสนุนกรอบการประเมิน แนวปฏิบัติด้านความปลอดภัย และความร่วมมือระดับโลกผ่านทาง Appia Foundation"
-      }
-    },
-    {
-      "id": "anthropic__introducing-claude-tag",
-      "slug": "introducing-claude-tag",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/introducing-claude-tag",
-      "category": "News",
-      "date": "2026-06-23T00:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/b9ba85fd4d8beaf4efe04a4cf6cec14761e52c78-2400x1260.jpg",
-      "title": {
-        "en": "Introducing Claude Tag",
-        "th": "ขอแนะนำ คล็อด แท็ก"
-      },
-      "summary": {
-        "en": "Claude Tag is a new way for teams to work with Claude.",
-        "th": "Claude Tag เป็นวิธีใหม่สำหรับทีมในการทำงานร่วมกับ Claude"
       }
     },
     {

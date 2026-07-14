@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-07-14T09:50:30.799Z",
+  "generatedAt": "2026-07-14T11:20:57.709Z",
   "items": [
+    {
+      "id": "openai__how-data-science-teams-use-codex",
+      "slug": "how-data-science-teams-use-codex",
+      "source": "openai",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "category": "OpenAI Academy",
+      "date": "2026-07-14T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How data science teams use ChatGPT Work",
+        "th": "ทีมวิทยาศาสตร์ข้อมูลใช้งาน ChatGPT อย่างไร"
+      },
+      "summary": {
+        "en": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+        "th": "ดูว่าทีมวิทยาศาสตร์ข้อมูลสามารถใช้ ChatGPT Work เพื่อสร้างบทสรุปที่ต้นตอ การอ่านผลกระทบ บันทึก KPI การวิเคราะห์แบบกำหนดขอบเขต และข้อมูลจำเพาะของแดชบอร์ดจากอินพุตงานจริงได้อย่างไร"
+      }
+    },
+    {
+      "id": "openai__how-sales-teams-use-codex",
+      "slug": "how-sales-teams-use-codex",
+      "source": "openai",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "category": "OpenAI Academy",
+      "date": "2026-07-14T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How sales teams use ChatGPT Work",
+        "th": "ทีมขายใช้งาน ChatGPT อย่างไร"
+      },
+      "summary": {
+        "en": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+        "th": "ดูว่าทีมขายสามารถใช้ ChatGPT Work เพื่อสร้างบทสรุปไปป์ไลน์ แพคเกจการเตรียมการประชุม การตรวจสอบการคาดการณ์ แผนบัญชี และการวินิจฉัยข้อตกลงที่หยุดชะงักจากอินพุตงานจริงได้อย่างไร"
+      }
+    },
     {
       "id": "deepmind__empowering-indias-next-generation-of-innovators-with-atl-saathi",
       "slug": "empowering-indias-next-generation-of-innovators-with-atl-saathi",
@@ -87,23 +121,6 @@
       }
     },
     {
-      "id": "openai__bio-bug-bounty",
-      "slug": "bio-bug-bounty",
-      "source": "openai",
-      "url": "https://openai.com/index/bio-bug-bounty",
-      "category": "Safety",
-      "date": "2026-07-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "GPT-5.5 Bio Bug Bounty",
-        "th": "GPT-5.5 รางวัลแมลงชีวภาพ"
-      },
-      "summary": {
-        "en": "Details about the OpenAI Bio Bounty program",
-        "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
-      }
-    },
-    {
       "id": "openai__gpt-5-6",
       "slug": "gpt-5-6",
       "source": "openai",
@@ -135,6 +152,23 @@
       "summary": {
         "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
         "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
+      }
+    },
+    {
+      "id": "openai__bio-bug-bounty",
+      "slug": "bio-bug-bounty",
+      "source": "openai",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "category": "Safety",
+      "date": "2026-07-09T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "GPT-5.5 Bio Bug Bounty",
+        "th": "GPT-5.5 รางวัลแมลงชีวภาพ"
+      },
+      "summary": {
+        "en": "Details about the OpenAI Bio Bounty program",
+        "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
       }
     },
     {
@@ -359,23 +393,6 @@
       }
     },
     {
-      "id": "openai__mufg",
-      "slug": "mufg",
-      "source": "openai",
-      "url": "https://openai.com/index/mufg",
-      "category": "News",
-      "date": "2026-07-07T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "MUFG aims to become AI-native with OpenAI",
-        "th": "MUFG ตั้งเป้าที่จะเป็น AI-native ด้วย OpenAI"
-      },
-      "summary": {
-        "en": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-        "th": "MUFG ใช้ ChatGPT Enterprise เพื่อสร้างองค์กรที่ขับเคลื่อนด้วย AI ปรับปรุงขั้นตอนการทำงาน และนำเสนอบริการทางการเงินที่ขับเคลื่อนด้วย AI ในวงกว้าง"
-      }
-    },
-    {
       "id": "openai__australian-payments-plus",
       "slug": "australian-payments-plus",
       "source": "openai",
@@ -390,6 +407,23 @@
       "summary": {
         "en": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
         "th": "ดูว่า Australian Payments Plus ใช้ ChatGPT Enterprise และ Codex เพื่อดำเนินการได้เร็วขึ้นผ่านความซับซ้อนในการชำระเงินได้อย่างไร AP+ ช่วยประหยัดเวลา ปรับปรุงคุณภาพ และให้ความสำคัญกับการตัดสินของมนุษย์"
+      }
+    },
+    {
+      "id": "openai__mufg",
+      "slug": "mufg",
+      "source": "openai",
+      "url": "https://openai.com/index/mufg",
+      "category": "News",
+      "date": "2026-07-07T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "MUFG aims to become AI-native with OpenAI",
+        "th": "MUFG ตั้งเป้าที่จะเป็น AI-native ด้วย OpenAI"
+      },
+      "summary": {
+        "en": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+        "th": "MUFG ใช้ ChatGPT Enterprise เพื่อสร้างองค์กรที่ขับเคลื่อนด้วย AI ปรับปรุงขั้นตอนการทำงาน และนำเสนอบริการทางการเงินที่ขับเคลื่อนด้วย AI ในวงกว้าง"
       }
     },
     {
@@ -716,23 +750,6 @@
       }
     },
     {
-      "id": "openai__introducing-genebench-pro",
-      "slug": "introducing-genebench-pro",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-genebench-pro",
-      "category": "Research",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing GeneBench-Pro",
-        "th": "ขอแนะนำ GeneBench-Pro"
-      },
-      "summary": {
-        "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-        "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
-      }
-    },
-    {
       "id": "openai__case-studies",
       "slug": "case-studies",
       "source": "openai",
@@ -747,6 +764,23 @@
       "summary": {
         "en": "Inside Genebench-Pro",
         "th": "ภายใน Genebench-Pro"
+      }
+    },
+    {
+      "id": "openai__introducing-genebench-pro",
+      "slug": "introducing-genebench-pro",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "category": "Research",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing GeneBench-Pro",
+        "th": "ขอแนะนำ GeneBench-Pro"
+      },
+      "summary": {
+        "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+        "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
       }
     },
     {
@@ -1515,54 +1549,20 @@
       }
     },
     {
-      "id": "openai__openai-to-acquire-ona",
-      "slug": "openai-to-acquire-ona",
+      "id": "openai__bbva",
+      "slug": "bbva",
       "source": "openai",
-      "url": "https://openai.com/index/openai-to-acquire-ona",
-      "category": "Company",
+      "url": "https://openai.com/index/bbva",
+      "category": "News",
       "date": "2026-06-11T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "OpenAI to acquire Ona",
-        "th": "OpenAI เพื่อรับ Ona"
+        "en": "BBVA puts AI at the core of banking with OpenAI",
+        "th": "BBVA นำ AI มาเป็นแกนหลักของการธนาคารด้วย OpenAI"
       },
       "summary": {
-        "en": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-        "th": "OpenAI วางแผนที่จะซื้อ Ona เพื่อขยาย Codex ด้วยสภาพแวดล้อมคลาวด์ที่ปลอดภัยและคงอยู่ ช่วยให้ตัวแทน AI ที่ทำงานระยะยาวทั่วทั้งเวิร์กโฟลว์ขององค์กร"
-      }
-    },
-    {
-      "id": "openai__supporting-eu-trustworthy-ai-ecosystem",
-      "slug": "supporting-eu-trustworthy-ai-ecosystem",
-      "source": "openai",
-      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-      "category": "Global Affairs",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-        "th": "สนับสนุนงานของยุโรปในการรับรองระบบนิเวศ AI ที่น่าเชื่อถือ"
-      },
-      "summary": {
-        "en": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
-        "th": "OpenAI สนับสนุนหลักปฏิบัติของสหภาพยุโรปเกี่ยวกับความโปร่งใสของเนื้อหา AI พัฒนามาตรฐานแหล่งที่มาและเครื่องมือเพื่อช่วยให้ผู้คนเข้าใจเนื้อหาที่สร้างโดย AI"
-      }
-    },
-    {
-      "id": "openai__using-codex-to-simulate-black-holes",
-      "slug": "using-codex-to-simulate-black-holes",
-      "source": "openai",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "category": "Applied AI",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How an astrophysicist uses Codex to help simulate black holes",
-        "th": "นักดาราศาสตร์ฟิสิกส์ใช้ Codex เพื่อช่วยจำลองหลุมดำอย่างไร"
-      },
-      "summary": {
-        "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-        "th": "ค้นพบวิธีที่นักดาราศาสตร์ฟิสิกส์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
+        "en": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+        "th": "เรียนรู้ว่า BBVA ปรับขนาด ChatGPT Enterprise เป็นพนักงาน 100,000 คนและร่วมมือกับ OpenAI เพื่อเร่งการเปลี่ยนแปลงระบบธนาคารที่ขับเคลื่อนด้วย AI ทั่วโลกได้อย่างไร"
       }
     },
     {

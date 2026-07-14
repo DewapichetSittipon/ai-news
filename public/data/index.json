@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-07-14T15:20:18.724Z",
+  "generatedAt": "2026-07-14T17:07:07.129Z",
   "items": [
+    {
+      "id": "google-ai__google-images-25th-anniversary",
+      "slug": "google-images-25th-anniversary",
+      "source": "google-ai",
+      "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
+      "category": "Search",
+      "date": "2026-07-14T16:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp",
+      "title": {
+        "en": "Celebrating 25 years of visual search innovation",
+        "th": "เฉลิมฉลอง 25 ปีของนวัตกรรมการค้นหาด้วยภาพ"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp\">Google Images is turning 25. Here’s a look back at some major milestones — and new ways to e",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp\">Google Images กำลังจะครบรอบ 25 ปี ต่อไปนี้คือภาพย้อนกลับไปที่เหตุการณ์สำคัญบางส่วน — และวิธีการใหม่ๆ ในการ"
+      }
+    },
+    {
+      "id": "openai__managing-ai-investments-in-agentic-era",
+      "slug": "managing-ai-investments-in-agentic-era",
+      "source": "openai",
+      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "category": "AI Adoption",
+      "date": "2026-07-14T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How to manage AI investments in the agentic era",
+        "th": "วิธีจัดการการลงทุนด้าน AI ในยุคตัวแทน"
+      },
+      "summary": {
+        "en": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+        "th": "เรียนรู้ว่าองค์กรต่างๆ สามารถจัดการการลงทุน AI ในยุคตัวแทนได้อย่างไรโดยการวัดงานที่มีประโยชน์ต่อดอลลาร์ ปรับปรุงประสิทธิภาพ และปรับขนาดเวิร์กโฟลว์ที่มีมูลค่าสูง"
+      }
+    },
     {
       "id": "anthropic__claude-for-teachers",
       "slug": "claude-for-teachers",
@@ -427,23 +461,6 @@
       }
     },
     {
-      "id": "openai__mufg",
-      "slug": "mufg",
-      "source": "openai",
-      "url": "https://openai.com/index/mufg",
-      "category": "News",
-      "date": "2026-07-07T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "MUFG aims to become AI-native with OpenAI",
-        "th": "MUFG ตั้งเป้าที่จะเป็น AI-native ด้วย OpenAI"
-      },
-      "summary": {
-        "en": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-        "th": "MUFG ใช้ ChatGPT Enterprise เพื่อสร้างองค์กรที่ขับเคลื่อนด้วย AI ปรับปรุงขั้นตอนการทำงาน และนำเสนอบริการทางการเงินที่ขับเคลื่อนด้วย AI ในวงกว้าง"
-      }
-    },
-    {
       "id": "openai__australian-payments-plus",
       "slug": "australian-payments-plus",
       "source": "openai",
@@ -458,6 +475,23 @@
       "summary": {
         "en": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
         "th": "ดูว่า Australian Payments Plus ใช้ ChatGPT Enterprise และ Codex เพื่อดำเนินการได้เร็วขึ้นผ่านความซับซ้อนในการชำระเงินได้อย่างไร AP+ ช่วยประหยัดเวลา ปรับปรุงคุณภาพ และให้ความสำคัญกับการตัดสินของมนุษย์"
+      }
+    },
+    {
+      "id": "openai__mufg",
+      "slug": "mufg",
+      "source": "openai",
+      "url": "https://openai.com/index/mufg",
+      "category": "News",
+      "date": "2026-07-07T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "MUFG aims to become AI-native with OpenAI",
+        "th": "MUFG ตั้งเป้าที่จะเป็น AI-native ด้วย OpenAI"
+      },
+      "summary": {
+        "en": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+        "th": "MUFG ใช้ ChatGPT Enterprise เพื่อสร้างองค์กรที่ขับเคลื่อนด้วย AI ปรับปรุงขั้นตอนการทำงาน และนำเสนอบริการทางการเงินที่ขับเคลื่อนด้วย AI ในวงกว้าง"
       }
     },
     {
@@ -767,23 +801,6 @@
       }
     },
     {
-      "id": "openai__introducing-genebench-pro",
-      "slug": "introducing-genebench-pro",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-genebench-pro",
-      "category": "Research",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing GeneBench-Pro",
-        "th": "ขอแนะนำ GeneBench-Pro"
-      },
-      "summary": {
-        "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-        "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
-      }
-    },
-    {
       "id": "openai__case-studies",
       "slug": "case-studies",
       "source": "openai",
@@ -815,6 +832,23 @@
       "summary": {
         "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
         "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
+      }
+    },
+    {
+      "id": "openai__introducing-genebench-pro",
+      "slug": "introducing-genebench-pro",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "category": "Research",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing GeneBench-Pro",
+        "th": "ขอแนะนำ GeneBench-Pro"
+      },
+      "summary": {
+        "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+        "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
       }
     },
     {
@@ -1141,23 +1175,6 @@
       }
     },
     {
-      "id": "openai__daybreak-securing-the-world",
-      "slug": "daybreak-securing-the-world",
-      "source": "openai",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "category": "Security",
-      "date": "2026-06-22T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Daybreak: Tools for securing every organization in the world",
-        "th": "Daybreak: เครื่องมือสำหรับการรักษาความปลอดภัยให้กับทุกองค์กรในโลก"
-      },
-      "summary": {
-        "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-        "th": "OpenAI เปิดตัวเครื่องมือ Daybreak ใหม่ รวมถึง Codex Security และ GPT-5.5-Cyber ​​เพื่อช่วยให้องค์กรค้นหา ตรวจสอบ และแก้ไขช่องโหว่ในวงกว้าง"
-      }
-    },
-    {
       "id": "openai__patch-the-planet",
       "slug": "patch-the-planet",
       "source": "openai",
@@ -1172,6 +1189,23 @@
       "summary": {
         "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
         "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
+      }
+    },
+    {
+      "id": "openai__daybreak-securing-the-world",
+      "slug": "daybreak-securing-the-world",
+      "source": "openai",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "category": "Security",
+      "date": "2026-06-22T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Daybreak: Tools for securing every organization in the world",
+        "th": "Daybreak: เครื่องมือสำหรับการรักษาความปลอดภัยให้กับทุกองค์กรในโลก"
+      },
+      "summary": {
+        "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+        "th": "OpenAI เปิดตัวเครื่องมือ Daybreak ใหม่ รวมถึง Codex Security และ GPT-5.5-Cyber ​​เพื่อช่วยให้องค์กรค้นหา ตรวจสอบ และแก้ไขช่องโหว่ในวงกว้าง"
       }
     },
     {
@@ -1563,23 +1597,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\">We’re helping build the state’s next-generation workforce and investing in energy programs.",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\">เรากำลังช่วยสร้างบุคลากรรุ่นต่อไปของรัฐและการลงทุนในโครงการพลังงาน"
-      }
-    },
-    {
-      "id": "openai__using-codex-to-simulate-black-holes",
-      "slug": "using-codex-to-simulate-black-holes",
-      "source": "openai",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "category": "Applied AI",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How an astrophysicist uses Codex to help simulate black holes",
-        "th": "นักดาราศาสตร์ฟิสิกส์ใช้ Codex เพื่อช่วยจำลองหลุมดำอย่างไร"
-      },
-      "summary": {
-        "en": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-        "th": "ค้นพบวิธีที่นักฟิสิกส์ดาราศาสตร์ Chi-kwan Chan ใช้ Codex เพื่อสร้างการจำลองหลุมดำ ช่วยให้นักวิทยาศาสตร์ศึกษาฟิสิกส์สุดขั้วและทดสอบทฤษฎีสัมพัทธภาพทั่วไปของ Einstein"
       }
     },
     {
@@ -2090,23 +2107,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/100_things_Social.max-600x600.format-webp.webp\">We've been busy! Here’s a rundown of the top announcements, launches and demos at I/O 2026.",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/100_things_Social.max-600x600.format-webp.webp\">งานยุ่งมาก! ต่อไปนี้เป็นบทสรุปของประกาศ การเปิดตัว และการสาธิตยอดนิยมที่ I/O 2026"
-      }
-    },
-    {
-      "id": "google-ai__google-beam-group-meetings",
-      "slug": "google-beam-group-meetings",
-      "source": "google-ai",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
-      "category": "Google Workspace",
-      "date": "2026-05-20T16:45:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2026-05-15_at_4.21.2.max-600x600.format-webp.webp",
-      "title": {
-        "en": "A new experiment brings better group meetings to Google Beam",
-        "th": "การทดลองใหม่นำการประชุมกลุ่มที่ดียิ่งขึ้นมาสู่ Google Beam"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2026-05-15_at_4.21.2.max-600x600.format-webp.webp\">See and hear your colleagues in true-to-life size and sound, making hybrid meetings ",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2026-05-15_at_4.21.2.max-600x600.format-webp.webp\">ดูและฟังเพื่อนร่วมงานของคุณด้วยขนาดและเสียงที่สมจริง ทำให้เกิดการประชุมแบบไฮบริด"
       }
     },
     {

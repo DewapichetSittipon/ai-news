@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-07-15T13:19:57.957Z",
+  "generatedAt": "2026-07-15T17:10:12.227Z",
   "items": [
+    {
+      "id": "openai__advancing-ai-safety-through-state-and-federal-action",
+      "slug": "advancing-ai-safety-through-state-and-federal-action",
+      "source": "openai",
+      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "category": "Global Affairs",
+      "date": "2026-07-15T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "The US is advancing AI safety through state and federal action",
+        "th": "สหรัฐอเมริกากำลังพัฒนาความปลอดภัยของ AI ผ่านการดำเนินการของรัฐและรัฐบาลกลาง"
+      },
+      "summary": {
+        "en": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+        "th": "OpenAI สรุปแนวทาง \"สหพันธ์แบบย้อนกลับ\" สำหรับการกำกับดูแล AI โดยที่กฎหมายของรัฐช่วยสร้างกรอบการทำงานระดับชาติสำหรับ AI ที่ปลอดภัยและเป็นประชาธิปไตย"
+      }
+    },
+    {
+      "id": "openai__unlocking-self-improvement-gpt-red",
+      "slug": "unlocking-self-improvement-gpt-red",
+      "source": "openai",
+      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "category": "Safety",
+      "date": "2026-07-15T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "GPT-Red: Unlocking Self-Improvement for Robustness",
+        "th": "GPT-Red: ปลดล็อกการพัฒนาตนเองเพื่อความคงทน"
+      },
+      "summary": {
+        "en": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+        "th": "สำรวจ GPT-Red ซึ่งเป็นระบบการรวมทีมสีแดงอัตโนมัติของ OpenAI ที่ใช้การเล่นด้วยตนเองเพื่อปรับปรุงความปลอดภัยของ AI การจัดตำแหน่ง และความทนทานในการฉีดที่รวดเร็ว"
+      }
+    },
     {
       "id": "huggingface__real-world-voiceeq",
       "slug": "real-world-voiceeq",
@@ -206,6 +240,23 @@
       }
     },
     {
+      "id": "openai__chatgpt-for-your-most-ambitious-work",
+      "slug": "chatgpt-for-your-most-ambitious-work",
+      "source": "openai",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "category": "Product",
+      "date": "2026-07-09T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "ChatGPT is now a partner for your most ambitious work",
+        "th": "ChatGPT เป็นพันธมิตรสำหรับงานที่ทะเยอทะยานที่สุดของคุณแล้ว"
+      },
+      "summary": {
+        "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+        "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
+      }
+    },
+    {
       "id": "openai__gpt-5-6",
       "slug": "gpt-5-6",
       "source": "openai",
@@ -237,23 +288,6 @@
       "summary": {
         "en": "Details about the OpenAI Bio Bounty program",
         "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
-      }
-    },
-    {
-      "id": "openai__chatgpt-for-your-most-ambitious-work",
-      "slug": "chatgpt-for-your-most-ambitious-work",
-      "source": "openai",
-      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "category": "Product",
-      "date": "2026-07-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "ChatGPT is now a partner for your most ambitious work",
-        "th": "ChatGPT เป็นพันธมิตรสำหรับงานที่ทะเยอทะยานที่สุดของคุณแล้ว"
-      },
-      "summary": {
-        "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-        "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
       }
     },
     {
@@ -818,23 +852,6 @@
       }
     },
     {
-      "id": "openai__case-studies",
-      "slug": "case-studies",
-      "source": "openai",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
-      "category": "News",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
-      },
-      "summary": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
-      }
-    },
-    {
       "id": "openai__introducing-genebench-pro",
       "slug": "introducing-genebench-pro",
       "source": "openai",
@@ -866,6 +883,23 @@
       "summary": {
         "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
         "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
+      }
+    },
+    {
+      "id": "openai__case-studies",
+      "slug": "case-studies",
+      "source": "openai",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "category": "News",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
+      },
+      "summary": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
       }
     },
     {
@@ -1563,40 +1597,6 @@
       "summary": {
         "en": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
         "th": "OpenAI เปิดตัวเครือข่ายพันธมิตร โดยลงทุน 150 ล้านเหรียญสหรัฐ เพื่อช่วยให้พันธมิตรทั่วโลกเร่งการนำ AI ขององค์กรไปใช้ การใช้งาน และการเปลี่ยนแปลง"
-      }
-    },
-    {
-      "id": "openai__academy-courses-applying-ai-at-work",
-      "slug": "academy-courses-applying-ai-at-work",
-      "source": "openai",
-      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "category": "AI Adoption",
-      "date": "2026-06-12T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "New OpenAI Academy courses for the next era of work",
-        "th": "หลักสูตร OpenAI Academy ใหม่สำหรับการทำงานยุคต่อไป"
-      },
-      "summary": {
-        "en": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
-        "th": "OpenAI แนะนำหลักสูตร Academy สามหลักสูตรที่ช่วยให้ผู้คนสร้างทักษะ AI ที่ใช้งานได้จริง สร้างขั้นตอนการทำงานที่ทำซ้ำได้ และนำตัวแทนไปใช้ในการทำงานในแต่ละวัน"
-      }
-    },
-    {
-      "id": "openai__preply",
-      "slug": "preply",
-      "source": "openai",
-      "url": "https://openai.com/index/preply",
-      "category": "News",
-      "date": "2026-06-12T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How Preply combines AI and human tutors to personalize learning",
-        "th": "Preply ผสมผสาน AI และผู้สอนที่เป็นมนุษย์เพื่อปรับแต่งการเรียนรู้ให้เหมาะกับแต่ละบุคคลได้อย่างไร"
-      },
-      "summary": {
-        "en": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
-        "th": "Preply ใช้ OpenAI เพื่อเปิดตัวสรุปบทเรียนที่สร้างโดย AI โดยให้ข้อเสนอแนะส่วนบุคคลและแบบฝึกหัดการเรียนรู้ภาษา"
       }
     },
     {

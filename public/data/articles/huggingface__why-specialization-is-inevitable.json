@@ -74,8 +74,8 @@
     },
     {
       "type": "img",
-      "src": "/avatars/6e15a0a832034852c0d926b2475658b6.svg",
-      "alt": "Pimenta de Freitas Cardoso's avatar"
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/67b22efa9b36260fe286e99f/vm2fyO1NSqmjcIuyeF6PQ.jpeg",
+      "alt": "Gabriel Pimenta de Freitas Cardoso's avatar"
     },
     {
       "type": "img",
@@ -740,6 +740,58 @@
       }
     },
     {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/67b22efa9b36260fe286e99f/vm2fyO1NSqmjcIuyeF6PQ.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1 reply",
+        "th": "1 ตอบกลับ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/67b22efa9b36260fe286e99f/vm2fyO1NSqmjcIuyeF6PQ.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Great point, and I agree that this is where the discussion becomes most interesting.",
+        "th": "ประเด็นเยี่ยมมาก และฉันยอมรับว่านี่คือจุดที่การสนทนาน่าสนใจที่สุด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It is not possible to say where the decline bottoms out, since neural networks learn representations through superposition rather than assigning individual neurons or subnetworks to specific domains. In other words, it is not possible to isolate parts of the network and claim that they are responsible for domain X or domain Y, as these domains are encoded through overlapping representations. What we can affirm is that it depends on the relationship between breadth of domains in the knowledge base and the number of parameters of the model (the greater the parameters, the greater the capacity to retain knowledge). To answer this question, we would need some way of measuring the amount of domain knowledge contained in the training data, as well as the degree of overlap between those domains in the latent space learned by a highly non-linear neural network. I believe this question is currently intractable.",
+        "th": "ไม่สามารถบอกได้ว่าการลดลงนั้นอยู่ที่จุดใด เนื่องจากโครงข่ายประสาทเทียมเรียนรู้การเป็นตัวแทนผ่านการซ้อนทับ แทนที่จะกำหนดเซลล์ประสาทหรือเครือข่ายย่อยแต่ละรายการให้กับโดเมนเฉพาะ กล่าวอีกนัยหนึ่ง ไม่สามารถแยกบางส่วนของเครือข่ายและอ้างว่าพวกเขารับผิดชอบโดเมน X หรือโดเมน Y เนื่องจากโดเมนเหล่านี้ถูกเข้ารหัสผ่านการเป็นตัวแทนที่ทับซ้อนกัน สิ่งที่เรายืนยันได้ก็คือมันขึ้นอยู่กับความสัมพันธ์ระหว่างความกว้างของโดเมนในฐานความรู้และจำนวนพารามิเตอร์ของแบบจำลอง (ยิ่งพารามิเตอร์มากขึ้น ความสามารถในการรักษาความรู้ก็จะยิ่งมากขึ้น) เพื่อตอบคำถามนี้ เราจำเป็นต้องมีวิธีการวัดปริมาณความรู้โดเมนที่มีอยู่ในข้อมูลการฝึกอบรม รวมถึงระดับของการทับซ้อนระหว่างโดเมนเหล่านั้นในพื้นที่แฝงที่เรียนรู้โดยโครงข่ายประสาทเทียมที่ไม่เป็นเชิงเส้นในระดับสูง ฉันเชื่อว่าคำถามนี้ยากในปัจจุบัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Regarding the point at which investing in specialized content ceases to pay off, I believe that this only happens when the objective is to build a genuinely more general-purpose model. If the goal is to use the available resources (parameters) to provide shallow responses across a broad range of topics, then it makes more sense to train on a dataset with broad coverage but relatively little depth in each domain. On the other hand, if the objective is to build a model that solves a finite and relatively small set of tasks, more specialized data will always be the better choice. Naturally, as you increase the size of that task set, you eventually return to the first scenario of wanting a general-purpose model.",
+        "th": "เกี่ยวกับจุดที่การลงทุนในเนื้อหาพิเศษหมดลง ผมเชื่อว่าสิ่งนี้จะเกิดขึ้นก็ต่อเมื่อวัตถุประสงค์คือการสร้างแบบจำลองที่มีจุดประสงค์ทั่วไปมากขึ้นเท่านั้น หากเป้าหมายคือการใช้ทรัพยากรที่มีอยู่ (พารามิเตอร์) เพื่อให้การตอบสนองแบบตื้นๆ ในหัวข้อต่างๆ มากมาย ก็เหมาะสมกว่าที่จะฝึกอบรมชุดข้อมูลที่มีความครอบคลุมกว้างแต่มีความลึกค่อนข้างน้อยในแต่ละโดเมน ในทางกลับกัน หากวัตถุประสงค์คือการสร้างแบบจำลองที่สามารถแก้ปัญหาชุดงานที่มีขอบเขตจำกัดและค่อนข้างเล็ก ข้อมูลเฉพาะทางที่มากขึ้นจะเป็นตัวเลือกที่ดีกว่าเสมอ โดยปกติแล้ว เมื่อคุณเพิ่มขนาดของชุดงานนั้น คุณจะกลับไปสู่สถานการณ์แรกของการต้องการแบบจำลองสำหรับวัตถุประสงค์ทั่วไปในที่สุด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The same reasoning applies to the question of when we should pursue greater focus: whenever the scope of the application is itself focused. It is fundamentally a design choice. If you are training a model for open-ended tasks that may receive any type of input, it is better to have a model that responds superficially across many topics than one that responds deeply to only a few. Conversely, if the application has a well-defined scope, it will always be better to train a model specialized for that scope, making more efficient use of its resources instead of spending them on knowledge that will never be required.",
+        "th": "เหตุผลเดียวกันนี้ใช้กับคำถามที่ว่าเมื่อใดที่เราควรให้ความสำคัญมากขึ้น: เมื่อใดก็ตามที่ขอบเขตของแอปพลิเคชันถูกเน้นด้วยตัวมันเอง มันเป็นตัวเลือกการออกแบบโดยพื้นฐาน หากคุณกำลังฝึกโมเดลสำหรับงานปลายเปิดที่อาจรับข้อมูลประเภทใดๆ ก็ตาม การมีโมเดลที่ตอบสนองอย่างผิวเผินในหลาย ๆ หัวข้อ ย่อมดีกว่าแบบจำลองที่ตอบสนองอย่างลึกซึ้งเพียง 2-3 หัวข้อเท่านั้น ในทางกลับกัน หากแอปพลิเคชันมีขอบเขตที่กำหนดไว้อย่างชัดเจน การฝึกอบรมแบบจำลองเฉพาะสำหรับขอบเขตนั้นจะดีกว่าเสมอ โดยใช้ทรัพยากรอย่างมีประสิทธิภาพมากขึ้น แทนที่จะใช้จ่ายกับความรู้ที่ไม่จำเป็นอีกต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That said, these are very relevant questions, and we hope to address at least part of them through mechanistic interpretability, which is one of the research areas within our R&D efforts. The techniques in this field allow us to observe internal circuits within models, sparsely used neurons, neurons that activate under specific conditions, and other internal mechanisms. This may help us better understand how models work internally and answer some of your questions more directly.",
+        "th": "อย่างไรก็ตาม คำถามเหล่านี้เป็นคำถามที่เกี่ยวข้องกันมาก และเราหวังว่าจะตอบได้อย่างน้อยบางส่วนผ่านการตีความเชิงกลไก ซึ่งเป็นหนึ่งในขอบเขตการวิจัยภายใต้ความพยายามด้านการวิจัยและพัฒนาของเรา เทคนิคในสาขานี้ช่วยให้เราสามารถสังเกตวงจรภายในภายในแบบจำลอง เซลล์ประสาทที่ใช้งานอย่างกระจัดกระจาย เซลล์ประสาทที่ทำงานภายใต้สภาวะเฉพาะ และกลไกภายในอื่นๆ สิ่งนี้อาจช่วยให้เราเข้าใจวิธีการทำงานของแบบจำลองภายในได้ดีขึ้น และตอบคำถามบางข้อของคุณได้โดยตรงมากขึ้น"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -798,7 +850,7 @@
     },
     {
       "type": "img",
-      "src": "/avatars/6e15a0a832034852c0d926b2475658b6.svg",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/67b22efa9b36260fe286e99f/vm2fyO1NSqmjcIuyeF6PQ.jpeg",
       "alt": ""
     },
     {

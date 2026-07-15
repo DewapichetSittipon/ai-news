@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T19:07:55.536Z",
+  "generatedAt": "2026-07-15T01:44:58.377Z",
   "items": [
     {
       "id": "google-ai__google-images-25th-anniversary",
@@ -70,23 +70,6 @@
       }
     },
     {
-      "id": "openai__how-sales-teams-use-codex",
-      "slug": "how-sales-teams-use-codex",
-      "source": "openai",
-      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "category": "OpenAI Academy",
-      "date": "2026-07-14T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How sales teams use ChatGPT Work",
-        "th": "ทีมขายใช้งาน ChatGPT อย่างไร"
-      },
-      "summary": {
-        "en": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-        "th": "ดูว่าทีมขายสามารถใช้ ChatGPT Work เพื่อสร้างบทสรุปไปป์ไลน์ แพคเกจการเตรียมการประชุม การตรวจสอบการคาดการณ์ แผนบัญชี และการวินิจฉัยข้อตกลงที่หยุดชะงักจากอินพุตงานจริงได้อย่างไร"
-      }
-    },
-    {
       "id": "openai__how-data-science-teams-use-codex",
       "slug": "how-data-science-teams-use-codex",
       "source": "openai",
@@ -101,6 +84,23 @@
       "summary": {
         "en": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
         "th": "ดูว่าทีมวิทยาศาสตร์ข้อมูลสามารถใช้ ChatGPT Work เพื่อสร้างบทสรุปที่ต้นตอ การอ่านผลกระทบ บันทึก KPI การวิเคราะห์แบบกำหนดขอบเขต และข้อมูลจำเพาะของแดชบอร์ดจากอินพุตงานจริงได้อย่างไร"
+      }
+    },
+    {
+      "id": "openai__how-sales-teams-use-codex",
+      "slug": "how-sales-teams-use-codex",
+      "source": "openai",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "category": "OpenAI Academy",
+      "date": "2026-07-14T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How sales teams use ChatGPT Work",
+        "th": "ทีมขายใช้งาน ChatGPT อย่างไร"
+      },
+      "summary": {
+        "en": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+        "th": "ดูว่าทีมขายสามารถใช้ ChatGPT Work เพื่อสร้างบทสรุปไปป์ไลน์ แพคเกจการเตรียมการประชุม การตรวจสอบการคาดการณ์ แผนบัญชี และการวินิจฉัยข้อตกลงที่หยุดชะงักจากอินพุตงานจริงได้อย่างไร"
       }
     },
     {
@@ -189,23 +189,6 @@
       }
     },
     {
-      "id": "openai__bio-bug-bounty",
-      "slug": "bio-bug-bounty",
-      "source": "openai",
-      "url": "https://openai.com/index/bio-bug-bounty",
-      "category": "Safety",
-      "date": "2026-07-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "GPT-5.5 Bio Bug Bounty",
-        "th": "GPT-5.5 รางวัลแมลงชีวภาพ"
-      },
-      "summary": {
-        "en": "Details about the OpenAI Bio Bounty program",
-        "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
-      }
-    },
-    {
       "id": "openai__gpt-5-6",
       "slug": "gpt-5-6",
       "source": "openai",
@@ -237,6 +220,23 @@
       "summary": {
         "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
         "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
+      }
+    },
+    {
+      "id": "openai__bio-bug-bounty",
+      "slug": "bio-bug-bounty",
+      "source": "openai",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "category": "Safety",
+      "date": "2026-07-09T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "GPT-5.5 Bio Bug Bounty",
+        "th": "GPT-5.5 รางวัลแมลงชีวภาพ"
+      },
+      "summary": {
+        "en": "Details about the OpenAI Bio Bounty program",
+        "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
       }
     },
     {
@@ -461,23 +461,6 @@
       }
     },
     {
-      "id": "openai__australian-payments-plus",
-      "slug": "australian-payments-plus",
-      "source": "openai",
-      "url": "https://openai.com/index/australian-payments-plus",
-      "category": "News",
-      "date": "2026-07-07T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Australian Payments Plus moves faster with ChatGPT and Codex",
-        "th": "Australian Payments Plus เคลื่อนไหวเร็วขึ้นด้วย ChatGPT และ Codex"
-      },
-      "summary": {
-        "en": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-        "th": "ดูว่า Australian Payments Plus ใช้ ChatGPT Enterprise และ Codex เพื่อดำเนินการได้เร็วขึ้นผ่านความซับซ้อนในการชำระเงินได้อย่างไร AP+ ช่วยประหยัดเวลา ปรับปรุงคุณภาพ และให้ความสำคัญกับการตัดสินของมนุษย์"
-      }
-    },
-    {
       "id": "openai__mufg",
       "slug": "mufg",
       "source": "openai",
@@ -492,6 +475,23 @@
       "summary": {
         "en": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
         "th": "MUFG ใช้ ChatGPT Enterprise เพื่อสร้างองค์กรที่ขับเคลื่อนด้วย AI ปรับปรุงขั้นตอนการทำงาน และนำเสนอบริการทางการเงินที่ขับเคลื่อนด้วย AI ในวงกว้าง"
+      }
+    },
+    {
+      "id": "openai__australian-payments-plus",
+      "slug": "australian-payments-plus",
+      "source": "openai",
+      "url": "https://openai.com/index/australian-payments-plus",
+      "category": "News",
+      "date": "2026-07-07T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Australian Payments Plus moves faster with ChatGPT and Codex",
+        "th": "Australian Payments Plus เคลื่อนไหวเร็วขึ้นด้วย ChatGPT และ Codex"
+      },
+      "summary": {
+        "en": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+        "th": "ดูว่า Australian Payments Plus ใช้ ChatGPT Enterprise และ Codex เพื่อดำเนินการได้เร็วขึ้นผ่านความซับซ้อนในการชำระเงินได้อย่างไร AP+ ช่วยประหยัดเวลา ปรับปรุงคุณภาพ และให้ความสำคัญกับการตัดสินของมนุษย์"
       }
     },
     {
@@ -1175,23 +1175,6 @@
       }
     },
     {
-      "id": "openai__patch-the-planet",
-      "slug": "patch-the-planet",
-      "source": "openai",
-      "url": "https://openai.com/index/patch-the-planet",
-      "category": "Security",
-      "date": "2026-06-22T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-        "th": "Patch the Planet: โครงการริเริ่ม Daybreak เพื่อสนับสนุนผู้ดูแลโอเพ่นซอร์ส"
-      },
-      "summary": {
-        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-        "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
-      }
-    },
-    {
       "id": "openai__daybreak-securing-the-world",
       "slug": "daybreak-securing-the-world",
       "source": "openai",
@@ -1206,6 +1189,23 @@
       "summary": {
         "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
         "th": "OpenAI เปิดตัวเครื่องมือ Daybreak ใหม่ รวมถึง Codex Security และ GPT-5.5-Cyber ​​เพื่อช่วยให้องค์กรค้นหา ตรวจสอบ และแก้ไขช่องโหว่ในวงกว้าง"
+      }
+    },
+    {
+      "id": "openai__patch-the-planet",
+      "slug": "patch-the-planet",
+      "source": "openai",
+      "url": "https://openai.com/index/patch-the-planet",
+      "category": "Security",
+      "date": "2026-06-22T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+        "th": "Patch the Planet: โครงการริเริ่ม Daybreak เพื่อสนับสนุนผู้ดูแลโอเพ่นซอร์ส"
+      },
+      "summary": {
+        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+        "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
       }
     },
     {

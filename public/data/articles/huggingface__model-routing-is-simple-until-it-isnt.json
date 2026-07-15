@@ -1,0 +1,440 @@
+{
+  "id": "huggingface__model-routing-is-simple-until-it-isnt",
+  "slug": "model-routing-is-simple-until-it-isnt",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+  "category": "News",
+  "date": "2026-07-15T17:27:01.000Z",
+  "image": null,
+  "title": {
+    "en": "Model Routing Is Simple. Until It Isn’t.",
+    "th": "การกำหนดเส้นทางโมเดลนั้นง่ายมาก จนกระทั่งมันไม่ใช่"
+  },
+  "summary": {
+    "en": "Model Routing Is Simple. Until It Isn’t.",
+    "th": "การกำหนดเส้นทางโมเดลนั้นง่ายมาก จนกระทั่งมันไม่ใช่"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "/avatars/c679343970193381753cc918246a7342.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/39727b53a080ce5391dbfb2276f41ec2.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/dc237f871dc180a8ab2fcb20e7d08d48.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/6cf73fe4b40d179d33e55aec0c7e5313.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/05ceb02598a78aefeb479f6d68080d7f.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6487da02c4b44322c124f39f/a59vwxS7l3iylkGXzN6R3.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+6",
+        "th": "+6"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/dc237f871dc180a8ab2fcb20e7d08d48.svg",
+      "alt": "Yara Rizk's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "/avatars/8e5305061fea0e643c0b38ac3194c4a5.svg",
+      "alt": "Eyal Shnarch's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "/avatars/c679343970193381753cc918246a7342.svg",
+      "alt": "Jason Tsay's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/voQatzALsIDEbM2JR25ei.png",
+      "alt": "Merve Unuvar's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1. Cost Is More Than Model Pricing",
+        "th": "1. ต้นทุนมีค่ามากกว่าราคารุ่น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2. Complexity Is More Than Task Difficulty",
+        "th": "2. ความซับซ้อนมีมากกว่าความยากของงาน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "3. Latency Is More Than Model Speed",
+        "th": "3. เวลาแฝงมีค่ามากกว่าความเร็วของโมเดล"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "So How Did We Handle This?",
+        "th": "แล้วเราจะจัดการเรื่องนี้อย่างไร?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The Bigger Picture",
+        "th": "ภาพใหญ่ขึ้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Acknowledgement",
+        "th": "รับทราบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Except it’s not. Most routing systems assume that model selection is a classification problem. In our experience building routing into agentic systems, what looks like a model-selection problem quickly becomes a systems optimization problem. Three dimensions made this surprisingly hard for us.",
+        "th": "ยกเว้นว่ามันไม่ใช่ ระบบการกำหนดเส้นทางส่วนใหญ่ถือว่าการเลือกแบบจำลองเป็นปัญหาการจำแนกประเภท จากประสบการณ์ของเราในการสร้างการกำหนดเส้นทางเข้าสู่ระบบเอเจนต์ สิ่งที่ดูเหมือนว่าปัญหาการเลือกแบบจำลองจะกลายเป็นปัญหาการปรับระบบให้เหมาะสมอย่างรวดเร็ว สามมิติทำให้เรื่องนี้ยากสำหรับเราอย่างน่าประหลาดใจ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "1. Cost Is More Than Model Pricing",
+        "th": "1. ต้นทุนมีค่ามากกว่าราคารุ่น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We expected GPT-4.1 to be cheaper than Claude Sonnet 4.6. It wasn’t.",
+        "th": "เราคาดว่า GPT-4.1 จะมีราคาถูกกว่า Claude Sonnet 4.6 มันไม่ใช่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Across 417 tasks on the AppWorld Test Challenge using the same CodeAct agent, Sonnet cost $79 total ($0.19/task) while GPT-4.1 cost $155 ($0.37/task) — nearly double. On paper, this makes no sense. GPT-4.1’s token pricing is lower on both input and output, and Sonnet takes roughly three times as many reasoning steps to finish the same tasks. By sticker price alone, GPT-4.1 should win easily.",
+        "th": "จากงาน 417 งานใน AppWorld Test Challenge โดยใช้ตัวแทน CodeAct เดียวกัน Sonnet มีราคารวม 79 ดอลลาร์ (0.19 ดอลลาร์/งาน) ในขณะที่ GPT-4.1 มีราคา 155 ดอลลาร์ (0.37 ดอลลาร์/งาน) ซึ่งเกือบสองเท่า บนกระดาษสิ่งนี้ไม่สมเหตุสมผล ราคาโทเค็นของ GPT-4.1 นั้นต่ำกว่าทั้งอินพุตและเอาต์พุต และ Sonnet ใช้เวลาประมาณสามเท่าของขั้นตอนการให้เหตุผลเพื่อทำงานเดียวกันให้เสร็จ ด้วยราคาสติ๊กเกอร์เพียงอย่างเดียว GPT-4.1 น่าจะชนะได้ง่ายๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The explanation? Caching — something most routing discussions ignore entirely. Agent workloads tend to reuse large chunks of context across steps. When cache hit rates are high, effective input costs drop dramatically. Sonnet’s lower cache-read pricing meant it benefited disproportionately from this pattern, enough to overcome both its higher base pricing and its longer trajectories.",
+        "th": "คำอธิบาย? การแคช — สิ่งที่การสนทนาเกี่ยวกับการกำหนดเส้นทางส่วนใหญ่มองข้ามไปโดยสิ้นเชิง ปริมาณงานของตัวแทนมีแนวโน้มที่จะนำบริบทจำนวนมากกลับมาใช้ซ้ำตามขั้นตอนต่างๆ เมื่ออัตราการเข้าถึงแคชสูง ต้นทุนอินพุตที่มีประสิทธิภาพจะลดลงอย่างมาก ราคาการอ่านแคชที่ต่ำกว่าของ Sonnet หมายความว่าได้รับประโยชน์อย่างไม่สมส่วนจากรูปแบบนี้ ซึ่งเพียงพอที่จะเอาชนะทั้งราคาพื้นฐานที่สูงขึ้นและเส้นทางที่ยาวขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The takeaway: actual cost depends on the interaction between the model, the workload, and the serving infrastructure. A router that only looks at pricing sheets is optimizing against the wrong numbers.",
+        "th": "ประเด็นสำคัญ: ต้นทุนจริงขึ้นอยู่กับการโต้ตอบระหว่างโมเดล ปริมาณงาน และโครงสร้างพื้นฐานการให้บริการ เราเตอร์ที่ดูเฉพาะเอกสารราคากำลังปรับให้เหมาะสมกับตัวเลขที่ไม่ถูกต้อง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "2. Complexity Is More Than Task Difficulty",
+        "th": "2. ความซับซ้อนมีมากกว่าความยากของงาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A common routing strategy is to estimate how hard a task is and send harder tasks to stronger models. Intuitive, but it breaks down in two ways.",
+        "th": "กลยุทธ์การกำหนดเส้นทางทั่วไปคือการประมาณว่างานยากแค่ไหนและส่งงานที่ยากกว่าไปยังโมเดลที่แข็งแกร่งกว่า ใช้งานง่าย แต่มันแบ่งออกเป็นสองวิธี"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "First, difficulty is often invisible at routing time. A request like \"summarize this contract\" looks simple, but might trigger retrieval, compliance checks, tool use, and multiple rounds of refinement before it’s done. Meanwhile, a highly technical prompt might be handled efficiently by a smaller specialized model. You often don’t know how hard a task actually is until execution is underway.",
+        "th": "ประการแรก ความยากมักจะมองไม่เห็นในเวลาที่กำหนดเส้นทาง คำขอเช่น \"สรุปสัญญานี้\" ดูเรียบง่าย แต่อาจทริกเกอร์การเรียกข้อมูล การตรวจสอบการปฏิบัติตามข้อกำหนด การใช้เครื่องมือ และการปรับแต่งหลายรอบก่อนที่จะเสร็จสิ้น ในขณะเดียวกัน ข้อความแจ้งทางเทคนิคขั้นสูงอาจได้รับการจัดการอย่างมีประสิทธิภาพด้วยโมเดลพิเศษที่มีขนาดเล็กกว่า คุณมักจะไม่รู้ว่างานนั้นยากแค่ไหนจนกว่าการดำเนินการจะเริ่มขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Second, even if you could perfectly estimate difficulty, it’s only one signal among many. In production, routers need to balance cost, latency, model specialization, and reliability simultaneously. Enterprise deployments pile on more: compliance requirements, data residency rules, privacy constraints, approved model lists. A task that would ideally go to one model might need to go elsewhere because of governance — and the router has to handle that gracefully.",
+        "th": "ประการที่สอง แม้ว่าคุณจะประมาณความยากได้อย่างสมบูรณ์แบบ แต่มันก็เป็นเพียงสัญญาณเดียวจากหลาย ๆ อย่าง ในการผลิต เราเตอร์จำเป็นต้องสร้างสมดุลระหว่างต้นทุน เวลาแฝง ความเชี่ยวชาญด้านโมเดล และความน่าเชื่อถือไปพร้อมๆ กัน การใช้งานระดับองค์กรมีมากขึ้น: ข้อกำหนดด้านการปฏิบัติตามกฎระเบียบ กฎถิ่นที่อยู่ของข้อมูล ข้อจำกัดด้านความเป็นส่วนตัว รายการโมเดลที่ได้รับอนุมัติ งานที่ควรจะไปที่โมเดลหนึ่งอาจต้องไปที่อื่นเนื่องจากการกำกับดูแล และเราเตอร์จะต้องจัดการสิ่งนั้นอย่างสง่างาม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Routers aren’t solving one problem. They’re constantly juggling cost, quality, latency, compliance, and reliability all at once.",
+        "th": "เราเตอร์ไม่ได้แก้ปัญหาเดียว พวกเขากำลังจัดการกับต้นทุน คุณภาพ เวลาแฝง การปฏิบัติตามข้อกำหนด และความน่าเชื่อถือในคราวเดียวอย่างต่อเนื่อง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "3. Latency Is More Than Model Speed",
+        "th": "3. เวลาแฝงมีค่ามากกว่าความเร็วของโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It’s tempting to think about latency purely in terms of model size — bigger models are slower, smaller ones are faster. But what the user actually experiences depends on much more than that.",
+        "th": "เป็นเรื่องน่าดึงดูดใจที่จะคิดถึงเวลาแฝงในแง่ของขนาดโมเดลเพียงอย่างเดียว — โมเดลที่ใหญ่กว่าจะช้ากว่า และโมเดลที่เล็กกว่าจะเร็วกว่า แต่สิ่งที่ผู้ใช้ได้รับจริงนั้นขึ้นอยู่กับอะไรมากกว่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Routing itself adds overhead. Infrastructure factors — which hardware a model is running on, whether the cache is warm, how busy the endpoint is — often dominate end-to-end response times. A theoretically faster model can still produce a slower experience if the serving conditions aren’t right.",
+        "th": "การกำหนดเส้นทางเองจะเพิ่มค่าใช้จ่าย ปัจจัยด้านโครงสร้างพื้นฐาน เช่น ฮาร์ดแวร์ที่โมเดลใช้งานอยู่ ไม่ว่าแคชจะอุ่นหรือไม่ จุดสิ้นสุดมีงานยุ่งแค่ไหน มักจะมีอิทธิพลเหนือเวลาตอบสนองตั้งแต่ต้นทางถึงปลายทาง โมเดลที่เร็วกว่าตามทฤษฎียังคงให้ประสบการณ์ที่ช้าลงได้ หากเงื่อนไขการแสดงโฆษณาไม่ถูกต้อง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Then there’s routing granularity. Routing once per task adds minimal overhead. But routing at every step — which gives you more flexibility to adapt mid-execution — means every additional decision point introduces latency and operational complexity.",
+        "th": "จากนั้นก็มีรายละเอียดการกำหนดเส้นทาง การกำหนดเส้นทางหนึ่งครั้งต่องานเพิ่มค่าใช้จ่ายน้อยที่สุด แต่การกำหนดเส้นทางในทุกขั้นตอน ซึ่งช่วยให้คุณมีความยืดหยุ่นมากขึ้นในการปรับการดำเนินการระหว่างกลาง หมายความว่าทุกจุดการตัดสินใจเพิ่มเติมจะทำให้เกิดเวลาแฝงและความซับซ้อนในการปฏิบัติงาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A router that ignores the serving system is optimizing against the wrong reality.",
+        "th": "เราเตอร์ที่เพิกเฉยต่อระบบการให้บริการกำลังปรับให้เหมาะสมกับความเป็นจริงที่ไม่ถูกต้อง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "So How Did We Handle This?",
+        "th": "แล้วเราจะจัดการเรื่องนี้อย่างไร?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These lessons shaped how we built our router. The key shift: we stopped treating routing as a classification problem and started treating it as an optimization problem. Rather than asking \"which model is best for this task?\", our algorithm optimizes across cost, quality, and latency simultaneously — while staying lightweight enough to avoid becoming a bottleneck itself.",
+        "th": "บทเรียนเหล่านี้กำหนดวิธีการสร้างเราเตอร์ของเรา การเปลี่ยนแปลงที่สำคัญ: เราหยุดถือว่าการกำหนดเส้นทางเป็นปัญหาการจำแนกประเภท และเริ่มถือว่าเป็นปัญหาการปรับให้เหมาะสม แทนที่จะถามว่า \"โมเดลใดดีที่สุดสำหรับงานนี้\" อัลกอริธึมของเราจะปรับต้นทุน คุณภาพ และเวลาแฝงไปพร้อมๆ กัน ในขณะที่ยังคงรักษาน้ำหนักที่เบาพอที่จะหลีกเลี่ยงไม่ให้กลายเป็นคอขวด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The figure below shows the result on the AppWorld Test Challenge with a CodeAct agent. Each blue square is a different configuration of our router, tracing out a cost-accuracy frontier. The important thing isn't any single point — it's that the router gives you a range of operating points to choose from depending on whether you want to prioritize cost, latency, or accuracy. Configuration 1 (latency-optimized) lands at 84% accuracy for $93 and 83s — a 21% cost reduction and 9% latency reduction compared to running Opus alone, with only a 4% accuracy drop. Configuration 2 pushes cost even lower.",
+        "th": "รูปด้านล่างแสดงผลของ AppWorld Test Challenge กับตัวแทน CodeAct สี่เหลี่ยมสีน้ำเงินแต่ละอันมีการกำหนดค่าที่แตกต่างกันของเราเตอร์ของเรา ซึ่งช่วยติดตามขอบเขตด้านความแม่นยำด้านต้นทุน สิ่งสำคัญไม่ใช่จุดเดียว — คือการที่เราเตอร์ให้จุดปฏิบัติการต่างๆ แก่คุณให้เลือก ขึ้นอยู่กับว่าคุณต้องการจัดลำดับความสำคัญของต้นทุน เวลาแฝง หรือความแม่นยำ การกำหนดค่า 1 (ปรับเวลาแฝงให้เหมาะสม) มีความแม่นยำ 84% ในราคา 93 ดอลลาร์และ 83 วินาที — ลดต้นทุน 21% และเวลาแฝงลดลง 9% เมื่อเปรียบเทียบกับการใช้ Opus เพียงอย่างเดียว โดยมีความแม่นยำลดลงเพียง 4% การกำหนดค่า 2 ทำให้ต้นทุนลดลงอีก"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://raw.githubusercontent.com/AgentToolkit/altk-main/main/assets/routing-results-hf-blog.png",
+      "alt": "Routing results on AppWorld Test Challenge with a CodeAct agent"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Notice that a standard difficulty-based router (the teal diamond) lands in a similar accuracy range but at higher cost — it doesn't explore the full tradeoff space the way an optimization-based approach can. And because the optimization itself is lightweight (roughly 6 ms and 2 kB of memory per task), the router doesn't become the bottleneck we warned about earlier.",
+        "th": "โปรดสังเกตว่าเราเตอร์ที่อิงตามความยากแบบมาตรฐาน (สีน้ำเงินอมเขียว) จะอยู่ในช่วงความแม่นยำใกล้เคียงกัน แต่มีราคาสูงกว่า — เราเตอร์ไม่ได้สำรวจพื้นที่การแลกเปลี่ยนทั้งหมดอย่างที่แนวทางการเพิ่มประสิทธิภาพสามารถทำได้ และเนื่องจากการเพิ่มประสิทธิภาพนั้นมีน้ำหนักเบา (ประมาณ 6 ms และ 2 kB ของหน่วยความจำต่องาน) เราเตอร์จึงไม่กลายเป็นคอขวดที่เราเตือนไปก่อนหน้านี้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The Bigger Picture",
+        "th": "ภาพใหญ่ขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The lesson we took away from this work is that routing isn’t really about choosing models. It’s about optimizing systems. Models are one variable — an important one, but just one among caching behavior, infrastructure state, compliance constraints, and workload patterns.",
+        "th": "บทเรียนที่เราได้จากงานนี้คือการกำหนดเส้นทางไม่ได้เกี่ยวกับการเลือกโมเดลจริงๆ มันเกี่ยวกับการเพิ่มประสิทธิภาพระบบ โมเดลเป็นตัวแปรหนึ่ง — ตัวแปรที่สำคัญ แต่เป็นเพียงหนึ่งเดียวในบรรดาพฤติกรรมการแคช สถานะโครงสร้างพื้นฐาน ข้อจำกัดในการปฏิบัติตามข้อกำหนด และรูปแบบปริมาณงาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When routing works well, it’s rarely because it found the \"best\" model for a given task. It’s because it found the best operating point for the entire system. That’s a harder problem than classification, but it’s the one worth solving.",
+        "th": "เมื่อการกำหนดเส้นทางทำงานได้ดี แทบจะไม่พบโมเดลที่ \"ดีที่สุด\" สำหรับงานที่กำหนด เป็นเพราะมันพบจุดปฏิบัติการที่ดีที่สุดสำหรับทั้งระบบ นั่นเป็นปัญหาที่ยากกว่าการจำแนกประเภท แต่เป็นปัญหาที่คุ้มค่าที่จะแก้ไข"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’ll be sharing more about the technical details behind our approach in a follow-up post. In the meantime, if you’re building routing into your own agentic systems, we’d love to hear what tradeoffs you’re running into.",
+        "th": "เราจะแบ่งปันเพิ่มเติมเกี่ยวกับรายละเอียดทางเทคนิคที่อยู่เบื้องหลังแนวทางของเราในโพสต์ติดตามผล ในระหว่างนี้ หากคุณกำลังสร้างการกำหนดเส้นทางในระบบเอเจนต์ของคุณเอง เรายินดีเป็นอย่างยิ่งที่จะได้ยินว่าคุณกำลังเผชิญกับข้อดีข้อเสียใดบ้าง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Acknowledgement",
+        "th": "รับทราบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This post was influenced by numerous conversations with colleagues, whose thoughtful questions, feedback, and insights helped refine our thinking.",
+        "th": "โพสต์นี้ได้รับอิทธิพลจากการสนทนามากมายกับเพื่อนร่วมงาน ซึ่งมีคำถามที่รอบคอบ คำติชม และข้อมูลเชิงลึกที่ช่วยขัดเกลาความคิดของเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More from this author",
+        "th": "เพิ่มเติมจากผู้เขียนคนนี้"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/649c1276a83f996b4191a8f1/iYCwB2Hl8qPTA8DCgDilB.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+        "th": "ScarfBench: การเปรียบเทียบเอเจนต์ AI สำหรับการโยกย้าย Java Framework ระดับองค์กร"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/649d9ad1500fd8d51a675a93/p9JwFYkZS7fB9g2PMFMft.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+        "th": "สร้างแอปเอเจนต์จริงโดยใช้ CUGA: ตัวอย่างการทำงานสองโหลบนสายรัดน้ำหนักเบา"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "ชุมชน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· ลงทะเบียนหรือเข้าสู่ระบบเพื่อแสดงความคิดเห็น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/c679343970193381753cc918246a7342.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/39727b53a080ce5391dbfb2276f41ec2.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/dc237f871dc180a8ab2fcb20e7d08d48.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/6cf73fe4b40d179d33e55aec0c7e5313.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/05ceb02598a78aefeb479f6d68080d7f.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6487da02c4b44322c124f39f/a59vwxS7l3iylkGXzN6R3.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/c2670566c5cbdfccf87954a9caf7d381.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/64e8143f6de557454220921e/aNouKBrKm1dnN9pI1JXlp.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/fa5834d4282fde8d5affa24e17494590.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65b12ed52be9660f0b7e5f72/r230jdYzTFj_CYmKgpz78.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/voQatzALsIDEbM2JR25ei.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/18f132b7a7dabcdf5fb933edb554ea68.svg",
+      "alt": ""
+    }
+  ]
+}

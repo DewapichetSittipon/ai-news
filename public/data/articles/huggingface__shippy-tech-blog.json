@@ -1,0 +1,427 @@
+{
+  "id": "huggingface__shippy-tech-blog",
+  "slug": "shippy-tech-blog",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+  "category": "News",
+  "date": "2026-07-15T17:29:41.000Z",
+  "image": null,
+  "title": {
+    "en": "What building Shippy taught us about building agents",
+    "th": "สิ่งที่อาคาร Shippy สอนเราเกี่ยวกับตัวแทนการก่อสร้าง"
+  },
+  "summary": {
+    "en": "What building Shippy taught us about building agents",
+    "th": "สิ่งที่อาคาร Shippy สอนเราเกี่ยวกับตัวแทนการก่อสร้าง"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1594144055859-5ee3a7cd2a3eae3cbdad1305.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/fee5cceec7536851d7c6712760716a71.svg",
+      "alt": "Kyle Wiggers's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/652db071b62cf1f8463221e2/CxxwFiaomTa1MCX_B7-pT.png",
+      "alt": "Ai2's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Agent anatomy: skills, soul, and config",
+        "th": "กายวิภาคของตัวแทน: ทักษะ จิตวิญญาณ และการกำหนดค่า"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deterministic tools for a nondeterministic agent",
+        "th": "เครื่องมือกำหนดสำหรับตัวแทนที่ไม่กำหนด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Sandboxed hosting and isolation",
+        "th": "โฮสติ้งและการแยกแซนด์บ็อกซ์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Evaluating an agent, not a model",
+        "th": "การประเมินตัวแทน ไม่ใช่โมเดล"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Where we're headed",
+        "th": "เรากำลังมุ่งหน้าไปที่ใด"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www.datocms-assets.com/64837/1783699893-shippy-technical-blog-final-version-google-docs-image-1.png",
+      "alt": "Shippy answering a live query about Ghana's EEZ"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Shippy answering a live query about Ghana's EEZ. The response shows its work: the boundary source, the data cutoff, the query timestamp, and a deep link back to the Skylight map so the analyst can verify every number.",
+        "th": "Shippy ตอบคำถามสดเกี่ยวกับ EEZ ของกานา การตอบสนองแสดงการทำงาน: แหล่งที่มาของขอบเขต การตัดข้อมูล การประทับเวลาการค้นหา และลิงก์ในรายละเอียดกลับไปยังแผนที่ Skylight เพื่อให้นักวิเคราะห์สามารถตรวจสอบทุกหมายเลขได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Building an AI agent for a high-stakes operational domain like protecting the ocean is, above all, a problem of reliability. For a maritime analyst, a wrong answer could send a patrol vessel miles in the wrong direction, costing significant resources that are already stretched thin and potentially putting personnel in harm's way.",
+        "th": "การสร้างตัวแทน AI สำหรับโดเมนการดำเนินงานที่มีเดิมพันสูง เช่น การปกป้องมหาสมุทร ถือเป็นปัญหาด้านความน่าเชื่อถือเหนือสิ่งอื่นใด สำหรับนักวิเคราะห์ทางทะเล คำตอบที่ผิดอาจทำให้เรือลาดตระเวนไปในทิศทางที่ผิดได้ ส่งผลให้ต้องสูญเสียทรัพยากรจำนวนมากซึ่งมีอยู่จำกัดอยู่แล้ว และอาจทำให้บุคลากรตกอยู่ในอันตรายได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "So when the Skylight team set out to build Shippy, our AI for real-time maritime domain awareness, the real work wasn't the model. It was building a system we could trust to be correct, to stay within its limits, and to hold up across a wide range of tasks. And we had to verify all of it against Skylight's live data, updated continuously as new satellite and vessel signals arrive—not a static snapshot.",
+        "th": "ดังนั้น เมื่อทีม Skylight มุ่งมั่นที่จะสร้าง Shippy ซึ่งเป็น AI ของเราสำหรับการรับรู้โดเมนทางทะเลแบบเรียลไทม์ งานที่แท้จริงไม่ใช่แบบจำลอง เป็นการสร้างระบบที่เราเชื่อถือได้ว่าถูกต้อง อยู่ภายในขีดจำกัด และเพื่อรองรับงานต่างๆ มากมาย และเราต้องตรวจสอบข้อมูลทั้งหมดกับข้อมูลสดของ Skylight ซึ่งอัปเดตอย่างต่อเนื่องเมื่อมีสัญญาณดาวเทียมและเรือใหม่เข้ามา ไม่ใช่สแน็ปช็อตแบบคงที่"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Agent anatomy: skills, soul, and config",
+        "th": "กายวิภาคของตัวแทน: ทักษะ จิตวิญญาณ และการกำหนดค่า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We think of an agent like Shippy as three things: a soul, skills, and config.",
+        "th": "เราคิดว่าตัวแทนอย่าง Shippy เป็นสามสิ่ง: จิตวิญญาณ ทักษะ และการกำหนดค่า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The soul is the system prompt that frames Shippy's persona and sets behavioral boundaries. Skills tell Shippy how to handle specific kinds of requests. Together, the soul and skills are baked into a Docker image—a versioned, deployable artifact that defines what Shippy is. Config covers everything else: which agent harness to run (in Shippy’s case, OpenClaw, an open-source agent framework), which LLM to use (currently, Shippy relies on Claude Opus 4.6), and runtime settings. Secrets like API keys are injected at runtime; swapping the model or the harness is a config change, not a rebuild.",
+        "th": "จิตวิญญาณเป็นระบบที่แจ้งเตือนบุคคลของ Shippy และกำหนดขอบเขตพฤติกรรม ทักษะจะบอก Shippy ถึงวิธีจัดการกับคำขอบางประเภท จิตวิญญาณและทักษะถูกรวมเข้าด้วยกันเป็นอิมเมจ Docker ซึ่งเป็นสิ่งประดิษฐ์ที่มีเวอร์ชันและปรับใช้ได้ ซึ่งกำหนดว่า Shippy คืออะไร การกำหนดค่าครอบคลุมทุกอย่าง: เอเจนต์ใดที่ควบคุมการทำงาน (ในกรณีของ Shippy คือ OpenClaw ซึ่งเป็นเฟรมเวิร์กเอเจนต์โอเพ่นซอร์ส) LLM ที่จะใช้ (ปัจจุบัน Shippy อาศัย Claude Opus 4.6) และการตั้งค่ารันไทม์ ข้อมูลลับเช่นคีย์ API จะถูกฉีดเข้าไปในรันไทม์ การสลับโมเดลหรือสายรัดเป็นการเปลี่ยนแปลงการกำหนดค่า ไม่ใช่การสร้างใหม่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Shippy’s skills follow the same agent-skills spec used by coding tools like Claude Code and Codex—plain markdown files with structured frontmatter. This keeps each skill comprehensible, versioned, and easy to revise. Shippy currently includes skills for:",
+        "th": "ทักษะของ Shippy เป็นไปตามข้อกำหนดทักษะตัวแทนแบบเดียวกับที่ใช้โดยเครื่องมือเข้ารหัสเช่น Claude Code และ Codex ซึ่งเป็นไฟล์มาร์กดาวน์ธรรมดาที่มีส่วนหน้าที่มีโครงสร้าง ซึ่งช่วยให้แต่ละทักษะมีความเข้าใจ มีเวอร์ชัน และแก้ไขได้ง่าย ปัจจุบัน Shippy มีทักษะสำหรับ:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Querying the Skylight API for Events (the vessel behaviors Skylight surfaces, like fishing or transshipment between two vessels) and vessel data",
+        "th": "การสืบค้น Skylight API สำหรับเหตุการณ์ (พฤติกรรมของเรือบนพื้นผิวสกายไลท์ เช่น การตกปลาหรือการถ่ายลำระหว่างเรือสองลำ) และข้อมูลเรือ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Looking up Exclusive Economic Zones (EEZ) and Marine Protected Area (MPA) boundaries",
+        "th": "ค้นหาเขตเศรษฐกิจจำเพาะ (EEZ) และพื้นที่คุ้มครองทางทะเล (MPA)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Interpreting vessel track data, the position and movement signals ships broadcast, building on the activity classifications Skylight's models, including Atlantes, already produce",
+        "th": "การตีความข้อมูลเส้นทางเดินเรือ ตำแหน่งและสัญญาณการเคลื่อนที่ของเรือที่ออกอากาศ สร้างขึ้นจากการจำแนกประเภทกิจกรรมแบบจำลองของ Skylight รวมถึง Atlantes ได้ผลิตแล้ว"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Generating interactive map links that let an analyst jump from a Shippy in-chat answer to an exact location on the Skylight map",
+        "th": "การสร้างลิงก์แผนที่เชิงโต้ตอบที่ช่วยให้นักวิเคราะห์ข้ามจากคำตอบในแชทของ Shippy ไปยังตำแหน่งที่แน่นอนบนแผนที่ Skylight"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For example, the Skylight API query skill encodes the full workflow for answering a question about a specific area. When an analyst or user asks, \"show me fishing activity in Panama's EEZ last month,\" the skill's instructions direct Shippy to first resolve \"Panama EEZ\" to a boundary polygon through Skylight's regions API instead of guessing or hard-coding coordinates, then query Fishing Events within that geometry, format the results with deep links back to the Skylight map, and attribute any vessel metadata drawn from Skylight partners like Global Fishing Watch or TMT.",
+        "th": "ตัวอย่างเช่น ทักษะการสืบค้น Skylight API จะเข้ารหัสขั้นตอนการทำงานทั้งหมดเพื่อตอบคำถามเกี่ยวกับพื้นที่เฉพาะ เมื่อนักวิเคราะห์หรือผู้ใช้ถามว่า \"แสดงกิจกรรมการตกปลาใน EEZ ของปานามาเมื่อเดือนที่แล้ว\" คำแนะนำของทักษะจะสั่งให้ Shippy แก้ไข \"Panama EEZ\" ให้เป็นรูปหลายเหลี่ยมขอบเขตก่อนผ่าน API ของภูมิภาคของ Skylight แทนที่จะคาดเดาหรือกำหนดพิกัดตายตัว จากนั้นจึงสืบค้น Fishing Events ภายในเรขาคณิตนั้น จัดรูปแบบผลลัพธ์ด้วยลิงก์ในรายละเอียดกลับไปยังแผนที่ Skylight และระบุข้อมูลเมตาของเรือใดๆ ที่ดึงมาจากพันธมิตรของ Skylight เช่น Global Fishing Watch หรือ TMT"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A single question posed to Shippy can hook into several skills at once. \"Are there vessels operating near the Cordillera de Coiba MPA?\" draws on the Skylight skill for data query, our partner ProtectedSeas’ database for MPA boundary context, and the vessel track skill for interpreting vessel behavior. All of this happens in a single dialogue turn.",
+        "th": "คำถามเดียวที่ส่งถึง Shippy สามารถเชื่อมโยงทักษะหลายอย่างพร้อมกันได้ \"มีเรือที่ปฏิบัติการใกล้กับ Cordillera de Coiba MPA หรือไม่\" ใช้ทักษะ Skylight สำหรับการสืบค้นข้อมูล ฐานข้อมูล ProtectedSeas ของพันธมิตรของเราสำหรับบริบทขอบเขต MPA และทักษะการติดตามเรือสำหรับการตีความพฤติกรรมของเรือ ทั้งหมดนี้เกิดขึ้นในรอบการสนทนาครั้งเดียว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The soul defines what Shippy will and won't do. It won't make legal determinations about whether a vessel is breaking the law—that is a determination for people, not an agent. It also won't speculate beyond what the data supports. These boundaries are explicit in the system prompt, not implicit in fine-tuning, which makes them auditable and easy to revise.",
+        "th": "จิตวิญญาณกำหนดสิ่งที่ Shippy จะทำและจะไม่ทำ จะไม่ทำการตัดสินทางกฎหมายว่าเรือละเมิดกฎหมายหรือไม่ นั่นเป็นการตัดสินใจของบุคคล ไม่ใช่ตัวแทน และจะไม่คาดเดาเกินกว่าที่ข้อมูลจะรองรับ ขอบเขตเหล่านี้ชัดเจนในพรอมต์ของระบบ ไม่ใช่โดยนัยในการปรับแต่งอย่างละเอียด ซึ่งทำให้สามารถตรวจสอบได้และแก้ไขได้ง่าย"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Deterministic tools for a nondeterministic agent",
+        "th": "เครื่องมือกำหนดสำหรับตัวแทนที่ไม่กำหนด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Agents are nondeterministic. You can't control what the model decides to do, but you can make the tools it reaches for predictable. To that end, Shippy 'talks' to Skylight through a purpose-built CLI that calls the API, rather than issuing raw calls itself.",
+        "th": "ตัวแทนไม่สามารถกำหนดได้ คุณไม่สามารถควบคุมสิ่งที่โมเดลตัดสินใจทำ แต่คุณสามารถสร้างเครื่องมือที่โมเดลเข้าถึงเพื่อให้คาดเดาได้ ด้วยเหตุนี้ Shippy จึง 'พูดคุย' กับ Skylight ผ่าน CLI ที่สร้างขึ้นตามวัตถุประสงค์ซึ่งเรียก API แทนที่จะออกการโทรแบบ Raw"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our API has dozens of input types, nested filter objects, pagination cursors, and complex geometry inputs. In early prototypes, we let Shippy construct API calls from scratch. It produced a steady stream of subtle bugs: malformed pagination that silently dropped results, geometry encoding errors, and correct-looking queries that returned wrong data because of a misunderstood filter type.",
+        "th": "API ของเรามีประเภทอินพุตหลายประเภท ออบเจ็กต์ตัวกรองแบบซ้อน เคอร์เซอร์การแบ่งหน้า และอินพุตรูปทรงเรขาคณิตที่ซับซ้อน ในต้นแบบรุ่นแรกๆ เราปล่อยให้ Shippy สร้างการเรียก API ตั้งแต่เริ่มต้น มันก่อให้เกิดข้อบกพร่องเล็กๆ น้อยๆ อย่างต่อเนื่อง เช่น การแบ่งหน้าที่ผิดรูปแบบซึ่งทำให้ผลลัพธ์ลดลงอย่างเงียบๆ ข้อผิดพลาดในการเข้ารหัสเรขาคณิต และการสืบค้นที่ดูถูกต้องซึ่งส่งคืนข้อมูลที่ไม่ถูกต้องเนื่องจากประเภทตัวกรองที่เข้าใจผิด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Skylight CLI collapses that complexity into a predictable interface. Shippy issues a single command – skylight events search with typed filter flags – and the CLI handles authentication, pagination, and structured output. The CLI is also self-documenting: extensive --help text and detailed error messages give the agent (and human developers) enough context to recover from mistakes without guessing. Its output is always written to a local JSON file rather than piped through the shell. Early on, large result sets would hit pipe buffer limits or break downstream tools like jq. Writing to disk sidesteps both problems and lets the agent programmatically access query results across subsequent steps.",
+        "th": "Skylight CLI ยุบความซับซ้อนนั้นลงในอินเทอร์เฟซที่คาดเดาได้ Shippy ออกคำสั่งเดียว - ค้นหาเหตุการณ์สกายไลท์ด้วยแฟล็กตัวกรองที่พิมพ์ - และ CLI จัดการการรับรองความถูกต้อง การแบ่งหน้า และเอาต์พุตที่มีโครงสร้าง CLI ยังจัดทำเอกสารด้วยตนเอง: ข้อความช่วยเหลือที่ครอบคลุมและข้อความแสดงข้อผิดพลาดโดยละเอียดทำให้ตัวแทน (และนักพัฒนาที่เป็นมนุษย์) มีบริบทเพียงพอที่จะกู้คืนจากข้อผิดพลาดโดยไม่ต้องคาดเดา เอาต์พุตจะถูกเขียนลงในไฟล์ JSON ในเครื่องเสมอ แทนที่จะส่งผ่านเชลล์ ในช่วงต้น ชุดผลลัพธ์ขนาดใหญ่อาจถึงขีดจำกัดบัฟเฟอร์ของไพพ์หรือทำให้เครื่องมือดาวน์สตรีม เช่น jq เสียหาย การเขียนลงดิสก์จะหลีกเลี่ยงทั้งสองปัญหา และช่วยให้เอเจนต์เข้าถึงผลลัพธ์การสืบค้นในขั้นตอนต่อๆ ไปได้โดยทางโปรแกรม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Underneath the CLI is a standardized API: multiple resource types – Skylight Events, vessels, regions, satellite imagery, vessel tracks, and more – accessible through a common pair of operations, search and aggregate. The APIs' inputs and outputs are defined as typed schemas with field-level descriptions.",
+        "th": "ภายใต้ CLI นั้นมี API ที่เป็นมาตรฐาน: ทรัพยากรหลายประเภท - กิจกรรม Skylight, เรือ, ภูมิภาค, ภาพถ่ายดาวเทียม, รอยทางของเรือ และอื่นๆ - เข้าถึงได้ผ่านคู่ปฏิบัติการ การค้นหา และการรวมกลุ่มทั่วไป อินพุตและเอาต์พุตของ API ถูกกำหนดเป็นสคีมาแบบพิมพ์พร้อมคำอธิบายระดับฟิลด์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This layering – typed API, deterministic CLI, and agent skills that reference the CLI's commands – means that each of Shippy's components can be tested independently. The API has its own test suite. The CLI can be exercised by a human or an agent. And the agent skills reference CLI commands that handle the plumbing so that Shippy doesn't have to reinvent the wheel every time it hits the Skylight API. Each layer narrows what the next layer can get wrong.",
+        "th": "API แบบแบ่งเลเยอร์, ​​CLI ที่กำหนด และทักษะตัวแทนที่อ้างอิงคำสั่งของ CLI หมายความว่าแต่ละส่วนประกอบของ Shippy สามารถทดสอบได้อย่างอิสระ API มีชุดทดสอบของตัวเอง CLI สามารถใช้โดยมนุษย์หรือตัวแทนได้ และทักษะของเจ้าหน้าที่อ้างอิงคำสั่ง CLI ที่จัดการระบบประปา เพื่อให้ Shippy ไม่ต้องสร้างวงล้อใหม่ทุกครั้งที่เข้าถึง Skylight API แต่ละชั้นจะจำกัดสิ่งที่ชั้นถัดไปอาจผิดพลาดให้แคบลง"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www.datocms-assets.com/64837/1783702321-shippy-architecture.png",
+      "alt": "Shippy architecture diagram"
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Sandboxed hosting and isolation",
+        "th": "โฮสติ้งและการแยกแซนด์บ็อกซ์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Skylight serves hundreds of government agencies and NGOs across over 70 countries. A fisheries officer in the Philippines has Areas of Interest, vessel watchlists, and alert configurations that are scoped to their Skylight account. When they ask Shippy a question, the agent's API calls need to return their data, and their conversation history must never be visible to anyone else.",
+        "th": "Skylight ให้บริการหน่วยงานภาครัฐและองค์กรพัฒนาเอกชนหลายร้อยแห่งในกว่า 70 ประเทศ เจ้าหน้าที่ประมงในฟิลิปปินส์มีพื้นที่ที่น่าสนใจ รายการเฝ้าดูเรือ และการกำหนดค่าการแจ้งเตือนซึ่งกำหนดขอบเขตไว้ในบัญชี Skylight ของพวกเขา เมื่อพวกเขาถามคำถาม Shippy การเรียก API ของตัวแทนจะต้องส่งคืนข้อมูล และประวัติการสนทนาของพวกเขาจะต้องไม่ปรากฏให้ใครเห็นอีก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Every user talks to Shippy inside their own ephemeral, isolated session, and making that work reliably at scale was one of the most significant engineering efforts behind the project. We built Mothership, an agent hosting platform that provisions a dedicated Kubernetes deployment for each user session. When a user opens a conversation, the system spins up a set of pods packaging the agent runtime, its skills, and the Skylight CLI. The user's Skylight JWT is injected at provision time so the agent's API calls are scoped to that user's data.",
+        "th": "ผู้ใช้ทุกคนพูดคุยกับ Shippy ภายในเซสชันชั่วคราวแบบแยกส่วนของตนเอง และการทำให้งานนั้นเชื่อถือได้ในวงกว้างถือเป็นหนึ่งในความพยายามทางวิศวกรรมที่สำคัญที่สุดที่อยู่เบื้องหลังโปรเจ็กต์นี้ เราสร้าง Mothership ซึ่งเป็นแพลตฟอร์มโฮสติ้งตัวแทนที่จัดเตรียมการใช้งาน Kubernetes โดยเฉพาะสำหรับแต่ละเซสชันผู้ใช้ เมื่อผู้ใช้เปิดการสนทนา ระบบจะหมุนชุดพ็อดที่บรรจุรันไทม์ของตัวแทน ทักษะ และ Skylight CLI Skylight JWT ของผู้ใช้ถูกฉีดในเวลาจัดเตรียม ดังนั้นการเรียก API ของเอเจนต์จึงถูกกำหนดขอบเขตไว้ที่ข้อมูลของผู้ใช้นั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Files the agent writes during a multi-step analysis exist only within that session and are never shared across users. Inside the sandbox, the agent can write and run code, install dependencies, pull in datasets, and work through multi-step analyses. At the network level, the sandbox is restricted to only the services it needs.",
+        "th": "ไฟล์ที่ตัวแทนเขียนระหว่างการวิเคราะห์หลายขั้นตอนจะมีอยู่ในเซสชันนั้นเท่านั้น และจะไม่แชร์กับผู้ใช้ ภายในแซนด์บ็อกซ์ เอเจนต์สามารถเขียนและรันโค้ด ติดตั้งการขึ้นต่อกัน ดึงชุดข้อมูล และทำงานผ่านการวิเคราะห์แบบหลายขั้นตอน ในระดับเครือข่าย แซนด์บ็อกซ์ถูกจำกัดไว้เฉพาะบริการที่ต้องการเท่านั้น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www.datocms-assets.com/64837/1783702321-sandbox-architecture.png",
+      "alt": "Sandbox architecture diagram"
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Evaluating an agent, not a model",
+        "th": "การประเมินตัวแทน ไม่ใช่โมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Most benchmarks rank general-purpose AI on static questions. They don't capture how an agent behaves once it's wired into a real workflow: how it selects tools, queries live data, acts on results, and knows where to stop. So we built our own eval system around how Shippy works, scoring the whole agent – model, skills, and sandbox together – against live data.",
+        "th": "เกณฑ์มาตรฐานส่วนใหญ่จัดอันดับ AI วัตถุประสงค์ทั่วไปตามคำถามคงที่ พวกเขาไม่ได้บันทึกพฤติกรรมของตัวแทนเมื่อเชื่อมโยงกับเวิร์กโฟลว์จริง: วิธีเลือกเครื่องมือ สอบถามข้อมูลสด ดำเนินการกับผลลัพธ์ และรู้ว่าควรหยุดที่จุดใด ดังนั้นเราจึงสร้างระบบการประเมินของเราเองเกี่ยวกับวิธีการทำงานของ Shippy โดยให้คะแนนตัวแทนทั้งหมด ทั้งแบบจำลอง ทักษะ และแซนด์บ็อกซ์ เทียบกับข้อมูลปัจจุบัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In our eval framework, subject-matter experts write scenarios and rubrics, choosing which criteria apply to each task and setting the weights, so every task is graded on what actually matters for it. A fishing-events query, for instance, weights data accuracy most heavily, with boundary resolution and timeframe next, and source attribution and response style carrying less. They also annotate individual responses as correct or incorrect, giving the judge ground truth to score against. Subject-matter experts additionally annotate individual responses as correct or incorrect, giving the judge ground truth to score against.",
+        "th": "ในกรอบการประเมินของเรา ผู้เชี่ยวชาญเฉพาะเรื่องจะเขียนสถานการณ์และเกณฑ์การให้คะแนน โดยเลือกเกณฑ์ที่ใช้กับแต่ละงานและกำหนดน้ำหนัก ดังนั้นงานทุกชิ้นจึงได้รับการให้คะแนนตามสิ่งที่สำคัญจริง ๆ ตัวอย่างเช่น การสืบค้นเหตุการณ์การตกปลาจะชั่งน้ำหนักความถูกต้องของข้อมูลมากที่สุด โดยมีการแก้ไขขอบเขตและกรอบเวลาถัดไป และการระบุแหล่งที่มาและรูปแบบการตอบสนองจะมีน้อยลง พวกเขายังใส่คำอธิบายประกอบคำตอบของแต่ละคนว่าถูกต้องหรือไม่ถูกต้อง โดยให้คะแนนความจริงแก่ผู้ตัดสิน ผู้เชี่ยวชาญในเนื้อหาจะอธิบายคำตอบของแต่ละคนว่าถูกต้องหรือไม่ถูกต้อง โดยให้คะแนนความจริงแก่ผู้ตัดสิน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The pipeline is straightforward: a natural-language prompt runs through the sandbox, an LLM judge grades each criterion from 0 to 1 and explains in writing why the response did or didn't meet it, and the weighted aggregate is checked against a fixed pass threshold, as the diagram below shows.",
+        "th": "ไปป์ไลน์นั้นตรงไปตรงมา: ข้อความแจ้งที่เป็นภาษาธรรมชาติจะทำงานผ่านแซนด์บ็อกซ์ ผู้ตัดสินของ LLM จะให้คะแนนแต่ละเกณฑ์ตั้งแต่ 0 ถึง 1 และอธิบายเป็นลายลักษณ์อักษรว่าเหตุใดการตอบกลับจึงเป็นไปตามหรือไม่ตรงตามนั้น และผลรวมที่ถ่วงน้ำหนักจะถูกตรวจสอบโดยเทียบกับเกณฑ์ผ่านคงที่ ดังแผนภาพด้านล่างที่แสดง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "How a single task is scored in our pipeline. A natural-language prompt runs through the sandbox, an LLM judge grades each rubric criterion with written reasoning, and the weighted aggregate resolves to a pass or fail against a fixed threshold.",
+        "th": "วิธีการให้คะแนนงานเดียวในไปป์ไลน์ของเรา ข้อความแจ้งที่เป็นภาษาธรรมชาติจะทำงานผ่านแซนด์บ็อกซ์ ผู้ตัดสินของ LLM จะให้คะแนนเกณฑ์รูบริกแต่ละรายการพร้อมการให้เหตุผลเป็นลายลักษณ์อักษร และผลรวมที่ถ่วงน้ำหนักจะถือว่าผ่านหรือไม่ผ่านตามเกณฑ์ที่กำหนด"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www.datocms-assets.com/64837/1783707731-eval-pipeline-updated.png",
+      "alt": "Eval pipeline diagram"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Tasks are executed through Harbor, an open evaluation framework. We wrote a Harbor plugin that spins up a real Shippy session on the exact version being tested, against the same real data a user would encounter. The suite runs in parallel against a specific versioned Shippy build, producing a timestamped results file and a report of score changes against the previous run. We rerun the suite whenever the skills, model, or underlying data change, and a version of Shippy that regresses on our eval criteria doesn't reach end users.",
+        "th": "งานต่างๆ จะดำเนินการผ่าน Harbor ซึ่งเป็นกรอบการประเมินผลแบบเปิด เราเขียนปลั๊กอิน Harbour ที่หมุนเซสชัน Shippy จริงในเวอร์ชันที่แน่นอนที่กำลังทดสอบ เทียบกับข้อมูลจริงเดียวกันกับที่ผู้ใช้จะพบ ชุดทำงานคู่ขนานกับรุ่น Shippy รุ่นใดรุ่นหนึ่ง โดยสร้างไฟล์ผลลัพธ์ที่มีการประทับเวลาและรายงานการเปลี่ยนแปลงคะแนนเทียบกับรุ่นก่อนหน้า เราจะรันชุดโปรแกรมใหม่ทุกครั้งที่ทักษะ โมเดล หรือข้อมูลพื้นฐานเปลี่ยนแปลง และเวอร์ชันของ Shippy ที่ถดถอยตามเกณฑ์การประเมินของเราไม่สามารถเข้าถึงผู้ใช้ปลายทางได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Shippy scores consistently across data retrieval and guardrail tasks, correctly refusing military intelligence requests, maintaining user data isolation, and attributing sources accurately. In our latest run, the clearest patterns were patrol-planning tasks where Shippy overstepped into tactical recommendations rather than decision support, geometry-sensitive queries where boundary simplification caused missed Events, and one case where the agent invented a CLI command that didn't exist. Each of these directly informs our next round of skill improvements.",
+        "th": "Shippy ให้คะแนนอย่างสม่ำเสมอในการดึงข้อมูลและงานป้องกัน การปฏิเสธคำขอข่าวกรองทางทหารอย่างถูกต้อง การรักษาการแยกข้อมูลผู้ใช้ และการระบุแหล่งที่มาอย่างถูกต้อง ในการเรียกใช้ครั้งล่าสุดของเรา รูปแบบที่ชัดเจนที่สุดคืองานวางแผนการลาดตระเวนโดยที่ Shippy ก้าวข้ามคำแนะนำทางยุทธวิธีมากกว่าการสนับสนุนการตัดสินใจ การสืบค้นที่ละเอียดอ่อนทางเรขาคณิตซึ่งการลดความซับซ้อนของขอบเขตทำให้เกิดเหตุการณ์ที่พลาด และกรณีหนึ่งที่เอเจนต์คิดค้นคำสั่ง CLI ที่ไม่มีอยู่จริง แต่ละสิ่งเหล่านี้จะแจ้งการปรับปรุงทักษะรอบต่อไปของเราโดยตรง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Shippy's eval suite running inside Skylight: each scenario is scored on weighted criteria, with the judge's reasoning visible so a failure points to a specific behavior to fix.",
+        "th": "ชุดประเมินของ Shippy ทำงานภายใน Skylight: แต่ละสถานการณ์จะถูกให้คะแนนตามเกณฑ์ถ่วงน้ำหนัก โดยมีเหตุผลของผู้ตัดสินที่มองเห็นได้ ดังนั้นความล้มเหลวจะชี้ไปที่พฤติกรรมเฉพาะที่ต้องแก้ไข"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www.datocms-assets.com/64837/1783707895-screenshot-2026-07-10-at-2-24-22-pm.png",
+      "alt": "Shippy eval suite screenshot"
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Where we're headed",
+        "th": "เรากำลังมุ่งหน้าไปที่ใด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We're opening Shippy to early adopters on a rolling basis and inviting them to stress-test it—to find the questions the agent answers poorly and guardrails that may need tightening. Here’s what we're building next:",
+        "th": "เรากำลังเปิดให้ Shippy แก่ผู้ใช้งานในช่วงแรกๆ อย่างต่อเนื่อง และเชิญชวนให้พวกเขาทดสอบความเครียด เพื่อค้นหาคำถามที่ตัวแทนตอบได้ไม่ดี และราวกั้นที่อาจต้องมีการปรับปรุงให้เข้มงวดขึ้น นี่คือสิ่งที่เรากำลังสร้างต่อไป:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Agent-driven UI control. Shippy returns map links today; next it will drive the Skylight map itself, moving to a region, applying filters, and adjusting time ranges.",
+        "th": "การควบคุม UI ที่ขับเคลื่อนโดยเอเจนต์ Shippy ส่งคืนลิงก์แผนที่วันนี้ ถัดไปจะขับเคลื่อนแผนที่สกายไลท์ ย้ายไปยังภูมิภาค ใช้ตัวกรอง และปรับช่วงเวลา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Model routing. Not every question needs a frontier model, so we're routing simple lookups to smaller, faster ones and saving the full-weight model for complex investigations.",
+        "th": "การกำหนดเส้นทางแบบจำลอง ไม่ใช่ทุกคำถามที่ต้องการแบบจำลองขอบเขต ดังนั้นเราจึงกำหนดเส้นทางการค้นหาแบบง่ายไปยังคำถามที่เล็กกว่าและเร็วกว่า และบันทึกแบบจำลองแบบเต็มไว้สำหรับการตรวจสอบที่ซับซ้อน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Cross-thread memory. Conversation history persists within a thread, but context doesn't carry across threads. We're building memory so Shippy carries persistent facts (e.g., an analyst's jurisdiction, preferred sources) and applies them automatically. So, \"Show me fishing activity this week\" won't mean re-specifying an analyst's EEZ each time.",
+        "th": "หน่วยความจำแบบครอสเธรด ประวัติการสนทนายังคงอยู่ในเธรด แต่บริบทจะไม่ข้ามเธรด เรากำลังสร้างความทรงจำ ดังนั้น Shippy จึงนำข้อเท็จจริงที่ยังคงอยู่ (เช่น เขตอำนาจศาลของนักวิเคราะห์ แหล่งข้อมูลที่ต้องการ) และนำไปใช้โดยอัตโนมัติ ดังนั้น \"แสดงกิจกรรมการตกปลาในสัปดาห์นี้\" ไม่ได้หมายถึงการระบุ EEZ ของนักวิเคราะห์ซ้ำในแต่ละครั้ง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our work on Shippy is already shaping how we think about agents elsewhere at Ai2—most immediately EarthRanger, our wildlife-conservation platform, and OlmoEarth, our open suite of Earth observation tools. Mothership was built to be general and to host other agents, so while maritime is the first domain we're applying it to, we don't expect it to be the last.",
+        "th": "งานของเราใน Shippy ได้กำหนดวิธีคิดของเราเกี่ยวกับตัวแทนอื่นๆ ที่ Ai2 ซึ่งได้แก่ EarthRanger ซึ่งเป็นแพลตฟอร์มการอนุรักษ์สัตว์ป่าของเรา และ OlmoEarth ซึ่งเป็นชุดเครื่องมือสังเกตการณ์โลกแบบเปิดของเรา Mothership ถูกสร้างขึ้นเพื่อให้ใช้งานได้ทั่วไปและเพื่อโฮสต์ตัวแทนอื่นๆ ดังนั้นแม้ว่าการเดินเรือจะเป็นโดเมนแรกที่เราใช้ แต่เราก็ไม่ได้คาดหวังว่ามันจะเป็นโดเมนสุดท้าย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Shippy is built by the Skylight team at Ai2. Skylight is a free maritime domain awareness platform used by 300+ partners across 70 countries.",
+        "th": "Shippy สร้างขึ้นโดยทีมงาน Skylight ที่ Ai2 Skylight เป็นแพลตฟอร์มการรับรู้โดเมนทางทะเลฟรีที่ใช้งานโดยพันธมิตรกว่า 300 รายใน 70 ประเทศ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More from this author",
+        "th": "เพิ่มเติมจากผู้เขียนคนนี้"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/AnOX0pzQm-Hep_CLFOVM7.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "DiScoFormer: One transformer for density and score, across distributions",
+        "th": "DiScoFormer: หม้อแปลงหนึ่งตัวสำหรับความหนาแน่นและคะแนน ทั่วทั้งการกระจาย"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/652db071b62cf1f8463221e2/CxxwFiaomTa1MCX_B7-pT.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F1-AlOdxpdaxe6a5BXuU7.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Which tokens does a hybrid model predict better?",
+        "th": "โมเดลไฮบริดทำนายโทเค็นใดได้ดีกว่า"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/652db071b62cf1f8463221e2/CxxwFiaomTa1MCX_B7-pT.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "ชุมชน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· ลงทะเบียนหรือเข้าสู่ระบบเพื่อแสดงความคิดเห็น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1594144055859-5ee3a7cd2a3eae3cbdad1305.jpeg",
+      "alt": ""
+    }
+  ]
+}

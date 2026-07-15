@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-07-15T17:10:12.227Z",
+  "generatedAt": "2026-07-15T19:00:24.697Z",
   "items": [
+    {
+      "id": "huggingface__shippy-tech-blog",
+      "slug": "shippy-tech-blog",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "category": "News",
+      "date": "2026-07-15T17:29:41.000Z",
+      "image": null,
+      "title": {
+        "en": "What building Shippy taught us about building agents",
+        "th": "สิ่งที่อาคาร Shippy สอนเราเกี่ยวกับตัวแทนการก่อสร้าง"
+      },
+      "summary": {
+        "en": "What building Shippy taught us about building agents",
+        "th": "สิ่งที่อาคาร Shippy สอนเราเกี่ยวกับตัวแทนการก่อสร้าง"
+      }
+    },
+    {
+      "id": "huggingface__model-routing-is-simple-until-it-isnt",
+      "slug": "model-routing-is-simple-until-it-isnt",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+      "category": "News",
+      "date": "2026-07-15T17:27:01.000Z",
+      "image": null,
+      "title": {
+        "en": "Model Routing Is Simple. Until It Isn’t.",
+        "th": "การกำหนดเส้นทางโมเดลนั้นง่ายมาก จนกระทั่งมันไม่ใช่"
+      },
+      "summary": {
+        "en": "Model Routing Is Simple. Until It Isn’t.",
+        "th": "การกำหนดเส้นทางโมเดลนั้นง่ายมาก จนกระทั่งมันไม่ใช่"
+      }
+    },
     {
       "id": "openai__advancing-ai-safety-through-state-and-federal-action",
       "slug": "advancing-ai-safety-through-state-and-federal-action",
@@ -33,6 +67,23 @@
       "summary": {
         "en": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
         "th": "สำรวจ GPT-Red ซึ่งเป็นระบบการรวมทีมสีแดงอัตโนมัติของ OpenAI ที่ใช้การเล่นด้วยตนเองเพื่อปรับปรุงความปลอดภัยของ AI การจัดตำแหน่ง และความทนทานในการฉีดที่รวดเร็ว"
+      }
+    },
+    {
+      "id": "huggingface__thinkingmachines-inkling",
+      "slug": "thinkingmachines-inkling",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/thinkingmachines-inkling",
+      "category": "News",
+      "date": "2026-07-15T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Welcome Inkling by Thinking Machines",
+        "th": "ยินดีต้อนรับ Inkling โดย Thinking Machines"
+      },
+      "summary": {
+        "en": "Welcome Inkling by Thinking Machines",
+        "th": "ยินดีต้อนรับ Inkling โดย Thinking Machines"
       }
     },
     {
@@ -240,20 +291,20 @@
       }
     },
     {
-      "id": "openai__chatgpt-for-your-most-ambitious-work",
-      "slug": "chatgpt-for-your-most-ambitious-work",
+      "id": "openai__bio-bug-bounty",
+      "slug": "bio-bug-bounty",
       "source": "openai",
-      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "category": "Product",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "category": "Safety",
       "date": "2026-07-09T10:00:00.000Z",
       "image": null,
       "title": {
-        "en": "ChatGPT is now a partner for your most ambitious work",
-        "th": "ChatGPT เป็นพันธมิตรสำหรับงานที่ทะเยอทะยานที่สุดของคุณแล้ว"
+        "en": "GPT-5.5 Bio Bug Bounty",
+        "th": "GPT-5.5 รางวัลแมลงชีวภาพ"
       },
       "summary": {
-        "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-        "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
+        "en": "Details about the OpenAI Bio Bounty program",
+        "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
       }
     },
     {
@@ -274,20 +325,20 @@
       }
     },
     {
-      "id": "openai__bio-bug-bounty",
-      "slug": "bio-bug-bounty",
+      "id": "openai__chatgpt-for-your-most-ambitious-work",
+      "slug": "chatgpt-for-your-most-ambitious-work",
       "source": "openai",
-      "url": "https://openai.com/index/bio-bug-bounty",
-      "category": "Safety",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "category": "Product",
       "date": "2026-07-09T10:00:00.000Z",
       "image": null,
       "title": {
-        "en": "GPT-5.5 Bio Bug Bounty",
-        "th": "GPT-5.5 รางวัลแมลงชีวภาพ"
+        "en": "ChatGPT is now a partner for your most ambitious work",
+        "th": "ChatGPT เป็นพันธมิตรสำหรับงานที่ทะเยอทะยานที่สุดของคุณแล้ว"
       },
       "summary": {
-        "en": "Details about the OpenAI Bio Bounty program",
-        "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
+        "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+        "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
       }
     },
     {
@@ -852,6 +903,23 @@
       }
     },
     {
+      "id": "openai__case-studies",
+      "slug": "case-studies",
+      "source": "openai",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "category": "News",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
+      },
+      "summary": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
+      }
+    },
+    {
       "id": "openai__introducing-genebench-pro",
       "slug": "introducing-genebench-pro",
       "source": "openai",
@@ -883,23 +951,6 @@
       "summary": {
         "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
         "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
-      }
-    },
-    {
-      "id": "openai__case-studies",
-      "slug": "case-studies",
-      "source": "openai",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
-      "category": "News",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
-      },
-      "summary": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
       }
     },
     {
@@ -1923,40 +1974,6 @@
       }
     },
     {
-      "id": "huggingface__mellum2-launch",
-      "slug": "mellum2-launch",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-      "category": "News",
-      "date": "2026-06-01T15:45:17.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
-        "th": "ขอแนะนำ Mellum2: โมเดลแบบผสมผสานของผู้เชี่ยวชาญ 12B โดย JetBrains"
-      },
-      "summary": {
-        "en": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
-        "th": "ขอแนะนำ Mellum2: โมเดลแบบผสมผสานของผู้เชี่ยวชาญ 12B โดย JetBrains"
-      }
-    },
-    {
-      "id": "huggingface__agent-logic-and-scalable-ai-adoption",
-      "slug": "agent-logic-and-scalable-ai-adoption",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-      "category": "News",
-      "date": "2026-06-01T13:51:18.000Z",
-      "image": null,
-      "title": {
-        "en": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-        "th": "เหนือกว่า LLM: เหตุใดการนำ AI ขององค์กรที่ปรับขนาดได้จึงขึ้นอยู่กับลอจิกของตัวแทน"
-      },
-      "summary": {
-        "en": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-        "th": "เหนือกว่า LLM: เหตุใดการนำ AI ขององค์กรที่ปรับขนาดได้จึงขึ้นอยู่กับลอจิกของตัวแทน"
-      }
-    },
-    {
       "id": "google-ai__io-2026-vibe-coded-quiz",
       "slug": "io-2026-vibe-coded-quiz",
       "source": "google-ai",
@@ -2005,23 +2022,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp\">University of Waterloo students develop AI prototypes like sign language tutors to reshape the fut",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp\">นักศึกษาจาก University of Waterloo พัฒนาต้นแบบ AI เช่น ครูสอนภาษามือเพื่อปรับเปลี่ยนรูปแบบใหม่"
-      }
-    },
-    {
-      "id": "huggingface__torch-profiler",
-      "slug": "torch-profiler",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/torch-profiler",
-      "category": "News",
-      "date": "2026-05-29T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
-        "th": "การสร้างโปรไฟล์ใน PyTorch (ตอนที่ 1): คู่มือสำหรับผู้เริ่มต้นใช้งาน torch.profiler"
-      },
-      "summary": {
-        "en": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
-        "th": "การสร้างโปรไฟล์ใน PyTorch (ตอนที่ 1): คู่มือสำหรับผู้เริ่มต้นใช้งาน torch.profiler"
       }
     },
     {

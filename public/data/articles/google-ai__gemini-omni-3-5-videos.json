@@ -18,6 +18,13 @@
     {
       "type": "li",
       "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Innovation & AI",
         "th": "นวัตกรรมและเอไอ"
       }
@@ -44,6 +51,41 @@
       }
     },
     {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "With Gemini Omni, Gemini’s ability to reason meets the ability to create, while Gemini 3.5 is built to help you execute complex, agentic workflows.",
@@ -51,9 +93,53 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/zahra_headshot.max-244x184.format-webp.webp",
-      "alt": "zahra_headshot"
+      "type": "p",
+      "text": {
+        "en": "Zahra Thompson",
+        "th": "ซาร่า ทอมป์สัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Contributing writer",
+        "th": "นักเขียนที่มีส่วนร่วม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
     },
     {
       "type": "img",
@@ -285,42 +371,36 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp",
-      "alt": "IOCollection_social"
+      "type": "p",
+      "text": {
+        "en": "Collection",
+        "th": "ของสะสม"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "I/O 2026",
+        "th": "ไอ/โอ 2026"
+      }
     },
     {
       "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-800.format-webp.webp",
       "alt": ""
     },
     {
       "type": "h2",
       "text": {
-        "en": "Get more stories from Google in your inbox. Get more stories from Google in your inbox.",
-        "th": "รับเรื่องราวเพิ่มเติมจาก Google ในกล่องจดหมายของคุณ รับเรื่องราวเพิ่มเติมจาก Google ในกล่องจดหมายของคุณ"
+        "en": "Get the latest news from Google in your inbox",
+        "th": "รับข่าวสารล่าสุดจาก Google ในกล่องจดหมายของคุณ"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "Your information will be used in accordance with Google's privacy policy.",
-        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google"
+        "en": "Sign up for our newsletters with product updates, event information, special offers, and more.",
+        "th": "ลงทะเบียนรับจดหมายข่าวของเราพร้อมข้อมูลอัปเดตผลิตภัณฑ์ ข้อมูลกิจกรรม ข้อเสนอพิเศษ และอื่นๆ อีกมากมาย"
       }
     },
     {
@@ -340,15 +420,15 @@
     {
       "type": "p",
       "text": {
-        "en": "You are already subscribed to our newsletter.",
-        "th": "คุณได้สมัครรับจดหมายข่าวของเราแล้ว"
+        "en": "You can also subscribe with a different email address.",
+        "th": "คุณสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "You can also subscribe with a different email address .",
-        "th": "คุณยังสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
+        "en": "Your information will be used in accordance with Google's privacy policy. You may opt out at any time.",
+        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google คุณสามารถเลือกไม่รับได้ตลอดเวลา"
       }
     },
     {

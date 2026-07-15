@@ -18,6 +18,13 @@
     {
       "type": "li",
       "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Innovation & AI",
         "th": "นวัตกรรมและเอไอ"
       }
@@ -37,6 +44,41 @@
       }
     },
     {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "Explore the future of discovery with new Science Skills in Google Antigravity and three new experimental tools on Google Labs. These tools are designed to help accelerate core steps of the scientific method, built with Co-Scientist, AlphaEvolve, Empirical Research Assistance and NotebookLM.",
@@ -44,14 +86,67 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pushmeet.max-244x184.format-webp.webp",
-      "alt": "Pushmeet"
+      "type": "p",
+      "text": {
+        "en": "Pushmeet Kohli",
+        "th": "พุชมีท โคห์ลี"
+      }
     },
     {
-      "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/yossi-portrait-high-res_1.max-244x184.format-webp.webp",
-      "alt": "yossi-portrait-high-res (1)"
+      "type": "p",
+      "text": {
+        "en": "Chief Scientist, Google Cloud and Vice President, Google DeepMind",
+        "th": "หัวหน้านักวิทยาศาสตร์ Google Cloud และรองประธาน Google DeepMind"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Yossi Matias",
+        "th": "ยอสซี่ มาติอัส"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Vice President, Google and General Manager, Google Research",
+        "th": "รองประธาน Google และผู้จัดการทั่วไปฝ่ายวิจัยของ Google"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
     },
     {
       "type": "img",
@@ -206,42 +301,36 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp",
-      "alt": "The image shows a colorful abstract design with the Google I/O 2026 logo."
-    },
-    {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707",
-      "alt": ""
+      "type": "p",
+      "text": {
+        "en": "Collection",
+        "th": "ของสะสม"
+      }
     },
     {
       "type": "h2",
       "text": {
-        "en": "Get more stories from Google in your inbox. Get more stories from Google in your inbox.",
-        "th": "รับเรื่องราวเพิ่มเติมจาก Google ในกล่องจดหมายของคุณ รับเรื่องราวเพิ่มเติมจาก Google ในกล่องจดหมายของคุณ"
+        "en": "I/O 2026",
+        "th": "ไอ/โอ 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-800.format-webp.webp",
+      "alt": "The image shows a colorful abstract design with the Google I/O 2026 logo."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get the latest news from Google in your inbox",
+        "th": "รับข่าวสารล่าสุดจาก Google ในกล่องจดหมายของคุณ"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "Your information will be used in accordance with Google's privacy policy.",
-        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google"
+        "en": "Sign up for our newsletters with product updates, event information, special offers, and more.",
+        "th": "ลงทะเบียนรับจดหมายข่าวของเราพร้อมข้อมูลอัปเดตผลิตภัณฑ์ ข้อมูลกิจกรรม ข้อเสนอพิเศษ และอื่นๆ อีกมากมาย"
       }
     },
     {
@@ -261,15 +350,15 @@
     {
       "type": "p",
       "text": {
-        "en": "You are already subscribed to our newsletter.",
-        "th": "คุณได้สมัครรับจดหมายข่าวของเราแล้ว"
+        "en": "You can also subscribe with a different email address.",
+        "th": "คุณสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "You can also subscribe with a different email address .",
-        "th": "คุณยังสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
+        "en": "Your information will be used in accordance with Google's privacy policy. You may opt out at any time.",
+        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google คุณสามารถเลือกไม่รับได้ตลอดเวลา"
       }
     },
     {

@@ -18,6 +18,13 @@
     {
       "type": "li",
       "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Innovation & AI",
         "th": "นวัตกรรมและเอไอ"
       }
@@ -44,10 +51,108 @@
       }
     },
     {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "Our newest open experimental model delivers up to 4x faster inference on dedicated GPUs and opens the door to exploring speed-critical, interactive local workflows.",
         "th": "โมเดลทดลองแบบเปิดใหม่ล่าสุดของเราให้การอนุมานเร็วขึ้นสูงสุด 4 เท่าบน GPU เฉพาะ และเปิดประตูสู่การสำรวจเวิร์กโฟลว์ท้องถิ่นแบบโต้ตอบที่มีความสำคัญต่อความเร็ว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Brendan O'Donoghue",
+        "th": "เบรนแดน โอโดโนฮิว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Research Scientist",
+        "th": "นักวิทยาศาสตร์การวิจัย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sebastian Flennerhag",
+        "th": "เซบาสเตียน เฟลนเนอร์ฮัก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Research Scientist",
+        "th": "นักวิทยาศาสตร์การวิจัย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
       }
     },
     {
@@ -64,7 +169,7 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/updated-Intelligence_vs_Latency_3.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/updated-Intelligence_vs_Latency_.width-1200.format-webp.webp",
       "alt": "Intelligence vs Latency"
     },
     {
@@ -125,7 +230,7 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/diffusiongemma__benchmark__bar_le.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/diffusiongemma__benchmark__bar_l.width-1200.format-webp.webp",
       "alt": "DiffusionGemma Benchmark"
     },
     {

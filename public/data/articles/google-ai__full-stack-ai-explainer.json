@@ -18,6 +18,13 @@
     {
       "type": "li",
       "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Innovation & AI",
         "th": "นวัตกรรมและเอไอ"
       }
@@ -44,6 +51,41 @@
       }
     },
     {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundation of our AI work for so long.",
@@ -51,22 +93,52 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_5_skVBvw8.max-244x184.format-webp.webp",
-      "alt": "Molly McHugh-Johnson headshot"
-    },
-    {
-      "type": "h2",
+      "type": "p",
       "text": {
-        "en": "General summary",
-        "th": "สรุปทั่วไป"
+        "en": "Molly McHugh-Johnson",
+        "th": "มอลลี่ แมคฮิวจ์-จอห์นสัน"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "Google expert Richard Seroter explains that a \"full-stack\" AI approach integrates every layer of technology—from hardware and models to user interfaces—into one cohesive system. This strategy improves reliability, lowers costs, and simplifies development by removing the need to stitch together disparate parts from multiple vendors. You can start building today using Google AI Studio for prototypes, the Gemini Enterprise Platform for automation, or the Antigravity platform for complex agent builds.",
-        "th": "Richard Seroter ผู้เชี่ยวชาญของ Google อธิบายว่าแนวทาง AI \"full-stack\" ผสานรวมเทคโนโลยีทุกชั้น ตั้งแต่ฮาร์ดแวร์และโมเดลไปจนถึงอินเทอร์เฟซผู้ใช้ ไว้ในระบบเดียว กลยุทธ์นี้ปรับปรุงความน่าเชื่อถือ ลดต้นทุน และทำให้การพัฒนาง่ายขึ้นโดยไม่จำเป็นต้องเย็บชิ้นส่วนที่แยกจากกันจากผู้ขายหลายราย คุณสามารถเริ่มสร้างได้ตั้งแต่วันนี้โดยใช้ Google AI Studio สำหรับต้นแบบ Gemini Enterprise Platform สำหรับระบบอัตโนมัติ หรือแพลตฟอร์ม Antigravity สำหรับการสร้าง Agent ที่ซับซ้อน"
+        "en": "Contributor",
+        "th": "ผู้ร่วมให้ข้อมูล"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
       }
     },
     {
@@ -79,6 +151,13 @@
       "text": {
         "en": "Your browser does not support the audio element.",
         "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Google expert Richard Seroter explains that a \"full-stack\" AI approach integrates every layer of technology—from hardware and models to user interfaces—into one cohesive system. This strategy improves reliability, lowers costs, and simplifies development by removing the need to stitch together disparate parts from multiple vendors. You can start building today using Google AI Studio for prototypes, the Gemini Enterprise Platform for automation, or the Antigravity platform for complex agent builds.",
+        "th": "Richard Seroter ผู้เชี่ยวชาญของ Google อธิบายว่าแนวทาง AI \"full-stack\" ผสานรวมเทคโนโลยีทุกชั้น ตั้งแต่ฮาร์ดแวร์และโมเดลไปจนถึงอินเทอร์เฟซผู้ใช้ ไว้ในระบบเดียว กลยุทธ์นี้ปรับปรุงความน่าเชื่อถือ ลดต้นทุน และทำให้การพัฒนาง่ายขึ้นโดยไม่จำเป็นต้องเย็บชิ้นส่วนที่แยกจากกันจากผู้ขายหลายราย คุณสามารถเริ่มสร้างได้ตั้งแต่วันนี้โดยใช้ Google AI Studio สำหรับต้นแบบ Gemini Enterprise Platform สำหรับระบบอัตโนมัติ หรือแพลตฟอร์ม Antigravity สำหรับการสร้าง Agent ที่ซับซ้อน"
       }
     },
     {
@@ -138,8 +217,15 @@
       }
     },
     {
+      "type": "h2",
+      "text": {
+        "en": "Introducing the new full-stack vibe coding experience in Google AI Studio",
+        "th": "ขอแนะนำประสบการณ์การเขียนโค้ดแบบเต็มรูปแบบใหม่ใน Google AI Studio"
+      }
+    },
+    {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.1_pro_DEV_blog_social_6J.width-600.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.1_pro_DEV_blog_social_6J.width-800.format-webp.webp",
       "alt": "A dark screen with white text saying Google AI Studio: Bring anything to life. Underneath, the top half of five phone screens shows different Google app experiences"
     },
     {
@@ -206,8 +292,15 @@
       }
     },
     {
+      "type": "h2",
+      "text": {
+        "en": "See what 3 builders are making with Gemma 4",
+        "th": "ดูว่าผู้สร้าง 3 คนกำลังทำอะไรกับ Gemma 4"
+      }
+    },
+    {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemma_4_builders.width-1300.width-600.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemma_4_builders.width-1300.width-800.format-webp.webp",
       "alt": "Text saying Gemma 4 is in the center with photos surrounding of a piano, lion, music, a person, and an English tutoring app interface"
     },
     {

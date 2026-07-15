@@ -18,6 +18,13 @@
     {
       "type": "li",
       "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Innovation & AI",
         "th": "นวัตกรรมและเอไอ"
       }
@@ -34,6 +41,27 @@
       "text": {
         "en": "Google DeepMind",
         "th": "Google Deep Mind"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Eli Collins",
+        "th": "เอไล คอลลินส์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "VP Product, Google DeepMind",
+        "th": "รองประธานฝ่ายผลิตภัณฑ์ Google DeepMind"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jun 22, 2026",
+        "th": "22 มิ.ย. 2026"
       }
     },
     {
@@ -59,22 +87,8 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/DemisQuote_withtitle.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/DemisQuote_withtitle.width-1200.format-webp.webp",
       "alt": "quote from Demis Nassabis"
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "Google DeepMind",
-        "th": "Google Deep Mind"
-      }
-    },
-    {
-      "type": "h2",
-      "text": {
-        "en": "Related stories",
-        "th": "เรื่องราวที่เกี่ยวข้อง"
-      }
     }
   ]
 }

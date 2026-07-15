@@ -18,6 +18,13 @@
     {
       "type": "li",
       "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Innovation & AI",
         "th": "นวัตกรรมและเอไอ"
       }
@@ -44,6 +51,41 @@
       }
     },
     {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "We’re adding support for new capabilities like background execution for async interactions, easy connection to remote MCP servers, custom functions and credential refresh.",
@@ -51,14 +93,67 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/72.max-244x184.format-webp.webp",
-      "alt": "Philipp Schmid"
+      "type": "p",
+      "text": {
+        "en": "Philipp Schmid",
+        "th": "ฟิลิปป์ ชมิด"
+      }
     },
     {
-      "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Mariano_Cocirio_.max-244x184.format-webp.webp",
-      "alt": "Mariano Cocirio"
+      "type": "p",
+      "text": {
+        "en": "Developer Relations Engineer, Google DeepMind",
+        "th": "วิศวกรนักพัฒนาสัมพันธ์, Google DeepMind"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mariano Cocirio",
+        "th": "มาเรียโน โคซิริโอ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Product Manager, Google DeepMind",
+        "th": "ผู้จัดการผลิตภัณฑ์ Google DeepMind"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
     },
     {
       "type": "img",

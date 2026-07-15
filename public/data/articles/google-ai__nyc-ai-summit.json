@@ -18,6 +18,13 @@
     {
       "type": "li",
       "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Products & Platforms",
         "th": "ผลิตภัณฑ์และแพลตฟอร์ม"
       }
@@ -34,6 +41,13 @@
       "text": {
         "en": "Learning & Education",
         "th": "การเรียนรู้และการศึกษา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jul 01, 2026",
+        "th": "01 กรกฎาคม 2026"
       }
     },
     {
@@ -110,27 +124,6 @@
       "text": {
         "en": "A real-time demo of Google Search Live.",
         "th": "การสาธิต Google Search Live แบบเรียลไทม์"
-      }
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "Learning & Education",
-        "th": "การเรียนรู้และการศึกษา"
-      }
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "AI",
-        "th": "AI"
-      }
-    },
-    {
-      "type": "h2",
-      "text": {
-        "en": "Related stories",
-        "th": "เรื่องราวที่เกี่ยวข้อง"
       }
     }
   ]

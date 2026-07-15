@@ -18,6 +18,13 @@
     {
       "type": "li",
       "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Innovation & AI",
         "th": "นวัตกรรมและเอไอ"
       }
@@ -44,6 +51,41 @@
       }
     },
     {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "Here’s a recap of our biggest AI updates from June, including the launch of Gemini 3.5 Live Translate, the latest features in Android 17 and the new Google Home Speaker, built for Gemini.",
@@ -51,22 +93,45 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/superG_v3.max-244x184.format-webp.webp",
-      "alt": "SuperG"
-    },
-    {
-      "type": "h2",
+      "type": "p",
       "text": {
-        "en": "Basic explainer",
-        "th": "ผู้อธิบายขั้นพื้นฐาน"
+        "en": "News from Google Team",
+        "th": "ข่าวสารจากทีมงาน Google"
       }
     },
     {
-      "type": "p",
+      "type": "li",
       "text": {
-        "en": "Google just released a bunch of new AI updates to make your devices and apps more helpful. You can now use smarter tools on your laptop, get better translation features and even use AI to help with your schoolwork. These updates are designed to handle boring tasks so you can focus on what you actually enjoy. It’s all part of their plan to make technology feel like a natural partner in your daily life.",
-        "th": "Google เพิ่งเปิดตัวการอัปเดต AI ใหม่มากมายเพื่อทำให้อุปกรณ์และแอปของคุณมีประโยชน์มากขึ้น ตอนนี้คุณสามารถใช้เครื่องมือที่ชาญฉลาดยิ่งขึ้นบนแล็ปท็อปของคุณ รับคุณสมบัติการแปลที่ดีขึ้น หรือแม้แต่ใช้ AI เพื่อช่วยทำการบ้านของคุณ การอัปเดตเหล่านี้ออกแบบมาเพื่อจัดการกับงานที่น่าเบื่อ เพื่อให้คุณสามารถมุ่งเน้นไปที่สิ่งที่คุณชอบได้จริงๆ ทั้งหมดนี้เป็นส่วนหนึ่งของแผนของพวกเขาที่จะทำให้เทคโนโลยีรู้สึกเหมือนเป็นพันธมิตรตามธรรมชาติในชีวิตประจำวันของคุณ"
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
       }
     },
     {
@@ -74,6 +139,13 @@
       "text": {
         "en": "Your browser does not support the audio element.",
         "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Google just released a bunch of new AI updates to make your devices and apps more helpful. You can now use smarter tools on your laptop, get better translation features and even use AI to help with your schoolwork. These updates are designed to handle boring tasks so you can focus on what you actually enjoy. It’s all part of their plan to make technology feel like a natural partner in your daily life.",
+        "th": "Google เพิ่งเปิดตัวการอัปเดต AI ใหม่มากมายเพื่อทำให้อุปกรณ์และแอปของคุณมีประโยชน์มากขึ้น ตอนนี้คุณสามารถใช้เครื่องมือที่ชาญฉลาดยิ่งขึ้นบนแล็ปท็อปของคุณ รับคุณสมบัติการแปลที่ดีขึ้น หรือแม้แต่ใช้ AI เพื่อช่วยทำการบ้านของคุณ การอัปเดตเหล่านี้ออกแบบมาเพื่อจัดการกับงานที่น่าเบื่อ เพื่อให้คุณสามารถมุ่งเน้นไปที่สิ่งที่คุณชอบได้จริงๆ ทั้งหมดนี้เป็นส่วนหนึ่งของแผนของพวกเขาที่จะทำให้เทคโนโลยีรู้สึกเหมือนเป็นพันธมิตรตามธรรมชาติในชีวิตประจำวันของคุณ"
       }
     },
     {
@@ -92,7 +164,7 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI-title_0_uq84fO7.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI-title_0_uq84fO7.width-1200.format-webp.webp",
       "alt": "The big picture"
     },
     {
@@ -104,7 +176,7 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/2_1_83OKKpC.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/2_1_83OKKpC.width-1200.format-webp.webp",
       "alt": "AI to help developers create apps and experiences"
     },
     {
@@ -130,7 +202,7 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/3_1_2hn7Aw4.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/3_1_2hn7Aw4.width-1200.format-webp.webp",
       "alt": "AI to make your everyday life easier"
     },
     {
@@ -170,7 +242,7 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/4_1.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/4_1.width-1200.format-webp.webp",
       "alt": "AI to transform learning and education"
     },
     {
@@ -203,7 +275,7 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/5_1_O3nPpr2.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/5_1_O3nPpr2.width-1200.format-webp.webp",
       "alt": "AI to inspire and celebrate culture and art"
     },
     {
@@ -222,7 +294,7 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/6_1_tYPH98n.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/6_1_tYPH98n.width-1200.format-webp.webp",
       "alt": "AI to drive research and societal benefits"
     },
     {
@@ -261,37 +333,17 @@
       }
     },
     {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707",
-      "alt": ""
-    },
-    {
       "type": "h2",
       "text": {
-        "en": "Get more stories from Google in your inbox. Get more stories from Google in your inbox.",
-        "th": "รับเรื่องราวเพิ่มเติมจาก Google ในกล่องจดหมายของคุณ รับเรื่องราวเพิ่มเติมจาก Google ในกล่องจดหมายของคุณ"
+        "en": "Get the latest news from Google in your inbox",
+        "th": "รับข่าวสารล่าสุดจาก Google ในกล่องจดหมายของคุณ"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "Your information will be used in accordance with Google's privacy policy.",
-        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google"
+        "en": "Sign up for our newsletters with product updates, event information, special offers, and more.",
+        "th": "ลงทะเบียนรับจดหมายข่าวของเราพร้อมข้อมูลอัปเดตผลิตภัณฑ์ ข้อมูลกิจกรรม ข้อเสนอพิเศษ และอื่นๆ อีกมากมาย"
       }
     },
     {
@@ -311,15 +363,15 @@
     {
       "type": "p",
       "text": {
-        "en": "You are already subscribed to our newsletter.",
-        "th": "คุณได้สมัครรับจดหมายข่าวของเราแล้ว"
+        "en": "You can also subscribe with a different email address.",
+        "th": "คุณสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "You can also subscribe with a different email address .",
-        "th": "คุณยังสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
+        "en": "Your information will be used in accordance with Google's privacy policy. You may opt out at any time.",
+        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google คุณสามารถเลือกไม่รับได้ตลอดเวลา"
       }
     },
     {

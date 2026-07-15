@@ -18,6 +18,13 @@
     {
       "type": "li",
       "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Innovation & AI",
         "th": "นวัตกรรมและเอไอ"
       }
@@ -44,6 +51,41 @@
       }
     },
     {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "Introducing Lyria 3 Pro, which unlocks longer tracks with structural awareness. We’re also bringing Lyria to more Google products and surfaces.",
@@ -51,10 +93,59 @@
       }
     },
     {
-      "type": "h2",
+      "type": "p",
       "text": {
-        "en": "General summary",
-        "th": "สรุปทั่วไป"
+        "en": "Myriam Hamed Torres",
+        "th": "มิเรียม ฮาเหม็ด ตอร์เรส"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Senior Product Manager, Google DeepMind",
+        "th": "ผู้จัดการผลิตภัณฑ์อาวุโส Google DeepMind"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
       }
     },
     {
@@ -62,13 +153,6 @@
       "text": {
         "en": "Google is releasing Lyria 3 Pro, an advanced music generation model, across more Google products. You can now create longer tracks up to 3 minutes and customize elements like verses and choruses. Lyria 3 Pro is available in Vertex AI, Google AI Studio, the Gemini API, Google Vids, the Gemini app, and ProducerAI, so you can scale music production and experiment with different styles.",
         "th": "Google กำลังเปิดตัว Lyria 3 Pro ซึ่งเป็นโมเดลการสร้างเพลงขั้นสูงในผลิตภัณฑ์ต่างๆ ของ Google ตอนนี้คุณสามารถสร้างแทร็กที่ยาวขึ้นได้สูงสุด 3 นาทีและปรับแต่งองค์ประกอบต่างๆ เช่น บทกลอนและคอรัส Lyria 3 Pro พร้อมใช้งานใน Vertex AI, Google AI Studio, Gemini API, Google Vids, แอป Gemini และ ProducerAI คุณจึงสามารถขยายการผลิตเพลงและทดลองในสไตล์ที่แตกต่างกันได้"
-      }
-    },
-    {
-      "type": "h2",
-      "text": {
-        "en": "Bullet points",
-        "th": "สัญลักษณ์แสดงหัวข้อย่อย"
       }
     },
     {
@@ -107,13 +191,6 @@
       }
     },
     {
-      "type": "h2",
-      "text": {
-        "en": "Basic explainer",
-        "th": "ผู้อธิบายขั้นพื้นฐาน"
-      }
-    },
-    {
       "type": "p",
       "text": {
         "en": "Google made a new AI model called Lyria 3 Pro that makes music. It can now create longer songs up to 3 minutes and understand song structure better. People can use it in different Google apps like Vids and Gemini to make custom music. Google is working with musicians to make sure the AI helps them be creative.",
@@ -139,13 +216,6 @@
       "text": {
         "en": "Basic explainer",
         "th": "ผู้อธิบายขั้นพื้นฐาน"
-      }
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "Your browser does not support the audio element.",
-        "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
       }
     },
     {

@@ -18,6 +18,13 @@
     {
       "type": "li",
       "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Innovation & AI",
         "th": "นวัตกรรมและเอไอ"
       }
@@ -34,6 +41,27 @@
       "text": {
         "en": "Google Research",
         "th": "การวิจัยของ Google"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mike Schaekermann",
+        "th": "ไมค์ เชเกอร์มันน์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Research Lead",
+        "th": "หัวหน้าฝ่ายวิจัย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jun 17, 2026",
+        "th": "17 มิ.ย. 2569"
       }
     },
     {
@@ -69,41 +97,6 @@
       "text": {
         "en": "Google's new research on medical AI for disease management was published in \"Nature\" today. (Credit: Google, with permission from \"Nature.\")",
         "th": "งานวิจัยใหม่ของ Google เกี่ยวกับ AI ทางการแพทย์สำหรับการจัดการโรคได้รับการตีพิมพ์ใน \"Nature\" วันนี้ (เครดิต: Google โดยได้รับอนุญาตจาก \"ธรรมชาติ\")"
-      }
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "Google Research",
-        "th": "การวิจัยของ Google"
-      }
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "Google DeepMind",
-        "th": "Google Deep Mind"
-      }
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "Health",
-        "th": "สุขภาพ"
-      }
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "AI",
-        "th": "AI"
-      }
-    },
-    {
-      "type": "h2",
-      "text": {
-        "en": "Related stories",
-        "th": "เรื่องราวที่เกี่ยวข้อง"
       }
     }
   ]

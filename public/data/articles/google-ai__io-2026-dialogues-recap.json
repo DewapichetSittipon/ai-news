@@ -18,6 +18,13 @@
     {
       "type": "li",
       "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Innovation & AI",
         "th": "นวัตกรรมและเอไอ"
       }
@@ -34,6 +41,13 @@
       "text": {
         "en": "AI",
         "th": "AI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "May 22, 2026",
+        "th": "22 พฤษภาคม 2026"
       }
     },
     {
@@ -94,29 +108,8 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.width-1200.format-webp.webp",
       "alt": "Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage"
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "AI",
-        "th": "AI"
-      }
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "Googlers",
-        "th": "ชาว Google"
-      }
-    },
-    {
-      "type": "h2",
-      "text": {
-        "en": "Related stories",
-        "th": "เรื่องราวที่เกี่ยวข้อง"
-      }
     }
   ]
 }

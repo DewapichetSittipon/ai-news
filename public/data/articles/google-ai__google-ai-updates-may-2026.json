@@ -18,6 +18,13 @@
     {
       "type": "li",
       "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Innovation & AI",
         "th": "นวัตกรรมและเอไอ"
       }
@@ -44,6 +51,41 @@
       }
     },
     {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "Here’s a recap of our biggest AI updates from May, including announcements from Google I/O 2026, the Android Show and Google Health.",
@@ -51,17 +93,45 @@
       }
     },
     {
-      "type": "h2",
+      "type": "p",
       "text": {
-        "en": "General summary",
-        "th": "สรุปทั่วไป"
+        "en": "Blog Team",
+        "th": "ทีมงานบล็อก"
       }
     },
     {
-      "type": "p",
+      "type": "li",
       "text": {
-        "en": "Google’s May 2026 updates center on the new \"agentic\" era, featuring the Gemini 3.5 model and Gemini Omni for advanced reasoning and creation. You can now use proactive tools like the updated Gemini app, Universal Cart for shopping, and the new Google Health app to manage your daily tasks more efficiently. Explore these features across new hardware, including the Googlebook and Fitbit Air, to see how these intelligent systems can simplify your workflow and personal wellness.",
-        "th": "การอัปเดตในเดือนพฤษภาคม 2569 ของ Google มุ่งเน้นไปที่ยุค \"ตัวแทน\" ใหม่ซึ่งมีรุ่น Gemini 3.5 และ Gemini Omni สำหรับการให้เหตุผลและการสร้างสรรค์ขั้นสูง ตอนนี้คุณสามารถใช้เครื่องมือเชิงรุก เช่น แอป Gemini ที่อัปเดต Universal Cart สำหรับการช็อปปิ้ง และแอป Google Health ใหม่ เพื่อจัดการงานประจำวันของคุณได้อย่างมีประสิทธิภาพมากขึ้น สำรวจฟีเจอร์เหล่านี้ในฮาร์ดแวร์ใหม่ๆ รวมถึง Googlebook และ Fitbit Air เพื่อดูว่าระบบอัจฉริยะเหล่านี้ช่วยลดความซับซ้อนของขั้นตอนการทำงานและสุขภาพส่วนบุคคลของคุณได้อย่างไร"
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
       }
     },
     {
@@ -69,6 +139,13 @@
       "text": {
         "en": "Your browser does not support the audio element.",
         "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Google’s May 2026 updates center on the new \"agentic\" era, featuring the Gemini 3.5 model and Gemini Omni for advanced reasoning and creation. You can now use proactive tools like the updated Gemini app, Universal Cart for shopping, and the new Google Health app to manage your daily tasks more efficiently. Explore these features across new hardware, including the Googlebook and Fitbit Air, to see how these intelligent systems can simplify your workflow and personal wellness.",
+        "th": "การอัปเดตในเดือนพฤษภาคม 2569 ของ Google มุ่งเน้นไปที่ยุค \"ตัวแทน\" ใหม่ซึ่งมีรุ่น Gemini 3.5 และ Gemini Omni สำหรับการให้เหตุผลและการสร้างสรรค์ขั้นสูง ตอนนี้คุณสามารถใช้เครื่องมือเชิงรุก เช่น แอป Gemini ที่อัปเดต Universal Cart สำหรับการช็อปปิ้ง และแอป Google Health ใหม่ เพื่อจัดการงานประจำวันของคุณได้อย่างมีประสิทธิภาพมากขึ้น สำรวจฟีเจอร์เหล่านี้ในฮาร์ดแวร์ใหม่ๆ รวมถึง Googlebook และ Fitbit Air เพื่อดูว่าระบบอัจฉริยะเหล่านี้ช่วยลดความซับซ้อนของขั้นตอนการทำงานและสุขภาพส่วนบุคคลของคุณได้อย่างไร"
       }
     },
     {
@@ -87,7 +164,7 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI-title_0_2.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI-title_0_2.width-1200.format-webp.webp",
       "alt": "The big picture"
     },
     {
@@ -99,7 +176,7 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/may1.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/may1.width-1200.format-webp.webp",
       "alt": "AI that helps you create and explore"
     },
     {
@@ -125,7 +202,7 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/may2.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/may2.width-1200.format-webp.webp",
       "alt": "AI that handles your tasks in the background"
     },
     {
@@ -172,7 +249,7 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/may3.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/may3.width-1200.format-webp.webp",
       "alt": "AI that transforms your health and wellness"
     },
     {
@@ -191,12 +268,12 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/fitbitair_hero.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/fitbitair_hero.width-1200.format-webp.webp",
       "alt": "New Fitbit Air and band options"
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/may4.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/may4.width-1200.format-webp.webp",
       "alt": "AI that upgrades your hardware and mobile experience"
     },
     {
@@ -229,7 +306,7 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/may6.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/may6.width-1200.format-webp.webp",
       "alt": "AI that helps secure your digital world"
     },
     {
@@ -241,7 +318,7 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/may7.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/may7.width-1200.format-webp.webp",
       "alt": "AI that helps solve major scientific and real-world problems"
     },
     {
@@ -273,37 +350,17 @@
       }
     },
     {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707",
-      "alt": ""
-    },
-    {
       "type": "h2",
       "text": {
-        "en": "Get more stories from Google in your inbox. Get more stories from Google in your inbox.",
-        "th": "รับเรื่องราวเพิ่มเติมจาก Google ในกล่องจดหมายของคุณ รับเรื่องราวเพิ่มเติมจาก Google ในกล่องจดหมายของคุณ"
+        "en": "Get the latest news from Google in your inbox",
+        "th": "รับข่าวสารล่าสุดจาก Google ในกล่องจดหมายของคุณ"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "Your information will be used in accordance with Google's privacy policy.",
-        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google"
+        "en": "Sign up for our newsletters with product updates, event information, special offers, and more.",
+        "th": "ลงทะเบียนรับจดหมายข่าวของเราพร้อมข้อมูลอัปเดตผลิตภัณฑ์ ข้อมูลกิจกรรม ข้อเสนอพิเศษ และอื่นๆ อีกมากมาย"
       }
     },
     {
@@ -323,15 +380,15 @@
     {
       "type": "p",
       "text": {
-        "en": "You are already subscribed to our newsletter.",
-        "th": "คุณได้สมัครรับจดหมายข่าวของเราแล้ว"
+        "en": "You can also subscribe with a different email address.",
+        "th": "คุณสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "You can also subscribe with a different email address .",
-        "th": "คุณยังสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
+        "en": "Your information will be used in accordance with Google's privacy policy. You may opt out at any time.",
+        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google คุณสามารถเลือกไม่รับได้ตลอดเวลา"
       }
     },
     {

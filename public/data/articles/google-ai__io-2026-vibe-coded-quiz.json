@@ -18,6 +18,13 @@
     {
       "type": "li",
       "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Innovation & AI",
         "th": "นวัตกรรมและเอไอ"
       }
@@ -34,6 +41,27 @@
       "text": {
         "en": "AI",
         "th": "AI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Zahra Thompson",
+        "th": "ซาร่า ทอมป์สัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Contributing writer",
+        "th": "นักเขียนที่มีส่วนร่วม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "May 29, 2026",
+        "th": "29 พฤษภาคม 2569"
       }
     },
     {
@@ -65,30 +93,16 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.width-600.format-webp.webp",
-      "alt": "The words I/O quiz in rainbow colors against a black background"
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "AI",
-        "th": "AI"
-      }
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "Developer tools",
-        "th": "เครื่องมือสำหรับนักพัฒนา"
-      }
-    },
-    {
       "type": "h2",
       "text": {
-        "en": "Related stories",
-        "th": "เรื่องราวที่เกี่ยวข้อง"
+        "en": "Google I/O 2026: Pop Quiz",
+        "th": "Google I/O 2026: แบบทดสอบป๊อป"
       }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.width-800.format-webp.webp",
+      "alt": "The words I/O quiz in rainbow colors against a black background"
     }
   ]
 }

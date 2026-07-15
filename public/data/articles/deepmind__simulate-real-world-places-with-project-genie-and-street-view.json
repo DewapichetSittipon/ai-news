@@ -18,6 +18,13 @@
     {
       "type": "li",
       "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Innovation & AI",
         "th": "นวัตกรรมและเอไอ"
       }
@@ -44,6 +51,41 @@
       }
     },
     {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
@@ -51,19 +93,81 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image_bIiabui.max-244x184.format-webp.webp",
-      "alt": "image"
+      "type": "p",
+      "text": {
+        "en": "Diego Rivas",
+        "th": "ดิเอโก ริวาส"
+      }
     },
     {
-      "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Jonathan_Herbert.max-244x184.format-webp.webp",
-      "alt": "Jonathan Herbert"
+      "type": "p",
+      "text": {
+        "en": "Group Product Manager, Google DeepMind",
+        "th": "ผู้จัดการผลิตภัณฑ์กลุ่ม Google DeepMind"
+      }
     },
     {
-      "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/headshot_ZeOD3hw.max-244x184.format-webp.webp",
-      "alt": "headshot"
+      "type": "p",
+      "text": {
+        "en": "Jonathan Herbert",
+        "th": "โจนาธาน เฮอร์เบิร์ต"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Principal Product Manager, Maps",
+        "th": "ผู้จัดการผลิตภัณฑ์หลัก Maps"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Nicole Segaran",
+        "th": "นิโคล เซการาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Associate Product Manager, Google Labs",
+        "th": "รองผู้จัดการผลิตภัณฑ์ Google Labs"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
     },
     {
       "type": "p",
@@ -150,42 +254,36 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-600.format-webp.webp",
-      "alt": "The image shows a colorful abstract design with the Google I/O 2026 logo."
-    },
-    {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-back.svg?version=pr20260624-1707",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-letter-approved.svg?version=pr20260624-1707",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-letter-google.svg?version=pr20260624-1707",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/static/blogv2/images/newsletter-envelope-front.svg?version=pr20260624-1707",
-      "alt": ""
+      "type": "p",
+      "text": {
+        "en": "Collection",
+        "th": "ของสะสม"
+      }
     },
     {
       "type": "h2",
       "text": {
-        "en": "Get more stories from Google in your inbox. Get more stories from Google in your inbox.",
-        "th": "รับเรื่องราวเพิ่มเติมจาก Google ในกล่องจดหมายของคุณ รับเรื่องราวเพิ่มเติมจาก Google ในกล่องจดหมายของคุณ"
+        "en": "I/O 2026",
+        "th": "ไอ/โอ 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-800.format-webp.webp",
+      "alt": "The image shows a colorful abstract design with the Google I/O 2026 logo."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get the latest news from Google in your inbox",
+        "th": "รับข่าวสารล่าสุดจาก Google ในกล่องจดหมายของคุณ"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "Your information will be used in accordance with Google's privacy policy.",
-        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google"
+        "en": "Sign up for our newsletters with product updates, event information, special offers, and more.",
+        "th": "ลงทะเบียนรับจดหมายข่าวของเราพร้อมข้อมูลอัปเดตผลิตภัณฑ์ ข้อมูลกิจกรรม ข้อเสนอพิเศษ และอื่นๆ อีกมากมาย"
       }
     },
     {
@@ -205,15 +303,15 @@
     {
       "type": "p",
       "text": {
-        "en": "You are already subscribed to our newsletter.",
-        "th": "คุณได้สมัครรับจดหมายข่าวของเราแล้ว"
+        "en": "You can also subscribe with a different email address.",
+        "th": "คุณสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "You can also subscribe with a different email address .",
-        "th": "คุณยังสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
+        "en": "Your information will be used in accordance with Google's privacy policy. You may opt out at any time.",
+        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google คุณสามารถเลือกไม่รับได้ตลอดเวลา"
       }
     },
     {

@@ -18,6 +18,13 @@
     {
       "type": "li",
       "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Innovation & AI",
         "th": "นวัตกรรมและเอไอ"
       }
@@ -44,6 +51,41 @@
       }
     },
     {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "Gemma 4 12B is designed to bring high-performance multimodal intelligence directly to your laptop, combining mobile-first efficiency with advanced reasoning.",
@@ -51,14 +93,67 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_1_FWXQsEG.max-244x184.format-webp.webp",
-      "alt": "Olivier Lacombe"
+      "type": "p",
+      "text": {
+        "en": "Olivier Lacombe",
+        "th": "โอลิวิเย่ร์ ลาคอมบ์"
+      }
     },
     {
-      "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Gus_1_-__crop.jpg",
-      "alt": "Gus Martins"
+      "type": "p",
+      "text": {
+        "en": "Director of Product Management, Google Deepmind",
+        "th": "ผู้อำนวยการฝ่ายการจัดการผลิตภัณฑ์ Google Deepmind"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gus Martins",
+        "th": "กัส มาร์ตินส์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Product Manager, Google DeepMind",
+        "th": "ผู้จัดการผลิตภัณฑ์ Google DeepMind"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
     },
     {
       "type": "img",
@@ -151,7 +246,7 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/1920x1080_xMVEyWv.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/1920x1080_xMVEyWv.width-1200.format-webp.webp",
       "alt": "Gemma 4 12B Benchmark"
     },
     {

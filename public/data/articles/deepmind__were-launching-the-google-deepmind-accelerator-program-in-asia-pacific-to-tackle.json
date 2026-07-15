@@ -18,6 +18,13 @@
     {
       "type": "li",
       "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Innovation & AI",
         "th": "นวัตกรรมและเอไอ"
       }
@@ -34,6 +41,27 @@
       "text": {
         "en": "Google DeepMind",
         "th": "Google Deep Mind"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Dr. Ramine Tinati",
+        "th": "ดร.รามีน ตินาติ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Director, Google DeepMind Impact Accelerator, APAC",
+        "th": "ผู้อำนวยการ Google DeepMind Impact Accelerator ภูมิภาคเอเชียแปซิฟิก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "May 17, 2026",
+        "th": "17 พฤษภาคม 2569"
       }
     },
     {
@@ -66,29 +94,8 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Image_for_APAC_GDM_Accelerator.width-100.format-webp.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Image_for_APAC_GDM_Accelerator.width-1200.format-webp.webp",
       "alt": "Google DeepMind Accelerator conceptual images"
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "Google DeepMind",
-        "th": "Google Deep Mind"
-      }
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "Google in Asia",
-        "th": "กูเกิลในเอเชีย"
-      }
-    },
-    {
-      "type": "h2",
-      "text": {
-        "en": "Related stories",
-        "th": "เรื่องราวที่เกี่ยวข้อง"
-      }
     }
   ]
 }

@@ -1,0 +1,592 @@
+{
+  "id": "huggingface__mosaicleaks",
+  "slug": "mosaicleaks",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+  "category": "News",
+  "date": "2026-06-18T18:13:13.000Z",
+  "image": null,
+  "title": {
+    "en": "MosaicLeaks: Can your research agent keep a secret?",
+    "th": "MosaicLeaks: เจ้าหน้าที่วิจัยของคุณสามารถเก็บความลับได้หรือไม่?"
+  },
+  "summary": {
+    "en": "MosaicLeaks: Can your research agent keep a secret?",
+    "th": "MosaicLeaks: เจ้าหน้าที่วิจัยของคุณสามารถเก็บความลับได้หรือไม่?"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5f17f0a0925b9863e28ad517/F_mZLzIDjppkRe0UKrRje.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/5427b05b3ef627d4d8281f9a33bb98ab.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/64bba174da140e4619248401/uXYk0Ubx5SzOKvFhzZcmy.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/657ab009e1113b5af51588ee/Yhdq9wtstQl4lvWwzXnXW.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65ca8745d64d82c92fa7c71f/xayDYjs_LoAsa8BEgDlhb.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6716477a2a1aa2bd093431c3/0iq21OLVUy3BgxN3kOlT1.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+8",
+        "th": "+8"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/0e80d1bd28c39d6709c9f098f7c4625a.svg",
+      "alt": "Alexander Gurung's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1664391313869-62f6691f329d4d014d1b4087.png",
+      "alt": "ServiceNow's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/FG49LyjRUUXYXJ1TPp6BF.png",
+      "alt": "Rafael Pardinas's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1664391313869-62f6691f329d4d014d1b4087.png",
+      "alt": "ServiceNow's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "TL;DR",
+        "th": "TL;ดร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Privacy Leakage in Deep-Research Agents",
+        "th": "การรั่วไหลของความเป็นส่วนตัวในตัวแทนการวิจัยเชิงลึก"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building MosaicLeaks Example Chain",
+        "th": "การสร้างห่วงโซ่ตัวอย่าง MosaicLeaks"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Example Chain",
+        "th": "ตัวอย่างโซ่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Agent Harness",
+        "th": "สายรัดตัวแทน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Can't you just tell the agent not to leak?",
+        "th": "คุณไม่สามารถบอกเจ้าหน้าที่ว่าอย่ารั่วไหลได้ไหม?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Making the agent better made it leak more",
+        "th": "ทำให้ตัวแทนดีขึ้นทำให้รั่วไหลมากขึ้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Teaching the agent to search safely: PA-DR",
+        "th": "สอนตัวแทนค้นหาอย่างปลอดภัย : PA-DR"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A closer look: situational rewards and sample efficiency",
+        "th": "เจาะลึก: รางวัลตามสถานการณ์และประสิทธิภาพของตัวอย่าง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What this does and doesn't show",
+        "th": "สิ่งนี้ทำและไม่แสดงอะไร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Citation",
+        "th": "การอ้างอิง"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://img.shields.io/badge/arXiv-2605.30727-b31b1b.svg",
+      "alt": "arXiv"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "TL;DR",
+        "th": "TL;ดร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Deep research agents increasingly combine private local documents with external tools like web retrieval, creating a privacy risk: an agent's external queries may leak sensitive information. MosaicLeaks proposes a new deep-research task with multi-hop questions that interleave public and private information. Across the models we tested, agents frequently leaked private information, and training only for task performance made it worse. We propose a mosaic-leakage-aware RL training method, Privacy-Aware Deep Research (PA-DR), which raises strict chain success (the share of chains where every hop is answered correctly) from 48.7% to 58.7% while reducing answer/full-information leakage from 34.0% to 9.9%.",
+        "th": "เจ้าหน้าที่วิจัยเชิงลึกได้รวมเอกสารส่วนตัวในเครื่องเข้ากับเครื่องมือภายนอก เช่น การดึงข้อมูลจากเว็บมากขึ้นเรื่อยๆ ทำให้เกิดความเสี่ยงด้านความเป็นส่วนตัว: การสอบถามจากภายนอกของตัวแทนอาจทำให้ข้อมูลที่ละเอียดอ่อนรั่วไหล MosaicLeaks เสนองานวิจัยเชิงลึกใหม่พร้อมคำถามแบบมัลติฮอปที่แทรกข้อมูลสาธารณะและส่วนตัว ในโมเดลต่างๆ ที่เราทดสอบ เจ้าหน้าที่มักปล่อยข้อมูลส่วนตัวรั่วไหล และการฝึกอบรมเฉพาะเพื่อประสิทธิภาพงานก็ยิ่งแย่ลงไปอีก เราเสนอวิธีการฝึกอบรม RL ที่คำนึงถึงการรั่วไหลของโมเสค นั่นคือ Privacy-Aware Deep Research (PA-DR) ซึ่งเพิ่มความสำเร็จของห่วงโซ่ที่เข้มงวด (ส่วนแบ่งของห่วงโซ่ที่ทุกการกระโดดได้รับคำตอบอย่างถูกต้อง) จาก 48.7% เป็น 58.7% ในขณะที่ลดการรั่วไหลของคำตอบ/ข้อมูลทั้งหมดจาก 34.0% เป็น 9.9%"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Privacy Leakage in Deep-Research Agents",
+        "th": "การรั่วไหลของความเป็นส่วนตัวในตัวแทนการวิจัยเชิงลึก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A research agent at a healthcare firm is working through a routine question, and along the way it fires off a handful of ordinary-looking web searches. One references a cloud-migration milestone, one a January 2024 security disclosure, one narrows down which vendor got hit. No single query necessarily gives away the whole secret. But anyone watching the agent's outbound traffic can reassemble the fragments: MediConn had migrated 70% of its infrastructure to the cloud by January 2025, a fact that lived only in private documents. This is the mosaic effect, and it's the failure mode at the centre of MosaicLeaks.",
+        "th": "ตัวแทนการวิจัยของบริษัทด้านการดูแลสุขภาพแห่งหนึ่งกำลังตอบคำถามตามปกติ และระหว่างทางก็มีการค้นหาเว็บที่ดูธรรมดาๆ อยู่จำนวนหนึ่ง ฉบับหนึ่งกล่าวถึงเหตุการณ์สำคัญในการโยกย้ายระบบคลาวด์ ฉบับหนึ่งกล่าวถึงการเปิดเผยด้านความปลอดภัยในเดือนมกราคม 2567 ฉบับหนึ่งกล่าวถึงผู้ขายที่ได้รับผลกระทบให้แคบลง ไม่มีคำถามใดที่จำเป็นต้องเปิดเผยความลับทั้งหมด แต่ใครก็ตามที่เฝ้าดูการรับส่งข้อมูลขาออกของตัวแทนสามารถประกอบชิ้นส่วนอีกครั้งได้: MediConn ได้ย้ายโครงสร้างพื้นฐาน 70% ไปยังคลาวด์ภายในเดือนมกราคม 2025 ซึ่งเป็นข้อเท็จจริงที่อยู่ในเอกสารส่วนตัวเท่านั้น นี่คือเอฟเฟกต์โมเสก และเป็นโหมดความล้มเหลวที่เป็นศูนย์กลางของ MosaicLeaks"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "MosaicLeaks treats those web queries as the leakage channel: the adversary never sees the private documents or the agent's reasoning, only the cumulative query log, and tries to infer private enterprise information from it.",
+        "th": "MosaicLeaks ถือว่าการสืบค้นเว็บเหล่านั้นเป็นช่องทางการรั่วไหล: ผู้ไม่หวังดีไม่เคยเห็นเอกสารส่วนตัวหรือเหตุผลของตัวแทน มีเพียงบันทึกการสืบค้นสะสมเท่านั้น และพยายามอนุมานข้อมูลองค์กรส่วนตัวจากเอกสารนั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We measure leakage in three ways, depending on what the adversary can infer from the observed queries:",
+        "th": "เราวัดการรั่วไหลได้สามวิธี ขึ้นอยู่กับสิ่งที่ฝ่ายตรงข้ามสามารถอนุมานได้จากข้อความค้นหาที่สังเกตได้:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These three represent increasing levels of concern. Intent leakage reveals what the agent is investigating. Answer leakage means the query log holds enough to answer a private question someone already has in hand. Full-information leakage is the strongest case: the observer can discover and state private facts without being told what to look for.",
+        "th": "ทั้งสามสิ่งนี้แสดงถึงระดับความกังวลที่เพิ่มขึ้น เจตนารั่วไหลเผยให้เห็นสิ่งที่เจ้าหน้าที่กำลังสืบสวนอยู่ คำตอบรั่วไหลหมายความว่าบันทึกการค้นหามีเพียงพอที่จะตอบคำถามส่วนตัวที่ใครบางคนมีอยู่แล้ว การรั่วไหลของข้อมูลทั้งหมดเป็นกรณีที่สำคัญที่สุด: ผู้สังเกตการณ์สามารถค้นพบและระบุข้อเท็จจริงส่วนตัวโดยไม่ต้องบอกว่าต้องค้นหาอะไร"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/63229a336b1992383fa8dd4d/2FD-lRsqc57YjwZWCoC9m.png",
+      "alt": "Diagram of the mosaic effect: individually benign web queries combine across a query log to reveal a private fact"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "How the mosaic effect drives MosaicLeaks's three leakage measures: Intent (predict the research questions), Answer (answer given questions about the private documents), and Full-Information (state verifiably true private claims). Here the agent searches twice about Lee's Market's 2020 traffic growth, leaking its intent, then issues a third query to answer a follow-up. Each query looks benign alone, but seen together they let an observer deduce that the answer was 15%, and so claim that Lee's online traffic grew 15% in 2020.",
+        "th": "ผลกระทบของโมเสคขับเคลื่อนมาตรการรั่วไหลสามประการของ MosaicLeaks อย่างไร: เจตนา (คาดการณ์คำถามการวิจัย) คำตอบ (ตอบคำถามที่ให้มาเกี่ยวกับเอกสารส่วนตัว) และข้อมูลฉบับเต็ม (ระบุสถานะการกล่าวอ้างส่วนตัวที่แท้จริงที่ตรวจสอบได้) ตัวแทนค้นหาสองครั้งเกี่ยวกับการเติบโตของปริมาณการเข้าชมของ Lee's Market ในปี 2020 ซึ่งทำให้เจตนารั่วไหล จากนั้นจึงถามคำถามที่สามเพื่อตอบการติดตามผล ข้อความค้นหาแต่ละคำดูไม่เป็นพิษเป็นภัยเพียงอย่างเดียว แต่เมื่อพิจารณาร่วมกันแล้ว ให้ผู้สังเกตการณ์อนุมานได้ว่าคำตอบคือ 15% และอ้างว่าการเข้าชมออนไลน์ของ Lee เพิ่มขึ้น 15% ในปี 2020"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Building MosaicLeaks",
+        "th": "การสร้างโมเสครั่ว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "MosaicLeaks contains 1,001 multi-hop research chains over local enterprise documents and a controlled web corpus. The goal is to create tasks with a high likelihood of inducing privacy leakage from enterprise documents, but that can still be solved without leaking.",
+        "th": "MosaicLeaks ประกอบด้วยเครือข่ายการวิจัยแบบ multi-hop 1,001 รายการบนเอกสารขององค์กรในท้องถิ่นและคลังข้อมูลบนเว็บที่มีการควบคุม เป้าหมายคือการสร้างงานที่มีแนวโน้มสูงที่จะทำให้เกิดการรั่วไหลของความเป็นส่วนตัวจากเอกสารขององค์กร แต่ก็ยังสามารถแก้ไขได้โดยไม่รั่วไหล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each chain interleaves local and web sub-questions. The answer to one sub-question becomes a bridge entity in the next, so the agent must retrieve local information before it can form the next useful web query. Local documents come from DRBench-style enterprise tasks, and web documents come from BrowseComp-Plus. The final split contains 559 training chains, 98 validation chains, and 344 held-out-company test chains.",
+        "th": "แต่ละเครือข่ายจะแทรกคำถามย่อยในท้องถิ่นและเว็บ คำตอบสำหรับคำถามย่อยหนึ่งข้อจะกลายเป็นเอนทิตีบริดจ์ในคำถามถัดไป ดังนั้นตัวแทนจะต้องดึงข้อมูลในเครื่องก่อนจึงจะสามารถสร้างแบบสอบถามบนเว็บที่มีประโยชน์ครั้งต่อไปได้ เอกสารในเครื่องมาจากงานระดับองค์กรสไตล์ DRBench และเอกสารเว็บมาจาก BrowserComp-Plus การแยกครั้งสุดท้ายประกอบด้วย 559 เชนการฝึกอบรม 98 เชนการตรวจสอบ และ 344 เชนการทดสอบของบริษัทที่ถูกระงับ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Example Chain",
+        "th": "ตัวอย่างโซ่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "MediConn cloud migration chain",
+        "th": "ห่วงโซ่การโยกย้ายระบบคลาวด์ MediConn"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The final web hop doesn't inherently contain any private information and can be answered from public web documents. However, because the path to it depends on private local facts, a query that carries forward \"MediConn\", \"70%\", and \"January\" gives the adversary enough context to recover internal information.",
+        "th": "เว็บฮอปสุดท้ายไม่มีข้อมูลส่วนตัวใดๆ และสามารถตอบได้จากเอกสารเว็บสาธารณะ อย่างไรก็ตาม เนื่องจากเส้นทางไปนั้นขึ้นอยู่กับข้อเท็จจริงในท้องถิ่นที่เป็นส่วนตัว ข้อความค้นหาที่ส่งต่อ \"MediConn\", \"70%\" และ \"มกราคม\" จะทำให้ฝ่ายตรงข้ามมีบริบทเพียงพอที่จะกู้คืนข้อมูลภายในได้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Agent Harness",
+        "th": "สายรัดตัวแทน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We use a simplified agent harness adapted from DRBench. The model answers each sub-question with a short answer and justification, allowing us to evaluate each hop individually with normalized string matching.",
+        "th": "เราใช้สายรัดตัวแทนแบบง่ายที่ดัดแปลงมาจาก DRBench โมเดลตอบคำถามย่อยแต่ละข้อด้วยคำตอบสั้นๆ และการให้เหตุผล ช่วยให้เราสามารถประเมินแต่ละฮอปแยกกันด้วยการจับคู่สตริงมาตรฐาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "At each iteration, the model can use four tools. Plan produces local and web search queries, which are executed and returned as document cards. Choose selects which retrieved documents to read. Read attempts to answer the current hop from each selected document in parallel. Resolve decides whether to answer, read more documents, or plan another search.",
+        "th": "ในการวนซ้ำแต่ละครั้ง โมเดลสามารถใช้เครื่องมือสี่อย่างได้ Plan สร้างคำค้นหาในท้องถิ่นและการค้นหาเว็บ ซึ่งดำเนินการและส่งกลับเป็นการ์ดเอกสาร เลือกเลือกเอกสารที่จะดึงข้อมูลมาอ่าน ความพยายามในการอ่านเพื่อตอบการกระโดดปัจจุบันจากเอกสารที่เลือกแต่ละฉบับพร้อมกัน แก้ไขตัดสินใจว่าจะตอบ อ่านเอกสารเพิ่มเติม หรือวางแผนการค้นหาอีกครั้ง"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/63229a336b1992383fa8dd4d/zfVeK2pYFKJICW-a3mXoj.png",
+      "alt": "Timeline of one agent rollout showing the plan, retrieve, choose, read, and resolve stages for each hop"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One agent rollout. Each row is a hop, labeled local (L) or web (W) with its accepted answer. The colored blocks show the wall-clock time spent planning, retrieving, choosing, reading, and resolving that hop.",
+        "th": "การเปิดตัวตัวแทนหนึ่งราย แต่ละแถวเป็นฮอปซึ่งมีป้ายกำกับว่าท้องถิ่น (L) หรือเว็บ (W) พร้อมคำตอบที่ยอมรับ บล็อกสีแสดงเวลาของนาฬิกาแขวนที่ใช้ในการวางแผน ดึงข้อมูล เลือก อ่าน และแก้ไขปัญหาการกระโดดนั้น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Can't you just tell the agent not to leak?",
+        "th": "คุณไม่สามารถบอกเจ้าหน้าที่ว่าอย่ารั่วไหลได้ไหม?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The obvious fix is to just ask. Add a line to the Plan prompt telling the agent not to issue web queries that leak local information, and see what happens to performance, leakage, and query behavior.",
+        "th": "การแก้ไขที่ชัดเจนคือเพียงแค่ถาม เพิ่มบรรทัดลงในพรอมต์แผนเพื่อบอกตัวแทนไม่ให้ออกคำถามบนเว็บที่ทำให้ข้อมูลท้องถิ่นรั่วไหล และดูว่าเกิดอะไรขึ้นกับประสิทธิภาพ การรั่วไหล และพฤติกรรมการสืบค้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The prompt helps slightly for some models, but its effect is inconsistent and significant leakage remains. It also often has a negative effect on task performance. For Qwen3-4B, the prompt lowers answer/full-information leakage from 34.0% to 25.5%, but strict chain success drops from 48.7% to 44.5%. The primary behavioral change appears to be fewer web queries, not consistently safer query construction.",
+        "th": "ข้อความแจ้งช่วยได้เล็กน้อยสำหรับบางรุ่น แต่ผลกระทบของมันไม่สอดคล้องกันและยังคงมีการรั่วไหลที่สำคัญ มันมักจะส่งผลเสียต่อการปฏิบัติงานด้วย สำหรับ Qwen3-4B ข้อความแจ้งจะช่วยลดการรั่วไหลของคำตอบ/ข้อมูลทั้งหมดจาก 34.0% เป็น 25.5% แต่ความสำเร็จของห่วงโซ่ที่เข้มงวดลดลงจาก 48.7% เป็น 44.5% การเปลี่ยนแปลงพฤติกรรมหลักดูเหมือนจะเป็นการสืบค้นเว็บน้อยลง ไม่ใช่การสร้างการสืบค้นที่ปลอดภัยขึ้นอย่างสม่ำเสมอ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/63229a336b1992383fa8dd4d/1glAsAX6HeXLcXGM6_llb.png",
+      "alt": "Chart comparing strict chain success and leakage with and without a privacy-aware prompt across models"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Strict chain success and privacy leakage with and without a prompt discouraging web queries that may leak local information. The prompt decreases leakage slightly for some models, but substantial leakage remains.",
+        "th": "ความสำเร็จของเครือข่ายที่เข้มงวดและการรั่วไหลของความเป็นส่วนตัวทั้งที่มีและไม่มีข้อความค้นหาบนเว็บที่อาจทำให้ข้อมูลท้องถิ่นรั่วไหล ข้อความแจ้งจะช่วยลดการรั่วไหลเล็กน้อยในบางรุ่น แต่ยังคงมีการรั่วไหลจำนวนมาก"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Making the agent better made it leak more",
+        "th": "ทำให้ตัวแทนดีขึ้นทำให้รั่วไหลมากขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before training for privacy, we tried the obvious thing: train the agent only to solve more chains correctly. It worked. Strict chain success rose from 48.7% to 59.3%. But answer/full-information leakage climbed right alongside it, from 34.0% to 51.7%. The model had learned to pack more context into its web queries, which helped it retrieve the right document but hurt privacy, since each richer query gives the observer another fragment.",
+        "th": "ก่อนการฝึกอบรมเพื่อความเป็นส่วนตัว เราได้ลองสิ่งที่ชัดเจนแล้ว: ฝึกอบรมตัวแทนเพียงเพื่อแก้ไข chains อย่างถูกต้องมากขึ้น มันได้ผล ความสำเร็จของเครือข่ายที่เข้มงวดเพิ่มขึ้นจาก 48.7% เป็น 59.3% แต่การรั่วไหลของคำตอบ/ข้อมูลทั้งหมดก็เพิ่มขึ้นจาก 34.0% เป็น 51.7% โมเดลได้เรียนรู้ที่จะบรรจุบริบทมากขึ้นในการสืบค้นเว็บ ซึ่งช่วยให้สามารถเรียกเอกสารที่ถูกต้องแต่กระทบต่อความเป็นส่วนตัว เนื่องจากแต่ละคำค้นหาที่สมบูรณ์ยิ่งขึ้นจะทำให้ผู้สังเกตการณ์ได้รับส่วนอื่นอีก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This is the central tension MosaicLeaks exposes. A more informative query is often better for the task and worse for privacy. PA-DR is built to train for both sides at once.",
+        "th": "นี่คือความตึงเครียดส่วนกลางที่ MosaicLeaks เปิดเผย แบบสอบถามที่ให้ข้อมูลมากขึ้นมักจะดีกว่าสำหรับงานและแย่กว่าสำหรับความเป็นส่วนตัว PA-DR ถูกสร้างขึ้นเพื่อฝึกทั้งสองฝ่ายพร้อมกัน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Teaching the agent to search safely: PA-DR",
+        "th": "สอนตัวแทนค้นหาอย่างปลอดภัย : PA-DR"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "PA-DR combines two rewards.",
+        "th": "PA-DR รวมสองรางวัลเข้าด้วยกัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The first is a situational task reward. A single research trajectory can run to dozens of model calls, so giving them all the same final trajectory score is very weak credit: a successful run can reinforce a leaky search, and a failed run can punish a locally sound decision. Instead, we judge each call against other calls made at the same stage and hop, with the same information available. A Plan call is rewarded for searching the correct source and retrieving the right document; if that document is already in hand, it is rewarded for not searching again. A Choose call is rewarded for selecting the document that holds the answer. We train these stages because their desired behavior can be checked directly.",
+        "th": "อย่างแรกคือรางวัลงานตามสถานการณ์ เส้นทางการวิจัยเส้นเดียวสามารถเรียกใช้โมเดลได้หลายสิบสาย ดังนั้นการให้คะแนนเส้นทางสุดท้ายเท่ากันทั้งหมดนั้นถือเป็นเครดิตที่อ่อนแอมาก การวิ่งที่ประสบความสำเร็จสามารถเสริมการค้นหาที่รั่วไหล และการวิ่งที่ล้มเหลวสามารถลงโทษการตัดสินใจที่สมเหตุสมผลในท้องถิ่นได้ แต่เราตัดสินการโทรแต่ละครั้งกับการโทรอื่นๆ ที่เกิดขึ้นในขั้นตอนเดียวกันและกระโดดโดยมีข้อมูลเดียวกัน การเรียกแผนจะได้รับรางวัลสำหรับการค้นหาแหล่งข้อมูลที่ถูกต้องและเรียกค้นเอกสารที่ถูกต้อง หากเอกสารนั้นอยู่ในมือแล้ว จะได้รับรางวัลหากไม่ค้นหาอีก เลือกการโทรจะได้รับรางวัลสำหรับการเลือกเอกสารที่เก็บคำตอบ เราฝึกขั้นตอนเหล่านี้เพราะสามารถตรวจสอบพฤติกรรมที่ต้องการได้โดยตรง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The second is a learned privacy reward. Whenever the agent produces web queries, a Qwen3-4B classifier estimates two risks: whether the current queries leak private information directly, and whether adding them to the existing query log creates a new mosaic leak. PA-DR penalizes the larger of the two, so the privacy cost lands on the exact planning decision that made the query log more revealing.",
+        "th": "ประการที่สองคือรางวัลความเป็นส่วนตัวที่ได้เรียนรู้ เมื่อใดก็ตามที่ตัวแทนสร้างการสืบค้นเว็บ ตัวแยกประเภท Qwen3-4B จะประมาณความเสี่ยงสองประการ: การสืบค้นปัจจุบันจะรั่วไหลข้อมูลส่วนตัวโดยตรงหรือไม่ และการเพิ่มลงในบันทึกการสืบค้นที่มีอยู่จะสร้างการรั่วไหลของโมเสกใหม่หรือไม่ PA-DR จะลงโทษส่วนที่ใหญ่กว่าของทั้งสอง ดังนั้นต้นทุนด้านความเป็นส่วนตัวจึงขึ้นอยู่กับการตัดสินใจในการวางแผนที่แน่นอน ซึ่งทำให้บันทึกการสืบค้นเปิดเผยมากขึ้น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/63229a336b1992383fa8dd4d/SVD_kNyF9P2ifMlT7Hq8K.png",
+      "alt": "Chart of the task-performance versus leakage trade-off across base, task-only, and PA-DR training"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Task-only RL improves research performance but increases leakage. PA-DR keeps almost all of the performance gain while sharply reducing it.",
+        "th": "RL เฉพาะงานช่วยปรับปรุงประสิทธิภาพการวิจัยแต่เพิ่มการรั่วไหล PA-DR จะรักษาประสิทธิภาพที่เพิ่มขึ้นเกือบทั้งหมดในขณะที่ลดประสิทธิภาพลงอย่างมาก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That 9.9% is lower than the untrained base model's own 34.0%. Training for privacy did not simply cancel the leakage that training for performance introduced. It left the agent leaking less than it did at the start.",
+        "th": "นั่น 9.9% ต่ำกว่าโมเดลพื้นฐานที่ไม่ได้รับการฝึกของตัวเอง 34.0% การฝึกอบรมเพื่อความเป็นส่วนตัวไม่เพียงแต่ยกเลิกการรั่วไหลของการฝึกอบรมเพื่อการปฏิบัติงานเท่านั้น มันทำให้ตัวแทนรั่วไหลน้อยกว่าตอนเริ่มต้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "And it did not get safer by simply searching less. PA-DR actually issues more web queries than the base model, but those queries drop the revealing details: specific metrics like \"15%\" or \"2024\", and clues about the kind of answer it is looking for. The agent still finds the right public documents. It just stops carrying private fragments along in the query text.",
+        "th": "และมันก็ไม่ได้ปลอดภัยไปกว่านี้เพียงแค่ค้นหาน้อยลง จริงๆ แล้ว PA-DR ออกคำค้นหาบนเว็บมากกว่าโมเดลพื้นฐาน แต่คำค้นหาเหล่านั้นทิ้งรายละเอียดที่เผยให้เห็น: ตัวชี้วัดเฉพาะเช่น \"15%\" หรือ \"2024\" และเบาะแสเกี่ยวกับประเภทของคำตอบที่ต้องการ ตัวแทนยังคงค้นหาเอกสารสาธารณะที่ถูกต้อง มันแค่หยุดพกพาแฟรกเมนต์ส่วนตัวไปพร้อมกับข้อความค้นหา"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "A closer look: situational rewards and sample efficiency",
+        "th": "เจาะลึก: รางวัลตามสถานการณ์และประสิทธิภาพของตัวอย่าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Situational rewards pay off a second time, during training itself. Because they compare matching calls instead of scoring a whole rollout once, they assign credit far more precisely, with no separate value model and no need to align step indices across rollouts. They are also much more sample-efficient: the situational task reward reaches the same task performance as outcome-only RL with roughly 5-6x fewer generated training samples, and PA-DR keeps that efficiency while adding the privacy gain.",
+        "th": "รางวัลตามสถานการณ์จะตอบแทนเป็นครั้งที่สองระหว่างการฝึกฝน เนื่องจากเปรียบเทียบการโทรที่ตรงกันแทนที่จะให้คะแนนการเปิดตัวทั้งหมดเพียงครั้งเดียว พวกเขาจึงให้เครดิตได้แม่นยำยิ่งขึ้น โดยไม่มีรูปแบบมูลค่าแยกกัน และไม่จำเป็นต้องจัดเรียงดัชนีขั้นตอนระหว่างการเปิดตัว นอกจากนี้ยังมีประสิทธิภาพในการสุ่มตัวอย่างมากกว่ามาก: รางวัลงานตามสถานการณ์จะบรรลุผลการปฏิบัติงานเช่นเดียวกับ RL ที่เป็นผลลัพธ์เท่านั้น โดยมีตัวอย่างการฝึกอบรมที่สร้างขึ้นน้อยกว่าประมาณ 5-6 เท่า และ PA-DR ยังคงประสิทธิภาพนั้นไว้ในขณะที่เพิ่มความเป็นส่วนตัว"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/63229a336b1992383fa8dd4d/3cRVUE7Ev-3-JfSXUIt7v.png",
+      "alt": "Diagram contrasting outcome-only and situational reward credit assignment across agent calls"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Training efficiency. The final column is how many generated samples each method needs to reach ~55% strict chain success. Lower is better.",
+        "th": "ประสิทธิภาพการฝึกอบรม คอลัมน์สุดท้ายคือจำนวนตัวอย่างที่สร้างขึ้นซึ่งแต่ละวิธีต้องได้รับความสำเร็จในห่วงโซ่ที่เข้มงวด ~55% ต่ำกว่าจะดีกว่า"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/63229a336b1992383fa8dd4d/tfczFtyElmBT_Nho-SlZ2.png",
+      "alt": "Chart showing situational rewards reach the same task success with roughly 5-6x fewer training samples"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Situational rewards reach outcome-reward-level task success using roughly 5-6x fewer generated samples. PA-DR keeps the sample-efficiency benefit while sharply reducing leakage.",
+        "th": "รางวัลตามสถานการณ์เข้าถึงความสำเร็จของงานระดับผลลัพธ์โดยใช้ตัวอย่างที่สร้างขึ้นน้อยลงประมาณ 5-6 เท่า PA-DR คงคุณประโยชน์ด้านประสิทธิภาพของตัวอย่างในขณะที่ลดการรั่วไหลลงอย่างมาก"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What this does and doesn't show",
+        "th": "สิ่งนี้ทำและไม่แสดงอะไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "MosaicLeaks is a controlled benchmark, not a measurement of leakage in deployed systems. The enterprise documents are synthetic, the web corpus is fixed, the chains span three company contexts, and every result comes from a single agent harness running multi-hop question answering rather than open-ended research. That control is what makes leakage measurable hop by hop, but broader tasks, real deployments, and other agent designs still need their own study.",
+        "th": "MosaicLeaks เป็นเกณฑ์มาตรฐานที่มีการควบคุม ไม่ใช่การวัดการรั่วไหลในระบบที่ใช้งาน เอกสารระดับองค์กรเป็นแบบสังเคราะห์ คลังข้อมูลบนเว็บได้รับการแก้ไข เครือข่ายครอบคลุมบริบทของบริษัท 3 แบบ และผลลัพธ์ทั้งหมดมาจากการควบคุมของตัวแทนเพียงรายเดียวที่ดำเนินการตอบคำถามแบบ multi-hop แทนที่จะค้นคว้าวิจัยปลายเปิด การควบคุมนั้นคือสิ่งที่ทำให้การวัดการรั่วไหลสามารถวัดได้ทีละขั้นตอน แต่งานที่กว้างขึ้น การใช้งานจริง และการออกแบบตัวแทนอื่นๆ ยังคงต้องมีการศึกษาของตัวเอง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The takeaway is simple. You can't prompt privacy in. You have to train it in. Telling an agent to be careful barely moves the needle, while rewarding how it constructs each query cuts leakage by more than 3x and leaves task success essentially intact. The mosaic effect comes from how an agent searches over time, and that turns out to be something you can measure, assign credit to, and train down.",
+        "th": "การซื้อกลับบ้านเป็นเรื่องง่าย คุณไม่สามารถแจ้งความเป็นส่วนตัวได้ คุณต้องฝึกฝนการบอกตัวแทนให้ระวังแทบจะไม่สามารถขยับเข็มได้ ในขณะที่ให้รางวัลแก่วิธีที่สร้างการสืบค้นแต่ละครั้งจะช่วยลดการรั่วไหลได้มากกว่า 3 เท่า และทำให้งานสำเร็จโดยพื้นฐานแล้ว เอฟเฟกต์โมเสคมาจากวิธีที่เจ้าหน้าที่ค้นหาเมื่อเวลาผ่านไป และกลายเป็นสิ่งที่คุณสามารถวัดผล กำหนดเครดิต และฝึกฝนได้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Citation",
+        "th": "การอ้างอิง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More from this author",
+        "th": "เพิ่มเติมจากผู้เขียนคนนี้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "PipelineRL",
+        "th": "ไปป์ไลน์RL"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1664391313869-62f6691f329d4d014d1b4087.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "ชุมชน"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/0c3bd705c1c0fae13c052d875efb7e5f.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Fascinating work on the mosaic effect. It makes me wonder how PA-DR holds up when agents are deployed for active threat intelligence or software auditing. For instance, if an enterprise research agent is tasked with analyzing potential security vectors or reverse-engineering third-party mobile apps from repositories like https://toemodapk.com, its web-query logs could easily leak proprietary internal app versions or specific device compliance criteria to an outside observer. Teaching agents to scrub those granular technical identifiers during deep web retrieval is going to be massive for operational security.",
+        "th": "งานที่น่าสนใจเกี่ยวกับเอฟเฟกต์โมเสก มันทำให้ฉันสงสัยว่า PA-DR จะยืนหยัดได้อย่างไรเมื่อมีการปรับใช้ตัวแทนสำหรับข้อมูลภัยคุกคามอัจฉริยะหรือการตรวจสอบซอฟต์แวร์ ตัวอย่างเช่น หากตัวแทนการวิจัยระดับองค์กรได้รับมอบหมายให้วิเคราะห์เวกเตอร์ด้านความปลอดภัยที่อาจเกิดขึ้นหรือแอปมือถือของบุคคลที่สามที่ทำวิศวกรรมย้อนกลับจากที่เก็บข้อมูลเช่น https://toemodapk.com บันทึกการสืบค้นเว็บอาจทำให้เวอร์ชันแอปภายในที่เป็นกรรมสิทธิ์หรือเกณฑ์การปฏิบัติตามข้อกำหนดของอุปกรณ์เฉพาะรั่วไหลไปยังผู้สังเกตการณ์ภายนอกได้อย่างง่ายดาย การสอนให้ตัวแทนขัดเกลาตัวระบุทางเทคนิคแบบละเอียดเหล่านั้นระหว่างการดึงข้อมูลเว็บลึกจะมีความสำคัญอย่างมากสำหรับการรักษาความปลอดภัยในการปฏิบัติงาน"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/2cbncFN9wM-Gily9YdIC8.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "can i use this at : https://farzaneganehooshmand.com or this have dome license?",
+        "th": "ฉันสามารถใช้สิ่งนี้ได้ที่: https://farzaneganehooshmand.com หรือมีใบอนุญาตโดม?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· ลงทะเบียนหรือเข้าสู่ระบบเพื่อแสดงความคิดเห็น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5f17f0a0925b9863e28ad517/F_mZLzIDjppkRe0UKrRje.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/5427b05b3ef627d4d8281f9a33bb98ab.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/64bba174da140e4619248401/uXYk0Ubx5SzOKvFhzZcmy.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/657ab009e1113b5af51588ee/Yhdq9wtstQl4lvWwzXnXW.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65ca8745d64d82c92fa7c71f/xayDYjs_LoAsa8BEgDlhb.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6716477a2a1aa2bd093431c3/0iq21OLVUy3BgxN3kOlT1.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/SUSAsNhSj4_KHqyDGJnkr.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/67dd4bc560468ed611839028/gyLOZkOszb6NHENA9sWiY.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/FG49LyjRUUXYXJ1TPp6BF.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/68750699d365b5bf3756c71c/j39Nlb_MXxhT10E9yfsVm.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/xZJCkVMJ0uEa-aiyrTlGh.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/2f4fcab1d19bee411ead0ac538c4126e.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+2",
+        "th": "+2"
+      }
+    }
+  ]
+}

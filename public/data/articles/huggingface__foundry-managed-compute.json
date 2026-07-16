@@ -1,0 +1,837 @@
+{
+  "id": "huggingface__foundry-managed-compute",
+  "slug": "foundry-managed-compute",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+  "category": "News",
+  "date": "2026-07-07T15:20:06.000Z",
+  "image": null,
+  "title": {
+    "en": "Hugging Face Models on Foundry Managed Compute",
+    "th": "โมเดลใบหน้ากอดบนคอมพิวเตอร์ที่จัดการโดย Foundry"
+  },
+  "summary": {
+    "en": "Hugging Face Models on Foundry Managed Compute",
+    "th": "โมเดลใบหน้ากอดบนคอมพิวเตอร์ที่จัดการโดย Foundry"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583857146757-5e67bdd61009063689407479.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1605114051380-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1621947938344-noauth.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/60f0608166e5701b80ed3f02/H9LNnlf0W4fiOJhQMxnbW.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1638698875017-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+5",
+        "th": "+5"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/421af1377c858f6137b6ad9089fc624c.svg",
+      "alt": "Manoj Bableshwar's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583646260758-5e64858c87403103f9f1055d.png",
+      "alt": "Microsoft's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/Fo0ehdRXafrOg0jqWuCaw.png",
+      "alt": "Osi's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583646260758-5e64858c87403103f9f1055d.png",
+      "alt": "Microsoft's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The Platform: Microsoft Foundry and Managed Compute",
+        "th": "แพลตฟอร์ม: Microsoft Foundry และคอมพิวเตอร์ที่มีการจัดการ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why Hugging Face",
+        "th": "ทำไมต้องกอดหน้า."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Hugging Face Models on Foundry The Curation Pipeline",
+        "th": "โมเดลกอดใบหน้าบนโรงหล่อ The Curation Pipeline"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The Curation Pipeline",
+        "th": "ไปป์ไลน์การดูแล"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Model Runtimes",
+        "th": "รันไทม์ของโมเดล"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deploying and Scoring an Open-Weight Model Deployment Templates Deploy — Python SDK Score — OpenAI SDK Use It in an Agent",
+        "th": "การปรับใช้และการให้คะแนนเทมเพลตการปรับใช้โมเดล Open-Weight การปรับใช้ — คะแนน Python SDK — OpenAI SDK ใช้ในตัวแทน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deployment Templates",
+        "th": "เทมเพลตการปรับใช้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deploy — Python SDK",
+        "th": "ปรับใช้ — Python SDK"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Score — OpenAI SDK",
+        "th": "คะแนน — OpenAI SDK"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Use It in an Agent",
+        "th": "ใช้ในตัวแทน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What's Available Today",
+        "th": "สิ่งที่มีอยู่วันนี้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The Platform: Microsoft Foundry and Managed Compute",
+        "th": "แพลตฟอร์ม: Microsoft Foundry และคอมพิวเตอร์ที่มีการจัดการ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Microsoft Foundry is a platform for building and operating agentic AI applications. Foundry starts with the widest model selection on any cloud — models from Microsoft, OpenAI, Anthropic, Meta, Mistral, DeepSeek, Hugging Face, and others, spanning frontier, open-source, and custom weights — all accessible through a single endpoint and a single set of SDKs in Python, C#, JavaScript, and Java.",
+        "th": "Microsoft Foundry เป็นแพลตฟอร์มสำหรับการสร้างและใช้งานแอปพลิเคชัน AI แบบตัวแทน Foundry เริ่มต้นด้วยการเลือกโมเดลที่กว้างที่สุดบนคลาวด์ใดๆ — โมเดลจาก Microsoft, OpenAI, Anthropic, Meta, Mistral, DeepSeek, Hugging Face และอื่นๆ ที่ครอบคลุมขอบเขต โอเพ่นซอร์ส และน้ำหนักแบบกำหนดเอง — ทั้งหมดนี้เข้าถึงได้ผ่านจุดสิ้นสุดเดียวและชุด SDK ชุดเดียวใน Python, C#, JavaScript และ Java"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On top of those models sits the Foundry Agent Service: multi-agent orchestration with built-in memory, knowledge grounding through Foundry IQ, and a catalog of connectable tools via agentic protocols, so agents can work with enterprise data. Once agents are running, Foundry provides end-to-end tracing, real-time monitoring, continuous evaluations, and a prompt optimizer that improves agent behavior based on eval results — observability and quality loops that are part of the platform.",
+        "th": "นอกเหนือจากโมเดลเหล่านั้นแล้ว ยังมีบริการ Foundry Agent Service: การประสานหลายเอเจนต์ด้วยหน่วยความจำในตัว ความรู้พื้นฐานผ่าน Foundry IQ และแค็ตตาล็อกของเครื่องมือที่เชื่อมต่อได้ผ่านโปรโตคอลเอเจนต์ เพื่อให้ตัวแทนสามารถทำงานกับข้อมูลองค์กรได้ เมื่อตัวแทนทำงาน Foundry จะให้การติดตามแบบ end-to-end การตรวจสอบแบบเรียลไทม์ การประเมินอย่างต่อเนื่อง และเครื่องมือเพิ่มประสิทธิภาพทันทีที่ปรับปรุงพฤติกรรมของตัวแทนตามผลลัพธ์การประเมิน — ความสามารถในการสังเกตและลูปคุณภาพที่เป็นส่วนหนึ่งของแพลตฟอร์ม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Alongside that, developers get access to:",
+        "th": "นอกจากนั้น นักพัฒนายังสามารถเข้าถึง:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Content safety filters",
+        "th": "ตัวกรองความปลอดภัยของเนื้อหา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Task-adherence guardrails",
+        "th": "ราวกั้นการปฏิบัติตามงาน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "An AI Red Teaming Agent for adversarial testing",
+        "th": "AI Red Teaming Agent สำหรับการทดสอบฝ่ายตรงข้าม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Unified RBAC",
+        "th": "RBAC แบบครบวงจร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Private networking",
+        "th": "เครือข่ายส่วนตัว"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Azure Policy integration directly within the platform",
+        "th": "การรวมนโยบาย Azure โดยตรงภายในแพลตฟอร์ม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Alongside pay-per-token (lowest-friction path to get started) and provisioned throughput (predictable, high-performance production workloads on frontier models), Foundry Managed Compute is the third deployment option in Foundry: a managed GPU platform-as-a-service for open-source and custom models.",
+        "th": "นอกเหนือจากการจ่ายต่อโทเค็น (เส้นทางที่มีแรงเสียดทานน้อยที่สุดในการเริ่มต้น) และปริมาณงานที่จัดเตรียมไว้ (ปริมาณงานการผลิตที่คาดการณ์ได้และมีประสิทธิภาพสูงในรุ่นชายแดน) Foundry Managed Compute คือตัวเลือกการใช้งานที่สามใน Foundry: แพลตฟอร์ม GPU ที่ได้รับการจัดการในรูปแบบบริการสำหรับโอเพ่นซอร์สและโมเดลแบบกำหนดเอง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You deploy a model instance described by the things that matter to your workload — parameter count, context length, and whether you want to optimize for latency or throughput — and Foundry handles the GPU topology underneath, whether the instance lands on one accelerator or several, so you think and plan in model terms.",
+        "th": "คุณปรับใช้อินสแตนซ์โมเดลที่อธิบายโดยสิ่งที่สำคัญต่อปริมาณงานของคุณ เช่น จำนวนพารามิเตอร์ ความยาวบริบท และไม่ว่าคุณต้องการเพิ่มประสิทธิภาพสำหรับเวลาแฝงหรือปริมาณการประมวลผล หรือไม่ และ Foundry จะจัดการโทโพโลยี GPU ที่อยู่ข้างใต้ ไม่ว่าอินสแตนซ์จะลงจอดบนตัวเร่งความเร็วตัวเดียวหรือหลายตัว ดังนั้นคุณจึงคิดและวางแผนในแง่ของโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Microsoft takes care of the machine: container updates, runtime upgrades, and security patches happen automatically on the supported runtimes — vLLM, SGLang, TensorRT-LLM, NIM, TEI, llama.cpp — without redeploying your model, while model configuration, deployment behavior, and routing stay with you.",
+        "th": "Microsoft จะดูแลเครื่องจักร: การอัปเดตคอนเทนเนอร์ การอัปเกรดรันไทม์ และแพตช์ความปลอดภัยจะเกิดขึ้นโดยอัตโนมัติบนรันไทม์ที่รองรับ — vLLM, SGLang, TensorRT-LLM, NIM, TEI, llama.cpp — โดยไม่ต้องปรับใช้โมเดลของคุณอีกครั้ง ในขณะที่การกำหนดค่าโมเดล ลักษณะการใช้งาน และการกำหนดเส้นทางยังคงอยู่กับคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That consistency carries through the developer surface — pay-per-token, provisioned throughput, and Managed Compute share:",
+        "th": "ความสอดคล้องดังกล่าวเกิดขึ้นผ่านพื้นผิวของนักพัฒนา — การจ่ายต่อโทเค็น ปริมาณงานที่จัดเตรียมไว้ และส่วนแบ่งการประมวลผลที่มีการจัดการ:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A single endpoint",
+        "th": "ปลายทางแห่งเดียว"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The same SDKs",
+        "th": "SDK เดียวกัน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The same authentication",
+        "th": "การรับรองความถูกต้องเดียวกัน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The same observability",
+        "th": "การสังเกตเหมือนกัน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A single bill",
+        "th": "บิลเดียว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Open-source models integrate with Foundry Agents the same way frontier models do, so you can mix model types in a single agent without a separate integration path.",
+        "th": "โมเดลโอเพ่นซอร์สจะทำงานร่วมกับ Foundry Agents เช่นเดียวกับที่โมเดล Frontier ทำ คุณจึงสามารถผสมประเภทโมเดลในเอเจนต์เดียวได้โดยไม่ต้องมีเส้นทางการผสานรวมแยกต่างหาก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Managed Compute offers:",
+        "th": "ข้อเสนอการประมวลผลที่มีการจัดการ:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Global deployments — broadest capacity and best pricing",
+        "th": "การใช้งานทั่วโลก — ความจุที่กว้างที่สุดและราคาที่ดีที่สุด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Data Zone deployments — residency and sovereignty",
+        "th": "การปรับใช้โซนข้อมูล — ถิ่นที่อยู่และอำนาจอธิปไตย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Same code, same workflow. Quota is aligned to accelerator families, so a plan built on the H100 family today carries forward as new hardware generations come online.",
+        "th": "รหัสเดียวกัน ขั้นตอนการทำงานเดียวกัน โควต้าสอดคล้องกับตระกูล Accelerator ดังนั้นแผนงานที่สร้างขึ้นบนตระกูล H100 ในปัจจุบันจึงดำเนินต่อไปเมื่อมีฮาร์ดแวร์รุ่นใหม่เข้ามาใช้งาน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Why Hugging Face",
+        "th": "ทำไมต้องกอดหน้า."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hugging Face is the public square of open AI: 15 million builders, 400,000 organizations, and over 3 million open models published, with new frontier capabilities — agentic coding, video segmentation, speech, embeddings — landing weekly. It's the GitHub of open models, where the community publishes weights, writes model cards, compares evaluations, and pulls models for experimentation.",
+        "th": "Hugging Face เป็นจัตุรัสสาธารณะของ AI แบบเปิด โดยมีผู้สร้าง 15 ล้านคน องค์กร 400,000 แห่ง และโมเดลแบบเปิดมากกว่า 3 ล้านแบบที่เผยแพร่ พร้อมความสามารถระดับแนวหน้าใหม่ เช่น การเข้ารหัสแบบเอเจนต์ การแบ่งส่วนวิดีโอ คำพูด การฝัง - ลงจอดทุกสัปดาห์ เป็น GitHub ของโมเดลแบบเปิด ซึ่งชุมชนเผยแพร่น้ำหนัก เขียนการ์ดโมเดล เปรียบเทียบการประเมิน และดึงโมเดลสำหรับการทดลอง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Open models have closed the gap with proprietary models on benchmark after benchmark, and they unlock things proprietary endpoints can't:",
+        "th": "โมเดลแบบเปิดได้ปิดช่องว่างด้วยโมเดลที่เป็นกรรมสิทธิ์ในการวัดประสิทธิภาพครั้งแล้วครั้งเล่า และจะปลดล็อกสิ่งที่จุดสิ้นสุดที่เป็นกรรมสิทธิ์ไม่สามารถ:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "State-of-the-art is now open. Leading open-weight models are competitive with the top closed frontier models on the most widely used benchmarks.",
+        "th": "ทันสมัยที่สุดเปิดให้บริการแล้ว โมเดลน้ำหนักเปิดชั้นนำสามารถแข่งขันกับโมเดลปิดระดับบนสุดได้โดยใช้เกณฑ์มาตรฐานที่ใช้กันอย่างแพร่หลายที่สุด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deep customization. Full weights make it possible to fine-tune, distill, quantize, and adapt with LoRA — tailoring models to your domain, your data, and your latency and cost targets.",
+        "th": "การปรับแต่งที่ล้ำลึก การถ่วงน้ำหนักแบบเต็มทำให้สามารถปรับแต่ง กลั่น ปริมาณ และปรับใช้กับ LoRA ได้ — ปรับแต่งโมเดลให้เหมาะกับโดเมน ข้อมูลของคุณ เวลาแฝงและเป้าหมายต้นทุนของคุณ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Your model, your hosting. Weights run in your tenant on infrastructure you control, behind your inference endpoint, with your identity and network boundaries.",
+        "th": "โมเดลของคุณ โฮสติ้งของคุณ การถ่วงน้ำหนักจะทำงานในผู้เช่าของคุณบนโครงสร้างพื้นฐานที่คุณควบคุม ด้านหลังตำแหน่งข้อมูลการอนุมานของคุณ พร้อมด้วยขอบเขตข้อมูลประจำตัวและเครือข่ายของคุณ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Cost shaping. Pay for accelerators by the hour, scale to zero when idle, and right-size GPUs to the specific model — useful for steady, high-volume, or latency-sensitive workloads where per-token pricing is harder to predict.",
+        "th": "การกำหนดต้นทุน ชำระค่าเร่งความเร็วเป็นรายชั่วโมง ปรับขนาดเป็นศูนย์เมื่อไม่มีการใช้งาน และ GPU ขนาดที่เหมาะสมกับรุ่นเฉพาะ ซึ่งมีประโยชน์สำหรับปริมาณงานที่มีความเสถียร ปริมาณสูง หรือมีความอ่อนไหวต่อเวลาแฝง ซึ่งราคาต่อโทเค็นคาดเดาได้ยาก"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Version control. Pin a specific model version, evaluate it, deploy it, and move forward or roll back on your own release cadence.",
+        "th": "การควบคุมเวอร์ชัน ปักหมุดเวอร์ชันโมเดลเฉพาะ ประเมิน ปรับใช้ และเดินหน้าหรือย้อนกลับตามจังหวะการเปิดตัวของคุณเอง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The catch has always been the operational layer: discovery, license review, security screening, runtime selection, GPU sizing, image building, CVE patching, and standing the model up behind an enterprise-grade endpoint. Hugging Face, by itself, is not an enterprise serving platform. Hugging Face models on Foundry is that operational layer, run by Microsoft.",
+        "th": "สิ่งที่จับได้คือเลเยอร์การปฏิบัติงานมาโดยตลอด: การค้นพบ การตรวจสอบใบอนุญาต การคัดกรองความปลอดภัย การเลือกรันไทม์ การกำหนดขนาด GPU การสร้างอิมเมจ การแพตช์ CVE และการยืนหยัดของโมเดลให้อยู่เบื้องหลังอุปกรณ์ปลายทางระดับองค์กร Hugging Face เพียงอย่างเดียวไม่ใช่แพลตฟอร์มการให้บริการระดับองค์กร โมเดล Hugging Face บน Foundry เป็นเลเยอร์ปฏิบัติการที่ดำเนินการโดย Microsoft"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Hugging Face Models on Foundry",
+        "th": "กอดใบหน้านางแบบในโรงหล่อ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Hugging Face Collection brings a curated subset of models directly into the Foundry Model Catalog:",
+        "th": "Hugging Face Collection นำชุดย่อยของโมเดลที่ได้รับการดูแลจัดการมาไว้ในแคตตาล็อกโมเดล Foundry โดยตรง:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Refreshed weekly — trending models from the Hugging Face ecosystem are added continuously as the community publishes them.",
+        "th": "รีเฟรชทุกสัปดาห์ — โมเดลที่กำลังมาแรงจากระบบนิเวศ Hugging Face จะถูกเพิ่มเข้ามาอย่างต่อเนื่องในขณะที่ชุมชนเผยแพร่โมเดลเหล่านั้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Every modality — text, vision, audio, and multimodal: LLMs and VLMs for chat and agents, ASR and speech translation, embeddings, segmentation, image generation.",
+        "th": "ทุกรูปแบบ — ข้อความ การมองเห็น เสียง และหลายรูปแบบ: LLM และ VLM สำหรับการแชทและตัวแทน การแปล ASR และคำพูด การฝัง การแบ่งส่วน การสร้างภาพ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Safetensors only, no untrusted code — every model in the Collection is security-screened and ships in the SafeTensors weight format, with no trust_remote_code execution paths unless rigorously reviewed.",
+        "th": "เฉพาะ Safetensors เท่านั้น ไม่มีรหัสที่ไม่น่าเชื่อถือ ทุกรุ่นในคอลเลกชันได้รับการคัดกรองด้านความปลอดภัยและจัดส่งในรูปแบบน้ำหนัก SafeTensors โดยไม่มีเส้นทางการดำเนินการ trust_remote_code เว้นแต่จะได้รับการตรวจสอบอย่างเข้มงวด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The right runtime for the model — vLLM and SGLang for LLMs, TensorRT-LLM and NIM where applicable, TEI for embeddings, llama.cpp for CPU — Foundry picks the engine that matches the model.",
+        "th": "รันไทม์ที่เหมาะสมสำหรับโมเดล — vLLM และ SGLang สำหรับ LLM, TensorRT-LLM และ NIM หากมี, TEI สำหรับการฝัง, llama.cpp สำหรับ CPU — Foundry เลือกกลไกที่ตรงกับโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "From your side, an open-weight model in the Hugging Face Collection looks and behaves like any other model in the Foundry Model Catalog, and every model in the Collection has been put through a multi-stage publishing pipeline before it ever shows up there.",
+        "th": "จากฝั่งของคุณ โมเดล Open-Weight ใน Hugging Face Collection จะมีลักษณะและการทำงานเหมือนกับโมเดลอื่นๆ ใน Foundry Model Catalog และทุกๆ โมเดลในคอลเลกชันได้ผ่านขั้นตอนการเผยแพร่แบบหลายขั้นตอนก่อนที่จะปรากฏที่นั่น"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "The Curation Pipeline",
+        "th": "ไปป์ไลน์การดูแล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hugging Face and Microsoft work together to bring the most popular open-weight models from the Hugging Face ecosystem to Microsoft Foundry — production-ready for enterprise environments — through a systematic curation process:",
+        "th": "Hugging Face และ Microsoft ทำงานร่วมกันเพื่อนำโมเดลน้ำหนักเปิดที่ได้รับความนิยมสูงสุดจากระบบนิเวศ Hugging Face มาสู่ Microsoft Foundry ซึ่งพร้อมสำหรับการผลิตสำหรับสภาพแวดล้อมองค์กร ผ่านกระบวนการดูแลจัดการอย่างเป็นระบบ:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Identify trending models in the Hugging Face ecosystem — based on community signals, partner requests, and customer demand — and select candidates for enterprise readiness.",
+        "th": "ระบุโมเดลที่กำลังมาแรงในระบบนิเวศ Hugging Face โดยอิงตามสัญญาณของชุมชน คำขอของพันธมิตร และความต้องการของลูกค้า และเลือกผู้สมัครเพื่อความพร้อมขององค์กร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Screen for compliance and security — model licenses are reviewed against Microsoft's enterprise distribution policy (with license metadata captured and preserved on the catalog model card), and repositories are inspected for trust_remote_code patterns and custom executable code; any model that would require executing third-party Python at load time is either remediated or excluded.",
+        "th": "หน้าจอสำหรับการปฏิบัติตามข้อกำหนดและความปลอดภัย — ใบอนุญาตรุ่นจะได้รับการตรวจสอบโดยเทียบกับนโยบายการแจกจ่ายระดับองค์กรของ Microsoft (โดยมีข้อมูลเมตาใบอนุญาตที่บันทึกและเก็บรักษาไว้บนการ์ดโมเดลแคตตาล็อก) และที่เก็บข้อมูลจะได้รับการตรวจสอบสำหรับรูปแบบ trust_remote_code และโค้ดที่ปฏิบัติการได้แบบกำหนดเอง โมเดลใดๆ ที่ต้องเรียกใช้ Python ของบริษัทอื่นในเวลาโหลดจะได้รับการแก้ไขหรือแยกออก"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Build, scan, and publish runtimes — Microsoft builds inference container images on supported runtimes (vLLM, SGLang, TensorRT-LLM, NIM, TEI, llama.cpp), scans them for CVEs, and signs and publishes them to a Microsoft-managed container registry.",
+        "th": "สร้าง สแกน และเผยแพร่รันไทม์ — Microsoft สร้างอิมเมจคอนเทนเนอร์การอนุมานบนรันไทม์ที่รองรับ (vLLM, SGLang, TensorRT-LLM, NIM, TEI, llama.cpp) สแกนหา CVE และลงนามและเผยแพร่ไปยังรีจิสทรีคอนเทนเนอร์ที่ Microsoft จัดการ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Upload weights to secure Azure storage — model weights are pulled from Hugging Face once, validated against the published model card, and stored in Microsoft-managed Azure storage in the regions where the model is served.",
+        "th": "อัปโหลดน้ำหนักเพื่อรักษาความปลอดภัยที่เก็บข้อมูล Azure — น้ำหนักแบบจำลองจะถูกดึงมาจาก Hugging Face หนึ่งครั้ง ตรวจสอบกับการ์ดแบบจำลองที่เผยแพร่ และจัดเก็บไว้ในที่เก็บข้อมูล Azure ที่จัดการโดย Microsoft ในภูมิภาคที่ให้บริการแบบจำลอง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Validate and publish to the catalog — every model + runtime + accelerator combination is tested for API conformance (chat completions, embeddings, rerank, etc.) and performance (latency, throughput, time-to-first-token, inter-token decode time), then the validated model — with its templates, runtime images, and weights — is published to the Foundry Model Catalog with a one-click deploy path onto Managed Compute.",
+        "th": "ตรวจสอบและเผยแพร่ไปยังแค็ตตาล็อก — โมเดล + รันไทม์ + ตัวเร่งความเร็วทุกชุดได้รับการทดสอบความสอดคล้องของ API (การแชทเสร็จสิ้น การฝัง การจัดอันดับใหม่ ฯลฯ) และประสิทธิภาพ (เวลาแฝง ปริมาณการประมวลผล ไทม์ถึงโทเค็นแรก เวลาถอดรหัสโทเค็นระหว่างโทเค็น) จากนั้นโมเดลที่ได้รับการตรวจสอบแล้ว พร้อมด้วยเทมเพลต อิมเมจรันไทม์ และน้ำหนัก จะถูกเผยแพร่ไปยังแค็ตตาล็อกโมเดล Foundry ด้วยเส้นทางการปรับใช้เพียงคลิกเดียวบน Managed Compute"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Because weights are pre-staged in Azure storage and runtime images live in a Microsoft-managed registry, your deployments won't need outbound network access to Hugging Face Hub — you can deploy to production inside a private network.",
+        "th": "เนื่องจากตุ้มน้ำหนักได้รับการจัดเตรียมไว้ล่วงหน้าในพื้นที่จัดเก็บ Azure และอิมเมจรันไทม์อยู่ในรีจิสทรีที่จัดการโดย Microsoft การปรับใช้ของคุณไม่จำเป็นต้องเข้าถึงเครือข่ายขาออกไปยัง Hugging Face Hub — คุณสามารถปรับใช้กับการใช้งานจริงภายในเครือข่ายส่วนตัวได้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Model Runtimes",
+        "th": "รันไทม์ของโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hugging Face models on Foundry are powered by a versatile collection of community-built, open-source inference runtimes — each selected and tuned for Foundry Managed Compute, and matched to the model architectures it serves best. Across all runtimes, the systematic curation process means new versions and patches land on Foundry quickly, and existing model deployments are upgraded automatically — without requiring you to redeploy.",
+        "th": "โมเดล Hugging Face บน Foundry ขับเคลื่อนโดยคอลเลกชันอเนกประสงค์ของรันไทม์การอนุมานแบบโอเพ่นซอร์สที่สร้างโดยชุมชน ซึ่งแต่ละโมเดลได้รับการคัดเลือกและปรับแต่งสำหรับการประมวลผลที่มีการจัดการของ Foundry และจับคู่กับสถาปัตยกรรมโมเดลที่ให้บริการได้ดีที่สุด กระบวนการดูแลจัดการอย่างเป็นระบบตลอดรันไทม์ทั้งหมดหมายความว่าเวอร์ชันใหม่และแพตช์ใหม่จะเข้าสู่ Foundry อย่างรวดเร็ว และการปรับใช้โมเดลที่มีอยู่จะได้รับการอัปเกรดโดยอัตโนมัติ โดยไม่ต้องให้คุณปรับใช้ซ้ำ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "vLLM — the default high-throughput serving engine for open large language models, tuned for production GPU workloads. Because Hugging Face is a direct contributor to vLLM, any model in the Transformers library can run on vLLM out of the box — so when a new model lands on Hugging Face, it can be served on Foundry the same day, with no waiting on a custom integration.",
+        "th": "vLLM — กลไกการให้บริการปริมาณงานสูงเริ่มต้นสำหรับโมเดลภาษาขนาดใหญ่แบบเปิด ซึ่งได้รับการปรับให้เหมาะกับปริมาณงาน GPU ที่ใช้งานจริง เนื่องจาก Hugging Face เป็นผู้มีส่วนร่วมโดยตรงของ vLLM โมเดลใดๆ ในไลบรารี Transformers จึงสามารถทำงานบน vLLM ได้ทันที — ดังนั้นเมื่อโมเดลใหม่เข้าสู่ Hugging Face ก็สามารถให้บริการบน Foundry ในวันเดียวกัน โดยไม่ต้องรอการผสานรวมแบบกำหนดเอง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "vLLM — the default high-throughput serving engine for open large language models, tuned for production GPU workloads. Because Hugging Face is a direct contributor to vLLM, any model in the Transformers library can run on vLLM out of the box — so when a new model lands on Hugging Face, it can be served on Foundry the same day, with no waiting on a custom integration.",
+        "th": "vLLM — กลไกการให้บริการปริมาณงานสูงเริ่มต้นสำหรับโมเดลภาษาขนาดใหญ่แบบเปิด ซึ่งได้รับการปรับให้เหมาะกับปริมาณงาน GPU ที่ใช้งานจริง เนื่องจาก Hugging Face เป็นผู้มีส่วนร่วมโดยตรงของ vLLM โมเดลใดๆ ในไลบรารี Transformers จึงสามารถทำงานบน vLLM ได้ทันที — ดังนั้นเมื่อโมเดลใหม่เข้าสู่ Hugging Face ก็สามารถให้บริการบน Foundry ในวันเดียวกัน โดยไม่ต้องรอการผสานรวมแบบกำหนดเอง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "SGLang — a serving engine for language and multi-modal models, with strong support for structured outputs (JSON, regex, grammar-constrained generation) that agentic and tool-using workloads depend on. Hugging Face and the SGLang team have built a Transformers backend integration for SGLang, so any model in the Transformers library runs on SGLang out of the box — and reaches Foundry the same day it lands on Hugging Face.",
+        "th": "SGLang — กลไกการให้บริการสำหรับภาษาและโมเดลหลายรูปแบบ พร้อมการสนับสนุนที่แข็งแกร่งสำหรับเอาต์พุตที่มีโครงสร้าง (JSON, regex, การสร้างที่จำกัดด้านไวยากรณ์) ซึ่งขึ้นอยู่กับเวิร์กโหลดแบบเอเจนต์และการใช้เครื่องมือ Hugging Face และทีม SGLang ได้สร้างการบูรณาการแบ็กเอนด์ Transformers สำหรับ SGLang ดังนั้นโมเดลใดๆ ในไลบรารี Transformers จะทำงานบน SGLang ทันที — และไปถึง Foundry ในวันเดียวกับที่ลงจอดบน Hugging Face"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SGLang — a serving engine for language and multi-modal models, with strong support for structured outputs (JSON, regex, grammar-constrained generation) that agentic and tool-using workloads depend on. Hugging Face and the SGLang team have built a Transformers backend integration for SGLang, so any model in the Transformers library runs on SGLang out of the box — and reaches Foundry the same day it lands on Hugging Face.",
+        "th": "SGLang — กลไกการให้บริการสำหรับภาษาและโมเดลหลายรูปแบบ พร้อมการสนับสนุนที่แข็งแกร่งสำหรับเอาต์พุตที่มีโครงสร้าง (JSON, regex, การสร้างที่จำกัดด้านไวยากรณ์) ซึ่งขึ้นอยู่กับเวิร์กโหลดแบบเอเจนต์และการใช้เครื่องมือ Hugging Face และทีม SGLang ได้สร้างการบูรณาการแบ็กเอนด์ Transformers สำหรับ SGLang ดังนั้นโมเดลใดๆ ในไลบรารี Transformers จะทำงานบน SGLang ทันที — และไปถึง Foundry ในวันเดียวกับที่ลงจอดบน Hugging Face"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Text Embeddings Inference (TEI) — the runtime for embedding, reranker, and sequence-classification models. Accelerator-specific images ship with kernels compiled for each GPU and CPU family Foundry supports, keeping the embedding hot path lean for RAG and semantic-search workloads.",
+        "th": "Text Embeddings Inference (TEI) — รันไทม์สำหรับโมเดลการฝัง การจัดอันดับใหม่ และการจัดหมวดหมู่ลำดับ อิมเมจเฉพาะของ Accelerator มาพร้อมกับเคอร์เนลที่คอมไพล์สำหรับตระกูล GPU และ CPU แต่ละตัวที่ Foundry รองรับ ทำให้ hot path ที่ฝังไว้มีความคล่องตัวสำหรับปริมาณงาน RAG และการค้นหาความหมาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Text Embeddings Inference (TEI) — the runtime for embedding, reranker, and sequence-classification models. Accelerator-specific images ship with kernels compiled for each GPU and CPU family Foundry supports, keeping the embedding hot path lean for RAG and semantic-search workloads.",
+        "th": "Text Embeddings Inference (TEI) — รันไทม์สำหรับโมเดลการฝัง การจัดอันดับใหม่ และการจัดหมวดหมู่ลำดับ อิมเมจเฉพาะของ Accelerator มาพร้อมกับเคอร์เนลที่คอมไพล์สำหรับตระกูล GPU และ CPU แต่ละตัวที่ Foundry รองรับ ทำให้ hot path ที่ฝังไว้มีความคล่องตัวสำหรับปริมาณงาน RAG และการค้นหาความหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "llama.cpp — the CPU and small-GPU path for GGUF-quantized models. Useful for cost-optimized deployments, smaller models, and CPU-only regions, with the same OpenAI-compatible API as vLLM and SGLang.",
+        "th": "llama.cpp — เส้นทาง CPU และ GPU ขนาดเล็กสำหรับโมเดล GGUF-quantized มีประโยชน์สำหรับการปรับใช้ที่ปรับต้นทุนให้เหมาะสม โมเดลขนาดเล็ก และภูมิภาคเฉพาะ CPU โดยมี API ที่เข้ากันได้กับ OpenAI เช่นเดียวกับ vLLM และ SGLang"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "llama.cpp — the CPU and small-GPU path for GGUF-quantized models. Useful for cost-optimized deployments, smaller models, and CPU-only regions, with the same OpenAI-compatible API as vLLM and SGLang.",
+        "th": "llama.cpp — เส้นทาง CPU และ GPU ขนาดเล็กสำหรับโมเดล GGUF-quantized มีประโยชน์สำหรับการปรับใช้ที่ปรับต้นทุนให้เหมาะสม โมเดลขนาดเล็ก และภูมิภาคเฉพาะ CPU โดยมี API ที่เข้ากันได้กับ OpenAI เช่นเดียวกับ vLLM และ SGLang"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "TensorRT-LLM and NIM — used on NVIDIA hardware where NVIDIA's optimized kernels and Triton-based serving deliver meaningfully better latency or throughput for specific model families.",
+        "th": "TensorRT-LLM และ NIM — ใช้กับฮาร์ดแวร์ NVIDIA โดยที่เคอร์เนลที่ได้รับการปรับปรุงประสิทธิภาพของ NVIDIA และการให้บริการแบบ Triton มอบเวลาแฝงหรือปริมาณงานที่ดีขึ้นอย่างมีนัยสำคัญสำหรับตระกูลรุ่นเฉพาะ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "TensorRT-LLM and NIM — used on NVIDIA hardware where NVIDIA's optimized kernels and Triton-based serving deliver meaningfully better latency or throughput for specific model families.",
+        "th": "TensorRT-LLM และ NIM — ใช้กับฮาร์ดแวร์ NVIDIA โดยที่เคอร์เนลที่ได้รับการปรับปรุงประสิทธิภาพของ NVIDIA และการให้บริการแบบ Triton มอบเวลาแฝงหรือปริมาณงานที่ดีขึ้นอย่างมีนัยสำคัญสำหรับตระกูลรุ่นเฉพาะ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "hf-serve — Hugging Face's own multi-model inference server, used for model architectures outside the LLM and embedding fast paths (vision, audio, segmentation, and other Transformers-native pipelines) so the Collection can cover every modality with a consistent serving layer.",
+        "th": "hf-serve — เซิร์ฟเวอร์อนุมานหลายโมเดลของ Hugging Face ใช้สำหรับสถาปัตยกรรมโมเดลภายนอก LLM และฝังเส้นทางด่วน (การมองเห็น เสียง การแบ่งส่วน และไปป์ไลน์ Transformers-native อื่นๆ) เพื่อให้คอลเลกชันสามารถครอบคลุมทุกรูปแบบด้วยเลเยอร์การให้บริการที่สอดคล้องกัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "hf-serve — Hugging Face's own multi-model inference server, used for model architectures outside the LLM and embedding fast paths (vision, audio, segmentation, and other Transformers-native pipelines) so the Collection can cover every modality with a consistent serving layer.",
+        "th": "hf-serve — เซิร์ฟเวอร์อนุมานหลายโมเดลของ Hugging Face ใช้สำหรับสถาปัตยกรรมโมเดลภายนอก LLM และฝังเส้นทางด่วน (การมองเห็น เสียง การแบ่งส่วน และไปป์ไลน์ Transformers-native อื่นๆ) เพื่อให้คอลเลกชันสามารถครอบคลุมทุกรูปแบบด้วยเลเยอร์การให้บริการที่สอดคล้องกัน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Deploying and Scoring an Open-Weight Model",
+        "th": "การปรับใช้และการให้คะแนนโมเดล Open-Weight"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Hugging Face Collection in the Foundry Model Catalog is where you start, and deployment is five steps:",
+        "th": "คอลเลกชัน Hugging Face ในแค็ตตาล็อกโมเดล Foundry คือจุดเริ่มต้น และการปรับใช้มีห้าขั้นตอน:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Browse the catalog and pick a model — the deploy wizard also surfaces the model id, deployment template id, and acceleratorType you'll need if you're scripting the deploy via SDK or REST.",
+        "th": "เรียกดูแค็ตตาล็อกและเลือกโมเดล — วิซาร์ดการปรับใช้ยังแสดงรหัสโมเดล รหัสเทมเพลตการปรับใช้ และประเภทตัวเร่งความเร็วที่คุณต้องการหากคุณกำลังเขียนสคริปต์การปรับใช้ผ่าน SDK หรือ REST"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Choose a deployment template — latency- vs throughput-optimized, accelerator family, context length, quantization.",
+        "th": "เลือกเทมเพลตการใช้งาน — เวลาแฝงเทียบกับการเพิ่มประสิทธิภาพปริมาณงาน กลุ่มตัวเร่งความเร็ว ความยาวบริบท การหาปริมาณ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Configure instance count — scale throughput by adding model instances.",
+        "th": "กำหนดค่าจำนวนอินสแตนซ์ — ปรับขนาดปริมาณงานโดยการเพิ่มอินสแตนซ์โมเดล"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deploy — from the portal, CLI, SDK, or REST.",
+        "th": "ปรับใช้ — จากพอร์ทัล, CLI, SDK หรือ REST"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Score via the unified Foundry endpoint with the SDK you already use.",
+        "th": "ให้คะแนนผ่านตำแหน่งข้อมูล Foundry แบบรวมด้วย SDK ที่คุณใช้อยู่แล้ว"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Deployment Templates",
+        "th": "เทมเพลตการปรับใช้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A deployment template is the unit of choice in step 2: a named, versioned asset that pins the runtime, the accelerator family and count, the context length, and the runtime-specific tuning needed to serve the model well — so picking a template is the only knob you turn for \"how do I want this model to run.\"",
+        "th": "เทมเพลตการปรับใช้คือหน่วยที่เลือกในขั้นตอนที่ 2: เนื้อหาที่กำหนดชื่อและเป็นเวอร์ชันที่ปักหมุดรันไทม์ กลุ่มตัวเร่งความเร็วและการนับ ความยาวบริบท และการปรับแต่งเฉพาะรันไทม์ที่จำเป็นต่อการให้บริการโมเดลอย่างดี ดังนั้นการเลือกเทมเพลตเป็นเพียงปุ่มเดียวที่คุณเปิดสำหรับ \"ฉันอยากให้โมเดลนี้ทำงานอย่างไร\""
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "qwen3-32b, for example, ships with four templates the deploy wizard exposes side by side:",
+        "th": "ตัวอย่างเช่น qwen3-32b มาพร้อมกับสี่เทมเพลตที่วิซาร์ดการปรับใช้จะแสดงคู่กัน:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each template arrives pre-tuned for the model — runtime settings, tool-call and reasoning parsers, scoring path, health probes, request concurrency, and any model-specific context-extension settings are all set by Microsoft, with any trade-offs called out inline in the template description. When you script the deploy, you reference the template and Foundry handles the rest.",
+        "th": "แต่ละเทมเพลตได้รับการปรับแต่งล่วงหน้าสำหรับโมเดล — การตั้งค่ารันไทม์, เครื่องมือเรียกและตัวแยกวิเคราะห์เหตุผล, พาธการให้คะแนน, การตรวจสุขภาพ, คำขอพร้อมกัน และการตั้งค่าส่วนขยายบริบทเฉพาะโมเดลใดๆ ล้วนถูกตั้งค่าโดย Microsoft โดยจะมีการเรียกข้อดีข้อเสียใดๆ ไว้ในคำอธิบายเทมเพลต เมื่อคุณเขียนสคริปต์การปรับใช้ คุณจะอ้างอิงเทมเพลตและ Foundry จะจัดการส่วนที่เหลือ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Deploy — Python SDK",
+        "th": "ปรับใช้ — Python SDK"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Score — OpenAI SDK",
+        "th": "คะแนน — OpenAI SDK"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The deployment is reachable through the unified Foundry endpoint with the OpenAI SDK — the `model` field takes the deployment name you just created:",
+        "th": "การปรับใช้สามารถเข้าถึงได้ผ่านตำแหน่งข้อมูล Foundry แบบรวมด้วย OpenAI SDK — ช่อง `model` ใช้ชื่อการปรับใช้ที่คุณเพิ่งสร้างขึ้น:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Use It in an Agent",
+        "th": "ใช้ในตัวแทน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A chat-completions model from the Collection slots into Foundry Agents as an admin-connected model and is callable through the Foundry Responses API with the same OpenAI SDK — same auth, same endpoint, same observability.",
+        "th": "โมเดลการแชทเสร็จสิ้นจากช่องคอลเลกชันไปยัง Foundry Agents เป็นโมเดลที่เชื่อมต่อกับผู้ดูแลระบบ และสามารถเรียกได้ผ่าน Foundry Responses API ด้วย OpenAI SDK เดียวกัน — การรับรองความถูกต้องเดียวกัน จุดสิ้นสุดเดียวกัน ความสามารถในการสังเกตเดียวกัน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What's Available Today",
+        "th": "สิ่งที่มีอยู่วันนี้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Available now in preview: the Hugging Face Collection in the Microsoft Foundry Model Catalog — thousands of models across every modality, refreshed weekly, deployable onto Foundry Managed Compute with NVIDIA A100, NVIDIA H100, or AMD MI300X accelerators in Global and Data Zone scopes, behind a unified Foundry endpoint with Playground support, first-class Azure Monitor metrics, per-deployment billing tags, and curated runtime upgrades and CVE patching applied automatically to your deployments.",
+        "th": "พร้อมใช้งานแล้วในรูปแบบพรีวิว: Hugging Face Collection ใน Microsoft Foundry Model Catalog — โมเดลนับพันในทุกรูปแบบ รีเฟรชทุกสัปดาห์ ปรับใช้บน Foundry Managed Compute ด้วย NVIDIA A100, NVIDIA H100 หรือ AMD MI300X accelerators ในขอบเขตส่วนกลางและ Data Zone เบื้องหลังจุดสิ้นสุด Foundry แบบรวมพร้อมการรองรับ Playground, ตัวชี้วัด Azure Monitor ชั้นหนึ่ง, แท็กการเรียกเก็บเงินต่อการปรับใช้ และการอัพเกรดรันไทม์ที่คัดสรรมาเป็นอย่างดี และแพตช์ CVE ที่นำไปใช้ เพื่อการปรับใช้ของคุณโดยอัตโนมัติ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On the roadmap: broader coverage of the Hugging Face ecosystem, additional accelerator families, and Bring Your Own Weights for fine-tuned and proprietary variants deployed through the same templates and governance as Collection models.",
+        "th": "บนแผนงาน: ความครอบคลุมที่กว้างขึ้นของระบบนิเวศ Hugging Face กลุ่มตัวเร่งความเร็วเพิ่มเติม และ Bring Your Own Weights สำหรับตัวแปรที่ได้รับการปรับแต่งอย่างละเอียดและเป็นกรรมสิทธิ์ ซึ่งใช้งานผ่านเทมเพลตและการกำกับดูแลเดียวกันกับโมเดล Collection"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hugging Face is where open models are published and discovered. Microsoft Foundry is where enterprises operationalize them — on curated, license-screened, security-screened weights hosted in Azure; on community-built and CVE-scanned runtimes; behind a single endpoint with enterprise identity, networking, observability, and agent integration on top. The breadth of the open-source ecosystem, with the operational layer Microsoft runs underneath. For a deep dive on Foundry Managed Compute — pricing, accelerator SKUs, data residency, enterprise readiness, observability, and the full Responses API + memory pattern — see the Managed Compute launch blog.",
+        "th": "Hugging Face คือที่ซึ่งโมเดลแบบเปิดถูกเผยแพร่และค้นพบ Microsoft Foundry เป็นที่ที่องค์กรต่างๆ ดำเนินการได้ บนตุ้มน้ำหนักที่ผ่านการคัดเลือก คัดกรองลิขสิทธิ์ และคัดกรองความปลอดภัยที่โฮสต์ใน Azure บนรันไทม์ที่สร้างโดยชุมชนและสแกนด้วย CVE เบื้องหลังจุดสิ้นสุดเดียวที่มีเอกลักษณ์เฉพาะองค์กร เครือข่าย ความสามารถในการสังเกต และการบูรณาการตัวแทนที่ด้านบน ความกว้างของระบบนิเวศโอเพ่นซอร์ส โดยมีเลเยอร์การดำเนินงานที่ Microsoft ทำงานอยู่ข้างใต้ หากต้องการเจาะลึกเกี่ยวกับ Foundry Managed Compute — ราคา, SKU ตัวเร่งความเร็ว, ถิ่นที่อยู่ของข้อมูล, ความพร้อมขององค์กร, ความสามารถในการสังเกต และรูปแบบการตอบสนอง API + หน่วยความจำแบบเต็ม — โปรดดูบล็อกเปิดตัว Managed Compute"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More from this author",
+        "th": "เพิ่มเติมจากผู้เขียนคนนี้"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/5df85abada6d0311fd3d5408/ULgU7-Z51YYJN4fl1FnWH.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Differential Transformer V2",
+        "th": "หม้อแปลงดิฟเฟอเรนเชียล V2"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583646260758-5e64858c87403103f9f1055d.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/6966b18c9eee569e0ea03e28/6iROhDsdyfzULaKCjyzNP.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Introducing OptiMind, a research model designed for optimization",
+        "th": "ขอแนะนำ OptiMind ซึ่งเป็นโมเดลการวิจัยที่ออกแบบมาเพื่อการปรับให้เหมาะสมที่สุด"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583646260758-5e64858c87403103f9f1055d.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "ชุมชน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· ลงทะเบียนหรือเข้าสู่ระบบเพื่อแสดงความคิดเห็น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583857146757-5e67bdd61009063689407479.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1605114051380-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1621947938344-noauth.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/60f0608166e5701b80ed3f02/H9LNnlf0W4fiOJhQMxnbW.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1638698875017-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6317233cc92fd6fee317e030/cJHSvvimr1kqgQfHOjO5n.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/64edccf9476cdc85029d7bc9/qTZsVVHCKj2BqrX6Uf6Vg.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/w3Z6xyKVBA6np65Tb16dP.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/7sTK8Q_gZRoOz0uaKnVNJ.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6a15be1b0c5fef54b92c60ab/qOXkTss_QR0gy6dSzXI8T.jpeg",
+      "alt": ""
+    }
+  ]
+}

@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+42",
-        "th": "+42"
+        "en": "+45",
+        "th": "+45"
       }
     },
     {
@@ -292,6 +292,73 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/ba2e4030d4773aab9f5746a51a884b6c.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1 reply",
+        "th": "1 ตอบกลับ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/ba2e4030d4773aab9f5746a51a884b6c.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Terminator 3, but yeah.",
+        "th": "Terminator 3 แต่ใช่"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/fcadcbcb421ee4ab5c007fb5ccdc3cda.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Unhelpful.",
+        "th": "ไม่มีประโยชน์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/ce4802e3414b7824feb42a28aaabe7ee.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It is great strategy in defence.",
+        "th": "มันเป็นกลยุทธ์ที่ดีในการป้องกัน"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/pDVBjR86swYTlnrxU06jT.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“ We ran the forensic analysis instead on GLM 5.2, an open-weight model, on our own infrastructure. This had a second benefit: no attacker data, and none of the credentials it referenced, left our environment.”",
+        "th": "“ เราใช้การวิเคราะห์ทางนิติเวชแทนบน GLM 5.2 ซึ่งเป็นโมเดล open-weight บนโครงสร้างพื้นฐานของเราเอง ซึ่งมีประโยชน์ประการที่ 2 คือ ไม่มีข้อมูลของผู้โจมตีและไม่มีข้อมูลรับรองใดที่ข้อมูลอ้างอิงที่อ้างอิงนั้นออกไปจากสภาพแวดล้อมของเรา”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hyperscalers and (X)Lab-spying-API services stock just dropped another -20%.",
+        "th": "สต็อกบริการ Hyperscalers และ (X)Lab-spying-API ลดลงอีก -20%"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -361,8 +428,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+36",
-        "th": "+36"
+        "en": "+39",
+        "th": "+39"
       }
     }
   ]

@@ -1,40 +1,6 @@
 {
-  "generatedAt": "2026-07-16T04:55:50.989Z",
+  "generatedAt": "2026-07-16T08:01:11.821Z",
   "items": [
-    {
-      "id": "huggingface__shippy-tech-blog",
-      "slug": "shippy-tech-blog",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "category": "News",
-      "date": "2026-07-15T17:29:41.000Z",
-      "image": null,
-      "title": {
-        "en": "What building Shippy taught us about building agents",
-        "th": "สิ่งที่อาคาร Shippy สอนเราเกี่ยวกับตัวแทนการก่อสร้าง"
-      },
-      "summary": {
-        "en": "What building Shippy taught us about building agents",
-        "th": "สิ่งที่อาคาร Shippy สอนเราเกี่ยวกับตัวแทนการก่อสร้าง"
-      }
-    },
-    {
-      "id": "huggingface__model-routing-is-simple-until-it-isnt",
-      "slug": "model-routing-is-simple-until-it-isnt",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
-      "category": "News",
-      "date": "2026-07-15T17:27:01.000Z",
-      "image": null,
-      "title": {
-        "en": "Model Routing Is Simple. Until It Isn’t.",
-        "th": "การกำหนดเส้นทางโมเดลนั้นง่ายมาก จนกระทั่งมันไม่ใช่"
-      },
-      "summary": {
-        "en": "Model Routing Is Simple. Until It Isn’t.",
-        "th": "การกำหนดเส้นทางโมเดลนั้นง่ายมาก จนกระทั่งมันไม่ใช่"
-      }
-    },
     {
       "id": "openai__advancing-ai-safety-through-state-and-federal-action",
       "slug": "advancing-ai-safety-through-state-and-federal-action",
@@ -67,40 +33,6 @@
       "summary": {
         "en": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
         "th": "สำรวจ GPT-Red ซึ่งเป็นระบบการรวมทีมสีแดงอัตโนมัติของ OpenAI ที่ใช้การเล่นด้วยตนเองเพื่อปรับปรุงความปลอดภัยของ AI การจัดตำแหน่ง และความทนทานในการฉีดที่รวดเร็ว"
-      }
-    },
-    {
-      "id": "huggingface__thinkingmachines-inkling",
-      "slug": "thinkingmachines-inkling",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/thinkingmachines-inkling",
-      "category": "News",
-      "date": "2026-07-15T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Welcome Inkling by Thinking Machines",
-        "th": "ยินดีต้อนรับ Inkling โดย Thinking Machines"
-      },
-      "summary": {
-        "en": "Welcome Inkling by Thinking Machines",
-        "th": "ยินดีต้อนรับ Inkling โดย Thinking Machines"
-      }
-    },
-    {
-      "id": "huggingface__real-world-voiceeq",
-      "slug": "real-world-voiceeq",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/real-world-voiceeq",
-      "category": "News",
-      "date": "2026-07-15T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-        "th": "ขอแนะนำ VoiceEQ ในโลกแห่งความเป็นจริง: การวัดคุณภาพเสียงของมนุษย์ด้วย AI"
-      },
-      "summary": {
-        "en": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-        "th": "ขอแนะนำ VoiceEQ ในโลกแห่งความเป็นจริง: การวัดคุณภาพเสียงของมนุษย์ด้วย AI"
       }
     },
     {
@@ -257,23 +189,6 @@
       }
     },
     {
-      "id": "huggingface__torch-attention-profile",
-      "slug": "torch-attention-profile",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/torch-attention-profile",
-      "category": "News",
-      "date": "2026-07-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Profiling in PyTorch (Part 3): Attention is all you profile",
-        "th": "การทำโปรไฟล์ใน PyTorch (ตอนที่ 3): ความสนใจคือสิ่งที่คุณทำ"
-      },
-      "summary": {
-        "en": "Profiling in PyTorch (Part 3): Attention is all you profile",
-        "th": "การทำโปรไฟล์ใน PyTorch (ตอนที่ 3): ความสนใจคือสิ่งที่คุณทำ"
-      }
-    },
-    {
       "id": "openai__gpt-5-6-preferred-model-microsoft-365-copilot",
       "slug": "gpt-5-6-preferred-model-microsoft-365-copilot",
       "source": "openai",
@@ -410,23 +325,6 @@
       }
     },
     {
-      "id": "huggingface__open-data-for-agents",
-      "slug": "open-data-for-agents",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-      "category": "News",
-      "date": "2026-07-08T17:16:05.000Z",
-      "image": null,
-      "title": {
-        "en": "Data for Agents",
-        "th": "ข้อมูลสำหรับตัวแทน"
-      },
-      "summary": {
-        "en": "Data for Agents",
-        "th": "ข้อมูลสำหรับตัวแทน"
-      }
-    },
-    {
       "id": "openai__government-national-security-partnerships",
       "slug": "government-national-security-partnerships",
       "source": "openai",
@@ -495,57 +393,6 @@
       }
     },
     {
-      "id": "huggingface__native-speed-vllm-transformers-backend",
-      "slug": "native-speed-vllm-transformers-backend",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-      "category": "News",
-      "date": "2026-07-08T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Native-speed vLLM transformers modeling backend",
-        "th": "แบ็กเอนด์การสร้างแบบจำลองหม้อแปลง vLLM ความเร็วดั้งเดิม"
-      },
-      "summary": {
-        "en": "Native-speed vLLM transformers modeling backend",
-        "th": "แบ็กเอนด์การสร้างแบบจำลองหม้อแปลง vLLM ความเร็วดั้งเดิม"
-      }
-    },
-    {
-      "id": "huggingface__one-click-to-sagemaker-studio",
-      "slug": "one-click-to-sagemaker-studio",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-      "category": "News",
-      "date": "2026-07-07T21:15:33.000Z",
-      "image": null,
-      "title": {
-        "en": "From Hugging Face to Amazon SageMaker Studio in one click",
-        "th": "จาก Hugging Face ไปจนถึง Amazon SageMaker Studio ได้ในคลิกเดียว"
-      },
-      "summary": {
-        "en": "From Hugging Face to Amazon SageMaker Studio in one click",
-        "th": "จาก Hugging Face ไปจนถึง Amazon SageMaker Studio ได้ในคลิกเดียว"
-      }
-    },
-    {
-      "id": "huggingface__foundry-managed-compute",
-      "slug": "foundry-managed-compute",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
-      "category": "News",
-      "date": "2026-07-07T15:20:06.000Z",
-      "image": null,
-      "title": {
-        "en": "Hugging Face Models on Foundry Managed Compute",
-        "th": "โมเดลใบหน้ากอดบนคอมพิวเตอร์ที่จัดการโดย Foundry"
-      },
-      "summary": {
-        "en": "Hugging Face Models on Foundry Managed Compute",
-        "th": "โมเดลใบหน้ากอดบนคอมพิวเตอร์ที่จัดการโดย Foundry"
-      }
-    },
-    {
       "id": "google-ai__expanding-managed-agents-gemini-api",
       "slug": "expanding-managed-agents-gemini-api",
       "source": "google-ai",
@@ -597,57 +444,6 @@
       }
     },
     {
-      "id": "huggingface__skypilot-hf-storage",
-      "slug": "skypilot-hf-storage",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/skypilot-hf-storage",
-      "category": "News",
-      "date": "2026-07-07T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
-        "th": "รันปริมาณงาน AI บนคลาวด์ใดๆ จัดเก็บบน Hugging Face: พื้นที่จัดเก็บข้อมูลแบบไม่มีทางออกด้วย SkyPilot"
-      },
-      "summary": {
-        "en": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
-        "th": "รันปริมาณงาน AI บนคลาวด์ใดๆ จัดเก็บบน Hugging Face: พื้นที่จัดเก็บข้อมูลแบบไม่มีทางออกด้วย SkyPilot"
-      }
-    },
-    {
-      "id": "huggingface__lerobot-release-v060",
-      "slug": "lerobot-release-v060",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/lerobot-release-v060",
-      "category": "News",
-      "date": "2026-07-07T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-        "th": "LeRobot v0.6.0: ลองจินตนาการ ประเมิน ปรับปรุง"
-      },
-      "summary": {
-        "en": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-        "th": "LeRobot v0.6.0: ลองจินตนาการ ประเมิน ปรับปรุง"
-      }
-    },
-    {
-      "id": "huggingface__prx-part4-data",
-      "slug": "prx-part4-data",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
-      "category": "News",
-      "date": "2026-07-06T15:30:55.000Z",
-      "image": null,
-      "title": {
-        "en": "PRX Part 4: Our Data Strategy",
-        "th": "PRX ส่วนที่ 4: กลยุทธ์ข้อมูลของเรา"
-      },
-      "summary": {
-        "en": "PRX Part 4: Our Data Strategy",
-        "th": "PRX ส่วนที่ 4: กลยุทธ์ข้อมูลของเรา"
-      }
-    },
-    {
       "id": "anthropic__alberta-government-claude-cybersecurity",
       "slug": "alberta-government-claude-cybersecurity",
       "source": "anthropic",
@@ -662,23 +458,6 @@
       "summary": {
         "en": "The Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them.",
         "th": "รัฐบาลอัลเบอร์ตาใช้ Claude Code กับทั้งแบบจำลอง Opus และ Sonnet เพื่อตรวจสอบระบบ ค้นหาช่องโหว่ และแก้ไข"
-      }
-    },
-    {
-      "id": "huggingface__revamped-kernels",
-      "slug": "revamped-kernels",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/revamped-kernels",
-      "category": "News",
-      "date": "2026-07-06T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "🤗 Kernels: Major Updates",
-        "th": "🤗 เคอร์เนล: การอัปเดตที่สำคัญ"
-      },
-      "summary": {
-        "en": "🤗 Kernels: Major Updates",
-        "th": "🤗 เคอร์เนล: การอัปเดตที่สำคัญ"
       }
     },
     {
@@ -750,40 +529,6 @@
       }
     },
     {
-      "id": "huggingface__cerebras-gemma4-voice-ai",
-      "slug": "cerebras-gemma4-voice-ai",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-      "category": "News",
-      "date": "2026-07-01T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-        "th": "Hugging Face และ Cerebras นำ Gemma 4 มาสู่ AI เสียงแบบเรียลไทม์"
-      },
-      "summary": {
-        "en": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-        "th": "Hugging Face และ Cerebras นำ Gemma 4 มาสู่ AI เสียงแบบเรียลไทม์"
-      }
-    },
-    {
-      "id": "huggingface__scarfbench",
-      "slug": "scarfbench",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "category": "News",
-      "date": "2026-06-30T18:32:50.000Z",
-      "image": null,
-      "title": {
-        "en": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-        "th": "ScarfBench: การเปรียบเทียบเอเจนต์ AI สำหรับการโยกย้าย Java Framework ระดับองค์กร"
-      },
-      "summary": {
-        "en": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-        "th": "ScarfBench: การเปรียบเทียบเอเจนต์ AI สำหรับการโยกย้าย Java Framework ระดับองค์กร"
-      }
-    },
-    {
       "id": "deepmind__start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
       "slug": "start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
       "source": "deepmind",
@@ -798,23 +543,6 @@
       "summary": {
         "en": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
         "th": "เริ่มสร้างด้วย Nano Banana 2 Lite และ Gemini Omni Flash"
-      }
-    },
-    {
-      "id": "huggingface__why-specialization-is-inevitable",
-      "slug": "why-specialization-is-inevitable",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-      "category": "News",
-      "date": "2026-06-30T14:39:11.000Z",
-      "image": null,
-      "title": {
-        "en": "Why Specialization Is Inevitable",
-        "th": "เหตุใดความเชี่ยวชาญจึงหลีกเลี่ยงไม่ได้"
-      },
-      "summary": {
-        "en": "Why Specialization Is Inevitable",
-        "th": "เหตุใดความเชี่ยวชาญจึงหลีกเลี่ยงไม่ได้"
       }
     },
     {
@@ -954,40 +682,6 @@
       }
     },
     {
-      "id": "huggingface__eee-community-evals",
-      "slug": "eee-community-evals",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/eee-community-evals",
-      "category": "News",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
-        "th": "นำเสนอผลลัพธ์การประเมินทุกครั้งบนหน้าโมเดลใบหน้ากอด"
-      },
-      "summary": {
-        "en": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
-        "th": "นำเสนอผลลัพธ์การประเมินทุกครั้งบนหน้าโมเดลใบหน้ากอด"
-      }
-    },
-    {
-      "id": "huggingface__discoformer",
-      "slug": "discoformer",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/allenai/discoformer",
-      "category": "News",
-      "date": "2026-06-29T18:02:48.000Z",
-      "image": null,
-      "title": {
-        "en": "DiScoFormer: One transformer for density and score, across distributions",
-        "th": "DiScoFormer: หม้อแปลงหนึ่งตัวสำหรับความหนาแน่นและคะแนน ทั่วทั้งการกระจาย"
-      },
-      "summary": {
-        "en": "DiScoFormer: One transformer for density and score, across distributions",
-        "th": "DiScoFormer: หม้อแปลงหนึ่งตัวสำหรับความหนาแน่นและคะแนน ทั่วทั้งการกระจาย"
-      }
-    },
-    {
       "id": "google-ai__full-stack-ai-explainer",
       "slug": "full-stack-ai-explainer",
       "source": "google-ai",
@@ -1056,23 +750,6 @@
       }
     },
     {
-      "id": "huggingface__vllm-jobs",
-      "slug": "vllm-jobs",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/vllm-jobs",
-      "category": "News",
-      "date": "2026-06-26T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Run a vLLM Server on HF Jobs in One Command",
-        "th": "รันเซิร์ฟเวอร์ vLLM ในงาน HF ในคำสั่งเดียว"
-      },
-      "summary": {
-        "en": "Run a vLLM Server on HF Jobs in One Command",
-        "th": "รันเซิร์ฟเวอร์ vLLM ในงาน HF ในคำสั่งเดียว"
-      }
-    },
-    {
       "id": "google-ai__google-finance-updates-june-2026",
       "slug": "google-finance-updates-june-2026",
       "source": "google-ai",
@@ -1124,23 +801,6 @@
       }
     },
     {
-      "id": "huggingface__accelerating-fine-tuning-nvidia-nemo-automodel",
-      "slug": "accelerating-fine-tuning-nvidia-nemo-automodel",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-      "category": "News",
-      "date": "2026-06-24T16:00:13.000Z",
-      "image": null,
-      "title": {
-        "en": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-        "th": "เร่งการปรับแต่ง Transformers อย่างละเอียดด้วย NVIDIA NeMo AutoModel"
-      },
-      "summary": {
-        "en": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-        "th": "เร่งการปรับแต่ง Transformers อย่างละเอียดด้วย NVIDIA NeMo AutoModel"
-      }
-    },
-    {
       "id": "openai__openai-broadcom-jalapeno-inference-chip",
       "slug": "openai-broadcom-jalapeno-inference-chip",
       "source": "openai",
@@ -1155,23 +815,6 @@
       "summary": {
         "en": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
         "th": "OpenAI และ Broadcom เปิดตัว Jalapeño ซึ่งเป็นชิป AI แบบกำหนดเองที่สร้างขึ้นสำหรับการอนุมาน LLM เพื่อปรับปรุงประสิทธิภาพ ประสิทธิภาพ และขนาดทั่วทั้งระบบ AI"
-      }
-    },
-    {
-      "id": "huggingface__ffasr-leaderboard",
-      "slug": "ffasr-leaderboard",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/ffasr-leaderboard",
-      "category": "News",
-      "date": "2026-06-24T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
-        "th": "ขอแนะนำกระดานผู้นำ FFASR: การเปรียบเทียบ ASR ในโลกแห่งความเป็นจริง"
-      },
-      "summary": {
-        "en": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
-        "th": "ขอแนะนำกระดานผู้นำ FFASR: การเปรียบเทียบ ASR ในโลกแห่งความเป็นจริง"
       }
     },
     {
@@ -1226,57 +869,6 @@
       }
     },
     {
-      "id": "huggingface__huggingface-hub-release-ci",
-      "slug": "huggingface-hub-release-ci",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
-      "category": "News",
-      "date": "2026-06-23T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-        "th": "จัดส่งhuggingface_hubทุกสัปดาห์ด้วย AI เครื่องมือแบบเปิด และมนุษย์ที่คอยติดตาม"
-      },
-      "summary": {
-        "en": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-        "th": "จัดส่งhuggingface_hubทุกสัปดาห์ด้วย AI เครื่องมือแบบเปิด และมนุษย์ที่คอยติดตาม"
-      }
-    },
-    {
-      "id": "huggingface__cross-origin-storage",
-      "slug": "cross-origin-storage",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/cross-origin-storage",
-      "category": "News",
-      "date": "2026-06-23T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
-        "th": "การทดลองกับ Cross-Origin Storage API ที่นำเสนอใน Transformers.js"
-      },
-      "summary": {
-        "en": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
-        "th": "การทดลองกับ Cross-Origin Storage API ที่นำเสนอใน Transformers.js"
-      }
-    },
-    {
-      "id": "huggingface__pp-ocrv6",
-      "slug": "pp-ocrv6",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "category": "News",
-      "date": "2026-06-22T13:18:56.000Z",
-      "image": null,
-      "title": {
-        "en": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-        "th": "PP-OCRv6 บนใบหน้ากอด: OCR 50 ภาษาตั้งแต่ 1.5M ถึง 34.5M พารามิเตอร์"
-      },
-      "summary": {
-        "en": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-        "th": "PP-OCRv6 บนใบหน้ากอด: OCR 50 ภาษาตั้งแต่ 1.5M ถึง 34.5M พารามิเตอร์"
-      }
-    },
-    {
       "id": "openai__patch-the-planet",
       "slug": "patch-the-planet",
       "source": "openai",
@@ -1328,23 +920,6 @@
       }
     },
     {
-      "id": "huggingface__local-models-pr-triage",
-      "slug": "local-models-pr-triage",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/local-models-pr-triage",
-      "category": "News",
-      "date": "2026-06-22T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "We got local models to triage the OpenClaw repo for FREE!*",
-        "th": "เรามีโมเดลท้องถิ่นเพื่อทดสอบ repo OpenClaw ฟรี!*"
-      },
-      "summary": {
-        "en": "We got local models to triage the OpenClaw repo for FREE!*",
-        "th": "เรามีโมเดลท้องถิ่นเพื่อทดสอบ repo OpenClaw ฟรี!*"
-      }
-    },
-    {
       "id": "openai__samsung-electronics-chatgpt-codex-deployment",
       "slug": "samsung-electronics-chatgpt-codex-deployment",
       "source": "openai",
@@ -1359,23 +934,6 @@
       "summary": {
         "en": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
         "th": "Samsung Electronics ปรับใช้ ChatGPT Enterprise และ Codex ให้กับพนักงานทั่วโลก ซึ่งถือเป็นหนึ่งในการเปิดตัว AI ระดับองค์กรที่ใหญ่ที่สุดของ OpenAI"
-      }
-    },
-    {
-      "id": "huggingface__mosaicleaks",
-      "slug": "mosaicleaks",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "category": "News",
-      "date": "2026-06-18T18:13:13.000Z",
-      "image": null,
-      "title": {
-        "en": "MosaicLeaks: Can your research agent keep a secret?",
-        "th": "MosaicLeaks: เจ้าหน้าที่วิจัยของคุณสามารถเก็บความลับได้หรือไม่?"
-      },
-      "summary": {
-        "en": "MosaicLeaks: Can your research agent keep a secret?",
-        "th": "MosaicLeaks: เจ้าหน้าที่วิจัยของคุณสามารถเก็บความลับได้หรือไม่?"
       }
     },
     {
@@ -1430,40 +988,6 @@
       }
     },
     {
-      "id": "huggingface__peft-beyond-lora",
-      "slug": "peft-beyond-lora",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/peft-beyond-lora",
-      "category": "News",
-      "date": "2026-06-18T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-        "th": "Beyond LoRA: คุณสามารถเอาชนะเทคนิคการปรับแต่งที่ได้รับความนิยมมากที่สุดได้หรือไม่?"
-      },
-      "summary": {
-        "en": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-        "th": "Beyond LoRA: คุณสามารถเอาชนะเทคนิคการปรับแต่งที่ได้รับความนิยมมากที่สุดได้หรือไม่?"
-      }
-    },
-    {
-      "id": "huggingface__is-it-agentic-enough",
-      "slug": "is-it-agentic-enough",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/is-it-agentic-enough",
-      "category": "News",
-      "date": "2026-06-18T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Is it agentic enough? Benchmarking open models on your own tooling",
-        "th": "เป็นตัวแทนเพียงพอหรือไม่? การเปรียบเทียบโมเดลแบบเปิดด้วยเครื่องมือของคุณเอง"
-      },
-      "summary": {
-        "en": "Is it agentic enough? Benchmarking open models on your own tooling",
-        "th": "เป็นตัวแทนเพียงพอหรือไม่? การเปรียบเทียบโมเดลแบบเปิดด้วยเครื่องมือของคุณเอง"
-      }
-    },
-    {
       "id": "google-ai__amie-for-disease-management-in-nature",
       "slug": "amie-for-disease-management-in-nature",
       "source": "google-ai",
@@ -1478,23 +1002,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\">Research in “Nature” shows our conversational AI system matches primary care physici",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\">การวิจัยใน “ธรรมชาติ” แสดงให้เห็นว่าระบบ AI การสนทนาของเราตรงกับนักกายภาพบำบัดระดับปฐมภูมิ"
-      }
-    },
-    {
-      "id": "huggingface__strands-lerobot-hub-to-hardware",
-      "slug": "strands-lerobot-hub-to-hardware",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "category": "News",
-      "date": "2026-06-17T10:18:05.000Z",
-      "image": null,
-      "title": {
-        "en": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-        "th": "ตั้งแต่ Hugging Face Hub ไปจนถึงฮาร์ดแวร์หุ่นยนต์ด้วย Strands Agents และ LeRobot"
-      },
-      "summary": {
-        "en": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-        "th": "ตั้งแต่ Hugging Face Hub ไปจนถึงฮาร์ดแวร์หุ่นยนต์ด้วย Strands Agents และ LeRobot"
       }
     },
     {
@@ -1515,23 +1022,6 @@
       }
     },
     {
-      "id": "huggingface__glm-52-blog",
-      "slug": "glm-52-blog",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
-      "category": "News",
-      "date": "2026-06-17T09:01:25.000Z",
-      "image": null,
-      "title": {
-        "en": "GLM-5.2: Built for Long-Horizon Tasks",
-        "th": "GLM-5.2: สร้างขึ้นสำหรับงานระยะยาว"
-      },
-      "summary": {
-        "en": "GLM-5.2: Built for Long-Horizon Tasks",
-        "th": "GLM-5.2: สร้างขึ้นสำหรับงานระยะยาว"
-      }
-    },
-    {
       "id": "openai__introducing-life-sci-bench",
       "slug": "introducing-life-sci-bench",
       "source": "openai",
@@ -1546,23 +1036,6 @@
       "summary": {
         "en": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
         "th": "ขอแนะนำ LifeSciBench ซึ่งเป็นเกณฑ์มาตรฐานที่เขียนโดยผู้เชี่ยวชาญและผ่านการตรวจสอบโดยผู้เชี่ยวชาญสำหรับการประเมินวิธีที่ระบบ AI จัดการกับงานวิจัยและการตัดสินใจด้านวิทยาศาสตร์ชีวภาพในโลกแห่งความเป็นจริง"
-      }
-    },
-    {
-      "id": "huggingface__agentic-resource-discovery-launch",
-      "slug": "agentic-resource-discovery-launch",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-      "category": "News",
-      "date": "2026-06-17T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Agentic Resource Discovery: Let agents search",
-        "th": "การค้นพบทรัพยากรตัวแทน: ให้ตัวแทนค้นหา"
-      },
-      "summary": {
-        "en": "Agentic Resource Discovery: Let agents search",
-        "th": "การค้นพบทรัพยากรตัวแทน: ให้ตัวแทนค้นหา"
       }
     },
     {
@@ -1668,23 +1141,6 @@
       }
     },
     {
-      "id": "huggingface__torch-mlp-fusion",
-      "slug": "torch-mlp-fusion",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/torch-mlp-fusion",
-      "category": "News",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
-        "th": "การสร้างโปรไฟล์ใน PyTorch (ตอนที่ 2): จาก nn.Linear ไปจนถึง Fused MLP"
-      },
-      "summary": {
-        "en": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
-        "th": "การสร้างโปรไฟล์ใน PyTorch (ตอนที่ 2): จาก nn.Linear ไปจนถึง Fused MLP"
-      }
-    },
-    {
       "id": "deepmind__diffusiongemma-4x-faster-text-generation",
       "slug": "diffusiongemma-4x-faster-text-generation",
       "source": "deepmind",
@@ -1770,40 +1226,6 @@
       }
     },
     {
-      "id": "huggingface__spaces-agents-md",
-      "slug": "spaces-agents-md",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "category": "News",
-      "date": "2026-06-09T10:46:19.000Z",
-      "image": null,
-      "title": {
-        "en": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-        "th": "วิธีการที่ตัวแทนสร้างแกลเลอรี 3 มิติในปารีสโดยการเชื่อมโยงพื้นที่ใบหน้ากอดกัน 2 แห่ง"
-      },
-      "summary": {
-        "en": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-        "th": "วิธีการที่ตัวแทนสร้างแกลเลอรี 3 มิติในปารีสโดยการเชื่อมโยงพื้นที่ใบหน้ากอดกัน 2 แห่ง"
-      }
-    },
-    {
-      "id": "huggingface__github-ci-hf-jobs",
-      "slug": "github-ci-hf-jobs",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/github-ci-hf-jobs",
-      "category": "News",
-      "date": "2026-06-09T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Migrating Your GitHub CI to Hugging Face Jobs",
-        "th": "ย้าย GitHub CI ของคุณไปยัง Hugging Face Jobs"
-      },
-      "summary": {
-        "en": "Migrating Your GitHub CI to Hugging Face Jobs",
-        "th": "ย้าย GitHub CI ของคุณไปยัง Hugging Face Jobs"
-      }
-    },
-    {
       "id": "deepmind__measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond",
       "slug": "measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond",
       "source": "deepmind",
@@ -1818,23 +1240,6 @@
       "summary": {
         "en": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
         "th": "ผลลัพธ์จากการทดลองแบบสุ่มที่มีกลุ่มควบคุมแสดงให้เห็นถึงศักยภาพของฟีเจอร์การเรียนรู้พร้อมคำแนะนำของ Gemini ในการเพิ่มการมีส่วนร่วมและเร่งการเรียนรู้"
-      }
-    },
-    {
-      "id": "huggingface__openenv-agentic-rl",
-      "slug": "openenv-agentic-rl",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/openenv-agentic-rl",
-      "category": "News",
-      "date": "2026-06-08T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "The Open Source Community is backing OpenEnv for Agentic RL",
-        "th": "ชุมชนโอเพ่นซอร์สกำลังสนับสนุน OpenEnv สำหรับ Agentic RL"
-      },
-      "summary": {
-        "en": "The Open Source Community is backing OpenEnv for Agentic RL",
-        "th": "ชุมชนโอเพ่นซอร์สกำลังสนับสนุน OpenEnv สำหรับ Agentic RL"
       }
     },
     {
@@ -1855,40 +1260,6 @@
       }
     },
     {
-      "id": "huggingface__nemotron-3-5-content-safety",
-      "slug": "nemotron-3-5-content-safety",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "category": "News",
-      "date": "2026-06-04T18:57:45.000Z",
-      "image": null,
-      "title": {
-        "en": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-        "th": "ความปลอดภัยของเนื้อหา Nemotron 3.5: ความปลอดภัยหลายรูปแบบที่ปรับแต่งได้สำหรับ Global Enterprise AI"
-      },
-      "summary": {
-        "en": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-        "th": "ความปลอดภัยของเนื้อหา Nemotron 3.5: ความปลอดภัยหลายรูปแบบที่ปรับแต่งได้สำหรับ Global Enterprise AI"
-      }
-    },
-    {
-      "id": "huggingface__hf-cli-for-agents",
-      "slug": "hf-cli-for-agents",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/hf-cli-for-agents",
-      "category": "News",
-      "date": "2026-06-04T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-        "th": "การออกแบบ hf CLI เป็นวิธีเพิ่มประสิทธิภาพเอเจนต์ในการทำงานร่วมกับฮับ"
-      },
-      "summary": {
-        "en": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-        "th": "การออกแบบ hf CLI เป็นวิธีเพิ่มประสิทธิภาพเอเจนต์ในการทำงานร่วมกับฮับ"
-      }
-    },
-    {
       "id": "google-ai__thrifting-tips",
       "slug": "thrifting-tips",
       "source": "google-ai",
@@ -1903,57 +1274,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp\">Uncover second-hand scores with AI tools in Google Search and Shopping.",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp\">ค้นพบคะแนนมือสองด้วยเครื่องมือ AI ใน Google Search และ Shopping"
-      }
-    },
-    {
-      "id": "huggingface__direct-preference-optimization-beyond-chatbots",
-      "slug": "direct-preference-optimization-beyond-chatbots",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "category": "News",
-      "date": "2026-06-03T12:55:11.000Z",
-      "image": null,
-      "title": {
-        "en": "Direct Preference Optimization Beyond Chatbots",
-        "th": "การเพิ่มประสิทธิภาพการตั้งค่าโดยตรงที่เหนือกว่า Chatbots"
-      },
-      "summary": {
-        "en": "Direct Preference Optimization Beyond Chatbots",
-        "th": "การเพิ่มประสิทธิภาพการตั้งค่าโดยตรงที่เหนือกว่า Chatbots"
-      }
-    },
-    {
-      "id": "huggingface__adding-mcp-tools-to-reachy-mini",
-      "slug": "adding-mcp-tools-to-reachy-mini",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
-      "category": "News",
-      "date": "2026-06-03T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Adding MCP Tools to Reachy Mini",
-        "th": "การเพิ่มเครื่องมือ MCP ให้กับ Reachy Mini"
-      },
-      "summary": {
-        "en": "Adding MCP Tools to Reachy Mini",
-        "th": "การเพิ่มเครื่องมือ MCP ให้กับ Reachy Mini"
-      }
-    },
-    {
-      "id": "huggingface__holo31",
-      "slug": "holo31",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/Hcompany/holo31",
-      "category": "News",
-      "date": "2026-06-02T14:13:23.000Z",
-      "image": null,
-      "title": {
-        "en": "Holo3.1: Fast & Local Computer Use Agents",
-        "th": "Holo3.1: ตัวแทนการใช้คอมพิวเตอร์ที่รวดเร็วและเฉพาะที่"
-      },
-      "summary": {
-        "en": "Holo3.1: Fast & Local Computer Use Agents",
-        "th": "Holo3.1: ตัวแทนการใช้คอมพิวเตอร์ที่รวดเร็วและเฉพาะที่"
       }
     },
     {

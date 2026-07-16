@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-07-16T15:29:22.180Z",
+  "generatedAt": "2026-07-16T17:08:38.163Z",
   "items": [
+    {
+      "id": "huggingface__nemotron-3-embed-wins-rteb",
+      "slug": "nemotron-3-embed-wins-rteb",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+      "category": "News",
+      "date": "2026-07-16T16:01:21.000Z",
+      "image": null,
+      "title": {
+        "en": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+        "th": "NVIDIA Nemotron 3 Embed อยู่ในอันดับที่ 1 โดยรวมใน RTEB, การดึงข้อมูลแบบ Agentic ที่ล้ำหน้า"
+      },
+      "summary": {
+        "en": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+        "th": "NVIDIA Nemotron 3 Embed อยู่ในอันดับที่ 1 โดยรวมใน RTEB, การดึงข้อมูลแบบ Agentic ที่ล้ำหน้า"
+      }
+    },
+    {
+      "id": "openai__why-teens-deserve-access-safe-ai",
+      "slug": "why-teens-deserve-access-safe-ai",
+      "source": "openai",
+      "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "category": "Safety",
+      "date": "2026-07-16T16:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Why teens deserve access to safe AI",
+        "th": "เหตุใดวัยรุ่นจึงสมควรเข้าถึง AI ที่ปลอดภัย"
+      },
+      "summary": {
+        "en": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+        "th": "เรียนรู้ว่า OpenAI ทำให้ ChatGPT ปลอดภัยยิ่งขึ้นสำหรับวัยรุ่นด้วยการป้องกันที่เหมาะสมกับวัย เครื่องมือการเรียนรู้ การควบคุมโดยผู้ปกครอง และความร่วมมือจากผู้เชี่ยวชาญได้อย่างไร"
+      }
+    },
+    {
+      "id": "google-ai__connected-apps",
+      "slug": "connected-apps",
+      "source": "google-ai",
+      "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+      "category": "Search",
+      "date": "2026-07-16T16:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ConnectedAppshero.max-600x600.format-webp.webp",
+      "title": {
+        "en": "Connect more of your apps to Search",
+        "th": "เชื่อมต่อแอปของคุณเข้ากับการค้นหามากขึ้น"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ConnectedAppshero.max-600x600.format-webp.webp\">You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ConnectedAppshero.max-600x600.format-webp.webp\">คุณจะสามารถลิงก์และโต้ตอบกับบริการที่คุณใช้งานอยู่ได้อย่างปลอดภัยโดยตรงในโหมด AI"
+      }
+    },
+    {
+      "id": "google-ai__gemini-omni-personal-avatars",
+      "slug": "gemini-omni-personal-avatars",
+      "source": "google-ai",
+      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+      "category": "Google Workspace",
+      "date": "2026-07-16T16:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/omni-blog-header_OarEe2t.max-600x600.format-webp.webp",
+      "title": {
+        "en": "Create, edit and star in videos with two Google Vids updates",
+        "th": "สร้าง แก้ไข และติดดาวในวิดีโอด้วยการอัปเดต Google Vids สองรายการ"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/omni-blog-header_OarEe2t.max-600x600.format-webp.webp\">Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/omni-blog-header_OarEe2t.max-600x600.format-webp.webp\">Gemini Omni และอวตารส่วนตัวใน Google Vids ทำให้การสร้างวิดีโอง่ายกว่าที่เคย"
+      }
+    },
     {
       "id": "huggingface__newer-models-same-advantages",
       "slug": "newer-models-same-advantages",
@@ -33,6 +101,23 @@
       "summary": {
         "en": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
         "th": "Google DeepMind และ Isomorphic Labs กำลังแบ่งปันแนวทางร่วมกันของเราในเรื่องความยืดหยุ่นทางชีวภาพและโมเดล AI"
+      }
+    },
+    {
+      "id": "openai__cars24",
+      "slug": "cars24",
+      "source": "openai",
+      "url": "https://openai.com/index/cars24",
+      "category": "News",
+      "date": "2026-07-16T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How Cars24 scales conversations and builds faster with OpenAI",
+        "th": "Cars24 ปรับขนาดการสนทนาและสร้างเร็วขึ้นด้วย OpenAI ได้อย่างไร"
+      },
+      "summary": {
+        "en": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+        "th": "Cars24 ใช้ตัวแทนเสียงและการแชทที่ขับเคลื่อนโดย OpenAI เพื่อจัดการนาทีการสนทนามากกว่า 1 ล้านนาที กู้คืนโอกาสในการขายที่หายไป 12% และนำเวิร์กโฟลว์ตัวแทนมาสู่ทีมทั่วทั้งบริษัท"
       }
     },
     {
@@ -342,6 +427,23 @@
       }
     },
     {
+      "id": "openai__bio-bug-bounty",
+      "slug": "bio-bug-bounty",
+      "source": "openai",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "category": "Safety",
+      "date": "2026-07-09T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "GPT-5.5 Bio Bug Bounty",
+        "th": "GPT-5.5 รางวัลแมลงชีวภาพ"
+      },
+      "summary": {
+        "en": "Details about the OpenAI Bio Bounty program",
+        "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
+      }
+    },
+    {
       "id": "openai__chatgpt-for-your-most-ambitious-work",
       "slug": "chatgpt-for-your-most-ambitious-work",
       "source": "openai",
@@ -373,23 +475,6 @@
       "summary": {
         "en": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
         "th": "ความชาญฉลาดที่มากขึ้นจากทุกโทเค็น ประสิทธิภาพที่แข็งแกร่งต่อดอลลาร์ และความสามารถที่มากขึ้นตามความต้องการสำหรับงานที่หนักที่สุดของคุณ"
-      }
-    },
-    {
-      "id": "openai__bio-bug-bounty",
-      "slug": "bio-bug-bounty",
-      "source": "openai",
-      "url": "https://openai.com/index/bio-bug-bounty",
-      "category": "Safety",
-      "date": "2026-07-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "GPT-5.5 Bio Bug Bounty",
-        "th": "GPT-5.5 รางวัลแมลงชีวภาพ"
-      },
-      "summary": {
-        "en": "Details about the OpenAI Bio Bounty program",
-        "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
       }
     },
     {
@@ -458,23 +543,6 @@
       "summary": {
         "en": "Introducing a new way to reflect on and refine how you use Claude. It lets you easily track and visualize how you use Claude, and decide whether that time aligns with your goals.",
         "th": "ขอแนะนำวิธีใหม่ในการไตร่ตรองและปรับปรุงวิธีการใช้ Claude ช่วยให้คุณติดตามและเห็นภาพวิธีการใช้ Claude ได้อย่างง่ายดาย และตัดสินใจว่าเวลานั้นสอดคล้องกับเป้าหมายของคุณหรือไม่"
-      }
-    },
-    {
-      "id": "huggingface__open-data-for-agents",
-      "slug": "open-data-for-agents",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-      "category": "News",
-      "date": "2026-07-08T17:16:05.000Z",
-      "image": null,
-      "title": {
-        "en": "Data for Agents",
-        "th": "ข้อมูลสำหรับตัวแทน"
-      },
-      "summary": {
-        "en": "Data for Agents",
-        "th": "ข้อมูลสำหรับตัวแทน"
       }
     },
     {
@@ -614,23 +682,6 @@
       }
     },
     {
-      "id": "openai__mufg",
-      "slug": "mufg",
-      "source": "openai",
-      "url": "https://openai.com/index/mufg",
-      "category": "News",
-      "date": "2026-07-07T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "MUFG aims to become AI-native with OpenAI",
-        "th": "MUFG ตั้งเป้าที่จะเป็น AI-native ด้วย OpenAI"
-      },
-      "summary": {
-        "en": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-        "th": "MUFG ใช้ ChatGPT Enterprise เพื่อสร้างองค์กรที่ขับเคลื่อนด้วย AI ปรับปรุงขั้นตอนการทำงาน และนำเสนอบริการทางการเงินที่ขับเคลื่อนด้วย AI ในวงกว้าง"
-      }
-    },
-    {
       "id": "openai__australian-payments-plus",
       "slug": "australian-payments-plus",
       "source": "openai",
@@ -645,6 +696,23 @@
       "summary": {
         "en": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
         "th": "ดูว่า Australian Payments Plus ใช้ ChatGPT Enterprise และ Codex เพื่อดำเนินการได้เร็วขึ้นผ่านความซับซ้อนในการชำระเงินได้อย่างไร AP+ ช่วยประหยัดเวลา ปรับปรุงคุณภาพ และให้ความสำคัญกับการตัดสินของมนุษย์"
+      }
+    },
+    {
+      "id": "openai__mufg",
+      "slug": "mufg",
+      "source": "openai",
+      "url": "https://openai.com/index/mufg",
+      "category": "News",
+      "date": "2026-07-07T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "MUFG aims to become AI-native with OpenAI",
+        "th": "MUFG ตั้งเป้าที่จะเป็น AI-native ด้วย OpenAI"
+      },
+      "summary": {
+        "en": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+        "th": "MUFG ใช้ ChatGPT Enterprise เพื่อสร้างองค์กรที่ขับเคลื่อนด้วย AI ปรับปรุงขั้นตอนการทำงาน และนำเสนอบริการทางการเงินที่ขับเคลื่อนด้วย AI ในวงกว้าง"
       }
     },
     {
@@ -954,23 +1022,6 @@
       }
     },
     {
-      "id": "openai__introducing-genebench-pro",
-      "slug": "introducing-genebench-pro",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-genebench-pro",
-      "category": "Research",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing GeneBench-Pro",
-        "th": "ขอแนะนำ GeneBench-Pro"
-      },
-      "summary": {
-        "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-        "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
-      }
-    },
-    {
       "id": "openai__case-studies",
       "slug": "case-studies",
       "source": "openai",
@@ -1002,6 +1053,23 @@
       "summary": {
         "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
         "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
+      }
+    },
+    {
+      "id": "openai__introducing-genebench-pro",
+      "slug": "introducing-genebench-pro",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "category": "Research",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing GeneBench-Pro",
+        "th": "ขอแนะนำ GeneBench-Pro"
+      },
+      "summary": {
+        "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+        "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
       }
     },
     {
@@ -1651,23 +1719,6 @@
       }
     },
     {
-      "id": "openai__deployment-simulation",
-      "slug": "deployment-simulation",
-      "source": "openai",
-      "url": "https://openai.com/index/deployment-simulation",
-      "category": "Research",
-      "date": "2026-06-16T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Predicting model behavior before release by simulating deployment",
-        "th": "คาดการณ์พฤติกรรมของโมเดลก่อนเผยแพร่โดยการจำลองการใช้งาน"
-      },
-      "summary": {
-        "en": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-        "th": "OpenAI ขอแนะนำ Deployment Simulation ซึ่งเป็นวิธีการทำนายพฤติกรรมของโมเดล AI ก่อนที่จะปรับใช้โดยใช้ข้อมูลการสนทนาจริง เพื่อปรับปรุงความปลอดภัยและความแม่นยำในการประเมิน"
-      }
-    },
-    {
       "id": "google-ai__alabama-investment-june-2026",
       "slug": "alabama-investment-june-2026",
       "source": "google-ai",
@@ -1682,23 +1733,6 @@
       "summary": {
         "en": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
         "th": "Google ได้ประกาศการลงทุน 1.5 พันล้านดอลลาร์ในปี 2569 และ 2570 เพื่อขยายวิทยาเขตศูนย์ข้อมูลในแจ็คสันเคาน์ตี รัฐแอละแบมา ดำเนินการมาตั้งแต่ปี 2019 บนอาคารเก่าที่นำกลับมาใช้ใหม่..."
-      }
-    },
-    {
-      "id": "openai__introducing-openai-partner-network",
-      "slug": "introducing-openai-partner-network",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-openai-partner-network",
-      "category": "Product",
-      "date": "2026-06-14T17:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing the OpenAI Partner Network",
-        "th": "ขอแนะนำเครือข่ายพันธมิตร OpenAI"
-      },
-      "summary": {
-        "en": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
-        "th": "OpenAI เปิดตัวเครือข่ายพันธมิตร โดยลงทุน 150 ล้านเหรียญสหรัฐ เพื่อช่วยให้พันธมิตรทั่วโลกเร่งการนำ AI ขององค์กรไปใช้ การใช้งาน และการเปลี่ยนแปลง"
       }
     },
     {
@@ -2090,40 +2124,6 @@
       "summary": {
         "en": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
         "th": "เรากำลังเปิดตัวโปรแกรม Google DeepMind Accelerator ในเอเชียแปซิฟิกเพื่อรับมือกับความเสี่ยงด้านสิ่งแวดล้อม"
-      }
-    },
-    {
-      "id": "google-ai__missouri-programs",
-      "slug": "missouri-programs",
-      "source": "google-ai",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
-      "category": "Google.org",
-      "date": "2026-05-20T20:40:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MissouriSocial.max-600x600.format-webp.webp",
-      "title": {
-        "en": "We’re announcing new community investments in Missouri.",
-        "th": "เรากำลังประกาศการลงทุนในชุมชนครั้งใหม่ในรัฐมิสซูรี"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MissouriSocial.max-600x600.format-webp.webp\">We’re helping build the state’s next-generation workforce and investing in energy programs.",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MissouriSocial.max-600x600.format-webp.webp\">เรากำลังช่วยสร้างบุคลากรรุ่นต่อไปของรัฐและการลงทุนในโครงการพลังงาน"
-      }
-    },
-    {
-      "id": "google-ai__google-io-2026-all-our-announcements",
-      "slug": "google-io-2026-all-our-announcements",
-      "source": "google-ai",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
-      "category": "Search",
-      "date": "2026-05-20T19:30:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/100_things_Social.max-600x600.format-webp.webp",
-      "title": {
-        "en": "100 things we announced at I/O 2026",
-        "th": "100 สิ่งที่เราประกาศในงาน I/O 2026"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/100_things_Social.max-600x600.format-webp.webp\">We've been busy! Here’s a rundown of the top announcements, launches and demos at I/O 2026.",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/100_things_Social.max-600x600.format-webp.webp\">งานยุ่งมาก! ต่อไปนี้เป็นบทสรุปของประกาศ การเปิดตัว และการสาธิตยอดนิยมที่ I/O 2026"
       }
     },
     {

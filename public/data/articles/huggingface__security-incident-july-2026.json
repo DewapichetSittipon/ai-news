@@ -1,0 +1,345 @@
+{
+  "id": "huggingface__security-incident-july-2026",
+  "slug": "security-incident-july-2026",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/security-incident-july-2026",
+  "category": "News",
+  "date": "2026-07-16T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Security incident disclosure — July 2026",
+    "th": "การเปิดเผยเหตุการณ์ด้านความปลอดภัย — กรกฎาคม 2026"
+  },
+  "summary": {
+    "en": "Security incident disclosure — July 2026",
+    "th": "การเปิดเผยเหตุการณ์ด้านความปลอดภัย — กรกฎาคม 2026"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/NQtzmrDdbG0H8qkZvRyGk.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1594214747713-5e9ecfc04957053f60648a3e.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5f17f0a0925b9863e28ad517/sxIDbF_Mh-oxK4K54eZBV.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1649681653581-5f7fbd813e94f16a85448745.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1627505688463-60107b385ac3e86b3ea4fc34.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+22",
+        "th": "+22"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1646125250765-61af81e7a7205fb7cc9ec0cb.png",
+      "alt": "system's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What happened",
+        "th": "เกิดอะไรขึ้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What we did",
+        "th": "สิ่งที่เราทำ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For our community",
+        "th": "เพื่อชุมชนของเรา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Analyzing an AI-driven intrusion The asymmetry problem",
+        "th": "การวิเคราะห์การบุกรุกที่ขับเคลื่อนด้วย AI ปัญหาความไม่สมดุล"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The asymmetry problem",
+        "th": "ปัญหาความไม่สมดุล"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What this means",
+        "th": "นี่หมายถึงอะไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We identified unauthorized access to a limited set of internal datasets and to several credentials used by our services. We are still completing our assessment of whether any partner or customer data was affected, and we will contact any affected parties directly as required. We have found no evidence of tampering with public, user-facing models, datasets, or Spaces, and our software supply chain (container images and published packages) was verified clean.",
+        "th": "เราระบุการเข้าถึงชุดข้อมูลภายในชุดที่จำกัดและข้อมูลประจำตัวหลายรายการที่ใช้โดยบริการของเราโดยไม่ได้รับอนุญาต เรายังคงดำเนินการประเมินว่าข้อมูลพันธมิตรหรือลูกค้าได้รับผลกระทบหรือไม่ และเราจะติดต่อฝ่ายที่ได้รับผลกระทบโดยตรงตามที่จำเป็น เราไม่พบหลักฐานของการปลอมแปลงโมเดล ชุดข้อมูล หรือ Space ที่เปิดเผยต่อสาธารณะ และห่วงโซ่อุปทานซอฟต์แวร์ของเรา (อิมเมจคอนเทนเนอร์และแพ็คเกจที่เผยแพร่) ได้รับการตรวจสอบแล้วว่าสะอาด"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What happened",
+        "th": "เกิดอะไรขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The intrusion started where AI platforms are uniquely exposed: the data-processing pipeline. A malicious dataset abused two code-execution paths in our dataset processing (a remote-code dataset loader and a template-injection in a dataset configuration) to run code on a processing worker. From there, the actor escalated to node-level access, harvested cloud and cluster credentials, and moved laterally into several internal clusters over a weekend.",
+        "th": "การบุกรุกเริ่มต้นขึ้นเมื่อแพลตฟอร์ม AI ถูกเปิดเผยอย่างมีเอกลักษณ์: ไปป์ไลน์การประมวลผลข้อมูล ชุดข้อมูลที่เป็นอันตรายใช้พาธการเรียกใช้โค้ดสองเส้นทางในการประมวลผลชุดข้อมูลของเราในทางที่ผิด (ตัวโหลดชุดข้อมูลโค้ดระยะไกลและการแทรกเทมเพลตในการกำหนดค่าชุดข้อมูล) เพื่อเรียกใช้โค้ดกับผู้ปฏิบัติงานที่ประมวลผล จากนั้น ตัวแสดงได้ขยายไปสู่การเข้าถึงระดับโหนด เก็บเกี่ยวข้อมูลประจำตัวของคลาวด์และคลัสเตอร์ และย้ายไปยังคลัสเตอร์ภายในหลายคลัสเตอร์ในแนวด้านข้างในช่วงสุดสัปดาห์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The campaign was run by an autonomous agent framework (appearing to be built on an agentic security-research harness - used LLM still not known) executing many thousands of individual actions across a swarm of short-lived sandboxes, with self-migrating command-and-control staged on public services. This matches the \"agentic attacker\" scenario the industry has been forecasting.",
+        "th": "แคมเปญนี้ดำเนินการโดยกรอบการทำงานของตัวแทนอัตโนมัติ (ดูเหมือนว่าจะสร้างขึ้นจากชุดควบคุมการวิจัยด้านความปลอดภัยของเอเจนต์ - LLM ที่ใช้ยังไม่ทราบ) ดำเนินการการกระทำส่วนบุคคลหลายพันรายการในแซนด์บ็อกซ์ที่มีอายุสั้น โดยมีการสั่งการและการควบคุมการโยกย้ายด้วยตนเองที่จัดฉากในบริการสาธารณะ ซึ่งตรงกับสถานการณ์ \"ผู้โจมตีแบบเอเจนต์\" ที่อุตสาหกรรมคาดการณ์ไว้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What we did",
+        "th": "สิ่งที่เราทำ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Fixed the root vulnerability: the dataset code-execution paths used for initial access are closed.",
+        "th": "แก้ไขช่องโหว่ของรูท: เส้นทางการเรียกใช้โค้ดชุดข้อมูลที่ใช้สำหรับการเข้าถึงครั้งแรกถูกปิด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Eradicated the attacker's foothold across the affected clusters and rebuilt the compromised nodes.",
+        "th": "กำจัดฐานของผู้โจมตีทั่วทั้งคลัสเตอร์ที่ได้รับผลกระทบ และสร้างโหนดที่ถูกบุกรุกขึ้นมาใหม่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Revoked and rotated the affected credentials and tokens, and began a broader precautionary rotation of secrets.",
+        "th": "เพิกถอนและหมุนเวียนข้อมูลประจำตัวและโทเค็นที่ได้รับผลกระทบ และเริ่มการหมุนเวียนความลับในวงกว้างขึ้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deployed additional guardrails and stricter admission controls on our clusters.",
+        "th": "ติดตั้งราวกั้นเพิ่มเติมและการควบคุมการรับเข้าที่เข้มงวดยิ่งขึ้นบนคลัสเตอร์ของเรา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Improved our detection and alerting so a high-severity signal pages a responder in minutes, any day of the week.",
+        "th": "ปรับปรุงการตรวจจับและการแจ้งเตือนของเรา เพื่อให้สัญญาณที่มีความรุนแรงสูงส่งหน้าผู้ตอบกลับภายในไม่กี่นาที ทุกวันในสัปดาห์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are working with outside cybersecurity forensic specialists to investigate the issue and review our security policies and procedures. Finally, we have also reported this incident to law enforcement agencies.",
+        "th": "เรากำลังทำงานร่วมกับผู้เชี่ยวชาญด้านนิติเวชด้านความปลอดภัยทางไซเบอร์ภายนอกเพื่อตรวจสอบปัญหาและทบทวนนโยบายและขั้นตอนด้านความปลอดภัยของเรา สุดท้ายนี้ เราได้รายงานเหตุการณ์นี้ไปยังหน่วยงานบังคับใช้กฎหมายด้วย"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "For our community",
+        "th": "เพื่อชุมชนของเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As a precaution, we recommend rotating any access tokens and reviewing recent activity on your account. If you believe you are affected, or want to report a security concern, contact us at security@huggingface.co.",
+        "th": "เพื่อเป็นการป้องกันไว้ก่อน เราขอแนะนำให้หมุนเวียนโทเค็นการเข้าถึงและตรวจสอบกิจกรรมล่าสุดในบัญชีของคุณ หากคุณเชื่อว่าคุณได้รับผลกระทบหรือต้องการรายงานข้อกังวลด้านความปลอดภัย โปรดติดต่อเราที่ security@huggingface.co"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are grateful to the teams across Hugging Face who responded around the clock, and we are sorry for any disruption this caused. Security is never finished; we will keep raising the bar.",
+        "th": "เราขอขอบคุณทีมงาน Hugging Face ที่ตอบกลับตลอด 24 ชั่วโมง และเราขออภัยสำหรับการหยุดชะงักที่เกิดขึ้น การรักษาความปลอดภัยไม่มีวันสิ้นสุด เราจะยกระดับมาตรฐานต่อไป"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Analyzing an AI-driven intrusion",
+        "th": "การวิเคราะห์การบุกรุกที่ขับเคลื่อนด้วย AI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The attack was initially surfaced through AI-assisted detection. Our anomaly-detection pipeline uses LLM-based triage over security telemetry to separate real signals from the daily noise, and it was the correlation of those signals that flagged the compromise.",
+        "th": "การโจมตีเริ่มแรกถูกเปิดเผยผ่านการตรวจจับที่ได้รับความช่วยเหลือจาก AI ไปป์ไลน์การตรวจจับความผิดปกติของเราใช้ Triage แบบ LLM บนการวัดและส่งข้อมูลทางไกลเพื่อความปลอดภัยเพื่อแยกสัญญาณจริงออกจากสัญญาณรบกวนรายวัน และมันเป็นความสัมพันธ์ของสัญญาณเหล่านั้นที่ทำเครื่องหมายการประนีประนอม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To understand what a swarm of tens of thousands of automated actions did, we ran LLM-driven analysis agents over the full attacker action log, comprised of more than 17,000 recorded events. This allowed us to reconstruct the timeline, extract indicators of compromise, map the credentials touched, and separate genuine impact from decoy activity. Thanks to this approach, we were able to do in hours what would usually take days, and match the adversary's speed.",
+        "th": "เพื่อทำความเข้าใจว่าการดำเนินการอัตโนมัติจำนวนนับหมื่นทำอะไรได้บ้าง เราได้เรียกใช้เอเจนต์การวิเคราะห์ที่ขับเคลื่อนด้วย LLM บนบันทึกการดำเนินการของผู้โจมตีทั้งหมด ซึ่งประกอบด้วยเหตุการณ์ที่บันทึกไว้มากกว่า 17,000 เหตุการณ์ สิ่งนี้ทำให้เราสามารถสร้างไทม์ไลน์ขึ้นมาใหม่ แยกตัวบ่งชี้ของการประนีประนอม แมปข้อมูลประจำตัวที่สัมผัส และแยกผลกระทบที่แท้จริงออกจากกิจกรรมล่อลวง ด้วยวิธีนี้ เราจึงสามารถดำเนินการได้ภายในไม่กี่ชั่วโมง ซึ่งโดยปกติจะใช้เวลาหลายวัน และสอดคล้องกับความเร็วของฝ่ายตรงข้าม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The choice of models we could use for this analysis was constrained in a way we did not anticipate; we describe this below.",
+        "th": "การเลือกแบบจำลองที่เราสามารถใช้สำหรับการวิเคราะห์นี้ถูกจำกัดในลักษณะที่เราไม่คาดคิด เราอธิบายสิ่งนี้ด้านล่าง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "The asymmetry problem",
+        "th": "ปัญหาความไม่สมดุล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When we started the log analysis, we first used frontier models behind commercial APIs. This did not work: the analysis requires submitting large volumes of real attack commands, exploit payloads, and C2 artifacts, and these requests were blocked by the providers' safety guardrails, which cannot distinguish an incident responder from an attacker. We ran the forensic analysis instead on GLM 5.2, an open-weight model, on our own infrastructure. This had a second benefit: no attacker data, and none of the credentials it referenced, left our environment.",
+        "th": "เมื่อเราเริ่มการวิเคราะห์บันทึก อันดับแรกเราใช้โมเดลชายแดนที่อยู่เบื้องหลัง API เชิงพาณิชย์ สิ่งนี้ไม่ได้ผล: การวิเคราะห์จำเป็นต้องส่งคำสั่งโจมตีจริงจำนวนมาก การใช้ประโยชน์จากเพย์โหลด และสิ่งประดิษฐ์ C2 และคำขอเหล่านี้ถูกบล็อกโดยราวกั้นความปลอดภัยของผู้ให้บริการ ซึ่งไม่สามารถแยกแยะผู้ตอบสนองต่อเหตุการณ์และผู้โจมตีได้ เราใช้การวิเคราะห์ทางนิติวิทยาศาสตร์แทนบน GLM 5.2 ซึ่งเป็นโมเดลแบบเปิดบนโครงสร้างพื้นฐานของเราเอง สิ่งนี้มีประโยชน์ประการที่ 2 คือ ไม่มีข้อมูลของผู้โจมตี และไม่มีข้อมูลประจำตัวที่อ้างอิงถึง ออกไปจากสภาพแวดล้อมของเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This experience points to a gap worth planning for. We do not know which model powered the attacker's agents, whether a jailbroken hosted model or an unrestricted open-weight one; either way, the attacker was bound by no usage policy, while our own forensic work was blocked by the guardrails of the hosted models we first tried. The practical lesson for defenders: have a capable model you can run on your own infrastructure vetted and ready before an incident, both to avoid guardrail lockout and to keep attacker data and credentials from leaving your environment. This is not an argument against safety measures on hosted models, and we are sharing this feedback with the providers concerned.",
+        "th": "ประสบการณ์นี้ชี้ให้เห็นถึงช่องว่างที่คุ้มค่าในการวางแผน เราไม่ทราบว่าโมเดลใดที่ขับเคลื่อนเจ้าหน้าที่ของผู้โจมตี ไม่ว่าจะเป็นโมเดลที่มีการโฮสต์ด้วยการเจลเบรคหรือโมเดลแบบเปิดที่ไม่จำกัด ไม่ว่าจะด้วยวิธีใด ผู้โจมตีก็ถูกผูกมัดด้วยนโยบายการไม่ใช้งาน ในขณะที่งานนิติเวชของเราเองถูกปิดกั้นโดยราวกั้นของโมเดลที่โฮสต์ที่เราลองใช้ครั้งแรก บทเรียนเชิงปฏิบัติสำหรับผู้พิทักษ์: มีโมเดลที่มีความสามารถซึ่งคุณสามารถรันบนโครงสร้างพื้นฐานของคุณเองโดยได้รับการตรวจสอบและเตรียมพร้อมก่อนเกิดเหตุการณ์ ทั้งเพื่อหลีกเลี่ยงการล็อกรั้วและเพื่อป้องกันไม่ให้ข้อมูลและข้อมูลประจำตัวของผู้โจมตีออกจากสภาพแวดล้อมของคุณ นี่ไม่ใช่ข้อโต้แย้งต่อมาตรการด้านความปลอดภัยในโมเดลที่โฮสต์ และเรากำลังแบ่งปันความคิดเห็นนี้กับผู้ให้บริการที่เกี่ยวข้อง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What this means",
+        "th": "นี่หมายถึงอะไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Autonomous, AI-driven offensive tooling is no longer theoretical. It lowers the cost of running a broad, patient, multi-stage campaign, and it operates at machine speed. Defending an online platform now means treating the data and model surface as a first-class attack surface, and using AI on defense to keep pace. We will keep investing there, and keep sharing what we learn.",
+        "th": "เครื่องมือโจมตีอัตโนมัติที่ขับเคลื่อนด้วย AI ไม่ใช่เรื่องเชิงทฤษฎีอีกต่อไป ช่วยลดต้นทุนในการดำเนินแคมเปญแบบหลายขั้นตอนที่กว้างขวางและอดทน และทำงานที่ความเร็วของเครื่องจักร การปกป้องแพลตฟอร์มออนไลน์ในขณะนี้หมายถึงการปฏิบัติต่อข้อมูลและพื้นผิวแบบจำลองเสมือนเป็นพื้นผิวการโจมตีระดับเฟิร์สคลาส และใช้ AI ในการป้องกันเพื่อก้าวให้ทัน เราจะลงทุนที่นั่นต่อไป และแบ่งปันสิ่งที่เราเรียนรู้ต่อไป"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "ชุมชน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· ลงทะเบียนหรือเข้าสู่ระบบเพื่อแสดงความคิดเห็น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/NQtzmrDdbG0H8qkZvRyGk.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1594214747713-5e9ecfc04957053f60648a3e.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5f17f0a0925b9863e28ad517/sxIDbF_Mh-oxK4K54eZBV.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1649681653581-5f7fbd813e94f16a85448745.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1627505688463-60107b385ac3e86b3ea4fc34.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/603bdba23249b99991dbcbc4/cxCnN1H-RXOhojHY3Wcxo.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6192895f3b8aa351a46fadfd/gsGa2PvHTKAv7MNbyLH8y.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1638698875017-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1644220542819-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/62175099ae3a893ac7ce86a7/ZSFoej_60rG-hT-gmo3Pr.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1647451024146-62321b21301d852eabe3db79.png",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+16",
+        "th": "+16"
+      }
+    }
+  ]
+}

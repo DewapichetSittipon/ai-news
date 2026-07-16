@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-16T10:14:12.089Z",
+  "generatedAt": "2026-07-16T13:27:36.206Z",
   "items": [
+    {
+      "id": "huggingface__newer-models-same-advantages",
+      "slug": "newer-models-same-advantages",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+      "category": "News",
+      "date": "2026-07-16T11:49:48.000Z",
+      "image": null,
+      "title": {
+        "en": "Newer Models, Same Advantage",
+        "th": "รุ่นใหม่กว่า ข้อได้เปรียบเดียวกัน"
+      },
+      "summary": {
+        "en": "Newer Models, Same Advantage",
+        "th": "รุ่นใหม่กว่า ข้อได้เปรียบเดียวกัน"
+      }
+    },
     {
       "id": "deepmind__our-approach-to-bioresilience",
       "slug": "our-approach-to-bioresilience",
@@ -16,6 +33,23 @@
       "summary": {
         "en": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
         "th": "Google DeepMind และ Isomorphic Labs กำลังแบ่งปันแนวทางร่วมกันของเราในเรื่องความยืดหยุ่นทางชีวภาพและโมเดล AI"
+      }
+    },
+    {
+      "id": "huggingface__security-incident-july-2026",
+      "slug": "security-incident-july-2026",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/security-incident-july-2026",
+      "category": "News",
+      "date": "2026-07-16T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Security incident disclosure — July 2026",
+        "th": "การเปิดเผยเหตุการณ์ด้านความปลอดภัย — กรกฎาคม 2026"
+      },
+      "summary": {
+        "en": "Security incident disclosure — July 2026",
+        "th": "การเปิดเผยเหตุการณ์ด้านความปลอดภัย — กรกฎาคม 2026"
       }
     },
     {
@@ -1937,40 +1971,6 @@
       "summary": {
         "en": "Direct Preference Optimization Beyond Chatbots",
         "th": "การเพิ่มประสิทธิภาพการตั้งค่าโดยตรงที่เหนือกว่า Chatbots"
-      }
-    },
-    {
-      "id": "huggingface__adding-mcp-tools-to-reachy-mini",
-      "slug": "adding-mcp-tools-to-reachy-mini",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
-      "category": "News",
-      "date": "2026-06-03T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Adding MCP Tools to Reachy Mini",
-        "th": "การเพิ่มเครื่องมือ MCP ให้กับ Reachy Mini"
-      },
-      "summary": {
-        "en": "Adding MCP Tools to Reachy Mini",
-        "th": "การเพิ่มเครื่องมือ MCP ให้กับ Reachy Mini"
-      }
-    },
-    {
-      "id": "huggingface__holo31",
-      "slug": "holo31",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/Hcompany/holo31",
-      "category": "News",
-      "date": "2026-06-02T14:13:23.000Z",
-      "image": null,
-      "title": {
-        "en": "Holo3.1: Fast & Local Computer Use Agents",
-        "th": "Holo3.1: ตัวแทนการใช้คอมพิวเตอร์ที่รวดเร็วและเฉพาะที่"
-      },
-      "summary": {
-        "en": "Holo3.1: Fast & Local Computer Use Agents",
-        "th": "Holo3.1: ตัวแทนการใช้คอมพิวเตอร์ที่รวดเร็วและเฉพาะที่"
       }
     },
     {

@@ -32,6 +32,11 @@
     },
     {
       "type": "img",
+      "src": "/avatars/dde2ad3c046c8326d40a74f90fa2a4be.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
       "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/7sTK8Q_gZRoOz0uaKnVNJ.png",
       "alt": ""
     },
@@ -427,6 +432,25 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/dde2ad3c046c8326d40a74f90fa2a4be.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Thank you for the interesting and very practical article! I especially liked the idea of writing large CLI results to local JSON files instead of passing them through stdout.",
+        "th": "ขอบคุณสำหรับบทความที่น่าสนใจและใช้งานได้จริงมาก! ฉันชอบแนวคิดในการเขียนผลลัพธ์ CLI ขนาดใหญ่เป็นพิเศษไปยังไฟล์ JSON ในเครื่องแทนที่จะส่งผ่าน stdout"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Could you clarify how the agent keeps track of which file corresponds to each CLI call? Does the agent specify the output path when issuing the command, or does the CLI generate a unique filename and return its path through stdout? Also, how are these intermediate files managed during a long-running session so that they do not accumulate or get confused with the results of later queries?",
+        "th": "คุณช่วยอธิบายวิธีที่ตัวแทนติดตามว่าไฟล์ใดสอดคล้องกับการเรียก CLI แต่ละครั้งได้หรือไม่ เอเจนต์ระบุเส้นทางเอาต์พุตเมื่อออกคำสั่งหรือ CLI สร้างชื่อไฟล์ที่ไม่ซ้ำกันและส่งคืนเส้นทางผ่าน stdout หรือไม่ นอกจากนี้ ไฟล์ระดับกลางเหล่านี้ได้รับการจัดการอย่างไรในระหว่างเซสชันที่ใช้เวลานาน เพื่อไม่ให้สะสมหรือสับสนกับผลลัพธ์ของการสืบค้นในภายหลัง"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -446,6 +470,11 @@
     {
       "type": "img",
       "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1659922312540-610a70f35a40a8bfebfbf09b.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/dde2ad3c046c8326d40a74f90fa2a4be.svg",
       "alt": ""
     },
     {

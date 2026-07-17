@@ -22,6 +22,11 @@
     },
     {
       "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1671292294864-5e00e3bdcbfd036a99df0da3.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
       "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg",
       "alt": ""
     },
@@ -41,15 +46,10 @@
       "alt": ""
     },
     {
-      "type": "img",
-      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1649681653581-5f7fbd813e94f16a85448745.jpeg",
-      "alt": ""
-    },
-    {
       "type": "li",
       "text": {
-        "en": "+56",
-        "th": "+56"
+        "en": "+60",
+        "th": "+60"
       }
     },
     {
@@ -371,6 +371,18 @@
       }
     },
     {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63608e478c27429d639d0ac3/AedTJhpqO3BFV1PMLnvys.png",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Thanks for sharing. Not enough people realize this is the future threat landscape. The big takeaway for me is that unless you're a Fortune 500, OpenAnthropic and ClaudeGPT probably aren't coming to save you when this happens. You guys are Huggingface, you have a few GPUs to spend when you get hacked. For the little guys and gals who might be targeted like this down the road: is Qwen 3.6 27B \"enough\" to analyze an attack like this usefully? Or are we flapping in the breeze if we don't have an 8xB300 server with 2+GB VRAM? Obviously a system with >2TB of VRAM is \"nice to have\" if you're hacked, but if you're comparatively GPU-poor is it worth building a response capability?",
+        "th": "ขอบคุณสำหรับการแบ่งปัน มีคนไม่มากพอที่รู้ว่านี่คือภาพรวมภัยคุกคามในอนาคต สิ่งสำคัญสำหรับฉันก็คือ เว้นแต่คุณจะอยู่ใน Fortune 500, OpenAnthropic และ ClaudeGPT อาจจะไม่มาช่วยคุณเมื่อเกิดเหตุการณ์เช่นนี้ พวกคุณคือ Huggingface คุณมี GPU ไม่กี่ตัวที่จะใช้จ่ายเมื่อคุณถูกแฮ็ก สำหรับคนตัวเล็กที่อาจตกเป็นเป้าเช่นนี้ในท้องถนน Qwen 3.6 27B \"เพียงพอ\" ที่จะวิเคราะห์การโจมตีเช่นนี้อย่างมีประโยชน์หรือไม่? หรือเรากำลังกระโจนเข้าสู่สายลมถ้าเราไม่มีเซิร์ฟเวอร์ 8xB300 พร้อม VRAM ขนาด 2+GB? แน่นอนว่าระบบที่มี VRAM > 2TB นั้น \"ดีที่มี\" หากคุณถูกแฮ็ก แต่ถ้าคุณใช้ GPU ไม่ดีพอๆ กัน มันจะคุ้มไหมที่จะสร้างความสามารถในการตอบสนอง"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -380,6 +392,11 @@
     {
       "type": "img",
       "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/NQtzmrDdbG0H8qkZvRyGk.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1671292294864-5e00e3bdcbfd036a99df0da3.jpeg",
       "alt": ""
     },
     {
@@ -433,15 +450,10 @@
       "alt": ""
     },
     {
-      "type": "img",
-      "src": "/avatars/1ee93631b767949d788ab60416f0e49e.svg",
-      "alt": ""
-    },
-    {
       "type": "li",
       "text": {
-        "en": "+50",
-        "th": "+50"
+        "en": "+54",
+        "th": "+54"
       }
     }
   ]

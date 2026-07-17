@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+62",
-        "th": "+62"
+        "en": "+65",
+        "th": "+65"
       }
     },
     {
@@ -383,6 +383,18 @@
       }
     },
     {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/69b222a20b5d613944b5ebd3/BNsPjRwrcSiP1Ek2aDoi3.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "check your MCP connections too, they need second auth handshakes for correctness, otherwise your zero-GPUs will service outside.",
+        "th": "ตรวจสอบการเชื่อมต่อ MCP ของคุณด้วย โดยจำเป็นต้องมีการจับมือรับรองความถูกต้องครั้งที่สองเพื่อความถูกต้อง ไม่เช่นนั้น Zero-GPU ของคุณจะให้บริการภายนอก"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -452,8 +464,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+56",
-        "th": "+56"
+        "en": "+59",
+        "th": "+59"
       }
     }
   ]

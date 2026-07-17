@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-17T15:09:18.996Z",
+  "generatedAt": "2026-07-17T17:05:20.548Z",
   "items": [
+    {
+      "id": "huggingface__scale-diffusers-finetuning-nemo-automodel",
+      "slug": "scale-diffusers-finetuning-nemo-automodel",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+      "category": "News",
+      "date": "2026-07-17T15:57:54.000Z",
+      "image": null,
+      "title": {
+        "en": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+        "th": "ปรับแต่งโมเดลวิดีโอและรูปภาพในขนาดต่างๆ ด้วย NVIDIA NeMo Automodel และ 🤗 ดิฟฟิวเซอร์"
+      },
+      "summary": {
+        "en": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+        "th": "ปรับแต่งโมเดลวิดีโอและรูปภาพในขนาดต่างๆ ด้วย NVIDIA NeMo Automodel และ 🤗 ดิฟฟิวเซอร์"
+      }
+    },
     {
       "id": "openai__a-scorecard-for-the-ai-age",
       "slug": "a-scorecard-for-the-ai-age",
@@ -16,23 +33,6 @@
       "summary": {
         "en": "Sarah Friar, CFO of OpenaAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
         "th": "Sarah Friar, CFO ของ OpenaAI แนะนำดัชนีชี้วัด AI ที่ใช้งานได้จริงเพื่อวัด ROI ผ่านงานที่เป็นประโยชน์ ต้นทุนต่องานที่ประสบความสำเร็จ ความเชื่อถือได้ และผลตอบแทนจากการประมวลผล"
-      }
-    },
-    {
-      "id": "huggingface__nemotron-3-embed-wins-rteb",
-      "slug": "nemotron-3-embed-wins-rteb",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
-      "category": "News",
-      "date": "2026-07-16T16:01:21.000Z",
-      "image": null,
-      "title": {
-        "en": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
-        "th": "NVIDIA Nemotron 3 Embed อยู่ในอันดับที่ 1 โดยรวมใน RTEB, การดึงข้อมูลแบบ Agentic ที่ล้ำหน้า"
-      },
-      "summary": {
-        "en": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
-        "th": "NVIDIA Nemotron 3 Embed อยู่ในอันดับที่ 1 โดยรวมใน RTEB, การดึงข้อมูลแบบ Agentic ที่ล้ำหน้า"
       }
     },
     {

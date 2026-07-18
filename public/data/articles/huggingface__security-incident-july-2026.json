@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+71",
-        "th": "+71"
+        "en": "+74",
+        "th": "+74"
       }
     },
     {
@@ -384,6 +384,30 @@
     },
     {
       "type": "img",
+      "src": "/avatars/bd0de0f116188dc4064b74f6c1414dea.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1 reply",
+        "th": "1 ตอบกลับ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/bd0de0f116188dc4064b74f6c1414dea.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Now we all get to wonder how exactly they are doing this with open weights/system prompt modifications.",
+        "th": "ตอนนี้เราทุกคนต่างสงสัยว่าพวกเขากำลังทำสิ่งนี้อย่างไรกับการแก้ไขพรอมต์ตุ้มน้ำหนักแบบเปิด/ระบบ"
+      }
+    },
+    {
+      "type": "img",
       "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/VdCcYKqz2ucazmRhTUkbv.png",
       "alt": ""
     },
@@ -524,8 +548,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+65",
-        "th": "+65"
+        "en": "+68",
+        "th": "+68"
       }
     }
   ]

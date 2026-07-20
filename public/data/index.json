@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T17:33:38.549Z",
+  "generatedAt": "2026-07-20T19:29:51.011Z",
   "items": [
     {
       "id": "huggingface__cosmos3edge",
@@ -33,6 +33,23 @@
       "summary": {
         "en": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
         "th": "OpenAI แบ่งปันบทเรียนจากการปรับใช้โมเดล AI ที่ใช้เวลานาน โดยเน้นถึงความเสี่ยงด้านความปลอดภัยใหม่ๆ ความล้มเหลวที่สังเกตได้ และการป้องกันที่ได้รับการปรับปรุงผ่านการปรับใช้ซ้ำ"
+      }
+    },
+    {
+      "id": "anthropic__rare-disease-research-grants",
+      "slug": "rare-disease-research-grants",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/rare-disease-research-grants",
+      "category": "News",
+      "date": "2026-07-20T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20NodeShield&backgroundColor=heather",
+      "title": {
+        "en": "Apply for Anthropic’s AI for Science rare disease research grants",
+        "th": "สมัครขอรับทุนวิจัยโรคหายาก AI for Science ของ Anthropic"
+      },
+      "summary": {
+        "en": "Anthropic is sharing a focused call for AI for Science applications centered specifically on rare genetic diseases. Accepted applicants will receive up to $50,000 in Claude credits over six months, with the goal of building a community of researchers looking into how AI can reshape our understanding of rare disease.",
+        "th": "Anthropic กำลังแบ่งปันข้อเรียกร้องให้มีการใช้งาน AI for Science ซึ่งมีศูนย์กลางอยู่ที่โรคทางพันธุกรรมที่หายากโดยเฉพาะ ผู้สมัครที่ได้รับการยอมรับจะได้รับเครดิต Claude มูลค่าสูงสุด 50,000 ดอลลาร์ในช่วงหกเดือน โดยมีเป้าหมายเพื่อสร้างชุมชนนักวิจัยที่พิจารณาว่า AI จะปรับเปลี่ยนความเข้าใจของเราเกี่ยวกับโรคหายากได้อย่างไร"
       }
     },
     {
@@ -135,23 +152,6 @@
       "summary": {
         "en": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
         "th": "Google DeepMind และ Isomorphic Labs กำลังแบ่งปันแนวทางร่วมกันของเราในเรื่องความยืดหยุ่นทางชีวภาพและโมเดล AI"
-      }
-    },
-    {
-      "id": "anthropic__rare-disease-research-grants",
-      "slug": "rare-disease-research-grants",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/rare-disease-research-grants",
-      "category": "News",
-      "date": "2026-07-16T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20NodeShield&backgroundColor=heather",
-      "title": {
-        "en": "Apply for Anthropic’s AI for Science rare disease research grants",
-        "th": "สมัครขอรับทุนวิจัยโรคหายาก AI for Science ของ Anthropic"
-      },
-      "summary": {
-        "en": "Anthropic is sharing a focused call for AI for Science applications centered specifically on rare genetic diseases. Accepted applicants will receive up to $50,000 in Claude credits over six months, with the goal of building a community of researchers looking into how AI can reshape our understanding of rare disease.",
-        "th": "Anthropic กำลังแบ่งปันข้อเรียกร้องให้มีการใช้งาน AI for Science ซึ่งมีศูนย์กลางอยู่ที่โรคทางพันธุกรรมที่หายากโดยเฉพาะ ผู้สมัครที่ได้รับการยอมรับจะได้รับเครดิต Claude มูลค่าสูงสุด 50,000 ดอลลาร์ในช่วงหกเดือน โดยมีเป้าหมายเพื่อสร้างชุมชนนักวิจัยที่พิจารณาว่า AI จะปรับเปลี่ยนความเข้าใจของเราเกี่ยวกับโรคหายากได้อย่างไร"
       }
     },
     {

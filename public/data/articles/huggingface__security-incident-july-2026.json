@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+146",
-        "th": "+146"
+        "en": "+168",
+        "th": "+168"
       }
     },
     {
@@ -597,6 +597,30 @@
       }
     },
     {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/PywxlHq_iVjYy0Fz37Mdq.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Atbash could have prevented this 😆",
+        "th": "Atbash สามารถป้องกันสิ่งนี้ได้😆"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/TEqRH_l5yMWOqjkBf6ecy.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The \"guardrail asymmetry\" problem presents a major operational risk for security teams: while an attacker's agent operates without safety constraints, defender agents using hosted frontier models can be blocked from analyzing attack payloads by those models' own strict safety filters. Organizations must audit their Incident Response (IR) playbooks to ensure their analysis pipelines don't fail when processing malicious artifacts. Maintaining an un-guardrailed, self-hosted open-weight model specifically within the IR toolkit has become essential for uninterrupted threat analysis.",
+        "th": "ปัญหา \"ความไม่สมดุลของราวกั้น\" นำเสนอความเสี่ยงในการปฏิบัติงานที่สำคัญสำหรับทีมรักษาความปลอดภัย: ในขณะที่เจ้าหน้าที่ของผู้โจมตีทำงานโดยไม่มีข้อจำกัดด้านความปลอดภัย เจ้าหน้าที่ฝ่ายป้องกันที่ใช้โมเดลชายแดนที่โฮสต์ไว้สามารถถูกบล็อกจากการวิเคราะห์เพย์โหลดการโจมตีโดยตัวกรองความปลอดภัยที่เข้มงวดของโมเดลเหล่านั้น องค์กรต้องตรวจสอบ Playbooks การตอบสนองเหตุการณ์ (IR) เพื่อให้แน่ใจว่าไปป์ไลน์การวิเคราะห์จะไม่ล้มเหลวเมื่อประมวลผลสิ่งที่เป็นอันตราย การดูแลรักษาโมเดล open-weight ที่ไม่มีการรักษาความปลอดภัยและโฮสต์ด้วยตนเอง โดยเฉพาะภายในชุดเครื่องมือ IR กลายเป็นสิ่งจำเป็นสำหรับการวิเคราะห์ภัยคุกคามอย่างต่อเนื่อง"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -645,6 +669,11 @@
     },
     {
       "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1670088855038-5f5a3f689c5d501a5077e825.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
       "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1649681653581-5f7fbd813e94f16a85448745.jpeg",
       "alt": ""
     },
@@ -659,15 +688,10 @@
       "alt": ""
     },
     {
-      "type": "img",
-      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
-      "alt": ""
-    },
-    {
       "type": "li",
       "text": {
-        "en": "+140",
-        "th": "+140"
+        "en": "+162",
+        "th": "+162"
       }
     }
   ]

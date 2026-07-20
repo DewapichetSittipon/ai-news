@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+132",
-        "th": "+132"
+        "en": "+137",
+        "th": "+137"
       }
     },
     {
@@ -441,10 +441,15 @@
       "alt": ""
     },
     {
+      "type": "img",
+      "src": "/avatars/60a90ccefcea694deff366c576b6903a.svg",
+      "alt": ""
+    },
+    {
       "type": "li",
       "text": {
-        "en": "1 reply",
-        "th": "1 ตอบกลับ"
+        "en": "2 replies",
+        "th": "2 ตอบกลับ"
       }
     },
     {
@@ -561,6 +566,18 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/7d8a7b324a7b0b8bb2acf57aa4bf0b9b.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Is this why a few days ago the dataset viewer was giving me HTML and other nonsense?",
+        "th": "นี่เป็นเหตุผลว่าทำไมเมื่อไม่กี่วันก่อนโปรแกรมดูชุดข้อมูลจึงให้ HTML และเรื่องไร้สาระอื่น ๆ แก่ฉัน"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -604,6 +621,11 @@
     },
     {
       "type": "img",
+      "src": "/avatars/a97d4094557edef73e6b3280618d4c92.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
       "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1649681653581-5f7fbd813e94f16a85448745.jpeg",
       "alt": ""
     },
@@ -623,15 +645,10 @@
       "alt": ""
     },
     {
-      "type": "img",
-      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/603bdba23249b99991dbcbc4/cxCnN1H-RXOhojHY3Wcxo.jpeg",
-      "alt": ""
-    },
-    {
       "type": "li",
       "text": {
-        "en": "+126",
-        "th": "+126"
+        "en": "+131",
+        "th": "+131"
       }
     }
   ]

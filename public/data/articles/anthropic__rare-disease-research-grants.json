@@ -1,0 +1,241 @@
+{
+  "id": "anthropic__rare-disease-research-grants",
+  "slug": "rare-disease-research-grants",
+  "source": "anthropic",
+  "url": "https://www.anthropic.com/news/rare-disease-research-grants",
+  "category": "News",
+  "date": "2026-07-16T00:00:00.000Z",
+  "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20NodeShield&backgroundColor=heather",
+  "title": {
+    "en": "Apply for Anthropic’s AI for Science rare disease research grants",
+    "th": "สมัครขอรับทุนวิจัยโรคหายาก AI for Science ของ Anthropic"
+  },
+  "summary": {
+    "en": "Anthropic is sharing a focused call for AI for Science applications centered specifically on rare genetic diseases. Accepted applicants will receive up to $50,000 in Claude credits over six months, with the goal of building a community of researchers looking into how AI can reshape our understanding of rare disease.",
+    "th": "Anthropic กำลังแบ่งปันข้อเรียกร้องให้มีการใช้งาน AI for Science ซึ่งมีศูนย์กลางอยู่ที่โรคทางพันธุกรรมที่หายากโดยเฉพาะ ผู้สมัครที่ได้รับการยอมรับจะได้รับเครดิต Claude มูลค่าสูงสุด 50,000 ดอลลาร์ในช่วงหกเดือน โดยมีเป้าหมายเพื่อสร้างชุมชนนักวิจัยที่พิจารณาว่า AI จะปรับเปลี่ยนความเข้าใจของเราเกี่ยวกับโรคหายากได้อย่างไร"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg",
+      "alt": "Apply for Anthropic’s AI for Science rare disease research grants"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Last spring, we announced Anthropic’s AI for Science program, an initiative designed to accelerate scientific research and discovery through access to our API. Since launching, we have supported researchers working on a variety of high-impact projects, ranging from drug repurposing to quantum simulation. Throughout this initiative, we have found that projects are more generative when multiple AI for Science grantees are working on related questions and exchanging tips. So we now plan to launch thematic calls for projects within the broader AI for Science program.",
+        "th": "ฤดูใบไม้ผลิที่แล้ว เราได้ประกาศโปรแกรม AI for Science ของ Anthropic ซึ่งเป็นโครงการริเริ่มที่ออกแบบมาเพื่อเร่งการวิจัยและการค้นพบทางวิทยาศาสตร์ผ่านการเข้าถึง API ของเรา นับตั้งแต่เปิดตัว เราได้สนับสนุนนักวิจัยที่ทำงานในโครงการที่มีผลกระทบสูงมากมาย ตั้งแต่การนำยาไปใช้ใหม่ไปจนถึงการจำลองควอนตัม ตลอดโครงการริเริ่มนี้ เราพบว่าโปรเจ็กต์ต่างๆ สร้างสรรค์ได้มากขึ้นเมื่อผู้รับทุน AI for Science หลายคนกำลังตอบคำถามที่เกี่ยวข้องและแลกเปลี่ยนเคล็ดลับ ดังนั้นเราจึงวางแผนที่จะเปิดตัวการเรียกร้องตามธีมสำหรับโครงการต่างๆ ภายในโปรแกรม AI for Science ที่กว้างขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we are sharing a focused call for applications centered specifically on rare genetic diseases. Accepted applicants will receive up to $50,000 in Claude credits over six months, with the goal of building a community of researchers looking into how AI can reshape our understanding of rare disease. This program has two tracks: one for scientists doing basic research, and another for early-stage biotechs working on speeding up clinical development for rare diseases.",
+        "th": "วันนี้ เรากำลังแบ่งปันข้อเรียกร้องที่มุ่งเน้นสำหรับการใช้งานที่เน้นไปที่โรคทางพันธุกรรมที่หายากโดยเฉพาะ ผู้สมัครที่ได้รับการยอมรับจะได้รับเครดิต Claude มูลค่าสูงสุด 50,000 ดอลลาร์ในช่วงหกเดือน โดยมีเป้าหมายเพื่อสร้างชุมชนนักวิจัยที่พิจารณาว่า AI จะปรับเปลี่ยนความเข้าใจของเราเกี่ยวกับโรคหายากได้อย่างไร โปรแกรมนี้มีสองเส้นทาง: เส้นทางหนึ่งสำหรับนักวิทยาศาสตร์ที่ทำการวิจัยขั้นพื้นฐาน และอีกเส้นทางสำหรับเทคโนโลยีชีวภาพระยะเริ่มต้นที่ทำงานเพื่อเร่งการพัฒนาทางคลินิกสำหรับโรคหายาก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Rare disease research is an area where knowledge of fundamental science is limited. In aggregate, rare diseases are among the most prevalent conditions on the planet (an estimated 400 million people live with one of more than 7,000 rare diseases).1 But these conditions are scattered across small populations, making it challenging for clinicians to build patient registries, identify promising therapeutic targets, and design clinical trials. Moreover, rare diseases are typically characterized by their unique features (such as a specific genetic variation or combination of symptoms) that are often studied in isolation, making it nearly impossible to spot mechanisms shared across diseases. Finally, rare diseases face a challenge endemic to all drug development: the time it takes to move promising drug candidates into patient trials.",
+        "th": "การวิจัยโรคหายากเป็นสาขาที่ความรู้ด้านวิทยาศาสตร์พื้นฐานมีจำกัด โดยรวมแล้ว โรคที่หายากถือเป็นภาวะที่แพร่หลายมากที่สุดในโลก (ประมาณ 400 ล้านคนอาศัยอยู่กับหนึ่งในโรคที่หายากมากกว่า 7,000 โรค)1 แต่ภาวะเหล่านี้กระจัดกระจายไปตามประชากรกลุ่มเล็กๆ ทำให้เป็นเรื่องท้าทายสำหรับแพทย์ในการสร้างทะเบียนผู้ป่วย ระบุเป้าหมายการรักษาที่มีแนวโน้มดี และออกแบบการทดลองทางคลินิก นอกจากนี้ โรคที่หายากมักมีลักษณะเฉพาะด้วยลักษณะเฉพาะ (เช่น ความแปรผันทางพันธุกรรมเฉพาะหรืออาการต่างๆ รวมกัน) ซึ่งมักมีการศึกษาแยกกัน ทำให้แทบจะเป็นไปไม่ได้เลยที่จะตรวจพบกลไกที่เหมือนกันในโรคต่างๆ ในที่สุด โรคหายากต้องเผชิญกับความท้าทายในการพัฒนายาเฉพาะถิ่น นั่นคือ เวลาที่ต้องใช้ในการเคลื่อนย้ายตัวยาที่มีศักยภาพเข้าสู่การทดลองกับผู้ป่วย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We think AI can help with these and related challenges. AI makes it possible to accurately model rare genetic diseases and detect patterns across them. It also helps researchers synthesize findings across a large corpus of literature, quickly extract information from limited datasets, and create shared terminology, all of which informs how researchers can better use the information they do have, even as more work is done to generate more data and address challenges pertaining to access and geography. To explore where AI can be most helpful, we’ve made rare diseases the focus of our current call for AI for Science projects.",
+        "th": "เราคิดว่า AI สามารถช่วยแก้ไขปัญหาเหล่านี้และความท้าทายที่เกี่ยวข้องได้ AI ทำให้สามารถจำลองโรคทางพันธุกรรมที่หายากได้อย่างแม่นยำ และตรวจจับรูปแบบของโรคเหล่านั้นได้ นอกจากนี้ยังช่วยให้นักวิจัยสังเคราะห์การค้นพบจากคลังวรรณกรรมขนาดใหญ่ ดึงข้อมูลจากชุดข้อมูลที่จำกัดได้อย่างรวดเร็ว และสร้างคำศัพท์ที่ใช้ร่วมกัน ซึ่งทั้งหมดนี้แจ้งให้ทราบว่านักวิจัยสามารถใช้ข้อมูลที่มีอยู่ได้ดีขึ้นได้อย่างไร แม้ว่าจะต้องทำงานมากขึ้นเพื่อสร้างข้อมูลมากขึ้นและจัดการกับความท้าทายที่เกี่ยวข้องกับการเข้าถึงและภูมิศาสตร์ก็ตาม เพื่อสำรวจว่า AI มีประโยชน์มากที่สุดในด้านใด เราได้กำหนดให้โรคหายากเป็นจุดสนใจของโครงการ AI for Science ในปัจจุบัน"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Track one: Scaling our basic science partnerships",
+        "th": "เส้นทางที่หนึ่ง: ขยายความร่วมมือด้านวิทยาศาสตร์ขั้นพื้นฐานของเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The first track of our rare disease research grants program aims to foster collaboration between clinical researchers, patient organizations, and data scientists to increase the pace of progress in basic science and the discovery of the mechanisms underlying rare diseases.",
+        "th": "โครงการแรกในทุนสนับสนุนการวิจัยโรคหายากของเรามีจุดมุ่งหมายเพื่อส่งเสริมความร่วมมือระหว่างนักวิจัยทางคลินิก องค์กรผู้ป่วย และนักวิทยาศาสตร์ด้านข้อมูล เพื่อเพิ่มความก้าวหน้าในสาขาวิทยาศาสตร์พื้นฐานและการค้นพบกลไกที่เป็นสาเหตุของโรคหายาก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An early partner in this effort is the Monarch Initiative, an international consortium working to improve diagnosis and mechanism discovery for patients with rare diseases. Monarch develops standards and resources such as the Mondo Disease Ontology, a computational framework and coding system that reconciles disease definitions scattered across OMIM, Orphanet, ICD, and dozens of other sources; as well as the Monarch Knowledge Graph, which integrates genotype-phenotype data across species to aid diagnostics and mechanism discovery.",
+        "th": "พันธมิตรในช่วงแรกๆ ในความพยายามนี้คือ Monarch Initiative ซึ่งเป็นสมาคมระหว่างประเทศที่ทำงานเพื่อปรับปรุงการวินิจฉัยและการค้นพบกลไกสำหรับผู้ป่วยโรคหายาก Monarch พัฒนามาตรฐานและทรัพยากร เช่น Mondo Disease Ontology กรอบงานการคำนวณและระบบการเข้ารหัสที่ประสานคำจำกัดความของโรคที่กระจัดกระจายไปทั่ว OMIM, Orphanet, ICD และแหล่งข้อมูลอื่น ๆ อีกมากมาย เช่นเดียวกับ Monarch Knowledge Graph ซึ่งรวบรวมข้อมูลจีโนไทป์-ฟีโนไทป์ข้ามสปีชีส์ เพื่อช่วยในการวินิจฉัยและการค้นพบกลไก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Most recently, Monarch contributors have been stitching data and knowledge together in a new agent-friendly mechanistic disease classification library called DisMech, where Claude can read case reports, variant databases, registry schemas, raw public data, and more, and point out mechanistic similarities between diseases at an unmatched pace and scale. Monarch is inviting our AI for Science grantees to use and contribute to its resources, such as Mondo and DisMech, to reveal new mechanistic hypotheses that will support developing treatments.",
+        "th": "ล่าสุด ผู้ร่วมให้ข้อมูลของ Monarch ได้รวบรวมข้อมูลและความรู้เข้าด้วยกันในไลบรารีการจำแนกโรคเชิงกลไกที่เป็นมิตรต่อตัวแทนใหม่ที่เรียกว่า DisMech ซึ่ง Claude สามารถอ่านรายงานผู้ป่วย ฐานข้อมูลที่หลากหลาย สคีมารีจิสทรี ข้อมูลสาธารณะดิบ และอื่นๆ อีกมากมาย และชี้ให้เห็นความคล้ายคลึงทางกลไกระหว่างโรคต่างๆ ในระดับและขนาดที่ไม่มีใครเทียบได้ Monarch เชิญชวนผู้ได้รับทุน AI for Science ของเราให้ใช้และสนับสนุนทรัพยากร เช่น Mondo และ DisMech เพื่อเปิดเผยสมมติฐานเชิงกลไกใหม่ที่จะสนับสนุนการพัฒนาวิธีการรักษา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Monarch’s work on improving the interoperability of rare disease data and knowledge is a place where Claude can already have a major impact. However, there’s more work to be done to gather better and more data, improve diagnostic infrastructure, and promote patient-led approaches across the rare disease ecosystem, and make the information accessible to agentic science. We will continue to partner with Monarch and others to approach this problem from the angles where AI is less obviously applicable, and we’ll share what we learn as we do.",
+        "th": "งานของ Monarch ในการปรับปรุงการทำงานร่วมกันของข้อมูลและความรู้เกี่ยวกับโรคหายากเป็นจุดที่ Claude สามารถมีผลกระทบสำคัญอยู่แล้ว อย่างไรก็ตาม ยังมีงานที่ต้องทำอีกมากเพื่อรวบรวมข้อมูลที่ดีขึ้นเรื่อยๆ ปรับปรุงโครงสร้างพื้นฐานในการวินิจฉัย และส่งเสริมแนวทางที่นำโดยผู้ป่วยในระบบนิเวศของโรคหายาก และทำให้ข้อมูลเข้าถึงได้โดยวิทยาศาสตร์เชิงตัวแทน เราจะยังคงเป็นพันธมิตรกับ Monarch และคนอื่นๆ ต่อไปเพื่อแก้ไขปัญหานี้จากมุมที่ AI นำไปใช้ได้ไม่ชัดเจน และเราจะแบ่งปันสิ่งที่เราเรียนรู้ไปพร้อมๆ กัน"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Track two: Scaling our biotech partnerships",
+        "th": "เส้นทางที่สอง: ขยายความร่วมมือด้านเทคโนโลยีชีวภาพของเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The second track of our rare disease research grants program will support biotechnologists and early-stage biotechs working to accelerate drug development for rare diseases. Today, it takes one to two years to move from a confirmed genetic diagnosis to a treatment available to patients, with much of this time spent waiting in queues for certified manufacturing slots, running safety studies sequentially instead of in parallel, and hand-assembling the thousands of pages of chemistry and regulatory documentation required for in-patient testing.",
+        "th": "เส้นทางที่สองของโครงการทุนวิจัยโรคหายากของเราจะสนับสนุนนักเทคโนโลยีชีวภาพและเทคโนโลยีชีวภาพระยะเริ่มต้นที่ทำงานเพื่อเร่งการพัฒนายาสำหรับโรคหายาก ปัจจุบัน ต้องใช้เวลาหนึ่งถึงสองปีในการย้ายจากการวินิจฉัยทางพันธุกรรมที่ได้รับการยืนยันไปสู่การรักษาที่มีให้สำหรับผู้ป่วย โดยใช้เวลาส่วนใหญ่ในการรอคิวสำหรับช่องการผลิตที่ได้รับการรับรอง ดำเนินการศึกษาด้านความปลอดภัยตามลำดับแทนที่จะทำแบบคู่ขนาน และรวบรวมเอกสารทางเคมีและกฎระเบียบจำนวนหลายพันหน้าด้วยมือซึ่งจำเป็นสำหรับการทดสอบผู้ป่วยใน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We think it is possible to radically compress phases of this process with Claude—in particular, by making it easier to complete documentation (for example, drafting and reviewing the regulatory dossier), but also by speeding up therapeutic strategy selection (for example, by analyzing whether a target is druggable across a suite of modalities, such as small molecules, antibodies, genetic medicines, and so on) and looking for shared mechanisms across individual genetic therapies, which could allow them to be approved under a single “basket trial” instead of requiring a separate IND for each patient.",
+        "th": "เราคิดว่าเป็นไปได้ที่จะบีบอัดขั้นตอนของกระบวนการนี้อย่างรุนแรงด้วย Claude—โดยเฉพาะอย่างยิ่ง โดยทำให้ง่ายต่อการจัดทำเอกสารให้สมบูรณ์ (เช่น การร่างและทบทวนเอกสารด้านกฎระเบียบ) แต่ยังด้วยการเร่งการเลือกกลยุทธ์การรักษา (เช่น โดยการวิเคราะห์ว่าเป้าหมายสามารถวางยาได้หรือไม่ผ่านชุดรังสีต่างๆ เช่น โมเลกุลขนาดเล็ก แอนติบอดี ยาทางพันธุกรรม และอื่นๆ) และมองหากลไกที่ใช้ร่วมกันในการบำบัดทางพันธุกรรมแต่ละแบบ ซึ่งอาจทำให้พวกเขาได้รับการอนุมัติ ภายใต้ “การทดลองแบบตะกร้า” เพียงครั้งเดียว แทนที่จะต้องแยก IND แยกต่างหากสำหรับผู้ป่วยแต่ละราย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Although many aspects of drug development are difficult to expedite because of manufacturing constraints or safety testing, we believe much can be done to move more quickly. By granting API credits and Claude Science access to the many biotechnologists and startups working in this space, we hope to encourage the experiments necessary to explore and identify such solutions.",
+        "th": "แม้ว่าการพัฒนายาในหลายด้านเป็นเรื่องยากที่จะเร่งรัดเนื่องจากข้อจำกัดด้านการผลิตหรือการทดสอบความปลอดภัย แต่เราเชื่อว่าสามารถทำได้หลายอย่างเพื่อให้ดำเนินการได้รวดเร็วยิ่งขึ้น ด้วยการให้เครดิต API และ Claude Science เข้าถึงนักเทคโนโลยีชีวภาพและสตาร์ทอัพจำนวนมากที่ทำงานในพื้นที่นี้ เราหวังว่าจะสนับสนุนการทดลองที่จำเป็นในการสำรวจและระบุวิธีแก้ปัญหาดังกล่าว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We also hope grantees will amplify and emulate the efforts of our other partners working in rare disease therapeutics. For example, Every Cure, one of our existing AI for Science grantees, is using Claude to identify drug repurposing opportunities across millions of candidates ; the Centre for Population Genomics, a collaboration between the Garvan Institute and the Murdoch Children’s Research Institute, is building a Claude-based system that drafts variant classifications for expert review, one of the biggest bottlenecks in diagnosing rare genetic conditions; and the Violet Research Institute, a small nonprofit researching ultra-rare genetic diseases (defined as extremely rare genetic disorders affecting fewer than 1 in 50,000 births), is using Claude to navigate FDA guidelines, run bioinformatics pipelines, analyze experimental data, draft regulatory filings, and more.",
+        "th": "นอกจากนี้เรายังหวังว่าผู้รับทุนจะขยายและเลียนแบบความพยายามของพันธมิตรอื่นๆ ของเราที่ทำงานด้านการรักษาโรคหายาก ตัวอย่างเช่น Every Cure ซึ่งเป็นหนึ่งในผู้รับทุน AI for Science ที่มีอยู่ของเรา กำลังใช้ Claude เพื่อระบุโอกาสในการนำยามาใช้ใหม่จากผู้สมัครหลายล้านคน ศูนย์จีโนมิกส์ประชากร ซึ่งเป็นความร่วมมือระหว่างสถาบัน Garvan และสถาบันวิจัยเด็ก Murdoch กำลังสร้างระบบที่ใช้ Claude ซึ่งร่างการจำแนกประเภทต่างๆ เพื่อให้ผู้เชี่ยวชาญตรวจสอบ ซึ่งเป็นหนึ่งในปัญหาคอขวดที่ใหญ่ที่สุดในการวินิจฉัยภาวะทางพันธุกรรมที่หายาก และ Violet Research Institute ซึ่งเป็นองค์กรไม่แสวงผลกำไรขนาดเล็กที่ค้นคว้าโรคทางพันธุกรรมที่หายากมาก (หมายถึงความผิดปกติทางพันธุกรรมที่หายากมากซึ่งส่งผลกระทบต่อการเกิดน้อยกว่า 1 ใน 50,000) กำลังใช้ Claude เพื่อนำทางแนวปฏิบัติของ FDA ดำเนินการท่อชีวสารสนเทศศาสตร์ วิเคราะห์ข้อมูลการทดลอง ร่างเอกสารที่ยื่นต่อกฎระเบียบ และอื่นๆ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Next steps",
+        "th": "ขั้นตอนต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To apply to either track of the AI for Science rare disease research program, fill out this application. We will be accepting applications through August 2, 2026 at 11:59 PM PST. Accepted applicants can use their credits to access Claude Opus or other generally available models approved for use in biology. Projects that may run up against our bio classifiers may be eligible for exemptions. Examples of track one projects include:",
+        "th": "หากต้องการสมัครเข้าร่วมโครงการวิจัยโรคหายาก AI for Science สาขาใดสาขาหนึ่ง โปรดกรอกใบสมัครนี้ เราจะเปิดรับสมัครจนถึงวันที่ 2 สิงหาคม 2026 เวลา 23:59 น. PST ผู้สมัครที่ได้รับการยอมรับสามารถใช้เครดิตของตนเพื่อเข้าถึง Claude Opus หรือแบบจำลองอื่น ๆ ที่มีจำหน่ายทั่วไปที่ได้รับการอนุมัติให้ใช้ในชีววิทยา โครงการที่อาจแข่งขันกับตัวแยกประเภททางชีวภาพของเราอาจมีสิทธิ์ได้รับการยกเว้น ตัวอย่างของโครงการติดตามหนึ่งได้แก่:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Propose and rank mechanistic links between distinct rare diseases that share a gene or pathway, suggesting candidate disease relationships with evidence an expert can validate in Monarch’s DisMech.",
+        "th": "เสนอและจัดอันดับการเชื่อมโยงเชิงกลไกระหว่างโรคหายากที่แตกต่างกันซึ่งมียีนหรือวิถีทางร่วมกัน โดยแนะนำความสัมพันธ์ของโรคที่ผู้สมัครพร้อมหลักฐานที่ผู้เชี่ยวชาญสามารถตรวจสอบได้ใน DisMech ของ Monarch"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Curate and summarize patient organization data to conduct or improve existing natural history studies.",
+        "th": "ดูแลจัดการและสรุปข้อมูลองค์กรผู้ป่วยเพื่อดำเนินการหรือปรับปรุงการศึกษาประวัติศาสตร์ธรรมชาติที่มีอยู่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Build evaluations that measure how well models handle rare disease tasks—such as revealing candidate mechanisms for variants of unknown significance, phenotype-to-disease matching, and mechanism prediction—including an honest accounting of where they fail.",
+        "th": "สร้างการประเมินที่วัดว่าแบบจำลองจัดการกับงานโรคหายากได้ดีเพียงใด เช่น การเปิดเผยกลไกของผู้สมัครสำหรับตัวแปรที่ไม่ทราบนัยสำคัญ การจับคู่ฟีโนไทป์กับโรค และการทำนายกลไก รวมถึงการบัญชีที่ตรงไปตรงมาว่าจุดใดล้มเหลว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Outputs from this track will be made publicly available at Monarchinitiative.org. The program will be augmented by additional community-building efforts, such as future rare disease hackathons. Stay up to date with the Monarch Initiative at monarchinitiative.org/community/get-involved.",
+        "th": "ผลงานจากเพลงนี้จะถูกเปิดเผยต่อสาธารณะที่ Monarchinitiative.org โปรแกรมนี้จะถูกเสริมด้วยความพยายามในการสร้างชุมชนเพิ่มเติม เช่น งานแฮ็กกาธอนเกี่ยวกับโรคหายากในอนาคต ติดตามข่าวสารล่าสุดเกี่ยวกับ Monarch Initiative ได้ที่ monarchinitiative.org/community/get-involved"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Examples of track two projects include:",
+        "th": "ตัวอย่างของโครงการติดตามสองได้แก่:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Justify starting doses from sparse data: synthesize PK/PD modeling, allometric scaling, and precedent from related modalities to build first-in-human dose rationales for bespoke therapies where traditional dose-ranging studies are impossible.",
+        "th": "ปรับขนาดยาเริ่มต้นจากข้อมูลที่กระจัดกระจาย: สังเคราะห์การสร้างแบบจำลอง PK/PD, การปรับขนาดแบบอัลโลเมทริก และแบบอย่างจากวิธีการที่เกี่ยวข้อง เพื่อสร้างเหตุผลในการให้ยาแบบแรกในมนุษย์สำหรับการรักษาแบบเฉพาะเจาะจง ซึ่งการศึกษาขนาดยาแบบดั้งเดิมนั้นเป็นไปไม่ได้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mine natural history data and case reports to identify measurable biomarkers and functional endpoints sensitive enough to show a response within the timeframe an N-of-1 or ultra-rare program can afford.",
+        "th": "ขุดข้อมูลประวัติธรรมชาติและรายงานกรณีผู้ป่วยเพื่อระบุตัวบ่งชี้ทางชีวภาพที่วัดได้และจุดสิ้นสุดการทำงานที่ละเอียดอ่อนเพียงพอที่จะแสดงการตอบสนองภายในกรอบเวลาที่โปรแกรม N-of-1 หรือโปรแกรมที่หายากอย่างยิ่งสามารถทำได้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Draft, cross-check, and precedent-mine regulatory documentation (IND sections, investigator brochures, CMC modules), compressing months of dossier assembly into days of expert review.",
+        "th": "ร่าง การตรวจสอบข้าม และเอกสารกำกับดูแลการทำเหมืองก่อนหน้า (ส่วน IND โบรชัวร์ผู้ตรวจสอบ โมดูล CMC) บีบอัดเอกสารประกอบหลายเดือนให้กลายเป็นวันที่ผู้เชี่ยวชาญตรวจสอบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This rare disease grant program ties directly into our mission and work in beneficial deployments to extend the benefits of AI to areas that might not emerge naturally through market forces. However, rare disease is simply too big a problem for one organization or one approach. We also want to be honest about AI’s limitations in this space. Although Claude may help shorten therapeutic development timelines and curate biological data more efficiently than human teams alone, it cannot help in areas where the data is too paltry or too poorly organized for agents to reach. It may also struggle to address the aspects of the “diagnostic odyssey” that relate to challenges like insurance authorization or access to diagnostic facilities and infrastructure. We hope this program will be complemented by efforts by other organizations and research institutions to generate more high-quality, longitudinal data, as well as those that encourage robust public-private partnerships.",
+        "th": "โครงการให้ทุนรักษาโรคหายากนี้เชื่อมโยงโดยตรงกับภารกิจของเรา และทำงานในการใช้งานที่เป็นประโยชน์เพื่อขยายประโยชน์ของ AI ไปยังพื้นที่ที่อาจไม่เกิดขึ้นตามธรรมชาติผ่านกลไกของตลาด อย่างไรก็ตาม โรคหายากเป็นปัญหาใหญ่เกินไปสำหรับองค์กรหรือแนวทางเดียว เรายังต้องการที่จะซื่อสัตย์เกี่ยวกับข้อจำกัดของ AI ในพื้นที่นี้ แม้ว่า Claude อาจช่วยลดระยะเวลาในการพัฒนาด้านการรักษาและดูแลจัดการข้อมูลทางชีววิทยาได้อย่างมีประสิทธิภาพมากกว่าทีมงานของมนุษย์เพียงอย่างเดียว แต่ก็ไม่สามารถช่วยในพื้นที่ที่ข้อมูลน้อยเกินไปหรือจัดระเบียบไม่ดีเกินกว่าที่ตัวแทนจะเข้าถึงได้ นอกจากนี้ยังอาจต้องดิ้นรนเพื่อจัดการกับแง่มุมต่างๆ ของ \"โอดิสซีย์แห่งการวินิจฉัย\" ที่เกี่ยวข้องกับความท้าทาย เช่น การอนุมัติการประกันภัย หรือการเข้าถึงสิ่งอำนวยความสะดวกในการวินิจฉัยและโครงสร้างพื้นฐาน เราหวังว่าโครงการนี้จะได้รับการเสริมด้วยความพยายามขององค์กรและสถาบันการวิจัยอื่น ๆ ในการสร้างข้อมูลระยะยาวคุณภาพสูงมากขึ้น รวมถึงหน่วยงานที่ส่งเสริมความร่วมมือระหว่างภาครัฐและเอกชนที่แข็งแกร่ง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We're looking forward to seeing how this new group of grantees will work together and with our other AI for Science partners to advance basic science and discovery in rare diseases, and how these projects can contribute to broader scientific initiatives.Footnote",
+        "th": "เราตั้งตารอที่จะได้เห็นว่าผู้รับทุนกลุ่มใหม่นี้จะทำงานร่วมกันและกับพันธมิตร AI for Science อื่นๆ ของเราอย่างไร เพื่อพัฒนาวิทยาศาสตร์ขั้นพื้นฐานและการค้นพบโรคหายาก และวิธีที่โครงการเหล่านี้สามารถสนับสนุนโครงการริเริ่มทางวิทยาศาสตร์ในวงกว้างได้อย่างไร เชิงอรรถ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Other sources place the number of rare diseases as high as 10,000. There is also no agreed-upon definition of what a rare disease even is, despite the oft-cited claim that as many as 1 in 10 people in the US have a rare disease. Various terminologies (Orphanet, OMIM, GARD, ICD, the NCI Thesaurus, and dozens more) each define “disease” differently; some exclude chromosomal disorders (such as conditions like Pallister-Killian syndrome); some ignore diseases with environmental causes (such as congenital Zika syndrome); and some require a single anatomical system to classify them, ignoring the many multi-system rare diseases (such as Fanconi anemia, with its mix of bone marrow failure, congenital malformations, and cancer risk).",
+        "th": "แหล่งอื่นระบุจำนวนโรคหายากสูงถึง 10,000 โรค นอกจากนี้ยังไม่มีคำจำกัดความที่ตกลงกันไว้ว่าโรคที่หายากคืออะไร แม้จะมีการอ้างบ่อยๆ ว่าผู้คนมากถึง 1 ใน 10 ในสหรัฐอเมริกาเป็นโรคที่หายากก็ตาม คำศัพท์ต่างๆ (Orphanet, OMIM, GARD, ICD, อรรถาภิธานของ NCI และอื่นๆ อีกมากมาย) แต่ละคำให้คำจำกัดความของ \"โรค\" แตกต่างกัน บางรายไม่รวมความผิดปกติของโครโมโซม (เช่น ภาวะเช่นกลุ่มอาการพัลลิสเตอร์-คิลเลียน) บางคนเพิกเฉยต่อโรคที่มีสาเหตุจากสิ่งแวดล้อม (เช่น โรคซิกาแต่กำเนิด) และบางชนิดต้องใช้ระบบกายวิภาคเพียงระบบเดียวในการจำแนกโรค โดยไม่สนใจโรคหายากหลายระบบ (เช่น โรคโลหิตจางฟันโคนี ซึ่งมีไขกระดูกล้มเหลว ความผิดปกติแต่กำเนิด และความเสี่ยงต่อมะเร็ง)"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Related content",
+        "th": "เนื้อหาที่เกี่ยวข้อง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Introducing Claude for Teachers",
+        "th": "ขอแนะนำคลอดด์สำหรับครู"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Anthropic commits $10 million to Canadian AI research",
+        "th": "Anthropic ทุ่มเงิน 10 ล้านเหรียญสหรัฐให้กับการวิจัย AI ของแคนาดา"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "UST is bringing Claude to physical AI",
+        "th": "UST กำลังนำ Claude มาสู่ AI ทางกายภาพ"
+      }
+    }
+  ]
+}

@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+200",
-        "th": "+200"
+        "en": "+208",
+        "th": "+208"
       }
     },
     {
@@ -645,6 +645,18 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/712a03f6a07fb24453fbadb45d27171b.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The report identifies GLM 5.2 as the model used for forensic analysis, but does not appear to identify the framework used to operate the LLM-driven analysis agents. Could you disclose the agent-orchestration framework and broader analysis stack used to process the 17,000 recorded events, including whether it was custom-built or based on an existing framework?",
+        "th": "รายงานระบุว่า GLM 5.2 เป็นแบบจำลองที่ใช้ในการวิเคราะห์ทางนิติเวช แต่ดูเหมือนจะไม่ได้ระบุกรอบงานที่ใช้ในการดำเนินการตัวแทนการวิเคราะห์ที่ขับเคลื่อนด้วย LLM คุณสามารถเปิดเผยเฟรมเวิร์กการประสานตัวแทนและสแต็กการวิเคราะห์ที่กว้างขึ้นซึ่งใช้ในการประมวลผลเหตุการณ์ที่บันทึกไว้ 17,000 เหตุการณ์ รวมถึงไม่ว่าจะเป็นที่สร้างขึ้นเองหรืออิงตามเฟรมเวิร์กที่มีอยู่หรือไม่"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -714,8 +726,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+194",
-        "th": "+194"
+        "en": "+202",
+        "th": "+202"
       }
     }
   ]

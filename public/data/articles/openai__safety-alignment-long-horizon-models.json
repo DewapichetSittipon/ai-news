@@ -1,0 +1,26 @@
+{
+  "id": "openai__safety-alignment-long-horizon-models",
+  "slug": "safety-alignment-long-horizon-models",
+  "source": "openai",
+  "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+  "category": "Safety",
+  "date": "2026-07-20T10:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Safety and alignment in an era of long-horizon models",
+    "th": "ความปลอดภัยและการวางตำแหน่งในยุคของโมเดลขอบฟ้ายาว"
+  },
+  "summary": {
+    "en": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+    "th": "OpenAI แบ่งปันบทเรียนจากการปรับใช้โมเดล AI ที่ใช้เวลานาน โดยเน้นถึงความเสี่ยงด้านความปลอดภัยใหม่ๆ ความล้มเหลวที่สังเกตได้ และการป้องกันที่ได้รับการปรับปรุงผ่านการปรับใช้ซ้ำ"
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+        "th": "OpenAI แบ่งปันบทเรียนจากการปรับใช้โมเดล AI ที่ใช้เวลานาน โดยเน้นถึงความเสี่ยงด้านความปลอดภัยใหม่ๆ ความล้มเหลวที่สังเกตได้ และการป้องกันที่ได้รับการปรับปรุงผ่านการปรับใช้ซ้ำ"
+      }
+    }
+  ]
+}

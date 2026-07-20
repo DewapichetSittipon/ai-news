@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+218",
-        "th": "+218"
+        "en": "+220",
+        "th": "+220"
       }
     },
     {
@@ -657,6 +657,39 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/379abc5add10b45a02b1d9a09abfb6c6.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Some of the description is a total head scratcher and would appreciate clarification",
+        "th": "คำอธิบายบางส่วนเป็นการเกาหัวทั้งหมดและขอขอบคุณสำหรับการชี้แจง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A malicious dataset abused two code-execution paths in our dataset processing (a remote-code dataset loader and a template-injection in a dataset configuration)",
+        "th": "ชุดข้อมูลที่เป็นอันตรายใช้เส้นทางการเรียกใช้โค้ดสองเส้นทางในทางที่ผิดในการประมวลผลชุดข้อมูลของเรา (ตัวโหลดชุดข้อมูลโค้ดระยะไกลและการแทรกเทมเพลตในการกำหนดค่าชุดข้อมูล)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "What does this even mean? What is a malicious dataset? A dataset is passive data. A dataset does not “execute.” So how can a dataset abuse two code-execution paths?",
+        "th": "สิ่งนี้หมายความว่าอย่างไร? ชุดข้อมูลที่เป็นอันตรายคืออะไร? ชุดข้อมูลเป็นข้อมูลแบบพาสซีฟ ชุดข้อมูลไม่ \"ดำเนินการ\" ดังนั้นชุดข้อมูลจะใช้เส้นทางการรันโค้ดสองเส้นทางในทางที่ผิดได้อย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Later on the report says - Fixed the root vulnerability: the dataset code-execution paths used for initial access are closed. This make sense. Two code execution paths was exploited by an autonomous agent - but what is got to to with the malicious dataset?",
+        "th": "ต่อมาในรายงานแจ้งว่า - แก้ไขช่องโหว่ของรูท: เส้นทางการเรียกใช้โค้ดชุดข้อมูลที่ใช้สำหรับการเข้าถึงครั้งแรกถูกปิด สิ่งนี้สมเหตุสมผล เส้นทางการเรียกใช้โค้ดสองเส้นทางถูกใช้โดยเอเจนต์อัตโนมัติ - แต่ชุดข้อมูลที่เป็นอันตรายจะทำอย่างไร"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -726,8 +759,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+212",
-        "th": "+212"
+        "en": "+214",
+        "th": "+214"
       }
     }
   ]

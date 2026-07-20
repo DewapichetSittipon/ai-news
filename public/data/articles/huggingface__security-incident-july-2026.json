@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+137",
-        "th": "+137"
+        "en": "+146",
+        "th": "+146"
       }
     },
     {
@@ -578,6 +578,25 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/5b4671117d6b37add69988420dc5f55d.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Thanks for being transparent with the security incident. I am curious to understand about the malicious dataset and agent driven attack.",
+        "th": "ขอขอบคุณที่ให้ความโปร่งใสกับเหตุการณ์ด้านความปลอดภัย ฉันอยากรู้เกี่ยวกับชุดข้อมูลที่เป็นอันตรายและการโจมตีที่ขับเคลื่อนโดยเอเจนต์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Does malicious dataset has prompt injections that broken your AI agent or attacker built agent to run in your infra? Seems like a loose end in your platform engineering. tools should be restricted in servers that isn't required for the data processing operations. SELinux, Secomp, Apparmor, rbac etc. Moving laterally and compromising many nodes & clusters is not really expected when you have stronger infrastructure security.",
+        "th": "ชุดข้อมูลที่เป็นอันตรายมีการฉีดทันทีที่ทำให้เอเจนต์ AI ของคุณหรือเอเจนต์ที่ผู้โจมตีสร้างขึ้นให้ทำงานในอินฟาเรดของคุณหรือไม่? ดูเหมือนว่าจะเป็นจุดสิ้นสุดของวิศวกรรมแพลตฟอร์มของคุณ ควรจำกัดเครื่องมือไว้ในเซิร์ฟเวอร์ที่ไม่จำเป็นสำหรับการดำเนินการประมวลผลข้อมูล SELinux, Secomp, Apparmor, rbac ฯลฯ การย้ายด้านข้างและการประนีประนอมโหนดและคลัสเตอร์จำนวนมากนั้นไม่ได้คาดหวังไว้จริงๆ เมื่อคุณมีการรักษาความปลอดภัยโครงสร้างพื้นฐานที่แข็งแกร่งยิ่งขึ้น"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -647,8 +666,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+131",
-        "th": "+131"
+        "en": "+140",
+        "th": "+140"
       }
     }
   ]

@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+280",
-        "th": "+280"
+        "en": "+291",
+        "th": "+291"
       }
     },
     {
@@ -290,10 +290,15 @@
       "alt": ""
     },
     {
+      "type": "img",
+      "src": "/avatars/ab2a1ed23af801e8552e53620082cbb3.svg",
+      "alt": ""
+    },
+    {
       "type": "li",
       "text": {
-        "en": "2 replies",
-        "th": "2 ตอบกลับ"
+        "en": "3 replies",
+        "th": "3 ตอบกลับ"
       }
     },
     {
@@ -740,6 +745,18 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/e78b8cd006ddee8ac5f19f809c3ff659.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For those that haven't seen it yet, it sounds like this entire thing was OpenAI running a benchmark. Ends up the models found a zero-day in the package proxy to get internet access and hacked into Hugging Face to try to get the answers to the ExploitGym benchmark. Crazy stuff: https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+        "th": "สำหรับผู้ที่ยังไม่ได้ดู ดูเหมือนว่าทั้งหมดนี้คือ OpenAI ที่ใช้การวัดประสิทธิภาพ ท้ายที่สุดโมเดลที่พบซีโรเดย์ในพร็อกซีแพ็คเกจเพื่อเข้าถึงอินเทอร์เน็ตและแฮ็กเข้าสู่ Hugging Face เพื่อพยายามรับคำตอบของเกณฑ์มาตรฐาน ExploitGym เรื่องบ้าๆบอๆ : https://openai.com/index/hugging-face-model-evalue-security-incident/"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -809,8 +826,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+274",
-        "th": "+274"
+        "en": "+285",
+        "th": "+285"
       }
     }
   ]

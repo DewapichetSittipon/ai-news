@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+246",
-        "th": "+246"
+        "en": "+264",
+        "th": "+264"
       }
     },
     {
@@ -690,6 +690,44 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/2bb5997eb0878258c32e266c73bcd8dc.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1 reply",
+        "th": "1 ตอบกลับ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/2bb5997eb0878258c32e266c73bcd8dc.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "https://www.varonis.com/blog/huggingface-breach#:~:text=stops%20being%C2%A0routine.-,What%20we%20know%20so%20far,-Once%C2%A0HuggingFace%E2%80%99s%C2%A0analysis",
+        "th": "https://www.varonis.com/blog/huggingface-breach#:~:text=stops%20being%C2%A0routine.-,What%20we%20know%20so%20far,-Once%C2%A0HuggingFace%E2%80%99s%C2%A0analysis"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "\"ML datasets are often accompanied by custom loader scripts\". I think that's what executed to abuse the code path.",
+        "th": "\"ชุดข้อมูล ML มักจะมาพร้อมกับสคริปต์ตัวโหลดแบบกำหนดเอง\" ฉันคิดว่านั่นคือสิ่งที่ดำเนินการเพื่อใช้เส้นทางโค้ดในทางที่ผิด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "I believe they are now either sanitising the loader scripts / blocking them completely. The former would be more practical.",
+        "th": "ฉันเชื่อว่าตอนนี้พวกเขากำลังฆ่าเชื้อสคริปต์ตัวโหลด / บล็อกสคริปต์ทั้งหมด แบบแรกจะใช้งานได้จริงมากกว่า"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -759,8 +797,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+240",
-        "th": "+240"
+        "en": "+258",
+        "th": "+258"
       }
     }
   ]

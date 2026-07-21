@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-21T08:13:26.487Z",
+  "generatedAt": "2026-07-21T11:45:03.950Z",
   "items": [
+    {
+      "id": "huggingface__grabette",
+      "slug": "grabette",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/grabette",
+      "category": "News",
+      "date": "2026-07-21T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Grabette: an open system to record robot-manipulation data",
+        "th": "Grabette: ระบบเปิดสำหรับบันทึกข้อมูลการจัดการหุ่นยนต์"
+      },
+      "summary": {
+        "en": "Grabette: an open system to record robot-manipulation data",
+        "th": "Grabette: ระบบเปิดสำหรับบันทึกข้อมูลการจัดการหุ่นยนต์"
+      }
+    },
     {
       "id": "huggingface__cosmos3edge",
       "slug": "cosmos3edge",
@@ -2005,23 +2022,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp\">Uncover second-hand scores with AI tools in Google Search and Shopping.",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp\">ค้นพบคะแนนมือสองด้วยเครื่องมือ AI ใน Google Search และ Shopping"
-      }
-    },
-    {
-      "id": "huggingface__direct-preference-optimization-beyond-chatbots",
-      "slug": "direct-preference-optimization-beyond-chatbots",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "category": "News",
-      "date": "2026-06-03T12:55:11.000Z",
-      "image": null,
-      "title": {
-        "en": "Direct Preference Optimization Beyond Chatbots",
-        "th": "การเพิ่มประสิทธิภาพการตั้งค่าโดยตรงที่เหนือกว่า Chatbots"
-      },
-      "summary": {
-        "en": "Direct Preference Optimization Beyond Chatbots",
-        "th": "การเพิ่มประสิทธิภาพการตั้งค่าโดยตรงที่เหนือกว่า Chatbots"
       }
     },
     {

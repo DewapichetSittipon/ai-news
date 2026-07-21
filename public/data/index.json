@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-21T13:22:36.382Z",
+  "generatedAt": "2026-07-21T15:31:40.010Z",
   "items": [
+    {
+      "id": "deepmind__introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber",
+      "slug": "introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+      "category": "News",
+      "date": "2026-07-21T15:16:30.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+        "th": "ขอแนะนำ Gemini 3.6 Flash, 3.5 Flash-Lite และ 3.5 Flash Cyber"
+      },
+      "summary": {
+        "en": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+        "th": "เรากำลังเปิดตัวโมเดล Gemini ใหม่ รวมถึง Gemini 3.6 Flash, 3.5 Flash-Lite และ 3.5 Flash Cyber"
+      }
+    },
     {
       "id": "huggingface__grabette",
       "slug": "grabette",
@@ -67,6 +84,23 @@
       "summary": {
         "en": "Anthropic is sharing a focused call for AI for Science applications centered specifically on rare genetic diseases. Accepted applicants will receive up to $50,000 in Claude credits over six months, with the goal of building a community of researchers looking into how AI can reshape our understanding of rare disease.",
         "th": "Anthropic กำลังแบ่งปันข้อเรียกร้องให้มีการใช้งาน AI for Science ซึ่งมีศูนย์กลางอยู่ที่โรคทางพันธุกรรมที่หายากโดยเฉพาะ ผู้สมัครที่ได้รับการยอมรับจะได้รับเครดิต Claude มูลค่าสูงสุด 50,000 ดอลลาร์ในช่วงหกเดือน โดยมีเป้าหมายเพื่อสร้างชุมชนนักวิจัยที่พิจารณาว่า AI จะปรับเปลี่ยนความเข้าใจของเราเกี่ยวกับโรคหายากได้อย่างไร"
+      }
+    },
+    {
+      "id": "deepmind__introducing-gemini-3-5-flash-cyber",
+      "slug": "introducing-gemini-3-5-flash-cyber",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+      "category": "News",
+      "date": "2026-07-17T15:00:11.000Z",
+      "image": "https://lh3.googleusercontent.com/esSD0-kSrZ8K07XxNkSKL3OGlcx1Cf3M-qiQut0q_vArHMiK2L1CpUIGVkjuQrhu_m0g8UMVflVQpDp7VFAJSubDdCjSXsPJPDeK-PUtaPbqA8W1=w528-h297-n-nu-rw-lo",
+      "title": {
+        "en": "Introducing Gemini 3.5 Flash Cyber",
+        "th": "ขอแนะนำ Gemini 3.5 Flash Cyber"
+      },
+      "summary": {
+        "en": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
+        "th": "Google เปิดตัว Gemini 3.5 Flash Cyber ​​ซึ่งเป็นโมเดลความปลอดภัยทางไซเบอร์แบบน้ำหนักเบาเพื่อค้นหาและแก้ไขช่องโหว่"
       }
     },
     {
@@ -2549,40 +2583,6 @@
       "summary": {
         "en": "Google DeepMind is transforming the mouse pointer into a context-aware AI partner. Move beyond the friction of traditional prompting with intuitive AI collaboration in Chrome and beyond.",
         "th": "Google DeepMind กำลังเปลี่ยนตัวชี้เมาส์ให้เป็นพันธมิตร AI ที่รับรู้บริบท ก้าวไปไกลกว่าอุปสรรคของการแจ้งเตือนแบบเดิมๆ ด้วยการทำงานร่วมกันของ AI ที่ใช้งานง่ายใน Chrome และที่อื่นๆ"
-      }
-    },
-    {
-      "id": "deepmind__gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable",
-      "slug": "gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
-      "category": "News",
-      "date": "2026-03-26T15:23:35.000Z",
-      "image": "https://lh3.googleusercontent.com/X3xXSd8ns-IojsGTjvadPFyaBWT5bBGhubcQd_WSiIgQ9bESUPceaHtfOxwgYzwv3P-Gtz2r3sWs-1XFB5X72HuTMbVz30hqJCKOxBaQdq1Oq6895A=w528-h297-n-nu-rw-lo",
-      "title": {
-        "en": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
-        "th": "Gemini 3.1 Flash Live: ทำให้ AI เสียงเป็นธรรมชาติและเชื่อถือได้มากขึ้น"
-      },
-      "summary": {
-        "en": "Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise.",
-        "th": "โมเดลเสียงล่าสุดของเราได้รับการปรับปรุงความแม่นยำและเวลาแฝงที่ลดลง เพื่อให้การโต้ตอบด้วยเสียงราบรื่น เป็นธรรมชาติ และแม่นยำยิ่งขึ้น"
-      }
-    },
-    {
-      "id": "deepmind__protecting-people-from-harmful-manipulation",
-      "slug": "protecting-people-from-harmful-manipulation",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/protecting-people-from-harmful-manipulation/",
-      "category": "News",
-      "date": "2026-03-25T16:46:20.000Z",
-      "image": "https://lh3.googleusercontent.com/IH7SOCSd4lrXu8YVkyRw45zg4Jc__pHM0SJlbDssVL3_5XjYGVYE1jt8DCiPgM9JGdwmdO_gYnQ4-QIo2l9Rz04l7KK4jAbsdAyWLriTV-iOC2_Y3bI=w528-h297-n-nu-rw-lo",
-      "title": {
-        "en": "Protecting people from harmful manipulation",
-        "th": "การปกป้องผู้คนจากการยักย้ายที่เป็นอันตราย"
-      },
-      "summary": {
-        "en": "Google DeepMind researches AI's harmful manipulation risks across areas like finance and health, leading to new safety measures.",
-        "th": "Google DeepMind ค้นคว้าความเสี่ยงในการจัดการที่เป็นอันตรายของ AI ในด้านต่างๆ เช่น การเงินและสุขภาพ ซึ่งนำไปสู่มาตรการความปลอดภัยใหม่"
       }
     }
   ]

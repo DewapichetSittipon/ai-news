@@ -1,0 +1,574 @@
+{
+  "id": "deepmind__introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber",
+  "slug": "introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+  "category": "News",
+  "date": "2026-07-21T15:16:30.000Z",
+  "image": null,
+  "title": {
+    "en": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+    "th": "ขอแนะนำ Gemini 3.6 Flash, 3.5 Flash-Lite และ 3.5 Flash Cyber"
+  },
+  "summary": {
+    "en": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+    "th": "เรากำลังเปิดตัวโมเดล Gemini ใหม่ รวมถึง Gemini 3.6 Flash, 3.5 Flash-Lite และ 3.5 Flash Cyber"
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "นวัตกรรมและเอไอ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Models & research",
+        "th": "แบบจำลองและการวิจัย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini Models",
+        "th": "โมเดลราศีเมถุน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jul 21, 2026",
+        "th": "21 กรกฎาคม 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our newest Gemini models deliver the efficiency, latency, and reliability to build AI agents at scale.",
+        "th": "โมเดล Gemini ใหม่ล่าสุดของเรามอบประสิทธิภาพ เวลาแฝง และความน่าเชื่อถือในการสร้างตัวแทน AI ในวงกว้าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Tulsee Doshi",
+        "th": "ทุลซี โดชิ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Senior Director, Product Management, on behalf of the Gemini team",
+        "th": "ผู้อำนวยการอาวุโสฝ่ายบริหารผลิตภัณฑ์ ในนามของทีม Gemini"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5_3-6_3-5-Cyber__key-art.width-200.format-webp.webp",
+      "alt": "a hero image saying 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Developers and customers building production AI agents need higher token efficiency, lower latency, and more reliable performance. Our Flash series of models is built to meet the sweet spot of efficiency and quality to enable scaling agentic workflows. Building on Gemini 3.5 Flash, we’re introducing new Gemini models:",
+        "th": "นักพัฒนาและลูกค้าที่สร้างตัวแทน AI ที่ใช้งานจริงต้องการประสิทธิภาพโทเค็นที่สูงขึ้น เวลาแฝงที่ต่ำกว่า และประสิทธิภาพที่เชื่อถือได้มากขึ้น โมเดล Flash ซีรีส์ของเราสร้างขึ้นเพื่อตอบสนองความต้องการด้านประสิทธิภาพและคุณภาพเพื่อให้สามารถปรับขนาดเวิร์กโฟลว์เอเจนต์ได้ ด้วยการสร้างบน Gemini 3.5 Flash เรากำลังเปิดตัวโมเดล Gemini ใหม่:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "3.6 Flash: Our workhorse model that delivers better coding, knowledge work, and multimodal performance. According to the Artificial Analysis Index, it reduces output token usage by 17% compared to 3.5 Flash, and in some benchmarks like DeepSWE by Datacurve, we observe up to 65%, all at a lower cost per output token.",
+        "th": "3.6 Flash: โมเดลการทำงานของเราที่ให้การเขียนโค้ด งานความรู้ และประสิทธิภาพการทำงานหลายรูปแบบที่ดีขึ้น ตามดัชนีการวิเคราะห์ประดิษฐ์ จะลดการใช้โทเค็นเอาต์พุตลง 17% เมื่อเทียบกับ 3.5 Flash และในการวัดประสิทธิภาพบางอย่าง เช่น DeepSWE โดย Datacurve เราสังเกตเห็นได้มากถึง 65% ทั้งหมดนี้มีราคาต่อโทเค็นเอาต์พุตที่ต่ำกว่า"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "3.5 Flash-Lite: Our fastest, most cost-effective 3.5-class model, delivering 350 output tokens per second according to the Artificial Analysis Index, also significantly outperforming prior Flash-Lite generations in agentic workflows.",
+        "th": "3.5 Flash-Lite: โมเดล 3.5 คลาสที่เร็วและคุ้มค่าที่สุดของเรา ให้เอาต์พุตโทเค็น 350 โทเค็นต่อวินาทีตามดัชนีการวิเคราะห์ประดิษฐ์ อีกทั้งยังมีประสิทธิภาพเหนือกว่า Flash-Lite รุ่นก่อนๆ อย่างมากในเวิร์กโฟลว์เอเจนต์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "3.5 Flash Cyber in CodeMender: Successful cybersecurity applications require careful orchestration of a model alongside an agent infrastructure. We’re introducing a combination of a new, highly efficient, specialized cyber-focused model paired with our CodeMender code security agent that delivers competitive performance at the frontier.",
+        "th": "3.5 Flash Cyber ​​ใน CodeMender: แอปพลิเคชันรักษาความปลอดภัยทางไซเบอร์ที่ประสบความสำเร็จจำเป็นต้องมีการประสานโมเดลอย่างระมัดระวังควบคู่ไปกับโครงสร้างพื้นฐานของเอเจนต์ เรากำลังเปิดตัวการผสมผสานของโมเดลใหม่ที่มุ่งเน้นในโลกไซเบอร์โดยเฉพาะที่มีประสิทธิภาพสูง โดยจับคู่กับเอเจนต์ความปลอดภัยโค้ด CodeMender ของเราที่ให้ประสิทธิภาพการแข่งขันในระดับแนวหน้า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Beyond today’s releases, Gemini 3.5 Pro is currently testing with partners and we plan to make it broadly available as soon as it’s ready. In parallel, our team is already focusing on building the next generation of models. We have started our most ambitious pre-training run yet, for Gemini 4, and are excited by the progress.",
+        "th": "นอกเหนือจากการเปิดตัวในวันนี้ Gemini 3.5 Pro กำลังทดสอบกับพันธมิตรและเราวางแผนที่จะเปิดให้ใช้งานในวงกว้างทันทีที่พร้อม ในขณะเดียวกัน ทีมงานของเรากำลังมุ่งเน้นไปที่การสร้างแบบจำลองรุ่นต่อไปอยู่แล้ว เราได้เริ่มต้นการฝึกซ้อมก่อนการฝึกซ้อมที่ทะเยอทะยานที่สุดสำหรับ Gemini 4 และรู้สึกตื่นเต้นกับความคืบหน้า"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "3.6 Flash: More efficient and better quality than 3.5 Flash",
+        "th": "3.6 Flash: มีประสิทธิภาพและคุณภาพดีกว่า 3.5 Flash"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini 3.6 Flash builds directly on developer and customer feedback from 3.5 Flash. 3.6 Flash not only delivers a step up in coding and knowledge work, but it does this while meaningfully improving token efficiency. For example, on the Artificial Analysis Index, we see 3.6 Flash consuming 17% fewer output tokens than 3.5 Flash. It also takes fewer reasoning steps and tool calls to accomplish multi-step workflows.",
+        "th": "Gemini 3.6 Flash สร้างโดยตรงจากความคิดเห็นของนักพัฒนาและลูกค้าจาก 3.5 Flash 3.6 Flash ไม่เพียงแต่ยกระดับการเขียนโค้ดและงานความรู้เท่านั้น แต่ยังช่วยปรับปรุงประสิทธิภาพของโทเค็นอย่างมีความหมายอีกด้วย ตัวอย่างเช่น ใน Artificial Analysis Index เราพบว่า 3.6 Flash ใช้โทเค็นเอาต์พุตน้อยกว่า 3.5 Flash ถึง 17% นอกจากนี้ยังใช้ขั้นตอนการให้เหตุผลและการเรียกใช้เครื่องมือน้อยลงเพื่อให้เวิร์กโฟลว์หลายขั้นตอนบรรลุผลสำเร็จ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This enhanced efficiency is also combined with a lower price than 3.5 Flash. At $1.50/1M input tokens and $7.50/1M output tokens, 3.6 Flash reduces the overall cost per agentic task, making agents more cost-effective to build and run.",
+        "th": "ประสิทธิภาพที่เพิ่มขึ้นนี้ยังรวมกับราคาที่ต่ำกว่า 3.5 Flash ด้วยโทเค็นอินพุต 1.50 ดอลลาร์/1 ล้านดอลลาร์ และโทเค็นเอาท์พุต 7.50 ดอลลาร์/ 1 ล้าน 3.6 Flash ช่วยลดต้นทุนโดยรวมต่องานเอเจนต์ ทำให้เอเจนต์คุ้มค่าในการสร้างและดำเนินการมากขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.6 Flash shows better token efficiency and reduced verbosity than 3.5 Flash in an OSWorld verified task (API)",
+        "th": "3.6 Flash แสดงประสิทธิภาพของโทเค็นที่ดีกว่าและลดการใช้คำฟุ่มเฟือยมากกว่า 3.5 Flash ในงาน OSWorld ที่ตรวจสอบแล้ว (API)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Even while being more efficient, 3.6 Flash sees performance gains compared to 3.5 Flash across use cases:",
+        "th": "แม้จะมีประสิทธิภาพมากกว่า 3.6 Flash ก็ยังเห็นประสิทธิภาพที่เพิ่มขึ้นเมื่อเทียบกับ 3.5 Flash ในกรณีการใช้งานต่างๆ:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "3.6 Flash delivers higher precision with fewer unwanted code edits and reduced execution loops, as seen in DeepSWE (49% vs. 37%), and shows significant improvement in ML Research, as seen in MLE Bench (63.9% vs. 49.7%).",
+        "th": "3.6 Flash มอบความแม่นยำที่สูงขึ้นด้วยการแก้ไขโค้ดที่ไม่ต้องการน้อยลง และลดลูปการดำเนินการ ดังที่เห็นใน DeepSWE (49% เทียบกับ 37%) และแสดงให้เห็นถึงการปรับปรุงที่สำคัญใน ML Research ดังที่เห็นใน MLE Bench (63.9% เทียบกับ 49.7%)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "It has improved computer use capabilities as seen in OSWorld-Verified (83.0% vs. 78.4%). Computer use is now a built-in client side tool via the Gemini API and Gemini Enterprise.",
+        "th": "มีการปรับปรุงความสามารถในการใช้งานคอมพิวเตอร์ดังที่เห็นใน OSWorld-Verified (83.0% เทียบกับ 78.4%) ขณะนี้การใช้คอมพิวเตอร์เป็นเครื่องมือฝั่งไคลเอ็นต์ในตัวผ่าน Gemini API และ Gemini Enterprise"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "It outperforms 3.5 Flash in knowledge work, as shown by benchmarks like GDPval-AA v2 (1421 vs. 1349). Customers like Hebbia and Harvey have found it particularly capable at multimodal tasks like document parsing, chart and data analysis, and report drafting.",
+        "th": "มันมีประสิทธิภาพเหนือกว่า 3.5 Flash ในงานความรู้ ดังที่แสดงโดยการวัดประสิทธิภาพ เช่น GDPval-AA v2 (1421 เทียบกับ 1349) ลูกค้าเช่น Hebbia และ Harvey พบว่ามีความสามารถพิเศษในงานหลายรูปแบบ เช่น การแยกวิเคราะห์เอกสาร การวิเคราะห์แผนภูมิและข้อมูล และการร่างรายงาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.6 Flash, using Managed Agents on AIS, can help parse through and analyze financial data and transcripts more efficiently and accurately than 3.5 Flash (AIS)",
+        "th": "3.6 Flash โดยใช้ Managed Agent บน AIS สามารถช่วยแยกวิเคราะห์ข้อมูลทางการเงินและ Transcript ได้อย่างมีประสิทธิภาพและแม่นยำกว่า 3.5 Flash (AIS)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.6 Flash executes code migrations,using multi-agent orchestration on AGY, with lower latency and higher quality than 3.5 Flash (AGY)",
+        "th": "3.6 Flash ดำเนินการย้ายโค้ดโดยใช้การประสานหลายเอเจนต์บน AGY โดยมีเวลาแฝงต่ำกว่าและคุณภาพสูงกว่า 3.5 Flash (AGY)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.6 Flash helps develop a photographic texture extractor for 3D workflows, using canvas (Gemini App)",
+        "th": "3.6 Flash ช่วยพัฒนาเครื่องมือแยกพื้นผิวภาพถ่ายสำหรับเวิร์กโฟลว์ 3 มิติโดยใช้ Canvas (แอป Gemini)"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-6-flash__evals__figure-.width-1200.format-webp.webp",
+      "alt": "chart"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-6-flash__evals__quality.width-1200.format-webp.webp",
+      "alt": "chart"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Customers report 3.6 Flash is a step forward in both cost and quality, balancing token efficiency, accuracy, and speed across complex workflows and knowledge-based tasks:",
+        "th": "ลูกค้ารายงานว่า 3.6 Flash เป็นการก้าวไปข้างหน้าทั้งในด้านต้นทุนและคุณภาพ โดยสร้างสมดุลระหว่างประสิทธิภาพของโทเค็น ความแม่นยำ และความรวดเร็วในขั้นตอนการทำงานที่ซับซ้อนและงานบนฐานความรู้:"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-6__testimonial-figma__ke.width-100.format-webp_NHSX5TW.webp",
+      "alt": "Quote from Figma"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-6__testimonial-harvey__k.width-100.format-webp_LYvvm1L.webp",
+      "alt": "Quote from Harvey"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-6__testimonial-hebbia__k.width-100.format-webp_UIh1200.webp",
+      "alt": "Quote from Hebbia"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-6__testimonial-jetbrains.width-100.format-webp_xEv9X02.webp",
+      "alt": "Quote from JetBrains"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Built with safety",
+        "th": "สร้างขึ้นด้วยความปลอดภัย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.6 Flash is shipping with enhanced Frontier Safety safeguards in the domains of Chemical, Biological, Radiological, and Nuclear (CBRN) and cyber offense misuses. These safeguards make the model substantially more resistant to jailbreaks. At the same time, the model has been trained to minimize refusals for beneficial uses.",
+        "th": "3.6 Flash จัดส่งพร้อมการป้องกัน Frontier Safety ที่ได้รับการปรับปรุงในขอบเขตของการใช้สารเคมี ชีวภาพ รังสีวิทยา และนิวเคลียร์ (CBRN) และการใช้งานในทางที่ผิดทางไซเบอร์ การป้องกันเหล่านี้ทำให้โมเดลมีความทนทานต่อการเจลเบรกมากขึ้นอย่างมาก ในเวลาเดียวกัน โมเดลนี้ได้รับการฝึกอบรมเพื่อลดการปฏิเสธการใช้งานที่เป็นประโยชน์ให้เหลือน้อยที่สุด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For more information, see the 3.6 Flash model card.",
+        "th": "สำหรับข้อมูลเพิ่มเติม โปรดดูการ์ดโมเดล 3.6 Flash"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "3.5 Flash-Lite: Built to scale agentic workflows",
+        "th": "3.5 Flash-Lite: สร้างขึ้นเพื่อปรับขนาดเวิร์กโฟลว์เอเจนต์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Beyond Flash, we’re also releasing Gemini 3.5 Flash-Lite, designed for both low-latency tasks and tasks where high throughput is critical for developers workflows, like agentic search and document processing.",
+        "th": "นอกเหนือจาก Flash แล้ว เรายังเปิดตัว Gemini 3.5 Flash-Lite ซึ่งได้รับการออกแบบมาสำหรับทั้งงานที่มีเวลาแฝงต่ำและงานที่ปริมาณงานสูงเป็นสิ่งสำคัญสำหรับเวิร์กโฟลว์ของนักพัฒนา เช่น การค้นหาแบบเอเจนต์และการประมวลผลเอกสาร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.5 Flash-Lite is the fastest model in the 3.5 series. As measured by Artificial Analysis, it runs at 350 output tokens/s. Priced at $0.3/1M input tokens and $2.5/1M output tokens and with significantly better quality than 3.1 Flash-Lite, 3.5 Flash-Lite offers a strong price-to-performance ratio for developers and customers running high throughput production traffic.",
+        "th": "3.5 Flash-Lite เป็นรุ่นที่เร็วที่สุดในซีรีส์ 3.5 ตามที่วัดโดยการวิเคราะห์ประดิษฐ์ จะทำงานที่โทเค็นเอาท์พุต 350 โทเค็น/วินาที ด้วยราคาโทเค็นอินพุต 0.3 ดอลลาร์/1 ล้านดอลลาร์ และโทเค็นเอาท์พุต 2.5 ดอลลาร์/ 1 ล้านดอลลาร์ และด้วยคุณภาพที่ดีกว่า 3.1 Flash-Lite อย่างมาก 3.5 Flash-Lite จึงมอบอัตราส่วนราคาต่อประสิทธิภาพที่แข็งแกร่งสำหรับนักพัฒนาและลูกค้าที่ใช้งานปริมาณข้อมูลการผลิตที่มีปริมาณการประมวลผลสูง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.5 Flash-Lite executes high volume tasks at a lower latency than 3.5 Flash.",
+        "th": "3.5 Flash-Lite รันงานปริมาณมากโดยมีเวลาแฝงต่ำกว่า 3.5 Flash"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.5 Flash-Lite enables efficient scaling for agentic systems. Across thinking levels, the model significantly outperforms 3.1 Flash-Lite. Depending on the workload, developers can configure the model to prioritize low-latency, low-cost execution for high-volume tasks with the minimal and low thinking levels, or engage higher thinking levels to process multi-step subagent workloads. The model now also has computer use as a built-in tool to reliably support these agentic tasks across surfaces.",
+        "th": "3.5 Flash-Lite ช่วยให้สามารถปรับขนาดระบบเอเจนต์ได้อย่างมีประสิทธิภาพ ในระดับความคิด แบบจำลองนี้มีประสิทธิภาพเหนือกว่า 3.1 Flash-Lite อย่างมาก นักพัฒนาสามารถกำหนดค่าโมเดลเพื่อจัดลำดับความสำคัญของการดำเนินการที่มีเวลาแฝงต่ำและมีค่าใช้จ่ายต่ำสำหรับงานที่มีปริมาณมากโดยมีระดับการคิดน้อยที่สุดและต่ำ หรือมีส่วนร่วมในระดับการคิดที่สูงขึ้นเพื่อประมวลผลเวิร์กโหลดของตัวแทนย่อยแบบหลายขั้นตอน ทั้งนี้ขึ้นอยู่กับปริมาณงาน ขณะนี้โมเดลนี้ยังมีการใช้คอมพิวเตอร์เป็นเครื่องมือในตัวเพื่อรองรับงานเอเจนต์เหล่านี้บนทุกพื้นผิวได้อย่างน่าเชื่อถือ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It’s a significant step up in coding and agentic tasks as seen in Terminal-Bench 2.1 (54% vs 31%), long context as seen in GDM-MRCR v2 (72.2% vs. 60.1%), and real-world task execution as seen in GDPval-AA v2 (1140 vs. 642).",
+        "th": "นับเป็นก้าวสำคัญในงานเขียนโค้ดและเอเจนต์ที่เห็นใน Terminal-Bench 2.1 (54% เทียบกับ 31%) บริบทแบบยาวที่เห็นใน GDM-MRCR v2 (72.2% เทียบกับ 60.1%) และการดำเนินการในโลกแห่งความเป็นจริงตามที่เห็นใน GDPval-AA v2 (1140 เทียบกับ 642)"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-flash-lite__evals__co.width-1200.format-webp.webp",
+      "alt": "chart"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In fact, on many agentic and coding evals, 3.5 Flash-Lite even outperforms 3 Flash, including on SWE-Bench Pro (54.2% vs. 49.6%) and OSWorld-Verified (74.0% vs. 65.1%), making it a faster & more capable option for workloads on both 2.5 and 3 Flash.",
+        "th": "ในความเป็นจริง ในการประเมินเอเจนต์และการเข้ารหัสหลายๆ รายการ 3.5 Flash-Lite มีประสิทธิภาพเหนือกว่า 3 Flash อีกด้วย ซึ่งรวมถึง SWE-Bench Pro (54.2% เทียบกับ 49.6%) และ OSWorld-Verified (74.0% เทียบกับ 65.1%) ทำให้เป็นตัวเลือกที่รวดเร็วและมีความสามารถมากขึ้นสำหรับปริมาณงานบน Flash ทั้ง 2.5 และ 3"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-flash-lite__evals__co.width-1200.format-webp_TEfcucF.webp",
+      "alt": "chart"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.5 Flash-Lite extracts product features from a massive e-commerce dataset and synthesizes it.",
+        "th": "3.5 Flash-Lite แยกคุณลักษณะของผลิตภัณฑ์จากชุดข้อมูลอีคอมเมิร์ซขนาดใหญ่และสังเคราะห์ข้อมูลดังกล่าว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Working alongside 3.6 Flash as the master agent, 3.5 Flash-Lite instantly generates 25 unique, ready-to-explore web design concepts.",
+        "th": "เมื่อทำงานร่วมกับ 3.6 Flash ในฐานะตัวแทนหลัก 3.5 Flash-Lite จะสร้างแนวคิดการออกแบบเว็บที่มีเอกลักษณ์และพร้อมสำหรับการสำรวจ 25 รายการในทันที"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.5 Flash-Lite can scale receipt translation and summarization with its multimodal understanding.",
+        "th": "3.5 Flash-Lite สามารถปรับขนาดการแปลใบเสร็จรับเงินและการสรุปด้วยความเข้าใจหลายรูปแบบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.5 Flash-Lite builds a game by instantly generating and iterating through multiple options.",
+        "th": "3.5 Flash-Lite สร้างเกมโดยการสร้างและวนซ้ำทันทีผ่านตัวเลือกต่างๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Early customers of 3.5 Flash-Lite are highlighting its unique combination of speed, intelligence, and cost efficiency for scaling agentic workflows and data processing tasks:",
+        "th": "ลูกค้ากลุ่มแรกๆ ของ 3.5 Flash-Lite เน้นย้ำถึงการผสมผสานที่เป็นเอกลักษณ์ระหว่างความเร็ว ความชาญฉลาด และความคุ้มค่าในการปรับขนาดเวิร์กโฟลว์เอเจนต์และงานประมวลผลข้อมูล:"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-flash-lite__testimonia.width-100.format-webp.webp",
+      "alt": "Quote from Ashler"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-flash-lite__testimonia.width-100.format-webp_CdSRKRm.webp",
+      "alt": "Quote from Palo Alto Networks"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-flash-lite__testimonia.width-100.format-webp_dgscSYO.webp",
+      "alt": "Quote from Ramp"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For more information about the model, see the 3.5 Flash-Lite model card.",
+        "th": "สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรุ่นนี้ โปรดดูการ์ดรุ่น 3.5 Flash-Lite"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "3.5 Flash Cyber in CodeMender: finding and fixing vulnerabilities efficiently",
+        "th": "3.5 Flash Cyber ​​ใน CodeMender: ค้นหาและแก้ไขช่องโหว่อย่างมีประสิทธิภาพ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "AI models have become capable of finding security vulnerabilities faster than current systems can fix them. Tackling this growing threat requires an approach to securing software that is highly capable and efficient.",
+        "th": "โมเดล AI สามารถค้นหาช่องโหว่ด้านความปลอดภัยได้เร็วกว่าระบบปัจจุบันที่สามารถแก้ไขได้ การจัดการกับภัยคุกคามที่กำลังเติบโตนี้ต้องใช้แนวทางในการรักษาความปลอดภัยซอฟต์แวร์ที่มีความสามารถและประสิทธิภาพสูง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Flash’s performance and efficiency makes it an ideal foundation to detect, validate, and patch code security issues at scale. Gemini 3.5 Flash Cyber is built on top of 3.5 Flash, and fine-tuned for finding and fixing cybersecurity vulnerabilities at a lower price per token than larger models.",
+        "th": "ประสิทธิภาพและประสิทธิภาพของ Flash ทำให้ Flash เป็นรากฐานที่ดีในการตรวจจับ ตรวจสอบ และปัญหาด้านความปลอดภัยของโค้ดแพตช์ในวงกว้าง Gemini 3.5 Flash Cyber ​​สร้างขึ้นจาก Flash 3.5 และได้รับการปรับแต่งอย่างละเอียดเพื่อค้นหาและแก้ไขช่องโหว่ด้านความปลอดภัยทางไซเบอร์ในราคาต่อโทเค็นที่ต่ำกว่ารุ่นที่มีขนาดใหญ่กว่า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Within CodeMender, which uses multiple 3.5 Flash Cyber agents working together to produce a single combined report, 3.5 Flash Cyber reaches competitive performance at the frontier on the popular benchmark CyberGym.",
+        "th": "ภายใน CodeMender ซึ่งใช้เอเจนต์ 3.5 Flash Cyber ​​หลายตัวทำงานร่วมกันเพื่อสร้างรายงานรวมเพียงชุดเดียว 3.5 Flash Cyber ​​เข้าถึงประสิทธิภาพการแข่งขันในระดับแนวหน้าของ CyberGym ซึ่งเป็นเกณฑ์มาตรฐานยอดนิยม"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-flash-cyber__evals__c.width-1200.format-webp.webp",
+      "alt": "chart"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Given the dual-use nature of this technology, we have taken an intentional approach to deploying 3.5 Flash Cyber. The model will be exclusively available to governments and trusted partners via CodeMender soon as part of a limited-access pilot program. This will give frontline defenders a head start in finding and fixing critical vulnerabilities before they can be exploited, while mitigating against broader misuse.",
+        "th": "เมื่อพิจารณาถึงลักษณะการใช้งานแบบคู่ของเทคโนโลยีนี้ เราได้ใช้แนวทางโดยเจตนาในการปรับใช้ 3.5 Flash Cyber โมเดลดังกล่าวจะพร้อมให้ใช้งานได้เฉพาะกับรัฐบาลและพันธมิตรที่เชื่อถือได้ผ่าน CodeMender เร็วๆ นี้ โดยเป็นส่วนหนึ่งของโครงการนำร่องที่จำกัดการเข้าถึง สิ่งนี้จะช่วยให้กองหลังแนวหน้าได้เปรียบในการค้นหาและแก้ไขช่องโหว่ที่สำคัญก่อนที่จะถูกนำไปใช้ประโยชน์ ขณะเดียวกันก็บรรเทาผลกระทบจากการใช้งานในทางที่ผิดในวงกว้าง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "3.6 Flash and 3.5 Flash-Lite: Get started today",
+        "th": "3.6 Flash และ 3.5 Flash-Lite: เริ่มต้นวันนี้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.6 Flash and 3.5 Flash-Lite are available starting today:",
+        "th": "3.6 Flash และ 3.5 Flash-Lite พร้อมใช้งานตั้งแต่วันนี้:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For developers in the Gemini API via Google AI Studio and Android Studio. 3.6 Flash is also available in Google Antigravity. Get started with the Developer Guide.",
+        "th": "สำหรับนักพัฒนาใน Gemini API ผ่าน Google AI Studio และ Android Studio 3.6 Flash ยังมีอยู่ใน Google Antigravity เริ่มต้นใช้งานคู่มือนักพัฒนา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For enterprises in Gemini Enterprise Agent Platform. 3.6 Flash is also available in the Gemini Enterprise app.",
+        "th": "สำหรับองค์กรใน Gemini Enterprise Agent Platform 3.6 Flash ยังมีให้บริการในแอป Gemini Enterprise"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For everyone via the Gemini app. 3.5 Flash-Lite is also rolling out in Google Search.",
+        "th": "สำหรับทุกคนผ่านแอป Gemini 3.5 Flash-Lite กำลังเปิดตัวใน Google Search เช่นกัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As you start building with 3.6 Flash and 3.5 Flash-Lite, we welcome your feedback to improve future Gemini models and look forward to releasing 3.5 Pro soon.",
+        "th": "เมื่อคุณเริ่มสร้างด้วย 3.6 Flash และ 3.5 Flash-Lite เรายินดีรับฟังความคิดเห็นของคุณเพื่อปรับปรุงโมเดล Gemini ในอนาคต และหวังว่าจะเปิดตัว 3.5 Pro เร็วๆ นี้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get the latest news from Google in your inbox",
+        "th": "รับข่าวสารล่าสุดจาก Google ในกล่องจดหมายของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sign up for our newsletters with product updates, event information, special offers, and more.",
+        "th": "ลงทะเบียนรับจดหมายข่าวของเราพร้อมข้อมูลอัปเดตผลิตภัณฑ์ ข้อมูลกิจกรรม ข้อเสนอพิเศษ และอื่นๆ อีกมากมาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Done. Just one step more.",
+        "th": "เสร็จแล้ว. อีกเพียงก้าวเดียวเท่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check your inbox to confirm your subscription.",
+        "th": "ตรวจสอบกล่องจดหมายของคุณเพื่อยืนยันการสมัครของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also subscribe with a different email address.",
+        "th": "คุณสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your information will be used in accordance with Google's privacy policy. You may opt out at any time.",
+        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google คุณสามารถเลือกไม่รับได้ตลอดเวลา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini models",
+        "th": "โมเดลราศีเมถุน"
+      }
+    }
+  ]
+}

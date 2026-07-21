@@ -1,0 +1,225 @@
+{
+  "id": "deepmind__introducing-gemini-3-5-flash-cyber",
+  "slug": "introducing-gemini-3-5-flash-cyber",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+  "category": "News",
+  "date": "2026-07-17T15:00:11.000Z",
+  "image": "https://lh3.googleusercontent.com/esSD0-kSrZ8K07XxNkSKL3OGlcx1Cf3M-qiQut0q_vArHMiK2L1CpUIGVkjuQrhu_m0g8UMVflVQpDp7VFAJSubDdCjSXsPJPDeK-PUtaPbqA8W1=w528-h297-n-nu-rw-lo",
+  "title": {
+    "en": "Introducing Gemini 3.5 Flash Cyber",
+    "th": "ขอแนะนำ Gemini 3.5 Flash Cyber"
+  },
+  "summary": {
+    "en": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
+    "th": "Google เปิดตัว Gemini 3.5 Flash Cyber ​​ซึ่งเป็นโมเดลความปลอดภัยทางไซเบอร์แบบน้ำหนักเบาเพื่อค้นหาและแก้ไขช่องโหว่"
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "Raluca Ada Popa and Four Flynn",
+        "th": "ราลูกา อาดา โปปา และโฟร์ ฟลินน์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://lh3.googleusercontent.com/2SfaBZi2B77t3_nwlhziN5pvSi_icX_e1ZTzjad6m5rBFfQLKWVxDOb_TPjJXz-e_mn_vMaPBHaYPaAUzmfUt9DwpBiq_gCLWYnAmGFhhLU9huogog=w1440-h810-n-nu",
+      "alt": "Graphic featuring the text \"Gemini 3.5 Flash Cyber\" alongside a colorful star logo and a blurred blue shield on a light blue background."
+    },
+    {
+      "type": "img",
+      "src": "https://lh3.googleusercontent.com/i-ViYMZJGGDbTc1e07cMiCHuUxrQhPhTjO-yTQVRFxKLDl9FFB9RtvXQiKbUc8Z5WUMiGZyS_wYvm1lG809O08WRiGR2-r2TBMjRKo7XSfWieUt_9A=w1440-h810-n-nu",
+      "alt": "Graphic featuring the text \"Gemini 3.5 Flash Cyber\" alongside a colorful star logo and a blurred blue shield on a black background."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Google has invested in cybersecurity for years, pioneering automated vulnerability discovery to secure the world’s codebases. Tools like CodeMender, our code security agent, can automatically find and fix critical software vulnerabilities. But as AI agents become more capable at finding vulnerabilities faster than defenders can fix them, addressing this global threat requires a highly capable, affordable, and scalable approach.",
+        "th": "Google ลงทุนในความปลอดภัยทางไซเบอร์มานานหลายปี โดยเป็นผู้บุกเบิกการค้นพบช่องโหว่แบบอัตโนมัติเพื่อรักษาความปลอดภัยให้กับฐานโค้ดของโลก เครื่องมืออย่าง CodeMender ซึ่งเป็นตัวแทนการรักษาความปลอดภัยของโค้ดของเรา สามารถค้นหาและแก้ไขช่องโหว่ของซอฟต์แวร์ที่สำคัญได้โดยอัตโนมัติ แต่เนื่องจากเจ้าหน้าที่ AI มีความสามารถในการค้นหาช่องโหว่ได้เร็วกว่าที่ผู้พิทักษ์จะสามารถแก้ไขได้ การจัดการกับภัยคุกคามระดับโลกนี้จึงต้องอาศัยแนวทางที่มีความสามารถสูง ราคาไม่แพง และปรับขนาดได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re expanding our longtime efforts to better prepare defenders by introducing Gemini 3.5 Flash Cyber, our lightweight cybersecurity model built on top of 3.5 Flash and fine-tuned to find, validate, and patch vulnerabilities quickly and efficient, making it more effective at these tasks than Gemini’s mainline Flash models.",
+        "th": "วันนี้ เรากำลังขยายความพยายามที่มีมายาวนานในการเตรียมกองหลังให้ดียิ่งขึ้นด้วยการเปิดตัว Gemini 3.5 Flash Cyber ​​ซึ่งเป็นโมเดลการรักษาความปลอดภัยทางไซเบอร์แบบน้ำหนักเบาของเราที่สร้างขึ้นบน 3.5 Flash และปรับแต่งอย่างละเอียดเพื่อค้นหา ตรวจสอบ และแก้ไขช่องโหว่ได้อย่างรวดเร็วและมีประสิทธิภาพ ทำให้มีประสิทธิภาพในงานเหล่านี้มากกว่าโมเดล Flash หลักของ Gemini"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Flash’s performance and efficiency makes it an ideal foundation for our cybersecurity model efforts. By building on top of Flash, 3.5 Flash Cyber offers a cost-efficient and highly capable alternative to large, costly cybersecurity models.",
+        "th": "ประสิทธิภาพและประสิทธิภาพของ Flash ทำให้ Flash เป็นรากฐานที่ดีเยี่ยมสำหรับความพยายามด้านโมเดลความปลอดภัยทางไซเบอร์ของเรา ด้วยการสร้างบน Flash ทำให้ 3.5 Flash Cyber ​​นำเสนอทางเลือกที่คุ้มค่าและมีความสามารถสูงแทนโมเดลความปลอดภัยทางไซเบอร์ขนาดใหญ่ที่มีราคาแพง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Given the dual-use nature of this technology, we have taken an intentional approach to how we deploy 3.5 Flash Cyber. As part of a limited-access pilot program, 3.5 Flash Cyber will be exclusively available to governments and trusted partners via CodeMender soon, expanding over time. This will give frontline defenders a head start in finding and fixing critical vulnerabilities before they can be exploited, while mitigating against broader misuse.",
+        "th": "เมื่อพิจารณาถึงลักษณะการใช้งานแบบคู่ของเทคโนโลยีนี้ เราได้ใช้แนวทางโดยเจตนาในการติดตั้งใช้งาน 3.5 Flash Cyber ในฐานะที่เป็นส่วนหนึ่งของโครงการนำร่องที่จำกัดการเข้าถึง 3.5 Flash Cyber ​​จะพร้อมใช้งานเฉพาะสำหรับรัฐบาลและพันธมิตรที่เชื่อถือได้ผ่านทาง CodeMender เร็วๆ นี้ และจะขยายออกไปตามกาลเวลา สิ่งนี้จะช่วยให้กองหลังแนวหน้าได้เปรียบในการค้นหาและแก้ไขช่องโหว่ที่สำคัญก่อนที่จะถูกนำไปใช้ประโยชน์ ขณะเดียวกันก็บรรเทาผลกระทบจากการใช้งานในทางที่ผิดในวงกว้าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Separately, we're also bringing CodeMender's foundational capabilities directly to customers with generally available Gemini models through the Gemini Enterprise Agent Platform.",
+        "th": "นอกจากนี้ เรายังนำความสามารถพื้นฐานของ CodeMender มาสู่ลูกค้าโดยตรงด้วยโมเดล Gemini ที่มีจำหน่ายทั่วไปผ่าน Gemini Enterprise Agent Platform"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The search space problem: The advantage of lightweight models in code security",
+        "th": "ปัญหาพื้นที่การค้นหา: ข้อดีของโมเดลน้ำหนักเบาในการรักษาความปลอดภัยโค้ด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Finding deep-seated flaws requires exploring an immense execution search space. Relying on a single, expensive call to a massive language model can create a bottleneck. 3.5 Flash Cyber is particularly suitable for finding vulnerabilities where the agent has to scan a large codebase and analyze a large number of codepaths.",
+        "th": "การค้นหาข้อบกพร่องที่ฝังลึกจำเป็นต้องสำรวจพื้นที่ค้นหาการดำเนินการอันมหาศาล การใช้โมเดลภาษาจำนวนมากที่มีราคาแพงและมีราคาแพงเพียงครั้งเดียวสามารถสร้างปัญหาคอขวดได้ 3.5 Flash Cyber ​​เหมาะอย่างยิ่งสำหรับการค้นหาช่องโหว่ที่เอเจนต์ต้องสแกนโค้ดเบสขนาดใหญ่และวิเคราะห์โค้ดพาธจำนวนมาก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CodeMender invokes 3.5 Flash Cyber multiple times, so agents can analyze vastly more code paths to discover and validate vulnerabilities. The sub-agents then produce a single, high-quality report.",
+        "th": "CodeMender เรียกใช้ 3.5 Flash Cyber ​​หลายครั้ง ดังนั้นเจ้าหน้าที่จึงสามารถวิเคราะห์เส้นทางโค้ดได้มากขึ้นอย่างมากมายเพื่อค้นหาและตรวจสอบช่องโหว่ ตัวแทนย่อยจะจัดทำรายงานคุณภาพสูงเพียงฉบับเดียว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Thanks to its speed and affordability, 3.5 Flash Cyber can be easily integrated into frequent scans, time-sensitive launch processes or commit scanning pipelines at scale.",
+        "th": "ด้วยความเร็วและความสามารถในการจ่าย 3.5 Flash Cyber ​​จึงสามารถรวมเข้ากับการสแกนบ่อยครั้ง กระบวนการเปิดตัวที่คำนึงถึงเวลา หรือกำหนดขั้นตอนการสแกนในวงกว้างได้อย่างง่ายดาย"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "3.5 Flash Cyber benchmark results: an efficient alternative to larger cybersecurity models",
+        "th": "3.5 ผลลัพธ์การวัดประสิทธิภาพ Flash Cyber: ทางเลือกที่มีประสิทธิภาพแทนโมเดลความปลอดภัยทางไซเบอร์ที่ใหญ่กว่า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We tested 3.5 Flash Cyber on a variety of benchmarks. In particular, we tested 3.5 Flash Cyber on the CyberGym benchmark, which evaluates AI agents against hundreds of real-world software vulnerabilities. Leveraging the low cost of 3.5 Flash Cyber by configuring CodeMender to call 3.5 Flash Cyber up to five times for a single, final report, the overall agent achieved competitive performance against significantly larger models on CyberGym*.",
+        "th": "เราทดสอบ 3.5 Flash Cyber ​​กับการวัดประสิทธิภาพที่หลากหลาย โดยเฉพาะอย่างยิ่ง เราได้ทดสอบ 3.5 Flash Cyber ​​บนเกณฑ์มาตรฐาน CyberGym ซึ่งประเมินตัวแทน AI เทียบกับช่องโหว่ของซอฟต์แวร์ในโลกแห่งความเป็นจริงหลายร้อยรายการ ด้วยการใช้ประโยชน์จาก 3.5 Flash Cyber ​​ที่มีต้นทุนต่ำโดยการกำหนดค่า CodeMender ให้เรียก 3.5 Flash Cyber ​​สูงสุดห้าครั้งสำหรับรายงานขั้นสุดท้ายเพียงฉบับเดียว ตัวแทนโดยรวมจึงได้รับประสิทธิภาพที่แข่งขันได้เมื่อเทียบกับรุ่นที่มีขนาดใหญ่กว่าอย่างมากบน CyberGym*"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "*Competitor results are sourced from provider self-reported scores",
+        "th": "*ผลลัพธ์ของคู่แข่งมาจากคะแนนที่ผู้ให้บริการรายงานด้วยตนเอง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We also stress-tested the model’s capabilities beyond CyberGym without safety guardrails. Google’s Big Sleep team independently built an evaluation focused on finding critical and hard to find vulnerabilities in some of the world’s most complex codebases like Chrome and Safari. Here, 3.5 Flash Cyber significantly surpassed mainline 3.5 Flash and 3.6 Flash.",
+        "th": "นอกจากนี้เรายังได้ทดสอบขีดความสามารถของโมเดลนอกเหนือจาก CyberGym โดยไม่มีราวกั้นเพื่อความปลอดภัย ทีม Big Sleep ของ Google ได้สร้างการประเมินโดยอิสระโดยมุ่งเน้นที่การค้นหาช่องโหว่ที่สำคัญและหายากในโค้ดเบสที่ซับซ้อนที่สุดในโลก เช่น Chrome และ Safari ที่นี่ 3.5 Flash Cyber ​​แซงหน้า mainline 3.5 Flash และ 3.6 Flash อย่างมีนัยสำคัญ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.5 Flash Cyber was also evaluated on Google Chrome’s production commit scanning pipeline. The vulnerabilities were not publicly disclosed, which ensured this benchmark remained free of contamination for Gemini and competitor models.",
+        "th": "3.5 Flash Cyber ​​ยังได้รับการประเมินในไปป์ไลน์การสแกนคอมมิตการผลิตของ Google Chrome ช่องโหว่ดังกล่าวไม่ได้รับการเปิดเผยต่อสาธารณะ ซึ่งทำให้มั่นใจได้ว่าเกณฑ์มาตรฐานนี้ยังคงปราศจากการปนเปื้อนสำหรับรุ่น Gemini และคู่แข่ง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The results showed a significant uplift from 3.5 Flash Cyber compared to 3.5 Flash. Note: More recent competitor model versions after Opus 4.6 refuse to fulfill the tasks due to built-in safety guardrails, and therefore are not shown.",
+        "th": "ผลลัพธ์แสดงให้เห็นการเพิ่มขึ้นอย่างมีนัยสำคัญจาก 3.5 Flash Cyber ​​เมื่อเทียบกับ 3.5 Flash หมายเหตุ: เวอร์ชันล่าสุดของคู่แข่งหลังจาก Opus 4.6 ปฏิเสธที่จะทำงานให้เสร็จสิ้นเนื่องจากมีราวกั้นความปลอดภัยในตัว ดังนั้นจึงจะไม่แสดง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Moreover, 3.5 Flash Cyber consistently discovered more unique vulnerabilities compared with mainline 3.5 Flash and Claude Opus 4.6. When tested on the highly complex V8 JavaScript Engine across a fixed number of invocations, 3.5 Flash Cyber found 55 unique confirmed issues, compared to 47 found by mainline 3.5 Flash and 36 found by Opus 4.6, including 10 issues that the other two models tested did not catch.",
+        "th": "ยิ่งไปกว่านั้น 3.5 Flash Cyber ​​ยังค้นพบช่องโหว่ที่ไม่เหมือนใครมากขึ้นอย่างต่อเนื่องเมื่อเทียบกับ mainline 3.5 Flash และ Claude Opus 4.6 เมื่อทดสอบบน V8 JavaScript Engine ที่มีความซับซ้อนสูงในจำนวนการเรียกใช้ที่กำหนด 3.5 Flash Cyber ​​พบปัญหาที่ได้รับการยืนยันที่ไม่ซ้ำกัน 55 ปัญหา เทียบกับ 47 ปัญหาที่พบใน mainline 3.5 Flash และ 36 ปัญหาที่พบใน Opus 4.6 รวมถึง 10 ปัญหาที่อีกสองรุ่นที่ทดสอบตรวจไม่พบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Basic cybersecurity models can get stuck in a loop, finding the same issue repeatedly while missing critical vulnerabilities. A strong model casts a wider net, finding a higher number of unique issues.",
+        "th": "โมเดลการรักษาความปลอดภัยทางไซเบอร์ขั้นพื้นฐานอาจติดอยู่ในลูป โดยค้นหาปัญหาเดียวกันซ้ำๆ โดยไม่เกิดช่องโหว่ร้ายแรง โมเดลที่แข็งแกร่งจะสร้างเครือข่ายที่กว้างขึ้น โดยค้นหาปัญหาเฉพาะจำนวนที่สูงกว่า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As we scale the number of invocations, we find that 3.5 Flash Cyber continues to discover new code paths and vulnerabilities.",
+        "th": "เมื่อเราขยายจำนวนการเรียกใช้ เราพบว่า 3.5 Flash Cyber ​​ยังคงค้นพบเส้นทางโค้ดและช่องโหว่ใหม่ๆ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Real-world application and scaling defenses at Google",
+        "th": "การป้องกันแอปพลิเคชันและการขยายขนาดในโลกแห่งความเป็นจริงที่ Google"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Benchmarks are only part of the story. 3.5 Flash Cyber in CodeMender is already finding and fixing vulnerabilities in Google’s internal codebases including Chrome, Android, Cloud, Ads, and YouTube.",
+        "th": "เกณฑ์มาตรฐานเป็นเพียงส่วนหนึ่งของเรื่องราวเท่านั้น 3.5 Flash Cyber ​​ใน CodeMender กำลังค้นหาและแก้ไขช่องโหว่ในโค้ดเบสภายในของ Google รวมถึง Chrome, Android, Cloud, Ads และ YouTube"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The speed of discovery made possible by a lightweight model has delivered measurable impact.",
+        "th": "ความเร็วของการค้นพบที่เกิดขึ้นได้ด้วยโมเดลน้ำหนักเบานั้นให้ผลลัพธ์ที่วัดผลได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For example, Google’s Cloud Vulnerability Research team used 3.5 Flash Cyber to proactively secure our systems in record time. In just 2 hours, the model uncovered remote code execution vulnerabilities in public APIs and found a memory-corruption vulnerability in a sensitive production service. It then generated a 100% reliable remote-code execution exploit that bypassed standard mitigation techniques like Address Space Layout Randomization (ASLR) and Write XOR Execute (W^X) .",
+        "th": "ตัวอย่างเช่น ทีมวิจัยช่องโหว่บนคลาวด์ของ Google ใช้ 3.5 Flash Cyber ​​เพื่อรักษาความปลอดภัยเชิงรุกให้กับระบบของเราโดยใช้เวลาบันทึก ในเวลาเพียง 2 ชั่วโมง โมเดลดังกล่าวได้ค้นพบช่องโหว่ในการเรียกใช้โค้ดจากระยะไกลใน API สาธารณะ และพบช่องโหว่เกี่ยวกับความเสียหายของหน่วยความจำในบริการที่ใช้งานจริงที่มีความละเอียดอ่อน จากนั้นสร้างช่องโหว่การเรียกใช้โค้ดจากระยะไกลที่เชื่อถือได้ 100% ซึ่งข้ามเทคนิคการลดผลกระทบมาตรฐาน เช่น Address Space Layout Randomization (ASLR) และ Write XOR Execute (W^X)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Early feedback from Wiz and Cloud CISO Security Engineering testers confirms the significant capability improvement of 3.5 Flash Cyber over the mainline 3.5 Flash model.",
+        "th": "ผลตอบรับตั้งแต่เนิ่นๆ จากผู้ทดสอบ Wiz และ Cloud CISO Security Engineering ยืนยันถึงการปรับปรุงความสามารถที่สำคัญของ 3.5 Flash Cyber ​​เหนือรุ่น Mainline 3.5 Flash"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Empowering defenders at scale",
+        "th": "เสริมพลังให้กับกองหลังในวงกว้าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Google’s leadership in software security gives us a unique advantage. For example, OSV.dev, a vulnerability database run by Google spanning over 700,000 open-source vulnerabilities, and more than 10 years of OSS-Fuzz results, help us identify the most high quality vulnerabilities.",
+        "th": "ความเป็นผู้นำด้านความปลอดภัยของซอฟต์แวร์ของ Google ทำให้เรามีความได้เปรียบที่ไม่เหมือนใคร ตัวอย่างเช่น OSV.dev ซึ่งเป็นฐานข้อมูลช่องโหว่ที่ดำเนินการโดย Google ซึ่งครอบคลุมช่องโหว่โอเพ่นซอร์สมากกว่า 700,000 รายการ และผลลัพธ์จาก OSS-Fuzz มากกว่า 10 ปี ช่วยให้เราระบุช่องโหว่คุณภาพสูงที่สุดได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This allows us to move beyond synthetic cybersecurity examples and teach our models how real security professionals work. Our models learn to operate industry-standard tools, read through millions of lines of code in large-scale projects like Chromium, and independently tackle complex security tasks that require hours of continuous, deep analysis.",
+        "th": "สิ่งนี้ช่วยให้เราก้าวไปไกลกว่าตัวอย่างความปลอดภัยทางไซเบอร์สังเคราะห์ และสอนโมเดลของเราว่าผู้เชี่ยวชาญด้านความปลอดภัยที่แท้จริงทำงานอย่างไร โมเดลของเราเรียนรู้การใช้งานเครื่องมือมาตรฐานอุตสาหกรรม อ่านโค้ดหลายล้านบรรทัดในโครงการขนาดใหญ่ เช่น Chromium และจัดการกับงานรักษาความปลอดภัยที่ซับซ้อนอย่างอิสระซึ่งต้องใช้เวลาหลายชั่วโมงในการวิเคราะห์เชิงลึกอย่างต่อเนื่อง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By powering CodeMender with 3.5 Flash Cyber, we’re providing a highly capable, scalable, and affordable architecture designed to help more defenders secure software.",
+        "th": "ด้วยการขับเคลื่อน CodeMender ด้วย 3.5 Flash Cyber ​​เราจึงมอบสถาปัตยกรรมที่มีความสามารถสูง ปรับขนาดได้ และราคาไม่แพง ซึ่งออกแบบมาเพื่อช่วยให้ผู้ปกป้องซอฟต์แวร์มีความปลอดภัยมากขึ้น"
+      }
+    }
+  ]
+}

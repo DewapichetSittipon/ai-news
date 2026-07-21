@@ -1,0 +1,595 @@
+{
+  "id": "huggingface__state-of-simulation-for-physical-ai",
+  "slug": "state-of-simulation-for-physical-ai",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+  "category": "News",
+  "date": "2026-07-21T20:00:27.000Z",
+  "image": null,
+  "title": {
+    "en": "The State of Simulation for Physical AI: An Overview",
+    "th": "สถานะของการจำลองสำหรับ AI ทางกายภาพ: ภาพรวม"
+  },
+  "summary": {
+    "en": "The State of Simulation for Physical AI: An Overview",
+    "th": "สถานะของการจำลองสำหรับ AI ทางกายภาพ: ภาพรวม"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6998e66d2f5b7c034b75ea8b/edpVKFV97HT1epiCbeGGr.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6994dc99f850a10f03fd0b21/pFu0WOu97JHFXISsHsz6f.jpeg",
+      "alt": "Johnny Nuñez Cano's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "alt": "NVIDIA's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/658e083904cd2b7fd5f530d6/IzW8YE0Ui8P-_Qds0u-Lx.jpeg",
+      "alt": "Mitesh Patel's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "alt": "NVIDIA's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/69bb43c53823efb06022a02e/whnqlhLgFwNwnlj_P54aP.jpeg",
+      "alt": "Asier Arranz's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "alt": "NVIDIA's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65563ac2b3bb6c3a41848a25/uNWRP2kDE2vMOFBIDYJAv.jpeg",
+      "alt": "lior ben horin's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "alt": "NVIDIA's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6998e66d2f5b7c034b75ea8b/edpVKFV97HT1epiCbeGGr.jpeg",
+      "alt": "Raymond Lo's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "alt": "NVIDIA's avatar"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Why Simulation Which Simulation Engine Should I Use? MuJoCo MuJoCo Warp Isaac Sim Isaac Lab How Isaac Lab 3.0 Relates to Isaac Sim and Newton Modern GPU-Accelerated Physics for Robotics Newton Other Simulation Engines Conclusion Why Simulation",
+        "th": "เหตุใดการจำลองฉันจึงควรใช้เครื่องมือจำลองใด MuJoCo MuJoCo Warp Isaac Sim Isaac Lab Isaac Lab 3.0 เกี่ยวข้องกับ Isaac Sim และ Newton อย่างไร ฟิสิกส์ที่เร่งด้วย GPU สมัยใหม่สำหรับหุ่นยนต์ นิวตัน เอ็นจิ้นการจำลองอื่น ๆ บทสรุป ทำไมต้องจำลอง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why Simulation",
+        "th": "ทำไมต้องจำลอง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Which Simulation Engine Should I Use? MuJoCo MuJoCo Warp Isaac Sim Isaac Lab How Isaac Lab 3.0 Relates to Isaac Sim and Newton",
+        "th": "ฉันควรใช้เครื่องมือจำลองใด MuJoCo MuJoCo Warp Isaac Sim Isaac Lab Isaac Lab 3.0 เกี่ยวข้องกับ Isaac Sim และ Newton อย่างไร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "MuJoCo",
+        "th": "มูโจโค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "MuJoCo Warp",
+        "th": "มูโจโค วาร์ป"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Isaac Sim",
+        "th": "ไอแซค ซิม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Isaac Lab",
+        "th": "ไอแซค แล็บ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How Isaac Lab 3.0 Relates to Isaac Sim and Newton",
+        "th": "Isaac Lab 3.0 เกี่ยวข้องกับ Isaac Sim และ Newton อย่างไร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Modern GPU-Accelerated Physics for Robotics Newton Other Simulation Engines Conclusion",
+        "th": "ฟิสิกส์ที่เร่งด้วย GPU สมัยใหม่สำหรับหุ่นยนต์นิวตัน เอ็นจิ้นการจำลองอื่น ๆ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Newton",
+        "th": "นิวตัน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Other Simulation Engines",
+        "th": "เครื่องยนต์จำลองอื่น ๆ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Conclusion",
+        "th": "บทสรุป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Figure 1: Humanoid robot locomotion simulation. The robot's pose is represented by tracked body keypoints (green markers), while successive robot instances illustrate its movement through time. Directional arrows indicate commanded motion, demonstrating the use of a physics-based simulation environment for training and evaluating robot locomotion and control policies.",
+        "th": "รูปที่ 1: การจำลองการเคลื่อนที่ของหุ่นยนต์ฮิวแมนนอยด์ ท่าทางของหุ่นยนต์จะแสดงด้วยจุดสำคัญของร่างกายที่ถูกติดตาม (เครื่องหมายสีเขียว) ในขณะที่ตัวอย่างหุ่นยนต์ที่ต่อเนื่องกันแสดงให้เห็นการเคลื่อนไหวตามเวลา ลูกศรทิศทางบ่งบอกถึงการเคลื่อนไหวที่ได้รับคำสั่ง สาธิตการใช้สภาพแวดล้อมจำลองตามฟิสิกส์สำหรับการฝึกอบรมและประเมินการเคลื่อนที่ของหุ่นยนต์และนโยบายการควบคุม"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/6994dc99f850a10f03fd0b21/Mg3Q_CTe3wrJr6GP_T-DF.gif",
+      "alt": "Humanoide"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The primary challenge in building physical AI systems is data availability. Large language models (LLMs) and vision-language models (VLMs) can be trained on internet-scale datasets, but robotics and physical AI systems do not have the same advantage. To train a physical AI system, a robot must learn the consequences of interacting with the physical world. For example, it needs to understand what happens when a cup slips, a cable bends, or a gripper contacts an object at the wrong angle.",
+        "th": "ความท้าทายหลักในการสร้างระบบ AI ทางกายภาพคือความพร้อมของข้อมูล โมเดลภาษาขนาดใหญ่ (LLM) และโมเดลภาษาการมองเห็น (VLM) สามารถฝึกได้บนชุดข้อมูลขนาดอินเทอร์เน็ต แต่หุ่นยนต์และระบบ AI ทางกายภาพไม่ได้มีข้อได้เปรียบเหมือนกัน ในการฝึกระบบ AI ทางกายภาพ หุ่นยนต์จะต้องเรียนรู้ผลที่ตามมาจากการมีปฏิสัมพันธ์กับโลกทางกายภาพ ตัวอย่างเช่น ต้องเข้าใจว่าจะเกิดอะไรขึ้นเมื่อถ้วยหลุด สายเคเบิลงอ หรือมือจับสัมผัสกับวัตถุในมุมที่ไม่ถูกต้อง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Collecting this kind of data in the real world is slow, expensive, risky, and sometimes impractical due to the destructive nature of the tasks. Simulation provides a bridge by enabling developers to generate large amounts of photorealistic, physically grounded data. By teleoperating robots in simulation and scaling data collection through GPU parallelism, developers can generate thousands of hours of robot experience at a fraction of the cost of real-world collection.",
+        "th": "การรวบรวมข้อมูลประเภทนี้ในโลกแห่งความเป็นจริงนั้นช้า มีราคาแพง มีความเสี่ยง และบางครั้งก็ทำไม่ได้เนื่องจากลักษณะของงานที่เป็นการทำลายล้าง การจำลองเป็นสะพานเชื่อมโดยช่วยให้นักพัฒนาสามารถสร้างข้อมูลทางกายภาพและเสมือนจริงจำนวนมากได้ ด้วยหุ่นยนต์ปฏิบัติการระยะไกลในการจำลองและปรับขนาดการรวบรวมข้อมูลผ่าน GPU ขนานกัน นักพัฒนาสามารถสร้างประสบการณ์หุ่นยนต์นับพันชั่วโมงด้วยต้นทุนเพียงเล็กน้อยในการเก็บรวบรวมในโลกแห่งความเป็นจริง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Earlier robotics simulators were often used primarily to debug geometry, test controllers, or visualize robot motion. Today, simulation has become part of the model development loop. Teams use it to generate perception datasets, train reinforcement learning policies, collect demonstrations, augment real-world data, benchmark models, and test policies against rare or adversarial scenarios. This shift is why industrial research labs and academic groups are increasingly contributing to, or developing, simulation engines that can meet these new requirements.",
+        "th": "เครื่องจำลองหุ่นยนต์รุ่นก่อนๆ มักใช้เพื่อตรวจแก้จุดบกพร่องทางเรขาคณิต ตัวควบคุมการทดสอบ หรือแสดงภาพการเคลื่อนไหวของหุ่นยนต์เป็นหลัก ปัจจุบัน การจำลองได้กลายมาเป็นส่วนหนึ่งของวงจรการพัฒนาโมเดล ทีมใช้เพื่อสร้างชุดข้อมูลการรับรู้ ฝึกอบรมนโยบายการเรียนรู้แบบเสริมกำลัง รวบรวมการสาธิต เพิ่มข้อมูลในโลกแห่งความเป็นจริง แบบจำลองเกณฑ์มาตรฐาน และนโยบายการทดสอบกับสถานการณ์ที่เกิดขึ้นไม่บ่อยหรือเป็นปฏิปักษ์ การเปลี่ยนแปลงนี้เป็นเหตุผลว่าทำไมห้องปฏิบัติการวิจัยอุตสาหกรรมและกลุ่มวิชาการจึงมีส่วนร่วมหรือพัฒนาเครื่องมือจำลองที่สามารถตอบสนองข้อกำหนดใหม่เหล่านี้ได้มากขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These requirements can be understood through a three-computer paradigm:",
+        "th": "ข้อกำหนดเหล่านี้สามารถเข้าใจได้ผ่านกระบวนทัศน์คอมพิวเตอร์สามเครื่อง:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Training computer: A large GPU cluster used to process data and train foundation AI models.",
+        "th": "คอมพิวเตอร์การฝึกอบรม: คลัสเตอร์ GPU ขนาดใหญ่ที่ใช้ในการประมวลผลข้อมูลและฝึกอบรมโมเดล AI พื้นฐาน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Simulation computer: A GPU workstation or cluster using GPU-accelerated physics and RTX rendering to generate robot experience, sensor data, and simulated interactions.",
+        "th": "คอมพิวเตอร์จำลอง: เวิร์กสเตชัน GPU หรือคลัสเตอร์ที่ใช้ฟิสิกส์ที่เร่งด้วย GPU และการเรนเดอร์ RTX เพื่อสร้างประสบการณ์หุ่นยนต์ ข้อมูลเซ็นเซอร์ และการโต้ตอบจำลอง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "On-robot computer: An edge device, such as a NVIDIA Jetson AGX Thor-class system, that runs the trained policy or model during deployment.",
+        "th": "คอมพิวเตอร์บนหุ่นยนต์: อุปกรณ์ Edge เช่น ระบบ NVIDIA Jetson AGX Thor-class ที่รันนโยบายหรือโมเดลที่ได้รับการฝึกอบรมในระหว่างการปรับใช้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Figure 2: A physical system (Earth and robot) continuously exchanges data with its virtual representation (digital model), enabling monitoring, analysis, prediction, and control through a bidirectional feedback loop.",
+        "th": "รูปที่ 2: ระบบทางกายภาพ (โลกและหุ่นยนต์) แลกเปลี่ยนข้อมูลอย่างต่อเนื่องด้วยการเป็นตัวแทนเสมือนจริง (โมเดลดิจิทัล) ช่วยให้สามารถตรวจสอบ วิเคราะห์ ทำนาย และควบคุมผ่านลูปป้อนกลับแบบสองทิศทาง"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/6994dc99f850a10f03fd0b21/DjwalbNws06-13MvI1f4h.png",
+      "alt": "earth"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each computer plays a different role depending on the task’s latency, throughput, accuracy, and deployment requirements.",
+        "th": "คอมพิวเตอร์แต่ละเครื่องมีบทบาทที่แตกต่างกันขึ้นอยู่กับเวลาแฝง ปริมาณงาน ความแม่นยำ และข้อกำหนดในการปรับใช้ของงาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Many simulation engines are available today, each targeting different use cases such as humanoid robots, aerial vehicles, ground robots, autonomous vehicles, quadrupeds, and dexterous manipulators. These engines also differ in their support for reinforcement learning, batched simulation, contact-rich physics, photorealistic rendering, and sensor simulation. Refer to Figure 2 for a categorization of simulation engines by robot domain and acceleration profile.",
+        "th": "ปัจจุบันมีเครื่องยนต์จำลองจำนวนมาก โดยแต่ละเครื่องมีเป้าหมายการใช้งานที่แตกต่างกัน เช่น หุ่นยนต์ฮิวแมนนอยด์ ยานพาหนะทางอากาศ หุ่นยนต์ภาคพื้นดิน ยานพาหนะอัตโนมัติ รถสี่ล้อ และผู้ควบคุมที่คล่องแคล่ว เอ็นจิ้นเหล่านี้ยังแตกต่างกันในการรองรับการเรียนรู้แบบเสริมแรง การจำลองแบบเป็นชุด ฟิสิกส์ที่มีการสัมผัสมาก การเรนเดอร์ภาพเสมือนจริง และการจำลองเซ็นเซอร์ อ้างถึงรูปที่ 2 สำหรับการแบ่งประเภทของเครื่องยนต์จำลองตามโดเมนหุ่นยนต์และโปรไฟล์การเร่งความเร็ว"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Which Simulation Engine Should I Use?",
+        "th": "ฉันควรใช้เครื่องมือจำลองใด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Developers often struggle with which simulation engine to use for the use case they are tackling. Oftentimes, this falls on a few fundamental questions, such as",
+        "th": "นักพัฒนามักจะประสบปัญหากับเครื่องมือจำลองที่จะใช้สำหรับกรณีการใช้งานที่พวกเขากำลังแก้ไข บ่อยครั้งสิ่งนี้มักเกิดจากคำถามพื้นฐานบางประการ เช่น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Do I need scalable synthetic data generation workflows?",
+        "th": "ฉันจำเป็นต้องมีเวิร์กโฟลว์การสร้างข้อมูลสังเคราะห์ที่ปรับขนาดได้หรือไม่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Do I need to do reinforcement learning?",
+        "th": "ฉันจำเป็นต้องเรียนแบบเสริมกำลังหรือไม่?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What kind of sensor support does a given simulation engine have?",
+        "th": "เครื่องยนต์จำลองนี้รองรับเซ็นเซอร์ประเภทใด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What kind of 3D asset formats does the simulation engine support?",
+        "th": "เครื่องจำลองรองรับรูปแบบเนื้อหา 3 มิติประเภทใด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What environmental fidelity and scale are required?",
+        "th": "จำเป็นต้องมีความเที่ยงตรงต่อสิ่งแวดล้อมและขนาดเท่าใด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These factors would help developers in deciding which simulation engine to use for their development needs.",
+        "th": "ปัจจัยเหล่านี้จะช่วยนักพัฒนาในการตัดสินใจเลือกเครื่องมือจำลองที่จะใช้สำหรับความต้องการในการพัฒนาของพวกเขา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "NVIDIA Isaac Sim and Isaac Lab, MuJoCo, PyBullet, Drake, and Genesis are some of the most popular simulation engines for humanoids and two-arm dexterous manipulation. Each of these simulation engines is unique to specific use cases such as scaling reinforcement learning, generating synthetic data, testing algorithms and/or models in simulation. Here we will provide a quick overview of MuJoCo, MuJoCo Warp, NVIDIA Isaac Sim, and Isaac Lab.",
+        "th": "NVIDIA Isaac Sim และ Isaac Lab, MuJoCo, PyBullet, Drake และ Genesis เป็นเอนจิ้นการจำลองที่ได้รับความนิยมมากที่สุดสำหรับหุ่นยนต์มนุษย์และการจัดการที่คล่องแคล่วด้วยสองแขน เอ็นจิ้นการจำลองแต่ละอันมีเอกลักษณ์เฉพาะสำหรับกรณีการใช้งานเฉพาะ เช่น การขยายขนาดการเรียนรู้การเสริมกำลัง การสร้างข้อมูลสังเคราะห์ อัลกอริธึมการทดสอบ และ/หรือแบบจำลองในการจำลอง ที่นี่เราจะให้ภาพรวมโดยย่อของ MuJoCo, MuJoCo Warp, NVIDIA Isaac Sim และ Isaac Lab"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "MuJoCo",
+        "th": "มูโจโค"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "MuJoCo, short for Multi-Joint dynamics with Contact, is a fast, accurate, open-source physics engine built mainly for robotics, biomechanics, reinforcement learning, control, and simulation of articulated systems. Unlike engines focused mostly on games or visual realism, MuJoCo is designed around precise dynamics, contact-rich motion, and model-based optimization. MuJoCo emphasizes speed, accuracy, and modeling power for systems where physical correctness matters.",
+        "th": "MuJoCo ย่อมาจาก Multi-Joint Dynamics with Contact เป็นเครื่องมือฟิสิกส์แบบโอเพ่นซอร์สที่รวดเร็ว แม่นยำ สร้างขึ้นสำหรับหุ่นยนต์ ชีวกลศาสตร์ การเรียนรู้การเสริมแรง การควบคุม และการจำลองระบบที่เชื่อมต่อกันเป็นหลัก ต่างจากเอนจิ้นที่เน้นไปที่เกมหรือความสมจริงของภาพเป็นส่วนใหญ่ MuJoCo ได้รับการออกแบบโดยอาศัยไดนามิกที่แม่นยำ การเคลื่อนไหวที่เน้นการสัมผัส และการเพิ่มประสิทธิภาพตามโมเดล MuJoCo เน้นความเร็ว ความแม่นยำ และพลังในการสร้างแบบจำลองสำหรับระบบที่ความถูกต้องทางกายภาพมีความสำคัญ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Figure 3: Robotic manipulator simulated in MuJoCo. The figure illustrates a multi-joint robotic arm with a parallel gripper operating in a physics-based simulation environment. MuJoCo is used to model the robot's dynamics, kinematics, and contact interactions, enabling the development and evaluation of motion planning, manipulation, and control algorithms prior to real-world deployment.",
+        "th": "รูปที่ 3: หุ่นยนต์ควบคุมที่จำลองใน MuJoCo รูปภาพนี้แสดงให้เห็นแขนหุ่นยนต์แบบหลายข้อต่อที่มีกริปเปอร์แบบขนานที่ทำงานในสภาพแวดล้อมการจำลองตามหลักฟิสิกส์ MuJoCo ถูกใช้เพื่อสร้างแบบจำลองไดนามิก จลนศาสตร์ และการโต้ตอบการสัมผัสของหุ่นยนต์ ช่วยให้สามารถพัฒนาและประเมินอัลกอริธึมการวางแผนการเคลื่อนไหว การจัดการ และการควบคุมก่อนที่จะนำไปใช้งานในโลกแห่งความเป็นจริง"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/6994dc99f850a10f03fd0b21/2l7V9gfY-F42p4pw7ita4.jpeg",
+      "alt": "franka"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "While MuJoCo is not always the best choice for photorealistic rendering or massive GPU-parallel simulation, but some of the core features that MuJoCo is well known for are a deterministic pipeline, well-defined inverse dynamics with contacts, strong contact modeling, and generalized-coordinate simulation.",
+        "th": "แม้ว่า MuJoCo จะไม่ใช่ตัวเลือกที่ดีที่สุดเสมอไปสำหรับการเรนเดอร์ภาพเสมือนจริงหรือการจำลอง GPU แบบขนานขนาดใหญ่ แต่คุณสมบัติหลักบางประการที่ MuJoCo เป็นที่รู้จักดีก็คือไปป์ไลน์ที่กำหนดขึ้นเอง ไดนามิกแบบผกผันที่กำหนดไว้อย่างดีพร้อมหน้าสัมผัส การสร้างแบบจำลองการสัมผัสที่แข็งแกร่ง และการจำลองพิกัดทั่วไป"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "MuJoCo Warp",
+        "th": "มูโจโค วาร์ป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "MuJoCo Warp, also called MJWarp, is a GPU-accelerated implementation of MuJoCo written in NVIDIA Warp, a Python framework for writing high-performance CUDA-accelerated differentiable kernels - tailored for robot learning and physics simulation.",
+        "th": "MuJoCo Warp หรือที่เรียกว่า MJWarp เป็นการปรับใช้ MuJoCo ที่เร่งด้วย GPU ซึ่งเขียนขึ้นใน NVIDIA Warp ซึ่งเป็นเฟรมเวิร์ก Python สำหรับการเขียนเคอร์เนลที่แตกต่างที่เร่งด้วย CUDA ประสิทธิภาพสูง ซึ่งปรับแต่งมาสำหรับการเรียนรู้หุ่นยนต์และการจำลองฟิสิกส์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It brings MuJoCo-style articulated-body physics, contact-rich simulation, and robot dynamics into a batched GPU setting, making it well suited for reinforcement learning and large-scale policy training. Compared with classic CPU MuJoCo, MJWarp is aimed more at throughput than single-step latency: it is designed to simulate many worlds in parallel, reduce CPU-GPU transfer bottlenecks, and scale contact-heavy robot tasks more efficiently for learning workloads.",
+        "th": "โดยนำฟิสิกส์ของร่างกายก้องสไตล์ MuJoCo การจำลองที่เน้นการสัมผัส และไดนามิกของหุ่นยนต์มาไว้ในการตั้งค่า GPU แบบแบตช์ ทำให้เหมาะอย่างยิ่งสำหรับการเรียนรู้แบบเสริมกำลังและการฝึกอบรมนโยบายขนาดใหญ่ เมื่อเปรียบเทียบกับ CPU MuJoCo แบบคลาสสิกแล้ว MJWarp มุ่งเป้าไปที่ปริมาณงานมากกว่าเวลาแฝงแบบขั้นตอนเดียว โดยได้รับการออกแบบมาเพื่อจำลองโลกหลายๆ ใบในแบบคู่ขนาน ลดปัญหาคอขวดในการถ่ายโอน CPU-GPU และปรับขนาดงานหุ่นยนต์ที่มีการสัมผัสหนักหน่วงได้อย่างมีประสิทธิภาพมากขึ้นสำหรับการเรียนรู้ปริมาณงาน"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Isaac Sim",
+        "th": "ไอแซค ซิม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Isaac Sim is an open-source robotics simulation framework built on NVIDIA Omniverse. It uses OpenUSD as its core scene and data layer, allowing robots, environments, sensors, materials, lighting, and physics properties to be represented as USD prims and schemas. Isaac Sim provides high-fidelity physics through PhysX, photorealistic RTX rendering, and robotics-focused sensor simulation for cameras, depth, lidar, radar, segmentation, and synthetic data generation workflows. It can ingest assets from CAD, URDF, MJCF, USD, and real-world reconstruction pipelines, enabling robots to be tested in realistic digital-twin environments.",
+        "th": "Isaac Sim เป็นเฟรมเวิร์กการจำลองหุ่นยนต์โอเพ่นซอร์สที่สร้างขึ้นบน NVIDIA Omniverse ใช้ OpenUSD เป็นฉากหลักและชั้นข้อมูล ทำให้หุ่นยนต์ สภาพแวดล้อม เซ็นเซอร์ วัสดุ แสง และคุณสมบัติทางฟิสิกส์สามารถแสดงเป็นไพรม์และสคีมาของ USD ได้ Isaac Sim นำเสนอฟิสิกส์ที่มีความเที่ยงตรงสูงผ่าน PhysX, การเรนเดอร์ RTX แบบเสมือนจริง และการจำลองเซ็นเซอร์ที่เน้นหุ่นยนต์สำหรับกล้อง ความลึก ไลดาร์ เรดาร์ การแบ่งส่วน และเวิร์กโฟลว์การสร้างข้อมูลสังเคราะห์ สามารถนำเข้าสินทรัพย์จาก CAD, URDF, MJCF, USD และไปป์ไลน์การฟื้นฟูในโลกแห่งความเป็นจริง ทำให้สามารถทดสอบหุ่นยนต์ในสภาพแวดล้อมแฝดดิจิทัลที่สมจริง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Isaac Lab",
+        "th": "ไอแซค แล็บ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "NVIDIA Isaac Lab 3.0 is an open-source, GPU-accelerated, agent-ready simulation framework for robot learning, designed to train and evaluate robot policies at scale. This direction supports agent-assisted workflows for building environments, tuning physics, debugging, profiling, sim-to-sim transfer, and sim-to-real deployment. Its modular manager-based and direct workflows support reinforcement learning, imitation learning, motion planning, data collection, and policy evaluation.",
+        "th": "NVIDIA Isaac Lab 3.0 เป็นเฟรมเวิร์กการจำลองแบบโอเพ่นซอร์สที่เร่งด้วย GPU และพร้อมสำหรับเอเจนต์สำหรับการเรียนรู้หุ่นยนต์ ออกแบบมาเพื่อฝึกและประเมินนโยบายหุ่นยนต์ในวงกว้าง ทิศทางนี้สนับสนุนเวิร์กโฟลว์ที่ได้รับความช่วยเหลือจากเอเจนต์สำหรับสภาพแวดล้อมการสร้าง การปรับฟิสิกส์ การดีบัก การสร้างโปรไฟล์ การถ่ายโอนจากซิมสู่ซิม และการปรับใช้จากซิมสู่จริง ขั้นตอนการทำงานโดยตรงที่อิงตามผู้จัดการแบบแยกส่วนสนับสนุนการเรียนรู้แบบเสริมกำลัง การเรียนรู้การเลียนแบบ การวางแผนการเคลื่อนไหว การรวบรวมข้อมูล และการประเมินนโยบาย"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "How Isaac Lab 3.0 Relates to Isaac Sim and Newton",
+        "th": "Isaac Lab 3.0 เกี่ยวข้องกับ Isaac Sim และ Newton อย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With Isaac Lab 3.0.0 - We have decoupled the Isaac Sim and omniverse dependency, and made Isaac Lab a lightweight, multi backend Robot learning framework.",
+        "th": "ด้วย Isaac Lab 3.0.0 - เราได้แยก Isaac Sim และการพึ่งพาทุกด้านออก และทำให้ Isaac Lab เป็นเฟรมเวิร์กการเรียนรู้ Robot แบ็กเอนด์น้ำหนักเบาและหลากหลาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The new architecture separates backend-specific code from the core Isaac Lab API. Developers can select to useIsaac Sim with PhysX and RTX rendering for photorealistic, sensor-rich workflows, or run light-weightheadless Newton physics for high-throughput simulation. Additionally, developers can add photoreal sensors via the standalone OVRTX renderer, or leverage the Newton renderer for vision-based RL tasks that require a very large number of environments.",
+        "th": "สถาปัตยกรรมใหม่แยกโค้ดเฉพาะแบ็กเอนด์ออกจากแกน Isaac Lab API นักพัฒนาสามารถเลือกใช้ Isaac Sim กับการเรนเดอร์ PhysX และ RTX สำหรับเวิร์กโฟลว์ที่สมจริงด้วยแสงและเต็มไปด้วยเซ็นเซอร์ หรือใช้ฟิสิกส์นิวตันไร้หัวน้ำหนักเบาสำหรับการจำลองที่มีปริมาณงานสูง นอกจากนี้ นักพัฒนายังสามารถเพิ่มเซ็นเซอร์ภาพถ่ายผ่านตัวเรนเดอร์ OVRTX แบบสแตนด์อโลน หรือใช้ประโยชน์จากตัวเรนเดอร์ Newton สำหรับงาน RL ตามการมองเห็นที่ต้องใช้สภาพแวดล้อมจำนวนมาก"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Modern GPU-Accelerated Physics for Robotics",
+        "th": "ฟิสิกส์ที่เร่งด้วย GPU สมัยใหม่สำหรับวิทยาการหุ่นยนต์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Modern robotics simulation frameworks are powered by numerical physics: rigid-body and soft-body dynamics, contact and friction models, joint constraints, actuators, sensors, and time integration. At each simulation step, the engine estimates how bodies move under forces, torques, collisions, gravity, constraints, and controller inputs. For robot learning, this physics must be fast, stable, repeatable, and scalable enough to run thousands of parallel environments, while also being accurate enough to transfer learned behavior from simulation to real robots. To address these, the Newton library is created.",
+        "th": "กรอบงานการจำลองหุ่นยนต์สมัยใหม่ขับเคลื่อนโดยฟิสิกส์เชิงตัวเลข: ไดนามิกของวัตถุแข็งและวัตถุอ่อน แบบจำลองการสัมผัสและแรงเสียดทาน ข้อจำกัดข้อต่อ แอคทูเอเตอร์ เซ็นเซอร์ และการบูรณาการเวลา ในแต่ละขั้นตอนการจำลอง เครื่องยนต์จะประเมินการเคลื่อนที่ของวัตถุภายใต้แรง แรงบิด การชน แรงโน้มถ่วง ข้อจำกัด และอินพุตของตัวควบคุม สำหรับการเรียนรู้ของหุ่นยนต์ ฟิสิกส์นี้จะต้องรวดเร็ว เสถียร ทำซ้ำได้ และปรับขนาดได้เพียงพอที่จะรันสภาพแวดล้อมคู่ขนานนับพัน ขณะเดียวกันก็แม่นยำเพียงพอที่จะถ่ายโอนพฤติกรรมที่เรียนรู้จากการจำลองไปยังหุ่นยนต์จริง เพื่อแก้ไขปัญหาเหล่านี้ ห้องสมุดนิวตันจึงถูกสร้างขึ้น"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Newton",
+        "th": "นิวตัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Newton is an open-source, GPU-accelerated, extensible, and differentiable physics engine developed by NVIDIA, Google DeepMind, and Disney Research, and managed through the Linux Foundation. It is built on NVIDIA Warp and OpenUSD, and it integrates MuJoCo Warp as a key physics backend. In the broader simulation ecosystem, Newton acts as a modern physics layer for robot learning frameworks such as Isaac Lab and MuJoCo Playground, giving researchers a path toward scalable, differentiable, simulator-agnostic physics. In Isaac Lab specifically, Newton is currently an active integration path, with the MuJoCo-Warp solver used as a primary focus for high-throughput robot-learning experiments. Figure showcases breakdown on how different application frameworks communicate with GPU accelerated physics libraries and simulation engines. Newton provides multiple solver implementations rather than prescribing one numerical method for every problem. SolverMuJoCo and SolverFeatherstone use generalized coordinates for articulated rigid-body systems. SolverSemiImplicit, SolverXPBD, and the SolverKamino use maximal-coordinate formulations. SolverVBD is an implicit solver supporting rigid bodies, particles, cloth, and soft bodies, although its joint support remains limited. SolverImplicitMPM targets particle-based continuum materials, while SolverStyle3D specializes in cloth simulation. Because capabilities differ between solvers—including support for articulations, deformable bodies, contacts, and differentiation—the appropriate solver depends on the physical system being modeled.",
+        "th": "นิวตันเป็นเอ็นจิ้นฟิสิกส์แบบโอเพ่นซอร์ส เร่งด้วย GPU ขยายได้ และหาความแตกต่างได้ พัฒนาโดย NVIDIA, Google DeepMind และ Disney Research และจัดการผ่าน Linux Foundation มันถูกสร้างขึ้นบน NVIDIA Warp และ OpenUSD และรวม MuJoCo Warp ให้เป็นแบ็กเอนด์หลักทางฟิสิกส์ ในระบบนิเวศการจำลองที่กว้างขึ้น นิวตันทำหน้าที่เป็นเลเยอร์ฟิสิกส์สมัยใหม่สำหรับเฟรมเวิร์กการเรียนรู้ของหุ่นยนต์ เช่น Isaac Lab และ MuJoCo Playground ช่วยให้นักวิจัยมีเส้นทางสู่ฟิสิกส์ที่ปรับขนาดได้ สร้างความแตกต่างได้ และไม่เชื่อเรื่องพระเจ้าด้วยการจำลอง โดยเฉพาะใน Isaac Lab ปัจจุบันนิวตันเป็นเส้นทางบูรณาการที่ใช้งานอยู่ โดยมีตัวแก้ปัญหา MuJoCo-Warp ที่ใช้เป็นจุดสนใจหลักสำหรับการทดลองการเรียนรู้หุ่นยนต์ที่มีปริมาณงานสูง รูปภาพแสดงรายละเอียดว่าเฟรมเวิร์กแอปพลิเคชันต่างๆ สื่อสารกับไลบรารีฟิสิกส์และกลไกการจำลองที่เร่งด้วย GPU อย่างไร นิวตันจัดให้มีการใช้ตัวแก้ปัญหาหลายอย่าง แทนที่จะกำหนดวิธีตัวเลขเพียงวิธีเดียวสำหรับทุกปัญหา SolverMuJoCo และ SolverFeatherstone ใช้พิกัดทั่วไปสำหรับระบบร่างกายแข็งเกร็ง SolverSemiImplicit, SolverXPBD และ SolverKamino ใช้สูตรพิกัดสูงสุด SolverVBD เป็นตัวแก้ปัญหาโดยนัยที่รองรับวัตถุที่แข็ง อนุภาค ผ้า และวัตถุที่อ่อนนุ่ม แม้ว่าการสนับสนุนข้อต่อยังคงมีจำกัด SolverImplicitMPM กำหนดเป้าหมายไปที่วัสดุต่อเนื่องที่ใช้อนุภาค ในขณะที่ SolverStyle3D เชี่ยวชาญในการจำลองผ้า เนื่องจากความสามารถที่แตกต่างกันระหว่างตัวแก้ปัญหา รวมถึงการรองรับข้อต่อ ส่วนที่เปลี่ยนรูปได้ การสัมผัส และการสร้างความแตกต่าง ตัวแก้ปัญหาที่เหมาะสมจึงขึ้นอยู่กับระบบทางกายภาพที่กำลังสร้างแบบจำลอง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Figure 4: The Newton Physics Engine is an open-source, GPU-accelerated simulation engine built upon NVIDIA Warp, designed for roboticists and simulation researchers.",
+        "th": "รูปที่ 4: Newton Physics Engine เป็นเอ็นจิ้นโอเพ่นซอร์สที่เร่งด้วย GPU ที่สร้างขึ้นบน NVIDIA Warp ซึ่งออกแบบมาสำหรับนักหุ่นยนต์และนักวิจัยด้านการจำลอง"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/6994dc99f850a10f03fd0b21/tXtjQgKuWSqBf495zdgfB.png",
+      "alt": "newton"
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Other Simulation Engines",
+        "th": "เครื่องยนต์จำลองอื่น ๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "PyBullet remains a useful CPU baseline for quick prototyping; DART and ODE are still Gazebo back-ends; Drake is the gold standard if you need contact-implicit trajectory optimisation and rigorous numerics rather than throughput. Each has a niche. None of them is the answer to “I need 4,096 humanoids on one GPU.”",
+        "th": "PyBullet ยังคงเป็นพื้นฐานของ CPU ที่มีประโยชน์สำหรับการสร้างต้นแบบอย่างรวดเร็ว DART และ ODE ยังคงเป็นแบ็กเอนด์ของ Gazebo Drake คือมาตรฐานทองคำ หากคุณต้องการเพิ่มประสิทธิภาพวิถีวิถีสัมผัสและตัวเลขที่เข้มงวด แทนที่จะต้องรับส่งข้อมูล แต่ละคนมีช่อง ไม่มีคำตอบใดที่ตอบโจทย์ “ฉันต้องการหุ่นยนต์ฮิวแมนนอยด์ 4,096 ตัวใน GPU ตัวเดียว”"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Conclusion",
+        "th": "บทสรุป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Robot simulation has quietly become one of the most important layers in the modern embodied AI stack. As models move from static datasets into physical interaction, the ability to generate high-quality, scalable, and diverse simulated experiences is no longer optional, it is foundational. Simulation is where policies are stress-tested, where data is amplified, and increasingly, where entire training pipelines begin.",
+        "th": "การจำลองหุ่นยนต์ได้กลายเป็นหนึ่งในเลเยอร์ที่สำคัญที่สุดในกลุ่ม AI ที่ทันสมัยอย่างเงียบๆ เมื่อแบบจำลองย้ายจากชุดข้อมูลแบบคงที่ไปสู่การโต้ตอบทางกายภาพ ความสามารถในการสร้างประสบการณ์จำลองคุณภาพสูง ปรับขนาดได้ และหลากหลายนั้นไม่ใช่ทางเลือกอีกต่อไป แต่เป็นพื้นฐาน การจำลองคือจุดที่นโยบายได้รับการทดสอบความเครียด ที่ซึ่งข้อมูลถูกขยาย และเพิ่มมากขึ้นเรื่อยๆ ซึ่งเป็นจุดที่กระบวนการฝึกอบรมทั้งหมดเริ่มต้นขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For a long time, the robot-simulator conversation has focused on \"which engine performs the fastest\" and for many workloads this statement still holds true. What we find more interesting in 2026 is a different question: which pieces of the stack are likely to become the shared infrastructure that different engines would build on top of? There is no definite answer out there yet but a few candidates seem plausible from where we sit. The ecosystem is fragmenting and recomposing into a layered stack, where different tools specialize, interoperate, and sometimes compete to define the abstractions others will build on.",
+        "th": "เป็นเวลานานแล้วที่การสนทนาระหว่างหุ่นยนต์-จำลองมุ่งเน้นไปที่ \"เครื่องยนต์ตัวใดที่ทำงานเร็วที่สุด\" และสำหรับปริมาณงานจำนวนมาก ข้อความนี้ยังคงเป็นจริง สิ่งที่เราพบว่าน่าสนใจมากขึ้นในปี 2569 คือคำถามที่แตกต่างออกไป: ชิ้นส่วนใดของสแต็กที่มีแนวโน้มว่าจะกลายเป็นโครงสร้างพื้นฐานที่ใช้ร่วมกันซึ่งเอ็นจิ้นต่างๆ จะสร้างทับด้วย ยังไม่มีคำตอบที่ชัดเจน แต่มีผู้สมัครบางคนที่ดูเป็นไปได้จากจุดที่เรานั่ง ระบบนิเวศกำลังแยกส่วนและจัดองค์ประกอบใหม่เป็นชั้นซ้อน โดยที่เครื่องมือต่างๆ มีความเชี่ยวชาญ ทำงานร่วมกัน และบางครั้งก็แข่งขันกันเพื่อกำหนดสิ่งที่เป็นนามธรรมที่ผู้อื่นจะสร้างต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "What we do feel confident saying is that an unusual amount of this work is being done in the open-source, openly governed, and available to anyone with a consumer GPU. A growing share of the core infrastructure physics engines, differentiable simulators, and training pipelines is emerging in the open, with open-source projects, open governance, and GPU-accessible tooling lowering the barrier to entry and accelerating iteration. That alone is worth celebrating, regardless of which engines you end up reaching for.",
+        "th": "สิ่งที่เรารู้สึกมั่นใจที่จะพูดก็คือ งานจำนวนที่ผิดปกตินี้กำลังดำเนินการในโอเพ่นซอร์ส มีการควบคุมอย่างเปิดเผย และสำหรับทุกคนที่มี GPU สำหรับผู้บริโภค ส่วนแบ่งที่เพิ่มขึ้นของกลไกฟิสิกส์โครงสร้างพื้นฐานหลัก เครื่องจำลองที่สร้างความแตกต่าง และไปป์ไลน์การฝึกอบรมกำลังเกิดขึ้นแบบเปิด โดยมีโปรเจ็กต์โอเพ่นซอร์ส การกำกับดูแลแบบเปิด และเครื่องมือที่เข้าถึง GPU ได้ ช่วยลดอุปสรรคในการเข้าสู่และเร่งการทำซ้ำ สิ่งเดียวที่ควรค่าแก่การเฉลิมฉลอง ไม่ว่าคุณจะเลือกซื้อเครื่องยนต์รุ่นใดก็ตาม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Looking Ahead: From Concepts to Practice",
+        "th": "มองไปข้างหน้า: จากแนวคิดสู่การปฏิบัติ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This article takes a step back to map that landscape in 2026: what exists, how the major engines relate, and why these shifts matter for anyone building in Physical AI. The next article in this series goes one layer deeper and looks at Warp and MuJoCo Warp itself, what it is, and how to drive it. From there, we will work our way up, and by the end of the series we will have a practical end-to-end robotics example, trained on a GPU using a software stack that did not exist two years ago.",
+        "th": "บทความนี้จะย้อนกลับไปสร้างแผนผังภูมิทัศน์ในปี 2026: สิ่งที่มีอยู่ กลไกหลักเกี่ยวข้องกันอย่างไร และเหตุใดการเปลี่ยนแปลงเหล่านี้จึงมีความสำคัญสำหรับทุกคนที่สร้างใน Physical AI บทความถัดไปในชุดนี้จะเจาะลึกลงไปอีกชั้นหนึ่งและดูที่ Warp และ MuJoCo Warp เองว่ามันคืออะไร และจะขับมันอย่างไร จากนั้น เราจะพยายามไต่ระดับ และในตอนท้ายของซีรีส์นี้ เราจะมีตัวอย่างหุ่นยนต์แบบ end-to-end ที่ใช้งานได้จริง ซึ่งได้รับการฝึกฝนบน GPU โดยใช้ชุดซอฟต์แวร์ที่ไม่มีอยู่เมื่อสองปีที่แล้ว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If you build something with the tools described here, whichever ones you pick, we would love to see it. Open an issue on any of the linked repositories, or reach out to us on Discord Nvidia Omniverse.",
+        "th": "หากคุณสร้างบางสิ่งด้วยเครื่องมือที่อธิบายไว้ที่นี่ ไม่ว่าคุณจะเลือกอันไหน เราก็อยากเห็นมัน เปิดปัญหาบนพื้นที่เก็บข้อมูลที่เชื่อมโยงหรือติดต่อเราที่ Discord Nvidia Omniverse"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Further Learning Resources",
+        "th": "แหล่งเรียนรู้เพิ่มเติม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Practical Implementation: If you want to go deeper alongside this series, you can follow NVIDIA’s SO-101 sim-to-real course, which walks through the full pipeline from simulation to physical deployment with Isaac Sim, Isaac Lab, and GR00T.",
+        "th": "การปฏิบัติจริง: หากคุณต้องการเจาะลึกควบคู่ไปกับซีรีส์นี้ คุณสามารถปฏิบัติตามหลักสูตร SO-101 จำลองสู่จริงของ NVIDIA ซึ่งดำเนินการผ่านขั้นตอนทั้งหมดตั้งแต่การจำลองไปจนถึงการใช้งานจริงด้วย Isaac Sim, Isaac Lab และ GR00T"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The Big Picture: For a broader view of the space, NVIDIA’s Physical AI learning paths provide structured guidance across simulation, robotics, and embodied AI workflows.",
+        "th": "ภาพใหญ่: สำหรับมุมมองที่กว้างขึ้นของพื้นที่ เส้นทางการเรียนรู้ Physical AI ของ NVIDIA จะให้คำแนะนำที่มีโครงสร้างสำหรับการจำลอง หุ่นยนต์ และเวิร์กโฟลว์ AI ที่รวบรวมไว้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More from this author",
+        "th": "เพิ่มเติมจากผู้เขียนคนนี้"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/6a45813c717ace23b8c3b562/9_7TYr_qt6fVauHKiFGh5.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Introducing Cosmos 3 Edge",
+        "th": "ขอแนะนำ Cosmos 3 Edge"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/67e44a92b96703c8b0e5a805/VGYINP_TZGLSkx2zW8uIa.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+        "th": "ปรับแต่งโมเดลวิดีโอและรูปภาพตามขนาดด้วย NVIDIA NeMo Automodel และ 🤗 ดิฟฟิวเซอร์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "ชุมชน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· ลงทะเบียนหรือเข้าสู่ระบบเพื่อแสดงความคิดเห็น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6998e66d2f5b7c034b75ea8b/edpVKFV97HT1epiCbeGGr.jpeg",
+      "alt": ""
+    }
+  ]
+}

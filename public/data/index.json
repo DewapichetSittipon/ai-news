@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-21T19:08:28.190Z",
+  "generatedAt": "2026-07-21T21:01:09.060Z",
   "items": [
+    {
+      "id": "huggingface__state-of-simulation-for-physical-ai",
+      "slug": "state-of-simulation-for-physical-ai",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "category": "News",
+      "date": "2026-07-21T20:00:27.000Z",
+      "image": null,
+      "title": {
+        "en": "The State of Simulation for Physical AI: An Overview",
+        "th": "สถานะของการจำลองสำหรับ AI ทางกายภาพ: ภาพรวม"
+      },
+      "summary": {
+        "en": "The State of Simulation for Physical AI: An Overview",
+        "th": "สถานะของการจำลองสำหรับ AI ทางกายภาพ: ภาพรวม"
+      }
+    },
     {
       "id": "openai__introducing-chatgpt-small-business-program",
       "slug": "introducing-chatgpt-small-business-program",
@@ -36,6 +53,40 @@
       }
     },
     {
+      "id": "openai__hugging-face-model-evaluation-security-incident",
+      "slug": "hugging-face-model-evaluation-security-incident",
+      "source": "openai",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "category": "Security",
+      "date": "2026-07-21T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+        "th": "OpenAI และ Hugging Face ร่วมมือกันเพื่อจัดการกับเหตุการณ์ด้านความปลอดภัยในระหว่างการประเมินแบบจำลอง"
+      },
+      "summary": {
+        "en": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+        "th": "OpenAI และ Hugging Face แบ่งปันการค้นพบในช่วงแรกจากเหตุการณ์ด้านความปลอดภัยระหว่างการประเมินโมเดล AI โดยเน้นความสามารถทางไซเบอร์ขั้นสูงและบทเรียนสำหรับผู้พิทักษ์"
+      }
+    },
+    {
+      "id": "openai__david-velez-robin-vince-join-openai-boards",
+      "slug": "david-velez-robin-vince-join-openai-boards",
+      "source": "openai",
+      "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+      "category": "Company",
+      "date": "2026-07-21T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+        "th": "David Vélez และ Robin Vince เข้าร่วมเป็นคณะกรรมการของ OpenAI Foundation และ OpenAI Group PBC"
+      },
+      "summary": {
+        "en": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
+        "th": "David Vélez และ Robin Vince เข้าร่วมเป็นคณะกรรมการของ OpenAI Foundation และ OpenAI Group PBC โดยนำความเป็นผู้นำระดับโลกในด้านการเงิน เทคโนโลยี และการกำกับดูแล"
+      }
+    },
+    {
       "id": "huggingface__grabette",
       "slug": "grabette",
       "source": "huggingface",
@@ -50,23 +101,6 @@
       "summary": {
         "en": "Grabette: an open system to record robot-manipulation data",
         "th": "Grabette: ระบบเปิดสำหรับบันทึกข้อมูลการจัดการหุ่นยนต์"
-      }
-    },
-    {
-      "id": "huggingface__cosmos3edge",
-      "slug": "cosmos3edge",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
-      "category": "News",
-      "date": "2026-07-20T15:58:51.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing Cosmos 3 Edge",
-        "th": "ขอแนะนำ Cosmos 3 Edge"
-      },
-      "summary": {
-        "en": "Introducing Cosmos 3 Edge",
-        "th": "ขอแนะนำ Cosmos 3 Edge"
       }
     },
     {
@@ -546,23 +580,6 @@
       }
     },
     {
-      "id": "openai__chatgpt-for-your-most-ambitious-work",
-      "slug": "chatgpt-for-your-most-ambitious-work",
-      "source": "openai",
-      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "category": "Product",
-      "date": "2026-07-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "ChatGPT is now a partner for your most ambitious work",
-        "th": "ChatGPT เป็นพันธมิตรสำหรับงานที่ทะเยอทะยานที่สุดของคุณแล้ว"
-      },
-      "summary": {
-        "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-        "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
-      }
-    },
-    {
       "id": "openai__gpt-5-6",
       "slug": "gpt-5-6",
       "source": "openai",
@@ -594,6 +611,23 @@
       "summary": {
         "en": "Details about the OpenAI Bio Bounty program",
         "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
+      }
+    },
+    {
+      "id": "openai__chatgpt-for-your-most-ambitious-work",
+      "slug": "chatgpt-for-your-most-ambitious-work",
+      "source": "openai",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "category": "Product",
+      "date": "2026-07-09T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "ChatGPT is now a partner for your most ambitious work",
+        "th": "ChatGPT เป็นพันธมิตรสำหรับงานที่ทะเยอทะยานที่สุดของคุณแล้ว"
+      },
+      "summary": {
+        "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+        "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
       }
     },
     {
@@ -801,23 +835,6 @@
       }
     },
     {
-      "id": "openai__australian-payments-plus",
-      "slug": "australian-payments-plus",
-      "source": "openai",
-      "url": "https://openai.com/index/australian-payments-plus",
-      "category": "News",
-      "date": "2026-07-07T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Australian Payments Plus moves faster with ChatGPT and Codex",
-        "th": "Australian Payments Plus เคลื่อนไหวเร็วขึ้นด้วย ChatGPT และ Codex"
-      },
-      "summary": {
-        "en": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-        "th": "ดูว่า Australian Payments Plus ใช้ ChatGPT Enterprise และ Codex เพื่อดำเนินการได้เร็วขึ้นผ่านความซับซ้อนในการชำระเงินได้อย่างไร AP+ ช่วยประหยัดเวลา ปรับปรุงคุณภาพ และให้ความสำคัญกับการตัดสินของมนุษย์"
-      }
-    },
-    {
       "id": "openai__mufg",
       "slug": "mufg",
       "source": "openai",
@@ -832,6 +849,23 @@
       "summary": {
         "en": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
         "th": "MUFG ใช้ ChatGPT Enterprise เพื่อสร้างองค์กรที่ขับเคลื่อนด้วย AI ปรับปรุงขั้นตอนการทำงาน และนำเสนอบริการทางการเงินที่ขับเคลื่อนด้วย AI ในวงกว้าง"
+      }
+    },
+    {
+      "id": "openai__australian-payments-plus",
+      "slug": "australian-payments-plus",
+      "source": "openai",
+      "url": "https://openai.com/index/australian-payments-plus",
+      "category": "News",
+      "date": "2026-07-07T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Australian Payments Plus moves faster with ChatGPT and Codex",
+        "th": "Australian Payments Plus เคลื่อนไหวเร็วขึ้นด้วย ChatGPT และ Codex"
+      },
+      "summary": {
+        "en": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+        "th": "ดูว่า Australian Payments Plus ใช้ ChatGPT Enterprise และ Codex เพื่อดำเนินการได้เร็วขึ้นผ่านความซับซ้อนในการชำระเงินได้อย่างไร AP+ ช่วยประหยัดเวลา ปรับปรุงคุณภาพ และให้ความสำคัญกับการตัดสินของมนุษย์"
       }
     },
     {
@@ -1141,6 +1175,23 @@
       }
     },
     {
+      "id": "openai__case-studies",
+      "slug": "case-studies",
+      "source": "openai",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "category": "News",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
+      },
+      "summary": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
+      }
+    },
+    {
       "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
       "slug": "core-dump-epidemiology-data-infrastructure-bug",
       "source": "openai",
@@ -1172,23 +1223,6 @@
       "summary": {
         "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
         "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
-      }
-    },
-    {
-      "id": "openai__case-studies",
-      "slug": "case-studies",
-      "source": "openai",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
-      "category": "News",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
-      },
-      "summary": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
       }
     },
     {
@@ -1614,40 +1648,6 @@
       "summary": {
         "en": "MosaicLeaks: Can your research agent keep a secret?",
         "th": "MosaicLeaks: เจ้าหน้าที่วิจัยของคุณสามารถเก็บความลับได้หรือไม่?"
-      }
-    },
-    {
-      "id": "openai__chatgpt-enterprise-spend-controls",
-      "slug": "chatgpt-enterprise-spend-controls",
-      "source": "openai",
-      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "category": "Product",
-      "date": "2026-06-18T17:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "New usage analytics and updated spend controls for enterprises",
-        "th": "การวิเคราะห์การใช้งานใหม่และการควบคุมการใช้จ่ายที่อัปเดตสำหรับองค์กร"
-      },
-      "summary": {
-        "en": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-        "th": "OpenAI เปิดตัวการควบคุมการใช้จ่ายและการวิเคราะห์การใช้งานใหม่สำหรับ ChatGPT Enterprise ช่วยให้องค์กรจัดการต้นทุนและปรับขนาด AI ได้อย่างมั่นใจ"
-      }
-    },
-    {
-      "id": "openai__improving-health-intelligence-in-chatgpt",
-      "slug": "improving-health-intelligence-in-chatgpt",
-      "source": "openai",
-      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "category": "Product",
-      "date": "2026-06-18T11:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Improving health intelligence in ChatGPT",
-        "th": "การปรับปรุงความฉลาดด้านสุขภาพใน ChatGPT"
-      },
-      "summary": {
-        "en": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
-        "th": "เรียนรู้ว่า GPT-5.5 Instant ปรับปรุงการตอบสนองด้านสุขภาพและความเป็นอยู่ที่ดีของ ChatGPT ด้วยเหตุผลที่ชัดเจนยิ่งขึ้น บริบทที่ดีขึ้น การสื่อสารที่ชัดเจนยิ่งขึ้น และการประเมินจากแพทย์ได้อย่างไร"
       }
     },
     {

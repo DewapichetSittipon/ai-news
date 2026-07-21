@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+272",
-        "th": "+272"
+        "en": "+274",
+        "th": "+274"
       }
     },
     {
@@ -728,6 +728,18 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/4ee5636cd9726b5b2d136030b95e33f9.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "why didn't you apply for trusted cyber access or similar program in advance? did you do any pentesting before (which would make you notice refusals earlier)? how was your incident response structured and tested? did you even have incident response protocols? why didn't they hit refusals?",
+        "th": "ทำไมคุณไม่สมัครรับการเข้าถึงทางไซเบอร์ที่เชื่อถือได้หรือโปรแกรมที่คล้ายกันล่วงหน้า คุณเคยทำการทดสอบใด ๆ มาก่อน (ซึ่งจะทำให้คุณสังเกตเห็นการปฏิเสธเร็วขึ้น)? การตอบสนองต่อเหตุการณ์ของคุณมีโครงสร้างและการทดสอบอย่างไร คุณมีระเบียบปฏิบัติในการตอบสนองต่อเหตุการณ์หรือไม่? ทำไมพวกเขาถึงไม่โดนปฏิเสธ?"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -797,8 +809,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+266",
-        "th": "+266"
+        "en": "+268",
+        "th": "+268"
       }
     }
   ]

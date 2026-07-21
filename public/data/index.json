@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-21T15:31:40.010Z",
+  "generatedAt": "2026-07-21T17:09:56.172Z",
   "items": [
+    {
+      "id": "openai__introducing-chatgpt-small-business-program",
+      "slug": "introducing-chatgpt-small-business-program",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "category": "AI Adoption",
+      "date": "2026-07-21T17:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing the ChatGPT for small business program",
+        "th": "ขอแนะนำโปรแกรม ChatGPT สำหรับธุรกิจขนาดเล็ก"
+      },
+      "summary": {
+        "en": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+        "th": "OpenAI เปิดตัวโปรแกรม ChatGPT สำหรับธุรกิจขนาดเล็ก ช่วยให้ผู้ประกอบการสร้างทักษะ AI ทำงานอัตโนมัติ และเติบโตไปพร้อมกับ ChatGPT Work"
+      }
+    },
     {
       "id": "deepmind__introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber",
       "slug": "introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber",
@@ -529,23 +546,6 @@
       }
     },
     {
-      "id": "openai__gpt-5-6",
-      "slug": "gpt-5-6",
-      "source": "openai",
-      "url": "https://openai.com/index/gpt-5-6",
-      "category": "Product",
-      "date": "2026-07-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "GPT-5.6: Frontier intelligence that scales with your ambition",
-        "th": "GPT-5.6: ความฉลาดระดับแนวหน้าที่จะปรับขนาดตามความทะเยอทะยานของคุณ"
-      },
-      "summary": {
-        "en": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-        "th": "ความชาญฉลาดที่มากขึ้นจากทุกโทเค็น ประสิทธิภาพที่แข็งแกร่งต่อดอลลาร์ และความสามารถที่มากขึ้นตามความต้องการสำหรับงานที่หนักที่สุดของคุณ"
-      }
-    },
-    {
       "id": "openai__chatgpt-for-your-most-ambitious-work",
       "slug": "chatgpt-for-your-most-ambitious-work",
       "source": "openai",
@@ -560,6 +560,23 @@
       "summary": {
         "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
         "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
+      }
+    },
+    {
+      "id": "openai__gpt-5-6",
+      "slug": "gpt-5-6",
+      "source": "openai",
+      "url": "https://openai.com/index/gpt-5-6",
+      "category": "Product",
+      "date": "2026-07-09T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "GPT-5.6: Frontier intelligence that scales with your ambition",
+        "th": "GPT-5.6: ความฉลาดระดับแนวหน้าที่จะปรับขนาดตามความทะเยอทะยานของคุณ"
+      },
+      "summary": {
+        "en": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+        "th": "ความชาญฉลาดที่มากขึ้นจากทุกโทเค็น ประสิทธิภาพที่แข็งแกร่งต่อดอลลาร์ และความสามารถที่มากขึ้นตามความต้องการสำหรับงานที่หนักที่สุดของคุณ"
       }
     },
     {
@@ -1498,23 +1515,6 @@
       }
     },
     {
-      "id": "openai__daybreak-securing-the-world",
-      "slug": "daybreak-securing-the-world",
-      "source": "openai",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "category": "Security",
-      "date": "2026-06-22T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Daybreak: Tools for securing every organization in the world",
-        "th": "Daybreak: เครื่องมือสำหรับการรักษาความปลอดภัยให้กับทุกองค์กรในโลก"
-      },
-      "summary": {
-        "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-        "th": "OpenAI เปิดตัวเครื่องมือ Daybreak ใหม่ รวมถึง Codex Security และ GPT-5.5-Cyber ​​เพื่อช่วยให้องค์กรค้นหา ตรวจสอบ และแก้ไขช่องโหว่ในวงกว้าง"
-      }
-    },
-    {
       "id": "openai__patch-the-planet",
       "slug": "patch-the-planet",
       "source": "openai",
@@ -1529,6 +1529,23 @@
       "summary": {
         "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
         "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
+      }
+    },
+    {
+      "id": "openai__daybreak-securing-the-world",
+      "slug": "daybreak-securing-the-world",
+      "source": "openai",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "category": "Security",
+      "date": "2026-06-22T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Daybreak: Tools for securing every organization in the world",
+        "th": "Daybreak: เครื่องมือสำหรับการรักษาความปลอดภัยให้กับทุกองค์กรในโลก"
+      },
+      "summary": {
+        "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+        "th": "OpenAI เปิดตัวเครื่องมือ Daybreak ใหม่ รวมถึง Codex Security และ GPT-5.5-Cyber ​​เพื่อช่วยให้องค์กรค้นหา ตรวจสอบ และแก้ไขช่องโหว่ในวงกว้าง"
       }
     },
     {
@@ -1631,23 +1648,6 @@
       "summary": {
         "en": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
         "th": "เรียนรู้ว่า GPT-5.5 Instant ปรับปรุงการตอบสนองด้านสุขภาพและความเป็นอยู่ที่ดีของ ChatGPT ด้วยเหตุผลที่ชัดเจนยิ่งขึ้น บริบทที่ดีขึ้น การสื่อสารที่ชัดเจนยิ่งขึ้น และการประเมินจากแพทย์ได้อย่างไร"
-      }
-    },
-    {
-      "id": "openai__diagnose-rare-childhood-diseases",
-      "slug": "diagnose-rare-childhood-diseases",
-      "source": "openai",
-      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "category": "Applied AI",
-      "date": "2026-06-18T08:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-        "th": "การใช้ AI เพื่อช่วยแพทย์วินิจฉัยโรคทางพันธุกรรมที่พบได้ยากที่ส่งผลต่อเด็ก"
-      },
-      "summary": {
-        "en": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-        "th": "นักวิจัยใช้แบบจำลองการใช้เหตุผลของ OpenAI เพื่อช่วยวินิจฉัยโรคหายาก โดยระบุการวินิจฉัยใหม่ 18 รายการในกรณีที่ยังไม่ได้รับการแก้ไขก่อนหน้านี้"
       }
     },
     {

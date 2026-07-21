@@ -254,7 +254,7 @@
     {
       "type": "p",
       "text": {
-        "en": "3.6 Flash executes code migrations,using multi-agent orchestration on AGY, with lower latency and higher quality than 3.5 Flash (AGY)",
+        "en": "3.6 Flash executes code migrations, using multi-agent orchestration on AGY, with lower latency and higher quality than 3.5 Flash (AGY)",
         "th": "3.6 Flash ดำเนินการย้ายโค้ดโดยใช้การประสานหลายเอเจนต์บน AGY โดยมีเวลาแฝงต่ำกว่าและคุณภาพสูงกว่า 3.5 Flash (AGY)"
       }
     },
@@ -263,6 +263,13 @@
       "text": {
         "en": "3.6 Flash helps develop a photographic texture extractor for 3D workflows, using canvas (Gemini App)",
         "th": "3.6 Flash ช่วยพัฒนาเครื่องมือแยกพื้นผิวภาพถ่ายสำหรับเวิร์กโฟลว์ 3 มิติโดยใช้ Canvas (แอป Gemini)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.6 Flash uses AGY and the tldraw offline editor to build interactive theme studios with its strong visual understanding skills (AGY).",
+        "th": "3.6 Flash ใช้ AGY และโปรแกรมแก้ไขออฟไลน์ tldraw เพื่อสร้างสตูดิโอธีมเชิงโต้ตอบพร้อมทักษะการเข้าใจภาพที่แข็งแกร่ง (AGY)"
       }
     },
     {
@@ -284,7 +291,7 @@
     },
     {
       "type": "img",
-      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-6__testimonial-figma__ke.width-100.format-webp_NHSX5TW.webp",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-6__testimonial-figma__ke.width-100.format-webp_fLGaXIs.webp",
       "alt": "Quote from Figma"
     },
     {

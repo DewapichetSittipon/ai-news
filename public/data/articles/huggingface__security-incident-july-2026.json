@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+338",
-        "th": "+338"
+        "en": "+366",
+        "th": "+366"
       }
     },
     {
@@ -540,10 +540,15 @@
       "alt": ""
     },
     {
+      "type": "img",
+      "src": "/avatars/fe84fc431920f8f6ccdc3a0219d8c5c1.svg",
+      "alt": ""
+    },
+    {
       "type": "li",
       "text": {
-        "en": "1 reply",
-        "th": "1 ตอบกลับ"
+        "en": "2 replies",
+        "th": "2 ตอบกลับ"
       }
     },
     {
@@ -672,10 +677,15 @@
       "alt": ""
     },
     {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/651574e31e7e8096c650b92c/LO-VBOAGQ_vB4kBr_ThVZ.png",
+      "alt": ""
+    },
+    {
       "type": "li",
       "text": {
-        "en": "2 replies",
-        "th": "2 ตอบกลับ"
+        "en": "3 replies",
+        "th": "3 ตอบกลับ"
       }
     },
     {
@@ -856,10 +866,15 @@
       "alt": ""
     },
     {
+      "type": "img",
+      "src": "/avatars/1e5443c5203aa3ecb9a7fe951f97a037.svg",
+      "alt": ""
+    },
+    {
       "type": "li",
       "text": {
-        "en": "1 reply",
-        "th": "1 ตอบกลับ"
+        "en": "2 replies",
+        "th": "2 ตอบกลับ"
       }
     },
     {
@@ -923,6 +938,75 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/ea9a65bca92968e41c79d594ca402c62.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One point worth noting: the OpenAI cyber models might have known those parts of your systems are exploitable because you had already shared your source code and used their models to code your environment. It might be the \"insider knowledge\".",
+        "th": "ประเด็นหนึ่งที่น่าสังเกต: โมเดลไซเบอร์ OpenAI อาจรู้ว่าส่วนต่างๆ ของระบบของคุณนั้นสามารถหาประโยชน์ได้ เนื่องจากคุณได้แชร์ซอร์สโค้ดของคุณแล้ว และใช้โมเดลเหล่านั้นเพื่อเขียนโค้ดสภาพแวดล้อมของคุณ อาจเป็น \"ความรู้ภายใน\""
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/71a099ee9dae434dc73e3d355aa9252e.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "I'm impressed by your ability to turn an exploit into a convincing advert.",
+        "th": "ฉันประทับใจในความสามารถของคุณในการเปลี่ยนการหาประโยชน์ให้กลายเป็นโฆษณาที่น่าเชื่อถือ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/1Yp81w2J8OBsuzrHcQoZu.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It's reassuring to see a transparent update on the July 2026 security incident. Responding quickly, investigating thoroughly, and communicating openly are the right steps, especially with such a sophisticated AI-driven attack. Hopefully the cinehd remaining assessment is completed soon and any affected users are informed promptly.",
+        "th": "มั่นใจได้ว่าจะเห็นการอัปเดตที่โปร่งใสเกี่ยวกับเหตุการณ์ด้านความปลอดภัยในเดือนกรกฎาคม 2026 การตอบสนองอย่างรวดเร็ว ตรวจสอบอย่างละเอียด และสื่อสารอย่างเปิดเผยเป็นขั้นตอนที่ถูกต้อง โดยเฉพาะอย่างยิ่งกับการโจมตีที่ขับเคลื่อนด้วย AI ที่ซับซ้อนเช่นนี้ หวังว่าการประเมินที่เหลืออยู่ของ cinehd จะเสร็จสิ้นในเร็วๆ นี้ และผู้ใช้ที่ได้รับผลกระทบจะได้รับแจ้งโดยทันที"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This is a serious reminder that even the most advanced AI infrastructure can become vulnerable when attackers find a weakness in the data-processing pipeline. 😮🔐 I appreciate the transparency in explaining how the intrusion happened, what systems were affected, and the exact steps taken afterward. Incidents like this show why regular security reviews, faster monitoring, and quick credential rotation are so important. Every organization can learn something valuable from this disclosure. 👏🛡️",
+        "th": "นี่เป็นการเตือนใจอย่างจริงจังว่าแม้แต่โครงสร้างพื้นฐาน AI ที่ทันสมัยที่สุดก็อาจกลายเป็นช่องโหว่ได้เมื่อผู้โจมตีพบจุดอ่อนในขั้นตอนการประมวลผลข้อมูล 😮🔐 ฉันขอขอบคุณความโปร่งใสในการอธิบายว่าการบุกรุกเกิดขึ้นได้อย่างไร ระบบใดบ้างที่ได้รับผลกระทบ และขั้นตอนการดำเนินการที่แน่นอนในภายหลัง เหตุการณ์เช่นนี้แสดงให้เห็นว่าเหตุใดการตรวจสอบความปลอดภัยเป็นประจำ การตรวจสอบที่เร็วขึ้น และการหมุนเวียนข้อมูลรับรองอย่างรวดเร็วจึงมีความสำคัญมาก ทุกองค์กรสามารถเรียนรู้สิ่งที่มีคุณค่าจากการเปิดเผยข้อมูลนี้ 👏🛡️"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "What stands out to me is how the attack reportedly relied on an autonomous agent framework capable of carrying out thousands of actions across multiple environments. 🤖⚠️ That highlights how cybersecurity is evolving, with defenders now facing threats that can move faster and adapt in real time. It also reinforces the importance of closing risky execution paths, strengthening cluster protections, and continuously improving detection systems before attackers have the opportunity to spread further. 🚨💻",
+        "th": "สิ่งที่โดดเด่นสำหรับฉันคือวิธีที่รายงานการโจมตีอาศัยเฟรมเวิร์กเอเจนต์อัตโนมัติที่สามารถดำเนินการได้หลายพันรายการในสภาพแวดล้อมที่หลากหลาย 🤖⚠️ นั่นเน้นย้ำว่าความปลอดภัยทางไซเบอร์กำลังพัฒนาไปอย่างไร โดยที่ผู้พิทักษ์กำลังเผชิญกับภัยคุกคามที่สามารถเคลื่อนไหวเร็วขึ้นและปรับตัวได้แบบเรียลไทม์ นอกจากนี้ยังตอกย้ำความสำคัญของการปิดเส้นทางการดำเนินการที่มีความเสี่ยง การเสริมสร้างการป้องกันคลัสเตอร์ และปรับปรุงระบบการตรวจจับอย่างต่อเนื่องก่อนที่ผู้โจมตีจะมีโอกาสแพร่กระจายต่อไป 🚨💻"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It's encouraging to see that the response wasn't limited to simply fixing the initial vulnerability. 👍🔒 Rebuilding compromised nodes, rotating secrets, tightening admission controls, bringing in independent forensic experts, and notifying law enforcement all demonstrate a comprehensive approach to incident response. These actions help restore confidence while also improving resilience against similar attacks in the future. 🌍🛠️",
+        "th": "เป็นเรื่องน่ายินดีที่เห็นว่าการตอบสนองไม่ได้จำกัดอยู่เพียงการแก้ไขช่องโหว่ในช่วงแรกเท่านั้น 👍🔒 การสร้างโหนดที่ถูกบุกรุกขึ้นใหม่ การหมุนเวียนความลับ การควบคุมการรับเข้าที่เข้มงวดมากขึ้น การนำผู้เชี่ยวชาญด้านนิติเวชอิสระเข้ามา และการแจ้งหน่วยงานบังคับใช้กฎหมาย ล้วนแสดงให้เห็นถึงแนวทางที่ครอบคลุมในการตอบสนองต่อเหตุการณ์ การดำเนินการเหล่านี้ช่วยฟื้นฟูความมั่นใจในขณะเดียวกันก็ปรับปรุงความยืดหยุ่นต่อการโจมตีที่คล้ายกันในอนาคต 🌍🛠️"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hopefully, the lessons from this incident will benefit the wider technology community and encourage stronger security practices across the industry. 💙✨ Sharing detailed disclosures helps other organizations identify similar risks before they become major problems. Security is never a one-time achievement—it's an ongoing process of learning, improving, and staying prepared for the next challenge. Stay safe, stay alert, and keep strengthening those defenses. 🔐🚀",
+        "th": "หวังว่าบทเรียนจากเหตุการณ์นี้จะเป็นประโยชน์ต่อชุมชนเทคโนโลยีในวงกว้าง และส่งเสริมแนวทางปฏิบัติด้านความปลอดภัยที่แข็งแกร่งยิ่งขึ้นทั่วทั้งอุตสาหกรรม 💙✨ การแบ่งปันการเปิดเผยโดยละเอียดช่วยให้องค์กรอื่นระบุความเสี่ยงที่คล้ายกันก่อนที่จะกลายเป็นปัญหาใหญ่ การรักษาความปลอดภัยไม่ใช่ความสำเร็จเพียงครั้งเดียว แต่เป็นกระบวนการเรียนรู้ ปรับปรุง และเตรียมพร้อมสำหรับความท้าทายครั้งต่อไปอย่างต่อเนื่อง อยู่อย่างปลอดภัย ตื่นตัว และเสริมกำลังการป้องกันเหล่านั้นต่อไป 🔐🚀"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/6a3cd0fb3af2b0b0921e329a/sYjIuFqzn5xLCiAfqmEwm.jpeg",
+      "alt": "C2u6YWJGDLcf-ROJMO7yPJBiLSTa2quTMizWJIHufnPjuE5rAKVdX-N0BPa4OL6VlaCtkotIZo1DqDXq0IPyzisrj04_Oq9VNvuyUd4bnFC9USP6Ee2lBqPbNpwiMInoj-KrnkWcLcgZBBh68vFG7vIsJn6tlFlXgh-NNKAMKmlToWxQX9H9ativTmh8t4g0"
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -961,6 +1045,11 @@
     },
     {
       "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1584020801691-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
       "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1594214747713-5e9ecfc04957053f60648a3e.png",
       "alt": ""
     },
@@ -985,15 +1074,10 @@
       "alt": ""
     },
     {
-      "type": "img",
-      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5f17f0a0925b9863e28ad517/sxIDbF_Mh-oxK4K54eZBV.png",
-      "alt": ""
-    },
-    {
       "type": "li",
       "text": {
-        "en": "+332",
-        "th": "+332"
+        "en": "+360",
+        "th": "+360"
       }
     }
   ]

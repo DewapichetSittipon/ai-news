@@ -212,15 +212,8 @@
     {
       "type": "p",
       "text": {
-        "en": "“We've been working with Anthropic on a Gold Standard that sets out industry best practices for safety and privacy in K-12 education,” said Randi Weingarten, President of the American Federation of Teachers. “It’s important that Anthropic is committing to these principles in their new Claude for Teachers — a tool designed by and for educators to assist them instructionally and hopefully give them more time for the human relationships at the heart of learning.”",
-        "th": "“เราได้ทำงานร่วมกับ Anthropic ในเรื่องมาตรฐานทองคำที่กำหนดแนวทางปฏิบัติที่ดีที่สุดในอุตสาหกรรมด้านความปลอดภัยและความเป็นส่วนตัวในการศึกษาระดับอนุบาลถึงมัธยมศึกษา (K-12)” Randi Weingarten ประธานสหพันธ์ครูแห่งอเมริกากล่าว “สิ่งสำคัญคือ Anthropic จะต้องปฏิบัติตามหลักการเหล่านี้ใน Claude for Teachers ใหม่ ซึ่งเป็นเครื่องมือที่ออกแบบโดยและสำหรับนักการศึกษาเพื่อช่วยเหลือพวกเขาในการเรียนการสอน และหวังว่าจะทำให้พวกเขามีเวลามากขึ้นสำหรับความสัมพันธ์ของมนุษย์ที่เป็นหัวใจของการเรียนรู้”"
-      }
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "You can read more about our K-12 data privacy standards for Claude for Teachers here.",
-        "th": "คุณสามารถอ่านเพิ่มเติมเกี่ยวกับมาตรฐานความเป็นส่วนตัวของข้อมูลระดับอนุบาลถึงมัธยมศึกษาตอนปลาย (K-12) สำหรับ Claude for Teachers ได้ที่นี่"
+        "en": "“We've been working with Anthropic on a Gold Standard that sets out industry best practices for safety and privacy in K-12 education,” said Randi Weingarten, President of the American Federation of Teachers. “It’s important that Anthropic is committing to these principles in their new Claude for Teachers — a tool designed by and for educators to assist them instructionally and hopefully give them more time for the human relationships at the heart of learning.”Whether and how educational data may be used in Claude for Teachers is determined by your district and state policies. You can read more about our K-12 data privacy standards for Claude for Teachers here.",
+        "th": "“เราได้ทำงานร่วมกับ Anthropic ในเรื่องมาตรฐานทองคำที่กำหนดแนวทางปฏิบัติที่ดีที่สุดในอุตสาหกรรมด้านความปลอดภัยและความเป็นส่วนตัวในการศึกษาระดับอนุบาลถึงมัธยมศึกษา (K-12)” Randi Weingarten ประธานสหพันธ์ครูแห่งอเมริกากล่าว “สิ่งสำคัญคือ Anthropic จะต้องปฏิบัติตามหลักการเหล่านี้ใน Claude for Teachers ใหม่ ซึ่งเป็นเครื่องมือที่ออกแบบโดยและสำหรับนักการศึกษาเพื่อช่วยเหลือพวกเขาในการเรียนการสอน และหวังว่าจะให้เวลาพวกเขามากขึ้นสำหรับความสัมพันธ์ของมนุษย์ที่เป็นหัวใจของการเรียนรู้” ไม่ว่าและอย่างไรข้อมูลการศึกษาจะถูกนำมาใช้ใน Claude for Teachers นั้นจะขึ้นอยู่กับนโยบายของเขตและรัฐของคุณ คุณสามารถอ่านเพิ่มเติมเกี่ยวกับมาตรฐานความเป็นส่วนตัวของข้อมูลระดับอนุบาลถึงมัธยมศึกษาตอนปลาย (K-12) สำหรับ Claude for Teachers ได้ที่นี่"
       }
     },
     {
@@ -277,6 +270,13 @@
       "text": {
         "en": "Claude for Teachers is for individual educators. A dedicated offering for schools and districts is coming soon. In the meantime, districts interested in Claude can continue using Claude for Nonprofits.",
         "th": "Claude for Teachers มีไว้สำหรับนักการศึกษารายบุคคล ข้อเสนอเฉพาะสำหรับโรงเรียนและเขตในเร็วๆ นี้ ในระหว่างนี้ เขตที่สนใจ Claude สามารถใช้ Claude for Nonprofits ต่อไปได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Updated July 21, 2026: Added a note to emphasize that whether and how educational data may be used in Claude for Teachers is determined by district and state policies.",
+        "th": "อัปเดตเมื่อวันที่ 21 กรกฎาคม 2026: เพิ่มหมายเหตุเพื่อเน้นว่าข้อมูลการศึกษาที่จะนำมาใช้ใน Claude for Teachers หรือไม่และอย่างไรนั้นจะขึ้นอยู่กับนโยบายของเขตและรัฐ"
       }
     },
     {

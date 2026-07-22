@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+291",
-        "th": "+291"
+        "en": "+309",
+        "th": "+309"
       }
     },
     {
@@ -700,10 +700,15 @@
       "alt": ""
     },
     {
+      "type": "img",
+      "src": "/avatars/379abc5add10b45a02b1d9a09abfb6c6.svg",
+      "alt": ""
+    },
+    {
       "type": "li",
       "text": {
-        "en": "1 reply",
-        "th": "1 ตอบกลับ"
+        "en": "2 replies",
+        "th": "2 ตอบกลับ"
       }
     },
     {
@@ -754,6 +759,42 @@
       "text": {
         "en": "For those that haven't seen it yet, it sounds like this entire thing was OpenAI running a benchmark. Ends up the models found a zero-day in the package proxy to get internet access and hacked into Hugging Face to try to get the answers to the ExploitGym benchmark. Crazy stuff: https://openai.com/index/hugging-face-model-evaluation-security-incident/",
         "th": "สำหรับผู้ที่ยังไม่ได้ดู ดูเหมือนว่าทั้งหมดนี้คือ OpenAI ที่ใช้การวัดประสิทธิภาพ ท้ายที่สุดโมเดลที่พบซีโรเดย์ในพร็อกซีแพ็คเกจเพื่อเข้าถึงอินเทอร์เน็ตและแฮ็กเข้าสู่ Hugging Face เพื่อพยายามรับคำตอบของเกณฑ์มาตรฐาน ExploitGym เรื่องบ้าๆบอๆ : https://openai.com/index/hugging-face-model-evalue-security-incident/"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/1e5443c5203aa3ecb9a7fe951f97a037.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "hey cool another marketing move dumb people will fall for",
+        "th": "เฮ้ เจ๋งไปเลย อีกหนึ่งความเคลื่อนไหวทางการตลาดที่คนโง่จะหลงรัก"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/379abc5add10b45a02b1d9a09abfb6c6.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Interesting...",
+        "th": "น่าสนใจ..."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6560dd836573ea070810c559/11L8R9kgcvK_jQbnxIKB1.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "good job openai team",
+        "th": "เก่งมากทีม openai"
       }
     },
     {
@@ -826,8 +867,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+285",
-        "th": "+285"
+        "en": "+303",
+        "th": "+303"
       }
     }
   ]

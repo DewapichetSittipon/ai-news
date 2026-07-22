@@ -32,6 +32,11 @@
     },
     {
       "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6889442943e276118123f440/kEqv4ehCDqR7nqq_7xPNx.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
       "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/PPGiabA-or8eAHo09gjFV.jpeg",
       "alt": ""
     },
@@ -423,8 +428,8 @@
     {
       "type": "p",
       "text": {
-        "en": "The new architecture separates backend-specific code from the core Isaac Lab API. Developers can select to useIsaac Sim with PhysX and RTX rendering for photorealistic, sensor-rich workflows, or run light-weightheadless Newton physics for high-throughput simulation. Additionally, developers can add photoreal sensors via the standalone OVRTX renderer, or leverage the Newton renderer for vision-based RL tasks that require a very large number of environments.",
-        "th": "สถาปัตยกรรมใหม่แยกโค้ดเฉพาะแบ็กเอนด์ออกจากแกน Isaac Lab API นักพัฒนาสามารถเลือกใช้ Isaac Sim กับการเรนเดอร์ PhysX และ RTX สำหรับเวิร์กโฟลว์ที่สมจริงด้วยแสงและเต็มไปด้วยเซ็นเซอร์ หรือใช้ฟิสิกส์นิวตันไร้หัวน้ำหนักเบาสำหรับการจำลองที่มีปริมาณงานสูง นอกจากนี้ นักพัฒนายังสามารถเพิ่มเซ็นเซอร์ภาพถ่ายผ่านตัวเรนเดอร์ OVRTX แบบสแตนด์อโลน หรือใช้ประโยชน์จากตัวเรนเดอร์ Newton สำหรับงาน RL ตามการมองเห็นที่ต้องใช้สภาพแวดล้อมจำนวนมาก"
+        "en": "The new architecture separates backend-specific code from the core Isaac Lab API. Developers can select to use Isaac Sim with PhysX and RTX rendering for photorealistic, sensor-rich workflows, or run light-weightheadless Newton physics for high-throughput simulation. Additionally, developers can add photoreal sensors via the standalone OVRTX renderer, or leverage the Newton renderer for vision-based RL tasks that require a very large number of environments.",
+        "th": "สถาปัตยกรรมใหม่แยกโค้ดเฉพาะแบ็กเอนด์ออกจากแกน Isaac Lab API นักพัฒนาสามารถเลือกใช้ Isaac Sim กับการเรนเดอร์ PhysX และ RTX สำหรับเวิร์กโฟลว์ที่สมจริงด้วยแสงและเต็มไปด้วยเซ็นเซอร์ หรือใช้ระบบฟิสิกส์นิวตันไร้หัวน้ำหนักเบาสำหรับการจำลองที่มีปริมาณงานสูง นอกจากนี้ นักพัฒนายังสามารถเพิ่มเซ็นเซอร์ภาพถ่ายผ่านตัวเรนเดอร์ OVRTX แบบสแตนด์อโลน หรือใช้ประโยชน์จากตัวเรนเดอร์ Newton สำหรับงาน RL ตามการมองเห็นที่ต้องใช้สภาพแวดล้อมจำนวนมาก"
       }
     },
     {
@@ -619,6 +624,11 @@
     {
       "type": "img",
       "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6515c41e4256270d6fa09259/O43dQxNqwcQ6ONnr_dDGt.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6889442943e276118123f440/kEqv4ehCDqR7nqq_7xPNx.jpeg",
       "alt": ""
     },
     {

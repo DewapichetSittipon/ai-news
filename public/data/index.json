@@ -1,6 +1,57 @@
 {
-  "generatedAt": "2026-07-22T11:44:40.287Z",
+  "generatedAt": "2026-07-22T13:27:43.803Z",
   "items": [
+    {
+      "id": "openai__building-ai-infrastructure-with-the-effingham-county-community",
+      "slug": "building-ai-infrastructure-with-the-effingham-county-community",
+      "source": "openai",
+      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "category": "Global Affairs",
+      "date": "2026-07-22T13:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Building AI infrastructure with the Effingham County community",
+        "th": "การสร้างโครงสร้างพื้นฐาน AI กับชุมชน Effingham County"
+      },
+      "summary": {
+        "en": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+        "th": "OpenAI ประกาศ Project Camellia ในเทศมณฑลเอฟฟิงแฮม รัฐจอร์เจีย โดยมีความมุ่งมั่นที่จะใช้พลังงานอย่างมีความรับผิดชอบ การลงทุนในชุมชน งาน และการเข้าถึง Codex"
+      }
+    },
+    {
+      "id": "google-ai__galaxy-unpacked-2026",
+      "slug": "galaxy-unpacked-2026",
+      "source": "google-ai",
+      "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+      "category": "Gemini App",
+      "date": "2026-07-22T13:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp",
+      "title": {
+        "en": "3 Google updates from Galaxy Unpacked 2026",
+        "th": "3 การอัปเดตของ Google จาก Galaxy Unpacked 2026"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp\">We shared how Samsung users can boost productivity and get time back on new foldables, watches, and gl",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp\">เราได้แชร์วิธีที่ผู้ใช้ Samsung เพิ่มประสิทธิภาพการทำงานและย้อนเวลากลับไปด้วยอุปกรณ์แบบพับได้ นาฬิกา และ GL ใหม่"
+      }
+    },
+    {
+      "id": "openai__introducing-openai-presence",
+      "slug": "introducing-openai-presence",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-openai-presence",
+      "category": "Product",
+      "date": "2026-07-22T05:30:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing OpenAI Presence",
+        "th": "ขอแนะนำการแสดงตนของ OpenAI"
+      },
+      "summary": {
+        "en": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+        "th": "ขอแนะนำ OpenAI Presence ซึ่งเป็นแพลตฟอร์มตัวแทน AI ระดับองค์กรที่ได้รับการพิสูจน์แล้ว ซึ่งช่วยให้องค์กรปรับใช้ตัวแทนเสียงและการแชทที่เชื่อถือได้สำหรับลูกค้าและเวิร์กโฟลว์ภายใน"
+      }
+    },
     {
       "id": "huggingface__state-of-simulation-for-physical-ai",
       "slug": "state-of-simulation-for-physical-ai",
@@ -597,6 +648,23 @@
       }
     },
     {
+      "id": "openai__chatgpt-for-your-most-ambitious-work",
+      "slug": "chatgpt-for-your-most-ambitious-work",
+      "source": "openai",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "category": "Product",
+      "date": "2026-07-09T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "ChatGPT is now a partner for your most ambitious work",
+        "th": "ChatGPT เป็นพันธมิตรสำหรับงานที่ทะเยอทะยานที่สุดของคุณแล้ว"
+      },
+      "summary": {
+        "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+        "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
+      }
+    },
+    {
       "id": "openai__gpt-5-6",
       "slug": "gpt-5-6",
       "source": "openai",
@@ -628,23 +696,6 @@
       "summary": {
         "en": "Details about the OpenAI Bio Bounty program",
         "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
-      }
-    },
-    {
-      "id": "openai__chatgpt-for-your-most-ambitious-work",
-      "slug": "chatgpt-for-your-most-ambitious-work",
-      "source": "openai",
-      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "category": "Product",
-      "date": "2026-07-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "ChatGPT is now a partner for your most ambitious work",
-        "th": "ChatGPT เป็นพันธมิตรสำหรับงานที่ทะเยอทะยานที่สุดของคุณแล้ว"
-      },
-      "summary": {
-        "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-        "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
       }
     },
     {
@@ -1566,23 +1617,6 @@
       }
     },
     {
-      "id": "openai__patch-the-planet",
-      "slug": "patch-the-planet",
-      "source": "openai",
-      "url": "https://openai.com/index/patch-the-planet",
-      "category": "Security",
-      "date": "2026-06-22T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-        "th": "Patch the Planet: โครงการริเริ่ม Daybreak เพื่อสนับสนุนผู้ดูแลโอเพ่นซอร์ส"
-      },
-      "summary": {
-        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-        "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
-      }
-    },
-    {
       "id": "openai__daybreak-securing-the-world",
       "slug": "daybreak-securing-the-world",
       "source": "openai",
@@ -1600,20 +1634,20 @@
       }
     },
     {
-      "id": "openai__codex-maxxing-long-running-work",
-      "slug": "codex-maxxing-long-running-work",
+      "id": "openai__patch-the-planet",
+      "slug": "patch-the-planet",
       "source": "openai",
-      "url": "https://openai.com/index/codex-maxxing-long-running-work",
-      "category": "AI Adoption",
-      "date": "2026-06-22T00:00:00.000Z",
+      "url": "https://openai.com/index/patch-the-planet",
+      "category": "Security",
+      "date": "2026-06-22T10:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Codex-maxxing for long-running work",
-        "th": "Codex-maxxing สำหรับงานระยะยาว"
+        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+        "th": "Patch the Planet: โครงการริเริ่ม Daybreak เพื่อสนับสนุนผู้ดูแลโอเพ่นซอร์ส"
       },
       "summary": {
-        "en": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
-        "th": "เรียนรู้ว่า Jason Liu ใช้ Codex เพื่อรักษาบริบท จัดการโครงการที่ซับซ้อน และช่วยให้ทำงานต่อไปนอกเหนือจากการแจ้งเตือนเพียงครั้งเดียวได้อย่างไร"
+        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+        "th": "OpenAI เปิดตัว Patch the Planet ซึ่งเป็นโครงการริเริ่ม Daybreak ที่ช่วยให้ผู้ดูแลโอเพ่นซอร์สค้นหา ตรวจสอบ และแก้ไขช่องโหว่ด้วย AI และการตรวจสอบโดยผู้เชี่ยวชาญ"
       }
     },
     {
@@ -1631,23 +1665,6 @@
       "summary": {
         "en": "We got local models to triage the OpenClaw repo for FREE!*",
         "th": "เรามีโมเดลท้องถิ่นเพื่อทดสอบ repo OpenClaw ฟรี!*"
-      }
-    },
-    {
-      "id": "openai__samsung-electronics-chatgpt-codex-deployment",
-      "slug": "samsung-electronics-chatgpt-codex-deployment",
-      "source": "openai",
-      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "category": "Company",
-      "date": "2026-06-21T23:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Samsung Electronics brings ChatGPT and Codex to employees",
-        "th": "Samsung Electronics นำ ChatGPT และ Codex มาสู่พนักงาน"
-      },
-      "summary": {
-        "en": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
-        "th": "Samsung Electronics ปรับใช้ ChatGPT Enterprise และ Codex ให้กับพนักงานทั่วโลก ซึ่งถือเป็นหนึ่งในการเปิดตัว AI ระดับองค์กรที่ใหญ่ที่สุดของ OpenAI"
       }
     },
     {
@@ -2158,23 +2175,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_KNH.max-600x600.format-webp.webp\">Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flas",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_KNH.max-600x600.format-webp.webp\">นี่คือ 12 ช่วงเวลาสำคัญที่สำคัญที่สุดของ Google I/O 2026 รวมถึงข่าวสารเกี่ยวกับ Gemini Omni, Gemini 3.5 Flas"
-      }
-    },
-    {
-      "id": "google-ai__io-2026-dialogues-recap",
-      "slug": "io-2026-dialogues-recap",
-      "source": "google-ai",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
-      "category": "AI",
-      "date": "2026-05-22T18:00:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp",
-      "title": {
-        "en": "Catch up on the Dialogues stage at Google I/O 2026.",
-        "th": "ติดตามเวที Dialogues ได้ที่ Google I/O 2026"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp\">A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing,",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp\">สรุปบทสนทนา I/O ปี 2026 ซึ่งผู้นำจะหารือเกี่ยวกับอนาคตของ AI, การประมวลผลควอนตัม"
       }
     },
     {

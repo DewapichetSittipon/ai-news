@@ -1,0 +1,129 @@
+{
+  "id": "anthropic__anthropic-economic-index-connector",
+  "slug": "anthropic-economic-index-connector",
+  "source": "anthropic",
+  "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+  "category": "News",
+  "date": "2026-07-22T00:00:00.000Z",
+  "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20NodeBook&backgroundColor=coral",
+  "title": {
+    "en": "Ask Claude about the Anthropic Economic Index",
+    "th": "ถาม Claude เกี่ยวกับดัชนีเศรษฐกิจมานุษยวิทยา"
+  },
+  "summary": {
+    "en": "We're launching the Anthropic Economic Index connector for Claude, which lets anyone explore the data directly.",
+    "th": "เรากำลังเปิดตัวตัวเชื่อมต่อ Anthropic Economic Index สำหรับ Claude ซึ่งช่วยให้ใครก็ตามสามารถสำรวจข้อมูลได้โดยตรง"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg",
+      "alt": "Ask Claude about the Anthropic Economic Index"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "People have hard questions about AI and work: which jobs will change, which tasks are being automated, and what it means for their own field. The Anthropic Economic Index exists to help answer them with real data. Today we're launching the Anthropic Economic Index connector for Claude, which lets anyone explore that data directly.",
+        "th": "ผู้คนมีคำถามยากๆ เกี่ยวกับ AI และงาน: งานไหนที่จะเปลี่ยนแปลง งานไหนที่เป็นอัตโนมัติ และสิ่งที่สำคัญต่อสาขาของตนเอง ดัชนีเศรษฐกิจมานุษยวิทยามีไว้เพื่อช่วยตอบด้วยข้อมูลจริง วันนี้เรากำลังเปิดตัวตัวเชื่อมต่อ Anthropic Economic Index สำหรับ Claude ซึ่งช่วยให้ใครก็ตามสามารถสำรวจข้อมูลนั้นได้โดยตรง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Anthropic Economic Index measures how AI is actually being used in the economy. The Index’s data has been useful to researchers, journalists, and policymakers, but we want it to be just as accessible to anyone curious about how AI fits into their field or day-to-day life. Now you can ask Claude questions like:",
+        "th": "ดัชนีเศรษฐกิจมานุษยวิทยาวัดว่า AI ถูกนำมาใช้ในระบบเศรษฐกิจอย่างไร ข้อมูลของดัชนีมีประโยชน์สำหรับนักวิจัย นักข่าว และผู้กำหนดนโยบาย แต่เราต้องการให้ทุกคนที่อยากรู้ว่า AI เข้ากับสาขาของตนหรือชีวิตประจำวันอย่างไร ตอนนี้คุณสามารถถามคำถามของ Claude ได้ เช่น:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "“Which occupations use AI the most?”",
+        "th": "“อาชีพไหนใช้ AI มากที่สุด”"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "“What are the most common ways people in Colorado use Claude?”",
+        "th": "“ผู้คนในโคโลราโดใช้ Claude ด้วยวิธีใดบ่อยที่สุด”"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "“What sorts of tasks do teachers use Claude for?”",
+        "th": "“ครูใช้คลอดด์ทำงานประเภทใดบ้าง”"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "“What kinds of tasks are people automating with AI? How has that changed over the past year??”",
+        "th": "“งานประเภทใดบ้างที่ผู้คนทำงานอัตโนมัติด้วย AI สิ่งนี้เปลี่ยนแปลงไปอย่างไรในปีที่ผ่านมา?”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You’ll get answers grounded directly in the Index data.",
+        "th": "คุณจะได้รับคำตอบที่มีพื้นฐานโดยตรงในข้อมูลดัชนี"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Getting started takes about a minute. In claude.ai, open the connectors menu, find the Anthropic Economic Index in the directory, and enable it—it works in any conversation with any Claude model, and there's nothing to install. From there, just ask questions the way you'd ask a colleague: start broad (\"what does the Index say about my industry?\"), then drill into specifics, and ask Claude to show you the underlying data behind any answer.",
+        "th": "การเริ่มต้นใช้เวลาประมาณหนึ่งนาที ใน claude.ai ให้เปิดเมนูตัวเชื่อมต่อ ค้นหา Anthropic Economic Index ในไดเร็กทอรี และเปิดใช้งาน โดยจะใช้ได้กับการสนทนากับ Claude รุ่นใดก็ได้ และไม่จำเป็นต้องติดตั้งอะไรเลย จากนั้น ให้ถามคำถามแบบเดียวกับที่คุณถามเพื่อนร่วมงาน โดยเริ่มจากกว้างๆ (\"ดัชนีบอกอะไรเกี่ยวกับอุตสาหกรรมของฉัน\") จากนั้นเจาะลึกข้อมูลเฉพาะเจาะจง และขอให้ Claude แสดงข้อมูลที่ซ่อนอยู่เบื้องหลังคำตอบใดๆ ก็ตาม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As always, the Index reflects patterns in Claude usage rather than the labor market as a whole, and Claude will point you back to the source data and its limitations as you explore. You can find the connector in claude.ai today, and the full datasets remain freely available on our website.",
+        "th": "เช่นเคย ดัชนีสะท้อนรูปแบบการใช้งานของ Claude มากกว่าตลาดแรงงานโดยรวม และ Claude จะนำคุณกลับไปยังแหล่งข้อมูลและข้อจำกัดในขณะที่คุณสำรวจ คุณสามารถค้นหาตัวเชื่อมต่อได้ใน claude.ai วันนี้ และชุดข้อมูลทั้งหมดยังคงมีให้ใช้งานได้ฟรีบนเว็บไซต์ของเรา"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Related content",
+        "th": "เนื้อหาที่เกี่ยวข้อง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Anthropic is donating another $20 million to Public First Action",
+        "th": "Anthropic บริจาคเงินอีก 20 ล้านดอลลาร์ให้กับ Public First Action"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Anthropic is contributing an additional $20 million to Public First Action, bringing our total support to $40 million.",
+        "th": "Anthropic บริจาคเงินเพิ่มอีก 20 ล้านดอลลาร์ให้กับ Public First Action ส่งผลให้ยอดสนับสนุนทั้งหมดของเราอยู่ที่ 40 ล้านดอลลาร์"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Apply for Anthropic’s AI for Science rare disease research grants",
+        "th": "สมัครขอรับทุนวิจัยโรคหายาก AI for Science ของ Anthropic"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Anthropic is sharing a focused call for AI for Science applications centered specifically on rare genetic diseases. Accepted applicants will receive up to $50,000 in Claude credits over six months, with the goal of building a community of researchers looking into how AI can reshape our understanding of rare disease.",
+        "th": "Anthropic กำลังแบ่งปันข้อเรียกร้องให้มีการใช้งาน AI for Science ซึ่งมีศูนย์กลางอยู่ที่โรคทางพันธุกรรมที่หายากโดยเฉพาะ ผู้สมัครที่ได้รับการยอมรับจะได้รับเครดิต Claude มูลค่าสูงสุด 50,000 ดอลลาร์ในช่วงหกเดือน โดยมีเป้าหมายเพื่อสร้างชุมชนนักวิจัยที่พิจารณาว่า AI จะปรับเปลี่ยนความเข้าใจของเราเกี่ยวกับโรคหายากได้อย่างไร"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Introducing Claude for Teachers",
+        "th": "ขอแนะนำคลอดด์สำหรับครู"
+      }
+    }
+  ]
+}

@@ -18,8 +18,537 @@
     {
       "type": "p",
       "text": {
-        "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-        "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
+        "en": "June 30, 2026",
+        "th": "30 มิถุนายน 2569"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A research-level benchmark measuring how AI agents navigate ambiguity and make consequential judgments in computational biology.",
+        "th": "เกณฑ์มาตรฐานระดับการวิจัยที่วัดว่าเจ้าหน้าที่ AI จัดการกับความคลุมเครือและตัดสินผลที่ตามมาในชีววิทยาเชิงคอมพิวเตอร์ได้อย่างไร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Dataset construction",
+        "th": "การสร้างชุดข้อมูล"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Evaluation and grading",
+        "th": "การประเมินและการให้คะแนน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Results",
+        "th": "ผลลัพธ์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Dataset construction",
+        "th": "การสร้างชุดข้อมูล"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Evaluation and grading",
+        "th": "การประเมินและการให้คะแนน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Results",
+        "th": "ผลลัพธ์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Scientific data rarely arrive with instructions. Researchers must decide whether a pattern reflects biology or noise, whether the data can support the question being asked, and how each result should change what they do next. AI agents are increasingly capable of executing complex analyses, but real scientific research also depends not simply on recalling facts or following a predefined workflow but also on making these higher-order judgments.",
+        "th": "ข้อมูลทางวิทยาศาสตร์ไม่ค่อยมาพร้อมกับคำแนะนำ นักวิจัยต้องตัดสินใจว่ารูปแบบนั้นสะท้อนถึงชีววิทยาหรือสัญญาณรบกวนหรือไม่ ข้อมูลสามารถรองรับคำถามที่ถูกถามได้หรือไม่ และผลลัพธ์แต่ละอย่างควรเปลี่ยนแปลงสิ่งที่พวกเขาทำต่อไปอย่างไร ตัวแทน AI มีความสามารถในการดำเนินการวิเคราะห์ที่ซับซ้อนมากขึ้น แต่การวิจัยทางวิทยาศาสตร์ที่แท้จริงนั้นไม่เพียงแต่ขึ้นอยู่กับการเรียกคืนข้อเท็จจริงหรือการปฏิบัติตามขั้นตอนการทำงานที่กำหนดไว้ล่วงหน้าเท่านั้น แต่ยังขึ้นอยู่กับการตัดสินที่มีลำดับสูงกว่าเหล่านี้ด้วย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re introducing GeneBench-Pro—a challenging, research-level benchmark for testing whether models can handle the kind of judgment-heavy analysis that real-world computational biology requires. It expands on GeneBench⁠(opens in a new window) to cover harder, more realistic tasks across genomics, quantitative biology, and translational medicine, capturing the complexity, iterative nature, and ambiguity of scientific research in computational biology.",
+        "th": "วันนี้ เรากำลังเปิดตัว GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานระดับการวิจัยที่ท้าทายสำหรับการทดสอบว่าแบบจำลองสามารถรองรับการวิเคราะห์ที่ต้องใช้การตัดสินใจอย่างหนักซึ่งชีววิทยาการคำนวณในโลกแห่งความเป็นจริงต้องการหรือไม่ โดยขยายขอบเขตบน GeneBench⁠(opens in a new window) เพื่อครอบคลุมงานที่ยากและสมจริงยิ่งขึ้นในสาขาจีโนมิกส์ ชีววิทยาเชิงปริมาณ และเวชศาสตร์เชิงแปล โดยรวบรวมความซับซ้อน ลักษณะของการทำซ้ำ และความคลุมเครือของการวิจัยทางวิทยาศาสตร์ในชีววิทยาเชิงคอมพิวเตอร์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To date, there have been few convincing assessments of the system-level judgment calls that make real-world computational research difficult. These include handling ambiguity, revising assumptions, choosing the correct analysis path, and knowing when a result is decision-ready. Because these skills are difficult to formalize, they are also difficult to assess rigorously, even as weaknesses in them increasingly constrain overall AI performance.",
+        "th": "จนถึงปัจจุบัน มีการประเมินที่น่าเชื่อถือเพียงเล็กน้อยเกี่ยวกับการเรียกร้องการตัดสินระดับระบบที่ทำให้การวิจัยทางคอมพิวเตอร์ในโลกแห่งความเป็นจริงเป็นเรื่องยาก ซึ่งรวมถึงการจัดการกับความคลุมเครือ การแก้ไขสมมติฐาน การเลือกเส้นทางการวิเคราะห์ที่ถูกต้อง และการรู้ว่าเมื่อใดผลลัพธ์จะพร้อมสำหรับการตัดสินใจ เนื่องจากทักษะเหล่านี้ยากต่อการจัดวางอย่างเป็นทางการ จึงเป็นเรื่องยากที่จะประเมินอย่างเข้มงวด แม้ว่าจุดอ่อนในทักษะเหล่านี้จะจำกัดประสิทธิภาพ AI โดยรวมมากขึ้นก็ตาม"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5P8mBbm691Wa6A18PSRDC4/d850f06a5891d06ecce9efd880008e3e/Diagram1-desktop-light.svg?w=3840&q=90",
+      "alt": "Diagram titled “The benchmark gap in biology” comparing traditional benchmark workflows with end-to-end scientific analysis, showing additional steps such as preprocessing, modeling, diagnostics, and iterative refinement before reaching a scientific conclusion."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GeneBench-Pro is designed to precisely measure these higher-level capabilities. Within GeneBench-Pro, we define “research taste” as the chains of judgment calls that shape an analysis: which questions the data can support, how early diagnostics should change the model or estimand, and when an initial plan needs to be revised. Each GeneBench-Pro problem gives the model a realistic and messy dataset, brief experimental context, and a target estimand tied to a downstream decision. To answer correctly, the model must explore the data, choose an appropriate analytical approach, engage in an iterative process of experimentation, and supply a final answer.",
+        "th": "GeneBench-Pro ได้รับการออกแบบมาเพื่อวัดความสามารถระดับสูงเหล่านี้อย่างแม่นยำ ภายใน GeneBench-Pro เราให้คำนิยาม \"รสนิยมในการวิจัย\" เนื่องจากสายการตัดสินที่เชื่อมโยงกันซึ่งกำหนดรูปแบบการวิเคราะห์: คำถามใดที่ข้อมูลสามารถรองรับได้ การวินิจฉัยตั้งแต่เนิ่นๆ ควรเปลี่ยนแบบจำลองหรือการประมาณค่าอย่างไร และเมื่อใดที่จำเป็นต้องแก้ไขแผนเริ่มต้น ปัญหา GeneBench-Pro แต่ละปัญหาจะทำให้โมเดลมีชุดข้อมูลที่สมจริงและยุ่งเหยิง บริบทการทดลองสั้นๆ และการประมาณค่าเป้าหมายที่เชื่อมโยงกับการตัดสินใจขั้นปลายน้ำ ในการตอบอย่างถูกต้อง แบบจำลองจะต้องสำรวจข้อมูล เลือกวิธีการวิเคราะห์ที่เหมาะสม มีส่วนร่วมในกระบวนการทดลองซ้ำ และระบุคำตอบสุดท้าย"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Dataset construction",
+        "th": "การสร้างชุดข้อมูล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In biology, the cost of data generation (e.g., genome sequencing) has fallen dramatically, and some researchers now argue⁠(opens in a new window) that the limiting factor is no longer sample collection but downstream computation and analysis. GeneBench-Pro is built to assess progress in addressing that bottleneck, with 129 questions covering a broad range of computational biology settings and methods.",
+        "th": "ในด้านชีววิทยา ต้นทุนในการสร้างข้อมูล (เช่น การจัดลำดับจีโนม) ลดลงอย่างมาก และนักวิจัยบางคนโต้แย้ง (opens in a new window) ว่าปัจจัยจำกัดไม่ใช่การเก็บตัวอย่างอีกต่อไป แต่เป็นการคำนวณและการวิเคราะห์ขั้นปลายน้ำ GeneBench-Pro สร้างขึ้นเพื่อประเมินความคืบหน้าในการจัดการกับปัญหาคอขวดดังกล่าว โดยมีคำถาม 129 ข้อที่ครอบคลุมการตั้งค่าและวิธีการทางชีววิทยาเชิงคำนวณที่หลากหลาย"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Domain Atlas: 129 problems in 10 domains and 21 sub-domains",
+        "th": "Domain Atlas: 129 ปัญหาใน 10 โดเมนและ 21 โดเมนย่อย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Statistical genetics n=17",
+        "th": "พันธุศาสตร์เชิงสถิติ n=17"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Population genetics n=21",
+        "th": "พันธุศาสตร์ประชากร n=21"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Quantitative genetics n=17",
+        "th": "พันธุศาสตร์เชิงปริมาณ n=17"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Regulatory omics n=17",
+        "th": "omics กฎข้อบังคับ n=17"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Functional genomics n=9",
+        "th": "ฟังก์ชั่นจีโนมิกส์ n=9"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Proteomics n=7",
+        "th": "โปรตีโอมิกส์ n=7"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Clinical, PGx & diagnostics n=26",
+        "th": "ทางคลินิก PGx และการวินิจฉัย n=26"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cancer genomics n=10",
+        "th": "จีโนมมะเร็ง n=10"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Microbial genomics n=3",
+        "th": "จีโนมของจุลินทรีย์ n=3"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Forensic genetics n=2",
+        "th": "นิติเวชศาสตร์ n=2"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Use the arrow keys to move between benchmark problems. The selected problem’s details appear below.",
+        "th": "ใช้ปุ่มลูกศรเพื่อเลื่อนไปมาระหว่างปัญหาการวัดประสิทธิภาพ รายละเอียดของปัญหาที่เลือกปรากฏด้านล่าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Click on a dot above to learn about a benchmark problem.",
+        "th": "คลิกที่จุดด้านบนเพื่อเรียนรู้เกี่ยวกับปัญหาการวัดประสิทธิภาพ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This atlas provides a preview of the breadth of GeneBench-Pro. Visit the case studies page to explore 10 representative questions in more detail.",
+        "th": "แผนที่นี้แสดงตัวอย่างความกว้างของ GeneBench-Pro ไปที่หน้ากรณีศึกษาเพื่อสำรวจคำถามตัวแทน 10 ข้อโดยละเอียด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GeneBench-Pro is also designed to avoid common benchmark failures. Many long-horizon biology benchmarks construct multi-step questions around messy historical datasets, where there may be no single correct path through the analysis. An agent might choose one defensible cutoff, while another might choose a different but equally defensible option, reflecting the arbitrary choices made by the benchmark creator more than any fundamental differences in model performance. The reverse can also happen: if a problem is too numerically insensitive, an agent can make fundamental errors in an analysis and still produce a passing result.",
+        "th": "GeneBench-Pro ยังได้รับการออกแบบมาเพื่อหลีกเลี่ยงความล้มเหลวในการวัดประสิทธิภาพทั่วไป การวัดประสิทธิภาพทางชีววิทยาในขอบเขตระยะยาวจำนวนมากสร้างคำถามหลายขั้นตอนเกี่ยวกับชุดข้อมูลในอดีตที่ยุ่งวุ่นวาย ซึ่งอาจไม่มีเส้นทางที่ถูกต้องเพียงเส้นทางเดียวในการวิเคราะห์ ตัวแทนอาจเลือกจุดตัดที่สามารถป้องกันได้หนึ่งรายการ ในขณะที่อีกรายการหนึ่งอาจเลือกตัวเลือกที่แตกต่างแต่สามารถป้องกันได้เท่ากัน ซึ่งสะท้อนถึงตัวเลือกที่กำหนดโดยผู้สร้างเกณฑ์มาตรฐานมากกว่าความแตกต่างพื้นฐานใดๆ ในประสิทธิภาพของโมเดล สิ่งที่ตรงกันข้ามยังสามารถเกิดขึ้นได้: หากปัญหาไม่คำนึงถึงตัวเลขมากเกินไป เจ้าหน้าที่สามารถสร้างข้อผิดพลาดพื้นฐานในการวิเคราะห์และยังคงให้ผลลัพธ์ที่ผ่าน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To avoid these failure modes, each GeneBench-Pro problem is built synthetically: we know the full causal structure and directly simulate the data-generating process. That enables us to tune the complexity of each problem, ensure that reasonable differences in subjective analytical choices still produce accepted numerical results, and verify (through ablation studies) that plausible but incorrect analyses fail. We then audit problem drafts through detailed trace analyses to check for information leakage and unintended solution pathways. This gives us confidence that getting the right answer depends on choosing the correct analytic pathway and not on exploiting a shortcut or matching an arbitrary author preference.",
+        "th": "เพื่อหลีกเลี่ยงโหมดความล้มเหลวเหล่านี้ ปัญหา GeneBench-Pro แต่ละปัญหาจึงถูกสร้างขึ้นแบบสังเคราะห์: เราทราบโครงสร้างสาเหตุทั้งหมดและจำลองกระบวนการสร้างข้อมูลโดยตรง นั่นช่วยให้เราปรับแต่งความซับซ้อนของแต่ละปัญหาได้ ตรวจสอบให้แน่ใจว่าความแตกต่างที่สมเหตุสมผลในตัวเลือกการวิเคราะห์เชิงอัตนัยยังคงให้ผลลัพธ์เชิงตัวเลขที่เป็นที่ยอมรับ และตรวจสอบ (ผ่านการศึกษาการระเหย) ว่าการวิเคราะห์ที่น่าเชื่อถือแต่ไม่ถูกต้องนั้นล้มเหลว จากนั้นเราจะตรวจสอบร่างปัญหาผ่านการวิเคราะห์การติดตามโดยละเอียดเพื่อตรวจสอบการรั่วไหลของข้อมูลและเส้นทางการแก้ไขที่ไม่ได้ตั้งใจ สิ่งนี้ทำให้เรามั่นใจว่าการได้รับคำตอบที่ถูกต้องนั้นขึ้นอยู่กับการเลือกเส้นทางการวิเคราะห์ที่ถูกต้อง และไม่ใช่การใช้ประโยชน์จากทางลัดหรือตรงกับความต้องการของผู้เขียนโดยพลการ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7z8Q2z2M1Gp5PiRigY6e25/2625e7b562f0a7fb8d10ff005a4e0387/Diagram2-desktop-light.svg?w=3840&q=90",
+      "alt": "Diagram titled “Construction and validation of a GeneBench-Pro problem,” showing a workflow from building a runnable task through review, robustness checks, agent testing, expert review, revision, and a finished benchmark problem."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We sent 82 of the 129 GeneBench-Pro questions to external domain experts, including graduate students, postdoctoral researchers, industry scientists, and professors. Reviewers assessed each problem’s realism, whether the target answer was identifiable, and whether the methods and estimators were appropriate. Feedback was used to improve problems.",
+        "th": "เราได้ส่งคำถาม GeneBench-Pro จำนวน 82 ข้อจากทั้งหมด 129 ข้อไปยังผู้เชี่ยวชาญด้านโดเมนภายนอก รวมถึงนักศึกษาระดับบัณฑิตศึกษา นักวิจัยหลังปริญญาเอก นักวิทยาศาสตร์ในอุตสาหกรรม และอาจารย์ ผู้ทบทวนประเมินความสมจริงของแต่ละปัญหา ว่าคำตอบเป้าหมายสามารถระบุได้หรือไม่ และวิธีการและตัวประมาณค่ามีความเหมาะสมหรือไม่ คำติชมถูกใช้เพื่อปรับปรุงปัญหา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Alexander Strudwick Young, Assistant Professor in Human Genetics at UCLA",
+        "th": "Alexander Strudwick Young ผู้ช่วยศาสตราจารย์ด้านพันธุศาสตร์มนุษย์ที่ UCLA"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jennifer Grundman, PhD Candidate in Human Genetics at UCLA",
+        "th": "Jennifer Grundman ผู้สมัครระดับปริญญาเอกสาขาพันธุศาสตร์มนุษย์ที่ UCLA"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Alexander Strudwick Young, Assistant Professor in Human Genetics at UCLA",
+        "th": "Alexander Strudwick Young ผู้ช่วยศาสตราจารย์ด้านพันธุศาสตร์มนุษย์ที่ UCLA"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jennifer Grundman, PhD Candidate in Human Genetics at UCLA",
+        "th": "Jennifer Grundman ผู้สมัครระดับปริญญาเอกสาขาพันธุศาสตร์มนุษย์ที่ UCLA"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Evaluation and grading",
+        "th": "การประเมินและการให้คะแนน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each GeneBench-Pro problem is a self-contained scientific analysis. Agents receive access to an isolated workspace with a short prompt, data files, and a standard bioinformatics stack including Python, scientific computing libraries, and basic genomics packages like PLINK 2.0 (although the problems do not require domain-specific tooling).",
+        "th": "ปัญหา GeneBench-Pro แต่ละปัญหาเป็นการวิเคราะห์ทางวิทยาศาสตร์ในตัวเอง เอเจนต์จะได้รับการเข้าถึงพื้นที่ทำงานแบบแยกส่วนพร้อมคำสั่งสั้นๆ ไฟล์ข้อมูล และสแต็กชีวสารสนเทศมาตรฐาน รวมถึง Python ไลบรารีการประมวลผลทางวิทยาศาสตร์ และแพ็คเกจจีโนมิกส์พื้นฐาน เช่น PLINK 2.0 (แม้ว่าปัญหาไม่จำเป็นต้องใช้เครื่องมือเฉพาะโดเมนก็ตาม)"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Structural variant-guided tumor therapy benefit-risk decision",
+        "th": "การบำบัดด้วยเนื้องอกที่มีโครงสร้างนำทางด้วยตัวแปร การตัดสินใจเรื่องผลประโยชน์-ความเสี่ยง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A molecular tumor board registry contains trial-eligible advanced solid-tumor cases considered for a TXR1-directed inhibitor. Estimate, for tumors with SV-driven TXR1 target-mediated activation at time zero, the marginal effect of TXR1i versus non-TXR1 systemic therapy on week-16 clinical benefit as if all patients had an assessable week-16 visit. Also estimate the 8-week treatment-limiting toxicity/discontinuation risk under TXR1i in the same target population. Report net clinical utility = benefit risk difference (percentage points) - 0.35 * toxicity risk (percentage points), and choose therapy_class_code 1 if TXR1i has positive net utility and 0 otherwise.",
+        "th": "การลงทะเบียนคณะกรรมการเนื้องอกระดับโมเลกุลประกอบด้วยกรณีเนื้องอกแข็งขั้นสูงที่เข้าเกณฑ์การทดลองซึ่งพิจารณาเป็นตัวยับยั้งที่ควบคุมโดย TXR1 การประมาณค่า สำหรับเนื้องอกที่มีการกระตุ้นโดยสื่อกลางตามเป้าหมาย TXR1 ที่ขับเคลื่อนด้วย SV ณ เวลาเป็นศูนย์ ผลกระทบเล็กน้อยของการรักษาด้วยระบบ TXR1i เทียบกับที่ไม่ใช่ TXR1 ต่อผลประโยชน์ทางคลินิกในสัปดาห์ที่ 16 ราวกับว่าผู้ป่วยทุกรายมีการนัดตรวจในสัปดาห์ที่ 16 ที่ประเมินผลได้ นอกจากนี้ ยังประเมินความเป็นพิษที่จำกัดการรักษา/ความเสี่ยงในการหยุดต่อเนื่องเป็นเวลา 8 สัปดาห์ภายใต้ TXR1i ในประชากรเป้าหมายเดียวกัน รายงานประโยชน์ทางคลินิกสุทธิ = ส่วนต่างความเสี่ยงของผลประโยชน์ (คะแนนเปอร์เซ็นต์) - 0.35 * ความเสี่ยงต่อความเป็นพิษ (คะแนนเปอร์เซ็นต์) และเลือก therapy_class_code 1 หาก TXR1i มีอรรถประโยชน์สุทธิเป็นบวก มิฉะนั้นเป็น 0"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Use percentage-point units for all non-code quantities. Positive benefit means TXR1i improves week-16 clinical benefit relative to non-TXR1 systemic therapy.",
+        "th": "ใช้หน่วยเปอร์เซ็นต์สำหรับปริมาณที่ไม่ใช่รหัสทั้งหมด ผลประโยชน์เชิงบวกหมายถึง TXR1i ช่วยเพิ่มผลประโยชน์ทางคลินิกในสัปดาห์ที่ 16 เมื่อเทียบกับการรักษาแบบเป็นระบบที่ไม่ใช่ TXR1"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These data came from a real experiment; you will be graded not just on numerical correctness but the quality of analytical reasoning you exhibit; do not attempt to take any shortcuts.",
+        "th": "ข้อมูลเหล่านี้มาจากการทดลองจริง คุณจะได้รับการประเมินไม่เพียงแต่ความถูกต้องของตัวเลขเท่านั้น แต่ยังรวมถึงคุณภาพของการใช้เหตุผลเชิงวิเคราะห์ที่คุณแสดงด้วย อย่าพยายามใช้ทางลัดใดๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Return your final answer as exactly one JSON object.Do not wrap the JSON in markdown.Do not add prose before or after the JSON.Do not omit any keys shown in the example.Return the JSON object in your final answer:",
+        "th": "ส่งกลับคำตอบสุดท้ายของคุณเป็นวัตถุ JSON เดียวเท่านั้น อย่ารวม JSON ไว้ในมาร์กดาวน์ อย่าเพิ่มร้อยแก้วก่อนหรือหลัง JSON อย่าละคีย์ใดๆ ที่แสดงในตัวอย่าง ส่งกลับวัตถุ JSON ในคำตอบสุดท้ายของคุณ:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Because we control the full data-generation process, we can grade correctness deterministically against known targets, avoiding model-choice variability and verbosity effects found in standard rubric-based evaluation.",
+        "th": "เนื่องจากเราควบคุมกระบวนการสร้างข้อมูลเต็มรูปแบบ เราจึงสามารถให้คะแนนความถูกต้องตามที่กำหนดโดยเปรียบเทียบกับเป้าหมายที่ทราบ หลีกเลี่ยงความแปรปรวนของตัวเลือกแบบจำลองและผลกระทบจากการใช้คำฟุ่มเฟือยที่พบในการประเมินตามรูบริกมาตรฐาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each problem also comes with rich metadata, including the intended analysis structure, attached data files, a detailed multi-page case study, and expert review outcomes. We are fully open-sourcing 10 representative GeneBench-Pro questions on Hugging Face⁠(opens in a new window), with an interactive web interface for browsing them. Finally, we will provide a 50-question subset to Artificial Analysis⁠(opens in a new window) for independent, third-party benchmarking in the near future.",
+        "th": "แต่ละปัญหายังมาพร้อมกับเมตาดาต้าที่หลากหลาย รวมถึงโครงสร้างการวิเคราะห์ที่ต้องการ ไฟล์ข้อมูลที่แนบมา กรณีศึกษาแบบหลายหน้าโดยละเอียด และผลการตรวจสอบของผู้เชี่ยวชาญ เรากำลังรวบรวมคำถามแบบโอเพ่นซอร์ส 10 คำถามที่เป็นตัวแทน GeneBench-Pro เกี่ยวกับ Hugging Face⁠(เปิดในหน้าต่างใหม่) พร้อมอินเทอร์เฟซเว็บเชิงโต้ตอบสำหรับการเรียกดู สุดท้ายนี้ เราจะจัดเตรียมชุดย่อย 50 คำถามให้กับ Artificial Analysis (เปิดในหน้าต่างใหม่) สำหรับการวัดประสิทธิภาพโดยบุคคลที่สามโดยอิสระในอนาคตอันใกล้นี้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Results",
+        "th": "ผลลัพธ์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our strongest model, GPT‑5.6 Sol, attains a pass rate of 28.7% at the highest reasoning level (31.5% with Pro mode enabled). That is a sharp increase from when we began building the original GeneBench; at that time, our best frontier model, GPT‑5, scored below 5%. Progress on this benchmark suggests that frontier models are improving quickly, even on less tangible, systems-level scientific reasoning. At the current pace, this benchmark may be saturated by the end of the year.",
+        "th": "รุ่นที่แข็งแกร่งที่สุดของเรา GPT‑5.6 Sol มีอัตราการส่งผ่าน 28.7% ที่ระดับการใช้เหตุผลสูงสุด (31.5% เมื่อเปิดใช้งานโหมด Pro) นั่นเป็นการเพิ่มขึ้นอย่างมากจากเมื่อเราเริ่มสร้าง GeneBench ดั้งเดิม ในขณะนั้น โมเดลชายแดนที่ดีที่สุดของเรา GPT‑5 ได้คะแนนต่ำกว่า 5% ความคืบหน้าของเกณฑ์มาตรฐานนี้ชี้ให้เห็นว่าแบบจำลองแนวเขตกำลังได้รับการปรับปรุงอย่างรวดเร็ว แม้จะต้องใช้เหตุผลทางวิทยาศาสตร์ในระดับระบบที่จับต้องได้น้อยลงก็ตาม ในปัจจุบัน มาตรฐานนี้อาจอิ่มตัวภายในสิ้นปีนี้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The results also show the impact of scaling test-time compute. At the lowest reasoning level, GPT‑5.6 Sol only achieves a single-digit passrate. At the highest reasoning level, GPT‑5.6 Sol solves nearly six times as many questions as GPT‑5.2 does while using about two-thirds as many tokens.",
+        "th": "ผลลัพธ์ยังแสดงให้เห็นถึงผลกระทบของการปรับขนาดการคำนวณเวลาทดสอบอีกด้วย ที่ระดับการใช้เหตุผลต่ำสุด GPT-5.6 Sol จะได้รับรหัสผ่านเพียงหลักเดียวเท่านั้น ในระดับการใช้เหตุผลสูงสุด GPT-5.6 Sol สามารถแก้คำถามได้เกือบหกเท่าของ GPT-5.2 ขณะใช้โทเค็นมากกว่าประมาณสองในสาม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Comparisons across model families suggest that GPT models are among the strongest systems at high-level scientific reasoning under quantitative uncertainty. The performance gap between GPT‑5.6, GPT‑5.5 and leading open-source models such as GLM 5.2 is significantly larger than we would expect when extrapolating from coding benchmarks⁠(opens in a new window), indicating that open-source models are more specialized for coding than for broader reasoning ability.",
+        "th": "การเปรียบเทียบระหว่างตระกูลแบบจำลองชี้ให้เห็นว่าแบบจำลอง GPT เป็นหนึ่งในระบบที่แข็งแกร่งที่สุดในการให้เหตุผลทางวิทยาศาสตร์ระดับสูงภายใต้ความไม่แน่นอนเชิงปริมาณ ช่องว่างด้านประสิทธิภาพระหว่าง GPT‑5.6, GPT‑5.5 และโมเดลโอเพ่นซอร์สชั้นนำ เช่น GLM 5.2 นั้นใหญ่กว่าที่เราคาดไว้อย่างมากเมื่ออนุมานจากเกณฑ์มาตรฐานการเข้ารหัส (เปิดในหน้าต่างใหม่) ซึ่งบ่งชี้ว่าโมเดลโอเพ่นซอร์สมีความเชี่ยวชาญในการเขียนโค้ดมากกว่าความสามารถในการให้เหตุผลที่กว้างขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We used frontier GPT models to evaluate and harden problems during development. As such, we suspected GeneBench-Pro might be biased against GPT models relative to other model families. However, competitor models at best matched the performance of the corresponding GPT model at the time of release, and tended to fall short considerably.",
+        "th": "We used frontier GPT models to evaluate and harden problems during development. As such, we suspected GeneBench-Pro might be biased against GPT models relative to other model families. อย่างไรก็ตาม โมเดลของคู่แข่งตรงกับประสิทธิภาพของโมเดล GPT ที่เกี่ยวข้อง ณ เวลาที่วางจำหน่ายมากที่สุด และมีแนวโน้มที่จะขาดตลาดอย่างมาก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These evaluation results—as high as 31.5% on GPT‑5.6 Sol (Pro)—are striking given the difficulty of the GeneBench-Pro questions. In a survey, our reviewers estimated that a typical GeneBench-Pro problem would take a human expert around 20–40 hours to complete. At a conservative $200 per hour, that puts the human labor cost of a single problem in the thousands of dollars. Current AI agents are still too unreliable to replace human experts, but the cost gap is large, with inference costs at only several dollars per problem. That means even partial automation at current capabilities could create meaningful economic and scientific value.",
+        "th": "These evaluation results—as high as 31.5% on GPT‑5.6 Sol (Pro)—are striking given the difficulty of the GeneBench-Pro questions. In a survey, our reviewers estimated that a typical GeneBench-Pro problem would take a human expert around 20–40 hours to complete. At a conservative $200 per hour, that puts the human labor cost of a single problem in the thousands of dollars. เจ้าหน้าที่ AI ในปัจจุบันยังคงไม่น่าเชื่อถือเกินกว่าที่จะแทนที่ผู้เชี่ยวชาญที่เป็นมนุษย์ แต่ช่องว่างด้านต้นทุนนั้นมีมาก โดยมีค่าใช้จ่ายในการอนุมานเพียงไม่กี่ดอลลาร์ต่อปัญหา That means even partial automation at current capabilities could create meaningful economic and scientific value."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Cyrillus Tan, Postdoctoral Research Associate at the New York Genome Center",
+        "th": "Cyrillus Tan ผู้ร่วมวิจัยหลังปริญญาเอกที่ New York Genome Center"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Lex Flagel, Director of Data Science at Gencove",
+        "th": "Lex Flagel ผู้อำนวยการฝ่ายวิทยาศาสตร์ข้อมูลที่ Gencove"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Cyrillus Tan, Postdoctoral Research Associate at the New York Genome Center",
+        "th": "Cyrillus Tan ผู้ร่วมวิจัยหลังปริญญาเอกที่ New York Genome Center"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Lex Flagel, Director of Data Science at Gencove",
+        "th": "Lex Flagel ผู้อำนวยการฝ่ายวิทยาศาสตร์ข้อมูลที่ Gencove"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Still, the fact that frontier models still solve fewer than a third of these problems shows that there is substantial room for improvement. Models can make partial progress on challenging problems, but they struggle to close the inferential loop. This failure pattern mirrors the contrast between human experts and novices. Experts use their experience to frame the problem and adapt their approach, while novices make observations but struggle to integrate them into the broader context of the problem.",
+        "th": "ถึงกระนั้น ความจริงที่ว่าโมเดลชายแดนยังคงแก้ปัญหาได้น้อยกว่าหนึ่งในสามของปัญหาเหล่านี้ แสดงให้เห็นว่ายังมีโอกาสอีกมากมายสำหรับการปรับปรุง แบบจำลองสามารถสร้างความก้าวหน้าบางส่วนในปัญหาที่ท้าทายได้ แต่พวกมันก็ประสบปัญหาในการปิดวงจรอนุมาน รูปแบบความล้มเหลวนี้สะท้อนความแตกต่างระหว่างผู้เชี่ยวชาญที่เป็นมนุษย์และมือใหม่ ผู้เชี่ยวชาญใช้ประสบการณ์ของตนในการวางกรอบปัญหาและปรับแนวทางของตน ในขณะที่สามเณรทำการสังเกตแต่ก็ประสบปัญหาในการบูรณาการเข้ากับบริบทที่กว้างขึ้นของปัญหา"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Problem: Pharmacogenomic time-to-event response with time-varying treatment",
+        "th": "ปัญหา: การตอบสนองทางเภสัชพันธุศาสตร์ตามเวลาต่อเหตุการณ์ด้วยการรักษาที่แปรผันตามเวลา"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "GPT-5.5 pattern",
+        "th": "รูปแบบ GPT-5.5"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Handles treatment timing with a conventional Cox outcome model but does not address treatment-confounder feedback.",
+        "th": "จัดการระยะเวลาในการรักษาด้วยแบบจำลองผลลัพธ์ของ Cox แบบเดิมๆ แต่ไม่ได้จัดการกับความคิดเห็นที่รบกวนการรักษา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Fit a counting-process Cox model with treatment as a time-varying exposure, effective only after treat_start+90 days ... The model included G, treatment×G, baseline severity, age, and sex.",
+        "th": "ติดตั้งแบบจำลอง Cox ของกระบวนการนับโดยให้การรักษาเป็นการสัมผัสที่แปรผันตามเวลา โดยมีผลหลังจาก Treat_start+90 วันเท่านั้น ... แบบจำลองนี้ประกอบด้วย G การรักษา×G ความรุนแรงพื้นฐาน อายุ และเพศ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "GPT-5.6 Sol pattern",
+        "th": "GPT-5.6 รูปแบบโซล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Uses a more appropriate causal inference method to properly account for treatment-confounder feedback.",
+        "th": "ใช้วิธีการอนุมานสาเหตุที่เหมาะสมกว่าเพื่อพิจารณาความคิดเห็นจากผู้รบกวนการรักษาอย่างเหมาะสม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Used a new-user marginal structural Cox model: excluded 818 flagged prevalent users, modeled treatment initiation with stabilized inverse-probability weights using baseline covariates and current biomarker, and treated exposure as time-varying with a 90-day efficacy lag.",
+        "th": "ใช้โมเดล Cox โครงสร้างส่วนขอบสำหรับผู้ใช้ใหม่: ไม่รวมผู้ใช้ที่แพร่หลายที่ถูกทำเครื่องหมายไว้ 818 ราย การสร้างแบบจำลองการเริ่มต้นการรักษาด้วยน้ำหนักความน่าจะเป็นแบบผกผันที่เสถียรโดยใช้ตัวแปรร่วมพื้นฐานและตัวชี้วัดทางชีวภาพในปัจจุบัน และถือว่าการสัมผัสเป็นเวลาแปรผันโดยมีความล่าช้าด้านประสิทธิภาพ 90 วัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Achieving near-perfect performance will require evaluations that both reliably measure progress and identify where models still fail. Benchmarks like GeneBench-Pro can help to turn a vague capability deficiency into something we can diagnose and improve.",
+        "th": "การบรรลุประสิทธิภาพที่เกือบจะสมบูรณ์แบบนั้นจำเป็นต้องมีการประเมินที่ทั้งวัดความคืบหน้าได้อย่างน่าเชื่อถือ และระบุจุดที่แบบจำลองยังคงล้มเหลว เกณฑ์มาตรฐานเช่น GeneBench-Pro สามารถช่วยเปลี่ยนข้อบกพร่องด้านความสามารถที่คลุมเครือให้เป็นสิ่งที่เราสามารถวินิจฉัยและปรับปรุงได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If agents can reliably automate this class of analysis, they could significantly accelerate scientific discovery. Human genetic evidence is already central to target prioritization and translational follow-up, because mechanisms with genetic support are much more likely to lead to approved treatments.",
+        "th": "หากตัวแทนสามารถทำการวิเคราะห์ระดับนี้โดยอัตโนมัติได้อย่างน่าเชื่อถือ พวกเขาสามารถเร่งการค้นพบทางวิทยาศาสตร์ได้อย่างมาก หลักฐานทางพันธุกรรมของมนุษย์เป็นศูนย์กลางในการจัดลำดับความสำคัญของเป้าหมายและการติดตามผลการแปล เนื่องจากกลไกที่รองรับทางพันธุกรรมมีแนวโน้มที่จะนำไปสู่การรักษาที่ได้รับการอนุมัติมากกว่า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Meanwhile, sequencing costs have plummeted, and biobank-scale datasets now link molecular, phenotypic, and health-record information at unprecedented breadth. The limiting factor is shifting from data generation to turning the information into actionable insights. Models that can consistently perform analyses now handled by teams of human experts could transform industrial research by accelerating hypothesis triage, target follow-up, and the iteration cycle between data generation and decision-making.",
+        "th": "ในขณะเดียวกัน ค่าใช้จ่ายในการจัดลำดับก็ลดลง และชุดข้อมูลระดับธนาคารชีวภาพจะเชื่อมโยงข้อมูลระดับโมเลกุล ฟีโนไทป์ และบันทึกสุขภาพในความกว้างที่ไม่เคยมีมาก่อน ปัจจัยจำกัดกำลังเปลี่ยนจากการสร้างข้อมูลไปสู่การเปลี่ยนข้อมูลให้เป็นข้อมูลเชิงลึกที่นำไปปฏิบัติได้ โมเดลที่สามารถทำการวิเคราะห์ได้อย่างสม่ำเสมอซึ่งขณะนี้ได้รับการจัดการโดยทีมผู้เชี่ยวชาญที่เป็นมนุษย์ สามารถเปลี่ยนการวิจัยทางอุตสาหกรรมได้โดยการเร่งการจำแนกสมมติฐาน การติดตามผลเป้าหมาย และวงจรวนซ้ำระหว่างการสร้างข้อมูลและการตัดสินใจ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GeneBench-Pro represents an initial effort to evaluate the more abstract skills involved in good scientific judgment possessed by experienced. These skills allow them to intuit and identify the most promising initial analyses, iterate and revise their thinking when data contradict initial assumptions, and arrive at conclusions upon which downstream clinical, academic, or business decisions may depend.",
+        "th": "GeneBench-Pro แสดงให้เห็นถึงความพยายามเบื้องต้นในการประเมินทักษะเชิงนามธรรมที่เกี่ยวข้องกับการตัดสินทางวิทยาศาสตร์ที่ดีของผู้มีประสบการณ์ ทักษะเหล่านี้ช่วยให้พวกเขาสามารถหยั่งรู้และระบุการวิเคราะห์เบื้องต้นที่มีแนวโน้มมากที่สุด ทำซ้ำและแก้ไขความคิดของพวกเขาเมื่อข้อมูลขัดแย้งกับสมมติฐานเบื้องต้น และมาถึงข้อสรุปที่การตัดสินใจทางคลินิก วิชาการ หรือธุรกิจขั้นปลายน้ำอาจขึ้นอยู่กับ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We anticipate that as model capabilities advance, benchmarks that probe model abilities at these higher levels of abstraction will become increasingly useful, beyond those that simply test book knowledge or the ability to execute routine analyses.",
+        "th": "เราคาดหวังว่าเมื่อความสามารถของโมเดลก้าวหน้าไป เกณฑ์มาตรฐานที่ตรวจสอบความสามารถของโมเดลในระดับนามธรรมที่สูงขึ้นเหล่านี้จะมีประโยชน์มากขึ้น นอกเหนือจากการทดสอบความรู้ในหนังสือหรือความสามารถในการดำเนินการวิเคราะห์ตามปกติ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "ผู้เขียน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "อ่านต่อ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6q32m87ClqE8Ovn6vD424h/05ced72e47bbe42711fbac6a082cbff2/Art_Card.png?w=3840&q=90&fm=webp",
+      "alt": "GPT-Red art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SafetyJul 15, 2026",
+        "th": "ความปลอดภัย 15 ก.ค. 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7j6M3prKIsTmV6cbMaHjhZ/e66f7cdd98c66c99546853cbc22cfe84/Seperating-signal-from-noise-card.png?w=3840&q=90&fm=webp",
+      "alt": "Separating signal from noise > Art Card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchJul 8, 2026",
+        "th": "การวิจัย 8 ก.ค. 2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/QgPPg4etNE5C4Ao0G94sk/e5f2a50e5de4619d0e0fe8483698718b/molecule-one-art-card.png?w=3840&q=90&fm=webp",
+      "alt": "A near-autonomous AI chemist improves a challenging reaction"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchJun 17, 2026",
+        "th": "การวิจัย 17 มิ.ย. 2569"
       }
     }
   ]

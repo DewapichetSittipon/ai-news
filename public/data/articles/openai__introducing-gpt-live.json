@@ -18,8 +18,542 @@
     {
       "type": "p",
       "text": {
+        "en": "July 8, 2026",
+        "th": "8 กรกฎาคม 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
         "en": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
         "th": "โมเดลเสียงรุ่นใหม่สำหรับการโต้ตอบระหว่างมนุษย์กับ AI โดยธรรมชาติ ขับเคลื่อน ChatGPT Voice แล้ว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re launching GPT‑Live, a new generation of voice models that make talking with AI feel much more like having a real conversation.",
+        "th": "เรากำลังเปิดตัว GPT‑Live โมเดลเสียงเจเนอเรชันใหม่ที่ทำให้การพูดคุยกับ AI รู้สึกเหมือนกำลังสนทนาอยู่จริงๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑Live is built on a full-duplex architecture, meaning it can listen and speak at the same time. During conversations, GPT‑Live can show it’s paying attention with phrases like “mhmm” or “yeah”, engage in quick back-and-forth, or just stay quiet when you need a moment to think. The result is a voice experience that is refreshingly easy to talk to.",
+        "th": "GPT‑Live สร้างขึ้นบนสถาปัตยกรรมฟูลดูเพล็กซ์ ซึ่งหมายความว่าสามารถฟังและพูดได้ในเวลาเดียวกัน ในระหว่างการสนทนา GPT‑Live สามารถแสดงความสนใจด้วยวลี เช่น \"อืม\" หรือ \"ใช่\" พูดกลับไปกลับมาอย่างรวดเร็ว หรือเพียงเงียบไว้เมื่อคุณต้องการเวลาคิด ผลลัพธ์ที่ได้คือประสบการณ์เสียงที่พูดคุยง่ายสดชื่น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑Live is also our smartest voice model yet. For questions that require web search, deeper reasoning, or more complex work, it delegates to our latest frontier model behind the scenes and brings the result back into the conversation when it’s ready. While it works, GPT‑Live can keep talking with you and maintain the flow of conversation. At launch, GPT‑Live will use GPT‑5.5 in the background. As we release new frontier models, we’ll continuously update the model used by GPT‑Live.",
+        "th": "GPT‑Live ยังเป็นโมเดลเสียงที่ฉลาดที่สุดของเราอีกด้วย สำหรับคำถามที่ต้องใช้การค้นหาเว็บ การใช้เหตุผลเชิงลึก หรืองานที่ซับซ้อนมากขึ้น คำถามนั้นจะมอบหมายให้กับโมเดลชายแดนล่าสุดของเราเบื้องหลังและนำผลลัพธ์กลับเข้าสู่การสนทนาเมื่อพร้อม ในขณะที่ใช้งานได้ GPT‑Live สามารถพูดคุยกับคุณต่อไปและรักษาความลื่นไหลของการสนทนาได้ เมื่อเปิดตัว GPT‑Live จะใช้ GPT‑5.5 ในเบื้องหลัง ขณะที่เราเปิดตัวโมเดล Frontier ใหม่ เราจะอัปเดตโมเดลที่ใช้โดย GPT‑Live อย่างต่อเนื่อง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These advances power a new ChatGPT Voice experience that is more intelligent and natural to use. Over time, we believe this research will also unlock the ability to use voice for increasingly complex, longer-running, and more agentic work.",
+        "th": "ความก้าวหน้าเหล่านี้ช่วยเสริมประสบการณ์ ChatGPT Voice ใหม่ที่ชาญฉลาดและเป็นธรรมชาติยิ่งขึ้น เมื่อเวลาผ่านไป เราเชื่อว่างานวิจัยนี้จะปลดล็อกความสามารถในการใช้เสียงสำหรับงานที่ซับซ้อนมากขึ้น ใช้เวลานานขึ้น และเป็นตัวแทนมากขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re beginning to roll out two versions of GPT‑Live – GPT‑Live‑1 and GPT‑Live‑1 mini – to ChatGPT users globally today. We also plan to bring them to the API soon, and developers and enterprises can sign up to be notified using this form⁠.",
+        "th": "เรากำลังเริ่มเปิดตัว GPT‑Live – GPT‑Live‑1 และ GPT‑Live‑1 mini สองเวอร์ชันสำหรับผู้ใช้ ChatGPT ทั่วโลกแล้ววันนี้ นอกจากนี้เรายังวางแผนที่จะนำสิ่งเหล่านี้มาสู่ API เร็วๆ นี้ และนักพัฒนาและองค์กรสามารถลงทะเบียนเพื่อรับการแจ้งเตือนโดยใช้แบบฟอร์มนี้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Entering a new era of human-AI interaction",
+        "th": "เข้าสู่ยุคใหม่ของการปฏิสัมพันธ์ระหว่างมนุษย์และ AI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our vision is to enable truly natural human–AI interaction: a world where collaborating with AI feels as fluid and responsive as working with another person, while reasoning and complex task execution happen seamlessly in the background.",
+        "th": "วิสัยทัศน์ของเราคือการเปิดใช้งานปฏิสัมพันธ์ระหว่างมนุษย์กับ AI ที่เป็นธรรมชาติอย่างแท้จริง: โลกที่การทำงานร่วมกันกับ AI ให้ความรู้สึกลื่นไหลและตอบสนองเหมือนกับการทำงานกับบุคคลอื่น ในขณะที่การให้เหตุผลและการปฏิบัติงานที่ซับซ้อนเกิดขึ้นได้อย่างราบรื่นในเบื้องหลัง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Previous approaches",
+        "th": "แนวทางก่อนหน้า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Older generations of voice AI systems brought us closer to that vision, but with important tradeoffs.",
+        "th": "ระบบ AI เสียงรุ่นเก่าช่วยให้เราเข้าใกล้วิสัยทัศน์นั้นมากขึ้น แต่มีข้อดีข้อเสียที่สำคัญ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Cascaded voice systems",
+        "th": "ระบบเสียงแบบเรียงซ้อน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cascaded voice systems rely on a series of models acting one after another to process each turn. The original ChatGPT Voice chained three models together: a speech-to-text model to transcribe your speech, a large language model to produce a response, and a text-to-speech model to convert it back into speech. This approach enabled us to talk to frontier AI models for the first time, but the complexity came at a cost: information could be lost across models, and responses were slow and stilted.",
+        "th": "ระบบเสียงแบบเรียงซ้อนอาศัยโมเดลหลายชุดที่ทำหน้าที่ต่อกันในการประมวลผลแต่ละเทิร์น ChatGPT Voice ดั้งเดิมเชื่อมโยงสามโมเดลเข้าด้วยกัน: โมเดลคำพูดเป็นข้อความเพื่อถอดเสียงคำพูดของคุณ โมเดลภาษาขนาดใหญ่เพื่อสร้างการตอบกลับ และโมเดลการแปลงข้อความเป็นคำพูดเพื่อแปลงกลับเป็นคำพูด แนวทางนี้ช่วยให้เราสามารถพูดคุยกับโมเดล AI ระดับแนวหน้าได้เป็นครั้งแรก แต่ความซับซ้อนนั้นต้องแลกมาด้วยต้นทุน ข้อมูลอาจสูญหายไปในโมเดลต่างๆ และการตอบสนองก็ช้าและนิ่งงัน"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Cascaded voice system",
+        "th": "ระบบเสียงแบบเรียงซ้อน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Slow and stilted responses, long pauses",
+        "th": "การตอบสนองที่ช้าและหยิ่งทะนงการหยุดยาว"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Turn-based voice models",
+        "th": "โมเดลเสียงแบบผลัดกันเล่น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Turn-based voice models like ChatGPT Advanced Voice Mode processed and generated audio within a single model, reducing latency and making conversations smoother — but they still operated through discrete turns. The model had to wait for the user to stop speaking before responding, resulting in rigid back-and-forth. In addition, because turn detection is based on silence, even a brief pause or background noise could be mistaken for the end of turn — causing the model to interrupt at unnatural times.",
+        "th": "โมเดลเสียงแบบผลัดตา เช่น ChatGPT Advanced Voice Mode ได้รับการประมวลผลและสร้างเสียงภายในโมเดลเดียว ซึ่งช่วยลดความหน่วงและทำให้การสนทนาราบรื่นยิ่งขึ้น แต่ยังคงดำเนินการผ่านการผลัดกันแยกกัน โมเดลต้องรอให้ผู้ใช้หยุดพูดก่อนที่จะตอบสนอง ส่งผลให้เกิดการโต้ตอบไปมาอย่างเข้มงวด นอกจากนี้ เนื่องจากการตรวจจับการเลี้ยวขึ้นอยู่กับความเงียบ แม้แต่การหยุดชั่วคราวสั้นๆ หรือเสียงรบกวนเบื้องหลังก็อาจเข้าใจผิดว่าเป็นจุดสิ้นสุดของการเลี้ยว ส่งผลให้โมเดลขัดจังหวะในเวลาที่ไม่เป็นธรรมชาติ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Turn-based voice model",
+        "th": "รูปแบบเสียงแบบเทิร์นเบส"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Slightly faster and smoother responses, but back-and-forth with the model still feels rigid",
+        "th": "การตอบสนองที่เร็วขึ้นและราบรื่นขึ้นเล็กน้อย แต่การกลับไปกลับมากับโมเดลยังคงให้ความรู้สึกแข็งแกร่ง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Our new approach",
+        "th": "แนวทางใหม่ของเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑Live addresses these limitations through two architectural changes.",
+        "th": "GPT‑Live จัดการกับข้อจำกัดเหล่านี้ผ่านการเปลี่ยนแปลงทางสถาปัตยกรรมสองครั้ง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Continuous interaction",
+        "th": "ปฏิสัมพันธ์อย่างต่อเนื่อง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "First, we built GPT‑Live for continuous interaction using a full-duplex architecture. Instead of processing a sequence of separate messages, GPT‑Live continuously processes input while generating output. The model can therefore make interaction decisions many times per second: whether to speak, continue listening, pause, interrupt, or invoke a tool.",
+        "th": "อันดับแรก เราสร้าง GPT‑Live เพื่อการโต้ตอบอย่างต่อเนื่องโดยใช้สถาปัตยกรรมฟูลดูเพล็กซ์ แทนที่จะประมวลผลลำดับข้อความที่แยกจากกัน GPT‑Live จะประมวลผลอินพุตอย่างต่อเนื่องในขณะที่สร้างเอาต์พุต ดังนั้นโมเดลจึงสามารถตัดสินใจโต้ตอบได้หลายครั้งต่อวินาที ไม่ว่าจะพูด ฟังต่อ หยุดชั่วคราว ขัดจังหวะ หรือเรียกใช้เครื่องมือ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This allows the model to engage in more natural back-and-forth, maintain a better sense of time, and even perform live translation.",
+        "th": "สิ่งนี้ช่วยให้โมเดลมีส่วนร่วมในการกลับไปกลับมาอย่างเป็นธรรมชาติมากขึ้น รักษาความรู้สึกของเวลาได้ดีขึ้น และแม้แต่ทำการแปลสดอีกด้วย"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Continuous interaction",
+        "th": "ปฏิสัมพันธ์อย่างต่อเนื่อง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Fast, natural, expressive responses and more active listening",
+        "th": "การตอบสนองที่รวดเร็ว เป็นธรรมชาติ แสดงออก และการฟังที่กระฉับกระเฉงยิ่งขึ้น"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Delegation for deeper work",
+        "th": "การมอบหมายงานเพื่อการทำงานที่ลึกยิ่งขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Second, we decoupled GPT‑Live — which handles continuous interaction — from deeper work. When a question requires search, reasoning, or more agentic capabilities, GPT‑Live can delegate the task to another model like GPT‑5.5. This allows it to keep the conversation going, even as it handles multiple tasks in the background.",
+        "th": "ประการที่สอง เราแยก GPT‑Live — ซึ่งจัดการการโต้ตอบอย่างต่อเนื่อง — ออกจากการทำงานที่ลึกยิ่งขึ้น เมื่อคำถามต้องมีการค้นหา การใช้เหตุผล หรือความสามารถเชิงเอเจนต์มากขึ้น GPT‑Live ก็สามารถมอบหมายงานให้กับรุ่นอื่น เช่น GPT‑5.5 ได้ ซึ่งช่วยให้การสนทนาดำเนินต่อไปได้ แม้ว่าจะต้องจัดการงานหลายอย่างในเบื้องหลังก็ตาม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This architectural change also allows GPT‑Live to continuously use the latest models and agents, combining frontier intelligence with natural interaction.",
+        "th": "การเปลี่ยนแปลงทางสถาปัตยกรรมนี้ยังทำให้ GPT‑Live สามารถใช้โมเดลและเอเจนต์ล่าสุดได้อย่างต่อเนื่อง โดยผสมผสานความอัจฉริยะระดับแนวหน้าเข้ากับปฏิสัมพันธ์ที่เป็นธรรมชาติ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Delegation for deeper work",
+        "th": "การมอบหมายงานเพื่อการทำงานที่ลึกยิ่งขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT-Live provides fast, natural responses, while GPT-5.5 handles search in the background",
+        "th": "GPT-Live ให้การตอบสนองที่รวดเร็วและเป็นธรรมชาติ ในขณะที่ GPT-5.5 จัดการการค้นหาในเบื้องหลัง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Evaluations",
+        "th": "การประเมินผล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We built new human evaluations to measure pleasantness and the flow of conversation. In these head-to-head comparisons, GPT‑Live‑1 and GPT‑Live‑1 mini are strongly preferred over Advanced Voice Mode in matched 5–10 minute conversations that measure overall preference, turn-taking, interruptions, conversational flow, and how natural each interaction felt.",
+        "th": "เราสร้างการประเมินโดยมนุษย์แบบใหม่เพื่อวัดความพอใจและความลื่นไหลของการสนทนา ในการเปรียบเทียบแบบตัวต่อตัวเหล่านี้ GPT‑Live‑1 และ GPT‑Live‑1 mini เป็นที่นิยมอย่างมากมากกว่าโหมดเสียงขั้นสูงในการสนทนาที่จับคู่กันยาว 5-10 นาที ซึ่งวัดความชอบโดยรวม การผลัดกันพูดคุย การขัดจังหวะ ความลื่นไหลของการสนทนา และความรู้สึกที่เป็นธรรมชาติของการโต้ตอบแต่ละครั้ง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "GPQA: GPT‑Live‑1 substantially outperforms Advanced Voice Mode on GPQA, which tests expert-level scientific reasoning across biology, chemistry, and physics.",
+        "th": "GPQA: GPT‑Live‑1 มีประสิทธิภาพเหนือกว่าโหมดเสียงขั้นสูงอย่างมากใน GPQA ซึ่งทดสอบการใช้เหตุผลทางวิทยาศาสตร์ระดับผู้เชี่ยวชาญในด้านชีววิทยา เคมี และฟิสิกส์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "BrowseComp: GPT‑Live‑1 shows strong gains over Advanced Voice Mode on BrowseComp, which tests agentic web search and the ability to find difficult-to-locate information.",
+        "th": "BrowserComp: GPT‑Live‑1 แสดงให้เห็นประสิทธิภาพที่เหนือกว่าโหมดเสียงขั้นสูงบน BrowserComp ซึ่งทดสอบการค้นหาเว็บแบบตัวแทนและความสามารถในการค้นหาข้อมูลที่ค้นหาได้ยาก"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "τ³-Voice Telecom (internal variant)**: GPT‑Live‑1 outperforms Advanced Voice Mode on τ³-Voice Telecom, which tests voice agents on realistic, multi-turn telecom support tasks.",
+        "th": "τ³-Voice Telecom (ตัวแปรภายใน)**: GPT‑Live‑1 มีประสิทธิภาพเหนือกว่าโหมดเสียงขั้นสูงใน τ³-Voice Telecom ซึ่งทดสอบตัวแทนเสียงในงานสนับสนุนโทรคมนาคมแบบหลายเลี้ยวที่สมจริง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "* GPT‑Live‑1 (instant) and GPT‑Live‑1 mini use the GPT‑5.5 Instant model in the background, while GPT‑Live‑1 Medium and GPT‑Live‑1 High use the GPT‑5.5 Thinking model with medium and high reasoning effort.",
+        "th": "* GPT‑Live‑1 (ทันที) และ GPT‑Live‑1 mini ใช้โมเดล GPT‑5.5 Instant ในเบื้องหลัง ในขณะที่ GPT‑Live‑1 Medium และ GPT‑Live‑1 High ใช้โมเดล GPT‑5.5 Thinking โดยใช้ความพยายามในการให้เหตุผลปานกลางและสูง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "** We used a customized user model, powered by our latest reasoning models, for this eval.",
+        "th": "** เราใช้โมเดลผู้ใช้ที่กำหนดเองซึ่งขับเคลื่อนโดยโมเดลการให้เหตุผลล่าสุดของเราสำหรับการประเมินนี้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "A new ChatGPT Voice experience",
+        "th": "ประสบการณ์ ChatGPT Voice ใหม่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each week, more than 150 million people talk to ChatGPT using features like Voice and Dictation. They use it to get hands-free everyday help, to practice languages, tell bedtime stories, or just chat during their commute.",
+        "th": "ในแต่ละสัปดาห์ ผู้คนมากกว่า 150 ล้านคนพูดคุยกับ ChatGPT โดยใช้ฟีเจอร์ต่างๆ เช่น เสียงและการเขียนตามคำบอก พวกเขาใช้มันเพื่อรับความช่วยเหลือแบบแฮนด์ฟรีทุกวัน ฝึกภาษา เล่านิทานก่อนนอน หรือแค่แชทระหว่างการเดินทาง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Starting today, when you tap the Voice button to talk with ChatGPT, you’ll get an improved experience powered by GPT‑Live—with more natural conversations, smarter answers, better listening, and visual responses.",
+        "th": "เริ่มตั้งแต่วันนี้เป็นต้นไป เมื่อคุณแตะปุ่มเสียงเพื่อพูดคุยกับ ChatGPT คุณจะได้รับประสบการณ์ที่ดีขึ้นซึ่งขับเคลื่อนโดย GPT‑Live พร้อมด้วยการสนทนาที่เป็นธรรมชาติมากขึ้น คำตอบที่ชาญฉลาดยิ่งขึ้น การฟังที่ดีขึ้น และการตอบสนองด้วยภาพ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "More natural conversations",
+        "th": "บทสนทนาที่เป็นธรรมชาติมากขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Talking with ChatGPT should now feel much more like a real conversation. You can interrupt with a question, pause to gather your thoughts, or ask ChatGPT to slow down. It naturally acknowledges what you’re saying with phrases like “mhmm” or “got it,” so you know it’s following along. We’ve also remastered the nine distinct voices in ChatGPT for GPT‑Live.",
+        "th": "ตอนนี้การพูดคุยกับ ChatGPT น่าจะรู้สึกเหมือนเป็นการสนทนาจริงมากขึ้น คุณสามารถขัดจังหวะด้วยคำถาม หยุดเพื่อรวบรวมความคิด หรือขอให้ ChatGPT ช้าลง โดยธรรมชาติแล้วจะรับรู้สิ่งที่คุณพูดด้วยวลีเช่น “อืม” หรือ “เข้าใจแล้ว” เพื่อให้คุณรู้ว่ามันกำลังตามมา นอกจากนี้ เรายังปรับปรุงเสียงทั้ง 9 เสียงใน ChatGPT สำหรับ GPT‑Live อีกด้วย"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Smarter answers",
+        "th": "คำตอบที่ชาญฉลาดยิ่งขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ChatGPT Voice can now draw on our latest frontier models, giving you smarter answers when you need them. You can also choose the level of reasoning that fits your needs: Instant for fast responses, or Medium and High when you want ChatGPT to spend more time thinking.",
+        "th": "ขณะนี้ ChatGPT Voice สามารถดึงเอาโมเดลใหม่ล่าสุดของเรามาใช้ได้ ซึ่งให้คำตอบที่ชาญฉลาดยิ่งขึ้นเมื่อคุณต้องการ คุณยังสามารถเลือกระดับการให้เหตุผลที่เหมาะกับความต้องการของคุณได้: ทันทีเพื่อการตอบสนองที่รวดเร็ว หรือปานกลางและสูง เมื่อคุณต้องการให้ ChatGPT ใช้เวลาคิดมากขึ้น"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Better listening",
+        "th": "ฟังกันดีกว่า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If you take a moment to think, ChatGPT Voice now waits instead of jumping in and interrupting. If you ask it to stay quiet and listen, it will. And when there’s background noise, like passing traffic or nearby conversations, ChatGPT is better at focusing on your voice instead of getting distracted.",
+        "th": "หากคุณใช้เวลาคิดสักครู่ ChatGPT Voice จะรอแทนการกระโดดเข้ามาขัดจังหวะ หากคุณขอให้มันเงียบและฟัง มันจะทำ และเมื่อมีเสียงรบกวน เช่น การจราจรที่ผ่านไปหรือการสนทนาในบริเวณใกล้เคียง ChatGPT จะช่วยให้คุณมุ่งความสนใจไปที่เสียงของคุณได้ดีกว่า แทนที่จะฟุ้งซ่าน"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Visual answers at a glance",
+        "th": "คำตอบแบบเห็นภาพได้อย่างรวดเร็ว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Some answers are more useful when you can see them. While you’re talking, ChatGPT can now show rich visual cards for topics like weather, stocks, sports, and more. Voice also continues to support search, memory, images, and file uploads.",
+        "th": "คำตอบบางข้อจะมีประโยชน์มากกว่าเมื่อคุณเห็นคำตอบเหล่านั้น ขณะที่คุณกำลังพูด ขณะนี้ ChatGPT สามารถแสดงการ์ดภาพที่หลากหลายสำหรับหัวข้อต่างๆ เช่น สภาพอากาศ หุ้น กีฬา และอื่นๆ เสียงยังรองรับการค้นหา หน่วยความจำ รูปภาพ และการอัพโหลดไฟล์ต่อไป"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/38TRAE6B8AS3hNkoQuKSOl/729b7c415ed4c1b62027449799cead86/gpt-live-visual-answer-weather.png?w=3840&q=90&fm=webp",
+      "alt": "ChatGPT Voice displaying a weather forecast for Denver, Colorado."
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7IWfPZwH8SaJVikq4PScQP/f327d0d73d35b3989b8d504d5e9fa782/gpt-live-visual-answer-sports.png?w=3840&q=90&fm=webp",
+      "alt": "ChatGPT Voice displaying upcoming international football matches."
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/GLkTfEhJSFJZ77FHnN1f6/b1ab29d652268636a226246f5b1766cc/gpt-live-visual-answer-maps.png?w=3840&q=90&fm=webp",
+      "alt": "ChatGPT Voice displaying a map with nearby soccer pubs."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The result is a ChatGPT Voice experience that feels more natural, more capable, and more useful in everyday life.",
+        "th": "ผลลัพธ์ที่ได้คือประสบการณ์ ChatGPT Voice ที่ให้ความรู้สึกเป็นธรรมชาติมากขึ้น มีความสามารถมากขึ้น และมีประโยชน์มากขึ้นในชีวิตประจำวัน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Safety designed for voice",
+        "th": "ความปลอดภัยที่ออกแบบมาเพื่อเสียง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑Live was designed to be safe by default. It builds on the safety advances from our latest models while adding dedicated safety training across key risk areas and new safeguards designed specifically for voice.",
+        "th": "GPT‑Live ได้รับการออกแบบมาให้ปลอดภัยตามค่าเริ่มต้น โดยต่อยอดจากความก้าวหน้าด้านความปลอดภัยจากรุ่นล่าสุดของเรา ในขณะเดียวกันก็เพิ่มการฝึกอบรมด้านความปลอดภัยโดยเฉพาะในพื้นที่ความเสี่ยงหลักๆ และการป้องกันใหม่ๆ ที่ออกแบบมาสำหรับเสียงโดยเฉพาะ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Expanded safety testing",
+        "th": "การทดสอบความปลอดภัยเพิ่มเติม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To better reflect how people use voice in real-life settings, we began by expanding our safety testing to include new audio-native evaluations. We also created synthetic evaluations that use generated audio to focus more intensively on key safety areas, drawing on what we learned from Advanced Voice Mode. Those areas include self-harm, psychosis and mania, emotional reliance on AI, violence, and sexual content. Internal experts also red-teamed the model for risks unique to voice.",
+        "th": "เพื่อสะท้อนวิธีที่ผู้คนใช้เสียงในสภาพแวดล้อมจริงได้ดียิ่งขึ้น เราเริ่มต้นด้วยการขยายการทดสอบความปลอดภัยของเราให้รวมการประเมินเสียงเจ้าของภาษาแบบใหม่ด้วย นอกจากนี้เรายังสร้างการประเมินสังเคราะห์ที่ใช้เสียงที่สร้างขึ้นเพื่อเน้นไปที่พื้นที่ปลอดภัยที่สำคัญมากขึ้น โดยอาศัยสิ่งที่เราเรียนรู้จากโหมดเสียงขั้นสูง ประเด็นเหล่านี้รวมถึงการทำร้ายตัวเอง โรคจิตและความบ้าคลั่ง การพึ่งพาทางอารมณ์ต่อ AI ความรุนแรง และเนื้อหาเกี่ยวกับเรื่องเพศ ผู้เชี่ยวชาญภายในยังได้ร่วมทีมสีแดงกับแบบจำลองสำหรับความเสี่ยงที่เป็นเอกลักษณ์ของเสียง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In our testing, GPT‑Live performed comparably to or better than Advanced Voice Mode across nearly all of the areas we evaluated. You can read more about our testing and safeguards in the GPT‑Live system card⁠(opens in a new window).",
+        "th": "ในการทดสอบของเรา GPT‑Live มีประสิทธิภาพเทียบเท่าหรือดีกว่าโหมดเสียงขั้นสูงในเกือบทุกด้านที่เราประเมิน คุณสามารถอ่านเพิ่มเติมเกี่ยวกับการทดสอบและการป้องกันของเราได้ในการ์ดระบบ GPT‑Live (เปิดในหน้าต่างใหม่)"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Built-in safeguards",
+        "th": "การป้องกันในตัว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Because voice conversations unfold in real time, we also built safeguards that can act while the model is speaking. When the system detects potentially unsafe output, it can steer the model toward a safer response, surface additional safety messaging or resources, or end the voice conversation in higher-risk cases. For conversations involving self-harm, we adapted ChatGPT’s support flows for voice, including offering expert-vetted crisis helpline support.",
+        "th": "เนื่องจากการสนทนาด้วยเสียงจะเกิดขึ้นแบบเรียลไทม์ เราจึงสร้างระบบป้องกันที่สามารถดำเนินการได้ในขณะที่โมเดลกำลังพูด เมื่อระบบตรวจพบเอาต์พุตที่อาจไม่ปลอดภัย ระบบจะนำทางโมเดลไปสู่การตอบสนองที่ปลอดภัยยิ่งขึ้น แสดงข้อความหรือแหล่งข้อมูลด้านความปลอดภัยเพิ่มเติม หรือยุติการสนทนาด้วยเสียงในกรณีที่มีความเสี่ยงสูง สำหรับการสนทนาที่เกี่ยวข้องกับการทำร้ายตัวเอง เราได้ปรับเปลี่ยนช่องทางการสนับสนุนของ ChatGPT ด้วยเสียง รวมถึงการเสนอความช่วยเหลือผ่านสายด่วนช่วยเหลือในภาวะวิกฤตที่ผู้เชี่ยวชาญตรวจสอบแล้ว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We designed additional protections to support teen users, and trained age-appropriate behavior directly into the model to reduce the risk of inappropriate responses. Parents can choose whether their teen can use ChatGPT Voice through Parental Controls, and linked parents may be notified in higher-risk situations involving signs of potential self-harm or suicidal intent.",
+        "th": "เราได้ออกแบบการป้องกันเพิ่มเติมเพื่อสนับสนุนผู้ใช้ที่เป็นวัยรุ่น และฝึกอบรมพฤติกรรมที่เหมาะสมกับวัยลงในโมเดลโดยตรงเพื่อลดความเสี่ยงของการตอบสนองที่ไม่เหมาะสม ผู้ปกครองสามารถเลือกได้ว่าวัยรุ่นจะสามารถใช้ ChatGPT Voice ผ่านการควบคุมโดยผู้ปกครองได้หรือไม่ และผู้ปกครองที่เชื่อมโยงอาจได้รับแจ้งในสถานการณ์ที่มีความเสี่ยงสูงกว่าซึ่งเกี่ยวข้องกับสัญญาณของการทำร้ายตัวเองหรือเจตนาฆ่าตัวตาย"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Learning from real-world use",
+        "th": "การเรียนรู้จากการใช้งานจริง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re also rolling out longer-term measurement and post-launch monitoring focused on emotional reliance to continue improving our understanding and refining safeguards. Building on our previous research into affective use and emotional well-being, this will help us identify emerging patterns and improve how the system responds in emotionally sensitive interactions.",
+        "th": "นอกจากนี้ เรายังเปิดตัวการวัดผลในระยะยาวและการติดตามหลังการเปิดตัวซึ่งเน้นไปที่การพึ่งพาทางอารมณ์เพื่อปรับปรุงความเข้าใจและการปรับปรุงการป้องกันของเราต่อไป จากการวิจัยก่อนหน้านี้ของเราเกี่ยวกับการใช้อารมณ์และความเป็นอยู่ที่ดีทางอารมณ์ สิ่งนี้จะช่วยให้เราระบุรูปแบบที่เกิดขึ้นใหม่ และปรับปรุงวิธีที่ระบบตอบสนองในการมีปฏิสัมพันธ์ที่อ่อนไหวทางอารมณ์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Finally, GPT‑Live is designed for conversation, not voice impersonation. It uses a set of predefined voices in ChatGPT, with safeguards to prevent it from imitating a real person’s voice.",
+        "th": "สุดท้ายนี้ GPT‑Live ได้รับการออกแบบมาเพื่อการสนทนา ไม่ใช่การเลียนแบบเสียง ใช้ชุดเสียงที่กำหนดไว้ล่วงหน้าใน ChatGPT พร้อมระบบป้องกันเพื่อป้องกันไม่ให้เลียนแบบเสียงของคนจริง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re committed to supporting safety and well-being and will keep strengthening these protections as we learn from real-world use.",
+        "th": "เรามุ่งมั่นที่จะสนับสนุนความปลอดภัยและความเป็นอยู่ที่ดี และจะเสริมสร้างการปกป้องเหล่านี้ต่อไปในขณะที่เราเรียนรู้จากการใช้งานจริง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Availability & limitations",
+        "th": "ความพร้อมใช้งานและข้อจำกัด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑Live is rolling out now to ChatGPT users globally across iOS, Android, and ChatGPT.com⁠(opens in a new window). GPT‑Live‑1 will become the default model powering ChatGPT Voice for Go, Plus, and Pro users, and GPT‑Live‑1 mini will become the default for Free users. More availability details can be found in our Help Center⁠(opens in a new window).",
+        "th": "GPT‑Live กำลังเปิดให้ผู้ใช้ ChatGPT ทั่วโลกใช้งาน iOS, Android และ ChatGPT.com⁠(เปิดในหน้าต่างใหม่) GPT‑Live‑1 จะกลายเป็นรุ่นเริ่มต้นที่ขับเคลื่อนผู้ใช้ ChatGPT Voice for Go, Plus และ Pro และ GPT‑Live‑1 mini จะกลายเป็นค่าเริ่มต้นสำหรับผู้ใช้แบบฟรี รายละเอียดความพร้อมใช้งานเพิ่มเติมสามารถพบได้ในศูนย์ช่วยเหลือของเรา (เปิดในหน้าต่างใหม่)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’ve optimized GPT‑Live for some of the most popular languages in ChatGPT. For certain languages, the model may have a non-native accent or gaps in fluency. We’re actively working to improve the experience across languages.",
+        "th": "เราได้เพิ่มประสิทธิภาพ GPT‑Live สำหรับภาษายอดนิยมบางภาษาใน ChatGPT สำหรับบางภาษา โมเดลอาจมีสำเนียงที่ไม่ใช่เจ้าของภาษาหรือมีช่องว่างในด้านความคล่องแคล่ว เรากำลังทำงานอย่างแข็งขันเพื่อปรับปรุงประสบการณ์การใช้งานในภาษาต่างๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "At launch, GPT‑Live will not support voice with video or screen sharing in ChatGPT, but we’re working to introduce these capabilities soon. You can still access legacy versions of ChatGPT Voice, including Standard and Advanced Voice Mode, where these features are available.",
+        "th": "เมื่อเปิดตัว GPT‑Live จะไม่รองรับเสียงด้วยการแชร์วิดีโอหรือการแชร์หน้าจอใน ChatGPT แต่เรากำลังดำเนินการเพื่อแนะนำความสามารถเหล่านี้ในเร็วๆ นี้ คุณยังคงเข้าถึง ChatGPT Voice เวอร์ชันเดิมได้ รวมถึงโหมดเสียงมาตรฐานและขั้นสูงซึ่งมีฟีเจอร์เหล่านี้ให้บริการ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ChatGPT",
+        "th": "ChatGPT"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "ผู้เขียน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "อ่านต่อ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5JBDenSGI6wx5CMPPlaM5J/da9d8e27a0bd70d845a816b28ac641a9/OpenAI_Presence_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "OpenAI Presence 1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductJul 22, 2026",
+        "th": "สินค้า22 ก.ค. 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3MPipvFMxS8m3kTyCtwFgj/015747dcd34cb667a221688cfca64e0f/Frame.png?w=3840&q=90&fm=webp",
+      "alt": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot > Cover image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductJul 9, 2026",
+        "th": "สินค้า9 ก.ค. 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1a9IPPV5nXWydTBosgmgYI/8e03f28ca04f26edc8bc81cdba387df1/5-6.jpg?w=3840&q=90&fm=webp",
+      "alt": "GPT 5-6 > Card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductJul 9, 2026",
+        "th": "สินค้า9 ก.ค. 2026"
       }
     }
   ]

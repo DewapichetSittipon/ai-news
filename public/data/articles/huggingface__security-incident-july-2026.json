@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+419",
-        "th": "+419"
+        "en": "+438",
+        "th": "+438"
       }
     },
     {
@@ -883,8 +883,8 @@
     {
       "type": "li",
       "text": {
-        "en": "3 replies",
-        "th": "3 ตอบกลับ"
+        "en": "6 replies",
+        "th": "6 ตอบกลับ"
       }
     },
     {
@@ -1034,10 +1034,15 @@
       "alt": ""
     },
     {
+      "type": "img",
+      "src": "/avatars/1018dd34e29a13c4fbe9273f33ee3d3d.svg",
+      "alt": ""
+    },
+    {
       "type": "li",
       "text": {
-        "en": "1 reply",
-        "th": "1 ตอบกลับ"
+        "en": "2 replies",
+        "th": "2 ตอบกลับ"
       }
     },
     {
@@ -1062,6 +1067,82 @@
       "text": {
         "en": "wandering why you haven't tried local recent cyber models from anthropic or openai instead of GLM unless they are not available locally?",
         "th": "หลงทางว่าทำไมคุณถึงไม่ลองใช้โมเดลไซเบอร์ล่าสุดในท้องถิ่นจาก anthropic หรือ openai แทนที่จะเป็น GLM เว้นแต่ว่าจะไม่สามารถใช้ได้ในพื้นที่"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/52e00613b49a9065f2fa1f80f422123f.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1 reply",
+        "th": "1 ตอบกลับ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/52e00613b49a9065f2fa1f80f422123f.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "They said they tried using a cloud frontier model, but it refused cybersecurity questions due to safety guardrails. Both Anthropic and \"Open\"AI are known for never releasing frontier models for local, open weight usage. HF resorted to GLM as it is a local open weight frontier model",
+        "th": "พวกเขากล่าวว่าพวกเขาพยายามใช้โมเดล Cloud Frontier แต่ปฏิเสธคำถามด้านความปลอดภัยทางไซเบอร์เนื่องจากมีรั้วกั้นด้านความปลอดภัย ทั้ง Anthropic และ AI \"Open\" เป็นที่ทราบกันดีว่าไม่เคยเปิดตัวโมเดลระดับแนวหน้าสำหรับการใช้งานในระดับท้องถิ่นและแบบเปิด HF หันมาใช้ GLM เนื่องจากเป็นโมเดลขอบเขตน้ำหนักเปิดในท้องถิ่น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/49lK7P9CcyLrwa3Jl-EaY.png",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The containment detail is the part I keep coming back to: network egress was constrained to a single internally-hosted package-registry cache proxy. One control, one zero-day, full internet. That's not a model-capability story, it's an architecture story — the same shape as a flat network behind one firewall.",
+        "th": "รายละเอียดการกักกันเป็นส่วนที่ฉันกลับมาดูบ่อยๆ: ทางออกของเครือข่ายถูกจำกัดไว้ที่พร็อกซีแคชรีจิสทรีแพ็คเกจที่โฮสต์ภายในเพียงตัวเดียว หนึ่งการควบคุม หนึ่งวันซีโร่เดย์ อินเทอร์เน็ตเต็มรูปแบบ นั่นไม่ใช่เรื่องราวเกี่ยวกับความสามารถของโมเดล แต่เป็นเรื่องราวเกี่ยวกับสถาปัตยกรรม ซึ่งมีรูปร่างแบบเดียวกับเครือข่ายแบบแบนที่อยู่ด้านหลังไฟร์วอลล์เดียว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "What's missing in that picture is an authority layer at the action boundary: something that renders a deterministic allow/deny/escalate verdict before a side effect dispatches, defaults to DENY on unknown tools and unknown destinations, and enforces tool-call/velocity/blast-radius ceilings. Thousands of actions across a swarm of short-lived sandboxes is exactly the shape a velocity ceiling exists to catch.",
+        "th": "สิ่งที่ขาดหายไปในภาพนั้นคือเลเยอร์ผู้มีอำนาจที่ขอบเขตการดำเนินการ: สิ่งที่ทำให้การตัดสินอนุญาต/ปฏิเสธ/ยกระดับตามที่กำหนดก่อนที่ผลข้างเคียงจะส่งไป ตั้งค่าเริ่มต้นเป็น DENY สำหรับเครื่องมือที่ไม่รู้จักและปลายทางที่ไม่รู้จัก และบังคับใช้เพดานการเรียกเครื่องมือ/ความเร็ว/รัศมีการระเบิด การกระทำนับพันในกระบะทรายอายุสั้นนั้นมีรูปร่างเหมือนกับเพดานความเร็วที่จะจับได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The forensics half is the one that struck me hardest, though. Reconstructing 17k+ events from security telemetry is a project. If every decision emits a signed, hash-chained receipt, the timeline isn't reconstructed — it already exists, and it verifies offline without trusting the service that produced it. Receipts aren't logs: logs record what a system observed, receipts record what it decided and refuse to verify if you change them.",
+        "th": "แม้ว่าครึ่งหนึ่งของนิติเวชจะเป็นสิ่งที่ทำให้ฉันหนักใจที่สุด การสร้างเหตุการณ์ 17,000+ เหตุการณ์ขึ้นใหม่จากการตรวจวัดทางไกลด้านความปลอดภัยถือเป็นโครงการ หากการตัดสินใจทุกครั้งส่งใบเสร็จรับเงินที่ลงนามและผูกมัดไทม์ไลน์จะไม่ถูกสร้างขึ้นใหม่ — มันมีอยู่แล้ว และจะยืนยันแบบออฟไลน์โดยไม่ต้องเชื่อถือบริการที่ผลิตสิ่งนั้น ใบเสร็จรับเงินไม่ใช่บันทึก: บันทึกจะบันทึกสิ่งที่ระบบสังเกต ใบเสร็จจะบันทึกสิ่งที่ตัดสินใจ และปฏิเสธที่จะตรวจสอบว่าคุณเปลี่ยนแปลงหรือไม่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On the asymmetry problem — worth noting a deterministic policy engine and a deterministic payload scanner have no opinion about being handed attack traffic. Only a model can refuse.",
+        "th": "เกี่ยวกับปัญหาความไม่สมดุล — น่าสังเกตว่ากลไกนโยบายที่กำหนดและเครื่องสแกนเพย์โหลดที่กำหนดไม่มีความคิดเห็นเกี่ยวกับการถูกส่งปริมาณการโจมตี มีเพียงแบบจำลองเท่านั้นที่สามารถปฏิเสธได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Disclosure: I work on an open-source implementation of exactly this (Apache-2.0, Go): https://github.com/Mindburn-Labs/helm-ai-kernel — fail-closed execution firewall for agents, signed receipts, offline-verifiable evidence. To be explicit about limits: none of this would have stopped the proxy zero-day or the dataset-loader RCE. It's a boundary for mediated agent actions, not a container-escape mitigation.",
+        "th": "การเปิดเผยข้อมูล: ฉันทำงานกับการใช้งานโอเพ่นซอร์สในสิ่งนี้ (Apache-2.0, Go): https://github.com/Mindburn-Labs/helm-ai-kernel — ไฟร์วอลล์การดำเนินการแบบปิดล้มเหลวสำหรับตัวแทน ใบเสร็จรับเงินที่ลงนาม หลักฐานที่ตรวจสอบได้แบบออฟไลน์ เพื่อให้ชัดเจนเกี่ยวกับขีดจำกัด: ไม่มีสิ่งใดที่จะหยุดพร็อกซีซีโรเดย์หรือชุดข้อมูลโหลดเดอร์ RCE ได้ ซึ่งเป็นขอบเขตสำหรับการดำเนินการของตัวแทนที่เป็นสื่อกลาง ไม่ใช่การบรรเทาคอนเทนเนอร์หนี"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/7f418129b66166a0a0f78d54ea40c77e.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Just Face it we need a paradigm shift . Face the musicThe best defence in this case is community as in immunity for Now . No escape clauses and able to detect self from non-self and an altered self. ​We are dealing with escape artists Houdinis , with unlimited prehensile arms and the ability to squeeze through almost anywhere from everywhere so do make an effort and contribute: https://atlas.mitre.org/ . There is no exit the cat is out of the bag and we all entered into his with wide open AIs shut . Triage at scale or chance caught on a glasswing. it is a paradigm problem and a big one at that.Reading between the lines of code free will may be overrated Nothing comes from nothing, nothing ever could.",
+        "th": "Just Face it เราต้องการการเปลี่ยนกระบวนทัศน์ เผชิญหน้ากับเสียงเพลง การป้องกันที่ดีที่สุดในกรณีนี้คือชุมชนเช่นเดียวกับภูมิคุ้มกันในปัจจุบัน ไม่มีข้อยกเว้นและสามารถตรวจจับตนเองจากสิ่งที่ไม่ใช่ตนเองและตนเองที่เปลี่ยนแปลงได้ เรากำลังติดต่อกับศิลปินแนว Escape Houdinis ที่มีแขนจับได้ไม่จำกัด และความสามารถในการบีบผ่านได้เกือบทุกที่จากทุกที่ ดังนั้นโปรดใช้ความพยายามและมีส่วนร่วม: https://atlas.mitre.org/ ไม่มีทางที่แมวจะออกจากกระเป๋า และเราทุกคนก็เข้าไปในตัวมันโดยปิด AI ที่เปิดกว้างไว้ การคัดแยกในระดับหรือโอกาสที่ติดอยู่บนปีกแก้ว มันเป็นปัญหากระบวนทัศน์และปัญหาใหญ่ในนั้น การอ่านระหว่างบรรทัดของโค้ด free will อาจถูกประเมินเกินจริง ไม่มีอะไรมาจากความว่างเปล่า ไม่มีอะไรที่สามารถทำได้"
       }
     },
     {
@@ -1134,8 +1215,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+413",
-        "th": "+413"
+        "en": "+432",
+        "th": "+432"
       }
     }
   ]

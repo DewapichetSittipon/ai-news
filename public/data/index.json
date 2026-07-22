@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T19:02:28.276Z",
+  "generatedAt": "2026-07-22T21:03:48.148Z",
   "items": [
     {
       "id": "deepmind__accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the",
@@ -33,6 +33,23 @@
       "summary": {
         "en": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
         "th": "OpenAI ประกาศ Project Camellia ในเทศมณฑลเอฟฟิงแฮม รัฐจอร์เจีย โดยมีความมุ่งมั่นที่จะใช้พลังงานอย่างมีความรับผิดชอบ การลงทุนในชุมชน งาน และการเข้าถึง Codex"
+      }
+    },
+    {
+      "id": "openai__how-news-organizations-are-using-ai",
+      "slug": "how-news-organizations-are-using-ai",
+      "source": "openai",
+      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "category": "Company",
+      "date": "2026-07-22T13:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How news organizations are using AI to advance their vital missions",
+        "th": "องค์กรข่าวใช้ AI เพื่อพัฒนาภารกิจสำคัญของตนอย่างไร"
+      },
+      "summary": {
+        "en": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+        "th": "องค์กรข่าวใช้ AI เพื่อเสริมสร้างการรายงาน เพิ่มจำนวนผู้ชม และปรับปรุงการดำเนินธุรกิจ ด้วยเครื่องมือ OpenAI ที่รองรับนักข่าวและผู้จัดพิมพ์ทั่วโลก"
       }
     },
     {
@@ -733,23 +750,6 @@
       }
     },
     {
-      "id": "openai__chatgpt-for-your-most-ambitious-work",
-      "slug": "chatgpt-for-your-most-ambitious-work",
-      "source": "openai",
-      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "category": "Product",
-      "date": "2026-07-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "ChatGPT is now a partner for your most ambitious work",
-        "th": "ChatGPT เป็นพันธมิตรสำหรับงานที่ทะเยอทะยานที่สุดของคุณแล้ว"
-      },
-      "summary": {
-        "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-        "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
-      }
-    },
-    {
       "id": "openai__gpt-5-6",
       "slug": "gpt-5-6",
       "source": "openai",
@@ -764,6 +764,23 @@
       "summary": {
         "en": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
         "th": "ความชาญฉลาดที่มากขึ้นจากทุกโทเค็น ประสิทธิภาพที่แข็งแกร่งต่อดอลลาร์ และความสามารถที่มากขึ้นตามความต้องการสำหรับงานที่หนักที่สุดของคุณ"
+      }
+    },
+    {
+      "id": "openai__chatgpt-for-your-most-ambitious-work",
+      "slug": "chatgpt-for-your-most-ambitious-work",
+      "source": "openai",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "category": "Product",
+      "date": "2026-07-09T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "ChatGPT is now a partner for your most ambitious work",
+        "th": "ChatGPT เป็นพันธมิตรสำหรับงานที่ทะเยอทะยานที่สุดของคุณแล้ว"
+      },
+      "summary": {
+        "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+        "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
       }
     },
     {
@@ -1277,6 +1294,23 @@
       }
     },
     {
+      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
+      "slug": "core-dump-epidemiology-data-infrastructure-bug",
+      "source": "openai",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "category": "Engineering",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Core dump epidemiology: fixing an 18-year-old bug",
+        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
+      },
+      "summary": {
+        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
+      }
+    },
+    {
       "id": "openai__introducing-genebench-pro",
       "slug": "introducing-genebench-pro",
       "source": "openai",
@@ -1308,23 +1342,6 @@
       "summary": {
         "en": "Inside Genebench-Pro",
         "th": "ภายใน Genebench-Pro"
-      }
-    },
-    {
-      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
-      "slug": "core-dump-epidemiology-data-infrastructure-bug",
-      "source": "openai",
-      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "category": "Engineering",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Core dump epidemiology: fixing an 18-year-old bug",
-        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
-      },
-      "summary": {
-        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
       }
     },
     {
@@ -1648,23 +1665,6 @@
       "summary": {
         "en": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
         "th": "PP-OCRv6 บนใบหน้ากอด: OCR 50 ภาษาตั้งแต่ 1.5M ถึง 34.5M พารามิเตอร์"
-      }
-    },
-    {
-      "id": "openai__daybreak-securing-the-world",
-      "slug": "daybreak-securing-the-world",
-      "source": "openai",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "category": "Security",
-      "date": "2026-06-22T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Daybreak: Tools for securing every organization in the world",
-        "th": "Daybreak: เครื่องมือสำหรับการรักษาความปลอดภัยให้กับทุกองค์กรในโลก"
-      },
-      "summary": {
-        "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-        "th": "OpenAI เปิดตัวเครื่องมือ Daybreak ใหม่ รวมถึง Codex Security และ GPT-5.5-Cyber ​​เพื่อช่วยให้องค์กรค้นหา ตรวจสอบ และแก้ไขช่องโหว่ในวงกว้าง"
       }
     },
     {

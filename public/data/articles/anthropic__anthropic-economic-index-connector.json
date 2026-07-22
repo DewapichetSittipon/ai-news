@@ -58,8 +58,8 @@
     {
       "type": "li",
       "text": {
-        "en": "“What kinds of tasks are people automating with AI? How has that changed over the past year??”",
-        "th": "“งานประเภทใดบ้างที่ผู้คนทำงานอัตโนมัติด้วย AI สิ่งนี้เปลี่ยนแปลงไปอย่างไรในปีที่ผ่านมา?”"
+        "en": "“What kinds of tasks are people automating with AI? How has that changed over the past year?”",
+        "th": "“งานประเภทใดบ้างที่ผู้คนทำงานอัตโนมัติด้วย AI สิ่งนี้เปลี่ยนแปลงไปอย่างไรในปีที่ผ่านมา”"
       }
     },
     {
@@ -72,8 +72,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Getting started takes about a minute. In claude.ai, open the connectors menu, find the Anthropic Economic Index in the directory, and enable it—it works in any conversation with any Claude model, and there's nothing to install. From there, just ask questions the way you'd ask a colleague: start broad (\"what does the Index say about my industry?\"), then drill into specifics, and ask Claude to show you the underlying data behind any answer.",
-        "th": "การเริ่มต้นใช้เวลาประมาณหนึ่งนาที ใน claude.ai ให้เปิดเมนูตัวเชื่อมต่อ ค้นหา Anthropic Economic Index ในไดเร็กทอรี และเปิดใช้งาน โดยจะใช้ได้กับการสนทนากับ Claude รุ่นใดก็ได้ และไม่จำเป็นต้องติดตั้งอะไรเลย จากนั้น ให้ถามคำถามแบบเดียวกับที่คุณถามเพื่อนร่วมงาน โดยเริ่มจากกว้างๆ (\"ดัชนีบอกอะไรเกี่ยวกับอุตสาหกรรมของฉัน\") จากนั้นเจาะลึกข้อมูลเฉพาะเจาะจง และขอให้ Claude แสดงข้อมูลที่ซ่อนอยู่เบื้องหลังคำตอบใดๆ ก็ตาม"
+        "en": "Getting started takes about a minute. In claude.ai, open the connectors menu, find the Anthropic Economic Index in the directory, and enable it—it works in any conversation with any Claude model, and there's nothing to install. From there, just ask questions the way you'd ask a colleague: start broad (“What does the Index say about my industry?”), then drill into specifics, and ask Claude to show you the underlying data behind any answer.",
+        "th": "การเริ่มต้นใช้เวลาประมาณหนึ่งนาที ใน claude.ai ให้เปิดเมนูตัวเชื่อมต่อ ค้นหา Anthropic Economic Index ในไดเร็กทอรี และเปิดใช้งาน โดยจะใช้ได้กับการสนทนากับ Claude รุ่นใดก็ได้ และไม่จำเป็นต้องติดตั้งอะไรเลย จากนั้น เพียงถามคำถามในแบบที่คุณต้องการถามเพื่อนร่วมงาน โดยเริ่มจากกว้างๆ (“ดัชนีบอกอะไรเกี่ยวกับอุตสาหกรรมของฉัน”) จากนั้นเจาะลึกข้อมูลเฉพาะเจาะจง และขอให้ Claude แสดงข้อมูลที่ซ่อนอยู่เบื้องหลังคำตอบใดๆ ก็ตาม"
       }
     },
     {
@@ -88,6 +88,20 @@
       "text": {
         "en": "Related content",
         "th": "เนื้อหาที่เกี่ยวข้อง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "A research agenda for the Economic Futures Research Fund",
+        "th": "วาระการวิจัยสำหรับกองทุนวิจัยอนาคตเศรษฐกิจ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re sharing the research agenda for the Anthropic Economic Futures Research Fund.",
+        "th": "เรากำลังแบ่งปันวาระการวิจัยสำหรับกองทุนวิจัยอนาคตทางเศรษฐกิจมานุษยวิทยา"
       }
     },
     {
@@ -116,13 +130,6 @@
       "text": {
         "en": "Anthropic is sharing a focused call for AI for Science applications centered specifically on rare genetic diseases. Accepted applicants will receive up to $50,000 in Claude credits over six months, with the goal of building a community of researchers looking into how AI can reshape our understanding of rare disease.",
         "th": "Anthropic กำลังแบ่งปันข้อเรียกร้องให้มีการใช้งาน AI for Science ซึ่งมีศูนย์กลางอยู่ที่โรคทางพันธุกรรมที่หายากโดยเฉพาะ ผู้สมัครที่ได้รับการยอมรับจะได้รับเครดิต Claude มูลค่าสูงสุด 50,000 ดอลลาร์ในช่วงหกเดือน โดยมีเป้าหมายเพื่อสร้างชุมชนนักวิจัยที่พิจารณาว่า AI จะปรับเปลี่ยนความเข้าใจของเราเกี่ยวกับโรคหายากได้อย่างไร"
-      }
-    },
-    {
-      "type": "h3",
-      "text": {
-        "en": "Introducing Claude for Teachers",
-        "th": "ขอแนะนำคลอดด์สำหรับครู"
       }
     }
   ]

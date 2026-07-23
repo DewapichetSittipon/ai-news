@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-23T06:27:15.920Z",
+  "generatedAt": "2026-07-23T10:14:55.774Z",
   "items": [
+    {
+      "id": "huggingface__nunchaku-diffusers",
+      "slug": "nunchaku-diffusers",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/nunchaku-diffusers",
+      "category": "News",
+      "date": "2026-07-23T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+        "th": "นำการอนุมานการแพร่กระจายของ Nunchaku 4 บิตมาสู่ตัวกระจายสัญญาณ"
+      },
+      "summary": {
+        "en": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+        "th": "นำการอนุมานการแพร่กระจายของ Nunchaku 4 บิตมาสู่ตัวกระจายสัญญาณ"
+      }
+    },
     {
       "id": "deepmind__accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the",
       "slug": "accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the",
@@ -2073,23 +2090,6 @@
       "summary": {
         "en": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
         "th": "ความปลอดภัยของเนื้อหา Nemotron 3.5: ความปลอดภัยหลายรูปแบบที่ปรับแต่งได้สำหรับ Global Enterprise AI"
-      }
-    },
-    {
-      "id": "huggingface__hf-cli-for-agents",
-      "slug": "hf-cli-for-agents",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/hf-cli-for-agents",
-      "category": "News",
-      "date": "2026-06-04T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-        "th": "การออกแบบ hf CLI เป็นวิธีเพิ่มประสิทธิภาพเอเจนต์ในการทำงานร่วมกับฮับ"
-      },
-      "summary": {
-        "en": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-        "th": "การออกแบบ hf CLI เป็นวิธีเพิ่มประสิทธิภาพเอเจนต์ในการทำงานร่วมกับฮับ"
       }
     },
     {

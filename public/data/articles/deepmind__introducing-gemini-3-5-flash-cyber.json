@@ -110,6 +110,13 @@
       }
     },
     {
+      "type": "h3",
+      "text": {
+        "en": "Success Rate on CyberGym (pass@1)",
+        "th": "อัตราความสำเร็จบน CyberGym (pass@1)"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "*Competitor results are sourced from provider self-reported scores",
@@ -124,6 +131,13 @@
       }
     },
     {
+      "type": "h3",
+      "text": {
+        "en": "Success Rate on Big Sleep Evaluation (pass@1)",
+        "th": "อัตราความสำเร็จในการประเมินการนอนหลับครั้งใหญ่ (pass@1)"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "3.5 Flash Cyber was also evaluated on Google Chrome’s production commit scanning pipeline. The vulnerabilities were not publicly disclosed, which ensured this benchmark remained free of contamination for Gemini and competitor models.",
@@ -135,6 +149,13 @@
       "text": {
         "en": "The results showed a significant uplift from 3.5 Flash Cyber compared to 3.5 Flash. Note: More recent competitor model versions after Opus 4.6 refuse to fulfill the tasks due to built-in safety guardrails, and therefore are not shown.",
         "th": "ผลลัพธ์แสดงให้เห็นการเพิ่มขึ้นอย่างมีนัยสำคัญจาก 3.5 Flash Cyber ​​เมื่อเทียบกับ 3.5 Flash หมายเหตุ: เวอร์ชันล่าสุดของคู่แข่งหลังจาก Opus 4.6 ปฏิเสธที่จะทำงานให้เสร็จสิ้นเนื่องจากมีราวกั้นความปลอดภัยในตัว ดังนั้นจึงจะไม่แสดง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Success Rate on Chrome Production Commit Scanning Pipeline (pass@1)",
+        "th": "อัตราความสำเร็จในขั้นตอนการสแกนความมุ่งมั่นในการผลิตของ Chrome (pass@1)"
       }
     },
     {

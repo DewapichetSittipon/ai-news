@@ -18,8 +18,128 @@
     {
       "type": "p",
       "text": {
-        "en": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
-        "th": "เรียนรู้ว่า OpenAI เข้าถึงความร่วมมือระหว่างรัฐบาลและความมั่นคงแห่งชาติได้อย่างไร โดยมีหลักการในการใช้ AI อย่างมีความรับผิดชอบ ความรับผิดชอบตามระบอบประชาธิปไตย และความปลอดภัยสาธารณะ"
+        "en": "July 8, 2026",
+        "th": "8 กรกฎาคม 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Governments are beginning to use frontier AI systems for increasingly important work, including in national security. That creates new imperatives for AI labs, governments, and civil society to work together on how these tools should be used in sensitive settings.",
+        "th": "รัฐบาลเริ่มใช้ระบบ AI ระดับแนวหน้าเพื่องานที่มีความสำคัญมากขึ้นเรื่อยๆ รวมถึงในด้านความมั่นคงของชาติ นั่นทำให้เกิดความจำเป็นใหม่สำหรับห้องปฏิบัติการ AI รัฐบาล และภาคประชาสังคมในการทำงานร่วมกันเกี่ยวกับวิธีการใช้เครื่องมือเหล่านี้ในสภาพแวดล้อมที่ละเอียดอ่อน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We believe democratic societies should be able to use AI to protect people, defend critical infrastructure, deliver public services, and respond to emerging threats, including in areas like cyber defense and biological security where AI can meaningfully advantage defenders. But increasingly capable AI systems must be deployed in ways that reinforce democratic accountability, meaningful human judgment, and the rule of law, and that strengthen democratic institutions rather than concentrate power.",
+        "th": "เราเชื่อว่าสังคมประชาธิปไตยควรใช้ AI เพื่อปกป้องผู้คน ปกป้องโครงสร้างพื้นฐานที่สำคัญ ให้บริการสาธารณะ และตอบสนองต่อภัยคุกคามที่เกิดขึ้นใหม่ รวมถึงในด้านต่างๆ เช่น การป้องกันทางไซเบอร์และความปลอดภัยทางชีวภาพ ซึ่ง AI สามารถสร้างความได้เปรียบให้กับผู้พิทักษ์ได้อย่างมีความหมาย แต่ระบบ AI ที่มีความสามารถเพิ่มมากขึ้นจะต้องถูกปรับใช้ในลักษณะที่เสริมสร้างความรับผิดชอบตามระบอบประชาธิปไตย การตัดสินของมนุษย์ที่มีความหมาย และหลักนิติธรรม และเสริมสร้างความเข้มแข็งให้กับสถาบันประชาธิปไตยมากกว่าที่จะรวมพลังเข้าด้วยกัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today we are publishing OpenAI’s National Security Principles to offer transparency into how we approach government partnerships and national security uses of our technology.",
+        "th": "วันนี้เรากำลังเผยแพร่หลักการความมั่นคงแห่งชาติของ OpenAI เพื่อนำเสนอความโปร่งใสเกี่ยวกับวิธีการที่เราจัดการกับความร่วมมือภาครัฐและการใช้เทคโนโลยีของเราเพื่อความมั่นคงของชาติ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These principles reflect a cross-company effort to develop a more comprehensive approach to our work in the national security and law enforcement area as our technology continues to advance. We engaged a leading national security expert, David Kris, to help facilitate the process and provide his independent judgment, held listening sessions across the company, and engaged employees representing a range of teams from research and safety to policy and government partnerships.",
+        "th": "หลักการเหล่านี้สะท้อนให้เห็นถึงความพยายามข้ามบริษัทในการพัฒนาแนวทางที่ครอบคลุมมากขึ้นในการทำงานของเราในด้านความมั่นคงแห่งชาติและการบังคับใช้กฎหมาย ในขณะที่เทคโนโลยีของเรายังคงก้าวหน้าต่อไป เราว่าจ้าง David Kris ผู้เชี่ยวชาญด้านความมั่นคงแห่งชาติชั้นนำเพื่อช่วยอำนวยความสะดวกในกระบวนการและให้วิจารณญาณที่เป็นอิสระ จัดเซสชั่นการรับฟังทั่วทั้งบริษัท และว่าจ้างพนักงานที่เป็นตัวแทนของทีมต่างๆ ตั้งแต่การวิจัยและความปลอดภัย ไปจนถึงนโยบายและความร่วมมือภาครัฐ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are publishing them now as we expand our work with the U.S. government and allied partners in critical defensive areas, particularly cyber and biosecurity. In the past month, as part of our Daybreak⁠ cyber defense program, we have already established Trusted Access for Cyber partnerships with Australia, Canada, Japan, Republic of Korea, France, Germany, Poland, the Netherlands and EU institutions like ENISA. We also have a growing and trusted partnership with the UK government around cyber, testing and evaluation. We are taking a similar approach in biosecurity. Last month, we also announced expanded trusted access to our GPT‑Rosalind model for select U.S. government and allied partners supporting public health and biodefense missions.",
+        "th": "เรากำลังเผยแพร่เอกสารเหล่านี้ในขณะนี้ในขณะที่เราขยายงานของเรากับรัฐบาลสหรัฐอเมริกาและพันธมิตรพันธมิตรในพื้นที่การป้องกันที่สำคัญ โดยเฉพาะอย่างยิ่งความปลอดภัยทางไซเบอร์และทางชีวภาพ ในเดือนที่ผ่านมา ในฐานะส่วนหนึ่งของโปรแกรมการป้องกันทางไซเบอร์ของ Daybreak เราได้จัดตั้ง Trusted Access สำหรับความร่วมมือทางไซเบอร์กับออสเตรเลีย แคนาดา ญี่ปุ่น สาธารณรัฐเกาหลี ฝรั่งเศส เยอรมนี โปแลนด์ เนเธอร์แลนด์ และสถาบันในสหภาพยุโรป เช่น ENISA นอกจากนี้เรายังมีความร่วมมือที่เติบโตและเชื่อถือได้กับรัฐบาลสหราชอาณาจักรในด้านไซเบอร์ การทดสอบ และการประเมินผล เรากำลังใช้แนวทางเดียวกันในเรื่องความปลอดภัยทางชีวภาพ เมื่อเดือนที่แล้ว เรายังได้ประกาศขยายการเข้าถึงโมเดล GPT‑Rosalind ที่เชื่อถือได้สำหรับรัฐบาลสหรัฐฯ ที่ได้รับคัดเลือกและพันธมิตรพันธมิตรที่สนับสนุนภารกิจด้านสาธารณสุขและการป้องกันทางชีวภาพ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These principles apply to our current and future national security and law enforcement partnerships, including our existing work with the Department of War. When we announced our agreement earlier this year, we articulated several contractual restrictions: no use of OpenAI technology for mass domestic surveillance, no use of OpenAI technology to direct autonomous weapons systems, and no use of OpenAI technology for high-stakes automated decisions. Those restrictions are consistent with the principles we are sharing today.",
+        "th": "หลักการเหล่านี้นำไปใช้กับความร่วมมือด้านความมั่นคงของชาติและการบังคับใช้กฎหมายในปัจจุบันและอนาคตของเรา รวมถึงงานที่มีอยู่ของเรากับกระทรวงการสงคราม เมื่อเราประกาศข้อตกลงเมื่อต้นปีนี้ เราได้ระบุข้อจำกัดทางสัญญาหลายประการ เช่น ห้ามใช้เทคโนโลยี OpenAI สำหรับการเฝ้าระวังภายในประเทศจำนวนมาก ห้ามใช้เทคโนโลยี OpenAI เพื่อควบคุมระบบอาวุธอัตโนมัติ และไม่ใช้เทคโนโลยี OpenAI สำหรับการตัดสินใจอัตโนมัติที่มีเดิมพันสูง ข้อจำกัดเหล่านั้นสอดคล้องกับหลักการที่เราแบ่งปันในปัจจุบัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We believe the right thing to do is to be clear about how our technology can and cannot be used, and to be transparent about them. But many of the most consequential questions about AI in government, especially in national security, should be answered through the democratic process. The role of companies like ours is to help inform those decisions, not make them alone. That is why we support legislative efforts to establish safeguards around some of the highest-risk military uses of AI, including in the contexts of domestic surveillance, autonomous weapons systems, and other high-risk uses that directly affect U.S. national security.",
+        "th": "เราเชื่อว่าสิ่งที่ถูกต้องที่ต้องทำคือการทำให้ชัดเจนว่าเทคโนโลยีของเราสามารถและไม่สามารถนำมาใช้ได้อย่างไร และต้องมีความโปร่งใสเกี่ยวกับสิ่งเหล่านั้น แต่คำถามที่เป็นผลสืบเนื่องที่สุดหลายข้อเกี่ยวกับ AI ในรัฐบาล โดยเฉพาะอย่างยิ่งในด้านความมั่นคงของชาติ ควรตอบผ่านกระบวนการประชาธิปไตย บทบาทของบริษัทเช่นเราคือการช่วยให้ข้อมูลในการตัดสินใจเหล่านั้น ไม่ใช่ทำเพียงลำพัง นั่นคือเหตุผลที่เราสนับสนุนความพยายามทางกฎหมายเพื่อสร้างการป้องกันเกี่ยวกับการใช้งาน AI ทางการทหารที่มีความเสี่ยงสูงสุด ซึ่งรวมถึงในบริบทของการเฝ้าระวังภายในประเทศ ระบบอาวุธอัตโนมัติ และการใช้งานที่มีความเสี่ยงสูงอื่นๆ ที่ส่งผลโดยตรงต่อความมั่นคงของชาติสหรัฐอเมริกา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Read the principles here⁠(opens in a new window).",
+        "th": "อ่านหลักการที่นี่ (opens in a new window)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Partnerships",
+        "th": "ห้างหุ้นส่วน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "ผู้เขียน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "อ่านต่อ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3f1fyaaSZELql3zECUImW3/1733a5ee7f07da894b993dcff75bea66/effingham_county_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "effingham county 1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Global AffairsJul 22, 2026",
+        "th": "กิจการระดับโลก 22 ก.ค. 2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1aUcaaPHlPQbaN0EzEUrEc/95d5f6d78ab308305bf4781c07ccc4fd/Advancing_the_next_era_of_national_science_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "Advancing the next era of national science card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Global AffairsJul 22, 2026",
+        "th": "กิจการระดับโลก 22 ก.ค. 2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5bSU7ItzcBWGtWhApmmJ6X/a818a91ef36b39ed07d62566ec318760/Frame2.png?w=3840&q=90&fm=webp",
+      "alt": "Helping build shared standards for advanced AI - card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Global AffairsJul 15, 2026",
+        "th": "กิจการระดับโลก 15 กรกฎาคม 2569"
       }
     }
   ]

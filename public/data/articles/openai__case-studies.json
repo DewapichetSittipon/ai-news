@@ -18,8 +18,1100 @@
     {
       "type": "p",
       "text": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
+        "en": "June 30, 2026",
+        "th": "30 มิถุนายน 2569"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A closer look at the benchmark, its questions, and supporting materials.",
+        "th": "เจาะลึกเกณฑ์มาตรฐาน คำถาม และเอกสารสนับสนุน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Case studiesSomatic oncology: Structural variant-guided tumor therapy benefit-risk decisionFunctional genomics: CRISPR target validation: lncRNA transcript or genomic locus?Statistical genetics: Prioritizing protein drug targets in a linked genetic locusClinical genomics / carrier screening: DRX1 carrier-screening residual risk under CNV and pseudogene calibrationSingle-cell genomics: Activated-monocyte eQTL after ambient RNA correctionStructural genetics: Nested structural variant: expression support and clinical associationRegulatory genomics: Measuring chromatin loop strength after structural-variant and mapping artifact maskingStatistical genetics: Multi-parent QTL mapping with founder reconstructionPopulation genetics: Parent-specific ancestry and recent admixture timingPopulation genetics: Estimating selection from noisy ancient-DNA time series",
+        "th": "กรณีศึกษา เนื้องอกวิทยาเชิงโครงสร้าง: การบำบัดด้วยเนื้องอกที่มีโครงสร้างนำพา ประโยชน์-การตัดสินใจความเสี่ยง จีโนมเชิงฟังก์ชัน: การตรวจสอบเป้าหมาย CRISPR: การถอดเสียง lncRNA หรือตำแหน่งจีโนม พันธุศาสตร์ทางสถิติ: การจัดลำดับความสำคัญของเป้าหมายยาโปรตีนในตำแหน่งทางพันธุกรรมที่เชื่อมโยง จีโนมทางคลินิก / การคัดกรองพาหะ: DRX1 การคัดกรองพาหะ ความเสี่ยงตกค้างภายใต้ CNV และการสอบเทียบยีนเทียม จีโนมเซลล์เดียว: eQTL ที่เปิดใช้งานแล้ว หลังการแก้ไข RNA โดยรอบ พันธุศาสตร์เชิงโครงสร้าง: ตัวแปรโครงสร้างที่ซ้อนกัน: การสนับสนุนการแสดงออกและการเชื่อมโยงทางคลินิก จีโนมควบคุม: การวัดความแข็งแรงของลูปโครมาตินหลังการมาสก์สิ่งประดิษฐ์ของตัวแปรโครงสร้างและการทำแผนที่ พันธุศาสตร์ทางสถิติ: การทำแผนที่ QTL หลายผู้ปกครองพร้อมการสร้างผู้ก่อตั้งใหม่ พันธุศาสตร์ของประชากร: บรรพบุรุษเฉพาะของผู้ปกครองและระยะเวลาของส่วนผสมล่าสุด พันธุศาสตร์ของประชากร: การประมาณค่าการเลือกจากอนุกรมเวลาดีเอ็นเอโบราณที่มีเสียงดัง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Somatic oncology: Structural variant-guided tumor therapy benefit-risk decision",
+        "th": "เนื้องอกวิทยาทางร่างกาย: การตัดสินใจความเสี่ยงต่อผลประโยชน์และความเสี่ยงของการบำบัดด้วยเนื้องอกที่มีโครงสร้างนำทางด้วยตัวแปร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Functional genomics: CRISPR target validation: lncRNA transcript or genomic locus?",
+        "th": "ฟังก์ชั่นจีโนมิกส์: การตรวจสอบเป้าหมาย CRISPR: การถอดเสียง lncRNA หรือจีโนมโลคัส?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Statistical genetics: Prioritizing protein drug targets in a linked genetic locus",
+        "th": "พันธุศาสตร์ทางสถิติ: การจัดลำดับความสำคัญเป้าหมายยาโปรตีนในตำแหน่งทางพันธุกรรมที่เชื่อมโยง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Clinical genomics / carrier screening: DRX1 carrier-screening residual risk under CNV and pseudogene calibration",
+        "th": "จีโนมทางคลินิก / การคัดกรองพาหะ: การคัดกรอง DRX1 ความเสี่ยงตกค้างในการคัดกรองพาหะภายใต้ CNV และการสอบเทียบยีนเทียม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Single-cell genomics: Activated-monocyte eQTL after ambient RNA correction",
+        "th": "จีโนมเซลล์เดี่ยว: eQTL ที่เปิดใช้งานแล้วหลังจากการแก้ไข RNA โดยรอบ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Structural genetics: Nested structural variant: expression support and clinical association",
+        "th": "พันธุศาสตร์เชิงโครงสร้าง: ตัวแปรโครงสร้างที่ซ้อนกัน: การสนับสนุนการแสดงออกและการเชื่อมโยงทางคลินิก"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Regulatory genomics: Measuring chromatin loop strength after structural-variant and mapping artifact masking",
+        "th": "จีโนมิกส์ด้านกฎระเบียบ: การวัดความแข็งแรงของลูปโครมาตินหลังจากการมาสก์สิ่งประดิษฐ์เชิงโครงสร้างและการทำแผนที่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Statistical genetics: Multi-parent QTL mapping with founder reconstruction",
+        "th": "พันธุศาสตร์ทางสถิติ: การทำแผนที่ QTL หลายผู้ปกครองพร้อมการสร้างผู้ก่อตั้งใหม่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Population genetics: Parent-specific ancestry and recent admixture timing",
+        "th": "พันธุศาสตร์ประชากร: บรรพบุรุษเฉพาะของผู้ปกครองและระยะเวลาของส่วนผสมล่าสุด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Population genetics: Estimating selection from noisy ancient-DNA time series",
+        "th": "พันธุศาสตร์ประชากร: การประมาณการคัดเลือกจากอนุกรมเวลาดีเอ็นเอโบราณที่มีเสียงดัง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Case studiesSomatic oncology: Structural variant-guided tumor therapy benefit-risk decisionFunctional genomics: CRISPR target validation: lncRNA transcript or genomic locus?Statistical genetics: Prioritizing protein drug targets in a linked genetic locusClinical genomics / carrier screening: DRX1 carrier-screening residual risk under CNV and pseudogene calibrationSingle-cell genomics: Activated-monocyte eQTL after ambient RNA correctionStructural genetics: Nested structural variant: expression support and clinical associationRegulatory genomics: Measuring chromatin loop strength after structural-variant and mapping artifact maskingStatistical genetics: Multi-parent QTL mapping with founder reconstructionPopulation genetics: Parent-specific ancestry and recent admixture timingPopulation genetics: Estimating selection from noisy ancient-DNA time series",
+        "th": "กรณีศึกษา เนื้องอกวิทยาเชิงโครงสร้าง: การบำบัดด้วยเนื้องอกที่มีโครงสร้างนำพา ประโยชน์-การตัดสินใจความเสี่ยง จีโนมเชิงฟังก์ชัน: การตรวจสอบเป้าหมาย CRISPR: การถอดเสียง lncRNA หรือตำแหน่งจีโนม พันธุศาสตร์ทางสถิติ: การจัดลำดับความสำคัญของเป้าหมายยาโปรตีนในตำแหน่งทางพันธุกรรมที่เชื่อมโยง จีโนมทางคลินิก / การคัดกรองพาหะ: DRX1 การคัดกรองพาหะ ความเสี่ยงตกค้างภายใต้ CNV และการสอบเทียบยีนเทียม จีโนมเซลล์เดียว: eQTL ที่เปิดใช้งานแล้ว หลังการแก้ไข RNA โดยรอบ พันธุศาสตร์เชิงโครงสร้าง: ตัวแปรโครงสร้างที่ซ้อนกัน: การสนับสนุนการแสดงออกและการเชื่อมโยงทางคลินิก จีโนมควบคุม: การวัดความแข็งแรงของลูปโครมาตินหลังการมาสก์สิ่งประดิษฐ์ของตัวแปรโครงสร้างและการทำแผนที่ พันธุศาสตร์ทางสถิติ: การทำแผนที่ QTL หลายผู้ปกครองพร้อมการสร้างผู้ก่อตั้งใหม่ พันธุศาสตร์ของประชากร: บรรพบุรุษเฉพาะของผู้ปกครองและระยะเวลาของส่วนผสมล่าสุด พันธุศาสตร์ของประชากร: การประมาณค่าการเลือกจากอนุกรมเวลาดีเอ็นเอโบราณที่มีเสียงดัง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Somatic oncology: Structural variant-guided tumor therapy benefit-risk decision",
+        "th": "เนื้องอกวิทยาทางร่างกาย: การตัดสินใจความเสี่ยงต่อผลประโยชน์และความเสี่ยงของการบำบัดด้วยเนื้องอกที่มีโครงสร้างนำทางด้วยตัวแปร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Functional genomics: CRISPR target validation: lncRNA transcript or genomic locus?",
+        "th": "ฟังก์ชั่นจีโนมิกส์: การตรวจสอบเป้าหมาย CRISPR: การถอดเสียง lncRNA หรือจีโนมโลคัส?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Statistical genetics: Prioritizing protein drug targets in a linked genetic locus",
+        "th": "พันธุศาสตร์ทางสถิติ: การจัดลำดับความสำคัญเป้าหมายยาโปรตีนในตำแหน่งทางพันธุกรรมที่เชื่อมโยง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Clinical genomics / carrier screening: DRX1 carrier-screening residual risk under CNV and pseudogene calibration",
+        "th": "จีโนมทางคลินิก / การคัดกรองพาหะ: การคัดกรอง DRX1 ความเสี่ยงตกค้างในการคัดกรองพาหะภายใต้ CNV และการสอบเทียบยีนเทียม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Single-cell genomics: Activated-monocyte eQTL after ambient RNA correction",
+        "th": "จีโนมเซลล์เดี่ยว: eQTL ที่เปิดใช้งานแล้วหลังจากการแก้ไข RNA โดยรอบ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Structural genetics: Nested structural variant: expression support and clinical association",
+        "th": "พันธุศาสตร์เชิงโครงสร้าง: ตัวแปรโครงสร้างที่ซ้อนกัน: การสนับสนุนการแสดงออกและการเชื่อมโยงทางคลินิก"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Regulatory genomics: Measuring chromatin loop strength after structural-variant and mapping artifact masking",
+        "th": "จีโนมิกส์ด้านกฎระเบียบ: การวัดความแข็งแรงของลูปโครมาตินหลังจากการมาสก์สิ่งประดิษฐ์เชิงโครงสร้างและการทำแผนที่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Statistical genetics: Multi-parent QTL mapping with founder reconstruction",
+        "th": "พันธุศาสตร์ทางสถิติ: การทำแผนที่ QTL หลายผู้ปกครองพร้อมการสร้างผู้ก่อตั้งใหม่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Population genetics: Parent-specific ancestry and recent admixture timing",
+        "th": "พันธุศาสตร์ประชากร: บรรพบุรุษเฉพาะของผู้ปกครองและระยะเวลาของส่วนผสมล่าสุด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Population genetics: Estimating selection from noisy ancient-DNA time series",
+        "th": "พันธุศาสตร์ประชากร: การประมาณการคัดเลือกจากอนุกรมเวลาดีเอ็นเอโบราณที่มีเสียงดัง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Case studies",
+        "th": "กรณีศึกษา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These 10 case studies showcase representative questions from GeneBench-Pro. Each case study includes the original prompt, datasets, and supporting materials. For an overview of the benchmark and key findings, see the announcement blog.",
+        "th": "กรณีศึกษา 10 กรณีนี้นำเสนอคำถามที่เป็นตัวแทนจาก GeneBench-Pro กรณีศึกษาแต่ละกรณีประกอบด้วยพรอมต์ต้นฉบับ ชุดข้อมูล และเอกสารประกอบ สำหรับภาพรวมของเกณฑ์มาตรฐานและข้อค้นพบที่สำคัญ โปรดดูบล็อกประกาศ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Note: File previews show excerpts from the full datasets.",
+        "th": "หมายเหตุ: การแสดงตัวอย่างไฟล์จะแสดงข้อความที่ตัดตอนมาจากชุดข้อมูลทั้งหมด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Case study 1",
+        "th": "กรณีศึกษา 1"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Somatic oncology: Structural variant-guided tumor therapy benefit-risk decision",
+        "th": "เนื้องอกวิทยาทางร่างกาย: การตัดสินใจความเสี่ยงต่อผลประโยชน์และความเสี่ยงของการบำบัดด้วยเนื้องอกที่มีโครงสร้างนำทางด้วยตัวแปร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Read the full study(opens in a new window)",
+        "th": "อ่านการศึกษาฉบับเต็ม (เปิดในหน้าต่างใหม่)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Estimate whether a synthetic TXR1-directed inhibitor has positive clinical utility in tumors whose target activation is driven by a structural variant. TXR1, TXR1i, DLR1, and star-allele labels are synthetic benchmark labels.",
+        "th": "ประมาณว่าสารยับยั้งที่ควบคุมโดย TXR1 สังเคราะห์มีประโยชน์ทางคลินิกเชิงบวกในเนื้องอกที่การกระตุ้นเป้าหมายถูกขับเคลื่อนโดยตัวแปรทางโครงสร้างหรือไม่ ป้าย TXR1, TXR1i, DLR1 และสตาร์อัลลีลเป็นฉลากวัดประสิทธิภาพสังเคราะห์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The target subgroup has to be recovered from long-read, expression, tumor-quality, and pharmacogenomic evidence before benefit and toxicity can be interpreted as a treatment decision.",
+        "th": "กลุ่มย่อยเป้าหมายจะต้องได้รับการกู้คืนจากหลักฐานที่อ่านมานาน การแสดงออก คุณภาพของเนื้องอก และเภสัชพันธุศาสตร์ ก่อนที่จะสามารถตีความประโยชน์และความเป็นพิษได้ว่าเป็นการตัดสินใจในการรักษา"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Released prompt shown to the model",
+        "th": "ข้อความแจ้งที่เผยแพร่แสดงต่อโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A molecular tumor board registry contains trial-eligible advanced solid-tumor cases considered for a TXR1-directed inhibitor. Estimate, for tumors with SV-driven TXR1 target-mediated activation at time zero, the marginal effect of TXR1i versus non-TXR1 systemic therapy on week-16 clinical benefit as if all patients had an assessable week-16 visit. Also estimate the 8-week treatment-limiting toxicity/discontinuation risk under TXR1i in the same target population. Report net clinical utility = benefit risk difference (percentage points) - 0.35 * toxicity risk (percentage points), and choose therapy_class_code 1 if TXR1i has positive net utility and 0 otherwise.",
+        "th": "การลงทะเบียนคณะกรรมการเนื้องอกระดับโมเลกุลประกอบด้วยกรณีเนื้องอกแข็งขั้นสูงที่เข้าเกณฑ์การทดลองซึ่งพิจารณาเป็นตัวยับยั้งที่ควบคุมโดย TXR1 การประมาณค่า สำหรับเนื้องอกที่มีการกระตุ้นโดยสื่อกลางตามเป้าหมาย TXR1 ที่ขับเคลื่อนด้วย SV ณ เวลาเป็นศูนย์ ผลกระทบเล็กน้อยของการรักษาด้วยระบบ TXR1i เทียบกับที่ไม่ใช่ TXR1 ต่อผลประโยชน์ทางคลินิกในสัปดาห์ที่ 16 ราวกับว่าผู้ป่วยทุกรายมีการนัดตรวจในสัปดาห์ที่ 16 ที่ประเมินผลได้ นอกจากนี้ ยังประเมินความเป็นพิษที่จำกัดการรักษา/ความเสี่ยงในการหยุดต่อเนื่องเป็นเวลา 8 สัปดาห์ภายใต้ TXR1i ในประชากรเป้าหมายเดียวกัน รายงานประโยชน์ทางคลินิกสุทธิ = ส่วนต่างความเสี่ยงของผลประโยชน์ (คะแนนเปอร์เซ็นต์) - 0.35 * ความเสี่ยงต่อความเป็นพิษ (คะแนนเปอร์เซ็นต์) และเลือก therapy_class_code 1 หาก TXR1i มีอรรถประโยชน์สุทธิเป็นบวก มิฉะนั้นเป็น 0"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Use percentage-point units for all non-code quantities. Positive benefit means TXR1i improves week-16 clinical benefit relative to non-TXR1 systemic therapy.",
+        "th": "ใช้หน่วยเปอร์เซ็นต์สำหรับปริมาณที่ไม่ใช่รหัสทั้งหมด ผลประโยชน์เชิงบวกหมายถึง TXR1i ช่วยเพิ่มผลประโยชน์ทางคลินิกในสัปดาห์ที่ 16 เมื่อเทียบกับการรักษาแบบเป็นระบบที่ไม่ใช่ TXR1"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These data came from a real experiment; you will be graded not just on numerical correctness but the quality of analytical reasoning you exhibit; do not attempt to take any shortcuts.",
+        "th": "ข้อมูลเหล่านี้มาจากการทดลองจริง คุณจะได้รับการประเมินไม่เพียงแต่ความถูกต้องของตัวเลขเท่านั้น แต่ยังรวมถึงคุณภาพของการใช้เหตุผลเชิงวิเคราะห์ที่คุณแสดงด้วย อย่าพยายามใช้ทางลัดใดๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Return your final answer as exactly one JSON object.Do not wrap the JSON in markdown.Do not add prose before or after the JSON.Do not omit any keys shown in the example.Return the JSON object in your final answer:",
+        "th": "ส่งกลับคำตอบสุดท้ายของคุณเป็นวัตถุ JSON เดียวเท่านั้น อย่ารวม JSON ไว้ในมาร์กดาวน์ อย่าเพิ่มร้อยแก้วก่อนหรือหลัง JSON อย่าละคีย์ใดๆ ที่แสดงในตัวอย่าง ส่งกลับวัตถุ JSON ในคำตอบสุดท้ายของคุณ:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Files provided to the model",
+        "th": "ไฟล์ที่มอบให้กับโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Registry covariates, therapy, week-16 assessment, benefit, and early toxicity.",
+        "th": "ตัวแปรร่วมของรีจิสทรี การบำบัด การประเมินสัปดาห์ที่ 16 ประโยชน์ และความเป็นพิษในระยะเริ่มแรก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Case study 2",
+        "th": "กรณีศึกษา 2"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Functional genomics: CRISPR target validation: lncRNA transcript or genomic locus?",
+        "th": "ฟังก์ชั่นจีโนมิกส์: การตรวจสอบเป้าหมาย CRISPR: การถอดเสียง lncRNA หรือจีโนมโลคัส?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Read the full study(opens in a new window)",
+        "th": "อ่านการศึกษาฉบับเต็ม (เปิดในหน้าต่างใหม่)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Decide whether an apparent lncRNA dependency is transcript-specific or driven by nearby-locus and neighbor-gene effects.",
+        "th": "ตัดสินใจว่าการพึ่งพา lncRNA ที่ชัดเจนนั้นเป็นเฉพาะการถอดเสียงหรือขับเคลื่อนโดยเอฟเฟกต์บริเวณใกล้เคียงและยีนเพื่อนบ้าน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Transcript-directed evidence has to survive controls for local DNA-locus perturbation, neighbor-gene repression, guide swaps, GC toxicity, and plate effects.",
+        "th": "หลักฐานที่กำกับการถอดเสียงจะต้องรอดจากการควบคุมการก่อกวนของ DNA-locus ในท้องถิ่น การปราบปรามของเพื่อนบ้านและยีน การแลกเปลี่ยนไกด์ ความเป็นพิษของ GC และผลกระทบของเพลต"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Released prompt shown to the model",
+        "th": "ข้อความแจ้งที่เผยแพร่แสดงต่อโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You are given pooled CRISPRi screening data, guide-level local expression measurements, transcript-targeting CasRx follow-up data, and single-guide follow-up growth measurements for a nominated lncRNA program (LINC473) and a nearby coding gene (KIN1). The identifiers LINC473, KIN1, and ANKRD42 are synthetic benchmark labels; any resemblance to real human genes is coincidental.",
+        "th": "คุณจะได้รับข้อมูลการคัดกรอง CRISPRi แบบรวม การวัดการแสดงออกในพื้นที่ระดับไกด์ ข้อมูลการติดตามผล CasRx ที่กำหนดเป้าหมายการถอดเสียง และการวัดการเติบโตการติดตามผลแบบคำแนะนำเดี่ยวสำหรับโปรแกรม lncRNA ที่ได้รับการเสนอชื่อ (LINC473) และยีนการเข้ารหัสใกล้เคียง (KIN1) ตัวระบุ LINC473, KIN1 และ ANKRD42 เป็นฉลากวัดประสิทธิภาพสังเคราะห์ ความคล้ายคลึงกับยีนของมนุษย์จริงๆ นั้นเป็นเรื่องบังเอิญ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Estimate the requested quantities.",
+        "th": "ประมาณการปริมาณที่ร้องขอ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Definitions:",
+        "th": "คำจำกัดความ:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "lncrna_specific_lfc: the pooled-screen matched-control day-10 log2 growth effect expected at 100% effective knockdown of the dominant LINC473 transcript, not local DNA-locus effects.",
+        "th": "lncrna_special_lfc: เอฟเฟกต์การเติบโตของ log2 วันที่ 10 ที่ควบคุมการจับคู่แบบหน้าจอรวมที่คาดหวังที่การล้มลงที่มีประสิทธิผล 100% ของการถอดเสียง LINC473 ที่โดดเด่น ไม่ใช่เอฟเฟกต์ DNA-locus ในเครื่อง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "neighbor_mediated_lfc: the pooled-screen matched-control day-10 log2 growth effect expected at 100% KIN1 repression in the local LINC473-locus model after accounting for concomitant LINC473 transcript knockdown.",
+        "th": "neighbour_mediated_lfc: ผลการเติบโตของ log2 ที่จับคู่หน้าจอที่จับคู่การควบคุมวันที่ 10 คาดว่าจะมีการปราบปราม KIN1 100% ในโมเดล LINC473-locus ในพื้นที่หลังจากพิจารณาการล้มลงของการบันทึก LINC473 ร่วมกัน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "advance_target: 1 if the evidence supports advancing LINC473 as a transcript-directed target, else 0.",
+        "th": "advance_target: 1 หากหลักฐานสนับสนุนการพัฒนา LINC473 ให้เป็นเป้าหมายที่กำกับการถอดเสียง มิฉะนั้น 0"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Conventions:",
+        "th": "อนุสัญญา:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "all growth effects are log2(day10/day0) competitive-growth effects relative to matched controls;",
+        "th": "ผลกระทบการเติบโตทั้งหมดเป็น log2 (วันที่ 10/วัน 0) ผลกระทบจากการเติบโตทางการแข่งขันที่สัมพันธ์กับการควบคุมที่ตรงกัน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "more negative numbers indicate stronger loss of fitness;",
+        "th": "ตัวเลขที่เป็นลบมากขึ้นบ่งบอกถึงการสูญเสียสมรรถภาพทางกายที่แข็งแกร่งขึ้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "set advance_target to 1 only if lncrna_specific_lfc <= -0.08 and neighbor_mediated_lfc > -0.25; otherwise 0.",
+        "th": "ตั้งค่า advance_target เป็น 1 เฉพาะในกรณีที่ lncrna_special_lfc <= -0.08 และ Neighbor_mediated_lfc > -0.25; มิฉะนั้น 0"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These data came from a real experiment; you will be graded not just on numerical correctness but the quality of analytical reasoning you exhibit; do not attempt to take any shortcuts.",
+        "th": "ข้อมูลเหล่านี้มาจากการทดลองจริง คุณจะได้รับการประเมินไม่เพียงแต่ความถูกต้องของตัวเลขเท่านั้น แต่ยังรวมถึงคุณภาพของการใช้เหตุผลเชิงวิเคราะห์ที่คุณแสดงด้วย อย่าพยายามใช้ทางลัดใดๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Return your final answer as exactly one JSON object.Do not wrap the JSON in markdown.Do not add prose before or after the JSON.Do not omit any keys shown in the example.Return the JSON object in your final answer:",
+        "th": "ส่งกลับคำตอบสุดท้ายของคุณเป็นวัตถุ JSON เดียวเท่านั้น อย่ารวม JSON ไว้ในมาร์กดาวน์ อย่าเพิ่มร้อยแก้วก่อนหรือหลัง JSON อย่าละคีย์ใดๆ ที่แสดงในตัวอย่าง ส่งกลับวัตถุ JSON ในคำตอบสุดท้ายของคุณ:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Files provided to the model",
+        "th": "ไฟล์ที่มอบให้กับโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Guide coordinates, targets, distances, and GC features.",
+        "th": "พิกัดนำทาง เป้าหมาย ระยะทาง และคุณสมบัติ GC"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Case study 3",
+        "th": "กรณีศึกษา 3"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Statistical genetics: Prioritizing protein drug targets in a linked genetic locus",
+        "th": "พันธุศาสตร์ทางสถิติ: การจัดลำดับความสำคัญเป้าหมายยาโปรตีนในตำแหน่งทางพันธุกรรมที่เชื่อมโยง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Read the full study(opens in a new window)",
+        "th": "อ่านการศึกษาฉบับเต็ม (เปิดในหน้าต่างใหม่)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Estimate direct disease effects for two nearby proteins using cis multivariable Mendelian randomization (cis-MVMR) while handling assay scale, allele orientation, winner's curse, LD, and residual local pleiotropy.",
+        "th": "ประมาณผลกระทบโดยตรงจากโรคสำหรับโปรตีนสองตัวที่อยู่ใกล้เคียงโดยใช้การสุ่ม Mendelian แบบหลายตัวแปรแบบซิส (cis-MVMR) ในขณะที่จัดการกับระดับการทดสอบ การปฐมนิเทศอัลลีล คำสาปของผู้ชนะ LD และภาวะเยื่อหุ้มปอดอักเสบเฉพาะที่ที่ตกค้าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The two proteins share a correlated locus. The analysis has to move from marginal associations to conditional, LD-aware disease effects on a common protein scale.",
+        "th": "โปรตีนทั้งสองมีตำแหน่งที่สัมพันธ์กัน การวิเคราะห์จะต้องย้ายจากความสัมพันธ์แบบชายขอบไปสู่ผลกระทบของโรคที่รับรู้ถึง LD แบบมีเงื่อนไขในระดับโปรตีนทั่วไป"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Released prompt shown to the model",
+        "th": "ข้อความแจ้งที่เผยแพร่แสดงต่อโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You are given association summary statistics and metadata for two nearby proteins (PROTA and PROTB), a binary disease outcome, a locus correlation reference, and protein measurement records.",
+        "th": "คุณจะได้รับสถิติสรุปการเชื่อมโยงและข้อมูลเมตาสำหรับโปรตีนใกล้เคียงสองตัว (PROTA และ PROTB) ผลลัพธ์ของโรคแบบไบนารี การอ้างอิงความสัมพันธ์ของตำแหน่ง และบันทึกการวัดโปรตีน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Goal: estimate the direct log-odds effect of each protein on the disease outcome per +1 SD increase in log10 concentration, conditional on the other protein.",
+        "th": "เป้าหมาย: ประมาณการผล log-odds โดยตรงของโปรตีนแต่ละตัวต่อผลลัพธ์ของโรคต่อความเข้มข้นของ log10 ที่เพิ่มขึ้น +1 SD โดยมีเงื่อนไขกับโปรตีนอีกตัวหนึ่ง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Interpretation: theta_PROTA and theta_PROTB use the same log-odds per-SD scale defined in the goal.",
+        "th": "การตีความ: theta_PROTA และ theta_PROTB ใช้ log-odds per-SD scale เดียวกันที่กำหนดไว้ในเป้าหมาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These data came from a real experiment; you will be graded not just on numerical correctness but the quality of analytical reasoning you exhibit; do not attempt to take any shortcuts.",
+        "th": "ข้อมูลเหล่านี้มาจากการทดลองจริง คุณจะได้รับการประเมินไม่เพียงแต่ความถูกต้องของตัวเลขเท่านั้น แต่ยังรวมถึงคุณภาพของการใช้เหตุผลเชิงวิเคราะห์ที่คุณแสดงด้วย อย่าพยายามใช้ทางลัดใดๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Return your final answer as exactly one JSON object.Do not wrap the JSON in markdown.Do not add prose before or after the JSON.Do not omit any keys shown in the example.Return the JSON object in your final answer:",
+        "th": "ส่งกลับคำตอบสุดท้ายของคุณเป็นวัตถุ JSON เดียวเท่านั้น อย่ารวม JSON ไว้ในมาร์กดาวน์ อย่าเพิ่มร้อยแก้วก่อนหรือหลัง JSON อย่าละคีย์ใดๆ ที่แสดงในตัวอย่าง ส่งกลับวัตถุ JSON ในคำตอบสุดท้ายของคุณ:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Files provided to the model",
+        "th": "ไฟล์ที่มอบให้กับโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Screening-stage protein association summaries for PROTA.",
+        "th": "สรุปการเชื่อมโยงโปรตีนในระยะคัดกรองสำหรับ PROTA"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Case study 4",
+        "th": "กรณีศึกษา 4"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Clinical genomics / carrier screening: DRX1 carrier-screening residual risk under CNV and pseudogene calibration",
+        "th": "จีโนมทางคลินิก / การคัดกรองพาหะ: การคัดกรอง DRX1 ความเสี่ยงตกค้างในการคัดกรองพาหะภายใต้ CNV และการสอบเทียบยีนเทียม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Read the full study(opens in a new window)",
+        "th": "อ่านการศึกษาฉบับเต็ม (เปิดในหน้าต่างใหม่)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Estimate ancestry-specific carrier frequencies, residual risk after a negative screen, partner carrier frequency, and affected-conceptus risk from carrier-screening assay data.",
+        "th": "ประมาณความถี่พาหะเฉพาะบรรพบุรุษ ความเสี่ยงคงเหลือหลังจากการคัดกรองเชิงลบ ความถี่พาหะของคู่ครอง และความเสี่ยงแนวคิดที่ได้รับผลกระทบจากข้อมูลการทดสอบการคัดกรองพาหะ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The residual-risk estimate depends on pseudogene-aware carrier calls, founder-haplotype collapse, ancestry-specific assay calibration, and standardization from tested partners back to the full partner roster.",
+        "th": "การประมาณความเสี่ยงคงเหลือขึ้นอยู่กับการเรียกของผู้ให้บริการที่รับรู้ถึงยีนเทียม การล่มสลายของแฮโพไทป์ของผู้ก่อตั้ง การสอบเทียบการทดสอบเฉพาะบรรพบุรุษ และการกำหนดมาตรฐานจากพันธมิตรที่ได้รับการทดสอบกลับไปยังบัญชีรายชื่อพันธมิตรทั้งหมด"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Released prompt shown to the model",
+        "th": "ข้อความแจ้งที่เผยแพร่แสดงต่อโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using cohort_roster.tsv.gz, partner_roster.tsv.gz, calibration_controls.tsv.gz, target_metadata.tsv.gz, and assay_observations.tsv.gz, estimate residual reproductive risk for an autosomal recessive DRX1 condition. Report all quantities on the probability scale, not as percentages: carrier_frequency_afr and carrier_frequency_eur among screening-roster adults; residual_carrier_risk_afr_negative for an AFR screening-roster adult with a negative DRX1 screen; partner_carrier_frequency_full_roster for a uniformly sampled partner_roster.tsv.gz row; and couple_reproductive_risk for an affected conceptus when the index person is AFR and screen-negative and the partner is drawn from partner_roster.tsv.gz. Assume autosomal recessive inheritance with a 1/4 affected-conceptus risk conditional on both biological parents being carriers.",
+        "th": "การใช้ cohort_roster.tsv.gz, Partner_roster.tsv.gz, calibration_controls.tsv.gz, target_metadata.tsv.gz และ assay_observations.tsv.gz ประเมินความเสี่ยงต่อการสืบพันธุ์ที่เหลืออยู่สำหรับสภาวะ DRX1 แบบถอยอัตโนมัติ รายงานปริมาณทั้งหมดตามระดับความน่าจะเป็น ไม่ใช่เป็นเปอร์เซ็นต์: Carrier_frequency_afr และ Carrier_frequency_eur ในกลุ่มผู้ใหญ่ที่คัดกรองรายชื่อ residual_carrier_risk_afr_negative สำหรับผู้ใหญ่บัญชีรายชื่อคัดกรอง AFR ที่มีหน้าจอ DRX1 เป็นลบ Partner_carrier_frequency_full_roster สำหรับแถว Partner_roster.tsv.gz ที่สุ่มตัวอย่างสม่ำเสมอ และ couple_reproductive_risk สำหรับแนวคิดที่ได้รับผลกระทบ เมื่อบุคคลดัชนีเป็น AFR และ screen-negative และคู่หูถูกดึงมาจาก Partner_roster.tsv.gz สมมติว่าการถ่ายทอดทางพันธุกรรมแบบถอยออโตโซมโดยมีความเสี่ยงต่อแนวคิดที่ได้รับผลกระทบ 1/4 โดยมีเงื่อนไขว่าพ่อแม่ผู้ให้กำเนิดทั้งสองเป็นพาหะ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These data came from a real experiment; you will be graded not just on numerical correctness but the quality of analytical reasoning you exhibit; do not attempt to take any shortcuts.",
+        "th": "ข้อมูลเหล่านี้มาจากการทดลองจริง คุณจะได้รับการประเมินไม่เพียงแต่ความถูกต้องของตัวเลขเท่านั้น แต่ยังรวมถึงคุณภาพของการใช้เหตุผลเชิงวิเคราะห์ที่คุณแสดงด้วย อย่าพยายามใช้ทางลัดใดๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Return your final answer as exactly one JSON object.Do not wrap the JSON in markdown.Do not add prose before or after the JSON.Do not omit any keys shown in the example.Return the JSON object in your final answer:",
+        "th": "ส่งกลับคำตอบสุดท้ายของคุณเป็นวัตถุ JSON เดียวเท่านั้น อย่ารวม JSON ไว้ในมาร์กดาวน์ อย่าเพิ่มร้อยแก้วก่อนหรือหลัง JSON อย่าละคีย์ใดๆ ที่แสดงในตัวอย่าง ส่งกลับวัตถุ JSON ในคำตอบสุดท้ายของคุณ:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Files provided to the model",
+        "th": "ไฟล์ที่มอบให้กับโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Screening-roster adults with ancestry and screening context.",
+        "th": "ผู้ใหญ่บัญชีรายชื่อคัดกรองที่มีบรรพบุรุษและบริบทการคัดกรอง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Case study 5",
+        "th": "กรณีศึกษา 5"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Single-cell genomics: Activated-monocyte eQTL after ambient RNA correction",
+        "th": "จีโนมเซลล์เดี่ยว: eQTL ที่เปิดใช้งานแล้วหลังจากการแก้ไข RNA โดยรอบ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Read the full study(opens in a new window)",
+        "th": "อ่านการศึกษาฉบับเต็ม (เปิดในหน้าต่างใหม่)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Estimate a genotype effect on activated-monocyte expression after removing ambient RNA and technical contamination from single-cell RNA-seq data.",
+        "th": "ประมาณผลกระทบของจีโนไทป์ต่อการแสดงออกของโมโนไซต์ที่ถูกกระตุ้นหลังจากลบ RNA โดยรอบและการปนเปื้อนทางเทคนิคออกจากข้อมูล RNA-seq เซลล์เดียว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Ambient RNA affects both target expression and the marker panel used to call activation state, so correction has to occur before the eQTL model.",
+        "th": "Ambient RNA ส่งผลต่อทั้งการแสดงออกของเป้าหมายและแผงมาร์กเกอร์ที่ใช้ในการเรียกสถานะการเปิดใช้งาน ดังนั้นการแก้ไขจะต้องเกิดขึ้นก่อนโมเดล eQTL"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Released prompt shown to the model",
+        "th": "ข้อความแจ้งที่เผยแพร่แสดงต่อโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Estimate the per-allele log rate ratio for CXCL10 expression in the activated monocyte subpopulation from the provided single-cell RNA-seq data.",
+        "th": "ประมาณอัตราส่วนอัตราบันทึกต่ออัลลีลสำหรับการแสดงออก CXCL10 ในประชากรย่อยโมโนไซต์ที่ถูกกระตุ้นจากข้อมูล RNA-seq เซลล์เดียวที่ให้มา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These data came from a real experiment; you will be graded not just on numerical correctness but the quality of analytical reasoning you exhibit; do not attempt to take any shortcuts.",
+        "th": "ข้อมูลเหล่านี้มาจากการทดลองจริง คุณจะได้รับการประเมินไม่เพียงแต่ความถูกต้องของตัวเลขเท่านั้น แต่ยังรวมถึงคุณภาพของการใช้เหตุผลเชิงวิเคราะห์ที่คุณแสดงด้วย อย่าพยายามใช้ทางลัดใดๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Return your final answer as exactly one JSON object.Do not wrap the JSON in markdown.Do not add prose before or after the JSON.Do not omit any keys shown in the example.Return the JSON object in your final answer:",
+        "th": "ส่งกลับคำตอบสุดท้ายของคุณเป็นวัตถุ JSON เดียวเท่านั้น อย่ารวม JSON ไว้ในมาร์กดาวน์ อย่าเพิ่มร้อยแก้วก่อนหรือหลัง JSON อย่าละคีย์ใดๆ ที่แสดงในตัวอย่าง ส่งกลับวัตถุ JSON ในคำตอบสุดท้ายของคุณ:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Files provided to the model",
+        "th": "ไฟล์ที่มอบให้กับโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Per-cell UMI counts for marker genes, contamination markers, and the target gene.",
+        "th": "การนับ UMI ต่อเซลล์สำหรับยีนมาร์กเกอร์ เครื่องหมายการปนเปื้อน และยีนเป้าหมาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Case study 6",
+        "th": "กรณีศึกษา 6"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Structural genetics: Nested structural variant: expression support and clinical association",
+        "th": "พันธุศาสตร์เชิงโครงสร้าง: ตัวแปรโครงสร้างที่ซ้อนกัน: การสนับสนุนการแสดงออกและการเชื่อมโยงทางคลินิก"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Read the full study(opens in a new window)",
+        "th": "อ่านการศึกษาฉบับเต็ม (เปิดในหน้าต่างใหม่)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Estimate whether a nested structural subhaplotype inside an anonymous inversion-like locus has a calibrated clinical association and credible expression support.",
+        "th": "ประมาณว่า subhaplotype ของโครงสร้างที่ซ้อนกันภายในโลคัสที่มีลักษณะผกผันที่ไม่ระบุชื่อมีความสัมพันธ์ทางคลินิกที่ปรับเทียบแล้วและการสนับสนุนการแสดงออกที่น่าเชื่อถือหรือไม่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A nested copy-dosage signal can be confounded by the broader inversion orientation, so dosage calibration, expression support, and clinical modeling have to remain distinct.",
+        "th": "สัญญาณปริมาณการคัดลอกที่ซ้อนกันอาจถูกรบกวนโดยการวางแนวผกผันที่กว้างกว่า ดังนั้นการสอบเทียบขนาดยา การสนับสนุนการแสดงออก และการสร้างแบบจำลองทางคลินิกจะต้องคงความแตกต่างไว้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Released prompt shown to the model",
+        "th": "ข้อความแจ้งที่เผยแพร่แสดงต่อโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Analyze the released files for anonymous Locus Q. Estimate the full-cohort source-population clinical association and molecular expression support for the calibrated nested segment-B structural copy dosage, separating the nested segment-B dosage from the broader outer-orientation dosage. Report subhap_log_or as the natural-log source-population total-effect odds ratio for case status per additional calibrated segment-B copy. Report expression_log_fc as the natural-log expression fold-change per calibrated segment-B copy for the expression-supported gene. Report target_support_code as 1 if the supported gene has a positive expression_log_fc and the clinical association is protective (subhap_log_or < 0), otherwise 0. Report n_calibrated_carriers as the number of reliable breakpoint-panel samples carrying at least one segment-B copy.",
+        "th": "วิเคราะห์ไฟล์ที่เผยแพร่สำหรับ Locus Q ที่ไม่ระบุชื่อ ประมาณค่าความสัมพันธ์ทางคลินิกของประชากรที่มาและกลุ่มประชากรแบบเต็มและการสนับสนุนการแสดงออกของโมเลกุลสำหรับปริมาณสำเนาของโครงสร้างเซกเมนต์-B ที่ซ้อนกันที่ปรับเทียบแล้ว โดยแยกปริมาณยาของเซ็กเมนต์-B ที่ซ้อนกันออกจากขนาดยาในทิศทางภายนอกที่กว้างขึ้น รายงาน subhap_log_or เป็นอัตราส่วนอัตราต่อรองของแหล่งที่มา-ประชากรที่มีผลรวมของบันทึกธรรมชาติสำหรับสถานะเคสต่อสำเนาส่วน B ที่ปรับเทียบเพิ่มเติม รายงาน expression_log_fc เป็นนิพจน์ natural-log การเปลี่ยนแปลงการพับต่อสำเนาเซกเมนต์-B ที่ปรับเทียบแล้วสำหรับยีนที่รองรับนิพจน์ รายงาน target_support_code เป็น 1 หากยีนที่ได้รับการสนับสนุนมี expression_log_fc เชิงบวก และความสัมพันธ์ทางคลินิกมีการป้องกัน (subhap_log_or < 0) มิฉะนั้น 0 รายงาน n_calibrated_carriers เป็นจำนวนตัวอย่างแผงจุดพักที่เชื่อถือได้ซึ่งมีสำเนา Segment-B อย่างน้อยหนึ่งสำเนา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These data came from a real experiment; you will be graded not just on numerical correctness but the quality of analytical reasoning you exhibit; do not attempt to take any shortcuts.",
+        "th": "ข้อมูลเหล่านี้มาจากการทดลองจริง คุณจะได้รับการประเมินไม่เพียงแต่ความถูกต้องของตัวเลขเท่านั้น แต่ยังรวมถึงคุณภาพของการใช้เหตุผลเชิงวิเคราะห์ที่คุณแสดงด้วย อย่าพยายามใช้ทางลัดใดๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Return your final answer as exactly one JSON object.Do not wrap the JSON in markdown.Do not add prose before or after the JSON.Do not omit any keys shown in the example.Return the JSON object in your final answer:",
+        "th": "ส่งกลับคำตอบสุดท้ายของคุณเป็นวัตถุ JSON เดียวเท่านั้น อย่ารวม JSON ไว้ในมาร์กดาวน์ อย่าเพิ่มร้อยแก้วก่อนหรือหลัง JSON อย่าละคีย์ใดๆ ที่แสดงในตัวอย่าง ส่งกลับวัตถุ JSON ในคำตอบสุดท้ายของคุณ:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Files provided to the model",
+        "th": "ไฟล์ที่มอบให้กับโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Clinical and covariate data for the full cohort.",
+        "th": "ข้อมูลทางคลินิกและข้อมูลความแปรปรวนร่วมสำหรับกลุ่มประชากรตามรุ่นทั้งหมด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Case study 7",
+        "th": "กรณีศึกษา 7"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Regulatory genomics: Measuring chromatin loop strength after structural-variant and mapping artifact masking",
+        "th": "จีโนมิกส์ด้านกฎระเบียบ: การวัดความแข็งแรงของลูปโครมาตินหลังจากการมาสก์สิ่งประดิษฐ์เชิงโครงสร้างและการทำแผนที่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Read the full study(opens in a new window)",
+        "th": "อ่านการศึกษาฉบับเต็ม (เปิดในหน้าต่างใหม่)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Quantify a focal case-control Hi-C loop-strength difference after removing low-mappability and structural-variant artifacts from the expected-contact background.",
+        "th": "หาปริมาณความแตกต่างด้านความแข็งแรงของลูป Hi-C ที่ควบคุมตัวพิมพ์เล็กและตัวพิมพ์ใหญ่ หลังจากลบสิ่งประดิษฐ์ที่มีความสามารถในการแมปต่ำและตัวแปรโครงสร้างออกจากพื้นหลังของการสัมผัสที่คาดไว้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The target loop is defined at 20 kb resolution, but the expected-contact model is distorted unless low-mappability contacts and a case-only SV stripe are masked first.",
+        "th": "การวนซ้ำเป้าหมายถูกกำหนดที่ความละเอียด 20 kb แต่โมเดลการสัมผัสที่คาดไว้จะบิดเบี้ยว เว้นแต่ว่าผู้ติดต่อที่มีความสามารถในการแมปต่ำและแถบ SV เฉพาะตัวพิมพ์เล็กและตัวพิมพ์ใหญ่จะถูกมาสก์ก่อน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Released prompt shown to the model",
+        "th": "ข้อความแจ้งที่เผยแพร่แสดงต่อโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You are given Hi-C contact matrices at 20 kb and 40 kb resolution plus bin annotations. Estimate the loop enrichment at the 20 kb interaction between `bin_id = 8` and `bin_id = 17` in `bins_20kb.tsv.gz`. Report three quantities: `case_loop_strength` (mean log2(observed/expected) across case replicates), `control_loop_strength` (mean log2(observed/expected) across control replicates), and `delta_loop_strength` (case minus control).",
+        "th": "คุณจะได้รับเมทริกซ์การติดต่อ Hi-C ที่ความละเอียด 20 kb และ 40 kb พร้อมคำอธิบายประกอบแบบ bin ประเมินการเพิ่มประสิทธิภาพของลูปที่การโต้ตอบ 20 kb ระหว่าง `bin_id = 8` และ `bin_id = 17` ใน `bins_20kb.tsv.gz` รายงานปริมาณสามรายการ: `case_loop_strength` (ค่าเฉลี่ย log2 (สังเกตได้/คาดไว้) ข้ามการจำลองแบบเคส), `control_loop_strength` (เฉลี่ย log2 (สังเกตได้/คาดไว้) ข้ามการจำลองแบบควบคุม) และ `delta_loop_strength` (ตัวควบคุมลบขนาดตัวพิมพ์)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These data came from a real experiment; you will be graded not just on numerical correctness but the quality of analytical reasoning you exhibit; do not attempt to take any shortcuts.",
+        "th": "ข้อมูลเหล่านี้มาจากการทดลองจริง คุณจะได้รับการประเมินไม่เพียงแต่ความถูกต้องของตัวเลขเท่านั้น แต่ยังรวมถึงคุณภาพของการใช้เหตุผลเชิงวิเคราะห์ที่คุณแสดงด้วย อย่าพยายามใช้ทางลัดใดๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Return your final answer as exactly one JSON object.Do not wrap the JSON in markdown.Do not add prose before or after the JSON.Do not omit any keys shown in the example.Return the JSON object in your final answer:",
+        "th": "ส่งกลับคำตอบสุดท้ายของคุณเป็นวัตถุ JSON เดียวเท่านั้น อย่ารวม JSON ไว้ในมาร์กดาวน์ อย่าเพิ่มร้อยแก้วก่อนหรือหลัง JSON อย่าละคีย์ใดๆ ที่แสดงในตัวอย่าง ส่งกลับวัตถุ JSON ในคำตอบสุดท้ายของคุณ:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Files provided to the model",
+        "th": "ไฟล์ที่มอบให้กับโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Target-resolution bin annotations.",
+        "th": "คำอธิบายประกอบถังความละเอียดเป้าหมาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Case study 8",
+        "th": "กรณีศึกษา 8"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Statistical genetics: Multi-parent QTL mapping with founder reconstruction",
+        "th": "พันธุศาสตร์ทางสถิติ: การทำแผนที่ QTL หลายผู้ปกครองพร้อมการสร้างผู้ก่อตั้งใหม่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Read the full study(opens in a new window)",
+        "th": "อ่านการศึกษาฉบับเต็ม (เปิดในหน้าต่างใหม่)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Map a chromosome-1 quantitative-trait locus in an eight-founder recombinant population by reconstructing founder ancestry before testing the phenotype association.",
+        "th": "แมปตำแหน่งลักษณะเชิงปริมาณของโครโมโซม-1 ในประชากรรีคอมบิแนนท์ของผู้ก่อตั้งแปดคนโดยการสร้างบรรพบุรุษของผู้ก่อตั้งขึ้นใหม่ก่อนที่จะทดสอบการเชื่อมโยงฟีโนไทป์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The visible marker data are biallelic, but the biological signal is founder ancestry. A defensible analysis therefore has to reconstruct founder state, check marker orientation, and separate the QTL from a batch-aligned nuisance peak.",
+        "th": "ข้อมูลเครื่องหมายที่มองเห็นเป็นแบบคู่ แต่สัญญาณทางชีวภาพเป็นบรรพบุรุษผู้ก่อตั้ง การวิเคราะห์ที่สามารถป้องกันได้จึงต้องสร้างสถานะของผู้ก่อตั้งขึ้นใหม่ ตรวจสอบการวางแนวของเครื่องหมาย และแยก QTL ออกจากจุดสูงสุดที่น่ารำคาญที่จัดเป็นแบทช์"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Released prompt shown to the model",
+        "th": "ข้อความแจ้งที่เผยแพร่แสดงต่อโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Map the chromosome 1 QTL in an 8-founder multi-parent population. Report the position (cM) and which founder carries the high-effect allele.",
+        "th": "แมปโครโมโซม 1 QTL ในประชากรหลายผู้ปกครองที่มีผู้ก่อตั้ง 8 คน รายงานตำแหน่ง (cM) และผู้ก่อตั้งรายใดที่มีอัลลีลที่มีผลกระทบสูง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Report high_founder as \"F1\"..\"F8\".",
+        "th": "รายงาน high_founder เป็น \"F1\"..\"F8\""
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These data came from a real experiment; you will be graded not just on numerical correctness but the quality of analytical reasoning you exhibit; do not attempt to take any shortcuts.",
+        "th": "ข้อมูลเหล่านี้มาจากการทดลองจริง คุณจะได้รับการประเมินไม่เพียงแต่ความถูกต้องของตัวเลขเท่านั้น แต่ยังรวมถึงคุณภาพของการใช้เหตุผลเชิงวิเคราะห์ที่คุณแสดงด้วย อย่าพยายามใช้ทางลัดใดๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Return your final answer as exactly one JSON object.Do not wrap the JSON in markdown.Do not add prose before or after the JSON.Do not omit any keys shown in the example.Return the JSON object in your final answer:",
+        "th": "ส่งกลับคำตอบสุดท้ายของคุณเป็นวัตถุ JSON เดียวเท่านั้น อย่ารวม JSON ไว้ในมาร์กดาวน์ อย่าเพิ่มร้อยแก้วก่อนหรือหลัง JSON อย่าละคีย์ใดๆ ที่แสดงในตัวอย่าง ส่งกลับวัตถุ JSON ในคำตอบสุดท้ายของคุณ:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Data files:",
+        "th": "ไฟล์ข้อมูล:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "markers.tsv.gz: marker metadata",
+        "th": "markers.tsv.gz: ข้อมูลเมตาของเครื่องหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "founders.tsv.gz: founder alleles at each marker",
+        "th": "founders.tsv.gz: อัลลีลของผู้ก่อตั้งที่แต่ละเครื่องหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ril_genotypes.npz: observed RIL genotypes (biallelic)",
+        "th": "ril_genotypes.npz: สังเกตจีโนไทป์ของ RIL (คู่ขนาน)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "phenotypes.tsv.gz: phenotype and covariates",
+        "th": "phenotypes.tsv.gz: ฟีโนไทป์และโควาเรียต"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Files provided to the model",
+        "th": "ไฟล์ที่มอบให้กับโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Marker identifiers, chromosomes, and genetic-map positions.",
+        "th": "ตัวระบุเครื่องหมาย โครโมโซม และตำแหน่งแผนที่พันธุกรรม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Case study 9",
+        "th": "กรณีศึกษา 9"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Population genetics: Parent-specific ancestry and recent admixture timing",
+        "th": "พันธุศาสตร์ประชากร: บรรพบุรุษเฉพาะของผู้ปกครองและระยะเวลาของส่วนผสมล่าสุด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Read the full study(opens in a new window)",
+        "th": "อ่านการศึกษาฉบับเต็ม (เปิดในหน้าต่างใหม่)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Infer parent-specific ancestry proportions and recent admixture timing from phased local-ancestry tracts after repairing reciprocal artifacts and a chromosome-specific label inversion.",
+        "th": "สรุปสัดส่วนบรรพบุรุษเฉพาะของผู้ปกครองและระยะเวลาของส่วนผสมล่าสุดจากทางเดินของบรรพบุรุษในท้องถิ่นที่แบ่งเป็นระยะ หลังจากการซ่อมแซมสิ่งประดิษฐ์ซึ่งกันและกันและการผกผันของฉลากเฉพาะโครโมโซม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Ancestry fractions and pulse times both change if reciprocal tract artifacts, chromosome-local label inversion, or map denominators are handled incorrectly.",
+        "th": "เศษส่วนของบรรพบุรุษและเวลาพัลส์จะเปลี่ยนไปหากส่วนต่างของทางเดินซึ่งกันและกัน การผกผันของฉลากโครโมโซมในเครื่อง หรือตัวส่วนแผนที่ได้รับการจัดการอย่างไม่ถูกต้อง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Released prompt shown to the model",
+        "th": "ข้อความแจ้งที่เผยแพร่แสดงต่อโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You are given phased local-ancestry tracts for one admixed individual. Estimate, for each transmitted parental haplotype, the fraction of ancestry A across the called tract span and the number of generations since a single recent admixture pulse. Label parent1 as the haplotype with the smaller ancestry-A fraction and parent2 as the haplotype with the larger ancestry-A fraction.",
+        "th": "คุณจะได้รับเอกสารสืบเชื้อสายท้องถิ่นแบบแบ่งเป็นระยะสำหรับบุคคลที่ผสมปนเปกันหนึ่งคน ประมาณการสำหรับแฮโพไทป์ของผู้ปกครองแต่ละรุ่นที่ส่งผ่าน สัดส่วนของบรรพบุรุษ A ตลอดช่วงทางเดินที่เรียกว่า และจำนวนรุ่นนับตั้งแต่พัลส์ส่วนผสมล่าสุดเพียงครั้งเดียว ป้ายกำกับ parent1 เป็น haplotype ที่มีบรรพบุรุษ-เศษส่วน A ที่น้อยกว่า และ parent2 เป็น haplotype ที่มีบรรพบุรุษมากกว่า-เศษส่วน A"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These data came from a real experiment; you will be graded not just on numerical correctness but the quality of analytical reasoning you exhibit; do not attempt to take any shortcuts.",
+        "th": "ข้อมูลเหล่านี้มาจากการทดลองจริง คุณจะได้รับการประเมินไม่เพียงแต่ความถูกต้องของตัวเลขเท่านั้น แต่ยังรวมถึงคุณภาพของการใช้เหตุผลเชิงวิเคราะห์ที่คุณแสดงด้วย อย่าพยายามใช้ทางลัดใดๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Return your final answer as exactly one JSON object.Do not wrap the JSON in markdown.Do not add prose before or after the JSON.Do not omit any keys shown in the example.Return the JSON object in your final answer:",
+        "th": "ส่งกลับคำตอบสุดท้ายของคุณเป็นวัตถุ JSON เดียวเท่านั้น อย่ารวม JSON ไว้ในมาร์กดาวน์ อย่าเพิ่มร้อยแก้วก่อนหรือหลัง JSON อย่าละคีย์ใดๆ ที่แสดงในตัวอย่าง ส่งกลับวัตถุ JSON ในคำตอบสุดท้ายของคุณ:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Files provided to the model",
+        "th": "ไฟล์ที่มอบให้กับโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Phased local-ancestry tracts with coordinates, ancestry labels, posterior values, and QC annotations.",
+        "th": "ทางเดินบรรพบุรุษในท้องถิ่นเป็นระยะๆ พร้อมพิกัด ป้ายกำกับบรรพบุรุษ ค่าด้านหลัง และคำอธิบายประกอบ QC"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Case study 10",
+        "th": "กรณีศึกษา 10"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Population genetics: Estimating selection from noisy ancient-DNA time series",
+        "th": "พันธุศาสตร์ประชากร: การประมาณการคัดเลือกจากอนุกรมเวลาดีเอ็นเอโบราณที่มีเสียงดัง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Read the full study(opens in a new window)",
+        "th": "อ่านการศึกษาฉบับเต็ม (เปิดในหน้าต่างใหม่)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Infer which of two haploid loci is under stronger positive selection from ancient allele-frequency time series while accounting for allele orientation, directional error, drift, and changing population size.",
+        "th": "สรุปตำแหน่งเดี่ยวสองตำแหน่งที่อยู่ภายใต้การเลือกเชิงบวกที่แข็งแกร่งกว่าจากอนุกรมเวลาความถี่อัลลีลโบราณ ในขณะที่คำนึงถึงการวางแนวของอัลลีล ข้อผิดพลาดในทิศทาง การเบี่ยงเบน และการเปลี่ยนแปลงขนาดประชากร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Noisy ancient trajectories are not directly comparable until both loci are placed on the same derived-allele scale and the provided sample-level sequencing-error values are modeled directly.",
+        "th": "วิถีโคจรโบราณที่มีเสียงดังไม่สามารถเทียบเคียงได้โดยตรงจนกว่าตำแหน่งทั้งสองจะถูกวางบนสเกลอัลลีลที่ได้รับเดียวกัน และค่าข้อผิดพลาดในการเรียงลำดับระดับตัวอย่างที่ให้มาจะถูกจำลองโดยตรง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You are given allele-frequency time series data from two haploid loci sampled over multiple generations.",
+        "th": "คุณจะได้รับข้อมูลอนุกรมเวลาความถี่อัลลีลจากตำแหน่งเดี่ยวสองตำแหน่งที่สุ่มตัวอย่างจากหลายรุ่น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One locus is under stronger positive selection than the other. Estimate the selection coefficient s for the more strongly selected locus, where s > 0 means the derived allele is favored.",
+        "th": "สถานที่หนึ่งอยู่ภายใต้การคัดเลือกเชิงบวกที่แข็งแกร่งมากกว่าที่อื่น ประมาณค่าสัมประสิทธิ์การเลือก s สำหรับตำแหน่งที่เลือกอย่างเข้มงวดมากขึ้น โดยที่ s > 0 หมายถึงอัลลีลที่ได้รับเป็นที่ชื่นชอบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Assume instrument-driven sequencing error is ~1%. The seq_error column is the average of the two directional allele-miscall rates for that locus and sample.",
+        "th": "สมมติว่าข้อผิดพลาดในการเรียงลำดับโดยใช้เครื่องมือคือ ~1% คอลัมน์ seq_error คือค่าเฉลี่ยของอัตราการเรียกอัลลีล-ผิดพลาดสองทิศทางสำหรับตำแหน่งนั้นและตัวอย่าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The selected_locus value must be \"A\" or \"B\".",
+        "th": "ค่า Selected_locus ต้องเป็น \"A\" หรือ \"B\""
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These data came from a real experiment; you will be graded not just on numerical correctness but the quality of analytical reasoning you exhibit; do not attempt to take any shortcuts.",
+        "th": "ข้อมูลเหล่านี้มาจากการทดลองจริง คุณจะได้รับการประเมินไม่เพียงแต่ความถูกต้องของตัวเลขเท่านั้น แต่ยังรวมถึงคุณภาพของการใช้เหตุผลเชิงวิเคราะห์ที่คุณแสดงด้วย อย่าพยายามใช้ทางลัดใดๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Return your final answer as exactly one JSON object.Do not wrap the JSON in markdown.Do not add prose before or after the JSON.Do not omit any keys shown in the example.Return the JSON object in your final answer:",
+        "th": "ส่งกลับคำตอบสุดท้ายของคุณเป็นวัตถุ JSON เดียวเท่านั้น อย่ารวม JSON ไว้ในมาร์กดาวน์ อย่าเพิ่มร้อยแก้วก่อนหรือหลัง JSON อย่าละคีย์ใดๆ ที่แสดงในตัวอย่าง ส่งกลับวัตถุ JSON ในคำตอบสุดท้ายของคุณ:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Files provided to the model",
+        "th": "ไฟล์ที่มอบให้กับโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Read-count time series for locus A.",
+        "th": "อนุกรมเวลาการนับการอ่านสำหรับตำแหน่ง A"
       }
     }
   ]

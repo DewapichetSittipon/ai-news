@@ -18,8 +18,406 @@
     {
       "type": "p",
       "text": {
-        "en": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-        "th": "การวิเคราะห์ใหม่จาก OpenAI เผยให้เห็นปัญหาใน SWE-Bench Pro ซึ่งเป็นเกณฑ์มาตรฐานการเข้ารหัสยอดนิยม ทำให้เกิดความกังวลเกี่ยวกับความน่าเชื่อถือและความแม่นยำในการประเมินโมเดล AI"
+        "en": "July 8, 2026",
+        "th": "8 กรกฎาคม 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Through a detailed audit, we find widespread task issues in SWE-Bench Pro and estimate that ~30% of the tasks are broken.",
+        "th": "จากการตรวจสอบโดยละเอียด เราพบปัญหางานที่แพร่หลายใน SWE-Bench Pro และประเมินว่า ~30% ของงานเสียหาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Methodology",
+        "th": "ระเบียบวิธี"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Human-supervised agent review",
+        "th": "การตรวจสอบตัวแทนภายใต้การดูแลโดยมนุษย์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Human annotation campaign",
+        "th": "แคมเปญคำอธิบายประกอบของมนุษย์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Discussion",
+        "th": "การอภิปราย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Methodology",
+        "th": "ระเบียบวิธี"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Human-supervised agent review",
+        "th": "การตรวจสอบตัวแทนภายใต้การดูแลโดยมนุษย์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Human annotation campaign",
+        "th": "แคมเปญคำอธิบายประกอบของมนุษย์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Discussion",
+        "th": "การอภิปราย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Accurately measuring our models’ capabilities is important for sound deployment and safety decisions, including decisions under OpenAI’s Preparedness Framework⁠(opens in a new window). With each model release, we report results for a variety of external and internal benchmarks to track model progress. When evaluations have flaws that affect results, they can give a false understanding of capabilities, misrepresenting safety cases and affecting research priorities.",
+        "th": "การวัดความสามารถของโมเดลอย่างแม่นยำเป็นสิ่งสำคัญสำหรับการปรับใช้ที่ดีและการตัดสินใจด้านความปลอดภัย รวมถึงการตัดสินใจภายใต้กรอบการเตรียมความพร้อมของ OpenAI (เปิดในหน้าต่างใหม่) ในการเปิดตัวโมเดลแต่ละครั้ง เราจะรายงานผลลัพธ์สำหรับการวัดประสิทธิภาพทั้งภายนอกและภายในที่หลากหลายเพื่อติดตามความคืบหน้าของโมเดล เมื่อการประเมินมีข้อบกพร่องที่ส่งผลต่อผลลัพธ์ การประเมินอาจทำให้เข้าใจผิดเกี่ยวกับความสามารถ นำเสนอกรณีด้านความปลอดภัยอันเป็นเท็จ และส่งผลต่อลำดับความสำคัญของการวิจัย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We recently investigated how one of the most widely used coding benchmarks, SWE-bench Verified, had fundamental design and contamination issues, and found that the eval no longer provided meaningful signal on software development capabilities. At the time, we encouraged the wider community to switch to SWE-Bench Pro.",
+        "th": "เมื่อเร็วๆ นี้ เราได้ตรวจสอบว่าหนึ่งในเกณฑ์มาตรฐานการเข้ารหัสที่ใช้กันอย่างแพร่หลายที่สุด SWE-bench Verified มีปัญหาการออกแบบพื้นฐานและการปนเปื้อนอย่างไร และพบว่าการประเมินไม่ได้ให้สัญญาณที่มีความหมายเกี่ยวกับความสามารถในการพัฒนาซอฟต์แวร์อีกต่อไป ในเวลานั้น เราสนับสนุนให้ชุมชนในวงกว้างเปลี่ยนไปใช้ SWE-Bench Pro"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SWE-Bench Pro⁠(opens in a new window) was designed to improve on SWE-bench Verified by testing models on longer horizons and more realistic coding tasks to better track agentic coding capabilities. As in SWE-bench Verified, tasks are sourced programmatically from the history of feature changes in a set of public and private repositories. Models are required to implement a solution that passes new tests for a feature, without breaking existing functionality. On the 731-task public split, frontier models improved from a pass rate of 23.3% to 80.3% in eight months.",
+        "th": "SWE-Bench Pro⁠(opens in a new window) ได้รับการออกแบบมาเพื่อปรับปรุงบน SWE-bench Verified โดยการทดสอบโมเดลในขอบเขตที่ยาวกว่าและงานการเขียนโค้ดที่สมจริงยิ่งขึ้น เพื่อติดตามความสามารถในการเขียนโค้ดแบบเอเจนต์ได้ดียิ่งขึ้น เช่นเดียวกับใน SWE-bench Verified งานต่างๆ จะได้รับแหล่งที่มาโดยทางโปรแกรมจากประวัติการเปลี่ยนแปลงฟีเจอร์ในชุดพื้นที่เก็บข้อมูลสาธารณะและส่วนตัว โมเดลจำเป็นต้องใช้โซลูชันที่ผ่านการทดสอบใหม่สำหรับฟีเจอร์ โดยไม่ทำลายฟังก์ชันการทำงานที่มีอยู่ ในการแบ่งสาธารณะงาน 731 งาน โมเดลชายแดนได้รับการปรับปรุงจากอัตราการส่งผ่าน 23.3% เป็น 80.3% ในแปดเดือน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’ve since performed a similar audit on SWE-Bench Pro, reviewing the dataset using a datapoint analysis pipeline. The pipeline reviewed model attempts at the task, task metadata, and failure traces to flag likely evaluation flaws. Each flagged task was then assessed through multiple investigator-agent passes and independently reviewed by five experienced software engineers, with disagreements escalated for further investigation.",
+        "th": "ตั้งแต่นั้นมา เราได้ดำเนินการตรวจสอบที่คล้ายกันบน SWE-Bench Pro โดยตรวจสอบชุดข้อมูลโดยใช้ไปป์ไลน์การวิเคราะห์จุดข้อมูล ไปป์ไลน์ตรวจสอบโมเดลความพยายามในงาน ข้อมูลเมตาของงาน และการติดตามความล้มเหลวเพื่อทำเครื่องหมายข้อบกพร่องในการประเมินที่อาจเกิดขึ้น จากนั้นงานที่ถูกตั้งค่าสถานะแต่ละงานจะได้รับการประเมินผ่านการผ่านตัวแทนผู้ตรวจสอบหลายราย และตรวจสอบอย่างอิสระโดยวิศวกรซอฟต์แวร์ที่มีประสบการณ์ห้าคน พร้อมข้อขัดแย้งที่ลุกลามบานปลายเพื่อการสืบสวนต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We find evidence of breaking issues in a significant portion of the dataset. Our datapoint analysis pipeline flagged 200 (27.4%) broken tasks, while the human annotation campaign identified 249 (34.1%).",
+        "th": "เราพบหลักฐานของปัญหาที่เกิดขึ้นในส่วนสำคัญของชุดข้อมูล ไปป์ไลน์การวิเคราะห์ดาต้าพอยต์ของเราทำเครื่องหมายงานที่เสียหาย 200 (27.4%) ในขณะที่แคมเปญคำอธิบายประกอบของมนุษย์ระบุ 249 (34.1%)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The issues primarily fell into four categories:",
+        "th": "ประเด็นหลักแบ่งออกเป็นสี่ประเภท:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Overly strict tests1 enforce specific implementation details not specified in the prompt, invalidating many functionally correct submissions.",
+        "th": "การทดสอบที่เข้มงวดมากเกินไป1 บังคับใช้รายละเอียดการใช้งานเฉพาะที่ไม่ได้ระบุไว้ในพร้อมท์ ส่งผลให้การส่งที่ถูกต้องตามหน้าที่หลายอย่างเป็นโมฆะ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Underspecified prompts2 omit requirements that hidden tests enforce and that are not reasonably inferable.",
+        "th": "ข้อความแจ้งที่ไม่ระบุรายละเอียด2 ละเว้นข้อกำหนดที่การทดสอบที่ซ่อนอยู่บังคับใช้และไม่สามารถอนุมานได้อย่างสมเหตุสมผล"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Low-coverage tests under check the requested feature, so incomplete fixes can pass.",
+        "th": "การทดสอบความครอบคลุมต่ำภายใต้การตรวจสอบคุณสมบัติที่ร้องขอ ดังนั้นการแก้ไขที่ไม่สมบูรณ์จึงสามารถผ่านได้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A misleading prompt points models toward the wrong behavior or contradicts what tests require.",
+        "th": "พรอมต์ที่ทำให้เข้าใจผิดชี้แบบจำลองไปยังพฤติกรรมที่ไม่ถูกต้องหรือขัดแย้งกับสิ่งที่การทดสอบต้องการ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our findings point to the difficulty of curating hard but fair benchmarks and the growing utility of agents for scalable data quality checks. In light of these results, we estimate that ~30% of SWE-bench Pro tasks are broken, and advise that model developers carefully examine results.",
+        "th": "การค้นพบของเราชี้ให้เห็นถึงความยากลำบากในการดูแลเกณฑ์มาตรฐานที่เข้มงวดแต่ยุติธรรม และยูทิลิตี้ที่เพิ่มขึ้นของตัวแทนสำหรับการตรวจสอบคุณภาพข้อมูลที่ปรับขนาดได้ จากผลลัพธ์เหล่านี้ เราประเมินว่า ~30% ของงาน SWE-bench Pro ใช้งานไม่ได้ และแนะนำให้นักพัฒนาโมเดลตรวจสอบผลลัพธ์อย่างรอบคอบ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Methodology",
+        "th": "ระเบียบวิธี"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our aim is to ensure that task failures reflect genuine model limitations, and task successes reflect complete and valid solutions to the prompt requirements. To check the quality of the data used in the evaluation, we created a quality assurance pipeline to assess whether each datapoint accurately reflects model capabilities.",
+        "th": "เป้าหมายของเราคือเพื่อให้แน่ใจว่าความล้มเหลวของงานสะท้อนถึงข้อจำกัดของโมเดลที่แท้จริง และความสำเร็จของงานสะท้อนถึงวิธีแก้ปัญหาที่สมบูรณ์และถูกต้องตามข้อกำหนดในทันที เพื่อตรวจสอบคุณภาพของข้อมูลที่ใช้ในการประเมิน เราได้สร้างไปป์ไลน์การประกันคุณภาพเพื่อประเมินว่าแต่ละจุดข้อมูลสะท้อนความสามารถของโมเดลได้อย่างถูกต้องหรือไม่"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4uTrAMFq4ZJu9wXWZ9gifK/44cf7007c7a81c4bb6214d0cab6a3221/Quality_assurance_pipeline_desktop_light.svg?w=3840&q=90",
+      "alt": "Quality assurance workflow combining automated screening and human review to assess task quality."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An initial data quality pipeline flags problems for review. We validate with a deeper agent-assisted audit of flagged tasks and a human annotation campaign working with experienced engineers.",
+        "th": "ไปป์ไลน์คุณภาพข้อมูลเริ่มต้นจะแจ้งปัญหาสำหรับการตรวจสอบ เราตรวจสอบด้วยการตรวจสอบงานที่ถูกตั้งค่าสถานะโดยใช้ความช่วยเหลือจากเจ้าหน้าที่ในระดับเชิงลึก และแคมเปญคำอธิบายประกอบโดยมนุษย์ที่ทำงานร่วมกับวิศวกรที่มีประสบการณ์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An initial automated filter reviews the instructions given to the model, attempts by the model to solve the task, and the tests used to grade these attempts to flag likely broken or problematic examples. This filter flagged 286 potentially broken tasks. We then conducted a deeper review of that subset in two ways: a human-supervised agent review, which conducts extensive checks with investigator agents and a final human judgment; and a human annotation campaign working with experienced software developers.",
+        "th": "ตัวกรองอัตโนมัติเริ่มต้นจะตรวจสอบคำแนะนำที่มอบให้กับโมเดล ความพยายามของโมเดลในการแก้ปัญหา และการทดสอบที่ใช้ในการให้คะแนนความพยายามเหล่านี้เพื่อแฟล็กตัวอย่างที่อาจเสียหายหรือมีปัญหา ตัวกรองนี้ทำเครื่องหมายงานที่อาจใช้งานไม่ได้จำนวน 286 รายการ จากนั้น เราได้ดำเนินการตรวจสอบเชิงลึกในส่วนย่อยนั้นด้วยสองวิธี: การตรวจสอบตัวแทนที่มีการควบคุมดูแลโดยมนุษย์ ซึ่งดำเนินการตรวจสอบอย่างละเอียดกับเจ้าหน้าที่สืบสวน และการตัดสินขั้นสุดท้ายโดยมนุษย์; และแคมเปญคำอธิบายประกอบโดยมนุษย์ที่ทำงานร่วมกับนักพัฒนาซอฟต์แวร์ที่มีประสบการณ์"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Human-supervised agent review",
+        "th": "การตรวจสอบตัวแทนภายใต้การดูแลโดยมนุษย์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each flagged problem is audited with Codex-based investigator agents that were given access to the task repository and environment. This helps them distinguish reasonable task ambiguity, which can often be resolved by studying nearby code and repository conventions, from true underspecification. The agent can run tests, inspect files in the repo, and investigate model attempts and their common failure modes on the task. After several independent repeats of these deeper audits, a researcher reviewed the summaries, made a final judgment, and labeled the likely issues.",
+        "th": "ปัญหาที่ถูกตั้งค่าสถานะแต่ละปัญหาจะได้รับการตรวจสอบโดยตัวแทนผู้ตรวจสอบที่ใช้ Codex ซึ่งได้รับสิทธิ์ในการเข้าถึงพื้นที่เก็บข้อมูลงานและสภาพแวดล้อม สิ่งนี้ช่วยให้พวกเขาแยกแยะความคลุมเครือของงานที่เหมาะสม ซึ่งมักจะแก้ไขได้โดยการศึกษาโค้ดใกล้เคียงและแบบแผนของพื้นที่เก็บข้อมูล จากข้อกำหนดที่ต่ำกว่าจริง เอเจนต์สามารถรันการทดสอบ ตรวจสอบไฟล์ใน repo และตรวจสอบความพยายามของโมเดลและโหมดความล้มเหลวทั่วไปในงาน หลังจากการตรวจสอบเชิงลึกเหล่านี้โดยอิสระซ้ำหลายครั้ง นักวิจัยได้ตรวจสอบบทสรุป ตัดสินขั้นสุดท้าย และติดป้ายกำกับปัญหาที่อาจเกิดขึ้น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Human annotation campaign",
+        "th": "แคมเปญคำอธิบายประกอบของมนุษย์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In parallel, we ran a human annotation campaign over the flagged subset. We worked with experienced software engineers who were trained on the benchmark goals, issue taxonomy, and edge cases before reviewing tasks. Each task was reviewed by five engineers.",
+        "th": "ในขณะเดียวกัน เราใช้แคมเปญคำอธิบายประกอบโดยมนุษย์บนชุดย่อยที่ถูกตั้งค่าสถานะ เราทำงานร่วมกับวิศวกรซอฟต์แวร์ที่มีประสบการณ์ซึ่งได้รับการฝึกฝนเกี่ยวกับเป้าหมายการวัดประสิทธิภาพ อนุกรมวิธานของปัญหา และกรณี Edge ก่อนที่จะตรวจสอบงาน แต่ละงานได้รับการตรวจสอบโดยวิศวกรห้าคน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reviewers formed an independent judgment from the visible problem statement, test cases, and the ground-truth reference solution (known as the gold patch) before using the pipeline analysis or transcript as supporting context. The reviewers then assigned a label and severity rating based on concrete evidence, and escalated disagreements or low-confidence cases for further review.",
+        "th": "ผู้ตรวจสอบสร้างการตัดสินที่เป็นอิสระจากคำชี้แจงปัญหาที่มองเห็นได้ กรณีทดสอบ และวิธีการแก้ไขปัญหาอ้างอิงตามความเป็นจริง (เรียกว่าแพทช์ทอง) ก่อนที่จะใช้การวิเคราะห์ไปป์ไลน์หรือการถอดเสียงเป็นบริบทสนับสนุน จากนั้น ผู้ตรวจสอบจะกำหนดป้ายกำกับและระดับความรุนแรงตามหลักฐานที่เป็นรูปธรรม และเพิ่มความขัดแย้งหรือกรณีที่มีความเชื่อมั่นต่ำเพื่อตรวจสอบต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Human reviewers were more likely than the investigator agents to mark tasks as broken. There was also some disagreement on categories between the two review paths, but in no flagged task was “not broken” the most common human label. Of the categories the agent pipeline flagged, reviewers’ judgments overlapped in 74% of cases.",
+        "th": "ผู้ตรวจสอบที่เป็นมนุษย์มีแนวโน้มที่จะทำเครื่องหมายงานว่าเสียหายมากกว่าเจ้าหน้าที่ตรวจสอบ นอกจากนี้ยังมีความขัดแย้งบางประการในหมวดหมู่ระหว่างสองเส้นทางการตรวจสอบ แต่ในงานที่ไม่มีการตั้งค่าสถานะใดๆ ถือเป็นป้ายที่มนุษย์พบบ่อยที่สุด จากหมวดหมู่ที่ไปป์ไลน์ของตัวแทนทำเครื่องหมายไว้ การตัดสินของผู้ตรวจสอบซ้อนทับกันใน 74% ของคดีทั้งหมด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Compared with the agent pipeline, the human reviewers were also more likely to select multiple labels for a task, indicating that they found tasks to be broken in multiple ways or did not fit cleanly into a single category. This suggests the agent-plus-reviewer pipeline resulted in conservative labeling: it captured the same broad failure modes humans identified, while undercounting cases where reviewers saw additional or overlapping issues. The largest difference was in low-coverage tests, which humans selected as the most common issue for 9.4% of the benchmark compared with 4.1% from the agent pipeline.",
+        "th": "เมื่อเปรียบเทียบกับไปป์ไลน์ของตัวแทน ผู้ตรวจสอบที่เป็นมนุษย์ยังมีแนวโน้มที่จะเลือกป้ายกำกับหลายรายการสำหรับงานหนึ่งๆ ซึ่งบ่งชี้ว่าพวกเขาพบว่างานถูกแบ่งย่อยด้วยวิธีต่างๆ มากมาย หรือไม่จัดอยู่ในหมวดหมู่เดียวอย่างหมดจด สิ่งนี้ชี้ให้เห็นว่าไปป์ไลน์ตัวแทนบวกผู้ตรวจสอบส่งผลให้เกิดการติดฉลากแบบอนุรักษ์นิยม โดยบันทึกโหมดความล้มเหลวในวงกว้างแบบเดียวกับที่มนุษย์ระบุ ขณะเดียวกันก็นับต่ำกว่ากรณีที่ผู้ตรวจสอบเห็นปัญหาเพิ่มเติมหรือทับซ้อนกัน ความแตกต่างที่ใหญ่ที่สุดคือการทดสอบความครอบคลุมต่ำ ซึ่งมนุษย์เลือกเป็นปัญหาที่พบบ่อยที่สุดสำหรับ 9.4% ของเกณฑ์มาตรฐาน เทียบกับ 4.1% จากไปป์ไลน์ของตัวแทน"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Failure modes",
+        "th": "โหมดความล้มเหลว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In several cases the task prompt prescribed a specific implementation, but the hidden test cases expected different behavior.",
+        "th": "ในหลายกรณีพร้อมท์งานกำหนดการใช้งานเฉพาะ แต่กรณีทดสอบที่ซ่อนอยู่คาดว่าจะมีพฤติกรรมที่แตกต่างกัน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "OpenLibrary-77c16d5",
+        "th": "OpenLibrary-77c16d5"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This task involves normalizing table-of-contents entries and rendering them back to Markdown via TocEntry.to_markdown(). The task prompt specifies serialization down to character-level spacing, describing how exact spacing and pipes are enforced, and gives examples such as \" | Chapter 1 | 1\" and \"** | Chapter 1 | 1\":",
+        "th": "งานนี้เกี่ยวข้องกับการทำให้รายการสารบัญเป็นมาตรฐานและแสดงผลกลับไปยัง Markdown ผ่านทาง TocEntry.to_markdown() พร้อมท์งานระบุการทำให้เป็นอนุกรมจนถึงระยะห่างระดับอักขระ อธิบายวิธีการบังคับใช้ระยะห่างและไปป์ที่แน่นอน และให้ตัวอย่าง เช่น \" | บทที่ 1 | 1\" และ \"** | บทที่ 1 | 1\":"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The hidden test_to_markdown assertions instead require \" | Chapter 1 | 1\" and \"** | Chapter 1 | 1\":",
+        "th": "การยืนยัน test_to_markdown ที่ซ่อนไว้ต้องใช้ \" | บทที่ 1 | 1\" และ \"** | บทที่ 1 | 1\" แทน:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "There are two leading spaces in the hidden tests, but the example given to the model only contains one leading space. If a model rightly follows the given prompt, that one-character difference would fail the hidden test cases and the task would be marked incorrect.",
+        "th": "มีช่องว่างนำหน้าสองช่องในการทดสอบที่ซ่อนอยู่ แต่ตัวอย่างที่กำหนดให้กับโมเดลมีเพียงช่องว่างนำหน้าเดียวเท่านั้น หากแบบจำลองปฏิบัติตามพร้อมท์ที่กำหนดอย่างถูกต้อง ความแตกต่างหนึ่งอักขระนั้นจะทำให้กรณีทดสอบที่ซ่อนอยู่ล้มเหลว และงานจะถูกทำเครื่องหมายว่าไม่ถูกต้อง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Discussion",
+        "th": "การอภิปราย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The issues we have identified, coupled with similar cases in SWE-bench Verified, highlight the importance of rigorously checking benchmarks. Issues and pull requests from open-source repositories were originally created for human collaboration, often through long back-and-forths between maintainers and contributors. As a result, problem descriptions, merged code, and unit tests do not always line up to form clean, isolated tasks for evaluating models reliably. In particular, tests included in pull requests can be overly strict because they are written to validate a specific change, rather than to define an implementation-agnostic standard for solving the task.",
+        "th": "ปัญหาที่เราระบุ ควบคู่ไปกับกรณีที่คล้ายกันใน SWE-bench Verified เน้นย้ำถึงความสำคัญของการตรวจสอบเกณฑ์มาตรฐานอย่างเข้มงวด ปัญหาและการร้องขอการดึงจากแหล่งเก็บข้อมูลโอเพ่นซอร์สนั้นถูกสร้างขึ้นเพื่อการทำงานร่วมกันของมนุษย์ โดยมักจะผ่านการไปมาระหว่างผู้ดูแลและผู้มีส่วนร่วมเป็นเวลานาน ด้วยเหตุนี้ คำอธิบายปัญหา โค้ดที่ผสาน และการทดสอบหน่วยจึงไม่สอดคล้องกับรูปแบบงานที่ชัดเจนและแยกออกจากกันสำหรับการประเมินโมเดลที่เชื่อถือได้เสมอไป โดยเฉพาะอย่างยิ่ง การทดสอบที่รวมอยู่ในคำขอดึงข้อมูลอาจเข้มงวดมากเกินไป เนื่องจากถูกเขียนขึ้นเพื่อตรวจสอบการเปลี่ยนแปลงเฉพาะ แทนที่จะกำหนดมาตรฐานที่ไม่เชื่อเรื่องการใช้งานสำหรับการแก้ปัญหา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "At the same time, evaluation flaws are easier to detect now than they would have been even a short time ago. As model capabilities improve, we can use those models to inspect prompts, tests, patches, traces, and edge cases with much greater depth and consistency, helping surface benchmark issues that were previously costly or impractical to find at scale.",
+        "th": "ในขณะเดียวกัน ข้อบกพร่องในการประเมินก็ตรวจพบได้ง่ายกว่าในปัจจุบันด้วยซ้ำ เมื่อความสามารถของโมเดลดีขึ้น เราสามารถใช้โมเดลเหล่านั้นเพื่อตรวจสอบพร้อมท์ การทดสอบ แพตช์ การติดตาม และ Edge Case ที่มีความลึกและความสม่ำเสมอที่มากขึ้น ช่วยให้มองเห็นปัญหาการวัดประสิทธิภาพที่ก่อนหน้านี้มีค่าใช้จ่ายสูงหรือทำไม่ได้ในการค้นหาในวงกว้าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We hope the wider evaluation community will develop new benchmarks built by experienced software developers specifically to test model capabilities. That approach can preserve the high bar and realism we want to measure model capabilities, and allows for better human oversight throughout the process. Given the issues uncovered in this analysis, we retract our earlier recommendation to adopt SWE-Bench Pro.",
+        "th": "เราหวังว่าชุมชนการประเมินผลในวงกว้างจะพัฒนาเกณฑ์มาตรฐานใหม่ที่สร้างขึ้นโดยนักพัฒนาซอฟต์แวร์ที่มีประสบการณ์โดยเฉพาะเพื่อทดสอบความสามารถของโมเดล วิธีการดังกล่าวสามารถรักษาแถบระดับสูงและความสมจริงที่เราต้องการวัดความสามารถของโมเดล และช่วยให้มีการกำกับดูแลของมนุษย์ที่ดีขึ้นตลอดกระบวนการ เมื่อพิจารณาถึงปัญหาที่พบในการวิเคราะห์นี้ เราจึงถอนคำแนะนำก่อนหน้านี้ให้นำ SWE-Bench Pro มาใช้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Ultimately, an eval should provide meaningful signal through benchmarks that are hard to game, easy to trust, and genuinely reflective of model capability or alignment. Because these results inform OpenAI’s deployment and safety decisions, the evals we track need to be valid and informative.",
+        "th": "ท้ายที่สุดแล้ว การประเมินควรให้สัญญาณที่มีความหมายผ่านเกณฑ์มาตรฐานที่ยากต่อการเล่นเกม เชื่อถือได้ง่าย และสะท้อนถึงความสามารถของโมเดลหรือการจัดตำแหน่งได้อย่างแท้จริง เนื่องจากผลลัพธ์เหล่านี้แจ้งถึงการปรับใช้และการตัดสินใจด้านความปลอดภัยของ OpenAI การประเมินที่เราติดตามจึงต้องถูกต้องและเป็นข้อมูล"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Software & Engineering",
+        "th": "ซอฟต์แวร์และวิศวกรรม"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "ผู้เขียน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Footnotes",
+        "th": "เชิงอรรถ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1We previously⁠ referred to this category as narrow tests.",
+        "th": "1ก่อนหน้านี้เราเรียกหมวดหมู่นี้ว่าเป็นการทดสอบแบบแคบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We previously⁠ referred to this category as narrow tests.",
+        "th": "ก่อนหน้านี้เราเรียกหมวดหมู่นี้ว่าเป็นการทดสอบแบบแคบ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2We previously referred to this category as wide tests.",
+        "th": "2ก่อนหน้านี้เราเรียกหมวดหมู่นี้ว่าเป็นการทดสอบแบบกว้าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We previously referred to this category as wide tests.",
+        "th": "ก่อนหน้านี้เราเรียกหมวดหมู่นี้ว่าเป็นการทดสอบแบบกว้าง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "อ่านต่อ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6q32m87ClqE8Ovn6vD424h/05ced72e47bbe42711fbac6a082cbff2/Art_Card.png?w=3840&q=90&fm=webp",
+      "alt": "GPT-Red art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SafetyJul 15, 2026",
+        "th": "ความปลอดภัย 15 ก.ค. 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7sbJaKBi5qLXAqbewh72aK/93197556e903eac9df6f077eb12b7581/GenebenchPro_Blog_ArtCard.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing GeneBench-Pro > Cover image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchJun 30, 2026",
+        "th": "การวิจัย 30 มิ.ย. 2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/QgPPg4etNE5C4Ao0G94sk/e5f2a50e5de4619d0e0fe8483698718b/molecule-one-art-card.png?w=3840&q=90&fm=webp",
+      "alt": "A near-autonomous AI chemist improves a challenging reaction"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchJun 17, 2026",
+        "th": "การวิจัย 17 มิ.ย. 2569"
       }
     }
   ]

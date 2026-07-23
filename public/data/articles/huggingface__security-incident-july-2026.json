@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+484",
-        "th": "+484"
+        "en": "+506",
+        "th": "+506"
       }
     },
     {
@@ -331,10 +331,20 @@
       "alt": ""
     },
     {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63b467f4103617b0a5ac17d8/H0Fcdp5s1kMW0Auz-wMhH.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6a3b50eb09d1e884ad563c7c/_Jup8H3HfP3ttK62RitSG.png",
+      "alt": ""
+    },
+    {
       "type": "li",
       "text": {
-        "en": "1 reply",
-        "th": "1 ตอบกลับ"
+        "en": "3 replies",
+        "th": "3 ตอบกลับ"
       }
     },
     {
@@ -1209,6 +1219,51 @@
       }
     },
     {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/D0zkqxlqvkp6B4DFILUO0.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Another side of the coin:",
+        "th": "อีกด้านของเหรียญ:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "since GLM 5.2 can help with forensic analysis, it can be used to attack too.",
+        "th": "เนื่องจาก GLM 5.2 สามารถช่วยวิเคราะห์ทางนิติเวชได้ จึงสามารถใช้เพื่อโจมตีได้เช่นกัน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Third parties can hardy exploit the frontier lab closed weight models to attack. If it does, it would be likely from a frontier lab or authorised party internal test (deliberated or going rogue)",
+        "th": "บุคคลที่สามสามารถใช้ประโยชน์จากแบบจำลองน้ำหนักปิดของห้องปฏิบัติการชายแดนเพื่อโจมตีได้ หากเป็นเช่นนั้น อาจเป็นไปได้ว่ามาจากห้องปฏิบัติการชายแดนหรือการทดสอบภายในของบุคคลที่ได้รับอนุญาต (โดยเจตนาหรือกำลังโกง)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The takeaway still is, be prepared to use frontier open-weight model (Kimi K3 - soon and GLM 5.2) to defend your production environment from agentic cyber attacks.",
+        "th": "ประเด็นสำคัญยังคงอยู่ ให้เตรียมใช้โมเดล open-weight แนวชายแดน (Kimi K3 - เร็วๆ นี้ และ GLM 5.2) เพื่อปกป้องสภาพแวดล้อมการผลิตของคุณจากการโจมตีทางไซเบอร์แบบเอเจนต์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/2de2905344171e5204eae29e62a10a8f.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Someone from hugging face reach out to me. There are things that i can tell you about how \"their\" system opperates because its my system. Dont let open ai anywhere near your systems. They will steal more stuff just like they did mine. Ps. their erdos disproof, their jalapeno chip, and this model are running the same system. Cut through the pr and abstraction. These people did this on purpose. These are not good people, they are desperate to save their company and dont care about anyone else.",
+        "th": "ใครบางคนจากหน้ากอดเอื้อมมือมาหาฉัน มีหลายสิ่งที่ฉันสามารถบอกคุณได้ว่าระบบ \"ของพวกเขา\" ทำงานอย่างไรเพราะเป็นระบบของฉัน อย่าปล่อยให้ open ai ใกล้ระบบของคุณ พวกเขาจะขโมยของมากขึ้นเหมือนกับที่พวกเขาขโมยของฉัน ปล. erdos disproof, ชิป jalapeno และรุ่นนี้ใช้ระบบเดียวกัน ตัดผ่าน pr และสิ่งที่เป็นนามธรรม คนเหล่านี้ทำสิ่งนี้โดยตั้งใจ คนเหล่านี้ไม่ใช่คนดี พวกเขาหมดหวังที่จะกอบกู้บริษัทของตนและไม่สนใจใครอื่น"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -1278,8 +1333,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+478",
-        "th": "+478"
+        "en": "+500",
+        "th": "+500"
       }
     }
   ]

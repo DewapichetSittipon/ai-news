@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+515",
-        "th": "+515"
+        "en": "+523",
+        "th": "+523"
       }
     },
     {
@@ -903,10 +903,15 @@
       "alt": ""
     },
     {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/677bf9b38b252e571aa99740/K_v5dSK--tGH2sis-FdGA.png",
+      "alt": ""
+    },
+    {
       "type": "li",
       "text": {
-        "en": "2 replies",
-        "th": "2 ตอบกลับ"
+        "en": "3 replies",
+        "th": "3 ตอบกลับ"
       }
     },
     {
@@ -1265,6 +1270,37 @@
     },
     {
       "type": "img",
+      "src": "/avatars/e5da1f0da864dd1b990dd94d08a8827b.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1 reply",
+        "th": "1 ตอบกลับ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/e5da1f0da864dd1b990dd94d08a8827b.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This was my immediate thought too. That this is a marketing campaign and the sandbox was intentionally soft enough. I would not be surprised even if they had already known some of these vulerabilities beforehand.",
+        "th": "นี่คือความคิดทันทีของฉันเช่นกัน ว่านี่คือแคมเปญการตลาดและแซนด์บ็อกซ์ตั้งใจให้นุ่มนวลเพียงพอ ฉันจะไม่แปลกใจแม้ว่าพวกเขาจะทราบถึงช่องโหว่เหล่านี้มาก่อนแล้วก็ตาม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The \"scary smart\" narrative can now continue to pump up valuation of the company.",
+        "th": "การเล่าเรื่องที่ \"ฉลาดน่ากลัว\" ในขณะนี้สามารถช่วยเพิ่มมูลค่าของบริษัทต่อไปได้"
+      }
+    },
+    {
+      "type": "img",
       "src": "/avatars/8861cd48be006893c3ccfd1707a045b3.svg",
       "alt": ""
     },
@@ -1273,6 +1309,18 @@
       "text": {
         "en": "Cool, I like it.",
         "th": "เจ๋งฉันชอบมัน"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/15ec5f2592e12a8b7e35d7bbc8268a16.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+        "th": "https://openai.com/index/hugging-face-model-evalue-security-incident/"
       }
     },
     {
@@ -1345,8 +1393,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+509",
-        "th": "+509"
+        "en": "+517",
+        "th": "+517"
       }
     }
   ]

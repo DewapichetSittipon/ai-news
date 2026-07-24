@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+574",
-        "th": "+574"
+        "en": "+593",
+        "th": "+593"
       }
     },
     {
@@ -1473,14 +1473,125 @@
     {
       "type": "p",
       "text": {
-        "en": "Does this stuff annoy anyone else?The providers themselves and their invited participants are free to wage cyber-attacks at will against us and our systems, but if we try to use those same models to check our code for vulnerabilities in order to defend against them - we get blocked every time!",
-        "th": "สิ่งนี้สร้างความรำคาญให้กับผู้อื่นหรือไม่? ผู้ให้บริการเองและผู้เข้าร่วมที่ได้รับเชิญมีอิสระในการโจมตีทางไซเบอร์ต่อเราและระบบของเรา แต่ถ้าเราพยายามใช้โมเดลเดียวกันเหล่านั้นเพื่อตรวจสอบโค้ดของเราเพื่อหาช่องโหว่เพื่อป้องกันพวกเขา - เราจะถูกบล็อกทุกครั้ง!"
+        "en": "Does this stuff annoy anyone else?",
+        "th": "สิ่งนี้รบกวนคนอื่นหรือไม่?"
       }
     },
     {
       "type": "img",
       "src": "https://cdn-uploads.huggingface.co/production/uploads/647b2e6b9c71e428601f9421/KTR-lFIIkDvsaNYC1eAVW.png",
       "alt": "pic_2026-07-21_07.49.32_3947"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/647b2e6b9c71e428601f9421/fGg17Wmg00mUFJEG9qFPB.png",
+      "alt": "pic_2026-07-15_14.27.58_3877"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The providers themselves and their invited participants are free to wage cyber-attacks at will against us and our systems, but if we try to use those same models to check our code for vulnerabilities in order to defend against them - we get blocked every time!",
+        "th": "ผู้ให้บริการเองและผู้เข้าร่วมที่ได้รับเชิญมีอิสระที่จะโจมตีเราและระบบของเราตามความประสงค์ แต่หากเราพยายามใช้โมเดลเดียวกันนั้นเพื่อตรวจสอบโค้ดของเราเพื่อหาช่องโหว่เพื่อป้องกันพวกเขา เราจะถูกบล็อกทุกครั้ง!"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/319895ee248573005a5c71dce4fa91d8.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hi can I find out the day the incident happened",
+        "th": "สวัสดี ฉันขอทราบได้ไหมว่าเหตุการณ์เกิดขึ้นวันที่เท่าไร"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/EYSgueTAzBCyUx8Wd1DsH.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "wandering why you haven't tried local recent cyber models from anthropic or openai instead of GLM unless they are not available locally?",
+        "th": "หลงทางว่าทำไมคุณถึงไม่ลองใช้โมเดลไซเบอร์ล่าสุดในท้องถิ่นจาก anthropic หรือ openai แทนที่จะเป็น GLM เว้นแต่ว่าจะไม่สามารถใช้ได้ในพื้นที่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Because your American models aren't open source, they only attack other people's websites, and there's no way to deploy them locally",
+        "th": "เนื่องจากโมเดลในอเมริกาของคุณไม่ใช่โอเพ่นซอร์ส พวกมันจึงโจมตีเฉพาะเว็บไซต์ของผู้อื่นเท่านั้น และไม่มีวิธีใดที่จะปรับใช้โมเดลเหล่านั้นในเครื่อง"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/be4c68525daad4f792c07a75623fcf3c.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "So...",
+        "th": "ดังนั้น..."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "OpenAi \"sandbox\" is not really \"sandbox\"",
+        "th": "OpenAi \"แซนด์บ็อกซ์\" ไม่ใช่ \"แซนด์บ็อกซ์\" จริงๆ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "absolutely attack has nothing to do with France going with China infrastructure for theirs Ai builds out",
+        "th": "การโจมตีโดยสิ้นเชิงไม่เกี่ยวอะไรกับฝรั่งเศสที่ใช้โครงสร้างพื้นฐานของจีนสำหรับ Ai ที่สร้างขึ้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "absolutely attack has nothing to do with France ditching micro$lop for Linux for their gov PCs",
+        "th": "การโจมตีโดยสิ้นเชิงไม่เกี่ยวอะไรกับการที่ฝรั่งเศสทิ้ง micro$lop สำหรับ Linux สำหรับพีซีของรัฐบาล"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "this is not PR stunt",
+        "th": "นี่ไม่ใช่การแสดงความสามารถในการประชาสัมพันธ์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "and absolutely this is the case of \"You prompted it wrong\" or \"It is so powerful that we can't contain it\"",
+        "th": "และนี่คือกรณีของ \"คุณเตือนมันผิด\" หรือ \"มันแรงมากจนเราไม่สามารถควบคุมมันได้\""
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "this is not a bug it is a feature - we do tell it one thing and it does something completely different... this is like using Notepad and saving text document but instead of saving it erase drive",
+        "th": "นี่ไม่ใช่จุดบกพร่อง แต่เป็นคุณลักษณะ - เราบอกสิ่งหนึ่งและทำสิ่งที่แตกต่างไปจากเดิมอย่างสิ้นเชิง... นี่เหมือนกับการใช้ Notepad และบันทึกเอกสารข้อความ แต่แทนที่จะบันทึก ลบไดรฟ์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "where is regulation for this $hit ???",
+        "th": "กฎระเบียบสำหรับ $hit นี้อยู่ที่ไหน ???"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "incompetence all over the place... how anyone can take these guys seriously is mind boggling",
+        "th": "การไร้ความสามารถทั่วทุกแห่ง... ใครก็ตามที่สามารถเอาจริงเอาจังกับคนพวกนี้ได้นั้นช่างเหลือเชื่อจริงๆ"
+      }
     },
     {
       "type": "p",
@@ -1552,8 +1663,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+568",
-        "th": "+568"
+        "en": "+587",
+        "th": "+587"
       }
     }
   ]

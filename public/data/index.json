@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-24T15:24:08.327Z",
+  "generatedAt": "2026-07-24T17:23:28.844Z",
   "items": [
+    {
+      "id": "anthropic__claude-opus-5",
+      "slug": "claude-opus-5",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "category": "Product",
+      "date": "2026-07-24T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/54b7ab1d2c2521f83ae5d2da5f9d99321c370d24-2880x1620.png",
+      "title": {
+        "en": "Introducing Claude Opus 5",
+        "th": "ขอแนะนำ Claude Opus 5"
+      },
+      "summary": {
+        "en": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+        "th": "Opus 5 คือการปรับปรุงการเปลี่ยนแปลงขั้นตอนสำหรับ Opus Tier ที่ขับเคลื่อนตัวแทนที่ทำงานมายาวนาน ในขณะเดียวกันก็มอบการปรับปรุงในการเขียนโค้ดและการทำงานระดับมืออาชีพ"
+      }
+    },
     {
       "id": "openai__health-in-chatgpt",
       "slug": "health-in-chatgpt",
@@ -903,23 +920,6 @@
       }
     },
     {
-      "id": "anthropic__reflect-with-claude",
-      "slug": "reflect-with-claude",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/reflect-with-claude",
-      "category": "News",
-      "date": "2026-07-09T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Quill&backgroundColor=cactus",
-      "title": {
-        "en": "Introducing a way to reflect on how you use Claude",
-        "th": "ขอแนะนำวิธีการไตร่ตรองว่าคุณใช้ Claude อย่างไร"
-      },
-      "summary": {
-        "en": "Introducing a new way to reflect on and refine how you use Claude. It lets you easily track and visualize how you use Claude, and decide whether that time aligns with your goals.",
-        "th": "ขอแนะนำวิธีใหม่ในการไตร่ตรองและปรับปรุงวิธีการใช้ Claude ช่วยให้คุณติดตามและเห็นภาพวิธีการใช้ Claude ได้อย่างง่ายดาย และตัดสินใจว่าเวลานั้นสอดคล้องกับเป้าหมายของคุณหรือไม่"
-      }
-    },
-    {
       "id": "openai__government-national-security-partnerships",
       "slug": "government-national-security-partnerships",
       "source": "openai",
@@ -1342,23 +1342,6 @@
       "summary": {
         "en": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
         "th": "Sonnet ที่เป็นตัวแทนมากที่สุดของเรา พร้อมด้วยความชาญฉลาดระดับสูงสุดสำหรับการเขียนโค้ดและการทำงานอย่างมืออาชีพในทุกๆ วัน"
-      }
-    },
-    {
-      "id": "anthropic__claude-science-ai-workbench",
-      "slug": "claude-science-ai-workbench",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
-      "category": "Announcements",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/0c547c61b24e6ad4985c64f04f212c7411609bfa-2880x1620.png",
-      "title": {
-        "en": "Claude Science, an AI workbench for scientists, is now available",
-        "th": "Claude Science ซึ่งเป็นโต๊ะงาน AI สำหรับนักวิทยาศาสตร์ พร้อมใช้งานแล้ว"
-      },
-      "summary": {
-        "en": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
-        "th": "Claude Science เป็นแอปที่ปรับแต่งได้ซึ่งรวมเครื่องมือและแพ็คเกจที่นักวิจัยใช้บ่อยที่สุด สร้างสิ่งประดิษฐ์ที่ตรวจสอบได้ และให้การเข้าถึงทรัพยากรการประมวลผลที่ยืดหยุ่น"
       }
     },
     {

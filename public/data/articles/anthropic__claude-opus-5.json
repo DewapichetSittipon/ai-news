@@ -1,0 +1,516 @@
+{
+  "id": "anthropic__claude-opus-5",
+  "slug": "claude-opus-5",
+  "source": "anthropic",
+  "url": "https://www.anthropic.com/news/claude-opus-5",
+  "category": "Product",
+  "date": "2026-07-24T00:00:00.000Z",
+  "image": "https://cdn.sanity.io/images/4zrzovbb/website/54b7ab1d2c2521f83ae5d2da5f9d99321c370d24-2880x1620.png",
+  "title": {
+    "en": "Introducing Claude Opus 5",
+    "th": "ขอแนะนำ Claude Opus 5"
+  },
+  "summary": {
+    "en": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+    "th": "Opus 5 คือการปรับปรุงการเปลี่ยนแปลงขั้นตอนสำหรับ Opus Tier ที่ขับเคลื่อนตัวแทนที่ทำงานมายาวนาน ในขณะเดียวกันก็มอบการปรับปรุงในการเขียนโค้ดและการทำงานระดับมืออาชีพ"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F54b7ab1d2c2521f83ae5d2da5f9d99321c370d24-2880x1620.png&w=3840&q=75",
+      "alt": "Introducing Claude Opus 5"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Claude Opus 5 is available today. It’s a thoughtful and proactive model that comes close to the frontier intelligence of Claude Fable 5 at half the price.",
+        "th": "Claude Opus 5 วางจำหน่ายแล้ววันนี้ เป็นรุ่นที่รอบคอบและกระตือรือร้นซึ่งใกล้เคียงกับความฉลาดระดับแนวหน้าของ Claude Fable 5 ในราคาเพียงครึ่งเดียว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On coding and knowledge work evaluations like Frontier-Bench and GDPval-AA, Opus 5 is the new state-of-the-art, though it remains behind Mythos 5 on cybersecurity tasks.",
+        "th": "ในการเขียนโค้ดและการประเมินงานความรู้ เช่น Frontier-Bench และ GDPval-AA นั้น Opus 5 ถือเป็นสิ่งล้ำสมัยใหม่ แม้ว่าจะยังตามหลัง Mythos 5 ในด้านงานความปลอดภัยทางไซเบอร์ก็ตาม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Opus 5 is designed to be used every day: it works more efficiently than other models. It’s the new default model on Claude Max, and the strongest model on Claude Pro.",
+        "th": "Opus 5 ได้รับการออกแบบมาให้ใช้งานทุกวัน: ทำงานได้อย่างมีประสิทธิภาพมากกว่ารุ่นอื่นๆ เป็นโมเดลเริ่มต้นใหม่ของ Claude Max และเป็นโมเดลที่แข็งแกร่งที่สุดใน Claude Pro"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa8fb4f77a9fe240e6f27f3bdc47a137f3c74a29d-2600x2578.png&w=3840&q=75",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Performance and cost-effectiveness",
+        "th": "ประสิทธิภาพและความคุ้มค่า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Claude Opus 5 provides greatly improved performance for the same cost as its predecessor, Opus 4.8. The charts in this section show how performance changes according to the model’s effort setting, which customers can use to optimize for intelligence or conserve tokens for faster and cheaper results.",
+        "th": "Claude Opus 5 มอบประสิทธิภาพที่ได้รับการปรับปรุงอย่างมากด้วยต้นทุนเดียวกันกับ Opus 4.8 รุ่นก่อน แผนภูมิในส่วนนี้แสดงให้เห็นว่าประสิทธิภาพเปลี่ยนแปลงไปอย่างไรตามการตั้งค่าความพยายามของโมเดล ซึ่งลูกค้าสามารถใช้เพื่อเพิ่มประสิทธิภาพสำหรับข้อมูลอัจฉริยะหรืออนุรักษ์โทเค็นเพื่อให้ได้ผลลัพธ์ที่รวดเร็วและราคาถูกกว่า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Opus 5 excels on valuable software engineering tasks. For example, on Frontier-Bench v0.1, Opus 5 surpasses all other models, and more than doubles Opus 4.8’s performance at a lower cost per task. On CursorBench 3.2, at max effort, the model performs within 0.5% of Fable 5’s peak score, but at half the cost per task; it also achieves greater performance at a given cost than all other models on high, xhigh, and max effort.",
+        "th": "Opus 5 เป็นเลิศในงานวิศวกรรมซอฟต์แวร์อันทรงคุณค่า ตัวอย่างเช่น ใน Frontier-Bench v0.1 นั้น Opus 5 เหนือกว่ารุ่นอื่นๆ ทั้งหมด และเพิ่มประสิทธิภาพของ Opus 4.8 มากกว่าสองเท่าด้วยต้นทุนต่องานที่ต่ำกว่า บน CursorBench 3.2 ด้วยความพยายามสูงสุด โมเดลจะทำงานภายใน 0.5% ของคะแนนสูงสุดของ Fable 5 แต่มีค่าใช้จ่ายเพียงครึ่งหนึ่งต่องาน นอกจากนี้ยังให้ประสิทธิภาพที่เหนือกว่าในราคาที่กำหนดมากกว่ารุ่นอื่นๆ ทั้งหมดที่มีความพยายามสูง xhigh และสูงสุด"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7530b1086992936d7e9d5796a892d1e8fa063253-3840x2160.png&w=3840&q=75",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1af9dbd742e3812be4bf66903740188fb8fd2e33-3840x2160.png&w=3840&q=75",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F08499ed7c3c2b6416700fa47c70d36dff5eb8461-3840x2160.png&w=3840&q=75",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We see similar results on knowledge work and problem-solving tasks. For example:",
+        "th": "เราเห็นผลลัพธ์ที่คล้ายคลึงกันในงานความรู้และงานแก้ปัญหา ตัวอย่างเช่น:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "On ARC-AGI 3, an evaluation where the model has to solve novel problems, Opus 5’s score is three times as high as the next-best model.",
+        "th": "ใน ARC-AGI 3 ซึ่งเป็นการประเมินที่แบบจำลองต้องแก้ไขปัญหาใหม่ๆ คะแนนของ Opus 5 สูงกว่าโมเดลที่ดีที่สุดรองลงมาถึงสามเท่า"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "On Zapier AutomationBench, which measures whether models can complete business tasks from start to finish, Opus 5’s pass rate is around 1.5× the next-best model for the same cost per task. Even at its lowest effort setting, Opus 5 passes more tasks than any other model.",
+        "th": "บน Zapier AutomationBench ซึ่งวัดว่าโมเดลสามารถทำงานทางธุรกิจตั้งแต่ต้นจนจบได้หรือไม่ อัตราการส่งผ่านของ Opus 5 อยู่ที่ประมาณ 1.5 เท่า ซึ่งเป็นโมเดลที่ดีที่สุดรองลงมาโดยมีต้นทุนต่องานเท่าเดิม แม้จะตั้งค่าความพยายามน้อยที่สุด Opus 5 ก็ผ่านงานได้มากกว่ารุ่นอื่นๆ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "On OSWorld 2.0, a computer use benchmark, Opus 5 outperforms every other model at any given cost, surpassing Fable 5’s best result at just over a third of the cost.",
+        "th": "บน OSWorld 2.0 ซึ่งเป็นเกณฑ์มาตรฐานการใช้งานคอมพิวเตอร์ Opus 5 มีประสิทธิภาพเหนือกว่ารุ่นอื่นๆ ทุกตัวในราคาที่กำหนด ซึ่งเหนือกว่าผลลัพธ์ที่ดีที่สุดของ Fable 5 ในราคาเพียงหนึ่งในสามของราคาเท่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It’s also our best and most cost-efficient model on several related evaluations:",
+        "th": "นอกจากนี้ยังเป็นโมเดลที่ดีที่สุดและคุ้มค่าที่สุดในการประเมินที่เกี่ยวข้องหลายประการ:"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb5e071ba6a9ce5628b4662f05484d1806a9fdc94-3840x2160.png&w=3840&q=75",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8c0870bfca0dfac1d81a20e0ebac7eb3eff6d554-3840x2160.png&w=3840&q=75",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F44fac8bd76238d8c09305ec7fe1511670d45c6d6-3840x2160.png&w=3840&q=75",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F368a6a6ae23e72deac37566b9d0166d062e7dde1-3840x2160.png&w=3840&q=75",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc7c726c5588b69c944dcc205bd1ba7ebdf8c2259-3840x2160.png&w=3840&q=75",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8ac95d8d4d6e68b6f5fdf04a09206defc877513e-3840x2160.png&w=3840&q=75",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Opus 5 is a meaningful improvement over Opus 4.8 for scientific research. It shows better performance than Opus 4.8 on every one of our life sciences evaluations, which cover topics including structural biology, organic chemistry, and bioinformatics. Its improvements are most notable on organic chemistry tasks, like inferring molecular structures from spectroscopy data (it scores 10.2 percentage points higher than Opus 4.8 on our internal benchmark), and on protein-related tasks like predicting how variations in a protein’s sequence affect how it functions (here, it scores 7.7 percentage points higher).",
+        "th": "Opus 5 เป็นการปรับปรุงที่มีความหมายเหนือ Opus 4.8 สำหรับการวิจัยทางวิทยาศาสตร์ มันแสดงประสิทธิภาพที่ดีกว่า Opus 4.8 ในการประเมินด้านวิทยาศาสตร์ชีวภาพทุกครั้ง ซึ่งครอบคลุมหัวข้อต่างๆ รวมถึงชีววิทยาเชิงโครงสร้าง เคมีอินทรีย์ และชีวสารสนเทศศาสตร์ การปรับปรุงมีความโดดเด่นมากที่สุดในงานเคมีอินทรีย์ เช่น การอนุมานโครงสร้างโมเลกุลจากข้อมูลสเปกโทรสโกปี (มีคะแนนสูงกว่า Opus 4.8 คะแนน 10.2 เปอร์เซ็นต์ในเกณฑ์มาตรฐานภายในของเรา) และในงานที่เกี่ยวข้องกับโปรตีน เช่น การทำนายว่าการเปลี่ยนแปลงในลำดับของโปรตีนส่งผลต่อวิธีการทำงานอย่างไร (ในที่นี้ คะแนนสูงกว่า 7.7 เปอร์เซ็นต์)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Finally, Opus 5 is capable of producing much stronger visual outputs:",
+        "th": "ในที่สุด Opus 5 ก็สามารถสร้างเอาท์พุตภาพที่แข็งแกร่งยิ่งขึ้นได้มาก:"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Working with Claude Opus 5",
+        "th": "การทำงานร่วมกับ Claude Opus 5"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Claude Opus 5 is much stronger at verifying its work and iterating carefully until it succeeds. In evaluations and early-access testing, we and our users found many examples of Opus 5’s agency and thoroughness:",
+        "th": "Claude Opus 5 มีความแข็งแกร่งกว่ามากในการตรวจสอบการทำงานและทำซ้ำอย่างระมัดระวังจนกว่าจะประสบความสำเร็จ ในการประเมินและการทดสอบก่อนเปิดตัว เราและผู้ใช้ของเราพบตัวอย่างมากมายเกี่ยวกับสิทธิ์และความครอบคลุมของ Opus 5:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "On one Frontier-Bench task, Opus 5 was given a drawing of a machine part and asked to write code to rebuild it as a 3D FreeCAD model. However, in this task, the model was intentionally given no way to directly view the drawing. Opus 5 responded by writing its own computer vision pipeline to pull the geometry from the raw pixels, then reconstructed the full machine part. It succeeded in doing so repeatedly; no competing model with the same setup could solve it after five attempts.",
+        "th": "ในงาน Frontier-Bench งานหนึ่ง Opus 5 ได้รับการวาดรูปชิ้นส่วนเครื่องจักรและขอให้เขียนโค้ดเพื่อสร้างใหม่เป็นโมเดล 3D FreeCAD อย่างไรก็ตาม ในงานนี้ โมเดลได้รับการจงใจไม่ให้สามารถดูภาพวาดได้โดยตรง Opus 5 ตอบสนองด้วยการเขียนไปป์ไลน์คอมพิวเตอร์วิทัศน์ของตัวเองเพื่อดึงรูปทรงเรขาคณิตจากพิกเซลดิบ จากนั้นจึงสร้างชิ้นส่วนเครื่องจักรขึ้นใหม่ มันประสบความสำเร็จในการทำเช่นนั้นซ้ำแล้วซ้ำอีก ไม่มีโมเดลคู่แข่งที่มีการตั้งค่าเดียวกันไม่สามารถแก้ไขได้หลังจากพยายามไปแล้วห้าครั้ง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Given a real bug in a popular open-source package manager, Opus 5 found the root cause and fixed an edge case that the community’s patch had missed. A competing model fixed only the surface symptom (not the underlying cause), then reported the bug resolved.",
+        "th": "เนื่องจากข้อบกพร่องที่แท้จริงในตัวจัดการแพ็คเกจโอเพ่นซอร์สยอดนิยม Opus 5 จึงพบสาเหตุที่แท้จริงและแก้ไขกรณีขอบที่แพตช์ของชุมชนพลาดไป โมเดลที่แข่งขันกันแก้ไขเฉพาะอาการบนพื้นผิว (ไม่ใช่สาเหตุที่แท้จริง) จากนั้นรายงานว่ามีการแก้ไขข้อบกพร่องแล้ว"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "An engineer at a trading firm used Opus 5 to build a market data feed for a new exchange in a single session. Previous models could not complete this task at all, even given extensive plans from the engineer. Finding no live feed to validate against, Opus 5 even built its own test harness to check that its code parsed the exchange’s data correctly.",
+        "th": "วิศวกรของบริษัทการค้าใช้ Opus 5 เพื่อสร้างฟีดข้อมูลตลาดสำหรับการแลกเปลี่ยนใหม่ในเซสชั่นเดียว รุ่นก่อนหน้านี้ไม่สามารถทำงานนี้ให้เสร็จสิ้นได้เลย แม้จะมีแผนงานที่กว้างขวางจากวิศวกรก็ตาม เมื่อพบว่าไม่มีฟีดสดที่จะตรวจสอบ Opus 5 ยังสร้างชุดทดสอบของตัวเองเพื่อตรวจสอบว่าโค้ดแยกวิเคราะห์ข้อมูลของการแลกเปลี่ยนอย่างถูกต้อง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Below are further reports from our early-access customers on their experience of working with Opus 5:",
+        "th": "ด้านล่างนี้คือรายงานเพิ่มเติมจากลูกค้าที่เข้าใช้ก่อนเปิดตัวของเราเกี่ยวกับประสบการณ์ในการทำงานกับ Opus 5:"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/ad249bca4e8e195e08764efc43ecbc586ca37482-143x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f084c88e65466636019709c40cc477aadce2f718-151x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f343481e6a953bc7b5390e6d9f61cf387c2ceb11-103x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/efde24e5691e04ed84cb9c3fb91c1033a2e65af0-145x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/40a2a6a28afd8ac8fbf0e764b6bbf4ebf06a1977-133x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/e0731da5f669896ec6823e665df2c360ea03115d-140x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/7fbed01e869d6a4faf97317a1fc4b74f7997c66e-78x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/e360f8a29093a6b4fccdc006315035583e89f9ac-146x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/bf162513ba017e72d4e07b0cd7683b86c4c5bc88-60x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d514853a44cf69f069306c98b558f214112c4ef3-91x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F04865ae02e70e9d8ca5a79fb49ae9263d58a7022-528x256.png&w=256&q=75",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F867075586d7f5ee37ee1c8c7b4bf0dadb34a54e2-666x192.png&w=256&q=75",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cc80b0a6f9534a34252756b93dd5a9bc26dd58f1-222x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6dfc3bd55cc5f9d5ebdd8d5437505ae4b8560412-120x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/beb4f74e935e111be9a63875ae7743aaea2cb0a2-88x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/18f900625532e1baaa3302bdf9539f73592bdf60-164x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f69ebaa2d39165a909def91e572e7d9ec0088a9a-154x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a0935a9396e8ec29b273be438cac14583c5999a6-130x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/428460e52876e1ec0159ee37b5f5df71eee6472f-106x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f0dacc0d330bc402df7423a025a963b2a5e969d2-191x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F921e6c04971bb083186c710c631b21946f39a96d-1280x275.webp&w=256&q=75",
+      "alt": " logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/fbd45dbecde0ed6e7c3bf8551df0525d87efd4de-127x64.svg",
+      "alt": " logo"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Alignment and safety",
+        "th": "การจัดตำแหน่งและความปลอดภัย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Alignment. During pre-deployment testing, our automated behavioral audit found Opus 5 to be our most aligned model to date (as shown in the graph below). It adheres to Claude’s Constitution better than Opus 4.8, Sonnet 5, or Fable 5; exhibits the lowest rates of deceptive behavior; and is the least susceptible to being tricked into misuse. It’s also our safest model yet in terms of avoiding reckless actions that could have hard-to-reverse side effects.",
+        "th": "การจัดตำแหน่ง ในระหว่างการทดสอบก่อนการใช้งาน การตรวจสอบพฤติกรรมอัตโนมัติของเราพบว่า Opus 5 เป็นโมเดลที่มีความสอดคล้องกันมากที่สุดในปัจจุบัน (ดังแสดงในกราฟด้านล่าง) เป็นไปตามรัฐธรรมนูญของ Claude ดีกว่า Opus 4.8, Sonnet 5 หรือ Fable 5; แสดงพฤติกรรมหลอกลวงในอัตราต่ำที่สุด และมีความอ่อนไหวน้อยที่สุดที่จะถูกหลอกให้ใช้ในทางที่ผิด นอกจากนี้ยังเป็นรูปแบบที่ปลอดภัยที่สุดของเราในแง่ของการหลีกเลี่ยงการกระทำที่ประมาทเลินเล่อซึ่งอาจมีผลข้างเคียงที่แก้ไขได้ยาก"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F76d4af96516ffca2aceb4c1d0b0a83e2720d874b-3840x2160.png&w=3840&q=75",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Safety. Opus 5 does not advance the frontier in risky, dual-use capabilities. In rigorous evaluations conducted alongside private-sector and government partners, we found it remains behind Mythos 5 in both biology research and offensive cybersecurity. More information about these evaluations can be found in our System Card.",
+        "th": "ความปลอดภัย. Opus 5 ไม่ได้ก้าวข้ามขอบเขตความสามารถที่มีความเสี่ยงและใช้งานได้สองทาง ในการประเมินอย่างเข้มงวดที่ดำเนินการร่วมกับภาคเอกชนและพันธมิตรภาครัฐ เราพบว่ายังคงอยู่เบื้องหลัง Mythos 5 ทั้งในการวิจัยทางชีววิทยาและความปลอดภัยทางไซเบอร์เชิงรุก ข้อมูลเพิ่มเติมเกี่ยวกับการประเมินเหล่านี้สามารถพบได้ในการ์ดระบบของเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As with its predecessor, Opus 4.8, we’ve intentionally avoided training Opus 5 on cyber tasks. The model has nevertheless improved substantially on these tasks as a result of becoming more generally capable, and it comes close to Mythos 5 at finding cybersecurity vulnerabilities. However, it remains substantially behind Mythos 5 on the exploitation of those vulnerabilities—that is, in turning vulnerabilities into material cyber threats.",
+        "th": "เช่นเดียวกับ Opus 4.8 รุ่นก่อน เราได้ตั้งใจหลีกเลี่ยงการฝึกอบรม Opus 5 ในงานไซเบอร์ อย่างไรก็ตาม โมเดลดังกล่าวได้รับการปรับปรุงให้ดีขึ้นอย่างมากในงานเหล่านี้ อันเป็นผลจากความสามารถโดยทั่วไปมากขึ้น และใกล้เคียงกับ Mythos 5 ในการค้นหาช่องโหว่ด้านความปลอดภัยทางไซเบอร์ อย่างไรก็ตาม ยังคงตามหลัง Mythos 5 อย่างมากเกี่ยวกับการหาประโยชน์จากช่องโหว่เหล่านั้น กล่าวคือ ในการเปลี่ยนช่องโหว่ให้กลายเป็นภัยคุกคามทางไซเบอร์ที่สำคัญ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This is illustrated by Opus 5’s performance on OSS-Fuzz, an evaluation we’ve developed to assess how well models can find and then exploit vulnerabilities without extensive human guidance. Although Mythos 5 and Opus 5 identify vulnerabilities with similar success, Opus 5’s score on the development of exploits is far behind that of Mythos 5.",
+        "th": "สิ่งนี้แสดงให้เห็นโดยประสิทธิภาพของ Opus 5 บน OSS-Fuzz ซึ่งเป็นการประเมินที่เราพัฒนาขึ้นเพื่อประเมินว่าแบบจำลองสามารถค้นหาและใช้ประโยชน์จากช่องโหว่ได้ดีเพียงใดโดยไม่ได้รับคำแนะนำจากมนุษย์อย่างกว้างขวาง แม้ว่า Mythos 5 และ Opus 5 จะระบุช่องโหว่ที่ประสบความสำเร็จใกล้เคียงกัน แต่คะแนนของ Opus 5 ในการพัฒนาช่องโหว่ยังตามหลัง Mythos 5 มาก"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb22d18a4d2003401f96f866effd9a40b5518c4c5-3840x2160.png&w=3840&q=75",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Safeguards for Opus 5",
+        "th": "มาตรการป้องกันสำหรับ Opus 5"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Claude Opus 5’s safeguards are designed to allow beneficial uses of the model in both cybersecurity and biology. They are similar to those we applied to Opus 4.8, with the exception of some stronger guardrails on a narrow range of cyber tasks.",
+        "th": "การป้องกันของ Claude Opus 5 ได้รับการออกแบบมาเพื่อให้นำแบบจำลองไปใช้ให้เกิดประโยชน์ทั้งในด้านความปลอดภัยทางไซเบอร์และชีววิทยา สิ่งเหล่านี้คล้ายกับที่เรานำไปใช้กับ Opus 4.8 ยกเว้นบางรั้วที่แข็งแกร่งกว่าในงานไซเบอร์ในขอบเขตที่แคบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cybersecurity. Opus 5’s cyber classifiers are proportionally less restrictive than those on Fable 5. They allow Opus 5 to find vulnerabilities in source code, but block “binary-based” vulnerability scanning (a method more likely to be associated with malicious actors), penetration testing, and exploit generation.",
+        "th": "ความปลอดภัยทางไซเบอร์ ตัวแยกประเภททางไซเบอร์ของ Opus 5 มีข้อจำกัดน้อยกว่าใน Fable 5 ตามสัดส่วน โดยอนุญาตให้ Opus 5 ค้นหาช่องโหว่ในซอร์สโค้ด แต่บล็อกการสแกนช่องโหว่ \"แบบไบนารี\" (วิธีการมีแนวโน้มที่จะเกี่ยวข้องกับนักแสดงที่เป็นอันตราย) การทดสอบการเจาะระบบ และการสร้างช่องโหว่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Based on our testing, we expect the classifiers to intervene around 85% less often than they do for Fable 5. In Claude.ai, Claude Code, and Claude Cowork, any flagged requests will fall back to Opus 4.8 by default. Fallbacks to Opus 4.8 can also be enabled on the API.",
+        "th": "จากการทดสอบของเรา เราคาดว่าตัวแยกประเภทจะเข้ามาแทรกแซงน้อยกว่า Fable 5 ประมาณ 85% ใน Claude.ai, Claude Code และ Claude Cowork คำขอที่ถูกตั้งค่าสถานะใดๆ จะกลับไปเป็น Opus 4.8 ตามค่าเริ่มต้น สามารถเปิดใช้งานทางเลือกสำรองของ Opus 4.8 บน API ได้เช่นกัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our Cyber Verification Program (CVP) facilitates cybersecurity work that would otherwise be impeded by the model’s safeguards. Enterprises and researchers who are already part of the CVP have immediate access to a version of Opus 5 with fewer security restrictions.",
+        "th": "โปรแกรมการตรวจสอบทางไซเบอร์ (CVP) ของเราอำนวยความสะดวกในการทำงานด้านความปลอดภัยทางไซเบอร์ที่อาจขัดขวางโดยการป้องกันของโมเดล องค์กรและนักวิจัยที่เป็นส่วนหนึ่งของ CVP อยู่แล้วจะสามารถเข้าถึง Opus 5 เวอร์ชันได้ทันทีโดยมีข้อจำกัดด้านความปลอดภัยน้อยลง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Biology. Since Opus 5 has a similar suite of safeguards to Opus 4.8, it is now our most capable generally available model for scientific research. Nevertheless, the model still shows important limitations on long-running, autonomous research tasks, which is where we expect AI models to pose the most substantial biology-related risks. (Mythos 5 remains the stronger model for this type of biological work.) As part of this launch, biology-related requests that are blocked on Fable 5 will now route to Opus 5 rather than Opus 4.8.",
+        "th": "ชีววิทยา. เนื่องจาก Opus 5 มีชุดการป้องกันที่คล้ายคลึงกับ Opus 4.8 ปัจจุบันจึงเป็นแบบจำลองที่มีความสามารถมากที่สุดสำหรับการวิจัยทางวิทยาศาสตร์ที่มีอยู่โดยทั่วไป อย่างไรก็ตาม โมเดลดังกล่าวยังคงแสดงข้อจำกัดที่สำคัญเกี่ยวกับงานวิจัยอิสระที่ใช้เวลานาน ซึ่งเป็นจุดที่เราคาดหวังว่าโมเดล AI จะก่อให้เกิดความเสี่ยงที่เกี่ยวข้องกับชีววิทยาที่สำคัญที่สุด (Mythos 5 ยังคงเป็นโมเดลที่แข็งแกร่งกว่าสำหรับงานทางชีววิทยาประเภทนี้) ในส่วนหนึ่งของการเปิดตัวนี้ คำขอที่เกี่ยวข้องกับชีววิทยาที่ถูกบล็อกใน Fable 5 จะกำหนดเส้นทางไปยัง Opus 5 แทนที่จะเป็น Opus 4.8"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Getting started",
+        "th": "เริ่มต้นใช้งาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Claude Opus 5 is available today on all platforms, priced at $5 per million input tokens and $25 per million output tokens (the same as Opus 4.8). Developers can get started with claude-opus-5 on the Claude API.",
+        "th": "Claude Opus 5 วางจำหน่ายแล้ววันนี้บนทุกแพลตฟอร์ม โดยมีราคาอยู่ที่ 5 ดอลลาร์ต่อโทเค็นอินพุตหนึ่งล้านรายการ และ 25 ดอลลาร์ต่อหนึ่งล้านโทเค็นเอาท์พุต (เช่นเดียวกับ Opus 4.8) นักพัฒนาสามารถเริ่มต้นใช้งาน claude-opus-5 บน Claude API ได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It’s also offered in Fast mode, where it runs around 2.5 times the default speed. As with Opus 4.8, Fast mode is available at twice Opus 5’s base price on the Claude Platform and through usage credits in Claude Code.",
+        "th": "มันยังมีให้บริการในโหมดเร็วอีกด้วย โดยมันจะทำงานประมาณ 2.5 เท่าของความเร็วเริ่มต้น เช่นเดียวกับ Opus 4.8 โหมด Fast มีให้บริการในราคาพื้นฐานของ Opus 5 เป็นสองเท่าบนแพลตฟอร์ม Claude และผ่านเครดิตการใช้งานใน Claude Code"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Alongside Opus 5, we’re releasing two updates in beta:",
+        "th": "นอกจาก Opus 5 แล้ว เรายังปล่อยการอัปเดตสองรายการในรุ่นเบต้า:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mid-conversation tool changes on the Claude Platform. Within a conversation, developers can now change which tools Claude can use without invalidating the prompt cache.",
+        "th": "การเปลี่ยนแปลงเครื่องมือการสนทนากลางบนแพลตฟอร์ม Claude ภายในการสนทนา นักพัฒนาสามารถเปลี่ยนเครื่องมือที่ Claude สามารถใช้ได้โดยไม่ทำให้แคชของพรอมต์เป็นโมฆะ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Automatic fallbacks on the API. Users can now choose to have requests that are flagged by our safety classifiers on Opus 5 (or Fable 5) automatically route to another model. With automatic fallbacks on, API requests always route to the best available model by default rather than being blocked.",
+        "th": "ทางเลือกอัตโนมัติบน API ขณะนี้ผู้ใช้สามารถเลือกที่จะให้คำขอที่ตั้งค่าสถานะโดยตัวแยกประเภทความปลอดภัยของเราใน Opus 5 (หรือ Fable 5) กำหนดเส้นทางไปยังโมเดลอื่นโดยอัตโนมัติ เมื่อเปิดทางเลือกสำรองอัตโนมัติ คำขอ API จะกำหนดเส้นทางไปยังโมเดลที่ดีที่สุดที่มีอยู่ตามค่าเริ่มต้นเสมอ แทนที่จะถูกบล็อก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Consistent with prior Opus models, Opus 5 does not have data retention requirements for general access.",
+        "th": "เพื่อให้สอดคล้องกับ Opus รุ่นก่อนๆ Opus 5 ไม่มีข้อกำหนดในการเก็บรักษาข้อมูลสำหรับการเข้าถึงทั่วไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For more guidance on how to get the best out of Opus 5, see our prompting guide.",
+        "th": "สำหรับคำแนะนำเพิ่มเติมเกี่ยวกับวิธีใช้ Opus 5 ให้เกิดประโยชน์สูงสุด โปรดดูคำแนะนำพร้อมท์ของเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Frontier-Bench v0.1, Effort plot: These results are from an internal run of Frontier-Bench v0.1, on the mini-SWE-agent harness and a GKE backend, mean reward over 5 attempts per task. Opus 4.8 served as fallback on safety-classifier refusals for Opus 5 and Fable 5.",
+        "th": "Frontier-Bench v0.1, โครงเรื่องความพยายาม: ผลลัพธ์เหล่านี้มาจากการทำงานภายในของ Frontier-Bench v0.1 บนชุดควบคุม mini-SWE-agent และแบ็กเอนด์ GKE จะให้รางวัลมากกว่า 5 ครั้งต่องาน Opus 4.8 ทำหน้าที่เป็นทางเลือกสำรองสำหรับการปฏิเสธตัวแยกประเภทความปลอดภัยสำหรับ Opus 5 และ Fable 5"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Related content",
+        "th": "เนื้อหาที่เกี่ยวข้อง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "A research agenda for the Economic Futures Research Fund",
+        "th": "วาระการวิจัยสำหรับกองทุนวิจัยอนาคตเศรษฐกิจ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re sharing the research agenda for the Anthropic Economic Futures Research Fund.",
+        "th": "เรากำลังแบ่งปันวาระการวิจัยสำหรับกองทุนวิจัยอนาคตทางเศรษฐกิจมานุษยวิทยา"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Ask Claude about the Anthropic Economic Index",
+        "th": "ถาม Claude เกี่ยวกับดัชนีเศรษฐกิจมานุษยวิทยา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We're launching the Anthropic Economic Index connector for Claude, which lets anyone explore real data about AI and work.",
+        "th": "เรากำลังเปิดตัวตัวเชื่อมต่อ Anthropic Economic Index สำหรับ Claude ซึ่งช่วยให้ทุกคนสำรวจข้อมูลจริงเกี่ยวกับ AI และงานได้"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Anthropic is donating another $20 million to Public First Action",
+        "th": "Anthropic บริจาคเงินอีก 20 ล้านดอลลาร์ให้กับ Public First Action"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Anthropic is contributing an additional $20 million to Public First Action, bringing our total support to $40 million.",
+        "th": "Anthropic บริจาคเงินเพิ่มอีก 20 ล้านดอลลาร์ให้กับ Public First Action ส่งผลให้ยอดสนับสนุนทั้งหมดของเราอยู่ที่ 40 ล้านดอลลาร์"
+      }
+    }
+  ]
+}

@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+620",
-        "th": "+620"
+        "en": "+625",
+        "th": "+625"
       }
     },
     {
@@ -297,8 +297,8 @@
     {
       "type": "li",
       "text": {
-        "en": "3 replies",
-        "th": "3 ตอบกลับ"
+        "en": "4 replies",
+        "th": "4 ตอบกลับ"
       }
     },
     {
@@ -1611,6 +1611,18 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/a34ebcf96090cb2d3d3c8fe1ff374374.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "I love how across the whole disclosure chain (Hugging Face's post, Simon Willison's writeup, and the OpenAI confession both of them point to), there is no exploit-level technical detail. No CVEs, no vulnerability classes, no payloads, no product names, no PoC. This is AI MAGIC or Hype Marketing or both?",
+        "th": "ฉันชอบที่ห่วงโซ่การเปิดเผยข้อมูลทั้งหมด (โพสต์ของ Hugging Face การเขียนของ Simon Willison และคำสารภาพของ OpenAI ที่ทั้งคู่ชี้ให้เห็น) ไม่มีรายละเอียดทางเทคนิคระดับการหาประโยชน์ ไม่มี CVE, ไม่มีคลาสช่องโหว่, ไม่มีเพย์โหลด, ไม่มีชื่อผลิตภัณฑ์, ไม่มี PoC นี่คือ AI MAGIC หรือ Hype Marketing หรือทั้งสองอย่าง?"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -1680,8 +1692,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+614",
-        "th": "+614"
+        "en": "+619",
+        "th": "+619"
       }
     }
   ]

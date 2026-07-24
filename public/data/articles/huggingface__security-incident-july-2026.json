@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+627",
-        "th": "+627"
+        "en": "+628",
+        "th": "+628"
       }
     },
     {
@@ -1623,6 +1623,30 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/1018dd34e29a13c4fbe9273f33ee3d3d.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1 reply",
+        "th": "1 ตอบกลับ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/1018dd34e29a13c4fbe9273f33ee3d3d.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It's just responsible disclosure, the sandboxing package repository likely was deployed elsewhere and needs fixing before the details get published and exploits get tried out.",
+        "th": "เป็นเพียงการเปิดเผยอย่างมีความรับผิดชอบ พื้นที่เก็บข้อมูลแพ็กเกจแซนด์บ็อกซ์มีแนวโน้มที่จะถูกนำไปใช้งานในที่อื่นและจำเป็นต้องได้รับการแก้ไขก่อนที่จะเผยแพร่รายละเอียดและทดลองใช้ช่องโหว่"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -1692,8 +1716,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+621",
-        "th": "+621"
+        "en": "+622",
+        "th": "+622"
       }
     }
   ]

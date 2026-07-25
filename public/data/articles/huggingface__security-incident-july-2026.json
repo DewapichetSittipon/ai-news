@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+629",
-        "th": "+629"
+        "en": "+631",
+        "th": "+631"
       }
     },
     {
@@ -1600,6 +1600,37 @@
     },
     {
       "type": "img",
+      "src": "/avatars/139d73c1889c5ef2606d86a4f723294d.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1 reply",
+        "th": "1 ตอบกลับ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/139d73c1889c5ef2606d86a4f723294d.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "I'm so deadass Ive been telling literally everyone I talked to yesterday and today about this. like its so insane and its not going to get better, in the sense that more powerful AIs will do worse stuff. today they cheat by hacking into companies to get the answers, but maybe by 2030 they'll 'cheat' by manipulating their human supervisors. and if that's possible then it can be done really well.",
+        "th": "ฉันแทบตายจริงๆ ฉันได้บอกทุกคนที่ฉันคุยด้วยทั้งเมื่อวานและวันนี้เกี่ยวกับเรื่องนี้จริงๆ เหมือนมันบ้ามากและมันจะไม่ดีขึ้น ในแง่ที่ว่า AI ที่ทรงพลังกว่าจะทำสิ่งที่แย่กว่านั้น ทุกวันนี้พวกเขาโกงโดยการแฮ็กเข้าไปในบริษัทต่างๆ เพื่อหาคำตอบ แต่บางทีภายในปี 2030 พวกเขาจะ 'โกง' โดยการบงการหัวหน้างานที่เป็นมนุษย์ และถ้าเป็นไปได้ มันก็ทำได้ดีมาก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "this is a huge existential risk, and people MUST be told about it. and by that I literally mean everyone.also if you are motivated to do so (you should be, there's nothing more motivating than the threat of impending and preventable doom), you should get into AI safety. not all of it is hard mathy stuff, there's a trillion open problems, not enough people, and if you uwant something to start you off try to figure out how LLMs internally represent the world, and even better, figure out how they think",
+        "th": "นี่เป็นความเสี่ยงที่มีอยู่อย่างมาก และผู้คนจะต้องได้รับการบอกกล่าวเกี่ยวกับเรื่องนี้ และโดยที่ฉันหมายถึงทุกคนอย่างแท้จริง นอกจากนี้หากคุณมีแรงจูงใจที่จะทำเช่นนั้น (คุณควรจะเป็น ไม่มีอะไรสร้างแรงบันดาลใจมากไปกว่าการคุกคามของหายนะที่กำลังจะเกิดขึ้นและป้องกันได้) คุณควรเข้าสู่ความปลอดภัยของ AI ไม่ใช่ทั้งหมดจะเป็นเรื่องคณิตศาสตร์ยาก มีปัญหาเปิดอยู่นับล้านล้าน ปัญหามีคนไม่เพียงพอ และหากคุณต้องการให้บางสิ่งบางอย่างเริ่มต้น คุณลองคิดดูว่า LLM เป็นตัวแทนภายในของโลกอย่างไร และที่ดียิ่งกว่านั้น ลองคิดดูว่าพวกเขาคิดอย่างไร"
+      }
+    },
+    {
+      "type": "img",
       "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1655449947265-62ac23a3c715f9864b91a677.gif",
       "alt": ""
     },
@@ -1716,8 +1747,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+623",
-        "th": "+623"
+        "en": "+625",
+        "th": "+625"
       }
     }
   ]

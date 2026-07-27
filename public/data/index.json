@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T14:15:00.829Z",
+  "generatedAt": "2026-07-27T17:38:28.305Z",
   "items": [
     {
       "id": "huggingface__cosmos-h-dreams",
@@ -33,6 +33,23 @@
       "summary": {
         "en": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
         "th": "การวิจัยใหม่ของ OpenAI แสดงให้เห็นว่า AI ขยายสิ่งที่พนักงานทำได้อย่างไร โดยผู้ใช้ ChatGPT ทำหน้าที่ข้ามบทบาทและปรับขอบเขตงานใหม่"
+      }
+    },
+    {
+      "id": "anthropic__cognizant-anthropic",
+      "slug": "cognizant-anthropic",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/cognizant-anthropic",
+      "category": "News",
+      "date": "2026-07-27T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
+        "th": "Cognizant และ Anthropic ขยายความร่วมมือเพื่อนำ Claude มาสู่ลูกค้าระดับองค์กร"
+      },
+      "summary": {
+        "en": "Cognizant embeds Claude across its platforms, with 30,000+ associates trained, and becomes a Global Premier Partner in the Claude Partner Network.",
+        "th": "Cognizant ฝัง Claude ไว้บนแพลตฟอร์มต่างๆ โดยมีพนักงานมากกว่า 30,000 คนที่ได้รับการฝึกอบรม และกลายเป็น Global Premier Partner ในเครือข่าย Claude Partner Network"
       }
     },
     {
@@ -913,23 +930,6 @@
       "title": {
         "en": "UST is bringing Claude to physical AI",
         "th": "UST กำลังนำ Claude มาสู่ AI ทางกายภาพ"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
-      }
-    },
-    {
-      "id": "anthropic__ben-bernanke",
-      "slug": "ben-bernanke",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/ben-bernanke",
-      "category": "News",
-      "date": "2026-07-09T00:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
-        "th": "Ben Bernanke ได้รับการแต่งตั้งให้เป็น Long-Term Benefit Trust ของ Anthropic"
       },
       "summary": {
         "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",

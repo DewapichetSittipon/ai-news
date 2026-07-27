@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-07-27T06:57:38.192Z",
+  "generatedAt": "2026-07-27T11:13:13.191Z",
   "items": [
+    {
+      "id": "huggingface__cosmos-h-dreams",
+      "slug": "cosmos-h-dreams",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "category": "News",
+      "date": "2026-07-27T09:32:20.000Z",
+      "image": null,
+      "title": {
+        "en": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+        "th": "NVIDIA Cosmos-H-Dreams: นำการจำลองแบบเรียลไทม์มาสู่หุ่นยนต์ผ่าตัด"
+      },
+      "summary": {
+        "en": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+        "th": "NVIDIA Cosmos-H-Dreams: นำการจำลองแบบเรียลไทม์มาสู่หุ่นยนต์ผ่าตัด"
+      }
+    },
+    {
+      "id": "openai__how-ai-is-expanding-what-people-do-at-work",
+      "slug": "how-ai-is-expanding-what-people-do-at-work",
+      "source": "openai",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "category": "Company",
+      "date": "2026-07-27T03:30:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How AI is expanding what people do at work",
+        "th": "AI ขยายสิ่งที่ผู้คนทำในที่ทำงานอย่างไร"
+      },
+      "summary": {
+        "en": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+        "th": "การวิจัยใหม่ของ OpenAI แสดงให้เห็นว่า AI ขยายสิ่งที่พนักงานทำได้อย่างไร โดยผู้ใช้ ChatGPT ทำหน้าที่ข้ามบทบาทและปรับขอบเขตงานใหม่"
+      }
+    },
     {
       "id": "anthropic__claude-opus-5",
       "slug": "claude-opus-5",
@@ -206,23 +240,6 @@
       }
     },
     {
-      "id": "huggingface__state-of-simulation-for-physical-ai",
-      "slug": "state-of-simulation-for-physical-ai",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-      "category": "News",
-      "date": "2026-07-21T20:00:27.000Z",
-      "image": null,
-      "title": {
-        "en": "The State of Simulation for Physical AI: An Overview",
-        "th": "สถานะของการจำลองสำหรับ AI ทางกายภาพ: ภาพรวม"
-      },
-      "summary": {
-        "en": "The State of Simulation for Physical AI: An Overview",
-        "th": "สถานะของการจำลองสำหรับ AI ทางกายภาพ: ภาพรวม"
-      }
-    },
-    {
       "id": "openai__introducing-chatgpt-small-business-program",
       "slug": "introducing-chatgpt-small-business-program",
       "source": "openai",
@@ -240,10 +257,10 @@
       }
     },
     {
-      "id": "deepmind__introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber",
-      "slug": "introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber",
+      "id": "deepmind__introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber",
+      "slug": "introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber",
       "source": "deepmind",
-      "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
       "category": "News",
       "date": "2026-07-21T15:16:30.000Z",
       "image": null,
@@ -1345,23 +1362,6 @@
       }
     },
     {
-      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
-      "slug": "core-dump-epidemiology-data-infrastructure-bug",
-      "source": "openai",
-      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "category": "Engineering",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Core dump epidemiology: fixing an 18-year-old bug",
-        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
-      },
-      "summary": {
-        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
-      }
-    },
-    {
       "id": "openai__case-studies",
       "slug": "case-studies",
       "source": "openai",
@@ -1393,6 +1393,23 @@
       "summary": {
         "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
         "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
+      }
+    },
+    {
+      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
+      "slug": "core-dump-epidemiology-data-infrastructure-bug",
+      "source": "openai",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "category": "Engineering",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Core dump epidemiology: fixing an 18-year-old bug",
+        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
+      },
+      "summary": {
+        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
       }
     },
     {
@@ -1580,23 +1597,6 @@
       "summary": {
         "en": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
         "th": "เร่งการปรับแต่ง Transformers อย่างละเอียดด้วย NVIDIA NeMo AutoModel"
-      }
-    },
-    {
-      "id": "openai__openai-broadcom-jalapeno-inference-chip",
-      "slug": "openai-broadcom-jalapeno-inference-chip",
-      "source": "openai",
-      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "category": "Company",
-      "date": "2026-06-24T06:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-        "th": "OpenAI และ Broadcom เปิดตัวชิปอนุมานที่ปรับให้เหมาะสมกับ LLM"
-      },
-      "summary": {
-        "en": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-        "th": "OpenAI และ Broadcom เปิดตัว Jalapeño ซึ่งเป็นชิป AI แบบกำหนดเองที่สร้างขึ้นสำหรับการอนุมาน LLM เพื่อปรับปรุงประสิทธิภาพ ประสิทธิภาพ และขนาดทั่วทั้งระบบ AI"
       }
     },
     {

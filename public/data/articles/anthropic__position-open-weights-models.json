@@ -1,0 +1,180 @@
+{
+  "id": "anthropic__position-open-weights-models",
+  "slug": "position-open-weights-models",
+  "source": "anthropic",
+  "url": "https://www.anthropic.com/news/position-open-weights-models",
+  "category": "News",
+  "date": "2026-07-27T00:00:00.000Z",
+  "image": "https://cdn.sanity.io/images/4zrzovbb/website/62993bb857986e2808c2a75024f384e7b85312b6-2400x1254.png",
+  "title": {
+    "en": "Our position on open-weights models",
+    "th": "จุดยืนของเราในโมเดลน้ำหนักเปิด"
+  },
+  "summary": {
+    "en": "Anthropic CEO Dario Amodei on open-weights models",
+    "th": "Dario Amodei CEO ของ Anthropic ในโมเดล Open-weight"
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "A post by Dario Amodei, Anthropic CEO",
+        "th": "โพสต์โดย Dario Amodei ซีอีโอด้านมานุษยวิทยา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Over the last few days there has been a lot of discussion about open-weights models, especially those from China. Reports suggest that some US officials are considering banning the use of Chinese open-weights models by US companies. In response, many tech companies have signed a letter supporting open-weights models, and some people have even accused Anthropic of wanting to ban open-weights models as a means of protecting our business. Anyone who has read my past writing should know that I don’t regard such bans as a useful measure, but let me state it clearly so that there is no doubt: Anthropic has never advocated for a ban on open-weights models.",
+        "th": "ในช่วงไม่กี่วันที่ผ่านมา มีการถกเถียงกันมากมายเกี่ยวกับโมเดล Open-weights โดยเฉพาะจากจีน รายงานระบุว่าเจ้าหน้าที่สหรัฐฯ บางคนกำลังพิจารณาที่จะห้ามบริษัทสหรัฐฯ ใช้โมเดล open-weights ของจีน เพื่อเป็นการตอบสนอง บริษัทเทคโนโลยีหลายแห่งได้ลงนามในจดหมายสนับสนุนโมเดล open-weights และบางคนถึงกับกล่าวหาว่า Anthropic ต้องการแบนโมเดล open-weights เพื่อปกป้องธุรกิจของเรา ใครก็ตามที่เคยอ่านงานเขียนในอดีตของฉันควรรู้ว่าฉันไม่ถือว่าการแบนดังกล่าวเป็นมาตรการที่มีประโยชน์ แต่ให้ฉันระบุอย่างชัดเจนเพื่อไม่ให้มีข้อสงสัย: Anthropic ไม่เคยสนับสนุนให้มีการห้ามใช้โมเดล open-weights"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Open-weights models that don’t have dangerous capabilities are a public good: they don’t cost anything besides the compute needed to run them, and they provide value to businesses, developers, and researchers.",
+        "th": "โมเดล Open-weights ที่ไม่มีความสามารถที่เป็นอันตรายถือเป็นสินค้าสาธารณะ โดยไม่มีค่าใช้จ่ายใดๆ นอกเหนือจากการประมวลผลที่จำเป็นในการรัน และมอบคุณค่าให้กับธุรกิจ นักพัฒนา และนักวิจัย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Protectionist bans would not address my most serious national security concerns. Specifically, I am worried about two nightmare scenarios. I laid these out in my essay The Adolescence of Technology six months ago1, and have held these positions consistently for many years:",
+        "th": "การห้ามกีดกันทางการค้าจะไม่ช่วยแก้ปัญหาความมั่นคงของชาติที่ร้ายแรงที่สุดของฉัน โดยเฉพาะฉันกังวลเกี่ยวกับสถานการณ์ฝันร้ายสองสถานการณ์ ฉันเขียนสิ่งเหล่านี้ไว้ในเรียงความเรื่อง The Adolescence of Technology เมื่อหกเดือนที่แล้ว1 และดำรงตำแหน่งเหล่านี้อย่างต่อเนื่องมาหลายปี:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "My primary concern is the risk that authoritarian governments—not solely the Chinese Communist Party (CCP), although the CCP is clearly the most capable threat—build AI models that are more powerful than those built by the US, and use them to achieve permanent military superiority or perpetrate incredibly deep repression of their own people. This concern is widely shared within the US government: Vice President Vance warned in Paris last year that “authoritarian regimes have stolen and used AI to strengthen their military, intelligence, and surveillance capabilities,” and the Intelligence Community’s 2026 Annual Threat Assessment found that “other global powers’ robust progress in AI is challenging US economic competitiveness and national security advantages.” It is irrelevant whether these models are released with open weights, and certainly irrelevant whether they are used by US businesses. In fact, the most dangerous model may be one that is trained in secret and handed only to the People’s Liberation Army for use in drones and the Ministry of State Security for surveillance and repression.",
+        "th": "ข้อกังวลหลักของฉันคือความเสี่ยงที่รัฐบาลเผด็จการ ไม่เพียงแต่พรรคคอมมิวนิสต์จีน (CCP) แม้ว่า CCP จะเป็นภัยคุกคามที่มีความสามารถมากที่สุดอย่างชัดเจนก็ตาม แต่ก็สร้างแบบจำลอง AI ที่ทรงพลังกว่าแบบจำลองที่สร้างโดยสหรัฐฯ และใช้แบบจำลองเหล่านี้เพื่อให้บรรลุความเหนือกว่าทางการทหารอย่างถาวรหรือกระทำการปราบปรามประชาชนของตนเองอย่างลึกซึ้งอย่างไม่น่าเชื่อ ข้อกังวลนี้มีการแบ่งปันกันอย่างกว้างขวางภายในรัฐบาลสหรัฐฯ: รองประธานาธิบดี Vance เตือนในกรุงปารีสเมื่อปีที่แล้วว่า \"ระบอบเผด็จการได้ขโมยและใช้ AI เพื่อเสริมสร้างขีดความสามารถทางการทหาร หน่วยข่าวกรอง และการสอดแนม\" และการประเมินภัยคุกคามประจำปี 2569 ของชุมชนข่าวกรองพบว่า \"ความก้าวหน้าที่แข็งแกร่งของมหาอำนาจระดับโลกในด้าน AI กำลังท้าทายความสามารถในการแข่งขันทางเศรษฐกิจของสหรัฐฯ และความได้เปรียบด้านความมั่นคงของชาติ\" ไม่สำคัญว่าโมเดลเหล่านี้จะออกวางจำหน่ายแบบ Open Weight หรือไม่ และแน่นอนว่าไม่เกี่ยวข้องว่าโมเดลเหล่านี้จะถูกนำไปใช้โดยธุรกิจในสหรัฐฯ หรือไม่ ที่จริงแล้ว โมเดลที่อันตรายที่สุดอาจเป็นแบบที่ได้รับการฝึกแบบลับๆ และมอบให้กับกองทัพปลดปล่อยประชาชนเท่านั้นเพื่อใช้ในโดรน และกระทรวงความมั่นคงแห่งรัฐเพื่อการสอดแนมและปราบปราม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "My secondary concern is the risk that powerful AI models may be misused to carry out cyberattacks or biological attacks, and may have serious alignment problems. Open-weights models—it does not matter whether they come from China or anywhere else—do potentially present a higher risk than closed models, because it is very difficult to apply guardrails to them or monitor their usage, and once weights are released they cannot be withdrawn2. But banning the use of these models by US businesses does nothing to address this risk, because bad actors are unlikely to be legitimate US businesses. It would protect US AI companies from competition, but that has never been my goal.",
+        "th": "ความกังวลรองของฉันคือความเสี่ยงที่โมเดล AI ที่ทรงพลังอาจถูกนำไปใช้ในทางที่ผิดในการโจมตีทางไซเบอร์หรือการโจมตีทางชีวภาพ และอาจมีปัญหาการจัดตำแหน่งที่ร้ายแรง โมเดล Open-weights ไม่ว่าจะมาจากประเทศจีนหรือที่อื่น อาจมีความเสี่ยงสูงกว่ารุ่นปิด เนื่องจากเป็นการยากมากที่จะติดราวกั้นหรือติดตามการใช้งาน และเมื่อปล่อยตุ้มน้ำหนักแล้ว จะไม่สามารถถอนออกได้2 แต่การห้ามใช้โมเดลเหล่านี้โดยธุรกิจของสหรัฐฯ ไม่ได้ช่วยจัดการกับความเสี่ยงนี้เลย เนื่องจากผู้ไม่ประสงค์ดีไม่น่าจะกลายเป็นธุรกิจของสหรัฐฯ ที่ชอบด้วยกฎหมาย มันจะปกป้องบริษัท AI ของสหรัฐฯ จากการแข่งขัน แต่นั่นไม่เคยเป็นเป้าหมายของฉันเลย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To address these concerns, I do support the following three measures, which I and Anthropic have consistently advocated for:",
+        "th": "เพื่อจัดการกับข้อกังวลเหล่านี้ ฉันสนับสนุนมาตรการสามประการต่อไปนี้ ซึ่งฉันและ Anthropic ได้สนับสนุนมาโดยตลอด:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We should not sell powerful chips or chipmaking equipment to China, and we should crack down on the rampant smuggling3 and workarounds used to obtain access to such chips. China has limited domestic production capacity, and therefore, due to the scaling laws, cannot build more powerful models than the US without US chips. This is the most efficient and direct way to block threat #1, and by hampering the training of models that are out of reach of US law, it also indirectly helps with threat #2.",
+        "th": "เราไม่ควรขายชิปที่มีประสิทธิภาพหรืออุปกรณ์การผลิตชิปให้กับประเทศจีน และเราควรปราบปรามการลักลอบขนสินค้าอย่างแพร่หลาย3 และแนวทางแก้ไขที่ใช้ในการเข้าถึงชิปดังกล่าว จีนมีกำลังการผลิตในประเทศที่จำกัด ดังนั้น เนื่องจากกฎหมายการปรับขนาด จึงไม่สามารถสร้างโมเดลที่ทรงพลังมากกว่าสหรัฐอเมริกาได้หากไม่มีชิปของสหรัฐฯ นี่เป็นวิธีที่มีประสิทธิภาพและตรงที่สุดในบล็อกภัยคุกคาม #1 และด้วยการขัดขวางการฝึกอบรมโมเดลที่อยู่นอกเหนือกฎหมายของสหรัฐอเมริกา ยังช่วยทางอ้อมกับภัยคุกคาม #2 อีกด้วย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We should crack down on industrial-scale distillation operations. Distillation is a much more compute-efficient process than training models from scratch. It allows China to build much better models than its number of chips would ordinarily enable, and thus partially evade chip bans. Distillation does not allow the CCP to obtain equivalent or superior AI capabilities to the US, but it can bring the Chinese frontier to within a few months of the US frontier. It is true that many of the companies carrying out these operations release open-weights models—but the open weights are far less relevant than the fact that the operations are backed by an authoritarian state seeking to overtake the US at the frontier. We should have policy interventions to deter this behavior. A blanket ban on open-weights models is neither the correct remedy nor something we have called for4.",
+        "th": "เราควรปราบปรามการดำเนินการกลั่นในระดับอุตสาหกรรม การกลั่นเป็นกระบวนการที่มีประสิทธิภาพในการประมวลผลมากกว่าโมเดลการฝึกอบรมตั้งแต่เริ่มต้น ช่วยให้จีนสามารถสร้างโมเดลที่ดีกว่าจำนวนชิปที่ปกติจะเปิดใช้งานได้มาก และด้วยเหตุนี้จึงหลบเลี่ยงการแบนชิปได้บางส่วน การกลั่นไม่อนุญาตให้ CCP ได้รับความสามารถด้าน AI ที่เทียบเท่าหรือเหนือกว่าในสหรัฐฯ แต่สามารถนำชายแดนจีนไปถึงภายในไม่กี่เดือนจากชายแดนสหรัฐฯ เป็นเรื่องจริงที่บริษัทหลายแห่งที่ดำเนินการปฏิบัติการเหล่านี้ออกโมเดล Open Weights แต่ Open Weight มีความเกี่ยวข้องน้อยกว่าการที่ปฏิบัติการได้รับการสนับสนุนจากรัฐเผด็จการที่ต้องการจะแซงหน้าสหรัฐฯ ที่ชายแดน เราควรมีการแทรกแซงเชิงนโยบายเพื่อยับยั้งพฤติกรรมนี้ การห้ามแบบครอบคลุมสำหรับโมเดล open-weights ไม่ใช่วิธีการแก้ไขที่ถูกต้องหรือเป็นสิ่งที่เราเรียกร้อง4"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "All sufficiently capable models, open and closed, should go through mandatory safety testing. The best way to address threat #2 is to just directly test models for cyber, biological, and alignment risks before release. I think this idea is actually close to a consensus: I have been heartened both that the Trump administration has moved in this direction in recent months, and by recent industry proposals that would apply such testing to the most capable models regardless of their country of origin or whether they are open or closed (while exempting less capable models, such as those from startups and academia, entirely). Whether open models do or don’t pose an increased risk, and whether that risk can be mitigated, is something that should emerge from testing, rather than be decided in advance—and there may be promising methods for improving the safety of open-weights models, including recent research from Anthropic on modular training strategies. Note that to be effective, testing would need to be global, which means even the CCP would need to be on board. I think this may actually be possible: as I wrote in The Adolescence of Technology, limited cooperation around preventing AI biological weapons may be possible because it is in China’s interest too.",
+        "th": "รุ่นที่มีความสามารถเพียงพอทั้งหมด ทั้งแบบเปิดและแบบปิด ควรผ่านการทดสอบด้านความปลอดภัยตามข้อบังคับ วิธีที่ดีที่สุดในการจัดการกับภัยคุกคาม #2 คือการทดสอบแบบจำลองโดยตรงสำหรับความเสี่ยงทางไซเบอร์ ชีวภาพ และการจัดตำแหน่งก่อนเผยแพร่ ฉันคิดว่าแนวคิดนี้ใกล้เคียงกับฉันทามติจริง ๆ ฉันรู้สึกดีใจทั้งที่ฝ่ายบริหารของทรัมป์ได้เคลื่อนไหวไปในทิศทางนี้ในช่วงไม่กี่เดือนที่ผ่านมา และจากข้อเสนอทางอุตสาหกรรมล่าสุดที่จะนำการทดสอบดังกล่าวไปใช้กับแบบจำลองที่มีความสามารถมากที่สุด โดยไม่คำนึงถึงประเทศต้นทางหรือไม่ว่าจะเปิดหรือปิด (ในขณะที่ยกเว้นแบบจำลองที่มีความสามารถน้อยกว่า เช่น จากสตาร์ทอัพและสถาบันการศึกษาโดยสิ้นเชิง) ไม่ว่าโมเดลแบบเปิดจะทำหรือไม่ก่อให้เกิดความเสี่ยงเพิ่มขึ้น และความเสี่ยงนั้นสามารถบรรเทาลงได้หรือไม่ เป็นสิ่งที่ควรเกิดจากการทดสอบ แทนที่จะตัดสินใจล่วงหน้า และอาจมีวิธีที่มีแนวโน้มในการปรับปรุงความปลอดภัยของโมเดลแบบเปิด รวมถึงงานวิจัยล่าสุดจาก Anthropic เกี่ยวกับกลยุทธ์การฝึกอบรมแบบโมดูลาร์ โปรดทราบว่าเพื่อให้มีประสิทธิภาพ การทดสอบจะต้องทำทั่วโลก ซึ่งหมายความว่าแม้แต่ CCP ก็ต้องเข้าร่วมด้วย ฉันคิดว่าสิ่งนี้อาจเป็นไปได้จริง ๆ ตามที่ฉันเขียนไว้ใน The Adolescence of Technology ความร่วมมือที่จำกัดในการป้องกันอาวุธชีวภาพของ AI อาจเป็นไปได้ เนื่องจากจีนก็สนใจเช่นกัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This brings me to the open letter. I agree with much of it: open weights expand access to the AI economy, they strengthen competition at least for some use cases, and they give customers greater control. Concerns about distillation should be addressed through targeted legal and commercial frameworks—the same measure I described above. But I don’t agree with the letter’s assertions that open-weights models necessarily make it easier to develop safeguards or that broad access to capabilities necessarily helps defenders more than attackers. It seems at least as likely to me that the opposite will be true. For example, I worry that biology will have a strong attacker-defender asymmetry, where sufficiently capable models may be able to quickly weaponize pandemic-level viruses with widely available materials, whereas defense against these agents is a multi-year operational task in the best case (as we saw with Operation Warp Speed)5. Questions like this should be empirically answered by rigorous pre-release testing, not assumed in advance.",
+        "th": "สิ่งนี้นำฉันไปสู่จดหมายเปิดผนึก ฉันเห็นด้วยกับหลายสิ่งหลายอย่าง: Open Weight ขยายการเข้าถึงเศรษฐกิจ AI ทำให้การแข่งขันแข็งแกร่งขึ้นอย่างน้อยก็ในบางกรณี และช่วยให้ลูกค้าควบคุมได้มากขึ้น ข้อกังวลเกี่ยวกับการกลั่นควรได้รับการแก้ไขผ่านกรอบกฎหมายและเชิงพาณิชย์ที่เป็นเป้าหมาย ซึ่งเป็นมาตรการเดียวกับที่ฉันอธิบายไว้ข้างต้น แต่ฉันไม่เห็นด้วยกับคำกล่าวอ้างของจดหมายที่ว่าโมเดล open-weights จำเป็นต้องทำให้การพัฒนาการป้องกันง่ายขึ้น หรือการเข้าถึงความสามารถในวงกว้างจำเป็นต้องช่วยเหลือผู้พิทักษ์มากกว่าผู้โจมตี อย่างน้อยที่สุดดูเหมือนว่าสำหรับฉันแล้วสิ่งที่ตรงกันข้ามจะเป็นจริง ตัวอย่างเช่น ฉันกังวลว่าชีววิทยาจะมีความไม่สมดุลระหว่างผู้โจมตีและผู้พิทักษ์อย่างมาก โดยที่แบบจำลองที่มีความสามารถเพียงพออาจสามารถสร้างอาวุธไวรัสระดับการระบาดอย่างรวดเร็วด้วยวัสดุที่หาได้ทั่วไป ในขณะที่การป้องกันต่อตัวแทนเหล่านี้เป็นงานปฏิบัติการที่ใช้เวลาหลายปีในกรณีที่ดีที่สุด (ดังที่เราเห็นใน Operation Warp Speed)5 คำถามเช่นนี้ควรได้รับคำตอบเชิงประจักษ์ด้วยการทดสอบก่อนเผยแพร่อย่างเข้มงวด ไม่ใช่คิดล่วงหน้า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To summarize my and Anthropic’s position, we have not and are not advocating for a ban on open-weights models as a category. We should instead focus on keeping powerful chips out of authoritarian hands, stopping industrial-scale distillation, and requiring safety testing of all sufficiently capable models, open and closed.",
+        "th": "เพื่อสรุปจุดยืนของฉันและ Anthropic เราไม่ได้และไม่สนับสนุนการห้ามโมเดล open-weights เป็นหมวดหมู่ เราควรมุ่งเน้นไปที่การรักษาชิปที่มีประสิทธิภาพให้พ้นมือเผด็จการ หยุดการกลั่นในระดับอุตสาหกรรม และกำหนดให้มีการทดสอบความปลอดภัยของแบบจำลองที่มีความสามารถเพียงพอทั้งหมด ทั้งแบบเปิดและแบบปิด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "See Sections 3 and 2 of that essay for discussion of misuse for seizing power and discussion of biological risks, respectively.",
+        "th": "ดูส่วนที่ 3 และ 2 ของเรียงความนั้นสำหรับการอภิปรายเกี่ยวกับการใช้อำนาจในทางที่ผิดและการอภิปรายเกี่ยวกับความเสี่ยงทางชีวภาพ ตามลำดับ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "See this report from the UK AI Security Institute, specifically: “The same openness underpinning these benefits precludes many of the safety measures that closed model developers can use to detect and disrupt misuse, iterate on safeguards as vulnerabilities emerge, control user access and withdraw models. Once open-weight models are released, these options are lost permanently: safeguards can be removed, and copies can be downloaded, redistributed, and run on private systems beyond monitoring. For models with dangerous capabilities – including highly cyber-capable models – open weight release therefore creates a persistent and irreversible risk of misuse.”",
+        "th": "ดูรายงานนี้จาก UK AI Security Institute โดยเฉพาะ: \"ความเปิดกว้างแบบเดียวกันที่สนับสนุนผลประโยชน์เหล่านี้ขัดขวางมาตรการด้านความปลอดภัยหลายประการที่นักพัฒนาโมเดลแบบปิดสามารถใช้เพื่อตรวจจับและขัดขวางการใช้งานในทางที่ผิด ย้ำการป้องกันเมื่อมีช่องโหว่เกิดขึ้น ควบคุมการเข้าถึงของผู้ใช้ และถอนโมเดล เมื่อโมเดลแบบ open-weight ถูกปล่อยออกมา ตัวเลือกเหล่านี้จะหายไปอย่างถาวร: การป้องกันสามารถถูกลบออกได้ และสามารถดาวน์โหลดสำเนา แจกจ่ายซ้ำ และรันบนระบบส่วนตัวที่อยู่นอกเหนือการตรวจสอบได้ สำหรับโมเดลที่มีความสามารถที่เป็นอันตราย - รวมถึงสูง โมเดลที่มีความสามารถทางไซเบอร์ – การปล่อยน้ำหนักแบบเปิดจึงสร้างความเสี่ยงต่อการใช้งานในทางที่ผิดอย่างต่อเนื่องและไม่สามารถย้อนกลับได้”"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "See also here, here, and here for more reports from the US Department of Justice.",
+        "th": "ดูเพิ่มเติมที่นี่ ที่นี่ และที่นี่ สำหรับรายงานเพิ่มเติมจากกระทรวงยุติธรรมของสหรัฐอเมริกา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "At Anthropic we’re committed to cracking down on industrial-scale distillation through our own practices, including identifying and banning accounts that use our models in this way. This is challenging—for instance, the relevant accounts can often only be identified after substantial distillation has occurred, and distillation often involves creating large numbers of fake accounts that form a moving target. The practices of any individual company cannot entirely solve the problem, which is why we have called for policy on this issue.",
+        "th": "ที่ Anthropic เรามุ่งมั่นที่จะปราบปรามการกลั่นกรองในระดับอุตสาหกรรมผ่านแนวทางปฏิบัติของเราเอง ซึ่งรวมถึงการระบุและแบนบัญชีที่ใช้แบบจำลองของเราในลักษณะนี้ สิ่งนี้เป็นสิ่งที่ท้าทาย ตัวอย่างเช่น บัญชีที่เกี่ยวข้องมักจะสามารถระบุได้หลังจากการกลั่นกรองจำนวนมากเกิดขึ้นเท่านั้น และการกลั่นมักจะเกี่ยวข้องกับการสร้างบัญชีปลอมจำนวนมากที่ก่อให้เกิดเป้าหมายที่เคลื่อนไหว แนวทางปฏิบัติของบริษัทใดบริษัทหนึ่งไม่สามารถแก้ไขปัญหาได้ทั้งหมด ซึ่งเป็นสาเหตุที่เราเรียกร้องให้มีนโยบายในเรื่องนี้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "See Section 2 of The Adolescence of Technology for a more detailed discussion of biological threats and the offense-defense balance. To summarize, what I believe currently keeps us safe in biology is not “defenders”, or even the availability of materials, but a negative correlation between intellectual capability and desire to commit catastrophic harm. Previous technologies like internet search or even DNA synthesis were nowhere near powerful enough to break this correlation, but I worry that at its current rate of progress, AI will do so very soon. Another way to say it is that a sufficiently powerful technology removes all barriers and exposes whether the attacker or defender has an inherent structural advantage, and I worry in biology it is the attacker.",
+        "th": "ดูหัวข้อที่ 2 ของวัยรุ่นแห่งเทคโนโลยี สำหรับการอภิปรายโดยละเอียดเพิ่มเติมเกี่ยวกับภัยคุกคามทางชีวภาพและความสมดุลระหว่างการรุกและการป้องกัน โดยสรุป สิ่งที่ฉันเชื่อว่าในปัจจุบันช่วยให้เราปลอดภัยในด้านชีววิทยาไม่ใช่ \"ผู้พิทักษ์\" หรือแม้แต่ความพร้อมของวัสดุ แต่เป็นความสัมพันธ์เชิงลบระหว่างความสามารถทางปัญญาและความปรารถนาที่จะทำอันตรายร้ายแรง เทคโนโลยีก่อนหน้านี้ เช่น การค้นหาทางอินเทอร์เน็ต หรือแม้แต่การสังเคราะห์ DNA ไม่มีพลังเพียงพอที่จะทำลายความสัมพันธ์นี้ แต่ฉันกังวลว่าด้วยอัตราความก้าวหน้าในปัจจุบัน AI จะทำเช่นนั้นในไม่ช้า อีกวิธีหนึ่งที่จะพูดก็คือเทคโนโลยีที่ทรงพลังเพียงพอจะขจัดอุปสรรคทั้งหมดและเปิดเผยว่าผู้โจมตีหรือผู้พิทักษ์มีข้อได้เปรียบทางโครงสร้างโดยธรรมชาติหรือไม่ และฉันกังวลในทางชีววิทยาว่าเป็นผู้โจมตี"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Related content",
+        "th": "เนื้อหาที่เกี่ยวข้อง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
+        "th": "Cognizant และ Anthropic ขยายความร่วมมือเพื่อนำ Claude มาสู่ลูกค้าระดับองค์กร"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Introducing Claude Opus 5",
+        "th": "ขอแนะนำ Claude Opus 5"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+        "th": "Opus 5 คือการปรับปรุงการเปลี่ยนแปลงขั้นตอนสำหรับ Opus Tier ที่ขับเคลื่อนตัวแทนที่ทำงานมายาวนาน ในขณะเดียวกันก็มอบการปรับปรุงในการเขียนโค้ดและการทำงานระดับมืออาชีพ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "A research agenda for the Economic Futures Research Fund",
+        "th": "วาระการวิจัยสำหรับกองทุนวิจัยอนาคตเศรษฐกิจ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re sharing the research agenda for the Anthropic Economic Futures Research Fund.",
+        "th": "เรากำลังแบ่งปันวาระการวิจัยสำหรับกองทุนวิจัยอนาคตทางเศรษฐกิจมานุษยวิทยา"
+      }
+    }
+  ]
+}

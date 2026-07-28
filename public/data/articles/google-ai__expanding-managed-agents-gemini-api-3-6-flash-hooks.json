@@ -1,0 +1,437 @@
+{
+  "id": "google-ai__expanding-managed-agents-gemini-api-3-6-flash-hooks",
+  "slug": "expanding-managed-agents-gemini-api-3-6-flash-hooks",
+  "source": "google-ai",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+  "category": "Developer tools",
+  "date": "2026-07-28T16:00:00.000Z",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp",
+  "title": {
+    "en": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+    "th": "เอเจนต์ที่ได้รับการจัดการ Gemini API: 3.6 Flash, hooks และอื่นๆ"
+  },
+  "summary": {
+    "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp\">We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can buil",
+    "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp\">เรากำลังประกาศความสามารถใหม่เพิ่มเติมใน Managed Agent ใน Gemini API เพื่อให้นักพัฒนาสามารถสร้าง"
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "นวัตกรรมและเอไอ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Technology",
+        "th": "เทคโนโลยี"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Developer tools",
+        "th": "เครื่องมือสำหรับนักพัฒนา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jul 28, 2026",
+        "th": "28 กรกฎาคม 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Managed Agents in Gemini API now default to Gemini 3.6 Flash. New environment hooks let you block, lint, or audit tool calls inside the sandbox. Also, we’ve added budget controls, scheduled triggers, and free tier access.",
+        "th": "ตอนนี้ตัวแทนที่ได้รับการจัดการใน Gemini API มีค่าเริ่มต้นเป็น Gemini 3.6 Flash Hooks สภาพแวดล้อมใหม่ช่วยให้คุณสามารถบล็อก lint หรือตรวจสอบการเรียกใช้เครื่องมือภายในแซนด์บ็อกซ์ได้ นอกจากนี้ เรายังเพิ่มการควบคุมงบประมาณ ทริกเกอร์ตามกำหนดการ และการเข้าถึงระดับฟรีอีกด้วย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Philipp Schmid",
+        "th": "ฟิลิปป์ ชมิด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Member of the Technical Staff, Google DeepMind",
+        "th": "สมาชิกของเจ้าหน้าที่ด้านเทคนิค Google DeepMind"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mariano Cocirio",
+        "th": "มาเรียโน โคซิริโอ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Product Manager, Google DeepMind",
+        "th": "ผู้จัดการผลิตภัณฑ์ Google DeepMind"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.width-200.format-webp.webp",
+      "alt": "Managed Agents Gemini 3.6 Flash, Hooks and Triggers"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Managed Agents in Gemini API are getting environment hooks, model selection, and free tier access. These capabilities build on our previous release introducing background tasks and remote MCP server integration.",
+        "th": "ตัวแทนที่ได้รับการจัดการใน Gemini API ได้รับ hook ของสภาพแวดล้อม การเลือกโมเดล และการเข้าถึงระดับฟรี ความสามารถเหล่านี้สร้างขึ้นจากรีลีสก่อนหน้าของเรา โดยแนะนำงานเบื้องหลังและการผสานรวมเซิร์ฟเวอร์ MCP ระยะไกล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With managed agents in the Gemini Interactions API, a single API call coordinates, reasoning, code execution, package installation, file management, and web retrieval inside an isolated cloud sandbox.",
+        "th": "ด้วยเอเจนต์ที่ได้รับการจัดการใน Gemini Interactions API พิกัดการเรียก API เดียว การใช้เหตุผล การเรียกใช้โค้ด การติดตั้งแพ็คเกจ การจัดการไฟล์ และการดึงข้อมูลเว็บภายในแซนด์บ็อกซ์บนคลาวด์แบบแยก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If you're using an AI coding assistant, drop this in your terminal to give it access to the Interactions API skill: npx skills add google-gemini/gemini-skills --skill gemini-interactions-api.",
+        "th": "หากคุณใช้ผู้ช่วยเขียนโค้ด AI ให้วางสิ่งนี้ลงในเทอร์มินัลของคุณเพื่อให้สามารถเข้าถึงทักษะ Interactions API: ทักษะ npx เพิ่ม google-gemini/gemini-skills --skill gemini-interactions-api"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Below are examples using the @google/genai TypeScript/JavaScript SDK. For Python or cURL, check out the Antigravity agent documentation.",
+        "th": "ด้านล่างนี้เป็นตัวอย่างการใช้ @google/genai TypeScript/JavaScript SDK สำหรับ Python หรือ cURL โปรดดูเอกสารประกอบของ Antigravity agent"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Gemini 3.6 Flash is now the default",
+        "th": "Gemini 3.6 Flash เป็นค่าเริ่มต้นแล้ว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The antigravity-preview-05-2026 agent now runs Gemini 3.6 Flash by default. No code changes are required. Your next interaction picks it up automatically.",
+        "th": "Antigravity-preview-05-2026 ตอนนี้รัน Gemini 3.6 Flash ตามค่าเริ่มต้น ไม่จำเป็นต้องเปลี่ยนแปลงรหัส การโต้ตอบครั้งต่อไปของคุณจะหยิบขึ้นมาโดยอัตโนมัติ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also explicitly select models by passing agent_config.model when creating an interaction or managed agent. Use Gemini 3.5 Flash-Lite for lower cost, or pin to your model of preference.",
+        "th": "คุณยังสามารถเลือกโมเดลได้อย่างชัดเจนโดยส่งผ่าน agent_config.model เมื่อสร้างการโต้ตอบหรือเอเจนต์ที่ได้รับการจัดการ ใช้ Gemini 3.5 Flash-Lite เพื่อลดต้นทุน หรือปักหมุดรุ่นที่ต้องการ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Supported models include:",
+        "th": "รุ่นที่รองรับได้แก่:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini 3.6 Flash (gemini-3.6-flash, default): Balanced model for reasoning, coding, and tool use.",
+        "th": "Gemini 3.6 Flash (gemini-3.6-flash ค่าเริ่มต้น): โมเดลที่สมดุลสำหรับการให้เหตุผล การเขียนโค้ด และการใช้เครื่องมือ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini 3.5 Flash (gemini-3.5-flash): Previous generation for general agentic workflows.",
+        "th": "Gemini 3.5 Flash (gemini-3.5-flash): รุ่นก่อนหน้าสำหรับเวิร์กโฟลว์เอเจนต์ทั่วไป"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini 3.5 Flash-Lite (gemini-3.5-flash-lite): Lowest latency and cost on the Gemini 3.5 family.",
+        "th": "Gemini 3.5 Flash-Lite (gemini-3.5-flash-lite): เวลาแฝงและค่าใช้จ่ายต่ำสุดในตระกูล Gemini 3.5"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Environment hooks: block, lint, and audit tool calls inside the sandbox",
+        "th": "Hooks สภาพแวดล้อม: การบล็อก, ผ้าสำลี และการเรียกเครื่องมือตรวจสอบภายในแซนด์บ็อกซ์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Environment hooks let you run your custom scripts before or after every tool call the agent makes inside its sandbox. Add a .agents/hooks.json into your environment and the runtime executes your handlers on pre_tool_execution or post_tool_execution events.",
+        "th": "Hooks สภาพแวดล้อมช่วยให้คุณเรียกใช้สคริปต์แบบกำหนดเองของคุณก่อนหรือหลังการเรียกใช้เครื่องมือทุกครั้งที่ตัวแทนสร้างภายในแซนด์บ็อกซ์ เพิ่ม .agents/hooks.json ลงในสภาพแวดล้อมของคุณ จากนั้นรันไทม์จะเรียกใช้งานตัวจัดการของคุณในเหตุการณ์ pre_tool_execution หรือ post_tool_execution"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The matcher field supports regular expressions, allowing you to target multiple tools with | or catch everything with *:",
+        "th": "ฟิลด์ตัวจับคู่รองรับนิพจน์ทั่วไป ทำให้คุณสามารถกำหนดเป้าหมายเครื่องมือหลายรายการด้วย | หรือจับทุกอย่างด้วย *:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In this configuration:",
+        "th": "ในการกำหนดค่านี้:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The security-gate group runs gate.py before every code_execution or write_file call. If the script returns {\"decision\": \"deny\", \"reason\": \"...\"}, the tool call is skipped and the rejection reason is passed into the model’s context.",
+        "th": "กลุ่มประตูรักษาความปลอดภัยรัน gate.py ก่อนการเรียก code_execution หรือ write_file ทุกครั้ง หากสคริปต์ส่งคืน {\"decision\": \"deny\", \"reason\": \"...\"} การเรียกใช้เครื่องมือจะถูกข้ามและเหตุผลในการปฏิเสธจะถูกส่งผ่านไปยังบริบทของโมเดล"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The auto-format group runs auto_lint.py after every tool finishes to enforce code styling.",
+        "th": "กลุ่มการจัดรูปแบบอัตโนมัติจะรัน auto_lint.py หลังจากที่ทุกเครื่องมือเสร็จสิ้นเพื่อบังคับใช้การจัดรูปแบบโค้ด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Hooks also support http type handlers that POST directly to an external endpoint.",
+        "th": "Hooks ยังรองรับตัวจัดการประเภท http ที่ POST ไปยังปลายทางภายนอกโดยตรง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For complete HTTP hook definitions and failure handling semantics, refer to the hooks documentation.",
+        "th": "สำหรับคำจำกัดความเบ็ด HTTP ที่สมบูรณ์และความล้มเหลวในการจัดการซีแมนทิกส์ โปรดดูเอกสารประกอบของ hooks"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Teams are already using hooks to build production-grade validation pipelines. For example, AI-native investment bank Offdeal uses post_tool_execution hooks to run automated image verification inside the remote sandbox.",
+        "th": "ทีมงานต่างๆ กำลังใช้ hooks เพื่อสร้างไปป์ไลน์การตรวจสอบความถูกต้องระดับการผลิต ตัวอย่างเช่น Offdeal ธนาคารเพื่อการลงทุนแบบ AI ดั้งเดิมใช้ hooks post_tool_execution เพื่อเรียกใช้การตรวจสอบรูปภาพอัตโนมัติภายในแซนด์บ็อกซ์ระยะไกล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "\"OffDeal is an AI-native investment bank, and Archie is the AI analyst our bankers use every day. A requirement for banker-ready decks is company logos: buyer tables, sponsor columns, tombstone grids, often 30+ logos in a single deck, every one of which must be the right company, the appropriate size and aspect ratio, contain the name, have a transparent background, and have a high contrast when placed on a white slide.",
+        "th": "\"OffDeal เป็นวาณิชธนกิจที่ใช้ AI และ Archie เป็นนักวิเคราะห์ AI ที่นายธนาคารของเราใช้ทุกวัน ข้อกำหนดสำหรับสำรับที่พร้อมสำหรับนายธนาคารคือโลโก้บริษัท: ตารางผู้ซื้อ คอลัมน์ผู้สนับสนุน ตารางหลุมฝังศพ ซึ่งมักจะมีโลโก้มากกว่า 30+ แห่งในสำรับเดียว โดยแต่ละอันจะต้องเป็นบริษัทที่ถูกต้อง ขนาดและอัตราส่วนที่เหมาะสม มีชื่อ มีพื้นหลังโปร่งใส และมีความเปรียบต่างสูงเมื่อวางไว้บนสไลด์สีขาว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before agent hooks, we couldn’t do this on Gemini’s managed agents: the sandbox is remote, so our validation code had nowhere to run. With hooks, a post_tool_execution hook triggers our pipeline inside the sandbox the moment Archie writes its company list, fetching candidates, enforcing pixel-level quality checks, verifying each logo with Gemini vision, and publishing a manifest of approved files that are the only images allowed into the deck.\"",
+        "th": "ก่อนที่เจ้าหน้าที่จะติดต่อ เราไม่สามารถดำเนินการนี้กับตัวแทนที่ได้รับการจัดการของ Gemini ได้ เนื่องจากแซนด์บ็อกซ์นั้นอยู่ระยะไกล ดังนั้นรหัสตรวจสอบของเราจึงไม่สามารถทำงานได้ ด้วย hooks ฮุก post_tool_execution จะเรียกใช้ไปป์ไลน์ของเราภายในแซนด์บ็อกซ์ทันทีที่ Archie เขียนรายชื่อบริษัท ดึงข้อมูลผู้สมัคร บังคับใช้การตรวจสอบคุณภาพระดับพิกเซล ตรวจสอบแต่ละโลโก้ด้วยวิสัยทัศน์ Gemini และเผยแพร่รายการไฟล์ที่ได้รับอนุมัติซึ่งเป็นภาพเดียวที่ได้รับอนุญาตให้เข้าไปในสำรับได้\""
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "- Alston Lin, Founder & CTO of OffDeal",
+        "th": "- Alston Lin ผู้ก่อตั้งและ CTO ของ OffDeal"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Cost control and automation features",
+        "th": "คุณสมบัติการควบคุมต้นทุนและระบบอัตโนมัติ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Free tier availability",
+        "th": "ความพร้อมใช้งานระดับฟรี"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Managed agents are now available on free tier projects. Developers can experiment with agentic workflows using an API key from a project without active billing.",
+        "th": "ตัวแทนที่ได้รับการจัดการพร้อมใช้งานแล้วในโปรเจ็กต์ระดับฟรี นักพัฒนาสามารถทดลองใช้เวิร์กโฟลว์ตัวแทนโดยใช้คีย์ API จากโปรเจ็กต์โดยไม่ต้องเรียกเก็บเงิน"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Budget controls",
+        "th": "การควบคุมงบประมาณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Because managed agents execute multi-turn autonomous loops, complex tasks can consume significant token budgets. To prevent runaway tasks, you can pass max_total_tokens inside agent_config to cap total consumption (input + output + thinking).",
+        "th": "เนื่องจากตัวแทนที่ได้รับการจัดการดำเนินการลูปอัตโนมัติแบบหลายรอบ งานที่ซับซ้อนจึงอาจใช้งบประมาณโทเค็นจำนวนมาก เพื่อป้องกันงานที่ควบคุมไม่ได้ คุณสามารถส่ง max_total_tokens ภายใน agent_config เพื่อจำกัดปริมาณการใช้ทั้งหมด (อินพุต + เอาต์พุต + การคิด)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When the agent reaches the limit, execution safely pauses and the interaction returns status: \"incomplete\". The environment state is preserved, enabling you to continue where it stopped by passing previous_interaction_id with a fresh budget.",
+        "th": "เมื่อตัวแทนถึงขีดจำกัด การดำเนินการจะหยุดชั่วคราวอย่างปลอดภัยและการโต้ตอบจะส่งคืนสถานะ: \"ไม่สมบูรณ์\" สถานะของสภาพแวดล้อมจะถูกรักษาไว้ ช่วยให้คุณสามารถดำเนินการต่อจากจุดที่หยุดไว้โดยผ่าน Previous_interaction_id ด้วยงบประมาณใหม่"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Scheduled execution with triggers",
+        "th": "การดำเนินการตามกำหนดเวลาพร้อมทริกเกอร์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Automate recurring agent tasks with scheduled triggers. A trigger binds an agent, environment, prompt, and cron schedule into a persistent resource that fires without manual intervention. Each run reuses the same sandbox, so files persist across executions.",
+        "th": "ทำงานตัวแทนที่เกิดซ้ำโดยอัตโนมัติด้วยทริกเกอร์ที่กำหนดเวลาไว้ ทริกเกอร์จะผูกเอเจนต์ สภาพแวดล้อม พรอมต์ และกำหนดการ cron เข้ากับทรัพยากรถาวรที่เริ่มทำงานโดยไม่มีการแทรกแซงด้วยตนเอง การเรียกใช้แต่ละครั้งจะใช้แซนด์บ็อกซ์เดียวกันซ้ำ ดังนั้นไฟล์จะคงอยู่ตลอดการดำเนินการ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Environments API",
+        "th": "API สภาพแวดล้อม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Environments API lets you list, inspect, and delete sandbox sessions from code. Recover environment IDs after a disconnect, or clean up sandboxes when your pipeline finishes instead of waiting for the 7-day TTL.",
+        "th": "Environments API ช่วยให้คุณสามารถแสดงรายการ ตรวจสอบ และลบเซสชันแซนด์บ็อกซ์ออกจากโค้ดได้ กู้คืนรหัสสภาพแวดล้อมหลังจากยกเลิกการเชื่อมต่อ หรือล้างแซนด์บ็อกซ์เมื่อไปป์ไลน์ของคุณเสร็จสิ้น แทนที่จะรอ TTL 7 วัน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get started with managed agents",
+        "th": "เริ่มต้นใช้งานตัวแทนที่ได้รับการจัดการ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These updates turn managed agents into cost-controlled, scheduled workers that operate autonomously inside real development environments without breaking your budget or requiring external orchestration.",
+        "th": "การอัปเดตเหล่านี้เปลี่ยนตัวแทนที่ได้รับการจัดการให้เป็นผู้ปฏิบัติงานตามกำหนดเวลาที่มีการควบคุมต้นทุน ซึ่งทำงานโดยอัตโนมัติภายในสภาพแวดล้อมการพัฒนาจริงโดยไม่ทำให้งบประมาณของคุณเสียหายหรือต้องมีการจัดการจากภายนอก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check out the Gemini Interactions API overview and the managed agents quickstart to explore custom agent definitions, environment configurations, network rules, and advanced streaming patterns.",
+        "th": "ตรวจสอบภาพรวม Gemini Interactions API และเอเจนต์ที่ได้รับการจัดการอย่างรวดเร็วเพื่อสำรวจคำจำกัดความเอเจนต์ที่กำหนดเอง การกำหนดค่าสภาพแวดล้อม กฎเครือข่าย และรูปแบบการสตรีมขั้นสูง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Developer tools",
+        "th": "เครื่องมือสำหรับนักพัฒนา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "AI",
+        "th": "AI"
+      }
+    }
+  ]
+}

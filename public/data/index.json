@@ -1,6 +1,57 @@
 {
-  "generatedAt": "2026-07-28T16:00:46.885Z",
+  "generatedAt": "2026-07-28T17:39:24.046Z",
   "items": [
+    {
+      "id": "openai__scientific-computing-agentic-ai",
+      "slug": "scientific-computing-agentic-ai",
+      "source": "openai",
+      "url": "https://openai.com/index/scientific-computing-agentic-ai",
+      "category": "Publication",
+      "date": "2026-07-28T17:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Scientific computing in the age of agentic AI",
+        "th": "การประมวลผลทางวิทยาศาสตร์ในยุคของเอเจนต์เอไอ"
+      },
+      "summary": {
+        "en": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+        "th": "รายงานภาคสนามฉบับใหม่แสดงให้เห็นว่านักวิทยาศาสตร์ใช้ตัวแทนการเข้ารหัส AI เพื่อปรับปรุงการประมวลผลทางวิทยาศาสตร์ให้ทันสมัย ​​เร่งการพัฒนาซอฟต์แวร์และการค้นพบในด้านจีโนมิกส์และอื่น ๆ ได้อย่างไร"
+      }
+    },
+    {
+      "id": "huggingface__olmoearth-infrastructure",
+      "slug": "olmoearth-infrastructure",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "category": "News",
+      "date": "2026-07-28T16:27:42.000Z",
+      "image": null,
+      "title": {
+        "en": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+        "th": "แพลตฟอร์ม OlmoEarth: การอนุมานเชิงพื้นที่ในระดับดาวเคราะห์"
+      },
+      "summary": {
+        "en": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+        "th": "แพลตฟอร์ม OlmoEarth: การอนุมานเชิงพื้นที่ในระดับดาวเคราะห์"
+      }
+    },
+    {
+      "id": "google-ai__expanding-managed-agents-gemini-api-3-6-flash-hooks",
+      "slug": "expanding-managed-agents-gemini-api-3-6-flash-hooks",
+      "source": "google-ai",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "category": "Developer tools",
+      "date": "2026-07-28T16:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp",
+      "title": {
+        "en": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+        "th": "เอเจนต์ที่ได้รับการจัดการ Gemini API: 3.6 Flash, hooks และอื่นๆ"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp\">We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can buil",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp\">เรากำลังประกาศความสามารถใหม่เพิ่มเติมใน Managed Agent ใน Gemini API เพื่อให้นักพัฒนาสามารถสร้าง"
+      }
+    },
     {
       "id": "huggingface__lfm2-5-encoders",
       "slug": "lfm2-5-encoders",
@@ -628,23 +679,6 @@
       "summary": {
         "en": "Security incident disclosure — July 2026",
         "th": "การเปิดเผยเหตุการณ์ด้านความปลอดภัย — กรกฎาคม 2026"
-      }
-    },
-    {
-      "id": "huggingface__shippy-tech-blog",
-      "slug": "shippy-tech-blog",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "category": "News",
-      "date": "2026-07-15T17:29:41.000Z",
-      "image": null,
-      "title": {
-        "en": "What building Shippy taught us about building agents",
-        "th": "สิ่งที่อาคาร Shippy สอนเราเกี่ยวกับตัวแทนการก่อสร้าง"
-      },
-      "summary": {
-        "en": "What building Shippy taught us about building agents",
-        "th": "สิ่งที่อาคาร Shippy สอนเราเกี่ยวกับตัวแทนการก่อสร้าง"
       }
     },
     {
@@ -1617,23 +1651,6 @@
       }
     },
     {
-      "id": "openai__how-agents-are-transforming-work",
-      "slug": "how-agents-are-transforming-work",
-      "source": "openai",
-      "url": "https://openai.com/index/how-agents-are-transforming-work",
-      "category": "Company",
-      "date": "2026-06-25T02:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How agents are transforming work",
-        "th": "ตัวแทนกำลังเปลี่ยนแปลงการทำงานอย่างไร"
-      },
-      "summary": {
-        "en": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-        "th": "บทความวิจัยของ OpenAI ใหม่แสดงให้เห็นว่าตัวแทน AI กำลังเปลี่ยนแปลงงานอย่างไร ช่วยให้ทำงานได้นานขึ้นและซับซ้อนยิ่งขึ้น และขยายประสิทธิภาพการทำงานตามบทบาทต่างๆ"
-      }
-    },
-    {
       "id": "deepmind__introducing-computer-use-in-gemini-3-5-flash",
       "slug": "introducing-computer-use-in-gemini-3-5-flash",
       "source": "deepmind",
@@ -2175,23 +2192,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp\">We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp\">เราใช้ Google AI Studio เพื่อสร้างโค้ดแบบทดสอบเกี่ยวกับประกาศยอดนิยมของ I/O 2026"
-      }
-    },
-    {
-      "id": "google-ai__gemini-omni-3-5-videos",
-      "slug": "gemini-omni-3-5-videos",
-      "source": "google-ai",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
-      "category": "Gemini models",
-      "date": "2026-05-29T17:30:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Omni_and_Gemini_3.5_hero.max-600x600.format-webp.webp",
-      "title": {
-        "en": "9 demos of Gemini Omni and Gemini 3.5 in action",
-        "th": "9 การสาธิตการทำงานของ Gemini Omni และ Gemini 3.5"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Omni_and_Gemini_3.5_hero.max-600x600.format-webp.webp\">Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at ",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Omni_and_Gemini_3.5_hero.max-600x600.format-webp.webp\">ชมวิดีโอ 9 รายการที่แสดงความสามารถของ Gemini Omni และ Gemini 3.5 ซึ่งประกาศที่"
       }
     },
     {

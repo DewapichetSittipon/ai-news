@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-28T13:46:52.369Z",
+  "generatedAt": "2026-07-28T16:00:46.885Z",
   "items": [
+    {
+      "id": "huggingface__lfm2-5-encoders",
+      "slug": "lfm2-5-encoders",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+      "category": "News",
+      "date": "2026-07-28T15:01:45.000Z",
+      "image": null,
+      "title": {
+        "en": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+        "th": "LFM2.5-ตัวเข้ารหัสสำหรับการอนุมานบริบทแบบยาวที่รวดเร็วบน CPU"
+      },
+      "summary": {
+        "en": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+        "th": "LFM2.5-ตัวเข้ารหัสสำหรับการอนุมานบริบทแบบยาวที่รวดเร็วบน CPU"
+      }
+    },
     {
       "id": "google-ai__ai-mode-real-world-tips",
       "slug": "ai-mode-real-world-tips",
@@ -2107,23 +2124,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from May 2026",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp\">นี่คือการอัปเดต AI ล่าสุดของ Google ตั้งแต่เดือนพฤษภาคม 2026"
-      }
-    },
-    {
-      "id": "huggingface__nemotron-3-5-content-safety",
-      "slug": "nemotron-3-5-content-safety",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "category": "News",
-      "date": "2026-06-04T18:57:45.000Z",
-      "image": null,
-      "title": {
-        "en": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-        "th": "ความปลอดภัยของเนื้อหา Nemotron 3.5: ความปลอดภัยหลายรูปแบบที่ปรับแต่งได้สำหรับ Global Enterprise AI"
-      },
-      "summary": {
-        "en": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-        "th": "ความปลอดภัยของเนื้อหา Nemotron 3.5: ความปลอดภัยหลายรูปแบบที่ปรับแต่งได้สำหรับ Global Enterprise AI"
       }
     },
     {

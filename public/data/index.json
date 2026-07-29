@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-07-29T15:46:49.727Z",
+  "generatedAt": "2026-07-29T17:08:23.365Z",
   "items": [
+    {
+      "id": "deepmind__were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyr",
+      "slug": "were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyr",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "category": "News",
+      "date": "2026-07-29T16:02:10.000Z",
+      "image": null,
+      "title": {
+        "en": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+        "th": "เรากำลังเปิดตัว Lyria 3.5 ใน Google Flow Music พร้อมด้วยความก้าวหน้าในด้านดนตรี เนื้อเพลง เสียงร้อง และการควบคุมที่สร้างสรรค์"
+      },
+      "summary": {
+        "en": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+        "th": "เรากำลังเปิดตัว Lyria 3.5 ใน Google Flow Music พร้อมด้วยความก้าวหน้าในด้านดนตรี เนื้อเพลง เสียงร้อง และการควบคุมที่สร้างสรรค์"
+      }
+    },
+    {
+      "id": "openai__chatgpt-for-academic-researchers",
+      "slug": "chatgpt-for-academic-researchers",
+      "source": "openai",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "category": "Company",
+      "date": "2026-07-29T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+        "th": "เร่งการค้นพบทางวิทยาศาสตร์ด้วย ChatGPT สำหรับนักวิจัยเชิงวิชาการ"
+      },
+      "summary": {
+        "en": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+        "th": "OpenAI ให้นักวิจัยทางวิชาการ 100,000 คนเข้าถึงโมเดล AI ที่ทันสมัยที่สุดของ ChatGPT ได้ฟรี เพื่อเร่งการวิจัยทางวิทยาศาสตร์ การทำงานร่วมกัน และการค้นพบ"
+      }
+    },
     {
       "id": "openai__scientific-computing-agentic-ai",
       "slug": "scientific-computing-agentic-ai",
@@ -852,23 +886,6 @@
       }
     },
     {
-      "id": "openai__how-sales-teams-use-codex",
-      "slug": "how-sales-teams-use-codex",
-      "source": "openai",
-      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "category": "OpenAI Academy",
-      "date": "2026-07-14T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How sales teams use ChatGPT Work",
-        "th": "ทีมขายใช้งาน ChatGPT อย่างไร"
-      },
-      "summary": {
-        "en": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-        "th": "ดูว่าทีมขายสามารถใช้ ChatGPT Work เพื่อสร้างบทสรุปไปป์ไลน์ แพคเกจการเตรียมการประชุม การตรวจสอบการคาดการณ์ แผนบัญชี และการวินิจฉัยข้อตกลงที่หยุดชะงักจากอินพุตงานจริงได้อย่างไร"
-      }
-    },
-    {
       "id": "openai__how-data-science-teams-use-codex",
       "slug": "how-data-science-teams-use-codex",
       "source": "openai",
@@ -883,6 +900,23 @@
       "summary": {
         "en": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
         "th": "ดูว่าทีมวิทยาศาสตร์ข้อมูลสามารถใช้ ChatGPT Work เพื่อสร้างบทสรุปที่ต้นตอ การอ่านผลกระทบ บันทึก KPI การวิเคราะห์แบบกำหนดขอบเขต และข้อมูลจำเพาะของแดชบอร์ดจากอินพุตงานจริงได้อย่างไร"
+      }
+    },
+    {
+      "id": "openai__how-sales-teams-use-codex",
+      "slug": "how-sales-teams-use-codex",
+      "source": "openai",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "category": "OpenAI Academy",
+      "date": "2026-07-14T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How sales teams use ChatGPT Work",
+        "th": "ทีมขายใช้งาน ChatGPT อย่างไร"
+      },
+      "summary": {
+        "en": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+        "th": "ดูว่าทีมขายสามารถใช้ ChatGPT Work เพื่อสร้างบทสรุปไปป์ไลน์ แพคเกจการเตรียมการประชุม การตรวจสอบการคาดการณ์ แผนบัญชี และการวินิจฉัยข้อตกลงที่หยุดชะงักจากอินพุตงานจริงได้อย่างไร"
       }
     },
     {
@@ -988,23 +1022,6 @@
       }
     },
     {
-      "id": "openai__chatgpt-for-your-most-ambitious-work",
-      "slug": "chatgpt-for-your-most-ambitious-work",
-      "source": "openai",
-      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "category": "Product",
-      "date": "2026-07-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "ChatGPT is now a partner for your most ambitious work",
-        "th": "ChatGPT เป็นพันธมิตรสำหรับงานที่ทะเยอทะยานที่สุดของคุณแล้ว"
-      },
-      "summary": {
-        "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-        "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
-      }
-    },
-    {
       "id": "openai__bio-bug-bounty",
       "slug": "bio-bug-bounty",
       "source": "openai",
@@ -1019,6 +1036,23 @@
       "summary": {
         "en": "Details about the OpenAI Bio Bounty program",
         "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
+      }
+    },
+    {
+      "id": "openai__chatgpt-for-your-most-ambitious-work",
+      "slug": "chatgpt-for-your-most-ambitious-work",
+      "source": "openai",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "category": "Product",
+      "date": "2026-07-09T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "ChatGPT is now a partner for your most ambitious work",
+        "th": "ChatGPT เป็นพันธมิตรสำหรับงานที่ทะเยอทะยานที่สุดของคุณแล้ว"
+      },
+      "summary": {
+        "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+        "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
       }
     },
     {
@@ -1481,20 +1515,20 @@
       }
     },
     {
-      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
-      "slug": "core-dump-epidemiology-data-infrastructure-bug",
+      "id": "openai__case-studies",
+      "slug": "case-studies",
       "source": "openai",
-      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "category": "Engineering",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "category": "News",
       "date": "2026-06-30T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Core dump epidemiology: fixing an 18-year-old bug",
-        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
       },
       "summary": {
-        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
       }
     },
     {
@@ -1515,20 +1549,20 @@
       }
     },
     {
-      "id": "openai__case-studies",
-      "slug": "case-studies",
+      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
+      "slug": "core-dump-epidemiology-data-infrastructure-bug",
       "source": "openai",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
-      "category": "News",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "category": "Engineering",
       "date": "2026-06-30T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
+        "en": "Core dump epidemiology: fixing an 18-year-old bug",
+        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
       },
       "summary": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
+        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
       }
     },
     {
@@ -1614,23 +1648,6 @@
       "summary": {
         "en": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
         "th": "HP Inc. ขยายขอบเขตความร่วมมือ OpenAI Frontier เพื่อปรับใช้ AI ทั่วทั้งประสบการณ์ของลูกค้า การพัฒนาซอฟต์แวร์ และการดำเนินงานระดับองค์กร"
-      }
-    },
-    {
-      "id": "openai__previewing-gpt-5-6-sol",
-      "slug": "previewing-gpt-5-6-sol",
-      "source": "openai",
-      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "category": "Product",
-      "date": "2026-06-26T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Previewing GPT-5.6 Sol: a next-generation model",
-        "th": "การดูตัวอย่าง GPT-5.6 Sol: รุ่นถัดไป"
-      },
-      "summary": {
-        "en": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
-        "th": "OpenAI แสดงตัวอย่าง GPT-5.6 Sol ซึ่งเป็นโมเดลเจเนอเรชันถัดไปที่มีความสามารถที่แข็งแกร่งยิ่งขึ้นในการเขียนโค้ด วิทยาศาสตร์ และความปลอดภัยทางไซเบอร์ จับคู่กับสแต็กความปลอดภัยที่ล้ำหน้าที่สุด"
       }
     },
     {
@@ -2583,23 +2600,6 @@
       "summary": {
         "en": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.",
         "th": "Gemini Robotics ER 1.6: การปรับปรุงการใช้เหตุผลเชิงพื้นที่และความเข้าใจหลายมุมมองสำหรับหุ่นยนต์อัตโนมัติ"
-      }
-    },
-    {
-      "id": "deepmind__gemma-4-byte-for-byte-the-most-capable-open-models",
-      "slug": "gemma-4-byte-for-byte-the-most-capable-open-models",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
-      "category": "News",
-      "date": "2026-04-02T16:00:49.000Z",
-      "image": "https://lh3.googleusercontent.com/dP82fYfjynerdo1ze8VAz5F-miu-ghwM9mrzzQoi_FDYVcG4lLTtb7id7b_IKbFVDuv9q765JG_dEWRJK8cFDrxfCeMpzjzvlj3kwqyZWA6zqt_ecw=w528-h297-n-nu-rw-lo",
-      "title": {
-        "en": "Gemma 4: Byte for byte, the most capable open models",
-        "th": "Gemma 4: Byte for byte ซึ่งเป็นโมเดลเปิดที่มีความสามารถมากที่สุด"
-      },
-      "summary": {
-        "en": "Gemma 4: Our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows.",
-        "th": "Gemma 4: โมเดลแบบเปิดที่ชาญฉลาดที่สุดของเราในปัจจุบัน สร้างขึ้นโดยมีจุดประสงค์เพื่อการให้เหตุผลขั้นสูงและเวิร์กโฟลว์แบบตัวแทน"
       }
     }
   ]

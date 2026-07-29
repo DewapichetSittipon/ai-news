@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T19:02:05.930Z",
+  "generatedAt": "2026-07-29T20:45:02.967Z",
   "items": [
     {
       "id": "deepmind__were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyr",
@@ -33,6 +33,23 @@
       "summary": {
         "en": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
         "th": "OpenAI ให้นักวิจัยทางวิชาการ 100,000 คนเข้าถึงโมเดล AI ที่ทันสมัยที่สุดของ ChatGPT ได้ฟรี เพื่อเร่งการวิจัยทางวิทยาศาสตร์ การทำงานร่วมกัน และการค้นพบ"
+      }
+    },
+    {
+      "id": "openai__gpt-5-6-frontier-intelligence-efficiency",
+      "slug": "gpt-5-6-frontier-intelligence-efficiency",
+      "source": "openai",
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "category": "Engineering",
+      "date": "2026-07-29T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+        "th": "GPT-5.6 หลอมรวมความฉลาดระดับแนวหน้าเข้ากับประสิทธิภาพระดับแนวหน้าได้อย่างไร"
+      },
+      "summary": {
+        "en": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+        "th": "GPT-5.6 ปรับปรุงประสิทธิภาพของ AI ในโมเดล การอนุมาน และเวิร์กโฟลว์เอเจนต์ ช่วยให้ส่งมอบข้อมูลอัจฉริยะที่มีประโยชน์มากขึ้นต่อดอลลาร์"
       }
     },
     {
@@ -1005,23 +1022,6 @@
       }
     },
     {
-      "id": "openai__gpt-5-6",
-      "slug": "gpt-5-6",
-      "source": "openai",
-      "url": "https://openai.com/index/gpt-5-6",
-      "category": "Product",
-      "date": "2026-07-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "GPT-5.6: Frontier intelligence that scales with your ambition",
-        "th": "GPT-5.6: ความฉลาดระดับแนวหน้าที่จะปรับขนาดตามความทะเยอทะยานของคุณ"
-      },
-      "summary": {
-        "en": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-        "th": "ความชาญฉลาดที่มากขึ้นจากทุกโทเค็น ประสิทธิภาพที่แข็งแกร่งต่อดอลลาร์ และความสามารถที่มากขึ้นตามความต้องการสำหรับงานที่หนักที่สุดของคุณ"
-      }
-    },
-    {
       "id": "openai__bio-bug-bounty",
       "slug": "bio-bug-bounty",
       "source": "openai",
@@ -1036,6 +1036,23 @@
       "summary": {
         "en": "Details about the OpenAI Bio Bounty program",
         "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
+      }
+    },
+    {
+      "id": "openai__gpt-5-6",
+      "slug": "gpt-5-6",
+      "source": "openai",
+      "url": "https://openai.com/index/gpt-5-6",
+      "category": "Product",
+      "date": "2026-07-09T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "GPT-5.6: Frontier intelligence that scales with your ambition",
+        "th": "GPT-5.6: ความฉลาดระดับแนวหน้าที่จะปรับขนาดตามความทะเยอทะยานของคุณ"
+      },
+      "summary": {
+        "en": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+        "th": "ความชาญฉลาดที่มากขึ้นจากทุกโทเค็น ประสิทธิภาพที่แข็งแกร่งต่อดอลลาร์ และความสามารถที่มากขึ้นตามความต้องการสำหรับงานที่หนักที่สุดของคุณ"
       }
     },
     {
@@ -1226,23 +1243,6 @@
       }
     },
     {
-      "id": "openai__australian-payments-plus",
-      "slug": "australian-payments-plus",
-      "source": "openai",
-      "url": "https://openai.com/index/australian-payments-plus",
-      "category": "News",
-      "date": "2026-07-07T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Australian Payments Plus moves faster with ChatGPT and Codex",
-        "th": "Australian Payments Plus เคลื่อนไหวเร็วขึ้นด้วย ChatGPT และ Codex"
-      },
-      "summary": {
-        "en": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-        "th": "ดูว่า Australian Payments Plus ใช้ ChatGPT Enterprise และ Codex เพื่อดำเนินการได้เร็วขึ้นผ่านความซับซ้อนในการชำระเงินได้อย่างไร AP+ ช่วยประหยัดเวลา ปรับปรุงคุณภาพ และให้ความสำคัญกับการตัดสินของมนุษย์"
-      }
-    },
-    {
       "id": "openai__mufg",
       "slug": "mufg",
       "source": "openai",
@@ -1257,6 +1257,23 @@
       "summary": {
         "en": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
         "th": "MUFG ใช้ ChatGPT Enterprise เพื่อสร้างองค์กรที่ขับเคลื่อนด้วย AI ปรับปรุงขั้นตอนการทำงาน และนำเสนอบริการทางการเงินที่ขับเคลื่อนด้วย AI ในวงกว้าง"
+      }
+    },
+    {
+      "id": "openai__australian-payments-plus",
+      "slug": "australian-payments-plus",
+      "source": "openai",
+      "url": "https://openai.com/index/australian-payments-plus",
+      "category": "News",
+      "date": "2026-07-07T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Australian Payments Plus moves faster with ChatGPT and Codex",
+        "th": "Australian Payments Plus เคลื่อนไหวเร็วขึ้นด้วย ChatGPT และ Codex"
+      },
+      "summary": {
+        "en": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+        "th": "ดูว่า Australian Payments Plus ใช้ ChatGPT Enterprise และ Codex เพื่อดำเนินการได้เร็วขึ้นผ่านความซับซ้อนในการชำระเงินได้อย่างไร AP+ ช่วยประหยัดเวลา ปรับปรุงคุณภาพ และให้ความสำคัญกับการตัดสินของมนุษย์"
       }
     },
     {
@@ -1515,23 +1532,6 @@
       }
     },
     {
-      "id": "openai__case-studies",
-      "slug": "case-studies",
-      "source": "openai",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
-      "category": "News",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
-      },
-      "summary": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
-      }
-    },
-    {
       "id": "openai__introducing-genebench-pro",
       "slug": "introducing-genebench-pro",
       "source": "openai",
@@ -1563,6 +1563,23 @@
       "summary": {
         "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
         "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
+      }
+    },
+    {
+      "id": "openai__case-studies",
+      "slug": "case-studies",
+      "source": "openai",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "category": "News",
+      "date": "2026-06-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
+      },
+      "summary": {
+        "en": "Inside Genebench-Pro",
+        "th": "ภายใน Genebench-Pro"
       }
     },
     {
@@ -1631,23 +1648,6 @@
       "summary": {
         "en": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
         "th": "รายงาน OpenAI ใหม่จะแมปว่า AI สามารถปรับเปลี่ยนงานทั่วทั้งสหภาพยุโรปได้อย่างไร โดยเน้นว่าอาชีพใดที่อาจเผชิญกับระบบอัตโนมัติ การเติบโต หรือการเปลี่ยนแปลงขั้นตอนการทำงาน"
-      }
-    },
-    {
-      "id": "openai__hp-frontier-partnership",
-      "slug": "hp-frontier-partnership",
-      "source": "openai",
-      "url": "https://openai.com/index/hp-frontier-partnership",
-      "category": "Company",
-      "date": "2026-06-28T17:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "HP Inc. launches Frontier strategic partnership with OpenAI",
-        "th": "HP Inc. เปิดตัวความร่วมมือเชิงกลยุทธ์ Frontier กับ OpenAI"
-      },
-      "summary": {
-        "en": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
-        "th": "HP Inc. ขยายขอบเขตความร่วมมือ OpenAI Frontier เพื่อปรับใช้ AI ทั่วทั้งประสบการณ์ของลูกค้า การพัฒนาซอฟต์แวร์ และการดำเนินงานระดับองค์กร"
       }
     },
     {

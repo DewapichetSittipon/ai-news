@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-07-30T13:43:54.257Z",
+  "generatedAt": "2026-07-30T15:47:34.885Z",
   "items": [
+    {
+      "id": "huggingface__gpu-management",
+      "slug": "gpu-management",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "category": "News",
+      "date": "2026-07-30T15:09:09.000Z",
+      "image": null,
+      "title": {
+        "en": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+        "th": "การจัดการ GPU: เหตุใด GPU ที่ไม่ได้ใช้งานจึงเป็นเครื่องบินลำใหม่"
+      },
+      "summary": {
+        "en": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+        "th": "การจัดการ GPU: เหตุใด GPU ที่ไม่ได้ใช้งานจึงเป็นเครื่องบินลำใหม่"
+      }
+    },
+    {
+      "id": "deepmind__gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestrati",
+      "slug": "gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestrati",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "category": "News",
+      "date": "2026-07-30T15:00:59.000Z",
+      "image": null,
+      "title": {
+        "en": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+        "th": "Gemini Robotics ER 2: ขับเคลื่อนหุ่นยนต์ด้วยความเข้าใจผ่านวิดีโอ การจัดระบบงาน และการทำงานร่วมกันแบบหลายหุ่นยนต์"
+      },
+      "summary": {
+        "en": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+        "th": "Gemini Robotics ER 2 ช่วยให้หุ่นยนต์ให้เหตุผล ทำงานร่วมกัน และแก้ไขงานในโลกแห่งความเป็นจริง ซึ่งแสดงถึงการเปลี่ยนแปลงขั้นตอนในการทำความเข้าใจวิดีโอ การจัดเครื่องมือ และการทำงานร่วมกันหลายหุ่นยนต์สำหรับแอปพลิเคชันหุ่นยนต์"
+      }
+    },
     {
       "id": "deepmind__were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyr",
       "slug": "were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyr",
@@ -135,6 +169,23 @@
       "summary": {
         "en": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
         "th": "LFM2.5-ตัวเข้ารหัสสำหรับการอนุมานบริบทแบบยาวที่รวดเร็วบน CPU"
+      }
+    },
+    {
+      "id": "deepmind__gemini-robotics-2-brings-whole-body-intelligence-to-robots",
+      "slug": "gemini-robotics-2-brings-whole-body-intelligence-to-robots",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "category": "News",
+      "date": "2026-07-28T13:21:37.000Z",
+      "image": "https://lh3.googleusercontent.com/VZ5KwQMxv9xBcQnYipsQB2EUj3oX1yvFYLktIamY8V2a76Y6ctEEuaLF59TuPdnaVn6OAMINDilqnuhju1O-AXc7QlOVmcogjskrWxS7xVQ1mc5S7g=w528-h297-n-nu-rw-lo",
+      "title": {
+        "en": "Gemini Robotics 2 brings whole body intelligence to robots",
+        "th": "Gemini Robotics 2 นำความฉลาดของร่างกายมาสู่หุ่นยนต์"
+      },
+      "summary": {
+        "en": "Gemini Robotics 2 brings whole body intelligence to robots",
+        "th": "Gemini Robotics 2 นำความฉลาดของร่างกายมาสู่หุ่นยนต์"
       }
     },
     {
@@ -2110,23 +2161,6 @@
       }
     },
     {
-      "id": "huggingface__github-ci-hf-jobs",
-      "slug": "github-ci-hf-jobs",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/github-ci-hf-jobs",
-      "category": "News",
-      "date": "2026-06-09T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Migrating Your GitHub CI to Hugging Face Jobs",
-        "th": "ย้าย GitHub CI ของคุณไปยัง Hugging Face Jobs"
-      },
-      "summary": {
-        "en": "Migrating Your GitHub CI to Hugging Face Jobs",
-        "th": "ย้าย GitHub CI ของคุณไปยัง Hugging Face Jobs"
-      }
-    },
-    {
       "id": "deepmind__measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond",
       "slug": "measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond",
       "source": "deepmind",
@@ -2566,40 +2600,6 @@
       "summary": {
         "en": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
         "th": "Google DeepMind ร่วมมือกับที่ปรึกษาระดับโลกเพื่อนำพลังของ Frontier AI มาสู่องค์กรต่างๆ ทั่วโลก"
-      }
-    },
-    {
-      "id": "deepmind__gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech",
-      "slug": "gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
-      "category": "News",
-      "date": "2026-04-15T16:03:19.000Z",
-      "image": "https://lh3.googleusercontent.com/O9K0a0MXOACPhUzvThQiyTaWdZ95b_hS-foyHQcYMiCQCB5HKoBXYGyEjnsqcQEjHYjwfNVyqg4Ipk0G-fLiP9hd6JfbD9S-jx7ndLgImfZankCY-9I=w528-h297-n-nu-rw-lo",
-      "title": {
-        "en": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
-        "th": "Gemini 3.1 Flash TTS: เจเนอเรชั่นถัดไปของคำพูด AI ที่แสดงออก"
-      },
-      "summary": {
-        "en": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.",
-        "th": "โมเดลเสียงใหม่ล่าสุดของเราแนะนำแท็กเสียงแบบละเอียดที่ให้คุณควบคุมได้อย่างแม่นยำเพื่อกำหนดทิศทางคำพูดของ AI สำหรับการสร้างเสียงที่แสดงออก"
-      }
-    },
-    {
-      "id": "deepmind__gemini-robotics-er-1-6",
-      "slug": "gemini-robotics-er-1-6",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
-      "category": "News",
-      "date": "2026-04-13T15:52:13.000Z",
-      "image": "https://lh3.googleusercontent.com/bQ5TgF2iHJq48mxL5ZVxz3KGmIhOj7c62H7WEWrHqIWGrMexTYoqtrAhF8z12ESUeAj4miWZrHKF-SpMkXG3VVqNtzfJDBULlkMZZw06k05QLuHCww=w528-h297-n-nu-rw-lo",
-      "title": {
-        "en": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
-        "th": "Gemini Robotics-ER 1.6: ขับเคลื่อนงานหุ่นยนต์ในโลกแห่งความเป็นจริงผ่านการให้เหตุผลแบบรวบรวมที่ได้รับการปรับปรุง"
-      },
-      "summary": {
-        "en": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.",
-        "th": "Gemini Robotics ER 1.6: การปรับปรุงการใช้เหตุผลเชิงพื้นที่และความเข้าใจหลายมุมมองสำหรับหุ่นยนต์อัตโนมัติ"
       }
     }
   ]

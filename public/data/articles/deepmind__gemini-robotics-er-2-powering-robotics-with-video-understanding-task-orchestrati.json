@@ -1,0 +1,511 @@
+{
+  "id": "deepmind__gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestrati",
+  "slug": "gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestrati",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+  "category": "News",
+  "date": "2026-07-30T15:00:59.000Z",
+  "image": null,
+  "title": {
+    "en": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+    "th": "Gemini Robotics ER 2: ขับเคลื่อนหุ่นยนต์ด้วยความเข้าใจผ่านวิดีโอ การจัดระบบงาน และการทำงานร่วมกันแบบหลายหุ่นยนต์"
+  },
+  "summary": {
+    "en": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+    "th": "Gemini Robotics ER 2 ช่วยให้หุ่นยนต์ให้เหตุผล ทำงานร่วมกัน และแก้ไขงานในโลกแห่งความเป็นจริง ซึ่งแสดงถึงการเปลี่ยนแปลงขั้นตอนในการทำความเข้าใจวิดีโอ การจัดเครื่องมือ และการทำงานร่วมกันหลายหุ่นยนต์สำหรับแอปพลิเคชันหุ่นยนต์"
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "นวัตกรรมและเอไอ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Models & research",
+        "th": "แบบจำลองและการวิจัย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Google DeepMind",
+        "th": "Google Deep Mind"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jul 30, 2026",
+        "th": "30 ก.ค. 2569"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Robotics ER 2 represents a step change in powering robots with video understanding, task orchestration, and multi-robot collaboration — making it possible for robots to be more helpful in the physical world.",
+        "th": "Gemini Robotics ER 2 แสดงถึงการเปลี่ยนแปลงอีกขั้นในการขับเคลื่อนหุ่นยนต์ด้วยการทำความเข้าใจวิดีโอ การเตรียมงาน และการทำงานร่วมกันหลายหุ่นยนต์ ทำให้หุ่นยนต์มีประโยชน์มากขึ้นในโลกทางกายภาพ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Steven Hansen",
+        "th": "สตีเว่น แฮนเซ่น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Senior Staff Software Engineer",
+        "th": "วิศวกรซอฟต์แวร์พนักงานอาวุโส"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Peng Xu",
+        "th": "เผิง ซู"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Staff Software Engineer",
+        "th": "พนักงานวิศวกรซอฟต์แวร์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-robotics-2__blog__cover.width-200.format-webp.webp",
+      "alt": "Two robots: Duo and Apollo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are launching Gemini Robotics ER 2, a new model designed to act as a high-level brain for robots. It enables real-time spatial reasoning, multi-step task planning, and collaboration between different robots. You can access the model now via the Gemini API, Google AI Studio, or the Gemini Enterprise Agent Platform to start building your own physical AI agents.",
+        "th": "เรากำลังเปิดตัว Gemini Robotics ER 2 โมเดลใหม่ที่ออกแบบมาเพื่อทำหน้าที่เป็นสมองระดับสูงสำหรับหุ่นยนต์ ช่วยให้สามารถให้เหตุผลเชิงพื้นที่แบบเรียลไทม์ การวางแผนงานหลายขั้นตอน และการทำงานร่วมกันระหว่างหุ่นยนต์ต่างๆ คุณสามารถเข้าถึงโมเดลได้ทันทีผ่าน Gemini API, Google AI Studio หรือ Gemini Enterprise Agent Platform เพื่อเริ่มสร้างตัวแทน AI ทางกายภาพของคุณเอง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Google just launched Gemini Robotics ER 2, which acts like a smart brain for robots. It helps them think quickly, plan multi-step tasks and even work together with other robots. The model lets robots watch video feeds to track their own progress and fix mistakes in real time. It’s designed to make robots safer and more helpful in the real world.",
+        "th": "Google เพิ่งเปิดตัว Gemini Robotics ER 2 ซึ่งทำหน้าที่เหมือนสมองอัจฉริยะสำหรับหุ่นยนต์ ช่วยให้พวกเขาคิดได้อย่างรวดเร็ว วางแผนงานหลายขั้นตอน และแม้แต่ทำงานร่วมกับหุ่นยนต์ตัวอื่นๆ ได้ โมเดลดังกล่าวช่วยให้หุ่นยนต์ดูวิดีโอฟีดเพื่อติดตามความคืบหน้าของตนเองและแก้ไขข้อผิดพลาดแบบเรียลไทม์ ได้รับการออกแบบมาเพื่อให้หุ่นยนต์ปลอดภัยและมีประโยชน์มากขึ้นในโลกแห่งความเป็นจริง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "General summary",
+        "th": "สรุปทั่วไป"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Basic explainer",
+        "th": "ผู้อธิบายขั้นพื้นฐาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For robots to assist humans in everyday environments, accurate spatial reasoning is not enough. Robots must also think fast, timing their decisions and reasoning with the real-time speed of the physical world.",
+        "th": "สำหรับหุ่นยนต์ที่จะช่วยเหลือมนุษย์ในสภาพแวดล้อมในชีวิตประจำวัน การใช้เหตุผลเชิงพื้นที่ที่แม่นยำนั้นไม่เพียงพอ หุ่นยนต์ยังต้องคิดอย่างรวดเร็ว กำหนดเวลาการตัดสินใจ และการใช้เหตุผลด้วยความเร็วแบบเรียลไทม์ของโลกทางกายภาพ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That’s why today we’re launching Gemini Robotics ER 2, our most capable “embodied reasoning” model for robotics. Think of Gemini Robotics ER 2 as a high-level brain for robots. It allows robots to chat with humans, understand the physical world, and plan multi-step tasks. It then hands off motor execution to any given lower level vision-language-action (VLA) model. Gemini Robotics ER 2 can also natively call tools like Google Search to find information, or any other user-defined function. The design of Gemini Robotics ER 2 allows the robot to “think” about what comes next while simultaneously performing its actions.",
+        "th": "นั่นเป็นเหตุผลว่าทำไมวันนี้เราจึงเปิดตัว Gemini Robotics ER 2 ซึ่งเป็นโมเดล \"การให้เหตุผลแบบรวม\" ที่มีความสามารถมากที่สุดสำหรับหุ่นยนต์ คิดว่า Gemini Robotics ER 2 เป็นสมองระดับสูงสำหรับหุ่นยนต์ ช่วยให้หุ่นยนต์สามารถสนทนากับมนุษย์ เข้าใจโลกทางกายภาพ และวางแผนงานหลายขั้นตอนได้ จากนั้นจะส่งมอบการทำงานของมอเตอร์ให้กับโมเดลการมองเห็น-ภาษา-การกระทำ (VLA) ระดับต่ำกว่าที่กำหนด Gemini Robotics ER 2 ยังสามารถเรียกใช้เครื่องมือต่างๆ เช่น Google Search เพื่อค้นหาข้อมูล หรือฟังก์ชันอื่นๆ ที่ผู้ใช้กำหนดได้ การออกแบบ Gemini Robotics ER 2 ช่วยให้หุ่นยนต์ \"คิด\" เกี่ยวกับสิ่งที่จะเกิดขึ้นต่อไปในขณะที่ดำเนินการไปพร้อมๆ กัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Robotics ER 2 represents a significant upgrade over Gemini Robotics ER 1.6. By watching continuous video feeds, robots can now track their own progress, adapt if something goes wrong, and know exactly when to move on to the next step. We are also introducing multi-robot collaboration, enabling robots to work together in shared spaces and complete complex workflows a single robot could not do alone.",
+        "th": "Gemini Robotics ER 2 แสดงให้เห็นถึงการอัปเกรดที่สำคัญเหนือ Gemini Robotics ER 1.6 ด้วยการดูฟีดวิดีโออย่างต่อเนื่อง ตอนนี้หุ่นยนต์สามารถติดตามความคืบหน้าของตนเอง ปรับตัวหากมีสิ่งผิดปกติเกิดขึ้น และรู้ได้อย่างชัดเจนว่าเมื่อใดจะต้องไปยังขั้นตอนต่อไป นอกจากนี้เรายังแนะนำการทำงานร่วมกันแบบหลายหุ่นยนต์ ซึ่งช่วยให้หุ่นยนต์สามารถทำงานร่วมกันในพื้นที่ที่ใช้ร่วมกัน และดำเนินการขั้นตอนการทำงานที่ซับซ้อนซึ่งหุ่นยนต์ตัวเดียวไม่สามารถทำได้โดยลำพัง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Robotics ER 2 is now publicly available to developers via the Gemini API, Google AI Studio, and in private preview on Gemini Enterprise Agent Platform. To help you get started, we’re sharing examples of how to configure the model and prompt it to power more useful physical AI tasks.",
+        "th": "ขณะนี้ Gemini Robotics ER 2 เปิดให้นักพัฒนาทั่วไปใช้งานได้ผ่าน Gemini API, Google AI Studio และในรูปแบบตัวอย่างส่วนตัวบน Gemini Enterprise Agent Platform เพื่อช่วยคุณในการเริ่มต้น เรากำลังแบ่งปันตัวอย่างวิธีกำหนดค่าโมเดลและแจ้งให้ขับเคลื่อนงาน AI ทางกายภาพที่มีประโยชน์มากขึ้น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Advancing physical agentic capabilities",
+        "th": "การพัฒนาความสามารถทางกายภาพเอเจนต์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Most tasks in the physical world are complex and require multiple steps to complete. Gemini Robotics ER 2 is a physical agent, orchestrating steps for the robot and enabling it to self-correct, and generalize to more novel situations. To build an agentic setup, developers can declare low-level control interfaces — like Vision-Language-Action (VLA) models or navigation APIs — as tools, and stream multimodal video, audio, or text directly into the model.",
+        "th": "งานส่วนใหญ่ในโลกทางกายภาพมีความซับซ้อนและต้องใช้หลายขั้นตอนจึงจะเสร็จสมบูรณ์ Gemini Robotics ER 2 เป็นตัวแทนทางกายภาพ ทำหน้าที่จัดขั้นตอนสำหรับหุ่นยนต์และทำให้หุ่นยนต์สามารถแก้ไขตัวเอง และสรุปสถานการณ์ใหม่ๆ ได้ ในการสร้างการตั้งค่าแบบตัวแทน นักพัฒนาสามารถประกาศอินเทอร์เฟซการควบคุมระดับต่ำ เช่น โมเดล Vision-Language-Action (VLA) หรือ API การนำทาง เป็นเครื่องมือ และสตรีมวิดีโอ เสียง หรือข้อความหลายรูปแบบลงในโมเดลได้โดยตรง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Robotics ER 2 improves this tool orchestration workflow. We can evaluate its performance with robots in simulation, using real-world robot control, and even pair it with a human controlling the robot remotely.",
+        "th": "Gemini Robotics ER 2 ปรับปรุงเวิร์กโฟลว์การจัดการเครื่องมือนี้ เราสามารถประเมินประสิทธิภาพกับหุ่นยนต์ในการจำลอง โดยใช้การควบคุมหุ่นยนต์ในโลกแห่งความเป็นจริง และแม้แต่จับคู่กับมนุษย์ที่ควบคุมหุ่นยนต์จากระยะไกล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Robotics ER 2 consistently outperforms ER 1.6 for tool orchestration across three control modes: real VLA, sim VLA, and human tele-op.",
+        "th": "Gemini Robotics ER 2 มีประสิทธิภาพเหนือกว่า ER 1.6 อย่างสม่ำเสมอสำหรับการจัดวางเครื่องมือในโหมดควบคุมสามโหมด: VLA จริง, Sim VLA และการดำเนินการระยะไกลของมนุษย์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Physical_agent_performance_Chart.width-1200.format-webp.webp",
+      "alt": "Chart comparing physical agent performance of Gemini Robotics ER 1.6 and Gemini Robotics ER 2"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In robotics, high-level reasoning depends on execution speed. Gemini Robotics ER 2 integrates into the Gemini Live API, using a bidirectional streaming endpoint optimized for latency-sensitive tasks. The result is fluid orchestration: Gemini Robotics ER 2 commands action models and robotics APIs to complete multi-step tasks without the jarring “stop-and-think” pauses.To illustrate this, we’ve built a demo with Spot from our partners at Boston Dynamics. We use Gemini Robotics ER 2 to orchestrate Spot APIs, such as navigation and manipulator movement, creating an interactive robot that fetches objects for you.",
+        "th": "ในวิทยาการหุ่นยนต์ การใช้เหตุผลระดับสูงขึ้นอยู่กับความเร็วในการดำเนินการ Gemini Robotics ER 2 ผสานรวมเข้ากับ Gemini Live API โดยใช้จุดสิ้นสุดการสตรีมแบบสองทิศทางที่ปรับให้เหมาะกับงานที่ไวต่อความหน่วง ผลลัพธ์ที่ได้คือการจัดการที่ลื่นไหล: Gemini Robotics ER 2 สั่งงานโมเดลการดำเนินการและ API ของหุ่นยนต์เพื่อทำงานหลายขั้นตอนให้เสร็จสิ้นโดยไม่ต้อง \"หยุดและคิด\" ที่สั่นสะเทือน เพื่อแสดงให้เห็นสิ่งนี้ เราได้สร้างการสาธิตกับ Spot จากพันธมิตรของเราที่ Boston Dynamics เราใช้ Gemini Robotics ER 2 เพื่อประสาน Spot API เช่น การนำทางและการเคลื่อนไหวของตัวจัดการ สร้างหุ่นยนต์เชิงโต้ตอบที่ดึงวัตถุมาให้คุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Robotics ER 2 powered Boston Dynamic Spot fetches a popcorn snack up on a natural language command.",
+        "th": "Boston Dynamic Spot ที่ขับเคลื่อนโดย Gemini Robotics ER 2 หยิบป๊อปคอร์นขึ้นมาด้วยคำสั่งภาษาธรรมชาติ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The code is available on Github with other examples.",
+        "th": "รหัสมีอยู่ใน Github พร้อมตัวอย่างอื่นๆ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Unlocking temporal intelligence for robust task completion",
+        "th": "ปลดล็อกสติปัญญาชั่วคราวเพื่อความสำเร็จของงานที่แข็งแกร่ง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One of robotics’ hardest challenges is knowing when a task is done. Gemini Robotics ER 2 brings a step-change in video understanding and progress tracking to verify that complex tasks — such as tightening a light bulb or tying a trash bag — are complete to specification before switching to the next task.",
+        "th": "หนึ่งในความท้าทายที่ยากที่สุดของวิทยาการหุ่นยนต์คือการรู้ว่าเมื่อใดงานหนึ่งเสร็จสิ้น Gemini Robotics ER 2 นำเสนอการเปลี่ยนแปลงขั้นตอนในการทำความเข้าใจวิดีโอและการติดตามความคืบหน้าเพื่อตรวจสอบว่างานที่ซับซ้อน เช่น การกระชับหลอดไฟหรือการผูกถุงขยะ เป็นไปตามข้อกำหนดก่อนที่จะสลับไปงานถัดไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In this update, we’ve made progress on two foundational capabilities for task progress understanding: progress classification and moment finding.",
+        "th": "ในการอัปเดตนี้ เราได้ดำเนินการเกี่ยวกับความสามารถพื้นฐานสองประการสำหรับการทำความเข้าใจความคืบหน้าของงาน: การจำแนกความคืบหน้าและการค้นหาช่วงเวลา"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Continuous progress classification",
+        "th": "การจำแนกความก้าวหน้าอย่างต่อเนื่อง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Progress classification refers to a robot’s ability to track progress towards task completion. In our evaluations, we assign each frame in a video feed into five levels of progress (0-20%, 20-40%, 40-60%, 60-80%, 80-100%). By quantifying task progress, Gemini Robotics ER 2 provides robots with real-time situational awareness, and allows them to adjust actions on the fly or retry failed steps without restarting an entire workflow.",
+        "th": "การจำแนกความก้าวหน้าหมายถึงความสามารถของหุ่นยนต์ในการติดตามความคืบหน้าไปสู่ความสำเร็จของงาน ในการประเมินของเรา เรากำหนดแต่ละเฟรมในฟีดวิดีโอออกเป็นห้าระดับของความคืบหน้า (0-20%, 20-40%, 40-60%, 60-80%, 80-100%) ด้วยการระบุปริมาณความคืบหน้าของงาน Gemini Robotics ER 2 ช่วยให้หุ่นยนต์รับรู้สถานการณ์แบบเรียลไทม์ และช่วยให้หุ่นยนต์สามารถปรับการกระทำได้ทันทีหรือลองขั้นตอนที่ล้มเหลวอีกครั้งโดยไม่ต้องรีสตาร์ทขั้นตอนการทำงานทั้งหมด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Robotics ER 2 achieves 57.4% accuracy on progress classification tasks, outperforming previous generation models and competing frontier models.",
+        "th": "Gemini Robotics ER 2 มีความแม่นยำ 57.4% ในงานจำแนกความคืบหน้า ซึ่งเหนือกว่ารุ่นก่อนหน้าและรุ่นชายแดนที่แข่งขันกัน"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Progress_Classification_Comparis.width-1200.format-webp.webp",
+      "alt": "Chart comparing progress classification of different robots"
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Precision moment-finding",
+        "th": "การค้นหาช่วงเวลาที่แม่นยำ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Moment-finding measures a model's ability to identify the exact video frame where a critical event takes place (i.e. when to stop pouring coffee into a cup). Gemini Robotics ER 2 achieves significant gains in performance on moment finding, enabling robots to precisely switch between tasks, verify success and suggest corrections.",
+        "th": "การค้นหาช่วงเวลาจะวัดความสามารถของโมเดลในการระบุเฟรมวิดีโอที่แน่นอนที่เกิดเหตุการณ์สำคัญเกิดขึ้น (เช่น เมื่อใดที่ควรหยุดเทกาแฟลงในถ้วย) Gemini Robotics ER 2 มีประสิทธิภาพเพิ่มขึ้นอย่างมากในการค้นหาช่วงเวลา ทำให้หุ่นยนต์สามารถสลับระหว่างงานต่างๆ ได้อย่างแม่นยำ ตรวจสอบความสำเร็จ และเสนอแนะการแก้ไข"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For moment-finding tasks, Gemini Robotics ER 2 achieves 91.3% accuracy and a 0.96s mean absolute distance. It competes closely with much larger model categories, but delivers this precision at a fraction of the compute cost and 4x the execution speed—the sub-second latency actually required to safely operate physical robotics in the real world.",
+        "th": "สำหรับงานค้นหาช่วงเวลา Gemini Robotics ER 2 มีความแม่นยำ 91.3% และระยะเฉลี่ยสัมบูรณ์ 0.96 วินาที โดยสามารถแข่งขันอย่างใกล้ชิดกับประเภทโมเดลที่ใหญ่กว่ามาก แต่ให้ความแม่นยำนี้ด้วยต้นทุนการประมวลผลเพียงเล็กน้อยและความเร็วในการดำเนินการถึง 4 เท่า ซึ่งเป็นเวลาแฝงที่ต่ำกว่าวินาทีที่จำเป็นจริงๆ ในการทำงานหุ่นยนต์ทางกายภาพอย่างปลอดภัยในโลกแห่งความเป็นจริง"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Moment_finding__accuracy_vs_dist.width-1200.format-webp.webp",
+      "alt": "Graph of Moment finding: Accuracy vs distance"
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Multi-robot collaboration",
+        "th": "การทำงานร่วมกันหลายหุ่นยนต์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "No single robot fits every task — a wheeled rover excels indoors, while a humanoid robot may excel at uneven terrain. Gemini Robotics 2 enables multi-robot collaboration, allowing diverse machines to communicate via a shared semantic understanding to handoff and complete complex tasks. See how Gemini Robotics ER 2 enables Apptronik’s Apollo 2 and Franka F3 Duo to collaborate here.",
+        "th": "ไม่มีหุ่นยนต์ตัวใดที่เหมาะกับทุกงาน รถแลนด์โรเวอร์แบบมีล้อจะเก่งในอาคาร ในขณะที่หุ่นยนต์ฮิวแมนนอยด์อาจเก่งในภูมิประเทศที่ไม่เรียบ Gemini Robotics 2 ช่วยให้สามารถทำงานร่วมกันได้หลายหุ่นยนต์ ช่วยให้เครื่องจักรที่หลากหลายสามารถสื่อสารผ่านความเข้าใจเชิงความหมายที่ใช้ร่วมกันเพื่อส่งมอบและทำงานที่ซับซ้อนให้เสร็จสิ้น ดูว่า Gemini Robotics ER 2 ช่วยให้ Apollo 2 และ Franka F3 Duo ของ Apptronik สามารถทำงานร่วมกันได้ที่นี่ได้อย่างไร"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Improving general spatial intelligence",
+        "th": "การปรับปรุงความฉลาดเชิงพื้นที่ทั่วไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Robotics ER 2 advances our core spatial reasoning capability, as measured by three benchmarks:",
+        "th": "Gemini Robotics ER 2 พัฒนาความสามารถในการให้เหตุผลเชิงพื้นที่หลักของเรา โดยวัดจากเกณฑ์มาตรฐานสามประการ:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Success/failure detection: Now operates on raw video feeds rather than static snapshots to catch mid-execution failures like spills, slips, or misalignments.",
+        "th": "การตรวจจับความสำเร็จ/ความล้มเหลว: ขณะนี้ทำงานบนฟีดวิดีโอดิบ แทนที่จะเป็นสแน็ปช็อตแบบคงที่ เพื่อตรวจจับความล้มเหลวระหว่างการดำเนินการ เช่น การหก การสลิป หรือการวางแนวที่ไม่ตรง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "General instrument reading: Extends beyond circular dials and sight glasses to include digital displays, linear scales, rulers, and liquid thermometers. We tested it across 10 different types of instruments.",
+        "th": "การอ่านค่าเครื่องมือทั่วไป: ขยายขอบเขตไปไกลกว่าหน้าปัดทรงกลมและแว่นสายตา ซึ่งรวมถึงจอแสดงผลดิจิทัล สเกลเชิงเส้น ไม้บรรทัด และเครื่องวัดอุณหภูมิของเหลว เราทดสอบกับเครื่องมือประเภทต่างๆ 10 ประเภท"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Enhanced spatial VQA: Improves Visual Question Answering throughGemini’s advancements in multi-modal understanding.",
+        "th": "VQA เชิงพื้นที่ที่ได้รับการปรับปรุง: ปรับปรุงการตอบคำถามด้วยภาพผ่านความก้าวหน้าของ Gemini ในการทำความเข้าใจหลายรูปแบบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Robotics ER 2 consistently achieves the highest accuracy across all core capabilities, with highlights including success detection (image/video), Question Answering (ERQA), and generalized instrument reading.",
+        "th": "Gemini Robotics ER 2 บรรลุความแม่นยำสูงสุดอย่างต่อเนื่องในทุกความสามารถหลัก โดยมีไฮไลต์ต่างๆ เช่น การตรวจจับความสำเร็จ (รูปภาพ/วิดีโอ) การตอบคำถาม (ERQA) และการอ่านเครื่องมือทั่วไป"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ER_metrics_comparison_Chart.width-1200.format-webp.webp",
+      "alt": "Comparison fo ER metrics of different robots"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Advancing safety for embodied intelligence",
+        "th": "ความปลอดภัยที่ก้าวหน้าสำหรับหน่วยสืบราชการลับที่เป็นตัวเป็นตน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Robotics ER 2 is our safest model, achieving significant gains on Safety Instruction Following and Human Proximity benchmarks, which evaluate how a model adheres to physical constraints during reasoning tasks and spatial awareness for detecting humans. We found that Gemini Robotics ER 2 successfully halts a humanoid robot when a person is nearby and autonomously resumes work only once the area is clear. To advance safety for physical agents, we’re introducing a benchmark that evaluates a foundation model's ability to act as a safe VLA orchestrator by testing its capacity to enforce safety constraints, monitor the environment, assess physical feasibility, and seek human clarification. For details, see our safety technical report.",
+        "th": "Gemini Robotics ER 2 เป็นโมเดลที่ปลอดภัยที่สุดของเรา ซึ่งได้รับผลประโยชน์อย่างมากจากการปฏิบัติตามคำสั่งด้านความปลอดภัยและเกณฑ์มาตรฐานการวัดระยะใกล้เคียงของมนุษย์ ซึ่งประเมินว่าแบบจำลองปฏิบัติตามข้อจำกัดทางกายภาพในระหว่างการให้เหตุผลและความตระหนักรู้เชิงพื้นที่ในการตรวจจับมนุษย์อย่างไร เราพบว่า Gemini Robotics ER 2 สามารถหยุดหุ่นยนต์ฮิวแมนนอยด์ได้สำเร็จเมื่อมีบุคคลอยู่ใกล้ๆ และกลับมาทำงานต่อโดยอัตโนมัติเมื่อพื้นที่ชัดเจนเท่านั้น เพื่อเพิ่มความปลอดภัยให้กับตัวแทนทางกายภาพ เรากำลังเปิดตัวเกณฑ์มาตรฐานที่ประเมินความสามารถของแบบจำลองพื้นฐานในการทำหน้าที่เป็นผู้ควบคุม VLA ที่ปลอดภัย โดยการทดสอบความสามารถในการบังคับใช้ข้อจำกัดด้านความปลอดภัย ตรวจสอบสภาพแวดล้อม ประเมินความเป็นไปได้ทางกายภาพ และแสวงหาคำชี้แจงจากมนุษย์ สำหรับรายละเอียด โปรดดูรายงานทางเทคนิคด้านความปลอดภัยของเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Robotics ER 2 outperforms ER 1.6 and other frontier models on Safety Instruction Following and Human Proximity benchmarks.",
+        "th": "Gemini Robotics ER 2 มีประสิทธิภาพเหนือกว่า ER 1.6 และโมเดลระดับแนวหน้าอื่นๆ ในเรื่องการวัดผลการปฏิบัติตามคำสั่งด้านความปลอดภัยและเกณฑ์มาตรฐานการวัดระยะห่างของมนุษย์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Safety_Performance_light_-_Chart.width-1200.format-webp.webp",
+      "alt": "Comparison of safety performance of different robots"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Looking ahead, our plans are to push these models towards even more complex tasks to accelerate the development of helpful robots and support the robotics community.",
+        "th": "เมื่อมองไปข้างหน้า แผนของเราคือการผลักดันโมเดลเหล่านี้ไปสู่งานที่ซับซ้อนยิ่งขึ้น เพื่อเร่งการพัฒนาหุ่นยนต์ที่มีประโยชน์และสนับสนุนชุมชนหุ่นยนต์"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get the latest news from Google in your inbox",
+        "th": "รับข่าวสารล่าสุดจาก Google ในกล่องจดหมายของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sign up for our newsletters with product updates, event information, special offers, and more.",
+        "th": "ลงทะเบียนรับจดหมายข่าวของเราพร้อมข้อมูลอัปเดตผลิตภัณฑ์ ข้อมูลกิจกรรม ข้อเสนอพิเศษ และอื่นๆ อีกมากมาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Done. Just one step more.",
+        "th": "เสร็จแล้ว. อีกเพียงก้าวเดียวเท่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check your inbox to confirm your subscription.",
+        "th": "ตรวจสอบกล่องจดหมายของคุณเพื่อยืนยันการสมัครของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also subscribe with a different email address.",
+        "th": "คุณสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your information will be used in accordance with Google's privacy policy. You may opt out at any time.",
+        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google คุณสามารถเลือกไม่รับได้ตลอดเวลา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Google DeepMind",
+        "th": "Google Deep Mind"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini models",
+        "th": "โมเดลราศีเมถุน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Developer tools",
+        "th": "เครื่องมือสำหรับนักพัฒนา"
+      }
+    }
+  ]
+}

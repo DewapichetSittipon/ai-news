@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T22:54:41.120Z",
+  "generatedAt": "2026-07-30T01:46:06.741Z",
   "items": [
     {
       "id": "deepmind__were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyr",
@@ -16,6 +16,23 @@
       "summary": {
         "en": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
         "th": "เรากำลังเปิดตัว Lyria 3.5 ใน Google Flow Music พร้อมด้วยความก้าวหน้าในด้านดนตรี เนื้อเพลง เสียงร้อง และการควบคุมที่สร้างสรรค์"
+      }
+    },
+    {
+      "id": "openai__how-two-settings-tripled-our-arc-agi-3-scores",
+      "slug": "how-two-settings-tripled-our-arc-agi-3-scores",
+      "source": "openai",
+      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "category": "Research",
+      "date": "2026-07-29T15:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+        "th": "การเปิดใช้งานการตั้งค่าสองแบบทำให้คะแนนของเราเพิ่มขึ้นสามเท่าในการวัดประสิทธิภาพ ARC-AGI-3"
+      },
+      "summary": {
+        "en": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+        "th": "การตั้งค่า API สองรายการปรับปรุงประสิทธิภาพ GPT-5.6 บน ARC-AGI-3 ได้อย่างไร เพิ่มคะแนนและประสิทธิภาพโดยการรักษาเหตุผลและเปิดใช้งานการบีบอัด"
       }
     },
     {
@@ -903,23 +920,6 @@
       }
     },
     {
-      "id": "openai__how-data-science-teams-use-codex",
-      "slug": "how-data-science-teams-use-codex",
-      "source": "openai",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "category": "OpenAI Academy",
-      "date": "2026-07-14T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How data science teams use ChatGPT Work",
-        "th": "ทีมวิทยาศาสตร์ข้อมูลใช้งาน ChatGPT อย่างไร"
-      },
-      "summary": {
-        "en": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-        "th": "ดูว่าทีมวิทยาศาสตร์ข้อมูลสามารถใช้ ChatGPT Work เพื่อสร้างบทสรุปที่ต้นตอ การอ่านผลกระทบ บันทึก KPI การวิเคราะห์แบบกำหนดขอบเขต และข้อมูลจำเพาะของแดชบอร์ดจากอินพุตงานจริงได้อย่างไร"
-      }
-    },
-    {
       "id": "openai__how-sales-teams-use-codex",
       "slug": "how-sales-teams-use-codex",
       "source": "openai",
@@ -934,6 +934,23 @@
       "summary": {
         "en": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
         "th": "ดูว่าทีมขายสามารถใช้ ChatGPT Work เพื่อสร้างบทสรุปไปป์ไลน์ แพคเกจการเตรียมการประชุม การตรวจสอบการคาดการณ์ แผนบัญชี และการวินิจฉัยข้อตกลงที่หยุดชะงักจากอินพุตงานจริงได้อย่างไร"
+      }
+    },
+    {
+      "id": "openai__how-data-science-teams-use-codex",
+      "slug": "how-data-science-teams-use-codex",
+      "source": "openai",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "category": "OpenAI Academy",
+      "date": "2026-07-14T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How data science teams use ChatGPT Work",
+        "th": "ทีมวิทยาศาสตร์ข้อมูลใช้งาน ChatGPT อย่างไร"
+      },
+      "summary": {
+        "en": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+        "th": "ดูว่าทีมวิทยาศาสตร์ข้อมูลสามารถใช้ ChatGPT Work เพื่อสร้างบทสรุปที่ต้นตอ การอ่านผลกระทบ บันทึก KPI การวิเคราะห์แบบกำหนดขอบเขต และข้อมูลจำเพาะของแดชบอร์ดจากอินพุตงานจริงได้อย่างไร"
       }
     },
     {
@@ -1039,23 +1056,6 @@
       }
     },
     {
-      "id": "openai__gpt-5-6",
-      "slug": "gpt-5-6",
-      "source": "openai",
-      "url": "https://openai.com/index/gpt-5-6",
-      "category": "Product",
-      "date": "2026-07-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "GPT-5.6: Frontier intelligence that scales with your ambition",
-        "th": "GPT-5.6: ความฉลาดระดับแนวหน้าที่จะปรับขนาดตามความทะเยอทะยานของคุณ"
-      },
-      "summary": {
-        "en": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-        "th": "ความชาญฉลาดที่มากขึ้นจากทุกโทเค็น ประสิทธิภาพที่แข็งแกร่งต่อดอลลาร์ และความสามารถที่มากขึ้นตามความต้องการสำหรับงานที่หนักที่สุดของคุณ"
-      }
-    },
-    {
       "id": "openai__chatgpt-for-your-most-ambitious-work",
       "slug": "chatgpt-for-your-most-ambitious-work",
       "source": "openai",
@@ -1070,6 +1070,23 @@
       "summary": {
         "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
         "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
+      }
+    },
+    {
+      "id": "openai__gpt-5-6",
+      "slug": "gpt-5-6",
+      "source": "openai",
+      "url": "https://openai.com/index/gpt-5-6",
+      "category": "Product",
+      "date": "2026-07-09T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "GPT-5.6: Frontier intelligence that scales with your ambition",
+        "th": "GPT-5.6: ความฉลาดระดับแนวหน้าที่จะปรับขนาดตามความทะเยอทะยานของคุณ"
+      },
+      "summary": {
+        "en": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+        "th": "ความชาญฉลาดที่มากขึ้นจากทุกโทเค็น ประสิทธิภาพที่แข็งแกร่งต่อดอลลาร์ และความสามารถที่มากขึ้นตามความต้องการสำหรับงานที่หนักที่สุดของคุณ"
       }
     },
     {
@@ -1631,23 +1648,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp\">A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundati",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp\">ผู้เชี่ยวชาญของ Google อธิบายว่าการใช้แนวทาง AI แบบฟูลสแตกหมายความว่าอย่างไร และเหตุใดจึงเป็นรากฐาน"
-      }
-    },
-    {
-      "id": "openai__mapping-ai-jobs-transition-eu",
-      "slug": "mapping-ai-jobs-transition-eu",
-      "source": "openai",
-      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-      "category": "Global Affairs",
-      "date": "2026-06-29T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Mapping Europe’s AI Workforce Opportunity",
-        "th": "จัดทำแผนที่โอกาสด้านแรงงาน AI ของยุโรป"
-      },
-      "summary": {
-        "en": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
-        "th": "รายงาน OpenAI ใหม่จะแมปว่า AI สามารถปรับเปลี่ยนงานทั่วทั้งสหภาพยุโรปได้อย่างไร โดยเน้นว่าอาชีพใดที่อาจเผชิญกับระบบอัตโนมัติ การเติบโต หรือการเปลี่ยนแปลงขั้นตอนการทำงาน"
       }
     },
     {

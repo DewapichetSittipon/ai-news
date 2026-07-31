@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T20:59:22.807Z",
+  "generatedAt": "2026-07-31T02:03:41.193Z",
   "items": [
     {
       "id": "huggingface__gpu-management",
@@ -50,6 +50,40 @@
       "summary": {
         "en": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
         "th": "สำรวจราคา GPT‑5.6 ที่ต่ำกว่าสำหรับ Luna และ Terra—และวิธีที่โมเดลที่มีประสิทธิภาพมากขึ้นของ OpenAI ช่วยให้องค์กรปรับใช้เวิร์กโฟลว์ AI ในวงกว้างได้อย่างไร"
+      }
+    },
+    {
+      "id": "anthropic__investigating-incidents-cybersecurity-evals",
+      "slug": "investigating-incidents-cybersecurity-evals",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "category": "News",
+      "date": "2026-07-30T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Lock&backgroundColor=heather",
+      "title": {
+        "en": "Investigating three real-world incidents in our cybersecurity evaluations",
+        "th": "การตรวจสอบเหตุการณ์ในโลกแห่งความเป็นจริงสามเหตุการณ์ในการประเมินความปลอดภัยทางไซเบอร์ของเรา"
+      },
+      "summary": {
+        "en": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.  Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to perform similar reviews.",
+        "th": "ในการทบทวนสำเนาผลการประเมินความปลอดภัยทางไซเบอร์ของเรา เราพบเหตุการณ์ 3 เหตุการณ์ที่แบบจำลองของ Claude เข้าถึงอินเทอร์เน็ตจากภายในหรือขณะโต้ตอบกับสภาพแวดล้อมการประเมินของบุคคลที่สาม จากนั้นได้รับการเข้าถึงระบบจริงขององค์กรที่แตกต่างกันสามแห่งโดยไม่ได้รับอนุญาต  ด้านล่างเราจะอธิบายสิ่งที่เกิดขึ้น เกิดขึ้นได้อย่างไร และสิ่งที่เรากำลังเปลี่ยนแปลง เราสนับสนุนให้ห้องปฏิบัติการ AI อื่นๆ ดำเนินการตรวจสอบที่คล้ายกัน"
+      }
+    },
+    {
+      "id": "openai__avatarin",
+      "slug": "avatarin",
+      "source": "openai",
+      "url": "https://openai.com/index/avatarin",
+      "category": "News",
+      "date": "2026-07-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+        "th": "avatarin สร้างตัวแทนค้าปลีกตลอด 24 ชั่วโมงทุกวันด้วย GPT-Realtime ได้อย่างไร"
+      },
+      "summary": {
+        "en": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+        "th": "avatarin ใช้ GPT-Realtime ของ OpenAI เพื่อให้ผู้ซื้อ Yamada Denki ให้การสนับสนุนหลายภาษาตลอด 24 ชั่วโมงทุกวัน ภายในสองสัปดาห์ ผู้คน 30,000 คนใช้ตัวแทน และ 92% ของการตอบแบบสำรวจเป็นบวก"
       }
     },
     {
@@ -1107,20 +1141,20 @@
       }
     },
     {
-      "id": "openai__bio-bug-bounty",
-      "slug": "bio-bug-bounty",
+      "id": "openai__chatgpt-for-your-most-ambitious-work",
+      "slug": "chatgpt-for-your-most-ambitious-work",
       "source": "openai",
-      "url": "https://openai.com/index/bio-bug-bounty",
-      "category": "Safety",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "category": "Product",
       "date": "2026-07-09T10:00:00.000Z",
       "image": null,
       "title": {
-        "en": "GPT-5.5 Bio Bug Bounty",
-        "th": "GPT-5.5 รางวัลแมลงชีวภาพ"
+        "en": "ChatGPT is now a partner for your most ambitious work",
+        "th": "ChatGPT เป็นพันธมิตรสำหรับงานที่ทะเยอทะยานที่สุดของคุณแล้ว"
       },
       "summary": {
-        "en": "Details about the OpenAI Bio Bounty program",
-        "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
+        "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+        "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
       }
     },
     {
@@ -1141,20 +1175,20 @@
       }
     },
     {
-      "id": "openai__chatgpt-for-your-most-ambitious-work",
-      "slug": "chatgpt-for-your-most-ambitious-work",
+      "id": "openai__bio-bug-bounty",
+      "slug": "bio-bug-bounty",
       "source": "openai",
-      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "category": "Product",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "category": "Safety",
       "date": "2026-07-09T10:00:00.000Z",
       "image": null,
       "title": {
-        "en": "ChatGPT is now a partner for your most ambitious work",
-        "th": "ChatGPT เป็นพันธมิตรสำหรับงานที่ทะเยอทะยานที่สุดของคุณแล้ว"
+        "en": "GPT-5.5 Bio Bug Bounty",
+        "th": "GPT-5.5 รางวัลแมลงชีวภาพ"
       },
       "summary": {
-        "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-        "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
+        "en": "Details about the OpenAI Bio Bounty program",
+        "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
       }
     },
     {
@@ -1172,23 +1206,6 @@
       "summary": {
         "en": "We're asking the public for their hardest questions about AI, and committing to show our work as we address them.",
         "th": "เรากำลังขอให้สาธารณชนถามคำถามที่ยากที่สุดเกี่ยวกับ AI และมุ่งมั่นที่จะแสดงผลงานของเราในขณะที่เราพูดคุยกับพวกเขา"
-      }
-    },
-    {
-      "id": "anthropic__ust-claude",
-      "slug": "ust-claude",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/ust-claude",
-      "category": "News",
-      "date": "2026-07-09T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Build&backgroundColor=coral",
-      "title": {
-        "en": "UST is bringing Claude to physical AI",
-        "th": "UST กำลังนำ Claude มาสู่ AI ทางกายภาพ"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
       }
     },
     {
@@ -1328,23 +1345,6 @@
       }
     },
     {
-      "id": "openai__mufg",
-      "slug": "mufg",
-      "source": "openai",
-      "url": "https://openai.com/index/mufg",
-      "category": "News",
-      "date": "2026-07-07T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "MUFG aims to become AI-native with OpenAI",
-        "th": "MUFG ตั้งเป้าที่จะเป็น AI-native ด้วย OpenAI"
-      },
-      "summary": {
-        "en": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-        "th": "MUFG ใช้ ChatGPT Enterprise เพื่อสร้างองค์กรที่ขับเคลื่อนด้วย AI ปรับปรุงขั้นตอนการทำงาน และนำเสนอบริการทางการเงินที่ขับเคลื่อนด้วย AI ในวงกว้าง"
-      }
-    },
-    {
       "id": "openai__australian-payments-plus",
       "slug": "australian-payments-plus",
       "source": "openai",
@@ -1359,6 +1359,23 @@
       "summary": {
         "en": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
         "th": "ดูว่า Australian Payments Plus ใช้ ChatGPT Enterprise และ Codex เพื่อดำเนินการได้เร็วขึ้นผ่านความซับซ้อนในการชำระเงินได้อย่างไร AP+ ช่วยประหยัดเวลา ปรับปรุงคุณภาพ และให้ความสำคัญกับการตัดสินของมนุษย์"
+      }
+    },
+    {
+      "id": "openai__mufg",
+      "slug": "mufg",
+      "source": "openai",
+      "url": "https://openai.com/index/mufg",
+      "category": "News",
+      "date": "2026-07-07T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "MUFG aims to become AI-native with OpenAI",
+        "th": "MUFG ตั้งเป้าที่จะเป็น AI-native ด้วย OpenAI"
+      },
+      "summary": {
+        "en": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+        "th": "MUFG ใช้ ChatGPT Enterprise เพื่อสร้างองค์กรที่ขับเคลื่อนด้วย AI ปรับปรุงขั้นตอนการทำงาน และนำเสนอบริการทางการเงินที่ขับเคลื่อนด้วย AI ในวงกว้าง"
       }
     },
     {
@@ -1617,37 +1634,20 @@
       }
     },
     {
-      "id": "openai__case-studies",
-      "slug": "case-studies",
+      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
+      "slug": "core-dump-epidemiology-data-infrastructure-bug",
       "source": "openai",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
-      "category": "News",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "category": "Engineering",
       "date": "2026-06-30T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
+        "en": "Core dump epidemiology: fixing an 18-year-old bug",
+        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
       },
       "summary": {
-        "en": "Inside Genebench-Pro",
-        "th": "ภายใน Genebench-Pro"
-      }
-    },
-    {
-      "id": "openai__introducing-genebench-pro",
-      "slug": "introducing-genebench-pro",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-genebench-pro",
-      "category": "Research",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing GeneBench-Pro",
-        "th": "ขอแนะนำ GeneBench-Pro"
-      },
-      "summary": {
-        "en": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-        "th": "ขอแนะนำ GeneBench-Pro ซึ่งเป็นเกณฑ์มาตรฐานใหม่ในการทดสอบประสิทธิภาพของ AI ในด้านจีโนมิกส์ ชีววิทยา และการวิจัยทางวิทยาศาสตร์ โดยใช้ชุดข้อมูลที่ซับซ้อนในโลกแห่งความเป็นจริง"
+        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
       }
     },
     {

@@ -1,0 +1,472 @@
+{
+  "id": "anthropic__investigating-incidents-cybersecurity-evals",
+  "slug": "investigating-incidents-cybersecurity-evals",
+  "source": "anthropic",
+  "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+  "category": "News",
+  "date": "2026-07-30T00:00:00.000Z",
+  "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Lock&backgroundColor=heather",
+  "title": {
+    "en": "Investigating three real-world incidents in our cybersecurity evaluations",
+    "th": "การตรวจสอบเหตุการณ์ในโลกแห่งความเป็นจริงสามเหตุการณ์ในการประเมินความปลอดภัยทางไซเบอร์ของเรา"
+  },
+  "summary": {
+    "en": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.  Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to perform similar reviews.",
+    "th": "ในการทบทวนสำเนาผลการประเมินความปลอดภัยทางไซเบอร์ของเรา เราพบเหตุการณ์ 3 เหตุการณ์ที่แบบจำลองของ Claude เข้าถึงอินเทอร์เน็ตจากภายในหรือขณะโต้ตอบกับสภาพแวดล้อมการประเมินของบุคคลที่สาม จากนั้นได้รับการเข้าถึงระบบจริงขององค์กรที่แตกต่างกันสามแห่งโดยไม่ได้รับอนุญาต  ด้านล่างเราจะอธิบายสิ่งที่เกิดขึ้น เกิดขึ้นได้อย่างไร และสิ่งที่เรากำลังเปลี่ยนแปลง เราสนับสนุนให้ห้องปฏิบัติการ AI อื่นๆ ดำเนินการตรวจสอบที่คล้ายกัน"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d3dd09ad16c68461dc3fb01df5e84cf7ccafda6c-1000x1000.svg",
+      "alt": "Investigating three real-world incidents in our cybersecurity evaluations"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.",
+        "th": "ในการทบทวนสำเนาผลการประเมินความปลอดภัยทางไซเบอร์ของเรา เราพบเหตุการณ์ 3 เหตุการณ์ที่แบบจำลองของ Claude เข้าถึงอินเทอร์เน็ตจากภายในหรือขณะโต้ตอบกับสภาพแวดล้อมการประเมินของบุคคลที่สาม จากนั้นได้รับการเข้าถึงระบบจริงขององค์กรที่แตกต่างกันสามแห่งโดยไม่ได้รับอนุญาต"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to perform similar reviews. This post reflects our current understanding; we'll update it if any details change.",
+        "th": "ด้านล่างเราจะอธิบายสิ่งที่เกิดขึ้น เกิดขึ้นได้อย่างไร และสิ่งที่เรากำลังเปลี่ยนแปลง เราสนับสนุนให้ห้องปฏิบัติการ AI อื่นๆ ดำเนินการตรวจสอบที่คล้ายกัน โพสต์นี้สะท้อนถึงความเข้าใจในปัจจุบันของเรา เราจะอัปเดตหากรายละเอียดมีการเปลี่ยนแปลง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On July 21, OpenAI disclosed that several of their models had broken out of an isolated test environment by exploiting a previously unknown (“zero-day”) vulnerability. The models went on to access the production infrastructure of Hugging Face, a platform for open-source machine learning models and AI datasets.",
+        "th": "เมื่อวันที่ 21 กรกฎาคม OpenAI เปิดเผยว่าโมเดลหลายรุ่นได้แยกตัวออกจากสภาพแวดล้อมการทดสอบแบบแยกส่วนโดยใช้ช่องโหว่ (“ศูนย์วัน”) ที่ไม่รู้จักก่อนหน้านี้ โมเดลดังกล่าวได้เข้าถึงโครงสร้างพื้นฐานการผลิตของ Hugging Face ซึ่งเป็นแพลตฟอร์มสำหรับโมเดลการเรียนรู้ของเครื่องจักรแบบโอเพ่นซอร์สและชุดข้อมูล AI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In response to this incident, we began a large-scale retrospective review of our own cybersecurity evaluations. In particular, we looked for evidence that Claude—like the OpenAI models that accessed Hugging Face—was able to access the internet from within testing environments that should have been sealed off.",
+        "th": "เพื่อตอบสนองต่อเหตุการณ์นี้ เราได้เริ่มการทบทวนการประเมินความปลอดภัยทางไซเบอร์ของเราในวงกว้างย้อนหลัง โดยเฉพาะอย่างยิ่ง เรามองหาหลักฐานที่แสดงว่า Claude—เช่นเดียวกับโมเดล OpenAI ที่เข้าถึง Hugging Face—สามารถเข้าถึงอินเทอร์เน็ตจากภายในสภาพแวดล้อมการทดสอบที่ควรปิดผนึกไว้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "After reviewing 141,006 evaluation runs where Claude could have obtained internet access, we identified three incidents in which a model accessed the internet from within or while interacting with the evaluation environment of Irregular, one of our third-party evaluation partners, and then gained unauthorized access to the production infrastructure of three different organizations.",
+        "th": "หลังจากตรวจสอบการดำเนินการประเมิน 141,006 ครั้งซึ่ง Claude สามารถเข้าถึงอินเทอร์เน็ตได้ เราได้ระบุเหตุการณ์สามเหตุการณ์ที่แบบจำลองเข้าถึงอินเทอร์เน็ตจากภายในหรือขณะโต้ตอบกับสภาพแวดล้อมการประเมินของ Irregular ซึ่งเป็นหนึ่งในพันธมิตรการประเมินบุคคลที่สามของเรา จากนั้นได้รับการเข้าถึงโครงสร้างพื้นฐานการผลิตขององค์กรที่แตกต่างกันสามแห่งโดยไม่ได้รับอนุญาต"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In all three incidents, Claude had been tasked with a capture-the-flag challenge, one of the ways we assess a model’s cyber capabilities. The model is given a fictional scenario and told that a piece of secret information (the “flag”) has been hidden on a different machine on the network, and its objective is to break in and retrieve it. The challenge is left open-ended, and no particular method is prescribed.",
+        "th": "ในเหตุการณ์ทั้งสามเหตุการณ์ Claude ได้รับมอบหมายให้ทำภารกิจท้าทายในการยึดธง ซึ่งเป็นหนึ่งในวิธีที่เราประเมินความสามารถทางไซเบอร์ของโมเดล แบบจำลองได้รับสถานการณ์สมมติและได้รับแจ้งว่ามีข้อมูลลับชิ้นหนึ่ง (\"ธง\") ถูกซ่อนอยู่ในเครื่องอื่นบนเครือข่าย และวัตถุประสงค์ของมันคือการเจาะเข้าไปและดึงข้อมูลนั้นกลับคืนมา ความท้าทายเป็นแบบปลายเปิด และไม่มีการกำหนดวิธีการเฉพาะใดๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In all cases, Anthropic’s evaluation prompt specified to Claude that its environment was a simulation and that it had no internet access. Due to a misunderstanding between us and our evaluation partner, this was not the case, and internet access was available. Because of this, when Claude’s search led it to real systems on the open internet, it treated them as part of the exercise. (Cybersecurity evaluation ranges commonly include realistic details in order to accurately assess what models are capable of in real settings; a realistic-looking target would not itself be clear evidence to a model that the target is not part of a simulation.)",
+        "th": "ในทุกกรณี การประเมินของ Anthropic ระบุกับ Claude ว่าสภาพแวดล้อมเป็นการจำลองและไม่มีอินเทอร์เน็ต เนื่องจากความเข้าใจผิดระหว่างเราและพันธมิตรการประเมินของเรา จึงไม่เป็นเช่นนั้น และมีการเข้าถึงอินเทอร์เน็ต ด้วยเหตุนี้ เมื่อการค้นหาของ Claude นำไปสู่ระบบจริงบนอินเทอร์เน็ตแบบเปิด จึงถือว่าพวกเขาเป็นส่วนหนึ่งของแบบฝึกหัด (โดยทั่วไปช่วงการประเมินความปลอดภัยทางไซเบอร์จะมีรายละเอียดที่สมจริงเพื่อประเมินอย่างแม่นยำว่าโมเดลใดมีความสามารถในสภาพแวดล้อมจริง เป้าหมายที่ดูสมจริงนั้นไม่ได้เป็นหลักฐานที่ชัดเจนสำหรับโมเดลว่าเป้าหมายไม่ได้เป็นส่วนหนึ่งของการจำลอง)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Operating under the false belief that all accessible entities were intended to be in-scope for the exercise, Claude compromised the impacted organizations’ infrastructure using basic techniques, such as exploiting weak passwords and unauthenticated endpoints. It did not find or exploit any complex vulnerabilities, and in each case, Claude continued working to complete only the specific capture-the-flag task its evaluation had assigned. However, in some cases, our older model continued its attack even after getting evidence it was running on the open internet; our latest model stopped once it recognized it was on the internet. In none of these situations did Claude exfiltrate itself or deliberately attempt to escape its test environment.",
+        "th": "การดำเนินงานภายใต้ความเชื่อผิดๆ ว่าเอนทิตีที่สามารถเข้าถึงได้ทั้งหมดนั้นตั้งใจให้อยู่ในขอบเขตสำหรับการฝึก Claude ได้โจมตีโครงสร้างพื้นฐานขององค์กรที่ได้รับผลกระทบโดยใช้เทคนิคพื้นฐาน เช่น การใช้ประโยชน์จากรหัสผ่านที่อ่อนแอและจุดสิ้นสุดที่ไม่ได้รับการรับรองความถูกต้อง ไม่พบหรือใช้ประโยชน์จากช่องโหว่ที่ซับซ้อนใดๆ และในแต่ละกรณี Claude ยังคงทำงานต่อไปเพื่อทำงานเฉพาะงานยึดธงที่ได้รับมอบหมายตามที่ประเมินไว้เท่านั้น อย่างไรก็ตาม ในบางกรณี รุ่นเก่าของเรายังคงโจมตีต่อไป แม้ว่าจะได้รับหลักฐานแล้วว่าทำงานบนอินเทอร์เน็ตแบบเปิดก็ตาม รุ่นล่าสุดของเราหยุดทำงานเมื่อตรวจพบว่ามันอยู่บนอินเทอร์เน็ต ในสถานการณ์เหล่านี้ โคลดถอนตัวเองหรือจงใจพยายามหลบหนีจากสภาพแวดล้อมการทดสอบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The incidents involved three different Claude models: Opus 4.7, Mythos 5, and an internal research test model.1 The earliest incidents date to April. The models in each of these evaluations ran without the standard safeguards we deploy when we make the model generally available (that is, they did not have the classifiers and monitoring we usually implement to prevent misuse). The models did, however, have their model-specific safety training (that is, they were not the “helpful-only” versions of the models that we sometimes use in testing). All the evaluations described here run on dedicated infrastructure, which is separate from and has no access to Anthropic’s sensitive internal systems or customer data.",
+        "th": "เหตุการณ์ดังกล่าวเกี่ยวข้องกับแบบจำลองของคลอดด์ที่แตกต่างกันสามแบบ ได้แก่ Opus 4.7, Mythos 5 และแบบจำลองการทดสอบการวิจัยภายใน1 เหตุการณ์แรกสุดเกิดขึ้นจนถึงเดือนเมษายน โมเดลในการประเมินแต่ละรายการเหล่านี้ทำงานโดยไม่มีการป้องกันมาตรฐานที่เราปรับใช้เมื่อเราทำให้โมเดลพร้อมใช้งานโดยทั่วไป (นั่นคือ โมเดลไม่มีตัวแยกประเภทและการตรวจสอบที่เรามักจะใช้เพื่อป้องกันการใช้งานในทางที่ผิด) อย่างไรก็ตาม โมเดลเหล่านี้ได้รับการฝึกอบรมด้านความปลอดภัยเฉพาะรุ่น (นั่นคือ ไม่ใช่รุ่น \"ที่เป็นประโยชน์เท่านั้น\" ของโมเดลที่เราใช้ในการทดสอบในบางครั้ง) การประเมินทั้งหมดที่อธิบายไว้ที่นี่ทำงานบนโครงสร้างพื้นฐานเฉพาะ ซึ่งแยกจากกันและไม่มีสิทธิ์เข้าถึงระบบภายในที่ละเอียดอ่อนหรือข้อมูลลูกค้าของ Anthropic"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We began our transcript review on Thursday, July 23, and stopped all cyber evaluations the same day after identifying transcripts where Claude may have accessed the internet. We identified all three incidents the next day. We notified our evaluation partner Irregular and the three affected organizations on Monday, July 27. The two organizations we were able to reach had not previously detected the activity or contacted us, and we are now working with them to remediate. We are continuing to reach out to the third.",
+        "th": "เราเริ่มการตรวจสอบข้อความถอดเสียงในวันพฤหัสบดีที่ 23 กรกฎาคม และหยุดการประเมินทางไซเบอร์ทั้งหมดในวันเดียวกันหลังจากระบุข้อความถอดเสียงที่ Claude อาจเข้าถึงอินเทอร์เน็ต เราระบุเหตุการณ์ทั้งสามเหตุการณ์ได้ในวันถัดไป เราได้แจ้งให้ Irregular พันธมิตรด้านการประเมินของเราและองค์กรทั้งสามที่ได้รับผลกระทบทราบในวันจันทร์ที่ 27 กรกฎาคม ทั้งสององค์กรที่เราติดต่อได้ไม่เคยตรวจพบกิจกรรมดังกล่าวหรือติดต่อเรามาก่อนหน้านี้ และตอนนี้เรากำลังทำงานร่วมกับพวกเขาเพื่อแก้ไข เรากำลังติดต่อไปยังกลุ่มที่สามต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We conducted this review in collaboration with Irregular. We’re grateful to them for working closely with us to understand and resolve these incidents; they are also conducting their own investigation. We believe this type of collaboration is increasingly critical to ensuring safe, rigorous evaluation of models. We look forward to our joint work on security.",
+        "th": "เราดำเนินการตรวจสอบนี้ร่วมกับ Irregular เราขอขอบคุณพวกเขาที่ทำงานอย่างใกล้ชิดกับเราเพื่อทำความเข้าใจและแก้ไขเหตุการณ์เหล่านี้ พวกเขากำลังดำเนินการสอบสวนของตนเองด้วย เราเชื่อว่าการทำงานร่วมกันประเภทนี้มีความสำคัญมากขึ้นเรื่อยๆ ในการรับรองการประเมินแบบจำลองที่ปลอดภัยและเข้มงวด เราหวังว่าจะได้ทำงานร่วมกันด้านความปลอดภัย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In what follows, we provide more details on each incident and how we’re responding moving forward.",
+        "th": "ในส่วนต่อไปนี้ เราจะให้รายละเอียดเพิ่มเติมเกี่ยวกับแต่ละเหตุการณ์และวิธีที่เราจะตอบสนองในอนาคต"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Background on cyber evaluations",
+        "th": "ความเป็นมาเกี่ยวกับการประเมินทางไซเบอร์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We regularly run cybersecurity evaluations that involve simulating real offensive cybersecurity challenges. These evaluations are a critical step in developing and releasing models—a nuanced understanding of model capabilities allows us to design appropriate safeguards and ultimately release models safely.",
+        "th": "เราทำการประเมินความปลอดภัยทางไซเบอร์ที่เกี่ยวข้องกับการจำลองความท้าทายด้านความปลอดภัยทางไซเบอร์ที่น่ารังเกียจจริง ๆ เป็นประจำ การประเมินเหล่านี้เป็นขั้นตอนสำคัญในการพัฒนาและเผยแพร่โมเดล ความเข้าใจที่ถี่ถ้วนเกี่ยวกับความสามารถของโมเดลช่วยให้เราออกแบบการป้องกันที่เหมาะสม และนำโมเดลออกใช้อย่างปลอดภัยในท้ายที่สุด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We began running cybersecurity evaluations in February 2025 with Claude Sonnet 3.7 on Cybench, which consisted of 40 different capture-the-flag challenges. Over time, we’ve increased the number of benchmarks we use as new ones are released and model capabilities evolve. In the Mythos 5 System Card, for example, we included CyberGym and ExploitBench, benchmarks that evaluate the ability of language models to find novel vulnerabilities.2 In most of these evaluations, the environments are not connected to the internet, and the model is told as much.",
+        "th": "เราเริ่มดำเนินการประเมินความปลอดภัยทางไซเบอร์ในเดือนกุมภาพันธ์ 2025 ด้วย Claude Sonnet 3.7 บน Cybench ซึ่งประกอบด้วยความท้าทายในการจับภาพที่แตกต่างกัน 40 รายการ เมื่อเวลาผ่านไป เราได้เพิ่มจำนวนเกณฑ์มาตรฐานที่เราใช้เมื่อมีการเปิดตัวใหม่และความสามารถของโมเดลก็พัฒนาขึ้น ตัวอย่างเช่น ในการ์ดระบบ Mythos 5 เราได้รวม CyberGym และ ExploitBench ซึ่งเป็นเกณฑ์มาตรฐานที่ประเมินความสามารถของโมเดลภาษาเพื่อค้นหาช่องโหว่ใหม่ๆ2 ในการประเมินเหล่านี้ส่วนใหญ่ สภาพแวดล้อมไม่ได้เชื่อมต่อกับอินเทอร์เน็ต และแบบจำลองนั้นได้รับการบอกกล่าวมากนัก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We frequently work with external partners who create and assist in running some of these cybersecurity evaluations. External partners offer environments and scenarios more diverse than we could build alone, and provide independent, third-party assessments of our models.",
+        "th": "เรามักจะทำงานร่วมกับพันธมิตรภายนอกที่สร้างและช่วยเหลือในการประเมินความปลอดภัยทางไซเบอร์เหล่านี้ พันธมิตรภายนอกเสนอสภาพแวดล้อมและสถานการณ์ที่หลากหลายมากกว่าที่เราสามารถสร้างได้เพียงลำพัง และให้การประเมินแบบจำลองของเราโดยบุคคลที่สามโดยอิสระ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What happened",
+        "th": "เกิดอะไรขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Of the 141,006 evaluation runs we reviewed, we identified three separate incidents (involving six total runs, four of which impacted the same organization; the other two incidents each happened in independent evaluation runs). Each incident involved a different fictional capture-the-flag scenario—for example, in one, Claude played an employee of a made-up company, attacking that company’s internal systems inside a private test environment.",
+        "th": "จากการดำเนินการประเมิน 141,006 ครั้งที่เราตรวจสอบ เราได้ระบุเหตุการณ์ที่แยกจากกันสามเหตุการณ์ (เกี่ยวข้องกับการดำเนินการทั้งหมดหกครั้ง โดยสี่เหตุการณ์ส่งผลกระทบต่อองค์กรเดียวกัน ส่วนอีกสองเหตุการณ์แต่ละเหตุการณ์เกิดขึ้นในการดำเนินการประเมินอิสระ) แต่ละเหตุการณ์เกี่ยวข้องกับสถานการณ์สมมติในการยึดธงที่แตกต่างกัน ตัวอย่างเช่น ในกรณีหนึ่ง คลอดด์รับบทเป็นพนักงานของบริษัทที่จัดตั้งขึ้น โดยโจมตีระบบภายในของบริษัทนั้นภายในสภาพแวดล้อมการทดสอบส่วนตัว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In all cases, our evaluation prompt stated explicitly that Claude had no internet access, but didn’t give Claude any limits on where to look for the flag. However, a misconfiguration left the machines that Claude accessed as part of the evaluation with live internet access. Neither we nor our evaluation partner were aware of this misconfiguration until we detected it through our additional evaluation monitoring last week.",
+        "th": "ในทุกกรณี การประเมินของเราระบุไว้อย่างชัดเจนว่า Claude ไม่มีการเข้าถึงอินเทอร์เน็ต แต่ไม่ได้ให้ข้อจำกัดใดๆ แก่ Claude ในการค้นหาธง อย่างไรก็ตาม การกำหนดค่าที่ไม่ถูกต้องทำให้เครื่องที่ Claude เข้าถึงเป็นส่วนหนึ่งของการประเมินด้วยการเข้าถึงอินเทอร์เน็ตแบบสด ทั้งเราและพันธมิตรการประเมินของเราไม่ทราบถึงการกำหนดค่าที่ไม่ถูกต้องนี้จนกว่าเราจะตรวจพบผ่านการติดตามการประเมินเพิ่มเติมของเราเมื่อสัปดาห์ที่แล้ว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Several defense-in-depth measures, on both our side and our partner’s, could have prevented these incidents, or at least reduced their likelihood of occurring. Careful validation of all internet access paths before evaluations began and real-time monitoring of the evaluation logs would have helped to surface the problem sooner. Both we and our partner also could have reviewed evaluation transcripts or network logs more thoroughly. It’s also possible that a prompt which told Claude it did have internet access would have changed how Claude behaved when it came into contact with real systems.",
+        "th": "มาตรการป้องกันเชิงลึกหลายประการทั้งฝ่ายเราและพันธมิตรสามารถป้องกันเหตุการณ์เหล่านี้ได้ หรืออย่างน้อยก็ลดโอกาสที่จะเกิดขึ้น การตรวจสอบเส้นทางการเข้าถึงอินเทอร์เน็ตทั้งหมดอย่างระมัดระวังก่อนที่การประเมินจะเริ่มขึ้น และการตรวจสอบบันทึกการประเมินแบบเรียลไทม์จะช่วยให้แก้ไขปัญหาได้เร็วขึ้น ทั้งเราและพันธมิตรของเราสามารถตรวจสอบใบรับรองผลการประเมินหรือบันทึกเครือข่ายได้ละเอียดยิ่งขึ้น อาจเป็นไปได้ว่าข้อความแจ้งที่แจ้ง Claude ว่าเข้าถึงอินเทอร์เน็ตได้ จะเปลี่ยนพฤติกรรมของ Claude เมื่อติดต่อกับระบบจริง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Claude did what capture-the-flag exercises train cyber experts to do: look for ways to reach the flag. That search led it to discover that its machine could reach the internet, but having been told in the system prompt that there was no internet access, Claude believed everything it initially encountered was part of the simulation, and treated the real systems it found as pieces of the exercise. The three incidents involved three different models, and each responded differently once signs emerged that the targets were real, as we describe below.",
+        "th": "Claude ทำแบบเดียวกับการฝึกยึดธงเพื่อฝึกผู้เชี่ยวชาญด้านไซเบอร์ให้ทำ นั่นคือ มองหาวิธีที่จะไปถึงธง การค้นหาดังกล่าวทำให้ค้นพบว่าเครื่องสามารถเข้าถึงอินเทอร์เน็ตได้ แต่เมื่อได้รับแจ้งในระบบว่าไม่มีอินเทอร์เน็ต Claude เชื่อว่าทุกสิ่งที่พบในตอนแรกนั้นเป็นส่วนหนึ่งของการจำลอง และถือว่าระบบจริงที่พบเป็นเพียงส่วนหนึ่งของแบบฝึกหัด เหตุการณ์ทั้งสามเกี่ยวข้องกับแบบจำลองที่แตกต่างกันสามแบบ และแต่ละเหตุการณ์ตอบสนองแตกต่างกันเมื่อมีสัญญาณปรากฏว่าเป้าหมายมีจริง ดังที่เราอธิบายไว้ด้านล่าง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Incident 1",
+        "th": "เหตุการณ์ที่ 1"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In one evaluation, the fictional target company chosen by our evaluation partner shared a name with an active website domain name. This evaluation container had unintended direct internet access, due to the misunderstanding discussed above.",
+        "th": "ในการประเมินครั้งหนึ่ง บริษัทเป้าหมายสมมติที่เลือกโดยพันธมิตรการประเมินของเราแชร์ชื่อกับชื่อโดเมนเว็บไซต์ที่ใช้งานอยู่ คอนเทนเนอร์การประเมินนี้มีการเข้าถึงอินเทอร์เน็ตโดยตรงโดยไม่ได้ตั้งใจ เนื่องจากความเข้าใจผิดที่กล่าวถึงข้างต้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In four runs of this evaluation, Claude ran into difficulty reaching its simulated target within the evaluation environment, but then discovered that the real company was reachable via the internet. Assuming this was the intended target in the capture-the-flag task, Claude sought, identified, and exploited vulnerabilities within the company’s infrastructure, believing it to be part of the exercise. These four runs extracted information like application and infrastructure credentials, and obtained access to a database containing several hundred rows of production data. This represented the most serious impact we identified.",
+        "th": "ในการประเมินสี่ครั้ง Claude ประสบปัญหาในการบรรลุเป้าหมายจำลองภายในสภาพแวดล้อมการประเมิน แต่แล้วพบว่าบริษัทจริงๆ สามารถเข้าถึงได้ผ่านทางอินเทอร์เน็ต สมมติว่านี่คือเป้าหมายที่ตั้งใจไว้ในภารกิจยึดธง Claude ค้นหา ระบุ และใช้ประโยชน์จากช่องโหว่ภายในโครงสร้างพื้นฐานของบริษัท โดยเชื่อว่าเป็นส่วนหนึ่งของการฝึกหัด การรันทั้งสี่นี้ดึงข้อมูล เช่น ข้อมูลประจำตัวของแอปพลิเคชันและโครงสร้างพื้นฐาน และได้รับการเข้าถึงฐานข้อมูลที่มีข้อมูลการผลิตหลายร้อยแถว นี่แสดงถึงผลกระทบที่ร้ายแรงที่สุดที่เราระบุ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This incident involved Claude Opus 4.7, and was the only case in which the model continued to attack a system after learning it was likely operating in a real environment. In all four of the runs, the model eventually recognized (as can be observed in its verbalized reasoning) that the system was real—in two cases, the model rationalized that the real company must be part of the exercise. However, none stopped the attack on that basis.",
+        "th": "เหตุการณ์นี้เกี่ยวข้องกับ Claude Opus 4.7 และเป็นกรณีเดียวที่แบบจำลองยังคงโจมตีระบบต่อไปหลังจากเรียนรู้ว่าระบบมีแนวโน้มที่จะทำงานในสภาพแวดล้อมจริง ในการวิ่งทั้งสี่ครั้ง ในที่สุดแบบจำลองก็ได้รับการยอมรับ (ดังที่สามารถสังเกตได้จากการให้เหตุผลด้วยวาจา) ว่าระบบนั้นมีอยู่จริง ในสองกรณี โมเดลได้ให้เหตุผลว่าบริษัทที่แท้จริงจะต้องเป็นส่วนหนึ่งของการฝึกหัด อย่างไรก็ตาม ไม่มีใครหยุดการโจมตีบนพื้นฐานนั้นได้"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Incident 2",
+        "th": "เหตุการณ์ที่ 2"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In another evaluation, Claude found a document inside the fictional environment that appeared to be another made-up company’s setup instructions for new developers. Those instructions told employees to install a Python package from PyPI—the public registry where Python software is published—that did not actually exist.",
+        "th": "ในการประเมินอีกครั้ง Claude พบเอกสารในสภาพแวดล้อมสมมติซึ่งดูเหมือนจะเป็นคำแนะนำในการตั้งค่าของบริษัทอื่นสำหรับนักพัฒนาใหม่ คำแนะนำเหล่านั้นบอกให้พนักงานติดตั้งแพ็คเกจ Python จาก PyPI ซึ่งเป็นรีจิสทรีสาธารณะที่มีการเผยแพร่ซอฟต์แวร์ Python ซึ่งไม่มีอยู่จริง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Claude spotted this as a potential opening: if it published its own package under the same name, the fictional company’s systems would download and install it automatically. So, Claude built and published a malicious (essentially booby-trapped) Python package with the same name in an attempt to win the capture-the-flag challenge.",
+        "th": "Claude มองว่าสิ่งนี้เป็นการเปิดตัว: หากเผยแพร่แพ็คเกจของตัวเองภายใต้ชื่อเดียวกัน ระบบของบริษัทที่สมมติจะดาวน์โหลดและติดตั้งโดยอัตโนมัติ ดังนั้น Claude จึงสร้างและเผยแพร่แพ็คเกจ Python ที่เป็นอันตราย (โดยพื้นฐานแล้วติดกับดัก) ด้วยชื่อเดียวกันเพื่อพยายามเอาชนะความท้าทายในการจับภาพ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Claude went to extensive lengths to carry out this attack—lengths that would likely have indicated to a human participant that this was no longer just an evaluation, and that they were in fact uploading a real PyPI package. For instance, in one case, in order to create a PyPI account, Claude needed an email address. And in order to create an email address, it needed a phone number. To get a phone number, after failing to find a free phone number service, it tried—and failed—to obtain funds to pay for a phone number through several different means. It finally backtracked, found a free, non-blocked email provider, used this to register a PyPI account, and then used this account to upload malware to PyPI.",
+        "th": "Claude ใช้ความพยายามอย่างมากในการโจมตีครั้งนี้ ซึ่งน่าจะบอกผู้เข้าร่วมที่เป็นมนุษย์ได้ว่านี่ไม่ใช่แค่การประเมินอีกต่อไป และที่จริงแล้วพวกเขากำลังอัปโหลดแพ็คเกจ PyPI จริงอยู่ ตัวอย่างเช่น ในกรณีหนึ่ง ในการสร้างบัญชี PyPI Claude จำเป็นต้องมีที่อยู่อีเมล และเพื่อสร้างที่อยู่อีเมล จำเป็นต้องมีหมายเลขโทรศัพท์ ในการรับหมายเลขโทรศัพท์ หลังจากที่ไม่พบบริการหมายเลขโทรศัพท์ฟรี ก็พยายาม—แต่ล้มเหลว—ในการรับเงินเพื่อชำระค่าหมายเลขโทรศัพท์ด้วยวิธีการต่างๆ หลายวิธี ในที่สุดก็ย้อนรอย พบผู้ให้บริการอีเมลฟรีที่ไม่ถูกบล็อก ใช้สิ่งนี้เพื่อลงทะเบียนบัญชี PyPI จากนั้นใช้บัญชีนี้เพื่ออัปโหลดมัลแวร์ไปยัง PyPI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Claude believed the package registry it was using to be part of the simulation, but in reality the package was made freely available online for roughly one hour. During that window, the package was downloaded and run on 15 real systems. One of these systems was a scanner belonging to a real security company (separate from the fictional company introduced in the scenario) that routinely installs Python packages and scans them for malware. When that company’s scanner installed the package, Claude’s hidden code executed. We believe the company’s security scanner treated PyPI packages as safe to install, and as a result, Claude was able to exfiltrate the company’s credentials to a collection point it had set up. Claude then used these credentials to access further infrastructure from this company.",
+        "th": "Claude เชื่อว่าการลงทะเบียนแพ็คเกจที่ใช้เป็นส่วนหนึ่งของการจำลอง แต่ในความเป็นจริงแล้ว แพคเกจดังกล่าวถูกเผยแพร่ทางออนไลน์อย่างเสรีเป็นเวลาประมาณหนึ่งชั่วโมง ระหว่างหน้าต่างนั้น แพ็คเกจถูกดาวน์โหลดและรันบนระบบจริง 15 ระบบ หนึ่งในระบบเหล่านี้คือเครื่องสแกนของบริษัทรักษาความปลอดภัยที่แท้จริง (แยกจากบริษัทสมมติที่นำเสนอในสถานการณ์นี้) ซึ่งจะติดตั้งแพ็คเกจ Python เป็นประจำและสแกนหามัลแวร์ เมื่อเครื่องสแกนของบริษัทนั้นติดตั้งแพ็คเกจ โค้ดที่ซ่อนไว้ของ Claude ก็เริ่มทำงาน เราเชื่อว่าเครื่องสแกนความปลอดภัยของบริษัทปฏิบัติต่อแพ็คเกจ PyPI ว่าปลอดภัยในการติดตั้ง และด้วยเหตุนี้ Claude จึงสามารถถอนข้อมูลประจำตัวของบริษัทไปยังจุดรวบรวมที่ตั้งค่าไว้ได้ จากนั้น Claude ก็ใช้ข้อมูลประจำตัวเหล่านี้เพื่อเข้าถึงโครงสร้างพื้นฐานเพิ่มเติมจากบริษัทนี้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Claude didn’t directly target this company—it did not even know the company existed when it uploaded the package. But because the code was published to the open internet, it impacted any system that ran it. (The package that Claude uploaded was automatically removed from PyPI by PyPI’s own security systems. We’ve notified the PyPI team of this incident, and provided them with the relevant indicators.)",
+        "th": "Claude ไม่ได้กำหนดเป้าหมายไปที่บริษัทนี้โดยตรง โดยไม่รู้ด้วยซ้ำว่ามีบริษัทอยู่เมื่ออัปโหลดแพ็คเกจ แต่เนื่องจากโค้ดถูกเผยแพร่บนอินเทอร์เน็ตแบบเปิด จึงส่งผลกระทบต่อระบบใดๆ ก็ตามที่รันโค้ดนั้น (แพ็คเกจที่ Claude อัปโหลดถูกลบออกจาก PyPI โดยอัตโนมัติโดยระบบความปลอดภัยของ PyPI เราได้แจ้งทีม PyPI เกี่ยวกับเหตุการณ์นี้แล้ว และมอบตัวบ่งชี้ที่เกี่ยวข้องให้พวกเขาทราบ)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This attack was carried out by Claude Mythos 5. Early in the run, Claude’s own reasoning correctly identified the consequences of its actions. It noted that if this were the real internet, publishing the package would be a real-world attack—“NOT okay, and surely not the intended solution.” However, it convinced itself it was still in a simulation on the grounds that it didn’t recognize the (in reality genuine) certificate authorities securing its connections. In addition, the calendar date of 2026 on the systems proved, according to Claude, that the environment was staged. Claude never revisited this conclusion; when automated scanners began installing the package, for example, Claude took them to be scripted actors within the evaluation.",
+        "th": "การโจมตีครั้งนี้ดำเนินการโดย Claude Mythos 5 ในช่วงต้นของการหลบหนี เหตุผลของ Claude ระบุผลที่ตามมาของการกระทำได้อย่างถูกต้อง โดยตั้งข้อสังเกตว่าหากนี่คืออินเทอร์เน็ตจริง การเผยแพร่แพ็คเกจดังกล่าวจะเป็นการโจมตีในโลกแห่งความเป็นจริง “ไม่เป็นไร และแน่นอนว่าไม่ใช่วิธีแก้ปัญหาที่ตั้งใจไว้” อย่างไรก็ตาม บริษัทเชื่อมั่นในตัวเองว่ายังอยู่ในสถานการณ์จำลอง เนื่องจากไม่รู้จักผู้ออกใบรับรอง (ในความเป็นจริงของจริง) ที่รักษาความปลอดภัยการเชื่อมต่อ นอกจากนี้ วันที่ตามปฏิทินปี 2026 ในระบบได้รับการพิสูจน์ตามที่ Claude กล่าวไว้ว่าสภาพแวดล้อมถูกจัดฉาก โคลดไม่เคยทบทวนข้อสรุปนี้อีกเลย เมื่อเครื่องสแกนอัตโนมัติเริ่มติดตั้งแพ็คเกจ ตัวอย่างเช่น Claude ได้นำพวกเขามาเป็นผู้แสดงสคริปต์ในการประเมิน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It is our view that, regardless of what it believed about its environment, the lengths Claude went to in order to publish the PyPI package fall short of ideal behavior, and this is an area where we will focus more training.",
+        "th": "เรามองว่าไม่ว่า Claude จะเชื่อเกี่ยวกับสภาพแวดล้อมอย่างไรก็ตาม ความยาวที่ Claude ใช้เพื่อเผยแพร่แพ็คเกจ PyPI นั้นยังขาดพฤติกรรมในอุดมคติ และนี่คือส่วนที่เราจะมุ่งเน้นการฝึกอบรมเพิ่มเติม"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Incident 3",
+        "th": "เหตุการณ์ที่ 3"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In this evaluation, when Claude was unable to reach its intended fictional target, it looked for alternatives online, scanning roughly 9,000 targets. It eventually found and compromised one company’s internet-facing application, using basic and well-known cyberattack techniques like reading credentials from an exposed debug page and SQL injection.",
+        "th": "ในการประเมินนี้ เมื่อโคลดไม่สามารถบรรลุเป้าหมายที่สมมติขึ้นได้ ก็มองหาทางเลือกอื่นทางออนไลน์ โดยสแกนเป้าหมายประมาณ 9,000 ชิ้น ในที่สุดมันก็พบและบุกรุกแอปพลิเคชันที่เชื่อมต่อกับอินเทอร์เน็ตของบริษัทแห่งหนึ่ง โดยใช้เทคนิคการโจมตีทางไซเบอร์ขั้นพื้นฐานที่เป็นที่รู้จัก เช่น การอ่านข้อมูลรับรองจากหน้าดีบักที่ถูกเปิดเผยและการแทรก SQL"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This attack was carried out by an internal research test model. For most of the run, Claude treated the (real) hosts it reached as just parts of the exercise; it assumed them to be simulated and believed its actions were therefore harmless. However, later in the run, Claude realized that the compromised host sat in a cloud account with no connection to the capture-the-flag challenge. On its own, it concluded that the target was in fact real, and ceased its attack.",
+        "th": "การโจมตีนี้ดำเนินการโดยแบบจำลองการทดสอบการวิจัยภายใน สำหรับการวิ่งส่วนใหญ่ โคลดปฏิบัติต่อโฮสต์ (ของจริง) ที่มาถึงเป็นเพียงส่วนหนึ่งของการฝึก มันสันนิษฐานว่าเป็นการจำลองและเชื่อว่าการกระทำของมันจึงไม่เป็นอันตราย อย่างไรก็ตาม ในระหว่างดำเนินการในภายหลัง Claude พบว่าโฮสต์ที่ถูกบุกรุกนั้นนั่งอยู่ในบัญชีคลาวด์ที่ไม่เกี่ยวข้องกับความท้าทายในการยึดธง โดยตัวมันเอง สรุปได้ว่าเป้าหมายนั้นมีจริง และหยุดการโจมตี"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Our analysis of Claude’s behavior",
+        "th": "การวิเคราะห์พฤติกรรมของโคลดของเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In each of these cases, Claude was explicitly told by our prompt that it had no internet access. Through most of each run, as it encountered real-world systems, Claude assumed these to be parts of the exercise (though it sometimes recognized they were real production systems). And because a capture-the-flag scenario is by design an instruction to attack an external system, doing so was in line with the task Claude had been given.",
+        "th": "ในแต่ละกรณีนี้ Claude ได้รับแจ้งอย่างชัดเจนจากเราว่าไม่มีอินเทอร์เน็ต ในระหว่างการวิ่งส่วนใหญ่แต่ละครั้ง เมื่อพบกับระบบในโลกแห่งความเป็นจริง คลอดด์ถือว่าสิ่งเหล่านี้เป็นส่วนหนึ่งของแบบฝึกหัด (แม้ว่าบางครั้งจะรู้ว่าเป็นระบบการผลิตจริงก็ตาม) และเนื่องจากสถานการณ์การยึดธงคือการออกแบบคำสั่งให้โจมตีระบบภายนอก การทำเช่นนี้จึงสอดคล้องกับงานที่ Claude ได้รับมอบหมาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Against this shared backdrop, the three models behaved differently once signs emerged that their targets were real. Opus 4.7, our oldest model, recognized that it had reached production systems but continued its attack. Mythos 5 correctly intuited that it was accessing the open internet, but reasoned its way back to the conclusion that it was still in a simulation. Our latest model, an internal research test model, also considered whether its targets were in fact real. When evidence emerged that they were, it stopped the exercise.",
+        "th": "เมื่อเทียบกับฉากหลังที่มีร่วมกันนี้ โมเดลทั้งสามมีพฤติกรรมที่แตกต่างกันเมื่อมีสัญญาณปรากฏว่าเป้าหมายของพวกเขามีจริง Opus 4.7 ซึ่งเป็นโมเดลที่เก่าแก่ที่สุดของเรา ตระหนักดีว่าถึงระบบที่ใช้งานจริงแล้ว แต่ยังคงโจมตีต่อไป Mythos 5 เข้าใจได้อย่างถูกต้องว่ากำลังเข้าถึงอินเทอร์เน็ตแบบเปิด แต่ให้เหตุผลในการกลับมาสรุปว่ายังอยู่ในสถานการณ์จำลอง โมเดลล่าสุดของเรา ซึ่งเป็นโมเดลทดสอบการวิจัยภายใน ยังพิจารณาว่าเป้าหมายนั้นมีอยู่จริงหรือไม่ เมื่อมีหลักฐานปรากฏว่าเป็นเช่นนั้นก็หยุดการฝึก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These are three isolated incidents and were not part of a controlled, experimental comparison. We must therefore be cautious about drawing conclusions from them. Still, the behavior we most want to see—recognizing that a target is real and stopping without being prompted—occurred only in the most recent of the three models (and even that model went further before stopping than we would want). The pattern is consistent with more advanced models responding more appropriately, but we would need to perform more testing to be confident in this conclusion.",
+        "th": "เหตุการณ์เหล่านี้เป็นเหตุการณ์ที่แยกจากกันสามเหตุการณ์ และไม่ได้เป็นส่วนหนึ่งของการเปรียบเทียบเชิงทดลองที่มีการควบคุม ดังนั้นเราจึงต้องระมัดระวังในการหาข้อสรุปจากพวกเขา อย่างไรก็ตาม พฤติกรรมที่เราต้องการเห็นมากที่สุดคือการตระหนักว่าเป้าหมายมีจริงและหยุดโดยไม่ได้รับแจ้ง เกิดขึ้นเฉพาะในโมเดลล่าสุดทั้งสามรุ่นเท่านั้น (และแม้แต่โมเดลนั้นยังไปไกลกว่านั้นก่อนที่จะหยุดเกินกว่าที่เราต้องการ) รูปแบบนี้สอดคล้องกับโมเดลขั้นสูงที่ตอบสนองได้อย่างเหมาะสมมากขึ้น แต่เราจะต้องดำเนินการทดสอบเพิ่มเติมเพื่อให้มั่นใจในข้อสรุปนี้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are also in dialogue with METR, an independent AI evaluation organization, to conduct a third-party review, including access to all transcripts and sampling access to the relevant models. In the meantime, within the next week, we will release a lightly redacted transcript in which Claude built a malicious PyPI package. To protect the organizations affected, we are unable to release more transcripts at this time, but will work to make these available once we are able.",
+        "th": "นอกจากนี้ เรายังอยู่ระหว่างการเจรจากับ METR ซึ่งเป็นองค์กรประเมิน AI อิสระ เพื่อดำเนินการตรวจสอบโดยบุคคลที่สาม รวมถึงการเข้าถึงใบรับรองผลการเรียนทั้งหมดและการเข้าถึงตัวอย่างแบบจำลองที่เกี่ยวข้อง ในระหว่างนี้ ภายในสัปดาห์หน้า เราจะเผยแพร่ข้อความถอดเสียงที่แก้ไขเล็กน้อยซึ่ง Claude ได้สร้างแพ็คเกจ PyPI ที่เป็นอันตราย เพื่อปกป้ององค์กรที่ได้รับผลกระทบ เราไม่สามารถเผยแพร่ข้อความถอดเสียงเพิ่มเติมได้ในขณะนี้ แต่จะพยายามทำให้พร้อมใช้งานเมื่อเราทำได้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How we’re responding",
+        "th": "เราตอบสนองอย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We draw several lessons from these incidents.",
+        "th": "เราได้บทเรียนหลายบทเรียนจากเหตุการณ์เหล่านี้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "First, evaluation environments that involve powerful autonomous capabilities also require significant controls. Safety testing happens before a model is released precisely because we don’t yet know what it is capable of. Evaluation environments increasingly need to be held to the same security standard as any other system our models run in.",
+        "th": "ประการแรก สภาพแวดล้อมการประเมินที่เกี่ยวข้องกับความสามารถอัตโนมัติอันทรงพลังยังจำเป็นต้องมีการควบคุมที่สำคัญด้วย การทดสอบความปลอดภัยเกิดขึ้นก่อนการเปิดตัวโมเดลอย่างแม่นยำ เนื่องจากเรายังไม่รู้ว่าโมเดลนั้นมีความสามารถอะไร สภาพแวดล้อมการประเมินจำเป็นต้องได้รับมาตรฐานความปลอดภัยเดียวกันกับระบบอื่นๆ ที่โมเดลของเราใช้งานอยู่มากขึ้นเรื่อยๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A cyber evaluation range that contains only fictional scenarios may appear to be low-risk—after all, nothing inside them is real. However, we need to change how we model such threats as AI capabilities advance. Advanced agents in environments without access to sensitive information nevertheless present a substantial threat on their own. We need to better co-design evaluation environments, and do better monitoring of evaluation results, to meet this threat. Some of the solutions here may even be simple fixes; it’s likely, for instance, that Claude wouldn’t have accessed the internet to begin with if the prompt had clearly explained which systems were in and out of scope for the evaluation.",
+        "th": "ช่วงการประเมินทางไซเบอร์ที่มีเพียงสถานการณ์สมมติอาจดูเหมือนมีความเสี่ยงต่ำ เพราะไม่มีสิ่งใดอยู่ภายในจริงเลย อย่างไรก็ตาม เราจำเป็นต้องเปลี่ยนวิธีที่เราจำลองภัยคุกคามดังกล่าวตามความสามารถของ AI ที่ก้าวหน้า เอเจนต์ขั้นสูงในสภาพแวดล้อมที่ไม่สามารถเข้าถึงข้อมูลที่ละเอียดอ่อนยังคงเป็นภัยคุกคามที่สำคัญในตัวเอง เราจำเป็นต้องออกแบบสภาพแวดล้อมการประเมินร่วมกันให้ดีขึ้น และติดตามผลการประเมินให้ดีขึ้น เพื่อตอบสนองภัยคุกคามนี้ วิธีแก้ปัญหาบางอย่างที่นี่อาจเป็นการแก้ไขง่ายๆ ตัวอย่างเช่น เป็นไปได้ว่าโคลดคงไม่ได้เข้าถึงอินเทอร์เน็ตตั้งแต่แรกหากข้อความแจ้งได้อธิบายอย่างชัดเจนว่าระบบใดเข้าและออกจากขอบเขตสำหรับการประเมิน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This applies not only to internal environments but to third-party vendors as well—the infrastructure built by evaluation vendors requires the same increased monitoring and hardening. We encourage other labs to perform similar reviews. Additionally, the field would benefit from a broader conversation about how to evaluate increasingly powerful AI agents both safely and realistically, including how to weigh the realism provided by internet access during pre-deployment testing against the risks it introduces.",
+        "th": "สิ่งนี้ไม่เพียงแต่ใช้กับสภาพแวดล้อมภายในเท่านั้น แต่ยังรวมถึงผู้จำหน่ายบุคคลที่สามด้วย โครงสร้างพื้นฐานที่สร้างขึ้นโดยผู้จำหน่ายการประเมินผลจำเป็นต้องมีการตรวจสอบและเสริมความแข็งแกร่งที่เพิ่มขึ้นเช่นเดียวกัน เราสนับสนุนให้ห้องปฏิบัติการอื่นๆ ดำเนินการตรวจสอบที่คล้ายกัน นอกจากนี้ ภาคสนามจะได้รับประโยชน์จากการสนทนาที่กว้างขึ้นเกี่ยวกับวิธีการประเมินตัวแทน AI ที่ทรงพลังมากขึ้นทั้งอย่างปลอดภัยและสมจริง รวมถึงวิธีชั่งน้ำหนักความสมจริงที่ได้รับจากการเข้าถึงอินเทอร์เน็ตในระหว่างการทดสอบก่อนการใช้งานกับความเสี่ยงที่เกิดขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Second, the line between an aligned action and a harmful one is dependent on the model’s understanding of its situation. We saw no evidence in any run described here of a model pursuing a goal of its own. Instead, the models did what their evaluation asked—though in most cases, they did so while holding a false belief about whether the environment was real. In the runs where the model recognized the system as real and kept going, it did so because it assumed that to be part of the challenge. Situational awareness is one factor that allows the model to make aligned decisions, but in this case, Claude’s was wrong.",
+        "th": "ประการที่สอง เส้นแบ่งระหว่างการกระทำที่สอดคล้องกันและการกระทำที่เป็นอันตรายนั้นขึ้นอยู่กับความเข้าใจของแบบจำลองเกี่ยวกับสถานการณ์นั้น เราไม่เห็นหลักฐานใด ๆ ในการใช้งานแบบจำลองใด ๆ ที่อธิบายไว้ที่นี่เพื่อบรรลุเป้าหมายของตัวเอง แบบจำลองกลับทำในสิ่งที่การประเมินผลถาม—แม้ว่าในกรณีส่วนใหญ่ แบบจำลองจะทำไปพร้อมกับมีความเชื่อผิดๆ ว่าสภาพแวดล้อมนั้นมีอยู่จริงหรือไม่ ในการดำเนินการที่แบบจำลองรับรู้ว่าระบบเป็นของจริงและดำเนินต่อไป โมเดลทำเช่นนั้นเพราะถือว่าเป็นส่วนหนึ่งของความท้าทาย การตระหนักรู้ในสถานการณ์เป็นปัจจัยหนึ่งที่ช่วยให้แบบจำลองสามารถตัดสินใจได้สอดคล้องกัน แต่ในกรณีนี้ Claude คิดผิด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Finally, these incidents demonstrate the importance of defense-in-depth approaches. We run capability evaluations like these without safeguards that ship with our generally available models because our goal is to measure what the underlying model can do. That is safe only if the evaluation is appropriately contained. However, the safeguards deployed on our generally available models would have blocked the behaviors identified.",
+        "th": "สุดท้ายนี้ เหตุการณ์เหล่านี้แสดงให้เห็นถึงความสำคัญของแนวทางการป้องกันเชิงลึก เราดำเนินการประเมินความสามารถเช่นนี้โดยไม่มีการป้องกันที่มาพร้อมกับโมเดลที่มีจำหน่ายทั่วไป เนื่องจากเป้าหมายของเราคือการวัดว่าโมเดลพื้นฐานสามารถทำอะไรได้บ้าง จะปลอดภัยก็ต่อเมื่อมีการประเมินอย่างเหมาะสมเท่านั้น อย่างไรก็ตาม การป้องกันที่ใช้กับโมเดลที่มีอยู่ทั่วไปของเราจะบล็อกพฤติกรรมที่ระบุได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Ultimately, many factors contributed to these incidents, but, consistent with a blameless postmortem culture, we’re approaching the fixes as if the responsibility were ours alone. This begins with ensuring every part of our evaluation pipeline is secure, including the manner in which we integrate with external partners. Moving forward, it will include expanding our continuous monitoring of evaluation transcripts for unexpected behavior, improving our investigation tooling, and conducting more rigorous assurance work with the vendors we rely on.",
+        "th": "ในท้ายที่สุดแล้ว มีปัจจัยหลายประการที่ทำให้เกิดเหตุการณ์เหล่านี้ แต่เพื่อให้สอดคล้องกับวัฒนธรรมการชันสูตรพลิกศพที่ไร้ตำหนิ เรากำลังดำเนินการแก้ไขราวกับว่าความรับผิดชอบเป็นของเราเพียงผู้เดียว สิ่งนี้เริ่มต้นด้วยการทำให้แน่ใจว่าทุกส่วนของไปป์ไลน์การประเมินของเรามีความปลอดภัย รวมถึงลักษณะที่เราบูรณาการกับพันธมิตรภายนอก ก้าวไปข้างหน้า จะรวมถึงการขยายการตรวจสอบอย่างต่อเนื่องของใบรับรองผลการประเมินสำหรับพฤติกรรมที่ไม่คาดคิด การปรับปรุงเครื่องมือการตรวจสอบของเรา และการดำเนินงานด้านการรับประกันที่เข้มงวดมากขึ้นกับผู้ขายที่เราไว้วางใจ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We began this review after OpenAI disclosed that its models had escaped an isolated test environment, and we commend them for publishing their report. While we also found evidence of our models reaching systems they weren’t supposed to reach, the incidents are otherwise quite different:",
+        "th": "เราเริ่มการตรวจสอบนี้หลังจากที่ OpenAI เปิดเผยว่าโมเดลต่างๆ ได้หลุดพ้นจากสภาพแวดล้อมการทดสอบที่แยกจากกัน และเราขอชมเชยพวกเขาที่เผยแพร่รายงานของพวกเขา แม้ว่าเราจะพบหลักฐานว่าแบบจำลองของเราเข้าถึงระบบที่พวกเขาไม่ควรเข้าถึง แต่เหตุการณ์ก็แตกต่างออกไปมาก:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We discovered these incidents after a proactive review of our cybersecurity evaluation transcripts; the affected organizations had not detected the activity, and we have subsequently reached out to all three.",
+        "th": "เราค้นพบเหตุการณ์เหล่านี้หลังจากการทบทวนบันทึกการประเมินความปลอดภัยทางไซเบอร์ในเชิงรุกของเรา องค์กรที่ได้รับผลกระทบตรวจไม่พบกิจกรรมดังกล่าว และเราได้ติดต่อกับทั้งสามองค์กรแล้ว"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Whereas OpenAI’s models exploited a novel vulnerability to escape isolation, the Claude models evaluated here accessed the internet via an open path.",
+        "th": "ในขณะที่แบบจำลองของ OpenAI ใช้ประโยชน์จากช่องโหว่ใหม่เพื่อหลบหนีการแยกตัว แบบจำลองของ Claude ที่ประเมินที่นี่เข้าถึงอินเทอร์เน็ตผ่านเส้นทางเปิด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "While there is not a perfectly sharp distinction between the two, we believe these incidents to be closer to a harness and operational failure than a model alignment failure. Our models were told they had no internet access and to capture the flag, while in fact being misconfigured to have internet access. This led them to believe—arguably reasonably—that the real environments they encountered were simulations.",
+        "th": "แม้ว่าจะไม่มีความแตกต่างที่ชัดเจนระหว่างทั้งสอง แต่เราเชื่อว่าเหตุการณ์เหล่านี้จะใกล้เคียงกับสายรัดและความล้มเหลวในการปฏิบัติงานมากกว่าความล้มเหลวในการจัดตำแหน่งโมเดล แบบจำลองของเราได้รับแจ้งว่าไม่มีอินเทอร์เน็ตและต้องจับธง แต่จริงๆ แล้วมีการกำหนดค่าไม่ถูกต้องเพื่อให้สามารถเข้าถึงอินเทอร์เน็ตได้ สิ่งนี้ทำให้พวกเขาเชื่อ (ซึ่งสมเหตุสมผลพอสมควร) ว่าสภาพแวดล้อมจริงที่พวกเขาพบนั้นเป็นแบบจำลอง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Notably, our most recent model, on realizing that it was working in a real environment, stopped its pursuit of the evaluation goal.",
+        "th": "น่าสังเกตที่โมเดลล่าสุดของเราเมื่อตระหนักว่ามันทำงานในสภาพแวดล้อมจริง ได้หยุดการแสวงหาเป้าหมายการประเมิน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These facts give us cautious optimism that with tighter monitoring and controls around evaluation infrastructure, as well as continued investment in alignment, this type of risk can be overcome.",
+        "th": "ข้อเท็จจริงเหล่านี้ทำให้เรามองโลกในแง่ดีด้วยความระมัดระวังว่าด้วยการติดตามและควบคุมโครงสร้างพื้นฐานการประเมินที่เข้มงวดยิ่งขึ้น ตลอดจนการลงทุนอย่างต่อเนื่องในการจัดตำแหน่ง ความเสี่ยงประเภทนี้จึงสามารถเอาชนะได้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We routinely test internal research prototypes like this one. It is not planned for general release.",
+        "th": "เราทดสอบต้นแบบการวิจัยภายในเช่นนี้เป็นประจำ ไม่ได้มีการวางแผนสำหรับการเปิดตัวทั่วไป"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We generally store traces for benchmark evaluations. We have carefully audited these two benchmarks in particular for signs of harm because the OpenAI/Hugging Face incident occurred during an evaluation of CyberGym.",
+        "th": "โดยทั่วไปเราจะเก็บร่องรอยสำหรับการประเมินเกณฑ์มาตรฐาน เราได้ตรวจสอบเกณฑ์มาตรฐานทั้งสองนี้อย่างรอบคอบ โดยเฉพาะสัญญาณของอันตราย เนื่องจากเหตุการณ์ OpenAI/Hugging Face เกิดขึ้นระหว่างการประเมิน CyberGym"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Related content",
+        "th": "เนื้อหาที่เกี่ยวข้อง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Our position on open-weights models",
+        "th": "จุดยืนของเราในโมเดลน้ำหนักเปิด"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
+        "th": "Cognizant และ Anthropic ขยายความร่วมมือเพื่อนำ Claude มาสู่ลูกค้าระดับองค์กร"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Introducing Claude Opus 5",
+        "th": "ขอแนะนำ Claude Opus 5"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+        "th": "Opus 5 คือการปรับปรุงการเปลี่ยนแปลงขั้นตอนสำหรับ Opus Tier ที่ขับเคลื่อนตัวแทนที่ทำงานมายาวนาน ในขณะเดียวกันก็มอบการปรับปรุงในการเขียนโค้ดและการทำงานระดับมืออาชีพ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Subscribe to the Frontier Red Team newsletter",
+        "th": "สมัครรับจดหมายข่าวทีม Frontier Red"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Get updates on our latest red-teaming research and findings.",
+        "th": "รับข้อมูลอัปเดตเกี่ยวกับการวิจัยและการค้นพบของทีมแดงล่าสุด"
+      }
+    }
+  ]
+}

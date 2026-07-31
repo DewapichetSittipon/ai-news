@@ -1,0 +1,26 @@
+{
+  "id": "openai__avatarin",
+  "slug": "avatarin",
+  "source": "openai",
+  "url": "https://openai.com/index/avatarin",
+  "category": "News",
+  "date": "2026-07-30T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+    "th": "avatarin สร้างตัวแทนค้าปลีกตลอด 24 ชั่วโมงทุกวันด้วย GPT-Realtime ได้อย่างไร"
+  },
+  "summary": {
+    "en": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+    "th": "avatarin ใช้ GPT-Realtime ของ OpenAI เพื่อให้ผู้ซื้อ Yamada Denki ให้การสนับสนุนหลายภาษาตลอด 24 ชั่วโมงทุกวัน ภายในสองสัปดาห์ ผู้คน 30,000 คนใช้ตัวแทน และ 92% ของการตอบแบบสำรวจเป็นบวก"
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+        "th": "avatarin ใช้ GPT-Realtime ของ OpenAI เพื่อให้ผู้ซื้อ Yamada Denki ให้การสนับสนุนหลายภาษาตลอด 24 ชั่วโมงทุกวัน ภายในสองสัปดาห์ ผู้คน 30,000 คนใช้ตัวแทน และ 92% ของการตอบแบบสำรวจเป็นบวก"
+      }
+    }
+  ]
+}

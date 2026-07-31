@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-07-31T06:39:05.342Z",
+  "generatedAt": "2026-07-31T10:31:06.907Z",
   "items": [
+    {
+      "id": "openai__advancing-responsible-ai-across-europe",
+      "slug": "advancing-responsible-ai-across-europe",
+      "source": "openai",
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "category": "Global Affairs",
+      "date": "2026-07-31T15:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Advancing responsible AI across Europe",
+        "th": "พัฒนา AI ที่รับผิดชอบทั่วยุโรป"
+      },
+      "summary": {
+        "en": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+        "th": "OpenAI แบ่งปันวิธีที่แนวทางปฏิบัติด้านความปลอดภัย การรักษาความปลอดภัย ความโปร่งใส และแหล่งที่มาสนับสนุนการกำกับดูแล AI ที่มีความรับผิดชอบในยุโรป งานจะดำเนินต่อไปในขณะที่พระราชบัญญัติ AI ของสหภาพยุโรปมีความก้าวหน้า"
+      }
+    },
+    {
+      "id": "openai__unive",
+      "slug": "unive",
+      "source": "openai",
+      "url": "https://openai.com/index/unive",
+      "category": "News",
+      "date": "2026-07-31T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Univé builds an AI-ready workforce",
+        "th": "Univé สร้างบุคลากรที่พร้อมใช้ AI"
+      },
+      "summary": {
+        "en": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+        "th": "ดูว่า Univé สร้างพนักงานที่พร้อมใช้ AI ด้วย ChatGPT Enterprise โดยการผสานรวมความเป็นผู้นำ การกำกับดูแลที่รับผิดชอบ และนวัตกรรมที่นำโดยพนักงานเพื่อเปลี่ยนแปลงการทำงานในวงกว้างได้อย่างไร"
+      }
+    },
     {
       "id": "huggingface__gpu-management",
       "slug": "gpu-management",
@@ -1566,23 +1600,6 @@
       }
     },
     {
-      "id": "openai__how-chatgpt-adoption-has-expanded",
-      "slug": "how-chatgpt-adoption-has-expanded",
-      "source": "openai",
-      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "category": "Global Affairs",
-      "date": "2026-06-30T09:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How ChatGPT adoption has expanded",
-        "th": "การใช้ ChatGPT ขยายตัวอย่างไร"
-      },
-      "summary": {
-        "en": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
-        "th": "ข้อมูลสัญญาณ OpenAI ใหม่แสดงให้เห็นว่าการนำ ChatGPT ไปใช้ทั่วโลกนั้นเติบโตขึ้นอย่างไร โดยผู้ใช้มีการใช้งานเพิ่มขึ้น สำรวจความสามารถมากขึ้น และขับเคลื่อนการเติบโตในภูมิภาคและภาษา"
-      }
-    },
-    {
       "id": "google-ai__unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers",
       "slug": "unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers",
       "source": "google-ai",
@@ -1631,23 +1648,6 @@
       "summary": {
         "en": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
         "th": "Sonnet ที่เป็นตัวแทนมากที่สุดของเรา พร้อมด้วยความชาญฉลาดระดับสูงสุดสำหรับการเขียนโค้ดและการทำงานอย่างมืออาชีพในทุกๆ วัน"
-      }
-    },
-    {
-      "id": "openai__core-dump-epidemiology-data-infrastructure-bug",
-      "slug": "core-dump-epidemiology-data-infrastructure-bug",
-      "source": "openai",
-      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "category": "Engineering",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Core dump epidemiology: fixing an 18-year-old bug",
-        "th": "ระบาดวิทยาการถ่ายโอนข้อมูลหลัก: แก้ไขข้อผิดพลาดอายุ 18 ปี"
-      },
-      "summary": {
-        "en": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-        "th": "วิศวกรของ OpenAI ใช้การวิเคราะห์คอร์ดัมพ์ขนาดใหญ่เพื่อแก้ไขข้อบกพร่องที่โครงสร้างพื้นฐานขัดข้องซึ่งพบไม่บ่อย โดยเผยให้เห็นทั้งข้อผิดพลาดของฮาร์ดแวร์และข้อบกพร่องของซอฟต์แวร์ที่มีมายาวนาน"
       }
     },
     {

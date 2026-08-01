@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-07-31T20:56:35.717Z",
+  "generatedAt": "2026-08-01T09:52:36.789Z",
   "items": [
+    {
+      "id": "openai__ten-advances-in-mathematics",
+      "slug": "ten-advances-in-mathematics",
+      "source": "openai",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "category": "Publication",
+      "date": "2026-08-01T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Ten advances in mathematics and theoretical computer science",
+        "th": "ความก้าวหน้าสิบประการในวิชาคณิตศาสตร์และวิทยาการคอมพิวเตอร์เชิงทฤษฎี"
+      },
+      "summary": {
+        "en": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+        "th": "OpenAI แบ่งปันผลลัพธ์ใหม่เกี่ยวกับปัญหาเปิดที่มีมายาวนานในด้านคณิตศาสตร์และวิทยาการคอมพิวเตอร์เชิงทฤษฎี รวมถึงความก้าวหน้าทางเรขาคณิต การเข้ารหัส และความซับซ้อน"
+      }
+    },
     {
       "id": "openai__advancing-responsible-ai-across-europe",
       "slug": "advancing-responsible-ai-across-europe",
@@ -1325,23 +1342,6 @@
       "summary": {
         "en": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
         "th": "OpenAI Academy และ Walton Family Foundation นำเสนอ AI Skills Jams เพื่อช่วยให้นักการศึกษาระดับอนุบาลถึงมัธยมศึกษาตอนปลาย (K-12) สร้างทักษะ AI ที่ใช้งานได้จริงสำหรับห้องเรียน"
-      }
-    },
-    {
-      "id": "openai__introducing-gpt-live",
-      "slug": "introducing-gpt-live",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-gpt-live",
-      "category": "Product",
-      "date": "2026-07-08T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing GPT-Live",
-        "th": "ขอแนะนำ GPT-Live"
-      },
-      "summary": {
-        "en": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
-        "th": "โมเดลเสียงรุ่นใหม่สำหรับการโต้ตอบระหว่างมนุษย์กับ AI โดยธรรมชาติ ขับเคลื่อน ChatGPT Voice แล้ว"
       }
     },
     {

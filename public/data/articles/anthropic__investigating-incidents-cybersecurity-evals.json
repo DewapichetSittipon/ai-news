@@ -401,8 +401,8 @@
     {
       "type": "p",
       "text": {
-        "en": "These facts give us cautious optimism that with tighter monitoring and controls around evaluation infrastructure, as well as continued investment in alignment, this type of risk can be overcome.",
-        "th": "ข้อเท็จจริงเหล่านี้ทำให้เรามองโลกในแง่ดีด้วยความระมัดระวังว่าด้วยการติดตามและควบคุมโครงสร้างพื้นฐานการประเมินที่เข้มงวดยิ่งขึ้น ตลอดจนการลงทุนอย่างต่อเนื่องในการจัดตำแหน่ง ความเสี่ยงประเภทนี้จึงสามารถเอาชนะได้"
+        "en": "These facts give us cautious optimism that with tighter monitoring and controls around evaluation infrastructure, as well as continued investment in alignment, this type of risk can be overcome. Updated Aug 3: Corrected the name of the evaluation in which the OpenAI/Hugging Face incident occurred.",
+        "th": "ข้อเท็จจริงเหล่านี้ทำให้เรามองโลกในแง่ดีด้วยความระมัดระวังว่าด้วยการติดตามและควบคุมโครงสร้างพื้นฐานการประเมินที่เข้มงวดยิ่งขึ้น ตลอดจนการลงทุนอย่างต่อเนื่องในการจัดตำแหน่ง ความเสี่ยงประเภทนี้จึงสามารถเอาชนะได้ อัปเดต 3 สิงหาคม: แก้ไขชื่อของการประเมินที่เกิดเหตุการณ์ OpenAI/Hugging Face"
       }
     },
     {
@@ -415,8 +415,8 @@
     {
       "type": "li",
       "text": {
-        "en": "We generally store traces for benchmark evaluations. We have carefully audited these two benchmarks in particular for signs of harm because the OpenAI/Hugging Face incident occurred during an evaluation of CyberGym.",
-        "th": "โดยทั่วไปเราจะเก็บร่องรอยสำหรับการประเมินเกณฑ์มาตรฐาน เราได้ตรวจสอบเกณฑ์มาตรฐานทั้งสองนี้อย่างรอบคอบ โดยเฉพาะสัญญาณของอันตราย เนื่องจากเหตุการณ์ OpenAI/Hugging Face เกิดขึ้นระหว่างการประเมิน CyberGym"
+        "en": "We generally store traces for benchmark evaluations. We have carefully audited these two benchmarks in particular for signs of harm because the OpenAI/Hugging Face incident occurred during an evaluation of ExploitGym.",
+        "th": "โดยทั่วไปเราจะเก็บร่องรอยสำหรับการประเมินเกณฑ์มาตรฐาน เราได้ตรวจสอบเกณฑ์มาตรฐานทั้งสองนี้อย่างรอบคอบโดยเฉพาะอย่างยิ่งสำหรับสัญญาณอันตราย เนื่องจากเหตุการณ์ OpenAI/Hugging Face เกิดขึ้นระหว่างการประเมิน ExploitGym"
       }
     },
     {
@@ -452,20 +452,6 @@
       "text": {
         "en": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
         "th": "Opus 5 คือการปรับปรุงการเปลี่ยนแปลงขั้นตอนสำหรับ Opus Tier ที่ขับเคลื่อนตัวแทนที่ทำงานมายาวนาน ในขณะเดียวกันก็มอบการปรับปรุงในการเขียนโค้ดและการทำงานระดับมืออาชีพ"
-      }
-    },
-    {
-      "type": "h2",
-      "text": {
-        "en": "Subscribe to the Frontier Red Team newsletter",
-        "th": "สมัครรับจดหมายข่าวทีม Frontier Red"
-      }
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "Get updates on our latest red-teaming research and findings.",
-        "th": "รับข้อมูลอัปเดตเกี่ยวกับการวิจัยและการค้นพบของทีมแดงล่าสุด"
       }
     }
   ]

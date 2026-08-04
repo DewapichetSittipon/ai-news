@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-04T19:21:54.553Z",
+  "generatedAt": "2026-08-04T21:04:30.799Z",
   "items": [
+    {
+      "id": "openai__third-party-cyber-evaluations-involving-openai-models",
+      "slug": "third-party-cyber-evaluations-involving-openai-models",
+      "source": "openai",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "category": "Security",
+      "date": "2026-08-04T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Third-party cyber evaluations involving OpenAI models",
+        "th": "การประเมินทางไซเบอร์ของบุคคลที่สามที่เกี่ยวข้องกับโมเดล OpenAI"
+      },
+      "summary": {
+        "en": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+        "th": "OpenAI อธิบายเหตุการณ์การประเมินความปลอดภัยทางไซเบอร์ของบุคคลที่สามล่าสุด และสรุปการป้องกันใหม่เพื่อเสริมความแข็งแกร่งให้กับการทดสอบและการประเมินโมเดล AI"
+      }
+    },
     {
       "id": "huggingface__lfm2-5-2-6b",
       "slug": "lfm2-5-2-6b",
@@ -1342,23 +1359,6 @@
       "summary": {
         "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
         "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
-      }
-    },
-    {
-      "id": "openai__gpt-5-6",
-      "slug": "gpt-5-6",
-      "source": "openai",
-      "url": "https://openai.com/index/gpt-5-6",
-      "category": "Product",
-      "date": "2026-07-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "GPT-5.6: Frontier intelligence that scales with your ambition",
-        "th": "GPT-5.6: ความฉลาดระดับแนวหน้าที่จะปรับขนาดตามความทะเยอทะยานของคุณ"
-      },
-      "summary": {
-        "en": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-        "th": "ความชาญฉลาดที่มากขึ้นจากทุกโทเค็น ประสิทธิภาพที่แข็งแกร่งต่อดอลลาร์ และความสามารถที่มากขึ้นตามความต้องการสำหรับงานที่หนักที่สุดของคุณ"
       }
     },
     {

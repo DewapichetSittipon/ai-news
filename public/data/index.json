@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T14:12:00.051Z",
+  "generatedAt": "2026-08-04T17:38:11.752Z",
   "items": [
     {
       "id": "huggingface__lfm2-5-2-6b",
@@ -36,6 +36,40 @@
       }
     },
     {
+      "id": "anthropic__tino-cuellar",
+      "slug": "tino-cuellar",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/tino-cuellar",
+      "category": "News",
+      "date": "2026-08-04T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
+        "th": "Mariano-Florentino (Tino) Cuéllar เข้าร่วม Anthropic ในตำแหน่ง Chief Global Affairs Officer"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+      }
+    },
+    {
+      "id": "openai__learn-teach-chatgpt-work-codex",
+      "slug": "learn-teach-chatgpt-work-codex",
+      "source": "openai",
+      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "category": "Product",
+      "date": "2026-08-04T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "New ways to learn and teach with ChatGPT Work and Codex",
+        "th": "วิธีใหม่ในการเรียนรู้และสอนด้วย ChatGPT Work และ Codex"
+      },
+      "summary": {
+        "en": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+        "th": "สำรวจปลั๊กอินการศึกษาใหม่สำหรับ ChatGPT Work และ Codex ที่ช่วยให้ครูระดับอนุบาลถึงมัธยมศึกษาตอนปลาย นักการศึกษาระดับวิทยาลัย และนักเรียนเรียนรู้ สอน ค้นคว้า และสร้าง"
+      }
+    },
+    {
       "id": "openai__apple-is-getting-this-wrong",
       "slug": "apple-is-getting-this-wrong",
       "source": "openai",
@@ -50,6 +84,23 @@
       "summary": {
         "en": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
         "th": "OpenAI จัดการกับคดีที่ไม่มีมูลความจริงของ Apple แก้ไขการเรียกร้องเกี่ยวกับพนักงาน และแบ่งปันข้อความที่บันทึกสิ่งที่เกิดขึ้น"
+      }
+    },
+    {
+      "id": "google-ai__ai-agents-intensive-recap-2026",
+      "slug": "ai-agents-intensive-recap-2026",
+      "source": "google-ai",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "category": "Gemini models",
+      "date": "2026-08-03T15:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_coding_course_hero.max-600x600.format-webp.webp",
+      "title": {
+        "en": "Inside our 353,000-person vibe coding course",
+        "th": "ภายในหลักสูตรการเข้ารหัส Vibe 353,000 คนของเรา"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_coding_course_hero.max-600x600.format-webp.webp\">Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to bu",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_coding_course_hero.max-600x600.format-webp.webp\">AI Agents Intensive with Google ของ Kaggle นำผู้เรียนมารวมตัวกันในหลักสูตรที่ไม่มีค่าใช้จ่ายเพื่อเรียนรู้"
       }
     },
     {
@@ -1158,23 +1209,6 @@
       }
     },
     {
-      "id": "anthropic__canadian-ai-research",
-      "slug": "canadian-ai-research",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/canadian-ai-research",
-      "category": "News",
-      "date": "2026-07-14T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Globe&backgroundColor=cactus",
-      "title": {
-        "en": "Anthropic commits $10 million to Canadian AI research",
-        "th": "Anthropic ทุ่มเงิน 10 ล้านเหรียญสหรัฐให้กับการวิจัย AI ของแคนาดา"
-      },
-      "summary": {
-        "en": "Anthropic is committing $10M to Canadian research institutions to fund the next generation of AI research.",
-        "th": "Anthropic ทุ่มเงิน 10 ล้านเหรียญสหรัฐให้กับสถาบันวิจัยของแคนาดาเพื่อเป็นทุนสนับสนุนการวิจัย AI รุ่นต่อไป"
-      }
-    },
-    {
       "id": "openai__how-data-science-teams-use-codex",
       "slug": "how-data-science-teams-use-codex",
       "source": "openai",
@@ -1325,23 +1359,6 @@
       "summary": {
         "en": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
         "th": "ความชาญฉลาดที่มากขึ้นจากทุกโทเค็น ประสิทธิภาพที่แข็งแกร่งต่อดอลลาร์ และความสามารถที่มากขึ้นตามความต้องการสำหรับงานที่หนักที่สุดของคุณ"
-      }
-    },
-    {
-      "id": "openai__bio-bug-bounty",
-      "slug": "bio-bug-bounty",
-      "source": "openai",
-      "url": "https://openai.com/index/bio-bug-bounty",
-      "category": "Safety",
-      "date": "2026-07-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "GPT-5.5 Bio Bug Bounty",
-        "th": "GPT-5.5 รางวัลแมลงชีวภาพ"
-      },
-      "summary": {
-        "en": "Details about the OpenAI Bio Bounty program",
-        "th": "รายละเอียดเกี่ยวกับโปรแกรม OpenAI Bio Bounty"
       }
     },
     {
@@ -2226,23 +2243,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp\">Uncover second-hand scores with AI tools in Google Search and Shopping.",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp\">ค้นพบคะแนนมือสองด้วยเครื่องมือ AI ใน Google Search และ Shopping"
-      }
-    },
-    {
-      "id": "google-ai__io-2026-google-ai",
-      "slug": "io-2026-google-ai",
-      "source": "google-ai",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-      "category": "Gemini models",
-      "date": "2026-06-01T16:00:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp",
-      "title": {
-        "en": "How we used Gemini to build Google I/O 2026",
-        "th": "วิธีที่เราใช้ Gemini เพื่อสร้าง Google I/O 2026"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp\">Learn how Googlers used AI to produce Google I/O 2026.",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp\">เรียนรู้วิธีที่ Googler ใช้ AI เพื่อสร้าง Google I/O 2026"
       }
     },
     {

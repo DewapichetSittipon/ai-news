@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-08-04T11:59:08.858Z",
+  "generatedAt": "2026-08-04T14:12:00.051Z",
   "items": [
+    {
+      "id": "huggingface__lfm2-5-2-6b",
+      "slug": "lfm2-5-2-6b",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "category": "News",
+      "date": "2026-08-04T13:58:29.000Z",
+      "image": null,
+      "title": {
+        "en": "Deploy local agents everywhere with LFM2.5-2.6B",
+        "th": "ปรับใช้ตัวแทนท้องถิ่นทุกที่ด้วย LFM2.5-2.6B"
+      },
+      "summary": {
+        "en": "Deploy local agents everywhere with LFM2.5-2.6B",
+        "th": "ปรับใช้ตัวแทนท้องถิ่นทุกที่ด้วย LFM2.5-2.6B"
+      }
+    },
+    {
+      "id": "google-ai__google-ai-updates-july-2026",
+      "slug": "google-ai-updates-july-2026",
+      "source": "google-ai",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+      "category": "Search",
+      "date": "2026-08-04T13:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/July_AI_Recap_still.max-600x600.format-webp.webp",
+      "title": {
+        "en": "The latest AI news we announced in July 2026",
+        "th": "ข่าว AI ล่าสุดที่เราประกาศในเดือนกรกฎาคม 2026"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/July_AI_Recap_still.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from July 2026",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/July_AI_Recap_still.max-600x600.format-webp.webp\">นี่คือการอัปเดต AI ล่าสุดของ Google ตั้งแต่เดือนกรกฎาคม 2026"
+      }
+    },
     {
       "id": "openai__apple-is-getting-this-wrong",
       "slug": "apple-is-getting-this-wrong",
@@ -339,23 +373,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp\">We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can buil",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp\">เรากำลังประกาศความสามารถใหม่เพิ่มเติมใน Managed Agent ใน Gemini API เพื่อให้นักพัฒนาสามารถสร้าง"
-      }
-    },
-    {
-      "id": "huggingface__lfm2-5-encoders",
-      "slug": "lfm2-5-encoders",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
-      "category": "News",
-      "date": "2026-07-28T15:01:45.000Z",
-      "image": null,
-      "title": {
-        "en": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
-        "th": "LFM2.5-ตัวเข้ารหัสสำหรับการอนุมานบริบทแบบยาวที่รวดเร็วบน CPU"
-      },
-      "summary": {
-        "en": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
-        "th": "LFM2.5-ตัวเข้ารหัสสำหรับการอนุมานบริบทแบบยาวที่รวดเร็วบน CPU"
       }
     },
     {
@@ -2226,23 +2243,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp\">Learn how Googlers used AI to produce Google I/O 2026.",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp\">เรียนรู้วิธีที่ Googler ใช้ AI เพื่อสร้าง Google I/O 2026"
-      }
-    },
-    {
-      "id": "google-ai__io-2026-vibe-coded-quiz",
-      "slug": "io-2026-vibe-coded-quiz",
-      "source": "google-ai",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
-      "category": "Developer tools",
-      "date": "2026-05-29T19:00:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp",
-      "title": {
-        "en": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
-        "th": "ทำแบบทดสอบ I/O 2026 ของเรา ซึ่งมีการเขียนโค้ดใน Google AI Studio"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp\">We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp\">เราใช้ Google AI Studio เพื่อสร้างโค้ดแบบทดสอบเกี่ยวกับประกาศยอดนิยมของ I/O 2026"
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T20:58:01.182Z",
+  "generatedAt": "2026-08-04T01:49:11.843Z",
   "items": [
     {
       "id": "openai__continuous-voice-interaction-with-gpt-live",
@@ -16,6 +16,23 @@
       "summary": {
         "en": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
         "th": "GPT-Live ช่วยให้สามารถโต้ตอบด้วยเสียงกับ AI ได้อย่างต่อเนื่อง โดยใช้โมเดลคำพูดที่ไม่ต่อเนื่องและสถาปัตยกรรมที่มีความหน่วงต่ำเพื่อการสนทนาที่รวดเร็วและเป็นธรรมชาติยิ่งขึ้น"
+      }
+    },
+    {
+      "id": "openai__circles",
+      "slug": "circles",
+      "source": "openai",
+      "url": "https://openai.com/index/circles",
+      "category": "News",
+      "date": "2026-08-03T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Circles powers telco personalization with OpenAI technology",
+        "th": "Circles ขับเคลื่อนการปรับเปลี่ยนส่วนบุคคลด้านโทรคมนาคมด้วยเทคโนโลยี OpenAI"
+      },
+      "summary": {
+        "en": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+        "th": "Circles ใช้ OpenAI API และ Codex เพื่อขับเคลื่อนประสบการณ์โทรคมนาคมแบบ AI โดยเพิ่ม ARPU 22% ลดการเลิกใช้งาน 9% และปรับปรุงประสิทธิภาพการพัฒนา"
       }
     },
     {
@@ -1325,23 +1342,6 @@
       "summary": {
         "en": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
         "th": "เรียนรู้ว่า OpenAI เข้าถึงความร่วมมือระหว่างรัฐบาลและความมั่นคงแห่งชาติได้อย่างไร โดยมีหลักการในการใช้ AI อย่างมีความรับผิดชอบ ความรับผิดชอบตามระบอบประชาธิปไตย และความปลอดภัยสาธารณะ"
-      }
-    },
-    {
-      "id": "openai__separating-signal-from-noise-coding-evaluations",
-      "slug": "separating-signal-from-noise-coding-evaluations",
-      "source": "openai",
-      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "category": "Research",
-      "date": "2026-07-08T13:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Separating signal from noise in coding evaluations",
-        "th": "การแยกสัญญาณออกจากสัญญาณรบกวนในการประเมินการเข้ารหัส"
-      },
-      "summary": {
-        "en": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-        "th": "การวิเคราะห์ใหม่จาก OpenAI เผยให้เห็นปัญหาใน SWE-Bench Pro ซึ่งเป็นเกณฑ์มาตรฐานการเข้ารหัสยอดนิยม ทำให้เกิดความกังวลเกี่ยวกับความน่าเชื่อถือและความแม่นยำในการประเมินโมเดล AI"
       }
     },
     {

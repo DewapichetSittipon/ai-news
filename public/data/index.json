@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-04T01:49:11.843Z",
+  "generatedAt": "2026-08-04T08:25:48.378Z",
   "items": [
+    {
+      "id": "openai__apple-is-getting-this-wrong",
+      "slug": "apple-is-getting-this-wrong",
+      "source": "openai",
+      "url": "https://openai.com/index/apple-is-getting-this-wrong",
+      "category": "Company",
+      "date": "2026-08-03T22:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Apple is getting this wrong",
+        "th": "Apple เข้าใจผิดเรื่องนี้"
+      },
+      "summary": {
+        "en": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+        "th": "OpenAI จัดการกับคดีที่ไม่มีมูลความจริงของ Apple แก้ไขการเรียกร้องเกี่ยวกับพนักงาน และแบ่งปันข้อความที่บันทึกสิ่งที่เกิดขึ้น"
+      }
+    },
     {
       "id": "openai__continuous-voice-interaction-with-gpt-live",
       "slug": "continuous-voice-interaction-with-gpt-live",
@@ -1325,23 +1342,6 @@
       "summary": {
         "en": "We're asking the public for their hardest questions about AI, and committing to show our work as we address them.",
         "th": "เรากำลังขอให้สาธารณชนถามคำถามที่ยากที่สุดเกี่ยวกับ AI และมุ่งมั่นที่จะแสดงผลงานของเราในขณะที่เราพูดคุยกับพวกเขา"
-      }
-    },
-    {
-      "id": "openai__government-national-security-partnerships",
-      "slug": "government-national-security-partnerships",
-      "source": "openai",
-      "url": "https://openai.com/index/government-national-security-partnerships",
-      "category": "Global Affairs",
-      "date": "2026-07-08T13:30:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Our approach to government and national security partnerships",
-        "th": "แนวทางของเราต่อรัฐบาลและความร่วมมือด้านความมั่นคงแห่งชาติ"
-      },
-      "summary": {
-        "en": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
-        "th": "เรียนรู้ว่า OpenAI เข้าถึงความร่วมมือระหว่างรัฐบาลและความมั่นคงแห่งชาติได้อย่างไร โดยมีหลักการในการใช้ AI อย่างมีความรับผิดชอบ ความรับผิดชอบตามระบอบประชาธิปไตย และความปลอดภัยสาธารณะ"
       }
     },
     {

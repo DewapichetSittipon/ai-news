@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-08-06T14:08:41.010Z",
+  "generatedAt": "2026-08-06T23:52:58.696Z",
   "items": [
+    {
+      "id": "deepmind__weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
+      "slug": "weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "category": "News",
+      "date": "2026-08-06T15:06:15.000Z",
+      "image": "https://lh3.googleusercontent.com/Mj8GyJnsjROScr1hYl7PL_QCAaLGukliPCTMUlpKiQtZuVkmh2ouydYh80ibejg9vWgKkg2dYPx2jCJOOohKid5P-dLzwvIyB4-fZjWXYIx0ImZd=w528-h297-n-nu-rw-lo",
+      "title": {
+        "en": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+        "th": "WeatherNext: โมเดล AI ประสบความสำเร็จในการพยากรณ์พายุไซโคลน"
+      },
+      "summary": {
+        "en": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+        "th": "WeatherNext: โมเดล AI ประสบความสำเร็จในการพยากรณ์พายุไซโคลน"
+      }
+    },
+    {
+      "id": "openai__improving-gpt-5-6-sol-in-chatgpt",
+      "slug": "improving-gpt-5-6-sol-in-chatgpt",
+      "source": "openai",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "category": "Product",
+      "date": "2026-08-06T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+        "th": "ปรับปรุง GPT-5.6 Sol ใน ChatGPT และขยายการเข้าถึง GPT-5.6 Luna สำหรับผู้ใช้ฟรี"
+      },
+      "summary": {
+        "en": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+        "th": "ChatGPT เปิดตัว GPT-5.6 Sol ที่ได้รับการปรับปรุงให้มีความแม่นยำและความสม่ำเสมอที่ดีขึ้น พร้อมการเข้าถึงที่ขยายมากขึ้นสำหรับผู้ใช้ฟรีและการแชทรายวันแบบไม่จำกัดด้วย GPT-5.6 Luna"
+      }
+    },
+    {
+      "id": "openai__openai-and-apa-partner-to-advance-responsible-ai",
+      "slug": "openai-and-apa-partner-to-advance-responsible-ai",
+      "source": "openai",
+      "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "category": "Company",
+      "date": "2026-08-06T06:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Working with the American Psychological Association on youth mental health and AI",
+        "th": "ทำงานร่วมกับสมาคมจิตวิทยาอเมริกันด้านสุขภาพจิตของเยาวชนและ AI"
+      },
+      "summary": {
+        "en": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+        "th": "OpenAI และ American Psychological Association พัฒนาคำแนะนำ ทรัพยากร และการป้องกันตามหลักฐานเชิงประจักษ์สำหรับการใช้ AI อย่างมีความรับผิดชอบและสุขภาพจิตของเยาวชน"
+      }
+    },
+    {
+      "id": "openai__how-the-world-is-putting-chatgpt-to-work",
+      "slug": "how-the-world-is-putting-chatgpt-to-work",
+      "source": "openai",
+      "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+      "category": "Company",
+      "date": "2026-08-06T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "From asking to doing: How the world is putting ChatGPT to work",
+        "th": "จากการถามถึงการทำ: โลกนำ ChatGPT มาทำงานอย่างไร"
+      },
+      "summary": {
+        "en": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+        "th": "ข้อมูลสัญญาณ OpenAI ใหม่แสดงให้เห็นว่าผู้คนใช้ ChatGPT ทั่วโลกอย่างไร พร้อมข้อมูลเชิงลึกระดับประเทศเกี่ยวกับการนำไปใช้ แนวโน้มการใช้งาน และพฤติกรรมที่เปลี่ยนแปลงไป"
+      }
+    },
     {
       "id": "huggingface__baseten",
       "slug": "baseten",
@@ -1311,23 +1379,6 @@
       }
     },
     {
-      "id": "openai__getting-started",
-      "slug": "getting-started",
-      "source": "openai",
-      "url": "https://openai.com/academy/getting-started",
-      "category": "OpenAI Academy",
-      "date": "2026-07-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Getting started with ChatGPT",
-        "th": "เริ่มต้นใช้งาน ChatGPT"
-      },
-      "summary": {
-        "en": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-        "th": "เรียนรู้วิธีใช้ ChatGPT เริ่มการสนทนาครั้งแรก และค้นพบวิธีง่ายๆ ในการเขียน ระดมความคิด และแก้ไขปัญหาด้วย AI"
-      }
-    },
-    {
       "id": "huggingface__torch-attention-profile",
       "slug": "torch-attention-profile",
       "source": "huggingface",
@@ -1342,40 +1393,6 @@
       "summary": {
         "en": "Profiling in PyTorch (Part 3): Attention is all you profile",
         "th": "การทำโปรไฟล์ใน PyTorch (ตอนที่ 3): ความสนใจคือสิ่งที่คุณทำ"
-      }
-    },
-    {
-      "id": "openai__gpt-5-6-preferred-model-microsoft-365-copilot",
-      "slug": "gpt-5-6-preferred-model-microsoft-365-copilot",
-      "source": "openai",
-      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "category": "Product",
-      "date": "2026-07-09T13:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-        "th": "ขณะนี้ GPT-5.6 เป็นรุ่นที่ต้องการใน Microsoft 365 Copilot"
-      },
-      "summary": {
-        "en": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
-        "th": "เรียนรู้ว่า GPT-5.6 ขับเคลื่อน Microsoft 365 Copilot ด้วยความสามารถ AI ที่แข็งแกร่งยิ่งขึ้นใน Word, Excel, PowerPoint, Chat และ Cowork เพื่อการทำงานที่รวดเร็วและมีคุณภาพสูงขึ้นได้อย่างไร"
-      }
-    },
-    {
-      "id": "openai__chatgpt-for-your-most-ambitious-work",
-      "slug": "chatgpt-for-your-most-ambitious-work",
-      "source": "openai",
-      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "category": "Product",
-      "date": "2026-07-09T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "ChatGPT is now a partner for your most ambitious work",
-        "th": "ChatGPT เป็นพันธมิตรสำหรับงานที่ทะเยอทะยานที่สุดของคุณแล้ว"
-      },
-      "summary": {
-        "en": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-        "th": "ChatGPT Work เป็นตัวแทนที่สามารถดำเนินการกับแอปและไฟล์ของคุณ อยู่กับโปรเจ็กต์เป็นเวลาหลายชั่วโมงหากจำเป็น และเปลี่ยนเป้าหมายให้เป็นงานที่เสร็จแล้ว"
       }
     },
     {
@@ -2583,23 +2600,6 @@
       "summary": {
         "en": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
         "th": "DiLoCo แบบแยกส่วน: ขอบเขตใหม่สำหรับการฝึกอบรม AI แบบกระจายที่มีความยืดหยุ่น"
-      }
-    },
-    {
-      "id": "deepmind__partnering-with-industry-leaders-to-accelerate-ai-transformation",
-      "slug": "partnering-with-industry-leaders-to-accelerate-ai-transformation",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
-      "category": "News",
-      "date": "2026-04-21T14:54:15.000Z",
-      "image": "https://lh3.googleusercontent.com/t9KvGjgjHJMLDqzAzXuDUOXFI4IlnMiYLhRmxohCRvB1qGSr8-8-TDEI24qk8ilY4OzRB2et5dSlWOjMs6lm-R718xmtQwdiGBxOO7VjxBfMq4a3yoI=w528-h297-n-nu-rw-lo",
-      "title": {
-        "en": "Partnering with industry leaders to accelerate AI transformation",
-        "th": "ร่วมมือกับผู้นำอุตสาหกรรมเพื่อเร่งการเปลี่ยนแปลง AI"
-      },
-      "summary": {
-        "en": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
-        "th": "Google DeepMind ร่วมมือกับที่ปรึกษาระดับโลกเพื่อนำพลังของ Frontier AI มาสู่องค์กรต่างๆ ทั่วโลก"
       }
     }
   ]

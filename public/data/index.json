@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-05T17:24:38.501Z",
+  "generatedAt": "2026-08-06T14:08:41.010Z",
   "items": [
+    {
+      "id": "huggingface__baseten",
+      "slug": "baseten",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/baseten",
+      "category": "News",
+      "date": "2026-08-06T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Baseten on Hugging Face Inference Providers 🔥",
+        "th": "พื้นฐานจากผู้ให้บริการการอนุมานใบหน้าแบบกอด 🔥"
+      },
+      "summary": {
+        "en": "Baseten on Hugging Face Inference Providers 🔥",
+        "th": "พื้นฐานจากผู้ให้บริการการอนุมานใบหน้าแบบกอด 🔥"
+      }
+    },
     {
       "id": "openai__third-party-cyber-evaluations-involving-openai-models",
       "slug": "third-party-cyber-evaluations-involving-openai-models",
@@ -2175,23 +2192,6 @@
       "summary": {
         "en": "Powering the future of robotics in Europe",
         "th": "ขับเคลื่อนอนาคตของหุ่นยนต์ในยุโรป"
-      }
-    },
-    {
-      "id": "huggingface__spaces-agents-md",
-      "slug": "spaces-agents-md",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "category": "News",
-      "date": "2026-06-09T10:46:19.000Z",
-      "image": null,
-      "title": {
-        "en": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-        "th": "วิธีการที่ตัวแทนสร้างแกลเลอรี 3 มิติในปารีสโดยการเชื่อมโยงพื้นที่ใบหน้ากอดกัน 2 แห่ง"
-      },
-      "summary": {
-        "en": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-        "th": "วิธีการที่ตัวแทนสร้างแกลเลอรี 3 มิติในปารีสโดยการเชื่อมโยงพื้นที่ใบหน้ากอดกัน 2 แห่ง"
       }
     },
     {

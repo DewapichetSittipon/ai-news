@@ -1,0 +1,204 @@
+{
+  "id": "anthropic__improving-fable-5-s-biology-safeguards",
+  "slug": "improving-fable-5-s-biology-safeguards",
+  "source": "anthropic",
+  "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+  "category": "News",
+  "date": "2026-08-07T00:00:00.000Z",
+  "image": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Bird&backgroundColor=heather",
+  "title": {
+    "en": "Improving Fable 5's biology safeguards",
+    "th": "การปรับปรุงการป้องกันทางชีววิทยาของ Fable 5"
+  },
+  "summary": {
+    "en": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces fallbacks.",
+    "th": "เรากำลังอัปเดตการปกป้องทางชีววิทยาของ Claude Fable 5 ในลักษณะที่จะช่วยลดทางเลือกสำรองได้อย่างมาก"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/e253e6c4926deb09baf67f41e4e24e8028ea5f36-1000x1000.svg",
+      "alt": "Improving Fable 5's biology safeguards"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces false positives. Fable 5 users will now experience many fewer “fallbacks”—where the system switches to a less capable model after they make a biology-related query. In our testing, this update reduced biology-related fallbacks by about 85% across our product surfaces.1",
+        "th": "เรากำลังอัปเดตการปกป้องทางชีววิทยาของ Claude Fable 5 ในลักษณะที่จะช่วยลดผลบวกลวงได้อย่างมาก ขณะนี้ผู้ใช้ Fable 5 จะได้รับ \"ทางเลือกสำรอง\" น้อยลงมาก โดยที่ระบบจะเปลี่ยนไปใช้โมเดลที่มีความสามารถน้อยกว่า หลังจากที่พวกเขาทำการสืบค้นที่เกี่ยวข้องกับชีววิทยา ในการทดสอบของเรา การอัปเดตนี้ลดทางเลือกที่เกี่ยวข้องกับชีววิทยาลงประมาณ 85% ทั่วทั้งพื้นผิวผลิตภัณฑ์ของเรา1"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Fable 5 will thus be able to assist with a wider range of biology tasks.",
+        "th": "ดังนั้น Fable 5 จึงสามารถช่วยเหลืองานด้านชีววิทยาได้หลากหลายมากขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In practice, users should see far fewer fallbacks on everyday health and educational questions—for example, interpreting lab results, understanding symptoms, and learning about biology in an educational context. Healthcare professionals will be able to receive more support from Fable 5 on clinical tasks.",
+        "th": "ในทางปฏิบัติ ผู้ใช้ควรเห็นทางเลือกน้อยลงสำหรับคำถามด้านสุขภาพและการศึกษาในชีวิตประจำวัน เช่น การตีความผลห้องปฏิบัติการ การทำความเข้าใจอาการ และการเรียนรู้เกี่ยวกับชีววิทยาในบริบททางการศึกษา ผู้เชี่ยวชาญด้านการดูแลสุขภาพจะสามารถรับการสนับสนุนเพิ่มเติมจาก Fable 5 ในด้านงานทางคลินิกได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We believe the greatest opportunity for AI to positively affect the world is in biology and medicine, and we're investing significantly in building a responsible way to give biologists frontier access. Today, Fable still falls back to Opus 5 for requests we consider dual-use—including virology, toxicology, and molecular design—so it isn't yet usable for professional biology research and drug development. We're committed to closing that gap through trusted access pathways for frontier biology capabilities.",
+        "th": "เราเชื่อว่าโอกาสที่ยิ่งใหญ่ที่สุดสำหรับ AI ที่จะส่งผลเชิงบวกต่อโลกคือในด้านชีววิทยาและการแพทย์ และเรากำลังลงทุนอย่างมากในการสร้างวิธีที่มีความรับผิดชอบเพื่อให้นักชีววิทยาเข้าถึงขอบเขตชายแดน ปัจจุบัน Fable ยังคงใช้ Opus 5 สำหรับคำขอที่เราพิจารณาการใช้งานแบบสองทาง รวมถึงไวรัสวิทยา พิษวิทยา และการออกแบบโมเลกุล ดังนั้นจึงยังไม่สามารถใช้งานได้สำหรับการวิจัยทางชีววิทยาระดับมืออาชีพและการพัฒนายา เรามุ่งมั่นที่จะปิดช่องว่างดังกล่าวผ่านเส้นทางการเข้าถึงที่เชื่อถือได้สำหรับความสามารถด้านชีววิทยาระดับแนวหน้า"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Why we built strong biology safeguards",
+        "th": "เหตุใดเราจึงสร้างการปกป้องทางชีววิทยาที่แข็งแกร่ง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our objective is to get Fable 5’s frontier capabilities into the hands of as many of our users as possible, as quickly as possible. However, to do so, we need to manage the increasing risks that come with models this capable. One such risk is in the field of biology: Fable 5 can now outperform experts on some highly complex biological tasks and provide operational support on others. That means that it can provide genuine assistance to a researcher developing a new medical treatment (which is the reason we’re so keen to widen access to the model via both classifier improvements and trusted access programs). But in the wrong hands, those same capabilities could be used by a malicious actor, for example in developing a biological weapon. Our capability assessments show that Fable 5 could provide significant uplift to such an actor—that is, it could provide them with capabilities they could not find anywhere else.",
+        "th": "วัตถุประสงค์ของเราคือการนำความสามารถระดับแนวหน้าของ Fable 5 มาสู่มือผู้ใช้ของเราให้ได้มากที่สุดโดยเร็วที่สุด อย่างไรก็ตาม เพื่อทำเช่นนั้น เราจำเป็นต้องจัดการความเสี่ยงที่เพิ่มขึ้นที่มาพร้อมกับโมเดลที่มีความสามารถนี้ ความเสี่ยงประการหนึ่งอยู่ในสาขาชีววิทยา: ขณะนี้ Fable 5 มีประสิทธิภาพเหนือกว่าผู้เชี่ยวชาญในงานทางชีววิทยาที่ซับซ้อนสูงและให้การสนับสนุนการปฏิบัติงานกับงานอื่นๆ ได้ นั่นหมายความว่าสามารถให้ความช่วยเหลืออย่างแท้จริงแก่นักวิจัยที่พัฒนาวิธีการรักษาทางการแพทย์แบบใหม่ (ซึ่งเป็นเหตุผลที่เรากระตือรือร้นที่จะขยายการเข้าถึงโมเดลผ่านทั้งการปรับปรุงตัวแยกประเภทและโปรแกรมการเข้าถึงที่เชื่อถือได้) แต่หากอยู่ในมือของคนผิด ความสามารถเดียวกันนั้นก็อาจถูกใช้โดยผู้กระทำความผิดได้ เช่น ในการพัฒนาอาวุธชีวภาพ การประเมินความสามารถของเราแสดงให้เห็นว่า Fable 5 สามารถยกระดับนักแสดงดังกล่าวได้อย่างมาก กล่าวคือ สามารถมอบความสามารถที่พวกเขาไม่สามารถหาได้จากที่อื่น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It’s often difficult to tell apart beneficial and harmful uses of AI in biology. For example, in some cases researching a treatment for a disease requires scientists to produce the dangerous compounds that cause that disease in the first place. This is most obvious for live vaccines, which require scientists to grow the same pathogen they’re aiming to prevent. It’s also the case for some medicines. To develop the drug captopril, which treats hypertension, scientists isolated toxic components of snake venom that crash blood pressure in humans. As new biological capabilities develop on the frontier of AI, we need to be cautious to ensure that the new risks they pose do not materialize ahead of their potential scientific benefits.",
+        "th": "บ่อยครั้งเป็นการยากที่จะแยกการใช้ AI ในทางชีววิทยาที่เป็นประโยชน์และเป็นอันตราย ตัวอย่างเช่น ในบางกรณี การวิจัยวิธีการรักษาโรคจำเป็นต้องให้นักวิทยาศาสตร์ผลิตสารประกอบอันตรายที่ทำให้เกิดโรคนั้นตั้งแต่แรก สิ่งนี้ชัดเจนที่สุดสำหรับวัคซีนที่มีชีวิต ซึ่งนักวิทยาศาสตร์ต้องเพาะเชื้อก่อโรคแบบเดียวกับที่พวกเขาตั้งเป้าที่จะป้องกัน เป็นกรณีของยาบางชนิดด้วย ในการพัฒนายาแคปโตพริลซึ่งใช้รักษาโรคความดันโลหิตสูง นักวิทยาศาสตร์ได้แยกส่วนประกอบที่เป็นพิษของพิษงูที่ทำให้ความดันโลหิตในมนุษย์ลดลง เนื่องจากความสามารถทางชีวภาพใหม่ๆ พัฒนาขึ้นที่ขอบเขตของ AI เราจึงต้องระมัดระวังเพื่อให้แน่ใจว่าความเสี่ยงใหม่ที่เกิดขึ้นจะไม่เกิดขึ้นจริงก่อนประโยชน์ทางวิทยาศาสตร์ที่อาจเกิดขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sophisticated actors who wish to use our models to do harm know how to exploit this ambiguity to obscure their intent, making dangerous tasks look like ordinary research pursuits. The US Intelligence Community’s 2026 Annual Threat Assessment makes clear that such actors exist, and that advances in biotechnology including synthetic biology and genomic editing “could lead to novel biological threats.” It notes that several state actors likely maintain active offensive biological and chemical weapons programs—programs that could be accelerated by access to the raw capabilities of frontier AI models.",
+        "th": "นักแสดงที่มีความซับซ้อนที่ต้องการใช้แบบจำลองของเราในการทำอันตรายรู้วิธีใช้ประโยชน์จากความคลุมเครือนี้เพื่อปิดบังเจตนาของตน ทำให้งานที่เป็นอันตรายดูเหมือนการค้นคว้าวิจัยทั่วไป การประเมินภัยคุกคามประจำปี 2026 ของชุมชนหน่วยข่าวกรองสหรัฐฯ ทำให้ชัดเจนว่ามีผู้กระทำเช่นนี้อยู่ และความก้าวหน้าทางเทคโนโลยีชีวภาพ รวมถึงชีววิทยาสังเคราะห์ และการแก้ไขจีโนม “อาจนำไปสู่ภัยคุกคามทางชีวภาพแบบใหม่” โดยตั้งข้อสังเกตว่าผู้มีบทบาทของรัฐหลายคนมีแนวโน้มที่จะคงโปรแกรมอาวุธชีวภาพและเคมีเชิงรุกเอาไว้ ซึ่งเป็นโปรแกรมที่สามารถเร่งได้ด้วยการเข้าถึงความสามารถดิบของโมเดล AI ชายแดน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Because of our concerns about these “dual-use” capabilities (those that could be used for beneficial or harmful purposes, and where the line between them is not always easy to draw), we intentionally launched Fable 5 with almost all biology queries blocked. This enabled us to make the model available for users in other domains. We knew this would be frustrating for legitimate biology users: it would result in a high number of false positives in the near term, where users asking biology-related questions would have their requests blocked and sent to a less capable model. Nevertheless, we chose to make this tradeoff because the cost of Fable being misused in a dual-use domain like biology could potentially be catastrophic.",
+        "th": "เนื่องจากเรากังวลเกี่ยวกับความสามารถ \"การใช้งานสองทาง\" เหล่านี้ (ความสามารถที่สามารถใช้เพื่อวัตถุประสงค์ที่เป็นประโยชน์หรือเป็นอันตรายได้ และจุดที่เส้นแบ่งระหว่างสิ่งเหล่านั้นไม่ใช่เรื่องง่ายเสมอไป) เราจึงตั้งใจเปิดตัว Fable 5 โดยบล็อกคำถามทางชีววิทยาเกือบทั้งหมด สิ่งนี้ทำให้เราสามารถทำให้โมเดลนี้พร้อมใช้งานสำหรับผู้ใช้ในโดเมนอื่น เรารู้ว่าสิ่งนี้น่าหงุดหงิดสำหรับผู้ใช้ชีววิทยาที่ถูกกฎหมาย: มันจะส่งผลให้เกิดผลบวกลวงจำนวนมากในระยะเวลาอันใกล้นี้ โดยที่ผู้ใช้ที่ถามคำถามเกี่ยวกับชีววิทยาจะถูกบล็อกคำขอของตนและส่งไปยังแบบจำลองที่มีความสามารถน้อยกว่า อย่างไรก็ตาม เราเลือกที่จะทำการแลกเปลี่ยนนี้ เนื่องจากต้นทุนของ Fable ที่ถูกนำไปใช้ในทางที่ผิดในโดเมนแบบใช้สองทาง เช่น ชีววิทยา อาจเป็นหายนะได้"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "How our biology safeguards work",
+        "th": "การปกป้องทางชีววิทยาของเราทำงานอย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One of the core ways we protect against misuse in biology is via safety classifiers: smaller, automated AI systems that detect when Fable 5 is asked to perform a safeguarded biology task, or produce a harmful output (we've previously written about our similar classifiers in the domain of cybersecurity).",
+        "th": "หนึ่งในวิธีหลักที่เราป้องกันการใช้ในทางที่ผิดทางชีววิทยาคือการใช้ตัวแยกประเภทความปลอดภัย: ระบบ AI อัตโนมัติขนาดเล็กที่ตรวจจับได้เมื่อ Fable 5 ถูกขอให้ทำงานด้านชีววิทยาที่ได้รับการคุ้มครอง หรือสร้างผลลัพธ์ที่เป็นอันตราย (ก่อนหน้านี้เราได้เขียนเกี่ยวกับตัวแยกประเภทที่คล้ายกันของเราในโดเมนของความปลอดภัยทางไซเบอร์)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In the case of Fable 5, when a classifier fires, the model re-routes the user’s request to Opus 5, a capable model that does not have the same level of biological capability as Fable 5 and which cannot provide as much assistance to a malicious user. This is the fallback that users see when their requests are blocked.",
+        "th": "ในกรณีของ Fable 5 เมื่อตัวแยกประเภทเริ่มทำงาน โมเดลจะกำหนดเส้นทางคำขอของผู้ใช้ใหม่ไปยัง Opus 5 ซึ่งเป็นโมเดลที่มีความสามารถซึ่งไม่มีความสามารถทางชีวภาพในระดับเดียวกับ Fable 5 และไม่สามารถให้ความช่วยเหลือผู้ใช้ที่เป็นอันตรายได้มากนัก นี่คือทางเลือกที่ผู้ใช้จะเห็นเมื่อคำขอถูกบล็อก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Developing precise, robust classifiers is not a straightforward task. For a classifier to work rapidly and consistently, it has to learn the difference between what we consider “in scope” and “out of scope” for the topics and queries we consider to be potentially harmful. It takes time and iteration to tune the classifiers, avoiding both false positives (where classifiers fire on out-of-scope content) and false negatives (where in-scope content is missed). We also require our classifiers to be robust to attempts to bypass them (known as jailbreaks), which requires even further research and testing.",
+        "th": "การพัฒนาตัวแยกประเภทที่แม่นยำและแข็งแกร่งไม่ใช่เรื่องตรงไปตรงมา เพื่อให้ตัวแยกประเภททำงานได้อย่างรวดเร็วและสม่ำเสมอ จะต้องเรียนรู้ความแตกต่างระหว่างสิ่งที่เราพิจารณาว่า \"อยู่ในขอบเขต\" และ \"อยู่นอกขอบเขต\" สำหรับหัวข้อและข้อความค้นหาที่เราพิจารณาว่าอาจเป็นอันตราย ต้องใช้เวลาและการวนซ้ำในการปรับแต่งตัวแยกประเภท โดยหลีกเลี่ยงทั้งผลบวกลวง (โดยที่ตัวแยกประเภทเริ่มทำงานกับเนื้อหาที่อยู่นอกขอบเขต) และผลลบลวง (โดยที่เนื้อหาในขอบเขตหายไป) นอกจากนี้เรายังต้องการให้ตัวแยกประเภทของเรามีความเข้มแข็งในการพยายามหลีกเลี่ยงสิ่งเหล่านี้ (เรียกว่าการเจลเบรก) ซึ่งจำเป็นต้องมีการวิจัยและการทดสอบเพิ่มเติม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Starting with a very broad biology classifier meant that we could give our users access to Fable 5 while we continued our research aimed at refining it. The alternative—holding back the model until much more safeguards progress was made—would have delayed the model’s general access, and its potential benefits to our users, by weeks or months.",
+        "th": "การเริ่มต้นด้วยตัวแยกประเภททางชีววิทยาที่กว้างมากหมายความว่าเราสามารถให้ผู้ใช้ของเราเข้าถึง Fable 5 ในขณะที่เราดำเนินการวิจัยต่อไปโดยมีเป้าหมายเพื่อปรับปรุงมัน ทางเลือกอื่นคือการระงับโมเดลไว้จนกว่าจะมีความคืบหน้าในการป้องกันมากขึ้น จะทำให้การเข้าถึงโดยทั่วไปของโมเดลล่าช้าและประโยชน์ที่อาจมีต่อผู้ใช้ของเรา เป็นเวลาหลายสัปดาห์หรือหลายเดือน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Over the past several weeks, we've carefully rewritten the classifier’s constitution (which consists of a collection of rules to help the model discern between safeguarded and allowed content), taking care to carve out benign uses in detail. We solicited feedback on the changes from a diverse range of experts (both internal and external to Anthropic). We then developed updated training data for the classifier based on that constitution, and retrained it, and verified the new classifier would still generally trigger for harmful and dual-use research biology content but would now enable a wider range of benign and beneficial uses.",
+        "th": "ในช่วงหลายสัปดาห์ที่ผ่านมา เราได้เขียนรัฐธรรมนูญของตัวแยกประเภทใหม่อย่างระมัดระวัง (ซึ่งประกอบด้วยชุดของกฎเพื่อช่วยให้โมเดลแยกแยะระหว่างเนื้อหาที่ได้รับการคุ้มครองและเนื้อหาที่ได้รับอนุญาต) โดยคำนึงถึงรายละเอียดการใช้งานที่ไม่เป็นอันตราย เราขอความคิดเห็นเกี่ยวกับการเปลี่ยนแปลงจากผู้เชี่ยวชาญที่หลากหลาย (ทั้งภายในและภายนอกจาก Anthropic) จากนั้นเราได้พัฒนาข้อมูลการฝึกอบรมที่อัปเดตสำหรับตัวแยกประเภทตามรัฐธรรมนูญนั้น และฝึกอบรมอีกครั้ง และตรวจสอบว่าตัวแยกประเภทใหม่โดยทั่วไปจะยังคงกระตุ้นให้เกิดเนื้อหาชีววิทยาการวิจัยที่เป็นอันตรายและใช้งานสองทาง แต่ขณะนี้จะทำให้สามารถนำไปใช้ที่ไม่เป็นพิษเป็นภัยและเป็นประโยชน์ได้หลากหลายมากขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As is illustrated in the diagram below, these updates meant that—compared to at the time of Fable 5’s launch—the classifier will trigger for many fewer benign biology-related requests.",
+        "th": "ดังที่แสดงในแผนภาพด้านล่าง การอัปเดตเหล่านี้หมายความว่า เมื่อเปรียบเทียบกับตอนที่เปิดตัว Fable 5 ตัวแยกประเภทจะทริกเกอร์คำขอที่เกี่ยวข้องกับชีววิทยาที่ไม่เป็นพิษเป็นภัยจำนวนน้อยลง"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe6d3c7b32cc8a0798c0ad58a2340f846b3c8af42-3840x1855.png&w=3840&q=75",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Conclusions",
+        "th": "ข้อสรุป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "There’s still much more to be done to refine our safeguards. There will inevitably remain false positives—requests that fall within the classifier’s safety margin where the request is very low-risk but where the classifier still fires. As we noted above, Fable will continue to block dual-use professional biology and drug development queries because of potential dual-use risk. We are fully committed to developing a safe, scalable path for researchers to use our most capable models via trusted access pathways.",
+        "th": "ยังมีอะไรอีกมากมายที่ต้องทำเพื่อปรับแต่งการป้องกันของเรา ผลบวกลวงจะยังคงเกิดขึ้นอย่างหลีกเลี่ยงไม่ได้ นั่นคือคำขอที่อยู่ภายในขอบเขตความปลอดภัยของตัวแยกประเภท โดยที่คำขอมีความเสี่ยงต่ำมาก แต่ส่วนที่ตัวแยกประเภทยังคงเริ่มทำงาน ดังที่เราได้กล่าวไว้ข้างต้น Fable จะยังคงบล็อกคำถามทางชีววิทยาทางวิชาชีพและการพัฒนายาแบบใช้สองทางต่อไป เนื่องจากอาจมีความเสี่ยงจากการใช้แบบสองทาง เรามุ่งมั่นอย่างเต็มที่ในการพัฒนาเส้นทางที่ปลอดภัยและปรับขนาดได้สำหรับนักวิจัยเพื่อใช้แบบจำลองที่มีความสามารถสูงสุดของเราผ่านเส้นทางการเข้าถึงที่เชื่อถือได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We hope you’ll continue to share your feedback with us so we can improve our safeguards even further.",
+        "th": "เราหวังว่าคุณจะแบ่งปันความคิดเห็นของคุณกับเราต่อไป เพื่อให้เราสามารถปรับปรุงการป้องกันของเราให้ดียิ่งขึ้นไปอีก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "1 As a result, we expect the total number of fallbacks—for biology–related or any other reasons—will also be reduced: by roughly 67% on Claude.ai, 55% on Cowork, 17% on Claude Code, and 7% on the Claude Platform.",
+        "th": "1 ด้วยเหตุนี้ เราคาดว่าจำนวนทางเลือกทั้งหมด—ที่เกี่ยวข้องกับชีววิทยาหรือเหตุผลอื่นใด—จะลดลงเช่นกัน: ประมาณ 67% บน Claude.ai, 55% บน Cowork, 17% บน Claude Code และ 7% บน Claude Platform"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Related content",
+        "th": "เนื้อหาที่เกี่ยวข้อง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
+        "th": "Mariano-Florentino (Tino) Cuéllar เข้าร่วม Anthropic ในตำแหน่ง Chief Global Affairs Officer"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mariano-Florentino (Tino) Cuéllar will join Anthropic as its first Chief Global Affairs Officer.",
+        "th": "Mariano-Florentino (Tino) Cuéllar จะร่วมงานกับ Anthropic ในตำแหน่ง Chief Global Affairs Officer คนแรก"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Investigating three real-world incidents in our cybersecurity evaluations",
+        "th": "การตรวจสอบเหตุการณ์ในโลกแห่งความเป็นจริงสามเหตุการณ์ในการประเมินความปลอดภัยทางไซเบอร์ของเรา"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Our position on open-weights models",
+        "th": "จุดยืนของเราในโมเดลน้ำหนักเปิด"
+      }
+    }
+  ]
+}

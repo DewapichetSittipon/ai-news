@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-07T02:14:50.221Z",
+  "generatedAt": "2026-08-07T05:29:25.172Z",
   "items": [
+    {
+      "id": "anthropic__improving-fable-5-s-biology-safeguards",
+      "slug": "improving-fable-5-s-biology-safeguards",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "category": "News",
+      "date": "2026-08-07T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Bird&backgroundColor=heather",
+      "title": {
+        "en": "Improving Fable 5's biology safeguards",
+        "th": "การปรับปรุงการป้องกันทางชีววิทยาของ Fable 5"
+      },
+      "summary": {
+        "en": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces fallbacks.",
+        "th": "เรากำลังอัปเดตการปกป้องทางชีววิทยาของ Claude Fable 5 ในลักษณะที่จะช่วยลดทางเลือกสำรองได้อย่างมาก"
+      }
+    },
     {
       "id": "deepmind__weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
       "slug": "weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
@@ -1291,23 +1308,6 @@
       "summary": {
         "en": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
         "th": "เรียนรู้ว่าองค์กรต่างๆ สามารถจัดการการลงทุน AI ในยุคตัวแทนได้อย่างไรโดยการวัดงานที่มีประโยชน์ต่อดอลลาร์ ปรับปรุงประสิทธิภาพ และปรับขนาดเวิร์กโฟลว์ที่มีมูลค่าสูง"
-      }
-    },
-    {
-      "id": "anthropic__claude-for-teachers",
-      "slug": "claude-for-teachers",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/claude-for-teachers",
-      "category": "News",
-      "date": "2026-07-14T00:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Introducing Claude for Teachers",
-        "th": "ขอแนะนำคลอดด์สำหรับครู"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
       }
     },
     {

@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-07T16:44:50.986Z",
+  "generatedAt": "2026-08-07T18:43:40.580Z",
   "items": [
+    {
+      "id": "huggingface__tutormoments",
+      "slug": "tutormoments",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/allenai/tutormoments",
+      "category": "News",
+      "date": "2026-08-07T17:53:32.000Z",
+      "image": null,
+      "title": {
+        "en": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+        "th": "TutorMoments: ผู้สอน AI รู้หรือไม่ว่าเมื่อใดควรช่วยเหลือและเมื่อใดควรอดกลั้น"
+      },
+      "summary": {
+        "en": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+        "th": "TutorMoments: ผู้สอน AI รู้หรือไม่ว่าเมื่อใดควรช่วยเหลือและเมื่อใดควรอดกลั้น"
+      }
+    },
     {
       "id": "openai__responding-next-frontier-critical-cyber-capabilities",
       "slug": "responding-next-frontier-critical-cyber-capabilities",
@@ -543,23 +560,6 @@
       "summary": {
         "en": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
         "th": "รายงานภาคสนามฉบับใหม่แสดงให้เห็นว่านักวิทยาศาสตร์ใช้ตัวแทนการเข้ารหัส AI เพื่อปรับปรุงการประมวลผลทางวิทยาศาสตร์ให้ทันสมัย ​​เร่งการพัฒนาซอฟต์แวร์และการค้นพบในด้านจีโนมิกส์และอื่น ๆ ได้อย่างไร"
-      }
-    },
-    {
-      "id": "huggingface__olmoearth-infrastructure",
-      "slug": "olmoearth-infrastructure",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-      "category": "News",
-      "date": "2026-07-28T16:27:42.000Z",
-      "image": null,
-      "title": {
-        "en": "The OlmoEarth Platform: Geospatial inference at planetary scale",
-        "th": "แพลตฟอร์ม OlmoEarth: การอนุมานเชิงพื้นที่ในระดับดาวเคราะห์"
-      },
-      "summary": {
-        "en": "The OlmoEarth Platform: Geospatial inference at planetary scale",
-        "th": "แพลตฟอร์ม OlmoEarth: การอนุมานเชิงพื้นที่ในระดับดาวเคราะห์"
       }
     },
     {

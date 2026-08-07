@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-07T14:47:40.864Z",
+  "generatedAt": "2026-08-07T16:44:50.986Z",
   "items": [
+    {
+      "id": "openai__responding-next-frontier-critical-cyber-capabilities",
+      "slug": "responding-next-frontier-critical-cyber-capabilities",
+      "source": "openai",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "category": "Security",
+      "date": "2026-08-07T15:20:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Responding to the next frontier of critical cyber capabilities",
+        "th": "ตอบสนองต่อขอบเขตถัดไปของความสามารถทางไซเบอร์ที่สำคัญ"
+      },
+      "summary": {
+        "en": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+        "th": "OpenAI กำลังแบ่งปันการประเมินความปลอดภัยทางไซเบอร์เบื้องต้นสำหรับ Astra และขั้นตอนที่เรากำลังดำเนินการเพื่อเสริมสร้างการป้องกันและการควบคุมความปลอดภัย"
+      }
+    },
     {
       "id": "openai__hsp-gruppe",
       "slug": "hsp-gruppe",
@@ -1342,23 +1359,6 @@
       "summary": {
         "en": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
         "th": "ดูว่าทีมวิทยาศาสตร์ข้อมูลสามารถใช้ ChatGPT Work เพื่อสร้างบทสรุปที่ต้นตอ การอ่านผลกระทบ บันทึก KPI การวิเคราะห์แบบกำหนดขอบเขต และข้อมูลจำเพาะของแดชบอร์ดจากอินพุตงานจริงได้อย่างไร"
-      }
-    },
-    {
-      "id": "openai__how-sales-teams-use-codex",
-      "slug": "how-sales-teams-use-codex",
-      "source": "openai",
-      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "category": "OpenAI Academy",
-      "date": "2026-07-14T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How sales teams use ChatGPT Work",
-        "th": "ทีมขายใช้งาน ChatGPT อย่างไร"
-      },
-      "summary": {
-        "en": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-        "th": "ดูว่าทีมขายสามารถใช้ ChatGPT Work เพื่อสร้างบทสรุปไปป์ไลน์ แพคเกจการเตรียมการประชุม การตรวจสอบการคาดการณ์ แผนบัญชี และการวินิจฉัยข้อตกลงที่หยุดชะงักจากอินพุตงานจริงได้อย่างไร"
       }
     },
     {

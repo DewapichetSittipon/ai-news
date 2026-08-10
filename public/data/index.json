@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T16:45:38.510Z",
+  "generatedAt": "2026-08-10T18:45:29.466Z",
   "items": [
     {
       "id": "openai__building-an-ai-native-finance-function",
@@ -101,6 +101,57 @@
       "summary": {
         "en": "Making Knowledge Distillation Cheap Enough to Run at Scale",
         "th": "ทำให้การกลั่นความรู้มีราคาถูกพอที่จะดำเนินการตามขนาดที่ต้องการ"
+      }
+    },
+    {
+      "id": "openai__expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "slug": "expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "source": "openai",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "category": "Security",
+      "date": "2026-08-10T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Expanding Daybreak as the Cyber Defense Window Narrows",
+        "th": "การขยายรุ่งสางในขณะที่หน้าต่างการป้องกันทางไซเบอร์แคบลง"
+      },
+      "summary": {
+        "en": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
+        "th": "พบกับ GPT-5.6-Cyber ​​ซึ่งเป็นโมเดลเฉพาะด้านความปลอดภัยทางไซเบอร์ของ OpenAI ที่พร้อมใช้งานผ่าน Daybreak Red สำหรับการวิจัยช่องโหว่ที่ได้รับอนุญาต การตรวจสอบช่องโหว่ และการทดสอบความปลอดภัย"
+      }
+    },
+    {
+      "id": "openai__putting-frontier-cyber-models-in-more-trusted-hands",
+      "slug": "putting-frontier-cyber-models-in-more-trusted-hands",
+      "source": "openai",
+      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "category": "Security",
+      "date": "2026-08-10T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Putting frontier cyber models in more trusted hands",
+        "th": "วางโมเดลไซเบอร์ชายแดนไว้ในมือที่เชื่อถือได้มากขึ้น"
+      },
+      "summary": {
+        "en": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+        "th": "พันธมิตร Daybreak ที่ได้รับการอนุมัติสามารถใช้โมเดลไซเบอร์ระดับแนวหน้าของ OpenAI เพื่อส่งมอบบริการรักษาความปลอดภัยทางไซเบอร์ที่ได้รับการควบคุมและได้รับอนุญาตแก่ลูกค้า"
+      }
+    },
+    {
+      "id": "openai__premium-seats-chatgpt-business",
+      "slug": "premium-seats-chatgpt-business",
+      "source": "openai",
+      "url": "https://openai.com/index/premium-seats-chatgpt-business",
+      "category": "Product",
+      "date": "2026-08-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Premium seats are coming to ChatGPT Business",
+        "th": "ที่นั่งระดับพรีเมียมกำลังจะมาถึง ChatGPT Business"
+      },
+      "summary": {
+        "en": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+        "th": "ที่นั่งระดับพรีเมียมกำลังจะมาถึง ChatGPT Business ลงชื่อสมัครภายในวันที่ 20 สิงหาคมเพื่อรับเครดิตพื้นที่ทำงานมูลค่า $100 และปลดล็อกการใช้งานที่สูงขึ้นสำหรับงานที่มีความต้องการมากที่สุดของทีม"
       }
     },
     {
@@ -1294,40 +1345,6 @@
       }
     },
     {
-      "id": "openai__codex-collaborator-creative-team",
-      "slug": "codex-collaborator-creative-team",
-      "source": "openai",
-      "url": "https://openai.com/index/codex-collaborator-creative-team",
-      "category": "OpenAI on OpenAI",
-      "date": "2026-07-16T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How Codex became a collaborator for OpenAI’s creative team",
-        "th": "Codex มาเป็นผู้ร่วมมือให้กับทีมสร้างสรรค์ของ OpenAI ได้อย่างไร"
-      },
-      "summary": {
-        "en": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
-        "th": "วิธีที่ทีมสร้างสรรค์ของ OpenAI ใช้ Codex เพื่อสร้างเครื่องมือสร้างสรรค์แบบกำหนดเอง เร่งความคิด และสร้างต้นแบบได้เร็วขึ้นด้วย AI ที่คำนึงถึงบริบท"
-      }
-    },
-    {
-      "id": "openai__cars24",
-      "slug": "cars24",
-      "source": "openai",
-      "url": "https://openai.com/index/cars24",
-      "category": "News",
-      "date": "2026-07-16T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How Cars24 scales conversations and builds faster with OpenAI",
-        "th": "Cars24 ปรับขนาดการสนทนาและสร้างเร็วขึ้นด้วย OpenAI ได้อย่างไร"
-      },
-      "summary": {
-        "en": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
-        "th": "Cars24 ใช้ตัวแทนเสียงและการแชทที่ขับเคลื่อนโดย OpenAI เพื่อจัดการนาทีการสนทนามากกว่า 1 ล้านนาที กู้คืนโอกาสในการขายที่หายไป 12% และนำเวิร์กโฟลว์ตัวแทนมาสู่ทีมทั่วทั้งบริษัท"
-      }
-    },
-    {
       "id": "huggingface__security-incident-july-2026",
       "slug": "security-incident-july-2026",
       "source": "huggingface",
@@ -1359,23 +1376,6 @@
       "summary": {
         "en": "Model Routing Is Simple. Until It Isn’t.",
         "th": "การกำหนดเส้นทางโมเดลนั้นง่ายมาก จนกระทั่งมันไม่ใช่"
-      }
-    },
-    {
-      "id": "openai__advancing-ai-safety-through-state-and-federal-action",
-      "slug": "advancing-ai-safety-through-state-and-federal-action",
-      "source": "openai",
-      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
-      "category": "Global Affairs",
-      "date": "2026-07-15T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "The US is advancing AI safety through state and federal action",
-        "th": "สหรัฐอเมริกากำลังพัฒนาความปลอดภัยของ AI ผ่านการดำเนินการของรัฐและรัฐบาลกลาง"
-      },
-      "summary": {
-        "en": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
-        "th": "OpenAI สรุปแนวทาง \"สหพันธ์แบบย้อนกลับ\" สำหรับการกำกับดูแล AI โดยที่กฎหมายของรัฐช่วยสร้างกรอบการทำงานระดับชาติสำหรับ AI ที่ปลอดภัยและเป็นประชาธิปไตย"
       }
     },
     {

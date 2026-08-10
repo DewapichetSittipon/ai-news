@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-08-08T20:20:18.830Z",
+  "generatedAt": "2026-08-10T11:01:26.619Z",
   "items": [
+    {
+      "id": "huggingface__efficient-knowledge-distillation",
+      "slug": "efficient-knowledge-distillation",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "category": "News",
+      "date": "2026-08-10T10:05:36.000Z",
+      "image": null,
+      "title": {
+        "en": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+        "th": "ทำให้การกลั่นความรู้มีราคาถูกพอที่จะดำเนินการตามขนาดที่ต้องการ"
+      },
+      "summary": {
+        "en": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+        "th": "ทำให้การกลั่นความรู้มีราคาถูกพอที่จะดำเนินการตามขนาดที่ต้องการ"
+      }
+    },
+    {
+      "id": "huggingface__muse-glimmer",
+      "slug": "muse-glimmer",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/muse-glimmer",
+      "category": "News",
+      "date": "2026-08-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+        "th": "Meta กลับมาพร้อมกับ Muse Glimmer: ในท้องถิ่น, ตัวแทน, ต่อเนื่องหลายรูปแบบและโอเพ่นซอร์ส"
+      },
+      "summary": {
+        "en": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+        "th": "Meta กลับมาพร้อมกับ Muse Glimmer: ในท้องถิ่น, ตัวแทน, ต่อเนื่องหลายรูปแบบและโอเพ่นซอร์ส"
+      }
+    },
     {
       "id": "huggingface__tutormoments",
       "slug": "tutormoments",
@@ -2025,23 +2059,6 @@
       }
     },
     {
-      "id": "huggingface__agentic-resource-discovery-launch",
-      "slug": "agentic-resource-discovery-launch",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-      "category": "News",
-      "date": "2026-06-17T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Agentic Resource Discovery: Let agents search",
-        "th": "การค้นพบทรัพยากรตัวแทน: ให้ตัวแทนค้นหา"
-      },
-      "summary": {
-        "en": "Agentic Resource Discovery: Let agents search",
-        "th": "การค้นพบทรัพยากรตัวแทน: ให้ตัวแทนค้นหา"
-      }
-    },
-    {
       "id": "deepmind__unlocking-uk-house-building-with-ai-accelerated-planning",
       "slug": "unlocking-uk-house-building-with-ai-accelerated-planning",
       "source": "deepmind",
@@ -2107,23 +2124,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\">We’re helping build the state’s next-generation workforce and investing in energy programs.",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\">เรากำลังช่วยสร้างบุคลากรรุ่นต่อไปของรัฐและการลงทุนในโครงการพลังงาน"
-      }
-    },
-    {
-      "id": "huggingface__torch-mlp-fusion",
-      "slug": "torch-mlp-fusion",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/torch-mlp-fusion",
-      "category": "News",
-      "date": "2026-06-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
-        "th": "การสร้างโปรไฟล์ใน PyTorch (ตอนที่ 2): จาก nn.Linear ไปจนถึง Fused MLP"
-      },
-      "summary": {
-        "en": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
-        "th": "การสร้างโปรไฟล์ใน PyTorch (ตอนที่ 2): จาก nn.Linear ไปจนถึง Fused MLP"
       }
     },
     {

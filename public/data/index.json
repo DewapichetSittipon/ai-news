@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-08-10T14:52:23.605Z",
+  "generatedAt": "2026-08-10T16:45:38.510Z",
   "items": [
+    {
+      "id": "openai__building-an-ai-native-finance-function",
+      "slug": "building-an-ai-native-finance-function",
+      "source": "openai",
+      "url": "https://openai.com/index/building-an-ai-native-finance-function",
+      "category": "Company",
+      "date": "2026-08-10T17:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "What building an AI-native finance function taught me",
+        "th": "สิ่งที่การสร้างฟังก์ชันการเงินแบบ AI สอนฉัน"
+      },
+      "summary": {
+        "en": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+        "th": "Sarah Friar CFO ของ OpenAI แบ่งปันบทเรียนห้าบทสำหรับการสร้างฟังก์ชันการเงินแบบ AI ตั้งแต่การคาดการณ์อัตโนมัติไปจนถึงการควบคุมที่แข็งแกร่งขึ้นและ ROI ของ AI"
+      }
+    },
+    {
+      "id": "huggingface__magpie-tts-multilingual-voice-agents",
+      "slug": "magpie-tts-multilingual-voice-agents",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "category": "News",
+      "date": "2026-08-10T16:25:36.000Z",
+      "image": null,
+      "title": {
+        "en": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+        "th": "สร้างตัวแทนเสียงหลายภาษาที่มีความหน่วงต่ำ: น้ำหนักแบบเปิดและการควบคุมการใช้งานเต็มรูปแบบด้วย NVIDIA Magpie TTS"
+      },
+      "summary": {
+        "en": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+        "th": "สร้างตัวแทนเสียงหลายภาษาที่มีความหน่วงต่ำ: น้ำหนักแบบเปิดและการควบคุมการใช้งานเต็มรูปแบบด้วย NVIDIA Magpie TTS"
+      }
+    },
     {
       "id": "google-ai__google-ads-analytics-ai-updates",
       "slug": "google-ads-analytics-ai-updates",
@@ -1345,23 +1379,6 @@
       }
     },
     {
-      "id": "openai__unlocking-self-improvement-gpt-red",
-      "slug": "unlocking-self-improvement-gpt-red",
-      "source": "openai",
-      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "category": "Safety",
-      "date": "2026-07-15T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "GPT-Red: Unlocking Self-Improvement for Robustness",
-        "th": "GPT-Red: ปลดล็อกการพัฒนาตนเองเพื่อความคงทน"
-      },
-      "summary": {
-        "en": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
-        "th": "สำรวจ GPT-Red ซึ่งเป็นระบบการรวมทีมสีแดงอัตโนมัติของ OpenAI ที่ใช้การเล่นด้วยตนเองเพื่อปรับปรุงความปลอดภัยของ AI การจัดตำแหน่ง และความทนทานในการฉีดที่รวดเร็ว"
-      }
-    },
-    {
       "id": "huggingface__thinkingmachines-inkling",
       "slug": "thinkingmachines-inkling",
       "source": "huggingface",
@@ -2056,23 +2073,6 @@
       "summary": {
         "en": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
         "th": "ตั้งแต่ Hugging Face Hub ไปจนถึงฮาร์ดแวร์หุ่นยนต์ด้วย Strands Agents และ LeRobot"
-      }
-    },
-    {
-      "id": "huggingface__glm-52-blog",
-      "slug": "glm-52-blog",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
-      "category": "News",
-      "date": "2026-06-17T09:01:25.000Z",
-      "image": null,
-      "title": {
-        "en": "GLM-5.2: Built for Long-Horizon Tasks",
-        "th": "GLM-5.2: สร้างขึ้นสำหรับงานระยะยาว"
-      },
-      "summary": {
-        "en": "GLM-5.2: Built for Long-Horizon Tasks",
-        "th": "GLM-5.2: สร้างขึ้นสำหรับงานระยะยาว"
       }
     },
     {

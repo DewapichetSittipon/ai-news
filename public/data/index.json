@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-11T01:07:14.155Z",
+  "generatedAt": "2026-08-11T15:48:10.070Z",
   "items": [
+    {
+      "id": "huggingface__altk-evolve-sldd",
+      "slug": "altk-evolve-sldd",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "category": "News",
+      "date": "2026-08-11T13:37:10.000Z",
+      "image": null,
+      "title": {
+        "en": "Thinking of ACE? We Can Do It with Fewer Tokens",
+        "th": "คิดถึงเอซมั้ย? เราสามารถทำได้โดยใช้โทเค็นน้อยลง"
+      },
+      "summary": {
+        "en": "Thinking of ACE? We Can Do It with Fewer Tokens",
+        "th": "คิดถึงเอซมั้ย? เราสามารถทำได้โดยใช้โทเค็นน้อยลง"
+      }
+    },
     {
       "id": "openai__building-an-ai-native-finance-function",
       "slug": "building-an-ai-native-finance-function",
@@ -2056,23 +2073,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\">Research in “Nature” shows our conversational AI system matches primary care physici",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\">การวิจัยใน “ธรรมชาติ” แสดงให้เห็นว่าระบบ AI การสนทนาของเราตรงกับนักกายภาพบำบัดระดับปฐมภูมิ"
-      }
-    },
-    {
-      "id": "huggingface__strands-lerobot-hub-to-hardware",
-      "slug": "strands-lerobot-hub-to-hardware",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "category": "News",
-      "date": "2026-06-17T10:18:05.000Z",
-      "image": null,
-      "title": {
-        "en": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-        "th": "ตั้งแต่ Hugging Face Hub ไปจนถึงฮาร์ดแวร์หุ่นยนต์ด้วย Strands Agents และ LeRobot"
-      },
-      "summary": {
-        "en": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-        "th": "ตั้งแต่ Hugging Face Hub ไปจนถึงฮาร์ดแวร์หุ่นยนต์ด้วย Strands Agents และ LeRobot"
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T20:34:06.889Z",
+  "generatedAt": "2026-08-11T01:07:14.155Z",
   "items": [
     {
       "id": "openai__building-an-ai-native-finance-function",
@@ -152,6 +152,40 @@
       "summary": {
         "en": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
         "th": "ที่นั่งระดับพรีเมียมกำลังจะมาถึง ChatGPT Business ลงชื่อสมัครภายในวันที่ 20 สิงหาคมเพื่อรับเครดิตพื้นที่ทำงานมูลค่า $100 และปลดล็อกการใช้งานที่สูงขึ้นสำหรับงานที่มีความต้องการมากที่สุดของทีม"
+      }
+    },
+    {
+      "id": "openai__zapier",
+      "slug": "zapier",
+      "source": "openai",
+      "url": "https://openai.com/index/zapier",
+      "category": "News",
+      "date": "2026-08-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How Zapier transformed core marketing processes with ChatGPT Work",
+        "th": "Zapier เปลี่ยนโฉมกระบวนการทางการตลาดหลักด้วย ChatGPT Work อย่างไร"
+      },
+      "summary": {
+        "en": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
+        "th": "ทีมการตลาดระดับองค์กรที่ Zapier ใช้ ChatGPT Work เพื่อลดจำนวนการออกจากช่องทางลูกค้าเป้าหมาย สร้างเนื้อหาแคมเปญ และทำให้การรายงานเป็นแบบอัตโนมัติ"
+      }
+    },
+    {
+      "id": "openai__chatgpt-work",
+      "slug": "chatgpt-work",
+      "source": "openai",
+      "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+      "category": "News",
+      "date": "2026-08-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+        "th": "Virgin Atlantic ทำให้การเดินทางของลูกค้าคมชัดขึ้นด้วย ChatGPT Work"
+      },
+      "summary": {
+        "en": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
+        "th": "Virgin Atlantic กำลังเร่งการวิจัย การวางแผนผลิตภัณฑ์ และการตัดสินใจด้วย ChatGPT Work ซึ่งช่วยให้ทีมเชื่อมต่อสัญญาณตลอดเส้นทางของลูกค้า"
       }
     },
     {
@@ -1240,40 +1274,6 @@
       "summary": {
         "en": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
         "th": "Google เปิดตัว Gemini 3.5 Flash Cyber ​​ซึ่งเป็นโมเดลความปลอดภัยทางไซเบอร์แบบน้ำหนักเบาเพื่อค้นหาและแก้ไขช่องโหว่"
-      }
-    },
-    {
-      "id": "openai__a-scorecard-for-the-ai-age",
-      "slug": "a-scorecard-for-the-ai-age",
-      "source": "openai",
-      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
-      "category": "Company",
-      "date": "2026-07-17T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "A scorecard for the AI age",
-        "th": "ตารางสรุปสถิติสำหรับยุค AI"
-      },
-      "summary": {
-        "en": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
-        "th": "Sarah Friar, CFO ของ OpenAI แนะนำดัชนีชี้วัด AI ที่ใช้งานได้จริงเพื่อวัด ROI ผ่านงานที่มีประโยชน์ ต้นทุนต่องานที่สำเร็จ ความเชื่อถือได้ และผลตอบแทนจากการประมวลผล"
-      }
-    },
-    {
-      "id": "openai__why-teens-deserve-access-safe-ai",
-      "slug": "why-teens-deserve-access-safe-ai",
-      "source": "openai",
-      "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-      "category": "Safety",
-      "date": "2026-07-16T16:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Why teens deserve access to safe AI",
-        "th": "เหตุใดวัยรุ่นจึงสมควรเข้าถึง AI ที่ปลอดภัย"
-      },
-      "summary": {
-        "en": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
-        "th": "เรียนรู้ว่า OpenAI ทำให้ ChatGPT ปลอดภัยยิ่งขึ้นสำหรับวัยรุ่นด้วยการป้องกันที่เหมาะสมกับวัย เครื่องมือการเรียนรู้ การควบคุมโดยผู้ปกครอง และความร่วมมือจากผู้เชี่ยวชาญได้อย่างไร"
       }
     },
     {

@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-12T14:51:43.737Z",
+  "generatedAt": "2026-08-12T16:50:13.498Z",
   "items": [
+    {
+      "id": "huggingface__olmoearth-embeddings",
+      "slug": "olmoearth-embeddings",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "category": "News",
+      "date": "2026-08-12T16:14:36.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+        "th": "ขอแนะนำการฝัง OlmoEarth: การส่งออกการฝังแบบกำหนดเองจาก OlmoEarth Studio สำหรับการวิเคราะห์ขั้นปลาย"
+      },
+      "summary": {
+        "en": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+        "th": "ขอแนะนำการฝัง OlmoEarth: การส่งออกการฝังแบบกำหนดเองจาก OlmoEarth Studio สำหรับการวิเคราะห์ขั้นปลาย"
+      }
+    },
     {
       "id": "deepmind__putting-sign-language-ai-into-users-hands",
       "slug": "putting-sign-language-ai-into-users-hands",
@@ -322,23 +339,6 @@
       "summary": {
         "en": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
         "th": "Meta กลับมาพร้อมกับ Muse Glimmer: ในท้องถิ่น, ตัวแทน, ต่อเนื่องหลายรูปแบบและโอเพ่นซอร์ส"
-      }
-    },
-    {
-      "id": "huggingface__tutormoments",
-      "slug": "tutormoments",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/allenai/tutormoments",
-      "category": "News",
-      "date": "2026-08-07T17:53:32.000Z",
-      "image": null,
-      "title": {
-        "en": "TutorMoments: Do AI tutors know when to help and when to hold back?",
-        "th": "TutorMoments: ผู้สอน AI รู้หรือไม่ว่าเมื่อใดควรช่วยเหลือและเมื่อใดควรอดกลั้น"
-      },
-      "summary": {
-        "en": "TutorMoments: Do AI tutors know when to help and when to hold back?",
-        "th": "TutorMoments: ผู้สอน AI รู้หรือไม่ว่าเมื่อใดควรช่วยเหลือและเมื่อใดควรอดกลั้น"
       }
     },
     {

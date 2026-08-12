@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T18:52:52.272Z",
+  "generatedAt": "2026-08-12T22:33:02.886Z",
   "items": [
     {
       "id": "huggingface__olmoearth-embeddings",
@@ -67,6 +67,23 @@
       "summary": {
         "en": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
         "th": "การวิจัยของ OpenAI เผยวิธีที่องค์กรต่างๆ นำ AI แบบตัวแทนมาใช้ โดยใช้ ChatGPT และ Codex และวิธีที่บริษัทระดับแนวหน้านำหน้าการนำ AI มาใช้"
+      }
+    },
+    {
+      "id": "openai__ringcentral",
+      "slug": "ringcentral",
+      "source": "openai",
+      "url": "https://openai.com/index/ringcentral",
+      "category": "News",
+      "date": "2026-08-12T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How RingCentral builds AI-native work from engineering to ops",
+        "th": "RingCentral สร้างงานที่ใช้ AI ตั้งแต่งานวิศวกรรมไปจนถึงการปฏิบัติงานอย่างไร"
+      },
+      "summary": {
+        "en": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
+        "th": "ดูว่า RingCentral ใช้ ChatGPT Work และ Codex เพื่อเร่งการพัฒนาผลิตภัณฑ์ AI และรวมศูนย์อัจฉริยะด้านการดำเนินงานทั่วทั้งวิศวกรรมและการปฏิบัติการอย่างไร"
       }
     },
     {
@@ -240,23 +257,6 @@
       }
     },
     {
-      "id": "openai__expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "slug": "expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "source": "openai",
-      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "category": "Security",
-      "date": "2026-08-10T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Expanding Daybreak as the Cyber Defense Window Narrows",
-        "th": "การขยายรุ่งสางในขณะที่หน้าต่างการป้องกันทางไซเบอร์แคบลง"
-      },
-      "summary": {
-        "en": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
-        "th": "พบกับ GPT-5.6-Cyber ​​ซึ่งเป็นโมเดลเฉพาะด้านความปลอดภัยทางไซเบอร์ของ OpenAI ที่พร้อมใช้งานผ่าน Daybreak Red สำหรับการวิจัยช่องโหว่ที่ได้รับอนุญาต การตรวจสอบช่องโหว่ และการทดสอบความปลอดภัย"
-      }
-    },
-    {
       "id": "openai__putting-frontier-cyber-models-in-more-trusted-hands",
       "slug": "putting-frontier-cyber-models-in-more-trusted-hands",
       "source": "openai",
@@ -274,20 +274,20 @@
       }
     },
     {
-      "id": "openai__premium-seats-chatgpt-business",
-      "slug": "premium-seats-chatgpt-business",
+      "id": "openai__expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "slug": "expanding-daybreak-as-the-cyber-defense-window-narrows",
       "source": "openai",
-      "url": "https://openai.com/index/premium-seats-chatgpt-business",
-      "category": "Product",
-      "date": "2026-08-10T00:00:00.000Z",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "category": "Security",
+      "date": "2026-08-10T10:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Premium seats are coming to ChatGPT Business",
-        "th": "ที่นั่งระดับพรีเมียมกำลังจะมาถึง ChatGPT Business"
+        "en": "Expanding Daybreak as the Cyber Defense Window Narrows",
+        "th": "การขยายรุ่งสางในขณะที่หน้าต่างการป้องกันทางไซเบอร์แคบลง"
       },
       "summary": {
-        "en": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
-        "th": "ที่นั่งระดับพรีเมียมกำลังจะมาถึง ChatGPT Business ลงชื่อสมัครภายในวันที่ 20 สิงหาคมเพื่อรับเครดิตพื้นที่ทำงานมูลค่า $100 และปลดล็อกการใช้งานที่สูงขึ้นสำหรับงานที่มีความต้องการมากที่สุดของทีม"
+        "en": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
+        "th": "พบกับ GPT-5.6-Cyber ​​ซึ่งเป็นโมเดลเฉพาะด้านความปลอดภัยทางไซเบอร์ของ OpenAI ที่พร้อมใช้งานผ่าน Daybreak Red สำหรับการวิจัยช่องโหว่ที่ได้รับอนุญาต การตรวจสอบช่องโหว่ และการทดสอบความปลอดภัย"
       }
     },
     {
@@ -305,6 +305,23 @@
       "summary": {
         "en": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
         "th": "ทีมการตลาดระดับองค์กรที่ Zapier ใช้ ChatGPT Work เพื่อลดจำนวนการออกจากช่องทางลูกค้าเป้าหมาย สร้างเนื้อหาแคมเปญ และทำให้การรายงานเป็นแบบอัตโนมัติ"
+      }
+    },
+    {
+      "id": "openai__premium-seats-chatgpt-business",
+      "slug": "premium-seats-chatgpt-business",
+      "source": "openai",
+      "url": "https://openai.com/index/premium-seats-chatgpt-business",
+      "category": "Product",
+      "date": "2026-08-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Premium seats are coming to ChatGPT Business",
+        "th": "ที่นั่งระดับพรีเมียมกำลังจะมาถึง ChatGPT Business"
+      },
+      "summary": {
+        "en": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+        "th": "ที่นั่งระดับพรีเมียมกำลังจะมาถึง ChatGPT Business ลงชื่อสมัครภายในวันที่ 20 สิงหาคมเพื่อรับเครดิตพื้นที่ทำงานมูลค่า $100 และปลดล็อกการใช้งานที่สูงขึ้นสำหรับงานที่มีความต้องการมากที่สุดของทีม"
       }
     },
     {
@@ -1223,23 +1240,6 @@
       "summary": {
         "en": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
         "th": "NTT DATA Group ใช้ ChatGPT Enterprise และ Codex เพื่อช่วยให้พนักงาน 9,000 คนทำงานอัตโนมัติ ลดการวิเคราะห์เหตุการณ์เหลือ 30 นาที และปรับขนาดการนำ AI มาใช้อย่างปลอดภัย"
-      }
-    },
-    {
-      "id": "openai__introducing-chatgpt-small-business-program",
-      "slug": "introducing-chatgpt-small-business-program",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "category": "AI Adoption",
-      "date": "2026-07-21T17:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing the ChatGPT for small business program",
-        "th": "ขอแนะนำโปรแกรม ChatGPT สำหรับธุรกิจขนาดเล็ก"
-      },
-      "summary": {
-        "en": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-        "th": "OpenAI เปิดตัวโปรแกรม ChatGPT สำหรับธุรกิจขนาดเล็ก ช่วยให้ผู้ประกอบการสร้างทักษะ AI ทำงานอัตโนมัติ และเติบโตไปพร้อมกับ ChatGPT Work"
       }
     },
     {

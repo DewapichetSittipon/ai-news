@@ -1,0 +1,471 @@
+{
+  "id": "deepmind__introducing-gemini-3-7-flash",
+  "slug": "introducing-gemini-3-7-flash",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+  "category": "News",
+  "date": "2026-08-13T17:04:18.000Z",
+  "image": null,
+  "title": {
+    "en": "Introducing Gemini 3.7 Flash",
+    "th": "ขอแนะนำ Gemini 3.7 Flash"
+  },
+  "summary": {
+    "en": "Introducing Gemini 3.7 Flash",
+    "th": "ขอแนะนำ Gemini 3.7 Flash"
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "นวัตกรรมและเอไอ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Models & research",
+        "th": "แบบจำลองและการวิจัย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini Models",
+        "th": "โมเดลราศีเมถุน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Aug 13, 2026",
+        "th": "13 ส.ค. 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our most intelligent workhorse model yet for coding and agents.",
+        "th": "โมเดลการทำงานที่ชาญฉลาดที่สุดของเราสำหรับการเขียนโค้ดและตัวแทน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Tulsee Doshi",
+        "th": "ทุลซี โดชิ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Senior Director, Product Management, on behalf of the Gemini team",
+        "th": "ผู้อำนวยการอาวุโสฝ่ายบริหารผลิตภัณฑ์ ในนามของทีม Gemini"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash.width-200.format-webp.webp",
+      "alt": "Spark icon next to the text \"Gemini 3.7 Flash\", all on a light blue backgorund"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re building on the progress of our widely used Flash series by introducing Gemini 3.7 Flash, our most intelligent workhorse model yet for coding and agents.",
+        "th": "วันนี้ เรากำลังต่อยอดความก้าวหน้าของซีรีส์ Flash ที่ใช้กันอย่างแพร่หลายโดยการเปิดตัว Gemini 3.7 Flash ซึ่งเป็นโมเดลที่ชาญฉลาดที่สุดของเราสำหรับการเขียนโค้ดและเอเจนต์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This release comes just three weeks after Gemini 3.6 Flash, and is a direct result of developer feedback and algorithmic innovations that we look forward to bringing to future models. 3.7 Flash delivers substantial improvements across software engineering, knowledge work, and web development workflows — with an introductory price of half the original 3.6 Flash cost per million tokens.",
+        "th": "การเปิดตัวครั้งนี้เกิดขึ้นเพียงสามสัปดาห์หลังจาก Gemini 3.6 Flash และเป็นผลโดยตรงจากคำติชมของนักพัฒนาและนวัตกรรมอัลกอริทึมที่เราหวังว่าจะนำไปใช้กับโมเดลในอนาคต 3.7 Flash นำเสนอการปรับปรุงที่สำคัญในด้านวิศวกรรมซอฟต์แวร์ งานความรู้ และขั้นตอนการพัฒนาเว็บ ด้วยราคาเบื้องต้นที่ครึ่งหนึ่งของต้นทุน Flash 3.6 เดิมต่อล้านโทเค็น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Better intelligence for complex workflows",
+        "th": "ความชาญฉลาดที่ดีขึ้นสำหรับขั้นตอนการทำงานที่ซับซ้อน"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__frontier.width-100.format-webp.webp",
+      "alt": "a chart showing production code quality"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__deepswe-.width-100.format-webp.webp",
+      "alt": "a chart showing long-horizon software engineering"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__codearen.width-100.format-webp.webp",
+      "alt": "a chart showing web development"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__gdp-pdf_.width-100.format-webp.webp",
+      "alt": "a chart showing Expert PDF document comprehension"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__automati.width-100.format-webp.webp",
+      "alt": "a chart showing enterprise workflow automation"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.7 Flash shows strong gains over 3.6 Flash in coding tasks like debugging and issue resolution. It also achieves higher first-pass code accuracy and has improved performance in generating production-ready code as seen in FrontierCode 1.1 Main (43.6% vs 34.4%) and DeepSWE v1.1 (65.3% vs 49.0%).",
+        "th": "3.7 Flash แสดงให้เห็นประสิทธิภาพที่เหนือกว่า 3.6 Flash ในงานเขียนโค้ด เช่น การดีบักและการแก้ไขปัญหา นอกจากนี้ยังได้รับความแม่นยำในการส่งผ่านครั้งแรกที่สูงขึ้น และปรับปรุงประสิทธิภาพในการสร้างโค้ดที่พร้อมใช้งานจริงดังที่เห็นใน FrontierCode 1.1 Main (43.6% เทียบกับ 34.4%) และ DeepSWE v1.1 (65.3% เทียบกับ 49.0%)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In web development, 3.7 Flash generates more functional layouts and feature-complete apps in fewer prompts. For UI generation, the model shows high design adherence and parity based on a reference input, whether it’s a screenshot, an image, or a full design system. It outperforms 3.6 Flash on Arena.ai’s WebDev Arena with an Elo score of 1588 vs 1538.",
+        "th": "ในการพัฒนาเว็บ 3.7 Flash จะสร้างเลย์เอาต์ที่ใช้งานได้มากขึ้นและแอพที่มีฟีเจอร์ครบถ้วนมากขึ้นโดยใช้เวลาแจ้งน้อยลง สำหรับการสร้าง UI แบบจำลองจะแสดงความสม่ำเสมอและความสม่ำเสมอในการออกแบบในระดับสูงโดยอิงตามอินพุตอ้างอิง ไม่ว่าจะเป็นภาพหน้าจอ รูปภาพ หรือระบบการออกแบบเต็มรูปแบบ มันมีประสิทธิภาพเหนือกว่า 3.6 Flash บน WebDev Arena ของ Arena.ai ด้วยคะแนน Elo ที่ 1588 เทียบกับ 1538"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For knowledge-dense fields like finance, law, and biosciences, 3.7 Flash delivers improved reasoning and accuracy. It significantly outperforms 3.6 Flash on the GDP.pdf benchmark (34.0% vs 22.0%), an eval for testing a model’s ability to process complex documents. It also surpasses 3.6 Flash in AutomationBench, demonstrating it can more effectively complete real-world business workflows (30.4% vs 17.0%).",
+        "th": "สำหรับสาขาที่มีความรู้หนาแน่น เช่น การเงิน กฎหมาย และวิทยาศาสตร์ชีวภาพ 3.7 Flash มอบการให้เหตุผลและความแม่นยำที่ดีขึ้น มีประสิทธิภาพเหนือกว่า 3.6 Flash อย่างมากในเกณฑ์มาตรฐาน GDP.pdf (34.0% เทียบกับ 22.0%) ซึ่งเป็นการประเมินสำหรับการทดสอบความสามารถของโมเดลในการประมวลผลเอกสารที่ซับซ้อน นอกจากนี้ยังเหนือกว่า 3.6 Flash ใน AutomationBench ซึ่งแสดงให้เห็นว่าสามารถบรรลุเวิร์กโฟลว์ทางธุรกิจในโลกแห่งความเป็นจริงได้อย่างมีประสิทธิภาพมากขึ้น (30.4% เทียบกับ 17.0%)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "From a simple text prompt to a fully playable 3D game. We used Gemini 3.7 Flash combined with Nano Banana to dynamically generate characters, items, and textures in real-time.",
+        "th": "ตั้งแต่ข้อความแจ้งธรรมดาไปจนถึงเกม 3D ที่สามารถเล่นได้เต็มรูปแบบ เราใช้ Gemini 3.7 Flash ร่วมกับ Nano Banana เพื่อสร้างตัวละคร ไอเท็ม และพื้นผิวแบบไดนามิกแบบเรียลไทม์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Stunning, interactive landing pages generated in a single shot. We used Gemini 3.7 Flash to orchestrate sub-agents, using Gemini Omni to create smooth, interactive parallax components.",
+        "th": "หน้า Landing Page แบบโต้ตอบที่น่าทึ่งสร้างขึ้นในช็อตเดียว เราใช้ Gemini 3.7 Flash เพื่อประสานตัวแทนย่อย โดยใช้ Gemini Omni เพื่อสร้างส่วนประกอบพารัลแลกซ์เชิงโต้ตอบที่ราบรื่น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A robotics model getting trained with Gemini 3.7 Flash using multimodal understanding in a 3 agent graph loop that helps the robot learn faster.",
+        "th": "โมเดลหุ่นยนต์ที่ได้รับการฝึกด้วย Gemini 3.7 Flash โดยใช้ความเข้าใจหลายรูปแบบในกราฟ 3 เอเจนต์ที่ช่วยให้หุ่นยนต์เรียนรู้ได้เร็วขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "From a static PDF to an interactive data story. Watch how complex annual reports are transformed into engaging web experiences complete with live charts and aggregated insights.",
+        "th": "จาก PDF แบบคงที่ไปจนถึงเรื่องราวข้อมูลเชิงโต้ตอบ ดูว่ารายงานประจำปีที่ซับซ้อนจะเปลี่ยนเป็นประสบการณ์บนเว็บที่น่าสนใจได้อย่างไร พร้อมด้วยแผนภูมิสดและข้อมูลเชิงลึกที่รวบรวมไว้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Better developer experience and price",
+        "th": "ประสบการณ์และราคาของนักพัฒนาที่ดีขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini 3.7 Flash delivers a noticeably improved developer experience over 3.6 Flash. It better adapts to roadblocks, clarifies intent when needed, and follows instructions with greater fidelity. It thinks more diligently, putting in more effort into multi-step planning and tool calls. A more disciplined execution means less manual oversight and fewer retries across engineering workflows.",
+        "th": "Gemini 3.7 Flash มอบประสบการณ์นักพัฒนาที่ดีขึ้นอย่างเห็นได้ชัดมากกว่า 3.6 Flash โดยจะปรับให้เข้ากับสิ่งกีดขวางบนถนนได้ดีขึ้น ชี้แจงเจตนาเมื่อจำเป็น และปฏิบัติตามคำแนะนำด้วยความเที่ยงตรงมากขึ้น คิดอย่างขยันขันแข็งมากขึ้น และใช้ความพยายามมากขึ้นในการวางแผนหลายขั้นตอนและการเรียกใช้เครื่องมือ การดำเนินการที่มีระเบียบวินัยมากขึ้นหมายถึงการควบคุมดูแลด้วยตนเองน้อยลง และการลองใหม่ในกระบวนการทำงานทางวิศวกรรมน้อยลง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.7 Flash is available through the end of the year at an introductory price 1 of $0.75/1M input tokens and $3.75/1M output tokens. This price combined with the enhanced model performance enables developers and customers to scale production-ready agents cost effectively.",
+        "th": "3.7 Flash มีวางจำหน่ายจนถึงสิ้นปีในราคาเบื้องต้น 1 จากโทเค็นอินพุต 0.75 ดอลลาร์สหรัฐฯ/1 ล้านดอลลาร์ และโทเค็นเอาต์พุต 3.75 ดอลลาร์สหรัฐฯ/1 ล้านดอลลาร์ ราคานี้เมื่อรวมกับประสิทธิภาพของโมเดลที่ได้รับการปรับปรุงแล้วช่วยให้นักพัฒนาและลูกค้าสามารถปรับขนาดตัวแทนที่พร้อมสำหรับการผลิตได้อย่างคุ้มค่า"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__perform.width-1200.format-webp.webp",
+      "alt": "an image of a performance to cost comparison chart"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Early customer feedback is highlighting 3.7 Flash’s performance and precision, achieving results that are significantly better than 3.6 Flash at a low cost.",
+        "th": "ความคิดเห็นของลูกค้าตั้งแต่เนิ่นๆ เน้นย้ำถึงประสิทธิภาพและความแม่นยำของ 3.7 Flash เพื่อให้ได้ผลลัพธ์ที่ดีกว่า 3.6 Flash อย่างเห็นได้ชัดด้วยต้นทุนที่ต่ำ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__bo.width-100.format-webp.webp",
+      "alt": "Quote from Box"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__br.width-100.format-webp.webp",
+      "alt": "Quote from Browser Use"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__ca.width-100.format-webp_dYz0MOf.webp",
+      "alt": "Quote from Cartwheel"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__em.width-100.format-webp.webp",
+      "alt": "Quote from emergent"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__ha.width-100.format-webp_NtGWF6a.webp",
+      "alt": "Quote from Harvey"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__he.width-100.format-webp_H9baWpR.webp",
+      "alt": "Quote from Hebbia"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__la.width-100.format-webp_7qAt1Kr.webp",
+      "alt": "Quote from LangChain"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__nu.width-100.format-webp_DyOGCzR.webp",
+      "alt": "Quote from Nunu.ai"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__op.width-100.format-webp_wy8PPtG.webp",
+      "alt": "Quote from Open Code"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__py.width-100.format-webp.webp",
+      "alt": "Quote from Pydantic"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__st.width-100.format-webp_AzDrTOJ.webp",
+      "alt": "Quote from Stanford Department of Biology"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Improving Gemini Spark with 3.7 Flash",
+        "th": "การปรับปรุง Gemini Spark ด้วย 3.7 Flash"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Spark, available to Google AI Pro and Ultra subscribers in over 160 countries, will be using Gemini 3.7 Flash starting today. We launched Spark at I/O as your personal AI agent that runs 24/7, taking action on your behalf while under your direction. This model update makes Spark more efficient for knowledge work with improved tool use for Google Workspace apps, delivering improved accuracy and output quality for complex, multi-skill workflows.",
+        "th": "Gemini Spark พร้อมให้บริการสำหรับสมาชิก Google AI Pro และ Ultra ในกว่า 160 ประเทศ โดยจะเริ่มใช้งาน Gemini 3.7 Flash ตั้งแต่วันนี้ เราเปิดตัว Spark ที่ I/O ในฐานะตัวแทน AI ส่วนตัวของคุณที่ทำงานตลอด 24 ชั่วโมงทุกวัน โดยดำเนินการในนามของคุณในขณะที่อยู่ภายใต้การดูแลของคุณ การอัปเดตโมเดลนี้ทำให้ Spark มีประสิทธิภาพมากขึ้นสำหรับงานความรู้ด้วยการใช้เครื่องมือที่ได้รับการปรับปรุงสำหรับแอป Google Workspace ซึ่งมอบความแม่นยำและคุณภาพผลงานที่ได้รับการปรับปรุงสำหรับเวิร์กโฟลว์ที่ซับซ้อนและหลากหลายทักษะ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With 3.7 Flash, Gemini Spark can turn ideas into action more efficiently by consolidating files, drafting emails, and updating status documents.",
+        "th": "ด้วย 3.7 Flash ทำให้ Gemini Spark สามารถเปลี่ยนแนวคิดให้เป็นการปฏิบัติได้อย่างมีประสิทธิภาพมากขึ้นด้วยการรวมไฟล์ ร่างอีเมล และอัปเดตเอกสารสถานะ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Built with safety in mind",
+        "th": "สร้างขึ้นโดยคำนึงถึงความปลอดภัย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We continually work to improve the coverage and robustness of Frontier Safety safeguards. Gemini 3.7 Flash is shipping with updated safeguards against misuse in the domains of Chemical, Biological, Radiological, and Nuclear (CBRN) and cyber offense, while enabling beneficial use cases, in accordance with our approach to bioresilience and our cyber program.",
+        "th": "เราทำงานอย่างต่อเนื่องเพื่อปรับปรุงความครอบคลุมและความทนทานของการป้องกันความปลอดภัย Frontier Gemini 3.7 Flash จัดส่งพร้อมการป้องกันที่อัปเดตต่อการใช้งานในทางที่ผิดในขอบเขตของความผิดทางเคมี ชีวภาพ รังสีวิทยา และนิวเคลียร์ (CBRN) และความผิดทางไซเบอร์ ขณะเดียวกันก็เปิดใช้งานกรณีการใช้งานที่เป็นประโยชน์ ตามแนวทางของเราในการฟื้นฟูทางชีวภาพและโปรแกรมไซเบอร์ของเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For more information, see the 3.7 Flash model card.",
+        "th": "สำหรับข้อมูลเพิ่มเติม โปรดดูการ์ดรุ่น Flash 3.7"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Try it today",
+        "th": "ลองวันนี้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Developers: Explore agent-first workflows in Google Antigravity or start building today in the Gemini API via Google AI Studio and Android Studio. Get started with our developer guide.",
+        "th": "นักพัฒนา: สำรวจเวิร์กโฟลว์ที่เน้นเอเจนต์เป็นหลักใน Google Antigravity หรือเริ่มสร้างวันนี้ใน Gemini API ผ่าน Google AI Studio และ Android Studio เริ่มต้นใช้งานคู่มือนักพัฒนาของเรา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Enterprises: Access 3.7 Flash in Gemini Enterprise Agent Platform and the Gemini Enterprise app.",
+        "th": "Enterprises: เข้าถึง 3.7 Flash ใน Gemini Enterprise Agent Platform และแอป Gemini Enterprise"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Individuals: Available via Spark, your 24/7 personal agent in the Gemini app for Google AI Pro and Ultra subscribers in supported countries.",
+        "th": "บุคคล: พร้อมใช้งานผ่าน Spark ซึ่งเป็นตัวแทนส่วนตัวตลอด 24 ชั่วโมงทุกวันในแอป Gemini สำหรับสมาชิก Google AI Pro และ Ultra ในประเทศที่รองรับ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Detailed benchmarks",
+        "th": "เกณฑ์มาตรฐานโดยละเอียด"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__benchma.width-1200.format-webp.webp",
+      "alt": "a chart displaying AI model benchmarks"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get the latest news from Google in your inbox",
+        "th": "รับข่าวสารล่าสุดจาก Google ในกล่องจดหมายของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sign up for our newsletters with product updates, event information, special offers, and more.",
+        "th": "ลงทะเบียนรับจดหมายข่าวของเราพร้อมข้อมูลอัปเดตผลิตภัณฑ์ ข้อมูลกิจกรรม ข้อเสนอพิเศษ และอื่นๆ อีกมากมาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Done. Just one step more.",
+        "th": "เสร็จแล้ว. อีกเพียงก้าวเดียวเท่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check your inbox to confirm your subscription.",
+        "th": "ตรวจสอบกล่องจดหมายของคุณเพื่อยืนยันการสมัครของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also subscribe with a different email address.",
+        "th": "คุณสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your information will be used in accordance with Google's privacy policy. You may opt out at any time.",
+        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google คุณสามารถเลือกไม่รับได้ตลอดเวลา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini models",
+        "th": "โมเดลราศีเมถุน"
+      }
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "id": "google-ai__sheets-canvas-for-google-sheets-spreadsheets",
+  "slug": "sheets-canvas-for-google-sheets-spreadsheets",
+  "source": "google-ai",
+  "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+  "category": "Google Workspace",
+  "date": "2026-08-13T16:45:00.000Z",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp",
+  "title": {
+    "en": "Bring your spreadsheet data to life with Sheets canvas",
+    "th": "ทำให้ข้อมูลสเปรดชีตของคุณมีชีวิตชีวาด้วย Sheets Canvas"
+  },
+  "summary": {
+    "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp\">Sheets canvas turns data into interactive dashboards, custom study trackers, seating",
+    "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp\">ชีตแคนวาสเปลี่ยนข้อมูลเป็นแดชบอร์ดแบบโต้ตอบ ตัวติดตามการศึกษาที่กำหนดเอง ที่นั่ง"
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Products & Platforms",
+        "th": "ผลิตภัณฑ์และแพลตฟอร์ม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Products",
+        "th": "สินค้า"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Google Workspace",
+        "th": "Google เวิร์คสเปซ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Aug 13, 2026",
+        "th": "13 ส.ค. 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A new Google Sheets feature, Sheets canvas transforms rows and columns into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt.",
+        "th": "ฟีเจอร์ใหม่ของ Google ชีต คือ Sheets Canvas เปลี่ยนแถวและคอลัมน์ให้เป็นแดชบอร์ดแบบอินเทอร์แอกทีฟ ตัวติดตามการศึกษาที่กำหนดเอง แผนภูมิที่นั่ง และอื่นๆ ทั้งหมดนี้ทำได้เพียงแจ้งง่ายๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Eric Birnbaum",
+        "th": "เอริก เบิร์นบัม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Director, Product Management, Google Sheets",
+        "th": "ผู้อำนวยการฝ่ายการจัดการผลิตภัณฑ์ Google ชีต"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Google Sheets now features Sheets canvas, a tool that uses artificial intelligence to turn your data into interactive, visual mini-apps without any coding. You can simply describe your needs to Gemini, and it will build custom layouts like study trackers or seating charts that sync automatically with your original spreadsheet. To get started, open a sheet and click the Gemini icon to select \"create canvas.\"",
+        "th": "ขณะนี้ Google ชีตมีฟีเจอร์ Sheets Canvas ซึ่งเป็นเครื่องมือที่ใช้ปัญญาประดิษฐ์ในการเปลี่ยนข้อมูลของคุณให้เป็นแอปขนาดเล็กแบบโต้ตอบพร้อมภาพโดยไม่ต้องเขียนโค้ดใดๆ คุณสามารถอธิบายความต้องการของคุณต่อราศีเมถุนได้ จากนั้นระบบจะสร้างเค้าโครงที่กำหนดเอง เช่น ตัวติดตามการศึกษาหรือแผนภูมิที่นั่งที่ซิงค์โดยอัตโนมัติกับสเปรดชีตต้นฉบับของคุณ ในการเริ่มต้น ให้เปิดชีตแล้วคลิกไอคอนราศีเมถุน เพื่อเลือก \"สร้างแคนวาส\""
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "\"Bring your spreadsheet data to life with Sheets canvas\" turns boring data into interactive apps.",
+        "th": "\"ทำให้ข้อมูลสเปรดชีตมีชีวิตชีวาด้วย Sheets Canvas\" เปลี่ยนข้อมูลที่น่าเบื่อให้เป็นแอปแบบโต้ตอบ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Use simple prompts to let Gemini build custom, visual layouts for your spreadsheets.",
+        "th": "ใช้ข้อความแจ้งง่ายๆ เพื่อให้ Gemini สร้างเค้าโครงภาพที่กำหนดเองสำหรับสเปรดชีตของคุณ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Your canvas and spreadsheet stay perfectly synced, so your data is always up to date.",
+        "th": "ผืนผ้าใบและสเปรดชีตของคุณซิงค์กันอย่างสมบูรณ์แบบ ดังนั้นข้อมูลของคุณจึงอัปเดตอยู่เสมอ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "You don't need coding skills to design dashboards, study trackers, or seating charts.",
+        "th": "คุณไม่จำเป็นต้องมีทักษะการเขียนโค้ดเพื่อออกแบบแดชบอร์ด ตัวติดตามการศึกษา หรือแผนภูมิที่นั่ง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Share your canvas with others easily, just like you would with any regular sheet.",
+        "th": "แบ่งปันผืนผ้าใบของคุณกับผู้อื่นได้อย่างง่ายดาย เช่นเดียวกับที่คุณทำกับแผ่นงานทั่วไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Google Sheets now has a new feature called Sheets canvas that turns boring rows of data into interactive, easy-to-read apps. You just tell AI what you want, and it builds a custom layout for you without any coding. Everything stays perfectly synced, so any changes you make update your original spreadsheet automatically. It’s a great way to organize school projects, sports stats, or event planning without getting overwhelmed.",
+        "th": "ขณะนี้ Google ชีตมีฟีเจอร์ใหม่ที่เรียกว่า Sheets Canvas ซึ่งเปลี่ยนแถวข้อมูลที่น่าเบื่อให้เป็นแอปเชิงโต้ตอบและอ่านง่าย คุณเพียงแค่บอก AI ถึงสิ่งที่คุณต้องการ จากนั้นระบบจะสร้างเลย์เอาต์ที่กำหนดเองให้กับคุณโดยไม่ต้องเขียนโค้ดใดๆ ทุกอย่างจะซิงค์กันอย่างสมบูรณ์แบบ ดังนั้นการเปลี่ยนแปลงใดๆ ที่คุณทำจะอัปเดตสเปรดชีตต้นฉบับของคุณโดยอัตโนมัติ เป็นวิธีที่ยอดเยี่ยมในการจัดโครงการของโรงเรียน สถิติกีฬา หรือการวางแผนกิจกรรมโดยไม่ยุ่งยากเกินไป"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "General summary",
+        "th": "สรุปทั่วไป"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Bullet points",
+        "th": "สัญลักษณ์แสดงหัวข้อย่อย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Basic explainer",
+        "th": "ผู้อธิบายขั้นพื้นฐาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Spreadsheets are a powerful tool for organizing and understanding data, but staring at hundreds of rows and columns can sometimes feel a bit overwhelming. Whether you’re planning a wedding, tracking school assignments, managing a fantasy football roster, or comparing side hustle income, you want to see what you need to know from your data quickly.",
+        "th": "สเปรดชีตเป็นเครื่องมือที่มีประสิทธิภาพในการจัดระเบียบและทำความเข้าใจข้อมูล แต่บางครั้งการดูแถวและคอลัมน์หลายร้อยแถวอาจทำให้รู้สึกหนักใจเล็กน้อย ไม่ว่าคุณกำลังวางแผนจัดงานแต่งงาน ติดตามการมอบหมายงานของโรงเรียน จัดการรายชื่อนักฟุตบอลแฟนตาซี หรือเปรียบเทียบรายได้ด้านข้าง คุณต้องการดูสิ่งที่คุณต้องรู้จากข้อมูลของคุณอย่างรวดเร็ว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To help get you there, we’re introducing Sheets canvas, a new feature built with Gemini that turns your Google Sheets spreadsheets into custom, interactive \"mini-apps.\" With a simple natural language prompt, you can transform your data into a visual experience that’s easy to understand and even easier to use.",
+        "th": "เพื่อช่วยให้คุณไปถึงจุดนั้น เราขอแนะนำ Sheets Canvas ซึ่งเป็นฟีเจอร์ใหม่ที่สร้างด้วย Gemini ที่จะเปลี่ยนสเปรดชีต Google ชีตของคุณให้เป็น \"มินิแอป\" แบบโต้ตอบที่กำหนดเองได้ ด้วยข้อความแจ้งด้วยภาษาธรรมชาติที่เรียบง่าย คุณสามารถแปลงข้อมูลของคุณให้เป็นประสบการณ์ภาพที่เข้าใจง่ายและใช้งานง่ายยิ่งขึ้น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Visualize your data in new ways",
+        "th": "แสดงภาพข้อมูลของคุณในรูปแบบใหม่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sheets canvas is a dynamic, read-write layer that sits directly on top of your spreadsheet data. This means that you can visually organize, edit, and navigate your data in whatever layout you imagine.",
+        "th": "Sheets Canvas เป็นเลเยอร์การอ่าน-เขียนแบบไดนามิกที่อยู่ด้านบนของข้อมูลสเปรดชีตของคุณโดยตรง ซึ่งหมายความว่าคุณสามารถจัดระเบียบ แก้ไข และนำทางข้อมูลของคุณในรูปแบบใดก็ได้ตามจินตนาการ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Here is what makes it so powerful.",
+        "th": "นี่คือสิ่งที่ทำให้มันทรงพลังมาก"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "No coding required: No formulas or programming required. Just describe what you want — like \"create a visual study tracker\" — and Gemini builds it for you.",
+        "th": "ไม่ต้องเขียนโค้ด: ไม่ต้องใช้สูตรหรือการเขียนโปรแกรม เพียงอธิบายสิ่งที่คุณต้องการ เช่น \"สร้างเครื่องมือติดตามการศึกษาด้วยภาพ\" แล้ว Gemini ก็สร้างมันขึ้นมาเพื่อคุณ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Always in sync: Whether you make changes to your canvas or to your sheet, updates are synced between the canvas and the original sheet in real time.",
+        "th": "ซิงค์อยู่เสมอ: ไม่ว่าคุณจะเปลี่ยนแปลงแคนวาสหรือชีตของคุณ การอัปเดตจะซิงค์ระหว่างแคนวาสและชีตต้นฉบับแบบเรียลไทม์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Easy to adjust: You can continue to polish and refine your Sheets canvas by prompting Gemini to make edits to layout, design, functionality, and more.",
+        "th": "ปรับแต่งได้ง่าย: คุณสามารถขัดเกลาและปรับแต่ง Canvas ของ Sheets ต่อไปได้ โดยแจ้งให้ Gemini แก้ไขเค้าโครง การออกแบบ ฟังก์ชันการทำงาน และอื่นๆ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Fully collaborative: Since it lives as a tab in Google Sheets, your canvas can be shared with anyone, just like a regular sheet.",
+        "th": "ทำงานร่วมกันได้อย่างเต็มที่: เนื่องจากทำงานเป็นแท็บใน Google ชีต คุณจึงสามารถแชร์ Canvas ของคุณกับใครก็ได้ เช่นเดียวกับชีตทั่วไป"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "See it in action",
+        "th": "ดูมันในการดำเนินการ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We designed Sheets canvas to be as flexible as your imagination. Here are a few examples to show how you can start using it today.",
+        "th": "เราออกแบบ Sheets Canvas ให้ยืดหยุ่นได้ตามจินตนาการของคุณ ต่อไปนี้คือตัวอย่างบางส่วนที่แสดงให้เห็นว่าคุณสามารถเริ่มใช้งานได้ตั้งแต่วันนี้ได้อย่างไร"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "1. Stay on top of the school year",
+        "th": "1. อยู่ด้านบนของปีการศึกษา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For students, managing multiple subjects and deadlines is a full-time job. With Sheets canvas, you can turn a long list of assignments into an interactive study aid. Track progress, set reminders, and visualize the week ahead so you never miss a deadline.",
+        "th": "สำหรับนักศึกษา การจัดการหลายวิชาและกำหนดเวลาถือเป็นงานเต็มเวลา เมื่อใช้ Sheets Canvas คุณจะเปลี่ยนงานมอบหมายจำนวนมากให้เป็นสื่อช่วยเรียนแบบอินเทอร์แอกทีฟได้ ติดตามความคืบหน้า ตั้งการเตือน และเห็นภาพสัปดาห์ข้างหน้าเพื่อให้คุณไม่พลาดกำหนดเวลา"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "2. Dominate your fantasy football league",
+        "th": "2. ครองลีกฟุตบอลแฟนตาซีของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Take your fantasy team to the next level by using Sheets canvas to build the ultimate command center for your roster. Create a custom dashboard to track player performance, compare stats side by side, and clearly visualize your path to the championship — all powered by the data in your sheet.",
+        "th": "ยกระดับทีมแฟนตาซีของคุณไปอีกระดับโดยใช้ Sheets Canvas เพื่อสร้างศูนย์บัญชาการขั้นสูงสุดสำหรับบัญชีรายชื่อของคุณ สร้างแดชบอร์ดที่กำหนดเองเพื่อติดตามประสิทธิภาพของผู้เล่น เปรียบเทียบสถิติเคียงข้างกัน และแสดงภาพเส้นทางสู่แชมป์ได้อย่างชัดเจน ทั้งหมดนี้ขับเคลื่อนโดยข้อมูลในชีตของคุณ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "3. Simplify wedding planning",
+        "th": "3. ลดความซับซ้อนในการวางแผนงานแต่งงาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Juggling seating arrangements and meal choices just got infinitely easier. Sheets canvas transforms your guest RSVP data into an interactive seating chart. Just drag and drop guests to their tables, and rest easy knowing your central sheet stays up to date.",
+        "th": "การจัดที่นั่งและการเลือกมื้ออาหารกลายเป็นเรื่องง่ายยิ่งขึ้น Sheets Canvas แปลงข้อมูลการตอบรับคำเชิญของแขกให้เป็นแผนผังที่นั่งแบบอินเทอร์แอกทีฟ เพียงลากและวางแขกไปที่โต๊ะของพวกเขา และสบายใจได้เพราะรู้ว่าเอกสารส่วนกลางของคุณเป็นข้อมูลล่าสุด"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Try it now",
+        "th": "ลองตอนนี้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sheets canvas is now available globally in English to Google AI Pro and Ultra subscribers. It's rolling out starting today to Google Workspace customers on Business or Enterprise Standard and Plus plans, and to Google AI Pro for Education add-on subscribers.",
+        "th": "ขณะนี้ Sheets Canvas มีให้บริการทั่วโลกเป็นภาษาอังกฤษสำหรับสมาชิก Google AI Pro และ Ultra ตั้งแต่วันนี้เป็นต้นไป ลูกค้า Google Workspace ที่ใช้แพ็กเกจ Business หรือ Enterprise Standard และ Plus และสมาชิกส่วนเสริม Google AI Pro for Education"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Ready to see your data in a whole new light? Open a Google Sheets spreadsheet and select the “Create canvas” option in the Ask Gemini side panel to get started. Check out this article for more tips.",
+        "th": "พร้อมที่จะเห็นข้อมูลของคุณในรูปแบบใหม่แล้วหรือยัง? เปิดสเปรดชีต Google ชีตแล้วเลือกตัวเลือก \"สร้างผืนผ้าใบ\" ในแผงด้านข้างถามราศีเมถุนเพื่อเริ่มต้น ลองอ่านบทความนี้เพื่อดูเคล็ดลับเพิ่มเติม"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get the latest news from Google in your inbox",
+        "th": "รับข่าวสารล่าสุดจาก Google ในกล่องจดหมายของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sign up for our newsletters with product updates, event information, special offers, and more.",
+        "th": "ลงทะเบียนรับจดหมายข่าวของเราพร้อมข้อมูลอัปเดตผลิตภัณฑ์ ข้อมูลกิจกรรม ข้อเสนอพิเศษ และอื่นๆ อีกมากมาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Done. Just one step more.",
+        "th": "เสร็จแล้ว. อีกเพียงก้าวเดียวเท่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check your inbox to confirm your subscription.",
+        "th": "ตรวจสอบกล่องจดหมายของคุณเพื่อยืนยันการสมัครของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also subscribe with a different email address.",
+        "th": "คุณสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your information will be used in accordance with Google's privacy policy. You may opt out at any time.",
+        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google คุณสามารถเลือกไม่รับได้ตลอดเวลา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Google Workspace",
+        "th": "Google เวิร์คสเปซ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "AI",
+        "th": "AI"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Google One",
+        "th": "กูเกิลวัน"
+      }
+    }
+  ]
+}

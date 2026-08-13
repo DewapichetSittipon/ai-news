@@ -1,6 +1,91 @@
 {
-  "generatedAt": "2026-08-13T16:48:30.168Z",
+  "generatedAt": "2026-08-13T18:52:54.766Z",
   "items": [
+    {
+      "id": "huggingface__strands-lerobot-streaming-data-loop",
+      "slug": "strands-lerobot-streaming-data-loop",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "category": "News",
+      "date": "2026-08-13T17:16:04.000Z",
+      "image": null,
+      "title": {
+        "en": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+        "th": "บันทึก ฝึกอบรม และปรับใช้จากที่เดียวด้วย Strands Agents, LeRobot และ Hugging Face Storage Buckets"
+      },
+      "summary": {
+        "en": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+        "th": "บันทึก ฝึกอบรม และปรับใช้จากที่เดียวด้วย Strands Agents, LeRobot และ Hugging Face Storage Buckets"
+      }
+    },
+    {
+      "id": "deepmind__introducing-gemini-3-7-flash",
+      "slug": "introducing-gemini-3-7-flash",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "category": "News",
+      "date": "2026-08-13T17:04:18.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing Gemini 3.7 Flash",
+        "th": "ขอแนะนำ Gemini 3.7 Flash"
+      },
+      "summary": {
+        "en": "Introducing Gemini 3.7 Flash",
+        "th": "ขอแนะนำ Gemini 3.7 Flash"
+      }
+    },
+    {
+      "id": "google-ai__sheets-canvas-for-google-sheets-spreadsheets",
+      "slug": "sheets-canvas-for-google-sheets-spreadsheets",
+      "source": "google-ai",
+      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+      "category": "Google Workspace",
+      "date": "2026-08-13T16:45:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp",
+      "title": {
+        "en": "Bring your spreadsheet data to life with Sheets canvas",
+        "th": "ทำให้ข้อมูลสเปรดชีตของคุณมีชีวิตชีวาด้วย Sheets Canvas"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp\">Sheets canvas turns data into interactive dashboards, custom study trackers, seating",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp\">ชีตแคนวาสเปลี่ยนข้อมูลเป็นแดชบอร์ดแบบโต้ตอบ ตัวติดตามการศึกษาที่กำหนดเอง ที่นั่ง"
+      }
+    },
+    {
+      "id": "openai__builders-guide-to-gpt-5-6",
+      "slug": "builders-guide-to-gpt-5-6",
+      "source": "openai",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "category": "Applied AI",
+      "date": "2026-08-13T11:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "The builder’s guide to GPT‑5.6",
+        "th": "คู่มือผู้สร้างสำหรับ GPT‑5.6"
+      },
+      "summary": {
+        "en": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+        "th": "เรียนรู้ว่าสตาร์ทอัพใช้ GPT-5.6 เพื่อสร้างเอเจนต์ AI ที่รวดเร็วและคุ้มต้นทุนมากขึ้นได้อย่างไร พร้อมการเลือกโมเดลที่ชาญฉลาดยิ่งขึ้นและความสามารถใหม่ของ Responses API"
+      }
+    },
+    {
+      "id": "openai__previewing-ultrafast",
+      "slug": "previewing-ultrafast",
+      "source": "openai",
+      "url": "https://openai.com/index/previewing-ultrafast",
+      "category": "Product",
+      "date": "2026-08-13T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+        "th": "การดูตัวอย่างโหมด Ultrafast: GPT-5.6 Sol ที่ความเร็วสูงสุด 14 เท่า"
+      },
+      "summary": {
+        "en": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+        "th": "ดูตัวอย่าง Ultrafast ซึ่งเป็นระดับบริการ OpenAI API ใหม่ที่ทำงาน GPT-5.6 Sol เร็วขึ้นสูงสุด 14 เท่า ขับเคลื่อนโดย Cerebras โดยสามารถส่งโทเค็นเอาท์พุตได้มากถึง 750 โทเค็นต่อวินาที"
+      }
+    },
     {
       "id": "openai__dali-rajic-chief-revenue-officer",
       "slug": "dali-rajic-chief-revenue-officer",
@@ -16,6 +101,23 @@
       "summary": {
         "en": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
         "th": "OpenAI แต่งตั้ง Dali Rajic เป็นประธานเจ้าหน้าที่ฝ่ายรายได้ เพื่อเป็นผู้นำองค์กรสร้างรายได้ระดับโลก และช่วยให้ธุรกิจต่างๆ ตระหนักถึงคุณค่าทั้งหมดของ AI"
+      }
+    },
+    {
+      "id": "huggingface__icml-2026-open-reproductions",
+      "slug": "icml-2026-open-reproductions",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "category": "News",
+      "date": "2026-08-13T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "What We Learned by Reproducing 2,200 papers from ICML",
+        "th": "สิ่งที่เราเรียนรู้จากการผลิตเอกสาร 2,200 ฉบับจาก ICML"
+      },
+      "summary": {
+        "en": "What We Learned by Reproducing 2,200 papers from ICML",
+        "th": "สิ่งที่เราเรียนรู้จากการผลิตเอกสาร 2,200 ฉบับจาก ICML"
       }
     },
     {
@@ -1175,40 +1277,6 @@
       }
     },
     {
-      "id": "openai__advancing-the-next-era-of-national-science",
-      "slug": "advancing-the-next-era-of-national-science",
-      "source": "openai",
-      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
-      "category": "Global Affairs",
-      "date": "2026-07-22T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Advancing the next era of national science",
-        "th": "ก้าวต่อไปของวิทยาศาสตร์แห่งชาติ"
-      },
-      "summary": {
-        "en": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
-        "th": "OpenAI สรุปความมุ่งมั่นในการพัฒนาวิทยาศาสตร์อเมริกันที่ทำงานร่วมกับกระทรวงพลังงานของสหรัฐอเมริกาและห้องปฏิบัติการระดับชาติเพื่อใช้ AI ระดับแนวหน้าเพื่อเร่งการค้นพบ"
-      }
-    },
-    {
-      "id": "openai__introducing-openai-presence",
-      "slug": "introducing-openai-presence",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-openai-presence",
-      "category": "Product",
-      "date": "2026-07-22T05:30:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing OpenAI Presence",
-        "th": "ขอแนะนำการแสดงตนของ OpenAI"
-      },
-      "summary": {
-        "en": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
-        "th": "ขอแนะนำ OpenAI Presence ซึ่งเป็นแพลตฟอร์มตัวแทน AI ระดับองค์กรที่ได้รับการพิสูจน์แล้ว ซึ่งช่วยให้องค์กรปรับใช้ตัวแทนเสียงและการแชทที่เชื่อถือได้สำหรับลูกค้าและเวิร์กโฟลว์ภายใน"
-      }
-    },
-    {
       "id": "anthropic__economic-futures-research-fund-agenda",
       "slug": "economic-futures-research-fund-agenda",
       "source": "anthropic",
@@ -2059,40 +2127,6 @@
       }
     },
     {
-      "id": "huggingface__peft-beyond-lora",
-      "slug": "peft-beyond-lora",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/peft-beyond-lora",
-      "category": "News",
-      "date": "2026-06-18T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-        "th": "Beyond LoRA: คุณสามารถเอาชนะเทคนิคการปรับแต่งที่ได้รับความนิยมมากที่สุดได้หรือไม่?"
-      },
-      "summary": {
-        "en": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-        "th": "Beyond LoRA: คุณสามารถเอาชนะเทคนิคการปรับแต่งที่ได้รับความนิยมมากที่สุดได้หรือไม่?"
-      }
-    },
-    {
-      "id": "huggingface__is-it-agentic-enough",
-      "slug": "is-it-agentic-enough",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/is-it-agentic-enough",
-      "category": "News",
-      "date": "2026-06-18T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Is it agentic enough? Benchmarking open models on your own tooling",
-        "th": "เป็นตัวแทนเพียงพอหรือไม่? การเปรียบเทียบโมเดลแบบเปิดด้วยเครื่องมือของคุณเอง"
-      },
-      "summary": {
-        "en": "Is it agentic enough? Benchmarking open models on your own tooling",
-        "th": "เป็นตัวแทนเพียงพอหรือไม่? การเปรียบเทียบโมเดลแบบเปิดด้วยเครื่องมือของคุณเอง"
-      }
-    },
-    {
       "id": "google-ai__amie-for-disease-management-in-nature",
       "slug": "amie-for-disease-management-in-nature",
       "source": "google-ai",
@@ -2158,23 +2192,6 @@
       "summary": {
         "en": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
         "th": "Google ได้ประกาศการลงทุน 1.5 พันล้านดอลลาร์ในปี 2569 และ 2570 เพื่อขยายวิทยาเขตศูนย์ข้อมูลในแจ็คสันเคาน์ตี รัฐแอละแบมา ดำเนินการมาตั้งแต่ปี 2019 บนอาคารเก่าที่นำกลับมาใช้ใหม่..."
-      }
-    },
-    {
-      "id": "google-ai__virginia-community-investments",
-      "slug": "virginia-community-investments",
-      "source": "google-ai",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
-      "category": "Google.org",
-      "date": "2026-06-11T20:00:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp",
-      "title": {
-        "en": "Our new community investments in Virginia support local jobs and expand energy affordability.",
-        "th": "การลงทุนในชุมชนครั้งใหม่ของเราในรัฐเวอร์จิเนียสนับสนุนงานในท้องถิ่นและขยายความสามารถในการจ่ายพลังงาน"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\">We’re helping build the state’s next-generation workforce and investing in energy programs.",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\">เรากำลังช่วยสร้างบุคลากรรุ่นต่อไปของรัฐและการลงทุนในโครงการพลังงาน"
       }
     },
     {
@@ -2583,23 +2600,6 @@
       "summary": {
         "en": "Researching the path to AI-augmented care and development of an AI co-clinician.",
         "th": "ค้นคว้าเส้นทางสู่การดูแลเสริมด้วย AI และการพัฒนาของแพทย์ร่วมด้าน AI"
-      }
-    },
-    {
-      "id": "deepmind__announcing-our-partnership-with-the-republic-of-korea",
-      "slug": "announcing-our-partnership-with-the-republic-of-korea",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
-      "category": "News",
-      "date": "2026-04-27T07:00:06.000Z",
-      "image": "https://lh3.googleusercontent.com/3q6uiTEWOv5PKJQYWgYLxCgohyndMqdWTFiwFDbxSzk-tW0HeannPdF7kvqR2hmE_tvSeryfw4IvG7gwuZ11rBgIYGvapEQvHO9RRJXw4JCqyme6uA=w528-h297-n-nu-rw-lo",
-      "title": {
-        "en": "Announcing our partnership with the Republic of Korea",
-        "th": "ประกาศความร่วมมือของเรากับสาธารณรัฐเกาหลี"
-      },
-      "summary": {
-        "en": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models",
-        "th": "Google DeepMind และ Korea ร่วมมือกันเร่งการค้นพบทางวิทยาศาสตร์โดยใช้โมเดล AI ระดับแนวหน้า"
       }
     }
   ]

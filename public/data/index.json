@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-13T09:05:10.677Z",
+  "generatedAt": "2026-08-13T16:48:30.168Z",
   "items": [
+    {
+      "id": "openai__dali-rajic-chief-revenue-officer",
+      "slug": "dali-rajic-chief-revenue-officer",
+      "source": "openai",
+      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "category": "Company",
+      "date": "2026-08-13T09:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+        "th": "OpenAI แต่งตั้ง Dali Rajic เป็นประธานเจ้าหน้าที่ฝ่ายสรรพากร"
+      },
+      "summary": {
+        "en": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+        "th": "OpenAI แต่งตั้ง Dali Rajic เป็นประธานเจ้าหน้าที่ฝ่ายรายได้ เพื่อเป็นผู้นำองค์กรสร้างรายได้ระดับโลก และช่วยให้ธุรกิจต่างๆ ตระหนักถึงคุณค่าทั้งหมดของ AI"
+      }
+    },
     {
       "id": "huggingface__olmoearth-embeddings",
       "slug": "olmoearth-embeddings",
@@ -291,6 +308,23 @@
       }
     },
     {
+      "id": "openai__premium-seats-chatgpt-business",
+      "slug": "premium-seats-chatgpt-business",
+      "source": "openai",
+      "url": "https://openai.com/index/premium-seats-chatgpt-business",
+      "category": "Product",
+      "date": "2026-08-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Premium seats are coming to ChatGPT Business",
+        "th": "ที่นั่งระดับพรีเมียมกำลังจะมาถึง ChatGPT Business"
+      },
+      "summary": {
+        "en": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+        "th": "ที่นั่งระดับพรีเมียมกำลังจะมาถึง ChatGPT Business ลงชื่อสมัครภายในวันที่ 20 สิงหาคมเพื่อรับเครดิตพื้นที่ทำงานมูลค่า $100 และปลดล็อกการใช้งานที่สูงขึ้นสำหรับงานที่มีความต้องการมากที่สุดของทีม"
+      }
+    },
+    {
       "id": "openai__chatgpt-work",
       "slug": "chatgpt-work",
       "source": "openai",
@@ -322,23 +356,6 @@
       "summary": {
         "en": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
         "th": "ทีมการตลาดระดับองค์กรที่ Zapier ใช้ ChatGPT Work เพื่อลดจำนวนการออกจากช่องทางลูกค้าเป้าหมาย สร้างเนื้อหาแคมเปญ และทำให้การรายงานเป็นแบบอัตโนมัติ"
-      }
-    },
-    {
-      "id": "openai__premium-seats-chatgpt-business",
-      "slug": "premium-seats-chatgpt-business",
-      "source": "openai",
-      "url": "https://openai.com/index/premium-seats-chatgpt-business",
-      "category": "Product",
-      "date": "2026-08-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Premium seats are coming to ChatGPT Business",
-        "th": "ที่นั่งระดับพรีเมียมกำลังจะมาถึง ChatGPT Business"
-      },
-      "summary": {
-        "en": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
-        "th": "ที่นั่งระดับพรีเมียมกำลังจะมาถึง ChatGPT Business ลงชื่อสมัครภายในวันที่ 20 สิงหาคมเพื่อรับเครดิตพื้นที่ทำงานมูลค่า $100 และปลดล็อกการใช้งานที่สูงขึ้นสำหรับงานที่มีความต้องการมากที่สุดของทีม"
       }
     },
     {
@@ -1223,23 +1240,6 @@
       "summary": {
         "en": "We're launching the Anthropic Economic Index connector for Claude, which lets anyone explore the data directly.",
         "th": "เรากำลังเปิดตัวตัวเชื่อมต่อ Anthropic Economic Index สำหรับ Claude ซึ่งช่วยให้ใครก็ตามสามารถสำรวจข้อมูลได้โดยตรง"
-      }
-    },
-    {
-      "id": "openai__ntt-data",
-      "slug": "ntt-data",
-      "source": "openai",
-      "url": "https://openai.com/index/ntt-data",
-      "category": "News",
-      "date": "2026-07-22T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
-        "th": "NTT DATA Group ลดการวิเคราะห์เหตุการณ์ลงเหลือ 30 นาทีด้วย Codex"
-      },
-      "summary": {
-        "en": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
-        "th": "NTT DATA Group ใช้ ChatGPT Enterprise และ Codex เพื่อช่วยให้พนักงาน 9,000 คนทำงานอัตโนมัติ ลดการวิเคราะห์เหตุการณ์เหลือ 30 นาที และปรับขนาดการนำ AI มาใช้อย่างปลอดภัย"
       }
     },
     {

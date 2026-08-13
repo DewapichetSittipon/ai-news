@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T01:17:17.825Z",
+  "generatedAt": "2026-08-13T04:03:39.619Z",
   "items": [
     {
       "id": "huggingface__olmoearth-embeddings",
@@ -291,6 +291,23 @@
       }
     },
     {
+      "id": "openai__chatgpt-work",
+      "slug": "chatgpt-work",
+      "source": "openai",
+      "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+      "category": "News",
+      "date": "2026-08-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+        "th": "Virgin Atlantic ทำให้การเดินทางของลูกค้าคมชัดขึ้นด้วย ChatGPT Work"
+      },
+      "summary": {
+        "en": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
+        "th": "Virgin Atlantic กำลังเร่งการวิจัย การวางแผนผลิตภัณฑ์ และการตัดสินใจด้วย ChatGPT Work ซึ่งช่วยให้ทีมเชื่อมต่อสัญญาณตลอดเส้นทางของลูกค้า"
+      }
+    },
+    {
       "id": "openai__zapier",
       "slug": "zapier",
       "source": "openai",
@@ -322,23 +339,6 @@
       "summary": {
         "en": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
         "th": "ที่นั่งระดับพรีเมียมกำลังจะมาถึง ChatGPT Business ลงชื่อสมัครภายในวันที่ 20 สิงหาคมเพื่อรับเครดิตพื้นที่ทำงานมูลค่า $100 และปลดล็อกการใช้งานที่สูงขึ้นสำหรับงานที่มีความต้องการมากที่สุดของทีม"
-      }
-    },
-    {
-      "id": "openai__chatgpt-work",
-      "slug": "chatgpt-work",
-      "source": "openai",
-      "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "category": "News",
-      "date": "2026-08-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-        "th": "Virgin Atlantic ทำให้การเดินทางของลูกค้าคมชัดขึ้นด้วย ChatGPT Work"
-      },
-      "summary": {
-        "en": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
-        "th": "Virgin Atlantic กำลังเร่งการวิจัย การวางแผนผลิตภัณฑ์ และการตัดสินใจด้วย ChatGPT Work ซึ่งช่วยให้ทีมเชื่อมต่อสัญญาณตลอดเส้นทางของลูกค้า"
       }
     },
     {

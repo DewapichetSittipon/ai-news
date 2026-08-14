@@ -1,0 +1,444 @@
+{
+  "id": "anthropic__claude-text-watermark",
+  "slug": "claude-text-watermark",
+  "source": "anthropic",
+  "url": "https://www.anthropic.com/news/claude-text-watermark",
+  "category": "News",
+  "date": "2026-08-14T00:00:00.000Z",
+  "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Quill&backgroundColor=heather",
+  "title": {
+    "en": "How Claude’s text watermark works",
+    "th": "ลายน้ำข้อความของ Claude ทำงานอย่างไร"
+  },
+  "summary": {
+    "en": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.  In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.",
+    "th": "โมเดล Claude ในอนาคตจะสร้างข้อความที่มีลายน้ำ นี่เป็นวิธีการระบุแนวโน้มที่ Claude มีส่วนร่วมในการเขียนข้อความ และเราพร้อมด้วยผู้ให้บริการ AI รายใหญ่หลายรายกำลังดำเนินการเปลี่ยนแปลงนี้เพื่อให้สอดคล้องกับพระราชบัญญัติ AI ของสหภาพยุโรป  ในบทความนี้ เราจะแบ่งปันคำตอบสำหรับคำถามบางข้อที่เราได้รับเกี่ยวกับวิธีการทำงานของวิธีการใส่ลายน้ำที่เราเลือก ไม่ว่าจะส่งผลต่อผลลัพธ์ของ Claude หรือไม่ และเหตุใดเราจึงทำการเปลี่ยนแปลงนี้"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg",
+      "alt": "How Claude’s text watermark works"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.",
+        "th": "โมเดล Claude ในอนาคตจะสร้างข้อความที่มีลายน้ำ นี่เป็นวิธีการระบุแนวโน้มที่ Claude มีส่วนร่วมในการเขียนข้อความ และเราพร้อมด้วยผู้ให้บริการ AI รายใหญ่หลายรายกำลังดำเนินการเปลี่ยนแปลงนี้เพื่อให้สอดคล้องกับพระราชบัญญัติ AI ของสหภาพยุโรป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change. To summarize:",
+        "th": "ในบทความนี้ เราจะแบ่งปันคำตอบสำหรับคำถามบางข้อที่เราได้รับเกี่ยวกับวิธีการทำงานของวิธีการใส่ลายน้ำที่เราเลือก ไม่ว่าจะส่งผลต่อผลลัพธ์ของ Claude หรือไม่ และเหตุใดเราจึงทำการเปลี่ยนแปลงนี้ สรุป:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We use a method of watermarking that does not have any practical impact on the quality or content of Claude’s outputs;",
+        "th": "เราใช้วิธีการใส่ลายน้ำที่ไม่มีผลกระทบในทางปฏิบัติต่อคุณภาพหรือเนื้อหาของผลงานของ Claude"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The difference between watermarked and un-watermarked text will not be distinguishable to readers;",
+        "th": "ความแตกต่างระหว่างข้อความที่มีลายน้ำและข้อความที่ไม่มีลายน้ำจะไม่สามารถแยกแยะให้ผู้อ่านเห็นได้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Nothing is added to the text and there are no hidden characters;",
+        "th": "ไม่มีการเพิ่มข้อความใด ๆ และไม่มีอักขระที่ซ่อนอยู่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Watermarking doesn’t require extra tokens, and will not be more expensive;",
+        "th": "ลายน้ำไม่จำเป็นต้องมีโทเค็นเพิ่มเติม และจะไม่แพงไปกว่านี้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Watermarking carries no identifying information and can’t be traced to a specific person, organization, or chat;",
+        "th": "ลายน้ำไม่มีข้อมูลที่สามารถระบุตัวตนได้ และไม่สามารถติดตามไปยังบุคคล องค์กร หรือการสนทนาใดโดยเฉพาะได้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Watermarking won’t be specific to Claude. As of August 2, the EU requires AI providers serving its market to mark AI-generated content. Other major model developers have signed the same Code of Practice and will be implementing their own watermarks.",
+        "th": "ลายน้ำจะไม่เฉพาะเจาะจงสำหรับคลอดด์ ตั้งแต่วันที่ 2 สิงหาคม สหภาพยุโรปกำหนดให้ผู้ให้บริการ AI ที่ให้บริการตลาดของตนต้องทำเครื่องหมายเนื้อหาที่สร้างโดย AI นักพัฒนาโมเดลรายใหญ่อื่นๆ ได้ลงนามในหลักปฏิบัติเดียวกัน และจะใช้ลายน้ำของตนเอง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What is watermarking?",
+        "th": "ลายน้ำคืออะไร?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Large language models like Claude work by generating one word at a time. Each time the model decides on the next word, it chooses among a list of potential candidates, ultimately selecting the most sensible or likely based on the preceding text. Take the sentence “The weather today was cold and…”. The next word is very unlikely to be “sugary.” But it is quite likely to be “overcast” or “grey.” Under most circumstances, it doesn’t matter much to the reader which of these latter two words the model ultimately chooses—the meaning of the sentence is largely the same either way. In cases like this, the choice is settled by a random number.",
+        "th": "โมเดลภาษาขนาดใหญ่ เช่น Claude ทำงานโดยสร้างคำทีละคำ แต่ละครั้งที่แบบจำลองตัดสินใจเลือกคำถัดไป โมเดลจะเลือกจากรายชื่อผู้สมัครที่มีศักยภาพ และท้ายที่สุดจะเลือกคำที่สมเหตุสมผลหรือน่าจะเป็นไปได้ที่สุดตามข้อความก่อนหน้า ใช้ประโยคที่ว่า “วันนี้อากาศหนาวและ…” คำถัดไปไม่น่าจะเรียกว่า \"หวาน\" มากนัก แต่ค่อนข้างจะ \"มืดครึ้ม\" หรือ \"สีเทา\" ภายใต้สถานการณ์ส่วนใหญ่ ผู้อ่านก็ไม่สำคัญมากนักว่าในสองคำหลังนี้โมเดลจะเลือกคำใดในท้ายที่สุด ความหมายของประโยคส่วนใหญ่จะเหมือนกันไม่ว่าจะด้วยวิธีใดก็ตาม ในกรณีเช่นนี้ ตัวเลือกจะถูกตัดสินโดยใช้ตัวเลขสุ่ม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Watermarking uses low-stakes choices like these—which occur many times over a piece of generated text—to leave a pattern in Claude’s responses. That pattern is undetectable to the reader, but is detectable to anyone who has a key that encodes it. When watermarking is used, choices are still made at random, but the source of the randomness is different. Instead of using an arbitrary random number generator to pick the next word, watermaking uses the key and a few words that come before to settle what word the model should pick. That is, the words that Claude picks are still random, but now, one can check the sequence of words and see if it’s consistent with the choices Claude would make if it was using the key. If it is, one can assign a probability that the text was generated by Claude.",
+        "th": "การใส่ลายน้ำใช้ตัวเลือกที่มีเดิมพันต่ำเช่นนี้ ซึ่งเกิดขึ้นหลายครั้งกับข้อความที่สร้างขึ้น เพื่อทิ้งรูปแบบไว้ในคำตอบของ Claude รูปแบบนั้นตรวจไม่พบสำหรับผู้อ่าน แต่ใครก็ตามที่มีคีย์ที่เข้ารหัสรูปแบบดังกล่าวจะตรวจพบได้ เมื่อใช้ลายน้ำ ตัวเลือกต่างๆ จะยังคงสุ่ม แต่แหล่งที่มาของการสุ่มจะแตกต่างออกไป แทนที่จะใช้เครื่องสร้างตัวเลขสุ่มเพื่อเลือกคำถัดไป การทำน้ำจะใช้คีย์และคำสองสามคำที่อยู่ข้างหน้าเพื่อตัดสินว่าโมเดลควรเลือกคำใด นั่นคือคำที่ Claude เลือกยังคงเป็นแบบสุ่ม แต่ตอนนี้ เราสามารถตรวจสอบลำดับของคำและดูว่าสอดคล้องกับตัวเลือกที่ Claude จะทำหากใช้คีย์หรือไม่ ถ้าเป็นเช่นนั้น เราสามารถกำหนดความน่าจะเป็นที่ข้อความนั้นถูกสร้างขึ้นโดย Claude"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Importantly, it isn’t that the model will now always be biased toward overcast or grey. Just as with non-watermarked text, overcast might be selected in one sentence, grey in the next, depending on the words that came before. And it’s not the case that the watermarking method pushes Claude to choose a word it wouldn’t have considered anyway (for instance, it wouldn’t make Claude pick a word like “nubilous”—an obscure1 synonym for overcast or grey that Claude almost certainly wouldn’t use under normal circumstances).",
+        "th": "ที่สำคัญ ไม่ใช่ว่าตอนนี้โมเดลจะเอนเอียงไปทางมืดครึ้มหรือสีเทาเสมอไป เช่นเดียวกับข้อความที่ไม่มีลายน้ำ มืดครึ้มอาจถูกเลือกในประโยคหนึ่ง และสีเทาในประโยคถัดไป ขึ้นอยู่กับคำที่อยู่ก่อนหน้า และไม่ใช่กรณีที่วิธีการใส่ลายน้ำบังคับให้ Claude เลือกคำที่ไม่เคยคิดมาก่อน (เช่น จะไม่ทำให้ Claude เลือกคำเช่น \"nubilous\" ซึ่งเป็นคำพ้องความหมายที่คลุมเครือสำหรับมืดครึ้มหรือสีเทาที่ Claude เกือบจะไม่ใช้ในสถานการณ์ปกติอย่างแน่นอน)"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How does watermarking affect Claude’s outputs?",
+        "th": "ลายน้ำส่งผลต่อผลงานของ Claude อย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Watermarking does not impact the quality of Claude’s output. To a reader, a watermarked response is indistinguishable from an unwatermarked one (in this way, AI watermarks differ substantially from their namesakes on banknotes, other physical objects, and some digital documents, which are visible to the naked eye).",
+        "th": "ลายน้ำไม่ส่งผลกระทบต่อคุณภาพของผลงานของ Claude สำหรับผู้อ่าน การตอบกลับแบบใส่ลายน้ำนั้นแยกไม่ออกจากแบบไม่มีลายน้ำ (ด้วยวิธีนี้ ลายน้ำ AI จะแตกต่างอย่างมากจากชื่อบนธนบัตร วัตถุทางกายภาพอื่นๆ และเอกสารดิจิทัลบางฉบับซึ่งมองเห็นได้ด้วยตาเปล่า)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In internal testing, we’ve seen no impact of watermarking on the content, level of creativity, or readability of Claude’s text. In the SynthID-Text paper, which introduced the technique we use, Google DeepMind tested this impact by serving a model that used watermarking to a portion of their Gemini traffic and comparing thumbs-up and thumbs-down ratings. They found no statistically significant differences from the unwatermarked model. And in a controlled study, human raters comparing watermarked and unwatermarked answers side-by-side saw no difference in quality.",
+        "th": "ในการทดสอบภายใน เราไม่เห็นว่าการให้ลายน้ำส่งผลต่อเนื้อหา ระดับความคิดสร้างสรรค์ หรือความสามารถในการอ่านข้อความของ Claude ในรายงาน SynthID-Text ซึ่งแนะนำเทคนิคที่เราใช้ Google DeepMind ทดสอบผลกระทบนี้โดยให้บริการโมเดลที่ใช้ลายน้ำกับส่วนหนึ่งของการเข้าชมราศีเมถุน และเปรียบเทียบการให้คะแนนแบบยกนิ้วโป้งและคว่ำนิ้วโป้ง พวกเขาไม่พบความแตกต่างที่มีนัยสำคัญทางสถิติจากแบบจำลองที่ไม่มีลายน้ำ และในการศึกษาที่มีการควบคุม ผู้ประเมินที่เป็นมนุษย์ซึ่งเปรียบเทียบคำตอบที่มีลายน้ำกับคำตอบที่ไม่มีลายน้ำควบคู่กัน พบว่าไม่มีความแตกต่างในด้านคุณภาพ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A useful analogy is to imagine you’re playing a game like Monopoly. On each turn, each player moves a random number of spaces around the board according to the roll of a die. Suppose that, instead of rolling the die to get this randomness, we decided to use a book of the digits of pi.2 We start from a randomly-chosen digit (say, the 1,012,845th after the decimal place, which happens to be a 6), and from that point on each player simply uses the next digit in the sequence as their next “roll”.",
+        "th": "การเปรียบเทียบที่เป็นประโยชน์คือการจินตนาการว่าคุณกำลังเล่นเกมอย่าง Monopoly ในแต่ละเทิร์น ผู้เล่นแต่ละคนจะสุ่มย้ายช่องว่างจำนวนหนึ่งไปรอบๆ กระดานตามการทอยลูกเต๋า สมมติว่า แทนที่จะทอยลูกเต๋าเพื่อให้ได้การสุ่มนี้ เราตัดสินใจใช้สมุดเลข pi.2 เราเริ่มต้นจากตัวเลขที่เลือกแบบสุ่ม (เช่น เลข 1,012,845 หลังทศนิยม ซึ่งเกิดขึ้นเป็น 6) และจากจุดนั้น ผู้เล่นแต่ละคนเพียงแค่ใช้ตัวเลขถัดไปในลำดับเป็น \"ทอย\" ถัดไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For all intents and purposes, the moves are still random: it makes no difference to the players—or to the outcome of the game—whether the randomness comes from pi or from dice rolls each time. But if we could see the sequence of all the moves after the game (and we knew the value of pi), we could work out whether this was a game that likely used pi to determine its moves. The game that used pi is, in a sense, “watermarked”.",
+        "th": "สำหรับจุดประสงค์และวัตถุประสงค์ทั้งหมด การเคลื่อนไหวยังคงเป็นแบบสุ่ม มันไม่สร้างความแตกต่างให้กับผู้เล่น—หรือผลลัพธ์ของเกม—ไม่ว่าการสุ่มจะมาจากพายหรือจากการทอยลูกเต๋าในแต่ละครั้ง แต่ถ้าเรามองเห็นลำดับของการเคลื่อนไหวทั้งหมดหลังเกม (และเรารู้ว่าค่าของพาย) เราก็สามารถหาได้ว่านี่เป็นเกมที่อาจใช้พายเพื่อกำหนดการเคลื่อนไหวของมันหรือไม่ เกมที่ใช้ pi นั้นเป็น \"ลายน้ำ\""
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It’s the same for Claude-generated text. Watermarking doesn’t change the meaning or experience for the person reading it, but if you wanted to check after the fact whether the text was likely generated by Claude, the watermark allows you to do so.",
+        "th": "เช่นเดียวกับข้อความที่สร้างโดย Claude ลายน้ำไม่ได้เปลี่ยนความหมายหรือประสบการณ์ของบุคคลที่อ่าน แต่ถ้าคุณต้องการตรวจสอบภายหลังว่าข้อความนั้นน่าจะถูกสร้างขึ้นโดย Claude หรือไม่ ลายน้ำจะช่วยให้คุณทำเช่นนั้นได้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Which specific method of watermarking do you use?",
+        "th": "คุณใช้วิธีการลายน้ำแบบใดโดยเฉพาะ?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Claude’s text watermark is a version of the SynthID-Text approach published by Google DeepMind in a Nature paper in 2024. It belongs to a family of approaches that go back to a proposal by Scott Aaronson in 2022, all of which share the same design principle that we described above—the watermark only changes the source of the randomness used to pick among words.",
+        "th": "ลายน้ำข้อความของ Claude เป็นเวอร์ชันหนึ่งของแนวทาง SynthID-Text ที่เผยแพร่โดย Google DeepMind ในรายงานของ Nature ในปี 2024 โดยเป็นของกลุ่มแนวทางที่ย้อนกลับไปสู่ข้อเสนอของ Scott Aaronson ในปี 2022 ซึ่งทั้งหมดมีหลักการออกแบบเดียวกันกับที่เราอธิบายไว้ข้างต้น ลายน้ำจะเปลี่ยนเฉพาะแหล่งที่มาของการสุ่มที่ใช้ในการเลือกระหว่างคำเท่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "There are limitations to the effectiveness of watermarking. Using our key, one can only answer the question “What is the likelihood this was partly written by Claude?” It doesn’t confirm whether the text was human-written, and it can’t tell whether the text was written by a different AI (even if that other AI uses watermarking, it would have a different key; it might also use a different watermarking method altogether). Detecting a watermarking also doesn’t work well on small samples, where there are fewer word choices and thus less information to go on. As a passage increases in length, confidence about Claude’s involvement increases too.",
+        "th": "มีข้อจำกัดในเรื่องประสิทธิภาพของลายน้ำ การใช้คีย์ของเรา มีเพียงคำตอบเดียวเท่านั้นที่ตอบคำถามว่า \"Claude เขียนบางส่วนนี้เป็นไปได้อย่างไร\" ไม่ได้ยืนยันว่าข้อความนั้นเขียนโดยมนุษย์หรือไม่ และไม่สามารถบอกได้ว่าข้อความนั้นเขียนโดย AI อื่นหรือไม่ (แม้ว่า AI อื่นจะใช้ลายน้ำ แต่ก็จะมีคีย์ที่แตกต่างกัน มันอาจจะใช้วิธีการใส่ลายน้ำที่แตกต่างกันโดยสิ้นเชิง) การตรวจจับลายน้ำยังใช้ไม่ได้ผลกับตัวอย่างเล็กๆ เช่นกัน เนื่องจากมีตัวเลือกคำน้อยกว่าและมีข้อมูลน้อยกว่า เมื่อข้อความยาวขึ้น ความมั่นใจเกี่ยวกับการมีส่วนร่วมของโคลดก็เพิ่มขึ้นเช่นกัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Watermarking is sparser on factual passages where there are fewer choices that can be made without decreasing the accuracy of the text. For example, take the sentence “Isaac Newton’s most famous work was called Principia…”. It really matters whether the next word is “Mathematica” (it’s the only right answer), so the watermark would have nothing to act on. The same is true for proofreading. If you hand Claude a piece of writing and ask it to edit only the grammar and punctuation and nothing else, the watermark can only live in the handful of corrections, which might be too few to register.",
+        "th": "การใส่ลายน้ำจะกระจัดกระจายกว่าบนข้อความที่เป็นข้อเท็จจริง โดยมีตัวเลือกน้อยลงซึ่งสามารถทำได้โดยไม่ลดความแม่นยำของข้อความ เช่น ประโยคที่ว่า “ผลงานที่โด่งดังที่สุดของไอแซก นิวตันมีชื่อว่า Principia…” คำถัดไปคือ \"Mathematica\" หรือไม่ (เป็นคำตอบเดียวที่ถูกต้อง) เป็นสิ่งสำคัญมาก ดังนั้นลายน้ำจะไม่มีอะไรต้องดำเนินการ เช่นเดียวกับการพิสูจน์อักษร หากคุณส่งงานเขียนให้ Claude และขอให้แก้ไขเฉพาะไวยากรณ์และเครื่องหมายวรรคตอนเท่านั้น และไม่มีอะไรอื่น ลายน้ำจะอยู่ได้เพียงไม่กี่การแก้ไขเท่านั้น ซึ่งอาจน้อยเกินไปที่จะบันทึก"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What about cases where Claude has proofread or edited human text?",
+        "th": "แล้วกรณีที่โคลดได้ตรวจทานหรือแก้ไขข้อความของมนุษย์ล่ะ?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The watermark only applies to words Claude chooses. When Claude proofreads text written by a person, what it gives back has generally only been lightly edited; because nearly all the words are the person’s, there’s very little (if anything) for the watermark to attach to. Depending on the length of the text and how heavily Claude has edited it, those changes might not be enough to make Claude’s involvement detectable. The more Claude writes, the more decisions it has to make, and the more space there is for a watermark.",
+        "th": "ลายน้ำใช้กับคำที่ Claude เลือกเท่านั้น เมื่อโคลดตรวจทานข้อความที่เขียนโดยบุคคล สิ่งที่ได้รับกลับมักได้รับการแก้ไขเพียงเล็กน้อยเท่านั้น เนื่องจากคำเกือบทั้งหมดเป็นคำของบุคคลนั้น จึงมีลายน้ำน้อยมาก (ถ้ามี) ที่จะแนบไปด้วย ขึ้นอยู่กับความยาวของข้อความและปริมาณการแก้ไขของ Claude การเปลี่ยนแปลงเหล่านั้นอาจไม่เพียงพอที่จะทำให้สามารถตรวจพบการมีส่วนร่วมของ Claude ได้ ยิ่งโคลดเขียนมากเท่าไร ก็ยิ่งต้องตัดสินใจมากขึ้น และมีพื้นที่สำหรับใส่ลายน้ำมากขึ้นเท่านั้น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What about code?",
+        "th": "แล้วรหัสล่ะ?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As we noted above, AI watermarking takes advantage of decisions where either choice of a word would be equally good. Where an exact output is required—where there isn’t a choice, and something would be factually wrong or a piece of code would break if a different term was chosen—the watermark isn’t applied.",
+        "th": "ดังที่เราได้กล่าวไว้ข้างต้น ลายน้ำ AI ใช้ประโยชน์จากการตัดสินใจโดยการเลือกคำใดคำหนึ่งก็จะดีเท่ากัน ในกรณีที่จำเป็นต้องมีเอาต์พุตที่แน่นอน โดยที่ไม่มีตัวเลือก และมีบางอย่างผิดพลาดตามความเป็นจริงหรือโค้ดบางส่วนอาจเสียหายหากเลือกคำอื่น ลายน้ำจะไม่ถูกนำมาใช้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For example, once the model has written “2 + 2 =”, there is a very clear best choice for the next token (if the model is completing the sum, there isn’t an answer that’s equally as good as “4”; if it’s talking about George Orwell’s Nineteen Eighty-Four, there isn’t an answer that’s equally as good as “5”). The “nudge” of the watermark wouldn’t be applied here. For the same reason, code—which in very many cases has to be exact—has generally less watermarking than some other forms of text.",
+        "th": "ตัวอย่างเช่น เมื่อโมเดลเขียน “2 + 2 =” จะมีตัวเลือกที่ดีที่สุดที่ชัดเจนมากสำหรับโทเค็นถัดไป (หากโมเดลกำลังหาผลรวมแล้ว ไม่มีคำตอบที่ดีเท่า “4” หากกำลังพูดถึง Nineteen Eighty-Four ของ George Orwell ก็ไม่มีคำตอบที่ดีเท่า “5”) \"การเขยิบ\" ของลายน้ำจะไม่ถูกนำมาใช้ที่นี่ ด้วยเหตุผลเดียวกัน โค้ดซึ่งในหลายๆ กรณีจะต้องตรงกัน จึงมีลายน้ำน้อยกว่าข้อความรูปแบบอื่นๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Having said that, in areas where there is an arbitrary choice between particular words or terms within the code, the watermark can be used, such as comments within code. But by definition, it will have a negligible effect on the actual code produced.",
+        "th": "ต้องบอกว่าในพื้นที่ที่มีตัวเลือกโดยพลการระหว่างคำหรือคำศัพท์เฉพาะภายในโค้ด สามารถใช้ลายน้ำได้ เช่น ความคิดเห็นภายในโค้ด แต่ตามคำจำกัดความแล้ว มันจะมีผลกระทบเล็กน้อยต่อโค้ดจริงที่สร้างขึ้น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What does this mean for users?",
+        "th": "สิ่งนี้หมายความว่าอย่างไรสำหรับผู้ใช้?"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Does this slow the model down, or make it more expensive?",
+        "th": "สิ่งนี้จะทำให้โมเดลช้าลงหรือทำให้มีราคาแพงขึ้นหรือไม่?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "No. Watermarking has a negligible impact on the speed of models, and because it produces no extra tokens, the model is the same price to serve and use.",
+        "th": "ไม่ ลายน้ำมีผลกระทบเล็กน้อยต่อความเร็วของโมเดล และเนื่องจากไม่มีการสร้างโทเค็นเพิ่มเติม โมเดลจึงมีราคาเท่ากันในการให้บริการและใช้งาน"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Can a watermark be traced back to me or my organization?",
+        "th": "ลายน้ำสามารถตรวจสอบย้อนกลับถึงฉันหรือองค์กรของฉันได้หรือไม่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "No. The watermarking applies to Claude and its outputs. It doesn’t identify anything to do with individual users. There’s nothing in the watermark, or its key, that would allow anyone to recover any information about the user, their organization, or their chats with Claude.",
+        "th": "ไม่ ลายน้ำใช้กับ Claude และผลลัพธ์ของมัน มันไม่ได้ระบุอะไรที่เกี่ยวข้องกับผู้ใช้แต่ละราย ไม่มีสิ่งใดในลายน้ำหรือกุญแจที่จะอนุญาตให้ใครก็ตามสามารถกู้คืนข้อมูลใดๆ เกี่ยวกับผู้ใช้ องค์กรของพวกเขา หรือการแชทกับ Claude ได้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Why are you watermarking Claude’s outputs?",
+        "th": "เหตุใดคุณจึงใส่ลายน้ำผลลัพธ์ของ Claude"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re implementing watermarking to comply with the EU AI Act. Anthropic, along with several other major AI model providers and around 190 total signatories, signed the EU Code of Practice on Transparency of AI-Generated Content in July 2026. This requires AI system providers to use methods of “marking” AI-generated text. We’re applying watermarking globally at launch because we don't yet have a durable way to scope it by region. However, we will continue to evaluate different approaches, and will share updates when we have them.",
+        "th": "เรากำลังใช้ลายน้ำเพื่อให้สอดคล้องกับกฎหมาย AI ของสหภาพยุโรป Anthropic พร้อมด้วยผู้ให้บริการโมเดล AI รายใหญ่หลายรายและผู้ลงนามทั้งหมดประมาณ 190 ราย ได้ลงนามในหลักปฏิบัติของสหภาพยุโรปว่าด้วยความโปร่งใสของเนื้อหาที่สร้างโดย AI ในเดือนกรกฎาคม พ.ศ. 2569 ซึ่งกำหนดให้ผู้ให้บริการระบบ AI ใช้วิธีการ \"ทำเครื่องหมาย\" ข้อความที่สร้างโดย AI เรากำลังนำลายน้ำไปใช้ทั่วโลกตั้งแต่เปิดตัว เนื่องจากเรายังไม่มีวิธีที่คงทนในการกำหนดขอบเขตตามภูมิภาค อย่างไรก็ตาม เราจะประเมินแนวทางต่างๆ ต่อไป และจะแชร์ข้อมูลอัปเดตเมื่อเรามีแนวทางเหล่านั้น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Other questions",
+        "th": "คำถามอื่นๆ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "How do I check if a piece of text was written by Claude?",
+        "th": "ฉันจะตรวจสอบได้อย่างไรว่าข้อความนั้นเขียนโดย Claude?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We will soon be offering a watermark detection API. We’re in the process of working out the details of its implementation.",
+        "th": "เร็วๆ นี้เราจะนำเสนอ API การตรวจจับลายน้ำ เรากำลังอยู่ในขั้นตอนการหารายละเอียดการใช้งาน"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "What about images and other files?",
+        "th": "แล้วรูปภาพและไฟล์อื่นๆ ล่ะ?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When Claude produces a file of a supported type (such as a .png, .jpg, or .svg), it will attach a content credential in the form of a small, cryptographically signed note in the file’s metadata, saying that the file was made or processed with Claude. This is an open industry standard called C2PA—the same used by camera manufacturers and in photo-editing software to record where an image came from. Any C2PA-aware tool can read it; we’ll be providing our own where you can drop a file and check.",
+        "th": "เมื่อ Claude สร้างไฟล์ประเภทที่รองรับ (เช่น .png, .jpg หรือ .svg) ไฟล์นั้นจะแนบข้อมูลรับรองเนื้อหาในรูปแบบของบันทึกย่อขนาดเล็กที่เซ็นชื่อแบบเข้ารหัสในข้อมูลเมตาของไฟล์ โดยบอกว่าไฟล์นั้นถูกสร้างขึ้นหรือประมวลผลด้วย Claude นี่เป็นมาตรฐานอุตสาหกรรมแบบเปิดที่เรียกว่า C2PA ซึ่งเป็นมาตรฐานเดียวกับที่ผู้ผลิตกล้องใช้และในซอฟต์แวร์แก้ไขภาพเพื่อบันทึกแหล่งที่มาของภาพ เครื่องมือใดๆ ที่รับรู้ถึง C2PA ก็สามารถอ่านได้ เราจะจัดหาที่ที่คุณสามารถวางไฟล์และตรวจสอบได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This metadata label is very different from a watermark. Nothing in the file changes—it is not embedded or hidden. As with text, the credential only says Claude was involved in producing the file; it doesn’t include any identifying information.",
+        "th": "ป้ายกำกับข้อมูลเมตานี้แตกต่างจากลายน้ำอย่างมาก ไม่มีการเปลี่ยนแปลงใดๆ ในไฟล์ เนื่องจากไม่ได้ฝังหรือซ่อนไว้ เช่นเดียวกับข้อความ หนังสือรับรองระบุเพียงว่า Claude มีส่วนเกี่ยวข้องในการสร้างไฟล์ ไม่รวมข้อมูลระบุตัวตนใดๆ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Can’t someone just edit the text to get around the watermarking?",
+        "th": "บางคนไม่สามารถแก้ไขข้อความเพื่อแก้ไขลายน้ำได้ใช่ไหม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To some extent, yes. Light editing probably won’t remove the watermark completely; a complete rewrite where every word is replaced will. In the latter case, of course, it’s arguable whether the text can any longer be described as AI-generated.",
+        "th": "ในระดับหนึ่งใช่ การแก้ไขด้วยแสงอาจจะไม่ลบลายน้ำออกทั้งหมด เขียนใหม่ทั้งหมดโดยที่ทุกคำจะถูกแทนที่ ในกรณีหลังนี้ แน่นอนว่ายังคงเป็นที่ถกเถียงกันอยู่ว่าข้อความดังกล่าวสามารถอธิบายได้ว่าสร้างโดย AI อีกต่อไปหรือไม่"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "What does a watermark actually prove?",
+        "th": "ลายน้ำพิสูจน์อะไรได้จริง?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A watermark can only determine that Claude was likely involved with the content at some point. It cannot distinguish “Claude wrote this” from “Claude heavily edited this.”",
+        "th": "ลายน้ำสามารถระบุได้ว่า Claude น่าจะเกี่ยวข้องกับเนื้อหาในบางจุดเท่านั้น ไม่สามารถแยกความแตกต่างระหว่าง “Claude เขียนสิ่งนี้” จาก “Claude แก้ไขสิ่งนี้อย่างหนัก”"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Do watermarks apply to translations?",
+        "th": "ลายน้ำใช้กับการแปลหรือไม่?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Yes. A translation produced by Claude carries a watermark, because in this case every word is chosen by Claude.",
+        "th": "ใช่. คำแปลที่จัดทำโดยคลอดด์มีลายน้ำ เพราะในกรณีนี้ ทุกคำจะถูกเลือกโดยคลอดด์"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "What about older Claude models?",
+        "th": "แล้วรุ่น Claude รุ่นเก่าล่ะ?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The EU law includes a transition period for Anthropic models launched before August 2, 2026, and we’re working to add watermarking for those models as well. This will be rolled out over the coming months.",
+        "th": "กฎหมายสหภาพยุโรปรวมช่วงการเปลี่ยนแปลงสำหรับโมเดล Anthropic ที่เปิดตัวก่อนวันที่ 2 สิงหาคม 2026 และเรากำลังดำเนินการเพื่อเพิ่มลายน้ำสำหรับโมเดลเหล่านั้นด้วย ซึ่งจะเปิดตัวในอีกไม่กี่เดือนข้างหน้า"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "How does this differ from AI detection software, like Pangram?",
+        "th": "สิ่งนี้แตกต่างจากซอฟต์แวร์ตรวจจับ AI เช่น Pangram อย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "AI detection software uses a different method, because the companies that provide it don’t have our key. Among other things, those services look at aspects of the text like the subtle (and not-so-subtle) “tells” that often appear in AI’s phrasing. For example, AI models appear to be fond of the construction “this isn’t [X], it’s [Y]”, and use the word “quietly” a lot more than you might expect. Picking up on these patterns is fundamentally different from checking for a watermark.",
+        "th": "ซอฟต์แวร์ตรวจจับ AI ใช้วิธีการอื่น เนื่องจากบริษัทที่ให้บริการไม่มีรหัสของเรา เหนือสิ่งอื่นใด บริการเหล่านี้จะพิจารณาแง่มุมต่างๆ ของข้อความ เช่น “การบอก” ที่ละเอียดอ่อน (และไม่ละเอียดอ่อน) ที่มักปรากฏในวลีของ AI ตัวอย่างเช่น ดูเหมือนว่าโมเดล AI จะชื่นชอบโครงสร้าง “นี่ไม่ใช่ [X] แต่เป็น [Y]” และใช้คำว่า “เงียบๆ” มากกว่าที่คุณคาดหวังไว้มาก การเลือกรูปแบบเหล่านี้โดยพื้นฐานแล้วจะแตกต่างจากการตรวจสอบลายน้ำ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Does this change who owns a given output, or who is legally responsible for it?",
+        "th": "การเปลี่ยนแปลงนี้ใครเป็นเจ้าของผลงานที่กำหนดหรือใครเป็นผู้รับผิดชอบตามกฎหมาย?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "No. A watermark only helps test whether Claude might have produced or processed the content. It doesn’t say anything about ownership or authorship, and doesn’t change a user’s rights under our terms. We only apply the watermark when Claude was involved in processing the content or file.",
+        "th": "ไม่ ลายน้ำจะช่วยทดสอบเท่านั้นว่า Claude อาจผลิตหรือประมวลผลเนื้อหาหรือไม่ ไม่ได้ระบุอะไรเกี่ยวกับการเป็นเจ้าของหรือการประพันธ์ และไม่เปลี่ยนแปลงสิทธิ์ของผู้ใช้ภายใต้ข้อกำหนดของเรา เราใช้ลายน้ำเฉพาะเมื่อ Claude เกี่ยวข้องกับการประมวลผลเนื้อหาหรือไฟล์เท่านั้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Or, you might say, nubilous—which is also a synonym for “obscure.”",
+        "th": "หรือคุณอาจพูดว่า nubilous ซึ่งเป็นคำพ้องความหมายสำหรับ \"obscure\""
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Pi is technically predictable, but any run of digits from somewhere in the middle of pi is indistinguishable from a run of rolls of a ten-sided die. Also, set aside the fact that the dice in Monopoly go from 1 to 6 whereas a digit of pi can be from 0 to 9; the analogy isn’t perfect.",
+        "th": "ในทางเทคนิคแล้วพายสามารถคาดเดาได้ แต่การวิ่งของตัวเลขจากจุดใดจุดหนึ่งที่อยู่ตรงกลางของพายนั้นแยกไม่ออกจากการทอยลูกเต๋าสิบด้าน นอกจากนี้ ให้แยกความจริงที่ว่าลูกเต๋าใน Monopoly เริ่มจาก 1 ถึง 6 ในขณะที่ตัวเลขของ pi สามารถอยู่ระหว่าง 0 ถึง 9 การเปรียบเทียบไม่สมบูรณ์แบบ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Related content",
+        "th": "เนื้อหาที่เกี่ยวข้อง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Improving Fable 5's biology safeguards",
+        "th": "การปรับปรุงการป้องกันทางชีววิทยาของ Fable 5"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
+        "th": "Mariano-Florentino (Tino) Cuéllar เข้าร่วม Anthropic ในตำแหน่ง Chief Global Affairs Officer"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mariano-Florentino (Tino) Cuéllar will join Anthropic as its first Chief Global Affairs Officer.",
+        "th": "Mariano-Florentino (Tino) Cuéllar จะร่วมงานกับ Anthropic ในตำแหน่ง Chief Global Affairs Officer คนแรก"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Investigating three real-world incidents in our cybersecurity evaluations",
+        "th": "การตรวจสอบเหตุการณ์ในโลกแห่งความเป็นจริงสามเหตุการณ์ในการประเมินความปลอดภัยทางไซเบอร์ของเรา"
+      }
+    }
+  ]
+}

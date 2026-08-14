@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-14T16:43:18.922Z",
+  "generatedAt": "2026-08-14T20:24:18.590Z",
   "items": [
+    {
+      "id": "anthropic__claude-text-watermark",
+      "slug": "claude-text-watermark",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "category": "News",
+      "date": "2026-08-14T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Quill&backgroundColor=heather",
+      "title": {
+        "en": "How Claude’s text watermark works",
+        "th": "ลายน้ำข้อความของ Claude ทำงานอย่างไร"
+      },
+      "summary": {
+        "en": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.  In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.",
+        "th": "โมเดล Claude ในอนาคตจะสร้างข้อความที่มีลายน้ำ นี่เป็นวิธีการระบุแนวโน้มที่ Claude มีส่วนร่วมในการเขียนข้อความ และเราพร้อมด้วยผู้ให้บริการ AI รายใหญ่หลายรายกำลังดำเนินการเปลี่ยนแปลงนี้เพื่อให้สอดคล้องกับพระราชบัญญัติ AI ของสหภาพยุโรป  ในบทความนี้ เราจะแบ่งปันคำตอบสำหรับคำถามบางข้อที่เราได้รับเกี่ยวกับวิธีการทำงานของวิธีการใส่ลายน้ำที่เราเลือก ไม่ว่าจะส่งผลต่อผลลัพธ์ของ Claude หรือไม่ และเหตุใดเราจึงทำการเปลี่ยนแปลงนี้"
+      }
+    },
     {
       "id": "huggingface__state-of-open-models-summer-2026",
       "slug": "state-of-open-models-summer-2026",
@@ -1376,23 +1393,6 @@
       "summary": {
         "en": "Grabette: an open system to record robot-manipulation data",
         "th": "Grabette: ระบบเปิดสำหรับบันทึกข้อมูลการจัดการหุ่นยนต์"
-      }
-    },
-    {
-      "id": "anthropic__rare-disease-research-grants",
-      "slug": "rare-disease-research-grants",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/rare-disease-research-grants",
-      "category": "News",
-      "date": "2026-07-20T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20NodeShield&backgroundColor=heather",
-      "title": {
-        "en": "Apply for Anthropic’s AI for Science rare disease research grants",
-        "th": "สมัครขอรับทุนวิจัยโรคหายาก AI for Science ของ Anthropic"
-      },
-      "summary": {
-        "en": "Anthropic is sharing a focused call for AI for Science applications centered specifically on rare genetic diseases. Accepted applicants will receive up to $50,000 in Claude credits over six months, with the goal of building a community of researchers looking into how AI can reshape our understanding of rare disease.",
-        "th": "Anthropic กำลังแบ่งปันข้อเรียกร้องให้มีการใช้งาน AI for Science ซึ่งมีศูนย์กลางอยู่ที่โรคทางพันธุกรรมที่หายากโดยเฉพาะ ผู้สมัครที่ได้รับการยอมรับจะได้รับเครดิต Claude มูลค่าสูงสุด 50,000 ดอลลาร์ในช่วงหกเดือน โดยมีเป้าหมายเพื่อสร้างชุมชนนักวิจัยที่พิจารณาว่า AI จะปรับเปลี่ยนความเข้าใจของเราเกี่ยวกับโรคหายากได้อย่างไร"
       }
     },
     {

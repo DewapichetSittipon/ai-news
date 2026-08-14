@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-14T14:45:47.626Z",
+  "generatedAt": "2026-08-14T16:43:18.922Z",
   "items": [
+    {
+      "id": "huggingface__state-of-open-models-summer-2026",
+      "slug": "state-of-open-models-summer-2026",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "category": "News",
+      "date": "2026-08-14T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "State of Open Models: Summer 2026 Observations",
+        "th": "สถานะของโมเดลเปิด: การสังเกตการณ์ช่วงฤดูร้อนปี 2026"
+      },
+      "summary": {
+        "en": "State of Open Models: Summer 2026 Observations",
+        "th": "สถานะของโมเดลเปิด: การสังเกตการณ์ช่วงฤดูร้อนปี 2026"
+      }
+    },
     {
       "id": "huggingface__strands-lerobot-streaming-data-loop",
       "slug": "strands-lerobot-streaming-data-loop",
@@ -2107,23 +2124,6 @@
       "summary": {
         "en": "We got local models to triage the OpenClaw repo for FREE!*",
         "th": "เรามีโมเดลท้องถิ่นเพื่อทดสอบ repo OpenClaw ฟรี!*"
-      }
-    },
-    {
-      "id": "huggingface__mosaicleaks",
-      "slug": "mosaicleaks",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "category": "News",
-      "date": "2026-06-18T18:13:13.000Z",
-      "image": null,
-      "title": {
-        "en": "MosaicLeaks: Can your research agent keep a secret?",
-        "th": "MosaicLeaks: เจ้าหน้าที่วิจัยของคุณสามารถเก็บความลับได้หรือไม่?"
-      },
-      "summary": {
-        "en": "MosaicLeaks: Can your research agent keep a secret?",
-        "th": "MosaicLeaks: เจ้าหน้าที่วิจัยของคุณสามารถเก็บความลับได้หรือไม่?"
       }
     },
     {

@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-17T16:19:21.876Z",
+  "generatedAt": "2026-08-17T20:18:12.928Z",
   "items": [
+    {
+      "id": "huggingface__gpu-management-pt2",
+      "slug": "gpu-management-pt2",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "category": "News",
+      "date": "2026-08-17T19:46:21.000Z",
+      "image": null,
+      "title": {
+        "en": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+        "th": "คลัสเตอร์เดียวกัน ใช้ประโยชน์ได้มากขึ้น 33 แต้ม: สิ่งที่เปลี่ยนแปลงคือลำดับ"
+      },
+      "summary": {
+        "en": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+        "th": "คลัสเตอร์เดียวกัน ใช้ประโยชน์ได้มากขึ้น 33 แต้ม: สิ่งที่เปลี่ยนแปลงคือลำดับ"
+      }
+    },
     {
       "id": "google-ai__google-gemini-pixel-football-club-partnerships",
       "slug": "google-gemini-pixel-football-club-partnerships",
@@ -2124,23 +2141,6 @@
       "summary": {
         "en": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
         "th": "PP-OCRv6 บนใบหน้ากอด: OCR 50 ภาษาตั้งแต่ 1.5M ถึง 34.5M พารามิเตอร์"
-      }
-    },
-    {
-      "id": "huggingface__local-models-pr-triage",
-      "slug": "local-models-pr-triage",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/local-models-pr-triage",
-      "category": "News",
-      "date": "2026-06-22T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "We got local models to triage the OpenClaw repo for FREE!*",
-        "th": "เรามีโมเดลท้องถิ่นเพื่อทดสอบ repo OpenClaw ฟรี!*"
-      },
-      "summary": {
-        "en": "We got local models to triage the OpenClaw repo for FREE!*",
-        "th": "เรามีโมเดลท้องถิ่นเพื่อทดสอบ repo OpenClaw ฟรี!*"
       }
     },
     {

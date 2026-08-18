@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-08-18T10:20:51.554Z",
+  "generatedAt": "2026-08-18T12:29:35.803Z",
   "items": [
+    {
+      "id": "openai__partnering-with-codeai",
+      "slug": "partnering-with-codeai",
+      "source": "openai",
+      "url": "https://openai.com/index/partnering-with-codeai",
+      "category": "Company",
+      "date": "2026-08-18T11:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Partnering with CodeAI to prepare the first AI generation",
+        "th": "ร่วมมือกับ CodeAI เพื่อเตรียม AI รุ่นแรก"
+      },
+      "summary": {
+        "en": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+        "th": "OpenAI และ CodeAI ร่วมมือกันเพื่อช่วยให้นักเรียนสร้างความรู้ด้าน AI คิดอย่างมีวิจารณญาณเกี่ยวกับ AI และพัฒนาทักษะในการใช้งานและกำหนดทิศทางอย่างมีความรับผิดชอบ"
+      }
+    },
+    {
+      "id": "openai__chatgpt-for-teens",
+      "slug": "chatgpt-for-teens",
+      "source": "openai",
+      "url": "https://openai.com/index/chatgpt-for-teens",
+      "category": "Product",
+      "date": "2026-08-18T11:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+        "th": "ขอแนะนำ ChatGPT สำหรับวัยรุ่น: สร้างขึ้นเพื่อการเรียนรู้ พร้อมการปกป้อง"
+      },
+      "summary": {
+        "en": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+        "th": "ChatGPT สำหรับวัยรุ่นช่วยให้วัยรุ่นเรียนรู้ คิดอย่างมีวิจารณญาณ และใช้ AI อย่างมั่นใจ พร้อมการป้องกันในตัวที่แข็งแกร่งยิ่งขึ้น ฟีเจอร์การใช้งานเพื่อสุขภาพ และการควบคุมเพิ่มเติมสำหรับผู้ปกครอง"
+      }
+    },
     {
       "id": "huggingface__gpu-management-pt2",
       "slug": "gpu-management-pt2",
@@ -1107,23 +1141,6 @@
       }
     },
     {
-      "id": "openai__scientific-computing-agentic-ai",
-      "slug": "scientific-computing-agentic-ai",
-      "source": "openai",
-      "url": "https://openai.com/index/scientific-computing-agentic-ai",
-      "category": "Publication",
-      "date": "2026-07-28T17:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Scientific computing in the age of agentic AI",
-        "th": "การประมวลผลทางวิทยาศาสตร์ในยุคของเอเจนต์เอไอ"
-      },
-      "summary": {
-        "en": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-        "th": "รายงานภาคสนามฉบับใหม่แสดงให้เห็นว่านักวิทยาศาสตร์ใช้ตัวแทนการเข้ารหัส AI เพื่อปรับปรุงการประมวลผลทางวิทยาศาสตร์ให้ทันสมัย ​​เร่งการพัฒนาซอฟต์แวร์และการค้นพบในด้านจีโนมิกส์และอื่น ๆ ได้อย่างไร"
-      }
-    },
-    {
       "id": "google-ai__expanding-managed-agents-gemini-api-3-6-flash-hooks",
       "slug": "expanding-managed-agents-gemini-api-3-6-flash-hooks",
       "source": "google-ai",
@@ -1206,23 +1223,6 @@
       "summary": {
         "en": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
         "th": "NVIDIA Cosmos-H-Dreams: นำการจำลองแบบเรียลไทม์มาสู่หุ่นยนต์ผ่าตัด"
-      }
-    },
-    {
-      "id": "openai__how-ai-is-expanding-what-people-do-at-work",
-      "slug": "how-ai-is-expanding-what-people-do-at-work",
-      "source": "openai",
-      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "category": "Company",
-      "date": "2026-07-27T03:30:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How AI is expanding what people do at work",
-        "th": "AI ขยายสิ่งที่ผู้คนทำในที่ทำงานอย่างไร"
-      },
-      "summary": {
-        "en": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-        "th": "การวิจัยใหม่ของ OpenAI แสดงให้เห็นว่า AI ขยายสิ่งที่พนักงานทำได้อย่างไร โดยผู้ใช้ ChatGPT ทำหน้าที่ข้ามบทบาทและปรับขอบเขตงานใหม่"
       }
     },
     {

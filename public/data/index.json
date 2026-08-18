@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-18T14:25:32.431Z",
+  "generatedAt": "2026-08-18T18:26:36.513Z",
   "items": [
+    {
+      "id": "huggingface__altk-evolve-hmm",
+      "slug": "altk-evolve-hmm",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "category": "News",
+      "date": "2026-08-18T18:09:38.000Z",
+      "image": null,
+      "title": {
+        "en": "How Much Memory Does Your Agent Actually Need?",
+        "th": "จริงๆ แล้วตัวแทนของคุณต้องการหน่วยความจำจำนวนเท่าใด?"
+      },
+      "summary": {
+        "en": "How Much Memory Does Your Agent Actually Need?",
+        "th": "จริงๆ แล้วตัวแทนของคุณต้องการหน่วยความจำจำนวนเท่าใด?"
+      }
+    },
     {
       "id": "openai__partnering-with-codeai",
       "slug": "partnering-with-codeai",
@@ -33,6 +50,23 @@
       "summary": {
         "en": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
         "th": "ChatGPT สำหรับวัยรุ่นช่วยให้วัยรุ่นเรียนรู้ คิดอย่างมีวิจารณญาณ และใช้ AI อย่างมั่นใจ พร้อมการป้องกันในตัวที่แข็งแกร่งยิ่งขึ้น ฟีเจอร์การใช้งานเพื่อสุขภาพ และการควบคุมเพิ่มเติมสำหรับผู้ปกครอง"
+      }
+    },
+    {
+      "id": "openai__asana",
+      "slug": "asana",
+      "source": "openai",
+      "url": "https://openai.com/index/asana",
+      "category": "News",
+      "date": "2026-08-18T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+        "th": "อาสนะเคลียร์งานวิศวกรรม 5 ปีใน 2 สัปดาห์ด้วย Codex"
+      },
+      "summary": {
+        "en": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+        "th": "Asana ใช้ OpenAI Codex เพื่อแทนที่ระบบการทดสอบที่ล้าสมัยภายในสองสัปดาห์ โดยคาดว่าจะใช้เวลาห้าปีในราคาประมาณ 12,000 ดอลลาร์"
       }
     },
     {
@@ -390,23 +424,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIME_SIZZLE_THUMBNAIL.Aug10.max-600x600.format-webp.webp\">Google introduces AMIE for real-time clinical video consultations in simulated settings.",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIME_SIZZLE_THUMBNAIL.Aug10.max-600x600.format-webp.webp\">Google เปิดตัว AMIE สำหรับการให้คำปรึกษาผ่านวิดีโอทางคลินิกแบบเรียลไทม์ในการตั้งค่าจำลอง"
-      }
-    },
-    {
-      "id": "huggingface__altk-evolve-sldd",
-      "slug": "altk-evolve-sldd",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-      "category": "News",
-      "date": "2026-08-11T13:37:10.000Z",
-      "image": null,
-      "title": {
-        "en": "Thinking of ACE? We Can Do It with Fewer Tokens",
-        "th": "คิดถึงเอซมั้ย? เราสามารถทำได้โดยใช้โทเค็นน้อยลง"
-      },
-      "summary": {
-        "en": "Thinking of ACE? We Can Do It with Fewer Tokens",
-        "th": "คิดถึงเอซมั้ย? เราสามารถทำได้โดยใช้โทเค็นน้อยลง"
       }
     },
     {
@@ -1138,23 +1155,6 @@
       "summary": {
         "en": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
         "th": "OpenAI ให้นักวิจัยทางวิชาการ 100,000 คนเข้าถึงโมเดล AI ที่ทันสมัยที่สุดของ ChatGPT ได้ฟรี เพื่อเร่งการวิจัยทางวิทยาศาสตร์ การทำงานร่วมกัน และการค้นพบ"
-      }
-    },
-    {
-      "id": "openai__gpt-5-6-frontier-intelligence-efficiency",
-      "slug": "gpt-5-6-frontier-intelligence-efficiency",
-      "source": "openai",
-      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "category": "Engineering",
-      "date": "2026-07-29T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-        "th": "GPT-5.6 หลอมรวมความฉลาดระดับแนวหน้าเข้ากับประสิทธิภาพระดับแนวหน้าได้อย่างไร"
-      },
-      "summary": {
-        "en": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-        "th": "GPT-5.6 ปรับปรุงประสิทธิภาพของ AI ในโมเดล การอนุมาน และเวิร์กโฟลว์เอเจนต์ ช่วยให้ส่งมอบข้อมูลอัจฉริยะที่มีประโยชน์มากขึ้นต่อดอลลาร์"
       }
     },
     {

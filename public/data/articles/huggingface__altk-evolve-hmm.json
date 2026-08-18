@@ -1,0 +1,807 @@
+{
+  "id": "huggingface__altk-evolve-hmm",
+  "slug": "altk-evolve-hmm",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+  "category": "News",
+  "date": "2026-08-18T18:09:38.000Z",
+  "image": null,
+  "title": {
+    "en": "How Much Memory Does Your Agent Actually Need?",
+    "th": "จริงๆ แล้วตัวแทนของคุณต้องการหน่วยความจำจำนวนเท่าใด?"
+  },
+  "summary": {
+    "en": "How Much Memory Does Your Agent Actually Need?",
+    "th": "จริงๆ แล้วตัวแทนของคุณต้องการหน่วยความจำจำนวนเท่าใด?"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "/avatars/6cf73fe4b40d179d33e55aec0c7e5313.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/05ceb02598a78aefeb479f6d68080d7f.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6487da02c4b44322c124f39f/a59vwxS7l3iylkGXzN6R3.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/18f132b7a7dabcdf5fb933edb554ea68.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/6cf73fe4b40d179d33e55aec0c7e5313.svg",
+      "alt": "Vatche Isahagian's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "/avatars/18f132b7a7dabcdf5fb933edb554ea68.svg",
+      "alt": "Gaodan Fang's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "/avatars/981da7aa42bc31072a5f6e04ce8e6c3a.svg",
+      "alt": "Jayaram Radhakrishnan's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "/avatars/c20bc90f9b6a68b53d1b66c6ff37090b.svg",
+      "alt": "Punleuk Oum's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "/avatars/8ba2912d52fca21df2caa3aac681c8c3.svg",
+      "alt": "Ashwath Vaithinathan Aravindan's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "/avatars/b8ff3bdec0dd104a98271bcdf8124cc2.svg",
+      "alt": "Evelyn Duesterwald's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "/avatars/7567e1a8588c0bee6293c3cb88c11c8d.svg",
+      "alt": "G Thomas's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "/avatars/05ceb02598a78aefeb479f6d68080d7f.svg",
+      "alt": "Vinod Muthusamy's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/voQatzALsIDEbM2JR25ei.png",
+      "alt": "Merve Unuvar's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/64e8143f6de557454220921e/aNouKBrKm1dnN9pI1JXlp.jpeg",
+      "alt": "Ayhan Sebin's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The Key Insight: Dosage Depends on Capability",
+        "th": "ข้อมูลเชิงลึกที่สำคัญ: ปริมาณขึ้นอยู่กับความสามารถ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Learning happens around the model, not inside it",
+        "th": "การเรียนรู้เกิดขึ้นรอบๆ โมเดล ไม่ใช่ภายในโมเดล"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Results Across the Spectrum The three configurations we compare The three patterns, in one view",
+        "th": "ผลลัพธ์ทั่วทั้งสเปกตรัม การกำหนดค่าทั้งสามที่เราเปรียบเทียบ ทั้งสามรูปแบบในมุมมองเดียว"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The three configurations we compare",
+        "th": "การกำหนดค่าทั้งสามที่เราเปรียบเทียบ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The three patterns, in one view",
+        "th": "ทั้งสามรูปแบบในมุมมองเดียว"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The Cheapest Memory Strategy Can Also Be the Best",
+        "th": "กลยุทธ์หน่วยความจำที่ถูกที่สุดก็สามารถดีที่สุดได้เช่นกัน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Memory Should Be Calibrated, Not Merely Accumulated",
+        "th": "หน่วยความจำควรได้รับการปรับเทียบ ไม่ใช่เพียงสะสมเท่านั้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What's Next",
+        "th": "อะไรต่อไป"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Appendix: Understanding the Metrics",
+        "th": "ภาคผนวก: การทำความเข้าใจตัวชี้วัด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Equipping an agent with agentic memory sounds simple: distill lessons from its past work, put them back in context, and more experience should mean better performance. It doesn't always work that way. When we scaled the evaluation to eight models — from a 30B dense model to frontier proprietary systems — one finding stood out:",
+        "th": "การเตรียมเอเจนต์ด้วยหน่วยความจำเอเจนต์ฟังดูง่าย: กลั่นกรองบทเรียนจากงานที่ผ่านมา นำบทเรียนเหล่านั้นกลับมาในบริบท และประสบการณ์ที่มากขึ้นน่าจะหมายถึงประสิทธิภาพที่ดีขึ้น มันไม่ได้ผลเช่นนั้นเสมอไป เมื่อเราขยายการประเมินเป็นแปดโมเดล — จากแบบจำลองหนาแน่น 30B ไปจนถึงระบบที่เป็นกรรมสิทธิ์ระดับแนวหน้า — สิ่งหนึ่งที่ค้นพบโดดเด่น:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Agentic memory is not a feature you switch on. It's a dose you calibrate to the model.",
+        "th": "หน่วยความจำเอเจนต์ไม่ใช่คุณสมบัติที่คุณเปิด เป็นปริมาณที่คุณปรับเทียบกับโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "TL;DR",
+        "th": "TL;ดร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ALTK-Evolve lets an agent learn from its own past trajectories: distilling reusable guidelines and injecting them back at inference time, with no weight updates and no human annotation.",
+        "th": "ALTK-Evolve ช่วยให้ตัวแทนเรียนรู้จากวิถีในอดีตของตัวเอง: การกลั่นกรองแนวทางที่นำมาใช้ซ้ำได้ และการฉีดกลับเข้าไปในเวลาอนุมาน โดยไม่มีการอัปเดตน้ำหนักและไม่มีคำอธิบายประกอบโดยมนุษย์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ALTK-Evolve lets an agent learn from its own past trajectories: distilling reusable guidelines and injecting them back at inference time, with no weight updates and no human annotation.",
+        "th": "ALTK-Evolve ช่วยให้ตัวแทนเรียนรู้จากวิถีในอดีตของตัวเอง: การกลั่นกรองแนวทางที่นำมาใช้ซ้ำได้ และการฉีดกลับเข้าไปในเวลาอนุมาน โดยไม่มีการอัปเดตน้ำหนักและไม่มีคำอธิบายประกอบโดยมนุษย์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The right dose differs by model tier: strong models with headroom want the full guideline set, weaker models do best with a compact core plus per-task retrieval, and saturated models show no measurable gain.",
+        "th": "ปริมาณที่เหมาะสมจะแตกต่างกันไปตามระดับของโมเดล: โมเดลที่แข็งแกร่งซึ่งมีพื้นที่ว่างด้านบนต้องการชุดแนวทางที่สมบูรณ์ โมเดลที่อ่อนแอกว่าจะทำงานได้ดีที่สุดด้วยแกนขนาดกะทัดรัดพร้อมการดึงข้อมูลต่องาน และโมเดลที่อิ่มตัวจะไม่แสดงการเพิ่มที่วัดได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The right dose differs by model tier: strong models with headroom want the full guideline set, weaker models do best with a compact core plus per-task retrieval, and saturated models show no measurable gain.",
+        "th": "ปริมาณที่เหมาะสมจะแตกต่างกันไปตามระดับของโมเดล: โมเดลที่แข็งแกร่งซึ่งมีพื้นที่ว่างด้านบนต้องการชุดแนวทางที่สมบูรณ์ โมเดลที่อ่อนแอกว่าจะทำงานได้ดีที่สุดด้วยแกนขนาดกะทัดรัดพร้อมการดึงข้อมูลต่องาน และโมเดลที่อิ่มตัวจะไม่แสดงการเพิ่มที่วัดได้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Curated retrieval can be both the most accurate and the cheapest option: gpt-oss-120b gained +16.1pp task completion at only +5% tokens — and prompt caching keeps even the full guideline set affordable in production.",
+        "th": "การดึงข้อมูลที่ได้รับการดูแลจัดการอาจเป็นได้ทั้งตัวเลือกที่แม่นยำที่สุดและถูกที่สุด: gpt-oss-120b ได้รับ +16.1pp งานสำเร็จด้วยโทเค็น +5% เท่านั้น — และการแคชที่รวดเร็วช่วยให้แม้แต่แนวทางปฏิบัติฉบับเต็มที่กำหนดไว้ในราคาไม่แพงในการผลิต"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Curated retrieval can be both the most accurate and the cheapest option: gpt-oss-120b gained +16.1pp task completion at only +5% tokens — and prompt caching keeps even the full guideline set affordable in production.",
+        "th": "การดึงข้อมูลที่ได้รับการดูแลจัดการอาจเป็นได้ทั้งตัวเลือกที่แม่นยำที่สุดและถูกที่สุด: gpt-oss-120b ได้รับ +16.1pp งานสำเร็จด้วยโทเค็น +5% เท่านั้น — และการแคชที่รวดเร็วช่วยให้แม้แต่แนวทางปฏิบัติฉบับเต็มที่กำหนดไว้ในราคาไม่แพงในการผลิต"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The Key Insight: Dosage Depends on Capability",
+        "th": "ข้อมูลเชิงลึกที่สำคัญ: ปริมาณขึ้นอยู่กับความสามารถ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Not every model benefits from the same amount of memory. Across eight models spanning the capability spectrum, we saw three recurring patterns:",
+        "th": "ไม่ใช่ทุกรุ่นที่จะได้ประโยชน์จากหน่วยความจำที่เท่ากัน ในแปดโมเดลที่ครอบคลุมสเปกตรัมความสามารถ เราเห็นรูปแบบที่เกิดซ้ำสามรูปแบบ:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Strong models with headroom want the full guideline set — every guideline, including rare edge-case lessons. They have the capacity to absorb and apply all of it. DeepSeek-V3.2 (671B MoE) climbed +9.5 percentage points in task completion when given its full self-mined guideline set.",
+        "th": "โมเดลที่แข็งแกร่งซึ่งมีช่องว่างด้านบนต้องการชุดแนวทางฉบับสมบูรณ์ — ทุกแนวทาง รวมถึงบทเรียน Edge-case ที่หายาก พวกเขามีความสามารถในการดูดซับและนำไปใช้ทั้งหมด DeepSeek-V3.2 (671B MoE) เพิ่มขึ้น +9.5 เปอร์เซ็นต์ในการทำงานให้สำเร็จเมื่อได้รับแนวทางปฏิบัติที่ขุดด้วยตัวเองอย่างเต็มรูปแบบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Strong models with headroom want the full guideline set — every guideline, including rare edge-case lessons. They have the capacity to absorb and apply all of it. DeepSeek-V3.2 (671B MoE) climbed +9.5 percentage points in task completion when given its full self-mined guideline set.",
+        "th": "โมเดลที่แข็งแกร่งซึ่งมีช่องว่างด้านบนต้องการชุดแนวทางฉบับสมบูรณ์ — ทุกแนวทาง รวมถึงบทเรียน Edge-case ที่หายาก พวกเขามีความสามารถในการดูดซับและนำไปใช้ทั้งหมด DeepSeek-V3.2 (671B MoE) เพิ่มขึ้น +9.5 เปอร์เซ็นต์ในการทำงานให้สำเร็จเมื่อได้รับแนวทางปฏิบัติที่ขุดด้วยตัวเองอย่างเต็มรูปแบบ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Smaller or weaker models get drowned by a large guideline set. For these, a tight, high-confidence core plus a handful of task-relevant guidelines retrieved per task works best. gpt-oss-120b (117B MoE) gained +16.1pp with this selective approach — while the full guideline set gained less and cost ~50% more tokens.",
+        "th": "โมเดลที่เล็กกว่าหรืออ่อนแอกว่าจะจมอยู่กับชุดแนวทางขนาดใหญ่ สำหรับสิ่งเหล่านี้ แกนหลักที่มีความมั่นใจสูงบวกกับแนวทางที่เกี่ยวข้องกับงานจำนวนหนึ่งที่ดึงมาต่องานจะทำงานได้ดีที่สุด gpt-oss-120b (117B MoE) เพิ่มขึ้น +16.1pp ด้วยแนวทางที่เลือกสรรนี้ — ในขณะที่ชุดแนวทางแบบเต็มได้รับน้อยลงและใช้โทเค็นเพิ่มขึ้น ~50%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Smaller or weaker models get drowned by a large guideline set. For these, a tight, high-confidence core plus a handful of task-relevant guidelines retrieved per task works best. gpt-oss-120b (117B MoE) gained +16.1pp with this selective approach — while the full guideline set gained less and cost ~50% more tokens.",
+        "th": "โมเดลที่เล็กกว่าหรืออ่อนแอกว่าจะจมอยู่กับชุดแนวทางขนาดใหญ่ สำหรับสิ่งเหล่านี้ แกนหลักที่มีความมั่นใจสูงบวกกับแนวทางที่เกี่ยวข้องกับงานจำนวนหนึ่งที่ดึงมาต่องานจะทำงานได้ดีที่สุด gpt-oss-120b (117B MoE) เพิ่มขึ้น +16.1pp ด้วยแนวทางที่เลือกสรรนี้ — ในขณะที่ชุดแนวทางแบบเต็มได้รับน้อยลงและใช้โทเค็นเพิ่มขึ้น ~50%"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Already-saturated models show no measurable gain. We call this the saturated pattern — the label describes what we observed, not a proven cause. The model may already have been near its ceiling on these tasks, the guidelines may not have addressed its remaining failures, or it may not have applied the guidance effectively. GLM-5 (745B MoE) sat here in our runs.",
+        "th": "โมเดลที่อิ่มตัวแล้วจะไม่แสดงค่าเกนที่วัดได้ เราเรียกสิ่งนี้ว่ารูปแบบอิ่มตัว — ป้ายระบุสิ่งที่เราสังเกตเห็น ไม่ใช่สาเหตุที่พิสูจน์ได้ โมเดลอาจใกล้ถึงขีดจำกัดของงานเหล่านี้แล้ว แนวทางอาจไม่ได้แก้ไขความล้มเหลวที่เหลืออยู่ หรืออาจใช้คำแนะนำอย่างมีประสิทธิภาพไม่ได้ GLM-5 (745B MoE) อยู่ที่นี่ในการวิ่งของเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Already-saturated models show no measurable gain. We call this the saturated pattern — the label describes what we observed, not a proven cause. The model may already have been near its ceiling on these tasks, the guidelines may not have addressed its remaining failures, or it may not have applied the guidance effectively. GLM-5 (745B MoE) sat here in our runs.",
+        "th": "โมเดลที่อิ่มตัวแล้วจะไม่แสดงค่าเกนที่วัดได้ เราเรียกสิ่งนี้ว่ารูปแบบอิ่มตัว — ป้ายระบุสิ่งที่เราสังเกตเห็น ไม่ใช่สาเหตุที่พิสูจน์ได้ โมเดลอาจใกล้ถึงขีดจำกัดของงานเหล่านี้แล้ว แนวทางอาจไม่ได้แก้ไขความล้มเหลวที่เหลืออยู่ หรืออาจใช้คำแนะนำอย่างมีประสิทธิภาพไม่ได้ GLM-5 (745B MoE) อยู่ที่นี่ในการวิ่งของเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "What puts a model into one pattern rather than another isn't simply parameter count. Benchmark headroom, context-window size, architecture, guideline quality, and task distribution all appear to shape where a model lands, and separating those factors is ongoing work. The practical takeaway holds either way: the right dose of memory depends on the model, and we can calibrate it.",
+        "th": "สิ่งที่ทำให้โมเดลอยู่ในรูปแบบเดียวแทนที่จะเป็นอีกรูปแบบหนึ่งไม่ใช่แค่การนับพารามิเตอร์เท่านั้น ช่องว่างด้านบนของเกณฑ์มาตรฐาน ขนาดหน้าต่างบริบท สถาปัตยกรรม คุณภาพของแนวทางปฏิบัติ และการกระจายงาน ล้วนเป็นตัวกำหนดตำแหน่งของแบบจำลอง และการแยกปัจจัยเหล่านั้นออกจากงานที่กำลังดำเนินอยู่ วิธีนำไปใช้จริงก็มีทั้งสองวิธี: ปริมาณหน่วยความจำที่เหมาะสมนั้นขึ้นอยู่กับรุ่นและเราสามารถปรับเทียบได้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Learning happens around the model, not inside it",
+        "th": "การเรียนรู้เกิดขึ้นรอบๆ โมเดล ไม่ใช่ภายในโมเดล"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "\"Memory\" here doesn't mean replaying a past transcript. It means a guideline set — strategies that worked, mistakes to avoid, and edge cases — distilled from the agent's own prior trajectories. The loop is straightforward:",
+        "th": "\"ความทรงจำ\" ในที่นี้ไม่ได้หมายถึงการเล่นซ้ำข้อความในอดีต มันหมายถึงชุดแนวทาง — กลยุทธ์ที่ใช้ได้ผล ข้อผิดพลาดที่ควรหลีกเลี่ยง และกรณีขอบ — กลั่นกรองจากวิถีก่อนหน้าของตัวแทน การวนซ้ำนั้นตรงไปตรงมา:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The agent attempts tasks and produces trajectories.",
+        "th": "ตัวแทนพยายามทำงานและสร้างวิถี"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The agent attempts tasks and produces trajectories.",
+        "th": "ตัวแทนพยายามทำงานและสร้างวิถี"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ALTK-Evolve extracts behavioral guidelines from both its successful and unsuccessful runs.",
+        "th": "ALTK-Evolve แยกแนวทางด้านพฤติกรรมจากการวิ่งที่สำเร็จและไม่สำเร็จ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ALTK-Evolve extracts behavioral guidelines from both its successful and unsuccessful runs.",
+        "th": "ALTK-Evolve แยกแนวทางด้านพฤติกรรมจากการวิ่งที่สำเร็จและไม่สำเร็จ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "It consolidates those guidelines into a reusable set.",
+        "th": "โดยจะรวมแนวปฏิบัติเหล่านั้นไว้ในชุดที่นำมาใช้ซ้ำได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It consolidates those guidelines into a reusable set.",
+        "th": "โดยจะรวมแนวปฏิบัติเหล่านั้นไว้ในชุดที่นำมาใช้ซ้ำได้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "At inference time, the agent receives either the full guideline set or a task-relevant selection of it.",
+        "th": "ณ เวลาอนุมาน ตัวแทนจะได้รับชุดแนวทางฉบับสมบูรณ์หรือชุดแนวทางที่เกี่ยวข้องกับงานที่เลือกไว้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "At inference time, the agent receives either the full guideline set or a task-relevant selection of it.",
+        "th": "ณ เวลาอนุมาน ตัวแทนจะได้รับชุดแนวทางฉบับสมบูรณ์หรือชุดแนวทางที่เกี่ยวข้องกับงานที่เลือกไว้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "No model weights are updated. The learning loop changes the guidance available to the agent, not the underlying model — which is exactly why it's cheap to adopt and portable across the eight models we tested.",
+        "th": "ไม่มีการอัปเดตน้ำหนักโมเดล วงจรการเรียนรู้จะเปลี่ยนคำแนะนำที่มีให้กับตัวแทน ไม่ใช่โมเดลพื้นฐาน ซึ่งเป็นเหตุผลว่าทำไมการนำโมเดลทั้ง 8 รุ่นที่เราทดสอบไปใช้และพกพาไปใช้งานได้จึงราคาถูก"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Results Across the Spectrum",
+        "th": "ผลลัพธ์ทั่วทั้งสเปกตรัม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We evaluated on AppWorld — 585 multi-step tasks (168 test_normal + 417 test_challenge) across 9 simulated apps (calendars, messaging, payments, and so on). Tasks are scored two ways: whether the agent fully completes each task (TGC — Task Goal Completion) and whether every variant of a scenario passes (SGC — Scenario Goal Completion, a stricter, all-or-nothing bar). Full definitions are in the appendix.",
+        "th": "เราประเมินบน AppWorld — งานหลายขั้นตอน 585 งาน (168 test_normal + 417 test_challenge) ในแอปจำลอง 9 แอป (ปฏิทิน การส่งข้อความ การชำระเงิน และอื่นๆ) งานจะถูกให้คะแนนในสองวิธี: ระบุว่าตัวแทนทำงานแต่ละงานโดยสมบูรณ์หรือไม่ (TGC — การบรรลุเป้าหมายงาน) และไม่ว่าสถานการณ์จำลองทุกรูปแบบจะผ่านหรือไม่ (SGC — การสำเร็จเป้าหมายของสถานการณ์ ซึ่งเป็นแถบที่เข้มงวดกว่า ทั้งหมดหรือไม่มีเลย) คำจำกัดความทั้งหมดอยู่ในภาคผนวก"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "The three configurations we compare",
+        "th": "การกำหนดค่าทั้งสามที่เราเปรียบเทียบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Because the confusing part of any memory study is what's actually in the context window, we define the configurations up front.",
+        "th": "เนื่องจากส่วนที่สับสนของการศึกษาเรื่องความจำคือสิ่งที่ปรากฏอยู่ในหน้าต่างบริบท เราจึงกำหนดการกำหนดค่าล่วงหน้า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Both memory configurations draw from the same guideline set, mined once (via the loop above) from AppWorld's training split only. What changes between them is only how that one set is delivered — the full guideline set injects all of it every step, while curated retrieval delivers a selected subset — never how the guidelines were produced, and no test-split data ever goes into building it.",
+        "th": "การกำหนดค่าหน่วยความจำทั้งสองดึงมาจากชุดแนวทางเดียวกัน โดยขุดได้ครั้งเดียว (ผ่านการวนซ้ำด้านบน) จากการแยกการฝึกของ AppWorld เท่านั้น สิ่งที่เปลี่ยนแปลงระหว่างสองสิ่งนี้คือวิธีการส่งมอบชุดหนึ่งเท่านั้น - ชุดแนวทางแบบเต็มจะแทรกข้อมูลทั้งหมดในทุกขั้นตอน ในขณะที่การดึงข้อมูลที่รวบรวมไว้จะส่งมอบชุดย่อยที่เลือก - ไม่เคยมีการสร้างแนวทางอย่างไร และไม่มีข้อมูลแยกการทดสอบใด ๆ ที่จะสร้างมันขึ้นมา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The number of guidelines a model mines depends on its own capability, so we report configurations by strategy — \"full guideline set\" vs. \"curated retrieval\" — rather than by raw counts, which aren't comparable across models.",
+        "th": "จำนวนแนวทางที่โมเดลขุดขึ้นมานั้นขึ้นอยู่กับความสามารถของตัวมันเอง ดังนั้นเราจึงรายงานการกำหนดค่าตามกลยุทธ์ — \"ชุดแนวทางฉบับสมบูรณ์\" กับ \"การดึงข้อมูลที่มีการดูแลจัดการ\" แทนที่จะรายงานตามจำนวนข้อมูลดิบ ซึ่งไม่สามารถเทียบเคียงได้กับโมเดลต่างๆ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "The three patterns, in one view",
+        "th": "ทั้งสามรูปแบบในมุมมองเดียว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Representative models from the eight-model sweep, measured by task completion (TGC) on test_normal:",
+        "th": "โมเดลตัวแทนจากการกวาดแบบแปดโมเดล วัดจากความสำเร็จของงาน (TGC) บน test_normal:"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/Kdj4ytv-bFmt7LII55y-m.png",
+      "alt": "image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Figure 1. Representative models in the three observed patterns. Bars show TGC on AppWorld test_normal for baseline vs. the best-memory configuration; the x-axis begins at 40% to make differences visible. TGC alone understates the larger SGC gains — see the SGC columns in the table below.",
+        "th": "รูปที่ 1 แบบจำลองตัวแทนในรูปแบบที่สังเกตได้ทั้งสามรูปแบบ แถบแสดง TGC บน AppWorld test_normal สำหรับค่าพื้นฐานเทียบกับการกำหนดค่าหน่วยความจำที่ดีที่สุด แกน x เริ่มต้นที่ 40% เพื่อให้มองเห็นความแตกต่างได้ TGC เพียงอย่างเดียวก็เข้าใจถึงผลกำไร SGC ที่มากขึ้น — ดูคอลัมน์ SGC ในตารางด้านล่าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The figure plots TGC to keep it readable; the table adds the stricter SGC metric, where the gains are often larger:",
+        "th": "รูปนี้วางแผน TGC เพื่อให้อ่านได้ ตารางจะเพิ่มตัวชี้วัด SGC ที่เข้มงวดมากขึ้น โดยที่กำไรมักจะมากกว่า:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reading the SGC column, the stricter metric usually moves more than TGC — DeepSeek's SGC jumps +16.1pp against a +9.5pp TGC gain — because good guidelines especially help an agent clear every variant of a scenario, not just the average case. And the effect doesn't disappear at the top of the range: GPT-5.5 and Opus, both near the ceiling on TGC, still gain +7.2 and +7.1pp SGC respectively. Memory keeps paying off as long as a model has a remaining failure mode to target.",
+        "th": "เมื่ออ่านคอลัมน์ SGC ตัวชี้วัดที่เข้มงวดกว่ามักจะเคลื่อนไหวมากกว่า TGC — SGC ของ DeepSeek กระโดด +16.1pp เทียบกับ +9.5pp TGC ที่ได้รับ — เนื่องจากแนวทางที่ดีโดยเฉพาะช่วยให้ตัวแทนเคลียร์ทุกสถานการณ์ที่แตกต่างกัน ไม่ใช่แค่กรณีทั่วไป และเอฟเฟกต์จะไม่หายไปที่ด้านบนของช่วง: GPT-5.5 และ Opus ซึ่งทั้งคู่อยู่ใกล้เพดานบน TGC ยังคงได้รับ +7.2 และ +7.1pp SGC ตามลำดับ หน่วยความจำจะยังคงให้ผลตอบแทนที่ดีตราบเท่าที่โมเดลยังมีโหมดความล้มเหลวเหลืออยู่เพื่อกำหนดเป้าหมาย"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The Cheapest Memory Strategy Can Also Be the Best",
+        "th": "กลยุทธ์หน่วยความจำที่ถูกที่สุดก็สามารถดีที่สุดได้เช่นกัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A practical concern: injecting a full guideline set inflates every ReAct step's input, because the guidelines are re-sent each turn. Here's what we observed:",
+        "th": "ข้อกังวลในทางปฏิบัติ: การใส่ชุดแนวทางปฏิบัติฉบับเต็มจะทำให้ข้อมูลของขั้นตอน ReAct เพิ่มขึ้นทุกขั้นตอน เนื่องจากแนวทางจะถูกส่งใหม่ในแต่ละรอบ นี่คือสิ่งที่เราสังเกตเห็น:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Table 1. Average token use per task, accumulated across agent steps, measured against the no-memory baseline.",
+        "th": "ตารางที่ 1. การใช้โทเค็นโดยเฉลี่ยต่องาน สะสมตามขั้นตอนของเอเจนต์ โดยวัดเทียบกับค่าพื้นฐานที่ไม่มีหน่วยความจำ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Two takeaways:",
+        "th": "ประเด็นสำคัญสองประการ:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Curated retrieval keeps cost near baseline. For weaker models, where selection wins on accuracy, it also wins on cost — the best of both worlds (+16.1pp TGC at only +5% tokens for gpt-oss-120b). Better performance here does not require more inference cost.",
+        "th": "การเรียกข้อมูลที่ได้รับการดูแลจัดการทำให้ต้นทุนใกล้เคียงระดับพื้นฐาน สำหรับรุ่นที่อ่อนแอกว่า ซึ่งการเลือกชนะด้วยความแม่นยำ ก็จะชนะด้วยราคา — ดีที่สุดของทั้งสองโลก (+16.1pp TGC ที่โทเค็น +5% เท่านั้นสำหรับ gpt-oss-120b) ประสิทธิภาพที่ดีขึ้นที่นี่ไม่จำเป็นต้องมีต้นทุนการอนุมานเพิ่มเติม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Curated retrieval keeps cost near baseline. For weaker models, where selection wins on accuracy, it also wins on cost — the best of both worlds (+16.1pp TGC at only +5% tokens for gpt-oss-120b). Better performance here does not require more inference cost.",
+        "th": "การเรียกข้อมูลที่ได้รับการดูแลจัดการทำให้ต้นทุนใกล้เคียงระดับพื้นฐาน สำหรับรุ่นที่อ่อนแอกว่า ซึ่งการเลือกชนะด้วยความแม่นยำ ก็จะชนะด้วยราคา — ดีที่สุดของทั้งสองโลก (+16.1pp TGC ที่โทเค็น +5% เท่านั้นสำหรับ gpt-oss-120b) ประสิทธิภาพที่ดีขึ้นที่นี่ไม่จำเป็นต้องมีต้นทุนการอนุมานเพิ่มเติม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Memory doesn't blow up the reasoning loop. DeepSeek runs about the same number of ReAct steps with memory as without (≈18–19 on average), so the added cost is input-token inflation, not longer trajectories.",
+        "th": "หน่วยความจำไม่ทำให้วนรอบการให้เหตุผลระเบิด DeepSeek ทำงานเกี่ยวกับจำนวนขั้นตอน ReAct ที่มีหน่วยความจำเท่ากันกับที่ไม่มี (โดยเฉลี่ย 18–19) ดังนั้นค่าใช้จ่ายเพิ่มเติมคืออัตราเงินเฟ้อโทเค็นอินพุต ไม่ใช่วิถีอีกต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Memory doesn't blow up the reasoning loop. DeepSeek runs about the same number of ReAct steps with memory as without (≈18–19 on average), so the added cost is input-token inflation, not longer trajectories.",
+        "th": "หน่วยความจำไม่ทำให้วนรอบการให้เหตุผลระเบิด DeepSeek ทำงานเกี่ยวกับจำนวนขั้นตอน ReAct ที่มีหน่วยความจำเท่ากันกับที่ไม่มี (โดยเฉลี่ย 18–19) ดังนั้นค่าใช้จ่ายเพิ่มเติมคืออัตราเงินเฟ้อโทเค็นอินพุต ไม่ใช่วิถีอีกต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The real efficiency lever in production is prompt caching: the static portion of the guideline set is identical across steps and can be cached, cutting effective cost substantially. Cache-aware prompt design — keeping the shared guideline-set prefix stable so it stays cacheable — is worth engineering for. We also hypothesize that context-window size plays a role: models with larger windows may absorb the full guideline set more effectively, while smaller-context models benefit more from retrieval that keeps injected content compact. We have not yet run controlled experiments isolating this factor.",
+        "th": "ประสิทธิภาพที่แท้จริงในการผลิตคือการแคชที่รวดเร็ว: ส่วนที่คงที่ของชุดแนวทางจะเหมือนกันทุกขั้นตอนและสามารถแคชได้ ซึ่งช่วยลดต้นทุนที่มีประสิทธิภาพได้อย่างมาก การออกแบบพรอมต์ที่รับรู้แคช — ทำให้คำนำหน้าชุดแนวทางที่ใช้ร่วมกันมีความเสถียรเพื่อให้สามารถแคชได้ — คุ้มค่าทางวิศวกรรม นอกจากนี้เรายังตั้งสมมติฐานว่าขนาดหน้าต่างบริบทมีบทบาท: โมเดลที่มีหน้าต่างใหญ่กว่าอาจดูดซับคำแนะนำแบบเต็มที่กำหนดไว้ได้อย่างมีประสิทธิภาพมากขึ้น ในขณะที่โมเดลบริบทเล็กจะได้รับประโยชน์มากกว่าจากการดึงข้อมูลที่ทำให้เนื้อหาที่แทรกมีขนาดกะทัดรัด เรายังไม่ได้ทำการทดลองที่มีการควบคุมเพื่อแยกปัจจัยนี้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Memory Should Be Calibrated, Not Merely Accumulated",
+        "th": "หน่วยความจำควรได้รับการปรับเทียบ ไม่ใช่เพียงสะสมเท่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The lesson isn't to give an agent everything it has learned. It's to give it the amount of experience it can actually use.",
+        "th": "บทเรียนไม่ใช่การมอบทุกสิ่งที่ได้เรียนรู้ให้กับตัวแทน มันคือการมอบประสบการณ์ที่สามารถใช้งานได้จริง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For weak models, that means a compact core plus a few task-specific lessons — which, conveniently, is also the cheapest option.",
+        "th": "สำหรับรุ่นที่อ่อนแอ นั่นหมายถึงแกนขนาดกะทัดรัดบวกกับบทเรียนเฉพาะงานสองสามบทเรียน ซึ่งถือเป็นตัวเลือกที่ถูกที่สุดเช่นกัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For weak models, that means a compact core plus a few task-specific lessons — which, conveniently, is also the cheapest option.",
+        "th": "สำหรับรุ่นที่อ่อนแอ นั่นหมายถึงแกนขนาดกะทัดรัดบวกกับบทเรียนเฉพาะงานสองสามบทเรียน ซึ่งถือเป็นตัวเลือกที่ถูกที่สุดเช่นกัน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For strong models with headroom, it means preserving the full guideline set, kept affordable in production via prompt caching.",
+        "th": "สำหรับโมเดลที่แข็งแกร่งซึ่งมีพื้นที่ว่างด้านบน นั่นหมายถึงการรักษาแนวทางปฏิบัติทั้งหมดไว้ โดยคงไว้ซึ่งราคาไม่แพงในการผลิตผ่านการแคชที่รวดเร็ว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For strong models with headroom, it means preserving the full guideline set, kept affordable in production via prompt caching.",
+        "th": "สำหรับโมเดลที่แข็งแกร่งซึ่งมีพื้นที่ว่างด้านบน นั่นหมายถึงการรักษาแนวทางปฏิบัติทั้งหมดไว้ โดยคงไว้ซึ่งราคาไม่แพงในการผลิตผ่านการแคชที่รวดเร็ว"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For saturated models, it means spending no extra context until their remaining failure modes are better understood.",
+        "th": "สำหรับโมเดลที่อิ่มตัว หมายถึง ไม่ต้องใช้บริบทเพิ่มเติมจนกว่าจะเข้าใจโหมดความล้มเหลวที่เหลืออยู่ได้ดีขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For saturated models, it means spending no extra context until their remaining failure modes are better understood.",
+        "th": "สำหรับโมเดลที่อิ่มตัว หมายถึง ไม่ต้องใช้บริบทเพิ่มเติมจนกว่าจะเข้าใจโหมดความล้มเหลวที่เหลืออยู่ได้ดีขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The gains are real across the board — automatic, leakage-free, and requiring no human annotation — but only when the dose fits the model.",
+        "th": "ผลลัพธ์ที่ได้นั้นเกิดขึ้นได้จริงในทุกด้าน — อัตโนมัติ ไม่มีการรั่วไหล และไม่ต้องใช้คำอธิบายประกอบจากมนุษย์ — แต่เมื่อขนาดยาพอดีกับโมเดลเท่านั้น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What's Next",
+        "th": "อะไรต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This is a starting point, not the finish line:",
+        "th": "นี่คือจุดเริ่มต้น ไม่ใช่เส้นชัย:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A learned selector. Our current retrieval ranks guidelines by cosine similarity, which we've shown doesn't perfectly predict which guidelines help a given task. A selector trained on outcome signal is the natural next step.",
+        "th": "ตัวเลือกที่เรียนรู้ การดึงข้อมูลในปัจจุบันของเราจัดอันดับแนวปฏิบัติตามความคล้ายคลึงโคไซน์ ซึ่งเราได้แสดงให้เห็นว่าไม่สามารถคาดเดาได้อย่างสมบูรณ์แบบว่าแนวปฏิบัติใดที่ช่วยงานที่กำหนดได้ ตัวเลือกที่ได้รับการฝึกเกี่ยวกับสัญญาณผลลัพธ์เป็นขั้นตอนต่อไปที่เป็นธรรมชาติ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A learned selector. Our current retrieval ranks guidelines by cosine similarity, which we've shown doesn't perfectly predict which guidelines help a given task. A selector trained on outcome signal is the natural next step.",
+        "th": "ตัวเลือกที่เรียนรู้ การดึงข้อมูลในปัจจุบันของเราจัดอันดับแนวปฏิบัติตามความคล้ายคลึงโคไซน์ ซึ่งเราได้แสดงให้เห็นว่าไม่สามารถคาดเดาได้อย่างสมบูรณ์แบบว่าแนวปฏิบัติใดที่ช่วยงานที่กำหนดได้ ตัวเลือกที่ได้รับการฝึกเกี่ยวกับสัญญาณผลลัพธ์เป็นขั้นตอนต่อไปที่เป็นธรรมชาติ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Memory for very weak models. Below a minimum capability baseline, self-distillation lacks signal. Teacher-distilled memory for very weak models is a separate problem we're exploring.",
+        "th": "หน่วยความจำสำหรับรุ่นที่อ่อนแอมาก ต่ำกว่าเกณฑ์พื้นฐานความสามารถขั้นต่ำ การกลั่นตัวเองไม่มีสัญญาณ หน่วยความจำที่ครูกลั่นกรองสำหรับโมเดลที่อ่อนแอมากเป็นปัญหาแยกต่างหากที่เรากำลังสำรวจ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Memory for very weak models. Below a minimum capability baseline, self-distillation lacks signal. Teacher-distilled memory for very weak models is a separate problem we're exploring.",
+        "th": "หน่วยความจำสำหรับรุ่นที่อ่อนแอมาก ต่ำกว่าเกณฑ์พื้นฐานความสามารถขั้นต่ำ การกลั่นตัวเองไม่มีสัญญาณ หน่วยความจำที่ครูกลั่นกรองสำหรับโมเดลที่อ่อนแอมากเป็นปัญหาแยกต่างหากที่เรากำลังสำรวจ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Beyond AppWorld. These results are validated on AppWorld — a rigorous multi-step benchmark, but a single one. Broader agent benchmarks and real-world deployments are in progress.",
+        "th": "นอกเหนือจาก AppWorld ผลลัพธ์เหล่านี้ได้รับการตรวจสอบบน AppWorld ซึ่งเป็นเกณฑ์มาตรฐานหลายขั้นตอนที่เข้มงวด แต่เป็นเกณฑ์มาตรฐานเดียว การวัดประสิทธิภาพเอเจนต์ที่กว้างขึ้นและการปรับใช้ในโลกแห่งความเป็นจริงอยู่ระหว่างดำเนินการ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Beyond AppWorld. These results are validated on AppWorld — a rigorous multi-step benchmark, but a single one. Broader agent benchmarks and real-world deployments are in progress.",
+        "th": "นอกเหนือจาก AppWorld ผลลัพธ์เหล่านี้ได้รับการตรวจสอบบน AppWorld ซึ่งเป็นเกณฑ์มาตรฐานหลายขั้นตอนที่เข้มงวด แต่เป็นเกณฑ์มาตรฐานเดียว การวัดประสิทธิภาพเอเจนต์ที่กว้างขึ้นและการปรับใช้ในโลกแห่งความเป็นจริงอยู่ระหว่างดำเนินการ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Isolating context window. As above, we want controlled experiments that separate context-window size from raw capability.",
+        "th": "การแยกหน้าต่างบริบท ดังที่กล่าวข้างต้น เราต้องการการทดลองที่มีการควบคุมซึ่งแยกขนาดหน้าต่างบริบทออกจากความสามารถแบบดิบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Isolating context window. As above, we want controlled experiments that separate context-window size from raw capability.",
+        "th": "การแยกหน้าต่างบริบท ดังที่กล่าวข้างต้น เราต้องการการทดลองที่มีการควบคุมซึ่งแยกขนาดหน้าต่างบริบทออกจากความสามารถแบบดิบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Try the ALTK-Evolve library — which includes the extraction, consolidation, and retrieval pipeline used here — or read the full technical report for the complete method and ablations.",
+        "th": "ลองใช้ไลบรารี ALTK-Evolve ซึ่งรวมถึงไปป์ไลน์การแยก การรวม และการดึงข้อมูลที่ใช้ที่นี่ หรืออ่านรายงานทางเทคนิคฉบับเต็มเพื่อดูวิธีการและการระเหยที่สมบูรณ์"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Appendix: Understanding the Metrics",
+        "th": "ภาคผนวก: การทำความเข้าใจตัวชี้วัด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "AppWorld tasks are graded by two metrics, both reported as percentages (higher is better):",
+        "th": "งาน AppWorld ได้รับการให้คะแนนโดยสองตัวชี้วัด โดยทั้งสองรายงานเป็นเปอร์เซ็นต์ (ยิ่งสูงยิ่งดี):"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "TGC — Task Goal Completion. The share of individual tasks the agent completes fully and correctly. This is the headline \"did it get the job done\" number.",
+        "th": "TGC - การบรรลุเป้าหมายงาน การแบ่งงานแต่ละงานที่ตัวแทนดำเนินการให้ครบถ้วนและถูกต้อง นี่คือพาดหัวว่า \"ได้งานทำแล้วหรือยัง\""
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "TGC — Task Goal Completion. The share of individual tasks the agent completes fully and correctly. This is the headline \"did it get the job done\" number.",
+        "th": "TGC - การบรรลุเป้าหมายงาน การแบ่งงานแต่ละงานที่ตัวแทนดำเนินการให้ครบถ้วนและถูกต้อง นี่คือพาดหัวว่า \"ได้งานทำแล้วหรือยัง\""
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "SGC — Scenario Goal Completion. A stricter, all-or-nothing metric. Each scenario bundles several variants of the same task (the same request with different data, phrasing, or edge conditions). SGC counts a scenario as passing only if the agent succeeds on every variant. It measures reliability — an agent that solves a task most of the time but fails on one variant scores on TGC but not on SGC.",
+        "th": "SGC — การบรรลุเป้าหมายของสถานการณ์ เมตริกที่เข้มงวดมากขึ้นหรือไม่มีเลย แต่ละสถานการณ์จะรวมงานเดียวกันหลายรูปแบบเข้าด้วยกัน (คำขอเดียวกันกับข้อมูล การใช้ถ้อยคำ หรือเงื่อนไข Edge ที่แตกต่างกัน) SGC นับสถานการณ์ว่าผ่านก็ต่อเมื่อตัวแทนประสบความสำเร็จในทุกตัวแปร โดยจะวัดความน่าเชื่อถือ — ตัวแทนที่แก้ปัญหางานเกือบตลอดเวลาแต่ล้มเหลวด้วยคะแนนตัวแปรเดียวใน TGC แต่ไม่ใช่ใน SGC"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SGC — Scenario Goal Completion. A stricter, all-or-nothing metric. Each scenario bundles several variants of the same task (the same request with different data, phrasing, or edge conditions). SGC counts a scenario as passing only if the agent succeeds on every variant. It measures reliability — an agent that solves a task most of the time but fails on one variant scores on TGC but not on SGC.",
+        "th": "SGC — การบรรลุเป้าหมายของสถานการณ์ เมตริกที่เข้มงวดมากขึ้นหรือไม่มีเลย แต่ละสถานการณ์จะรวมงานเดียวกันหลายรูปแบบเข้าด้วยกัน (คำขอเดียวกันกับข้อมูล การใช้ถ้อยคำ หรือเงื่อนไข Edge ที่แตกต่างกัน) SGC นับสถานการณ์ว่าผ่านก็ต่อเมื่อตัวแทนประสบความสำเร็จในทุกตัวแปร โดยจะวัดความน่าเชื่อถือ — ตัวแทนที่แก้ปัญหางานเกือบตลอดเวลาแต่ล้มเหลวด้วยคะแนนตัวแปรเดียวใน TGC แต่ไม่ใช่ใน SGC"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More from this author",
+        "th": "เพิ่มเติมจากผู้เขียนคนนี้"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/G2z5bU66FNnhBf_UhSNij.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Thinking of ACE? We Can Do It with Fewer Tokens",
+        "th": "คิดถึงเอซมั้ย? เราสามารถทำได้โดยใช้โทเค็นน้อยลง"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/642ee6f6ffd6084c6a620985/ibA2XHLJsqDH9VAL-3ou-.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Model Routing Is Simple. Until It Isn’t.",
+        "th": "การกำหนดเส้นทางโมเดลนั้นง่ายมาก จนกระทั่งมันไม่ใช่"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "ชุมชน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· ลงทะเบียนหรือเข้าสู่ระบบเพื่อแสดงความคิดเห็น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/6cf73fe4b40d179d33e55aec0c7e5313.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/05ceb02598a78aefeb479f6d68080d7f.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6487da02c4b44322c124f39f/a59vwxS7l3iylkGXzN6R3.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/18f132b7a7dabcdf5fb933edb554ea68.svg",
+      "alt": ""
+    }
+  ]
+}

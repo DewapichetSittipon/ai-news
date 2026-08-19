@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-19T16:22:23.314Z",
+  "generatedAt": "2026-08-19T18:23:01.985Z",
   "items": [
+    {
+      "id": "openai__our-commitment-to-zero-data-retention",
+      "slug": "our-commitment-to-zero-data-retention",
+      "source": "openai",
+      "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
+      "category": "Company",
+      "date": "2026-08-19T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Offering Zero Data Retention for frontier models",
+        "th": "นำเสนอ Zero Data Retention สำหรับรุ่นชายแดน"
+      },
+      "summary": {
+        "en": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+        "th": "OpenAI ยืนยันอีกครั้งว่า Zero Data Retention สำหรับลูกค้า API ที่มีสิทธิ์ และดูตัวอย่างการประมวลผลความปลอดภัยส่วนตัวเพื่อความปลอดภัยของ AI ขั้นสูง โดยไม่กระทบต่อความเป็นส่วนตัวของข้อมูล"
+      }
+    },
     {
       "id": "huggingface__qad",
       "slug": "qad",
@@ -1053,23 +1070,6 @@
       "summary": {
         "en": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
         "th": "แนวทางแบบฟูลสแตกในการทำให้ AI ขั้นสูงมีความสามารถมากขึ้น ประหยัดมากขึ้น และมีประโยชน์ในวงกว้างมากขึ้น"
-      }
-    },
-    {
-      "id": "openai__unive",
-      "slug": "unive",
-      "source": "openai",
-      "url": "https://openai.com/index/unive",
-      "category": "News",
-      "date": "2026-07-31T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Univé builds an AI-ready workforce",
-        "th": "Univé สร้างบุคลากรที่พร้อมใช้ AI"
-      },
-      "summary": {
-        "en": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
-        "th": "ดูว่า Univé สร้างพนักงานที่พร้อมใช้ AI ด้วย ChatGPT Enterprise โดยการผสานรวมความเป็นผู้นำ การกำกับดูแลที่รับผิดชอบ และนวัตกรรมที่นำโดยพนักงานเพื่อเปลี่ยนแปลงการทำงานในวงกว้างได้อย่างไร"
       }
     },
     {

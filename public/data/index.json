@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T22:15:02.217Z",
+  "generatedAt": "2026-08-19T00:47:07.041Z",
   "items": [
     {
       "id": "openai__strengthening-democratic-oversight-in-national-security",
@@ -101,6 +101,23 @@
       "summary": {
         "en": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
         "th": "Asana ใช้ OpenAI Codex เพื่อแทนที่ระบบการทดสอบที่ล้าสมัยภายในสองสัปดาห์ โดยคาดว่าจะใช้เวลาห้าปีในราคาประมาณ 12,000 ดอลลาร์"
+      }
+    },
+    {
+      "id": "openai__chatgpt-work",
+      "slug": "chatgpt-work",
+      "source": "openai",
+      "url": "https://openai.com/index/nvidia/chatgpt-work",
+      "category": "News",
+      "date": "2026-08-18T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How NVIDIA scales expertise with ChatGPT Work",
+        "th": "NVIDIA ขยายความเชี่ยวชาญด้วย ChatGPT Work อย่างไร"
+      },
+      "summary": {
+        "en": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+        "th": "ทีม NVIDIA ใช้ ChatGPT Work เพื่อลดงานที่ต้องทำด้วยตนเอง เชื่อมต่อสัญญาณที่เคลื่อนไหวเร็ว และขยายขั้นตอนการทำงานที่ประสบความสำเร็จทั่วโลก"
       }
     },
     {
@@ -648,23 +665,6 @@
       }
     },
     {
-      "id": "openai__chatgpt-work",
-      "slug": "chatgpt-work",
-      "source": "openai",
-      "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "category": "News",
-      "date": "2026-08-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-        "th": "Virgin Atlantic ทำให้การเดินทางของลูกค้าคมชัดขึ้นด้วย ChatGPT Work"
-      },
-      "summary": {
-        "en": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
-        "th": "Virgin Atlantic กำลังเร่งการวิจัย การวางแผนผลิตภัณฑ์ และการตัดสินใจด้วย ChatGPT Work ซึ่งช่วยให้ทีมเชื่อมต่อสัญญาณตลอดเส้นทางของลูกค้า"
-      }
-    },
-    {
       "id": "openai__zapier",
       "slug": "zapier",
       "source": "openai",
@@ -1121,23 +1121,6 @@
       "summary": {
         "en": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.  Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to perform similar reviews.",
         "th": "ในการทบทวนสำเนาผลการประเมินความปลอดภัยทางไซเบอร์ของเรา เราพบเหตุการณ์ 3 เหตุการณ์ที่แบบจำลองของ Claude เข้าถึงอินเทอร์เน็ตจากภายในหรือขณะโต้ตอบกับสภาพแวดล้อมการประเมินของบุคคลที่สาม จากนั้นได้รับการเข้าถึงระบบจริงขององค์กรที่แตกต่างกันสามแห่งโดยไม่ได้รับอนุญาต  ด้านล่างเราจะอธิบายสิ่งที่เกิดขึ้น เกิดขึ้นได้อย่างไร และสิ่งที่เรากำลังเปลี่ยนแปลง เราสนับสนุนให้ห้องปฏิบัติการ AI อื่นๆ ดำเนินการตรวจสอบที่คล้ายกัน"
-      }
-    },
-    {
-      "id": "openai__avatarin",
-      "slug": "avatarin",
-      "source": "openai",
-      "url": "https://openai.com/index/avatarin",
-      "category": "News",
-      "date": "2026-07-30T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How avatarin built a 24/7 retail agent with GPT-Realtime",
-        "th": "avatarin สร้างตัวแทนค้าปลีกตลอด 24 ชั่วโมงทุกวันด้วย GPT-Realtime ได้อย่างไร"
-      },
-      "summary": {
-        "en": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
-        "th": "avatarin ใช้ GPT-Realtime ของ OpenAI เพื่อให้ผู้ซื้อ Yamada Denki ให้การสนับสนุนหลายภาษาตลอด 24 ชั่วโมงทุกวัน ภายในสองสัปดาห์ ผู้คน 30,000 คนใช้ตัวแทน และ 92% ของการตอบแบบสำรวจเป็นบวก"
       }
     },
     {

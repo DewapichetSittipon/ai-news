@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-19T18:23:01.985Z",
+  "generatedAt": "2026-08-19T20:19:06.827Z",
   "items": [
     {
-      "id": "openai__our-commitment-to-zero-data-retention",
-      "slug": "our-commitment-to-zero-data-retention",
+      "id": "openai__offering-zero-data-retention-for-frontier-models",
+      "slug": "offering-zero-data-retention-for-frontier-models",
       "source": "openai",
-      "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
       "category": "Company",
       "date": "2026-08-19T19:00:00.000Z",
       "image": null,
@@ -16,6 +16,23 @@
       "summary": {
         "en": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
         "th": "OpenAI ยืนยันอีกครั้งว่า Zero Data Retention สำหรับลูกค้า API ที่มีสิทธิ์ และดูตัวอย่างการประมวลผลความปลอดภัยส่วนตัวเพื่อความปลอดภัยของ AI ขั้นสูง โดยไม่กระทบต่อความเป็นส่วนตัวของข้อมูล"
+      }
+    },
+    {
+      "id": "google-ai__back-to-school-study-tools",
+      "slug": "back-to-school-study-tools",
+      "source": "google-ai",
+      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+      "category": "Learning & Education",
+      "date": "2026-08-19T19:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp",
+      "title": {
+        "en": "5 new ways to level up your learning with Search",
+        "th": "5 วิธีใหม่ในการยกระดับการเรียนรู้ของคุณด้วยการค้นหา"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp\">Here’s how you can use Google Search tools to study for classes and standardized tests.",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp\">ต่อไปนี้คือวิธีที่คุณสามารถใช้เครื่องมือค้นหาของ Google เพื่อศึกษาชั้นเรียนและการทดสอบมาตรฐาน"
       }
     },
     {
@@ -2124,23 +2141,6 @@
       "summary": {
         "en": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
         "th": "การทดลองกับ Cross-Origin Storage API ที่นำเสนอใน Transformers.js"
-      }
-    },
-    {
-      "id": "google-ai__amie-for-disease-management-in-nature",
-      "slug": "amie-for-disease-management-in-nature",
-      "source": "google-ai",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "category": "Google Research",
-      "date": "2026-06-17T15:00:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp",
-      "title": {
-        "en": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-        "th": "การวิจัยใหม่แสดงให้เห็นว่า AMIE ซึ่งเป็น AI ทางการแพทย์ของเราสามารถช่วยจัดการภาวะสุขภาพได้อย่างไร"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\">Research in “Nature” shows our conversational AI system matches primary care physici",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\">การวิจัยใน “ธรรมชาติ” แสดงให้เห็นว่าระบบ AI การสนทนาของเราตรงกับนักกายภาพบำบัดระดับปฐมภูมิ"
       }
     },
     {

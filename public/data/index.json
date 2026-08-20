@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-20T14:28:29.491Z",
+  "generatedAt": "2026-08-20T16:25:55.658Z",
   "items": [
+    {
+      "id": "openai__stampli",
+      "slug": "stampli",
+      "source": "openai",
+      "url": "https://openai.com/index/stampli",
+      "category": "News",
+      "date": "2026-08-20T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How ChatGPT Work helps Stampli move ideas to market",
+        "th": "ChatGPT ทำงานอย่างไรช่วยให้ Stampli นำแนวคิดออกสู่ตลาด"
+      },
+      "summary": {
+        "en": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+        "th": "ด้วยกำหนดเวลาตายตัวและทรัพยากรการออกแบบที่มอบให้กับที่อื่น Stampli ใช้ Codex และ ChatGPT Work เพื่อบีบอัดการผลิตที่เปิดตัวหลายสัปดาห์ให้เป็นวัน"
+      }
+    },
     {
       "id": "openai__offering-zero-data-retention-for-frontier-models",
       "slug": "offering-zero-data-retention-for-frontier-models",
@@ -1087,23 +1104,6 @@
       "summary": {
         "en": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
         "th": "OpenAI แบ่งปันวิธีที่แนวทางปฏิบัติด้านความปลอดภัย การรักษาความปลอดภัย ความโปร่งใส และแหล่งที่มาสนับสนุนการกำกับดูแล AI ที่มีความรับผิดชอบในยุโรป งานจะดำเนินต่อไปในขณะที่พระราชบัญญัติ AI ของสหภาพยุโรปมีความก้าวหน้า"
-      }
-    },
-    {
-      "id": "openai__building-abundant-intelligence",
-      "slug": "building-abundant-intelligence",
-      "source": "openai",
-      "url": "https://openai.com/index/building-abundant-intelligence",
-      "category": "Company",
-      "date": "2026-07-31T15:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Building abundant intelligence",
-        "th": "สร้างปัญญาอันอุดมสมบูรณ์"
-      },
-      "summary": {
-        "en": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
-        "th": "แนวทางแบบฟูลสแตกในการทำให้ AI ขั้นสูงมีความสามารถมากขึ้น ประหยัดมากขึ้น และมีประโยชน์ในวงกว้างมากขึ้น"
       }
     },
     {

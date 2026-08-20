@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-20T16:25:55.658Z",
+  "generatedAt": "2026-08-20T18:28:06.163Z",
   "items": [
+    {
+      "id": "huggingface__lfm25-dspark",
+      "slug": "lfm25-dspark",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "category": "News",
+      "date": "2026-08-20T16:52:57.000Z",
+      "image": null,
+      "title": {
+        "en": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+        "th": "การอนุมานเร็วขึ้นสูงสุด 3.2 เท่าด้วย LFM2.5-DSpark"
+      },
+      "summary": {
+        "en": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+        "th": "การอนุมานเร็วขึ้นสูงสุด 3.2 เท่าด้วย LFM2.5-DSpark"
+      }
+    },
     {
       "id": "openai__stampli",
       "slug": "stampli",
@@ -50,23 +67,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp\">Here’s how you can use Google Search tools to study for classes and standardized tests.",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp\">ต่อไปนี้คือวิธีที่คุณสามารถใช้เครื่องมือค้นหาของ Google เพื่อศึกษาชั้นเรียนและการทดสอบมาตรฐาน"
-      }
-    },
-    {
-      "id": "huggingface__qad",
-      "slug": "qad",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/LiquidAI/qad",
-      "category": "News",
-      "date": "2026-08-19T13:48:49.000Z",
-      "image": null,
-      "title": {
-        "en": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
-        "th": "จุดตรวจสอบ LFM2.5 Q4\\_0 จากการกลั่นแบบการรับรู้เชิงปริมาณ"
-      },
-      "summary": {
-        "en": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
-        "th": "จุดตรวจสอบ LFM2.5 Q4\\_0 จากการกลั่นแบบการรับรู้เชิงปริมาณ"
       }
     },
     {

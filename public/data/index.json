@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T12:31:24.208Z",
+  "generatedAt": "2026-08-21T14:27:05.585Z",
   "items": [
     {
       "id": "deepmind__from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
@@ -16,6 +16,23 @@
       "summary": {
         "en": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
         "th": "Google DeepMind ร่วมมือกับสตูดิโอเกมเพื่อสร้างต้นแบบการเล่นเกม AI ที่ก้าวล้ำ"
+      }
+    },
+    {
+      "id": "huggingface__asr-benchmark-optimization",
+      "slug": "asr-benchmark-optimization",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "category": "News",
+      "date": "2026-08-21T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Measuring benchmark optimization in speech recognition",
+        "th": "การวัดการเพิ่มประสิทธิภาพเกณฑ์มาตรฐานในการรู้จำเสียง"
+      },
+      "summary": {
+        "en": "Measuring benchmark optimization in speech recognition",
+        "th": "การวัดการเพิ่มประสิทธิภาพเกณฑ์มาตรฐานในการรู้จำเสียง"
       }
     },
     {
@@ -2141,23 +2158,6 @@
       "summary": {
         "en": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
         "th": "ขอแนะนำกระดานผู้นำ FFASR: การเปรียบเทียบ ASR ในโลกแห่งความเป็นจริง"
-      }
-    },
-    {
-      "id": "huggingface__huggingface-hub-release-ci",
-      "slug": "huggingface-hub-release-ci",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
-      "category": "News",
-      "date": "2026-06-23T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-        "th": "จัดส่งhuggingface_hubทุกสัปดาห์ด้วย AI เครื่องมือแบบเปิด และมนุษย์ที่คอยติดตาม"
-      },
-      "summary": {
-        "en": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-        "th": "จัดส่งhuggingface_hubทุกสัปดาห์ด้วย AI เครื่องมือแบบเปิด และมนุษย์ที่คอยติดตาม"
       }
     },
     {

@@ -18,8 +18,184 @@
     {
       "type": "p",
       "text": {
-        "en": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
-        "th": "OpenAI และ AWS กำลังสร้างความสามารถด้านความปลอดภัยทางไซเบอร์ของ Daybreak ผ่านทาง Amazon Bedrock เพื่อรองรับเวิร์กโฟลว์ด้านความปลอดภัยขององค์กร"
+        "en": "August 11, 2026",
+        "th": "11 สิงหาคม 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Bringing frontier cybersecurity capabilities to AWS",
+        "th": "นำความสามารถด้านความปลอดภัยทางไซเบอร์ระดับแนวหน้ามาสู่ AWS"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Get started",
+        "th": "เริ่มต้นเลย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Bringing frontier cybersecurity capabilities to AWS",
+        "th": "นำความสามารถด้านความปลอดภัยทางไซเบอร์ระดับแนวหน้ามาสู่ AWS"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Get started",
+        "th": "เริ่มต้นเลย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Earlier this year, OpenAI frontier models and Codex became generally available on AWS, giving enterprises a new path to bring advanced AI into production. Today, we’re sharing the next step in our work with AWS: making Daybreak capabilities available through Amazon Bedrock.",
+        "th": "เมื่อต้นปีนี้ โมเดล OpenAI frontier และ Codex เปิดให้ใช้งานทั่วไปบน AWS ทำให้องค์กรต่างๆ มีเส้นทางใหม่ในการนำ AI ขั้นสูงมาสู่การใช้งานจริง วันนี้ เรากำลังแบ่งปันขั้นตอนต่อไปในการทำงานของเรากับ AWS: การทำให้ความสามารถของ Daybreak พร้อมใช้งานผ่าน Amazon Bedrock"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With Daybreak Access, defenders can use frontier cyber models within their existing AWS environments. Daybreak Blue and Daybreak Red access levels are both available in AWS:",
+        "th": "ด้วย Daybreak Access ผู้ปกป้องสามารถใช้โมเดลไซเบอร์ระดับแนวหน้าภายในสภาพแวดล้อม AWS ที่มีอยู่ได้ ระดับการเข้าถึง Daybreak Blue และ Daybreak Red มีให้บริการใน AWS:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Daybreak Blue provides access to frontier general-purpose models, including GPT‑5.6 Sol, with safeguards tailored to authorized defensive security work.",
+        "th": "Daybreak Blue ให้การเข้าถึงรุ่นใช้งานทั่วไประดับแนวหน้า รวมถึง GPT‑5.6 Sol พร้อมระบบป้องกันที่ปรับแต่งสำหรับงานรักษาความปลอดภัยเชิงป้องกันที่ได้รับอนุญาต"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Daybreak Red provides access to our purpose-trained cybersecurity models for authorized vulnerability research, exploit validation, and security testing.",
+        "th": "Daybreak Red ให้การเข้าถึงโมเดลความปลอดภัยทางไซเบอร์ที่ได้รับการฝึกอบรมตามวัตถุประสงค์ของเราสำหรับการวิจัยช่องโหว่ที่ได้รับอนุญาต การตรวจสอบช่องโหว่ และการทดสอบความปลอดภัย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These models help accelerate vulnerability research, detection engineering, and incident response, from initial discovery through a validated fix. They also support complex workflows such as exploit reproduction and mitigation development.",
+        "th": "โมเดลเหล่านี้ช่วยเร่งการวิจัยช่องโหว่ วิศวกรรมการตรวจจับ และการตอบสนองต่อเหตุการณ์ ตั้งแต่การค้นพบครั้งแรกไปจนถึงการแก้ไขที่ผ่านการตรวจสอบแล้ว นอกจากนี้ยังสนับสนุนขั้นตอนการทำงานที่ซับซ้อน เช่น การใช้ประโยชน์จากการทำซ้ำและการพัฒนาการบรรเทาผลกระทบ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Bringing frontier cybersecurity capabilities to AWS",
+        "th": "นำความสามารถด้านความปลอดภัยทางไซเบอร์ระดับแนวหน้ามาสู่ AWS"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For enterprises, adopting specialized cybersecurity capabilities requires more than model performance. It also requires security review, governance, procurement, access controls, and an operating model teams can support.",
+        "th": "สำหรับองค์กร การนำความสามารถพิเศษด้านการรักษาความปลอดภัยทางไซเบอร์มาใช้นั้นต้องการมากกว่าแค่ประสิทธิภาพของโมเดล นอกจากนี้ยังต้องมีการตรวจสอบความปลอดภัย การกำกับดูแล การจัดซื้อ การควบคุมการเข้าถึง และโมเดลการดำเนินงานที่ทีมสามารถรองรับได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Through Amazon Bedrock, eligible customers can use Daybreak, including Daybreak Red and Daybreak Blue, within the AWS environments where they already build, secure, and operate software. This gives security teams a clearer path to apply frontier AI through familiar AWS security, governance, and operational workflows.",
+        "th": "ผ่าน Amazon Bedrock ลูกค้าที่มีสิทธิ์สามารถใช้ Daybreak รวมถึง Daybreak Red และ Daybreak Blue ภายในสภาพแวดล้อม AWS ที่พวกเขาสร้าง รักษาความปลอดภัย และใช้งานซอฟต์แวร์อยู่แล้ว สิ่งนี้ทำให้ทีมรักษาความปลอดภัยมีเส้นทางที่ชัดเจนยิ่งขึ้นในการใช้ AI ระดับแนวหน้าผ่านการรักษาความปลอดภัย AWS การกำกับดูแล และเวิร์กโฟลว์การปฏิบัติงานที่คุ้นเคย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Together, OpenAI and AWS are helping more organizations put advanced cybersecurity capabilities to work in production.",
+        "th": "OpenAI และ AWS ร่วมกันช่วยให้องค์กรจำนวนมากขึ้นนำความสามารถด้านความปลอดภัยทางไซเบอร์ขั้นสูงมาใช้ในการทำงานจริง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get started",
+        "th": "เริ่มต้นเลย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Daybreak Red and Daybreak Blue require enrollment in Daybreak Access. Once approved, you can access the model through the Amazon Bedrock console or the Responses API using the bedrock-mantle endpoint. To learn more, see the documentation.⁠(opens in a new window)",
+        "th": "Daybreak Red และ Daybreak Blue จำเป็นต้องลงทะเบียนใน Daybreak Access เมื่อได้รับการอนุมัติแล้ว คุณจะสามารถเข้าถึงโมเดลผ่านคอนโซล Amazon Bedrock หรือ Responses API ได้โดยใช้ตำแหน่งข้อมูล Bedrock-mantle หากต้องการเรียนรู้เพิ่มเติม โปรดดูเอกสารประกอบ (opens in a new window)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Learn more about Daybreak Red and Daybreak Blue.",
+        "th": "เรียนรู้เพิ่มเติมเกี่ยวกับ Daybreak Red และ Daybreak Blue"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "AWS",
+        "th": "AWS"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "ผู้เขียน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "อ่านต่อ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/IMh9E5WMDoVaUJyBJrsEP/697ba885d5e89b6bd27a55b9c9a783ae/chatgpt-ads-europe-readable-card.png?w=3840&q=90&fm=webp",
+      "alt": "ChatGPT Ads expands across Europe - Card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductAug 18, 2026",
+        "th": "สินค้า18 ส.ค. 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5IP7e1KeD8zkZq6YUrKdKW/2325215681ea59d32dd09b3ea90f12c5/Art_Card-TEENS-1x13x.png?w=3840&q=90&fm=webp",
+      "alt": "ChatGPT for Teens — square card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductAug 18, 2026",
+        "th": "สินค้า18 ส.ค. 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/74UiHrTiZoKnbvpopDTG1s/d33291d426eac29a4a5c0563e717376d/previewing-ultrafast-mode--cover-1080x1080-v001.png?w=3840&q=90&fm=webp",
+      "alt": "Previewing Ultrafast mode — clean cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductAug 13, 2026",
+        "th": "สินค้า13 ส.ค. 2026"
       }
     }
   ]

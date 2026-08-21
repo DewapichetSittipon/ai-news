@@ -18,8 +18,654 @@
     {
       "type": "p",
       "text": {
-        "en": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-        "th": "GPT-Live ช่วยให้สามารถโต้ตอบด้วยเสียงกับ AI ได้อย่างต่อเนื่อง โดยใช้โมเดลคำพูดที่ไม่ต่อเนื่องและสถาปัตยกรรมที่มีความหน่วงต่ำเพื่อการสนทนาที่รวดเร็วและเป็นธรรมชาติยิ่งขึ้น"
+        "en": "August 3, 2026",
+        "th": "3 สิงหาคม 2569"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By Justin Uberti and Zahan Malkani, Members of Technical Staff",
+        "th": "โดย Justin Uberti และ Zahan Malkani สมาชิกของเจ้าหน้าที่ด้านเทคนิค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Moving from turn taking to streaming",
+        "th": "ย้ายจากการผลัดกันไปสู่การสตรีม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Enabling continuous inferenceMaking the media flow quicklyKeeping the (stateful) conversation going",
+        "th": "เปิดใช้งานการอนุมานอย่างต่อเนื่องทำให้สื่อไหลอย่างรวดเร็วทำให้การสนทนา (มีสถานะ) ดำเนินไป"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Making the media flow quickly",
+        "th": "ทำให้สื่อไหลอย่างรวดเร็ว"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Keeping the (stateful) conversation going",
+        "th": "ทำให้การสนทนา (สถานะ) ดำเนินต่อไป"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Delegation without blocking the conversation",
+        "th": "การมอบหมายโดยไม่ปิดกั้นการสนทนา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Making delegation fast enough to feel naturalDeriving discrete turns from continuous speech",
+        "th": "ทำให้การมอบหมายงานเร็วพอที่จะให้ความรู้สึกเป็นธรรมชาติ การผลัดกันแยกจากคำพูดต่อเนื่อง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deriving discrete turns from continuous speech",
+        "th": "ได้รับการเปลี่ยนจากการพูดต่อเนื่องไม่ต่อเนื่อง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Starting sessions with a faster protocol",
+        "th": "เริ่มต้นเซสชันด้วยโปรโตคอลที่เร็วขึ้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Safely testing GPT-Live in production with real data",
+        "th": "ทดสอบ GPT-Live ในการใช้งานจริงอย่างปลอดภัยด้วยข้อมูลจริง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Responsive, from client to model",
+        "th": "ตอบสนองจากลูกค้าสู่รุ่น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Moving from turn taking to streaming",
+        "th": "ย้ายจากการผลัดกันไปสู่การสตรีม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Enabling continuous inferenceMaking the media flow quicklyKeeping the (stateful) conversation going",
+        "th": "เปิดใช้งานการอนุมานอย่างต่อเนื่องทำให้สื่อไหลอย่างรวดเร็วทำให้การสนทนา (มีสถานะ) ดำเนินไป"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Making the media flow quickly",
+        "th": "ทำให้สื่อไหลอย่างรวดเร็ว"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Keeping the (stateful) conversation going",
+        "th": "ทำให้การสนทนา (สถานะ) ดำเนินต่อไป"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Delegation without blocking the conversation",
+        "th": "การมอบหมายโดยไม่ปิดกั้นการสนทนา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Making delegation fast enough to feel naturalDeriving discrete turns from continuous speech",
+        "th": "ทำให้การมอบหมายงานเร็วพอที่จะให้ความรู้สึกเป็นธรรมชาติ การผลัดกันแยกจากคำพูดต่อเนื่อง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deriving discrete turns from continuous speech",
+        "th": "ได้รับการเปลี่ยนจากการพูดต่อเนื่องไม่ต่อเนื่อง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Starting sessions with a faster protocol",
+        "th": "เริ่มต้นเซสชันด้วยโปรโตคอลที่เร็วขึ้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Safely testing GPT-Live in production with real data",
+        "th": "ทดสอบ GPT-Live ในการใช้งานจริงอย่างปลอดภัยด้วยข้อมูลจริง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Responsive, from client to model",
+        "th": "ตอบสนองจากลูกค้าสู่รุ่น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For voice AI, knowing when to speak is harder than it sounds. Human speakers effortlessly hand off to each other in a fraction of a second, but previous voice AI systems couldn’t keep up with this rhythm. Their turn-based architecture relied on tiny models known as turn detectors, which faced an unenviable task: guess too soon, and the user gets cut off; guess too late, and the response feels sluggish. Only after the detector made its decision could the much larger LLM get to work.",
+        "th": "สำหรับ AI เสียง การรู้ว่าเมื่อใดควรพูดนั้นยากกว่าเสียง ผู้พูดที่เป็นมนุษย์ส่งต่อกันได้อย่างง่ายดายภายในเสี้ยววินาที แต่ระบบ AI เสียงก่อนหน้านี้ไม่สามารถตามจังหวะนี้ได้ สถาปัตยกรรมแบบเทิร์นเบสของพวกเขาอาศัยโมเดลเล็กๆ ที่เรียกว่าเครื่องตรวจจับการหมุน ซึ่งต้องเผชิญกับงานที่ไม่มีใครอยากได้ นั่นคือเดาเร็วเกินไป และผู้ใช้จะถูกตัดออกไป คาดเดาช้าเกินไป และการตอบสนองรู้สึกเฉื่อยชา หลังจากที่เครื่องตรวจจับตัดสินใจแล้วเท่านั้น LLM ที่ใหญ่กว่าจึงจะทำงานได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑Live⁠, our third-generation voice system, removes the turn detector from the audio path. Its voice model is full-duplex, which means it can listen and speak at the same time. That eliminates the need for a separate detector and makes conversation feel more immediate and natural. When deeper reasoning or tool use is needed, GPT‑Live can also consult our frontier models, such as GPT‑5.5, without interrupting the flow of the conversation. Together, these capabilities give GPT‑Live an unprecedented combination of conversational responsiveness and intelligence.",
+        "th": "GPT‑Live⁠ ซึ่งเป็นระบบเสียงรุ่นที่สามของเรา จะถอดตัวตรวจจับการหมุนออกจากเส้นทางเสียง รูปแบบเสียงเป็นแบบฟูลดูเพล็กซ์ ซึ่งหมายความว่าสามารถฟังและพูดได้ในเวลาเดียวกัน ซึ่งช่วยลดความจำเป็นในการใช้เครื่องตรวจจับแยกต่างหาก และทำให้การสนทนารู้สึกรวดเร็วและเป็นธรรมชาติมากขึ้น เมื่อจำเป็นต้องใช้เหตุผลที่ลึกซึ้งยิ่งขึ้นหรือการใช้เครื่องมือ GPT‑Live ยังสามารถปรึกษาโมเดลขอบเขตของเรา เช่น GPT‑5.5 โดยไม่รบกวนการไหลของการสนทนา ความสามารถเหล่านี้ร่วมกันทำให้ GPT-Live เป็นการผสมผสานระหว่างการตอบสนองต่อการสนทนาและความชาญฉลาดอย่างที่ไม่เคยมีมาก่อน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Delivering this experience at scale required a new system architecture optimized for low latency. Unlike typical request-response inference, our system streams incoming audio into the voice model and outbound speech back to the user, while handling delegation on a separate asynchronous path. Over the last six months, we reworked model inference, context management, and media transport to keep speech flowing smoothly from end to end.",
+        "th": "การมอบประสบการณ์นี้ในวงกว้างจำเป็นต้องมีสถาปัตยกรรมระบบใหม่ที่ปรับให้เหมาะสมเพื่อความหน่วงต่ำ แตกต่างจากการอนุมานคำขอ-ตอบกลับทั่วไป ระบบของเราจะสตรีมเสียงขาเข้าไปยังรูปแบบเสียงและคำพูดขาออกกลับไปยังผู้ใช้ ขณะเดียวกันก็จัดการการมอบหมายบนเส้นทางอะซิงโครนัสที่แยกจากกัน ในช่วงหกเดือนที่ผ่านมา เราได้ปรับปรุงโมเดลการอนุมาน การจัดการบริบท และการขนส่งสื่อ เพื่อให้คำพูดไหลลื่นตั้งแต่ต้นจนจบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The architecture also creates a clean boundary between the core voice path and application logic. This makes it easy to customize application behavior without affecting responsiveness. This foundation powers a growing range of capabilities in ChatGPT Voice, including the newly launched ability to control your computer and coordinate your agents in the ChatGPT desktop app.",
+        "th": "สถาปัตยกรรมยังสร้างขอบเขตที่ชัดเจนระหว่างเส้นทางเสียงหลักและตรรกะของแอปพลิเคชัน ทำให้ง่ายต่อการปรับแต่งพฤติกรรมของแอปพลิเคชันโดยไม่กระทบต่อการตอบสนอง รากฐานนี้ขับเคลื่อนความสามารถที่หลากหลายที่เพิ่มขึ้นใน ChatGPT Voice รวมถึงความสามารถที่เพิ่งเปิดตัวใหม่ในการควบคุมคอมพิวเตอร์ของคุณและประสานงานตัวแทนของคุณในแอปเดสก์ท็อป ChatGPT"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In this post, we’ll explain why earlier turn-based systems couldn’t meet our needs and how we engineered the new system for responsiveness at every layer. We’ll cover stateful inference, dynamic context management, asynchronous delegation, and protocol-level optimization, all working together to make GPT‑Live feel truly live.",
+        "th": "ในโพสต์นี้ เราจะอธิบายว่าทำไมระบบเทิร์นเบสก่อนหน้านี้ไม่สามารถตอบสนองความต้องการของเราได้ และวิธีที่เราออกแบบระบบใหม่เพื่อการตอบสนองในทุกชั้น เราจะครอบคลุมการอนุมานแบบมีสถานะ การจัดการบริบทแบบไดนามิก การมอบหมายแบบอะซิงโครนัส และการเพิ่มประสิทธิภาพระดับโปรโตคอล ทั้งหมดนี้ทำงานร่วมกันเพื่อทำให้ GPT‑Live รู้สึกมีชีวิตชีวาอย่างแท้จริง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Moving from turn taking to streaming",
+        "th": "ย้ายจากการผลัดกันไปสู่การสตรีม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Earlier voice architectures inherited the turn-based nature of text LLMs, but with each turn represented as a discrete audio blob rather than text. In cascaded systems, speech-to-text, the LLM, and text-to-speech each ran in series. This sequencing added latency and ignored cues such as tone and pacing.",
+        "th": "สถาปัตยกรรมเสียงในยุคก่อนๆ สืบทอดลักษณะเทิร์นเบสของข้อความ LLM แต่ในแต่ละเทิร์นจะแสดงเป็นเสียงที่แยกจากกันแทนที่จะเป็นข้อความ ในระบบแบบเรียงซ้อน การพูดเป็นข้อความ, LLM และการอ่านออกเสียงข้อความ ต่างก็ทำงานเป็นชุด การจัดลำดับนี้เพิ่มเวลาแฝงและไม่สนใจสัญญาณ เช่น โทนเสียงและจังหวะ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Speech-to-speech models improved on this approach by processing audio directly. Training the model to natively understand and generate speech allowed it to preserve details lost in transcription and respond more quickly. But the system still relied on the turn detector to decide when inference could begin. The model handled more of the interaction, but the interaction remained turn-based.",
+        "th": "โมเดลคำพูดเป็นคำพูดได้รับการปรับปรุงด้วยวิธีนี้โดยการประมวลผลเสียงโดยตรง การฝึกโมเดลให้เข้าใจโดยธรรมชาติและสร้างคำพูดทำให้สามารถรักษารายละเอียดที่หายไปในการถอดเสียงและตอบสนองได้รวดเร็วยิ่งขึ้น แต่ระบบยังคงอาศัยเครื่องตรวจจับการหมุนเพื่อตัดสินใจว่าจะเริ่มการอนุมานได้เมื่อใด โมเดลรองรับการโต้ตอบมากกว่า แต่การโต้ตอบยังคงเป็นแบบผลัดตากัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑Live puts the voice model in control of the conversation: audio flows in and out of the model, while deeper reasoning and tool use happen asynchronously. The system’s primary job is to sustain an uninterrupted media loop. Other work, such as invoking frontier models and persisting the conversation, happens off the live path.",
+        "th": "GPT‑Live ทำให้โมเดลเสียงควบคุมการสนทนา โดยเสียงจะไหลเข้าและออกจากโมเดล ในขณะที่การให้เหตุผลเชิงลึกและการใช้เครื่องมือเกิดขึ้นแบบอะซิงโครนัส หน้าที่หลักของระบบคือการรักษาวงจรสื่ออย่างต่อเนื่อง งานอื่นๆ เช่น การเรียกใช้โมเดลชายแดนและการสนทนาอย่างต่อเนื่อง เกิดขึ้นนอกเส้นทางที่ใช้งานจริง"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6ZqaUVoYOfbzniRehoTwtC/8cea9f9574fbf18fd91ecdf4ae2c3368/gpt-live-system-architecture-light-desktop.svg?w=3840&q=90",
+      "alt": "Diagram showing GPT-Live's realtime frontend voice model, asynchronous delegation to a backend reasoning model, tool use, and bidirectional audio with the user."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Enabling continuous inference",
+        "th": "เปิดใช้งานการอนุมานอย่างต่อเนื่อง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Keeping this media loop uninterrupted is not always straightforward. Any delay in transport, processing, or inference can become an audible pause or artifact. A previous turn-based system could tolerate some variation in when an audio blob arrived. However, a live media system needs to deliver every audio frame on schedule.",
+        "th": "การรักษาวงจรสื่อนี้อย่างต่อเนื่องไม่ได้ตรงไปตรงมาเสมอไป ความล่าช้าในการขนส่ง การประมวลผล หรือการอนุมานอาจกลายเป็นการหยุดชั่วคราวหรือสิ่งผิดปกติที่ได้ยินได้ ระบบเทิร์นเบสก่อนหน้านี้สามารถทนต่อการเปลี่ยนแปลงเมื่อเสียงหยดมาถึง อย่างไรก็ตาม ระบบสื่อสดจำเป็นต้องส่งเฟรมเสียงทุกเฟรมตามกำหนดเวลา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Earlier work on ChatGPT Voice and the Realtime API gave us an important foundation. We had already rebuilt our voice infrastructure⁠ to stream audio and video directly in and out of our systems with lower and more predictable latency. GPT‑Live pushed that design further, streaming media all the way to the model through a new stateful inference system built for continuous conversation.",
+        "th": "การทำงานก่อนหน้านี้กับ ChatGPT Voice และ Realtime API ทำให้เราวางรากฐานที่สำคัญ เราได้สร้างโครงสร้างพื้นฐานด้านเสียงขึ้นใหม่แล้ว เพื่อสตรีมเสียงและวิดีโอโดยตรงเข้าและออกจากระบบของเราด้วยเวลาแฝงที่ต่ำกว่าและคาดเดาได้มากขึ้น GPT‑Live ผลักดันการออกแบบนั้นไปอีกขั้น โดยสตรีมสื่อไปจนถึงโมเดลผ่านระบบการอนุมานแบบมีสถานะใหม่ที่สร้างขึ้นเพื่อการสนทนาที่ต่อเนื่อง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Streaming inference was only part of the solution though. To make it work well in production, we also had to ensure reliable audio delivery from the client to the inference stack and deal with the challenges of statefulness.",
+        "th": "การอนุมานแบบสตรีมมิ่งเป็นเพียงส่วนหนึ่งของวิธีแก้ปัญหาเท่านั้น เพื่อให้ทำงานได้ดีในการผลิต เรายังต้องรับประกันการส่งเสียงที่เชื่อถือได้จากไคลเอนต์ไปยังกลุ่มการอนุมาน และจัดการกับความท้าทายของความเป็นรัฐ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Making the media flow quickly",
+        "th": "ทำให้สื่อไหลอย่างรวดเร็ว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An early decision we made was to specifically separate media flow from application and business logic. Audio moves between the client and the voice model on a dedicated fast path. Delegation, tool use, and other application work happen behind an asynchronous RPC boundary. A slow tool call or backend service can delay its own result, but cannot stall the flow of media.",
+        "th": "การตัดสินใจในช่วงแรกๆ ที่เราทำคือแยกโฟลว์สื่อออกจากแอปพลิเคชันและตรรกะทางธุรกิจโดยเฉพาะ เสียงจะย้ายระหว่างไคลเอนต์และโมเดลเสียงบนเส้นทางด่วนเฉพาะ การมอบหมาย การใช้เครื่องมือ และงานแอปพลิเคชันอื่นๆ เกิดขึ้นหลังขอบเขต RPC แบบอะซิงโครนัส การเรียกเครื่องมือหรือบริการแบ็กเอนด์ที่ช้าอาจทำให้ผลลัพธ์ของตัวเองล่าช้า แต่ไม่สามารถหยุดการไหลของสื่อได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This separation also gives the system a clean boundary for customization. Applications can change their tools, policies, and backend behavior without affecting the media frontend responsible for keeping audio moving. The live path stays small, predictable, and focused on the work that must happen in real time.",
+        "th": "การแยกนี้ยังทำให้ระบบมีขอบเขตที่ชัดเจนสำหรับการปรับแต่ง แอปพลิเคชันสามารถเปลี่ยนเครื่องมือ นโยบาย และลักษณะการทำงานของแบ็กเอนด์ได้โดยไม่กระทบต่อฟรอนต์เอนด์ของสื่อที่รับผิดชอบในการทำให้เสียงเคลื่อนไหว เส้นทางสดมีขนาดเล็ก คาดเดาได้ และมุ่งเน้นไปที่งานที่จะต้องเกิดขึ้นในแบบเรียลไทม์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We wrote the media frontend and inference logic in Go, replacing a previous Python asyncio implementation. This significantly improved the smoothness of frame delivery, with the new system’s p95 matching the previous system’s p50.",
+        "th": "เราเขียนส่วนหน้าของสื่อและตรรกะการอนุมานใน Go โดยแทนที่การใช้งาน Python asyncio ก่อนหน้านี้ สิ่งนี้ช่วยปรับปรุงความราบรื่นของการส่งเฟรมได้อย่างมาก โดยที่ p95 ของระบบใหม่ตรงกับ p50 ของระบบก่อนหน้า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "WebRTC provides the transport foundation. It’s designed for low-latency media, and can continue operating through packet loss, clock drift, and client connection changes. If packets arrive late, WebRTC can subtly stretch audio to prevent gaps, and then briefly accelerate playback to catch back up to real time.",
+        "th": "WebRTC มอบรากฐานการขนส่ง ได้รับการออกแบบมาสำหรับสื่อที่มีเวลาแฝงต่ำ และสามารถทำงานต่อไปได้ผ่านแพ็กเก็ตที่สูญหาย การเคลื่อนตัวของสัญญาณนาฬิกา และการเปลี่ยนแปลงการเชื่อมต่อไคลเอนต์ หากแพ็กเก็ตมาถึงช้า WebRTC จะสามารถขยายเสียงอย่างละเอียดเพื่อป้องกันช่องว่าง จากนั้นเร่งความเร็วการเล่นสั้น ๆ เพื่อให้กลับมาทันเวลาจริง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By minimizing buffering and blocking throughout the system, we can deliver the sub-second responsiveness that humans expect from conversation.",
+        "th": "ด้วยการลดการบัฟเฟอร์และการบล็อกทั่วทั้งระบบให้เหลือน้อยที่สุด เราสามารถส่งมอบการตอบสนองในเสี้ยววินาทีที่มนุษย์คาดหวังจากการสนทนา"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Keeping the (stateful) conversation going",
+        "th": "ทำให้การสนทนา (สถานะ) ดำเนินต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Stateful inference has its own operational tradeoffs. A voice session may remain active for a long time, but its context continuously grows, and model instances spin up and down based on demand.",
+        "th": "การอนุมานแบบมีสถานะมีข้อดีข้อเสียในการปฏิบัติงานของตัวเอง เซสชันเสียงอาจยังคงทำงานอยู่เป็นเวลานาน แต่บริบทของเซสชันนั้นเพิ่มขึ้นอย่างต่อเนื่อง และอินสแตนซ์แบบจำลองจะหมุนขึ้นและลงตามความต้องการ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To address these concerns, we built a seamless handoff mechanism across model instances. When a transition is needed, we can warm a replacement model instance alongside the existing one, prefill it with the current session context, run inference against both in parallel, and cut over when the new instance is fully ready.",
+        "th": "เพื่อแก้ไขข้อกังวลเหล่านี้ เราได้สร้างกลไกการแฮนด์ออฟที่ราบรื่นสำหรับอินสแตนซ์โมเดลต่างๆ เมื่อจำเป็นต้องมีการเปลี่ยนแปลง เราสามารถอุ่นอินสแตนซ์แบบจำลองทดแทนควบคู่ไปกับอินสแตนซ์ที่มีอยู่ กรอกข้อมูลล่วงหน้าด้วยบริบทเซสชันปัจจุบัน เรียกใช้การอนุมานกับทั้งสองแบบขนาน และตัดทอนเมื่ออินสแตนซ์ใหม่พร้อมใช้งานโดยสมบูรณ์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The same basic mechanism also supports dynamic context compaction. As a conversation goes on, its accumulated context can eventually exceed the model’s context limit. Compaction can reduce the context size to fit within the limit, but the operation takes time. And because it changes past context, it also invalidates the model’s key-value (KV) cache, which stores attention keys and values from previously processed tokens. Rebuilding that state requires a new prefill, introducing additional delay.",
+        "th": "กลไกพื้นฐานเดียวกันนี้ยังสนับสนุนการกระชับบริบทแบบไดนามิกอีกด้วย เมื่อการสนทนาดำเนินไป บริบทที่สะสมไว้อาจเกินขีดจำกัดบริบทของโมเดลในที่สุด การบดอัดสามารถลดขนาดบริบทให้พอดีกับขีดจำกัดได้ แต่การดำเนินการต้องใช้เวลา และเนื่องจากมีการเปลี่ยนแปลงบริบทในอดีต จึงทำให้แคชคีย์-ค่า (KV) ของโมเดลเป็นโมฆะด้วย ซึ่งเก็บคีย์ความสนใจและค่าจากโทเค็นที่ประมวลผลก่อนหน้านี้ การสร้างสถานะนั้นขึ้นมาใหม่จำเป็นต้องมีการเติมล่วงหน้าใหม่ ทำให้เกิดความล่าช้าเพิ่มเติม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Instead, we treat compaction as another managed transition. While the original model instance keeps chatting, the system compacts the context and prepares a replacement model instance with the new context. Once that instance is ready, we can switch over without any media interruption. This allows the system to support long-running calls, compacting whenever necessary.",
+        "th": "แต่เราถือว่าการบดอัดเป็นการเปลี่ยนแปลงที่มีการจัดการอื่นแทน ในขณะที่อินสแตนซ์โมเดลดั้งเดิมยังคงสนทนาอยู่ ระบบจะกระชับบริบทและเตรียมอินสแตนซ์โมเดลทดแทนด้วยบริบทใหม่ เมื่ออินสแตนซ์นั้นพร้อมแล้ว เราก็สามารถสลับเปลี่ยนได้โดยไม่มีการหยุดชะงักของสื่อ ซึ่งช่วยให้ระบบสามารถรองรับการโทรที่ใช้เวลานาน และกระชับเมื่อจำเป็น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7ktQBfBZjbGzRAF0dQBnH7/b671b0c40b22f7a52241121d3c827469/live-context-compaction-light-desktop.svg?w=3840&q=90",
+      "alt": "Diagram showing a compact snapshot moving from inference server A to inference server B, where it is prefetched and caught up before the handoff."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The heavy lifting stays off the live path, so even during a handoff, the conversation never misses a beat.",
+        "th": "การยกของหนักจะไม่อยู่ในเส้นทางที่ถ่ายทอดสด ดังนั้นแม้ในระหว่างการแฮนด์ออฟ การสนทนาก็ไม่พลาดแม้แต่จังหวะเดียว"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Delegation without blocking the conversation",
+        "th": "การมอบหมายโดยไม่ปิดกั้นการสนทนา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑Live’s ability to invoke existing frontier models gives it a lot of power, effectively decoupling “talking” from deeper “thinking”. But making this two-model architecture feel like one system required solving two related engineering problems.",
+        "th": "ความสามารถของ GPT‑Live ในการเรียกใช้โมเดลขอบเขตที่มีอยู่นั้นให้พลังอย่างมาก โดยแยก \"การพูด\" ออกจาก \"การคิด\" ที่ลึกซึ้งได้อย่างมีประสิทธิภาพ แต่การทำให้สถาปัตยกรรมสองแบบจำลองนี้รู้สึกเหมือนเป็นระบบเดียวที่ต้องแก้ปัญหาทางวิศวกรรมที่เกี่ยวข้องสองประการ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Delegation for deeper work",
+        "th": "การมอบหมายงานเพื่อการทำงานที่ลึกยิ่งขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT-Live provides fast, natural responses, while GPT-5.5 handles search in the background",
+        "th": "GPT-Live ให้การตอบสนองที่รวดเร็วและเป็นธรรมชาติ ในขณะที่ GPT-5.5 จัดการการค้นหาในเบื้องหลัง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "First, results must return quickly enough to be useful in the ongoing exchange, so we had to minimize latency across the entire delegation path, from routing and prompt processing through inference and tool calls. At the same time, systems elsewhere in the product still need discrete messages, so we had to represent the ongoing conversation in a form they could understand.",
+        "th": "ประการแรก ผลลัพธ์จะต้องกลับมาเร็วพอที่จะเป็นประโยชน์ในการแลกเปลี่ยนที่กำลังดำเนินอยู่ ดังนั้นเราจึงต้องลดเวลาแฝงให้เหลือน้อยที่สุดทั่วทั้งเส้นทางการมอบหมาย ตั้งแต่การกำหนดเส้นทางและการประมวลผลทันทีผ่านการอนุมานและการเรียกเครื่องมือ ในเวลาเดียวกัน ระบบอื่นๆ ในผลิตภัณฑ์ยังคงต้องการข้อความแยกกัน ดังนั้นเราจึงต้องนำเสนอการสนทนาที่กำลังดำเนินอยู่ในรูปแบบที่พวกเขาเข้าใจได้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Making delegation fast enough to feel natural",
+        "th": "ทำให้การมอบหมายเร็วพอที่จะให้ความรู้สึกเป็นธรรมชาติ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When a delegation is dispatched, we optimize for the time until the frontier model produces something useful for the conversation. The voice model can briefly keep the exchange moving while a frontier model reasons or uses tools, but it cannot hide an arbitrarily slow response. We therefore treated the full delegation loop—routing, prompt processing, inference, and tool calls—as part of the responsiveness budget.",
+        "th": "เมื่อมีการส่งการมอบหมาย เราจะปรับเวลาให้เหมาะสมจนกว่าโมเดลชายแดนจะสร้างสิ่งที่มีประโยชน์สำหรับการสนทนา โมเดลเสียงสามารถทำให้การแลกเปลี่ยนดำเนินไปในช่วงสั้นๆ ในขณะที่โมเดลชายแดนให้เหตุผลหรือใช้เครื่องมือ แต่ไม่สามารถซ่อนการตอบสนองที่ช้าตามอำเภอใจได้ ดังนั้นเราจึงปฏิบัติต่อวงจรการมอบหมายทั้งหมด—การกำหนดเส้นทาง การประมวลผลทันที การอนุมาน และการเรียกใช้เครื่องมือ—เป็นส่วนหนึ่งของงบประมาณการตอบสนอง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The first optimization is to set up the frontier model and any tools it needs before delegation is requested. When a voice session starts, the application server creates an inference session for the frontier model and prefills it with the initial conversation context, ensuring the prompt has been fully processed prior to the first delegated request.",
+        "th": "การปรับให้เหมาะสมขั้นแรกคือการตั้งค่าโมเดลชายแดนและเครื่องมือใดๆ ที่จำเป็นก่อนที่จะขอการมอบหมาย เมื่อเซสชันเสียงเริ่มต้น แอปพลิเคชันเซิร์ฟเวอร์จะสร้างเซสชันการอนุมานสำหรับโมเดลชายแดนและเติมบริบทการสนทนาเริ่มต้นไว้ล่วงหน้า เพื่อให้มั่นใจว่าพร้อมท์ได้รับการประมวลผลอย่างสมบูรณ์ก่อนคำขอที่ได้รับมอบหมายครั้งแรก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We then keep that inference session available for the duration of the voice conversation and use stable session affinity for successive requests. Together with prompt caching, these techniques improve latency while a worker failure remains easily recoverable.",
+        "th": "จากนั้นเราจะให้เซสชันการอนุมานนั้นใช้งานได้ตลอดระยะเวลาของการสนทนาด้วยเสียง และใช้ความสัมพันธ์ของเซสชันที่เสถียรสำหรับคำขอที่ต่อเนื่องกัน เมื่อใช้ร่วมกับการแคชที่รวดเร็ว เทคนิคเหล่านี้จะช่วยปรับปรุงเวลาแฝง ในขณะที่ความล้มเหลวของผู้ปฏิบัติงานยังคงสามารถกู้คืนได้อย่างง่ายดาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reasoning effort, output limits, tool schemas, and model-tool round trips also affect when the conversation receives a useful result, and we adjusted these levers to get faster responses. By minimizing the work needed on the delegation path, we enabled the voice model to quickly incorporate results from our frontier models.",
+        "th": "ความพยายามในการใช้เหตุผล ขีดจำกัดผลลัพธ์ สกีมาของเครื่องมือ และการเดินทางไปกลับของเครื่องมือแบบจำลองยังส่งผลต่อเมื่อการสนทนาได้รับผลลัพธ์ที่เป็นประโยชน์ด้วย และเราได้ปรับคันโยกเหล่านี้เพื่อให้ได้รับการตอบกลับเร็วขึ้น ด้วยการลดงานที่จำเป็นในเส้นทางการมอบหมายให้เหลือน้อยที่สุด เราจึงเปิดใช้งานโมเดลเสียงเพื่อรวมผลลัพธ์จากโมเดลชายแดนของเราได้อย่างรวดเร็ว"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Deriving discrete turns from continuous speech",
+        "th": "ได้รับการเปลี่ยนจากการพูดต่อเนื่องไม่ต่อเนื่อง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Even though the voice model operates on continuous streams of speech, many of the systems around it still operate on user and assistant turns, including ChatGPT’s conversation UI and parts of our analytics and safety infrastructure. So the application server teases apart the overlapping, occasionally ambiguous conversation into discrete messages.",
+        "th": "แม้ว่าโมเดลเสียงจะทำงานด้วยการสตรีมคำพูดอย่างต่อเนื่อง แต่ระบบจำนวนมากรอบๆ ยังคงทำงานตามผลัดผู้ใช้และผู้ช่วย รวมถึง UI การสนทนาของ ChatGPT และส่วนหนึ่งของโครงสร้างพื้นฐานด้านการวิเคราะห์และความปลอดภัยของเรา ดังนั้นแอปพลิเคชันเซิร์ฟเวอร์จึงแยกการสนทนาที่ทับซ้อนกันและคลุมเครือในบางครั้งออกเป็นข้อความแยกกัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As audio arrives, the server uses partial transcripts and timing signals to infer which speaker has the floor and build a queue of messages. The newest message remains provisional; its text, timing, and speaker assignment can all change as more speech arrives. Once a speaker has sustained the floor long enough for the attribution to be reliable, the server finalizes the corresponding message.",
+        "th": "เมื่อเสียงมาถึง เซิร์ฟเวอร์จะใช้การถอดเสียงบางส่วนและสัญญาณจังหวะเพื่ออนุมานว่าผู้พูดคนใดเป็นคนพูด และสร้างคิวข้อความ ข้อความใหม่ล่าสุดยังคงเป็นข้อความชั่วคราว ข้อความ เวลา และการกำหนดผู้พูดสามารถเปลี่ยนแปลงได้เมื่อมีการพูดมากขึ้น เมื่อผู้พูดยืนบนพื้นได้นานเพียงพอสำหรับการระบุแหล่งที่มาที่เชื่อถือได้ เซิร์ฟเวอร์จะสรุปข้อความที่เกี่ยวข้อง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Speaker overlap makes this more complicated. A brief acknowledgement from the assistant while the user is talking (e.g. “mm hmm,” or “okay”) should not necessarily become its own message. However, a substantive assistant interjection often should. Similarly, we prioritize coherence in the displayed assistant responses even when the user speaks in the middle.",
+        "th": "การทับซ้อนของลำโพงทำให้สิ่งนี้ซับซ้อนยิ่งขึ้น การตอบรับสั้นๆ จากผู้ช่วยในขณะที่ผู้ใช้กำลังพูด (เช่น “อืม อืม” หรือ “โอเค”) ไม่จำเป็นต้องกลายเป็นข้อความของตัวเองเสมอไป อย่างไรก็ตาม คำอุทานผู้ช่วยที่สำคัญมักจะควรทำ ในทำนองเดียวกัน เราจัดลำดับความสำคัญของการเชื่อมโยงกันในการตอบกลับของผู้ช่วยที่แสดง แม้ว่าผู้ใช้จะพูดตรงกลางก็ตาม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Every segmentation policy trades freshness for certainty. Committing too early produces fragmented history and unstable ordering; waiting too long delays transcripts and the features that depend on them. The system therefore maintains two related views of the conversation: a speculative view of the current state and an authoritative record of what was said. The conversation view in the application UI can handle updates, so it uses the speculative view. But logging to the analytics pipeline requires a final transcript.",
+        "th": "นโยบายการแบ่งส่วนทุกรายการแลกเปลี่ยนความสดใหม่เพื่อความแน่นอน การดำเนินการเร็วเกินไปทำให้เกิดประวัติที่กระจัดกระจายและลำดับที่ไม่เสถียร การรอนานเกินไปจะทำให้การถอดเสียงและคุณสมบัติต่างๆ ขึ้นอยู่กับสิ่งเหล่านั้น ดังนั้น ระบบจะรักษามุมมองที่เกี่ยวข้องสองประการของการสนทนา: มุมมองเชิงคาดเดาเกี่ยวกับสถานะปัจจุบัน และบันทึกที่เชื่อถือได้ของสิ่งที่กล่าวไว้ มุมมองการสนทนาใน UI ของแอปพลิเคชันสามารถจัดการการอัปเดตได้ ดังนั้นจึงใช้มุมมองเชิงคาดเดา แต่การเข้าสู่ระบบไปป์ไลน์การวิเคราะห์จำเป็นต้องมีการถอดเสียงขั้นสุดท้าย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This gives the rest of ChatGPT a stable view of the exchange without imposing turn-taking on the live voice path.",
+        "th": "สิ่งนี้ทำให้ ChatGPT ที่เหลือมีมุมมองการแลกเปลี่ยนที่มั่นคง โดยไม่ต้องสลับเส้นทางเสียงสด"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Starting sessions with a faster protocol",
+        "th": "เริ่มต้นเซสชันด้วยโปรโตคอลที่เร็วขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Responsiveness starts as soon as the user clicks the button. With GPT‑Live, the system must establish the media path and begin feeding audio through the model before the conversation can begin. That puts every part of the startup sequence on the critical path.",
+        "th": "การตอบสนองเริ่มต้นทันทีที่ผู้ใช้คลิกปุ่ม เมื่อใช้ GPT‑Live ระบบจะต้องสร้างเส้นทางสื่อและเริ่มป้อนเสียงผ่านโมเดลก่อนจึงจะเริ่มการสนทนาได้ นั่นทำให้ทุกส่วนของลำดับการเริ่มต้นระบบอยู่ในเส้นทางวิกฤติ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As noted above, WebRTC provides a strong realtime foundation, but starting a vanilla WebRTC session requires a surprising number of protocol handshakes and network round trips. WebRTC predates the focus on minimizing round trips that shaped later protocols such as QUIC. As a result, its underlying protocols sometimes repeat work when used together. For example, each protocol included its own anti-DoS mechanism, even when it wasn’t needed in the context of the full WebRTC stack.",
+        "th": "ตามที่ระบุไว้ข้างต้น WebRTC มอบรากฐานแบบเรียลไทม์ที่แข็งแกร่ง แต่การเริ่มต้นเซสชัน WebRTC แบบปกตินั้นจำเป็นต้องมีการจับมือกันของโปรโตคอลและการเดินทางไปกลับเครือข่ายในจำนวนที่น่าประหลาดใจ WebRTC มีมาก่อนการมุ่งเน้นไปที่การลดการเดินทางไปกลับซึ่งกำหนดรูปแบบโปรโตคอลในภายหลัง เช่น QUIC เป็นผลให้โปรโตคอลพื้นฐานบางครั้งทำงานซ้ำเมื่อใช้ร่วมกัน ตัวอย่างเช่น แต่ละโปรโตคอลมีกลไกต่อต้าน DoS ของตัวเอง แม้ว่าจะไม่จำเป็นในบริบทของสแต็ก WebRTC แบบเต็มก็ตาม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We analyzed the stack and developed the WebRTC Abridged Roundtrip Protocol (WARP⁠(opens in a new window)), which reduces media and data startup from six network round trips to just one. WARP accomplishes this with a set of backward-compatible protocol improvements: piggybacking the DTLS handshake over ICE (SPED⁠(opens in a new window)), using the faster DTLS 1.3⁠(opens in a new window) handshake, pre-negotiating the SCTP handshake (SNAP⁠(opens in a new window)), and pre-negotiating data channels rather than using DCEP⁠(opens in a new window).",
+        "th": "เราวิเคราะห์สแต็กและพัฒนา WebRTC Abridged Roundtrip Protocol (WARP⁠(opens in a new window)) ซึ่งช่วยลดการเริ่มต้นสื่อและข้อมูลจากการส่งข้อมูลไปกลับเครือข่ายหกครั้งเหลือเพียงเครือข่ายเดียว WARP บรรลุผลสำเร็จด้วยชุดการปรับปรุงโปรโตคอลที่เข้ากันได้แบบย้อนหลัง: แบ็คแฮ็กแบ็คแฮนด์เชค DTLS บน ICE (SPED⁠(opens in a new window)) การใช้แฮนด์เชค DTLS 1.3⁠(opens in a new window) ที่เร็วขึ้น การเจรจาล่วงหน้าแฮนด์เชค SCTP (SNAP⁠(opens in a new window)) และการเจรจาช่องข้อมูลล่วงหน้าแทนที่จะใช้ DCEP⁠(opens in a new window)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We designed WARP as a set of open specifications, working with collaborators from the WebRTC community, so the broader ecosystem can benefit from this work. We’re advancing the proposals through the IETF’s TSVWG working group, and WARP support has already been added to both libwebrtc and Pion, with efforts underway in other WebRTC implementations.",
+        "th": "เราออกแบบ WARP ให้เป็นชุดข้อกำหนดแบบเปิด โดยทำงานร่วมกับผู้ทำงานร่วมกันจากชุมชน WebRTC เพื่อให้ระบบนิเวศที่กว้างขึ้นสามารถได้รับประโยชน์จากงานนี้ เรากำลังพัฒนาข้อเสนอผ่านคณะทำงาน TSVWG ของ IETF และการสนับสนุน WARP ได้ถูกเพิ่มไปยังทั้ง libwebrtc และ Pion แล้ว โดยกำลังดำเนินการในการใช้งาน WebRTC อื่นๆ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/39gBMWVTSoXzUMpD7iiGLu/6eb0133fa1db25456a397b30410220fb/warp-handshake-light-desktop-v2.svg?w=3840&q=90",
+      "alt": "Comparison of the vanilla WebRTC handshake and WebRTC with WARP, showing WARP making media and data ready in fewer round trips."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "After optimizing the media handshake, one remaining delay stood out: the signaling exchange used to share SDP parameters before WebRTC can connect. To remove that exchange from the critical path, we developed what we call Instant Connect. It negotiates these parameters ahead of time without reserving server capacity and without any changes to existing WebRTC implementations.",
+        "th": "หลังจากปรับการแฮนด์เชคของสื่อให้เหมาะสมแล้ว ความล่าช้าที่เหลืออยู่อย่างหนึ่งก็โดดเด่น: การแลกเปลี่ยนสัญญาณที่ใช้ในการแชร์พารามิเตอร์ SDP ก่อนที่ WebRTC จะสามารถเชื่อมต่อได้ เพื่อลบการแลกเปลี่ยนนั้นออกจากเส้นทางที่สำคัญ เราได้พัฒนาสิ่งที่เราเรียกว่าการเชื่อมต่อทันที โดยจะเจรจาต่อรองพารามิเตอร์เหล่านี้ล่วงหน้าโดยไม่ต้องสำรองความจุของเซิร์ฟเวอร์ และไม่มีการเปลี่ยนแปลงใดๆ กับการใช้งาน WebRTC ที่มีอยู่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Instant Connect runs alongside the standard signaling flow. If the pre-negotiated parameters are valid, the server can materialize the session when the first media packet arrives. If they are stale or invalid, the signaling flow is already underway, so the client can fall back with no additional latency.",
+        "th": "Instant Connect ทำงานควบคู่ไปกับโฟลว์การส่งสัญญาณมาตรฐาน หากพารามิเตอร์ที่เจรจาไว้ล่วงหน้าถูกต้อง เซิร์ฟเวอร์สามารถทำให้เซสชันเกิดขึ้นได้เมื่อแพ็กเก็ตสื่อแรกมาถึง หากเก่าหรือไม่ถูกต้อง แสดงว่าโฟลว์การส่งสัญญาณกำลังดำเนินการอยู่ ดังนั้น ไคลเอ็นต์จึงสามารถถอยกลับได้โดยไม่มีเวลาแฝงเพิ่มเติม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Together, Instant Connect and WARP dramatically reduce the time from user intent to live media flow. With the SDP exchange off the critical path and WARP collapsing the transport handshake, the client can now start a session with a single UDP packet. The server can respond immediately, letting the rest of the system begin doing the work the user actually cares about: listening and responding.",
+        "th": "Instant Connect และ WARP ร่วมกันช่วยลดเวลาจากความตั้งใจของผู้ใช้ไปจนถึงกระแสสื่อสดได้อย่างมาก เมื่อการแลกเปลี่ยน SDP อยู่นอกเส้นทางวิกฤติ และ WARP ยุบการจับมือกันในการขนส่ง ลูกค้าจึงสามารถเริ่มเซสชันด้วยแพ็กเก็ต UDP เดียวได้ เซิร์ฟเวอร์สามารถตอบสนองได้ทันที โดยปล่อยให้ส่วนที่เหลือของระบบเริ่มทำงานตามที่ผู้ใช้สนใจจริงๆ: การฟังและการตอบสนอง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Safely testing GPT‑Live in production with real data",
+        "th": "ทดสอบ GPT‑Live ในการใช้งานจริงอย่างปลอดภัยด้วยข้อมูลจริง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A system can look fast on paper and still stall under real voice traffic. Before letting GPT‑Live chat with users, we ran a silent test that routed a small, gradually increasing share of production ChatGPT Voice sessions to both the existing Advanced Voice Mode experience and our new system. Advanced Voice Mode continued serving users as usual, while the shadow path ran inference in read-only mode. This exposed the system to real clients, networks, session lengths, and geographic distribution without changing what users heard.",
+        "th": "ระบบสามารถดูได้อย่างรวดเร็วบนกระดาษและยังคงหยุดทำงานภายใต้การรับส่งข้อมูลเสียงจริง ก่อนที่จะอนุญาตให้ GPT‑Live Chat กับผู้ใช้ เราได้ทำการทดสอบแบบเงียบซึ่งกำหนดเส้นทางส่วนแบ่งเล็กๆ น้อยๆ ที่ค่อย ๆ เพิ่มของเซสชัน ChatGPT Voice ที่ใช้งานจริงไปยังทั้งประสบการณ์โหมดเสียงขั้นสูงที่มีอยู่และระบบใหม่ของเรา โหมดเสียงขั้นสูงยังคงให้บริการผู้ใช้ต่อไปตามปกติ ในขณะที่เส้นทางเงาทำการอนุมานในโหมดอ่านอย่างเดียว สิ่งนี้ทำให้ระบบเปิดเผยต่อลูกค้าจริง เครือข่าย ระยะเวลาเซสชัน และการกระจายทางภูมิศาสตร์โดยไม่เปลี่ยนแปลงสิ่งที่ผู้ใช้ได้ยิน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One of the first lessons was that capacity could not be reduced to GPU throughput. Voice sessions stay open and send frames continuously, so CPU-side stream handlers, queues, and network paths must scale alongside inference. Under real load, a supporting component saturated earlier than our load test estimates predicted, causing inference requests to accumulate and latency to compound. We changed the capacity question from “How many requests can a GPU handle?” to “How many concurrent sessions can the system sustain while keeping every frame on schedule?”",
+        "th": "บทเรียนแรกๆ ประการหนึ่งคือไม่สามารถลดความจุลงตามปริมาณงานของ GPU ได้ เซสชันเสียงจะเปิดอยู่และส่งเฟรมอย่างต่อเนื่อง ดังนั้นตัวจัดการสตรีมฝั่ง CPU คิว และเส้นทางเครือข่ายจึงต้องปรับขนาดควบคู่ไปกับการอนุมาน ภายใต้โหลดจริง ส่วนประกอบที่รองรับจะอิ่มตัวเร็วกว่าที่ประมาณการการทดสอบโหลดของเราที่คาดการณ์ไว้ ส่งผลให้คำขอการอนุมานสะสมและมีเวลาแฝงในการรวบรวม เราเปลี่ยนคำถามเกี่ยวกับความจุจาก “GPU สามารถรองรับคำขอได้กี่คำขอ” เป็น “ระบบสามารถรักษาเซสชันที่เกิดขึ้นพร้อมกันได้กี่เซสชันโดยยังคงรักษาทุกเฟรมให้เป็นไปตามกำหนดเวลา”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The test also made geography a first-order concern. Routing a session to distant capacity can add delay at several points during startup and streaming. We began validating model rollouts together with regional capacity and traffic-steering configuration, then breaking latency down by source geography. Moving inference closer to users helped, but it also reinforced the broader lesson: end-to-end responsiveness depends on every service in the path, not only the model server.",
+        "th": "การทดสอบยังทำให้เรื่องภูมิศาสตร์เป็นเรื่องสำคัญอันดับแรกอีกด้วย การกำหนดเส้นทางเซสชันไปยังความจุระยะไกลอาจเพิ่มความล่าช้าได้หลายจุดระหว่างการเริ่มต้นและการสตรีม เราเริ่มตรวจสอบความถูกต้องของการเปิดตัวโมเดลร่วมกับความจุระดับภูมิภาคและการกำหนดค่าการควบคุมการรับส่งข้อมูล จากนั้นแบ่งเวลาแฝงตามภูมิศาสตร์ต้นทาง การย้ายการอนุมานเข้าใกล้ผู้ใช้มากขึ้นช่วยได้ แต่ยังช่วยเสริมบทเรียนที่กว้างขึ้นอีกด้วย: การตอบสนองจากต้นทางถึงปลายทางนั้นขึ้นอยู่กับทุกบริการในเส้นทาง ไม่ใช่แค่เซิร์ฟเวอร์โมเดลเท่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Other failures appeared only across realistic session lifecycles. Long-running sessions exposed memory and persistence pressure. Reconnects exercised compaction and state restoration. Ordinary client disconnects revealed races in the shutdown handshake. These problems rarely appeared in short load tests because they depended on time, accumulated state, and behavior across service boundaries.",
+        "th": "ความล้มเหลวอื่นๆ ปรากฏขึ้นตลอดวงจรการใช้งานเซสชันที่สมจริงเท่านั้น เซสชันที่ใช้เวลานานเผยให้เห็นหน่วยความจำและความกดดันในการคงอยู่ เชื่อมต่อการบดอัดที่ใช้แล้วและการฟื้นฟูสถานะอีกครั้ง ไคลเอ็นต์ทั่วไปยกเลิกการเชื่อมต่อเปิดเผยการแข่งขันในการจับมือปิดระบบ ปัญหาเหล่านี้ไม่ค่อยปรากฏในการทดสอบโหลดระยะสั้น เนื่องจากปัญหาเหล่านี้ขึ้นอยู่กับเวลา สถานะที่สะสม และลักษณะการทำงานข้ามขอบเขตบริการ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Finally, production testing forced us to improve observability and rollout controls. We found metrics that conflated different sources of latency, dashboards whose aggregates hid individual unhealthy engines, and configuration drift between tested and deployed systems. In response, we added more granular telemetry, validation against known-good configurations, staged ramps, and the ability to isolate or disable individual paths quickly. The silent test became an early launch rehearsal, not only for how much traffic the system could accept, but for how quickly we could detect, contain, and recover from failure.",
+        "th": "สุดท้ายนี้ การทดสอบการผลิตบังคับให้เราปรับปรุงความสามารถในการสังเกตและการควบคุมการเปิดตัว เราพบตัวชี้วัดที่รวบรวมแหล่งที่มาของเวลาแฝงที่แตกต่างกัน แดชบอร์ดที่รวมเอากลไกที่ไม่มีประสิทธิภาพแต่ละรายการไว้ และการกำหนดค่าที่เบี่ยงเบนไประหว่างระบบที่ทดสอบและใช้งาน เพื่อเป็นการตอบสนอง เราได้เพิ่มการตรวจวัดทางไกลที่ละเอียดมากขึ้น การตรวจสอบกับการกำหนดค่าที่ทราบว่าใช้งานได้ดี ทางลาดแบบจัดฉาก และความสามารถในการแยกหรือปิดใช้งานแต่ละเส้นทางได้อย่างรวดเร็ว การทดสอบแบบไม่ต้องโต้ตอบกลายเป็นการซ้อมการเปิดตัวตั้งแต่เนิ่นๆ ไม่เพียงแต่เกี่ยวกับปริมาณการรับส่งข้อมูลที่ระบบสามารถรับได้เท่านั้น แต่ยังรวมถึงความเร็วที่เราสามารถตรวจจับ กักเก็บ และกู้คืนจากความล้มเหลวได้ด้วย"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Responsive, from client to model",
+        "th": "ตอบสนองจากลูกค้าสู่รุ่น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Bringing GPT‑Live to ChatGPT scale required a whole new system built around one fundamental principle: the voice must flow. Streaming inference keeps the full-duplex model supplied with audio. A dedicated media path ensures reliable frame delivery. Asynchronous delegation lets deeper thinking run in parallel. Optimized transport keeps the experience responsive all the way to the user.",
+        "th": "การนำ GPT‑Live มาสู่ระดับ ChatGPT จำเป็นต้องมีระบบใหม่ทั้งหมดที่สร้างขึ้นโดยใช้หลักการพื้นฐานข้อเดียว นั่นคือ เสียงต้องไหลลื่น การอนุมานแบบสตรีมมิ่งช่วยให้รุ่นฟูลดูเพล็กซ์มาพร้อมกับเสียง เส้นทางสื่อเฉพาะช่วยให้มั่นใจถึงการส่งเฟรมที่เชื่อถือได้ การมอบหมายแบบอะซิงโครนัสช่วยให้การคิดเชิงลึกดำเนินไปพร้อมๆ กัน การขนส่งที่ปรับให้เหมาะสมช่วยให้ประสบการณ์ตอบสนองต่อผู้ใช้ตลอดทาง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The architecture behind GPT‑Live is already becoming a broader platform for realtime interaction. It powers ChatGPT Voice as it expands from conversation into agentic coordination, and will underpin the upcoming GPT‑Live API. Over time, it will allow voice experiences to span more devices, apps, and modalities without sacrificing the immediacy that makes voice conversation feel live.",
+        "th": "สถาปัตยกรรมเบื้องหลัง GPT‑Live กำลังกลายเป็นแพลตฟอร์มที่กว้างขึ้นสำหรับการโต้ตอบแบบเรียลไทม์ โดยจะขับเคลื่อน ChatGPT Voice เมื่อขยายจากการสนทนาไปสู่การประสานงานแบบตัวแทน และจะสนับสนุน GPT‑Live API ที่กำลังจะมาถึง เมื่อเวลาผ่านไป จะช่วยให้ประสบการณ์เสียงครอบคลุมอุปกรณ์ แอพ และรูปแบบต่างๆ ได้มากขึ้น โดยไม่กระทบต่อความฉับไวที่ทำให้การสนทนาด้วยเสียงมีชีวิตชีวา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If these are the kinds of engineering problems you want to solve, come work with us⁠.",
+        "th": "หากนี่คือปัญหาทางวิศวกรรมที่คุณต้องการแก้ไข มาร่วมงานกับเราสิ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ChatGPT",
+        "th": "ChatGPT"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "API Platform",
+        "th": "แพลตฟอร์มเอพีไอ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "ผู้เขียน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "อ่านต่อ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6bPStWA6pc66cahnhg0jo6/61786b178401b6e902e9da65fa4da095/Blog_Thumbnail_-_OpenAI_Blog.png?w=3840&q=90&fm=webp",
+      "alt": "Our commitment to Zero Data Retention as AI advances — card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanyAug 19, 2026",
+        "th": "บริษัท19 ส.ค.2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/IMh9E5WMDoVaUJyBJrsEP/697ba885d5e89b6bd27a55b9c9a783ae/chatgpt-ads-europe-readable-card.png?w=3840&q=90&fm=webp",
+      "alt": "ChatGPT Ads expands across Europe - Card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductAug 18, 2026",
+        "th": "สินค้า18 ส.ค. 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7FcPS2UYSda8PpzDH6rZ1C/fedbc5dd1a908180d87676aaf6b9a6a4/a11y-card-v002.png?w=3840&q=90&fm=webp",
+      "alt": "Partnering with CodeAI — accessible card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanyAug 18, 2026",
+        "th": "บริษัท18 ส.ค.2569"
       }
     }
   ]

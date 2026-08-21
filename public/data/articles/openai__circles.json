@@ -18,8 +18,364 @@
     {
       "type": "p",
       "text": {
-        "en": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
-        "th": "Circles ใช้ OpenAI API และ Codex เพื่อขับเคลื่อนประสบการณ์โทรคมนาคมแบบ AI โดยเพิ่ม ARPU 22% ลดการเลิกใช้งาน 9% และปรับปรุงประสิทธิภาพการพัฒนา"
+        "en": "August 3, 2026",
+        "th": "3 สิงหาคม 2569"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Circles uses the OpenAI API to personalize support and resolve issues in real time, driving 22% ARPU growth in markets like Singapore.",
+        "th": "Circles ใช้ OpenAI API เพื่อปรับแต่งการสนับสนุนและแก้ไขปัญหาแบบเรียลไทม์ ขับเคลื่อนการเติบโตของ ARPU 22% ในตลาดเช่นสิงคโปร์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5VkfxmlpCs54yu0Y5pywQ1/f787f9398ab67b7f3dcf8a7e9f421088/oai_Circles_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "OpenAI and Circles logos on a branded graphic for the Circles customer story."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "22%",
+        "th": "22%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "increase in ARPU in Singapore from AI-driven personalization",
+        "th": "ARPU เพิ่มขึ้นในสิงคโปร์จากการปรับแต่งส่วนบุคคลที่ขับเคลื่อนด้วย AI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "9%",
+        "th": "9%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "reduction in churn after introducing AI recommendations",
+        "th": "ลดการปั่นป่วนหลังจากแนะนำคำแนะนำ AI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "65%",
+        "th": "65%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "autonomous resolution rate for customer support with CareX",
+        "th": "อัตราการแก้ปัญหาอัตโนมัติสำหรับการสนับสนุนลูกค้าด้วย CareX"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "29%",
+        "th": "29%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "increase in development efficiency using Codex for design, coding assistance, and unit testing",
+        "th": "เพิ่มประสิทธิภาพการพัฒนาโดยใช้ Codex สำหรับการออกแบบ ความช่วยเหลือด้านการเขียนโค้ด และการทดสอบหน่วย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building the AI Concierge",
+        "th": "การสร้างเจ้าหน้าที่อำนวยความสะดวก AI"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Orchestrating support with CareX",
+        "th": "จัดเตรียมการสนับสนุนด้วย CareX"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Personalizing customer value with Xplore IQ",
+        "th": "การปรับเปลี่ยนมูลค่าของลูกค้าให้เป็นแบบส่วนตัวด้วย Xplore IQ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Improving engineering velocity with Codex",
+        "th": "การปรับปรุงความเร็วทางวิศวกรรมด้วย Codex"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Keeping governance central",
+        "th": "ยึดหลักธรรมาภิบาลเป็นศูนย์กลาง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What’s next",
+        "th": "อะไรต่อไป"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building the AI Concierge",
+        "th": "การสร้างเจ้าหน้าที่อำนวยความสะดวก AI"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Orchestrating support with CareX",
+        "th": "จัดเตรียมการสนับสนุนด้วย CareX"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Personalizing customer value with Xplore IQ",
+        "th": "การปรับเปลี่ยนมูลค่าของลูกค้าให้เป็นแบบส่วนตัวด้วย Xplore IQ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Improving engineering velocity with Codex",
+        "th": "การปรับปรุงความเร็วทางวิศวกรรมด้วย Codex"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Keeping governance central",
+        "th": "ยึดหลักธรรมาภิบาลเป็นศูนย์กลาง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What’s next",
+        "th": "อะไรต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Telcos have rich customer signals across usage, billing, network activity, and location, but turning those signals into timely, personalized action remains difficult. Circles saw an opportunity to rethink the telco experience around that challenge, using OpenAI to build an AI-native telco stack that can connect support, personalization, operations, and monetization in real time.",
+        "th": "Telcos มีสัญญาณจากลูกค้ามากมายเกี่ยวกับการใช้งาน การเรียกเก็บเงิน กิจกรรมเครือข่าย และตำแหน่ง แต่การเปลี่ยนสัญญาณเหล่านั้นให้ทันเวลาและการดำเนินการเฉพาะบุคคลยังคงเป็นเรื่องยาก Circles มองเห็นโอกาสในการคิดใหม่เกี่ยวกับประสบการณ์โทรคมนาคมเกี่ยวกับความท้าทายนั้น โดยใช้ OpenAI เพื่อสร้างสแต็กโทรคมนาคมแบบ AI ที่สามารถเชื่อมต่อการสนับสนุน การปรับเปลี่ยนในแบบของคุณ การดำเนินงาน และการสร้างรายได้แบบเรียลไทม์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The result is a customer experience built around Circles’ AI Concierge, a conversational interface powered by OpenAI’s API platform. In Singapore, Circles’ AI-powered personalization has helped increase ARPU by 22% and reduce churn by 9%. CareX, the multi-agent architecture behind the AI Concierge, now delivers a 65% autonomous resolution rate for customer support.",
+        "th": "ผลลัพธ์ที่ได้คือประสบการณ์ของลูกค้าที่สร้างขึ้นโดยใช้ AI Concierge ของ Circles ซึ่งเป็นอินเทอร์เฟซการสนทนาที่ขับเคลื่อนโดยแพลตฟอร์ม API ของ OpenAI ในสิงคโปร์ การปรับเปลี่ยนในแบบของคุณที่ขับเคลื่อนด้วย AI ของ Circles ช่วยเพิ่ม ARPU ได้ถึง 22% และลดการเลิกใช้งานลง 9% CareX ซึ่งเป็นสถาปัตยกรรมหลายตัวแทนที่อยู่เบื้องหลัง AI Concierge ขณะนี้มอบอัตราการแก้ปัญหาอัตโนมัติ 65% สำหรับการสนับสนุนลูกค้า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Founded in Singapore, Circles is a technology company whose SaaS platform helps digital telco operators launch and run AI-powered customer experiences. The company also operates Circles.Life, its own consumer telco business in Singapore. Founded in 2014, Circles works with telco operators across 14 countries and six continents.",
+        "th": "Circles ก่อตั้งขึ้นในสิงคโปร์ เป็นบริษัทเทคโนโลยีซึ่งมีแพลตฟอร์ม SaaS ช่วยให้ผู้ให้บริการโทรคมนาคมดิจิทัลเปิดตัวและดำเนินประสบการณ์ของลูกค้าที่ขับเคลื่อนด้วย AI บริษัทยังดำเนินธุรกิจ Circles.Life ซึ่งเป็นธุรกิจโทรคมนาคมสำหรับผู้บริโภคของบริษัทในสิงคโปร์ Circles ก่อตั้งขึ้นในปี 2014 โดยทำงานร่วมกับผู้ให้บริการโทรคมนาคมใน 14 ประเทศและ 6 ทวีป"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Building the AI Concierge",
+        "th": "การสร้างเจ้าหน้าที่อำนวยความสะดวก AI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Traditional telco support is often reactive. Customers navigate menus, repeat information, and wait for help after a problem has already occurred. While operators have rich customer data across usage, billing, network activity, and location, it has remained a challenge to turn those signals into timely, personalized action. To address this, Circles built its AI Concierge on the OpenAI API, creating a conversational interface designed to deliver proactive, context-aware customer engagement.",
+        "th": "การสนับสนุนทางโทรศัพท์แบบเดิมมักจะตอบสนอง ลูกค้านำทางเมนู ข้อมูลซ้ำ และรอความช่วยเหลือหลังจากเกิดปัญหาแล้ว แม้ว่าผู้ให้บริการจะมีข้อมูลลูกค้าที่หลากหลายเกี่ยวกับการใช้งาน การเรียกเก็บเงิน กิจกรรมเครือข่าย และตำแหน่ง แต่ก็ยังเป็นเรื่องท้าทายในการเปลี่ยนสัญญาณเหล่านั้นให้กลายเป็นการดำเนินการที่ตรงเวลาและเป็นส่วนตัว เพื่อแก้ไขปัญหานี้ Circles ได้สร้าง AI Concierge บน OpenAI API โดยสร้างอินเทอร์เฟซการสนทนาที่ออกแบบมาเพื่อมอบการมีส่วนร่วมของลูกค้าในเชิงรุกและคำนึงถึงบริบท"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The AI Concierge brings search, account management, support, and personalized recommendations into a single experience. By understanding a customer’s real-time context, such as browsing roaming options or investigating a billing issue, it can route requests to the appropriate specialist agents, recommend relevant actions, and resolve issues without requiring customers to repeat information or navigate multiple workflows.",
+        "th": "AI Concierge นำการค้นหา การจัดการบัญชี การสนับสนุน และคำแนะนำส่วนบุคคลมาไว้ในประสบการณ์เดียว ด้วยการทำความเข้าใจบริบทแบบเรียลไทม์ของลูกค้า เช่น การเรียกดูตัวเลือกการโรมมิ่งหรือการตรวจสอบปัญหาการเรียกเก็บเงิน จะสามารถกำหนดเส้นทางคำขอไปยังตัวแทนผู้เชี่ยวชาญที่เหมาะสม แนะนำการดำเนินการที่เกี่ยวข้อง และแก้ไขปัญหาโดยไม่ต้องให้ลูกค้าต้องทำซ้ำข้อมูลหรือนำทางขั้นตอนการทำงานต่างๆ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Orchestrating support with CareX",
+        "th": "จัดเตรียมการสนับสนุนด้วย CareX"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CareX is the proprietary multi-agent architecture that powers Circles’ AI Concierge. It combines an orchestration agent that understands each customer’s history and current activity with specialist agents for billing, subscriptions, network management, and account services.",
+        "th": "CareX เป็นสถาปัตยกรรมหลายตัวแทนที่เป็นเอกสิทธิ์ซึ่งขับเคลื่อน AI Concierge ของ Circles โดยผสมผสานตัวแทนประสานที่เข้าใจประวัติของลูกค้าแต่ละรายและกิจกรรมปัจจุบันเข้ากับตัวแทนผู้เชี่ยวชาญสำหรับการเรียกเก็บเงิน การสมัครสมาชิก การจัดการเครือข่าย และบริการบัญชี"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Unlike a traditional chatbot, CareX is designed to understand, act, and resolve customer requests. For example, when a customer raises a billing issue, the orchestration agent combines the customer’s app context, account history, and request before routing it to the appropriate specialist agent. The agent receives only the information needed to resolve the issue. If required, the AI agent seamlessly escalates the case to a human agent with the full context attached.",
+        "th": "CareX ต่างจากแชทบอททั่วไปตรงที่ออกแบบมาเพื่อทำความเข้าใจ ดำเนินการ และแก้ไขคำขอของลูกค้า ตัวอย่างเช่น เมื่อลูกค้าแจ้งปัญหาการเรียกเก็บเงิน ตัวแทนประสานงานจะรวมบริบทของแอป ประวัติบัญชี และคำขอของลูกค้า ก่อนที่จะกำหนดเส้นทางไปยังตัวแทนผู้เชี่ยวชาญที่เหมาะสม ตัวแทนจะได้รับเฉพาะข้อมูลที่จำเป็นในการแก้ไขปัญหาเท่านั้น หากจำเป็น เจ้าหน้าที่ AI จะยกระดับกรณีไปยังเจ้าหน้าที่ที่เป็นมนุษย์ได้อย่างราบรื่นโดยแนบบริบททั้งหมดมาด้วย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The approach is already delivering measurable results. In an early deployment, one operator achieved 55% autonomous resolution within the first week. Today, CareX autonomously resolves 65% of customer service interactions across supported workflows, without human intervention.",
+        "th": "แนวทางนี้ให้ผลลัพธ์ที่วัดผลได้แล้ว ในการปรับใช้ในช่วงแรก ผู้ปฏิบัติงานรายหนึ่งประสบความสำเร็จในการแก้ปัญหาแบบอัตโนมัติ 55% ภายในสัปดาห์แรก ปัจจุบัน CareX แก้ไขการโต้ตอบการบริการลูกค้า 65% ในขั้นตอนการทำงานที่รองรับโดยอัตโนมัติ โดยไม่ต้องมีการแทรกแซงจากมนุษย์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As CareX expands into real-time voice support, the platform is targeting 95% autonomous resolution across the entire workflow, including text and voice. This will extend the same AI-driven resolution capabilities to the channel many customers turn to first, while making service more natural, immediate, and accessible.",
+        "th": "ในขณะที่ CareX ขยายไปสู่การรองรับด้วยเสียงแบบเรียลไทม์ แพลตฟอร์มดังกล่าวตั้งเป้าหมายความละเอียดอัตโนมัติ 95% ทั่วทั้งเวิร์กโฟลว์ รวมถึงข้อความและเสียง สิ่งนี้จะขยายขีดความสามารถในการแก้ปัญหาที่ขับเคลื่อนด้วย AI แบบเดียวกันไปยังช่องทางที่ลูกค้าจำนวนมากหันมาเป็นอันดับแรก ขณะเดียวกันก็ให้บริการที่เป็นธรรมชาติ ทันที และเข้าถึงได้มากขึ้น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Personalizing customer value with Xplore IQ",
+        "th": "การปรับเปลี่ยนมูลค่าของลูกค้าให้เป็นแบบส่วนตัวด้วย Xplore IQ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Built on the OpenAI API, Xplore IQ is Circles’ AI-powered personalization engine. It combines customer behavior, account history, and real-time signals to identify the most relevant next action, from recommending a roaming pack or plan upgrade to preventing churn before it happens.",
+        "th": "Xplore IQ สร้างขึ้นบน OpenAI API เป็นเครื่องมือปรับแต่งส่วนบุคคลที่ขับเคลื่อนด้วย AI ของ Circles โดยผสมผสานพฤติกรรมของลูกค้า ประวัติบัญชี และสัญญาณแบบเรียลไทม์เพื่อระบุการดำเนินการถัดไปที่เกี่ยวข้องมากที่สุด ตั้งแต่การแนะนำแพ็คเกจโรมมิ่งหรือการอัปเกรดแผน ไปจนถึงการป้องกันการเลิกใช้งานก่อนที่จะเกิดขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By replacing broad campaigns with hyper-personalized recommendations, Xplore IQ helps operators engage customers at the right moment. In Singapore, Circles measured its impact by comparing customers who received AI-powered recommendations against those who didn’t. The AI-powered group achieved a 22% increase in ARPU through higher plan upgrades and add-on subscriptions, while timely, relevant recommendations helped reduce churn by 9%.",
+        "th": "ด้วยการแทนที่แคมเปญแบบกว้างๆ ด้วยคำแนะนำที่เจาะจงเฉพาะบุคคล Xplore IQ ช่วยให้ผู้ปฏิบัติงานมีส่วนร่วมกับลูกค้าในเวลาที่เหมาะสม ในสิงคโปร์ Circles วัดผลกระทบโดยการเปรียบเทียบลูกค้าที่ได้รับคำแนะนำที่ขับเคลื่อนด้วย AI กับลูกค้าที่ไม่ได้รับคำแนะนำ กลุ่มที่ขับเคลื่อนด้วย AI ได้รับ ARPU เพิ่มขึ้น 22% ผ่านการอัปเกรดแผนที่สูงขึ้นและการสมัครใช้งานส่วนเสริม ในขณะที่คำแนะนำที่เกี่ยวข้องและทันท่วงทีช่วยลดการเลิกใช้งานลง 9%"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Improving engineering velocity with Codex",
+        "th": "การปรับปรุงความเร็วทางวิศวกรรมด้วย Codex"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Beyond its customer-facing AI products, Circles also uses Codex internally to improve engineering velocity across engineering, infosec, and incident management teams. Teams use Codex to accelerate design, coding assistance and testing, while keeping specialists responsible for validation and final review.",
+        "th": "นอกเหนือจากผลิตภัณฑ์ AI ที่ต้องพบปะกับลูกค้าแล้ว Circles ยังใช้ Codex ภายในเพื่อปรับปรุงความเร็วทางวิศวกรรมในทีมวิศวกรรม ระบบสารสนเทศ และการจัดการเหตุการณ์ ทีมใช้ Codex เพื่อเร่งการออกแบบ ความช่วยเหลือด้านการเขียนโค้ด และการทดสอบ ในขณะเดียวกันก็ให้ผู้เชี่ยวชาญรับผิดชอบในการตรวจสอบความถูกต้องและการตรวจสอบขั้นสุดท้าย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Codex has delivered a 29% increase in development efficiency by involving design, coding assistance, and unit testing, allowing engineers to spend their time focusing on higher-value product innovation.",
+        "th": "Codex มอบประสิทธิภาพการพัฒนาที่เพิ่มขึ้น 29% โดยเกี่ยวข้องกับการออกแบบ ความช่วยเหลือในการเขียนโค้ด และการทดสอบหน่วย ช่วยให้วิศวกรใช้เวลามุ่งเน้นไปที่นวัตกรรมผลิตภัณฑ์ที่มีมูลค่าสูงขึ้น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keeping governance central",
+        "th": "ยึดหลักธรรมาภิบาลเป็นศูนย์กลาง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Building AI for telcos requires safeguards for both customers and operators. Circles applies automated controls before customer information reaches the model layer, including identifying and encrypting personally identifiable information before it is passed to LLMs. Specialist agents are given scoped access to the information needed for a specific resolution task, rather than unrestricted access to a full customer profile.",
+        "th": "การสร้าง AI สำหรับบริษัทโทรคมนาคมจำเป็นต้องมีการป้องกันทั้งลูกค้าและผู้ปฏิบัติงาน Circles ใช้การควบคุมอัตโนมัติก่อนที่ข้อมูลลูกค้าจะไปถึงชั้นโมเดล รวมถึงการระบุและการเข้ารหัสข้อมูลส่วนบุคคลก่อนที่จะส่งต่อไปยัง LLM ตัวแทนผู้เชี่ยวชาญจะได้รับสิทธิ์ในการเข้าถึงข้อมูลที่จำเป็นสำหรับงานแก้ไขปัญหาเฉพาะอย่างมีขอบเขต แทนที่จะเข้าถึงโปรไฟล์ลูกค้าแบบเต็มได้อย่างไม่จำกัด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Circles also uses human escalation paths, phased rollouts, rate limits, rollback mechanisms, and commercial safeguards to help maintain operational control as AI-powered experiences scale across telco environments.",
+        "th": "Circles ยังใช้เส้นทางการยกระดับโดยมนุษย์ การเปิดตัวเป็นระยะ การจำกัดอัตรา กลไกการย้อนกลับ และการป้องกันเชิงพาณิชย์ เพื่อช่วยรักษาการควบคุมการปฏิบัติงานในขณะที่ประสบการณ์ที่ขับเคลื่อนด้วย AI ขยายขนาดในสภาพแวดล้อมโทรคมนาคม"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What’s next",
+        "th": "อะไรต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Circles is expanding its AI-native telco stack with OpenAI by enhancing CareX’s observability and introducing real-time voice support, which makes customer interactions more natural and accessible. Longer term, the company envisions a conversational, context-aware telco experience that moves beyond traditional app navigation, helping operators deliver more proactive, personalized customer engagement.",
+        "th": "Circles กำลังขยายสแต็กโทรคมนาคมแบบ AI ดั้งเดิมด้วย OpenAI โดยปรับปรุงความสามารถในการสังเกตของ CareX และแนะนำการสนับสนุนด้วยเสียงแบบเรียลไทม์ ซึ่งทำให้การโต้ตอบกับลูกค้าเป็นธรรมชาติและเข้าถึงได้มากขึ้น ในระยะยาว บริษัทจินตนาการถึงประสบการณ์โทรคมนาคมแบบสนทนาและคำนึงถึงบริบท ซึ่งก้าวไปไกลกว่าการนำทางแอพแบบเดิมๆ ช่วยให้ผู้ปฏิบัติงานส่งมอบการมีส่วนร่วมของลูกค้าในเชิงรุกและเป็นส่วนตัวมากขึ้น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Join the new era of work",
+        "th": "เข้าร่วมยุคใหม่ของการทำงาน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "อ่านต่อ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/RjXEDZCs05kKmaPL1jE4e/38a319c88829e42fc259193178144ecf/introducing-ai-futures-card-ocean-blue-1080x1080.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing AI Futures – Card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "AI FuturesAug 20, 2026",
+        "th": "AI Futures20 ส.ค. 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3xEyRSvkAPmbr2ub5jaJUz/4d5ce10e48995a14263aa1e2c7f696cc/stampli-art-card-hero-1x1-v2-ribbed.png?w=3840&q=90&fm=webp",
+      "alt": "Stampli Customer Story Art Card / Hero Image - Ribbed Blue V2"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Aug 20, 2026",
+        "th": "20 ส.ค. 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6bPStWA6pc66cahnhg0jo6/61786b178401b6e902e9da65fa4da095/Blog_Thumbnail_-_OpenAI_Blog.png?w=3840&q=90&fm=webp",
+      "alt": "Our commitment to Zero Data Retention as AI advances — card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanyAug 19, 2026",
+        "th": "บริษัท19 ส.ค.2569"
       }
     }
   ]

@@ -18,8 +18,226 @@
     {
       "type": "p",
       "text": {
-        "en": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
-        "th": "OpenAI แบ่งปันผลลัพธ์ใหม่เกี่ยวกับปัญหาเปิดที่มีมายาวนานในด้านคณิตศาสตร์และวิทยาการคอมพิวเตอร์เชิงทฤษฎี รวมถึงความก้าวหน้าทางเรขาคณิต การเข้ารหัส และความซับซ้อน"
+        "en": "August 1, 2026",
+        "th": "1 สิงหาคม 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The results",
+        "th": "ผลลัพธ์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Responsibility to the mathematical community",
+        "th": "ความรับผิดชอบต่อชุมชนคณิตศาสตร์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The results",
+        "th": "ผลลัพธ์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Responsibility to the mathematical community",
+        "th": "ความรับผิดชอบต่อชุมชนคณิตศาสตร์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We want to empower scientists and mathematicians with tools that accelerate discovery. That is why we recently announced ChatGPT for Academic Researchers⁠, an initiative providing 100,000 scientists and mathematicians with free access to our best ChatGPT models. We also continue to evaluate our models on open research problems during development.",
+        "th": "เราต้องการเสริมศักยภาพให้กับนักวิทยาศาสตร์และนักคณิตศาสตร์ด้วยเครื่องมือที่ช่วยเร่งการค้นพบ นั่นคือเหตุผลที่เราเพิ่งประกาศ ChatGPT สำหรับนักวิจัยทางวิชาการ ซึ่งเป็นโครงการริเริ่มที่ให้นักวิทยาศาสตร์และนักคณิตศาสตร์ 100,000 คนเข้าถึงโมเดล ChatGPT ที่ดีที่สุดของเราได้ฟรี นอกจากนี้เรายังประเมินแบบจำลองของเราเกี่ยวกับปัญหาการวิจัยแบบเปิดในระหว่างการพัฒนาต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In May, we shared an AI-generated disproof⁠ of the Erdős unit-distance conjecture, discovered while evaluating an unreleased model. This work has already inspired further developments in mathematics and theoretical computer science1. Today, we are sharing a selection of ten results, each of which resolves or makes substantial progress on a long-standing open problem. These problems span high-dimensional geometry, coding theory, arithmetic circuit complexity, group theory, operator algebras, quantum complexity, lattice cryptography and extremal combinatorics. All of these problems are of substantial interest to their respective mathematical communities, and several are of broad interest across mathematics as a whole.",
+        "th": "ในเดือนพฤษภาคม เราได้แชร์การปฏิเสธที่ AI สร้างขึ้นของการคาดเดาระยะทางต่อหน่วยของErdős ซึ่งค้นพบขณะประเมินโมเดลที่ยังไม่ได้เผยแพร่ งานนี้ได้สร้างแรงบันดาลใจให้เกิดการพัฒนาเพิ่มเติมในด้านคณิตศาสตร์และวิทยาการคอมพิวเตอร์เชิงทฤษฎี1 วันนี้ เรากำลังแบ่งปันผลลัพธ์ 10 รายการที่ได้รับการคัดสรร ซึ่งแต่ละผลลัพธ์จะช่วยแก้ไขหรือสร้างความก้าวหน้าอย่างมากเกี่ยวกับปัญหาเปิดที่มีมายาวนาน ปัญหาเหล่านี้ครอบคลุมถึงเรขาคณิตมิติสูง ทฤษฎีการเข้ารหัส ความซับซ้อนของวงจรเลขคณิต ทฤษฎีกลุ่ม พีชคณิตโอเปอเรเตอร์ ความซับซ้อนของควอนตัม วิทยาการเข้ารหัสลับแบบแลตทิซ และเชิงร่วมขั้นสุด ปัญหาทั้งหมดนี้เป็นที่สนใจอย่างมากต่อชุมชนคณิตศาสตร์ของตน และอีกหลายปัญหาเป็นที่สนใจในวงกว้างเกี่ยวกับคณิตศาสตร์โดยรวม"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The results",
+        "th": "ผลลัพธ์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We provide new results for the following problems. The results were achieved by an internal version of Astra, our next major model. The total number of tokens needed to find solutions to these problems would cost roughly $2,000 at Sol API rates. These arguments were then prepared into manuscripts by humans with the same model. Afterward, the model formalized each argument in a Lean certificate⁠(opens in a new window). We are also releasing for each solution a model’s narration of its thinking process.",
+        "th": "เราให้ผลลัพธ์ใหม่สำหรับปัญหาต่อไปนี้ ผลลัพธ์ที่ได้มาจาก Astra เวอร์ชันภายใน ซึ่งเป็นโมเดลหลักถัดไปของเรา จำนวนโทเค็นทั้งหมดที่จำเป็นในการค้นหาวิธีแก้ปัญหาเหล่านี้จะมีราคาประมาณ 2,000 ดอลลาร์สหรัฐฯ ในอัตรา Sol API ข้อโต้แย้งเหล่านี้ได้รับการจัดทำเป็นต้นฉบับโดยมนุษย์ที่มีรูปแบบเดียวกัน หลังจากนั้น โมเดลได้ทำให้แต่ละอาร์กิวเมนต์อย่างเป็นทางการในใบรับรองแบบ Lean (เปิดในหน้าต่างใหม่) นอกจากนี้เรายังเผยแพร่คำอธิบายของแบบจำลองเกี่ยวกับกระบวนการคิดสำหรับแต่ละโซลูชันอีกด้วย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "High-dimensional sphere packing. New upper bounds on sphere-packing density down to the Cohn–Elkies threshold.",
+        "th": "การบรรจุทรงกลมมิติสูง ขอบเขตบนใหม่เกี่ยวกับความหนาแน่นของการอัดทรงกลมจนถึงเกณฑ์ Cohn–Elkies"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Binary and spherical codes. Exponentially improved bounds on the maximum size of binary codes at any prescribed minimum distance, with analogous results for high-dimensional spherical codes.",
+        "th": "รหัสไบนารี่และทรงกลม ขอบเขตที่ได้รับการปรับปรุงแบบเอ็กซ์โปเนนเชียลในขนาดสูงสุดของรหัสไบนารี่ที่ระยะห่างต่ำสุดที่กำหนด พร้อมผลลัพธ์ที่คล้ายคลึงกันสำหรับรหัสทรงกลมที่มีมิติสูง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Non-sofic groups. A construction establishing the existence of non-sofic groups, addressing a central open question in group theory.",
+        "th": "กลุ่มที่ไม่ใช่โซฟิค โครงสร้างที่สร้างความมีอยู่ของกลุ่มที่ไม่ใช่โซฟิก โดยตอบคำถามเปิดกลางในทฤษฎีกลุ่ม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Connes’s rigidity conjecture. Disproof of a longstanding conjecture that certain groups are uniquely determined by their von Neumann algebras.",
+        "th": "การคาดเดาความแข็งแกร่งของ Connes ข้อพิสูจน์ของการคาดเดาที่มีมายาวนานว่ากลุ่มบางกลุ่มถูกกำหนดโดยพีชคณิตของฟอนนอยมันน์โดยเฉพาะ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Arithmetic circuit complexity. New lower bounds for computing the permanent using arithmetic circuits and formulas, including an arithmetic-formula lower bound of order n4/log n.",
+        "th": "ความซับซ้อนของวงจรเลขคณิต ขอบเขตล่างใหม่สำหรับการคำนวณค่าถาวรโดยใช้วงจรและสูตรทางคณิตศาสตร์ รวมถึงขอบเขตล่างของสูตรเลขคณิตของลำดับ n4/log n"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Quantum parallel repetition. An exponential parallel repetition theorem for general two-player quantum games, extending a foundational principle from classical complexity theory.",
+        "th": "การทำซ้ำขนานควอนตัม ทฤษฎีบทการทำซ้ำแบบขนานเอ็กซ์โพเนนเชียลสำหรับเกมควอนตัมที่มีผู้เล่นสองคนทั่วไป ซึ่งขยายหลักการพื้นฐานจากทฤษฎีความซับซ้อนแบบคลาสสิก"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Closest vector problem. Polynomial-factor hardness of approximation for the closest vector problem, a foundational lattice question related to post-quantum cryptography.",
+        "th": "ปัญหาเวกเตอร์ที่ใกล้ที่สุด ความแข็งแบบพหุนามแฟกเตอร์ของการประมาณสำหรับปัญหาเวกเตอร์ที่ใกล้ที่สุด ซึ่งเป็นคำถามพื้นฐานที่เกี่ยวข้องกับการเข้ารหัสหลังควอนตัม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Ehrhart’s volume conjecture. Determining, in every dimension, the maximum possible volume of a convex body whose centroid is its only interior lattice point.",
+        "th": "การคาดเดาปริมาณของ Ehrhart การหาปริมาตรสูงสุดที่เป็นไปได้ของวัตถุส่วนนูนที่มีเซนทรอยด์เป็นจุดขัดแตะภายในจุดเดียวในทุกมิติ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Multicolor Ramsey numbers. A superexponential lower bound for multicolor triangle Ramsey numbers, resolving Erdős problem 183.",
+        "th": "ตัวเลขหลากสีแรมซีย์ ขอบล่างสุดเอ็กซ์โพเนนเชียลของเลขแรมซีย์สามเหลี่ยมหลากสี แก้ปัญหาแอร์ดอส 183"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Extremal number conjectures. Results on the compactness and degeneracy conjectures in extremal graph theory, resolving Erdős problems 146 and 180.",
+        "th": "การคาดเดาจำนวนเอกพจน์ ผลลัพธ์จากการคาดคะเนความแน่นและความเสื่อมในทฤษฎีกราฟเอ็กซ์ตรีม ซึ่งช่วยแก้ปัญหาแอร์ดอส 146 และ 180"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Responsibility to the mathematical community",
+        "th": "ความรับผิดชอบต่อชุมชนคณิตศาสตร์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The emergence of systems capable of contributing to mathematical research raises questions that cannot be answered by a technology company alone. There are many views as to the role of AI in mathematics, and we have deep respect and understanding for those concerned with its impact, including the signers of the Leiden declaration on AI and Mathematics⁠(opens in a new window). We believe attribution should honestly reflect how a result was produced: claiming human authorship for a proof generated entirely by an AI system would misrepresent both the system’s contribution and the nature of genuine human intellectual work. We helped prepare the manuscripts and formalize the proofs in Lean, and we take responsibility for their correctness, while the mathematical arguments themselves were generated by our system. We hope the mathematical community will engage deeply with these results, place them in context, and bring the ideas behind them to life through new research and discovery.",
+        "th": "การเกิดขึ้นของระบบที่มีความสามารถในการสนับสนุนการวิจัยทางคณิตศาสตร์ทำให้เกิดคำถามที่บริษัทเทคโนโลยีเพียงอย่างเดียวไม่สามารถตอบได้ มีมุมมองมากมายเกี่ยวกับบทบาทของ AI ในคณิตศาสตร์ และเรามีความเคารพและความเข้าใจอย่างลึกซึ้งต่อผู้ที่เกี่ยวข้องกับผลกระทบของ AI ซึ่งรวมถึงผู้ลงนามในปฏิญญาไลเดนเกี่ยวกับ AI และคณิตศาสตร์ (เปิดในหน้าต่างใหม่) เราเชื่อว่าการระบุแหล่งที่มาควรสะท้อนถึงผลลัพธ์ที่เกิดขึ้นอย่างตรงไปตรงมา การอ้างว่าการประพันธ์โดยมนุษย์เพื่อพิสูจน์ที่สร้างขึ้นโดยระบบ AI ทั้งหมดจะบิดเบือนความจริงทั้งการมีส่วนร่วมของระบบและลักษณะของงานทางปัญญาของมนุษย์อย่างแท้จริง เราช่วยเตรียมต้นฉบับและจัดรูปแบบการพิสูจน์แบบ Lean และเรารับผิดชอบต่อความถูกต้อง ในขณะที่ข้อโต้แย้งทางคณิตศาสตร์ถูกสร้างขึ้นโดยระบบของเรา เราหวังว่าชุมชนคณิตศาสตร์จะมีส่วนร่วมอย่างลึกซึ้งกับผลลัพธ์เหล่านี้ จัดให้อยู่ในบริบท และนำแนวคิดเบื้องหลังมาสู่ความเป็นจริงผ่านการวิจัยและการค้นพบใหม่ๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As AI systems evolve into more sophisticated research collaborators, ensuring widespread access is fundamental to supporting scientists and mathematicians as they navigate and define the future of their disciplines during this transformative era.",
+        "th": "เนื่องจากระบบ AI พัฒนาเป็นผู้ทำงานร่วมกันในการวิจัยที่มีความซับซ้อนมากขึ้น การเข้าถึงอย่างแพร่หลายจึงเป็นพื้นฐานในการสนับสนุนนักวิทยาศาสตร์และนักคณิตศาสตร์ในขณะที่พวกเขานำทางและกำหนดอนาคตของสาขาวิชาของตนในยุคการเปลี่ยนแปลงนี้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Footnote",
+        "th": "เชิงอรรถ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1Subsequent research includes Bloom, Sawin, Schildkraut, and Zhelezov, “The sum-product conjecture is false for real numbers⁠(opens in a new window)”; Pohoata, “Split primes and the Elekes-Rónyai problem⁠(opens in a new window)”; Saha, Xu, and Ye, “Furthest Pair Requires Quadratic Time in Superconstant Dimension under SETH⁠(opens in a new window)”; Goh and Hatami, “Communication complexity of point-line incidences over the reals⁠(opens in a new window)”; and Lee, Pohoata, and Zhu, “The Minkowski grid has robustly many repeated distances⁠(opens in a new window).”",
+        "th": "1การวิจัยครั้งต่อมา ได้แก่ Bloom, Sawin, Schildkraut และ Zhelezov \"การคาดเดาผลรวมเป็นเท็จสำหรับจำนวนจริง (opens in a new window)\"; Pohoata “การแบ่งจำนวนเฉพาะและปัญหา Elekes-Rónyai (เปิดในหน้าต่างใหม่)”; สห ซู และเย่ “คู่ที่ไกลที่สุดต้องใช้เวลากำลังสองในมิติคงที่ยิ่งยวดภายใต้ SETH (เปิดในหน้าต่างใหม่)”; Goh และ Hatami \"ความซับซ้อนในการสื่อสารของอุบัติการณ์แบบ point-line เหนือความเป็นจริง (opens in a new window)\"; และ Lee, Pohoata และ Zhu “ตาราง Minkowski มีระยะทางที่ซ้ำกันอย่างมาก (เปิดในหน้าต่างใหม่)”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Subsequent research includes Bloom, Sawin, Schildkraut, and Zhelezov, “The sum-product conjecture is false for real numbers⁠(opens in a new window)”; Pohoata, “Split primes and the Elekes-Rónyai problem⁠(opens in a new window)”; Saha, Xu, and Ye, “Furthest Pair Requires Quadratic Time in Superconstant Dimension under SETH⁠(opens in a new window)”; Goh and Hatami, “Communication complexity of point-line incidences over the reals⁠(opens in a new window)”; and Lee, Pohoata, and Zhu, “The Minkowski grid has robustly many repeated distances⁠(opens in a new window).”",
+        "th": "การวิจัยครั้งต่อไป ได้แก่ Bloom, Sawin, Schildkraut และ Zhelezov \"การคาดเดาผลรวมเป็นเท็จสำหรับจำนวนจริง (opens in a new window)\"; Pohoata “การแบ่งจำนวนเฉพาะและปัญหา Elekes-Rónyai (เปิดในหน้าต่างใหม่)”; สห ซู และเย่ “คู่ที่ไกลที่สุดต้องใช้เวลากำลังสองในมิติคงที่ยิ่งยวดภายใต้ SETH (เปิดในหน้าต่างใหม่)”; Goh และ Hatami \"ความซับซ้อนในการสื่อสารของอุบัติการณ์แบบ point-line เหนือความเป็นจริง (opens in a new window)\"; และ Lee, Pohoata และ Zhu “ตาราง Minkowski มีระยะทางที่ซ้ำกันอย่างมาก (เปิดในหน้าต่างใหม่)”"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "อ่านต่อ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3tUOfo4E1xZComoOiRjHJm/51c532f25dd4062f92bff0e41ea00c3c/index-pacing-model-development-cyber-capabilities-dark-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Pacing model development in an era of cyber-critical capabilities — Card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanyAug 18, 2026",
+        "th": "บริษัท18 ส.ค.2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/71xyJRWnTkM6EW1JKDUc59/91d2690ff9e7abaa975b4a5f64089056/ARC-AGI-3_art-card_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "ARC-AGI-3 art-card 1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchJul 29, 2026",
+        "th": "การวิจัย 29 ก.ค. 2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5opqp3rNWM7eax6GUc6MAl/1c710a4aba8c5c1e0b7d1c1c7c8b32db/1x1__1_.png?w=3840&q=90&fm=webp",
+      "alt": "Scientific computing agentic AI card image (1x1)"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "PublicationJul 28, 2026",
+        "th": "การตีพิมพ์ 28 ก.ค. 2569"
       }
     }
   ]

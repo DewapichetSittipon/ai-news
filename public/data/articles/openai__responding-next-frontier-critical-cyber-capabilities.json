@@ -18,8 +18,205 @@
     {
       "type": "p",
       "text": {
-        "en": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
-        "th": "OpenAI กำลังแบ่งปันการประเมินความปลอดภัยทางไซเบอร์เบื้องต้นสำหรับ Astra และขั้นตอนที่เรากำลังดำเนินการเพื่อเสริมสร้างการป้องกันและการควบคุมความปลอดภัย"
+        "en": "August 7, 2026",
+        "th": "7 สิงหาคม 2569"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Measuring critical cybersecurity capabilities",
+        "th": "การวัดความสามารถด้านความปลอดภัยทางไซเบอร์ที่สำคัญ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Steps we are taking",
+        "th": "ขั้นตอนที่เรากำลังดำเนินการ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Measuring critical cybersecurity capabilities",
+        "th": "การวัดความสามารถด้านความปลอดภัยทางไซเบอร์ที่สำคัญ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Steps we are taking",
+        "th": "ขั้นตอนที่เรากำลังดำเนินการ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cybersecurity is rapidly changing as models become more capable in ways that can both strengthen cyberdefenses and enable attacks at unprecedented speed and scale.",
+        "th": "การรักษาความปลอดภัยทางไซเบอร์กำลังเปลี่ยนแปลงอย่างรวดเร็ว เนื่องจากโมเดลมีความสามารถมากขึ้นในรูปแบบที่สามารถเสริมความแข็งแกร่งให้กับการป้องกันทางไซเบอร์และเปิดใช้งานการโจมตีด้วยความเร็วและขนาดที่ไม่เคยมีมาก่อน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our latest internal evaluations of Astra, one of our upcoming models, over the past few days indicate significant advancements in agentic coding and cybersecurity. These results, in addition to expert assessments, have led us to conclude last night that we cannot rule out critical cyber capabilities under our Preparedness Framework⁠(opens in a new window).",
+        "th": "การประเมินภายในล่าสุดของเราเกี่ยวกับ Astra ซึ่งเป็นหนึ่งในโมเดลที่กำลังจะเปิดตัวในช่วงไม่กี่วันที่ผ่านมา บ่งชี้ถึงความก้าวหน้าที่สำคัญในการเข้ารหัสแบบเอเจนต์และความปลอดภัยทางไซเบอร์ ผลลัพธ์เหล่านี้ นอกเหนือจากการประเมินโดยผู้เชี่ยวชาญ ทำให้เราสรุปเมื่อคืนนี้ว่าเราไม่สามารถตัดทอนความสามารถทางไซเบอร์ที่สำคัญได้ภายใต้กรอบการเตรียมความพร้อมของเรา (เปิดในหน้าต่างใหม่)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are sharing this because we believe it’s important to be transparent with the public and the safety and security communities about this potential shift in capabilities.",
+        "th": "เรากำลังแบ่งปันสิ่งนี้เนื่องจากเราเชื่อว่าความโปร่งใสต่อสาธารณะและชุมชนความปลอดภัยและการรักษาความปลอดภัยเกี่ยวกับการเปลี่ยนแปลงความสามารถที่อาจเกิดขึ้นนี้ถือเป็นสิ่งสำคัญ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We first published our Preparedness Framework in December 2023, well before models approached biological, chemical, cybersecurity, and AI self-improvement capabilities at this level. We created it to give us a guide for identifying progress in capability and then planning what our company would do as those capabilities emerge. Previous models, including GPT‑5.6‑Sol, have been evaluated for frontier cyber capabilities and assessed at the High (rather than Critical) threshold.",
+        "th": "เราเผยแพร่กรอบการเตรียมความพร้อมของเราเป็นครั้งแรกในเดือนธันวาคม 2023 ก่อนที่โมเดลจะเข้าถึงความสามารถทางชีวภาพ เคมี ความปลอดภัยทางไซเบอร์ และการพัฒนาตนเองของ AI ในระดับนี้ เราสร้างขึ้นเพื่อเป็นแนวทางในการระบุความก้าวหน้าในความสามารถ จากนั้นจึงวางแผนว่าบริษัทของเราจะทำอะไรเมื่อความสามารถเหล่านั้นเกิดขึ้น รุ่นก่อนหน้านี้ รวมถึง GPT-5.6-Sol ได้รับการประเมินความสามารถทางไซเบอร์ระดับแนวหน้าและประเมินที่เกณฑ์ระดับสูง (แทนที่จะเป็นระดับวิกฤต)"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Measuring critical cybersecurity capabilities",
+        "th": "การวัดความสามารถด้านความปลอดภัยทางไซเบอร์ที่สำคัญ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Under our Preparedness Framework, a model reaches the Critical cybersecurity threshold if it can identify and develop functional zero-day exploits of all severity levels in many hardened real-world critical systems without human intervention, or can devise and execute end-to-end novel strategies for cyberattacks against hardened targets given only a high level desired goal.",
+        "th": "ภายใต้กรอบการเตรียมพร้อมของเรา แบบจำลองจะถึงเกณฑ์ความปลอดภัยทางไซเบอร์ระดับวิกฤต หากสามารถระบุและพัฒนาช่องโหว่แบบ Zero-day ที่ใช้งานได้ของระดับความรุนแรงทั้งหมดในระบบที่สำคัญในโลกแห่งความเป็นจริงที่แข็งแกร่งขึ้นจำนวนมากโดยไม่มีการแทรกแซงของมนุษย์ หรือสามารถคิดค้นและดำเนินการกลยุทธ์ใหม่แบบ end-to-end สำหรับการโจมตีทางไซเบอร์ต่อเป้าหมายที่แข็งแกร่งขึ้นโดยมีเป้าหมายในระดับสูงที่ต้องการเท่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "While we continue to benchmark and assess this model, our preliminary evaluations indicate strong enough performance that we cannot rule out Critical capability level at this time. Astra is an upcoming model, and was not involved in exploiting Hugging Face.",
+        "th": "ในขณะที่เราดำเนินการเปรียบเทียบและประเมินโมเดลนี้ต่อไป การประเมินเบื้องต้นของเราบ่งชี้ถึงประสิทธิภาพที่แข็งแกร่งเพียงพอซึ่งเราไม่สามารถแยกแยะระดับความสามารถที่สำคัญได้ในขณะนี้ Astra เป็นโมเดลที่กำลังจะเปิดตัว และไม่เกี่ยวข้องกับการใช้ประโยชน์จาก Hugging Face"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Steps we are taking",
+        "th": "ขั้นตอนที่เรากำลังดำเนินการ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Accordingly, we have scaled up robustness testing of our safeguards and security controls so that they are appropriate for a deployment of these capabilities. Internally, we have also taken the following steps so that further development of this model happens safely and securely:",
+        "th": "ดังนั้นเราจึงได้ขยายการทดสอบความแข็งแกร่งของระบบป้องกันและการควบคุมความปลอดภัยของเรา เพื่อให้เหมาะสมสำหรับการปรับใช้ความสามารถเหล่านี้ ภายใน เราได้ดำเนินการตามขั้นตอนต่อไปนี้เพื่อให้การพัฒนาแบบจำลองนี้เพิ่มเติมเกิดขึ้นอย่างปลอดภัย:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We are implementing stricter security controls for higher-capability models and associated activities, including isolated testing environments, restricted network and tool access, enhanced model weight protections and encryption, additional monitoring and detection capabilities, and sandboxed execution.",
+        "th": "เรากำลังใช้การควบคุมความปลอดภัยที่เข้มงวดยิ่งขึ้นสำหรับโมเดลที่มีความสามารถสูงกว่าและกิจกรรมที่เกี่ยวข้อง รวมถึงสภาพแวดล้อมการทดสอบแบบแยก การเข้าถึงเครือข่ายและเครื่องมือที่จำกัด การป้องกันและการเข้ารหัสน้ำหนักโมเดลที่ได้รับการปรับปรุง ความสามารถในการตรวจสอบและตรวจจับเพิ่มเติม และการดำเนินการแบบแซนด์บ็อกซ์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We are pausing internal activities involving Astra that do not yet meet these strengthened security control requirements.",
+        "th": "เรากำลังหยุดกิจกรรมภายในที่เกี่ยวข้องกับ Astra ที่ยังไม่เป็นไปตามข้อกำหนดการควบคุมความปลอดภัยที่เข้มงวดยิ่งขึ้นเหล่านี้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We have implemented universal monitoring for risky actions and misalignment across all agentic applications of Astra, including training and evaluation. Monitors evaluate the model's Chain of Thought and trigger a security response to review and interrupt high risk activity.",
+        "th": "เราได้ใช้การตรวจสอบแบบสากลสำหรับการกระทำที่มีความเสี่ยงและการวางตำแหน่งที่ไม่ถูกต้องในแอปพลิเคชันตัวแทนทั้งหมดของ Astra รวมถึงการฝึกอบรมและการประเมินผล จอภาพจะประเมินห่วงโซ่แห่งความคิดของโมเดลและกระตุ้นการตอบสนองด้านความปลอดภัยเพื่อตรวจสอบและขัดขวางกิจกรรมที่มีความเสี่ยงสูง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We will work with relevant government agencies and select AI safety organizations to test the capabilities for this model.",
+        "th": "เราจะทำงานร่วมกับหน่วยงานภาครัฐที่เกี่ยวข้องและเลือกองค์กรด้านความปลอดภัยของ AI เพื่อทดสอบความสามารถของโมเดลนี้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We will be providing recommended security controls to third-party testing partners for running higher risk evaluations and workloads safely.",
+        "th": "เราจะมอบการควบคุมความปลอดภัยที่แนะนำแก่พันธมิตรการทดสอบบุคคลที่สามเพื่อดำเนินการประเมินความเสี่ยงและปริมาณงานที่สูงขึ้นได้อย่างปลอดภัย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The framework has already guided us through other capability transitions. In June 2025, as our models approached the high capability threshold for biology under the Preparedness Framework, we outlined the steps we were taking to strengthen safeguards, expand testing, work with external experts, and deploy additional security controls. We are applying the same principle here.",
+        "th": "กรอบการทำงานนี้ได้นำทางเราผ่านการเปลี่ยนแปลงความสามารถอื่นๆ แล้ว ในเดือนมิถุนายน ปี 2025 ขณะที่แบบจำลองของเราเข้าใกล้ขีดจำกัดความสามารถสูงสำหรับชีววิทยาภายใต้กรอบการเตรียมความพร้อม เราได้สรุปขั้นตอนที่เราดำเนินการเพื่อเสริมสร้างการป้องกัน ขยายการทดสอบ ทำงานร่วมกับผู้เชี่ยวชาญภายนอก และปรับใช้การควบคุมความปลอดภัยเพิ่มเติม เรากำลังใช้หลักการเดียวกันนี้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We believe advanced cyber-capable models should help defenders identify and address vulnerabilities before attackers do. We’re committed to working alongside governments, safety institutes, and civil society to ensure that the frontier capabilities of models like Astra, and those that follow, are deployed responsibly and broadly for the benefit of all humanity.",
+        "th": "เราเชื่อว่าโมเดลขั้นสูงที่มีความสามารถทางไซเบอร์ควรช่วยให้ผู้ปกป้องระบุและแก้ไขช่องโหว่ก่อนที่ผู้โจมตีจะทำ เรามุ่งมั่นที่จะทำงานร่วมกับรัฐบาล สถาบันความปลอดภัย และภาคประชาสังคมเพื่อให้แน่ใจว่าความสามารถระดับแนวหน้าของโมเดลอย่าง Astra และรุ่นที่ตามมานั้น ได้รับการปรับใช้อย่างรับผิดชอบและในวงกว้างเพื่อประโยชน์ของมวลมนุษยชาติ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "ผู้เขียน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "อ่านต่อ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2We7bguC4FuOofZ8Lu6LUZ/02049fcee47c460695acab59bdb8f648/the-defenders-window-clean-cover.png?w=3840&q=90&fm=webp",
+      "alt": "The Defender’s Window > Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SecurityAug 17, 2026",
+        "th": "ความปลอดภัย 17 ส.ค. 2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2iqsbTTLvgMNteNampw3gW/a38ed04432ee5548c4aec6c7b7a506f2/1x1_Art_Card.png?w=3840&q=90&fm=webp",
+      "alt": "GPT-Daybreak > Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SecurityAug 10, 2026",
+        "th": "ความปลอดภัย 10 ส.ค. 2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3AQ3qKm4Rmbjm2C1cLKvkJ/d049df2fdc96d1c5dfc695f00c257ce2/Art_Card.png?w=3840&q=90&fm=webp",
+      "alt": "Daybreak partners 1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SecurityAug 10, 2026",
+        "th": "ความปลอดภัย 10 ส.ค. 2569"
       }
     }
   ]

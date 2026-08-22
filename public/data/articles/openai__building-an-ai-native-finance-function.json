@@ -18,8 +18,563 @@
     {
       "type": "p",
       "text": {
-        "en": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
-        "th": "Sarah Friar CFO ของ OpenAI แบ่งปันบทเรียนห้าบทสำหรับการสร้างฟังก์ชันการเงินแบบ AI ตั้งแต่การคาดการณ์อัตโนมัติไปจนถึงการควบคุมที่แข็งแกร่งขึ้นและ ROI ของ AI"
+        "en": "August 10, 2026",
+        "th": "10 สิงหาคม 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Five lessons for CFOs redesigning work around artificial intelligence.",
+        "th": "บทเรียน 5 บทสำหรับ CFO ที่ออกแบบงานด้านปัญญาประดิษฐ์ใหม่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1. Give everyone access, then create a reason to use it",
+        "th": "1. ให้สิทธิ์ทุกคนในการเข้าถึง จากนั้นสร้างเหตุผลในการใช้งาน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2. Redesign the full workflow around the decision",
+        "th": "2. ออกแบบขั้นตอนการทำงานทั้งหมดเกี่ยวกับการตัดสินใจใหม่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "3. Finance professionals become builders",
+        "th": "3. ผู้เชี่ยวชาญด้านการเงินกลายเป็นผู้สร้าง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "4. Pair speed with clear accountability and controls",
+        "th": "4. จับคู่ความเร็วพร้อมความรับผิดชอบและการควบคุมที่ชัดเจน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "5. Measure value per unit of intelligence",
+        "th": "5. วัดมูลค่าต่อหน่วยสติปัญญา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The CFO’s opportunity",
+        "th": "โอกาสของ CFO"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1. Give everyone access, then create a reason to use it",
+        "th": "1. ให้สิทธิ์ทุกคนในการเข้าถึง จากนั้นสร้างเหตุผลในการใช้งาน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2. Redesign the full workflow around the decision",
+        "th": "2. ออกแบบขั้นตอนการทำงานทั้งหมดเกี่ยวกับการตัดสินใจใหม่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "3. Finance professionals become builders",
+        "th": "3. ผู้เชี่ยวชาญด้านการเงินกลายเป็นผู้สร้าง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "4. Pair speed with clear accountability and controls",
+        "th": "4. จับคู่ความเร็วพร้อมความรับผิดชอบและการควบคุมที่ชัดเจน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "5. Measure value per unit of intelligence",
+        "th": "5. วัดมูลค่าต่อหน่วยสติปัญญา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The CFO’s opportunity",
+        "th": "โอกาสของ CFO"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By Sarah Friar",
+        "th": "โดย ซาราห์ ไฟรอาร์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Finance has become a real-time function. To me, the opportunity is much bigger than closing the books faster or refreshing a forecast more often. It is about seeing the business as it changes, helping leaders act sooner, and giving finance teams more time to shape what happens next.",
+        "th": "การเงินได้กลายเป็นฟังก์ชันเรียลไทม์ สำหรับฉัน โอกาสนั้นยิ่งใหญ่กว่าการปิดหนังสือเร็วขึ้นหรือรีเฟรชการคาดการณ์บ่อยกว่ามาก เป็นเรื่องเกี่ยวกับการมองเห็นธุรกิจในขณะที่มีการเปลี่ยนแปลง ช่วยให้ผู้นำดำเนินการได้เร็วขึ้น และให้เวลาทีมการเงินมีเวลามากขึ้นในการกำหนดทิศทางว่าจะเกิดอะไรขึ้นต่อไป"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When I joined OpenAI two years ago, there was only a small finance team supporting a company growing at extraordinary speed. We needed to build the function from the ground up and make AI fundamental to how we work, make decisions, and support the business.",
+        "th": "ตอนที่ฉันเข้าร่วม OpenAI เมื่อสองปีที่แล้ว มีเพียงทีมการเงินเล็กๆ ที่สนับสนุนบริษัทที่เติบโตอย่างรวดเร็วเป็นพิเศษ เราจำเป็นต้องสร้างฟังก์ชันตั้งแต่เริ่มต้น และทำให้ AI เป็นพื้นฐานของวิธีการทำงาน การตัดสินใจ และการสนับสนุนธุรกิจ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "I also saw a familiar starting point. Closing the books and updating forecasts still involved manual, recurring work: finding information, explaining what changed, and assembling the inputs for a decision. We had access to the most advanced AI tools in the world, and we were still learning how to redesign finance around them.",
+        "th": "ฉันยังเห็นจุดเริ่มต้นที่คุ้นเคย การปิดบัญชีและการอัปเดตการคาดการณ์ยังคงเกี่ยวข้องกับงานที่ทำด้วยตนเองและเกิดซ้ำ เช่น การค้นหาข้อมูล อธิบายสิ่งที่เปลี่ยนแปลง และการรวบรวมปัจจัยนำเข้าสำหรับการตัดสินใจ เราสามารถเข้าถึงเครื่องมือ AI ที่ทันสมัยที่สุดในโลก และเรายังคงเรียนรู้วิธีการออกแบบการเงินรอบตัวใหม่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "So we set two bold ambitions: a zero-day close and automated, continuously updated forecasting.",
+        "th": "ดังนั้นเราจึงตั้งเป้าหมายที่ชัดเจนสองประการ: การปิดศูนย์วัน และการคาดการณ์อัตโนมัติที่อัปเดตอย่างต่อเนื่อง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The idea behind a zero-day close is to give leaders a real-time, reconciled, and traceable view of the company’s financial position. Continuous forecasting builds on that foundation, showing how the business is changing, what could happen next, and which decisions could alter the outcome.",
+        "th": "แนวคิดเบื้องหลังการปิดศูนย์วันคือการทำให้ผู้นำมีมุมมองสถานะทางการเงินของบริษัทแบบเรียลไทม์ ปรับสมดุล และตรวจสอบย้อนกลับได้ การคาดการณ์อย่างต่อเนื่องสร้างขึ้นบนรากฐานดังกล่าว โดยแสดงให้เห็นว่าธุรกิจกำลังเปลี่ยนแปลงไปอย่างไร สิ่งที่อาจเกิดขึ้นต่อไป และการตัดสินใจใดที่อาจเปลี่ยนแปลงผลลัพธ์ได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are still building toward both ambitions. The work has already changed how our team operates. It has pushed us beyond the limitations of static spreadsheets, manual searches for supporting records, and presentations toward live tools built on the full context and data of the business. It has also given finance professionals the ability to build the tools their work requires and carry their expertise further.",
+        "th": "เรายังคงมุ่งสู่ความทะเยอทะยานทั้งสองประการ งานได้เปลี่ยนแปลงวิธีการทำงานของทีมของเราไปแล้ว มันผลักดันให้เราก้าวข้ามข้อจำกัดของสเปรดชีตแบบคงที่ การค้นหาบันทึกสนับสนุนด้วยตนเอง และการนำเสนอไปสู่เครื่องมือที่ใช้งานจริงซึ่งสร้างขึ้นจากบริบทและข้อมูลทั้งหมดของธุรกิจ นอกจากนี้ยังช่วยให้ผู้เชี่ยวชาญด้านการเงินสามารถสร้างเครื่องมือในการทำงานที่ต้องการและนำความเชี่ยวชาญของตนไปต่อยอดได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For me, that is the real promise of an AI-native finance function: a team that understands what is happening as it happens, helps leaders see the choices ahead, and gives the business more time to act while the outcome can still change.",
+        "th": "สำหรับฉัน นั่นคือคำมั่นสัญญาที่แท้จริงของฟังก์ชันการเงินแบบ AI: ทีมที่เข้าใจสิ่งที่เกิดขึ้นในขณะที่มันเกิดขึ้น ช่วยให้ผู้นำมองเห็นตัวเลือกที่อยู่ข้างหน้า และทำให้ธุรกิจมีเวลามากขึ้นในการดำเนินการในขณะที่ผลลัพธ์ยังคงเปลี่ยนแปลงได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Getting there requires more than adopting new technology. It requires redesigning work around the decisions that matter, giving people room to experiment, building clear accountability into every workflow, and measuring the dependable work AI completes to provide a clear ROI.",
+        "th": "การจะไปถึงจุดนั้นต้องการมากกว่าการนำเทคโนโลยีใหม่ๆ มาใช้ จำเป็นต้องมีการออกแบบงานใหม่เกี่ยวกับการตัดสินใจที่สำคัญ ให้พื้นที่ผู้คนในการทดลอง สร้างความรับผิดชอบที่ชัดเจนในทุกขั้นตอนการทำงาน และการวัดงานที่เชื่อถือได้ที่ AI ดำเนินการเสร็จสิ้นเพื่อสร้าง ROI ที่ชัดเจน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Here are five practical lessons from our experience that every CFO can apply.",
+        "th": "ต่อไปนี้เป็นบทเรียนเชิงปฏิบัติ 5 บทจากประสบการณ์ของเราที่ CFO ทุกคนสามารถนำไปใช้ได้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "1. Give everyone access, then create a reason to use it",
+        "th": "1. ให้สิทธิ์ทุกคนในการเข้าถึง จากนั้นสร้างเหตุผลในการใช้งาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The first step was broad access. People need the freedom to explore AI in the context of their own work. Access creates the most value when it is paired with structured experimentation around real problems.",
+        "th": "ขั้นตอนแรกคือการเข้าถึงในวงกว้าง ผู้คนต้องการอิสระในการสำรวจ AI ในบริบทของงานของตนเอง การเข้าถึงจะสร้างคุณค่าสูงสุดเมื่อจับคู่กับการทดลองที่มีโครงสร้างเกี่ยวกับปัญหาจริง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We brought sales engineers into a finance hackathon and asked the team to bring work they wanted to transform. One result was IR-GPT, a custom GPT grounded in the approved materials our investor relations team uses to answer diligence questions. We also began building custom GPTs for areas including procurement and tax.",
+        "th": "เรานำวิศวกรฝ่ายขายเข้าร่วมงาน Hackathon ทางการเงิน และขอให้ทีมนำงานที่พวกเขาต้องการเปลี่ยนแปลง ผลลัพธ์ประการหนึ่งคือ IR-GPT ซึ่งเป็น GPT แบบกำหนดเองซึ่งมีพื้นฐานมาจากเอกสารที่ได้รับอนุมัติซึ่งทีมนักลงทุนสัมพันธ์ของเราใช้เพื่อตอบคำถามเกี่ยวกับความรอบคอบ เรายังเริ่มสร้าง GPT แบบกำหนดเองสำหรับพื้นที่ต่างๆ รวมถึงการจัดซื้อและภาษีด้วย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The hackathon turned AI from an abstract capability into a working tool. In a single day, people could identify a recurring task, build a solution, test it with colleagues, and improve it. The use cases came from the people closest to the work, while technical experts helped them move faster.",
+        "th": "Hackathon เปลี่ยน AI จากความสามารถเชิงนามธรรมมาเป็นเครื่องมือที่ใช้งานได้ ในวันเดียว ผู้คนสามารถระบุงานที่เกิดซ้ำ สร้างโซลูชัน ทดสอบกับเพื่อนร่วมงาน และปรับปรุงได้ กรณีการใช้งานมาจากผู้ที่ใกล้กับงานมากที่สุด ในขณะที่ผู้เชี่ยวชาญด้านเทคนิคช่วยให้พวกเขาดำเนินการได้เร็วขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For CFOs, the lesson is simple: you need bottom-up experimentation and top-down strategy. Put secure, capable AI in people’s hands and let those closest to the work identify better ways of getting things done. At the same time, focus leadership attention and resources on the changes that will matter most to the business. The real opportunity comes when both meet: practical ideas from the front lines applied to your biggest priorities.",
+        "th": "สำหรับ CFO บทเรียนนั้นง่ายมาก: คุณต้องมีการทดลองจากล่างขึ้นบนและกลยุทธ์จากบนลงล่าง มอบ AI ที่ปลอดภัยและมีความสามารถไว้ในมือของผู้คน และปล่อยให้ผู้ที่ใกล้ชิดกับงานมากที่สุดระบุวิธีที่ดีกว่าในการทำสิ่งต่าง ๆ ให้สำเร็จ ในเวลาเดียวกัน ให้มุ่งเน้นความสนใจของผู้นำและทรัพยากรไปที่การเปลี่ยนแปลงที่จะมีความสำคัญต่อธุรกิจมากที่สุด โอกาสที่แท้จริงเกิดขึ้นเมื่อทั้งสองฝ่ายมาพบกัน: แนวคิดเชิงปฏิบัติจากแนวหน้านำไปใช้กับลำดับความสำคัญสูงสุดของคุณ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "2. Redesign the full workflow around the decision",
+        "th": "2. ออกแบบขั้นตอนการทำงานทั้งหมดเกี่ยวกับการตัดสินใจใหม่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Finance teams spend enormous energy assembling the inputs to a decision. A forecast review might require people to find the latest data, reconcile spreadsheets, explain variances, build charts, prepare documents, and turn those documents into slides. The analysis eventually reaches the decision-maker, but much of the team’s time has already gone into assembling it.",
+        "th": "ทีมการเงินใช้พลังงานมหาศาลในการรวบรวมปัจจัยการผลิตเพื่อการตัดสินใจ การทบทวนการคาดการณ์อาจกำหนดให้ผู้คนค้นหาข้อมูลล่าสุด ปรับสเปรดชีต อธิบายความแปรปรวน สร้างแผนภูมิ เตรียมเอกสาร และเปลี่ยนเอกสารเหล่านั้นให้เป็นสไลด์ ในที่สุดการวิเคราะห์ก็ไปถึงผู้มีอำนาจตัดสินใจ แต่ทีมก็ใช้เวลาส่วนใหญ่ในการประกอบมันแล้ว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "AI changes the unit of work. Finance leaders can redesign the full path from source data to decision.",
+        "th": "AI เปลี่ยนหน่วยการทำงาน ผู้นำทางการเงินสามารถออกแบบเส้นทางทั้งหมดใหม่ตั้งแต่แหล่งข้อมูลไปจนถึงการตัดสินใจ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Consider the close. Every CFO knows the monthly process: actuals in one system, purchase orders in another, accruals in a spreadsheet, and the explanation for a variance buried in a message thread.",
+        "th": "พิจารณาปิด. CFO ทุกคนรู้กระบวนการรายเดือน: ที่เกิดขึ้นจริงในระบบหนึ่ง, ใบสั่งซื้อในอีกระบบหนึ่ง, ยอดคงค้างในสเปรดชีต และคำอธิบายสำหรับผลต่างที่ฝังอยู่ในเธรดข้อความ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are working toward a different operating model. The ambition behind a zero-day close is to connect approved spending plans, general-ledger actuals, purchase orders, accruals, and transaction details in a continuously reconciled view. Each variance can be traced to the underlying activity. AI can prepare an initial explanation and flag the exceptions that require attention. Finance validates the numbers, applies judgment, and owns the final sign-off.",
+        "th": "เรากำลังดำเนินการไปสู่รูปแบบการดำเนินงานที่แตกต่างออกไป ความทะเยอทะยานเบื้องหลังการปิดศูนย์วันคือการเชื่อมโยงแผนการใช้จ่ายที่ได้รับอนุมัติ จริงในบัญชีแยกประเภททั่วไป ใบสั่งซื้อ ยอดคงค้าง และรายละเอียดธุรกรรมในมุมมองที่กระทบยอดอย่างต่อเนื่อง ความแปรปรวนแต่ละรายการสามารถติดตามไปยังกิจกรรมพื้นฐานได้ AI สามารถเตรียมคำอธิบายเบื้องต้นและทำเครื่องหมายข้อยกเว้นที่ต้องการความสนใจได้ ฝ่ายการเงินจะตรวจสอบตัวเลข ใช้วิจารณญาณ และเป็นเจ้าของการลงนามขั้นสุดท้าย"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1uDKxL8Vn6IxzdNcX8EDEY/600dc24247fe30dc83f4b11aaf48bdcd/budget-actual-reconciliation.png?w=3840&q=90&fm=webp",
+      "alt": "Budget-versus-actuals reconciliation dashboard showing source checks, an accrual walk, and a Codex-generated finance review."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Budget-versus-actuals reconciliation: approved inputs, source checks, and a finance-owned review",
+        "th": "การกระทบยอดงบประมาณเทียบกับที่เกิดขึ้นจริง: ข้อมูลที่ได้รับอนุมัติ การตรวจสอบแหล่งที่มา และการตรวจสอบที่ฝ่ายการเงินเป็นเจ้าของ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The close does not disappear. What begins to disappear is the scramble to reconstruct the business after the period ends.",
+        "th": "ปิดไม่หาย.. สิ่งที่เริ่มหายไปคือการแย่งชิงธุรกิจสร้างใหม่หลังหมดช่วง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That reconciled foundation can power a continuously updated forecast. Our team is building workflows that bring together statistical models, sales conversations, account-level evidence, operating data, and finance judgment.",
+        "th": "รากฐานที่กระทบยอดดังกล่าวสามารถขับเคลื่อนการคาดการณ์ที่อัปเดตอย่างต่อเนื่อง ทีมงานของเรากำลังสร้างขั้นตอนการทำงานที่รวบรวมแบบจำลองทางสถิติ การสนทนาด้านการขาย หลักฐานระดับบัญชี ข้อมูลการดำเนินงาน และการตัดสินทางการเงิน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are moving beyond the limitations of spreadsheets into more interactive tools that bring the statistical forecast, supporting evidence, and scenarios into one live view. Leaders can see what changed, why it changed, and which decisions could change the outcome. When a new customer commitment is missing from the baseline, the system can surface the supporting evidence and show how an adjustment would affect the quarter or year. Finance can inspect the assumptions, compare scenarios, and decide whether to update the approved forecast.",
+        "th": "เรากำลังก้าวข้ามขีดจำกัดของสเปรดชีตไปสู่เครื่องมือเชิงโต้ตอบมากขึ้น ซึ่งนำการคาดการณ์ทางสถิติ หลักฐานสนับสนุน และสถานการณ์มาไว้ในมุมมองสดเดียว ผู้นำสามารถเห็นสิ่งที่เปลี่ยนแปลง เหตุใดจึงเปลี่ยนแปลง และการตัดสินใจใดที่สามารถเปลี่ยนแปลงผลลัพธ์ได้ เมื่อข้อผูกมัดของลูกค้าใหม่หายไปจากพื้นฐาน ระบบสามารถแสดงหลักฐานสนับสนุนและแสดงให้เห็นว่าการปรับปรุงจะส่งผลต่อไตรมาสหรือปีอย่างไร การเงินสามารถตรวจสอบสมมติฐาน เปรียบเทียบสถานการณ์ และตัดสินใจว่าจะอัพเดตการคาดการณ์ที่ได้รับอนุมัติหรือไม่"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/IGrG373fw5WclzcclyqzI/70dd73994f7158a8decf6b67913fcaaa/interactive-forecasting-web.gif?w=3840&q=90&fm=webp",
+      "alt": "Interactive forecasting dashboard comparing an adjusted scenario with a prior forecast across quarterly ARR projections."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Interactive forecasting and scenario planning",
+        "th": "การคาดการณ์เชิงโต้ตอบและการวางแผนสถานการณ์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That same view can help leaders make better capital-allocation decisions. A finance team can see where marketing spend is producing a return, where results are tapering, and what reallocating the next dollar could mean.",
+        "th": "มุมมองเดียวกันนี้สามารถช่วยให้ผู้นำตัดสินใจจัดสรรเงินทุนได้ดีขึ้น ทีมการเงินสามารถดูว่าการใช้จ่ายทางการตลาดสร้างผลตอบแทนที่ใด ผลลัพธ์ลดลง และการจัดสรรเงินดอลลาร์ถัดไปอาจหมายถึงอะไร"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2ZgUa9Hx2tP5jlW68Hdlak/a43fd1ae0abb4728a2816f001d522195/capital-allocation-full.png?w=3840&q=90&fm=webp",
+      "alt": "Performance marketing dashboard showing a diminishing-return curve and potential market-level channel reallocations."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Dynamic capital allocation: diminishing-return curves highlight where investment should be rebalanced",
+        "th": "การจัดสรรเงินทุนแบบไดนามิก: เส้นกราฟที่ลดลงและผลตอบแทนจะเน้นย้ำถึงจุดที่ควรปรับสมดุลการลงทุน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Automated forecasting is the destination. A continuously refreshed view, faster scenario analysis, and clear finance ownership are how we get there.",
+        "th": "การคาดการณ์อัตโนมัติคือปลายทาง มุมมองที่รีเฟรชอย่างต่อเนื่อง การวิเคราะห์สถานการณ์ที่รวดเร็วขึ้น และความเป็นเจ้าของทางการเงินที่ชัดเจนคือวิธีที่เราไปถึงจุดนั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The broader lesson is to begin with a consequential decision and work backward. Map the data, tools, approvals, and handoffs required to support it. Then determine which parts AI can analyze, coordinate, or complete. This improves the speed and quality of the entire decision cycle.",
+        "th": "บทเรียนที่กว้างขึ้นคือการเริ่มต้นด้วยการตัดสินใจที่เป็นผลสืบเนื่องและดำเนินการย้อนหลัง จัดทำแผนที่ข้อมูล เครื่องมือ การอนุมัติ และการส่งมอบที่จำเป็นในการสนับสนุน จากนั้นกำหนดว่าส่วนใดที่ AI สามารถวิเคราะห์ ประสานงาน หรือทำให้สมบูรณ์ได้ สิ่งนี้จะช่วยเพิ่มความเร็วและคุณภาพของวงจรการตัดสินใจทั้งหมด"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "3. Finance professionals become builders",
+        "th": "3. ผู้เชี่ยวชาญด้านการเงินกลายเป็นผู้สร้าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The bigger transformation is that finance professionals can now build the tools their work requires.",
+        "th": "การเปลี่ยนแปลงที่ใหญ่กว่าก็คือตอนนี้ผู้เชี่ยวชาญด้านการเงินสามารถสร้างเครื่องมือที่พวกเขาต้องการได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Recent OpenAI research shows that 40% of finance professionals’ specialized AI use involves work outside traditional finance, and 22% involves engineering-related tasks.",
+        "th": "ผลการวิจัยของ OpenAI ล่าสุดแสดงให้เห็นว่า 40% ของการใช้ AI เฉพาะทางของผู้เชี่ยวชาญด้านการเงินเกี่ยวข้องกับงานที่ไม่ใช่การเงินแบบดั้งเดิม และ 22% เกี่ยวข้องกับงานที่เกี่ยวข้องกับวิศวกรรม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Everyone on my team is building custom AI dashboards and tools with ChatGPT Work and Codex. The work is moving from static Excel models and PowerPoint decks toward live dashboards that sit on top of the full context and data of the business. These tools can carry an analysis forward, respond to follow-up questions, and update as the underlying information changes.",
+        "th": "ทุกคนในทีมของฉันกำลังสร้างแดชบอร์ดและเครื่องมือ AI แบบกำหนดเองด้วย ChatGPT Work และ Codex งานกำลังย้ายจากโมเดล Excel แบบคงที่และชุด PowerPoint ไปสู่แดชบอร์ดสดที่อยู่ด้านบนของบริบทและข้อมูลทั้งหมดของธุรกิจ เครื่องมือเหล่านี้สามารถนำการวิเคราะห์ไปข้างหน้า ตอบคำถามติดตามผล และอัปเดตเมื่อข้อมูลพื้นฐานมีการเปลี่ยนแปลง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One teammate supporting our advertising business had never coded. He used Codex to build a tool that turns our monthly advertising forecast into weekly and daily plans. It accounts for weekdays and holidays, compares forecasts, and keeps every number tied to the approved model. Marketing leaders can quickly see what changed, where to invest, and what additional spending could return.",
+        "th": "เพื่อนร่วมทีมคนหนึ่งที่สนับสนุนธุรกิจโฆษณาของเราไม่เคยเขียนโค้ดเลย เขาใช้ Codex เพื่อสร้างเครื่องมือที่จะเปลี่ยนการคาดการณ์การโฆษณารายเดือนของเราให้เป็นแผนรายสัปดาห์และรายวัน โดยจะพิจารณาวันธรรมดาและวันหยุด เปรียบเทียบการคาดการณ์ และเก็บทุกตัวเลขที่เชื่อมโยงกับโมเดลที่ได้รับอนุมัติ ผู้นำการตลาดสามารถเห็นได้อย่างรวดเร็วว่ามีอะไรเปลี่ยนแปลงไป ควรลงทุนที่ไหน และการใช้จ่ายเพิ่มเติมใดบ้างที่อาจได้รับคืน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The people who understand the problem can now shape the solution. Building these tools also prompts them to reconsider the usual way of doing the job. A finance professional can create the decision-making infrastructure the business needs, test it with colleagues, and improve it as the work evolves.",
+        "th": "คนที่เข้าใจปัญหาสามารถกำหนดแนวทางแก้ไขได้แล้ว การสร้างเครื่องมือเหล่านี้ยังกระตุ้นให้พวกเขาพิจารณาวิธีการทำงานตามปกติอีกครั้ง ผู้เชี่ยวชาญด้านการเงินสามารถสร้างโครงสร้างพื้นฐานในการตัดสินใจตามความต้องการทางธุรกิจ ทดสอบกับเพื่อนร่วมงาน และปรับปรุงเมื่องานมีการพัฒนา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Finance teams are not becoming less specialized. They are gaining the ability to carry their expertise further.",
+        "th": "ทีมการเงินไม่ได้มีความเชี่ยวชาญน้อยลง พวกเขากำลังได้รับความสามารถในการถ่ายทอดความเชี่ยวชาญของตนต่อไป"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "4. Pair speed with clear accountability and controls",
+        "th": "4. จับคู่ความเร็วพร้อมความรับผิดชอบและการควบคุมที่ชัดเจน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "IR-GPT taught us an important lesson about control. Investor diligence questions can require an analyst to search across prior materials, draft a response, check consistency, and coordinate review. With a custom GPT grounded in approved sources, work that previously took hours, and sometimes continued overnight, can now produce a strong first draft in seconds.",
+        "th": "IR-GPT สอนบทเรียนสำคัญเกี่ยวกับการควบคุมแก่เรา คำถามเกี่ยวกับความขยันของนักลงทุนอาจทำให้นักวิเคราะห์ค้นหาเอกสารก่อนหน้านี้ ร่างคำตอบ ตรวจสอบความสอดคล้อง และประสานงานการตรวจสอบ ด้วย GPT แบบกำหนดเองที่มีพื้นฐานมาจากแหล่งที่มาที่ได้รับอนุมัติ งานที่ก่อนหน้านี้ใช้เวลาหลายชั่วโมงและบางครั้งก็ดำเนินต่อไปในชั่วข้ามคืน ตอนนี้สามารถสร้างฉบับร่างแรกที่แข็งแกร่งได้ในไม่กี่วินาที"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The human role remains central. Our investor relations team reads the draft, adds judgment and context, and checks that our answers remain consistent across investors. AI accelerates the work. People own the result.",
+        "th": "บทบาทของมนุษย์ยังคงเป็นศูนย์กลาง ทีมนักลงทุนสัมพันธ์ของเราจะอ่านร่าง เพิ่มวิจารณญาณและบริบท และตรวจสอบว่าคำตอบของเรายังคงสอดคล้องกันสำหรับนักลงทุนทุกคน AI เร่งการทำงาน ประชาชนเป็นเจ้าของผลลัพธ์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That is the right model for finance. CFOs should work with IT and governance teams to define which data an AI system can access, which actions it can take, when approval is required, and when an issue should be escalated. Every output should connect to a reliable source. Every forecast should carry a clear explanation. Every change to an approved baseline should require finance authorization.",
+        "th": "นั่นคือรูปแบบทางการเงินที่เหมาะสม ซีเอฟโอควรทำงานร่วมกับทีมไอทีและการกำกับดูแลเพื่อกำหนดว่าข้อมูลใดที่ระบบ AI สามารถเข้าถึงได้ การดำเนินการใดที่สามารถทำได้ เมื่อจำเป็นต้องได้รับการอนุมัติ และเมื่อใดที่ควรยกระดับปัญหา ทุกเอาต์พุตควรเชื่อมต่อกับแหล่งที่เชื่อถือได้ ทุกการคาดการณ์ควรมีคำอธิบายที่ชัดเจน การเปลี่ยนแปลงพื้นฐานที่ได้รับอนุมัติทุกครั้งควรต้องได้รับการอนุมัติทางการเงิน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The brief craze of “tokenmaxxing” has come and gone. It is now straightforward to set usage limits, budget controls, role-based access, model-routing rules, and approval thresholds. CFOs can manage AI usage with the same discipline they bring to any variable expense while giving teams room to build and experiment.",
+        "th": "ความคลั่งไคล้ของ “tokenmaxxing” เกิดขึ้นและหายไป ขณะนี้คุณสามารถตั้งค่าขีดจำกัดการใช้งาน การควบคุมงบประมาณ การเข้าถึงตามบทบาท กฎการกำหนดเส้นทางแบบจำลอง และเกณฑ์การอนุมัติได้อย่างง่ายดาย CFO สามารถจัดการการใช้งาน AI ด้วยระเบียบวินัยเดียวกันกับที่พวกเขานำมาซึ่งค่าใช้จ่ายผันแปร ในขณะเดียวกันก็ให้พื้นที่ทีมในการสร้างและทดลอง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Clear accountability creates the confidence required to move faster. As synthesis, reconciliation, and preparation accelerate, finance professionals gain more time to challenge assumptions, advise the business, and exercise judgment.",
+        "th": "ความรับผิดชอบที่ชัดเจนจะสร้างความมั่นใจที่จำเป็นในการขับเคลื่อนให้เร็วขึ้น ในขณะที่การสังเคราะห์ การกระทบยอด และการเตรียมการเร่งตัวขึ้น ผู้เชี่ยวชาญด้านการเงินจะมีเวลามากขึ้นในการท้าทายสมมติฐาน ให้คำแนะนำธุรกิจ และใช้วิจารณญาณ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "5. Measure value per unit of intelligence",
+        "th": "5. วัดมูลค่าต่อหน่วยสติปัญญา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CFOs need a scorecard for AI grounded in operating performance. Buying more seats or using more tokens doesn’t tell you much. What matters is whether the work gets done well and what it really costs.",
+        "th": "CFO ต้องการดัชนีชี้วัดสำหรับ AI ซึ่งมีพื้นฐานมาจากผลการปฏิบัติงาน การซื้อที่นั่งเพิ่มหรือใช้โทเค็นมากขึ้นไม่ได้บอกอะไรคุณมากนัก สิ่งที่สำคัญคืองานจะออกมาดีหรือไม่และมีค่าใช้จ่ายเท่าไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For each workflow, ask four questions:",
+        "th": "สำหรับแต่ละขั้นตอนการทำงาน ให้ถามคำถามสี่ข้อ:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Did AI complete work that mattered?",
+        "th": "AI ทำงานที่สำคัญเสร็จหรือยัง?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What did it cost, including employee time, review, and rework?",
+        "th": "มีค่าใช้จ่ายอะไรบ้าง รวมถึงเวลาของพนักงาน การทบทวน และการทำงานซ้ำ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Was the result good enough to use?",
+        "th": "ผลลัพธ์ดีพอที่จะใช้หรือไม่?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Did it help us move faster or make a better decision?",
+        "th": "มันช่วยให้เราเคลื่อนไหวเร็วขึ้นหรือตัดสินใจได้ดีขึ้นหรือไม่?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For a finance team, useful work might mean a forecast updated, a variance explained, an audit request completed, or a board question answered. For the close, the scorecard might include cycle time, the share of transactions reconciled automatically, the number of exceptions requiring review, and the time required to explain a variance. For forecasting, it could include forecast accuracy, refresh frequency, time required to produce a new scenario, and the quality of the decisions the forecast supports.",
+        "th": "สำหรับทีมการเงิน งานที่เป็นประโยชน์อาจหมายถึงการอัปเดตการคาดการณ์ การอธิบายผลต่าง คำขอตรวจสอบเสร็จสมบูรณ์ หรือคำถามของคณะกรรมการที่ตอบแล้ว สำหรับการปิดบัญชี บัตรคะแนนอาจรวมถึงรอบเวลา ส่วนแบ่งของธุรกรรมที่กระทบยอดโดยอัตโนมัติ จำนวนข้อยกเว้นที่ต้องมีการตรวจทาน และเวลาที่ต้องใช้ในการอธิบายผลต่าง สำหรับการคาดการณ์ อาจรวมถึงความแม่นยำของการคาดการณ์ ความถี่ในการรีเฟรช เวลาที่ใช้ในการสร้างสถานการณ์ใหม่ และคุณภาพของการตัดสินใจที่การคาดการณ์สนับสนุน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The cheapest model isn’t always the most economical. If a better model gets to a reliable answer with fewer attempts and less review, it may cost less overall.",
+        "th": "รุ่นที่ถูกที่สุดไม่ได้ประหยัดที่สุดเสมอไป หากโมเดลที่ดีกว่าได้รับคำตอบที่เชื่อถือได้โดยใช้ความพยายามน้อยลงและการตรวจทานน้อยลง โมเดลนั้นก็อาจมีต้นทุนโดยรวมน้อยลง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The CFO’s opportunity",
+        "th": "โอกาสของ CFO"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Finance sits at the center of strategy, capital, data, risk, and performance. That gives CFOs a unique view of how the company works and a powerful mandate to lead its AI transformation.",
+        "th": "การเงินเป็นศูนย์กลางของกลยุทธ์ เงินทุน ข้อมูล ความเสี่ยง และผลการดำเนินงาน นั่นทำให้ CFO มีมุมมองที่ไม่เหมือนใครเกี่ยวกับวิธีการทำงานของบริษัท และอำนาจอันทรงพลังในการเป็นผู้นำการเปลี่ยนแปลงด้าน AI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An AI-native finance function is defined by faster cycles, stronger controls, better decisions, and more time for judgment. The path begins with a meaningful workflow and expands through evidence: give people the tools, help them rebuild the work, keep accountability clear, and measure the outcome.",
+        "th": "ฟังก์ชันการเงินแบบ AI ถูกกำหนดโดยวงจรที่เร็วขึ้น การควบคุมที่แข็งแกร่งขึ้น การตัดสินใจที่ดีขึ้น และมีเวลามากขึ้นในการตัดสิน เส้นทางเริ่มต้นด้วยขั้นตอนการทำงานที่มีความหมายและขยายออกไปผ่านหลักฐาน: มอบเครื่องมือแก่ผู้คน ช่วยให้พวกเขาสร้างงานขึ้นมาใหม่ รักษาความรับผิดชอบให้ชัดเจน และวัดผลลัพธ์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The zero-day close and continuous forecast express a broader ambition: a finance team that understands what is happening as it happens, shows leaders what could happen next, and helps the company make better decisions sooner.",
+        "th": "การคาดการณ์การปิดศูนย์วันและต่อเนื่องแสดงถึงความทะเยอทะยานที่กว้างขึ้น: ทีมการเงินที่เข้าใจถึงสิ่งที่เกิดขึ้นในขณะที่มันเกิดขึ้น แสดงให้ผู้นำเห็นถึงสิ่งที่อาจเกิดขึ้นต่อไป และช่วยให้บริษัทตัดสินใจได้ดีขึ้นเร็วขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The result is a finance team with greater capacity and a CFO with a clearer view of the business. It also creates a working model for how the entire company can turn intelligence into durable value. As I always say, you can’t be what you can’t see. If we want our finance teams to embrace what’s possible with AI, we have to show them what it looks like—and as CFOs, that starts with us.",
+        "th": "ผลลัพธ์ที่ได้คือทีมการเงินที่มีความสามารถมากขึ้นและ CFO ที่มีมุมมองธุรกิจที่ชัดเจนยิ่งขึ้น นอกจากนี้ยังสร้างรูปแบบการทำงานว่าทั้งบริษัทสามารถเปลี่ยนความฉลาดให้เป็นคุณค่าที่ยั่งยืนได้อย่างไร อย่างที่ฉันพูดเสมอว่าคุณไม่สามารถเป็นสิ่งที่คุณมองไม่เห็นได้ หากเราต้องการให้ทีมการเงินของเรายอมรับสิ่งที่เป็นไปได้ด้วย AI เราต้องแสดงให้พวกเขาเห็นว่า AI เป็นอย่างไร และในฐานะ CFO นั้นเริ่มต้นที่ตัวเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "My finance team shared what this looks like in practice, you can watch that recording here⁠(opens in a new window).",
+        "th": "ทีมการเงินของฉันได้แชร์ว่าในทางปฏิบัติจะเป็นอย่างไร คุณสามารถดูบันทึกนั้นได้ที่นี่ (opens in a new window)"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "ผู้เขียน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "อ่านต่อ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6bPStWA6pc66cahnhg0jo6/61786b178401b6e902e9da65fa4da095/Blog_Thumbnail_-_OpenAI_Blog.png?w=3840&q=90&fm=webp",
+      "alt": "Our commitment to Zero Data Retention as AI advances — card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanyAug 19, 2026",
+        "th": "บริษัท19 ส.ค.2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/IMh9E5WMDoVaUJyBJrsEP/697ba885d5e89b6bd27a55b9c9a783ae/chatgpt-ads-europe-readable-card.png?w=3840&q=90&fm=webp",
+      "alt": "ChatGPT Ads expands across Europe - Card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductAug 18, 2026",
+        "th": "สินค้า18 ส.ค. 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7FcPS2UYSda8PpzDH6rZ1C/fedbc5dd1a908180d87676aaf6b9a6a4/a11y-card-v002.png?w=3840&q=90&fm=webp",
+      "alt": "Partnering with CodeAI — accessible card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanyAug 18, 2026",
+        "th": "บริษัท18 ส.ค.2569"
       }
     }
   ]

@@ -3,7 +3,7 @@
   "slug": "improving-fable-5-s-biology-safeguards",
   "source": "anthropic",
   "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-  "category": "News",
+  "category": "Product",
   "date": "2026-08-07T00:00:00.000Z",
   "image": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Bird&backgroundColor=heather",
   "title": {
@@ -177,6 +177,13 @@
       "text": {
         "en": "How Claude’s text watermark works",
         "th": "ลายน้ำข้อความของ Claude ทำงานอย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.",
+        "th": "In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change."
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T10:30:49.770Z",
+  "generatedAt": "2026-08-24T16:27:35.081Z",
   "items": [
     {
       "id": "deepmind__from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
@@ -380,7 +380,7 @@
       "slug": "claude-text-watermark",
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/claude-text-watermark",
-      "category": "News",
+      "category": "Announcements",
       "date": "2026-08-14T00:00:00.000Z",
       "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Quill&backgroundColor=heather",
       "title": {
@@ -890,7 +890,7 @@
       "slug": "improving-fable-5-s-biology-safeguards",
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-      "category": "News",
+      "category": "Product",
       "date": "2026-08-07T00:00:00.000Z",
       "image": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Bird&backgroundColor=heather",
       "title": {
@@ -1702,23 +1702,6 @@
       }
     },
     {
-      "id": "anthropic__hard-questions",
-      "slug": "hard-questions",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/hard-questions",
-      "category": "Announcements",
-      "date": "2026-07-09T00:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/b3ddb82292e92030f4677d004bf0d7d795be7bd1-1200x630.jpg",
-      "title": {
-        "en": "Inviting hard questions",
-        "th": "เชิญชวนถามคำถามยากๆ"
-      },
-      "summary": {
-        "en": "We're asking the public for their hardest questions about AI, and committing to show our work as we address them.",
-        "th": "เรากำลังขอให้สาธารณชนถามคำถามที่ยากที่สุดเกี่ยวกับ AI และมุ่งมั่นที่จะแสดงผลงานของเราในขณะที่เราพูดคุยกับพวกเขา"
-      }
-    },
-    {
       "id": "huggingface__native-speed-vllm-transformers-backend",
       "slug": "native-speed-vllm-transformers-backend",
       "source": "huggingface",
@@ -1988,23 +1971,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp\">Google UK shares its latest Economic Impact Report and how to enable more people to ",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp\">Google UK แบ่งปันรายงานผลกระทบทางเศรษฐกิจล่าสุดและวิธีทำให้ผู้คนสามารถ"
-      }
-    },
-    {
-      "id": "anthropic__redeploying-fable-5",
-      "slug": "redeploying-fable-5",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/redeploying-fable-5",
-      "category": "Announcements",
-      "date": "2026-06-30T00:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Redeploying Fable 5",
-        "th": "การปรับใช้ Fable 5 ใหม่"
-      },
-      "summary": {
-        "en": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
-        "th": "Anthropic กำลังปรับใช้ Claude Fable 5 อีกครั้งตั้งแต่วันที่ 1 กรกฎาคม ภายหลังการยกเลิกการควบคุมการส่งออก พร้อมด้วยการป้องกันความปลอดภัยทางไซเบอร์ที่ได้รับการอัปเดต และเฟรมเวิร์กการเจลเบรกของอุตสาหกรรมใหม่"
       }
     },
     {

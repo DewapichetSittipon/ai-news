@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-24T16:27:35.081Z",
+  "generatedAt": "2026-08-24T20:21:42.965Z",
   "items": [
+    {
+      "id": "openai__gpt-5-6-in-kiro",
+      "slug": "gpt-5-6-in-kiro",
+      "source": "openai",
+      "url": "https://openai.com/index/gpt-5-6-in-kiro",
+      "category": "Product",
+      "date": "2026-08-24T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+        "th": "Advancing price-performance for developers with GPT‑5.6 in Kiro"
+      },
+      "summary": {
+        "en": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+        "th": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance."
+      }
+    },
     {
       "id": "deepmind__from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
       "slug": "from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
@@ -1121,23 +1138,6 @@
       "summary": {
         "en": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
         "th": "Circles ใช้ OpenAI API และ Codex เพื่อขับเคลื่อนประสบการณ์โทรคมนาคมแบบ AI โดยเพิ่ม ARPU 22% ลดการเลิกใช้งาน 9% และปรับปรุงประสิทธิภาพการพัฒนา"
-      }
-    },
-    {
-      "id": "openai__ten-advances-in-mathematics",
-      "slug": "ten-advances-in-mathematics",
-      "source": "openai",
-      "url": "https://openai.com/index/ten-advances-in-mathematics",
-      "category": "Publication",
-      "date": "2026-08-01T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Ten advances in mathematics and theoretical computer science",
-        "th": "ความก้าวหน้าสิบประการในวิชาคณิตศาสตร์และวิทยาการคอมพิวเตอร์เชิงทฤษฎี"
-      },
-      "summary": {
-        "en": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
-        "th": "OpenAI แบ่งปันผลลัพธ์ใหม่เกี่ยวกับปัญหาเปิดที่มีมายาวนานในด้านคณิตศาสตร์และวิทยาการคอมพิวเตอร์เชิงทฤษฎี รวมถึงความก้าวหน้าทางเรขาคณิต การเข้ารหัส และความซับซ้อน"
       }
     },
     {

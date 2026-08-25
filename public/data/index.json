@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-08-25T12:33:44.053Z",
+  "generatedAt": "2026-08-25T16:27:55.860Z",
   "items": [
+    {
+      "id": "google-ai__home-decor-tips",
+      "slug": "home-decor-tips",
+      "source": "google-ai",
+      "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
+      "category": "Search",
+      "date": "2026-08-25T16:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Home_Decor.max-600x600.format-webp.webp",
+      "title": {
+        "en": "5 ways to upgrade your home decor with Google Search",
+        "th": "5 ways to upgrade your home decor with Google Search"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Home_Decor.max-600x600.format-webp.webp\">Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY p",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Home_Decor.max-600x600.format-webp.webp\">Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY p"
+      }
+    },
+    {
+      "id": "huggingface__granite-4-2",
+      "slug": "granite-4-2",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "category": "News",
+      "date": "2026-08-25T15:14:14.000Z",
+      "image": null,
+      "title": {
+        "en": "Granite 4.2 LLMs: How They're Built",
+        "th": "Granite 4.2 LLMs: How They're Built"
+      },
+      "summary": {
+        "en": "Granite 4.2 LLMs: How They're Built",
+        "th": "Granite 4.2 LLMs: How They're Built"
+      }
+    },
     {
       "id": "huggingface__quantization-aware-healing",
       "slug": "quantization-aware-healing",
@@ -16,6 +50,57 @@
       "summary": {
         "en": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
         "th": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original"
+      }
+    },
+    {
+      "id": "openai__the-full-stack-behind-abundant-intelligence",
+      "slug": "the-full-stack-behind-abundant-intelligence",
+      "source": "openai",
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "category": "Company",
+      "date": "2026-08-25T07:05:00.000Z",
+      "image": null,
+      "title": {
+        "en": "The full stack behind abundant intelligence",
+        "th": "The full stack behind abundant intelligence"
+      },
+      "summary": {
+        "en": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+        "th": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost."
+      }
+    },
+    {
+      "id": "openai__jalapeno-first-results",
+      "slug": "jalapeno-first-results",
+      "source": "openai",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "category": "Engineering",
+      "date": "2026-08-25T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+        "th": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference"
+      },
+      "summary": {
+        "en": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+        "th": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models."
+      }
+    },
+    {
+      "id": "anthropic__wellbeing-research-grants",
+      "slug": "wellbeing-research-grants",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "category": "News",
+      "date": "2026-08-25T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadFlower&backgroundColor=heather",
+      "title": {
+        "en": "Funding better evaluations of AI’s impact on wellbeing",
+        "th": "Funding better evaluations of AI’s impact on wellbeing"
+      },
+      "summary": {
+        "en": "Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.",
+        "th": "Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing."
       }
     },
     {
@@ -1141,23 +1226,6 @@
       }
     },
     {
-      "id": "openai__apple-is-getting-this-wrong",
-      "slug": "apple-is-getting-this-wrong",
-      "source": "openai",
-      "url": "https://openai.com/index/apple-is-getting-this-wrong",
-      "category": "Company",
-      "date": "2026-08-03T22:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Apple is getting this wrong",
-        "th": "Apple เข้าใจผิดเรื่องนี้"
-      },
-      "summary": {
-        "en": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
-        "th": "OpenAI จัดการกับคดีที่ไม่มีมูลความจริงของ Apple แก้ไขการเรียกร้องเกี่ยวกับพนักงาน และแบ่งปันข้อความที่บันทึกสิ่งที่เกิดขึ้น"
-      }
-    },
-    {
       "id": "google-ai__ai-agents-intensive-recap-2026",
       "slug": "ai-agents-intensive-recap-2026",
       "source": "google-ai",
@@ -1172,23 +1240,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_coding_course_hero.max-600x600.format-webp.webp\">Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to bu",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_coding_course_hero.max-600x600.format-webp.webp\">AI Agents Intensive with Google ของ Kaggle นำผู้เรียนมารวมตัวกันในหลักสูตรที่ไม่มีค่าใช้จ่ายเพื่อเรียนรู้"
-      }
-    },
-    {
-      "id": "openai__continuous-voice-interaction-with-gpt-live",
-      "slug": "continuous-voice-interaction-with-gpt-live",
-      "source": "openai",
-      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "category": "Engineering",
-      "date": "2026-08-03T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How we built a realtime system for responsive voice AI in six months",
-        "th": "เราสร้างระบบเรียลไทม์สำหรับ AI เสียงที่ตอบสนองได้อย่างไรในหกเดือน"
-      },
-      "summary": {
-        "en": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-        "th": "GPT-Live ช่วยให้สามารถโต้ตอบด้วยเสียงกับ AI ได้อย่างต่อเนื่อง โดยใช้โมเดลคำพูดที่ไม่ต่อเนื่องและสถาปัตยกรรมที่มีความหน่วงต่ำเพื่อการสนทนาที่รวดเร็วและเป็นธรรมชาติยิ่งขึ้น"
       }
     },
     {
@@ -1512,23 +1563,6 @@
       "summary": {
         "en": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
         "th": "เรากำลังเปิดตัวโมเดล Gemini ใหม่ รวมถึง Gemini 3.6 Flash, 3.5 Flash-Lite และ 3.5 Flash Cyber"
-      }
-    },
-    {
-      "id": "anthropic__donation-public-first-action",
-      "slug": "donation-public-first-action",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/donation-public-first-action",
-      "category": "News",
-      "date": "2026-07-21T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Stack&backgroundColor=oat",
-      "title": {
-        "en": "Anthropic is donating another $20 million to Public First Action",
-        "th": "Anthropic บริจาคเงินอีก 20 ล้านดอลลาร์ให้กับ Public First Action"
-      },
-      "summary": {
-        "en": "Anthropic is contributing an additional $20 million to Public First Action, bringing our total support to $40 million.",
-        "th": "Anthropic บริจาคเงินเพิ่มอีก 20 ล้านดอลลาร์ให้กับ Public First Action ส่งผลให้ยอดสนับสนุนทั้งหมดของเราอยู่ที่ 40 ล้านดอลลาร์"
       }
     },
     {
@@ -2059,23 +2093,6 @@
       }
     },
     {
-      "id": "huggingface__discoformer",
-      "slug": "discoformer",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/allenai/discoformer",
-      "category": "News",
-      "date": "2026-06-29T18:02:48.000Z",
-      "image": null,
-      "title": {
-        "en": "DiScoFormer: One transformer for density and score, across distributions",
-        "th": "DiScoFormer: หม้อแปลงหนึ่งตัวสำหรับความหนาแน่นและคะแนน ทั่วทั้งการกระจาย"
-      },
-      "summary": {
-        "en": "DiScoFormer: One transformer for density and score, across distributions",
-        "th": "DiScoFormer: หม้อแปลงหนึ่งตัวสำหรับความหนาแน่นและคะแนน ทั่วทั้งการกระจาย"
-      }
-    },
-    {
       "id": "google-ai__full-stack-ai-explainer",
       "slug": "full-stack-ai-explainer",
       "source": "google-ai",
@@ -2090,23 +2107,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp\">A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundati",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp\">ผู้เชี่ยวชาญของ Google อธิบายว่าการใช้แนวทาง AI แบบฟูลสแตกหมายความว่าอย่างไร และเหตุใดจึงเป็นรากฐาน"
-      }
-    },
-    {
-      "id": "google-ai__google-finance-updates-june-2026",
-      "slug": "google-finance-updates-june-2026",
-      "source": "google-ai",
-      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
-      "category": "Search",
-      "date": "2026-06-25T16:00:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp",
-      "title": {
-        "en": "Our latest Google Finance upgrades, including a new app",
-        "th": "การอัปเกรด Google Finance ล่าสุดของเรา รวมถึงแอปใหม่"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp\">The new Google Finance is coming out of beta and launching a new Android app.",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp\">Google Finance ใหม่กำลังจะออกจากรุ่นเบต้าและเปิดตัวแอป Android ใหม่"
       }
     },
     {

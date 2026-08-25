@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-25T04:32:24.626Z",
+  "generatedAt": "2026-08-25T10:24:21.692Z",
   "items": [
+    {
+      "id": "openai__disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "slug": "disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "source": "openai",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "category": "Global Affairs",
+      "date": "2026-08-25T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Disrupting a new covert influence campaign from Russia",
+        "th": "Disrupting a new covert influence campaign from Russia"
+      },
+      "summary": {
+        "en": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+        "th": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West."
+      }
+    },
     {
       "id": "huggingface__gradio-workflow-guide",
       "slug": "gradio-workflow-guide",
@@ -1138,23 +1155,6 @@
       "summary": {
         "en": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
         "th": "GPT-Live ช่วยให้สามารถโต้ตอบด้วยเสียงกับ AI ได้อย่างต่อเนื่อง โดยใช้โมเดลคำพูดที่ไม่ต่อเนื่องและสถาปัตยกรรมที่มีความหน่วงต่ำเพื่อการสนทนาที่รวดเร็วและเป็นธรรมชาติยิ่งขึ้น"
-      }
-    },
-    {
-      "id": "openai__circles",
-      "slug": "circles",
-      "source": "openai",
-      "url": "https://openai.com/index/circles",
-      "category": "News",
-      "date": "2026-08-03T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Circles powers telco personalization with OpenAI technology",
-        "th": "Circles ขับเคลื่อนการปรับเปลี่ยนส่วนบุคคลด้านโทรคมนาคมด้วยเทคโนโลยี OpenAI"
-      },
-      "summary": {
-        "en": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
-        "th": "Circles ใช้ OpenAI API และ Codex เพื่อขับเคลื่อนประสบการณ์โทรคมนาคมแบบ AI โดยเพิ่ม ARPU 22% ลดการเลิกใช้งาน 9% และปรับปรุงประสิทธิภาพการพัฒนา"
       }
     },
     {

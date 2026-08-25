@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-25T10:24:21.692Z",
+  "generatedAt": "2026-08-25T12:33:44.053Z",
   "items": [
+    {
+      "id": "huggingface__quantization-aware-healing",
+      "slug": "quantization-aware-healing",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "category": "News",
+      "date": "2026-08-25T11:39:24.000Z",
+      "image": null,
+      "title": {
+        "en": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+        "th": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original"
+      },
+      "summary": {
+        "en": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+        "th": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original"
+      }
+    },
     {
       "id": "openai__disrupting-malicious-uses-of-ai-influence-campaign-russia",
       "slug": "disrupting-malicious-uses-of-ai-influence-campaign-russia",
@@ -67,6 +84,23 @@
       "summary": {
         "en": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
         "th": "Google DeepMind ร่วมมือกับสตูดิโอเกมเพื่อสร้างต้นแบบการเล่นเกม AI ที่ก้าวล้ำ"
+      }
+    },
+    {
+      "id": "huggingface__pwc-search",
+      "slug": "pwc-search",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/pwc-search",
+      "category": "News",
+      "date": "2026-08-21T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+        "th": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code"
+      },
+      "summary": {
+        "en": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+        "th": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code"
       }
     },
     {
@@ -2059,23 +2093,6 @@
       }
     },
     {
-      "id": "huggingface__vllm-jobs",
-      "slug": "vllm-jobs",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/vllm-jobs",
-      "category": "News",
-      "date": "2026-06-26T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Run a vLLM Server on HF Jobs in One Command",
-        "th": "รันเซิร์ฟเวอร์ vLLM ในงาน HF ในคำสั่งเดียว"
-      },
-      "summary": {
-        "en": "Run a vLLM Server on HF Jobs in One Command",
-        "th": "รันเซิร์ฟเวอร์ vLLM ในงาน HF ในคำสั่งเดียว"
-      }
-    },
-    {
       "id": "google-ai__google-finance-updates-june-2026",
       "slug": "google-finance-updates-june-2026",
       "source": "google-ai",
@@ -2107,23 +2124,6 @@
       "summary": {
         "en": "Introducing computer use in Gemini 3.5 Flash",
         "th": "แนะนำการใช้งานคอมพิวเตอร์ใน Gemini 3.5 Flash"
-      }
-    },
-    {
-      "id": "huggingface__accelerating-fine-tuning-nvidia-nemo-automodel",
-      "slug": "accelerating-fine-tuning-nvidia-nemo-automodel",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-      "category": "News",
-      "date": "2026-06-24T16:00:13.000Z",
-      "image": null,
-      "title": {
-        "en": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-        "th": "เร่งการปรับแต่ง Transformers อย่างละเอียดด้วย NVIDIA NeMo AutoModel"
-      },
-      "summary": {
-        "en": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-        "th": "เร่งการปรับแต่ง Transformers อย่างละเอียดด้วย NVIDIA NeMo AutoModel"
       }
     },
     {

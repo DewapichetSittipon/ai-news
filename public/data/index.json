@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-25T02:53:00.944Z",
+  "generatedAt": "2026-08-25T04:32:24.626Z",
   "items": [
+    {
+      "id": "huggingface__gradio-workflow-guide",
+      "slug": "gradio-workflow-guide",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/gradio-workflow-guide",
+      "category": "News",
+      "date": "2026-08-25T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+        "th": "Wire It, Run It, Deploy It: AI Workflows in Gradio"
+      },
+      "summary": {
+        "en": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+        "th": "Wire It, Run It, Deploy It: AI Workflows in Gradio"
+      }
+    },
     {
       "id": "openai__gpt-5-6-in-kiro",
       "slug": "gpt-5-6-in-kiro",
@@ -2107,23 +2124,6 @@
       "summary": {
         "en": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
         "th": "เร่งการปรับแต่ง Transformers อย่างละเอียดด้วย NVIDIA NeMo AutoModel"
-      }
-    },
-    {
-      "id": "huggingface__ffasr-leaderboard",
-      "slug": "ffasr-leaderboard",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/ffasr-leaderboard",
-      "category": "News",
-      "date": "2026-06-24T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
-        "th": "ขอแนะนำกระดานผู้นำ FFASR: การเปรียบเทียบ ASR ในโลกแห่งความเป็นจริง"
-      },
-      "summary": {
-        "en": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
-        "th": "ขอแนะนำกระดานผู้นำ FFASR: การเปรียบเทียบ ASR ในโลกแห่งความเป็นจริง"
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T19:40:30.269Z",
+  "generatedAt": "2026-08-26T22:38:12.308Z",
   "items": [
     {
       "id": "deepmind__intelligent-transcription-with-gemini-3-5-transcribe",
@@ -50,6 +50,23 @@
       "summary": {
         "en": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
         "th": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom."
+      }
+    },
+    {
+      "id": "openai__hugging-face-incident-and-the-road-ahead",
+      "slug": "hugging-face-incident-and-the-road-ahead",
+      "source": "openai",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "category": "Security",
+      "date": "2026-08-26T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "The Hugging Face incident and the road ahead",
+        "th": "The Hugging Face incident and the road ahead"
+      },
+      "summary": {
+        "en": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+        "th": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment."
       }
     },
     {
@@ -1189,23 +1206,6 @@
       "summary": {
         "en": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
         "th": "WeatherNext: โมเดล AI ประสบความสำเร็จในการพยากรณ์พายุไซโคลน"
-      }
-    },
-    {
-      "id": "openai__improving-gpt-5-6-sol-in-chatgpt",
-      "slug": "improving-gpt-5-6-sol-in-chatgpt",
-      "source": "openai",
-      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "category": "Product",
-      "date": "2026-08-06T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
-        "th": "ปรับปรุง GPT-5.6 Sol ใน ChatGPT และขยายการเข้าถึง GPT-5.6 Luna สำหรับผู้ใช้ฟรี"
-      },
-      "summary": {
-        "en": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
-        "th": "ChatGPT เปิดตัว GPT-5.6 Sol ที่ได้รับการปรับปรุงให้มีความแม่นยำและความสม่ำเสมอที่ดีขึ้น พร้อมการเข้าถึงที่ขยายมากขึ้นสำหรับผู้ใช้ฟรีและการแชทรายวันแบบไม่จำกัดด้วย GPT-5.6 Luna"
       }
     },
     {

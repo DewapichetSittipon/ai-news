@@ -1,0 +1,498 @@
+{
+  "id": "deepmind__intelligent-transcription-with-gemini-3-5-transcribe",
+  "slug": "intelligent-transcription-with-gemini-3-5-transcribe",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+  "category": "News",
+  "date": "2026-08-26T17:01:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Intelligent transcription with Gemini 3.5 Transcribe",
+    "th": "Intelligent transcription with Gemini 3.5 Transcribe"
+  },
+  "summary": {
+    "en": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+    "th": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe."
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "นวัตกรรมและเอไอ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Models & research",
+        "th": "แบบจำลองและการวิจัย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini Models",
+        "th": "โมเดลราศีเมถุน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Aug 26, 2026",
+        "th": "Aug 26, 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our latest speech-to-text model designed for precise and intelligent real-time transcription.",
+        "th": "Our latest speech-to-text model designed for precise and intelligent real-time transcription."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Diego Melendo Casado",
+        "th": "Diego Melendo Casado"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Senior Director, Engineering, Gemini Audio",
+        "th": "Senior Director, Engineering, Gemini Audio"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Luke Leonhard",
+        "th": "Luke Leonhard"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Chief of Staff, Gemini Audio, on behalf of Gemini Audio Team",
+        "th": "Chief of Staff, Gemini Audio, on behalf of Gemini Audio Team"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_3-5_transcribe.width-200.format-webp.webp",
+      "alt": "Text \"Gemini 3.5 Transcribe\" next to the Gemini spark, all on a blue background"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re introducing Gemini 3.5 Transcribe, our most precise speech-to-text model yet, designed for intelligent voice interactions. Unlike conventional speech recognition models that struggle with background noise, complex jargon, and disfluency cleanup, Gemini 3.5 Transcribe converts raw audio directly into accurate, polished, formatted text.",
+        "th": "Today, we’re introducing Gemini 3.5 Transcribe, our most precise speech-to-text model yet, designed for intelligent voice interactions. Unlike conventional speech recognition models that struggle with background noise, complex jargon, and disfluency cleanup, Gemini 3.5 Transcribe converts raw audio directly into accurate, polished, formatted text."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Across our products like the Gemini app and on Android, we’ve seen consumers already benefiting from this transcription model with new voice capabilities like Rambler on Android and in the Gemini app on macOS. Now, developers can build similar capabilities with Gemini 3.5 Transcribe in the Gemini API in Google AI Studio and Gemini Enterprise Agent Platform.",
+        "th": "Across our products like the Gemini app and on Android, we’ve seen consumers already benefiting from this transcription model with new voice capabilities like Rambler on Android and in the Gemini app on macOS. Now, developers can build similar capabilities with Gemini 3.5 Transcribe in the Gemini API in Google AI Studio and Gemini Enterprise Agent Platform."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We've built 3.5 Transcribe to plug seamlessly into your developer workflows, whether you’re building voice agents, real-time captioning tools, or post-call analytics pipelines. The model is available across two separate APIs:",
+        "th": "We've built 3.5 Transcribe to plug seamlessly into your developer workflows, whether you’re building voice agents, real-time captioning tools, or post-call analytics pipelines. The model is available across two separate APIs:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Real-time streaming: Delivers continuous, bidirectional streaming with sub-second latency for interactive voice apps via the Live API using gemini-3.5-transcribe-live.",
+        "th": "Real-time streaming: Delivers continuous, bidirectional streaming with sub-second latency for interactive voice apps via the Live API using gemini-3.5-transcribe-live."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Pre-recorded audio processing: Transcribes recorded audio, meetings, call logs, and more with speaker attribution and word-level timestamps via the Interactions API using gemini-3.5-transcribe.",
+        "th": "Pre-recorded audio processing: Transcribes recorded audio, meetings, call logs, and more with speaker attribution and word-level timestamps via the Interactions API using gemini-3.5-transcribe."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get more precise and intelligent transcription",
+        "th": "Get more precise and intelligent transcription"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini 3.5 Transcribe is designed to capture your natural speaking style to better understand your intent and recognize custom vocabulary, so you can execute tasks with your voice.",
+        "th": "Gemini 3.5 Transcribe is designed to capture your natural speaking style to better understand your intent and recognize custom vocabulary, so you can execute tasks with your voice."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Smart transcription: Seamlessly handles self-corrections (like \"let’s meet Tuesday—no, Wednesday\"), removes filler words (“ums” and ‘“ahs\"), auto-formats your text.",
+        "th": "Smart transcription: Seamlessly handles self-corrections (like \"let’s meet Tuesday—no, Wednesday\"), removes filler words (“ums” and ‘“ahs\"), auto-formats your text."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Function calling: The model can delegate complex tasks (such as image generation and file analysis) to other Gemini models via function calls. Currently available in the Gemini macOS app.",
+        "th": "Function calling: The model can delegate complex tasks (such as image generation and file analysis) to other Gemini models via function calls. Currently available in the Gemini macOS app."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More precise transcription: As measured by Artificial Analysis, achieves an average Word Error Rate (WER) of 4.0% for streaming and 2.6% for non-streaming use-cases. It shows strong performance across noisy, real-world environments, accurately capturing alphanumeric entities like postal codes and order IDs.",
+        "th": "More precise transcription: As measured by Artificial Analysis, achieves an average Word Error Rate (WER) of 4.0% for streaming and 2.6% for non-streaming use-cases. It shows strong performance across noisy, real-world environments, accurately capturing alphanumeric entities like postal codes and order IDs."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Custom vocabulary: Recognizes specialized jargon and unique spellings by seamlessly adapting transcriptions to your provided custom vocabulary.",
+        "th": "Custom vocabulary: Recognizes specialized jargon and unique spellings by seamlessly adapting transcriptions to your provided custom vocabulary."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Global language support: Automatically detects and transcribes over 85 languages, seamlessly handling regional accents and diverse dialects.",
+        "th": "Global language support: Automatically detects and transcribes over 85 languages, seamlessly handling regional accents and diverse dialects."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Multi-speaker identification: Accurately attributes speech in pre-recorded audio with timestamps for up to three speakers (support for 3+ speakers is experimental).",
+        "th": "Multi-speaker identification: Accurately attributes speech in pre-recorded audio with timestamps for up to three speakers (support for 3+ speakers is experimental)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini 3.5 Transcribe handles live language switches and seamless streaming transcription",
+        "th": "Gemini 3.5 Transcribe handles live language switches and seamless streaming transcription"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Watch Gemini 3.5 Transcribe clean up speech disfluencies with smart transcription capabilities.",
+        "th": "Watch Gemini 3.5 Transcribe clean up speech disfluencies with smart transcription capabilities."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3.5 Transcribe delivers transcription with multi-speaker attribution and word-level timestamps.",
+        "th": "3.5 Transcribe delivers transcription with multi-speaker attribution and word-level timestamps."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini 3.5 Transcribe’s performance represents a major advancement from our previous transcription model, Chirp 3, offering new capabilities, improved word error rates, and significantly better latency. As measured by Artificial Analysis, time to final transcription, for example, improves by 70%. On the FLEURS benchmark across a set of top languages and locales, the model delivers precise multilingual performance, improving over Chirp 3, and achieving a 5.50% WER in streaming mode and 5.04% WER in non-streaming use-cases.",
+        "th": "Gemini 3.5 Transcribe’s performance represents a major advancement from our previous transcription model, Chirp 3, offering new capabilities, improved word error rates, and significantly better latency. As measured by Artificial Analysis, time to final transcription, for example, improves by 70%. On the FLEURS benchmark across a set of top languages and locales, the model delivers precise multilingual performance, improving over Chirp 3, and achieving a 5.50% WER in streaming mode and 5.04% WER in non-streaming use-cases."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.5-audio-transcribe_fleur.width-100.format-webp.webp",
+      "alt": "Graph of streaming speech recognition accuracy"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.5-audio-transcribe_fleur.width-100.format-webp_tK9W6V9.webp",
+      "alt": "Graph of streaming speech recognition accuracy"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Experience smart transcription and advanced dictation",
+        "th": "Experience smart transcription and advanced dictation"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In addition to the Gemini API in the Google AI Studio and Gemini Enterprise Agent Platform, 3.5 Transcribe goes further than standard speech-to-text to make working across Google feel more natural and intuitive. By bringing context-aware understanding directly into everyday surfaces like Gboard, Antigravity, the Gemini app, and Chrome, it captures nuances, intent, and inline edits with ease.",
+        "th": "In addition to the Gemini API in the Google AI Studio and Gemini Enterprise Agent Platform, 3.5 Transcribe goes further than standard speech-to-text to make working across Google feel more natural and intuitive. By bringing context-aware understanding directly into everyday surfaces like Gboard, Antigravity, the Gemini app, and Chrome, it captures nuances, intent, and inline edits with ease."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "On Gboard on Android, through the new Rambler feature, 3.5 Transcribe transforms spoken thoughts into well-formatted text, filtering out filler words. You can also use your voice to make edits, correct misspellings, and change the writing style.",
+        "th": "On Gboard on Android, through the new Rambler feature, 3.5 Transcribe transforms spoken thoughts into well-formatted text, filtering out filler words. You can also use your voice to make edits, correct misspellings, and change the writing style."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "On Google Antigravity, 3.5 Transcribe pairs screen context and chat history, with your permission, to ensure pinpoint transcription accuracy across file names, agent thoughts, and active documents.",
+        "th": "On Google Antigravity, 3.5 Transcribe pairs screen context and chat history, with your permission, to ensure pinpoint transcription accuracy across file names, agent thoughts, and active documents."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "In Google AI Studio, you can access 3.5 Transcribe in Build mode to vibe code apps with your voice on the fly.",
+        "th": "In Google AI Studio, you can access 3.5 Transcribe in Build mode to vibe code apps with your voice on the fly."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "In the Gemini app on macOS, 3.5 Transcribe not only transcribes your free natural speech into clean formatted text, but also enables voice commands that can pair seamlessly with screen context to power complex workflows. By calling on other Gemini models in the background to handle the heavy lifting, the model makes it effortless to summarize local files, repurpose text across apps, or generate images right at your cursor—using just your voice.",
+        "th": "In the Gemini app on macOS, 3.5 Transcribe not only transcribes your free natural speech into clean formatted text, but also enables voice commands that can pair seamlessly with screen context to power complex workflows. By calling on other Gemini models in the background to handle the heavy lifting, the model makes it effortless to summarize local files, repurpose text across apps, or generate images right at your cursor—using just your voice."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Coming soon to Chrome, you’ll be able to talk to type in any web field — making it effortless to dictate replies, draft posts, or prompt Gemini in Chrome more naturally and easily with your voice.",
+        "th": "Coming soon to Chrome, you’ll be able to talk to type in any web field — making it effortless to dictate replies, draft posts, or prompt Gemini in Chrome more naturally and easily with your voice."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini 3.5 Transcribe lets you analyze files, generate images, and search in the Gemini app on macOS using just your voice.",
+        "th": "Gemini 3.5 Transcribe lets you analyze files, generate images, and search in the Gemini app on macOS using just your voice."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "See how Gemini 3.5 Transcribe uses Rambler on Android to automatically remove filler words and clean up speech.",
+        "th": "See how Gemini 3.5 Transcribe uses Rambler on Android to automatically remove filler words and clean up speech."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini 3.5 Transcribe leverages screen context on Google Antigravity to ensure accurate transcription accuracy.",
+        "th": "Gemini 3.5 Transcribe leverages screen context on Google Antigravity to ensure accurate transcription accuracy."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Read the early reviews",
+        "th": "อ่านบทวิจารณ์ในช่วงต้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By leveraging the Gemini Live API, developer platforms such as Agora, Fishjam, LangChain, LiveKit, Pipecat, Vercel, and Vision Agents enable developers to build and deploy high-performance voice-driven interfaces with ease. These platforms manage complex real-time media streaming infrastructure behind the scenes, allowing developers to focus entirely on crafting the user experience.",
+        "th": "By leveraging the Gemini Live API, developer platforms such as Agora, Fishjam, LangChain, LiveKit, Pipecat, Vercel, and Vision Agents enable developers to build and deploy high-performance voice-driven interfaces with ease. These platforms manage complex real-time media streaming infrastructure behind the scenes, allowing developers to focus entirely on crafting the user experience."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Companies like Vivo, Intellitek Health, and Lingopal have also shared positive feedback on 3.5 Transcribe, highlighting its impressive latency, accuracy, and expansive language support.",
+        "th": "Companies like Vivo, Intellitek Health, and Lingopal have also shared positive feedback on 3.5 Transcribe, highlighting its impressive latency, accuracy, and expansive language support."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-transcribe__testimonia.width-100.format-webp.webp",
+      "alt": "vivo testimonial"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-transcribe__testimonia.width-100.format-webp_dmRh7fs.webp",
+      "alt": "IntelliTek testimonial"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-transcribe__testimonia.width-100.format-webp_5mPNtop.webp",
+      "alt": "Lingopal testimonial"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/stream_testimonial.width-100.format-webp.webp",
+      "alt": "Stream testimonial"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-transcribe__testimonia.width-100.format-webp_z2gdPBD.webp",
+      "alt": "Agora testimonial"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-transcribe__testimonia.width-100.format-webp_WrvT9ED.webp",
+      "alt": "fishjam testimonial"
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Start using 3.5 Transcribe today",
+        "th": "Start using 3.5 Transcribe today"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For developers: In public preview in the Gemini API via Google AI Studio and Google Antigravity.",
+        "th": "For developers: In public preview in the Gemini API via Google AI Studio and Google Antigravity."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For enterprises: In public preview via Gemini Enterprise Agent Platform and coming soon to Gemini Enterprise for Customer Experience.",
+        "th": "For enterprises: In public preview via Gemini Enterprise Agent Platform and coming soon to Gemini Enterprise for Customer Experience."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For everyone: In Gemini app on macOS in English, Rambler on Android in select countries and languages, and coming soon to Chrome.",
+        "th": "For everyone: In Gemini app on macOS in English, Rambler on Android in select countries and languages, and coming soon to Chrome."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get the latest news from Google in your inbox",
+        "th": "รับข่าวสารล่าสุดจาก Google ในกล่องจดหมายของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sign up for our newsletters with product updates, event information, special offers, and more.",
+        "th": "ลงทะเบียนรับจดหมายข่าวของเราพร้อมข้อมูลอัปเดตผลิตภัณฑ์ ข้อมูลกิจกรรม ข้อเสนอพิเศษ และอื่นๆ อีกมากมาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Done. Just one step more.",
+        "th": "เสร็จแล้ว. อีกเพียงก้าวเดียวเท่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check your inbox to confirm your subscription.",
+        "th": "ตรวจสอบกล่องจดหมายของคุณเพื่อยืนยันการสมัครของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also subscribe with a different email address.",
+        "th": "คุณสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your information will be used in accordance with Google's privacy policy. You may opt out at any time.",
+        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google คุณสามารถเลือกไม่รับได้ตลอดเวลา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini models",
+        "th": "โมเดลราศีเมถุน"
+      }
+    }
+  ]
+}

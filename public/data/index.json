@@ -1,6 +1,108 @@
 {
-  "generatedAt": "2026-08-27T06:22:42.903Z",
+  "generatedAt": "2026-08-27T18:44:00.286Z",
   "items": [
+    {
+      "id": "deepmind__gemini-omni-1-1-flash-lets-you-build-with-more-control",
+      "slug": "gemini-omni-1-1-flash-lets-you-build-with-more-control",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "category": "News",
+      "date": "2026-08-27T16:11:32.000Z",
+      "image": null,
+      "title": {
+        "en": "Gemini Omni 1.1 Flash lets you build with more control",
+        "th": "Gemini Omni 1.1 Flash lets you build with more control"
+      },
+      "summary": {
+        "en": "Gemini Omni 1.1 Flash lets you build with more control",
+        "th": "Gemini Omni 1.1 Flash lets you build with more control"
+      }
+    },
+    {
+      "id": "google-ai__book-travel-ai-mode",
+      "slug": "book-travel-ai-mode",
+      "source": "google-ai",
+      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "category": "Search",
+      "date": "2026-08-27T16:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Travel_Blog_Hero_8.27.max-600x600.format-webp.webp",
+      "title": {
+        "en": "3 new ways to plan and book travel in Search",
+        "th": "3 new ways to plan and book travel in Search"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Travel_Blog_Hero_8.27.max-600x600.format-webp.webp\">Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Sear",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Travel_Blog_Hero_8.27.max-600x600.format-webp.webp\">Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Sear"
+      }
+    },
+    {
+      "id": "deepmind__piloting-the-worlds-first-double-blind-ai-evaluations",
+      "slug": "piloting-the-worlds-first-double-blind-ai-evaluations",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "category": "News",
+      "date": "2026-08-27T12:59:16.000Z",
+      "image": "https://lh3.googleusercontent.com/fHN8sOK3p7BTKR4s-3lpYYnq5IEadmVKnqssJO4OmfL6remdC7E8voV-IEue8NPviKWUR7WtCtNTfsKZpld6y2jjwVhNAiqYL9-9EQzj5OURGXCCuug=w528-h297-n-nu-rw-lo",
+      "title": {
+        "en": "Piloting the world's first double-blind AI evaluations",
+        "th": "Piloting the world's first double-blind AI evaluations"
+      },
+      "summary": {
+        "en": "Piloting the world's first double-blind AI evaluations",
+        "th": "Piloting the world's first double-blind AI evaluations"
+      }
+    },
+    {
+      "id": "openai__what-students-gain-from-chatgpt-critical-thinking-training",
+      "slug": "what-students-gain-from-chatgpt-critical-thinking-training",
+      "source": "openai",
+      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "category": "Company",
+      "date": "2026-08-27T09:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+        "th": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training"
+      },
+      "summary": {
+        "en": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+        "th": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment."
+      }
+    },
+    {
+      "id": "openai__expanding-our-presence-in-brazil",
+      "slug": "expanding-our-presence-in-brazil",
+      "source": "openai",
+      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "category": "Company",
+      "date": "2026-08-27T03:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Expanding OpenAI’s presence in Brazil",
+        "th": "Expanding OpenAI’s presence in Brazil"
+      },
+      "summary": {
+        "en": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+        "th": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country."
+      }
+    },
+    {
+      "id": "anthropic__model-hardware-standard-research-preview",
+      "slug": "model-hardware-standard-research-preview",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "category": "Announcements",
+      "date": "2026-08-27T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/ebfc315e9854ada0b6bae009ffd9c63c41f9a5ab-1280x720.png",
+      "title": {
+        "en": "Previewing the Model Hardware Standard",
+        "th": "Previewing the Model Hardware Standard"
+      },
+      "summary": {
+        "en": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
+        "th": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers."
+      }
+    },
     {
       "id": "deepmind__intelligent-transcription-with-gemini-3-5-transcribe",
       "slug": "intelligent-transcription-with-gemini-3-5-transcribe",
@@ -1124,23 +1226,6 @@
       }
     },
     {
-      "id": "openai__zapier",
-      "slug": "zapier",
-      "source": "openai",
-      "url": "https://openai.com/index/zapier",
-      "category": "News",
-      "date": "2026-08-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How Zapier transformed core marketing processes with ChatGPT Work",
-        "th": "Zapier เปลี่ยนโฉมกระบวนการทางการตลาดหลักด้วย ChatGPT Work อย่างไร"
-      },
-      "summary": {
-        "en": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
-        "th": "ทีมการตลาดระดับองค์กรที่ Zapier ใช้ ChatGPT Work เพื่อลดจำนวนการออกจากช่องทางลูกค้าเป้าหมาย สร้างเนื้อหาแคมเปญ และทำให้การรายงานเป็นแบบอัตโนมัติ"
-      }
-    },
-    {
       "id": "huggingface__muse-glimmer",
       "slug": "muse-glimmer",
       "source": "huggingface",
@@ -1158,28 +1243,11 @@
       }
     },
     {
-      "id": "openai__responding-next-frontier-critical-cyber-capabilities",
-      "slug": "responding-next-frontier-critical-cyber-capabilities",
-      "source": "openai",
-      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-      "category": "Security",
-      "date": "2026-08-07T15:20:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Responding to the next frontier of critical cyber capabilities",
-        "th": "ตอบสนองต่อขอบเขตถัดไปของความสามารถทางไซเบอร์ที่สำคัญ"
-      },
-      "summary": {
-        "en": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
-        "th": "OpenAI กำลังแบ่งปันการประเมินความปลอดภัยทางไซเบอร์เบื้องต้นสำหรับ Astra และขั้นตอนที่เรากำลังดำเนินการเพื่อเสริมสร้างการป้องกันและการควบคุมความปลอดภัย"
-      }
-    },
-    {
       "id": "anthropic__improving-fable-5-s-biology-safeguards",
       "slug": "improving-fable-5-s-biology-safeguards",
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-      "category": "Product",
+      "category": "News",
       "date": "2026-08-07T00:00:00.000Z",
       "image": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Bird&backgroundColor=heather",
       "title": {
@@ -1563,23 +1631,6 @@
       "summary": {
         "en": "We’re committing $200 million to the Anthropic Economic Futures Research Fund to support ambitious external research.",
         "th": "เรากำลังทุ่มเงิน 200 ล้านดอลลาร์ให้กับกองทุนวิจัยอนาคตเศรษฐกิจมานุษยวิทยาเพื่อสนับสนุนการวิจัยภายนอกที่มีความทะเยอทะยาน"
-      }
-    },
-    {
-      "id": "anthropic__anthropic-economic-index-connector",
-      "slug": "anthropic-economic-index-connector",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
-      "category": "News",
-      "date": "2026-07-22T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20NodeBook&backgroundColor=coral",
-      "title": {
-        "en": "Ask Claude about the Anthropic Economic Index",
-        "th": "ถาม Claude เกี่ยวกับดัชนีเศรษฐกิจมานุษยวิทยา"
-      },
-      "summary": {
-        "en": "We're launching the Anthropic Economic Index connector for Claude, which lets anyone explore the data directly.",
-        "th": "เรากำลังเปิดตัวตัวเชื่อมต่อ Anthropic Economic Index สำหรับ Claude ซึ่งช่วยให้ใครก็ตามสามารถสำรวจข้อมูลได้โดยตรง"
       }
     },
     {
@@ -2110,23 +2161,6 @@
       }
     },
     {
-      "id": "google-ai__full-stack-ai-explainer",
-      "slug": "full-stack-ai-explainer",
-      "source": "google-ai",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
-      "category": "Developer tools",
-      "date": "2026-06-29T16:00:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp",
-      "title": {
-        "en": "Ask an AI expert: What exactly is the full stack?",
-        "th": "ถามผู้เชี่ยวชาญ AI ว่า Full Stack คืออะไรกันแน่?"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp\">A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundati",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp\">ผู้เชี่ยวชาญของ Google อธิบายว่าการใช้แนวทาง AI แบบฟูลสแตกหมายความว่าอย่างไร และเหตุใดจึงเป็นรากฐาน"
-      }
-    },
-    {
       "id": "deepmind__introducing-computer-use-in-gemini-3-5-flash",
       "slug": "introducing-computer-use-in-gemini-3-5-flash",
       "source": "deepmind",
@@ -2515,40 +2549,6 @@
       "summary": {
         "en": "Learn how our WeatherNext AI model help forecasters give communities unprecedented time to prepare ahead of the historic Hurricane Melissa.",
         "th": "เรียนรู้ว่าโมเดล WeatherNext AI ของเราช่วยให้นักพยากรณ์ให้เวลาแก่ชุมชนอย่างที่ไม่เคยมีมาก่อนในการเตรียมตัวรับมือพายุเฮอริเคนเมลิสซาครั้งประวัติศาสตร์ได้อย่างไร"
-      }
-    },
-    {
-      "id": "deepmind__gemini-3-5-frontier-intelligence-with-action",
-      "slug": "gemini-3-5-frontier-intelligence-with-action",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/",
-      "category": "News",
-      "date": "2026-05-15T22:50:12.000Z",
-      "image": null,
-      "title": {
-        "en": "Gemini 3.5: frontier intelligence with action",
-        "th": "Gemini 3.5: ความฉลาดระดับแนวหน้าพร้อมการกระทำ"
-      },
-      "summary": {
-        "en": "Gemini 3.5 is built to help you execute complex, agentic workflows.",
-        "th": "Gemini 3.5 ได้รับการสร้างขึ้นเพื่อช่วยให้คุณดำเนินการเวิร์กโฟลว์ตัวแทนที่ซับซ้อน"
-      }
-    },
-    {
-      "id": "deepmind__co-scientist-a-multi-agent-ai-partner-to-accelerate-research",
-      "slug": "co-scientist-a-multi-agent-ai-partner-to-accelerate-research",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
-      "category": "News",
-      "date": "2026-05-12T14:40:07.000Z",
-      "image": "https://lh3.googleusercontent.com/8kFWTjhROuwZK6kVFk-ol13YlKLABvppqzVl9LIhYyY3NP4Z8Y0i2ubSuVIfgmknluXTgYmTMAzRR21CxJPbgSK5m37ARzv26S8TPX5QhNWG6wq11Q=w528-h297-n-nu-rw-lo",
-      "title": {
-        "en": "Co-Scientist: A multi-agent AI partner to accelerate research",
-        "th": "นักวิทยาศาสตร์ร่วม: พันธมิตร AI หลายตัวแทนเพื่อเร่งการวิจัย"
-      },
-      "summary": {
-        "en": "Introducing Co-Scientist, a collaborative AI partner built with Gemini to help researchers accelerate scientific breakthroughs.",
-        "th": "ขอแนะนำ Co-Scientist ซึ่งเป็นพันธมิตร AI ที่ทำงานร่วมกันซึ่งสร้างขึ้นร่วมกับ Gemini เพื่อช่วยนักวิจัยเร่งการค้นพบทางวิทยาศาสตร์"
       }
     }
   ]

@@ -1,0 +1,125 @@
+{
+  "id": "deepmind__piloting-the-worlds-first-double-blind-ai-evaluations",
+  "slug": "piloting-the-worlds-first-double-blind-ai-evaluations",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+  "category": "News",
+  "date": "2026-08-27T12:59:16.000Z",
+  "image": "https://lh3.googleusercontent.com/fHN8sOK3p7BTKR4s-3lpYYnq5IEadmVKnqssJO4OmfL6remdC7E8voV-IEue8NPviKWUR7WtCtNTfsKZpld6y2jjwVhNAiqYL9-9EQzj5OURGXCCuug=w528-h297-n-nu-rw-lo",
+  "title": {
+    "en": "Piloting the world's first double-blind AI evaluations",
+    "th": "Piloting the world's first double-blind AI evaluations"
+  },
+  "summary": {
+    "en": "Piloting the world's first double-blind AI evaluations",
+    "th": "Piloting the world's first double-blind AI evaluations"
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "William Isaac, Sol Messing and Kristian Lum",
+        "th": "William Isaac, Sol Messing and Kristian Lum"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://lh3.googleusercontent.com/FzmosgmmTRGnSxbVB4Uub9VHNWGtqTq5rHOQ-VOFRgAaehrn6_AzEYqdD5vFhP57ZpSuOvG7Yrbst-HSp-y_mzNRpiNFC5iq7_Up30g7eGUfT1o2=w1440-h810-n-nu",
+      "alt": "A translucent blue-green cube with keyholes and a padlock symbol, with glowing yellow and green light beams passing through it."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Building trust in proprietary model benchmarks using cryptographically secure environments",
+        "th": "Building trust in proprietary model benchmarks using cryptographically secure environments"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Imagine a student is set to take a high-stakes exam. If they accidentally peek at the test questions in advance, achieving a perfect score is influenced by this knowledge, making it a meaningless accomplishment. To truly measure what they know, they must have no visibility of the test questions until it's time to take the exam. That is the exact challenge the industry faces when evaluating advanced AI models. If a model has already seen the test questions - a problem known as benchmark contamination - the results can only be trusted to an extent.",
+        "th": "Imagine a student is set to take a high-stakes exam. If they accidentally peek at the test questions in advance, achieving a perfect score is influenced by this knowledge, making it a meaningless accomplishment. To truly measure what they know, they must have no visibility of the test questions until it's time to take the exam. That is the exact challenge the industry faces when evaluating advanced AI models. If a model has already seen the test questions - a problem known as benchmark contamination - the results can only be trusted to an extent."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re introducing the world’s first double-blind evaluation of a proprietary, frontier class AI model, which keeps external evaluations confined to a cryptographic “box” where they can’t be used by models later to optimize performance ahead of testing. We're partnering with the Singapore AI Safety Institute, OpenMined, AVERI, and MLCommons, to test a Gemini Flash Lite model against confidential benchmarks in a privacy-preserving environment, increasing evaluation integrity.",
+        "th": "Today, we’re introducing the world’s first double-blind evaluation of a proprietary, frontier class AI model, which keeps external evaluations confined to a cryptographic “box” where they can’t be used by models later to optimize performance ahead of testing. We're partnering with the Singapore AI Safety Institute, OpenMined, AVERI, and MLCommons, to test a Gemini Flash Lite model against confidential benchmarks in a privacy-preserving environment, increasing evaluation integrity."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "At Google, we assess our AI systems using a broad spectrum of evaluations throughout model development and deployment, but we don’t rely on internal testing alone. To identify potential blindspots, we work with a diverse group of external partners, including specialized research labs, civil society and national AI Safety and Security Institutes (AISIs), using their unique expertise to stress-test our models.",
+        "th": "At Google, we assess our AI systems using a broad spectrum of evaluations throughout model development and deployment, but we don’t rely on internal testing alone. To identify potential blindspots, we work with a diverse group of external partners, including specialized research labs, civil society and national AI Safety and Security Institutes (AISIs), using their unique expertise to stress-test our models."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As AI models become more capable, ensuring the model has not seen the test questions or prompts in advance is critical, as this can skew the results. Policymakers, researchers, and enterprises need to trust that AI benchmarks accurately reflect a model's true capabilities and safety, but if models are able to “peek” at the evaluation questions in advance, it can artificially inflate scores and undermine this trust.",
+        "th": "As AI models become more capable, ensuring the model has not seen the test questions or prompts in advance is critical, as this can skew the results. Policymakers, researchers, and enterprises need to trust that AI benchmarks accurately reflect a model's true capabilities and safety, but if models are able to “peek” at the evaluation questions in advance, it can artificially inflate scores and undermine this trust."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Although zero-logging protocols and rigorous contractual safeguards have long kept external test prompts confidential, incorporating technical and cryptographic safeguards marks a major step forward in secure model evaluation.",
+        "th": "Although zero-logging protocols and rigorous contractual safeguards have long kept external test prompts confidential, incorporating technical and cryptographic safeguards marks a major step forward in secure model evaluation."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How double-blind evaluations work",
+        "th": "How double-blind evaluations work"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/QIliP0rsPdITCeVJ/Double_blind_evals_diagram.svg",
+      "alt": "An architectural diagram illustrating a 7-step secure evaluation workflow between an \"AI Owner\" and an \"Evaluator\" using a secure \"GPU Enclave.\""
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/QIliP0rsPdITCeVJ/Double_blind_evals_diagram_dark.svg",
+      "alt": "An architectural diagram illustrating a 7-step secure evaluation workflow between an \"AI Owner\" and an \"Evaluator\" using a secure \"GPU Enclave.\""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Historically, high-stakes external evaluations required a tradeoff. Either evaluators handed over their testing prompts (risking the model provider seeing the test questions in advance), or the model provider handed over their model weights (risking their intellectual property).",
+        "th": "Historically, high-stakes external evaluations required a tradeoff. Either evaluators handed over their testing prompts (risking the model provider seeing the test questions in advance), or the model provider handed over their model weights (risking their intellectual property)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Double-blind evaluations eliminate this compromise. By using Confidential Space within Google Cloud’s Confidential Computing portfolio, we can cryptographically verify that both the external evaluation data and the proprietary model remain private to their respective owners. The evaluator cannot see the Gemini model weights, and Google cannot see the evaluator’s test prompts.",
+        "th": "Double-blind evaluations eliminate this compromise. By using Confidential Space within Google Cloud’s Confidential Computing portfolio, we can cryptographically verify that both the external evaluation data and the proprietary model remain private to their respective owners. The evaluator cannot see the Gemini model weights, and Google cannot see the evaluator’s test prompts."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "A novel approach to building trust in model evaluations",
+        "th": "A novel approach to building trust in model evaluations"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This cryptographic evidence helps prevent benchmark contamination and protects sensitive data. As models become more capable this becomes particularly important for highly sensitive evaluations, such as those used for cybersecurity or by government bodies. Double-blind evaluations unlock the ability for independent organizations to rigorously test advanced models without compromising data sovereignty or security.",
+        "th": "This cryptographic evidence helps prevent benchmark contamination and protects sensitive data. As models become more capable this becomes particularly important for highly sensitive evaluations, such as those used for cybersecurity or by government bodies. Double-blind evaluations unlock the ability for independent organizations to rigorously test advanced models without compromising data sovereignty or security."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We hope this pilot establishes a new frontier for model oversight, helping the broader industry build safer, more reliable, and widely trusted AI systems. To learn more about our methodology and findings, read our technical report.",
+        "th": "We hope this pilot establishes a new frontier for model oversight, helping the broader industry build safer, more reliable, and widely trusted AI systems. To learn more about our methodology and findings, read our technical report."
+      }
+    }
+  ]
+}

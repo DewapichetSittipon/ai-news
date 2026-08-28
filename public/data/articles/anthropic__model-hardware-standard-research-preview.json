@@ -116,8 +116,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Researchers at Genentech implemented and tested MHS as a proof of concept for automating the BCA protein assay, a standard procedure to measure total protein concentration in a sample, which requires coordinating across a liquid handler, a robotic arm, and a plate reader.",
-        "th": "Researchers at Genentech implemented and tested MHS as a proof of concept for automating the BCA protein assay, a standard procedure to measure total protein concentration in a sample, which requires coordinating across a liquid handler, a robotic arm, and a plate reader."
+        "en": "Researchers at Genentech implemented and tested MHS as a proof-of-concept for automating the BCA protein assay, a standard procedure to measure total protein concentration in a sample, which requires coordinating across a liquid handler, a robotic arm, and a plate reader.",
+        "th": "Researchers at Genentech implemented and tested MHS as a proof-of-concept for automating the BCA protein assay, a standard procedure to measure total protein concentration in a sample, which requires coordinating across a liquid handler, a robotic arm, and a plate reader."
       }
     },
     {
@@ -137,8 +137,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Researchers at Genentech implemented and tested MHS as a proof of concept for automating the BCA protein assay, a standard procedure to measure total protein concentration in a sample, which requires coordinating across a liquid handler, a robotic arm, and a plate reader.",
-        "th": "Researchers at Genentech implemented and tested MHS as a proof of concept for automating the BCA protein assay, a standard procedure to measure total protein concentration in a sample, which requires coordinating across a liquid handler, a robotic arm, and a plate reader."
+        "en": "Researchers at Genentech implemented and tested MHS as a proof-of-concept for automating the BCA protein assay, a standard procedure to measure total protein concentration in a sample, which requires coordinating across a liquid handler, a robotic arm, and a plate reader.",
+        "th": "Researchers at Genentech implemented and tested MHS as a proof-of-concept for automating the BCA protein assay, a standard procedure to measure total protein concentration in a sample, which requires coordinating across a liquid handler, a robotic arm, and a plate reader."
       }
     },
     {
@@ -158,8 +158,8 @@
     {
       "type": "p",
       "text": {
-        "en": "To address this core bottleneck between experimental design and automated execution, we implemented MHS for lab automation with Anthropic. This open framework is designed to standardize AI-to-hardware communication, enabling scientists to interact with specialized lab robots using natural language and eliminating the need to write custom robotic code. Our ultimate goal is to build autonomous labs where AI handles the tedious, mechanical parts of experiment execution at scale so that our scientists can focus on the many creative aspects of accelerating drug discovery that rely on human judgement, such as experimental design, interpretation, decision making, and the invention of new lab approaches.",
-        "th": "To address this core bottleneck between experimental design and automated execution, we implemented MHS for lab automation with Anthropic. This open framework is designed to standardize AI-to-hardware communication, enabling scientists to interact with specialized lab robots using natural language and eliminating the need to write custom robotic code. Our ultimate goal is to build autonomous labs where AI handles the tedious, mechanical parts of experiment execution at scale so that our scientists can focus on the many creative aspects of accelerating drug discovery that rely on human judgement, such as experimental design, interpretation, decision making, and the invention of new lab approaches."
+        "en": "To address this core bottleneck between experimental design and automated execution, we implemented MHS for lab automation with Anthropic. This open framework is designed to standardize AI-to-hardware communication, enabling scientists to interact with specialized lab robots using natural language and eliminating the need to write custom robotic code. Our ultimate goal is to build autonomous labs where AI handles the tedious, mechanical parts of experiment execution at scale so that our scientists can focus on the many creative aspects of accelerating drug discovery that rely on human judgment, such as experimental design, interpretation, decision-making, and the invention of new lab approaches.",
+        "th": "To address this core bottleneck between experimental design and automated execution, we implemented MHS for lab automation with Anthropic. This open framework is designed to standardize AI-to-hardware communication, enabling scientists to interact with specialized lab robots using natural language and eliminating the need to write custom robotic code. Our ultimate goal is to build autonomous labs where AI handles the tedious, mechanical parts of experiment execution at scale so that our scientists can focus on the many creative aspects of accelerating drug discovery that rely on human judgment, such as experimental design, interpretation, decision-making, and the invention of new lab approaches."
       }
     },
     {
@@ -428,8 +428,8 @@
     {
       "type": "p",
       "text": {
-        "en": "These demonstrations are still just proofs-of-concept. More complicated experimental protocols will require significant optimization to work reliably, as well as the integration of broader and more complex physical manipulations. Running an agent continuously over long monitoring windows also has compute costs that need to be weighed against the researcher time saved.",
-        "th": "These demonstrations are still just proofs-of-concept. More complicated experimental protocols will require significant optimization to work reliably, as well as the integration of broader and more complex physical manipulations. Running an agent continuously over long monitoring windows also has compute costs that need to be weighed against the researcher time saved."
+        "en": "These demonstrations are still just proofs of concept. More complicated experimental protocols will require significant optimization to work reliably, as well as the integration of broader and more complex physical manipulations. Running an agent continuously over long monitoring windows also has compute costs that need to be weighed against the researcher time saved.",
+        "th": "These demonstrations are still just proofs of concept. More complicated experimental protocols will require significant optimization to work reliably, as well as the integration of broader and more complex physical manipulations. Running an agent continuously over long monitoring windows also has compute costs that need to be weighed against the researcher time saved."
       }
     },
     {
@@ -1266,8 +1266,8 @@
     {
       "type": "li",
       "text": {
-        "en": "QIAGEN is experimenting with MHS through a working proof of concept on its nucleic acid purification platform, QIAsymphony Connect, showing how AI agents could help laboratories troubleshoot instrument issues faster, guide operators through recovery, and improve instrument uptime while reducing risk to biological samples.",
-        "th": "QIAGEN is experimenting with MHS through a working proof of concept on its nucleic acid purification platform, QIAsymphony Connect, showing how AI agents could help laboratories troubleshoot instrument issues faster, guide operators through recovery, and improve instrument uptime while reducing risk to biological samples."
+        "en": "QIAGEN is experimenting with MHS through a working proof-of-concept on its nucleic acid purification platform, QIAsymphony Connect, showing how AI agents could help laboratories troubleshoot instrument issues faster, guide operators through recovery, and improve instrument uptime while reducing risk to biological samples.",
+        "th": "QIAGEN is experimenting with MHS through a working proof-of-concept on its nucleic acid purification platform, QIAsymphony Connect, showing how AI agents could help laboratories troubleshoot instrument issues faster, guide operators through recovery, and improve instrument uptime while reducing risk to biological samples."
       }
     },
     {

@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-31T18:32:23.325Z",
+  "generatedAt": "2026-08-31T23:32:49.339Z",
   "items": [
+    {
+      "id": "openai__polimill",
+      "slug": "polimill",
+      "source": "openai",
+      "url": "https://openai.com/index/polimill",
+      "category": "News",
+      "date": "2026-08-31T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Polimill builds Japan's next-generation public AI infrastructure",
+        "th": "Polimill builds Japan's next-generation public AI infrastructure"
+      },
+      "summary": {
+        "en": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+        "th": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development."
+      }
+    },
     {
       "id": "openai__expanding-access-to-ai-with-chatgpt-ads",
       "slug": "expanding-access-to-ai-with-chatgpt-ads",
@@ -16,6 +33,23 @@
       "summary": {
         "en": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
         "th": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options."
+      }
+    },
+    {
+      "id": "anthropic__improving-alignment-security-efforts",
+      "slug": "improving-alignment-security-efforts",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "category": "News",
+      "date": "2026-08-31T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20ShapeBuild&backgroundColor=cactus",
+      "title": {
+        "en": "Improving our alignment and security efforts",
+        "th": "Improving our alignment and security efforts"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
       }
     },
     {
@@ -533,23 +567,6 @@
       "slug": "introducing-intelligence-age",
       "source": "openai",
       "url": "https://openai.com/index/introducing-intelligence-age",
-      "category": "Intelligence Age",
-      "date": "2026-08-20T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing Intelligence Age",
-        "th": "Introducing Intelligence Age"
-      },
-      "summary": {
-        "en": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-        "th": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom."
-      }
-    },
-    {
-      "id": "openai__introducing-ai-futures",
-      "slug": "introducing-ai-futures",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-ai-futures",
       "category": "Intelligence Age",
       "date": "2026-08-20T07:00:00.000Z",
       "image": null,
@@ -1124,23 +1141,6 @@
       }
     },
     {
-      "id": "openai__daybreak-models-are-now-available-on-aws",
-      "slug": "daybreak-models-are-now-available-on-aws",
-      "source": "openai",
-      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "category": "Product",
-      "date": "2026-08-11T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Daybreak models are now available on AWS",
-        "th": "ขณะนี้โมเดล Daybreak พร้อมใช้งานบน AWS แล้ว"
-      },
-      "summary": {
-        "en": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
-        "th": "OpenAI และ AWS กำลังสร้างความสามารถด้านความปลอดภัยทางไซเบอร์ของ Daybreak ผ่านทาง Amazon Bedrock เพื่อรองรับเวิร์กโฟลว์ด้านความปลอดภัยขององค์กร"
-      }
-    },
-    {
       "id": "openai__testing-ads-in-chatgpt",
       "slug": "testing-ads-in-chatgpt",
       "source": "openai",
@@ -1155,6 +1155,23 @@
       "summary": {
         "en": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
         "th": "OpenAI เริ่มทดสอบโฆษณาใน ChatGPT เพื่อรองรับการเข้าถึงฟรี โดยมีป้ายกำกับที่ชัดเจน คำตอบที่เป็นอิสระ การปกป้องความเป็นส่วนตัวที่แข็งแกร่ง และการควบคุมผู้ใช้"
+      }
+    },
+    {
+      "id": "openai__daybreak-models-are-now-available-on-aws",
+      "slug": "daybreak-models-are-now-available-on-aws",
+      "source": "openai",
+      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "category": "Product",
+      "date": "2026-08-11T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Daybreak models are now available on AWS",
+        "th": "ขณะนี้โมเดล Daybreak พร้อมใช้งานบน AWS แล้ว"
+      },
+      "summary": {
+        "en": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+        "th": "OpenAI และ AWS กำลังสร้างความสามารถด้านความปลอดภัยทางไซเบอร์ของ Daybreak ผ่านทาง Amazon Bedrock เพื่อรองรับเวิร์กโฟลว์ด้านความปลอดภัยขององค์กร"
       }
     },
     {

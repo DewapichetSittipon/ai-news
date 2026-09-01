@@ -1,0 +1,617 @@
+{
+  "id": "huggingface__webgpu-kernels",
+  "slug": "webgpu-kernels",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/webgpu-kernels",
+  "category": "News",
+  "date": "2026-09-01T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+    "th": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI"
+  },
+  "summary": {
+    "en": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+    "th": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "/avatars/8213f0ffc9106d7663c4b5f29f4ec9e5.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/61b253b7ac5ecaae3d1efe0c/hwiQ0uvz3t-L5a-NtBIO6.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6317233cc92fd6fee317e030/cJHSvvimr1kqgQfHOjO5n.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6384db7fb2906edaf835a91d/MOTXxaOmjlTZ8wONYifnD.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6468b720b2321e47d32683da/aWAEJJ03I9Z5syqDxHObT.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/952cee0d1036690c8bc3c7cba15117d7.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+6",
+        "th": "+6"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6468b720b2321e47d32683da/aWAEJJ03I9Z5syqDxHObT.jpeg",
+      "alt": "Nico Martin's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/61b253b7ac5ecaae3d1efe0c/hwiQ0uvz3t-L5a-NtBIO6.png",
+      "alt": "Joshua's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "TL;DR",
+        "th": "TL;ดร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why start with kernels?",
+        "th": "Why start with kernels?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A kernel repository, not just a shader",
+        "th": "A kernel repository, not just a shader"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Loading a kernel from the Hub",
+        "th": "Loading a kernel from the Hub"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How fast are the kernels?",
+        "th": "How fast are the kernels?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "From one device to a fleet",
+        "th": "From one device to a fleet"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building a shared foundation for WebAI",
+        "th": "Building a shared foundation for WebAI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we are releasing the first layer of that effort: @huggingface/kernels, a minimal library for loading and running optimized WebGPU kernels from the Hugging Face Hub, together with an initial collection of 207 kernels at huggingface.co/webgpu-kernels.",
+        "th": "Today, we are releasing the first layer of that effort: @huggingface/kernels, a minimal library for loading and running optimized WebGPU kernels from the Hugging Face Hub, together with an initial collection of 207 kernels at huggingface.co/webgpu-kernels."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The collection covers operations used across a wide variety of machine learning architectures and workloads. More importantly, each kernel is published as a complete, versioned package: its interface, shader templates, correctness cases, benchmark cases, and usage instructions all live together on the Hub.",
+        "th": "The collection covers operations used across a wide variety of machine learning architectures and workloads. More importantly, each kernel is published as a complete, versioned package: its interface, shader templates, correctness cases, benchmark cases, and usage instructions all live together on the Hub."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are also launching Fleet, an in-browser GPU benchmarking and testing suite that runs and scores the kernels on your hardware. Beyond the results for your own machine, Fleet gives the community a way to contribute performance and correctness evidence from devices we could never cover in a conventional test lab. With your consent, every run adds private evidence that can help us find failures (incorrect results, pathologically slow cases, etc.), improve kernel variants, and make better optimization decisions across real-world hardware.",
+        "th": "We are also launching Fleet, an in-browser GPU benchmarking and testing suite that runs and scores the kernels on your hardware. Beyond the results for your own machine, Fleet gives the community a way to contribute performance and correctness evidence from devices we could never cover in a conventional test lab. With your consent, every run adds private evidence that can help us find failures (incorrect results, pathologically slow cases, etc.), improve kernel variants, and make better optimization decisions across real-world hardware."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "TL;DR",
+        "th": "TL;ดร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "207 WebGPU kernels, published as individual repositories in the webgpu-kernels organization. Apache-2.0 licensed.",
+        "th": "207 WebGPU kernels, published as individual repositories in the webgpu-kernels organization. Apache-2.0 licensed."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A JavaScript loader, @huggingface/kernels, which downloads, prepares, and runs kernels directly from the Hub.",
+        "th": "A JavaScript loader, @huggingface/kernels, which downloads, prepares, and runs kernels directly from the Hub."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Explicit contracts and reproducible evidence for every kernel, including manifests, correctness tests, benchmark cases, and WGSL shader templates.",
+        "th": "Explicit contracts and reproducible evidence for every kernel, including manifests, correctness tests, benchmark cases, and WGSL shader templates."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Fleet, a browser-based benchmarking tool that crowdsources correctness and performance evidence across real-world GPUs to help us improve kernels and their variants.",
+        "th": "Fleet, a browser-based benchmarking tool that crowdsources correctness and performance evidence across real-world GPUs to help us improve kernels and their variants."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Why start with kernels?",
+        "th": "Why start with kernels?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A model running in the browser eventually becomes a sequence of GPU operations: matrix multiplications, normalizations, convolutions, attention primitives, quantization operations, data-layout transformations, and many more. WebGPU makes these operations available across modern browsers through a portable API, while WGSL provides a common language for the shaders that execute them.",
+        "th": "A model running in the browser eventually becomes a sequence of GPU operations: matrix multiplications, normalizations, convolutions, attention primitives, quantization operations, data-layout transformations, and many more. WebGPU makes these operations available across modern browsers through a portable API, while WGSL provides a common language for the shaders that execute them."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Portability, however, does not automatically mean performance. Two shaders can implement the same operation and produce the same output while behaving completely differently across different accelerators. Workgroup sizes, memory access patterns, vectorization, data types, and fusion strategies can all affect performance. The best choice can also change with the input shape, device, browser, and available WebGPU features.",
+        "th": "Portability, however, does not automatically mean performance. Two shaders can implement the same operation and produce the same output while behaving completely differently across different accelerators. Workgroup sizes, memory access patterns, vectorization, data types, and fusion strategies can all affect performance. The best choice can also change with the input shape, device, browser, and available WebGPU features."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This is why kernels form a foundational layer of fast browser inference. Higher-level runtimes can only be as efficient as the operations they dispatch. By making those operations individually discoverable, testable, benchmarkable, and versioned, we can improve the foundation independently while keeping a stable contract for the layers above it.",
+        "th": "This is why kernels form a foundational layer of fast browser inference. Higher-level runtimes can only be as efficient as the operations they dispatch. By making those operations individually discoverable, testable, benchmarkable, and versioned, we can improve the foundation independently while keeping a stable contract for the layers above it."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "A kernel repository, not just a shader",
+        "th": "A kernel repository, not just a shader"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each kernel in the collection has its own repository and kernel card. The card documents the operation's semantics, inputs, outputs, attributes, supported data types, source files, and a ready-to-run @huggingface/kernels example.",
+        "th": "Each kernel in the collection has its own repository and kernel card. The card documents the operation's semantics, inputs, outputs, attributes, supported data types, source files, and a ready-to-run @huggingface/kernels example."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For example, ai.onnx.Add implements elementwise addition with multidirectional broadcasting. It is one of the simplest operations in a neural network, used everywhere from residual connections to adding a bias. Its card documents the two inputs, the broadcasted output shape, supported data types, and the variants available for different shapes and devices.",
+        "th": "For example, ai.onnx.Add implements elementwise addition with multidirectional broadcasting. It is one of the simplest operations in a neural network, used everywhere from residual connections to adding a bias. Its card documents the two inputs, the broadcasted output shape, supported data types, and the variants available for different shapes and devices."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/webgpu-kernels/ai-onnx-add.png",
+      "alt": "Files in the ai.onnx.Add WebGPU kernel repository"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Behind the card, the repository contains the artifacts needed to understand and evaluate the implementation:",
+        "th": "Behind the card, the repository contains the artifacts needed to understand and evaluate the implementation:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "manifest.json is the source of truth for the operation contract. It defines inputs, outputs, attributes, type constraints, and shape derivation rules.",
+        "th": "manifest.json is the source of truth for the operation contract. It defines inputs, outputs, attributes, type constraints, and shape derivation rules."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "metadata.json records the kernel identifier, digests, and provenance.",
+        "th": "metadata.json records the kernel identifier, digests, and provenance."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "test.json contains correctness cases, so an implementation can be checked against expected behavior.",
+        "th": "test.json contains correctness cases, so an implementation can be checked against expected behavior."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "bench.json contains benchmark and tuning cases that represent the workloads used to evaluate the kernel.",
+        "th": "bench.json contains benchmark and tuning cases that represent the workloads used to evaluate the kernel."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "*.wgsl.jinja files contain the parameterized WGSL implementations used to produce shaders for a particular request and device.",
+        "th": "*.wgsl.jinja files contain the parameterized WGSL implementations used to produce shaders for a particular request and device."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This structure turns a shader into a reusable software artifact. The interface is inspectable without reading WGSL, correctness and performance cases travel with the implementation, and published versions can be loaded explicitly rather than depending on an unversioned file URL. Our kernels can also serve as reference implementations for developers building custom WebGPU kernels or integrating these operations into their own runtimes.",
+        "th": "This structure turns a shader into a reusable software artifact. The interface is inspectable without reading WGSL, correctness and performance cases travel with the implementation, and published versions can be loaded explicitly rather than depending on an unversioned file URL. Our kernels can also serve as reference implementations for developers building custom WebGPU kernels or integrating these operations into their own runtimes."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Loading a kernel from the Hub",
+        "th": "Loading a kernel from the Hub"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Install the package from npm:",
+        "th": "Install the package from npm:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Running these kernels requires a browser with WebGPU support. WebGPU availability depends on the browser, operating system, GPU, and driver. You can check for it in JavaScript with \"gpu\" in navigator.",
+        "th": "Running these kernels requires a browser with WebGPU support. WebGPU availability depends on the browser, operating system, GPU, and driver. You can check for it in JavaScript with \"gpu\" in navigator."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "@huggingface/kernels provides the bridge between a kernel repository and your application. Call getKernel with a Hub repository ID and a contract version, then invoke the returned function with typed input data and tensor shapes. Here is a small bias-add example:",
+        "th": "@huggingface/kernels provides the bridge between a kernel repository and your application. Call getKernel with a Hub repository ID and a contract version, then invoke the returned function with typed input data and tensor shapes. Here is a small bias-add example:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The second input is broadcast across the first dimension, producing an output with shape [2, 3]. The loader derives that output shape and logical data type from the manifest contract and the inputs, then allocates c automatically.",
+        "th": "The second input is broadcast across the first dimension, producing an output with shape [2, 3]. The loader derives that output shape and logical data type from the manifest contract and the inputs, then allocates c automatically."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Addition on six floats is deliberately the smallest possible demo. At this size, the GPU round trip costs far more than the math. The point is the call pattern: it stays exactly the same for the heavyweight operations where optimized kernels actually pay off, such as matrix multiplication (ai.onnx.MatMul). Only the repository ID and the inputs change.",
+        "th": "Addition on six floats is deliberately the smallest possible demo. At this size, the GPU round trip costs far more than the math. The point is the call pattern: it stays exactly the same for the heavyweight operations where optimized kernels actually pay off, such as matrix multiplication (ai.onnx.MatMul). Only the repository ID and the inputs change."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Even this elementary operation illustrates why kernels need variants. Equal-shape addition can use a direct vectorized path, while broadcasted inputs need different indexing logic. The published Add kernel includes variants for equal shapes, vectorized broadcasting, scalar processing, and general broadcasting. The runtime can select an implementation that fits the current call and device without changing the application-facing API.",
+        "th": "Even this elementary operation illustrates why kernels need variants. Equal-shape addition can use a direct vectorized path, while broadcasted inputs need different indexing logic. The published Add kernel includes variants for equal shapes, vectorized broadcasting, scalar processing, and general broadcasting. The runtime can select an implementation that fits the current call and device without changing the application-facing API."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The version: 1 option selects version 1 of the published kernel contract. It is separate from an ONNX opset, an operator's since_version, or a model revision. Keeping those concepts separate lets applications depend on a stable JavaScript-facing contract while kernel implementations evolve behind it.",
+        "th": "The version: 1 option selects version 1 of the published kernel contract. It is separate from an ONNX opset, an operator's since_version, or a model revision. Keeping those concepts separate lets applications depend on a stable JavaScript-facing contract while kernel implementations evolve behind it."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How fast are the kernels?",
+        "th": "How fast are the kernels?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "So, how much of a difference do optimized kernels actually make? We put our collection head-to-head with ORT WebGPU on an Apple M4 GPU, using ONNX Runtime Web 1.30.0-dev.20260826-b1f76d586a. We started with 1,756 test cases across all 207 operations and kept the 809 cases where both sides produced matching outputs and reliable timings.",
+        "th": "So, how much of a difference do optimized kernels actually make? We put our collection head-to-head with ORT WebGPU on an Apple M4 GPU, using ONNX Runtime Web 1.30.0-dev.20260826-b1f76d586a. We started with 1,756 test cases across all 207 operations and kept the 809 cases where both sides produced matching outputs and reliable timings."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Across those comparisons, our kernels were 2.57x faster by geometric mean and 1.90x faster at the median, with 629 wins, 176 losses, and 4 ties. Here is a closer look at four familiar operations:",
+        "th": "Across those comparisons, our kernels were 2.57x faster by geometric mean and 1.90x faster at the median, with 629 wins, 176 losses, and 4 ties. Here is a closer look at four familiar operations:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Some individual wins were much bigger. A particularly difficult bilinear Einsum case (i,ij,j with size 4096) ran in 0.136 ms with our kernel versus 1,396 ms with ORT WebGPU: more than 10,000x faster. A row-wise CumSum over [256, 4096] was 301x faster, at 0.016 ms versus 4.784 ms. These are unusual cases rather than the speedups you should expect everywhere, but they show how much a specialized kernel can help when a general implementation hits a slow path.",
+        "th": "Some individual wins were much bigger. A particularly difficult bilinear Einsum case (i,ij,j with size 4096) ran in 0.136 ms with our kernel versus 1,396 ms with ORT WebGPU: more than 10,000x faster. A row-wise CumSum over [256, 4096] was 301x faster, at 0.016 ms versus 4.784 ms. These are unusual cases rather than the speedups you should expect everywhere, but they show how much a specialized kernel can help when a general implementation hits a slow path."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We timed the work done on the GPU itself, leaving out setup such as loading kernels, creating sessions, uploading inputs, compiling shaders, and reading outputs back. Very short workloads are naturally harder to measure, and small cases can benefit from the GPU cache, so these numbers are best read as a useful comparison rather than a promise for every application.",
+        "th": "We timed the work done on the GPU itself, leaving out setup such as loading kernels, creating sessions, uploading inputs, compiling shaders, and reading outputs back. Very short workloads are naturally harder to measure, and small cases can benefit from the GPU cache, so these numbers are best read as a useful comparison rather than a promise for every application."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "They are also results for individual operations, not complete models. Exact performance will change across GPUs and browsers, which is why Fleet is so important for building a broader picture.",
+        "th": "They are also results for individual operations, not complete models. Exact performance will change across GPUs and browsers, which is why Fleet is so important for building a broader picture."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are also working with the ONNX Runtime team to upstream these improvements so they can benefit the broader ONNX Runtime Web ecosystem.",
+        "th": "We are also working with the ONNX Runtime team to upstream these improvements so they can benefit the broader ONNX Runtime Web ecosystem."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "From one device to a fleet",
+        "th": "From one device to a fleet"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "WebGPU performance varies across GPUs, browsers, and drivers, so results from one machine only tell part of the story. Fleet lets anyone run correctness and performance checks in the browser and see how the kernels behave on their hardware.",
+        "th": "WebGPU performance varies across GPUs, browsers, and drivers, so results from one machine only tell part of the story. Fleet lets anyone run correctness and performance checks in the browser and see how the kernels behave on their hardware."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With consent, each run privately contributes evidence that helps us spot device-specific failures, compare variants, and improve selection rules. The goal is simple: use broad, real-world coverage to make the kernels faster and more reliable for everyone.",
+        "th": "With consent, each run privately contributes evidence that helps us spot device-specific failures, compare variants, and improve selection rules. The goal is simple: use broad, real-world coverage to make the kernels faster and more reliable for everyone."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Building a shared foundation for WebAI",
+        "th": "Building a shared foundation for WebAI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The initial 207 kernels are a starting point, not the end state. Publishing kernels independently on the Hub gives us a common place to inspect contracts, compare implementations, reproduce correctness checks, and improve performance without embedding every shader directly into every runtime.",
+        "th": "The initial 207 kernels are a starting point, not the end state. Publishing kernels independently on the Hub gives us a common place to inspect contracts, compare implementations, reproduce correctness checks, and improve performance without embedding every shader directly into every runtime."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The collection is also part of the Hub's broader kernel ecosystem: on the Kernels page, the WebGPU kernels sit alongside kernels for CUDA, ROCm, Metal, and other platforms, and can be filtered, sorted, and explored like any other artifact on the Hub.",
+        "th": "The collection is also part of the Hub's broader kernel ecosystem: on the Kernels page, the WebGPU kernels sit alongside kernels for CUDA, ROCm, Metal, and other platforms, and can be filtered, sorted, and explored like any other artifact on the Hub."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/webgpu-kernels/kernels.png",
+      "alt": "The Hub Kernels page filtered to the WebGPU platform, listing the 207 published kernels"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The pieces reinforce one another:",
+        "th": "The pieces reinforce one another:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Kernel repositories define transparent, versioned operation contracts.",
+        "th": "Kernel repositories define transparent, versioned operation contracts."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "@huggingface/kernels makes those operations straightforward to load and run from JavaScript.",
+        "th": "@huggingface/kernels makes those operations straightforward to load and run from JavaScript."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Fleet crowdsources real-world evidence across a much broader range of devices than a conventional benchmark lab can cover.",
+        "th": "Fleet crowdsources real-world evidence across a much broader range of devices than a conventional benchmark lab can cover."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Every contributed run can reveal failures, guide tuning, improve variant selection, and help validate future kernel versions.",
+        "th": "Every contributed run can reveal failures, guide tuning, improve variant selection, and help validate future kernel versions."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This is the low-level foundation for the next steps in our browser inference stack. We are excited to connect these kernels to higher-level model tooling, continue expanding operation coverage, and make fast local inference easier to use across the WebAI ecosystem.",
+        "th": "This is the low-level foundation for the next steps in our browser inference stack. We are excited to connect these kernels to higher-level model tooling, continue expanding operation coverage, and make fast local inference easier to use across the WebAI ecosystem."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Explore the WebGPU kernel collection, try @huggingface/kernels, and join the Fleet to contribute evidence from your device and help us make the kernels better for everyone.",
+        "th": "Explore the WebGPU kernel collection, try @huggingface/kernels, and join the Fleet to contribute evidence from your device and help us make the kernels better for everyone."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More Articles from our Blog",
+        "th": "บทความเพิ่มเติมจากบล็อกของเรา"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/thinkingmachines-inkling/thumbnail.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Welcome Inkling by Thinking Machines",
+        "th": "ยินดีต้อนรับ Inkling โดย Thinking Machines"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6141a88b3a0ec78603c9e784/DJsxSmWV39M33JFheLobC.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617264212503-603d25b75f9d390ab190b777.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/608aabf24955d2bfc3cd99c6/-YxmtpzEmf3NKOTktODRP.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+1",
+        "th": "+1"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/cross-origin-storage/thumbnail.jpg",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+        "th": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/qCHAzPfN19g2BtO9jJDNv.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "ชุมชน"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/d51475ad4be08357269e675c98c0673b.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· ลงทะเบียนหรือเข้าสู่ระบบเพื่อแสดงความคิดเห็น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/8213f0ffc9106d7663c4b5f29f4ec9e5.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/61b253b7ac5ecaae3d1efe0c/hwiQ0uvz3t-L5a-NtBIO6.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6317233cc92fd6fee317e030/cJHSvvimr1kqgQfHOjO5n.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6384db7fb2906edaf835a91d/MOTXxaOmjlTZ8wONYifnD.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6468b720b2321e47d32683da/aWAEJJ03I9Z5syqDxHObT.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/952cee0d1036690c8bc3c7cba15117d7.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6829f58f66edb739fbf3b993/Td8sJk-YE_vVzZjvBMakc.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/68df176c403a7bf9e8ae85a8/mffYA6B8aumvl9flbiw5Y.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/694e740714824f364c241db1/iHBma2rcKFEFcRnojeSCO.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/oVpo3BOiOTNNTJv98i6fL.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/vzx7ZhfOJEJM9ba5TRC1Y.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/97e17bdd41225ccb0e5b731eaf7d7ac6.svg",
+      "alt": ""
+    }
+  ]
+}

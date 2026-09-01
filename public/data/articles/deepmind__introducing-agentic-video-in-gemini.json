@@ -1,0 +1,465 @@
+{
+  "id": "deepmind__introducing-agentic-video-in-gemini",
+  "slug": "introducing-agentic-video-in-gemini",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+  "category": "News",
+  "date": "2026-09-01T17:08:51.000Z",
+  "image": null,
+  "title": {
+    "en": "Introducing agentic video understanding with Gemini",
+    "th": "Introducing agentic video understanding with Gemini"
+  },
+  "summary": {
+    "en": "Introducing agentic video understanding with Gemini",
+    "th": "Introducing agentic video understanding with Gemini"
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "นวัตกรรมและเอไอ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Models & research",
+        "th": "แบบจำลองและการวิจัย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini Models",
+        "th": "โมเดลราศีเมถุน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sep 01, 2026",
+        "th": "Sep 01, 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our new agentic feature for video analysis cuts token consumption by up to 88%, reduces costs by up to 66%, and boosts quality by up to 7%.",
+        "th": "Our new agentic feature for video analysis cuts token consumption by up to 88%, reduces costs by up to 66%, and boosts quality by up to 7%."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Rohan Doshi",
+        "th": "Rohan Doshi"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Senior Product Manager, Google DeepMind",
+        "th": "Senior Product Manager, Google DeepMind"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mario Lučić",
+        "th": "Mario Lučić"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Research Director, Google DeepMind",
+        "th": "Research Director, Google DeepMind"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video___keyword__blog-hea.width-200.format-webp.webp",
+      "alt": "Text \"Agentic video understanding\" next to the Gemini logo, all on a dark blue background"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Google just launched agentic video understanding for Gemini 3.7 Flash, 3.6 Flash, and 3.5 Flash-Lite. This feature allows the model to dynamically scan video segments, which improves accuracy while cutting token usage by up to 88% and costs by up to 66%. You can start using this today by setting your API configuration to \"agentic\" in Google AI Studio or the Gemini Enterprise Agent Platform.",
+        "th": "Google just launched agentic video understanding for Gemini 3.7 Flash, 3.6 Flash, and 3.5 Flash-Lite. This feature allows the model to dynamically scan video segments, which improves accuracy while cutting token usage by up to 88% and costs by up to 66%. You can start using this today by setting your API configuration to \"agentic\" in Google AI Studio or the Gemini Enterprise Agent Platform."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re launching agentic video understanding across our latest models: Gemini 3.7 Flash, 3.6 Flash and 3.5 Flash-Lite. This new capability improves accuracy while dramatically reducing token usage and costs for video analysis. Similar to agentic vision, which combines code execution with Gemini models’ native image understanding, agentic video understanding uses Gemini’s native video tools to improve performance and unlock new capabilities for video processing like sub-second moment retrieval, more accurate anomaly detection, precise counting and more.",
+        "th": "Today, we’re launching agentic video understanding across our latest models: Gemini 3.7 Flash, 3.6 Flash and 3.5 Flash-Lite. This new capability improves accuracy while dramatically reducing token usage and costs for video analysis. Similar to agentic vision, which combines code execution with Gemini models’ native image understanding, agentic video understanding uses Gemini’s native video tools to improve performance and unlock new capabilities for video processing like sub-second moment retrieval, more accurate anomaly detection, precise counting and more."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The feature is available today for video uploads and YouTube videos via the Gemini API in Google AI Studio and the Gemini Enterprise Agent Platform.",
+        "th": "The feature is available today for video uploads and YouTube videos via the Gemini API in Google AI Studio and the Gemini Enterprise Agent Platform."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Benchmarks",
+        "th": "Benchmarks"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Unlike current ‘static’ processing, where the model ingests the video at a fixed frames-per-second rate (default 1 FPS, adjustable via API), agentic video understanding pairs the model’s core reasoning with native video tools to dynamically search, scan, and inspect target video segments across visual frames, audio, and transcripts. Across standard video analysis benchmarks, Gemini models with agentic video understanding reduce analysis costs by up to 66% and token consumption by up to 88%, while improving accuracy by up to 7%.",
+        "th": "Unlike current ‘static’ processing, where the model ingests the video at a fixed frames-per-second rate (default 1 FPS, adjustable via API), agentic video understanding pairs the model’s core reasoning with native video tools to dynamically search, scan, and inspect target video segments across visual frames, audio, and transcripts. Across standard video analysis benchmarks, Gemini models with agentic video understanding reduce analysis costs by up to 66% and token consumption by up to 88%, while improving accuracy by up to 7%."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These efficiency gains are especially pronounced on long-form video (from 10-minute how-to guides to 90-minute lectures and multi-hour recordings), where static processing forces developers to choose between high token costs or techniques that drop critical details.",
+        "th": "These efficiency gains are especially pronounced on long-form video (from 10-minute how-to guides to 90-minute lectures and multi-hour recordings), where static processing forces developers to choose between high token costs or techniques that drop critical details."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Activating agentic video understanding drops token consumption by up to 88% and boosts accuracy by up to 7% with Gemini 3.7 Flash.",
+        "th": "Activating agentic video understanding drops token consumption by up to 88% and boosts accuracy by up to 7% with Gemini 3.7 Flash."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video__evals.width-1200.format-webp.webp",
+      "alt": "Graphs analyzing token efficiency and accuracy gains"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "While these gains span all three supported models, Gemini 3.7 Flash with agentic understanding offers the best possible quality overall and the best combination of quality and cost efficiency, putting it at the accuracy-to-cost pareto frontier among tested models for video understanding.",
+        "th": "While these gains span all three supported models, Gemini 3.7 Flash with agentic understanding offers the best possible quality overall and the best combination of quality and cost efficiency, putting it at the accuracy-to-cost pareto frontier among tested models for video understanding."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using agentic video understanding places Gemini 3.7 Flash at the accuracy-to-cost pareto frontier for video analysis.",
+        "th": "Using agentic video understanding places Gemini 3.7 Flash at the accuracy-to-cost pareto frontier for video analysis."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video__evals_table2.width-1200.format-webp.webp",
+      "alt": "Graph with \"Cost per query\" on the x-axis and \"Accuracy\" on the y-axis"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How it works",
+        "th": "How it works"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Instead of static processing where the model ingests media streams at a fixed frame rate, agentic video understanding enables Gemini to take an active, goal-directed role in determining what to watch, at what speed, and through which modality (frames, audio, or transcript), fetching only the moments and signals needed. While developers could previously do this manually, with agentic video understanding, Gemini can accomplish it through an agentic loop, invoking an internal tool to load the relevant part of the video file, significantly reducing development overheads.",
+        "th": "Instead of static processing where the model ingests media streams at a fixed frame rate, agentic video understanding enables Gemini to take an active, goal-directed role in determining what to watch, at what speed, and through which modality (frames, audio, or transcript), fetching only the moments and signals needed. While developers could previously do this manually, with agentic video understanding, Gemini can accomplish it through an agentic loop, invoking an internal tool to load the relevant part of the video file, significantly reducing development overheads."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video__diagram.width-1200.format-webp.webp",
+      "alt": "Diagram of the process from Query to Output"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Capabilities and use cases",
+        "th": "Capabilities and use cases"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Agentic video understanding transforms how developers can process long-form video content across a variety of demanding applications.",
+        "th": "Agentic video understanding transforms how developers can process long-form video content across a variety of demanding applications."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Sub-second moment retrieval: Pinpoint split-second state changes and tight cut boundaries that are easily missed at 1 FPS, making precise automated video editing possible.",
+        "th": "Sub-second moment retrieval: Pinpoint split-second state changes and tight cut boundaries that are easily missed at 1 FPS, making precise automated video editing possible."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Long-form needle-in-a-haystack search: Answer complex queries across multi-hour videos without consuming millions of tokens.",
+        "th": "Long-form needle-in-a-haystack search: Answer complex queries across multi-hour videos without consuming millions of tokens."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Anomaly detection: Resample interesting time windows at higher FPS to inspect rapid motion and subtle visual artifacts.",
+        "th": "Anomaly detection: Resample interesting time windows at higher FPS to inspect rapid motion and subtle visual artifacts."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Counting action & object: Accurately track repeated physical movements and distinct objects over time.",
+        "th": "Counting action & object: Accurately track repeated physical movements and distinct objects over time."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Token-efficient long-form video analysis",
+        "th": "Token-efficient long-form video analysis"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "See how Gemini 3.7 Flash performs with and without agentic video understanding on LongVideoBench, a long-form video understanding benchmark. Notice the large token reductions and accuracy improvements.",
+        "th": "See how Gemini 3.7 Flash performs with and without agentic video understanding on LongVideoBench, a long-form video understanding benchmark. Notice the large token reductions and accuracy improvements."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Accurate fast action analysis with dynamic FPS",
+        "th": "Accurate fast action analysis with dynamic FPS"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With agentic video understanding, 3.7 Flash is able to accurately count a fast-paced movement by scanning and rewatching the video at different frames per second, as needed.",
+        "th": "With agentic video understanding, 3.7 Flash is able to accurately count a fast-paced movement by scanning and rewatching the video at different frames per second, as needed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Token-efficient needle-in-a-haystack search",
+        "th": "Token-efficient needle-in-a-haystack search"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using agentic video understanding, Gemini 3.7 is able to accurately answer complex questions based on the content of the video while consuming a significantly lower number of tokens compared to static analysis.",
+        "th": "Using agentic video understanding, Gemini 3.7 is able to accurately answer complex questions based on the content of the video while consuming a significantly lower number of tokens compared to static analysis."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Real-world results",
+        "th": "Real-world results"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Many of our early access partners saw strong performance while testing with agentic video understanding. Here’s what they have to say:",
+        "th": "Many of our early access partners saw strong performance while testing with agentic video understanding. Here’s what they have to say:"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video-understanding__test.width-100.format-webp.webp",
+      "alt": "Quote from Ponder"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video-understanding__test.width-100.format-webp_IH5FVna.webp",
+      "alt": "Quote from Revyl"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video-understanding__test.width-100.format-webp_JwIFAZ5.webp",
+      "alt": "Quote from Mosaic"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video-understanding__test.width-100.format-webp_HHQ7484.webp",
+      "alt": "Quote from Resemble.AI"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Getting started",
+        "th": "เริ่มต้นใช้งาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Agentic video understanding is available via the Gemini API in Google AI Studio and Gemini Enterprise Agent Platform, launching across Gemini 3.7 Flash, 3.6 Flash, and 3.5 Flash-Lite. It uses standard Gemini API token pricing with no additional feature fee.",
+        "th": "Agentic video understanding is available via the Gemini API in Google AI Studio and Gemini Enterprise Agent Platform, launching across Gemini 3.7 Flash, 3.6 Flash, and 3.5 Flash-Lite. It uses standard Gemini API token pricing with no additional feature fee."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To enable it, simply set processing to \"agentic\" in the API configuration. Read our developer guide to get more insights into the feature and how to get started.",
+        "th": "To enable it, simply set processing to \"agentic\" in the API configuration. Read our developer guide to get more insights into the feature and how to get started."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are also bringing the efficiency and quality improvements of agentic video understanding to billions of users across Google products. The feature will roll out to all users in the Gemini app across Flash and Flash-Lite models soon. And in the coming months, agentic video understanding will also power YouTube's ‘Ask YouTube’ feature on the video watch page, leveraging Gemini to deliver higher-quality answers grounded in the visuals.",
+        "th": "We are also bringing the efficiency and quality improvements of agentic video understanding to billions of users across Google products. The feature will roll out to all users in the Gemini app across Flash and Flash-Lite models soon. And in the coming months, agentic video understanding will also power YouTube's ‘Ask YouTube’ feature on the video watch page, leveraging Gemini to deliver higher-quality answers grounded in the visuals."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Acknowledgement for their contribution to this work: Sergi Caelles, Filip Pavetić, Ahmet Iscen, Suhas Yogin, and the Agentic Vision team.",
+        "th": "Acknowledgement for their contribution to this work: Sergi Caelles, Filip Pavetić, Ahmet Iscen, Suhas Yogin, and the Agentic Vision team."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get the latest news from Google in your inbox",
+        "th": "รับข่าวสารล่าสุดจาก Google ในกล่องจดหมายของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sign up for our newsletters with product updates, event information, special offers, and more.",
+        "th": "ลงทะเบียนรับจดหมายข่าวของเราพร้อมข้อมูลอัปเดตผลิตภัณฑ์ ข้อมูลกิจกรรม ข้อเสนอพิเศษ และอื่นๆ อีกมากมาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Done. Just one step more.",
+        "th": "เสร็จแล้ว. อีกเพียงก้าวเดียวเท่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check your inbox to confirm your subscription.",
+        "th": "ตรวจสอบกล่องจดหมายของคุณเพื่อยืนยันการสมัครของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also subscribe with a different email address.",
+        "th": "คุณสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your information will be used in accordance with Google's privacy policy. You may opt out at any time.",
+        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google คุณสามารถเลือกไม่รับได้ตลอดเวลา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini models",
+        "th": "โมเดลราศีเมถุน"
+      }
+    }
+  ]
+}

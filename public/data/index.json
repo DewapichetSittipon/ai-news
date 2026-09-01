@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-31T23:32:49.339Z",
+  "generatedAt": "2026-09-01T09:03:26.527Z",
   "items": [
+    {
+      "id": "openai__supporting-california-bill-advance-ai-youth-safety",
+      "slug": "supporting-california-bill-advance-ai-youth-safety",
+      "source": "openai",
+      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "category": "Company",
+      "date": "2026-08-31T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "OpenAI supports California’s bill to advance youth AI safety",
+        "th": "OpenAI supports California’s bill to advance youth AI safety"
+      },
+      "summary": {
+        "en": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+        "th": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore."
+      }
+    },
     {
       "id": "openai__polimill",
       "slug": "polimill",
@@ -240,23 +257,6 @@
       }
     },
     {
-      "id": "openai__learning-never-stops",
-      "slug": "learning-never-stops",
-      "source": "openai",
-      "url": "https://openai.com/index/learning-never-stops",
-      "category": "Product",
-      "date": "2026-08-26T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Learning never stops: How AI makes learning continuous",
-        "th": "Learning never stops: How AI makes learning continuous"
-      },
-      "summary": {
-        "en": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-        "th": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom."
-      }
-    },
-    {
       "id": "openai__bringing-chatgpt-for-teachers-to-more-us-school-districts",
       "slug": "bringing-chatgpt-for-teachers-to-more-us-school-districts",
       "source": "openai",
@@ -271,6 +271,23 @@
       "summary": {
         "en": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
         "th": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff."
+      }
+    },
+    {
+      "id": "openai__learning-never-stops",
+      "slug": "learning-never-stops",
+      "source": "openai",
+      "url": "https://openai.com/index/learning-never-stops",
+      "category": "Product",
+      "date": "2026-08-26T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Learning never stops: How AI makes learning continuous",
+        "th": "Learning never stops: How AI makes learning continuous"
+      },
+      "summary": {
+        "en": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+        "th": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom."
       }
     },
     {
@@ -1141,23 +1158,6 @@
       }
     },
     {
-      "id": "openai__testing-ads-in-chatgpt",
-      "slug": "testing-ads-in-chatgpt",
-      "source": "openai",
-      "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "category": "Company",
-      "date": "2026-08-11T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Testing ads in ChatGPT",
-        "th": "ทดสอบโฆษณาใน ChatGPT"
-      },
-      "summary": {
-        "en": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-        "th": "OpenAI เริ่มทดสอบโฆษณาใน ChatGPT เพื่อรองรับการเข้าถึงฟรี โดยมีป้ายกำกับที่ชัดเจน คำตอบที่เป็นอิสระ การปกป้องความเป็นส่วนตัวที่แข็งแกร่ง และการควบคุมผู้ใช้"
-      }
-    },
-    {
       "id": "openai__daybreak-models-are-now-available-on-aws",
       "slug": "daybreak-models-are-now-available-on-aws",
       "source": "openai",
@@ -1172,6 +1172,23 @@
       "summary": {
         "en": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
         "th": "OpenAI และ AWS กำลังสร้างความสามารถด้านความปลอดภัยทางไซเบอร์ของ Daybreak ผ่านทาง Amazon Bedrock เพื่อรองรับเวิร์กโฟลว์ด้านความปลอดภัยขององค์กร"
+      }
+    },
+    {
+      "id": "openai__testing-ads-in-chatgpt",
+      "slug": "testing-ads-in-chatgpt",
+      "source": "openai",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "category": "Company",
+      "date": "2026-08-11T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Testing ads in ChatGPT",
+        "th": "ทดสอบโฆษณาใน ChatGPT"
+      },
+      "summary": {
+        "en": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+        "th": "OpenAI เริ่มทดสอบโฆษณาใน ChatGPT เพื่อรองรับการเข้าถึงฟรี โดยมีป้ายกำกับที่ชัดเจน คำตอบที่เป็นอิสระ การปกป้องความเป็นส่วนตัวที่แข็งแกร่ง และการควบคุมผู้ใช้"
       }
     },
     {
@@ -1274,23 +1291,6 @@
       "summary": {
         "en": "Making Knowledge Distillation Cheap Enough to Run at Scale",
         "th": "ทำให้การกลั่นความรู้มีราคาถูกพอที่จะดำเนินการตามขนาดที่ต้องการ"
-      }
-    },
-    {
-      "id": "openai__expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "slug": "expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "source": "openai",
-      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "category": "Security",
-      "date": "2026-08-10T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Expanding Daybreak as the Cyber Defense Window Narrows",
-        "th": "การขยายรุ่งสางในขณะที่หน้าต่างการป้องกันทางไซเบอร์แคบลง"
-      },
-      "summary": {
-        "en": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
-        "th": "พบกับ GPT-5.6-Cyber ​​ซึ่งเป็นโมเดลเฉพาะด้านความปลอดภัยทางไซเบอร์ของ OpenAI ที่พร้อมใช้งานผ่าน Daybreak Red สำหรับการวิจัยช่องโหว่ที่ได้รับอนุญาต การตรวจสอบช่องโหว่ และการทดสอบความปลอดภัย"
       }
     },
     {

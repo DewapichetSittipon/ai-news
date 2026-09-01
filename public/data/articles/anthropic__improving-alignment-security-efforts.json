@@ -11,8 +11,8 @@
     "th": "Improving our alignment and security efforts"
   },
   "summary": {
-    "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-    "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+    "en": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.",
+    "th": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month."
   },
   "body": [
     {
@@ -238,8 +238,8 @@
     {
       "type": "h3",
       "text": {
-        "en": "Real time monitoring",
-        "th": "Real time monitoring"
+        "en": "Real-time monitoring",
+        "th": "Real-time monitoring"
       }
     },
     {
@@ -280,8 +280,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Our alignment assessment is still ongoing, but our preliminary investigation points to two main alignment failures, both of which we’ve described in previous system cards. One is motivated reasoning: the models were initially told their environments were simulated, but when they later encountered evidence that they were connected to the real internet, they may have interpreted that evidence in a way that allowed them to maintain that belief. The second is recklessness: the model was willing to take harmful actions on the real internet in pursuit of the narrow goal of solving a cybersecurity evaluation. However, we also believe that the evaluation set up itself contributed to the models’ behavior demonstrated in these incidents. Claude was explicitly told that it had no internet access, despite the internet being available, which may have led it to question whether the systems it saw were real. And in one case, the fictional target shared a name with a real website, making it more difficult to separate what was intended to be in-scope within the exercise.",
-        "th": "Our alignment assessment is still ongoing, but our preliminary investigation points to two main alignment failures, both of which we’ve described in previous system cards. One is motivated reasoning: the models were initially told their environments were simulated, but when they later encountered evidence that they were connected to the real internet, they may have interpreted that evidence in a way that allowed them to maintain that belief. The second is recklessness: the model was willing to take harmful actions on the real internet in pursuit of the narrow goal of solving a cybersecurity evaluation. However, we also believe that the evaluation set up itself contributed to the models’ behavior demonstrated in these incidents. Claude was explicitly told that it had no internet access, despite the internet being available, which may have led it to question whether the systems it saw were real. And in one case, the fictional target shared a name with a real website, making it more difficult to separate what was intended to be in-scope within the exercise."
+        "en": "Our alignment assessment is still ongoing, but our preliminary investigation points to two main alignment failures, both of which we’ve described in previous system cards. One is motivated reasoning: the models were initially told their environments were simulated, but when they later encountered evidence that they were connected to the real internet, they may have interpreted that evidence in a way that allowed them to maintain that belief. The second is recklessness: the model was willing to take harmful actions on the real internet in pursuit of the narrow goal of solving a cybersecurity evaluation. However, we also believe that the evaluation setup itself contributed to the models’ behavior demonstrated in these incidents. Claude was explicitly told that it had no internet access, despite the internet being available, which may have led it to question whether the systems it saw were real. And in one case, the fictional target shared a name with a real website, making it more difficult to separate what was intended to be in-scope within the exercise.",
+        "th": "Our alignment assessment is still ongoing, but our preliminary investigation points to two main alignment failures, both of which we’ve described in previous system cards. One is motivated reasoning: the models were initially told their environments were simulated, but when they later encountered evidence that they were connected to the real internet, they may have interpreted that evidence in a way that allowed them to maintain that belief. The second is recklessness: the model was willing to take harmful actions on the real internet in pursuit of the narrow goal of solving a cybersecurity evaluation. However, we also believe that the evaluation setup itself contributed to the models’ behavior demonstrated in these incidents. Claude was explicitly told that it had no internet access, despite the internet being available, which may have led it to question whether the systems it saw were real. And in one case, the fictional target shared a name with a real website, making it more difficult to separate what was intended to be in-scope within the exercise."
       }
     },
     {
@@ -322,8 +322,8 @@
     {
       "type": "p",
       "text": {
-        "en": "In February, we rolled back three days of training on the Mythos Preview reinforcement learning run after seeing signs of reward-hacking (when a model finds ways to fool its training process and earn rewards without completing the assigned task). We noticed the model writing notes to “the reviewer” in its code comments and replies, including on tasks where no reviewer had ever been mentioned—an undesirable generalization from environments where the prompt did include a reviewer. It also kept gaming a reward intended to incentivize honesty by piling on disclaimers or caveats.5 Rolling back the three days let us resume training from a checkpoint before this behavior had been learned, and we made changes to the environments to prevent the model learning them again.",
-        "th": "In February, we rolled back three days of training on the Mythos Preview reinforcement learning run after seeing signs of reward-hacking (when a model finds ways to fool its training process and earn rewards without completing the assigned task). We noticed the model writing notes to “the reviewer” in its code comments and replies, including on tasks where no reviewer had ever been mentioned—an undesirable generalization from environments where the prompt did include a reviewer. It also kept gaming a reward intended to incentivize honesty by piling on disclaimers or caveats.5 Rolling back the three days let us resume training from a checkpoint before this behavior had been learned, and we made changes to the environments to prevent the model learning them again."
+        "en": "In February, we rolled back three days of training on the Mythos Preview reinforcement learning run after seeing signs of reward hacking (when a model finds ways to fool its training process and earn rewards without completing the assigned task). We noticed the model writing notes to “the reviewer” in its code comments and replies, including on tasks where no reviewer had ever been mentioned—an undesirable generalization from environments where the prompt did include a reviewer. It also kept gaming a reward intended to incentivize honesty by piling on disclaimers or caveats.5 Rolling back the three days let us resume training from a checkpoint before this behavior had been learned, and we made changes to the environments to prevent the model learning them again.",
+        "th": "In February, we rolled back three days of training on the Mythos Preview reinforcement learning run after seeing signs of reward hacking (when a model finds ways to fool its training process and earn rewards without completing the assigned task). We noticed the model writing notes to “the reviewer” in its code comments and replies, including on tasks where no reviewer had ever been mentioned—an undesirable generalization from environments where the prompt did include a reviewer. It also kept gaming a reward intended to incentivize honesty by piling on disclaimers or caveats.5 Rolling back the three days let us resume training from a checkpoint before this behavior had been learned, and we made changes to the environments to prevent the model learning them again."
       }
     },
     {
@@ -371,8 +371,8 @@
     {
       "type": "p",
       "text": {
-        "en": "To see what a model trained without these protections would do, we deliberately trained an Opus-class model on 80 different real RL environments that were either reward-hacked during at least one real training run and identified by monitoring, or were found to be hackable during environment quality review. The resulting model displays a strong motivation to achieve high scores on tasks, and a willingness to perform potentially-harmful actions in pursuit of task success. Our accompanying Alignment Science blog post discusses this experiment at greater length, but we summarize it briefly here.",
-        "th": "To see what a model trained without these protections would do, we deliberately trained an Opus-class model on 80 different real RL environments that were either reward-hacked during at least one real training run and identified by monitoring, or were found to be hackable during environment quality review. The resulting model displays a strong motivation to achieve high scores on tasks, and a willingness to perform potentially-harmful actions in pursuit of task success. Our accompanying Alignment Science blog post discusses this experiment at greater length, but we summarize it briefly here."
+        "en": "To see what a model trained without these protections would do, we deliberately trained an Opus-class model on 80 different real RL environments that were either reward-hacked during at least one real training run and identified by monitoring, or were found to be hackable during environment quality review. The resulting model displays a strong motivation to achieve high scores on tasks, and a willingness to perform potentially harmful actions in pursuit of task success. Our accompanying Alignment Science blog post discusses this experiment at greater length, but we summarize it briefly here.",
+        "th": "To see what a model trained without these protections would do, we deliberately trained an Opus-class model on 80 different real RL environments that were either reward-hacked during at least one real training run and identified by monitoring, or were found to be hackable during environment quality review. The resulting model displays a strong motivation to achieve high scores on tasks, and a willingness to perform potentially harmful actions in pursuit of task success. Our accompanying Alignment Science blog post discusses this experiment at greater length, but we summarize it briefly here."
       }
     },
     {
@@ -392,8 +392,8 @@
     {
       "type": "p",
       "text": {
-        "en": "We think the substantial investment we made this spring into monitoring and reducing reward hacking is a major reason our production models are unlikely to engage in more dangerous reward seeking. In our accompanying Alignment Science blog post, we also found evidence that alignment training environments can substantially reduce reward hacking and reward seeking behaviors. But, as evidenced by the incidents we reported on July 30, our process isn’t perfect and our models are not perfectly aligned.",
-        "th": "We think the substantial investment we made this spring into monitoring and reducing reward hacking is a major reason our production models are unlikely to engage in more dangerous reward seeking. In our accompanying Alignment Science blog post, we also found evidence that alignment training environments can substantially reduce reward hacking and reward seeking behaviors. But, as evidenced by the incidents we reported on July 30, our process isn’t perfect and our models are not perfectly aligned."
+        "en": "We think the substantial investment we made this spring into monitoring and reducing reward hacking is a major reason our production models are unlikely to engage in more dangerous reward seeking. In our accompanying Alignment Science blog post, we also found evidence that alignment training environments can substantially reduce reward hacking and reward-seeking behaviors. But, as evidenced by the incidents we reported on July 30, our process isn’t perfect and our models are not perfectly aligned.",
+        "th": "We think the substantial investment we made this spring into monitoring and reducing reward hacking is a major reason our production models are unlikely to engage in more dangerous reward seeking. In our accompanying Alignment Science blog post, we also found evidence that alignment training environments can substantially reduce reward hacking and reward-seeking behaviors. But, as evidenced by the incidents we reported on July 30, our process isn’t perfect and our models are not perfectly aligned."
       }
     },
     {
@@ -497,8 +497,8 @@
     {
       "type": "p",
       "text": {
-        "en": "What this work missed was evaluations—and third-party evaluations above all. We did monitor some high-risk evaluations including in real-time, but generally we only conducted automated reviews on a sample of transcripts after the fact.",
-        "th": "What this work missed was evaluations—and third-party evaluations above all. We did monitor some high-risk evaluations including in real-time, but generally we only conducted automated reviews on a sample of transcripts after the fact."
+        "en": "What this work missed was evaluations—and third-party evaluations above all. We did monitor some high-risk evaluations including in real time, but generally we only conducted automated reviews on a sample of transcripts after the fact.",
+        "th": "What this work missed was evaluations—and third-party evaluations above all. We did monitor some high-risk evaluations including in real time, but generally we only conducted automated reviews on a sample of transcripts after the fact."
       }
     },
     {
@@ -532,8 +532,8 @@
     {
       "type": "li",
       "text": {
-        "en": "Ultimately, a model that acts outside its intended scope on such a challenge is a problem of alignment; an aligned model should stop or report to humans that the task can’t be completed as specified. We are continuing to train this behavior directly, but a defense in depth approach means not relying on alignment alone.",
-        "th": "Ultimately, a model that acts outside its intended scope on such a challenge is a problem of alignment; an aligned model should stop or report to humans that the task can’t be completed as specified. We are continuing to train this behavior directly, but a defense in depth approach means not relying on alignment alone."
+        "en": "Ultimately, a model that acts outside its intended scope on such a challenge is a problem of alignment; an aligned model should stop or report to humans that the task can’t be completed as specified. We are continuing to train this behavior directly, but a defense-in-depth approach means not relying on alignment alone.",
+        "th": "Ultimately, a model that acts outside its intended scope on such a challenge is a problem of alignment; an aligned model should stop or report to humans that the task can’t be completed as specified. We are continuing to train this behavior directly, but a defense-in-depth approach means not relying on alignment alone."
       }
     },
     {

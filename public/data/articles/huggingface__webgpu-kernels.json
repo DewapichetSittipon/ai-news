@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+17",
-        "th": "+17"
+        "en": "+23",
+        "th": "+23"
       }
     },
     {
@@ -547,6 +547,18 @@
       "alt": ""
     },
     {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677134945205-62f32eab52ad88c930bb3f3b.png",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Fleet part may matter as much as the kernels. The 809 comparable cases on an M4 are useful, but browser, driver and device variance is where WebGPU tends to get painful. Will Fleet eventually expose per-device distributions, or is the plan to use the runs only for aggregate selection rules?",
+        "th": "The Fleet part may matter as much as the kernels. The 809 comparable cases on an M4 are useful, but browser, driver and device variance is where WebGPU tends to get painful. Will Fleet eventually expose per-device distributions, or is the plan to use the runs only for aggregate selection rules?"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -600,24 +612,24 @@
     },
     {
       "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1676999506666-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/645b03425e6871b4b2d72f8a/-dSnWHaHbX8Vl0Zm-IlIC.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
       "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6468b720b2321e47d32683da/aWAEJJ03I9Z5syqDxHObT.jpeg",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/64de3cfe1cfd0a797f187020/8nY8xuWhEpGMoQldoBZGo.jpeg",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/avatars/952cee0d1036690c8bc3c7cba15117d7.svg",
       "alt": ""
     },
     {
       "type": "li",
       "text": {
-        "en": "+11",
-        "th": "+11"
+        "en": "+17",
+        "th": "+17"
       }
     }
   ]

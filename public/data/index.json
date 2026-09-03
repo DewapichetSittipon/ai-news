@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T19:01:16.411Z",
+  "generatedAt": "2026-09-03T22:06:23.168Z",
   "items": [
     {
       "id": "deepmind__introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
@@ -19,6 +19,23 @@
       }
     },
     {
+      "id": "openai__daybreak-for-frontline-defenders",
+      "slug": "daybreak-for-frontline-defenders",
+      "source": "openai",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "category": "Security",
+      "date": "2026-09-03T13:15:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Daybreak for Frontline Defenders: $1B to protect essential services",
+        "th": "Daybreak for Frontline Defenders: $1B to protect essential services"
+      },
+      "summary": {
+        "en": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+        "th": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services."
+      }
+    },
+    {
       "id": "huggingface__neomme",
       "slug": "neomme",
       "source": "huggingface",
@@ -33,6 +50,57 @@
       "summary": {
         "en": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
         "th": "NeoMME: an efficient Multimodal-native and Multilingual Encoder"
+      }
+    },
+    {
+      "id": "openai__legora-financial-statement-review-with-astra",
+      "slug": "legora-financial-statement-review-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "category": "Startup",
+      "date": "2026-09-03T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+        "th": "Legora reviewed 41 documents in minutes with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+        "th": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
+      }
+    },
+    {
+      "id": "openai__playco-game-prototyping-with-astra",
+      "slug": "playco-game-prototyping-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "category": "Startup",
+      "date": "2026-09-03T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+        "th": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+        "th": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
+      }
+    },
+    {
+      "id": "openai__safety-overview-gpt-6-astra",
+      "slug": "safety-overview-gpt-6-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+      "category": "Safety",
+      "date": "2026-09-03T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Safety overview: GPT-6 Astra",
+        "th": "Safety overview: GPT-6 Astra"
+      },
+      "summary": {
+        "en": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+        "th": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework."
       }
     },
     {
@@ -597,23 +665,6 @@
       }
     },
     {
-      "id": "openai__learning-never-stops",
-      "slug": "learning-never-stops",
-      "source": "openai",
-      "url": "https://openai.com/index/learning-never-stops",
-      "category": "Product",
-      "date": "2026-08-26T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Learning never stops: How AI makes learning continuous",
-        "th": "Learning never stops: How AI makes learning continuous"
-      },
-      "summary": {
-        "en": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-        "th": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom."
-      }
-    },
-    {
       "id": "openai__bringing-chatgpt-for-teachers-to-more-us-school-districts",
       "slug": "bringing-chatgpt-for-teachers-to-more-us-school-districts",
       "source": "openai",
@@ -628,6 +679,23 @@
       "summary": {
         "en": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
         "th": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff."
+      }
+    },
+    {
+      "id": "openai__learning-never-stops",
+      "slug": "learning-never-stops",
+      "source": "openai",
+      "url": "https://openai.com/index/learning-never-stops",
+      "category": "Product",
+      "date": "2026-08-26T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Learning never stops: How AI makes learning continuous",
+        "th": "Learning never stops: How AI makes learning continuous"
+      },
+      "summary": {
+        "en": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+        "th": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom."
       }
     },
     {
@@ -1345,40 +1413,6 @@
       }
     },
     {
-      "id": "openai__previewing-ultrafast",
-      "slug": "previewing-ultrafast",
-      "source": "openai",
-      "url": "https://openai.com/index/previewing-ultrafast",
-      "category": "Product",
-      "date": "2026-08-13T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-        "th": "การดูตัวอย่างโหมด Ultrafast: GPT-5.6 Sol ที่ความเร็วสูงสุด 14 เท่า"
-      },
-      "summary": {
-        "en": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
-        "th": "ดูตัวอย่าง Ultrafast ซึ่งเป็นระดับบริการ OpenAI API ใหม่ที่ทำงาน GPT-5.6 Sol เร็วขึ้นสูงสุด 14 เท่า ขับเคลื่อนโดย Cerebras โดยสามารถส่งโทเค็นเอาท์พุตได้มากถึง 750 โทเค็นต่อวินาที"
-      }
-    },
-    {
-      "id": "openai__dali-rajic-chief-revenue-officer",
-      "slug": "dali-rajic-chief-revenue-officer",
-      "source": "openai",
-      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-      "category": "Company",
-      "date": "2026-08-13T09:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-        "th": "OpenAI แต่งตั้ง Dali Rajic เป็นประธานเจ้าหน้าที่ฝ่ายสรรพากร"
-      },
-      "summary": {
-        "en": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-        "th": "OpenAI แต่งตั้ง Dali Rajic เป็นประธานเจ้าหน้าที่ฝ่ายรายได้ เพื่อเป็นผู้นำองค์กรสร้างรายได้ระดับโลก และช่วยให้ธุรกิจต่างๆ ตระหนักถึงคุณค่าทั้งหมดของ AI"
-      }
-    },
-    {
       "id": "huggingface__icml-2026-open-reproductions",
       "slug": "icml-2026-open-reproductions",
       "source": "huggingface",
@@ -1427,40 +1461,6 @@
       "summary": {
         "en": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
         "th": "ขอแนะนำภาษามือเป็นข้อความ (SL2T) โมเดลล้ำสมัยของเราที่ขับเคลื่อนฟีเจอร์ภาษามือใหม่สำหรับผู้ใช้ที่หูหนวกและมีปัญหาในการได้ยิน"
-      }
-    },
-    {
-      "id": "openai__how-enterprises-put-ai-to-work",
-      "slug": "how-enterprises-put-ai-to-work",
-      "source": "openai",
-      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "category": "Company",
-      "date": "2026-08-12T06:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "From assistance to execution: How enterprises put AI to work",
-        "th": "จากความช่วยเหลือไปสู่การดำเนินการ: องค์กรต่างๆ นำ AI มาทำงานอย่างไร"
-      },
-      "summary": {
-        "en": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-        "th": "การวิจัยของ OpenAI เผยวิธีที่องค์กรต่างๆ นำ AI แบบตัวแทนมาใช้ โดยใช้ ChatGPT และ Codex และวิธีที่บริษัทระดับแนวหน้านำหน้าการนำ AI มาใช้"
-      }
-    },
-    {
-      "id": "openai__ringcentral",
-      "slug": "ringcentral",
-      "source": "openai",
-      "url": "https://openai.com/index/ringcentral",
-      "category": "News",
-      "date": "2026-08-12T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How RingCentral builds AI-native work from engineering to ops",
-        "th": "RingCentral สร้างงานที่ใช้ AI ตั้งแต่งานวิศวกรรมไปจนถึงการปฏิบัติงานอย่างไร"
-      },
-      "summary": {
-        "en": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
-        "th": "ดูว่า RingCentral ใช้ ChatGPT Work และ Codex เพื่อเร่งการพัฒนาผลิตภัณฑ์ AI และรวมศูนย์อัจฉริยะด้านการดำเนินงานทั่วทั้งวิศวกรรมและการปฏิบัติการอย่างไร"
       }
     },
     {

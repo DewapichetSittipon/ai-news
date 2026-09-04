@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+41",
-        "th": "+41"
+        "en": "+43",
+        "th": "+43"
       }
     },
     {
@@ -559,6 +559,44 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/cb3536395bbf8c020c624d8953443890.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1 reply",
+        "th": "1 ตอบกลับ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/cb3536395bbf8c020c624d8953443890.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In an automated build system, I could see per device kernels, made more interesting by fusion of ops.",
+        "th": "ในระบบบิลด์อัตโนมัติ ฉันสามารถเห็นเคอร์เนลต่ออุปกรณ์ ทำให้น่าสนใจยิ่งขึ้นด้วยการผสมผสาน Ops"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The area that obviously needs more attention are the 947 tests that did not result in reliable output. This could be the test, it could be that the ORT WebGPU is wrong, or the new kernel is wrong, or the test harness had issues, hard to know from the outside. Perhaps the Fleet thing is meant to improve this.",
+        "th": "พื้นที่ที่ต้องการความสนใจมากขึ้นอย่างเห็นได้ชัดคือการทดสอบ 947 ที่ไม่ได้ผลลัพธ์ที่เชื่อถือได้ นี่อาจเป็นการทดสอบ อาจเป็นได้ว่า ORT WebGPU ผิด หรือเคอร์เนลใหม่ผิด หรือชุดทดสอบมีปัญหา ซึ่งยากต่อการรับรู้จากภายนอก บางทีสิ่งที่ Fleet มีขึ้นเพื่อปรับปรุงสิ่งนี้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Very excited to see such attention at making WebGPU first class in ML!",
+        "th": "รู้สึกตื่นเต้นมากที่ได้เห็นความสนใจในการทำให้ WebGPU เฟิร์สคลาสใน ML!"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -622,14 +660,14 @@
     },
     {
       "type": "img",
-      "src": "/avatars/328c924b9a657b0eb2ae0e74d0a1252c.svg",
+      "src": "/avatars/3bb8728057fa2ba0e24f5ceb1600068d.svg",
       "alt": ""
     },
     {
       "type": "li",
       "text": {
-        "en": "+35",
-        "th": "+35"
+        "en": "+37",
+        "th": "+37"
       }
     }
   ]

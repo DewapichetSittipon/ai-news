@@ -18,8 +18,191 @@
     {
       "type": "p",
       "text": {
-        "en": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-        "th": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
+        "en": "September 3, 2026",
+        "th": "September 3, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using GPT‑6 Astra, Playco built three themed game prototypes from one grey box foundation, with most working on the first take.",
+        "th": "Using GPT‑6 Astra, Playco built three themed game prototypes from one grey box foundation, with most working on the first take."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Results",
+        "th": "Results"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "50%",
+        "th": "50%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Fewer manual fixes than with the previous model",
+        "th": "Fewer manual fixes than with the previous model"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Results",
+        "th": "Results"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Themed game prototypes built from one grey box foundation",
+        "th": "Themed game prototypes built from one grey box foundation"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building three playable worlds from one grey box",
+        "th": "Building three playable worlds from one grey box"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Cutting manual fixes in half",
+        "th": "Cutting manual fixes in half"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building three playable worlds from one grey box",
+        "th": "Building three playable worlds from one grey box"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Cutting manual fixes in half",
+        "th": "Cutting manual fixes in half"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Playco is using GPT‑6 Astra in building Playbot, an AI-powered IDE for professional game developers. It connects directly to engines such as Unity and Godot so AI models can edit scenes, play and test games, validate changes, and work in parallel inside the tools developers already use.",
+        "th": "Playco is using GPT‑6 Astra in building Playbot, an AI-powered IDE for professional game developers. It connects directly to engines such as Unity and Godot so AI models can edit scenes, play and test games, validate changes, and work in parallel inside the tools developers already use."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In game development, a model needs to do more than write code. It must reason about space, visual references, responsive interfaces, game feel, and whether a change actually works when the game is played. Playbot makes that possible by letting the model build in the engine, run tests, find bugs, and improve what it created.",
+        "th": "In game development, a model needs to do more than write code. It must reason about space, visual references, responsive interfaces, game feel, and whether a change actually works when the game is played. Playbot makes that possible by letting the model build in the engine, run tests, find bugs, and improve what it created."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Building three playable worlds from one grey box",
+        "th": "Building three playable worlds from one grey box"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using GPT‑6 Astra, the Playco team created an unthemed grey box prototype from simple primitives, and then made a few iterations on gameplay and creative details. From that shared foundation, the team developed three themed game prototypes. Playco says GPT‑6 Astra produced all three in one go.",
+        "th": "Using GPT‑6 Astra, the Playco team created an unthemed grey box prototype from simple primitives, and then made a few iterations on gameplay and creative details. From that shared foundation, the team developed three themed game prototypes. Playco says GPT‑6 Astra produced all three in one go."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Most prototypes also worked on the first take. “With Astra, the first prototype was already strong. The only changes we needed to make were based on our gameplay preferences,” said Joao Vieira, Lead Product Engineer. One cyberpunk version needed a performance fix, but the rest came together without additional iteration.",
+        "th": "Most prototypes also worked on the first take. “With Astra, the first prototype was already strong. The only changes we needed to make were based on our gameplay preferences,” said Joao Vieira, Lead Product Engineer. One cyberpunk version needed a performance fix, but the rest came together without additional iteration."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Cutting manual fixes in half",
+        "th": "Cutting manual fixes in half"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With the previous model, Playco’s initial grey box was less polished. Prompting the model to correct it eventually became counterproductive, so engineers had to step in and fix the game by hand. With GPT‑6 Astra, Playco reports 50% fewer manual fixes.",
+        "th": "With the previous model, Playco’s initial grey box was less polished. Prompting the model to correct it eventually became counterproductive, so engineers had to step in and fix the game by hand. With GPT‑6 Astra, Playco reports 50% fewer manual fixes."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The team also saw improvements in spatial reasoning, recreating reference images, responsive UI inside Unity, and game feel. Because Playbot can let a model play the game and validate its own changes, Playco says Astra also found bugs more easily and identified places to improve the player experience.",
+        "th": "The team also saw improvements in spatial reasoning, recreating reference images, responsive UI inside Unity, and game feel. Because Playbot can let a model play the game and validate its own changes, Playco says Astra also found bugs more easily and identified places to improve the player experience."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For Playco, the biggest impact is being able to turn more ideas into something developers can play and compare. As lead product engineer Joao Vieira puts it, “If you have 10 ideas for a game, you can do all 10 and actually play them and see how they would feel rather than just imagine.”",
+        "th": "For Playco, the biggest impact is being able to turn more ideas into something developers can play and compare. As lead product engineer Joao Vieira puts it, “If you have 10 ideas for a game, you can do all 10 and actually play them and see how they would feel rather than just imagine.”"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "OpenAI <3 startups",
+        "th": "OpenAI <3 startups"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/13uynVdSWJS9UT4Y7EppMn/7259e4915a7e6ea2f4c52c2109eace61/square.png?w=3840&q=90&fm=webp",
+      "alt": "Legora customer story art card - Option C"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupSep 3, 2026",
+        "th": "StartupSep 3, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2ZUd2sTOK6p4MrjDZnvCoM/512b38a71cf26f09c3cda3c51169c401/replit-customer-story-art-card-1x1.png?w=3840&q=90&fm=webp",
+      "alt": "replit-customer-story-art-card-1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupAug 19, 2026",
+        "th": "StartupAug 19, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3STNMQMrFRC8mFdLYtjkV4/9cc21e9c729b2ae7cdf75aa3f49b3033/modelml-card.png?w=3840&q=90&fm=webp",
+      "alt": "Model ML customer story card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupAug 10, 2026",
+        "th": "StartupAug 10, 2026"
       }
     }
   ]

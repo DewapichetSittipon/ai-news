@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-09-08T19:10:35.803Z",
+  "generatedAt": "2026-09-08T22:14:01.900Z",
   "items": [
+    {
+      "id": "openai__codex-quantum-computing-experiments",
+      "slug": "codex-quantum-computing-experiments",
+      "source": "openai",
+      "url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "category": "Applied AI",
+      "date": "2026-09-08T17:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How GPT-5.6 Sol helps run quantum computing experiments",
+        "th": "How GPT-5.6 Sol helps run quantum computing experiments"
+      },
+      "summary": {
+        "en": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+        "th": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits."
+      }
+    },
     {
       "id": "huggingface__safety-for-whom",
       "slug": "safety-for-whom",
@@ -118,6 +135,23 @@
       "summary": {
         "en": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
         "th": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations."
+      }
+    },
+    {
+      "id": "openai__1password",
+      "slug": "1password",
+      "source": "openai",
+      "url": "https://openai.com/index/1password",
+      "category": "News",
+      "date": "2026-09-08T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "1Password increases engineering productivity 21% with Codex",
+        "th": "1Password increases engineering productivity 21% with Codex"
+      },
+      "summary": {
+        "en": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+        "th": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies."
       }
     },
     {
@@ -1257,40 +1291,6 @@
       "summary": {
         "en": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
         "th": "Replit ขอแนะนำโหมดฟรี ซึ่งขับเคลื่อนโดย GPT-5.6 Luna ดังนั้นใครๆ ก็สามารถเปลี่ยนแนวคิดต่างๆ ให้เป็นซอฟต์แวร์ที่ใช้งานได้โดยไม่ต้องกังวลเกี่ยวกับต้นทุนโทเค็น"
-      }
-    },
-    {
-      "id": "openai__chatgpt-ads-expands-across-europe",
-      "slug": "chatgpt-ads-expands-across-europe",
-      "source": "openai",
-      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "category": "Product",
-      "date": "2026-08-18T22:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "ChatGPT Ads expands across Europe",
-        "th": "ChatGPT Ads ขยายไปทั่วยุโรป"
-      },
-      "summary": {
-        "en": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-        "th": "ChatGPT Ads กำลังขยายไปยังตลาดยุโรป 31 แห่ง เรียนรู้ว่าผู้ลงโฆษณาสามารถเข้าถึงผู้คนในขณะที่สำรวจ เปรียบเทียบตัวเลือก และตัดสินใจได้อย่างไร"
-      }
-    },
-    {
-      "id": "openai__strengthening-democratic-oversight-in-national-security",
-      "slug": "strengthening-democratic-oversight-in-national-security",
-      "source": "openai",
-      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "category": "Global Affairs",
-      "date": "2026-08-18T19:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Strengthening democratic oversight in national security",
-        "th": "เสริมสร้างการกำกับดูแลประชาธิปไตยในด้านความมั่นคงของชาติ"
-      },
-      "summary": {
-        "en": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
-        "th": "OpenAI เปิดตัวความคิดริเริ่มเพื่อเสริมสร้างการกำกับดูแล AI ตามระบอบประชาธิปไตยในด้านความมั่นคงของชาติ สนับสนุนสถาบันของรัฐด้วยเครื่องมือ การฝึกอบรม และความเชี่ยวชาญ"
       }
     },
     {

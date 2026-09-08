@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-09-08T14:03:20.863Z",
+  "generatedAt": "2026-09-08T19:10:35.803Z",
   "items": [
+    {
+      "id": "huggingface__safety-for-whom",
+      "slug": "safety-for-whom",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "category": "News",
+      "date": "2026-09-08T14:23:07.000Z",
+      "image": null,
+      "title": {
+        "en": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+        "th": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic"
+      },
+      "summary": {
+        "en": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+        "th": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic"
+      }
+    },
+    {
+      "id": "deepmind__alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-hu",
+      "slug": "alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-hu",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "category": "News",
+      "date": "2026-09-08T14:00:15.000Z",
+      "image": "https://lh3.googleusercontent.com/vOjFcTcdX2GCEB9yk-tJ7GAfyhTAMo-zW7scq3TrT9qk1mYw5qE0BdUqI8XQclMuUchZr7pYUFdVt3ZzrXc1NGFFJOqi7kIUX_QuAXZR7lkVzxjk=w528-h297-n-nu-rw-lo",
+      "title": {
+        "en": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+        "th": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome"
+      },
+      "summary": {
+        "en": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+        "th": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome."
+      }
+    },
     {
       "id": "openai__the-work-now-within-reach",
       "slug": "the-work-now-within-reach",
@@ -16,6 +50,74 @@
       "summary": {
         "en": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
         "th": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical."
+      }
+    },
+    {
+      "id": "openai__introducing-chatgpt-images-2-5",
+      "slug": "introducing-chatgpt-images-2-5",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "category": "Product",
+      "date": "2026-09-08T11:30:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing ChatGPT Images 2.5",
+        "th": "Introducing ChatGPT Images 2.5"
+      },
+      "summary": {
+        "en": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+        "th": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas."
+      }
+    },
+    {
+      "id": "openai__navier-stokes-solution",
+      "slug": "navier-stokes-solution",
+      "source": "openai",
+      "url": "https://openai.com/index/navier-stokes-solution",
+      "category": "Research",
+      "date": "2026-09-08T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "On the Navier–Stokes Millennium Prize Problem",
+        "th": "On the Navier–Stokes Millennium Prize Problem"
+      },
+      "summary": {
+        "en": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+        "th": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean."
+      }
+    },
+    {
+      "id": "openai__teen-development-research-grants",
+      "slug": "teen-development-research-grants",
+      "source": "openai",
+      "url": "https://openai.com/index/teen-development-research-grants",
+      "category": "Safety",
+      "date": "2026-09-08T09:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Funding grants for new research into AI and teen development",
+        "th": "Funding grants for new research into AI and teen development"
+      },
+      "summary": {
+        "en": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+        "th": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety."
+      }
+    },
+    {
+      "id": "openai__supporting-journalism-from-classrooms-to-newsrooms",
+      "slug": "supporting-journalism-from-classrooms-to-newsrooms",
+      "source": "openai",
+      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "category": "Company",
+      "date": "2026-09-08T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+        "th": "OpenAI expands initiatives to support journalism from classrooms to newsrooms"
+      },
+      "summary": {
+        "en": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+        "th": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations."
       }
     },
     {
@@ -121,23 +223,6 @@
       }
     },
     {
-      "id": "openai__legora-financial-statement-review-with-astra",
-      "slug": "legora-financial-statement-review-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "category": "Startup",
-      "date": "2026-09-03T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-        "th": "Legora reviewed 41 documents in minutes with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-        "th": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
-      }
-    },
-    {
       "id": "openai__playco-game-prototyping-with-astra",
       "slug": "playco-game-prototyping-with-astra",
       "source": "openai",
@@ -152,6 +237,23 @@
       "summary": {
         "en": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
         "th": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
+      }
+    },
+    {
+      "id": "openai__legora-financial-statement-review-with-astra",
+      "slug": "legora-financial-statement-review-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "category": "Startup",
+      "date": "2026-09-03T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+        "th": "Legora reviewed 41 documents in minutes with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+        "th": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
       }
     },
     {
@@ -1209,74 +1311,6 @@
       }
     },
     {
-      "id": "openai__partnering-with-codeai",
-      "slug": "partnering-with-codeai",
-      "source": "openai",
-      "url": "https://openai.com/index/partnering-with-codeai",
-      "category": "Company",
-      "date": "2026-08-18T11:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Partnering with CodeAI to prepare the first AI generation",
-        "th": "ร่วมมือกับ CodeAI เพื่อเตรียม AI รุ่นแรก"
-      },
-      "summary": {
-        "en": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
-        "th": "OpenAI และ CodeAI ร่วมมือกันเพื่อช่วยให้นักเรียนสร้างความรู้ด้าน AI คิดอย่างมีวิจารณญาณเกี่ยวกับ AI และพัฒนาทักษะในการใช้งานและกำหนดทิศทางอย่างมีความรับผิดชอบ"
-      }
-    },
-    {
-      "id": "openai__pacing-model-development-cyber-capabilities",
-      "slug": "pacing-model-development-cyber-capabilities",
-      "source": "openai",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "category": "Company",
-      "date": "2026-08-18T11:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Pacing model development in an era of cyber-critical capabilities",
-        "th": "การพัฒนาโมเดลการก้าวกระโดดในยุคของความสามารถที่มีความสำคัญต่อโลกไซเบอร์"
-      },
-      "summary": {
-        "en": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
-        "th": "OpenAI กำลังเสริมความแข็งแกร่งในการตรวจสอบ การจัดตำแหน่ง และการรักษาความปลอดภัยสำหรับโมเดล AI ระดับแนวหน้า ดูว่าการป้องกันใหม่ๆ เป็นแนวทางในการพัฒนาโมเดลอย่างไร"
-      }
-    },
-    {
-      "id": "openai__chatgpt-for-teens",
-      "slug": "chatgpt-for-teens",
-      "source": "openai",
-      "url": "https://openai.com/index/chatgpt-for-teens",
-      "category": "Product",
-      "date": "2026-08-18T11:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-        "th": "ขอแนะนำ ChatGPT สำหรับวัยรุ่น: สร้างขึ้นเพื่อการเรียนรู้ พร้อมการปกป้อง"
-      },
-      "summary": {
-        "en": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
-        "th": "ChatGPT สำหรับวัยรุ่นช่วยให้วัยรุ่นเรียนรู้ คิดอย่างมีวิจารณญาณ และใช้ AI อย่างมั่นใจ พร้อมการป้องกันในตัวที่แข็งแกร่งยิ่งขึ้น ฟีเจอร์การใช้งานเพื่อสุขภาพ และการควบคุมเพิ่มเติมสำหรับผู้ปกครอง"
-      }
-    },
-    {
-      "id": "openai__chatgpt-work",
-      "slug": "chatgpt-work",
-      "source": "openai",
-      "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "category": "News",
-      "date": "2026-08-18T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How NVIDIA scales expertise with ChatGPT Work",
-        "th": "NVIDIA ขยายความเชี่ยวชาญด้วย ChatGPT Work อย่างไร"
-      },
-      "summary": {
-        "en": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
-        "th": "ทีม NVIDIA ใช้ ChatGPT Work เพื่อลดงานที่ต้องทำด้วยตนเอง เชื่อมต่อสัญญาณที่เคลื่อนไหวเร็ว และขยายขั้นตอนการทำงานที่ประสบความสำเร็จทั่วโลก"
-      }
-    },
-    {
       "id": "huggingface__multi-vector-encoder",
       "slug": "multi-vector-encoder",
       "source": "huggingface",
@@ -2178,23 +2212,6 @@
       }
     },
     {
-      "id": "huggingface__one-click-to-sagemaker-studio",
-      "slug": "one-click-to-sagemaker-studio",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-      "category": "News",
-      "date": "2026-07-07T21:15:33.000Z",
-      "image": null,
-      "title": {
-        "en": "From Hugging Face to Amazon SageMaker Studio in one click",
-        "th": "จาก Hugging Face ไปจนถึง Amazon SageMaker Studio ได้ในคลิกเดียว"
-      },
-      "summary": {
-        "en": "From Hugging Face to Amazon SageMaker Studio in one click",
-        "th": "จาก Hugging Face ไปจนถึง Amazon SageMaker Studio ได้ในคลิกเดียว"
-      }
-    },
-    {
       "id": "google-ai__expanding-managed-agents-gemini-api",
       "slug": "expanding-managed-agents-gemini-api",
       "source": "google-ai",
@@ -2549,23 +2566,6 @@
       "summary": {
         "en": "Clare Bryant uses Co-Scientist to identify genetic triggers in emerging infectious diseases.",
         "th": "Clare Bryant ใช้นักวิทยาศาสตร์ร่วมเพื่อระบุสิ่งกระตุ้นทางพันธุกรรมในโรคติดเชื้ออุบัติใหม่"
-      }
-    },
-    {
-      "id": "deepmind__opening-new-paths-in-aging-research",
-      "slug": "opening-new-paths-in-aging-research",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/opening-new-paths-in-aging-research/",
-      "category": "News",
-      "date": "2026-05-16T08:08:44.000Z",
-      "image": "https://lh3.googleusercontent.com/B7CCW8x-V6U0PvCuF6-9V6Cm50m5gRG8SigI6yTMQYs-S7HpY_cKeGn8uLZrJom_0Wuok-iltNFic4I8Eel7riB7Dytm2k1_pytxTtvk-vrEIxw9pg=w528-h297-n-nu-rw-lo",
-      "title": {
-        "en": "Opening new paths in aging research",
-        "th": "เปิดเส้นทางใหม่ในการวิจัยความชรา"
-      },
-      "summary": {
-        "en": "Calico Life Sciences uses Co-Scientist to connect scattered findings and generate new leads in aging research.",
-        "th": "Calico Life Sciences ใช้ Co-Scientist เพื่อเชื่อมโยงการค้นพบที่กระจัดกระจาย และสร้างโอกาสในการขายใหม่ๆ ในการวิจัยเรื่องอายุ"
       }
     }
   ]

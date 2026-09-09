@@ -1,0 +1,234 @@
+{
+  "id": "openai__gpt-6-astra-next-generation-work",
+  "slug": "gpt-6-astra-next-generation-work",
+  "source": "openai",
+  "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+  "category": "Product",
+  "date": "2026-09-09T11:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "GPT-6 Astra: The next generation in intelligence for work",
+    "th": "GPT-6 Astra: The next generation in intelligence for work"
+  },
+  "summary": {
+    "en": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+    "th": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "Our most capable model, built for all the work businesses need to get done.",
+        "th": "Our most capable model, built for all the work businesses need to get done."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/Zxpz4Yov4StpjdTz9Vd7e/349311d731fd8637fbf4e20115644c02/videoframe_0.png?w=3840&q=90&fm=webp",
+      "alt": "A dark navy starfield with scattered white and colored stars."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Last week we introduced GPT‑6 Astra, the world’s most intelligent and aligned model, now available in ChatGPT Work, Codex, and the API. Astra is state-of-the-art on computer use, browsing, professional work, software engineering, cybersecurity, and science, so teams can take on the most demanding professional work with unmatched speed, accuracy, and judgment.",
+        "th": "Last week we introduced GPT‑6 Astra, the world’s most intelligent and aligned model, now available in ChatGPT Work, Codex, and the API. Astra is state-of-the-art on computer use, browsing, professional work, software engineering, cybersecurity, and science, so teams can take on the most demanding professional work with unmatched speed, accuracy, and judgment."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The world’s best model for complex work",
+        "th": "The world’s best model for complex work"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Most AI systems require businesses to prepare their data, redesign workflows, and build custom integrations before they can deliver value. Astra changes that. In ChatGPT Work and Codex, it can write code and work through the same applications people use every day—even when those applications don’t have an API. That means businesses can put AI to work within their existing workflows from day one, without extensive preparation or engineering work.",
+        "th": "Most AI systems require businesses to prepare their data, redesign workflows, and build custom integrations before they can deliver value. Astra changes that. In ChatGPT Work and Codex, it can write code and work through the same applications people use every day—even when those applications don’t have an API. That means businesses can put AI to work within their existing workflows from day one, without extensive preparation or engineering work."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Within the first few days of rollout, we’re already seeing customers put Astra to work, from optimizing GPUs to spotting discrepancies in financial statements to producing more on-brand decks.",
+        "th": "Within the first few days of rollout, we’re already seeing customers put Astra to work, from optimizing GPUs to spotting discrepancies in financial statements to producing more on-brand decks."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Cognition",
+        "th": "Cognition"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Databricks",
+        "th": "Databricks"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Hebbia",
+        "th": "Hebbia"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Box",
+        "th": "Box"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Figma",
+        "th": "Figma"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Thomson Reuters Labs",
+        "th": "Thomson Reuters Labs"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "At OpenAI, Astra was rolled out internally weeks before launch, so we saw first hand how bleeding-edge capabilities like computer use could change the way we work. Our developer and marketing teams used Astra and Codex to turn three hours of multicamera footage into our GPT‑6 Astra Developer First Impressions video⁠(opens in a new window) which has already garnered over 550k views in just 4 days. Our engineering team used Astra to uncover and resolve a memory-allocation bottleneck that was causing slow Codex sessions in a test environment. By switching allocators, they were able to produce 25× lower turn latency with roughly 30% higher peak memory use.",
+        "th": "At OpenAI, Astra was rolled out internally weeks before launch, so we saw first hand how bleeding-edge capabilities like computer use could change the way we work. Our developer and marketing teams used Astra and Codex to turn three hours of multicamera footage into our GPT‑6 Astra Developer First Impressions video⁠(opens in a new window) which has already garnered over 550k views in just 4 days. Our engineering team used Astra to uncover and resolve a memory-allocation bottleneck that was causing slow Codex sessions in a test environment. By switching allocators, they were able to produce 25× lower turn latency with roughly 30% higher peak memory use."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Astra is also better at following a company’s voice, templates, and design standards, so the first result is closer to something a team can put to use.",
+        "th": "Astra is also better at following a company’s voice, templates, and design standards, so the first result is closer to something a team can put to use."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "More useful work for every dollar",
+        "th": "More useful work for every dollar"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Astra continues our commitment to providing extremely efficient models that deliver more useful work per dollar to our customers. It's been trained to complete tasks in fewer tokens with fewer retries, which means less rework and lower cost per task. With Astra, OpenAI occupies the majority of the cost-efficiency frontier on professional work and coding evaluations, including Terminal Bench 4.0 and Artificial Analysis Intelligence Index. Pricing starts at $10 per million input tokens and $50 per million output tokens.",
+        "th": "Astra continues our commitment to providing extremely efficient models that deliver more useful work per dollar to our customers. It's been trained to complete tasks in fewer tokens with fewer retries, which means less rework and lower cost per task. With Astra, OpenAI occupies the majority of the cost-efficiency frontier on professional work and coding evaluations, including Terminal Bench 4.0 and Artificial Analysis Intelligence Index. Pricing starts at $10 per million input tokens and $50 per million output tokens."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Datacurve",
+        "th": "Datacurve"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Basis",
+        "th": "Basis"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "CodeRabbit",
+        "th": "CodeRabbit"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "XTX Markets",
+        "th": "XTX Markets"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "More safety and control for consequential work",
+        "th": "More safety and control for consequential work"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Giving AI access to business systems requires confidence in how it will act. With this in mind, Astra is our most aligned model yet, with stronger adherence to human intent and authorization.",
+        "th": "Giving AI access to business systems requires confidence in how it will act. With this in mind, Astra is our most aligned model yet, with stronger adherence to human intent and authorization."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "During training, we tested Astra on our internal computer use safety benchmark⁠ which tests models against the hardest business scenarios such as exposing confidential information, sharing a dashboard too broadly, or deleting data. In this evaluation, Astra produced unintended outcomes 89% less often than GPT‑5.6 Sol and 74.7% less often than Claude Fable 5.1. Additional confirmation and automated review further improved performance for GPT‑6 Astra and GPT‑5.6 Sol.",
+        "th": "During training, we tested Astra on our internal computer use safety benchmark⁠ which tests models against the hardest business scenarios such as exposing confidential information, sharing a dashboard too broadly, or deleting data. In this evaluation, Astra produced unintended outcomes 89% less often than GPT‑5.6 Sol and 74.7% less often than Claude Fable 5.1. Additional confirmation and automated review further improved performance for GPT‑6 Astra and GPT‑5.6 Sol."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Organizations can also decide how broadly to deploy Astra. New enterprise admin controls let them restrict access to approved websites and desktop applications, manage uploads and downloads, and control browsing history. ChatGPT Work and Codex also include safeguards such as confirmation policies, which can require approval before consequential actions, and automated review of potentially unsafe or unauthorized tool calls. These controls allow teams to start with a limited configuration and expand access over time.",
+        "th": "Organizations can also decide how broadly to deploy Astra. New enterprise admin controls let them restrict access to approved websites and desktop applications, manage uploads and downloads, and control browsing history. ChatGPT Work and Codex also include safeguards such as confirmation policies, which can require approval before consequential actions, and automated review of potentially unsafe or unauthorized tool calls. These controls allow teams to start with a limited configuration and expand access over time."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To further access, alongside Astra, we’re also launching new enterprise plugins in ChatGPT Desktop. Powered by the latest browser use capabilities, plugins from Oracle Analytics, Power BI (a Microsoft Fabric service), Navan, and Avalara make it easier to access familiar enterprise applications.",
+        "th": "To further access, alongside Astra, we’re also launching new enterprise plugins in ChatGPT Desktop. Powered by the latest browser use capabilities, plugins from Oracle Analytics, Power BI (a Microsoft Fabric service), Navan, and Avalara make it easier to access familiar enterprise applications."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Astra⁠(opens in a new window) is also the first model to reach the Critical cybersecurity capability threshold⁠ under our Preparedness Framework⁠. With that increased capability, we’ve strengthened protections⁠(opens in a new window) against both misuse and the model taking unauthorized actions including training Astra to respect safety and security boundaries, improving its resistance to attempts to bypass safeguards, and deploying automated checks designed to block harmful responses.",
+        "th": "Astra⁠(opens in a new window) is also the first model to reach the Critical cybersecurity capability threshold⁠ under our Preparedness Framework⁠. With that increased capability, we’ve strengthened protections⁠(opens in a new window) against both misuse and the model taking unauthorized actions including training Astra to respect safety and security boundaries, improving its resistance to attempts to bypass safeguards, and deploying automated checks designed to block harmful responses."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Zero Data Retention is available for eligible API customers on supported endpoints, subject to approval.",
+        "th": "Zero Data Retention is available for eligible API customers on supported endpoints, subject to approval."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Start using Astra today",
+        "th": "Start using Astra today"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Try GPT‑6 Astra in ChatGPT Work⁠(opens in a new window) or Codex⁠(opens in a new window), or build it into your own products and workflows through the API⁠(opens in a new window).",
+        "th": "Try GPT‑6 Astra in ChatGPT Work⁠(opens in a new window) or Codex⁠(opens in a new window), or build it into your own products and workflows through the API⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Enterprise administrators can enable Astra under their applicable rate card and agreement. Enterprise access is off by default at launch.",
+        "th": "Enterprise administrators can enable Astra under their applicable rate card and agreement. Enterprise access is off by default at launch."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Try GPT‑6 Astra",
+        "th": "Try GPT‑6 Astra"
+      }
+    }
+  ]
+}

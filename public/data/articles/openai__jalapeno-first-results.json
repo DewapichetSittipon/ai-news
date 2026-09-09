@@ -18,8 +18,847 @@
     {
       "type": "p",
       "text": {
-        "en": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-        "th": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models."
+        "en": "August 25, 2026",
+        "th": "August 25, 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How we measured Jalapeño’s performanceJalapeño widens the lead at previous-best TBTJalapeño delivers more tokens per userJalapeño delivers more throughput per kilowatt",
+        "th": "How we measured Jalapeño’s performanceJalapeño widens the lead at previous-best TBTJalapeño delivers more tokens per userJalapeño delivers more throughput per kilowatt"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño widens the lead at previous-best TBT",
+        "th": "Jalapeño widens the lead at previous-best TBT"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño delivers more tokens per user",
+        "th": "Jalapeño delivers more tokens per user"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño delivers more throughput per kilowatt",
+        "th": "Jalapeño delivers more throughput per kilowatt"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Architecting for speed and efficiency within a single chip",
+        "th": "Architecting for speed and efficiency within a single chip"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We used AI to design the chip, and designed the chip so AI could program it",
+        "th": "We used AI to design the chip, and designed the chip so AI could program it"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The path ahead for efficient, ultra-fast inference",
+        "th": "The path ahead for efficient, ultra-fast inference"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "AppendixJalapeño is pareto frontier at GPT‑OSS 120BJalapeño leads across GPT-OSS operating pointsJalapeño is pareto frontier at DeepSeek R1 670BJalapeño leads across DeepSeek R1 operating pointsJalapeño is pareto frontier at Kimi K2.5 1TJalapeño leads across Kimi K2.5 operating points",
+        "th": "AppendixJalapeño is pareto frontier at GPT‑OSS 120BJalapeño leads across GPT-OSS operating pointsJalapeño is pareto frontier at DeepSeek R1 670BJalapeño leads across DeepSeek R1 operating pointsJalapeño is pareto frontier at Kimi K2.5 1TJalapeño leads across Kimi K2.5 operating points"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño is pareto frontier at GPT‑OSS 120B",
+        "th": "Jalapeño is pareto frontier at GPT‑OSS 120B"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño leads across GPT-OSS operating points",
+        "th": "Jalapeño leads across GPT-OSS operating points"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño is pareto frontier at DeepSeek R1 670B",
+        "th": "Jalapeño is pareto frontier at DeepSeek R1 670B"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño leads across DeepSeek R1 operating points",
+        "th": "Jalapeño leads across DeepSeek R1 operating points"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño is pareto frontier at Kimi K2.5 1T",
+        "th": "Jalapeño is pareto frontier at Kimi K2.5 1T"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño leads across Kimi K2.5 operating points",
+        "th": "Jalapeño leads across Kimi K2.5 operating points"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How we measured Jalapeño’s performanceJalapeño widens the lead at previous-best TBTJalapeño delivers more tokens per userJalapeño delivers more throughput per kilowatt",
+        "th": "How we measured Jalapeño’s performanceJalapeño widens the lead at previous-best TBTJalapeño delivers more tokens per userJalapeño delivers more throughput per kilowatt"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño widens the lead at previous-best TBT",
+        "th": "Jalapeño widens the lead at previous-best TBT"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño delivers more tokens per user",
+        "th": "Jalapeño delivers more tokens per user"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño delivers more throughput per kilowatt",
+        "th": "Jalapeño delivers more throughput per kilowatt"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Architecting for speed and efficiency within a single chip",
+        "th": "Architecting for speed and efficiency within a single chip"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We used AI to design the chip, and designed the chip so AI could program it",
+        "th": "We used AI to design the chip, and designed the chip so AI could program it"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The path ahead for efficient, ultra-fast inference",
+        "th": "The path ahead for efficient, ultra-fast inference"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "AppendixJalapeño is pareto frontier at GPT‑OSS 120BJalapeño leads across GPT-OSS operating pointsJalapeño is pareto frontier at DeepSeek R1 670BJalapeño leads across DeepSeek R1 operating pointsJalapeño is pareto frontier at Kimi K2.5 1TJalapeño leads across Kimi K2.5 operating points",
+        "th": "AppendixJalapeño is pareto frontier at GPT‑OSS 120BJalapeño leads across GPT-OSS operating pointsJalapeño is pareto frontier at DeepSeek R1 670BJalapeño leads across DeepSeek R1 operating pointsJalapeño is pareto frontier at Kimi K2.5 1TJalapeño leads across Kimi K2.5 operating points"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño is pareto frontier at GPT‑OSS 120B",
+        "th": "Jalapeño is pareto frontier at GPT‑OSS 120B"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño leads across GPT-OSS operating points",
+        "th": "Jalapeño leads across GPT-OSS operating points"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño is pareto frontier at DeepSeek R1 670B",
+        "th": "Jalapeño is pareto frontier at DeepSeek R1 670B"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño leads across DeepSeek R1 operating points",
+        "th": "Jalapeño leads across DeepSeek R1 operating points"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño is pareto frontier at Kimi K2.5 1T",
+        "th": "Jalapeño is pareto frontier at Kimi K2.5 1T"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Jalapeño leads across Kimi K2.5 operating points",
+        "th": "Jalapeño leads across Kimi K2.5 operating points"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3zePuVBRvgyZ4IgOwnI0jI/65ba02edadf6a0a1c33d2c2abf260fab/Jalapeno-chip-final.jpg?w=3840&q=90&fm=webp",
+      "alt": "Close-up of the Jalapeño inference chip mounted on a teal circuit board."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Since announcing Jalapeño, OpenAI’s first custom inference chip, we have been testing the chip and the system built around it. The results show a significant performance advance: Jalapeño can serve more AI work per unit of power while also returning responses more quickly. Jalapeño delivers both higher throughput and lower latency with one architecture, where existing hardware systems often have to make a tradeoff between the two.",
+        "th": "Since announcing Jalapeño, OpenAI’s first custom inference chip, we have been testing the chip and the system built around it. The results show a significant performance advance: Jalapeño can serve more AI work per unit of power while also returning responses more quickly. Jalapeño delivers both higher throughput and lower latency with one architecture, where existing hardware systems often have to make a tradeoff between the two."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For customers, that can mean faster responses, more responsive agents, and more reliable access as demand grows. Our mission is to ensure that artificial general intelligence benefits all of humanity. These gains will help make increasingly capable AI more affordable and more broadly available.",
+        "th": "For customers, that can mean faster responses, more responsive agents, and more reliable access as demand grows. Our mission is to ensure that artificial general intelligence benefits all of humanity. These gains will help make increasingly capable AI more affordable and more broadly available."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI models also accelerated Jalapeño’s development. Earlier generations helped the team design and bring up the chip, while our latest models are accelerating how we optimize and program it. Jalapeño’s performance extends across GPT‑OSS 120B, DeepSeek R1, and Kimi K2.5 1T, showing that the architecture works across models developed both inside and outside OpenAI. Across all three, Jalapeño delivered 1.5 to 1.9 times more AI work per watt at peak throughput and 1.7 to 3.6 times lower end-to-end latency than the comparison systems. For highly interactive workloads, it delivered 2.1 to 4.1 times higher performance.",
+        "th": "OpenAI models also accelerated Jalapeño’s development. Earlier generations helped the team design and bring up the chip, while our latest models are accelerating how we optimize and program it. Jalapeño’s performance extends across GPT‑OSS 120B, DeepSeek R1, and Kimi K2.5 1T, showing that the architecture works across models developed both inside and outside OpenAI. Across all three, Jalapeño delivered 1.5 to 1.9 times more AI work per watt at peak throughput and 1.7 to 3.6 times lower end-to-end latency than the comparison systems. For highly interactive workloads, it delivered 2.1 to 4.1 times higher performance."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jalapeño is also evidence of a broader full-stack advantage. OpenAI can design models, products, serving software, chips, memory, networking, and systems together, using what we learn from real workloads to improve every layer of the stack. Jalapeño is working first-party silicon with measured results, and it is the beginning of a multigenerational platform. In the months ahead, we will ramp Jalapeño to deliver faster, more capable, and more efficient products for our customers.",
+        "th": "Jalapeño is also evidence of a broader full-stack advantage. OpenAI can design models, products, serving software, chips, memory, networking, and systems together, using what we learn from real workloads to improve every layer of the stack. Jalapeño is working first-party silicon with measured results, and it is the beginning of a multigenerational platform. In the months ahead, we will ramp Jalapeño to deliver faster, more capable, and more efficient products for our customers."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How we measured Jalapeño’s performance",
+        "th": "How we measured Jalapeño’s performance"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We evaluate performance at a matched user experience, measuring how much useful AI work each system can complete per unit of power while meeting the latency customers and interactive agents require. This matters especially for agents, which need to complete many steps in sequence, so delays can compound across an entire task.",
+        "th": "We evaluate performance at a matched user experience, measuring how much useful AI work each system can complete per unit of power while meeting the latency customers and interactive agents require. This matters especially for agents, which need to complete many steps in sequence, so delays can compound across an entire task."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To understand how Jalapeño performs in practice, we tested it on InferenceX, a public benchmark from SemiAnalysis that measures the full process of serving an AI request. We compared Jalapeño with leading commercially available AI systems across the tested operating range, from high-throughput serving to highly interactive, low-latency use. Jalapeño delivered a better combination of throughput, power efficiency, and latency. Although performance is sometimes reported per chip, we believe the more useful standard is performance per unit of power.",
+        "th": "To understand how Jalapeño performs in practice, we tested it on InferenceX, a public benchmark from SemiAnalysis that measures the full process of serving an AI request. We compared Jalapeño with leading commercially available AI systems across the tested operating range, from high-throughput serving to highly interactive, low-latency use. Jalapeño delivered a better combination of throughput, power efficiency, and latency. Although performance is sometimes reported per chip, we believe the more useful standard is performance per unit of power."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Jalapeño widens the lead at previous-best TBT",
+        "th": "Jalapeño widens the lead at previous-best TBT"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Jalapeño delivers more tokens per user",
+        "th": "Jalapeño delivers more tokens per user"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Jalapeño delivers more throughput per kilowatt",
+        "th": "Jalapeño delivers more throughput per kilowatt"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Across all three public models, Jalapeño delivered a better combination of performance per watt and latency across the tested operating range, placing it on the Pareto frontier. To compare the systems consistently, we normalized the results using each accelerator’s published chip power rating. Jalapeño is rated at 700 watts, although its measured sustained power remained at or below 550 watts on the workloads tested.",
+        "th": "Across all three public models, Jalapeño delivered a better combination of performance per watt and latency across the tested operating range, placing it on the Pareto frontier. To compare the systems consistently, we normalized the results using each accelerator’s published chip power rating. Jalapeño is rated at 700 watts, although its measured sustained power remained at or below 550 watts on the workloads tested."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jalapeño performed strongly across GPT‑OSS 120B, DeepSeek R1 670B, and Kimi K2.5 1T. On Kimi, the largest public model we tested, it delivered approximately 1.5 times higher peak performance per watt and 3.4 times lower end-to-end latency than the comparison system. In our internal testing, Jalapeño’s advantage widened further on frontier OpenAI models, suggesting that the architecture becomes more valuable as workloads grow larger and more demanding.",
+        "th": "Jalapeño performed strongly across GPT‑OSS 120B, DeepSeek R1 670B, and Kimi K2.5 1T. On Kimi, the largest public model we tested, it delivered approximately 1.5 times higher peak performance per watt and 3.4 times lower end-to-end latency than the comparison system. In our internal testing, Jalapeño’s advantage widened further on frontier OpenAI models, suggesting that the architecture becomes more valuable as workloads grow larger and more demanding."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Architecting for speed and efficiency within a single chip",
+        "th": "Architecting for speed and efficiency within a single chip"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jalapeño was designed from the start by asking: what hardware would we build if its primary job were serving modern and future language models, especially interactive agents? Jalapeño’s gains come from designing the chip, memory, network, software, and rack-scale system together around real language-model workloads. Language-model inference moves through several distinct phases with different bottlenecks. Prefill, when the system processes a prompt, is compute-intensive, while decode, when the system generates the response token by token, is constrained more by memory bandwidth. Communication can also add latency when data must move between cores and chips, leaving some processing units idle while they wait. A system that excels at one phase can lose that advantage while waiting for data or moving model state between different resources.",
+        "th": "Jalapeño was designed from the start by asking: what hardware would we build if its primary job were serving modern and future language models, especially interactive agents? Jalapeño’s gains come from designing the chip, memory, network, software, and rack-scale system together around real language-model workloads. Language-model inference moves through several distinct phases with different bottlenecks. Prefill, when the system processes a prompt, is compute-intensive, while decode, when the system generates the response token by token, is constrained more by memory bandwidth. Communication can also add latency when data must move between cores and chips, leaving some processing units idle while they wait. A system that excels at one phase can lose that advantage while waiting for data or moving model state between different resources."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We designed Jalapeño to minimize data movement and communication delays. This means that model state, including the KV cache used while generating a response, can be explicitly placed and kept local while the system activates the right combination of compute, memory, and networking for each inference phase. The network is integral to the architecture. Its large domain allows the entire workload to remain within one connected system, minimizing data movement and helping the complete request stay fast and efficient from beginning to end. The result is a balanced and fungible accelerator that can support changing model architectures, excel at both prefill and decode, and adapt as the balance between them changes, a defining feature of agentic workloads.",
+        "th": "We designed Jalapeño to minimize data movement and communication delays. This means that model state, including the KV cache used while generating a response, can be explicitly placed and kept local while the system activates the right combination of compute, memory, and networking for each inference phase. The network is integral to the architecture. Its large domain allows the entire workload to remain within one connected system, minimizing data movement and helping the complete request stay fast and efficient from beginning to end. The result is a balanced and fungible accelerator that can support changing model architectures, excel at both prefill and decode, and adapt as the balance between them changes, a defining feature of agentic workloads."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "We used AI to design the chip, and designed the chip so AI could program it",
+        "th": "We used AI to design the chip, and designed the chip so AI could program it"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "AI played a direct role in Jalapeño’s development, enabling the team to move from initial design to tapeout in nine months by exploring implementations, shortening design, measurement, and verification loops, and continuously iterating on model workloads. AI also helped optimize the chip’s arithmetic circuits, allowing the team to fit more compute performance into the chip on schedule.",
+        "th": "AI played a direct role in Jalapeño’s development, enabling the team to move from initial design to tapeout in nine months by exploring implementations, shortening design, measurement, and verification loops, and continuously iterating on model workloads. AI also helped optimize the chip’s arithmetic circuits, allowing the team to fit more compute performance into the chip on schedule."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jalapeño was designed as a clear, predictable programming target for both humans and AI. Engineers can describe work through local tensors, explicit communication, and predictable synchronization. AI can then optimize how that work is mapped, placed, scheduled, and coordinated across the system. That clear, predictable structure gives AI a tractable way to tackle the traditionally difficult problem of parallel programming.",
+        "th": "Jalapeño was designed as a clear, predictable programming target for both humans and AI. Engineers can describe work through local tensors, explicit communication, and predictable synchronization. AI can then optimize how that work is mapped, placed, scheduled, and coordinated across the system. That clear, predictable structure gives AI a tractable way to tackle the traditionally difficult problem of parallel programming."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Supporting each new model family still requires new kernels and model-specific optimizations. Using Codex with GPT‑Astra, the team brought three open-weight models that were not part of Jalapeño’s original production plan to high performance within two months. This demonstrated both the flexibility of the architecture and the speed at which AI can help us program it. For selected GPT‑OSS attention and mixture-of-experts blocks, AI-generated implementations ran 1.5 to 1.8 times faster than the existing human-expert-written implementations. Those figures apply to the selected blocks, not the full model, but they point toward a powerful new development loop.",
+        "th": "Supporting each new model family still requires new kernels and model-specific optimizations. Using Codex with GPT‑Astra, the team brought three open-weight models that were not part of Jalapeño’s original production plan to high performance within two months. This demonstrated both the flexibility of the architecture and the speed at which AI can help us program it. For selected GPT‑OSS attention and mixture-of-experts blocks, AI-generated implementations ran 1.5 to 1.8 times faster than the existing human-expert-written implementations. Those figures apply to the selected blocks, not the full model, but they point toward a powerful new development loop."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The path ahead for efficient, ultra-fast inference",
+        "th": "The path ahead for efficient, ultra-fast inference"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "AI infrastructure is valuable because of the useful real-world work it enables. By producing more useful work from the same power and hardware, Jalapeño can help us serve more demand and lower the cost of delivering a successful result. For OpenAI, that can improve operating leverage by allowing useful work and revenue to grow faster than the cost to serve. It can also support broader adoption and continued investment in better models, products, and infrastructure. Faster inference can enable faster iteration and new use cases.",
+        "th": "AI infrastructure is valuable because of the useful real-world work it enables. By producing more useful work from the same power and hardware, Jalapeño can help us serve more demand and lower the cost of delivering a successful result. For OpenAI, that can improve operating leverage by allowing useful work and revenue to grow faster than the cost to serve. It can also support broader adoption and continued investment in better models, products, and infrastructure. Faster inference can enable faster iteration and new use cases."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jalapeño expands what is possible for efficient, low-latency inference:",
+        "th": "Jalapeño expands what is possible for efficient, low-latency inference:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Ultra-fast-mode inference at efficiencies previously available only in fast mode",
+        "th": "Ultra-fast-mode inference at efficiencies previously available only in fast mode"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Fast-mode inference at efficiencies previously available only in batched mode",
+        "th": "Fast-mode inference at efficiencies previously available only in batched mode"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Higher efficiency for batched-mode inference",
+        "th": "Higher efficiency for batched-mode inference"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We plan to begin deploying Jalapeño within OpenAI’s compute infrastructure by the end of the year. It is the first generation of a multigenerational roadmap: Gen 2 is deep in development, and Gen 3 is taking shape. Each generation will build on what we learn and further advance both efficiency and speed.",
+        "th": "We plan to begin deploying Jalapeño within OpenAI’s compute infrastructure by the end of the year. It is the first generation of a multigenerational roadmap: Gen 2 is deep in development, and Gen 3 is taking shape. Each generation will build on what we learn and further advance both efficiency and speed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Meeting growing demand for AI will require more compute from every available source. We will continue to widely deploy accelerators from NVIDIA and other partners for both training and inference workloads. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
+        "th": "Meeting growing demand for AI will require more compute from every available source. We will continue to widely deploy accelerators from NVIDIA and other partners for both training and inference workloads. Our mission is to ensure that artificial general intelligence benefits all of humanity."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As we prepare for deployment, we are continuing production qualification, maturing the software, preparing to operate Jalapeño at scale, and validating performance across more models. The results so far show what is possible when we design the full system together: more responsive, capable, and agentic AI delivered more efficiently to more people.",
+        "th": "As we prepare for deployment, we are continuing production qualification, maturing the software, preparing to operate Jalapeño at scale, and validating performance across more models. The results so far show what is possible when we design the full system together: more responsive, capable, and agentic AI delivered more efficiently to more people."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Appendix",
+        "th": "Appendix"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Jalapeño is pareto frontier at GPT‑OSS 120B",
+        "th": "Jalapeño is pareto frontier at GPT‑OSS 120B"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "THROUGHPUT-per-kW FRONTIER",
+        "th": "THROUGHPUT-per-kW FRONTIER"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "InferenceX · GPT‑OSS‑120B · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB200 1,200 W",
+        "th": "InferenceX · GPT‑OSS‑120B · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB200 1,200 W"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Jalapeño leads across GPT‑OSS operating points",
+        "th": "Jalapeño leads across GPT‑OSS operating points"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "PEAK AND MATCHED THROUGHPUT",
+        "th": "PEAK AND MATCHED THROUGHPUT"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "InferenceX · GPT‑OSS‑120B · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB200 1,200 W",
+        "th": "InferenceX · GPT‑OSS‑120B · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB200 1,200 W"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Higher peak mixed TPS / kW",
+        "th": "Higher peak mixed TPS / kW"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "≈1.9×",
+        "th": "≈1.9×"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "85,448 vs. 44,960 mixed / kW",
+        "th": "85,448 vs. 44,960 mixed / kW"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Lower end-to-end latency",
+        "th": "Lower end-to-end latency"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "≈1.7×",
+        "th": "≈1.7×"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "1.03 s vs. 1.80 s",
+        "th": "1.03 s vs. 1.80 s"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Lower min TBT",
+        "th": "Lower min TBT"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "≈2.7×",
+        "th": "≈2.7×"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "0.69 vs. 1.87 ms (1,459 vs. 535 tok/s/user)",
+        "th": "0.69 vs. 1.87 ms (1,459 vs. 535 tok/s/user)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More throughput at previous TBT",
+        "th": "More throughput at previous TBT"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "≈53.7×",
+        "th": "≈53.7×"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "22,935 vs. 427 mixed / kW (at 535.28 tok/s/user)",
+        "th": "22,935 vs. 427 mixed / kW (at 535.28 tok/s/user)"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Jalapeño is pareto frontier at DeepSeek R1 670B",
+        "th": "Jalapeño is pareto frontier at DeepSeek R1 670B"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "THROUGHPUT-per-kW FRONTIER",
+        "th": "THROUGHPUT-per-kW FRONTIER"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "InferenceX · DeepSeek R1 MXFP4 · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB300 1,400 W",
+        "th": "InferenceX · DeepSeek R1 MXFP4 · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB300 1,400 W"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Jalapeño leads across DeepSeek R1 operating points",
+        "th": "Jalapeño leads across DeepSeek R1 operating points"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "PEAK AND MATCHED THROUGHPUT",
+        "th": "PEAK AND MATCHED THROUGHPUT"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "InferenceX · DeepSeek R1 MXFP4 · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB300 1,400 W",
+        "th": "InferenceX · DeepSeek R1 MXFP4 · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB300 1,400 W"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Higher peak mixed TPS / kW",
+        "th": "Higher peak mixed TPS / kW"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "≈1.7×",
+        "th": "≈1.7×"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "19,641 vs. 11,781 mixed / kW",
+        "th": "19,641 vs. 11,781 mixed / kW"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Lower end-to-end latency",
+        "th": "Lower end-to-end latency"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "≈3.6×",
+        "th": "≈3.6×"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "1.65 s vs. 5.99 s",
+        "th": "1.65 s vs. 5.99 s"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Lower min TBT",
+        "th": "Lower min TBT"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "≈4.1×",
+        "th": "≈4.1×"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "1.43 vs. 5.90 ms (700 vs. 169 tok/s/user)",
+        "th": "1.43 vs. 5.90 ms (700 vs. 169 tok/s/user)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More throughput at previous TBT",
+        "th": "More throughput at previous TBT"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "≈104.3×",
+        "th": "≈104.3×"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "12,258 vs. 118 mixed / kW (at 169.41 tok/s/user)",
+        "th": "12,258 vs. 118 mixed / kW (at 169.41 tok/s/user)"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Jalapeño is pareto frontier at Kimi K2.5 1T",
+        "th": "Jalapeño is pareto frontier at Kimi K2.5 1T"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "THROUGHPUT-per-kW FRONTIER",
+        "th": "THROUGHPUT-per-kW FRONTIER"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "InferenceX · Kimi K2.5 MXFP4 · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB300 1,400 W",
+        "th": "InferenceX · Kimi K2.5 MXFP4 · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB300 1,400 W"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Jalapeño leads across Kimi K2.5 operating points",
+        "th": "Jalapeño leads across Kimi K2.5 operating points"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "PEAK AND MATCHED THROUGHPUT",
+        "th": "PEAK AND MATCHED THROUGHPUT"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "InferenceX · Kimi K2.5 MXFP4 · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB300 1,400 W",
+        "th": "InferenceX · Kimi K2.5 MXFP4 · nominal 8k/1k · STP · package TDP: Jalapeño 700 W; GB300 1,400 W"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Higher peak mixed TPS / kW",
+        "th": "Higher peak mixed TPS / kW"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "≈1.5×",
+        "th": "≈1.5×"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "18,195 vs. 11,862 mixed / kW",
+        "th": "18,195 vs. 11,862 mixed / kW"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Lower end-to-end latency",
+        "th": "Lower end-to-end latency"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "≈3.4×",
+        "th": "≈3.4×"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "1.56 s vs. 5.31 s",
+        "th": "1.56 s vs. 5.31 s"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Lower min TBT",
+        "th": "Lower min TBT"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "≈3.8×",
+        "th": "≈3.8×"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "1.44 vs. 5.48 ms (694 vs. 182 tok/s/user)",
+        "th": "1.44 vs. 5.48 ms (694 vs. 182 tok/s/user)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More throughput at previous TBT",
+        "th": "More throughput at previous TBT"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "≈56.1×",
+        "th": "≈56.1×"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "6,744 vs. 120 mixed / kW (at 182.46 tok/s/user)",
+        "th": "6,744 vs. 120 mixed / kW (at 182.46 tok/s/user)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5iHLTPM4ZhKe4dAwOPfpy2/347b9d804542685bb13dbb63e985d91e/c3f562e2b08a0bfc.png?w=3840&q=90&fm=webp",
+      "alt": "The Work Now Within Reach — clean cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanySep 8, 2026",
+        "th": "CompanySep 8, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2uvvRNdvFkdWWXNtANgtAF/36e0f8b6a0c35abf88eec71519823409/Option_70___1080_1080.png?w=3840&q=90&fm=webp",
+      "alt": "Supporting journalism from classrooms to newsrooms — listing card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanySep 8, 2026",
+        "th": "CompanySep 8, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3CsHxgcoiHHUUaYOB1FNiq/38e90de831dad795965ed98ffdd3a95a/Frame.png?w=3840&q=90&fm=webp",
+      "alt": "California youth AI safety — cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanyAug 31, 2026",
+        "th": "CompanyAug 31, 2026"
       }
     }
   ]

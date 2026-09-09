@@ -18,8 +18,186 @@
     {
       "type": "p",
       "text": {
-        "en": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-        "th": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance."
+        "en": "August 24, 2026",
+        "th": "August 24, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The GPT‑5.6 model family is now available in Kiro, a software development agent that brings engineering rigor and quality to AI-native coding at scale. For Kiro users, the update brings OpenAI’s latest flagship model series at the time of this announcement, including Sol, Terra, and Luna, into the development workflows where teams plan, build, review, and test software. Together, these models can help developers produce higher-quality code with fewer iterations and better value per token.",
+        "th": "The GPT‑5.6 model family is now available in Kiro, a software development agent that brings engineering rigor and quality to AI-native coding at scale. For Kiro users, the update brings OpenAI’s latest flagship model series at the time of this announcement, including Sol, Terra, and Luna, into the development workflows where teams plan, build, review, and test software. Together, these models can help developers produce higher-quality code with fewer iterations and better value per token."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑5.6 delivers more useful work from every token, with stronger performance per dollar and on-demand capability for complex tasks. In Kiro, developers can apply these capabilities to long-running development work grounded in their requirements, codebase, and team standards.",
+        "th": "GPT‑5.6 delivers more useful work from every token, with stronger performance per dollar and on-demand capability for complex tasks. In Kiro, developers can apply these capabilities to long-running development work grounded in their requirements, codebase, and team standards."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Kiro turns high-level intent into clear requirements, technical designs, and executable tasks. This structured context helps GPT‑5.6 understand what a team is building, how the system should work, and what the final implementation needs to accomplish.",
+        "th": "Kiro turns high-level intent into clear requirements, technical designs, and executable tasks. This structured context helps GPT‑5.6 understand what a team is building, how the system should work, and what the final implementation needs to accomplish."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With GPT‑5.6 in Kiro, developers can:",
+        "th": "With GPT‑5.6 in Kiro, developers can:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Turn product ideas and requirements into structured implementation plans.",
+        "th": "Turn product ideas and requirements into structured implementation plans."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Complete complex, multi-step coding tasks with greater consistency.",
+        "th": "Complete complex, multi-step coding tasks with greater consistency."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Bring structure to AI coding with spec-driven development.",
+        "th": "Bring structure to AI coding with spec-driven development."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Work with context from across their codebase and established team standards.",
+        "th": "Work with context from across their codebase and established team standards."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Review and refine the model’s work at key checkpoints before changes are implemented.",
+        "th": "Review and refine the model’s work at key checkpoints before changes are implemented."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Check correctness of implementation using property-based testing.",
+        "th": "Check correctness of implementation using property-based testing."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI and AWS have also worked together to optimize the Kiro environment and OpenAI models. Testing found that on Terminal-Bench 2.1, GPT‑5.6 Terra completed successful tasks in Kiro at roughly 82% cost reduction. Kiro’s spec-driven approach grounds the model in clear requirements, technical designs, and task context from the start, so it arrives at working solutions faster, with fewer missteps along the way. For developers, that means more finished work, less wasted effort, and better value from every coding session.",
+        "th": "OpenAI and AWS have also worked together to optimize the Kiro environment and OpenAI models. Testing found that on Terminal-Bench 2.1, GPT‑5.6 Terra completed successful tasks in Kiro at roughly 82% cost reduction. Kiro’s spec-driven approach grounds the model in clear requirements, technical designs, and task context from the start, so it arrives at working solutions faster, with fewer missteps along the way. For developers, that means more finished work, less wasted effort, and better value from every coding session."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Swami Sivasubramanian",
+        "th": "Swami Sivasubramanian"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Colleen Kapase",
+        "th": "Colleen Kapase"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Swami Sivasubramanian",
+        "th": "Swami Sivasubramanian"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Colleen Kapase",
+        "th": "Colleen Kapase"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI and AWS will continue working together to improve the performance of OpenAI models in Kiro and help developers get more value from AI across the software development lifecycle.",
+        "th": "OpenAI and AWS will continue working together to improve the performance of OpenAI models in Kiro and help developers get more value from AI across the software development lifecycle."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The GPT‑5.6 family is available in Kiro. Get started at https://kiro.dev/⁠(opens in a new window)",
+        "th": "The GPT‑5.6 family is available in Kiro. Get started at https://kiro.dev/⁠(opens in a new window)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Partnerships",
+        "th": "Partnerships"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6C1icjo4Zz6MzpbQl1K2qx/8bf8ec06aae235d81019c24f6098d2f0/images2point5_1-1c.png?w=3840&q=90&fm=webp",
+      "alt": "images2point5 1-1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductSep 8, 2026",
+        "th": "ProductSep 8, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchSep 3, 2026",
+        "th": "ResearchSep 3, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7pfIDODSObT8A9BTlfXyVc/43262863eeb33d7f4f8e191fe4783cab/healthcare-exact-smaller-icon-hero-2x.png?w=3840&q=90&fm=webp",
+      "alt": "Healthcare hero and SEO — original blue icon on white, smaller icon"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductSep 1, 2026",
+        "th": "ProductSep 1, 2026"
       }
     }
   ]

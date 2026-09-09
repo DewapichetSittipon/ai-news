@@ -18,8 +18,219 @@
     {
       "type": "p",
       "text": {
-        "en": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-        "th": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
+        "en": "September 3, 2026",
+        "th": "September 3, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Legora uses Astra to improve accuracy, completeness, and reliability, while keeping final judgment with legal professionals.",
+        "th": "Legora uses Astra to improve accuracy, completeness, and reliability, while keeping final judgment with legal professionals."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Results",
+        "th": "Results"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "40%",
+        "th": "40%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Improvement against Legora benchmark in financial-statement workflow",
+        "th": "Improvement against Legora benchmark in financial-statement workflow"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Results",
+        "th": "Results"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "4 of 4",
+        "th": "4 of 4"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Planted errors found in the financial-statement tie-out",
+        "th": "Planted errors found in the financial-statement tie-out"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Results",
+        "th": "Results"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "41",
+        "th": "41"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Documents reviewed in minutes in a single Agent run",
+        "th": "Documents reviewed in minutes in a single Agent run"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Processing complex financial context at scale",
+        "th": "Processing complex financial context at scale"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Improving accuracy, completeness, and reliability",
+        "th": "Improving accuracy, completeness, and reliability"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Processing complex financial context at scale",
+        "th": "Processing complex financial context at scale"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Improving accuracy, completeness, and reliability",
+        "th": "Improving accuracy, completeness, and reliability"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Legora is an agentic operating system for legal and professional work, used by more than 100,000 professionals across more than 1,800 in-house legal departments and law firms in over 50 markets. Its legal engineers work directly with customers to understand how they operate and adapt Legora to their end-to-end workflows, from contract and agreement review to legal research.",
+        "th": "Legora is an agentic operating system for legal and professional work, used by more than 100,000 professionals across more than 1,800 in-house legal departments and law firms in over 50 markets. Its legal engineers work directly with customers to understand how they operate and adapt Legora to their end-to-end workflows, from contract and agreement review to legal research."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One of the more tedious workflows is financial-statement tie-out: checking every figure in draft accounts against trial balances, a consolidation schedule, and the previous year’s accounts until each item agrees. As Legora Legal Engineer Percevale Perks says, the work “can take an entire evening, sometimes days.”",
+        "th": "One of the more tedious workflows is financial-statement tie-out: checking every figure in draft accounts against trial balances, a consolidation schedule, and the previous year’s accounts until each item agrees. As Legora Legal Engineer Percevale Perks says, the work “can take an entire evening, sometimes days.”"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Processing complex financial context at scale",
+        "th": "Processing complex financial context at scale"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using GPT‑6 Astra, Legora’s Agent completed the tie-out across 41 documents in a single run. Legora says the Agent did the work within minutes: checking every balance against its supporting schedule, surfacing breaks in the amounts, and recording each check. The result gives the legal professional a granular record of every line item and figure to review.",
+        "th": "Using GPT‑6 Astra, Legora’s Agent completed the tie-out across 41 documents in a single run. Legora says the Agent did the work within minutes: checking every balance against its supporting schedule, surfacing breaks in the amounts, and recording each check. The result gives the legal professional a granular record of every line item and figure to review."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Agent handles the exhaustive comparison, while the expert remains responsible for the judgment call on each result. That approach of keeping a human in the loop is central to how Legora is extending its platform beyond legal work into audit, tax, compliance, and risk.",
+        "th": "The Agent handles the exhaustive comparison, while the expert remains responsible for the judgment call on each result. That approach of keeping a human in the loop is central to how Legora is extending its platform beyond legal work into audit, tax, compliance, and risk."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Improving accuracy, completeness, and reliability",
+        "th": "Improving accuracy, completeness, and reliability"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Legora evaluated GPT‑6 Astra with the Legora Benchmark for Agentic Reasoning (BAR), which measures performance on end-to-end legal tasks drawn from real-world use cases. Legora reports that GPT‑6 Astra improved performance by nearly 40% over the previous model on this financial-statement workflow. Across all tasks in the BAR, the improvement averaged about 3%.",
+        "th": "Legora evaluated GPT‑6 Astra with the Legora Benchmark for Agentic Reasoning (BAR), which measures performance on end-to-end legal tasks drawn from real-world use cases. Legora reports that GPT‑6 Astra improved performance by nearly 40% over the previous model on this financial-statement workflow. Across all tasks in the BAR, the improvement averaged about 3%."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In the tie-out, Legora saw gains across what Percevale describes as accuracy, completeness, and reliability. GPT‑6 Astra found all four errors Legora had planted in the accounts, including a £500,000 gap hidden in the revenue note. It checked every balance against its supporting schedule and recorded each check. And it retained every check the previous model got right as well as completed around 50 more.",
+        "th": "In the tie-out, Legora saw gains across what Percevale describes as accuracy, completeness, and reliability. GPT‑6 Astra found all four errors Legora had planted in the accounts, including a £500,000 gap hidden in the revenue note. It checked every balance against its supporting schedule and recorded each check. And it retained every check the previous model got right as well as completed around 50 more."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The result is a more complete and faster first pass and a clearer record to review, while the final decision stays with the legal expert.",
+        "th": "The result is a more complete and faster first pass and a clearer record to review, while the final decision stays with the legal expert."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "OpenAI <3 startups",
+        "th": "OpenAI <3 startups"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2GBXEJdShwgtUKQZc9Ojsm/ae87410a653bd421e514515deee02940/playco-art-card-option-b-approved.png?w=3840&q=90&fm=webp",
+      "alt": "Playco Astra customer story art card - Option B"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupSep 3, 2026",
+        "th": "StartupSep 3, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2ZUd2sTOK6p4MrjDZnvCoM/512b38a71cf26f09c3cda3c51169c401/replit-customer-story-art-card-1x1.png?w=3840&q=90&fm=webp",
+      "alt": "replit-customer-story-art-card-1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupAug 19, 2026",
+        "th": "StartupAug 19, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3STNMQMrFRC8mFdLYtjkV4/9cc21e9c729b2ae7cdf75aa3f49b3033/modelml-card.png?w=3840&q=90&fm=webp",
+      "alt": "Model ML customer story card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupAug 10, 2026",
+        "th": "StartupAug 10, 2026"
       }
     }
   ]

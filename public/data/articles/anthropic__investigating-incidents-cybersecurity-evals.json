@@ -11,8 +11,8 @@
     "th": "การตรวจสอบเหตุการณ์ในโลกแห่งความเป็นจริงสามเหตุการณ์ในการประเมินความปลอดภัยทางไซเบอร์ของเรา"
   },
   "summary": {
-    "en": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.  Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to perform similar reviews.",
-    "th": "ในการทบทวนสำเนาผลการประเมินความปลอดภัยทางไซเบอร์ของเรา เราพบเหตุการณ์ 3 เหตุการณ์ที่แบบจำลองของ Claude เข้าถึงอินเทอร์เน็ตจากภายในหรือขณะโต้ตอบกับสภาพแวดล้อมการประเมินของบุคคลที่สาม จากนั้นได้รับการเข้าถึงระบบจริงขององค์กรที่แตกต่างกันสามแห่งโดยไม่ได้รับอนุญาต  ด้านล่างเราจะอธิบายสิ่งที่เกิดขึ้น เกิดขึ้นได้อย่างไร และสิ่งที่เรากำลังเปลี่ยนแปลง เราสนับสนุนให้ห้องปฏิบัติการ AI อื่นๆ ดำเนินการตรวจสอบที่คล้ายกัน"
+    "en": "We found three cases where a Claude model reached the internet from an evaluation environment and accessed real systems. We share what happened and what we're changing.",
+    "th": "We found three cases where a Claude model reached the internet from an evaluation environment and accessed real systems. We share what happened and what we're changing."
   },
   "body": [
     {

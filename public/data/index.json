@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-09-09T14:17:25.899Z",
+  "generatedAt": "2026-09-09T19:00:09.804Z",
   "items": [
+    {
+      "id": "openai__paul-christiano-joins-openai-foundation-board",
+      "slug": "paul-christiano-joins-openai-foundation-board",
+      "source": "openai",
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "category": "Company",
+      "date": "2026-09-09T17:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Paul Christiano joins OpenAI Foundation Board",
+        "th": "Paul Christiano joins OpenAI Foundation Board"
+      },
+      "summary": {
+        "en": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+        "th": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards."
+      }
+    },
+    {
+      "id": "google-ai__football-features-google-search",
+      "slug": "football-features-google-search",
+      "source": "google-ai",
+      "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+      "category": "Search",
+      "date": "2026-09-09T16:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Football_on_Search_blog_header.max-600x600.format-webp.webp",
+      "title": {
+        "en": "Get ready for the game with new football features in Search",
+        "th": "Get ready for the game with new football features in Search"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Football_on_Search_blog_header.max-600x600.format-webp.webp\">Track live game feeds, explore detailed stats, and get custom fantasy recommendations",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Football_on_Search_blog_header.max-600x600.format-webp.webp\">Track live game feeds, explore detailed stats, and get custom fantasy recommendations"
+      }
+    },
+    {
+      "id": "google-ai__love-rendered-film",
+      "slug": "love-rendered-film",
+      "source": "google-ai",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+      "category": "Google DeepMind",
+      "date": "2026-09-09T16:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LOVE_RENDERED_HERO_BLOG_SANS_LO.max-600x600.format-webp.webp",
+      "title": {
+        "en": "Recreating a 70-year love story frame by frame",
+        "th": "Recreating a 70-year love story frame by frame"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LOVE_RENDERED_HERO_BLOG_SANS_LO.max-600x600.format-webp.webp\">Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorde",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LOVE_RENDERED_HERO_BLOG_SANS_LO.max-600x600.format-webp.webp\">Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorde"
+      }
+    },
+    {
+      "id": "huggingface__ibm-releases-sota-granite-time-series",
+      "slug": "ibm-releases-sota-granite-time-series",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "category": "News",
+      "date": "2026-09-09T15:36:24.000Z",
+      "image": null,
+      "title": {
+        "en": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+        "th": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license"
+      },
+      "summary": {
+        "en": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+        "th": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license"
+      }
+    },
     {
       "id": "openai__codex-quantum-computing-experiments",
       "slug": "codex-quantum-computing-experiments",
@@ -424,23 +492,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__b.max-600x600.format-webp.webp\">The Fairwind Program is a limited access program for governments and trusted partner",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__b.max-600x600.format-webp.webp\">The Fairwind Program is a limited access program for governments and trusted partner"
-      }
-    },
-    {
-      "id": "huggingface__real-time-intelligence",
-      "slug": "real-time-intelligence",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
-      "category": "News",
-      "date": "2026-09-02T13:49:14.000Z",
-      "image": null,
-      "title": {
-        "en": "Real-Time Intelligence with IBM Time Series Models on Confluent",
-        "th": "Real-Time Intelligence with IBM Time Series Models on Confluent"
-      },
-      "summary": {
-        "en": "Real-Time Intelligence with IBM Time Series Models on Confluent",
-        "th": "Real-Time Intelligence with IBM Time Series Models on Confluent"
       }
     },
     {
@@ -1277,23 +1328,6 @@
       }
     },
     {
-      "id": "openai__replit",
-      "slug": "replit",
-      "source": "openai",
-      "url": "https://openai.com/index/replit",
-      "category": "Startup",
-      "date": "2026-08-19T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Replit expands access to software creation with GPT-5.6 Luna",
-        "th": "Replit ขยายการเข้าถึงการสร้างซอฟต์แวร์ด้วย GPT-5.6 Luna"
-      },
-      "summary": {
-        "en": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
-        "th": "Replit ขอแนะนำโหมดฟรี ซึ่งขับเคลื่อนโดย GPT-5.6 Luna ดังนั้นใครๆ ก็สามารถเปลี่ยนแนวคิดต่างๆ ให้เป็นซอฟต์แวร์ที่ใช้งานได้โดยไม่ต้องกังวลเกี่ยวกับต้นทุนโทเค็น"
-      }
-    },
-    {
       "id": "huggingface__altk-evolve-hmm",
       "slug": "altk-evolve-hmm",
       "source": "huggingface",
@@ -1374,8 +1408,8 @@
         "th": "ลายน้ำข้อความของ Claude ทำงานอย่างไร"
       },
       "summary": {
-        "en": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.  In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.",
-        "th": "โมเดล Claude ในอนาคตจะสร้างข้อความที่มีลายน้ำ นี่เป็นวิธีการระบุแนวโน้มที่ Claude มีส่วนร่วมในการเขียนข้อความ และเราพร้อมด้วยผู้ให้บริการ AI รายใหญ่หลายรายกำลังดำเนินการเปลี่ยนแปลงนี้เพื่อให้สอดคล้องกับพระราชบัญญัติ AI ของสหภาพยุโรป  ในบทความนี้ เราจะแบ่งปันคำตอบสำหรับคำถามบางข้อที่เราได้รับเกี่ยวกับวิธีการทำงานของวิธีการใส่ลายน้ำที่เราเลือก ไม่ว่าจะส่งผลต่อผลลัพธ์ของ Claude หรือไม่ และเหตุใดเราจึงทำการเปลี่ยนแปลงนี้"
+        "en": "Future Claude models will generate text that contains a watermark to comply with the EU AI Act. We answer questions about how it works and whether it affects outputs.",
+        "th": "Future Claude models will generate text that contains a watermark to comply with the EU AI Act. We answer questions about how it works and whether it affects outputs."
       }
     },
     {
@@ -1680,8 +1714,8 @@
         "th": "Mariano-Florentino (Tino) Cuéllar เข้าร่วม Anthropic ในตำแหน่ง Chief Global Affairs Officer"
       },
       "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+        "en": "Former California Supreme Court Justice Tino Cuéllar joins Anthropic to lead policy, international engagement, and government relations worldwide.",
+        "th": "Former California Supreme Court Justice Tino Cuéllar joins Anthropic to lead policy, international engagement, and government relations worldwide."
       }
     },
     {
@@ -1748,8 +1782,8 @@
         "th": "การตรวจสอบเหตุการณ์ในโลกแห่งความเป็นจริงสามเหตุการณ์ในการประเมินความปลอดภัยทางไซเบอร์ของเรา"
       },
       "summary": {
-        "en": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.  Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to perform similar reviews.",
-        "th": "ในการทบทวนสำเนาผลการประเมินความปลอดภัยทางไซเบอร์ของเรา เราพบเหตุการณ์ 3 เหตุการณ์ที่แบบจำลองของ Claude เข้าถึงอินเทอร์เน็ตจากภายในหรือขณะโต้ตอบกับสภาพแวดล้อมการประเมินของบุคคลที่สาม จากนั้นได้รับการเข้าถึงระบบจริงขององค์กรที่แตกต่างกันสามแห่งโดยไม่ได้รับอนุญาต  ด้านล่างเราจะอธิบายสิ่งที่เกิดขึ้น เกิดขึ้นได้อย่างไร และสิ่งที่เรากำลังเปลี่ยนแปลง เราสนับสนุนให้ห้องปฏิบัติการ AI อื่นๆ ดำเนินการตรวจสอบที่คล้ายกัน"
+        "en": "We found three cases where a Claude model reached the internet from an evaluation environment and accessed real systems. We share what happened and what we're changing.",
+        "th": "We found three cases where a Claude model reached the internet from an evaluation environment and accessed real systems. We share what happened and what we're changing."
       }
     },
     {
@@ -1804,23 +1838,6 @@
       }
     },
     {
-      "id": "google-ai__dinner-party-hosting-tips",
-      "slug": "dinner-party-hosting-tips",
-      "source": "google-ai",
-      "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
-      "category": "Search",
-      "date": "2026-07-28T13:00:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dinner_parties.max-600x600.format-webp.webp",
-      "title": {
-        "en": "5 ways to host the ultimate dinner party with Google Search",
-        "th": "5 วิธีจัดงานเลี้ยงอาหารค่ำขั้นสุดยอดด้วย Google Search"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dinner_parties.max-600x600.format-webp.webp\">These AI features can help you craft a menu, design a tablescape, and handle other party-planning tas",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dinner_parties.max-600x600.format-webp.webp\">ฟีเจอร์ AI เหล่านี้สามารถช่วยคุณสร้างสรรค์เมนู ออกแบบภูมิทัศน์ตาราง และจัดการงานการวางแผนปาร์ตี้อื่นๆ"
-      }
-    },
-    {
       "id": "google-ai__ai-mode-real-world-tips",
       "slug": "ai-mode-real-world-tips",
       "source": "google-ai",
@@ -1835,6 +1852,23 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp\">It might sound counterintuitive, but Search's AI tools can actually help you make the most of you",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp\">อาจฟังดูขัดกับสัญชาตญาณ แต่เครื่องมือ AI ของ Search สามารถช่วยให้คุณได้รับประโยชน์สูงสุดจากคุณได้จริง"
+      }
+    },
+    {
+      "id": "google-ai__dinner-party-hosting-tips",
+      "slug": "dinner-party-hosting-tips",
+      "source": "google-ai",
+      "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
+      "category": "Search",
+      "date": "2026-07-28T13:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dinner_parties.max-600x600.format-webp.webp",
+      "title": {
+        "en": "5 ways to host the ultimate dinner party with Google Search",
+        "th": "5 วิธีจัดงานเลี้ยงอาหารค่ำขั้นสุดยอดด้วย Google Search"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dinner_parties.max-600x600.format-webp.webp\">These AI features can help you craft a menu, design a tablescape, and handle other party-planning tas",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dinner_parties.max-600x600.format-webp.webp\">ฟีเจอร์ AI เหล่านี้สามารถช่วยคุณสร้างสรรค์เมนู ออกแบบภูมิทัศน์ตาราง และจัดการงานการวางแผนปาร์ตี้อื่นๆ"
       }
     },
     {
@@ -2144,23 +2178,6 @@
       }
     },
     {
-      "id": "google-ai__google-images-25th-anniversary",
-      "slug": "google-images-25th-anniversary",
-      "source": "google-ai",
-      "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
-      "category": "Search",
-      "date": "2026-07-14T16:00:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp",
-      "title": {
-        "en": "Celebrating 25 years of visual search innovation",
-        "th": "เฉลิมฉลอง 25 ปีของนวัตกรรมการค้นหาด้วยภาพ"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp\">Google Images is turning 25. Here’s a look back at some major milestones — and new ways to e",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp\">Google Images กำลังจะครบรอบ 25 ปี ต่อไปนี้คือภาพย้อนกลับไปที่เหตุการณ์สำคัญบางส่วน — และวิธีการใหม่ๆ ในการ"
-      }
-    },
-    {
       "id": "deepmind__empowering-indias-next-generation-of-innovators-with-atl-saathi",
       "slug": "empowering-indias-next-generation-of-innovators-with-atl-saathi",
       "source": "deepmind",
@@ -2209,23 +2226,6 @@
       "summary": {
         "en": "Native-speed vLLM transformers modeling backend",
         "th": "แบ็กเอนด์การสร้างแบบจำลองหม้อแปลง vLLM ความเร็วดั้งเดิม"
-      }
-    },
-    {
-      "id": "google-ai__expanding-managed-agents-gemini-api",
-      "slug": "expanding-managed-agents-gemini-api",
-      "source": "google-ai",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "category": "Developer tools",
-      "date": "2026-07-07T08:54:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp",
-      "title": {
-        "en": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
-        "th": "การขยาย Managed Agent ใน Gemini API: งานเบื้องหลัง, MCP ระยะไกล และอื่นๆ"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\">We’re announcing new capabilities in Managed Agents in Gemini API so developers can ",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\">เรากำลังประกาศความสามารถใหม่ใน Managed Agents ใน Gemini API เพื่อให้นักพัฒนาสามารถ"
       }
     },
     {

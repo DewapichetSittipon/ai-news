@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-09-10T02:23:51.322Z",
+  "generatedAt": "2026-09-10T14:00:03.412Z",
   "items": [
+    {
+      "id": "huggingface__gradio-workflow-1111",
+      "slug": "gradio-workflow-1111",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/gradio-workflow-1111",
+      "category": "News",
+      "date": "2026-09-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+        "th": "Rebuilding AUTOMATIC1111 with Gradio Workflow"
+      },
+      "summary": {
+        "en": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+        "th": "Rebuilding AUTOMATIC1111 with Gradio Workflow"
+      }
+    },
     {
       "id": "openai__paul-christiano-joins-openai-foundation-board",
       "slug": "paul-christiano-joins-openai-foundation-board",
@@ -2209,23 +2226,6 @@
       "summary": {
         "en": "Profiling in PyTorch (Part 3): Attention is all you profile",
         "th": "การทำโปรไฟล์ใน PyTorch (ตอนที่ 3): ความสนใจคือสิ่งที่คุณทำ"
-      }
-    },
-    {
-      "id": "huggingface__native-speed-vllm-transformers-backend",
-      "slug": "native-speed-vllm-transformers-backend",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-      "category": "News",
-      "date": "2026-07-08T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Native-speed vLLM transformers modeling backend",
-        "th": "แบ็กเอนด์การสร้างแบบจำลองหม้อแปลง vLLM ความเร็วดั้งเดิม"
-      },
-      "summary": {
-        "en": "Native-speed vLLM transformers modeling backend",
-        "th": "แบ็กเอนด์การสร้างแบบจำลองหม้อแปลง vLLM ความเร็วดั้งเดิม"
       }
     },
     {

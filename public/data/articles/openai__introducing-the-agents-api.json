@@ -88,8 +88,8 @@
     {
       "type": "li",
       "text": {
-        "en": "Build on an open-source foundation",
-        "th": "Build on an open-source foundation"
+        "en": "An open-source foundation",
+        "th": "An open-source foundation"
       }
     },
     {
@@ -158,8 +158,8 @@
     {
       "type": "li",
       "text": {
-        "en": "Build on an open-source foundation",
-        "th": "Build on an open-source foundation"
+        "en": "An open-source foundation",
+        "th": "An open-source foundation"
       }
     },
     {
@@ -184,6 +184,20 @@
       }
     },
     {
+      "type": "h2",
+      "text": {
+        "en": "Build cloud agents with a single API call",
+        "th": "Build cloud agents with a single API call"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With the Agents API, you can create a production-ready agent in a single API call by specifying the task, model, tools, and environment:",
+        "th": "With the Agents API, you can create a production-ready agent in a single API call by specifying the task, model, tools, and environment:"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "OpenAI hosts and maintains the harness. You choose the agent’s compute environment: in an OpenAI-managed sandbox, on your own infrastructure, or with one of our sandbox partners. The Agents API gives you a strong foundation for building agents on top of our optimized agent harness and infrastructure, so you can focus on the tools, knowledge, and workflows that make your agent unique.",
@@ -205,22 +219,15 @@
     {
       "type": "h2",
       "text": {
-        "en": "Build cloud agents with a single API call",
-        "th": "Build cloud agents with a single API call"
-      }
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "With the Agents API, you can create a production-ready agent in a single API call by specifying the task, model, tools, and environment:",
-        "th": "With the Agents API, you can create a production-ready agent in a single API call by specifying the task, model, tools, and environment:"
-      }
-    },
-    {
-      "type": "h2",
-      "text": {
         "en": "What our customers are saying about Agents API",
         "th": "What our customers are saying about Agents API"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Ciridae",
+        "th": "Ciridae"
       }
     },
     {
@@ -406,8 +413,8 @@
     {
       "type": "h2",
       "text": {
-        "en": "Build on an open-source foundation",
-        "th": "Build on an open-source foundation"
+        "en": "An open-source foundation",
+        "th": "An open-source foundation"
       }
     },
     {

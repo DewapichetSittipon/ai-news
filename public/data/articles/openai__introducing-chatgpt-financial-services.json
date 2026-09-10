@@ -198,66 +198,6 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/1UH8olCAwzTlgF6K1yCEf/0c5029d3c44cfab8e7e3729c3f7d9ead/value-analysis.png?w=3840&q=90&fm=webp",
-      "alt": "Product screen showing a value analysis workflow in ChatGPT for Financial Services."
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "Value analysis",
-        "th": "Value analysis"
-      }
-    },
-    {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/66wBsc9s6nDCmsbJ6Zltqn/89021eb0bf3a474affc6a9a5f7a80d49/lob-modelling.png?w=3840&q=90&fm=webp",
-      "alt": "Product screen showing leveraged buyout modelling in ChatGPT for Financial Services."
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "LBO Modelling",
-        "th": "LBO Modelling"
-      }
-    },
-    {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/5T5OWR4h0IJ6mDAkrtSKP8/c1ddf39247b4e33ee9e146b2ca732777/buyer-screening.png?w=3840&q=90&fm=webp",
-      "alt": "Product screen showing buyer screening in ChatGPT for Financial Services."
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "Buyer screening",
-        "th": "Buyer screening"
-      }
-    },
-    {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/4ljojm8iz6dJxJlbRQwmdj/4898e24669bdb914d4df8fc11019a0e3/earnings-analysis.png?w=3840&q=90&fm=webp",
-      "alt": "Product screen showing earnings analysis in ChatGPT for Financial Services."
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "Earnings analysis",
-        "th": "Earnings analysis"
-      }
-    },
-    {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/6HQc0dDsBjXPZfiGe2QDfR/1b5661b26f587f4e31a76fb2d0316687/pitchbook-preparation.png?w=3840&q=90&fm=webp",
-      "alt": "Product screen showing pitchbook preparation in ChatGPT for Financial Services."
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "Pitchbook preparation",
-        "th": "Pitchbook preparation"
-      }
-    },
-    {
       "type": "h2",
       "text": {
         "en": "Frontier research, shaped by financial expertise",
@@ -497,8 +437,8 @@
     {
       "type": "p",
       "text": {
-        "en": "It can be challenging to effectively use MCP connectors for data providers. We have focused on making some of the most used MCPs in financial services like S&P Global and FactSet optimized for immediate use in the product, so teams can spend less time troubleshooting requests and more time on analysis.",
-        "th": "It can be challenging to effectively use MCP connectors for data providers. We have focused on making some of the most used MCPs in financial services like S&P Global and FactSet optimized for immediate use in the product, so teams can spend less time troubleshooting requests and more time on analysis."
+        "en": "It can be challenging to effectively use MCP connectors for data providers. We have focused on making some of the most used MCPs in financial services optimized for immediate use in the product, so teams can spend less time troubleshooting requests and more time on analysis.",
+        "th": "It can be challenging to effectively use MCP connectors for data providers. We have focused on making some of the most used MCPs in financial services optimized for immediate use in the product, so teams can spend less time troubleshooting requests and more time on analysis."
       }
     },
     {
@@ -506,13 +446,6 @@
       "text": {
         "en": "Our broader connector ecosystem includes over 50+ connectors including Datasite, Box, Preqin, and Intapp.",
         "th": "Our broader connector ecosystem includes over 50+ connectors including Datasite, Box, Preqin, and Intapp."
-      }
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "We optimized the connector reliability for popular MCP connectors through the process of automated evaluation and iteration.",
-        "th": "We optimized the connector reliability for popular MCP connectors through the process of automated evaluation and iteration."
       }
     },
     {

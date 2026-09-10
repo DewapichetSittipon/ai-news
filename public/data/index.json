@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T17:33:45.672Z",
+  "generatedAt": "2026-09-10T20:18:10.857Z",
   "items": [
     {
       "id": "openai__using-codex-chatgpt-to-search-for-new-antimicrobials",
@@ -53,6 +53,23 @@
       }
     },
     {
+      "id": "openai__introducing-chatgpt-financial-services",
+      "slug": "introducing-chatgpt-financial-services",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "category": "Product",
+      "date": "2026-09-10T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing ChatGPT for Financial Services",
+        "th": "Introducing ChatGPT for Financial Services"
+      },
+      "summary": {
+        "en": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+        "th": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials."
+      }
+    },
+    {
       "id": "openai__expanding-ai-access-us-government",
       "slug": "expanding-ai-access-us-government",
       "source": "openai",
@@ -84,6 +101,23 @@
       "summary": {
         "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
         "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
+      }
+    },
+    {
+      "id": "openai__introducing-the-agents-api",
+      "slug": "introducing-the-agents-api",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "category": "Product",
+      "date": "2026-09-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing the Agents API",
+        "th": "Introducing the Agents API"
+      },
+      "summary": {
+        "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+        "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
       }
     },
     {
@@ -1206,40 +1240,6 @@
       "summary": {
         "en": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
         "th": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original"
-      }
-    },
-    {
-      "id": "openai__the-full-stack-behind-abundant-intelligence",
-      "slug": "the-full-stack-behind-abundant-intelligence",
-      "source": "openai",
-      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "category": "Company",
-      "date": "2026-08-25T07:05:00.000Z",
-      "image": null,
-      "title": {
-        "en": "The full stack behind abundant intelligence",
-        "th": "The full stack behind abundant intelligence"
-      },
-      "summary": {
-        "en": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-        "th": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost."
-      }
-    },
-    {
-      "id": "openai__jalapeno-first-results",
-      "slug": "jalapeno-first-results",
-      "source": "openai",
-      "url": "https://openai.com/index/jalapeno-first-results",
-      "category": "Engineering",
-      "date": "2026-08-25T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-        "th": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference"
-      },
-      "summary": {
-        "en": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-        "th": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models."
       }
     },
     {

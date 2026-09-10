@@ -1,0 +1,520 @@
+{
+  "id": "openai__introducing-the-agents-api",
+  "slug": "introducing-the-agents-api",
+  "source": "openai",
+  "url": "https://openai.com/index/introducing-the-agents-api",
+  "category": "Product",
+  "date": "2026-09-10T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Introducing the Agents API",
+    "th": "Introducing the Agents API"
+  },
+  "summary": {
+    "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+    "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "September 10, 2026",
+        "th": "September 10, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Build and run cloud agents with the Codex harness, fully managed by OpenAI.",
+        "th": "Build and run cloud agents with the Codex harness, fully managed by OpenAI."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Build cloud agents with a single API call",
+        "th": "Build cloud agents with a single API call"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What our customers are saying about Agents API",
+        "th": "What our customers are saying about Agents API"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Choose your agent environment",
+        "th": "Choose your agent environment"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "OpenAI hosted sandboxes",
+        "th": "OpenAI hosted sandboxes"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Build with an evolving Codex harnessKeep agents working across long sessionsHelp agents efficiently use more toolsLet agents parallelize work with subagents",
+        "th": "Build with an evolving Codex harnessKeep agents working across long sessionsHelp agents efficiently use more toolsLet agents parallelize work with subagents"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Keep agents working across long sessions",
+        "th": "Keep agents working across long sessions"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Help agents efficiently use more tools",
+        "th": "Help agents efficiently use more tools"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Let agents parallelize work with subagents",
+        "th": "Let agents parallelize work with subagents"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Build on an open-source foundation",
+        "th": "Build on an open-source foundation"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Start building",
+        "th": "Start building"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Build cloud agents with a single API call",
+        "th": "Build cloud agents with a single API call"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What our customers are saying about Agents API",
+        "th": "What our customers are saying about Agents API"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Choose your agent environment",
+        "th": "Choose your agent environment"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "OpenAI hosted sandboxes",
+        "th": "OpenAI hosted sandboxes"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Build with an evolving Codex harnessKeep agents working across long sessionsHelp agents efficiently use more toolsLet agents parallelize work with subagents",
+        "th": "Build with an evolving Codex harnessKeep agents working across long sessionsHelp agents efficiently use more toolsLet agents parallelize work with subagents"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Keep agents working across long sessions",
+        "th": "Keep agents working across long sessions"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Help agents efficiently use more tools",
+        "th": "Help agents efficiently use more tools"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Let agents parallelize work with subagents",
+        "th": "Let agents parallelize work with subagents"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Build on an open-source foundation",
+        "th": "Build on an open-source foundation"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Start building",
+        "th": "Start building"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As we’ve scaled Codex and ChatGPT for Work to millions of people around the world, we’ve learned what it takes to make long-running agents work well in practice. Useful agents need a powerful harness that manages context, uses tools efficiently, and coordinates subagents. They also need infrastructure that keeps them running reliably for days, with environments where they can work with files, run code, and save intermediate results.",
+        "th": "As we’ve scaled Codex and ChatGPT for Work to millions of people around the world, we’ve learned what it takes to make long-running agents work well in practice. Useful agents need a powerful harness that manages context, uses tools efficiently, and coordinates subagents. They also need infrastructure that keeps them running reliably for days, with environments where they can work with files, run code, and save intermediate results."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re introducing the Agents API⁠(opens in a new window) in public beta, bringing that same harness and infrastructure that powers Codex to developers through a simple, flexible API.",
+        "th": "Today, we’re introducing the Agents API⁠(opens in a new window) in public beta, bringing that same harness and infrastructure that powers Codex to developers through a simple, flexible API."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI hosts and maintains the harness. You choose the agent’s compute environment: in an OpenAI-managed sandbox, on your own infrastructure, or with one of our sandbox partners. The Agents API gives you a strong foundation for building agents on top of our optimized agent harness and infrastructure, so you can focus on the tools, knowledge, and workflows that make your agent unique.",
+        "th": "OpenAI hosts and maintains the harness. You choose the agent’s compute environment: in an OpenAI-managed sandbox, on your own infrastructure, or with one of our sandbox partners. The Agents API gives you a strong foundation for building agents on top of our optimized agent harness and infrastructure, so you can focus on the tools, knowledge, and workflows that make your agent unique."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7oiK2YZ2Dx7hujorDOOj6R/47ba63c3fc77253118db0dbba04e19e4/agents-api_16x9_light_1.png?w=3840&q=90&fm=webp",
+      "alt": "An application sends tasks to the Agents API and receives events and output. The Agents API runs the managed Codex harness, sending tool calls to a sandbox and receiving tool results. The application controls self-hosted compute."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Agents API powers your agents with the same harness and infrastructure behind Codex.",
+        "th": "Agents API powers your agents with the same harness and infrastructure behind Codex."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Build cloud agents with a single API call",
+        "th": "Build cloud agents with a single API call"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With the Agents API, you can create a production-ready agent in a single API call by specifying the task, model, tools, and environment:",
+        "th": "With the Agents API, you can create a production-ready agent in a single API call by specifying the task, model, tools, and environment:"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What our customers are saying about Agents API",
+        "th": "What our customers are saying about Agents API"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Long Lake",
+        "th": "Long Lake"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "WithCoverage",
+        "th": "WithCoverage"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "SafetyKit",
+        "th": "SafetyKit"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Dwelly",
+        "th": "Dwelly"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Hypha",
+        "th": "Hypha"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "deepsense.ai",
+        "th": "deepsense.ai"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Nash.ai",
+        "th": "Nash.ai"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Choose your agent environment",
+        "th": "Choose your agent environment"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Different workloads need different compute, storage, and deployment options. The Agents API lets you choose a sandbox that fits your application.",
+        "th": "Different workloads need different compute, storage, and deployment options. The Agents API lets you choose a sandbox that fits your application."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re partnering with ecosystem providers⁠(opens in a new window), including Blaxel, Cloudflare, Daytona, DigitalOcean, E2B, Modal, Oracle, Runloop, and Vercel, to provide first-class integrations for a range of needs:",
+        "th": "We’re partnering with ecosystem providers⁠(opens in a new window), including Blaxel, Cloudflare, Daytona, DigitalOcean, E2B, Modal, Oracle, Runloop, and Vercel, to provide first-class integrations for a range of needs:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Fully managed environments or deployments within your VPC",
+        "th": "Fully managed environments or deployments within your VPC"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Specific file and secret storage mechanisms",
+        "th": "Specific file and secret storage mechanisms"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Different CPU, GPU, and memory configurations, with performance, cold-start, and cost profiles to match your company’s workflow.",
+        "th": "Different CPU, GPU, and memory configurations, with performance, cold-start, and cost profiles to match your company’s workflow."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7C7hj4p2tMhGIzv52HcvNR/f8f03bc716d9ad680b96dce7bfa66ab2/partners-light.png?w=3840&q=90&fm=webp",
+      "alt": "Sandbox partners: Modal, Cloudflare, Daytona, Blaxel, Runloop, Vercel, Oracle, E2B, and DigitalOcean."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Agents API offers first-class integrations with popular ecosystem providers.",
+        "th": "The Agents API offers first-class integrations with popular ecosystem providers."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "OpenAI hosted sandboxes",
+        "th": "OpenAI hosted sandboxes"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For developers who want to get started quickly and scale efficiently, we’re also introducing the OpenAI hosted sandbox⁠(opens in a new window). This leverages the same sandboxing infrastructure that powers Codex and ChatGPT.",
+        "th": "For developers who want to get started quickly and scale efficiently, we’re also introducing the OpenAI hosted sandbox⁠(opens in a new window). This leverages the same sandboxing infrastructure that powers Codex and ChatGPT."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI provisions and manages the sandbox, giving your agent a secure and performant environment to run code, work with files, and produce artifacts. These sandboxes can be flexibly configured with your files, packages, skills and plugins to give the agent what it needs to complete the task.",
+        "th": "OpenAI provisions and manages the sandbox, giving your agent a secure and performant environment to run code, work with files, and produce artifacts. These sandboxes can be flexibly configured with your files, packages, skills and plugins to give the agent what it needs to complete the task."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Build with an evolving Codex harness",
+        "th": "Build with an evolving Codex harness"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Taking advantage of new model capabilities often means reworking your harness, taking valuable time away from improving your application. The Agents API provides versioned access to these capabilities with each model launch. We maintain and continuously improve the harness alongside our models, helping your agents get better performance from every upgrade. For example, recent improvements to the harness include:",
+        "th": "Taking advantage of new model capabilities often means reworking your harness, taking valuable time away from improving your application. The Agents API provides versioned access to these capabilities with each model launch. We maintain and continuously improve the harness alongside our models, helping your agents get better performance from every upgrade. For example, recent improvements to the harness include:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Keep agents working across long sessions",
+        "th": "Keep agents working across long sessions"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To support models working for hours, we’ve built context management that helps agents carry relevant information across longer sessions. The Agents API automatically compacts⁠(opens in a new window) earlier context as a session approaches its context limit, preserving information the agent needs to continue. Developers can build workflows that span multiple context windows without implementing their own compaction logic.",
+        "th": "To support models working for hours, we’ve built context management that helps agents carry relevant information across longer sessions. The Agents API automatically compacts⁠(opens in a new window) earlier context as a session approaches its context limit, preserving information the agent needs to continue. Developers can build workflows that span multiple context windows without implementing their own compaction logic."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Help agents efficiently use more tools",
+        "th": "Help agents efficiently use more tools"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Agents API helps agents find the right tools and use them efficiently. Tool search⁠(opens in a new window) loads relevant tool definitions as needed, helping reduce token usage and cost while preserving the model’s cache. Once tools are available, programmatic tool calling⁠(opens in a new window) lets agents run calls in parallel, chain related operations, and filter or combine results in code so they can work through large volumes of data while bringing only the relevant results back into context. The Agents API supports MCP, custom functions, and built-in tools like web search.",
+        "th": "The Agents API helps agents find the right tools and use them efficiently. Tool search⁠(opens in a new window) loads relevant tool definitions as needed, helping reduce token usage and cost while preserving the model’s cache. Once tools are available, programmatic tool calling⁠(opens in a new window) lets agents run calls in parallel, chain related operations, and filter or combine results in code so they can work through large volumes of data while bringing only the relevant results back into context. The Agents API supports MCP, custom functions, and built-in tools like web search."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Let agents parallelize work with subagents",
+        "th": "Let agents parallelize work with subagents"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With multi-agent support⁠(opens in a new window), the Agents API can break complex tasks into independent pieces and delegate them to subagents that work in parallel. Each subagent maintains its own context, helping it stay focused on its assignment, while the main agent coordinates their work and brings the results together. This can speed up research, analysis, and coding tasks that benefit from parallel work, without requiring you to build your own orchestration.",
+        "th": "With multi-agent support⁠(opens in a new window), the Agents API can break complex tasks into independent pieces and delegate them to subagents that work in parallel. Each subagent maintains its own context, helping it stay focused on its assignment, while the main agent coordinates their work and brings the results together. This can speed up research, analysis, and coding tasks that benefit from parallel work, without requiring you to build your own orchestration."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Build on an open-source foundation",
+        "th": "Build on an open-source foundation"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Agents API is powered by the open-source Codex harness, giving developers visibility into the core logic that coordinates model calls, tools, and context. With the Agents API, OpenAI operates and maintains that harness while developers can inspect and learn from its public codebase⁠(opens in a new window).",
+        "th": "The Agents API is powered by the open-source Codex harness, giving developers visibility into the core logic that coordinates model calls, tools, and context. With the Agents API, OpenAI operates and maintains that harness while developers can inspect and learn from its public codebase⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Start building",
+        "th": "Start building"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Agents API is available in public beta today to all developers. There are no additional fees for using the Agents API – you simply pay for the tokens and tools your agents use, as outlined on our pricing page⁠(opens in a new window).",
+        "th": "Agents API is available in public beta today to all developers. There are no additional fees for using the Agents API – you simply pay for the tokens and tools your agents use, as outlined on our pricing page⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Explore the Agents API overview⁠(opens in a new window) to learn more, or follow the quickstart⁠(opens in a new window) to get started and bring the harness behind Codex into your own agents.",
+        "th": "Explore the Agents API overview⁠(opens in a new window) to learn more, or follow the quickstart⁠(opens in a new window) to get started and bring the harness behind Codex into your own agents."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "During the public beta, we’ll iterate quickly based on your feedback as we work toward general availability. Let us know what’s working, where you’re running into friction, and what you need to build and run your agents in production.",
+        "th": "During the public beta, we’ll iterate quickly based on your feedback as we work toward general availability. Let us know what’s working, where you’re running into friction, and what you need to build and run your agents in production."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "API",
+        "th": "API"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Codex",
+        "th": "Codex"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6FhMXOSe8XadGwEUev6QjJ/916a64d20bcc59b8619fea1827fa6bd3/put-data-to-work--cover-v001.png?w=3840&q=90&fm=webp",
+      "alt": "Now everyone can put data to work — card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductSep 10, 2026",
+        "th": "ProductSep 10, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6Bcg403pebiJhQdHUS17FK/572e478dc4579deca27c9700c662e908/finserv-art-card.png?w=3840&q=90&fm=webp",
+      "alt": "FinServ Blog - Art Card Texture Square"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductSep 10, 2026",
+        "th": "ProductSep 10, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1uBabEULLfw3Vb2Gldmyyq/c19c1c121ca403ee8b2703cba18ef82d/introducing-gpt-live-1-green-cover.png?w=3840&q=90&fm=webp",
+      "alt": "GPT-Live-1 API | Green-blue cover | Option 038"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductSep 10, 2026",
+        "th": "ProductSep 10, 2026"
+      }
+    }
+  ]
+}

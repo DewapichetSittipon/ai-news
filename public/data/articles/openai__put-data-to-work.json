@@ -1,0 +1,629 @@
+{
+  "id": "openai__put-data-to-work",
+  "slug": "put-data-to-work",
+  "source": "openai",
+  "url": "https://openai.com/index/put-data-to-work",
+  "category": "Product",
+  "date": "2026-09-10T15:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Now everyone can put data to work",
+    "th": "Now everyone can put data to work"
+  },
+  "summary": {
+    "en": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+    "th": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "September 10, 2026",
+        "th": "September 10, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Meet the new Data agent in ChatGPT Work: turn your company’s data into answers, interactive dashboards, and action, just by asking.",
+        "th": "Meet the new Data agent in ChatGPT Work: turn your company’s data into answers, interactive dashboards, and action, just by asking."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Connect to the company data and context your business trusts",
+        "th": "Connect to the company data and context your business trusts"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Turn questions into analysis and action",
+        "th": "Turn questions into analysis and action"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Built from the tools we use to analyze data at OpenAI",
+        "th": "Built from the tools we use to analyze data at OpenAI"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Get started with the Data agent",
+        "th": "Get started with the Data agent"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Try these prompts",
+        "th": "Try these prompts"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Connect to the company data and context your business trusts",
+        "th": "Connect to the company data and context your business trusts"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Turn questions into analysis and action",
+        "th": "Turn questions into analysis and action"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Built from the tools we use to analyze data at OpenAI",
+        "th": "Built from the tools we use to analyze data at OpenAI"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Get started with the Data agent",
+        "th": "Get started with the Data agent"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Try these prompts",
+        "th": "Try these prompts"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "People across every business have questions that data can answer. Why did sales slow down? Where is spending rising? Which issues threaten renewals in our largest accounts, and what should we fix first? Getting those answers often means waiting for a report or asking someone else to run the analysis.",
+        "th": "People across every business have questions that data can answer. Why did sales slow down? Where is spending rising? Which issues threaten renewals in our largest accounts, and what should we fix first? Getting those answers often means waiting for a report or asking someone else to run the analysis."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re introducing a new Data agent in ChatGPT Work⁠(opens in a new window) to help more people answer those questions themselves. It connects to your company data, investigates what changed, and builds interactive dashboards you can share. Direct and refine the analysis in one conversation, without writing queries or learning a new analytics tool.",
+        "th": "We’re introducing a new Data agent in ChatGPT Work⁠(opens in a new window) to help more people answer those questions themselves. It connects to your company data, investigates what changed, and builds interactive dashboards you can share. Direct and refine the analysis in one conversation, without writing queries or learning a new analytics tool."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Connect to the company data and context your business trusts",
+        "th": "Connect to the company data and context your business trusts"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Data agent connects to approved data sources including Amazon Redshift, Datadog, Google BigQuery, ClickHouse, Databricks, MongoDB, Snowflake, and more. It can also bring files and documents from Google Drive and SharePoint into the analysis.",
+        "th": "The Data agent connects to approved data sources including Amazon Redshift, Datadog, Google BigQuery, ClickHouse, Databricks, MongoDB, Snowflake, and more. It can also bring files and documents from Google Drive and SharePoint into the analysis."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It uses your organization’s business terms, metric definitions, custom calculations, and data relationships to interpret the data. This context comes from semantic layers and trusted sources such as Databricks Genie Ontology, dbt, GitHub, Snowflake Horizon, and BI dashboards.",
+        "th": "It uses your organization’s business terms, metric definitions, custom calculations, and data relationships to interpret the data. This context comes from semantic layers and trusted sources such as Databricks Genie Ontology, dbt, GitHub, Snowflake Horizon, and BI dashboards."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Platform partners",
+        "th": "Platform partners"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "AWS",
+        "th": "AWS"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ClickHouse",
+        "th": "ClickHouse"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Databricks",
+        "th": "Databricks"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Snowflake",
+        "th": "Snowflake"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "MongoDB",
+        "th": "MongoDB"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "G2",
+        "th": "G2"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "AWS",
+        "th": "AWS"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ClickHouse",
+        "th": "ClickHouse"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Databricks",
+        "th": "Databricks"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Snowflake",
+        "th": "Snowflake"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "MongoDB",
+        "th": "MongoDB"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "G2",
+        "th": "G2"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Enterprise administrators choose which data connections are available and which roles can use them. Queries enforce the connected account’s existing permissions, including table, row, and column restrictions.",
+        "th": "Enterprise administrators choose which data connections are available and which roles can use them. Queries enforce the connected account’s existing permissions, including table, row, and column restrictions."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Turn questions into analysis and action",
+        "th": "Turn questions into analysis and action"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Ask follow-up questions to investigate the results and review the evidence behind each finding.",
+        "th": "Ask follow-up questions to investigate the results and review the evidence behind each finding."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Turn the analysis into an interactive dashboard with built-in visualizations. Your team can edit, share, and refresh it as needed. Share your brand guidelines to tailor outputs to your organization’s look and feel.",
+        "th": "Turn the analysis into an interactive dashboard with built-in visualizations. Your team can edit, share, and refresh it as needed. Share your brand guidelines to tailor outputs to your organization’s look and feel."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Data agent can also build and interact with dashboards in Omni, Oracle BI, Power BI, Sigma, Tableau, and ThoughtSpot. Direct the work in plain language in the tools your team already uses.",
+        "th": "The Data agent can also build and interact with dashboards in Omni, Oracle BI, Power BI, Sigma, Tableau, and ThoughtSpot. Direct the work in plain language in the tools your team already uses."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "BI tools",
+        "th": "BI tools"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Tableau",
+        "th": "Tableau"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Microsoft Power BI",
+        "th": "Microsoft Power BI"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Sigma",
+        "th": "Sigma"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ThoughtSpot",
+        "th": "ThoughtSpot"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Tableau",
+        "th": "Tableau"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Microsoft Power BI",
+        "th": "Microsoft Power BI"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Sigma",
+        "th": "Sigma"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ThoughtSpot",
+        "th": "ThoughtSpot"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Ask ChatGPT Work to recommend next steps and identify who needs to be involved. It can share the findings through Slack or email and carry out the actions you approve through connected tools.",
+        "th": "Ask ChatGPT Work to recommend next steps and identify who needs to be involved. It can share the findings through Slack or email and carry out the actions you approve through connected tools."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Built from the tools we use to analyze data at OpenAI",
+        "th": "Built from the tools we use to analyze data at OpenAI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We use the capabilities behind the Data agent broadly across OpenAI. Nearly all of our product team and over two-thirds of our GTM organization use data agents in ChatGPT Work to analyze company data themselves. Our data team made this possible by creating shared business definitions, setting access rules, and putting safeguards in place for sensitive data. Learn more by reading this post⁠(opens in a new window) and attending our webinar⁠(opens in a new window).",
+        "th": "We use the capabilities behind the Data agent broadly across OpenAI. Nearly all of our product team and over two-thirds of our GTM organization use data agents in ChatGPT Work to analyze company data themselves. Our data team made this possible by creating shared business definitions, setting access rules, and putting safeguards in place for sensitive data. Learn more by reading this post⁠(opens in a new window) and attending our webinar⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "NTT Data, Thermo Fisher, ServicePiston, and other organizations in our Alpha program are using the Data agent in ChatGPT Work to analyze sales and spending, catch reporting errors, and decide which opportunities to pursue and how to staff them.",
+        "th": "NTT Data, Thermo Fisher, ServicePiston, and other organizations in our Alpha program are using the Data agent in ChatGPT Work to analyze sales and spending, catch reporting errors, and decide which opportunities to pursue and how to staff them."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Customer examples",
+        "th": "Customer examples"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "NTT DATA",
+        "th": "NTT DATA"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Thermo Fisher Scientific",
+        "th": "Thermo Fisher Scientific"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ServiceTitan",
+        "th": "ServiceTitan"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Zipline",
+        "th": "Zipline"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Empower",
+        "th": "Empower"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Piston",
+        "th": "Piston"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Doeren Mayhew",
+        "th": "Doeren Mayhew"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "CookUnity",
+        "th": "CookUnity"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Turing",
+        "th": "Turing"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "micro1",
+        "th": "micro1"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Unit8",
+        "th": "Unit8"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "NTT DATA",
+        "th": "NTT DATA"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Thermo Fisher Scientific",
+        "th": "Thermo Fisher Scientific"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ServiceTitan",
+        "th": "ServiceTitan"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Zipline",
+        "th": "Zipline"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Empower",
+        "th": "Empower"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Piston",
+        "th": "Piston"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Doeren Mayhew",
+        "th": "Doeren Mayhew"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "CookUnity",
+        "th": "CookUnity"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Turing",
+        "th": "Turing"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "micro1",
+        "th": "micro1"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Unit8",
+        "th": "Unit8"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get started with the Data agent",
+        "th": "Get started with the Data agent"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You’ll find the Data agent listed as Data⁠(opens in a new window) in the Plugins directory in ChatGPT Work. Administrators can make it available or install it for their teams through Workspace settings > Plugins. They can also enable and configure the relevant data-source plugins, such as Databricks and Snowflake, and manage who can use them.",
+        "th": "You’ll find the Data agent listed as Data⁠(opens in a new window) in the Plugins directory in ChatGPT Work. Administrators can make it available or install it for their teams through Workspace settings > Plugins. They can also enable and configure the relevant data-source plugins, such as Databricks and Snowflake, and manage who can use them."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If Data isn’t already installed, find it in the Plugins directory and select Install plugin, or go directly to the Data listing⁠(opens in a new window). Complete any required account-connection steps, then start a conversation with @Data and ask your business question.",
+        "th": "If Data isn’t already installed, find it in the Plugins directory and select Install plugin, or go directly to the Data listing⁠(opens in a new window). Complete any required account-connection steps, then start a conversation with @Data and ask your business question."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Try these prompts",
+        "th": "Try these prompts"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Diagnose a metric change",
+        "th": "Diagnose a metric change"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "@Data Diagnose why weekly active users changed last week. Identify likely drivers, compare against prior periods, and recommend the next checks.",
+        "th": "@Data Diagnose why weekly active users changed last week. Identify likely drivers, compare against prior periods, and recommend the next checks."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Design KPI framework",
+        "th": "Design KPI framework"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "@Data Design a KPI framework for this new product area with primary metrics, drivers, guardrails, targets, and data validation needs.",
+        "th": "@Data Design a KPI framework for this new product area with primary metrics, drivers, guardrails, targets, and data validation needs."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Create leadership readout",
+        "th": "Create leadership readout"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "@Data Turn this month’s metrics into a leadership-ready update with actuals, comparisons, drivers, caveats, and recommended actions.",
+        "th": "@Data Turn this month’s metrics into a leadership-ready update with actuals, comparisons, drivers, caveats, and recommended actions."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1uBabEULLfw3Vb2Gldmyyq/c19c1c121ca403ee8b2703cba18ef82d/introducing-gpt-live-1-green-cover.png?w=3840&q=90&fm=webp",
+      "alt": "GPT-Live-1 API | Green-blue cover | Option 038"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductSep 10, 2026",
+        "th": "ProductSep 10, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4DiwuhcC2lGuzS8klQkxXh/f1ac95e9bed5621a5b29f054f75db40b/Business_blog_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "GPT-6 Astra business blog — art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductSep 9, 2026",
+        "th": "ProductSep 9, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6C1icjo4Zz6MzpbQl1K2qx/8bf8ec06aae235d81019c24f6098d2f0/images2point5_1-1c.png?w=3840&q=90&fm=webp",
+      "alt": "images2point5 1-1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductSep 8, 2026",
+        "th": "ProductSep 8, 2026"
+      }
+    }
+  ]
+}

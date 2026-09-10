@@ -1,6 +1,91 @@
 {
-  "generatedAt": "2026-09-10T14:00:03.412Z",
+  "generatedAt": "2026-09-10T17:33:45.672Z",
   "items": [
+    {
+      "id": "openai__using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "slug": "using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "source": "openai",
+      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "category": "Applied AI",
+      "date": "2026-09-10T16:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+        "th": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules"
+      },
+      "summary": {
+        "en": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+        "th": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections."
+      }
+    },
+    {
+      "id": "google-ai__running-race-training-tips",
+      "slug": "running-race-training-tips",
+      "source": "google-ai",
+      "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+      "category": "Search",
+      "date": "2026-09-10T16:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Race_Running_Tips.max-600x600.format-webp.webp",
+      "title": {
+        "en": "3 ways to prep for your next big race with Search",
+        "th": "3 ways to prep for your next big race with Search"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Race_Running_Tips.max-600x600.format-webp.webp\">Search can help runners get race-day ready with registration alerts, tailored training plan",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Race_Running_Tips.max-600x600.format-webp.webp\">Search can help runners get race-day ready with registration alerts, tailored training plan"
+      }
+    },
+    {
+      "id": "openai__put-data-to-work",
+      "slug": "put-data-to-work",
+      "source": "openai",
+      "url": "https://openai.com/index/put-data-to-work",
+      "category": "Product",
+      "date": "2026-09-10T15:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Now everyone can put data to work",
+        "th": "Now everyone can put data to work"
+      },
+      "summary": {
+        "en": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+        "th": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language."
+      }
+    },
+    {
+      "id": "openai__expanding-ai-access-us-government",
+      "slug": "expanding-ai-access-us-government",
+      "source": "openai",
+      "url": "https://openai.com/index/expanding-ai-access-us-government",
+      "category": "Global Affairs",
+      "date": "2026-09-10T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+        "th": "Expanding AI access and cyber defense for federal, state, local, and tribal governments"
+      },
+      "summary": {
+        "en": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+        "th": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support."
+      }
+    },
+    {
+      "id": "openai__introducing-gpt-live-1-in-the-api",
+      "slug": "introducing-gpt-live-1-in-the-api",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "category": "Product",
+      "date": "2026-09-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+        "th": "Build more natural voice experiences with GPT‑Live‑1 in the API"
+      },
+      "summary": {
+        "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+        "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
+      }
+    },
     {
       "id": "huggingface__gradio-workflow-1111",
       "slug": "gradio-workflow-1111",
@@ -788,7 +873,7 @@
       "slug": "improving-alignment-security-efforts",
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "category": "News",
+      "category": "Announcements",
       "date": "2026-08-31T00:00:00.000Z",
       "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20ShapeBuild&backgroundColor=cactus",
       "title": {
@@ -988,23 +1073,6 @@
       }
     },
     {
-      "id": "openai__learning-never-stops",
-      "slug": "learning-never-stops",
-      "source": "openai",
-      "url": "https://openai.com/index/learning-never-stops",
-      "category": "Product",
-      "date": "2026-08-26T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Learning never stops: How AI makes learning continuous",
-        "th": "Learning never stops: How AI makes learning continuous"
-      },
-      "summary": {
-        "en": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-        "th": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom."
-      }
-    },
-    {
       "id": "openai__bringing-chatgpt-for-teachers-to-more-us-school-districts",
       "slug": "bringing-chatgpt-for-teachers-to-more-us-school-districts",
       "source": "openai",
@@ -1019,6 +1087,23 @@
       "summary": {
         "en": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
         "th": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff."
+      }
+    },
+    {
+      "id": "openai__learning-never-stops",
+      "slug": "learning-never-stops",
+      "source": "openai",
+      "url": "https://openai.com/index/learning-never-stops",
+      "category": "Product",
+      "date": "2026-08-26T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Learning never stops: How AI makes learning continuous",
+        "th": "Learning never stops: How AI makes learning continuous"
+      },
+      "summary": {
+        "en": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+        "th": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom."
       }
     },
     {
@@ -1175,40 +1260,6 @@
       }
     },
     {
-      "id": "openai__disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "slug": "disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "source": "openai",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "category": "Global Affairs",
-      "date": "2026-08-25T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Disrupting a new covert influence campaign from Russia",
-        "th": "Disrupting a new covert influence campaign from Russia"
-      },
-      "summary": {
-        "en": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
-        "th": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West."
-      }
-    },
-    {
-      "id": "openai__introducing-admin-plugin",
-      "slug": "introducing-admin-plugin",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-admin-plugin",
-      "category": "AI Adoption",
-      "date": "2026-08-25T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing the Admin plugin for ChatGPT Work and Codex",
-        "th": "Introducing the Admin plugin for ChatGPT Work and Codex"
-      },
-      "summary": {
-        "en": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-        "th": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests."
-      }
-    },
-    {
       "id": "huggingface__gradio-workflow-guide",
       "slug": "gradio-workflow-guide",
       "source": "huggingface",
@@ -1223,23 +1274,6 @@
       "summary": {
         "en": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
         "th": "Wire It, Run It, Deploy It: AI Workflows in Gradio"
-      }
-    },
-    {
-      "id": "openai__gpt-5-6-in-kiro",
-      "slug": "gpt-5-6-in-kiro",
-      "source": "openai",
-      "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "category": "Product",
-      "date": "2026-08-24T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-        "th": "Advancing price-performance for developers with GPT‑5.6 in Kiro"
-      },
-      "summary": {
-        "en": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-        "th": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance."
       }
     },
     {
@@ -1308,23 +1342,6 @@
       "summary": {
         "en": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
         "th": "การอนุมานเร็วขึ้นสูงสุด 3.2 เท่าด้วย LFM2.5-DSpark"
-      }
-    },
-    {
-      "id": "openai__introducing-intelligence-age",
-      "slug": "introducing-intelligence-age",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-intelligence-age",
-      "category": "Intelligence Age",
-      "date": "2026-08-20T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing Intelligence Age",
-        "th": "Introducing Intelligence Age"
-      },
-      "summary": {
-        "en": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-        "th": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom."
       }
     },
     {
@@ -1417,7 +1434,7 @@
       "slug": "claude-text-watermark",
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/claude-text-watermark",
-      "category": "Announcements",
+      "category": "News",
       "date": "2026-08-14T00:00:00.000Z",
       "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Quill&backgroundColor=heather",
       "title": {
@@ -1855,23 +1872,6 @@
       }
     },
     {
-      "id": "google-ai__ai-mode-real-world-tips",
-      "slug": "ai-mode-real-world-tips",
-      "source": "google-ai",
-      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
-      "category": "Search",
-      "date": "2026-07-28T13:00:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp",
-      "title": {
-        "en": "5 ways AI Mode in Search helps you enjoy the real world",
-        "th": "5 วิธีที่โหมด AI ในการค้นหาช่วยให้คุณเพลิดเพลินกับโลกแห่งความเป็นจริง"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp\">It might sound counterintuitive, but Search's AI tools can actually help you make the most of you",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp\">อาจฟังดูขัดกับสัญชาตญาณ แต่เครื่องมือ AI ของ Search สามารถช่วยให้คุณได้รับประโยชน์สูงสุดจากคุณได้จริง"
-      }
-    },
-    {
       "id": "google-ai__dinner-party-hosting-tips",
       "slug": "dinner-party-hosting-tips",
       "source": "google-ai",
@@ -1886,6 +1886,23 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dinner_parties.max-600x600.format-webp.webp\">These AI features can help you craft a menu, design a tablescape, and handle other party-planning tas",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dinner_parties.max-600x600.format-webp.webp\">ฟีเจอร์ AI เหล่านี้สามารถช่วยคุณสร้างสรรค์เมนู ออกแบบภูมิทัศน์ตาราง และจัดการงานการวางแผนปาร์ตี้อื่นๆ"
+      }
+    },
+    {
+      "id": "google-ai__ai-mode-real-world-tips",
+      "slug": "ai-mode-real-world-tips",
+      "source": "google-ai",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+      "category": "Search",
+      "date": "2026-07-28T13:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp",
+      "title": {
+        "en": "5 ways AI Mode in Search helps you enjoy the real world",
+        "th": "5 วิธีที่โหมด AI ในการค้นหาช่วยให้คุณเพลิดเพลินกับโลกแห่งความเป็นจริง"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp\">It might sound counterintuitive, but Search's AI tools can actually help you make the most of you",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp\">อาจฟังดูขัดกับสัญชาตญาณ แต่เครื่องมือ AI ของ Search สามารถช่วยให้คุณได้รับประโยชน์สูงสุดจากคุณได้จริง"
       }
     },
     {
@@ -2073,23 +2090,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ConnectedAppshero.max-600x600.format-webp.webp\">You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ConnectedAppshero.max-600x600.format-webp.webp\">คุณจะสามารถลิงก์และโต้ตอบกับบริการที่คุณใช้งานอยู่ได้อย่างปลอดภัยโดยตรงในโหมด AI"
-      }
-    },
-    {
-      "id": "google-ai__gemini-omni-personal-avatars",
-      "slug": "gemini-omni-personal-avatars",
-      "source": "google-ai",
-      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-      "category": "Google Workspace",
-      "date": "2026-07-16T16:00:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/omni-blog-header_OarEe2t.max-600x600.format-webp.webp",
-      "title": {
-        "en": "Create, edit and star in videos with two Google Vids updates",
-        "th": "สร้าง แก้ไข และติดดาวในวิดีโอด้วยการอัปเดต Google Vids สองรายการ"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/omni-blog-header_OarEe2t.max-600x600.format-webp.webp\">Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/omni-blog-header_OarEe2t.max-600x600.format-webp.webp\">Gemini Omni และอวตารส่วนตัวใน Google Vids ทำให้การสร้างวิดีโอง่ายกว่าที่เคย"
       }
     },
     {

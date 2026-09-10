@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T22:09:59.128Z",
+  "generatedAt": "2026-09-10T02:23:51.322Z",
   "items": [
     {
       "id": "openai__paul-christiano-joins-openai-foundation-board",
@@ -67,6 +67,23 @@
       "summary": {
         "en": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
         "th": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license"
+      }
+    },
+    {
+      "id": "openai__ai-policy-window",
+      "slug": "ai-policy-window",
+      "source": "openai",
+      "url": "https://openai.com/index/ai-policy-window",
+      "category": "Global Affairs",
+      "date": "2026-09-09T13:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "The AI policy window is open. We need to act.",
+        "th": "The AI policy window is open. We need to act."
+      },
+      "summary": {
+        "en": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+        "th": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open."
       }
     },
     {
@@ -342,23 +359,6 @@
       }
     },
     {
-      "id": "openai__playco-game-prototyping-with-astra",
-      "slug": "playco-game-prototyping-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "category": "Startup",
-      "date": "2026-09-03T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-        "th": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-        "th": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
-      }
-    },
-    {
       "id": "openai__legora-financial-statement-review-with-astra",
       "slug": "legora-financial-statement-review-with-astra",
       "source": "openai",
@@ -373,6 +373,23 @@
       "summary": {
         "en": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
         "th": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
+      }
+    },
+    {
+      "id": "openai__playco-game-prototyping-with-astra",
+      "slug": "playco-game-prototyping-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "category": "Startup",
+      "date": "2026-09-03T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+        "th": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+        "th": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
       }
     },
     {
@@ -954,23 +971,6 @@
       }
     },
     {
-      "id": "openai__bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "slug": "bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "source": "openai",
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "category": "Product",
-      "date": "2026-08-26T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Bringing ChatGPT for Teachers to more U.S. school districts",
-        "th": "Bringing ChatGPT for Teachers to more U.S. school districts"
-      },
-      "summary": {
-        "en": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-        "th": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff."
-      }
-    },
-    {
       "id": "openai__learning-never-stops",
       "slug": "learning-never-stops",
       "source": "openai",
@@ -985,6 +985,23 @@
       "summary": {
         "en": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
         "th": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom."
+      }
+    },
+    {
+      "id": "openai__bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "slug": "bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "source": "openai",
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "category": "Product",
+      "date": "2026-08-26T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Bringing ChatGPT for Teachers to more U.S. school districts",
+        "th": "Bringing ChatGPT for Teachers to more U.S. school districts"
+      },
+      "summary": {
+        "en": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+        "th": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff."
       }
     },
     {
@@ -1291,23 +1308,6 @@
       "summary": {
         "en": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
         "th": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom."
-      }
-    },
-    {
-      "id": "openai__stampli",
-      "slug": "stampli",
-      "source": "openai",
-      "url": "https://openai.com/index/stampli",
-      "category": "News",
-      "date": "2026-08-20T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Stampli cuts launch hours by 68% using ChatGPT Work",
-        "th": "Stampli ลดเวลาเปิดตัวลง 68% โดยใช้ ChatGPT Work"
-      },
-      "summary": {
-        "en": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-        "th": "ด้วยกำหนดเวลาตายตัวและทรัพยากรการออกแบบที่มอบให้กับที่อื่น Stampli ใช้ Codex และ ChatGPT Work เพื่อบีบอัดการผลิตที่เปิดตัวหลายสัปดาห์ให้เป็นวัน"
       }
     },
     {

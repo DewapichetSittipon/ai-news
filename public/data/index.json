@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-09-11T13:58:58.162Z",
+  "generatedAt": "2026-09-11T17:34:07.650Z",
   "items": [
+    {
+      "id": "openai__scaling-storage-one-billion-users-part-one",
+      "slug": "scaling-storage-one-billion-users-part-one",
+      "source": "openai",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "category": "Engineering",
+      "date": "2026-09-11T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+        "th": "Rapidly scaling online storage to serve over 1 billion ChatGPT users"
+      },
+      "summary": {
+        "en": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+        "th": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second."
+      }
+    },
     {
       "id": "openai__using-codex-chatgpt-to-search-for-new-antimicrobials",
       "slug": "using-codex-chatgpt-to-search-for-new-antimicrobials",
@@ -1155,23 +1172,6 @@
       "summary": {
         "en": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
         "th": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment."
-      }
-    },
-    {
-      "id": "openai__loveholidays",
-      "slug": "loveholidays",
-      "source": "openai",
-      "url": "https://openai.com/index/loveholidays",
-      "category": "News",
-      "date": "2026-08-26T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How loveholidays is making everyone a builder with Codex",
-        "th": "How loveholidays is making everyone a builder with Codex"
-      },
-      "summary": {
-        "en": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
-        "th": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster."
       }
     },
     {

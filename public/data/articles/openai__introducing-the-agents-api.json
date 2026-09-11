@@ -32,15 +32,15 @@
     {
       "type": "li",
       "text": {
-        "en": "Build cloud agents with a single API call",
-        "th": "Build cloud agents with a single API call"
+        "en": "What our customers are saying about Agents API",
+        "th": "What our customers are saying about Agents API"
       }
     },
     {
       "type": "li",
       "text": {
-        "en": "What our customers are saying about Agents API",
-        "th": "What our customers are saying about Agents API"
+        "en": "Build cloud agents with a single API call",
+        "th": "Build cloud agents with a single API call"
       }
     },
     {
@@ -102,15 +102,15 @@
     {
       "type": "li",
       "text": {
-        "en": "Build cloud agents with a single API call",
-        "th": "Build cloud agents with a single API call"
+        "en": "What our customers are saying about Agents API",
+        "th": "What our customers are saying about Agents API"
       }
     },
     {
       "type": "li",
       "text": {
-        "en": "What our customers are saying about Agents API",
-        "th": "What our customers are saying about Agents API"
+        "en": "Build cloud agents with a single API call",
+        "th": "Build cloud agents with a single API call"
       }
     },
     {
@@ -186,39 +186,6 @@
     {
       "type": "h2",
       "text": {
-        "en": "Build cloud agents with a single API call",
-        "th": "Build cloud agents with a single API call"
-      }
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "With the Agents API, you can create a production-ready agent in a single API call by specifying the task, model, tools, and environment:",
-        "th": "With the Agents API, you can create a production-ready agent in a single API call by specifying the task, model, tools, and environment:"
-      }
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "OpenAI hosts and maintains the harness. You choose the agent’s compute environment: in an OpenAI-managed sandbox, on your own infrastructure, or with one of our sandbox partners. The Agents API gives you a strong foundation for building agents on top of our optimized agent harness and infrastructure, so you can focus on the tools, knowledge, and workflows that make your agent unique.",
-        "th": "OpenAI hosts and maintains the harness. You choose the agent’s compute environment: in an OpenAI-managed sandbox, on your own infrastructure, or with one of our sandbox partners. The Agents API gives you a strong foundation for building agents on top of our optimized agent harness and infrastructure, so you can focus on the tools, knowledge, and workflows that make your agent unique."
-      }
-    },
-    {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/7oiK2YZ2Dx7hujorDOOj6R/47ba63c3fc77253118db0dbba04e19e4/agents-api_16x9_light_1.png?w=3840&q=90&fm=webp",
-      "alt": "An application sends tasks to the Agents API and receives events and output. The Agents API runs the managed Codex harness, sending tool calls to a sandbox and receiving tool results. The application controls self-hosted compute."
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "Agents API powers your agents with the same harness and infrastructure behind Codex.",
-        "th": "Agents API powers your agents with the same harness and infrastructure behind Codex."
-      }
-    },
-    {
-      "type": "h2",
-      "text": {
         "en": "What our customers are saying about Agents API",
         "th": "What our customers are saying about Agents API"
       }
@@ -277,6 +244,39 @@
       "text": {
         "en": "Nash.ai",
         "th": "Nash.ai"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Build cloud agents with a single API call",
+        "th": "Build cloud agents with a single API call"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With the Agents API, you can create a production-ready agent in a single API call by specifying the task, model, tools, and environment:",
+        "th": "With the Agents API, you can create a production-ready agent in a single API call by specifying the task, model, tools, and environment:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI hosts and maintains the harness. You choose the agent’s compute environment: in an OpenAI-managed sandbox, on your own infrastructure, or with one of our sandbox partners. The Agents API gives you a strong foundation for building agents on top of our optimized agent harness and infrastructure, so you can focus on the tools, knowledge, and workflows that make your agent unique.",
+        "th": "OpenAI hosts and maintains the harness. You choose the agent’s compute environment: in an OpenAI-managed sandbox, on your own infrastructure, or with one of our sandbox partners. The Agents API gives you a strong foundation for building agents on top of our optimized agent harness and infrastructure, so you can focus on the tools, knowledge, and workflows that make your agent unique."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7oiK2YZ2Dx7hujorDOOj6R/47ba63c3fc77253118db0dbba04e19e4/agents-api_16x9_light_1.png?w=3840&q=90&fm=webp",
+      "alt": "An application sends tasks to the Agents API and receives events and output. The Agents API runs the managed Codex harness, sending tool calls to a sandbox and receiving tool results. The application controls self-hosted compute."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Agents API powers your agents with the same harness and infrastructure behind Codex.",
+        "th": "Agents API powers your agents with the same harness and infrastructure behind Codex."
       }
     },
     {

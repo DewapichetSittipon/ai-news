@@ -212,8 +212,8 @@
     {
       "type": "p",
       "text": {
-        "en": "In addition to the full Millennium Prize problems, we asked our multiagent system to try a set of “easier” problems. One of these problems was a similar blowup question for the limit of the Navier–Stokes problem with the viscosity term removed. This is known as the regularity problem for the Euler equations, and our agents surprised us by resolving this question. The specific variant of the question that they resolved was the unforced version, where no external force is applied to the fluid. Nearly 100 agents worked together for approximately 50 hours to produce our Euler regularity disproof.1",
-        "th": "In addition to the full Millennium Prize problems, we asked our multiagent system to try a set of “easier” problems. One of these problems was a similar blowup question for the limit of the Navier–Stokes problem with the viscosity term removed. This is known as the regularity problem for the Euler equations, and our agents surprised us by resolving this question. The specific variant of the question that they resolved was the unforced version, where no external force is applied to the fluid. Nearly 100 agents worked together for approximately 50 hours to produce our Euler regularity disproof.1"
+        "en": "In addition to the full Millennium Prize problems, we asked our multiagent system to try a set of “easier” problems. One of these problems was a similar blowup question for the limit of the Navier–Stokes problem with the viscosity term removed. This is known as the regularity problem for the Euler equations, and our agents surprised us by resolving this question. The specific variant of the question that they resolved was the unforced version, where no external force is applied to the fluid. Nearly 100 agents worked together for approximately 50 hours to produce our Euler regularity disproof1.",
+        "th": "In addition to the full Millennium Prize problems, we asked our multiagent system to try a set of “easier” problems. One of these problems was a similar blowup question for the limit of the Navier–Stokes problem with the viscosity term removed. This is known as the regularity problem for the Euler equations, and our agents surprised us by resolving this question. The specific variant of the question that they resolved was the unforced version, where no external force is applied to the fluid. Nearly 100 agents worked together for approximately 50 hours to produce our Euler regularity disproof1."
       }
     },
     {
@@ -254,15 +254,22 @@
     {
       "type": "p",
       "text": {
-        "en": "Our effort began on September 1st after hearing a rumor which we later realized was related to Levent Alpöge, an Anthropic employee, and Tristan Buckmaster, a math professor at NYU. After the completion of our full project and Lean verification (on September 6th), believing from the rumor they also had a solution of Navier–Stokes, we reached out to them to offer a concurrent release of our result and to recognize their priority in a joint announcement. At that point we found out that they had a resolution of the forced Euler problem. In these discussions we offered them visibility into all of the prompts we used and later to see the proof. We recognize the priority of their work on forced Euler and congratulate them on their remarkable mathematical achievement.",
-        "th": "Our effort began on September 1st after hearing a rumor which we later realized was related to Levent Alpöge, an Anthropic employee, and Tristan Buckmaster, a math professor at NYU. After the completion of our full project and Lean verification (on September 6th), believing from the rumor they also had a solution of Navier–Stokes, we reached out to them to offer a concurrent release of our result and to recognize their priority in a joint announcement. At that point we found out that they had a resolution of the forced Euler problem. In these discussions we offered them visibility into all of the prompts we used and later to see the proof. We recognize the priority of their work on forced Euler and congratulate them on their remarkable mathematical achievement."
+        "en": "Our effort began on September 1st after hearing a rumor which we later realized was related to Levent Alpöge, an Anthropic employee, and Tristan Buckmaster, a math professor at NYU.2 After the completion of our full project and Lean verification (on September 6th), believing from the rumor they also had a solution of Navier–Stokes, we reached out to them to offer a concurrent release of our result and to recognize their priority in a joint announcement. At that point we found out that, using an internal Anthropic model, they had produced a resolution of the forced Euler problem. In these discussions we offered them visibility into all of the prompts we used and later to see the proof. We recognize the priority of their work on forced Euler and congratulate them on their remarkable mathematical achievement.",
+        "th": "Our effort began on September 1st after hearing a rumor which we later realized was related to Levent Alpöge, an Anthropic employee, and Tristan Buckmaster, a math professor at NYU.2 After the completion of our full project and Lean verification (on September 6th), believing from the rumor they also had a solution of Navier–Stokes, we reached out to them to offer a concurrent release of our result and to recognize their priority in a joint announcement. At that point we found out that, using an internal Anthropic model, they had produced a resolution of the forced Euler problem. In these discussions we offered them visibility into all of the prompts we used and later to see the proof. We recognize the priority of their work on forced Euler and congratulate them on their remarkable mathematical achievement."
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "We (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem. While unlikely, we cannot rule out that de-identified data derived from their usage of our products helped improve our models⁠. However, our proofs differ significantly and even the precise results proved are different in the Euler case (forced vs unforced).",
-        "th": "We (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem. While unlikely, we cannot rule out that de-identified data derived from their usage of our products helped improve our models⁠. However, our proofs differ significantly and even the precise results proved are different in the Euler case (forced vs unforced)."
+        "en": "We (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem.",
+        "th": "We (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Following an investigation, we have confirmed that Buckmaster’s Codex prompts over the two months preceding this announcement and paper on September 8, 2026, could not have influenced the system in any way, including through training. The OpenAI internal model used for this result was developed through large-scale reinforcement learning on top of a previously pretrained model. Our proofs also differ significantly. In the Euler case, Alpöge and Buckmaster proved a result with external forcing, while OpenAI’s system proved a result without external forcing.",
+        "th": "Following an investigation, we have confirmed that Buckmaster’s Codex prompts over the two months preceding this announcement and paper on September 8, 2026, could not have influenced the system in any way, including through training. The OpenAI internal model used for this result was developed through large-scale reinforcement learning on top of a previously pretrained model. Our proofs also differ significantly. In the Euler case, Alpöge and Buckmaster proved a result with external forcing, while OpenAI’s system proved a result without external forcing."
       }
     },
     {
@@ -333,6 +340,20 @@
       "text": {
         "en": "Read the Euler proof paper⁠(opens in a new window) · Link to Lean formalized proof⁠(opens in a new window)",
         "th": "Read the Euler proof paper⁠(opens in a new window) · Link to Lean formalized proof⁠(opens in a new window)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2Update — September 10, 2026: We have updated “Concurrent work” with findings from our investigation into whether user inputs could have influenced this result.",
+        "th": "2Update — September 10, 2026: We have updated “Concurrent work” with findings from our investigation into whether user inputs could have influenced this result."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Update — September 10, 2026: We have updated “Concurrent work” with findings from our investigation into whether user inputs could have influenced this result.",
+        "th": "Update — September 10, 2026: We have updated “Concurrent work” with findings from our investigation into whether user inputs could have influenced this result."
       }
     },
     {

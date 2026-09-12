@@ -1,0 +1,118 @@
+{
+  "id": "openai__perplexity-improving-accuracy-with-astra",
+  "slug": "perplexity-improving-accuracy-with-astra",
+  "source": "openai",
+  "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+  "category": "News",
+  "date": "2026-09-14T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+    "th": "Perplexity trusts GPT-6 Astra with end-to-end systems"
+  },
+  "summary": {
+    "en": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+    "th": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "September 14, 2026",
+        "th": "September 14, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+        "th": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As an AI-powered answer engine, Perplexity is deeply focused on search and accuracy. Its ability to process large amounts of information is critically important. Johnny Ho, Cofounder and Chief Strategy Officer, observes that every time the model gets better at writing code, Perplexity’s search engine improves too. It becomes able to write better programs that search the web and internal information and summarize it very concisely.",
+        "th": "As an AI-powered answer engine, Perplexity is deeply focused on search and accuracy. Its ability to process large amounts of information is critically important. Johnny Ho, Cofounder and Chief Strategy Officer, observes that every time the model gets better at writing code, Perplexity’s search engine improves too. It becomes able to write better programs that search the web and internal information and summarize it very concisely."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "But the real challenge, according to Johnny, is taking those informational aspects and applying them to real-world systems. Something made easier with GPT‑6 Astra.",
+        "th": "But the real challenge, according to Johnny, is taking those informational aspects and applying them to real-world systems. Something made easier with GPT‑6 Astra."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Letting the model do the testing",
+        "th": "Letting the model do the testing"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For Johnny, one of the most useful applications of AI is testing code. With limited time to test manually, he asks GPT‑6 Astra to build a small testing program around an application.",
+        "th": "For Johnny, one of the most useful applications of AI is testing code. With limited time to test manually, he asks GPT‑6 Astra to build a small testing program around an application."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The model generates realistic responses like those another service would send, for example, a language model API or a connector. By standing in for those services, the model can check how the application responds and test the workflow from start to finish.",
+        "th": "The model generates realistic responses like those another service would send, for example, a language model API or a connector. By standing in for those services, the model can check how the application responds and test the workflow from start to finish."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "OpenAI <3 startups",
+        "th": "OpenAI <3 startups"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2X23NOb0P4V1KDzUBkeNpl/888204b45a1c84ddfa24c9ed31111a9c/OAI_HabitatPT1_Art_Card_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "Scaling Storage for 1 Billion ChatGPT Users (Part I) card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EngineeringSep 11, 2026",
+        "th": "EngineeringSep 11, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6WY3rQtuqVbg3bPdMknIhE/3421ffc90ec044e3e4f27570b311813d/cognition-art-card-option-b.png?w=3840&q=90&fm=webp",
+      "alt": "Cognition customer story art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sep 11, 2026",
+        "th": "Sep 11, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5UARNm4AwJ9OfXCIzHZgLF/c05ef4322030e9552dfe2458d34ceaed/index-codex-chatgpt-antimicrobials--cover-v001.png?w=3840&q=90&fm=webp",
+      "alt": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules — card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Applied AISep 10, 2026",
+        "th": "Applied AISep 10, 2026"
+      }
+    }
+  ]
+}

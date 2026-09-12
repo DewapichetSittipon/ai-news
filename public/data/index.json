@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-09-11T23:45:13.786Z",
+  "generatedAt": "2026-09-12T02:25:56.871Z",
   "items": [
+    {
+      "id": "openai__perplexity-improving-accuracy-with-astra",
+      "slug": "perplexity-improving-accuracy-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "category": "News",
+      "date": "2026-09-14T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+        "th": "Perplexity trusts GPT-6 Astra with end-to-end systems"
+      },
+      "summary": {
+        "en": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+        "th": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models."
+      }
+    },
+    {
+      "id": "openai__cognition-devin-testing-with-astra",
+      "slug": "cognition-devin-testing-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "category": "News",
+      "date": "2026-09-11T16:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Cognition helps Devin test its own work with GPT‑6 Astra",
+        "th": "Cognition helps Devin test its own work with GPT‑6 Astra"
+      },
+      "summary": {
+        "en": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+        "th": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more."
+      }
+    },
     {
       "id": "openai__scaling-storage-one-billion-users-part-one",
       "slug": "scaling-storage-one-billion-users-part-one",
@@ -104,23 +138,6 @@
       }
     },
     {
-      "id": "openai__introducing-the-agents-api",
-      "slug": "introducing-the-agents-api",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "category": "Product",
-      "date": "2026-09-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing the Agents API",
-        "th": "Introducing the Agents API"
-      },
-      "summary": {
-        "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-        "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
-      }
-    },
-    {
       "id": "openai__introducing-gpt-live-1-in-the-api",
       "slug": "introducing-gpt-live-1-in-the-api",
       "source": "openai",
@@ -135,6 +152,23 @@
       "summary": {
         "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
         "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
+      }
+    },
+    {
+      "id": "openai__introducing-the-agents-api",
+      "slug": "introducing-the-agents-api",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "category": "Product",
+      "date": "2026-09-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing the Agents API",
+        "th": "Introducing the Agents API"
+      },
+      "summary": {
+        "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+        "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
       }
     },
     {
@@ -512,23 +546,6 @@
       }
     },
     {
-      "id": "openai__legora-financial-statement-review-with-astra",
-      "slug": "legora-financial-statement-review-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "category": "Startup",
-      "date": "2026-09-03T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-        "th": "Legora reviewed 41 documents in minutes with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-        "th": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
-      }
-    },
-    {
       "id": "openai__playco-game-prototyping-with-astra",
       "slug": "playco-game-prototyping-with-astra",
       "source": "openai",
@@ -543,6 +560,23 @@
       "summary": {
         "en": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
         "th": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
+      }
+    },
+    {
+      "id": "openai__legora-financial-statement-review-with-astra",
+      "slug": "legora-financial-statement-review-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "category": "Startup",
+      "date": "2026-09-03T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+        "th": "Legora reviewed 41 documents in minutes with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+        "th": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
       }
     },
     {
@@ -1124,23 +1158,6 @@
       }
     },
     {
-      "id": "openai__bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "slug": "bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "source": "openai",
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "category": "Product",
-      "date": "2026-08-26T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Bringing ChatGPT for Teachers to more U.S. school districts",
-        "th": "Bringing ChatGPT for Teachers to more U.S. school districts"
-      },
-      "summary": {
-        "en": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-        "th": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff."
-      }
-    },
-    {
       "id": "openai__learning-never-stops",
       "slug": "learning-never-stops",
       "source": "openai",
@@ -1155,23 +1172,6 @@
       "summary": {
         "en": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
         "th": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom."
-      }
-    },
-    {
-      "id": "openai__hugging-face-incident-and-the-road-ahead",
-      "slug": "hugging-face-incident-and-the-road-ahead",
-      "source": "openai",
-      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "category": "Security",
-      "date": "2026-08-26T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "The Hugging Face incident and the road ahead",
-        "th": "The Hugging Face incident and the road ahead"
-      },
-      "summary": {
-        "en": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-        "th": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment."
       }
     },
     {

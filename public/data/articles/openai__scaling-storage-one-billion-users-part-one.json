@@ -179,8 +179,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Habitat is the online storage platform we built so OpenAI products can quickly and reliably access needed information. Habitat now handles more than 70 million requests every second, supporting products used by over 1 billion people each week, across almost 40 geographic regions. Two years ago, Habitat started as a simple Python client-side library connected to a single database. Today, it’s a complex distributed system that serves more than 500 petabytes of data.",
-        "th": "Habitat is the online storage platform we built so OpenAI products can quickly and reliably access needed information. Habitat now handles more than 70 million requests every second, supporting products used by over 1 billion people each week, across almost 40 geographic regions. Two years ago, Habitat started as a simple Python client-side library connected to a single database. Today, it’s a complex distributed system that serves more than 500 petabytes of data."
+        "en": "Habitat is the online storage platform we built so OpenAI products can quickly and reliably access needed information. Habitat now handles more than 70 million requests every second, supporting products used by over 1 billion people each week, across almost 40 geographic regions. Habitat first launched to support GPTs at DevDay 2023, starting as a simple Python client-side library connected to a single database. Today, it’s a complex distributed system that serves more than 500 petabytes of data.",
+        "th": "Habitat is the online storage platform we built so OpenAI products can quickly and reliably access needed information. Habitat now handles more than 70 million requests every second, supporting products used by over 1 billion people each week, across almost 40 geographic regions. Habitat first launched to support GPTs at DevDay 2023, starting as a simple Python client-side library connected to a single database. Today, it’s a complex distributed system that serves more than 500 petabytes of data."
       }
     },
     {
@@ -466,8 +466,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Habitat started from a simple idea: product engineers shouldn’t need to think about database management. Habitat began in mid-2024 as a small Python library that interacted with ChatGPT’s main server. It supported a small set of operations that mapped under the hood to the database application, Azure Cosmos DB.",
-        "th": "Habitat started from a simple idea: product engineers shouldn’t need to think about database management. Habitat began in mid-2024 as a small Python library that interacted with ChatGPT’s main server. It supported a small set of operations that mapped under the hood to the database application, Azure Cosmos DB."
+        "en": "Habitat started from a simple idea: product engineers shouldn’t need to think about database management. Habitat first launched to support GPTs at DevDay 2023 as a small Python library that interacted with ChatGPT’s main server. It supported a small set of operations that mapped under the hood to the database application, Azure Cosmos DB.",
+        "th": "Habitat started from a simple idea: product engineers shouldn’t need to think about database management. Habitat first launched to support GPTs at DevDay 2023 as a small Python library that interacted with ChatGPT’s main server. It supported a small set of operations that mapped under the hood to the database application, Azure Cosmos DB."
       }
     },
     {

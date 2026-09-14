@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T09:26:34.945Z",
+  "generatedAt": "2026-09-14T16:06:15.125Z",
   "items": [
     {
       "id": "openai__perplexity-improving-accuracy-with-astra",
@@ -138,23 +138,6 @@
       }
     },
     {
-      "id": "openai__introducing-gpt-live-1-in-the-api",
-      "slug": "introducing-gpt-live-1-in-the-api",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "category": "Product",
-      "date": "2026-09-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-        "th": "Build more natural voice experiences with GPT‑Live‑1 in the API"
-      },
-      "summary": {
-        "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-        "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
-      }
-    },
-    {
       "id": "openai__introducing-the-agents-api",
       "slug": "introducing-the-agents-api",
       "source": "openai",
@@ -169,6 +152,23 @@
       "summary": {
         "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
         "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
+      }
+    },
+    {
+      "id": "openai__introducing-gpt-live-1-in-the-api",
+      "slug": "introducing-gpt-live-1-in-the-api",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "category": "Product",
+      "date": "2026-09-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+        "th": "Build more natural voice experiences with GPT‑Live‑1 in the API"
+      },
+      "summary": {
+        "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+        "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
       }
     },
     {
@@ -1175,20 +1175,20 @@
       }
     },
     {
-      "id": "openai__learning-never-stops",
-      "slug": "learning-never-stops",
+      "id": "openai__bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "slug": "bringing-chatgpt-for-teachers-to-more-us-school-districts",
       "source": "openai",
-      "url": "https://openai.com/index/learning-never-stops",
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
       "category": "Product",
       "date": "2026-08-26T10:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Learning never stops: How AI makes learning continuous",
-        "th": "Learning never stops: How AI makes learning continuous"
+        "en": "Bringing ChatGPT for Teachers to more U.S. school districts",
+        "th": "Bringing ChatGPT for Teachers to more U.S. school districts"
       },
       "summary": {
-        "en": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-        "th": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom."
+        "en": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+        "th": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff."
       }
     },
     {

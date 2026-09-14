@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+60",
-        "th": "+60"
+        "en": "+62",
+        "th": "+62"
       }
     },
     {
@@ -480,6 +480,38 @@
     },
     {
       "type": "img",
+      "src": "/blog/assets/asyncgrpo-lora-hfjobs/thumbnail.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+        "th": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/69a5684704dd904ad8fdf1c6/_AC_1juch3FyFgy7mHCYa.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677431596830-631ce4b244503b72277fc89f.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1669189789447-629f3b18ee05727ce328ccbe.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/61929226ded356549e20c5da/ONUjP2S5fUWd07BiFXm0i.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
       "src": "/blog/assets/thinkingmachines-inkling/thumbnail.png",
       "alt": ""
     },
@@ -516,23 +548,6 @@
         "en": "+1",
         "th": "+1"
       }
-    },
-    {
-      "type": "img",
-      "src": "/blog/assets/cross-origin-storage/thumbnail.jpg",
-      "alt": ""
-    },
-    {
-      "type": "h2",
-      "text": {
-        "en": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
-        "th": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js"
-      }
-    },
-    {
-      "type": "img",
-      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/qCHAzPfN19g2BtO9jJDNv.jpeg",
-      "alt": ""
     },
     {
       "type": "h3",
@@ -690,8 +705,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+54",
-        "th": "+54"
+        "en": "+56",
+        "th": "+56"
       }
     }
   ]

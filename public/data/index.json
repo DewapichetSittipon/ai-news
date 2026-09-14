@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T23:50:16.104Z",
+  "generatedAt": "2026-09-14T09:26:34.945Z",
   "items": [
     {
       "id": "openai__perplexity-improving-accuracy-with-astra",
@@ -169,6 +169,23 @@
       "summary": {
         "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
         "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
+      }
+    },
+    {
+      "id": "huggingface__asyncgrpo-lora-hfjobs",
+      "slug": "asyncgrpo-lora-hfjobs",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "category": "News",
+      "date": "2026-09-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+        "th": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL"
+      },
+      "summary": {
+        "en": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+        "th": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL"
       }
     },
     {
@@ -2209,23 +2226,6 @@
       "summary": {
         "en": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
         "th": "Google และ AIM เปิดตัว ATL Saathi ซึ่งเป็นเครื่องมือ AI ที่ขับเคลื่อนโดย Gemini ซึ่งเพิ่มศักยภาพให้กับนักการศึกษาชาวอินเดียในห้องปฏิบัติการหุ่นยนต์"
-      }
-    },
-    {
-      "id": "huggingface__torch-attention-profile",
-      "slug": "torch-attention-profile",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/torch-attention-profile",
-      "category": "News",
-      "date": "2026-07-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Profiling in PyTorch (Part 3): Attention is all you profile",
-        "th": "การทำโปรไฟล์ใน PyTorch (ตอนที่ 3): ความสนใจคือสิ่งที่คุณทำ"
-      },
-      "summary": {
-        "en": "Profiling in PyTorch (Part 3): Attention is all you profile",
-        "th": "การทำโปรไฟล์ใน PyTorch (ตอนที่ 3): ความสนใจคือสิ่งที่คุณทำ"
       }
     },
     {

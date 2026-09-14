@@ -1,6 +1,57 @@
 {
-  "generatedAt": "2026-09-14T16:06:15.125Z",
+  "generatedAt": "2026-09-14T21:15:30.317Z",
   "items": [
+    {
+      "id": "google-ai__dialogues-christina-koch",
+      "slug": "dialogues-christina-koch",
+      "source": "google-ai",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "category": "AI",
+      "date": "2026-09-14T19:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues_Christina-Koch_social.max-600x600.format-webp.webp",
+      "title": {
+        "en": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+        "th": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery."
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues_Christina-Koch_social.max-600x600.format-webp.webp\">Christina Koch sits down with James Manyika, Google’s Senior Vice President of Resea",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues_Christina-Koch_social.max-600x600.format-webp.webp\">Christina Koch sits down with James Manyika, Google’s Senior Vice President of Resea"
+      }
+    },
+    {
+      "id": "google-ai__devfest2026",
+      "slug": "devfest2026",
+      "source": "google-ai",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "category": "Gemini",
+      "date": "2026-09-14T16:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/DevFest.max-600x600.format-webp.webp",
+      "title": {
+        "en": "DevFest is back",
+        "th": "DevFest is back"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/DevFest.max-600x600.format-webp.webp\">DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, se",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/DevFest.max-600x600.format-webp.webp\">DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, se"
+      }
+    },
+    {
+      "id": "openai__fyxer",
+      "slug": "fyxer",
+      "source": "openai",
+      "url": "https://openai.com/index/fyxer",
+      "category": "Startup",
+      "date": "2026-09-14T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How Fyxer built an AI executive assistant people trust",
+        "th": "How Fyxer built an AI executive assistant people trust"
+      },
+      "summary": {
+        "en": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+        "th": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice."
+      }
+    },
     {
       "id": "openai__perplexity-improving-accuracy-with-astra",
       "slug": "perplexity-improving-accuracy-with-astra",
@@ -138,23 +189,6 @@
       }
     },
     {
-      "id": "openai__introducing-the-agents-api",
-      "slug": "introducing-the-agents-api",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "category": "Product",
-      "date": "2026-09-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing the Agents API",
-        "th": "Introducing the Agents API"
-      },
-      "summary": {
-        "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-        "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
-      }
-    },
-    {
       "id": "openai__introducing-gpt-live-1-in-the-api",
       "slug": "introducing-gpt-live-1-in-the-api",
       "source": "openai",
@@ -169,6 +203,23 @@
       "summary": {
         "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
         "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
+      }
+    },
+    {
+      "id": "openai__introducing-the-agents-api",
+      "slug": "introducing-the-agents-api",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "category": "Product",
+      "date": "2026-09-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing the Agents API",
+        "th": "Introducing the Agents API"
+      },
+      "summary": {
+        "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+        "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
       }
     },
     {
@@ -563,23 +614,6 @@
       }
     },
     {
-      "id": "openai__playco-game-prototyping-with-astra",
-      "slug": "playco-game-prototyping-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "category": "Startup",
-      "date": "2026-09-03T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-        "th": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-        "th": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
-      }
-    },
-    {
       "id": "openai__legora-financial-statement-review-with-astra",
       "slug": "legora-financial-statement-review-with-astra",
       "source": "openai",
@@ -594,6 +628,23 @@
       "summary": {
         "en": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
         "th": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
+      }
+    },
+    {
+      "id": "openai__playco-game-prototyping-with-astra",
+      "slug": "playco-game-prototyping-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "category": "Startup",
+      "date": "2026-09-03T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+        "th": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+        "th": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
       }
     },
     {
@@ -1172,23 +1223,6 @@
       "summary": {
         "en": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
         "th": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe."
-      }
-    },
-    {
-      "id": "openai__bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "slug": "bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "source": "openai",
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "category": "Product",
-      "date": "2026-08-26T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Bringing ChatGPT for Teachers to more U.S. school districts",
-        "th": "Bringing ChatGPT for Teachers to more U.S. school districts"
-      },
-      "summary": {
-        "en": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-        "th": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff."
       }
     },
     {
@@ -2025,23 +2059,6 @@
       }
     },
     {
-      "id": "google-ai__galaxy-unpacked-2026",
-      "slug": "galaxy-unpacked-2026",
-      "source": "google-ai",
-      "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-      "category": "Gemini App",
-      "date": "2026-07-22T13:00:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp",
-      "title": {
-        "en": "3 Google updates from Galaxy Unpacked 2026",
-        "th": "3 การอัปเดตของ Google จาก Galaxy Unpacked 2026"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp\">We shared how Samsung users can boost productivity and get time back on new foldables, watches, and gl",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp\">เราได้แชร์วิธีที่ผู้ใช้ Samsung เพิ่มประสิทธิภาพการทำงานและย้อนเวลากลับไปด้วยอุปกรณ์แบบพับได้ นาฬิกา และ GL ใหม่"
-      }
-    },
-    {
       "id": "deepmind__introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber",
       "slug": "introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber",
       "source": "deepmind",
@@ -2090,23 +2107,6 @@
       "summary": {
         "en": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
         "th": "Google เปิดตัว Gemini 3.5 Flash Cyber ​​ซึ่งเป็นโมเดลความปลอดภัยทางไซเบอร์แบบน้ำหนักเบาเพื่อค้นหาและแก้ไขช่องโหว่"
-      }
-    },
-    {
-      "id": "google-ai__connected-apps",
-      "slug": "connected-apps",
-      "source": "google-ai",
-      "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
-      "category": "Search",
-      "date": "2026-07-16T16:00:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ConnectedAppshero.max-600x600.format-webp.webp",
-      "title": {
-        "en": "Connect more of your apps to Search",
-        "th": "เชื่อมต่อแอปของคุณเข้ากับการค้นหามากขึ้น"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ConnectedAppshero.max-600x600.format-webp.webp\">You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ConnectedAppshero.max-600x600.format-webp.webp\">คุณจะสามารถลิงก์และโต้ตอบกับบริการที่คุณใช้งานอยู่ได้อย่างปลอดภัยโดยตรงในโหมด AI"
       }
     },
     {

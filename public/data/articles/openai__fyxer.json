@@ -1,0 +1,356 @@
+{
+  "id": "openai__fyxer",
+  "slug": "fyxer",
+  "source": "openai",
+  "url": "https://openai.com/index/fyxer",
+  "category": "Startup",
+  "date": "2026-09-14T12:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "How Fyxer built an AI executive assistant people trust",
+    "th": "How Fyxer built an AI executive assistant people trust"
+  },
+  "summary": {
+    "en": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+    "th": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "September 14, 2026",
+        "th": "September 14, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Fyxer pairs OpenAI models with 500,000+ hours of EA workflows and real user feedback to draft replies in each person’s voice.",
+        "th": "Fyxer pairs OpenAI models with 500,000+ hours of EA workflows and real user feedback to draft replies in each person’s voice."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "90%",
+        "th": "90%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "User retention after 90 days",
+        "th": "User retention after 90 days"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "53%",
+        "th": "53%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Of AI-generated drafts accepted as written",
+        "th": "Of AI-generated drafts accepted as written"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1. Break email into smaller jobs",
+        "th": "1. Break email into smaller jobs"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2. Train on how great assistants actually work",
+        "th": "2. Train on how great assistants actually work"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "3. Turn user feedback into a self-training loop",
+        "th": "3. Turn user feedback into a self-training loop"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "From drafts to a proactive assistant",
+        "th": "From drafts to a proactive assistant"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1. Break email into smaller jobs",
+        "th": "1. Break email into smaller jobs"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2. Train on how great assistants actually work",
+        "th": "2. Train on how great assistants actually work"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "3. Turn user feedback into a self-training loop",
+        "th": "3. Turn user feedback into a self-training loop"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "From drafts to a proactive assistant",
+        "th": "From drafts to a proactive assistant"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For many professionals, work means keeping track of conversations and commitments across inboxes, meetings, messages, and apps. Without rock-solid context, those commitments can fall through the cracks, damaging projects and relationships.",
+        "th": "For many professionals, work means keeping track of conversations and commitments across inboxes, meetings, messages, and apps. Without rock-solid context, those commitments can fall through the cracks, damaging projects and relationships."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Fyxer built an AI executive assistant that follows the thread as work moves across tools. It combines the latest OpenAI models with more than 500,000 hours of executive assistant workflows, dividing the work among dozens of specialized models that improve through real user feedback.",
+        "th": "Fyxer built an AI executive assistant that follows the thread as work moves across tools. It combines the latest OpenAI models with more than 500,000 hours of executive assistant workflows, dividing the work among dozens of specialized models that improve through real user feedback."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Email is one of the clearest places to see it in action. Two people can receive the same email and need completely different replies depending on the relationship, what has happened before, and what each person is trying to get done. That makes a seemingly simple task deceptively hard for AI.",
+        "th": "Email is one of the clearest places to see it in action. Two people can receive the same email and need completely different replies depending on the relationship, what has happened before, and what each person is trying to get done. That makes a seemingly simple task deceptively hard for AI."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“There’s something called Moravec’s paradox,” explains Fyxer Co-founder Archie Hollingsworth. “Things that humans find easy are hard for computers, and things that computers find easy are hard for humans.” Fyxer handles that complexity by learning how each user works, so it can respond like an assistant who already knows what matters.",
+        "th": "“There’s something called Moravec’s paradox,” explains Fyxer Co-founder Archie Hollingsworth. “Things that humans find easy are hard for computers, and things that computers find easy are hard for humans.” Fyxer handles that complexity by learning how each user works, so it can respond like an assistant who already knows what matters."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Frontier OpenAI models support key parts of the experience, from understanding the email and finding the right context to generating the draft. Fyxer chose OpenAI because its models performed best on Fyxer’s internal benchmarks, offered strong fine-tuning capabilities for subjective tasks like tone and intent, and provided hands-on engineering support through whiteboarding sessions and technical collaboration.",
+        "th": "Frontier OpenAI models support key parts of the experience, from understanding the email and finding the right context to generating the draft. Fyxer chose OpenAI because its models performed best on Fyxer’s internal benchmarks, offered strong fine-tuning capabilities for subjective tasks like tone and intent, and provided hands-on engineering support through whiteboarding sessions and technical collaboration."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Fyxer’s approach offers three lessons for founders building highly contextual AI products:",
+        "th": "Fyxer’s approach offers three lessons for founders building highly contextual AI products:"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "1. Break email into smaller jobs",
+        "th": "1. Break email into smaller jobs"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Fyxer built its system around 30–50 specialized models, each responsible for a narrow part of the email workflow. Instead of treating email as a single text-generation task, Fyxer breaks the problem into a system of predictions, like deciding whether a message requires a reply or drafting responses that match a user’s tone and context.",
+        "th": "Fyxer built its system around 30–50 specialized models, each responsible for a narrow part of the email workflow. Instead of treating email as a single text-generation task, Fyxer breaks the problem into a system of predictions, like deciding whether a message requires a reply or drafting responses that match a user’s tone and context."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Breaking the problem into many smaller models works much better than asking one model to write a good email,” Hollingsworth explains.",
+        "th": "“Breaking the problem into many smaller models works much better than asking one model to write a good email,” Hollingsworth explains."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When a new email arrives, a reply decision model classifies the message: is this something that needs a response, a scheduling action, or simply information the user should see?",
+        "th": "When a new email arrives, a reply decision model classifies the message: is this something that needs a response, a scheduling action, or simply information the user should see?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If a response is needed, additional models analyze the intent of the email and predict the likely outcome of the interaction. These models determine patterns such as whether the conversation is moving toward scheduling a meeting, resolving a request, or continuing a longer relationship thread.",
+        "th": "If a response is needed, additional models analyze the intent of the email and predict the likely outcome of the interaction. These models determine patterns such as whether the conversation is moving toward scheduling a meeting, resolving a request, or continuing a longer relationship thread."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Memory is one of the most important parts of the system. Fyxer needs to decide which details should persist across conversations and which should disappear after a single exchange. When a new email arrives, retrieval models compare it with stored interactions and surface the memories most relevant to that person and thread.",
+        "th": "Memory is one of the most important parts of the system. Fyxer needs to decide which details should persist across conversations and which should disappear after a single exchange. When a new email arrives, retrieval models compare it with stored interactions and surface the memories most relevant to that person and thread."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI models power steps across Fyxer’s system. “We use OpenAI models for everything from digesting the email, so we can understand what it is actually about, to pulling in and re-ranking the context we want to include, to the actual email generation,” Shantsila says.",
+        "th": "OpenAI models power steps across Fyxer’s system. “We use OpenAI models for everything from digesting the email, so we can understand what it is actually about, to pulling in and re-ranking the context we want to include, to the actual email generation,” Shantsila says."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "2. Train on how great assistants actually work",
+        "th": "2. Train on how great assistants actually work"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before launching its AI product, Fyxer spent years operating a human-powered executive assistant service. Over time, the team accumulated a dataset built from more than 500,000 hours of annotated executive workflows, capturing how real assistants manage professional communication.",
+        "th": "Before launching its AI product, Fyxer spent years operating a human-powered executive assistant service. Over time, the team accumulated a dataset built from more than 500,000 hours of annotated executive workflows, capturing how real assistants manage professional communication."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Those examples gave Fyxer training data drawn from the job itself. They captured the small judgments behind a good response: when to answer quickly, when to wait, which earlier conversation matters, and how the same request can call for a different response from one person to another.",
+        "th": "Those examples gave Fyxer training data drawn from the job itself. They captured the small judgments behind a good response: when to answer quickly, when to wait, which earlier conversation matters, and how the same request can call for a different response from one person to another."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Fyxer uses supervised fine-tuning and Low-Rank Adaptation (LoRA) across its broader system to create task-specific model variants while controlling training cost. Early in the product’s development, the team used OpenAI’s fine-tuning platform for tasks that needed high accuracy. More recently, Fyxer worked with OpenAI’s managed fine-tuning team to put a new checkpoint into production.",
+        "th": "Fyxer uses supervised fine-tuning and Low-Rank Adaptation (LoRA) across its broader system to create task-specific model variants while controlling training cost. Early in the product’s development, the team used OpenAI’s fine-tuning platform for tasks that needed high accuracy. More recently, Fyxer worked with OpenAI’s managed fine-tuning team to put a new checkpoint into production."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before any model is deployed, Fyxer evaluates it on validation sets built around its own email tasks, including drafting, classification, and prioritization. The team weighs accuracy alongside response time and cost, since the best choice can vary by job.",
+        "th": "Before any model is deployed, Fyxer evaluates it on validation sets built around its own email tasks, including drafting, classification, and prioritization. The team weighs accuracy alongside response time and cost, since the best choice can vary by job."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "3. Turn user feedback into a self-training loop",
+        "th": "3. Turn user feedback into a self-training loop"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Once deployed, Fyxer’s system continues improving through real user feedback. When someone edits a draft before sending it, the difference between the original and final email shows which output they preferred.",
+        "th": "Once deployed, Fyxer’s system continues improving through real user feedback. When someone edits a draft before sending it, the difference between the original and final email shows which output they preferred."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Fyxer converts those comparisons into training data using Direct Preference Optimization (DPO). Instead of manually labeling every example, the model learns from pairs of outputs: the original draft and the user-edited version.",
+        "th": "Fyxer converts those comparisons into training data using Direct Preference Optimization (DPO). Instead of manually labeling every example, the model learns from pairs of outputs: the original draft and the user-edited version."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Every drafting change then goes through an A/B test. Fyxer ships the new version only when it produces a statistically significant improvement. Its user volume means the team can sometimes reach that threshold within a day.",
+        "th": "Every drafting change then goes through an A/B test. Fyxer ships the new version only when it produces a statistically significant improvement. Its user volume means the team can sometimes reach that threshold within a day."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, 53% of Fyxer’s AI-generated drafts are accepted as written. That means the system is correctly predicting intent and tone for a large share of real conversations. In 2025 alone, Fyxer grew from $1 million to $32 million in annual recurring revenue.",
+        "th": "Today, 53% of Fyxer’s AI-generated drafts are accepted as written. That means the system is correctly predicting intent and tone for a large share of real conversations. In 2025 alone, Fyxer grew from $1 million to $32 million in annual recurring revenue."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For Hollingsworth, the stronger signal is retention. Many Fyxer customers are not deeply technical, and for some, Fyxer is the first AI system they use every day.",
+        "th": "For Hollingsworth, the stronger signal is retention. Many Fyxer customers are not deeply technical, and for some, Fyxer is the first AI system they use every day."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "From drafts to a proactive assistant",
+        "th": "From drafts to a proactive assistant"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Looking ahead, Fyxer is building a richer understanding of relationships, preferences, and ongoing work threads. Their assistant continues to evolve beyond drafting replies toward a broader AI assistant that can manage more of a user’s communication and coordination workload.",
+        "th": "Looking ahead, Fyxer is building a richer understanding of relationships, preferences, and ongoing work threads. Their assistant continues to evolve beyond drafting replies toward a broader AI assistant that can manage more of a user’s communication and coordination workload."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Our vision is to get our customers doing as much of the work they absolutely love,” Hollingsworth says. “We want to get them to a place where they never have to open their computer and can trust Fyxer to manage all of that.”",
+        "th": "“Our vision is to get our customers doing as much of the work they absolutely love,” Hollingsworth says. “We want to get them to a place where they never have to open their computer and can trust Fyxer to manage all of that.”"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "OpenAI <3 startups",
+        "th": "OpenAI <3 startups"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/13uynVdSWJS9UT4Y7EppMn/7259e4915a7e6ea2f4c52c2109eace61/square.png?w=3840&q=90&fm=webp",
+      "alt": "Legora customer story art card - Option C"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupSep 3, 2026",
+        "th": "StartupSep 3, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2GBXEJdShwgtUKQZc9Ojsm/ae87410a653bd421e514515deee02940/playco-art-card-option-b-approved.png?w=3840&q=90&fm=webp",
+      "alt": "Playco Astra customer story art card - Option B"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupSep 3, 2026",
+        "th": "StartupSep 3, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2ZUd2sTOK6p4MrjDZnvCoM/512b38a71cf26f09c3cda3c51169c401/replit-customer-story-art-card-1x1.png?w=3840&q=90&fm=webp",
+      "alt": "replit-customer-story-art-card-1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupAug 19, 2026",
+        "th": "StartupAug 19, 2026"
+      }
+    }
+  ]
+}

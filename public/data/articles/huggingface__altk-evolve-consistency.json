@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+12",
-        "th": "+12"
+        "en": "+18",
+        "th": "+18"
       }
     },
     {
@@ -737,7 +737,17 @@
     },
     {
       "type": "img",
+      "src": "/avatars/c2670566c5cbdfccf87954a9caf7d381.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
       "src": "/avatars/fa5834d4282fde8d5affa24e17494590.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/56c9764eb1d5384cc6a8f3fe8d3d0fc1.svg",
       "alt": ""
     },
     {
@@ -746,20 +756,10 @@
       "alt": ""
     },
     {
-      "type": "img",
-      "src": "/avatars/a8e6ed70291c1a54635990fe421f25e1.svg",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/tbbz59saxTLp2HXZbnHRc.png",
-      "alt": ""
-    },
-    {
       "type": "li",
       "text": {
-        "en": "+6",
-        "th": "+6"
+        "en": "+12",
+        "th": "+12"
       }
     }
   ]

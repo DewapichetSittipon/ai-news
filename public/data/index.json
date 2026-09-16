@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-09-16T19:16:38.461Z",
+  "generatedAt": "2026-09-16T22:32:31.294Z",
   "items": [
+    {
+      "id": "openai__model-misalignment-reporting-framework",
+      "slug": "model-misalignment-reporting-framework",
+      "source": "openai",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "category": "Research",
+      "date": "2026-09-16T17:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Our framework for reporting model misalignment",
+        "th": "Our framework for reporting model misalignment"
+      },
+      "summary": {
+        "en": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+        "th": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior."
+      }
+    },
     {
       "id": "openai__helping-older-adults-use-ai-in-everyday-life",
       "slug": "helping-older-adults-use-ai-in-everyday-life",
@@ -1155,23 +1172,6 @@
       "summary": {
         "en": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
         "th": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development."
-      }
-    },
-    {
-      "id": "openai__expanding-access-to-ai-with-chatgpt-ads",
-      "slug": "expanding-access-to-ai-with-chatgpt-ads",
-      "source": "openai",
-      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "category": "Product",
-      "date": "2026-08-31T04:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "A milestone in expanding access to AI",
-        "th": "A milestone in expanding access to AI"
-      },
-      "summary": {
-        "en": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-        "th": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options."
       }
     },
     {

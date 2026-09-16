@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-09-16T08:58:56.823Z",
+  "generatedAt": "2026-09-16T14:31:02.013Z",
   "items": [
+    {
+      "id": "openai__reimagining-advertising-with-ai",
+      "slug": "reimagining-advertising-with-ai",
+      "source": "openai",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "category": "Product",
+      "date": "2026-09-16T13:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Reimagining advertising with AI",
+        "th": "Reimagining advertising with AI"
+      },
+      "summary": {
+        "en": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+        "th": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify."
+      }
+    },
     {
       "id": "deepmind__introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
       "slug": "introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
@@ -291,23 +308,6 @@
       }
     },
     {
-      "id": "openai__introducing-gpt-live-1-in-the-api",
-      "slug": "introducing-gpt-live-1-in-the-api",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "category": "Product",
-      "date": "2026-09-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-        "th": "Build more natural voice experiences with GPT‑Live‑1 in the API"
-      },
-      "summary": {
-        "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-        "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
-      }
-    },
-    {
       "id": "openai__introducing-the-agents-api",
       "slug": "introducing-the-agents-api",
       "source": "openai",
@@ -322,6 +322,23 @@
       "summary": {
         "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
         "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
+      }
+    },
+    {
+      "id": "openai__introducing-gpt-live-1-in-the-api",
+      "slug": "introducing-gpt-live-1-in-the-api",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "category": "Product",
+      "date": "2026-09-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+        "th": "Build more natural voice experiences with GPT‑Live‑1 in the API"
+      },
+      "summary": {
+        "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+        "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
       }
     },
     {
@@ -699,23 +716,6 @@
       }
     },
     {
-      "id": "openai__legora-financial-statement-review-with-astra",
-      "slug": "legora-financial-statement-review-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "category": "Startup",
-      "date": "2026-09-03T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-        "th": "Legora reviewed 41 documents in minutes with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-        "th": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
-      }
-    },
-    {
       "id": "openai__playco-game-prototyping-with-astra",
       "slug": "playco-game-prototyping-with-astra",
       "source": "openai",
@@ -730,6 +730,23 @@
       "summary": {
         "en": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
         "th": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
+      }
+    },
+    {
+      "id": "openai__legora-financial-statement-review-with-astra",
+      "slug": "legora-financial-statement-review-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "category": "Startup",
+      "date": "2026-09-03T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+        "th": "Legora reviewed 41 documents in minutes with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+        "th": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
       }
     },
     {
@@ -1240,23 +1257,6 @@
       "summary": {
         "en": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
         "th": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment."
-      }
-    },
-    {
-      "id": "openai__expanding-our-presence-in-brazil",
-      "slug": "expanding-our-presence-in-brazil",
-      "source": "openai",
-      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "category": "Company",
-      "date": "2026-08-27T03:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Expanding OpenAI’s presence in Brazil",
-        "th": "Expanding OpenAI’s presence in Brazil"
-      },
-      "summary": {
-        "en": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-        "th": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country."
       }
     },
     {

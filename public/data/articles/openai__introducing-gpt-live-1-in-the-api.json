@@ -128,7 +128,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Interruption handling: Improves interruption handling via a single model that reasons over incoming and outgoing audio together, avoiding the latency and brittle handoffs of chained STT–LLM–TTS architectures.",
+        "th": "Interruption handling: Improves interruption handling via a single model that reasons over incoming and outgoing audio together, avoiding the latency and brittle handoffs of chained STT–LLM–TTS architectures."
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "Reasoning & tool calling delegation: GPT‑Live‑1 can delegate reasoning and tool calls to a backend text model like GPT‑6 Astra or a third-party model.",
+        "th": "Reasoning & tool calling delegation: GPT‑Live‑1 can delegate reasoning and tool calls to a backend text model like GPT‑6 Astra or a third-party model."
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "Reasoning & tool calling delegation: GPT‑Live‑1 can delegate reasoning and tool calls to a backend text model like GPT‑6 Astra or a third-party model.",
         "th": "Reasoning & tool calling delegation: GPT‑Live‑1 can delegate reasoning and tool calls to a backend text model like GPT‑6 Astra or a third-party model."
@@ -142,7 +156,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Tone, pace, and style: Lets developers shape an agent’s tone, pace, and conversational style through the system prompt.",
+        "th": "Tone, pace, and style: Lets developers shape an agent’s tone, pace, and conversational style through the system prompt."
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "Silent context management & background noise: Better handles background noise and silence without interrupting the conversation or narrating every step out loud.",
+        "th": "Silent context management & background noise: Better handles background noise and silence without interrupting the conversation or narrating every step out loud."
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "Silent context management & background noise: Better handles background noise and silence without interrupting the conversation or narrating every step out loud.",
         "th": "Silent context management & background noise: Better handles background noise and silence without interrupting the conversation or narrating every step out loud."
@@ -156,7 +184,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Long-session reliability: Improves context retention and conversational quality across extended interactions.",
+        "th": "Long-session reliability: Improves context retention and conversational quality across extended interactions."
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "Telephony support: Enables deployment of full-duplex voice agents for phone calls, from restaurant reservations to customer support.",
+        "th": "Telephony support: Enables deployment of full-duplex voice agents for phone calls, from restaurant reservations to customer support."
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "Telephony support: Enables deployment of full-duplex voice agents for phone calls, from restaurant reservations to customer support.",
         "th": "Telephony support: Enables deployment of full-duplex voice agents for phone calls, from restaurant reservations to customer support."

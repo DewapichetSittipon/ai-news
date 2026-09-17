@@ -317,6 +317,13 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Modern reasoning models are used in more complex environments than o1‑preview; their reasoning process is increasingly blended with communicating with people, other AIs, and using tools. Many of those interactions have to be supervised, thus blurring the boundary we aim to preserve.",
+        "th": "Modern reasoning models are used in more complex environments than o1‑preview; their reasoning process is increasingly blended with communicating with people, other AIs, and using tools. Many of those interactions have to be supervised, thus blurring the boundary we aim to preserve."
+      }
+    },
+    {
       "type": "li",
       "text": {
         "en": "The AI is becoming better at reasoning about and manipulating its own reasoning process.",
@@ -324,7 +331,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "The AI is becoming better at reasoning about and manipulating its own reasoning process.",
+        "th": "The AI is becoming better at reasoning about and manipulating its own reasoning process."
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "With improved pretraining performance, we also see the models become much smarter even without using verbalized reasoning at all.",
+        "th": "With improved pretraining performance, we also see the models become much smarter even without using verbalized reasoning at all."
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "With improved pretraining performance, we also see the models become much smarter even without using verbalized reasoning at all.",
         "th": "With improved pretraining performance, we also see the models become much smarter even without using verbalized reasoning at all."
@@ -464,6 +485,13 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Navigating the next period of AI progress, by building an automated AI researcher, iterating with it on the alignment problem and finding ways for people to remain part of the self-improvement loop.",
+        "th": "Navigating the next period of AI progress, by building an automated AI researcher, iterating with it on the alignment problem and finding ways for people to remain part of the self-improvement loop."
+      }
+    },
+    {
       "type": "li",
       "text": {
         "en": "Delivering the benefits of scientific progress and economic growth that very intelligent machines enable.",
@@ -471,7 +499,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Delivering the benefits of scientific progress and economic growth that very intelligent machines enable.",
+        "th": "Delivering the benefits of scientific progress and economic growth that very intelligent machines enable."
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "Empowering everyone individually with a personal AGI.",
+        "th": "Empowering everyone individually with a personal AGI."
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "Empowering everyone individually with a personal AGI.",
         "th": "Empowering everyone individually with a personal AGI."

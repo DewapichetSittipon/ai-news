@@ -308,6 +308,13 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Fully managed environments or deployments within your VPC",
+        "th": "Fully managed environments or deployments within your VPC"
+      }
+    },
+    {
       "type": "li",
       "text": {
         "en": "Specific file and secret storage mechanisms",
@@ -315,7 +322,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Specific file and secret storage mechanisms",
+        "th": "Specific file and secret storage mechanisms"
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "Different CPU, GPU, and memory configurations, with performance, cold-start, and cost profiles to match your company’s workflow.",
+        "th": "Different CPU, GPU, and memory configurations, with performance, cold-start, and cost profiles to match your company’s workflow."
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "Different CPU, GPU, and memory configurations, with performance, cold-start, and cost profiles to match your company’s workflow.",
         "th": "Different CPU, GPU, and memory configurations, with performance, cold-start, and cost profiles to match your company’s workflow."

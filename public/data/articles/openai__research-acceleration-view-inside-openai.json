@@ -268,7 +268,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Decide: what to work on, what to continue, where to allocate",
+        "th": "Decide: what to work on, what to continue, where to allocate"
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "Design: research ideas and engineering specs",
+        "th": "Design: research ideas and engineering specs"
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "Design: research ideas and engineering specs",
         "th": "Design: research ideas and engineering specs"
@@ -282,7 +296,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Build: code and datasets",
+        "th": "Build: code and datasets"
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "Run: training/eval runs, hardware, serving",
+        "th": "Run: training/eval runs, hardware, serving"
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "Run: training/eval runs, hardware, serving",
         "th": "Run: training/eval runs, hardware, serving"
@@ -296,7 +324,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Analyze: experiments, models, deployment, external work",
+        "th": "Analyze: experiments, models, deployment, external work"
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "Communicate: findings, feedback, status, decisions",
+        "th": "Communicate: findings, feedback, status, decisions"
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "Communicate: findings, feedback, status, decisions",
         "th": "Communicate: findings, feedback, status, decisions"
@@ -450,7 +492,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "“Researcher” is a broad term for any member of our research organization, including some who build research infrastructure, manage research projects, or otherwise support the enterprise.",
+        "th": "“Researcher” is a broad term for any member of our research organization, including some who build research infrastructure, manage research projects, or otherwise support the enterprise."
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "Metrics of coding agent use cover most, but not all, usage given rapid evolution in the tools and systems researchers rely on.",
+        "th": "Metrics of coding agent use cover most, but not all, usage given rapid evolution in the tools and systems researchers rely on."
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "Metrics of coding agent use cover most, but not all, usage given rapid evolution in the tools and systems researchers rely on.",
         "th": "Metrics of coding agent use cover most, but not all, usage given rapid evolution in the tools and systems researchers rely on."

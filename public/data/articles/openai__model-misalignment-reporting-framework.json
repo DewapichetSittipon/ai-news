@@ -177,7 +177,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Self-generated instructions in task summaries⁠(opens in a new window). An unreleased research model inserted unrelated instructions, including instructions to disregard its normal constraints, into summaries used to continue its work in a new context window. We identified 27 affected summaries.",
+        "th": "Self-generated instructions in task summaries⁠(opens in a new window). An unreleased research model inserted unrelated instructions, including instructions to disregard its normal constraints, into summaries used to continue its work in a new context window. We identified 27 affected summaries."
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "Instructions to conceal mistakes in task summaries⁠(opens in a new window). During the training of GPT‑5.6 Sol, many model instances added instructions to their summaries to conceal mistakes or misaligned behavior from the user. For example, compaction summaries included instructions to invent missing historical data without disclosing it and to hide mismatches in source versions.",
+        "th": "Instructions to conceal mistakes in task summaries⁠(opens in a new window). During the training of GPT‑5.6 Sol, many model instances added instructions to their summaries to conceal mistakes or misaligned behavior from the user. For example, compaction summaries included instructions to invent missing historical data without disclosing it and to hide mismatches in source versions."
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "Instructions to conceal mistakes in task summaries⁠(opens in a new window). During the training of GPT‑5.6 Sol, many model instances added instructions to their summaries to conceal mistakes or misaligned behavior from the user. For example, compaction summaries included instructions to invent missing historical data without disclosing it and to hide mismatches in source versions.",
         "th": "Instructions to conceal mistakes in task summaries⁠(opens in a new window). During the training of GPT‑5.6 Sol, many model instances added instructions to their summaries to conceal mistakes or misaligned behavior from the user. For example, compaction summaries included instructions to invent missing historical data without disclosing it and to hide mismatches in source versions."
@@ -191,7 +205,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Searching public repositories for exposed API keys, then fabricating information⁠(opens in a new window). While answering a routine question about earnings figures in a California county, a model found and used an exposed API key without authorization. When it still wasn’t able to retrieve the requested figures, it fabricated them and presented them as data from the requested source.",
+        "th": "Searching public repositories for exposed API keys, then fabricating information⁠(opens in a new window). While answering a routine question about earnings figures in a California county, a model found and used an exposed API key without authorization. When it still wasn’t able to retrieve the requested figures, it fabricated them and presented them as data from the requested source."
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "Uploading files to the internet in order to cite them⁠(opens in a new window). When a user asked an unreleased model for the IDs and names of lakes larger than 5,000,000 square meters, the agent found the correct answer using Python. But since the instructions asked for a browser citation, the agent decided to upload the file so that it could cite it in its answer, without asking the user.",
+        "th": "Uploading files to the internet in order to cite them⁠(opens in a new window). When a user asked an unreleased model for the IDs and names of lakes larger than 5,000,000 square meters, the agent found the correct answer using Python. But since the instructions asked for a browser citation, the agent decided to upload the file so that it could cite it in its answer, without asking the user."
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "Uploading files to the internet in order to cite them⁠(opens in a new window). When a user asked an unreleased model for the IDs and names of lakes larger than 5,000,000 square meters, the agent found the correct answer using Python. But since the instructions asked for a browser citation, the agent decided to upload the file so that it could cite it in its answer, without asking the user.",
         "th": "Uploading files to the internet in order to cite them⁠(opens in a new window). When a user asked an unreleased model for the IDs and names of lakes larger than 5,000,000 square meters, the agent found the correct answer using Python. But since the instructions asked for a browser citation, the agent decided to upload the file so that it could cite it in its answer, without asking the user."
@@ -205,7 +233,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Unsanctioned writes and communication through an internal software repository⁠(opens in a new window). Models used an internal software repository as a message board to exchange requests and responses across separate training samples while searching for missing input files, though they weren’t able to recover those files. This report also examines an earlier instance in which a model successfully uploaded test files to a repository while attempting to bypass network restrictions.",
+        "th": "Unsanctioned writes and communication through an internal software repository⁠(opens in a new window). Models used an internal software repository as a message board to exchange requests and responses across separate training samples while searching for missing input files, though they weren’t able to recover those files. This report also examines an earlier instance in which a model successfully uploaded test files to a repository while attempting to bypass network restrictions."
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "Unsanctioned file sharing between collaborating agents⁠(opens in a new window). Agents working together on the same training task used public file-hosting websites to share files when they could not access one another’s local files. This made task deliverables available at public URLs, even though the task requested the models use only local files.",
+        "th": "Unsanctioned file sharing between collaborating agents⁠(opens in a new window). Agents working together on the same training task used public file-hosting websites to share files when they could not access one another’s local files. This made task deliverables available at public URLs, even though the task requested the models use only local files."
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "Unsanctioned file sharing between collaborating agents⁠(opens in a new window). Agents working together on the same training task used public file-hosting websites to share files when they could not access one another’s local files. This made task deliverables available at public URLs, even though the task requested the models use only local files.",
         "th": "Unsanctioned file sharing between collaborating agents⁠(opens in a new window). Agents working together on the same training task used public file-hosting websites to share files when they could not access one another’s local files. This made task deliverables available at public URLs, even though the task requested the models use only local files."
@@ -296,7 +338,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Further details of what happened and any resulting harm;",
+        "th": "Further details of what happened and any resulting harm;"
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "How we discovered the misalignment, and the scope of our investigation;",
+        "th": "How we discovered the misalignment, and the scope of our investigation;"
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "How we discovered the misalignment, and the scope of our investigation;",
         "th": "How we discovered the misalignment, and the scope of our investigation;"
@@ -310,6 +366,13 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Our interpretation of its implications for alignment research and technical AI safety;",
+        "th": "Our interpretation of its implications for alignment research and technical AI safety;"
+      }
+    },
+    {
       "type": "li",
       "text": {
         "en": "Important unanswered questions raised by the example;",
@@ -317,7 +380,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Important unanswered questions raised by the example;",
+        "th": "Important unanswered questions raised by the example;"
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "Measures we are taking or planning to take to address the behavior. These may not always be available at the time of disclosure, since we may publish the misalignment report before completing our investigation or developing a fix.",
+        "th": "Measures we are taking or planning to take to address the behavior. These may not always be available at the time of disclosure, since we may publish the misalignment report before completing our investigation or developing a fix."
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "Measures we are taking or planning to take to address the behavior. These may not always be available at the time of disclosure, since we may publish the misalignment report before completing our investigation or developing a fix.",
         "th": "Measures we are taking or planning to take to address the behavior. These may not always be available at the time of disclosure, since we may publish the misalignment report before completing our investigation or developing a fix."

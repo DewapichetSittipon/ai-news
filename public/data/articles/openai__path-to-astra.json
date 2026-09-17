@@ -163,7 +163,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "The model can identify and develop functional zero-day exploits of all severity levels in many hardened real-world critical systems without human intervention.",
+        "th": "The model can identify and develop functional zero-day exploits of all severity levels in many hardened real-world critical systems without human intervention."
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "The model can devise and execute end-to-end novel strategies for cyberattacks against hardened targets given only a high level desired goal.",
+        "th": "The model can devise and execute end-to-end novel strategies for cyberattacks against hardened targets given only a high level desired goal."
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "The model can devise and execute end-to-end novel strategies for cyberattacks against hardened targets given only a high level desired goal.",
         "th": "The model can devise and execute end-to-end novel strategies for cyberattacks against hardened targets given only a high level desired goal."
@@ -226,7 +240,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Malicious actors using the model. Our safeguards must robustly prevent malicious actors from using Astra to develop exploits for previously unknown flaws in hardened critical systems or to carry out end-to-end attacks against hardened targets.",
+        "th": "Malicious actors using the model. Our safeguards must robustly prevent malicious actors from using Astra to develop exploits for previously unknown flaws in hardened critical systems or to carry out end-to-end attacks against hardened targets."
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "The model taking unauthorized, misaligned actions. Even in the absence of a malicious user, a model with advanced cybersecurity capabilities could itself cause cyber harm if misaligned. In addition to having a very high standard for alignment for models with these capabilities, our safeguards must be able to rapidly detect and contain misaligned actions that could cause significant real-world harm as a second layer of defense.",
+        "th": "The model taking unauthorized, misaligned actions. Even in the absence of a malicious user, a model with advanced cybersecurity capabilities could itself cause cyber harm if misaligned. In addition to having a very high standard for alignment for models with these capabilities, our safeguards must be able to rapidly detect and contain misaligned actions that could cause significant real-world harm as a second layer of defense."
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "The model taking unauthorized, misaligned actions. Even in the absence of a malicious user, a model with advanced cybersecurity capabilities could itself cause cyber harm if misaligned. In addition to having a very high standard for alignment for models with these capabilities, our safeguards must be able to rapidly detect and contain misaligned actions that could cause significant real-world harm as a second layer of defense.",
         "th": "The model taking unauthorized, misaligned actions. Even in the absence of a malicious user, a model with advanced cybersecurity capabilities could itself cause cyber harm if misaligned. In addition to having a very high standard for alignment for models with these capabilities, our safeguards must be able to rapidly detect and contain misaligned actions that could cause significant real-world harm as a second layer of defense."
@@ -282,7 +310,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Leveraging new training techniques for model robustness, Astra more robustly refuses requests for disallowed cyber assistance. On our set of cyber jailbreak evaluations, Astra refuses 91.5% of requests (compared to 59% from GPT‑5.6 Sol).",
+        "th": "Leveraging new training techniques for model robustness, Astra more robustly refuses requests for disallowed cyber assistance. On our set of cyber jailbreak evaluations, Astra refuses 91.5% of requests (compared to 59% from GPT‑5.6 Sol)."
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "For accounts assessed as higher risk, we apply a more conservative model-behavior boundary that refuses a broader range of potentially risky cyber assistance. For high risk users, we’ve expanded the context of our monitoring systems to be able to catch these kinds of cyber abuse.",
+        "th": "For accounts assessed as higher risk, we apply a more conservative model-behavior boundary that refuses a broader range of potentially risky cyber assistance. For high risk users, we’ve expanded the context of our monitoring systems to be able to catch these kinds of cyber abuse."
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "For accounts assessed as higher risk, we apply a more conservative model-behavior boundary that refuses a broader range of potentially risky cyber assistance. For high risk users, we’ve expanded the context of our monitoring systems to be able to catch these kinds of cyber abuse.",
         "th": "For accounts assessed as higher risk, we apply a more conservative model-behavior boundary that refuses a broader range of potentially risky cyber assistance. For high risk users, we’ve expanded the context of our monitoring systems to be able to catch these kinds of cyber abuse."
@@ -324,7 +366,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Model alignment: In our evaluations, Astra was far more likely than GPT‑5.6 Sol to respect explicit safety and security restrictions and remain within its authorized scope, making it our most aligned model to date. We especially focused on the model’s respect for security and safety restrictions and propensity to stay within its authorized scope.",
+        "th": "Model alignment: In our evaluations, Astra was far more likely than GPT‑5.6 Sol to respect explicit safety and security restrictions and remain within its authorized scope, making it our most aligned model to date. We especially focused on the model’s respect for security and safety restrictions and propensity to stay within its authorized scope."
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "Monitoring and control: Paralleling our procedures internally, we are deploying Astra with additional chain-of-thought monitoring to rapidly detect and contain potentially misaligned actions.",
+        "th": "Monitoring and control: Paralleling our procedures internally, we are deploying Astra with additional chain-of-thought monitoring to rapidly detect and contain potentially misaligned actions."
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "Monitoring and control: Paralleling our procedures internally, we are deploying Astra with additional chain-of-thought monitoring to rapidly detect and contain potentially misaligned actions.",
         "th": "Monitoring and control: Paralleling our procedures internally, we are deploying Astra with additional chain-of-thought monitoring to rapidly detect and contain potentially misaligned actions."

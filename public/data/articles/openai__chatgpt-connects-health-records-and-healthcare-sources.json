@@ -140,7 +140,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "What has changed since this patient’s last visit?",
+        "th": "What has changed since this patient’s last visit?"
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "Which recent lab results should I review before today’s appointment?",
+        "th": "Which recent lab results should I review before today’s appointment?"
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "Which recent lab results should I review before today’s appointment?",
         "th": "Which recent lab results should I review before today’s appointment?"
@@ -154,7 +168,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Have there been medication changes or new specialist recommendations?",
+        "th": "Have there been medication changes or new specialist recommendations?"
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "What follow-ups, referrals, or unresolved issues should I be aware of?",
+        "th": "What follow-ups, referrals, or unresolved issues should I be aware of?"
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "What follow-ups, referrals, or unresolved issues should I be aware of?",
         "th": "What follow-ups, referrals, or unresolved issues should I be aware of?"
@@ -182,7 +210,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "EHR context in ChatGPT: Bring authorized patient information from a supported EHR into ChatGPT to review patient history, identify changes, and prepare for appointments.",
+        "th": "EHR context in ChatGPT: Bring authorized patient information from a supported EHR into ChatGPT to review patient history, identify changes, and prepare for appointments."
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "ChatGPT in the EHR workflow: In supported deployments, ChatGPT can be integrated directly into an EHR layout, enabling AI assisted workflows without leaving the patient chart.",
+        "th": "ChatGPT in the EHR workflow: In supported deployments, ChatGPT can be integrated directly into an EHR layout, enabling AI assisted workflows without leaving the patient chart."
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "ChatGPT in the EHR workflow: In supported deployments, ChatGPT can be integrated directly into an EHR layout, enabling AI assisted workflows without leaving the patient chart.",
         "th": "ChatGPT in the EHR workflow: In supported deployments, ChatGPT can be integrated directly into an EHR layout, enabling AI assisted workflows without leaving the patient chart."
@@ -311,6 +353,13 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "ChatGPT for Healthcare customers: Ask your workspace administrator to enable the EHR integration and Healthcare Public Data plugin.",
+        "th": "ChatGPT for Healthcare customers: Ask your workspace administrator to enable the EHR integration and Healthcare Public Data plugin."
+      }
+    },
+    {
       "type": "li",
       "text": {
         "en": "ChatGPT Enterprise customers: Contact your OpenAI account team to confirm eligibility and the right configuration for your Regulated Workspace.",
@@ -318,7 +367,21 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "ChatGPT Enterprise customers: Contact your OpenAI account team to confirm eligibility and the right configuration for your Regulated Workspace.",
+        "th": "ChatGPT Enterprise customers: Contact your OpenAI account team to confirm eligibility and the right configuration for your Regulated Workspace."
+      }
+    },
+    {
       "type": "li",
+      "text": {
+        "en": "Individual clinicians: Eligible U.S. ChatGPT for Clinicians users can install the Healthcare Public Data plugin. The EHR integration is not available for individual accounts.",
+        "th": "Individual clinicians: Eligible U.S. ChatGPT for Clinicians users can install the Healthcare Public Data plugin. The EHR integration is not available for individual accounts."
+      }
+    },
+    {
+      "type": "p",
       "text": {
         "en": "Individual clinicians: Eligible U.S. ChatGPT for Clinicians users can install the Healthcare Public Data plugin. The EHR integration is not available for individual accounts.",
         "th": "Individual clinicians: Eligible U.S. ChatGPT for Clinicians users can install the Healthcare Public Data plugin. The EHR integration is not available for individual accounts."

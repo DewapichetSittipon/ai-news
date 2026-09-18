@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T17:37:26.438Z",
+  "generatedAt": "2026-09-18T20:14:24.387Z",
   "items": [
     {
       "id": "google-ai__expanding-ai-economy-research-bench",
@@ -33,6 +33,23 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_Header_V2.max-600x600.format-webp.webp\">Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow to",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_Header_V2.max-600x600.format-webp.webp\">Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow to"
+      }
+    },
+    {
+      "id": "anthropic__accenture-embedded-evaluation",
+      "slug": "accenture-embedded-evaluation",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "category": "News",
+      "date": "2026-09-18T00:00:00.000Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Partnering with Accenture on embedded evaluation",
+        "th": "Partnering with Accenture on embedded evaluation"
+      },
+      "summary": {
+        "en": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
+        "th": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years."
       }
     },
     {
@@ -1937,23 +1954,6 @@
       "summary": {
         "en": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
         "th": "Gemini Robotics ER 2 ช่วยให้หุ่นยนต์ให้เหตุผล ทำงานร่วมกัน และแก้ไขงานในโลกแห่งความเป็นจริง ซึ่งแสดงถึงการเปลี่ยนแปลงขั้นตอนในการทำความเข้าใจวิดีโอ การจัดเครื่องมือ และการทำงานร่วมกันหลายหุ่นยนต์สำหรับแอปพลิเคชันหุ่นยนต์"
-      }
-    },
-    {
-      "id": "anthropic__investigating-incidents-cybersecurity-evals",
-      "slug": "investigating-incidents-cybersecurity-evals",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "category": "News",
-      "date": "2026-07-30T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Lock&backgroundColor=heather",
-      "title": {
-        "en": "Investigating three real-world incidents in our cybersecurity evaluations",
-        "th": "การตรวจสอบเหตุการณ์ในโลกแห่งความเป็นจริงสามเหตุการณ์ในการประเมินความปลอดภัยทางไซเบอร์ของเรา"
-      },
-      "summary": {
-        "en": "We found three cases where a Claude model reached the internet from an evaluation environment and accessed real systems. We share what happened and what we're changing.",
-        "th": "We found three cases where a Claude model reached the internet from an evaluation environment and accessed real systems. We share what happened and what we're changing."
       }
     },
     {

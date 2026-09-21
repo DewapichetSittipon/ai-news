@@ -1,6 +1,57 @@
 {
-  "generatedAt": "2026-09-21T09:28:49.202Z",
+  "generatedAt": "2026-09-21T16:09:12.263Z",
   "items": [
+    {
+      "id": "huggingface__pruning-llms-like-a-physicist-block-removal-as-an",
+      "slug": "pruning-llms-like-a-physicist-block-removal-as-an",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "category": "News",
+      "date": "2026-09-21T13:44:34.000Z",
+      "image": null,
+      "title": {
+        "en": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+        "th": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem"
+      },
+      "summary": {
+        "en": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+        "th": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem"
+      }
+    },
+    {
+      "id": "openai__v7",
+      "slug": "v7",
+      "source": "openai",
+      "url": "https://openai.com/index/v7",
+      "category": "Startup",
+      "date": "2026-09-21T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How V7 gives AI agents institutional memory",
+        "th": "How V7 gives AI agents institutional memory"
+      },
+      "summary": {
+        "en": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+        "th": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work."
+      }
+    },
+    {
+      "id": "huggingface__tokenizers-v1",
+      "slug": "tokenizers-v1",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "category": "News",
+      "date": "2026-09-21T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "tokenizers v1: encode, decode and scaling, measured",
+        "th": "tokenizers v1: encode, decode and scaling, measured"
+      },
+      "summary": {
+        "en": "tokenizers v1: encode, decode and scaling, measured",
+        "th": "tokenizers v1: encode, decode and scaling, measured"
+      }
+    },
     {
       "id": "google-ai__expanding-ai-economy-research-bench",
       "slug": "expanding-ai-economy-research-bench",
@@ -529,23 +580,6 @@
       }
     },
     {
-      "id": "openai__introducing-gpt-live-1-in-the-api",
-      "slug": "introducing-gpt-live-1-in-the-api",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "category": "Product",
-      "date": "2026-09-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-        "th": "Build more natural voice experiences with GPT‑Live‑1 in the API"
-      },
-      "summary": {
-        "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-        "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
-      }
-    },
-    {
       "id": "openai__introducing-the-agents-api",
       "slug": "introducing-the-agents-api",
       "source": "openai",
@@ -560,6 +594,23 @@
       "summary": {
         "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
         "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
+      }
+    },
+    {
+      "id": "openai__introducing-gpt-live-1-in-the-api",
+      "slug": "introducing-gpt-live-1-in-the-api",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "category": "Product",
+      "date": "2026-09-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+        "th": "Build more natural voice experiences with GPT‑Live‑1 in the API"
+      },
+      "summary": {
+        "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+        "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
       }
     },
     {
@@ -696,23 +747,6 @@
       "summary": {
         "en": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
         "th": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits."
-      }
-    },
-    {
-      "id": "huggingface__safety-for-whom",
-      "slug": "safety-for-whom",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-      "category": "News",
-      "date": "2026-09-08T14:23:07.000Z",
-      "image": null,
-      "title": {
-        "en": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
-        "th": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic"
-      },
-      "summary": {
-        "en": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
-        "th": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic"
       }
     },
     {
@@ -937,23 +971,6 @@
       }
     },
     {
-      "id": "openai__legora-financial-statement-review-with-astra",
-      "slug": "legora-financial-statement-review-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "category": "Startup",
-      "date": "2026-09-03T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-        "th": "Legora reviewed 41 documents in minutes with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-        "th": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
-      }
-    },
-    {
       "id": "openai__playco-game-prototyping-with-astra",
       "slug": "playco-game-prototyping-with-astra",
       "source": "openai",
@@ -968,6 +985,23 @@
       "summary": {
         "en": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
         "th": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
+      }
+    },
+    {
+      "id": "openai__legora-financial-statement-review-with-astra",
+      "slug": "legora-financial-statement-review-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "category": "Startup",
+      "date": "2026-09-03T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+        "th": "Legora reviewed 41 documents in minutes with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+        "th": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
       }
     },
     {
@@ -1206,23 +1240,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GooglePics_Hero.max-600x600.format-webp.webp\">Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now av",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GooglePics_Hero.max-600x600.format-webp.webp\">Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now av"
-      }
-    },
-    {
-      "id": "openai__path-to-astra",
-      "slug": "path-to-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/path-to-astra",
-      "category": "Safety",
-      "date": "2026-09-01T13:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Path to Astra: critical capabilities and frontier safeguards",
-        "th": "Path to Astra: critical capabilities and frontier safeguards"
-      },
-      "summary": {
-        "en": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
-        "th": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release."
       }
     },
     {
@@ -2192,23 +2209,6 @@
       "summary": {
         "en": "Welcome Inkling by Thinking Machines",
         "th": "ยินดีต้อนรับ Inkling โดย Thinking Machines"
-      }
-    },
-    {
-      "id": "huggingface__real-world-voiceeq",
-      "slug": "real-world-voiceeq",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/real-world-voiceeq",
-      "category": "News",
-      "date": "2026-07-15T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-        "th": "ขอแนะนำ VoiceEQ ในโลกแห่งความเป็นจริง: การวัดคุณภาพเสียงของมนุษย์ด้วย AI"
-      },
-      "summary": {
-        "en": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-        "th": "ขอแนะนำ VoiceEQ ในโลกแห่งความเป็นจริง: การวัดคุณภาพเสียงของมนุษย์ด้วย AI"
       }
     },
     {

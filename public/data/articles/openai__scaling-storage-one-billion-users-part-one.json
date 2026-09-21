@@ -226,21 +226,21 @@
       }
     },
     {
-      "type": "h3",
+      "type": "p",
       "text": {
         "en": "Clients",
         "th": "Clients"
       }
     },
     {
-      "type": "h3",
+      "type": "p",
       "text": {
         "en": "Online storage platform",
         "th": "Online storage platform"
       }
     },
     {
-      "type": "h3",
+      "type": "p",
       "text": {
         "en": "Storage resources",
         "th": "Storage resources"
@@ -279,6 +279,13 @@
       "text": {
         "en": "And more",
         "th": "And more"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Habitat",
+        "th": "Habitat"
       }
     },
     {
@@ -356,13 +363,6 @@
       "text": {
         "en": "Blob storageStorage resources",
         "th": "Blob storageStorage resources"
-      }
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "CDC ServicesChange Data Capture",
-        "th": "CDC ServicesChange Data Capture"
       }
     },
     {
@@ -520,38 +520,24 @@
       }
     },
     {
-      "type": "h3",
+      "type": "p",
       "text": {
         "en": "Client",
         "th": "Client"
       }
     },
     {
-      "type": "h3",
+      "type": "p",
       "text": {
         "en": "OpenAI",
         "th": "OpenAI"
       }
     },
     {
-      "type": "h3",
+      "type": "p",
       "text": {
         "en": "Azure Cosmos DB",
         "th": "Azure Cosmos DB"
-      }
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "Habitat client sdk",
-        "th": "Habitat client sdk"
-      }
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "envoy",
-        "th": "envoy"
       }
     },
     {
@@ -573,13 +559,6 @@
       "text": {
         "en": "habitat-serviceprocess 3",
         "th": "habitat-serviceprocess 3"
-      }
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "habitat-envoy",
-        "th": "habitat-envoy"
       }
     },
     {

@@ -1,0 +1,802 @@
+{
+  "id": "huggingface__tokenizers-v1",
+  "slug": "tokenizers-v1",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/tokenizers-v1",
+  "category": "News",
+  "date": "2026-09-21T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "tokenizers v1: encode, decode and scaling, measured",
+    "th": "tokenizers v1: encode, decode and scaling, measured"
+  },
+  "summary": {
+    "en": "tokenizers v1: encode, decode and scaling, measured",
+    "th": "tokenizers v1: encode, decode and scaling, measured"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1624608153440-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608146735109-5fcfb7c407408029ba3577e2.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617264212503-603d25b75f9d390ab190b777.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1627505688463-60107b385ac3e86b3ea4fc34.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/61929226ded356549e20c5da/ONUjP2S5fUWd07BiFXm0i.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+22",
+        "th": "+22"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674683851722-62441cb7456803e95009a08f.jpeg",
+      "alt": "Arthur Zucker's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608146735109-5fcfb7c407408029ba3577e2.png",
+      "alt": "Simon Brandeis's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1666977434736-617bc8d1000dbbbf7c225eed.png",
+      "alt": "Luc Georges's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg",
+      "alt": "Lysandre's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Results",
+        "th": "Results"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What V1 Is The Split: Bitstreams Instead Of A Regex The Word Cache The Merge Loop",
+        "th": "What V1 Is The Split: Bitstreams Instead Of A Regex The Word Cache The Merge Loop"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The Split: Bitstreams Instead Of A Regex",
+        "th": "The Split: Bitstreams Instead Of A Regex"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The Word Cache",
+        "th": "The Word Cache"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The Merge Loop",
+        "th": "The Merge Loop"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Method",
+        "th": "Method"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What This Adds Up To",
+        "th": "What This Adds Up To"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Getting It",
+        "th": "Getting It"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Progress Towards V1 Release Candidate: Implemented 1.0.0 After 1.0.0",
+        "th": "Progress Towards V1 Release Candidate: Implemented 1.0.0 After 1.0.0"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Release Candidate: Implemented",
+        "th": "Release Candidate: Implemented"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1.0.0",
+        "th": "1.0.0"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "After 1.0.0",
+        "th": "After 1.0.0"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As models become faster and workloads scale, that balance begins to shift. Training on massive datasets, serving many concurrent requests, or repeatedly processing long inputs can put enough pressure on the tokenizer that it starves the model of data.",
+        "th": "As models become faster and workloads scale, that balance begins to shift. Training on massive datasets, serving many concurrent requests, or repeatedly processing long inputs can put enough pressure on the tokenizer that it starves the model of data."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This is why we have chosen to heavily focus on performance for the upcoming version 1 of tokenizers. Tokenization should be light and should scale with your workflow. Your GPUs should never sit idle waiting for the CPU to complete its tokenization.",
+        "th": "This is why we have chosen to heavily focus on performance for the upcoming version 1 of tokenizers. Tokenization should be light and should scale with your workflow. Your GPUs should never sit idle waiting for the CPU to complete its tokenization."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In this article, we look at what makes v1 faster than v0.23, often by tens of times.",
+        "th": "In this article, we look at what makes v1 faster than v0.23, often by tens of times."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This work was entirely possible thanks to the rest of the ecosystem. Tokenization is a very active area of open source work, and libraries such as gigatoken, tiktoken, kitoken, tokie, fastokens, wordchipper and ai-tokenizer, as well as many others, have each pushed on what a fast tokenizer can be. We read that work, and several of the ideas below reached us because another project showed they were worth trying.",
+        "th": "This work was entirely possible thanks to the rest of the ecosystem. Tokenization is a very active area of open source work, and libraries such as gigatoken, tiktoken, kitoken, tokie, fastokens, wordchipper and ai-tokenizer, as well as many others, have each pushed on what a fast tokenizer can be. We read that work, and several of the ideas below reached us because another project showed they were worth trying."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before this refactor, tokenizers was nowhere near the performance it could have had, so contributing to it may not have seemed worth it. With this refactor, we hope to make clear that we intend tokenizers to be a library worth contributing to.",
+        "th": "Before this refactor, tokenizers was nowhere near the performance it could have had, so contributing to it may not have seemed worth it. With this refactor, we hope to make clear that we intend tokenizers to be a library worth contributing to."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We also thank IBM, NVIDIA, and the ExecuTorch team for contributing patches and helping us test across a wide range of hardware to broaden platform support.",
+        "th": "We also thank IBM, NVIDIA, and the ExecuTorch team for contributing patches and helping us test across a wide range of hardware to broaden platform support."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Results",
+        "th": "Results"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We showcase results for the release candidate of tokenizers v1 against other widely used alternatives. We go over single-threaded, multi-threaded, scaling across threads, per-model comparison, per-language comparison, latency, decoding throughput, memory heap, as well as crate size.",
+        "th": "We showcase results for the release candidate of tokenizers v1 against other widely used alternatives. We go over single-threaded, multi-threaded, scaling across threads, per-model comparison, per-language comparison, latency, decoding throughput, memory heap, as well as crate size."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We run this from the tokbench repository, and add a command to rerun the benchmarks on your hardware if you would like to do so.",
+        "th": "We run this from the tokbench repository, and add a command to rerun the benchmarks on your hardware if you would like to do so."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What V1 Is",
+        "th": "What V1 Is"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "v1 will produce the same token IDs as v0.23. The goal was to preserve the output, the API, the vocabulary and the merge ranks, and improve everything that can be improved. That includes breadth. The library stays general across tokenizer families rather than specialising on BPE, so v1 loads everything v0.23 loaded.",
+        "th": "v1 will produce the same token IDs as v0.23. The goal was to preserve the output, the API, the vocabulary and the merge ranks, and improve everything that can be improved. That includes breadth. The library stays general across tokenizer families rather than specialising on BPE, so v1 loads everything v0.23 loaded."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A tokenizer converts text into the list of integers a model reads. tokenizers runs that conversion in four stages. Normalization applies operations such as lowercasing or Unicode normalization to the raw text. Pre-tokenization splits the text into smaller pieces called pre-tokens. The model turns each pre-token into tokens and maps them to IDs in its vocabulary. Post-processing adds any special tokens the model expects.",
+        "th": "A tokenizer converts text into the list of integers a model reads. tokenizers runs that conversion in four stages. Normalization applies operations such as lowercasing or Unicode normalization to the raw text. Pre-tokenization splits the text into smaller pieces called pre-tokens. The model turns each pre-token into tokens and maps them to IDs in its vocabulary. Post-processing adds any special tokens the model expects."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The model stage is where most of the work described here happens. Eight of the ten model families measured in this article use byte pair encoding, or BPE. BPE starts from the bytes of a pre-token and repeatedly joins the highest ranked adjacent pair until no ranked pair remains. The ranking is learned when the tokenizer is trained and ships with it, so the same text always produces the same IDs. A merge never crosses a pre-token boundary. The other two families use WordPiece and Unigram, the two other model types the library supports.",
+        "th": "The model stage is where most of the work described here happens. Eight of the ten model families measured in this article use byte pair encoding, or BPE. BPE starts from the bytes of a pre-token and repeatedly joins the highest ranked adjacent pair until no ranked pair remains. The ranking is learned when the tokenizer is trained and ships with it, so the same text always produces the same IDs. A merge never crosses a pre-token boundary. The other two families use WordPiece and Unigram, the two other model types the library supports."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The tokenization pipeline page documents the four stages. Tokenization algorithms documents BPE, WordPiece and Unigram.",
+        "th": "The tokenization pipeline page documents the four stages. Tokenization algorithms documents BPE, WordPiece and Unigram."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each stage was worked on. These are the changes that mattered:",
+        "th": "Each stage was worked on. These are the changes that mattered:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "The Split: Bitstreams Instead Of A Regex",
+        "th": "The Split: Bitstreams Instead Of A Regex"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "BPE models use a regular expression to split the input text into smaller, easier to process chunks called pre-tokens. Merges happen inside a pre-token and never across the boundary between two of them, so this split decides what the rest of the pipeline sees.",
+        "th": "BPE models use a regular expression to split the input text into smaller, easier to process chunks called pre-tokens. Merges happen inside a pre-token and never across the boundary between two of them, so this split decides what the rest of the pipeline sees."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That regular expression is a fixed parameter of the model. It ships with the tokenizer and never changes at runtime, so there is no need for a general-purpose regex engine to interpret it on every encode. An equivalent splitting function can be written by hand, once, for the pattern a given model actually uses.",
+        "th": "That regular expression is a fixed parameter of the model. It ships with the tokenizer and never changes at runtime, so there is no need for a general-purpose regex engine to interpret it on every encode. An equivalent splitting function can be written by hand, once, for the pattern a given model actually uses."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A hand-written function can then use the SIMD instructions (single instruction, multiple data) of a modern CPU, which apply one operation to many bytes at once and suit UTF-8 text well. bitcannon views the input's bytes as parallel streams of bits, so boundaries fall out of boolean operations across whole registers instead of a scan that advances one character at a time. It decides 64 bytes per register operation. The same idea drives Parabix for text processing and simdjson for JSON.",
+        "th": "A hand-written function can then use the SIMD instructions (single instruction, multiple data) of a modern CPU, which apply one operation to many bytes at once and suit UTF-8 text well. bitcannon views the input's bytes as parallel streams of bits, so boundaries fall out of boolean operations across whole registers instead of a scan that advances one character at a time. It decides 64 bytes per register operation. The same idea drives Parabix for text processing and simdjson for JSON."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This depends on recognising the pattern. A handful of grammars cover most byte-level BPE models, and a tokenizer whose pattern is not among them keeps the regex path and none of this speed-up. That is why the gains above vary as much as they do.",
+        "th": "This depends on recognising the pattern. A handful of grammars cover most byte-level BPE models, and a tokenizer whose pattern is not among them keeps the regex path and none of this speed-up. That is why the gains above vary as much as they do."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "The Word Cache",
+        "th": "The Word Cache"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Real text contains many repeated words. Because BPE always produces the same token IDs for a given pre-token, v1 can save the result after processing it once. A thread-local cache maps each pre-token's bytes to its token IDs, allowing later occurrences to skip the merge process.",
+        "th": "Real text contains many repeated words. Because BPE always produces the same token IDs for a given pre-token, v1 can save the result after processing it once. A thread-local cache maps each pre-token's bytes to its token IDs, allowing later occurrences to skip the merge process."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Naturally, as the input grows, the number of unique words can grow more slowly than the total number of words. Repeated words then account for an increasing share of the input. New words still appear, which accounts for the occasional misses in the animation below.",
+        "th": "Naturally, as the input grows, the number of unique words can grow more slowly than the total number of words. Repeated words then account for an increasing share of the input. New words still appear, which accounts for the occasional misses in the animation below."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reproduce the shared-prefix result with:",
+        "th": "Reproduce the shared-prefix result with:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Caching works best when the input contains repeated pre-tokens. Input with few repeated pre-tokens can pay for lookups without receiving many hits.",
+        "th": "Caching works best when the input contains repeated pre-tokens. Input with few repeated pre-tokens can pay for lookups without receiving many hits."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "The Merge Loop",
+        "th": "The Merge Loop"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The next major cost comes from the BPE merge loop. For each pre-token, the loop repeatedly finds the highest-priority adjacent pair and merges it. The previous implementation allocated new memory for every call and built a new priority queue for every pre-token.",
+        "th": "The next major cost comes from the BPE merge loop. For each pre-token, the loop repeatedly finds the highest-priority adjacent pair and merges it. The previous implementation allocated new memory for every call and built a new priority queue for every pre-token."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "v1 reuses a scratch buffer owned by the caller, removing those repeated allocations. It stores symbols in a flat array and links adjacent symbols by their positions in that array, which makes updates during merging cheaper. It also processes a batch of pre-tokens in a single model call.",
+        "th": "v1 reuses a scratch buffer owned by the caller, removing those repeated allocations. It stores symbols in a flat array and links adjacent symbols by their positions in that array, which makes updates during merging cheaper. It also processes a batch of pre-tokens in a single model call."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each candidate pair is also packed into a single 64-bit value, with the merge rank in the high bits. Comparing two candidates is then just comparing two integers, and \"no merge here\" is the largest possible value, so the loop finds its next merge without a branch.",
+        "th": "Each candidate pair is also packed into a single 64-bit value, with the merge rank in the high bits. Comparing two candidates is then just comparing two integers, and \"no merge here\" is the largest possible value, so the loop finds its next merge without a branch."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Method",
+        "th": "Method"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Small differences in benchmark design can produce large differences in tokenizer performance. We used the following rules to keep the comparison consistent across engines.",
+        "th": "Small differences in benchmark design can produce large differences in tokenizer performance. We used the following rules to keep the comparison consistent across engines."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Repeatedly encoding one document can be faster than encoding a stream of distinct documents on the same build. The first approach measures performance when the entire document is already represented in the cache. The second measures performance on new input while allowing previously seen pre-tokens to remain cached.",
+        "th": "Repeatedly encoding one document can be faster than encoding a stream of distinct documents on the same build. The first approach measures performance when the entire document is already represented in the cache. The second measures performance on new input while allowing previously seen pre-tokens to remain cached."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Both conditions are sometimes described as \"warm,\" even though they measure different workloads. Our headline results use distinct documents, and the complete corpus is too large to fit in the cache. Tokenizer benchmarks should identify which workload they use because the choice can dominate the result.",
+        "th": "Both conditions are sometimes described as \"warm,\" even though they measure different workloads. Our headline results use distinct documents, and the complete corpus is too large to fit in the cache. Tokenizer benchmarks should identify which workload they use because the choice can dominate the result."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What This Adds Up To",
+        "th": "What This Adds Up To"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Across the ten model families v1's encode path covers, it encodes text 3 to 30 times faster than v0.23 with one thread on an Apple M4 Max. The low end is t5-base, the high end gpt2. It scales at 76% of linear across eight workers. Throughout these changes, v1 produces exactly the same token IDs as the released library.",
+        "th": "Across the ten model families v1's encode path covers, it encodes text 3 to 30 times faster than v0.23 with one thread on an Apple M4 Max. The low end is t5-base, the high end gpt2. It scales at 76% of linear across eight workers. Throughout these changes, v1 produces exactly the same token IDs as the released library."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The overall improvement comes from several changes working together: a hand-written splitter in place of a regex engine, a cache that answers a repeated word without merging it again, a merge loop that never touches the allocator, and one model call per batch of pre-tokens instead of one per pre-token. Each reduces the work done at a different point in the pipeline.",
+        "th": "The overall improvement comes from several changes working together: a hand-written splitter in place of a regex engine, a cache that answers a repeated word without merging it again, a merge loop that never touches the allocator, and one model call per batch of pre-tokens instead of one per pre-token. Each reduces the work done at a different point in the pipeline."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The next priority is support for more model families. We will move additional models onto the new merge loop before 1.0.0. Once the release candidates stabilize, the next step will be bringing about the improvements within the transformers library and the rest of the ecosystem which depend on the tokenizers library.",
+        "th": "The next priority is support for more model families. We will move additional models onto the new merge loop before 1.0.0. Once the release candidates stabilize, the next step will be bringing about the improvements within the transformers library and the rest of the ecosystem which depend on the tokenizers library."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This post is generated from tokbench results and will be updated as support expands.",
+        "th": "This post is generated from tokbench results and will be updated as support expands."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Getting It",
+        "th": "Getting It"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A release candidate for v1 is on crates.io. The API you call is the one you already call, so the only thing that changes is which build you install.",
+        "th": "A release candidate for v1 is on crates.io. The API you call is the one you already call, so the only thing that changes is which build you install."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It is the ordinary install:",
+        "th": "It is the ordinary install:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Training is behind a default-on feature that pulls a C++ dependency with it. If you only need to encode, turn it off to exclude the training implementation:",
+        "th": "Training is behind a default-on feature that pulls a C++ dependency with it. If you only need to encode, turn it off to exclude the training implementation:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Encoding is unchanged: same call, same ids.",
+        "th": "Encoding is unchanged: same call, same ids."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Every figure in this post was measured against this crate. The Python bindings wrap the same code and are built from bindings/python, but they add per-call overhead that none of these measurements include.",
+        "th": "Every figure in this post was measured against this crate. The Python bindings wrap the same code and are built from bindings/python, but they add per-call overhead that none of these measurements include."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Progress Towards V1",
+        "th": "Progress Towards V1"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The benchmarks in this post cover the completed release-candidate work listed first. The remaining sections show what is still required for 1.0.0 and what we plan to explore afterward.",
+        "th": "The benchmarks in this post cover the completed release-candidate work listed first. The remaining sections show what is still required for 1.0.0 and what we plan to explore afterward."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Release Candidate: Implemented",
+        "th": "Release Candidate: Implemented"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This work is in the Rust pre-release on crates.io:",
+        "th": "This work is in the Rust pre-release on crates.io:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "workspace split: divide the single crate into tk-encode, tk-serialize, tk-convert and tk-train, so an application links only what it uses",
+        "th": "workspace split: divide the single crate into tk-encode, tk-serialize, tk-convert and tk-train, so an application links only what it uses"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "bitcannon: replace regex splitting on the encoding path with bitstream operations covering GPT-2, cl100k, o200k, Tekken and DeepSeek. This replaced the finite-state machines that shipped first #2201 #2317",
+        "th": "bitcannon: replace regex splitting on the encoding path with bitstream operations covering GPT-2, cl100k, o200k, Tekken and DeepSeek. This replaced the finite-state machines that shipped first #2201 #2317"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "WordCache: reuse the token IDs of previously processed pre-tokens #2262, af5a3e3",
+        "th": "WordCache: reuse the token IDs of previously processed pre-tokens #2262, af5a3e3"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "faster lookup and merging structures: add FlatCache, MPHF RankStore, incremental merging, and BucketVocabStore #2190 #2188",
+        "th": "faster lookup and merging structures: add FlatCache, MPHF RankStore, incremental merging, and BucketVocabStore #2190 #2188"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "reusable model memory: move temporary model state into scratch buffers so tokenization does not allocate on each call #2175 #2183",
+        "th": "reusable model memory: move temporary model state into scratch buffers so tokenization does not allocate on each call #2175 #2183"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "pipeline post-processing: expose post-processing as the STAGE_POST pipeline stage #2182",
+        "th": "pipeline post-processing: expose post-processing as the STAGE_POST pipeline stage #2182"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "batched model calls: process multiple pre-token spans in one call #2304",
+        "th": "batched model calls: process multiple pre-token spans in one call #2304"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "faster decoding: write decoded bytes directly into a reusable buffer, avoid intermediate strings and copies, accelerate token lookup, support buffered streaming, and decode batches in parallel",
+        "th": "faster decoding: write decoded bytes directly into a reusable buffer, avoid intermediate strings and copies, accelerate token lookup, support buffered streaming, and decode batches in parallel"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "role_to_token support #2343",
+        "th": "role_to_token support #2343"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Node.js bindings #2281",
+        "th": "Node.js bindings #2281"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "1.0.0",
+        "th": "1.0.0"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "one encoding implementation: use tk-encode during training validation so training and inference cannot produce different tokenization results",
+        "th": "one encoding implementation: use tk-encode during training validation so training and inference cannot produce different tokenization results"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "optional offsets and masks: compute this metadata only when requested, keeping it off the token-ID-only path",
+        "th": "optional offsets and masks: compute this metadata only when requested, keeping it off the token-ID-only path"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "rework normalizers",
+        "th": "rework normalizers"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "bitnorm support, building on atomnorm #2209",
+        "th": "bitnorm support, building on atomnorm #2209"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "spm precompiled",
+        "th": "spm precompiled"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "simpler Python bindings: reduce locking, wrapper types, and handwritten dispatch code while preserving subclassing, serialization, custom decoders, mutation behavior, and support for free-threaded CPython",
+        "th": "simpler Python bindings: reduce locking, wrapper types, and handwritten dispatch code while preserving subclassing, serialization, custom decoders, mutation behavior, and support for free-threaded CPython"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "inference-only C and C++ bindings for ExecuTorch and llama.cpp, with possible JVM, Swift, and Go bindings to follow",
+        "th": "inference-only C and C++ bindings for ExecuTorch and llama.cpp, with possible JVM, Swift, and Go bindings to follow"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "After 1.0.0",
+        "th": "After 1.0.0"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "tok-devices: explore GPU encoding and batch decoding while keeping text and token IDs on the device. The decoder would upload the vocabulary once, calculate output positions in parallel, and gather the corresponding bytes on the GPU. This would be an optional component intended for large batches, subject to further prototyping and measurement.",
+        "th": "tok-devices: explore GPU encoding and batch decoding while keeping text and token IDs on the device. The decoder would upload the vocabulary once, calculate output positions in parallel, and gather the corresponding bytes on the GPU. This would be an optional component intended for large batches, subject to further prototyping and measurement."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More Articles from our Blog",
+        "th": "บทความเพิ่มเติมจากบล็อกของเรา"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/tokenizers/thumbnail.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Tokenization in Transformers v5: Simpler, Clearer, and More Modular",
+        "th": "Tokenization in Transformers v5: Simpler, Clearer, and More Modular"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/658f3fc8c0b1372b2e991992/SZspcJ3Z5S-W5vayJo-vJ.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/608aabf24955d2bfc3cd99c6/-YxmtpzEmf3NKOTktODRP.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674683851722-62441cb7456803e95009a08f.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/61929226ded356549e20c5da/ONUjP2S5fUWd07BiFXm0i.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+2",
+        "th": "+2"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/hello-hf-kernels/kernel-hub-five-mins-short.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Learn the Hugging Face Kernel Hub in 5 Minutes",
+        "th": "Learn the Hugging Face Kernel Hub in 5 Minutes"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6452d5ba3f80ad88c77b2f05/yuvfzgqOeK8-bFxEZ2gg9.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6310e9a107a76827902421d7/1e0GItqv3A6sOWYz5SXoe.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608285816082-5e2967b819407e3277369b95.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617264212503-603d25b75f9d390ab190b777.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+3",
+        "th": "+3"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "ชุมชน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· ลงทะเบียนหรือเข้าสู่ระบบเพื่อแสดงความคิดเห็น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1624608153440-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608146735109-5fcfb7c407408029ba3577e2.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617264212503-603d25b75f9d390ab190b777.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1627505688463-60107b385ac3e86b3ea4fc34.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/61929226ded356549e20c5da/ONUjP2S5fUWd07BiFXm0i.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/620b7c408f5871b8a1a168a7/49M2lucv3I24rOMJFnhVd.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6a15be1b0c5fef54b92c60ab/qOXkTss_QR0gy6dSzXI8T.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/7eb33d86f5373a4b3c16b72bfbd4cb0d.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/w3Z6xyKVBA6np65Tb16dP.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/633413b18003819e16aee0aa/CglgixDB95u8ILW8WdxCU.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/716b6a7d1094c8036b2a8a7b9063e8aa.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+16",
+        "th": "+16"
+      }
+    }
+  ]
+}

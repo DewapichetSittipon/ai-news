@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T16:09:12.263Z",
+  "generatedAt": "2026-09-21T21:31:35.812Z",
   "items": [
     {
       "id": "huggingface__pruning-llms-like-a-physicist-block-removal-as-an",
@@ -16,6 +16,74 @@
       "summary": {
         "en": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
         "th": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem"
+      }
+    },
+    {
+      "id": "openai__advisory-group-on-mathematics-and-ai",
+      "slug": "advisory-group-on-mathematics-and-ai",
+      "source": "openai",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "category": "Company",
+      "date": "2026-09-21T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Advisory Group on Mathematics and Artificial Intelligence",
+        "th": "Advisory Group on Mathematics and Artificial Intelligence"
+      },
+      "summary": {
+        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
+      }
+    },
+    {
+      "id": "openai__higgsfield-from-prompt-to-production-with-astra",
+      "slug": "higgsfield-from-prompt-to-production-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "category": "Startup",
+      "date": "2026-09-21T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+        "th": "Higgsfield AI ships new video features in a day with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+        "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
+      }
+    },
+    {
+      "id": "openai__building-standards-next-phase-ai",
+      "slug": "building-standards-next-phase-ai",
+      "source": "openai",
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "category": "Global Affairs",
+      "date": "2026-09-21T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Building standards for the next phase of AI",
+        "th": "Building standards for the next phase of AI"
+      },
+      "summary": {
+        "en": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+        "th": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety."
+      }
+    },
+    {
+      "id": "openai__expanding-openai-academy-with-new-learning-paths",
+      "slug": "expanding-openai-academy-with-new-learning-paths",
+      "source": "openai",
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "category": "Company",
+      "date": "2026-09-21T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Expanding OpenAI Academy with new learning paths",
+        "th": "Expanding OpenAI Academy with new learning paths"
+      },
+      "summary": {
+        "en": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+        "th": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills."
       }
     },
     {
@@ -580,23 +648,6 @@
       }
     },
     {
-      "id": "openai__introducing-the-agents-api",
-      "slug": "introducing-the-agents-api",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "category": "Product",
-      "date": "2026-09-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing the Agents API",
-        "th": "Introducing the Agents API"
-      },
-      "summary": {
-        "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-        "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
-      }
-    },
-    {
       "id": "openai__introducing-gpt-live-1-in-the-api",
       "slug": "introducing-gpt-live-1-in-the-api",
       "source": "openai",
@@ -611,6 +662,23 @@
       "summary": {
         "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
         "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
+      }
+    },
+    {
+      "id": "openai__introducing-the-agents-api",
+      "slug": "introducing-the-agents-api",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "category": "Product",
+      "date": "2026-09-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing the Agents API",
+        "th": "Introducing the Agents API"
+      },
+      "summary": {
+        "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+        "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
       }
     },
     {
@@ -971,23 +1039,6 @@
       }
     },
     {
-      "id": "openai__playco-game-prototyping-with-astra",
-      "slug": "playco-game-prototyping-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "category": "Startup",
-      "date": "2026-09-03T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-        "th": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-        "th": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
-      }
-    },
-    {
       "id": "openai__legora-financial-statement-review-with-astra",
       "slug": "legora-financial-statement-review-with-astra",
       "source": "openai",
@@ -1005,37 +1056,20 @@
       }
     },
     {
-      "id": "openai__gpt-6-astra",
-      "slug": "gpt-6-astra",
+      "id": "openai__playco-game-prototyping-with-astra",
+      "slug": "playco-game-prototyping-with-astra",
       "source": "openai",
-      "url": "https://openai.com/index/gpt-6-astra",
-      "category": "Research",
-      "date": "2026-09-03T11:00:00.000Z",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "category": "Startup",
+      "date": "2026-09-03T12:00:00.000Z",
       "image": null,
       "title": {
-        "en": "GPT-6 Astra: A new generation of intelligence",
-        "th": "GPT-6 Astra: A new generation of intelligence"
+        "en": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+        "th": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra"
       },
       "summary": {
-        "en": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-        "th": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science."
-      }
-    },
-    {
-      "id": "openai__safety-overview-gpt-6-astra",
-      "slug": "safety-overview-gpt-6-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "category": "Safety",
-      "date": "2026-09-03T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Safety overview: GPT-6 Astra",
-        "th": "Safety overview: GPT-6 Astra"
-      },
-      "summary": {
-        "en": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-        "th": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework."
+        "en": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+        "th": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
       }
     },
     {
@@ -1141,23 +1175,6 @@
       }
     },
     {
-      "id": "openai__atv-big-air-tour",
-      "slug": "atv-big-air-tour",
-      "source": "openai",
-      "url": "https://openai.com/index/atv-big-air-tour",
-      "category": "News",
-      "date": "2026-09-02T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-        "th": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT"
-      },
-      "summary": {
-        "en": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-        "th": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes."
-      }
-    },
-    {
       "id": "huggingface__benchmirt",
       "slug": "benchmirt",
       "source": "huggingface",
@@ -1206,23 +1223,6 @@
       "summary": {
         "en": "Introducing agentic video understanding with Gemini",
         "th": "Introducing agentic video understanding with Gemini"
-      }
-    },
-    {
-      "id": "openai__ai-native-company-workflows",
-      "slug": "ai-native-company-workflows",
-      "source": "openai",
-      "url": "https://openai.com/index/ai-native-company-workflows",
-      "category": "AI Adoption",
-      "date": "2026-09-01T17:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How AI-native companies turn workflows into operating capability",
-        "th": "How AI-native companies turn workflows into operating capability"
-      },
-      "summary": {
-        "en": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-        "th": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply."
       }
     },
     {

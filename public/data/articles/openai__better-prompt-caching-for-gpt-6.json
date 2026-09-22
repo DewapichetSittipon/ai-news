@@ -1,0 +1,312 @@
+{
+  "id": "openai__better-prompt-caching-for-gpt-6",
+  "slug": "better-prompt-caching-for-gpt-6",
+  "source": "openai",
+  "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+  "category": "Product",
+  "date": "2026-09-22T21:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Better prompt caching for GPT-6",
+    "th": "Better prompt caching for GPT-6"
+  },
+  "summary": {
+    "en": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+    "th": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "September 22, 2026",
+        "th": "September 22, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Higher cache hit rates and new tools to help persistent agents run faster and cost less.",
+        "th": "Higher cache hit rates and new tools to help persistent agents run faster and cost less."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Monitor caching and diagnose cache misses",
+        "th": "Monitor caching and diagnose cache misses"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Optimize caching for your application",
+        "th": "Optimize caching for your application"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Get started",
+        "th": "Get started"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Monitor caching and diagnose cache misses",
+        "th": "Monitor caching and diagnose cache misses"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Optimize caching for your application",
+        "th": "Optimize caching for your application"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Get started",
+        "th": "Get started"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6 enables persistent agents to work for hours on complex tasks, from refactoring codebases to producing well-researched documents and presentations. The applications behind these agents make a series of API requests that build on one another, often carrying forward the same instructions, tool definitions, and context from earlier turns. OpenAI caches that shared context to reuse computation across requests, reducing response times and giving developers discounts of up to 90% on cached input tokens.",
+        "th": "GPT‑6 enables persistent agents to work for hours on complex tasks, from refactoring codebases to producing well-researched documents and presentations. The applications behind these agents make a series of API requests that build on one another, often carrying forward the same instructions, tool definitions, and context from earlier turns. OpenAI caches that shared context to reuse computation across requests, reducing response times and giving developers discounts of up to 90% on cached input tokens."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With the GPT‑6 family, we launched an improved prompt caching system that delivers higher cache hit rates by default. We now give cache discounts for eligible shared prefixes reused within a 30-minute window. We’re also introducing new tools to help developers monitor cache performance, diagnose misses, and choose how much of a prompt to cache.",
+        "th": "With the GPT‑6 family, we launched an improved prompt caching system that delivers higher cache hit rates by default. We now give cache discounts for eligible shared prefixes reused within a 30-minute window. We’re also introducing new tools to help developers monitor cache performance, diagnose misses, and choose how much of a prompt to cache."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Monitor caching and diagnose cache misses",
+        "th": "Monitor caching and diagnose cache misses"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The new Prompt Caching Dashboard⁠(opens in a new window) shows how much of your application’s input is served from cache. Track hit rates over time and use the input composition chart to compare cached and uncached tokens. These views help you spot drops in cache hits and evaluate how changes to your application impact caching performance.",
+        "th": "The new Prompt Caching Dashboard⁠(opens in a new window) shows how much of your application’s input is served from cache. Track hit rates over time and use the input composition chart to compare cached and uncached tokens. These views help you spot drops in cache hits and evaluate how changes to your application impact caching performance."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/29DVnNtIz2bkMRa1wWULXs/062723af9185edeb09c27071e68b589d/image__17_.png?w=3840&q=90&fm=webp",
+      "alt": "Prompt caching dashboard showing cache hit rate, cache performance over time, and input token composition."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When you see an unexpected cache miss, use the prompt caching diagnostics tool⁠(opens in a new window) to understand what happened. Compare a request with a recent response to identify changes to the model, tools, settings, or input that prevented reuse. The estimated number of affected tokens helps you assess the size of the impact and decide how you can optimize your integration to maximize cache hit rates.",
+        "th": "When you see an unexpected cache miss, use the prompt caching diagnostics tool⁠(opens in a new window) to understand what happened. Compare a request with a recent response to identify changes to the model, tools, settings, or input that prevented reuse. The estimated number of affected tokens helps you assess the size of the impact and decide how you can optimize your integration to maximize cache hit rates."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Optimize caching for your application",
+        "th": "Optimize caching for your application"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Choose what to cache. Explicit cache breakpoints let you choose which prompt prefixes to reuse. The refreshed prompt caching guide⁠(opens in a new window) explains how to use them, how long cached prefixes remain eligible, and how changes to tools and inputs affect reuse.",
+        "th": "Choose what to cache. Explicit cache breakpoints let you choose which prompt prefixes to reuse. The refreshed prompt caching guide⁠(opens in a new window) explains how to use them, how long cached prefixes remain eligible, and how changes to tools and inputs affect reuse."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Adjust reasoning effort without breaking cache. On GPT‑6 models, you can now change reasoning effort⁠(opens in a new window) between responses without breaking cache. Raise effort for a harder task or lower it for a routine follow-up by appending a configuration_update while leaving request-level reasoning effort unchanged. This lets you adjust how much reasoning a task needs while preserving reusable context.",
+        "th": "Adjust reasoning effort without breaking cache. On GPT‑6 models, you can now change reasoning effort⁠(opens in a new window) between responses without breaking cache. Raise effort for a harder task or lower it for a routine follow-up by appending a configuration_update while leaving request-level reasoning effort unchanged. This lets you adjust how much reasoning a task needs while preserving reusable context."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Preserve cache as tools and instructions change. As your agent’s tool use needs change, keep tool definitions, schemas, and ordering stable so earlier context stays reusable. Use allowed_tools to make only the relevant tools callable, or set tool_choice to none when no tools are needed, instead of removing definitions. Use new developer messages to append new instructions towards the end of the context to override older ones. See our guidance on managing tool changes⁠(opens in a new window).",
+        "th": "Preserve cache as tools and instructions change. As your agent’s tool use needs change, keep tool definitions, schemas, and ordering stable so earlier context stays reusable. Use allowed_tools to make only the relevant tools callable, or set tool_choice to none when no tools are needed, instead of removing definitions. Use new developer messages to append new instructions towards the end of the context to override older ones. See our guidance on managing tool changes⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prewarm the cache to reduce latency. Prewarming⁠(opens in a new window) prepares known context ahead of time so the model can start responding sooner when a request arrives. For example, an application can prewarm shared instructions, tool definitions, or reference material during startup, before the user asks their first question. This moves processing out of the user’s wait time.",
+        "th": "Prewarm the cache to reduce latency. Prewarming⁠(opens in a new window) prepares known context ahead of time so the model can start responding sooner when a request arrives. For example, an application can prewarm shared instructions, tool definitions, or reference material during startup, before the user asks their first question. This moves processing out of the user’s wait time."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These optional controls build on the engine’s default performance, helping you tailor caching to your workload.",
+        "th": "These optional controls build on the engine’s default performance, helping you tailor caching to your workload."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Strawberry Browser",
+        "th": "Strawberry Browser"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Manus",
+        "th": "Manus"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Wordsmith",
+        "th": "Wordsmith"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Strawberry Browser",
+        "th": "Strawberry Browser"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Manus",
+        "th": "Manus"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Wordsmith",
+        "th": "Wordsmith"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get started",
+        "th": "Get started"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Monitor cache hit rates in the Prompt Caching Dashboard⁠(opens in a new window).",
+        "th": "Monitor cache hit rates in the Prompt Caching Dashboard⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Monitor cache hit rates in the Prompt Caching Dashboard⁠(opens in a new window).",
+        "th": "Monitor cache hit rates in the Prompt Caching Dashboard⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Investigate unexpected misses with the diagnostics tool⁠(opens in a new window).",
+        "th": "Investigate unexpected misses with the diagnostics tool⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Investigate unexpected misses with the diagnostics tool⁠(opens in a new window).",
+        "th": "Investigate unexpected misses with the diagnostics tool⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Follow the prompt caching guide⁠(opens in a new window) to improve your setup, or use Codex⁠(opens in a new window) to review your code, apply improvements, and measure results.",
+        "th": "Follow the prompt caching guide⁠(opens in a new window) to improve your setup, or use Codex⁠(opens in a new window) to review your code, apply improvements, and measure results."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Follow the prompt caching guide⁠(opens in a new window) to improve your setup, or use Codex⁠(opens in a new window) to review your code, apply improvements, and measure results.",
+        "th": "Follow the prompt caching guide⁠(opens in a new window) to improve your setup, or use Codex⁠(opens in a new window) to review your code, apply improvements, and measure results."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "API",
+        "th": "API"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4HANTuYDvaT04gpR91bEQ9/885481304c5675cb7525bcccbe8c5580/gpt-6-sol-luna-art.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing GPT-6 Sol and Luna — Art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductSep 22, 2026",
+        "th": "ProductSep 22, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/fHwkKLVG8WFHvuUPqMXtz/1c49ba0859fe1e1e21f5d64f692490f5/reimagining-advertising-with-ai-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Reimagining advertising with AI — Card cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductSep 16, 2026",
+        "th": "ProductSep 16, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/36T42HPkipcJAs08yNirmR/f73d9408ef4f0b08b5cce3b839656843/cover-018.png?w=3840&q=90&fm=webp",
+      "alt": "How to connect AI usage to business value — art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductSep 16, 2026",
+        "th": "ProductSep 16, 2026"
+      }
+    }
+  ]
+}

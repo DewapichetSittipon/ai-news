@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-09-22T17:52:48.361Z",
+  "generatedAt": "2026-09-22T20:44:32.180Z",
   "items": [
+    {
+      "id": "openai__better-prompt-caching-for-gpt-6",
+      "slug": "better-prompt-caching-for-gpt-6",
+      "source": "openai",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "category": "Product",
+      "date": "2026-09-22T21:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Better prompt caching for GPT-6",
+        "th": "Better prompt caching for GPT-6"
+      },
+      "summary": {
+        "en": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+        "th": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs."
+      }
+    },
+    {
+      "id": "openai__introducing-gpt-6-sol-and-luna",
+      "slug": "introducing-gpt-6-sol-and-luna",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "category": "Product",
+      "date": "2026-09-22T18:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing GPT-6 Sol and Luna",
+        "th": "Introducing GPT-6 Sol and Luna"
+      },
+      "summary": {
+        "en": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+        "th": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost."
+      }
+    },
     {
       "id": "openai__priorities-principles-third-party-assessments",
       "slug": "priorities-principles-third-party-assessments",
@@ -87,23 +121,6 @@
       }
     },
     {
-      "id": "openai__higgsfield-from-prompt-to-production-with-astra",
-      "slug": "higgsfield-from-prompt-to-production-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "category": "Startup",
-      "date": "2026-09-21T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-        "th": "Higgsfield AI ships new video features in a day with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-        "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
-      }
-    },
-    {
       "id": "openai__advisory-group-on-mathematics-and-ai",
       "slug": "advisory-group-on-mathematics-and-ai",
       "source": "openai",
@@ -118,6 +135,23 @@
       "summary": {
         "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
         "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
+      }
+    },
+    {
+      "id": "openai__higgsfield-from-prompt-to-production-with-astra",
+      "slug": "higgsfield-from-prompt-to-production-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "category": "Startup",
+      "date": "2026-09-21T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+        "th": "Higgsfield AI ships new video features in a day with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+        "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
       }
     },
     {
@@ -716,23 +750,6 @@
       }
     },
     {
-      "id": "openai__introducing-the-agents-api",
-      "slug": "introducing-the-agents-api",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "category": "Product",
-      "date": "2026-09-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing the Agents API",
-        "th": "Introducing the Agents API"
-      },
-      "summary": {
-        "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-        "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
-      }
-    },
-    {
       "id": "openai__introducing-gpt-live-1-in-the-api",
       "slug": "introducing-gpt-live-1-in-the-api",
       "source": "openai",
@@ -747,6 +764,23 @@
       "summary": {
         "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
         "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
+      }
+    },
+    {
+      "id": "openai__introducing-the-agents-api",
+      "slug": "introducing-the-agents-api",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "category": "Product",
+      "date": "2026-09-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing the Agents API",
+        "th": "Introducing the Agents API"
+      },
+      "summary": {
+        "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+        "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
       }
     },
     {
@@ -1073,23 +1107,6 @@
       }
     },
     {
-      "id": "openai__daybreak-for-frontline-defenders",
-      "slug": "daybreak-for-frontline-defenders",
-      "source": "openai",
-      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "category": "Security",
-      "date": "2026-09-03T13:15:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Daybreak for Frontline Defenders: $1B to protect essential services",
-        "th": "Daybreak for Frontline Defenders: $1B to protect essential services"
-      },
-      "summary": {
-        "en": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-        "th": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services."
-      }
-    },
-    {
       "id": "huggingface__neomme",
       "slug": "neomme",
       "source": "huggingface",
@@ -1104,23 +1121,6 @@
       "summary": {
         "en": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
         "th": "NeoMME: an efficient Multimodal-native and Multilingual Encoder"
-      }
-    },
-    {
-      "id": "openai__legora-financial-statement-review-with-astra",
-      "slug": "legora-financial-statement-review-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "category": "Startup",
-      "date": "2026-09-03T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-        "th": "Legora reviewed 41 documents in minutes with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-        "th": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
       }
     },
     {

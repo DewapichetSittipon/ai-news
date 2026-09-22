@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T20:44:32.180Z",
+  "generatedAt": "2026-09-22T23:58:30.511Z",
   "items": [
     {
       "id": "openai__better-prompt-caching-for-gpt-6",
@@ -33,6 +33,23 @@
       "summary": {
         "en": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
         "th": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost."
+      }
+    },
+    {
+      "id": "openai__parallel-cuts-time-and-cost-with-astra",
+      "slug": "parallel-cuts-time-and-cost-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "category": "Startup",
+      "date": "2026-09-22T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Parallel cut research time and cost in half with GPT‑6 Astra",
+        "th": "Parallel cut research time and cost in half with GPT‑6 Astra"
+      },
+      "summary": {
+        "en": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+        "th": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models."
       }
     },
     {
@@ -121,23 +138,6 @@
       }
     },
     {
-      "id": "openai__advisory-group-on-mathematics-and-ai",
-      "slug": "advisory-group-on-mathematics-and-ai",
-      "source": "openai",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "category": "Company",
-      "date": "2026-09-21T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Advisory Group on Mathematics and Artificial Intelligence",
-        "th": "Advisory Group on Mathematics and Artificial Intelligence"
-      },
-      "summary": {
-        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
-      }
-    },
-    {
       "id": "openai__higgsfield-from-prompt-to-production-with-astra",
       "slug": "higgsfield-from-prompt-to-production-with-astra",
       "source": "openai",
@@ -152,6 +152,23 @@
       "summary": {
         "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
         "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
+      }
+    },
+    {
+      "id": "openai__advisory-group-on-mathematics-and-ai",
+      "slug": "advisory-group-on-mathematics-and-ai",
+      "source": "openai",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "category": "Company",
+      "date": "2026-09-21T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Advisory Group on Mathematics and Artificial Intelligence",
+        "th": "Advisory Group on Mathematics and Artificial Intelligence"
+      },
+      "summary": {
+        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
       }
     },
     {
@@ -280,7 +297,7 @@
       "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
       "category": "News",
       "date": "2026-09-18T00:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Partnering with Accenture on embedded evaluation",
         "th": "Partnering with Accenture on embedded evaluation"
@@ -1073,23 +1090,6 @@
       }
     },
     {
-      "id": "openai__research-acceleration-view-inside-openai",
-      "slug": "research-acceleration-view-inside-openai",
-      "source": "openai",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "category": "Research",
-      "date": "2026-09-06T08:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Research acceleration: The view inside OpenAI",
-        "th": "Research acceleration: The view inside OpenAI"
-      },
-      "summary": {
-        "en": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-        "th": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration."
-      }
-    },
-    {
       "id": "deepmind__introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
       "slug": "introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
       "source": "deepmind",
@@ -1419,7 +1419,7 @@
       "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
       "category": "Announcements",
       "date": "2026-08-27T00:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/5008271abbababe59f4fbb01998697f7dd0b5b60-1280x720.jpg",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/5008271abbababe59f4fbb01998697f7dd0b5b60-1280x720.jpg",
       "title": {
         "en": "Previewing the Model Hardware Standard",
         "th": "Previewing the Model Hardware Standard"
@@ -1980,7 +1980,7 @@
       "url": "https://www.anthropic.com/news/tino-cuellar",
       "category": "News",
       "date": "2026-08-04T00:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
         "th": "Mariano-Florentino (Tino) Cuéllar เข้าร่วม Anthropic ในตำแหน่ง Chief Global Affairs Officer"

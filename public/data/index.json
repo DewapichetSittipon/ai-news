@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-09-22T12:59:50.335Z",
+  "generatedAt": "2026-09-22T17:52:48.361Z",
   "items": [
+    {
+      "id": "openai__priorities-principles-third-party-assessments",
+      "slug": "priorities-principles-third-party-assessments",
+      "source": "openai",
+      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "category": "Safety",
+      "date": "2026-09-22T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Priorities and principles for effective third party assessments",
+        "th": "Priorities and principles for effective third party assessments"
+      },
+      "summary": {
+        "en": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+        "th": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards."
+      }
+    },
+    {
+      "id": "huggingface__evaleval-aisi",
+      "slug": "evaleval-aisi",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "category": "News",
+      "date": "2026-09-22T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+        "th": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible"
+      },
+      "summary": {
+        "en": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+        "th": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible"
+      }
+    },
     {
       "id": "huggingface__transformers-llama-cpp-quants",
       "slug": "transformers-llama-cpp-quants",
@@ -53,23 +87,6 @@
       }
     },
     {
-      "id": "openai__advisory-group-on-mathematics-and-ai",
-      "slug": "advisory-group-on-mathematics-and-ai",
-      "source": "openai",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "category": "Company",
-      "date": "2026-09-21T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Advisory Group on Mathematics and Artificial Intelligence",
-        "th": "Advisory Group on Mathematics and Artificial Intelligence"
-      },
-      "summary": {
-        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
-      }
-    },
-    {
       "id": "openai__higgsfield-from-prompt-to-production-with-astra",
       "slug": "higgsfield-from-prompt-to-production-with-astra",
       "source": "openai",
@@ -84,6 +101,23 @@
       "summary": {
         "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
         "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
+      }
+    },
+    {
+      "id": "openai__advisory-group-on-mathematics-and-ai",
+      "slug": "advisory-group-on-mathematics-and-ai",
+      "source": "openai",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "category": "Company",
+      "date": "2026-09-21T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Advisory Group on Mathematics and Artificial Intelligence",
+        "th": "Advisory Group on Mathematics and Artificial Intelligence"
+      },
+      "summary": {
+        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
       }
     },
     {
@@ -682,23 +716,6 @@
       }
     },
     {
-      "id": "openai__introducing-gpt-live-1-in-the-api",
-      "slug": "introducing-gpt-live-1-in-the-api",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "category": "Product",
-      "date": "2026-09-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-        "th": "Build more natural voice experiences with GPT‑Live‑1 in the API"
-      },
-      "summary": {
-        "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-        "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
-      }
-    },
-    {
       "id": "openai__introducing-the-agents-api",
       "slug": "introducing-the-agents-api",
       "source": "openai",
@@ -713,6 +730,23 @@
       "summary": {
         "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
         "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
+      }
+    },
+    {
+      "id": "openai__introducing-gpt-live-1-in-the-api",
+      "slug": "introducing-gpt-live-1-in-the-api",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "category": "Product",
+      "date": "2026-09-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+        "th": "Build more natural voice experiences with GPT‑Live‑1 in the API"
+      },
+      "summary": {
+        "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+        "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
       }
     },
     {
@@ -1090,23 +1124,6 @@
       }
     },
     {
-      "id": "openai__playco-game-prototyping-with-astra",
-      "slug": "playco-game-prototyping-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "category": "Startup",
-      "date": "2026-09-03T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-        "th": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-        "th": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
-      }
-    },
-    {
       "id": "huggingface__grpo-with-trl-ifstruct",
       "slug": "grpo-with-trl-ifstruct",
       "source": "huggingface",
@@ -1400,7 +1417,7 @@
       "slug": "model-hardware-standard-research-preview",
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "category": "News",
+      "category": "Announcements",
       "date": "2026-08-27T00:00:00.000Z",
       "image": "https://cdn.sanity.io/images/4zrzovbb/website/5008271abbababe59f4fbb01998697f7dd0b5b60-1280x720.jpg",
       "title": {
@@ -2192,23 +2209,6 @@
       "summary": {
         "en": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
         "th": "Google DeepMind และ Isomorphic Labs กำลังแบ่งปันแนวทางร่วมกันของเราในเรื่องความยืดหยุ่นทางชีวภาพและโมเดล AI"
-      }
-    },
-    {
-      "id": "huggingface__security-incident-july-2026",
-      "slug": "security-incident-july-2026",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/security-incident-july-2026",
-      "category": "News",
-      "date": "2026-07-16T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Security incident disclosure — July 2026",
-        "th": "การเปิดเผยเหตุการณ์ด้านความปลอดภัย — กรกฎาคม 2026"
-      },
-      "summary": {
-        "en": "Security incident disclosure — July 2026",
-        "th": "การเปิดเผยเหตุการณ์ด้านความปลอดภัย — กรกฎาคม 2026"
       }
     },
     {

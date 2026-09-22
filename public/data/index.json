@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-09-22T00:27:52.575Z",
+  "generatedAt": "2026-09-22T07:07:31.468Z",
   "items": [
+    {
+      "id": "huggingface__omlx",
+      "slug": "omlx",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/omlx",
+      "category": "News",
+      "date": "2026-09-22T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+        "th": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community"
+      },
+      "summary": {
+        "en": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+        "th": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community"
+      }
+    },
     {
       "id": "huggingface__pruning-llms-like-a-physicist-block-removal-as-an",
       "slug": "pruning-llms-like-a-physicist-block-removal-as-an",
@@ -2192,23 +2209,6 @@
       "summary": {
         "en": "Model Routing Is Simple. Until It Isn’t.",
         "th": "การกำหนดเส้นทางโมเดลนั้นง่ายมาก จนกระทั่งมันไม่ใช่"
-      }
-    },
-    {
-      "id": "huggingface__thinkingmachines-inkling",
-      "slug": "thinkingmachines-inkling",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/thinkingmachines-inkling",
-      "category": "News",
-      "date": "2026-07-15T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Welcome Inkling by Thinking Machines",
-        "th": "ยินดีต้อนรับ Inkling โดย Thinking Machines"
-      },
-      "summary": {
-        "en": "Welcome Inkling by Thinking Machines",
-        "th": "ยินดีต้อนรับ Inkling โดย Thinking Machines"
       }
     },
     {

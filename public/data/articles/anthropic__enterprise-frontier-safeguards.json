@@ -316,6 +316,20 @@
     {
       "type": "h3",
       "text": {
+        "en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+        "th": "Claude discovers a novel enzyme system with CRISPR-like repeats"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.",
+        "th": "We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
         "en": "Partnering with Accenture on embedded evaluation",
         "th": "Partnering with Accenture on embedded evaluation"
       }
@@ -332,20 +346,6 @@
       "text": {
         "en": "The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.",
         "th": "The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work."
-      }
-    },
-    {
-      "type": "h3",
-      "text": {
-        "en": "Improving our alignment and security efforts",
-        "th": "Improving our alignment and security efforts"
-      }
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.",
-        "th": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month."
       }
     }
   ]

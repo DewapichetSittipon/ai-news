@@ -1,0 +1,244 @@
+{
+  "id": "openai__invideo-builds-with-gpt-6-astra",
+  "slug": "invideo-builds-with-gpt-6-astra",
+  "source": "openai",
+  "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+  "category": "News",
+  "date": "2026-09-23T12:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "How invideo improves color grading 3x with GPT‑6 Astra",
+    "th": "How invideo improves color grading 3x with GPT‑6 Astra"
+  },
+  "summary": {
+    "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+    "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "September 23, 2026",
+        "th": "September 23, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+        "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Results",
+        "th": "Results"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "50",
+        "th": "50"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Custom effects created in one day",
+        "th": "Custom effects created in one day"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Results",
+        "th": "Results"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3x",
+        "th": "3x"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Increase in success rate for color-grading and correction",
+        "th": "Increase in success rate for color-grading and correction"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Planning complex edits and staying on brief",
+        "th": "Planning complex edits and staying on brief"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Choosing the right approach and adapting to change",
+        "th": "Choosing the right approach and adapting to change"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Creating custom effects that remain fully editable",
+        "th": "Creating custom effects that remain fully editable"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Planning complex edits and staying on brief",
+        "th": "Planning complex edits and staying on brief"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Choosing the right approach and adapting to change",
+        "th": "Choosing the right approach and adapting to change"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Creating custom effects that remain fully editable",
+        "th": "Creating custom effects that remain fully editable"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Editing videos is one creative and technical decision after another. Editors have to shape the story, place sound effects, build transitions, adjust color, and more. Invideo⁠(opens in a new window) is an agentic video editor designed to handle that work while keeping the human editor in control.",
+        "th": "Editing videos is one creative and technical decision after another. Editors have to shape the story, place sound effects, build transitions, adjust color, and more. Invideo⁠(opens in a new window) is an agentic video editor designed to handle that work while keeping the human editor in control."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With GPT‑6 Astra, invideo sees greater capability to plan and execute complex edits and place changes at the correct points in the timeline.",
+        "th": "With GPT‑6 Astra, invideo sees greater capability to plan and execute complex edits and place changes at the correct points in the timeline."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Planning complex edits and staying on brief",
+        "th": "Planning complex edits and staying on brief"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The AI agent must translate the editor’s direction into a sequence of steps, choose the right tools, execute the work, and verify the result. Sanket says GPT‑6 Astra can plan these operations in fewer reasoning steps than the models it previously tested: “Astra is using far fewer reasoning sets and thus output tokens to complete complex work.”",
+        "th": "The AI agent must translate the editor’s direction into a sequence of steps, choose the right tools, execute the work, and verify the result. Sanket says GPT‑6 Astra can plan these operations in fewer reasoning steps than the models it previously tested: “Astra is using far fewer reasoning sets and thus output tokens to complete complex work.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Invideo also observed that Astra can carry out several instructions without losing the editor’s original objective as the task grows longer and more complex.",
+        "th": "Invideo also observed that Astra can carry out several instructions without losing the editor’s original objective as the task grows longer and more complex."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Choosing the right approach and adapting to change",
+        "th": "Choosing the right approach and adapting to change"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6 Astra is especially effective when it comes to color work, where the agent must choose from overlapping approaches such as correction, grading, regeneration, LUTs, and isolation. For example, changing a background while preserving a person’s skin tone requires the agent to isolate and track the person across frames before applying color elsewhere.",
+        "th": "GPT‑6 Astra is especially effective when it comes to color work, where the agent must choose from overlapping approaches such as correction, grading, regeneration, LUTs, and isolation. For example, changing a background while preserving a person’s skin tone requires the agent to isolate and track the person across frames before applying color elsewhere."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Earlier, we saw very high failure rates for color-grading and color-correction tasks. With Astra, the success rate improved about three times,” said Sanket.",
+        "th": "“Earlier, we saw very high failure rates for color-grading and color-correction tasks. With Astra, the success rate improved about three times,” said Sanket."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Creating custom effects that remain fully editable",
+        "th": "Creating custom effects that remain fully editable"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6 Astra also helps invideo turn descriptions and visual references into custom effects. The agent can code an effect tailored to the footage, place it on the timeline, and add controls that let the editor refine it. In one day, a few Invideo editors used the model to create about 50 effects.",
+        "th": "GPT‑6 Astra also helps invideo turn descriptions and visual references into custom effects. The agent can code an effect tailored to the footage, place it on the timeline, and add controls that let the editor refine it. In one day, a few Invideo editors used the model to create about 50 effects."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With the invideo agent using GPT‑6 Astra, creative professionals retain control of the story, their taste, and the final cut without losing hours to the tedious planning and frame-by-frame work.",
+        "th": "With the invideo agent using GPT‑6 Astra, creative professionals retain control of the story, their taste, and the final cut without losing hours to the tedious planning and frame-by-frame work."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "OpenAI <3 startups",
+        "th": "OpenAI <3 startups"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/Tc4KzRhOgVSaIxQoUkr9R/25c2cf38c314d47e6f3cb93e54e382aa/two-years-of-openai-academy-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Two years of OpenAI Academy — card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanySep 23, 2026",
+        "th": "CompanySep 23, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4NsiJiqUurW5ypfaulGCFm/8b5bfad7d895c4fc6aa20766d5c88b0c/openai-extends-cyber-access-to-ukraine-for-civilian-defense-cover.png?w=3840&q=90&fm=webp",
+      "alt": "OpenAI extends cyber access to Ukraine for civilian defense — cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Global AffairsSep 23, 2026",
+        "th": "Global AffairsSep 23, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/59usTWVI6pc0I3Lb6TL2ol/3d45075f7a623fa6ba4d8d13459065c1/square.png?w=3840&q=90&fm=webp",
+      "alt": "Harvey customer story card image - Option C"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupSep 23, 2026",
+        "th": "StartupSep 23, 2026"
+      }
+    }
+  ]
+}

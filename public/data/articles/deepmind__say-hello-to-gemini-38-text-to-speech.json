@@ -1,0 +1,668 @@
+{
+  "id": "deepmind__say-hello-to-gemini-38-text-to-speech",
+  "slug": "say-hello-to-gemini-38-text-to-speech",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+  "category": "News",
+  "date": "2026-09-23T15:25:14.000Z",
+  "image": null,
+  "title": {
+    "en": "Gemini 3.8 text-to-speech says hello",
+    "th": "Gemini 3.8 text-to-speech says hello"
+  },
+  "summary": {
+    "en": "Gemini 3.8 text-to-speech says hello",
+    "th": "Gemini 3.8 text-to-speech says hello"
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "นวัตกรรมและเอไอ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Models & research",
+        "th": "แบบจำลองและการวิจัย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini Models",
+        "th": "โมเดลราศีเมถุน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sep 23, 2026",
+        "th": "Sep 23, 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS are our most expressive audio generation models yet. Generate custom character voices and direct scene dialogue across Google AI Studio, Gemini API, Gemini Enterprise, Gemini Notebook, and Google Vids.",
+        "th": "Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS are our most expressive audio generation models yet. Generate custom character voices and direct scene dialogue across Google AI Studio, Gemini API, Gemini Enterprise, Gemini Notebook, and Google Vids."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Leland Rechis",
+        "th": "Leland Rechis"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Group Product Manager",
+        "th": "Group Product Manager"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Alan Cowen",
+        "th": "Alan Cowen"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Director, Research Science, on Behalf of the Gemini Audio Team",
+        "th": "Director, Research Science, on Behalf of the Gemini Audio Team"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__keyword__metacard__.width-200.format-webp.webp",
+      "alt": "a text card image reading \"Introducing Gemini 3.8 Flash TTS and 3.8 Flash-Lite TTS\""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Check out \"Gemini 3.8 text-to-speech says hello\" to see how our new models work.",
+        "th": "Check out \"Gemini 3.8 text-to-speech says hello\" to see how our new models work."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Create custom voices from scratch or replicate existing ones with simple natural language prompts.",
+        "th": "Create custom voices from scratch or replicate existing ones with simple natural language prompts."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Direct your audio line-by-line to control pacing, emotion, and even realistic conversational sounds.",
+        "th": "Direct your audio line-by-line to control pacing, emotion, and even realistic conversational sounds."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Use these models for high-quality audiobooks, podcasts, or real-time voice agents at scale.",
+        "th": "Use these models for high-quality audiobooks, podcasts, or real-time voice agents at scale."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We’ve included built-in safety tools like watermarking to keep your generated audio secure.",
+        "th": "We’ve included built-in safety tools like watermarking to keep your generated audio secure."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Google just launched new AI tools that let you create and customize realistic voices from scratch. You can direct these voices to sound exactly how you want, from their accent to their emotional tone. It’s perfect for making audiobooks, games, or podcasts that sound like real people talking. Plus, they added safety features to make sure these voices are used responsibly.",
+        "th": "Google just launched new AI tools that let you create and customize realistic voices from scratch. You can direct these voices to sound exactly how you want, from their accent to their emotional tone. It’s perfect for making audiobooks, games, or podcasts that sound like real people talking. Plus, they added safety features to make sure these voices are used responsibly."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Bullet points",
+        "th": "สัญลักษณ์แสดงหัวข้อย่อย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Basic explainer",
+        "th": "ผู้อธิบายขั้นพื้นฐาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re introducing two new text-to-speech models to the Gemini family, transforming voice generation from static presets into a dynamic creative studio. These models enable creators, developers, and enterprises to create richer, more expressive audio experiences, while enabling improved user experiences in products like Gemini Notebook and Google Vids.",
+        "th": "Today, we’re introducing two new text-to-speech models to the Gemini family, transforming voice generation from static presets into a dynamic creative studio. These models enable creators, developers, and enterprises to create richer, more expressive audio experiences, while enabling improved user experiences in products like Gemini Notebook and Google Vids."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini 3.8 Flash TTS: Built for deep creative direction and character design. Create entirely new voices from scratch using natural language prompts to bring characters to life across gaming, immersive audiobooks, podcasts, and interactive media. Direct every performance line by line with granular control over acting cues, pacing, dialect shifts, and backchanneling.",
+        "th": "Gemini 3.8 Flash TTS: Built for deep creative direction and character design. Create entirely new voices from scratch using natural language prompts to bring characters to life across gaming, immersive audiobooks, podcasts, and interactive media. Direct every performance line by line with granular control over acting cues, pacing, dialect shifts, and backchanneling."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini 3.8 Flash-Lite TTS: Built for high-volume, cost-efficient scale. Optimized for high-volume dubbing, audio content creation, and expressive voice agents with fine-grained control over tone, pacing, and expressive nuance.",
+        "th": "Gemini 3.8 Flash-Lite TTS: Built for high-volume, cost-efficient scale. Optimized for high-volume dubbing, audio content creation, and expressive voice agents with fine-grained control over tone, pacing, and expressive nuance."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These models complement our fast-growing Gemini Audio family, following 3.5 Live Translate, 3.5 Transcribe, 3.8 Live, and 3.8 Live Extended Thinking.",
+        "th": "These models complement our fast-growing Gemini Audio family, following 3.5 Live Translate, 3.5 Transcribe, 3.8 Live, and 3.8 Live Extended Thinking."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Create and customize your own voices",
+        "th": "Create and customize your own voices"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Scale up from 30 original voices to an infinite library. Whether you need an entirely original character voice or a consistent brand ambassador, our 3.8 Flash TTS model powers a full vocal studio. This enables you to create and use expressive, natural-sounding voices for every moment, while empowering developers and enterprises to easily build custom audio experiences.",
+        "th": "Scale up from 30 original voices to an infinite library. Whether you need an entirely original character voice or a consistent brand ambassador, our 3.8 Flash TTS model powers a full vocal studio. This enables you to create and use expressive, natural-sounding voices for every moment, while empowering developers and enterprises to easily build custom audio experiences."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Generative voice design: With Gemini 3.8 Flash TTS, create bespoke voices from scratch by customizing role, accent and voice characteristics across more than 100 languages and dialects using natural language prompting — whether you're bringing a dramatic, fire-breathing dragon to life or crafting a charismatic narrator with a distinct regional cadence.",
+        "th": "Generative voice design: With Gemini 3.8 Flash TTS, create bespoke voices from scratch by customizing role, accent and voice characteristics across more than 100 languages and dialects using natural language prompting — whether you're bringing a dramatic, fire-breathing dragon to life or crafting a charismatic narrator with a distinct regional cadence."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hear how Gemini 3.8 Flash TTS generates a high-energy DJ voice from Melbourne.",
+        "th": "Hear how Gemini 3.8 Flash TTS generates a high-energy DJ voice from Melbourne."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hear how Gemini 3.8 Flash TTS generates a super-tinny, monotone robot voice.",
+        "th": "Hear how Gemini 3.8 Flash TTS generates a super-tinny, monotone robot voice."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hear how Gemini 3.8 Flash TTS brings a Japanese dragon to life.",
+        "th": "Hear how Gemini 3.8 Flash TTS brings a Japanese dragon to life."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Expansive voice library: Access 2,000+ production-ready voices with broad language coverage — including regional varieties like Mexican Spanish, Quebec French, and Scots English.",
+        "th": "Expansive voice library: Access 2,000+ production-ready voices with broad language coverage — including regional varieties like Mexican Spanish, Quebec French, and Scots English."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Voice replication: Recreate consistent vocal profiles from just a 30-second audio sample of your voice or a voice you have the rights to use, backed by built-in consent verification, SynthID watermarking, and C2PA credentials to protect both developers and their vocal talent.",
+        "th": "Voice replication: Recreate consistent vocal profiles from just a 30-second audio sample of your voice or a voice you have the rights to use, backed by built-in consent verification, SynthID watermarking, and C2PA credentials to protect both developers and their vocal talent."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Save and scale: Save and manage the custom voices you designed to ensure consistent performance and minimal drift across ongoing projects.",
+        "th": "Save and scale: Save and manage the custom voices you designed to ensure consistent performance and minimal drift across ongoing projects."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Voice remixing: Coming soon, pick a voice from our voice library and fine-tune timbre, pitch, pace, and accent. Use prompts to dial in characteristics (e.g. “add subtle Southern US accent” or “soften the delivery”).",
+        "th": "Voice remixing: Coming soon, pick a voice from our voice library and fine-tune timbre, pitch, pace, and accent. Use prompts to dial in characteristics (e.g. “add subtle Southern US accent” or “soften the delivery”)."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Direct the performance, line by line",
+        "th": "Direct the performance, line by line"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Once you've selected your voices, both TTS models give you precise control over how each line is delivered.",
+        "th": "Once you've selected your voices, both TTS models give you precise control over how each line is delivered."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Direct performance line by line: Write your own stage directions or let Gemini steer delivery with natural script cues — from a calm customer service agent to a whispered suspense scene.",
+        "th": "Direct performance line by line: Write your own stage directions or let Gemini steer delivery with natural script cues — from a calm customer service agent to a whispered suspense scene."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hear how Gemini 3.8 Flash TTS enables natural, highly expressive conversations for interactive voice agents.",
+        "th": "Hear how Gemini 3.8 Flash TTS enables natural, highly expressive conversations for interactive voice agents."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Watch and hear how Gemini 3.8 Flash TTS uses granular script control to build a deeply engaging, immersive audio experience.",
+        "th": "Watch and hear how Gemini 3.8 Flash TTS uses granular script control to build a deeply engaging, immersive audio experience."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Long-form generation: Maintain high voice quality, natural pacing, and character timbre across hours of continuous audio with minimal speaker drift — ideal for podcasts and audiobooks.",
+        "th": "Long-form generation: Maintain high voice quality, natural pacing, and character timbre across hours of continuous audio with minimal speaker drift — ideal for podcasts and audiobooks."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Native two-speaker scene staging: Direct multi-turn conversations seamlessly from a single script —whether for a podcast or dramatic storytelling—while keeping both voices distinctly separated with natural conversational turn-taking.",
+        "th": "Native two-speaker scene staging: Direct multi-turn conversations seamlessly from a single script —whether for a podcast or dramatic storytelling—while keeping both voices distinctly separated with natural conversational turn-taking."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Scripted vocal bursts & backchanneling: Add realistic conversational texture using non verbal cues (like <laughs>, <sigh>, <gasp> and active-listening interjections (like |mhm| or|yeah|) for precise comedic timing and reaction beats.",
+        "th": "Scripted vocal bursts & backchanneling: Add realistic conversational texture using non verbal cues (like <laughs>, <sigh>, <gasp> and active-listening interjections (like |mhm| or|yeah|) for precise comedic timing and reaction beats."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "See how Gemini 3.8 Flash TTS turns natural language prompts into bespoke vocal personas from scratch.",
+        "th": "See how Gemini 3.8 Flash TTS turns natural language prompts into bespoke vocal personas from scratch."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Watch how Gemini 3.8 Flash TTS enables creators to design custom scenes to bring animated dialogue to life.",
+        "th": "Watch how Gemini 3.8 Flash TTS enables creators to design custom scenes to bring animated dialogue to life."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "See how Gemini 3.8 Flash TTS turns scripts into fully performed dialogue scenes, letting creators direct vocal delivery, and natural turn-taking.",
+        "th": "See how Gemini 3.8 Flash TTS turns scripts into fully performed dialogue scenes, letting creators direct vocal delivery, and natural turn-taking."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get expressive high-quality speech generation built for global scale",
+        "th": "Get expressive high-quality speech generation built for global scale"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini 3.8 Flash TTS delivers leading voice customization capabilities, securing the #1 overall spot on Hume AI’s Voice Design Benchmark (71.4) and also leading in accent modeling (60.8).",
+        "th": "Gemini 3.8 Flash TTS delivers leading voice customization capabilities, securing the #1 overall spot on Hume AI’s Voice Design Benchmark (71.4) and also leading in accent modeling (60.8)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS enable truly expressive performances without sacrificing reliability, also securing the #1 and #2 spots respectively on Hume AI’s Overall Quality Index. The model shows major improvements on a wide range of use cases such as long-form content and dual-speaker screenplay control compared to Gemini 3.1 Flash TTS.",
+        "th": "Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS enable truly expressive performances without sacrificing reliability, also securing the #1 and #2 spots respectively on Hume AI’s Overall Quality Index. The model shows major improvements on a wide range of use cases such as long-form content and dual-speaker screenplay control compared to Gemini 3.1 Flash TTS."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In blind human preference evaluations on Voice Arena, Gemini 3.8 Flash and Flash-Lite TTS secure top positions amongst competitors in key global languages, including Japanese, Brazilian Portuguese, Vietnamese, Modern Standard Arabic (MSA), Mexican Spanish and Hindi. With support for over 100 languages, these models empower creators, developers, and enterprises to build high-quality, multilingual voice experiences worldwide.",
+        "th": "In blind human preference evaluations on Voice Arena, Gemini 3.8 Flash and Flash-Lite TTS secure top positions amongst competitors in key global languages, including Japanese, Brazilian Portuguese, Vietnamese, Modern Standard Arabic (MSA), Mexican Spanish and Hindi. With support for over 100 languages, these models empower creators, developers, and enterprises to build high-quality, multilingual voice experiences worldwide."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/blog-gemini-3.8-flash-tts__evals_.width-100.format-webp_21WnKg9.webp",
+      "alt": "An evaluation showing text-to-speech quality benchmark Hume AI"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/blog-gemini-3.8-flash-tts__evals_.width-100.format-webp_tbi15co.webp",
+      "alt": "an evaluation chart showing text to speech voice design leaderboard Hume AI"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/blog-gemini-3.8-flash-tts__evals_.width-100.format-webp_47W1vK6.webp",
+      "alt": "an evaluation chart showing text to speech leaderboard for Voice Arena"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Build with trust, consent, and transparency",
+        "th": "Build with trust, consent, and transparency"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We built our voice creation and replication capabilities with strict safeguards to help protect voice talent, respect identity, and ensure content transparency. For voice replication our system leverages consent verification: users must provide a verbal consent recording from the voice owner that matches the reference speaker before a voice can be created.",
+        "th": "We built our voice creation and replication capabilities with strict safeguards to help protect voice talent, respect identity, and ensure content transparency. For voice replication our system leverages consent verification: users must provide a verbal consent recording from the voice owner that matches the reference speaker before a voice can be created."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More broadly, every audio clip generated by our Gemini Audio models is watermarked with SynthID. This imperceptible watermark is woven directly into the audio output, ensuring AI-generated speech remains detectable to help prevent misinformation. For more details on our approach to safety and responsibility, review the model card.",
+        "th": "More broadly, every audio clip generated by our Gemini Audio models is watermarked with SynthID. This imperceptible watermark is woven directly into the audio output, ensuring AI-generated speech remains detectable to help prevent misinformation. For more details on our approach to safety and responsibility, review the model card."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Try our new Google AI Studio audio playground",
+        "th": "Try our new Google AI Studio audio playground"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Starting today, developers can experience these new speech generation capabilities in Google AI Studio. Built like a voice design workspace, you can prompt entirely new vocal identities from scratch or replicate your own voice 1 , then bring them directly into a dual-speaker screenplay editor to direct line-by-line delivery.",
+        "th": "Starting today, developers can experience these new speech generation capabilities in Google AI Studio. Built like a voice design workspace, you can prompt entirely new vocal identities from scratch or replicate your own voice 1 , then bring them directly into a dual-speaker screenplay editor to direct line-by-line delivery."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Try voice replication in Google AI Studio.",
+        "th": "Try voice replication in Google AI Studio."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Deploy high-performance voice interfaces with ease",
+        "th": "Deploy high-performance voice interfaces with ease"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By using the Gemini API, developer platforms such as Agora, LiveKit, Pipecat, Vercel enable developers to build and deploy high-performance speech generation experiences with ease.",
+        "th": "By using the Gemini API, developer platforms such as Agora, LiveKit, Pipecat, Vercel enable developers to build and deploy high-performance speech generation experiences with ease."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re partnering with companies like Figma, HeyGen, Linguana, Wondercraft, 99.co, and Ollang, who are integrating our latest TTS models to help accelerate global dubbing, localize media with nuanced regional accents, and power conversational voice agents at scale.",
+        "th": "We’re partnering with companies like Figma, HeyGen, Linguana, Wondercraft, 99.co, and Ollang, who are integrating our latest TTS models to help accelerate global dubbing, localize media with nuanced regional accents, and power conversational voice agents at scale."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__testimonial-99-grou.width-100.format-webp.webp",
+      "alt": "a quote from Darius Cheung, CEO and Co-Founder of 99 Group"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__testimonial-agora__.width-100.format-webp.webp",
+      "alt": "a quote from Mason Adams, Developer Evangelist, Agora"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__testimonial-figma-w.width-100.format-webp.webp",
+      "alt": "a quote from Jonathan Gur-Zeev, Director of Product, Figma Weave"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__testimonial-heygen_.width-100.format-webp.webp",
+      "alt": "a quote from Bin Liu, VP of Engineering for Hygen"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__testimonial-katsuyo.width-100.format-webp.webp",
+      "alt": "a quote card from Luke Pane, Developer, katsuyo"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__testimonial-kuku-FM.width-100.format-webp.webp",
+      "alt": "quote from Ritwik Baranwal, Associate Director AI/ML of kuku."
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__testimonial-linguan.width-100.format-webp.webp",
+      "alt": "a quote from Oded Shafran, Co-Founder & CTO of linguana"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__testimonial-olang__.width-100.format-webp.webp",
+      "alt": "Aziz Ulak, CTO & Co-founder, Ollang"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__testimonial-spoken_.width-100.format-webp.webp",
+      "alt": "a quote from Phil Marshall, Founder and CEO of Spoken"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__testimonial-transit.width-100.format-webp.webp",
+      "alt": "quote from Zina Rahman, Co-Founder and CEO, Transforms.AI"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__testimonial-wonderc.width-100.format-webp.webp",
+      "alt": "quote from Mei Ki Yiu, CTO of Wondercraft"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Start using our latest Gemini Audio models:",
+        "th": "Start using our latest Gemini Audio models:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini 3.8 Flash TTS is rolling out starting today:",
+        "th": "Gemini 3.8 Flash TTS is rolling out starting today:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For developers: In the Gemini API and Google AI Studio",
+        "th": "For developers: In the Gemini API and Google AI Studio"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For enterprises: Coming soon via API in Gemini Enterprise",
+        "th": "For enterprises: Coming soon via API in Gemini Enterprise"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For everyone: In Gemini Notebook.",
+        "th": "For everyone: In Gemini Notebook."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini 3.8 Flash-Lite TTS is rolling out starting today:",
+        "th": "Gemini 3.8 Flash-Lite TTS is rolling out starting today:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For developers: In the Gemini API and Google AI Studio",
+        "th": "For developers: In the Gemini API and Google AI Studio"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For enterprises: Coming soon via API in Gemini Enterprise",
+        "th": "For enterprises: Coming soon via API in Gemini Enterprise"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For everyone: In Google Vids",
+        "th": "For everyone: In Google Vids"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get the latest news from Google in your inbox",
+        "th": "รับข่าวสารล่าสุดจาก Google ในกล่องจดหมายของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sign up for our newsletters with product updates, event information, special offers, and more.",
+        "th": "ลงทะเบียนรับจดหมายข่าวของเราพร้อมข้อมูลอัปเดตผลิตภัณฑ์ ข้อมูลกิจกรรม ข้อเสนอพิเศษ และอื่นๆ อีกมากมาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Done. Just one step more.",
+        "th": "เสร็จแล้ว. อีกเพียงก้าวเดียวเท่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check your inbox to confirm your subscription.",
+        "th": "ตรวจสอบกล่องจดหมายของคุณเพื่อยืนยันการสมัครของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also subscribe with a different email address.",
+        "th": "คุณสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your information will be used in accordance with Google's privacy policy. You may opt out at any time.",
+        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google คุณสามารถเลือกไม่รับได้ตลอดเวลา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini models",
+        "th": "โมเดลราศีเมถุน"
+      }
+    }
+  ]
+}

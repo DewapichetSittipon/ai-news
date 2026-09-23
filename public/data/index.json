@@ -1,6 +1,91 @@
 {
-  "generatedAt": "2026-09-23T14:36:21.421Z",
+  "generatedAt": "2026-09-23T19:25:21.912Z",
   "items": [
+    {
+      "id": "huggingface__how-to-use-nvidia-warp-and-mjwarp",
+      "slug": "how-to-use-nvidia-warp-and-mjwarp",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "category": "News",
+      "date": "2026-09-23T18:41:40.000Z",
+      "image": null,
+      "title": {
+        "en": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+        "th": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows"
+      },
+      "summary": {
+        "en": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+        "th": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows"
+      }
+    },
+    {
+      "id": "google-ai__google-beam-expansion",
+      "slug": "google-beam-expansion",
+      "source": "google-ai",
+      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "category": "Google Workspace",
+      "date": "2026-09-23T18:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Beam_hero.max-600x600.format-webp.webp",
+      "title": {
+        "en": "Google Beam expands with new regions, partners, and customers",
+        "th": "Google Beam expands with new regions, partners, and customers"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Beam_hero.max-600x600.format-webp.webp\">We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended ",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Beam_hero.max-600x600.format-webp.webp\">We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended"
+      }
+    },
+    {
+      "id": "deepmind__advancing-private-ai-compute-with-secure-server-side-memory",
+      "slug": "advancing-private-ai-compute-with-secure-server-side-memory",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "category": "News",
+      "date": "2026-09-23T16:00:57.000Z",
+      "image": "https://lh3.googleusercontent.com/CsJavGl89SJwjdXVDdaKtAEpLbqHa_nzOW89VTThwA8rgYr9Gf3CSiUWk18i5thA57k8zhwdwmvf3F2yagtJ-P1ag-9ppxsPXcUe99DRY9asIRP2yA=w528-h297-n-nu-rw-lo",
+      "title": {
+        "en": "Advancing Private AI Compute with secure, server-side memory",
+        "th": "Advancing Private AI Compute with secure, server-side memory"
+      },
+      "summary": {
+        "en": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+        "th": "Introducing private, server-side memory to Private AI Compute for personal AI."
+      }
+    },
+    {
+      "id": "openai__two-years-of-openai-academy",
+      "slug": "two-years-of-openai-academy",
+      "source": "openai",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "category": "Company",
+      "date": "2026-09-23T16:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Two years of OpenAI Academy",
+        "th": "Two years of OpenAI Academy"
+      },
+      "summary": {
+        "en": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+        "th": "Marking two years of OpenAI Academy and bringing AI skills to even more communities."
+      }
+    },
+    {
+      "id": "deepmind__say-hello-to-gemini-38-text-to-speech",
+      "slug": "say-hello-to-gemini-38-text-to-speech",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "category": "News",
+      "date": "2026-09-23T15:25:14.000Z",
+      "image": null,
+      "title": {
+        "en": "Gemini 3.8 text-to-speech says hello",
+        "th": "Gemini 3.8 text-to-speech says hello"
+      },
+      "summary": {
+        "en": "Gemini 3.8 text-to-speech says hello",
+        "th": "Gemini 3.8 text-to-speech says hello"
+      }
+    },
     {
       "id": "openai__openai-extends-cyber-access-to-ukraine-for-civilian-defense",
       "slug": "openai-extends-cyber-access-to-ukraine-for-civilian-defense",
@@ -16,6 +101,74 @@
       "summary": {
         "en": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
         "th": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure."
+      }
+    },
+    {
+      "id": "openai__invideo-builds-with-gpt-6-astra",
+      "slug": "invideo-builds-with-gpt-6-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "category": "News",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How invideo improves color grading 3x with GPT‑6 Astra",
+        "th": "How invideo improves color grading 3x with GPT‑6 Astra"
+      },
+      "summary": {
+        "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+        "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
+      }
+    },
+    {
+      "id": "openai__ringg",
+      "slug": "ringg",
+      "source": "openai",
+      "url": "https://openai.com/index/ringg",
+      "category": "News",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
+      },
+      "summary": {
+        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
+      }
+    },
+    {
+      "id": "openai__harvey-from-context-to-confidence-with-astra",
+      "slug": "harvey-from-context-to-confidence-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "category": "Startup",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+        "th": "Harvey turns legal context into stronger drafts with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+        "th": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
+      }
+    },
+    {
+      "id": "anthropic__claude-discovers-novel-enzyme-system",
+      "slug": "claude-discovers-novel-enzyme-system",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "category": "News",
+      "date": "2026-09-23T00:00:00.000Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/394de337d8a5d8db93a1c048fa1cb53e16a09625-2048x1240.jpg",
+      "title": {
+        "en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+        "th": "Claude discovers a novel enzyme system with CRISPR-like repeats"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
       }
     },
     {
@@ -172,23 +325,6 @@
       }
     },
     {
-      "id": "openai__higgsfield-from-prompt-to-production-with-astra",
-      "slug": "higgsfield-from-prompt-to-production-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "category": "Startup",
-      "date": "2026-09-21T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-        "th": "Higgsfield AI ships new video features in a day with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-        "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
-      }
-    },
-    {
       "id": "openai__advisory-group-on-mathematics-and-ai",
       "slug": "advisory-group-on-mathematics-and-ai",
       "source": "openai",
@@ -203,6 +339,23 @@
       "summary": {
         "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
         "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
+      }
+    },
+    {
+      "id": "openai__higgsfield-from-prompt-to-production-with-astra",
+      "slug": "higgsfield-from-prompt-to-production-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "category": "Startup",
+      "date": "2026-09-21T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+        "th": "Higgsfield AI ships new video features in a day with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+        "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
       }
     },
     {
@@ -1022,74 +1175,6 @@
       }
     },
     {
-      "id": "openai__navier-stokes-solution",
-      "slug": "navier-stokes-solution",
-      "source": "openai",
-      "url": "https://openai.com/index/navier-stokes-solution",
-      "category": "Research",
-      "date": "2026-09-08T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "On the Navier–Stokes Millennium Prize Problem",
-        "th": "On the Navier–Stokes Millennium Prize Problem"
-      },
-      "summary": {
-        "en": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
-        "th": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean."
-      }
-    },
-    {
-      "id": "openai__teen-development-research-grants",
-      "slug": "teen-development-research-grants",
-      "source": "openai",
-      "url": "https://openai.com/index/teen-development-research-grants",
-      "category": "Safety",
-      "date": "2026-09-08T09:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Funding grants for new research into AI and teen development",
-        "th": "Funding grants for new research into AI and teen development"
-      },
-      "summary": {
-        "en": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-        "th": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety."
-      }
-    },
-    {
-      "id": "openai__supporting-journalism-from-classrooms-to-newsrooms",
-      "slug": "supporting-journalism-from-classrooms-to-newsrooms",
-      "source": "openai",
-      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
-      "category": "Company",
-      "date": "2026-09-08T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-        "th": "OpenAI expands initiatives to support journalism from classrooms to newsrooms"
-      },
-      "summary": {
-        "en": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
-        "th": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations."
-      }
-    },
-    {
-      "id": "openai__1password",
-      "slug": "1password",
-      "source": "openai",
-      "url": "https://openai.com/index/1password",
-      "category": "News",
-      "date": "2026-09-08T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "1Password increases engineering productivity 21% with Codex",
-        "th": "1Password increases engineering productivity 21% with Codex"
-      },
-      "summary": {
-        "en": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
-        "th": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies."
-      }
-    },
-    {
       "id": "deepmind__introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
       "slug": "introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
       "source": "deepmind",
@@ -1332,7 +1417,7 @@
       "slug": "improving-alignment-security-efforts",
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "category": "Announcements",
+      "category": "News",
       "date": "2026-08-31T00:00:00.000Z",
       "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20ShapeBuild&backgroundColor=cactus",
       "title": {
@@ -1417,7 +1502,7 @@
       "slug": "model-hardware-standard-research-preview",
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "category": "Announcements",
+      "category": "News",
       "date": "2026-08-27T00:00:00.000Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/5008271abbababe59f4fbb01998697f7dd0b5b60-1280x720.jpg",
       "title": {
@@ -1787,23 +1872,6 @@
       }
     },
     {
-      "id": "google-ai__sheets-canvas-for-google-sheets-spreadsheets",
-      "slug": "sheets-canvas-for-google-sheets-spreadsheets",
-      "source": "google-ai",
-      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-      "category": "Google Workspace",
-      "date": "2026-08-13T16:45:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp",
-      "title": {
-        "en": "Bring your spreadsheet data to life with Sheets canvas",
-        "th": "ทำให้ข้อมูลสเปรดชีตของคุณมีชีวิตชีวาด้วย Sheets Canvas"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp\">Sheets canvas turns data into interactive dashboards, custom study trackers, seating",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp\">ชีตแคนวาสเปลี่ยนข้อมูลเป็นแดชบอร์ดแบบโต้ตอบ ตัวติดตามการศึกษาที่กำหนดเอง ที่นั่ง"
-      }
-    },
-    {
       "id": "huggingface__icml-2026-open-reproductions",
       "slug": "icml-2026-open-reproductions",
       "source": "huggingface",
@@ -1971,23 +2039,6 @@
       "summary": {
         "en": "Baseten on Hugging Face Inference Providers 🔥",
         "th": "พื้นฐานจากผู้ให้บริการการอนุมานใบหน้าแบบกอด 🔥"
-      }
-    },
-    {
-      "id": "anthropic__tino-cuellar",
-      "slug": "tino-cuellar",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/tino-cuellar",
-      "category": "News",
-      "date": "2026-08-04T00:00:00.000Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
-        "th": "Mariano-Florentino (Tino) Cuéllar เข้าร่วม Anthropic ในตำแหน่ง Chief Global Affairs Officer"
-      },
-      "summary": {
-        "en": "Former California Supreme Court Justice Tino Cuéllar joins Anthropic to lead policy, international engagement, and government relations worldwide.",
-        "th": "Former California Supreme Court Justice Tino Cuéllar joins Anthropic to lead policy, international engagement, and government relations worldwide."
       }
     },
     {
@@ -2175,23 +2226,6 @@
       "summary": {
         "en": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
         "th": "Google เปิดตัว Gemini 3.5 Flash Cyber ​​ซึ่งเป็นโมเดลความปลอดภัยทางไซเบอร์แบบน้ำหนักเบาเพื่อค้นหาและแก้ไขช่องโหว่"
-      }
-    },
-    {
-      "id": "huggingface__newer-models-same-advantages",
-      "slug": "newer-models-same-advantages",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
-      "category": "News",
-      "date": "2026-07-16T11:49:48.000Z",
-      "image": null,
-      "title": {
-        "en": "Newer Models, Same Advantage",
-        "th": "รุ่นใหม่กว่า ข้อได้เปรียบเดียวกัน"
-      },
-      "summary": {
-        "en": "Newer Models, Same Advantage",
-        "th": "รุ่นใหม่กว่า ข้อได้เปรียบเดียวกัน"
       }
     },
     {
@@ -2515,40 +2549,6 @@
       "summary": {
         "en": "A collection of science tools and experiments to expand the scale and precision of scientific exploration.",
         "th": "ชุดเครื่องมือและการทดลองทางวิทยาศาสตร์เพื่อขยายขนาดและความแม่นยำของการสำรวจทางวิทยาศาสตร์"
-      }
-    },
-    {
-      "id": "deepmind__making-it-easier-to-understand-how-content-was-created-and-edited",
-      "slug": "making-it-easier-to-understand-how-content-was-created-and-edited",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/",
-      "category": "News",
-      "date": "2026-05-17T13:43:50.000Z",
-      "image": null,
-      "title": {
-        "en": "Making it easier to understand how content was created and edited",
-        "th": "ทำให้เข้าใจได้ง่ายขึ้นถึงวิธีการสร้างและแก้ไขเนื้อหา"
-      },
-      "summary": {
-        "en": "We're expanding our tools to help you understand how content was created and edited across the web.",
-        "th": "เรากำลังขยายเครื่องมือของเราเพื่อช่วยให้คุณเข้าใจวิธีการสร้างและแก้ไขเนื้อหาทั่วทั้งเว็บ"
-      }
-    },
-    {
-      "id": "deepmind__strengthening-singapores-ai-future-a-new-national-partnership",
-      "slug": "strengthening-singapores-ai-future-a-new-national-partnership",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/",
-      "category": "News",
-      "date": "2026-05-16T09:13:34.000Z",
-      "image": "https://lh3.googleusercontent.com/Woiv_MqlJsgv6bSWD505JCSu936VdLLtR0y7Ev1wPWDmuhFK1SYxkpyU4N2vhSpSMl22NAtbxuZ1yFMHIcDFwABNZIgRtX0ccRXxWiBaHETRXUQEZQ=w528-h297-n-nu-rw-lo",
-      "title": {
-        "en": "Strengthening Singapore’s AI Future: A New National Partnership",
-        "th": "การเสริมสร้างอนาคต AI ของสิงคโปร์: ความร่วมมือระดับชาติครั้งใหม่"
-      },
-      "summary": {
-        "en": "Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more.",
-        "th": "Google DeepMind และ Singapore ร่วมมือกันใช้ AI ระดับแนวหน้าเพื่อรับมือกับความท้าทายที่ซับซ้อนด้านสุขภาพ การศึกษา ความยั่งยืน และอื่นๆ"
       }
     }
   ]

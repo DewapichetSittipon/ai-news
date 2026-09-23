@@ -1,0 +1,434 @@
+{
+  "id": "openai__ringg",
+  "slug": "ringg",
+  "source": "openai",
+  "url": "https://openai.com/index/ringg",
+  "category": "News",
+  "date": "2026-09-23T12:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+    "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
+  },
+  "summary": {
+    "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+    "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "September 23, 2026",
+        "th": "September 23, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using GPT‑5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT‑4.1.",
+        "th": "Using GPT‑5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT‑4.1."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6bRPKvsny2bwgyOeg0Pedd/5dd852a286ea92589a5d420b21302a0c/square.png?w=3840&q=90&fm=webp",
+      "alt": "Dark raised-dot macro texture with the white Ringg.AI wordmark."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "7M+",
+        "th": "7M+"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Connected calls handled each month",
+        "th": "Connected calls handled each month"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "65%",
+        "th": "65%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Up to 65% request resolution via agents",
+        "th": "Up to 65% request resolution via agents"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "90%",
+        "th": "90%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Lower costs vs. GPT-4.1 for selected workloads",
+        "th": "Lower costs vs. GPT-4.1 for selected workloads"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "4.8",
+        "th": "4.8"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Average customer CSAT",
+        "th": "Average customer CSAT"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building an agent platform around customer outcomes",
+        "th": "Building an agent platform around customer outcomes"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Routing each task to the right OpenAI model",
+        "th": "Routing each task to the right OpenAI model"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Using production evals to improve quality and cost",
+        "th": "Using production evals to improve quality and cost"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Delivering customer results across industries",
+        "th": "Delivering customer results across industries"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Extending agents into the browser",
+        "th": "Extending agents into the browser"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building an agent platform around customer outcomes",
+        "th": "Building an agent platform around customer outcomes"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Routing each task to the right OpenAI model",
+        "th": "Routing each task to the right OpenAI model"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Using production evals to improve quality and cost",
+        "th": "Using production evals to improve quality and cost"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Delivering customer results across industries",
+        "th": "Delivering customer results across industries"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Extending agents into the browser",
+        "th": "Extending agents into the browser"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When call volume rises, customer service operations typically scale by adding people, but this increases the cost and complexity of every interaction. Ringg⁠(opens in a new window), a voice and chat agent platform, saw this problem firsthand while working with large consumer businesses in India.",
+        "th": "When call volume rises, customer service operations typically scale by adding people, but this increases the cost and complexity of every interaction. Ringg⁠(opens in a new window), a voice and chat agent platform, saw this problem firsthand while working with large consumer businesses in India."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These companies were not only struggling to answer more calls, their customer service agents were also battling fragmented, manual systems to help customers complete tasks, from buying insurance to booking appointments.",
+        "th": "These companies were not only struggling to answer more calls, their customer service agents were also battling fragmented, manual systems to help customers complete tasks, from buying insurance to booking appointments."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That experience led Ringg to build an enterprise agent platform with high-efficiency models like GPT‑5.6 at its core, spanning voice, chat, WhatsApp, and the web. Migrating suitable real-time workloads from GPT‑4.1 to GPT‑5.6 reduced model costs by approximately 90% while delivering the required quality and latency.",
+        "th": "That experience led Ringg to build an enterprise agent platform with high-efficiency models like GPT‑5.6 at its core, spanning voice, chat, WhatsApp, and the web. Migrating suitable real-time workloads from GPT‑4.1 to GPT‑5.6 reduced model costs by approximately 90% while delivering the required quality and latency."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Ringg’s agents now handle more than 7 million connected calls each month, and its customers have an average customer satisfaction (CSAT) score of 4.8.",
+        "th": "Ringg’s agents now handle more than 7 million connected calls each month, and its customers have an average customer satisfaction (CSAT) score of 4.8."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4nQCRTHCurrGZ2UNoi0dPz/7aa62e850b998fa460fab1c72b6e5b7c/image__18_.png?w=3840&q=90&fm=webp",
+      "alt": "Ringg AI product UI shown over the selected raised-dot texture, illustrating a health insurance renewal agent workflow."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Building an agent platform around customer outcomes",
+        "th": "Building an agent platform around customer outcomes"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For agents to complete a customer request, it may require checking a policy, retrieving an account record, scheduling an appointment, updating a CRM, or transferring the conversation to a specialist with the relevant context intact.",
+        "th": "For agents to complete a customer request, it may require checking a policy, retrieving an account record, scheduling an appointment, updating a CRM, or transferring the conversation to a specialist with the relevant context intact."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For real-time interactions, Ringg uses GPT‑5.6 Luna and other models to interpret customer requests, select tools, and guide customers through multi-step workflows. Ringg’s orchestration layer executes actions across CRMs, ticketing platforms, payment systems, scheduling tools, and internal APIs, escalating cases to a human with a conversation summary when needed.",
+        "th": "For real-time interactions, Ringg uses GPT‑5.6 Luna and other models to interpret customer requests, select tools, and guide customers through multi-step workflows. Ringg’s orchestration layer executes actions across CRMs, ticketing platforms, payment systems, scheduling tools, and internal APIs, escalating cases to a human with a conversation summary when needed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Ringg’s knowledge system combines structured filtering with semantic retrieval across datasets, PDFs, CSVs, and business documents, helping agents answer questions using relevant enterprise information.",
+        "th": "Ringg’s knowledge system combines structured filtering with semantic retrieval across datasets, PDFs, CSVs, and business documents, helping agents answer questions using relevant enterprise information."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Ringg can also divide work among specialized subagents for qualification, support, verification, scheduling, and escalation. The platform coordinates those steps while maintaining a consistent conversation with the customer across voice, chat, WhatsApp, and the web.",
+        "th": "Ringg can also divide work among specialized subagents for qualification, support, verification, scheduling, and escalation. The platform coordinates those steps while maintaining a consistent conversation with the customer across voice, chat, WhatsApp, and the web."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Routing each task to the right OpenAI model",
+        "th": "Routing each task to the right OpenAI model"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "After evaluating OpenAI alongside alternatives across conversational quality, latency, instruction following, tool calling, multilingual performance, reliability, and cost, Ringg found that OpenAI delivered the strongest overall balance for production workloads.",
+        "th": "After evaluating OpenAI alongside alternatives across conversational quality, latency, instruction following, tool calling, multilingual performance, reliability, and cost, Ringg found that OpenAI delivered the strongest overall balance for production workloads."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑5.6 and other OpenAI models also performed more consistently in following complex instructions, executing tool calls, maintaining conversational context, and operating reliably at enterprise scale.",
+        "th": "GPT‑5.6 and other OpenAI models also performed more consistently in following complex instructions, executing tool calls, maintaining conversational context, and operating reliably at enterprise scale."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Ringg routes work to a specific OpenAI model based on the needs of the task. GPT‑4.1 handles most real-time voice and chat traffic. GPT‑5.6 Luna remains in the production stack and is used when its performance, latency, or price-performance profile better suits a request. GPT‑5.6 Terra handles post-call analysis, including summaries and sentiment classification. And GPT‑5.6 Sol supports evaluation, prompt improvement, and model-as-judge workflows.",
+        "th": "Ringg routes work to a specific OpenAI model based on the needs of the task. GPT‑4.1 handles most real-time voice and chat traffic. GPT‑5.6 Luna remains in the production stack and is used when its performance, latency, or price-performance profile better suits a request. GPT‑5.6 Terra handles post-call analysis, including summaries and sentiment classification. And GPT‑5.6 Sol supports evaluation, prompt improvement, and model-as-judge workflows."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2aP3lOgn14gHjqA6ehqV4I/37313052b8cc32a91daa3cb3c1fb8b14/ringg-orchestration-min12-light-4x3-padded.png?w=3840&q=90&fm=webp",
+      "alt": "Ringg orchestration diagram showing input flowing through Ringg orchestration, model routing, post-call analysis, and an evaluation loop."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When a customer speaks during a voice call or sends a chat, Ringg’s orchestration system combines that input with the agent’s instructions, conversation history, customer-specific data, relevant knowledge-base context, and available tools. Ringg’s routing layer then selects the appropriate model and configuration. The model’s output is passed through the orchestration system and delivered through the customer’s chosen channel.",
+        "th": "When a customer speaks during a voice call or sends a chat, Ringg’s orchestration system combines that input with the agent’s instructions, conversation history, customer-specific data, relevant knowledge-base context, and available tools. Ringg’s routing layer then selects the appropriate model and configuration. The model’s output is passed through the orchestration system and delivered through the customer’s chosen channel."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For longer interactions, the system creates a structured summary when the context approaches approximately 80,000 tokens. The conversation can then continue with the important information preserved, without repeatedly sending the entire history.",
+        "th": "For longer interactions, the system creates a structured summary when the context approaches approximately 80,000 tokens. The conversation can then continue with the important information preserved, without repeatedly sending the entire history."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Using production evals to improve quality and cost",
+        "th": "Using production evals to improve quality and cost"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Ringg tests models using historical conversations and simulated customer flows before production deployment. Its evaluation platform uses those results to identify weaknesses and recommend prompt improvements, creating a continuous improvement loop for its agents and configurations.",
+        "th": "Ringg tests models using historical conversations and simulated customer flows before production deployment. Its evaluation platform uses those results to identify weaknesses and recommend prompt improvements, creating a continuous improvement loop for its agents and configurations."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One evaluation involved Ringg’s post-call analysis workflow. The company tested GPT‑5.6 Terra against alternatives like Gemini 2.5 Flash, and Terra came out on top. Ringg moved summaries and sentiment classification to GPT‑5.6 Terra. Terra maintained high accuracy for summaries and sentiment analysis while materially improving unit economics.",
+        "th": "One evaluation involved Ringg’s post-call analysis workflow. The company tested GPT‑5.6 Terra against alternatives like Gemini 2.5 Flash, and Terra came out on top. Ringg moved summaries and sentiment classification to GPT‑5.6 Terra. Terra maintained high accuracy for summaries and sentiment analysis while materially improving unit economics."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The company also tests models across language and regional variations, including conversations that switch between languages or combine English with local-language phrases, common behavior in the markets it serves. GPT‑5.6 Terra outperformed Gemini 2.5 Flash, with up to 97% accuracy on common regional languages, making GPT‑5.6 a better fit for agents serving Ringg’s customers.",
+        "th": "The company also tests models across language and regional variations, including conversations that switch between languages or combine English with local-language phrases, common behavior in the markets it serves. GPT‑5.6 Terra outperformed Gemini 2.5 Flash, with up to 97% accuracy on common regional languages, making GPT‑5.6 a better fit for agents serving Ringg’s customers."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Models that pass offline testing are introduced to a small share of production traffic before rollout expands. In production, Ringg’s router monitors latency and endpoint health across regions and shifts traffic when an endpoint becomes unavailable or crosses a latency threshold. Specialized nodes, alerts, and versioned deployments help isolate problems and limit their impact.",
+        "th": "Models that pass offline testing are introduced to a small share of production traffic before rollout expands. In production, Ringg’s router monitors latency and endpoint health across regions and shifts traffic when an endpoint becomes unavailable or crosses a latency threshold. Specialized nodes, alerts, and versioned deployments help isolate problems and limit their impact."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This approach also helps Ringg improve unit economics. Migrating certain real-time workloads from GPT‑4.1 to GPT‑5.6 Luna reduced model costs by approximately 90%.",
+        "th": "This approach also helps Ringg improve unit economics. Migrating certain real-time workloads from GPT‑4.1 to GPT‑5.6 Luna reduced model costs by approximately 90%."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Delivering customer results across industries",
+        "th": "Delivering customer results across industries"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For its customers, Ringg’s agents resolve up to 65% of routine customer inquiries without any involvement from a human agent.",
+        "th": "For its customers, Ringg’s agents resolve up to 65% of routine customer inquiries without any involvement from a human agent."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Policybazaar, one of India’s largest online insurance platforms, uses Ringg to connect more than 57,000 customer requests, and 67% of calls are handled without human intervention. Policybazaar’s average response time fell from 8–12 minutes to under 60 seconds, an improvement of approximately 88%.",
+        "th": "Policybazaar, one of India’s largest online insurance platforms, uses Ringg to connect more than 57,000 customer requests, and 67% of calls are handled without human intervention. Policybazaar’s average response time fell from 8–12 minutes to under 60 seconds, an improvement of approximately 88%."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "At Practo, a global healthcare platform, Ringg’s agents help customers book healthcare appointments and complete service requests. Following deployment, Practo achieved an 85% first-call resolution rate and response times below three seconds. Operating costs declined by 70% compared with its previous human-led workflow, while Ringg now completes more than 1,000 appointment bookings each day.",
+        "th": "At Practo, a global healthcare platform, Ringg’s agents help customers book healthcare appointments and complete service requests. Following deployment, Practo achieved an 85% first-call resolution rate and response times below three seconds. Operating costs declined by 70% compared with its previous human-led workflow, while Ringg now completes more than 1,000 appointment bookings each day."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Online investment platform Groww uses Ringg to resolve 72% of inbound queries related to IPOs, futures, and options entirely through self-service, with an average handling time of two minutes.",
+        "th": "Online investment platform Groww uses Ringg to resolve 72% of inbound queries related to IPOs, futures, and options entirely through self-service, with an average handling time of two minutes."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Extending agents into the browser",
+        "th": "Extending agents into the browser"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using OpenAI’s computer-use capabilities, Ringg is developing browser agents for platform onboarding, Know Your Customer (KYC) processes, IT troubleshooting, on-call incident support, and claims processing.",
+        "th": "Using OpenAI’s computer-use capabilities, Ringg is developing browser agents for platform onboarding, Know Your Customer (KYC) processes, IT troubleshooting, on-call incident support, and claims processing."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The company is also developing a context layer that can preserve information across channels and interactions. A customer might begin a request over voice, continue it on WhatsApp, and finish it in a browser without having to repeat the same details each time.",
+        "th": "The company is also developing a context layer that can preserve information across channels and interactions. A customer might begin a request over voice, continue it on WhatsApp, and finish it in a browser without having to repeat the same details each time."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For Ringg, the next generation of customer operations will be measured by completed business outcomes and automation depth, rather than call volume or headcount.",
+        "th": "For Ringg, the next generation of customer operations will be measured by completed business outcomes and automation depth, rather than call volume or headcount."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "OpenAI <3 startups",
+        "th": "OpenAI <3 startups"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/Tc4KzRhOgVSaIxQoUkr9R/25c2cf38c314d47e6f3cb93e54e382aa/two-years-of-openai-academy-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Two years of OpenAI Academy — card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanySep 23, 2026",
+        "th": "CompanySep 23, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4NsiJiqUurW5ypfaulGCFm/8b5bfad7d895c4fc6aa20766d5c88b0c/openai-extends-cyber-access-to-ukraine-for-civilian-defense-cover.png?w=3840&q=90&fm=webp",
+      "alt": "OpenAI extends cyber access to Ukraine for civilian defense — cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Global AffairsSep 23, 2026",
+        "th": "Global AffairsSep 23, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/59usTWVI6pc0I3Lb6TL2ol/3d45075f7a623fa6ba4d8d13459065c1/square.png?w=3840&q=90&fm=webp",
+      "alt": "Harvey customer story card image - Option C"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupSep 23, 2026",
+        "th": "StartupSep 23, 2026"
+      }
+    }
+  ]
+}

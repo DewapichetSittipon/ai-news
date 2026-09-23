@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T19:25:21.912Z",
+  "generatedAt": "2026-09-23T22:37:32.990Z",
   "items": [
     {
       "id": "huggingface__how-to-use-nvidia-warp-and-mjwarp",
@@ -104,6 +104,40 @@
       }
     },
     {
+      "id": "openai__sam-altman-un-security-council-remarks",
+      "slug": "sam-altman-un-security-council-remarks",
+      "source": "openai",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "category": "Global Affairs",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Sam Altman’s remarks at the United Nations Security Council",
+        "th": "Sam Altman’s remarks at the United Nations Security Council"
+      },
+      "summary": {
+        "en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+        "th": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
+      }
+    },
+    {
+      "id": "openai__harvey-from-context-to-confidence-with-astra",
+      "slug": "harvey-from-context-to-confidence-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "category": "Startup",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+        "th": "Harvey turns legal context into stronger drafts with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+        "th": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
+      }
+    },
+    {
       "id": "openai__invideo-builds-with-gpt-6-astra",
       "slug": "invideo-builds-with-gpt-6-astra",
       "source": "openai",
@@ -138,20 +172,37 @@
       }
     },
     {
-      "id": "openai__harvey-from-context-to-confidence-with-astra",
-      "slug": "harvey-from-context-to-confidence-with-astra",
+      "id": "openai__introducing-mentalhealthbench",
+      "slug": "introducing-mentalhealthbench",
       "source": "openai",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "category": "Startup",
-      "date": "2026-09-23T12:00:00.000Z",
+      "url": "https://openai.com/index/introducing-mentalhealthbench",
+      "category": "Publication",
+      "date": "2026-09-23T10:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-        "th": "Harvey turns legal context into stronger drafts with GPT-6 Astra"
+        "en": "Introducing MentalHealthBench",
+        "th": "Introducing MentalHealthBench"
       },
       "summary": {
-        "en": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-        "th": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
+        "en": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+        "th": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations."
+      }
+    },
+    {
+      "id": "openai__airbnb-gpt-6-astra",
+      "slug": "airbnb-gpt-6-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/airbnb-gpt-6-astra",
+      "category": "Company",
+      "date": "2026-09-23T01:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+        "th": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models"
+      },
+      "summary": {
+        "en": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+        "th": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster."
       }
     },
     {
@@ -167,8 +218,8 @@
         "th": "Claude discovers a novel enzyme system with CRISPR-like repeats"
       },
       "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+        "en": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+        "th": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown."
       }
     },
     {
@@ -325,23 +376,6 @@
       }
     },
     {
-      "id": "openai__advisory-group-on-mathematics-and-ai",
-      "slug": "advisory-group-on-mathematics-and-ai",
-      "source": "openai",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "category": "Company",
-      "date": "2026-09-21T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Advisory Group on Mathematics and Artificial Intelligence",
-        "th": "Advisory Group on Mathematics and Artificial Intelligence"
-      },
-      "summary": {
-        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
-      }
-    },
-    {
       "id": "openai__higgsfield-from-prompt-to-production-with-astra",
       "slug": "higgsfield-from-prompt-to-production-with-astra",
       "source": "openai",
@@ -356,6 +390,23 @@
       "summary": {
         "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
         "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
+      }
+    },
+    {
+      "id": "openai__advisory-group-on-mathematics-and-ai",
+      "slug": "advisory-group-on-mathematics-and-ai",
+      "source": "openai",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "category": "Company",
+      "date": "2026-09-21T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Advisory Group on Mathematics and Artificial Intelligence",
+        "th": "Advisory Group on Mathematics and Artificial Intelligence"
+      },
+      "summary": {
+        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
       }
     },
     {
@@ -1107,23 +1158,6 @@
       }
     },
     {
-      "id": "openai__codex-quantum-computing-experiments",
-      "slug": "codex-quantum-computing-experiments",
-      "source": "openai",
-      "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "category": "Applied AI",
-      "date": "2026-09-08T17:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How GPT-5.6 Sol helps run quantum computing experiments",
-        "th": "How GPT-5.6 Sol helps run quantum computing experiments"
-      },
-      "summary": {
-        "en": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
-        "th": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits."
-      }
-    },
-    {
       "id": "deepmind__alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-hu",
       "slug": "alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-hu",
       "source": "deepmind",
@@ -1138,40 +1172,6 @@
       "summary": {
         "en": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
         "th": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome."
-      }
-    },
-    {
-      "id": "openai__the-work-now-within-reach",
-      "slug": "the-work-now-within-reach",
-      "source": "openai",
-      "url": "https://openai.com/index/the-work-now-within-reach",
-      "category": "Company",
-      "date": "2026-09-08T13:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "The Work Now Within Reach",
-        "th": "The Work Now Within Reach"
-      },
-      "summary": {
-        "en": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
-        "th": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical."
-      }
-    },
-    {
-      "id": "openai__introducing-chatgpt-images-2-5",
-      "slug": "introducing-chatgpt-images-2-5",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "category": "Product",
-      "date": "2026-09-08T11:30:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing ChatGPT Images 2.5",
-        "th": "Introducing ChatGPT Images 2.5"
-      },
-      "summary": {
-        "en": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
-        "th": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas."
       }
     },
     {

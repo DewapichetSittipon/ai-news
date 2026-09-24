@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-09-24T08:54:56.470Z",
+  "generatedAt": "2026-09-24T14:34:23.027Z",
   "items": [
+    {
+      "id": "huggingface__lfm2-5-vl-dspark",
+      "slug": "lfm2-5-vl-dspark",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "category": "News",
+      "date": "2026-09-24T14:08:57.000Z",
+      "image": null,
+      "title": {
+        "en": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+        "th": "Accelerating vision-language models with LFM2.5-VL-DSpark"
+      },
+      "summary": {
+        "en": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+        "th": "Accelerating vision-language models with LFM2.5-VL-DSpark"
+      }
+    },
     {
       "id": "huggingface__how-to-use-nvidia-warp-and-mjwarp",
       "slug": "how-to-use-nvidia-warp-and-mjwarp",
@@ -2192,23 +2209,6 @@
       "summary": {
         "en": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
         "th": "เรากำลังเปิดตัวโมเดล Gemini ใหม่ รวมถึง Gemini 3.6 Flash, 3.5 Flash-Lite และ 3.5 Flash Cyber"
-      }
-    },
-    {
-      "id": "huggingface__grabette",
-      "slug": "grabette",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/grabette",
-      "category": "News",
-      "date": "2026-07-21T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Grabette: an open system to record robot-manipulation data",
-        "th": "Grabette: ระบบเปิดสำหรับบันทึกข้อมูลการจัดการหุ่นยนต์"
-      },
-      "summary": {
-        "en": "Grabette: an open system to record robot-manipulation data",
-        "th": "Grabette: ระบบเปิดสำหรับบันทึกข้อมูลการจัดการหุ่นยนต์"
       }
     },
     {

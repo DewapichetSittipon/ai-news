@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T22:37:32.990Z",
+  "generatedAt": "2026-09-24T02:29:38.919Z",
   "items": [
     {
       "id": "huggingface__how-to-use-nvidia-warp-and-mjwarp",
@@ -376,23 +376,6 @@
       }
     },
     {
-      "id": "openai__higgsfield-from-prompt-to-production-with-astra",
-      "slug": "higgsfield-from-prompt-to-production-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "category": "Startup",
-      "date": "2026-09-21T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-        "th": "Higgsfield AI ships new video features in a day with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-        "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
-      }
-    },
-    {
       "id": "openai__advisory-group-on-mathematics-and-ai",
       "slug": "advisory-group-on-mathematics-and-ai",
       "source": "openai",
@@ -407,6 +390,23 @@
       "summary": {
         "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
         "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
+      }
+    },
+    {
+      "id": "openai__higgsfield-from-prompt-to-production-with-astra",
+      "slug": "higgsfield-from-prompt-to-production-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "category": "Startup",
+      "date": "2026-09-21T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+        "th": "Higgsfield AI ships new video features in a day with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+        "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
       }
     },
     {
@@ -1005,23 +1005,6 @@
       }
     },
     {
-      "id": "openai__introducing-the-agents-api",
-      "slug": "introducing-the-agents-api",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "category": "Product",
-      "date": "2026-09-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing the Agents API",
-        "th": "Introducing the Agents API"
-      },
-      "summary": {
-        "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-        "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
-      }
-    },
-    {
       "id": "openai__introducing-gpt-live-1-in-the-api",
       "slug": "introducing-gpt-live-1-in-the-api",
       "source": "openai",
@@ -1036,6 +1019,23 @@
       "summary": {
         "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
         "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
+      }
+    },
+    {
+      "id": "openai__introducing-the-agents-api",
+      "slug": "introducing-the-agents-api",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "category": "Product",
+      "date": "2026-09-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing the Agents API",
+        "th": "Introducing the Agents API"
+      },
+      "summary": {
+        "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+        "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
       }
     },
     {

@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-09-25T14:54:49.545Z",
+  "generatedAt": "2026-09-25T19:45:52.925Z",
   "items": [
+    {
+      "id": "openai__proaction",
+      "slug": "proaction",
+      "source": "openai",
+      "url": "https://openai.com/index/proaction",
+      "category": "News",
+      "date": "2026-09-25T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+        "th": "Proaction boosts sales 60% and saves 75+ hours with Codex"
+      },
+      "summary": {
+        "en": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+        "th": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster."
+      }
+    },
     {
       "id": "deepmind__introducing-gemini-38-live-with-live-avatar",
       "slug": "introducing-gemini-38-live-with-live-avatar",
@@ -1172,23 +1189,6 @@
       "summary": {
         "en": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
         "th": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open."
-      }
-    },
-    {
-      "id": "openai__gpt-6-astra-next-generation-work",
-      "slug": "gpt-6-astra-next-generation-work",
-      "source": "openai",
-      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "category": "Product",
-      "date": "2026-09-09T11:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "GPT-6 Astra: The next generation in intelligence for work",
-        "th": "GPT-6 Astra: The next generation in intelligence for work"
-      },
-      "summary": {
-        "en": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-        "th": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment."
       }
     },
     {

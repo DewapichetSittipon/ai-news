@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+16",
-        "th": "+16"
+        "en": "+17",
+        "th": "+17"
       }
     },
     {
@@ -508,6 +508,39 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/f47b10ef653f71f3ba5bc7dcc8c085d2.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The line that matters for practitioners is quiet: apparently similar scores can be produced under meaningfully different conditions.",
+        "th": "The line that matters for practitioners is quiet: apparently similar scores can be produced under meaningfully different conditions."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Once you've watched a benchmark move just by changing inference-time compute or the elicitation protocol, \"Model A beat Model B on X\" without a card is marketing, not comparison. Evaluation Cards that ship verified results with configuration — especially transcript-level context where it's appropriate — are how eval becomes a contract instead of a leaderboard screenshot.",
+        "th": "Once you've watched a benchmark move just by changing inference-time compute or the elicitation protocol, \"Model A beat Model B on X\" without a card is marketing, not comparison. Evaluation Cards that ship verified results with configuration — especially transcript-level context where it's appropriate — are how eval becomes a contract instead of a leaderboard screenshot."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One ask I'd put to teams adopting EEE: which fields get skipped first under deadline pressure (seed, tool access, attempt budget, oracle feedback), and do you treat a missing field as \"do not cite the delta\" rather than \"assume defaults\"?",
+        "th": "One ask I'd put to teams adopting EEE: which fields get skipped first under deadline pressure (seed, tool access, attempt budget, oracle feedback), and do you treat a missing field as \"do not cite the delta\" rather than \"assume defaults\"?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reproducible reporting won't remove disagreement. It will make the disagreement about the right variables.",
+        "th": "Reproducible reporting won't remove disagreement. It will make the disagreement about the right variables."
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -577,8 +610,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+10",
-        "th": "+10"
+        "en": "+11",
+        "th": "+11"
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T10:22:15.523Z",
+  "generatedAt": "2026-09-28T19:03:04.255Z",
   "items": [
     {
       "id": "huggingface__holo4",
@@ -16,6 +16,23 @@
       "summary": {
         "en": "Holo4: powering generalist computer-use agents",
         "th": "Holo4: powering generalist computer-use agents"
+      }
+    },
+    {
+      "id": "openai__lenfest-ai-collaborative-expansion",
+      "slug": "lenfest-ai-collaborative-expansion",
+      "source": "openai",
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "category": "Company",
+      "date": "2026-09-28T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+        "th": "The Lenfest Institute grows landmark program with expanded OpenAI support"
+      },
+      "summary": {
+        "en": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+        "th": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support."
       }
     },
     {
@@ -172,23 +189,6 @@
       }
     },
     {
-      "id": "openai__sam-altman-un-security-council-remarks",
-      "slug": "sam-altman-un-security-council-remarks",
-      "source": "openai",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "category": "Global Affairs",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Sam Altman’s remarks at the United Nations Security Council",
-        "th": "Sam Altman’s remarks at the United Nations Security Council"
-      },
-      "summary": {
-        "en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-        "th": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
-      }
-    },
-    {
       "id": "openai__harvey-from-context-to-confidence-with-astra",
       "slug": "harvey-from-context-to-confidence-with-astra",
       "source": "openai",
@@ -237,6 +237,23 @@
       "summary": {
         "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
         "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
+      }
+    },
+    {
+      "id": "openai__sam-altman-un-security-council-remarks",
+      "slug": "sam-altman-un-security-council-remarks",
+      "source": "openai",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "category": "Global Affairs",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Sam Altman’s remarks at the United Nations Security Council",
+        "th": "Sam Altman’s remarks at the United Nations Security Council"
+      },
+      "summary": {
+        "en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+        "th": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
       }
     },
     {
@@ -1090,23 +1107,6 @@
       }
     },
     {
-      "id": "openai__introducing-gpt-live-1-in-the-api",
-      "slug": "introducing-gpt-live-1-in-the-api",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "category": "Product",
-      "date": "2026-09-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-        "th": "Build more natural voice experiences with GPT‑Live‑1 in the API"
-      },
-      "summary": {
-        "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-        "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
-      }
-    },
-    {
       "id": "openai__introducing-the-agents-api",
       "slug": "introducing-the-agents-api",
       "source": "openai",
@@ -1121,6 +1121,23 @@
       "summary": {
         "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
         "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
+      }
+    },
+    {
+      "id": "openai__introducing-gpt-live-1-in-the-api",
+      "slug": "introducing-gpt-live-1-in-the-api",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "category": "Product",
+      "date": "2026-09-10T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+        "th": "Build more natural voice experiences with GPT‑Live‑1 in the API"
+      },
+      "summary": {
+        "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+        "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
       }
     },
     {
@@ -1189,23 +1206,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LOVE_RENDERED_HERO_BLOG_SANS_LO.max-600x600.format-webp.webp\">Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorde",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LOVE_RENDERED_HERO_BLOG_SANS_LO.max-600x600.format-webp.webp\">Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorde"
-      }
-    },
-    {
-      "id": "openai__ai-policy-window",
-      "slug": "ai-policy-window",
-      "source": "openai",
-      "url": "https://openai.com/index/ai-policy-window",
-      "category": "Global Affairs",
-      "date": "2026-09-09T13:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "The AI policy window is open. We need to act.",
-        "th": "The AI policy window is open. We need to act."
-      },
-      "summary": {
-        "en": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
-        "th": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open."
       }
     },
     {

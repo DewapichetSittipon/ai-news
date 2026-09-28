@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-09-28T02:51:24.713Z",
+  "generatedAt": "2026-09-28T10:22:15.523Z",
   "items": [
+    {
+      "id": "huggingface__holo4",
+      "slug": "holo4",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "category": "News",
+      "date": "2026-09-28T09:44:05.000Z",
+      "image": null,
+      "title": {
+        "en": "Holo4: powering generalist computer-use agents",
+        "th": "Holo4: powering generalist computer-use agents"
+      },
+      "summary": {
+        "en": "Holo4: powering generalist computer-use agents",
+        "th": "Holo4: powering generalist computer-use agents"
+      }
+    },
     {
       "id": "openai__proaction",
       "slug": "proaction",
@@ -2175,23 +2192,6 @@
       "summary": {
         "en": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
         "th": "กายวิภาคของการบุกรุกของเจ้าหน้าที่ห้องปฏิบัติการชายแดน: เส้นเวลาทางเทคนิคของเหตุการณ์เดือนกรกฎาคม 2569"
-      }
-    },
-    {
-      "id": "huggingface__nunchaku-diffusers",
-      "slug": "nunchaku-diffusers",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/nunchaku-diffusers",
-      "category": "News",
-      "date": "2026-07-23T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-        "th": "นำการอนุมานการแพร่กระจายของ Nunchaku 4 บิตมาสู่ตัวกระจายสัญญาณ"
-      },
-      "summary": {
-        "en": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-        "th": "นำการอนุมานการแพร่กระจายของ Nunchaku 4 บิตมาสู่ตัวกระจายสัญญาณ"
       }
     },
     {

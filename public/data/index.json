@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-09-29T00:06:37.981Z",
+  "generatedAt": "2026-09-29T07:44:59.034Z",
   "items": [
+    {
+      "id": "openai__how-we-will-do-better-for-australia",
+      "slug": "how-we-will-do-better-for-australia",
+      "source": "openai",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "category": "Company",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How we will do better for Australia",
+        "th": "How we will do better for Australia"
+      },
+      "summary": {
+        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
+      }
+    },
+    {
+      "id": "openai__towards-safety-cases-for-frontier-ai-training",
+      "slug": "towards-safety-cases-for-frontier-ai-training",
+      "source": "openai",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "category": "Safety",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Towards safety cases for frontier AI training",
+        "th": "Towards safety cases for frontier AI training"
+      },
+      "summary": {
+        "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+        "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
+      }
+    },
     {
       "id": "google-ai__winner-future-vision-xprize",
       "slug": "winner-future-vision-xprize",
@@ -53,23 +87,6 @@
       }
     },
     {
-      "id": "openai__codex-originals",
-      "slug": "codex-originals",
-      "source": "openai",
-      "url": "https://openai.com/form/codex-originals",
-      "category": "News",
-      "date": "2026-09-28T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Are you a Codex Original?",
-        "th": "Are you a Codex Original?"
-      },
-      "summary": {
-        "en": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about",
-        "th": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about"
-      }
-    },
-    {
       "id": "openai__basis-tax-workbook-with-astra",
       "slug": "basis-tax-workbook-with-astra",
       "source": "openai",
@@ -84,6 +101,23 @@
       "summary": {
         "en": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
         "th": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use."
+      }
+    },
+    {
+      "id": "openai__codex-originals",
+      "slug": "codex-originals",
+      "source": "openai",
+      "url": "https://openai.com/form/codex-originals",
+      "category": "News",
+      "date": "2026-09-28T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Are you a Codex Original?",
+        "th": "Are you a Codex Original?"
+      },
+      "summary": {
+        "en": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about",
+        "th": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about"
       }
     },
     {
@@ -240,23 +274,6 @@
       }
     },
     {
-      "id": "openai__sam-altman-un-security-council-remarks",
-      "slug": "sam-altman-un-security-council-remarks",
-      "source": "openai",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "category": "Global Affairs",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Sam Altman’s remarks at the United Nations Security Council",
-        "th": "Sam Altman’s remarks at the United Nations Security Council"
-      },
-      "summary": {
-        "en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-        "th": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
-      }
-    },
-    {
       "id": "openai__harvey-from-context-to-confidence-with-astra",
       "slug": "harvey-from-context-to-confidence-with-astra",
       "source": "openai",
@@ -271,6 +288,23 @@
       "summary": {
         "en": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
         "th": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
+      }
+    },
+    {
+      "id": "openai__ringg",
+      "slug": "ringg",
+      "source": "openai",
+      "url": "https://openai.com/index/ringg",
+      "category": "News",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
+      },
+      "summary": {
+        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
       }
     },
     {
@@ -291,20 +325,20 @@
       }
     },
     {
-      "id": "openai__ringg",
-      "slug": "ringg",
+      "id": "openai__sam-altman-un-security-council-remarks",
+      "slug": "sam-altman-un-security-council-remarks",
       "source": "openai",
-      "url": "https://openai.com/index/ringg",
-      "category": "News",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "category": "Global Affairs",
       "date": "2026-09-23T12:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
+        "en": "Sam Altman’s remarks at the United Nations Security Council",
+        "th": "Sam Altman’s remarks at the United Nations Security Council"
       },
       "summary": {
-        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
+        "en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+        "th": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
       }
     },
     {
@@ -529,23 +563,6 @@
       }
     },
     {
-      "id": "openai__advisory-group-on-mathematics-and-ai",
-      "slug": "advisory-group-on-mathematics-and-ai",
-      "source": "openai",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "category": "Company",
-      "date": "2026-09-21T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Advisory Group on Mathematics and Artificial Intelligence",
-        "th": "Advisory Group on Mathematics and Artificial Intelligence"
-      },
-      "summary": {
-        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
-      }
-    },
-    {
       "id": "openai__higgsfield-from-prompt-to-production-with-astra",
       "slug": "higgsfield-from-prompt-to-production-with-astra",
       "source": "openai",
@@ -560,6 +577,23 @@
       "summary": {
         "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
         "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
+      }
+    },
+    {
+      "id": "openai__advisory-group-on-mathematics-and-ai",
+      "slug": "advisory-group-on-mathematics-and-ai",
+      "source": "openai",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "category": "Company",
+      "date": "2026-09-21T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Advisory Group on Mathematics and Artificial Intelligence",
+        "th": "Advisory Group on Mathematics and Artificial Intelligence"
+      },
+      "summary": {
+        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
       }
     },
     {
@@ -1121,40 +1155,6 @@
       "summary": {
         "en": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
         "th": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language."
-      }
-    },
-    {
-      "id": "openai__introducing-chatgpt-financial-services",
-      "slug": "introducing-chatgpt-financial-services",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "category": "Product",
-      "date": "2026-09-10T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing ChatGPT for Financial Services",
-        "th": "Introducing ChatGPT for Financial Services"
-      },
-      "summary": {
-        "en": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-        "th": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials."
-      }
-    },
-    {
-      "id": "openai__expanding-ai-access-us-government",
-      "slug": "expanding-ai-access-us-government",
-      "source": "openai",
-      "url": "https://openai.com/index/expanding-ai-access-us-government",
-      "category": "Global Affairs",
-      "date": "2026-09-10T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-        "th": "Expanding AI access and cyber defense for federal, state, local, and tribal governments"
-      },
-      "summary": {
-        "en": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-        "th": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support."
       }
     },
     {

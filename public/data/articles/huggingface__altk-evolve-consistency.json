@@ -741,6 +741,58 @@
       }
     },
     {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/643993faeb7c5616ef3fdbc9/zo55b-nrQcwpgmQGRvj4K.png",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1 reply",
+        "th": "1 ตอบกลับ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/643993faeb7c5616ef3fdbc9/zo55b-nrQcwpgmQGRvj4K.png",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Thanks, and you've landed on exactly the operational takeaway we hoped for: flip-prone decision steps should be eval targets in their own right. Beyond that, knowing where they are also turns the eval into a diagnostic: a consistency gap tells you that an agent is unreliable, while the flip-prone steps tell you where and why.",
+        "th": "Thanks, and you've landed on exactly the operational takeaway we hoped for: flip-prone decision steps should be eval targets in their own right. Beyond that, knowing where they are also turns the eval into a diagnostic: a consistency gap tells you that an agent is unreliable, while the flip-prone steps tell you where and why."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On your release-gate question: we'd strongly encourage it, and k=3 is a sensible default. A few things we'd suggest to anyone adopting Pass^k as a gate:",
+        "th": "On your release-gate question: we'd strongly encourage it, and k=3 is a sensible default. A few things we'd suggest to anyone adopting Pass^k as a gate:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Fix k, and there's no need to push it much past 3. Pass^k gets stricter as k grows, so \"Pass^3 ≥ X\" and \"Pass^5 ≥ X\" are different bars; pick one and keep it across releases. We used k=5 for the study, but for a release gate, the returns diminish quickly beyond k=3. In our experience, most inconsistent tasks show at least one failure within the first three runs, so going further adds cost linearly while adding comparatively little new insight into which tasks are unreliable.",
+        "th": "Fix k, and there's no need to push it much past 3. Pass^k gets stricter as k grows, so \"Pass^3 ≥ X\" and \"Pass^5 ≥ X\" are different bars; pick one and keep it across releases. We used k=5 for the study, but for a release gate, the returns diminish quickly beyond k=3. In our experience, most inconsistent tasks show at least one failure within the first three runs, so going further adds cost linearly while adding comparatively little new insight into which tasks are unreliable."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mind the sample size. Pass^k gives each task a single all-or-nothing outcome, so its precision depends mainly on the number of tasks, not on k, and both Pass^k and Mean@k stay noisy on small task sets. Compare releases task by task rather than by aggregate scores, and report task counts or intervals before calling an agent stable or unstable.",
+        "th": "Mind the sample size. Pass^k gives each task a single all-or-nothing outcome, so its precision depends mainly on the number of tasks, not on k, and both Pass^k and Mean@k stay noisy on small task sets. Compare releases task by task rather than by aggregate scores, and report task counts or intervals before calling an agent stable or unstable."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "I'd like to understand your closing point better. In our experiments, we didn't choose among individual guidelines: for each new task, we injected the guidelines derived from the most similar task. I'm curious where you see the disagreement about which guidelines to inject arising.",
+        "th": "I'd like to understand your closing point better. In our experiments, we didn't choose among individual guidelines: for each new task, we injected the guidelines derived from the most similar task. I'm curious where you see the disagreement about which guidelines to inject arising."
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",

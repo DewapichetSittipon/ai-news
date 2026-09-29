@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+108",
-        "th": "+108"
+        "en": "+109",
+        "th": "+109"
       }
     },
     {
@@ -701,6 +701,46 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/f47b10ef653f71f3ba5bc7dcc8c085d2.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The useful split is the one most dashboards still refuse to print: Mean@k answers “how good is this agent on average?” Pass^k answers “will the same request still succeed if I ask again?”",
+        "th": "The useful split is the one most dashboards still refuse to print: Mean@k answers “how good is this agent on average?” Pass^k answers “will the same request still succeed if I ask again?”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Once you’ve watched a trajectory chain dozens of near-tied tool choices, a strong average with a wide consistency gap is exactly the demo that fails live. Capability and consistency are orthogonal — buying a bigger model can lift Mean without closing the gap.",
+        "th": "Once you’ve watched a trajectory chain dozens of near-tied tool choices, a strong average with a wide consistency gap is exactly the demo that fails live. Capability and consistency are orthogonal — buying a bigger model can lift Mean without closing the gap."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "What I want teams to take from the Consistency Analyzer framing is operational, not the guideline machinery itself: treat flip-prone decision steps as first-class eval targets. One offline resample pass over a recorded trace is a cheaper reliability signal than another end-to-end leaderboard screenshot.",
+        "th": "What I want teams to take from the Consistency Analyzer framing is operational, not the guideline machinery itself: treat flip-prone decision steps as first-class eval targets. One offline resample pass over a recorded trace is a cheaper reliability signal than another end-to-end leaderboard screenshot."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Practical ask for anyone shipping agents from this: do you report Pass^k (even k=3) next to Mean@k in the release gate, and do you refuse the “stable” label when the consistency gap is still large on your hard tier?",
+        "th": "Practical ask for anyone shipping agents from this: do you report Pass^k (even k=3) next to Mean@k in the release gate, and do you refuse the “stable” label when the consistency gap is still large on your hard tier?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reproducible reliability will not remove disagreement about which guidelines to inject. It will make the disagreement about the right metric.",
+        "th": "Reproducible reliability will not remove disagreement about which guidelines to inject. It will make the disagreement about the right metric."
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -770,8 +810,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+102",
-        "th": "+102"
+        "en": "+103",
+        "th": "+103"
       }
     }
   ]

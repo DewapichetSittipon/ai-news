@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-09-28T19:03:04.255Z",
+  "generatedAt": "2026-09-29T00:06:37.981Z",
   "items": [
+    {
+      "id": "google-ai__winner-future-vision-xprize",
+      "slug": "winner-future-vision-xprize",
+      "source": "google-ai",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "category": "AI",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp",
+      "title": {
+        "en": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+        "th": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted."
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp\">Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp\">Watch the winning trailer from the Future Vision XPRIZE, The Gifted."
+      }
+    },
     {
       "id": "huggingface__holo4",
       "slug": "holo4",
@@ -33,6 +50,40 @@
       "summary": {
         "en": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
         "th": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support."
+      }
+    },
+    {
+      "id": "openai__codex-originals",
+      "slug": "codex-originals",
+      "source": "openai",
+      "url": "https://openai.com/form/codex-originals",
+      "category": "News",
+      "date": "2026-09-28T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Are you a Codex Original?",
+        "th": "Are you a Codex Original?"
+      },
+      "summary": {
+        "en": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about",
+        "th": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about"
+      }
+    },
+    {
+      "id": "openai__basis-tax-workbook-with-astra",
+      "slug": "basis-tax-workbook-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "category": "News",
+      "date": "2026-09-28T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+        "th": "Basis completes a tax workbook 2x faster with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+        "th": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use."
       }
     },
     {
@@ -189,6 +240,23 @@
       }
     },
     {
+      "id": "openai__sam-altman-un-security-council-remarks",
+      "slug": "sam-altman-un-security-council-remarks",
+      "source": "openai",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "category": "Global Affairs",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Sam Altman’s remarks at the United Nations Security Council",
+        "th": "Sam Altman’s remarks at the United Nations Security Council"
+      },
+      "summary": {
+        "en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+        "th": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
+      }
+    },
+    {
       "id": "openai__harvey-from-context-to-confidence-with-astra",
       "slug": "harvey-from-context-to-confidence-with-astra",
       "source": "openai",
@@ -237,23 +305,6 @@
       "summary": {
         "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
         "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
-      }
-    },
-    {
-      "id": "openai__sam-altman-un-security-council-remarks",
-      "slug": "sam-altman-un-security-council-remarks",
-      "source": "openai",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "category": "Global Affairs",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Sam Altman’s remarks at the United Nations Security Council",
-        "th": "Sam Altman’s remarks at the United Nations Security Council"
-      },
-      "summary": {
-        "en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-        "th": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
       }
     },
     {
@@ -478,23 +529,6 @@
       }
     },
     {
-      "id": "openai__higgsfield-from-prompt-to-production-with-astra",
-      "slug": "higgsfield-from-prompt-to-production-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "category": "Startup",
-      "date": "2026-09-21T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-        "th": "Higgsfield AI ships new video features in a day with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-        "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
-      }
-    },
-    {
       "id": "openai__advisory-group-on-mathematics-and-ai",
       "slug": "advisory-group-on-mathematics-and-ai",
       "source": "openai",
@@ -509,6 +543,23 @@
       "summary": {
         "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
         "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
+      }
+    },
+    {
+      "id": "openai__higgsfield-from-prompt-to-production-with-astra",
+      "slug": "higgsfield-from-prompt-to-production-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "category": "Startup",
+      "date": "2026-09-21T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+        "th": "Higgsfield AI ships new video features in a day with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+        "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
       }
     },
     {
@@ -1104,40 +1155,6 @@
       "summary": {
         "en": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
         "th": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support."
-      }
-    },
-    {
-      "id": "openai__introducing-the-agents-api",
-      "slug": "introducing-the-agents-api",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "category": "Product",
-      "date": "2026-09-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing the Agents API",
-        "th": "Introducing the Agents API"
-      },
-      "summary": {
-        "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-        "th": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
-      }
-    },
-    {
-      "id": "openai__introducing-gpt-live-1-in-the-api",
-      "slug": "introducing-gpt-live-1-in-the-api",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "category": "Product",
-      "date": "2026-09-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-        "th": "Build more natural voice experiences with GPT‑Live‑1 in the API"
-      },
-      "summary": {
-        "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-        "th": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
       }
     },
     {
@@ -1835,23 +1852,6 @@
       "summary": {
         "en": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
         "th": "คลัสเตอร์เดียวกัน ใช้ประโยชน์ได้มากขึ้น 33 แต้ม: สิ่งที่เปลี่ยนแปลงคือลำดับ"
-      }
-    },
-    {
-      "id": "google-ai__google-gemini-pixel-football-club-partnerships",
-      "slug": "google-gemini-pixel-football-club-partnerships",
-      "source": "google-ai",
-      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-      "category": "Gemini",
-      "date": "2026-08-17T08:00:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp",
-      "title": {
-        "en": "Get closer to the game with Gemini and Pixel",
-        "th": "ใกล้ชิดกับเกมมากขึ้นด้วย Gemini และ Pixel"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp\">Google Gemini and Pixel partner with five global football clubs to elevate the fan m",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp\">Google Gemini และ Pixel ร่วมมือกับสโมสรฟุตบอลระดับโลก 5 แห่งเพื่อยกระดับแฟนบอล"
       }
     },
     {

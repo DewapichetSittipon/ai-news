@@ -1,0 +1,405 @@
+{
+  "id": "openai__introducing-gpt-6-1-sol",
+  "slug": "introducing-gpt-6-1-sol",
+  "source": "openai",
+  "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+  "category": "Product",
+  "date": "2026-09-29T10:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Introducing GPT-6.1 Sol",
+    "th": "Introducing GPT-6.1 Sol"
+  },
+  "summary": {
+    "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+    "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "A more capable Sol across tasksCodingProfessional workComputer useScientific researchFactuality",
+        "th": "A more capable Sol across tasksCodingProfessional workComputer useScientific researchFactuality"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Coding",
+        "th": "Coding"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Professional work",
+        "th": "Professional work"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Computer use",
+        "th": "Computer use"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Scientific research",
+        "th": "Scientific research"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Factuality",
+        "th": "Factuality"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deploying GPT-6.1 Sol safely",
+        "th": "Deploying GPT-6.1 Sol safely"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Pricing and availability",
+        "th": "Pricing and availability"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A more capable Sol across tasksCodingProfessional workComputer useScientific researchFactuality",
+        "th": "A more capable Sol across tasksCodingProfessional workComputer useScientific researchFactuality"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Coding",
+        "th": "Coding"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Professional work",
+        "th": "Professional work"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Computer use",
+        "th": "Computer use"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Scientific research",
+        "th": "Scientific research"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Factuality",
+        "th": "Factuality"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deploying GPT-6.1 Sol safely",
+        "th": "Deploying GPT-6.1 Sol safely"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Pricing and availability",
+        "th": "Pricing and availability"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Near-Astra intelligence for a fifth of the price",
+        "th": "Near-Astra intelligence for a fifth of the price"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re introducing GPT‑6.1 Sol, an upgrade to GPT‑6 Sol that nearly matches GPT‑6 Astra’s intelligence on agentic coding, computer use, and professional work at one-fifth of Astra’s standard input and output token prices. Cached input costs just $0.10 per million tokens—95% less than standard input pricing and 50% less than GPT‑6 Sol’s cached input pricing—giving developers more room to build and run capable agents that reuse context across requests.",
+        "th": "We’re introducing GPT‑6.1 Sol, an upgrade to GPT‑6 Sol that nearly matches GPT‑6 Astra’s intelligence on agentic coding, computer use, and professional work at one-fifth of Astra’s standard input and output token prices. Cached input costs just $0.10 per million tokens—95% less than standard input pricing and 50% less than GPT‑6 Sol’s cached input pricing—giving developers more room to build and run capable agents that reuse context across requests."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/68RU4PW9KL2Hk5fJOJiO7R/95058fa69ccb300b4c326cfdc057ac6e/desktop-transparent.png?w=3840&q=90&fm=webp",
+      "alt": "Three model cards: GPT-6 Astra, our most intelligent model for the best results, $10 input, $50 output, and $1 cached input; GPT-6.1 Sol, near-Astra intelligence for a fifth of the price, $2 input, $10 output, and $0.10 cached input; GPT-6 Luna, fast and efficient everyday work at scale, $0.10 input, $0.50 output, and $0.01 cached input."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "A more capable Sol across tasks",
+        "th": "A more capable Sol across tasks"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6.1 Sol offers a new balance of capability and cost for important everyday work. It delivers substantial improvements over GPT‑6 Sol across complex professional tasks, from writing and debugging code to understanding documents and executing multi-step business workflows. On several of these evaluations, it approaches GPT‑6 Astra’s performance at substantially lower cost.",
+        "th": "GPT‑6.1 Sol offers a new balance of capability and cost for important everyday work. It delivers substantial improvements over GPT‑6 Sol across complex professional tasks, from writing and debugging code to understanding documents and executing multi-step business workflows. On several of these evaluations, it approaches GPT‑6 Astra’s performance at substantially lower cost."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Coding",
+        "th": "Coding"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On DeepSWE v1.1, which evaluates complex software-engineering tasks in real codebases, GPT‑6.1 Sol matches GPT‑6 Astra at roughly one-fifth of the cost, while eclipsing GPT‑6 Sol’s best score by 6.4 percentage points at a lower reasoning effort and cost.",
+        "th": "On DeepSWE v1.1, which evaluates complex software-engineering tasks in real codebases, GPT‑6.1 Sol matches GPT‑6 Astra at roughly one-fifth of the cost, while eclipsing GPT‑6 Sol’s best score by 6.4 percentage points at a lower reasoning effort and cost."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In DeepSWE 1.1⁠⁠(opens in a new window), AI agents solve original, long-horizon software engineering tasks.",
+        "th": "In DeepSWE 1.1⁠⁠(opens in a new window), AI agents solve original, long-horizon software engineering tasks."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Professional work",
+        "th": "Professional work"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On GDP.pdf, which measures how accurately models answer professional questions using complex PDF documents, including tables, charts, diagrams, and fine-print details, GPT‑6.1 Sol scores higher than Opus 5.5 with fallbacks at less than half the cost per task across the tested reasoning settings. It also approaches GPT‑6 Astra’s state-of-the-art performance at roughly one-fifth the cost per task.",
+        "th": "On GDP.pdf, which measures how accurately models answer professional questions using complex PDF documents, including tables, charts, diagrams, and fine-print details, GPT‑6.1 Sol scores higher than Opus 5.5 with fallbacks at less than half the cost per task across the tested reasoning settings. It also approaches GPT‑6 Astra’s state-of-the-art performance at roughly one-fifth the cost per task."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In GDP.pdf⁠(opens in a new window), models must answer real-world prompts about complex PDFs pulled from professional workflows in finance, healthcare, legal, and seven other professional domains.",
+        "th": "In GDP.pdf⁠(opens in a new window), models must answer real-world prompts about complex PDFs pulled from professional workflows in finance, healthcare, legal, and seven other professional domains."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On AutomationBench, which measures whether agents correctly complete multi-step business workflows, GPT‑6.1 Sol scores 2.2 percentage points above Opus 5.5 at medium reasoning effort, at roughly a third of the cost. That score is also up 4.8 percentage points from GPT‑6 Sol at the same setting.",
+        "th": "On AutomationBench, which measures whether agents correctly complete multi-step business workflows, GPT‑6.1 Sol scores 2.2 percentage points above Opus 5.5 at medium reasoning effort, at roughly a third of the cost. That score is also up 4.8 percentage points from GPT‑6 Sol at the same setting."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In AutomationBench 1.0.6⁠⁠(opens in a new window), AI agents are tested on end-to-end workflows using 47 tools across sales, marketing, operations, support, finance, and HR. The datapoint for Claude Fable 5.1 understates its actual cost, as it omits the cost of fallbacks, which occurred on ~40% of tasks.",
+        "th": "In AutomationBench 1.0.6⁠⁠(opens in a new window), AI agents are tested on end-to-end workflows using 47 tools across sales, marketing, operations, support, finance, and HR. The datapoint for Claude Fable 5.1 understates its actual cost, as it omits the cost of fallbacks, which occurred on ~40% of tasks."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Computer use",
+        "th": "Computer use"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6.1 Sol also makes substantial progress on tasks that require interacting with computer applications. On OSWorld 2.0’s offline set, which evaluates agents on demanding computer-use workflows, GPT‑6.1 Sol outperforms GPT‑6 Sol by seven percentage points at maximum reasoning effort at less than half the cost. It comes within 2.1 percentage points of Astra’s score at maximum reasoning effort at roughly one-seventh the cost per task.",
+        "th": "GPT‑6.1 Sol also makes substantial progress on tasks that require interacting with computer applications. On OSWorld 2.0’s offline set, which evaluates agents on demanding computer-use workflows, GPT‑6.1 Sol outperforms GPT‑6 Sol by seven percentage points at maximum reasoning effort at less than half the cost. It comes within 2.1 percentage points of Astra’s score at maximum reasoning effort at roughly one-seventh the cost per task."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In OSWorld 2.0⁠⁠(opens in a new window), AI agents attempt long-horizon computer-use workflows spanning everyday and professional tasks. We report the partial reward on the offline set from the v2026.08.08 release.",
+        "th": "In OSWorld 2.0⁠⁠(opens in a new window), AI agents attempt long-horizon computer-use workflows spanning everyday and professional tasks. We report the partial reward on the offline set from the v2026.08.08 release."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Scientific research",
+        "th": "Scientific research"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On Terminal-Bench Science 0.1, which evaluates scientific workflows including data analysis, simulation, and theorem proving, GPT‑6.1 Sol more than doubles GPT‑6 Sol’s score at maximum reasoning effort at less than half the cost per task. At maximum effort, GPT‑6.1 Sol costs $5.47 per task on average, compared with $23.21 for Opus 5.5 and $23.80 for Astra, delivering substantial scientific capability at over 75% lower cost than either model.",
+        "th": "On Terminal-Bench Science 0.1, which evaluates scientific workflows including data analysis, simulation, and theorem proving, GPT‑6.1 Sol more than doubles GPT‑6 Sol’s score at maximum reasoning effort at less than half the cost per task. At maximum effort, GPT‑6.1 Sol costs $5.47 per task on average, compared with $23.21 for Opus 5.5 and $23.80 for Astra, delivering substantial scientific capability at over 75% lower cost than either model."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6 Astra still achieves the highest score among the models tested at 68.1%, and should be used for the most difficult scientific research tasks.",
+        "th": "GPT‑6 Astra still achieves the highest score among the models tested at 68.1%, and should be used for the most difficult scientific research tasks."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In Terminal-Bench Science 0.1⁠(opens in a new window), agents complete scientific research workflows using code and terminal tools, including analyzing data, running simulations, and fitting models.",
+        "th": "In Terminal-Bench Science 0.1⁠(opens in a new window), agents complete scientific research workflows using code and terminal tools, including analyzing data, running simulations, and fitting models."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Factuality",
+        "th": "Factuality"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6.1 Sol also improves factual accuracy on difficult prompts. Its largest factuality improvement over GPT‑6 Sol comes at low reasoning effort, where it reduces the share of responses containing a factual error from 11.4% to 7.7%—a reduction of approximately 32%. Across the tested reasoning settings, its error rate remains within 1.9 percentage points of GPT‑6 Astra’s, at less than one-fifth the cost per task.",
+        "th": "GPT‑6.1 Sol also improves factual accuracy on difficult prompts. Its largest factuality improvement over GPT‑6 Sol comes at low reasoning effort, where it reduces the share of responses containing a factual error from 11.4% to 7.7%—a reduction of approximately 32%. Across the tested reasoning settings, its error rate remains within 1.9 percentage points of GPT‑6 Astra’s, at less than one-fifth the cost per task."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This evaluation measures the share of answers containing at least one factual error on de-identified conversations where users flagged an earlier model’s error. These deliberately difficult prompts are not representative of typical usage.",
+        "th": "This evaluation measures the share of answers containing at least one factual error on de-identified conversations where users flagged an earlier model’s error. These deliberately difficult prompts are not representative of typical usage."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We evaluate factuality on de-identified ChatGPT conversations where users had flagged a factual error from a prior model. These error-inducing conversations are not representative of typical usage, where factual errors are more rare.",
+        "th": "We evaluate factuality on de-identified ChatGPT conversations where users had flagged a factual error from a prior model. These error-inducing conversations are not representative of typical usage, where factual errors are more rare."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Deploying GPT‑6.1 Sol safely",
+        "th": "Deploying GPT‑6.1 Sol safely"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6.1 Sol shows substantial improvements over GPT‑6 Sol in our alignment evaluations, bringing it closer to GPT‑6 Astra.",
+        "th": "GPT‑6.1 Sol shows substantial improvements over GPT‑6 Sol in our alignment evaluations, bringing it closer to GPT‑6 Astra."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6.1 Sol is more transparent about its limitations and more reliable at respecting user intent and safety constraints. In challenging evaluations, it shows lower failure rates than GPT‑6 Sol on transparency about broken search tools, respecting explicit restrictions, and avoiding unauthorized outcomes during agentic tasks. We observed no attempts to bypass an automated safety reviewer, matching GPT‑6 Astra and GPT‑6 Sol. Full details can be found in the GPT‑6.1 Sol system card addendum⁠(opens in a new window).",
+        "th": "GPT‑6.1 Sol is more transparent about its limitations and more reliable at respecting user intent and safety constraints. In challenging evaluations, it shows lower failure rates than GPT‑6 Sol on transparency about broken search tools, respecting explicit restrictions, and avoiding unauthorized outcomes during agentic tasks. We observed no attempts to bypass an automated safety reviewer, matching GPT‑6 Astra and GPT‑6 Sol. Full details can be found in the GPT‑6.1 Sol system card addendum⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The evaluations below deliberately test challenging situations and do not measure failure rates in typical use.",
+        "th": "The evaluations below deliberately test challenging situations and do not measure failure rates in typical use."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Pricing and availability",
+        "th": "Pricing and availability"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6.1 Sol is available starting today to all Plus, Pro, Business, Enterprise, and Edu users in ChatGPT Work and Codex. GPT‑6.1 Sol is not yet available in Chat. Developers can also access it through the OpenAI API as gpt-6.1-sol. Its standard API prices are $2 per million input tokens, $0.10 per million cached input tokens, and $10 per million output tokens. In the coming days, we’ll also offer GPT‑6.1 Sol Ultrafast⁠, with up to 8x faster token generation compared to its standard speed in Codex.",
+        "th": "GPT‑6.1 Sol is available starting today to all Plus, Pro, Business, Enterprise, and Edu users in ChatGPT Work and Codex. GPT‑6.1 Sol is not yet available in Chat. Developers can also access it through the OpenAI API as gpt-6.1-sol. Its standard API prices are $2 per million input tokens, $0.10 per million cached input tokens, and $10 per million output tokens. In the coming days, we’ll also offer GPT‑6.1 Sol Ultrafast⁠, with up to 8x faster token generation compared to its standard speed in Codex."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "GPT",
+        "th": "GPT"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Evaluations of GPT were performed in our research environment or via our API, which may provide slightly different output from production ChatGPT due to differences in the system prompts, tools available, efforts, etc. Evaluations of competitor models were taken from publicly available reports.",
+        "th": "Evaluations of GPT were performed in our research environment or via our API, which may provide slightly different output from production ChatGPT due to differences in the system prompts, tools available, efforts, etc. Evaluations of competitor models were taken from publicly available reports."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4HANTuYDvaT04gpR91bEQ9/885481304c5675cb7525bcccbe8c5580/gpt-6-sol-luna-art.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing GPT-6 Sol and Luna — Art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductSep 22, 2026",
+        "th": "ProductSep 22, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchSep 3, 2026",
+        "th": "ResearchSep 3, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1C75hfnvbohzm6Fx3hd7ux/1391c894029045aa51d520e4d80f6f4b/DevDay_Blog_ArtCard_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "DevDay 2026 Recap — cover image (1:1)"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanySep 29, 2026",
+        "th": "CompanySep 29, 2026"
+      }
+    }
+  ]
+}

@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-09-29T14:30:24.755Z",
+  "generatedAt": "2026-09-29T20:23:46.815Z",
   "items": [
+    {
+      "id": "huggingface__kumo-tabular",
+      "slug": "kumo-tabular",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+      "category": "News",
+      "date": "2026-09-29T15:30:38.000Z",
+      "image": null,
+      "title": {
+        "en": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+        "th": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction"
+      },
+      "summary": {
+        "en": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+        "th": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction"
+      }
+    },
     {
       "id": "huggingface__getting-the-source-right-not-just-the-fact-source",
       "slug": "getting-the-source-right-not-just-the-fact-source",
@@ -19,20 +36,54 @@
       }
     },
     {
-      "id": "openai__how-we-will-do-better-for-australia",
-      "slug": "how-we-will-do-better-for-australia",
+      "id": "openai__devday-2026-recap",
+      "slug": "devday-2026-recap",
       "source": "openai",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "url": "https://openai.com/index/devday-2026-recap",
       "category": "Company",
-      "date": "2026-09-28T19:00:00.000Z",
+      "date": "2026-09-29T10:00:00.000Z",
       "image": null,
       "title": {
-        "en": "How we will do better for Australia",
-        "th": "How we will do better for Australia"
+        "en": "DevDay 2026 Recap",
+        "th": "DevDay 2026 Recap"
       },
       "summary": {
-        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
+        "en": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+        "th": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
+      }
+    },
+    {
+      "id": "openai__introducing-gpt-6-1-sol",
+      "slug": "introducing-gpt-6-1-sol",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "category": "Product",
+      "date": "2026-09-29T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing GPT-6.1 Sol",
+        "th": "Introducing GPT-6.1 Sol"
+      },
+      "summary": {
+        "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+        "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
+      }
+    },
+    {
+      "id": "openai__introducing-dots",
+      "slug": "introducing-dots",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-dots",
+      "category": "Product",
+      "date": "2026-09-29T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing dots",
+        "th": "Introducing dots"
+      },
+      "summary": {
+        "en": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+        "th": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward."
       }
     },
     {
@@ -50,6 +101,23 @@
       "summary": {
         "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
         "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
+      }
+    },
+    {
+      "id": "openai__how-we-will-do-better-for-australia",
+      "slug": "how-we-will-do-better-for-australia",
+      "source": "openai",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "category": "Company",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How we will do better for Australia",
+        "th": "How we will do better for Australia"
+      },
+      "summary": {
+        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
       }
     },
     {
@@ -189,23 +257,6 @@
       }
     },
     {
-      "id": "huggingface__how-to-use-nvidia-warp-and-mjwarp",
-      "slug": "how-to-use-nvidia-warp-and-mjwarp",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
-      "category": "News",
-      "date": "2026-09-23T18:41:40.000Z",
-      "image": null,
-      "title": {
-        "en": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
-        "th": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows"
-      },
-      "summary": {
-        "en": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
-        "th": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows"
-      }
-    },
-    {
       "id": "google-ai__google-beam-expansion",
       "slug": "google-beam-expansion",
       "source": "google-ai",
@@ -308,23 +359,6 @@
       }
     },
     {
-      "id": "openai__ringg",
-      "slug": "ringg",
-      "source": "openai",
-      "url": "https://openai.com/index/ringg",
-      "category": "News",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
-      },
-      "summary": {
-        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
-      }
-    },
-    {
       "id": "openai__sam-altman-un-security-council-remarks",
       "slug": "sam-altman-un-security-council-remarks",
       "source": "openai",
@@ -339,6 +373,23 @@
       "summary": {
         "en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
         "th": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
+      }
+    },
+    {
+      "id": "openai__ringg",
+      "slug": "ringg",
+      "source": "openai",
+      "url": "https://openai.com/index/ringg",
+      "category": "News",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
+      },
+      "summary": {
+        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
       }
     },
     {
@@ -563,23 +614,6 @@
       }
     },
     {
-      "id": "openai__advisory-group-on-mathematics-and-ai",
-      "slug": "advisory-group-on-mathematics-and-ai",
-      "source": "openai",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "category": "Company",
-      "date": "2026-09-21T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Advisory Group on Mathematics and Artificial Intelligence",
-        "th": "Advisory Group on Mathematics and Artificial Intelligence"
-      },
-      "summary": {
-        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
-      }
-    },
-    {
       "id": "openai__higgsfield-from-prompt-to-production-with-astra",
       "slug": "higgsfield-from-prompt-to-production-with-astra",
       "source": "openai",
@@ -594,6 +628,23 @@
       "summary": {
         "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
         "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
+      }
+    },
+    {
+      "id": "openai__advisory-group-on-mathematics-and-ai",
+      "slug": "advisory-group-on-mathematics-and-ai",
+      "source": "openai",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "category": "Company",
+      "date": "2026-09-21T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Advisory Group on Mathematics and Artificial Intelligence",
+        "th": "Advisory Group on Mathematics and Artificial Intelligence"
+      },
+      "summary": {
+        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
       }
     },
     {
@@ -1073,23 +1124,6 @@
       }
     },
     {
-      "id": "openai__cognition-devin-testing-with-astra",
-      "slug": "cognition-devin-testing-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "category": "News",
-      "date": "2026-09-11T16:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Cognition helps Devin test its own work with GPT‑6 Astra",
-        "th": "Cognition helps Devin test its own work with GPT‑6 Astra"
-      },
-      "summary": {
-        "en": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
-        "th": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more."
-      }
-    },
-    {
       "id": "openai__scaling-storage-one-billion-users-part-one",
       "slug": "scaling-storage-one-billion-users-part-one",
       "source": "openai",
@@ -1107,23 +1141,6 @@
       }
     },
     {
-      "id": "openai__using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "slug": "using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "source": "openai",
-      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "category": "Applied AI",
-      "date": "2026-09-10T16:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-        "th": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules"
-      },
-      "summary": {
-        "en": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-        "th": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections."
-      }
-    },
-    {
       "id": "google-ai__running-race-training-tips",
       "slug": "running-race-training-tips",
       "source": "google-ai",
@@ -1138,23 +1155,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Race_Running_Tips.max-600x600.format-webp.webp\">Search can help runners get race-day ready with registration alerts, tailored training plan",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Race_Running_Tips.max-600x600.format-webp.webp\">Search can help runners get race-day ready with registration alerts, tailored training plan"
-      }
-    },
-    {
-      "id": "openai__put-data-to-work",
-      "slug": "put-data-to-work",
-      "source": "openai",
-      "url": "https://openai.com/index/put-data-to-work",
-      "category": "Product",
-      "date": "2026-09-10T15:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Now everyone can put data to work",
-        "th": "Now everyone can put data to work"
-      },
-      "summary": {
-        "en": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-        "th": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language."
       }
     },
     {

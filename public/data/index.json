@@ -1,6 +1,91 @@
 {
-  "generatedAt": "2026-09-30T14:29:06.356Z",
+  "generatedAt": "2026-09-30T20:28:13.241Z",
   "items": [
+    {
+      "id": "deepmind__gemini-4-argon-our-next-era-of-frontier-intelligence",
+      "slug": "gemini-4-argon-our-next-era-of-frontier-intelligence",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "category": "News",
+      "date": "2026-09-30T20:01:45.000Z",
+      "image": null,
+      "title": {
+        "en": "Gemini 4 Argon: our next era of frontier intelligence",
+        "th": "Gemini 4 Argon: our next era of frontier intelligence"
+      },
+      "summary": {
+        "en": "Gemini 4 Argon: our next era of frontier intelligence",
+        "th": "Gemini 4 Argon: our next era of frontier intelligence"
+      }
+    },
+    {
+      "id": "deepmind__introducing-synthid-bio",
+      "slug": "introducing-synthid-bio",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "category": "News",
+      "date": "2026-09-30T15:03:07.000Z",
+      "image": "https://lh3.googleusercontent.com/wNhpZFcXYLXFb6alIt0H5NRvEoso2ONZDhPKz6MYEcGltHPbDeHddzkvv5GXl3abW1PZ5ci1Y9lKoYOIjMuHLxATXfWp88-Al6eEmDENrpejIFeimw=w528-h297-n-nu-rw-lo",
+      "title": {
+        "en": "Introducing SynthID Bio",
+        "th": "Introducing SynthID Bio"
+      },
+      "summary": {
+        "en": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+        "th": "Proof of concept for watermarking AI-generated proteins while preserving biological function."
+      }
+    },
+    {
+      "id": "openai__disrupting-a-coordinated-model-distillation-campaign",
+      "slug": "disrupting-a-coordinated-model-distillation-campaign",
+      "source": "openai",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "category": "Security",
+      "date": "2026-09-30T10:30:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Disrupting a coordinated model-distillation campaign",
+        "th": "Disrupting a coordinated model-distillation campaign"
+      },
+      "summary": {
+        "en": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+        "th": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation."
+      }
+    },
+    {
+      "id": "openai__helping-small-businesses-put-ai-to-work",
+      "slug": "helping-small-businesses-put-ai-to-work",
+      "source": "openai",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "category": "Global Affairs",
+      "date": "2026-09-30T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Helping small businesses put AI to work",
+        "th": "Helping small businesses put AI to work"
+      },
+      "summary": {
+        "en": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+        "th": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI."
+      }
+    },
+    {
+      "id": "huggingface__open-tts-leaderboard",
+      "slug": "open-tts-leaderboard",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/open-tts-leaderboard",
+      "category": "News",
+      "date": "2026-09-30T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+        "th": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning"
+      },
+      "summary": {
+        "en": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+        "th": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning"
+      }
+    },
     {
       "id": "huggingface__kumo-tabular",
       "slug": "kumo-tabular",
@@ -87,23 +172,6 @@
       }
     },
     {
-      "id": "openai__towards-safety-cases-for-frontier-ai-training",
-      "slug": "towards-safety-cases-for-frontier-ai-training",
-      "source": "openai",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "category": "Safety",
-      "date": "2026-09-28T19:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Towards safety cases for frontier AI training",
-        "th": "Towards safety cases for frontier AI training"
-      },
-      "summary": {
-        "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-        "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
-      }
-    },
-    {
       "id": "openai__how-we-will-do-better-for-australia",
       "slug": "how-we-will-do-better-for-australia",
       "source": "openai",
@@ -118,6 +186,23 @@
       "summary": {
         "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
         "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
+      }
+    },
+    {
+      "id": "openai__towards-safety-cases-for-frontier-ai-training",
+      "slug": "towards-safety-cases-for-frontier-ai-training",
+      "source": "openai",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "category": "Safety",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Towards safety cases for frontier AI training",
+        "th": "Towards safety cases for frontier AI training"
+      },
+      "summary": {
+        "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+        "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
       }
     },
     {
@@ -342,6 +427,40 @@
       }
     },
     {
+      "id": "openai__invideo-builds-with-gpt-6-astra",
+      "slug": "invideo-builds-with-gpt-6-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "category": "News",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How invideo improves color grading 3x with GPT‑6 Astra",
+        "th": "How invideo improves color grading 3x with GPT‑6 Astra"
+      },
+      "summary": {
+        "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+        "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
+      }
+    },
+    {
+      "id": "openai__ringg",
+      "slug": "ringg",
+      "source": "openai",
+      "url": "https://openai.com/index/ringg",
+      "category": "News",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
+      },
+      "summary": {
+        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
+      }
+    },
+    {
       "id": "openai__sam-altman-un-security-council-remarks",
       "slug": "sam-altman-un-security-council-remarks",
       "source": "openai",
@@ -373,40 +492,6 @@
       "summary": {
         "en": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
         "th": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
-      }
-    },
-    {
-      "id": "openai__ringg",
-      "slug": "ringg",
-      "source": "openai",
-      "url": "https://openai.com/index/ringg",
-      "category": "News",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
-      },
-      "summary": {
-        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
-      }
-    },
-    {
-      "id": "openai__invideo-builds-with-gpt-6-astra",
-      "slug": "invideo-builds-with-gpt-6-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "category": "News",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How invideo improves color grading 3x with GPT‑6 Astra",
-        "th": "How invideo improves color grading 3x with GPT‑6 Astra"
-      },
-      "summary": {
-        "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-        "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
       }
     },
     {
@@ -614,23 +699,6 @@
       }
     },
     {
-      "id": "openai__advisory-group-on-mathematics-and-ai",
-      "slug": "advisory-group-on-mathematics-and-ai",
-      "source": "openai",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "category": "Company",
-      "date": "2026-09-21T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Advisory Group on Mathematics and Artificial Intelligence",
-        "th": "Advisory Group on Mathematics and Artificial Intelligence"
-      },
-      "summary": {
-        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
-      }
-    },
-    {
       "id": "openai__higgsfield-from-prompt-to-production-with-astra",
       "slug": "higgsfield-from-prompt-to-production-with-astra",
       "source": "openai",
@@ -645,6 +713,23 @@
       "summary": {
         "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
         "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
+      }
+    },
+    {
+      "id": "openai__advisory-group-on-mathematics-and-ai",
+      "slug": "advisory-group-on-mathematics-and-ai",
+      "source": "openai",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "category": "Company",
+      "date": "2026-09-21T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Advisory Group on Mathematics and Artificial Intelligence",
+        "th": "Advisory Group on Mathematics and Artificial Intelligence"
+      },
+      "summary": {
+        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
       }
     },
     {
@@ -1104,40 +1189,6 @@
       "summary": {
         "en": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
         "th": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice."
-      }
-    },
-    {
-      "id": "openai__perplexity-improving-accuracy-with-astra",
-      "slug": "perplexity-improving-accuracy-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "category": "News",
-      "date": "2026-09-14T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-        "th": "Perplexity trusts GPT-6 Astra with end-to-end systems"
-      },
-      "summary": {
-        "en": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
-        "th": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models."
-      }
-    },
-    {
-      "id": "openai__scaling-storage-one-billion-users-part-one",
-      "slug": "scaling-storage-one-billion-users-part-one",
-      "source": "openai",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "category": "Engineering",
-      "date": "2026-09-11T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-        "th": "Rapidly scaling online storage to serve over 1 billion ChatGPT users"
-      },
-      "summary": {
-        "en": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-        "th": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second."
       }
     },
     {
@@ -2178,23 +2229,6 @@
       }
     },
     {
-      "id": "huggingface__agent-intrusion-technical-timeline",
-      "slug": "agent-intrusion-technical-timeline",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "category": "News",
-      "date": "2026-07-27T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-        "th": "กายวิภาคของการบุกรุกของเจ้าหน้าที่ห้องปฏิบัติการชายแดน: เส้นเวลาทางเทคนิคของเหตุการณ์เดือนกรกฎาคม 2569"
-      },
-      "summary": {
-        "en": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-        "th": "กายวิภาคของการบุกรุกของเจ้าหน้าที่ห้องปฏิบัติการชายแดน: เส้นเวลาทางเทคนิคของเหตุการณ์เดือนกรกฎาคม 2569"
-      }
-    },
-    {
       "id": "deepmind__accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the",
       "slug": "accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the",
       "source": "deepmind",
@@ -2515,40 +2549,6 @@
       "summary": {
         "en": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
         "th": "เรากำลังขยายการเข้าถึงสมาชิก Google AI Ultra ทั่วโลก และแนะนำความสามารถใหม่ที่ขับเคลื่อนโดย Street View"
-      }
-    },
-    {
-      "id": "deepmind__introducing-gemini-omni",
-      "slug": "introducing-gemini-omni",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
-      "category": "News",
-      "date": "2026-05-17T19:50:57.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing Gemini Omni",
-        "th": "ขอแนะนำราศีเมถุน Omni"
-      },
-      "summary": {
-        "en": "Introducing Gemini Omni",
-        "th": "ขอแนะนำราศีเมถุน Omni"
-      }
-    },
-    {
-      "id": "deepmind__introducing-google-antigravity-2-0",
-      "slug": "introducing-google-antigravity-2-0",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
-      "category": "News",
-      "date": "2026-05-17T19:43:45.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing Google Antigravity 2.0",
-        "th": "ขอแนะนำ Google Antigravity 2.0"
-      },
-      "summary": {
-        "en": "Introducing Google Antigravity 2.0",
-        "th": "ขอแนะนำ Google Antigravity 2.0"
       }
     }
   ]

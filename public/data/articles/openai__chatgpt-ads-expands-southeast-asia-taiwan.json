@@ -192,6 +192,18 @@
     },
     {
       "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1C75hfnvbohzm6Fx3hd7ux/1391c894029045aa51d520e4d80f6f4b/DevDay_Blog_ArtCard_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "DevDay 2026 Recap — cover image (1:1)"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanySep 29, 2026",
+        "th": "CompanySep 29, 2026"
+      }
+    },
+    {
+      "type": "img",
       "src": "https://images.ctfassets.net/kftzwdyauwt9/7reVkD9GZT81EppPxXgW4D/44c5d09530a17bf45d153b86760ee30a/GPT-6-1-Sol_1x1.png?w=3840&q=90&fm=webp",
       "alt": "GPT-6-1-Sol_Blog 1x1"
     },
@@ -212,18 +224,6 @@
       "text": {
         "en": "ProductSep 29, 2026",
         "th": "ProductSep 29, 2026"
-      }
-    },
-    {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/72ZKzMh8JgRDfdg4EYRtwY/ee5e406a08b69f00b0beb4ac00270364/7kneoqlc2qh37z1utkmtfk-cover-v1.png?w=3840&q=90&fm=webp",
-      "alt": "Better prompt caching for GPT-6 — Card image"
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "ProductSep 22, 2026",
-        "th": "ProductSep 22, 2026"
       }
     }
   ]

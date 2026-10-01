@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-10-01T00:58:26.873Z",
+  "generatedAt": "2026-10-01T08:06:21.950Z",
   "items": [
+    {
+      "id": "anthropic__barclays-scales-claude",
+      "slug": "barclays-scales-claude",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "category": "News",
+      "date": "2026-10-01T00:00:00.000Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Barclays scales Claude to upgrade operations and improve client experience",
+        "th": "Barclays scales Claude to upgrade operations and improve client experience"
+      },
+      "summary": {
+        "en": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
+        "th": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations."
+      }
+    },
     {
       "id": "deepmind__gemini-4-argon-our-next-era-of-frontier-intelligence",
       "slug": "gemini-4-argon-our-next-era-of-frontier-intelligence",
@@ -2090,23 +2107,6 @@
       "summary": {
         "en": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
         "th": "Meta กลับมาพร้อมกับ Muse Glimmer: ในท้องถิ่น, ตัวแทน, ต่อเนื่องหลายรูปแบบและโอเพ่นซอร์ส"
-      }
-    },
-    {
-      "id": "anthropic__improving-fable-5-s-biology-safeguards",
-      "slug": "improving-fable-5-s-biology-safeguards",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-      "category": "News",
-      "date": "2026-08-07T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Bird&backgroundColor=heather",
-      "title": {
-        "en": "Improving Fable 5's biology safeguards",
-        "th": "การปรับปรุงการป้องกันทางชีววิทยาของ Fable 5"
-      },
-      "summary": {
-        "en": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces fallbacks.",
-        "th": "เรากำลังอัปเดตการปกป้องทางชีววิทยาของ Claude Fable 5 ในลักษณะที่จะช่วยลดทางเลือกสำรองได้อย่างมาก"
       }
     },
     {

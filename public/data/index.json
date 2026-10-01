@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-10-01T08:06:21.950Z",
+  "generatedAt": "2026-10-01T16:51:04.137Z",
   "items": [
+    {
+      "id": "openai__albertsons-reimagining-retail",
+      "slug": "albertsons-reimagining-retail",
+      "source": "openai",
+      "url": "https://openai.com/index/albertsons-reimagining-retail",
+      "category": "Company",
+      "date": "2026-10-01T16:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How Albertsons Companies is reimagining retail from the inside out",
+        "th": "How Albertsons Companies is reimagining retail from the inside out"
+      },
+      "summary": {
+        "en": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+        "th": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers."
+      }
+    },
+    {
+      "id": "huggingface__olmocore3",
+      "slug": "olmocore3",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/allenai/olmocore3",
+      "category": "News",
+      "date": "2026-10-01T15:01:43.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+        "th": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs"
+      },
+      "summary": {
+        "en": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+        "th": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs"
+      }
+    },
     {
       "id": "anthropic__barclays-scales-claude",
       "slug": "barclays-scales-claude",
@@ -138,23 +172,6 @@
       }
     },
     {
-      "id": "openai__introducing-gpt-6-1-sol",
-      "slug": "introducing-gpt-6-1-sol",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "category": "Product",
-      "date": "2026-09-29T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing GPT-6.1 Sol",
-        "th": "Introducing GPT-6.1 Sol"
-      },
-      "summary": {
-        "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-        "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
-      }
-    },
-    {
       "id": "openai__devday-2026-recap",
       "slug": "devday-2026-recap",
       "source": "openai",
@@ -169,6 +186,23 @@
       "summary": {
         "en": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
         "th": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
+      }
+    },
+    {
+      "id": "openai__introducing-gpt-6-1-sol",
+      "slug": "introducing-gpt-6-1-sol",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "category": "Product",
+      "date": "2026-09-29T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing GPT-6.1 Sol",
+        "th": "Introducing GPT-6.1 Sol"
+      },
+      "summary": {
+        "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+        "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
       }
     },
     {
@@ -444,23 +478,6 @@
       }
     },
     {
-      "id": "openai__invideo-builds-with-gpt-6-astra",
-      "slug": "invideo-builds-with-gpt-6-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "category": "News",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How invideo improves color grading 3x with GPT‑6 Astra",
-        "th": "How invideo improves color grading 3x with GPT‑6 Astra"
-      },
-      "summary": {
-        "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-        "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
-      }
-    },
-    {
       "id": "openai__ringg",
       "slug": "ringg",
       "source": "openai",
@@ -478,23 +495,6 @@
       }
     },
     {
-      "id": "openai__sam-altman-un-security-council-remarks",
-      "slug": "sam-altman-un-security-council-remarks",
-      "source": "openai",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "category": "Global Affairs",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Sam Altman’s remarks at the United Nations Security Council",
-        "th": "Sam Altman’s remarks at the United Nations Security Council"
-      },
-      "summary": {
-        "en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-        "th": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
-      }
-    },
-    {
       "id": "openai__harvey-from-context-to-confidence-with-astra",
       "slug": "harvey-from-context-to-confidence-with-astra",
       "source": "openai",
@@ -509,6 +509,40 @@
       "summary": {
         "en": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
         "th": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
+      }
+    },
+    {
+      "id": "openai__invideo-builds-with-gpt-6-astra",
+      "slug": "invideo-builds-with-gpt-6-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "category": "News",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How invideo improves color grading 3x with GPT‑6 Astra",
+        "th": "How invideo improves color grading 3x with GPT‑6 Astra"
+      },
+      "summary": {
+        "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+        "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
+      }
+    },
+    {
+      "id": "openai__sam-altman-un-security-council-remarks",
+      "slug": "sam-altman-un-security-council-remarks",
+      "source": "openai",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "category": "Global Affairs",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Sam Altman’s remarks at the United Nations Security Council",
+        "th": "Sam Altman’s remarks at the United Nations Security Council"
+      },
+      "summary": {
+        "en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+        "th": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
       }
     },
     {
@@ -716,23 +750,6 @@
       }
     },
     {
-      "id": "openai__higgsfield-from-prompt-to-production-with-astra",
-      "slug": "higgsfield-from-prompt-to-production-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "category": "Startup",
-      "date": "2026-09-21T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-        "th": "Higgsfield AI ships new video features in a day with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-        "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
-      }
-    },
-    {
       "id": "openai__advisory-group-on-mathematics-and-ai",
       "slug": "advisory-group-on-mathematics-and-ai",
       "source": "openai",
@@ -747,6 +764,23 @@
       "summary": {
         "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
         "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
+      }
+    },
+    {
+      "id": "openai__higgsfield-from-prompt-to-production-with-astra",
+      "slug": "higgsfield-from-prompt-to-production-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "category": "Startup",
+      "date": "2026-09-21T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+        "th": "Higgsfield AI ships new video features in a day with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+        "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
       }
     },
     {
@@ -1189,23 +1223,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/DevFest.max-600x600.format-webp.webp\">DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, se",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/DevFest.max-600x600.format-webp.webp\">DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, se"
-      }
-    },
-    {
-      "id": "openai__fyxer",
-      "slug": "fyxer",
-      "source": "openai",
-      "url": "https://openai.com/index/fyxer",
-      "category": "Startup",
-      "date": "2026-09-14T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How Fyxer built an AI executive assistant people trust",
-        "th": "How Fyxer built an AI executive assistant people trust"
-      },
-      "summary": {
-        "en": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-        "th": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice."
       }
     },
     {
@@ -2209,23 +2226,6 @@
       "summary": {
         "en": "Gemini Robotics 2 brings whole body intelligence to robots",
         "th": "Gemini Robotics 2 นำความฉลาดของร่างกายมาสู่หุ่นยนต์"
-      }
-    },
-    {
-      "id": "huggingface__cosmos-h-dreams",
-      "slug": "cosmos-h-dreams",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
-      "category": "News",
-      "date": "2026-07-27T09:32:20.000Z",
-      "image": null,
-      "title": {
-        "en": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
-        "th": "NVIDIA Cosmos-H-Dreams: นำการจำลองแบบเรียลไทม์มาสู่หุ่นยนต์ผ่าตัด"
-      },
-      "summary": {
-        "en": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
-        "th": "NVIDIA Cosmos-H-Dreams: นำการจำลองแบบเรียลไทม์มาสู่หุ่นยนต์ผ่าตัด"
       }
     },
     {

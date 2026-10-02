@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-10-02T03:24:42.815Z",
+  "generatedAt": "2026-10-02T10:13:04.832Z",
   "items": [
+    {
+      "id": "huggingface__autosynthdata",
+      "slug": "autosynthdata",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "category": "News",
+      "date": "2026-10-02T04:01:31.000Z",
+      "image": null,
+      "title": {
+        "en": "AutoSynthData: Generating Training Data for Enterprise Agents",
+        "th": "AutoSynthData: การสร้างข้อมูลการฝึกอบรมสำหรับตัวแทนระดับองค์กร"
+      },
+      "summary": {
+        "en": "AutoSynthData: Generating Training Data for Enterprise Agents",
+        "th": "AutoSynthData: การสร้างข้อมูลการฝึกอบรมสำหรับตัวแทนระดับองค์กร"
+      }
+    },
     {
       "id": "openai__the-eternal-complement",
       "slug": "the-eternal-complement",
@@ -2158,23 +2175,6 @@
       "summary": {
         "en": "Baseten on Hugging Face Inference Providers 🔥",
         "th": "พื้นฐานจากผู้ให้บริการการอนุมานใบหน้าแบบกอด 🔥"
-      }
-    },
-    {
-      "id": "huggingface__gpu-management",
-      "slug": "gpu-management",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
-      "category": "News",
-      "date": "2026-07-30T15:09:09.000Z",
-      "image": null,
-      "title": {
-        "en": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
-        "th": "การจัดการ GPU: เหตุใด GPU ที่ไม่ได้ใช้งานจึงเป็นเครื่องบินลำใหม่"
-      },
-      "summary": {
-        "en": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
-        "th": "การจัดการ GPU: เหตุใด GPU ที่ไม่ได้ใช้งานจึงเป็นเครื่องบินลำใหม่"
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T17:11:07.257Z",
+  "generatedAt": "2026-10-02T21:40:10.029Z",
   "items": [
     {
       "id": "openai__practical-guide-building-gpt-6",
@@ -84,6 +84,23 @@
       "summary": {
         "en": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.",
         "th": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027."
+      }
+    },
+    {
+      "id": "openai__chatham-financial",
+      "slug": "chatham-financial",
+      "source": "openai",
+      "url": "https://openai.com/index/chatham-financial",
+      "category": "News",
+      "date": "2026-10-02T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Chatham scales its capital markets expertise with OpenAI",
+        "th": "Chatham scales its capital markets expertise with OpenAI"
+      },
+      "summary": {
+        "en": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+        "th": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4."
       }
     },
     {
@@ -274,23 +291,6 @@
       }
     },
     {
-      "id": "openai__introducing-gpt-6-1-sol",
-      "slug": "introducing-gpt-6-1-sol",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "category": "Product",
-      "date": "2026-09-29T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing GPT-6.1 Sol",
-        "th": "Introducing GPT-6.1 Sol"
-      },
-      "summary": {
-        "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-        "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
-      }
-    },
-    {
       "id": "openai__devday-2026-recap",
       "slug": "devday-2026-recap",
       "source": "openai",
@@ -305,6 +305,23 @@
       "summary": {
         "en": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
         "th": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
+      }
+    },
+    {
+      "id": "openai__introducing-gpt-6-1-sol",
+      "slug": "introducing-gpt-6-1-sol",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "category": "Product",
+      "date": "2026-09-29T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing GPT-6.1 Sol",
+        "th": "Introducing GPT-6.1 Sol"
+      },
+      "summary": {
+        "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+        "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
       }
     },
     {
@@ -325,23 +342,6 @@
       }
     },
     {
-      "id": "openai__towards-safety-cases-for-frontier-ai-training",
-      "slug": "towards-safety-cases-for-frontier-ai-training",
-      "source": "openai",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "category": "Safety",
-      "date": "2026-09-28T19:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Towards safety cases for frontier AI training",
-        "th": "Towards safety cases for frontier AI training"
-      },
-      "summary": {
-        "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-        "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
-      }
-    },
-    {
       "id": "openai__how-we-will-do-better-for-australia",
       "slug": "how-we-will-do-better-for-australia",
       "source": "openai",
@@ -356,6 +356,23 @@
       "summary": {
         "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
         "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
+      }
+    },
+    {
+      "id": "openai__towards-safety-cases-for-frontier-ai-training",
+      "slug": "towards-safety-cases-for-frontier-ai-training",
+      "source": "openai",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "category": "Safety",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Towards safety cases for frontier AI training",
+        "th": "Towards safety cases for frontier AI training"
+      },
+      "summary": {
+        "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+        "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
       }
     },
     {
@@ -410,23 +427,6 @@
       }
     },
     {
-      "id": "openai__codex-originals",
-      "slug": "codex-originals",
-      "source": "openai",
-      "url": "https://openai.com/form/codex-originals",
-      "category": "News",
-      "date": "2026-09-28T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Are you a Codex Original?",
-        "th": "Are you a Codex Original?"
-      },
-      "summary": {
-        "en": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about",
-        "th": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about"
-      }
-    },
-    {
       "id": "openai__basis-tax-workbook-with-astra",
       "slug": "basis-tax-workbook-with-astra",
       "source": "openai",
@@ -441,6 +441,23 @@
       "summary": {
         "en": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
         "th": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use."
+      }
+    },
+    {
+      "id": "openai__codex-originals",
+      "slug": "codex-originals",
+      "source": "openai",
+      "url": "https://openai.com/form/codex-originals",
+      "category": "News",
+      "date": "2026-09-28T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Are you a Codex Original?",
+        "th": "Are you a Codex Original?"
+      },
+      "summary": {
+        "en": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about",
+        "th": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about"
       }
     },
     {
@@ -614,23 +631,6 @@
       }
     },
     {
-      "id": "openai__harvey-from-context-to-confidence-with-astra",
-      "slug": "harvey-from-context-to-confidence-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "category": "Startup",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-        "th": "Harvey turns legal context into stronger drafts with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-        "th": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
-      }
-    },
-    {
       "id": "openai__invideo-builds-with-gpt-6-astra",
       "slug": "invideo-builds-with-gpt-6-astra",
       "source": "openai",
@@ -645,6 +645,23 @@
       "summary": {
         "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
         "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
+      }
+    },
+    {
+      "id": "openai__harvey-from-context-to-confidence-with-astra",
+      "slug": "harvey-from-context-to-confidence-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "category": "Startup",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+        "th": "Harvey turns legal context into stronger drafts with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+        "th": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
       }
     },
     {
@@ -1121,23 +1138,6 @@
       "summary": {
         "en": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
         "th": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify."
-      }
-    },
-    {
-      "id": "openai__hex-gpt-6-astra",
-      "slug": "hex-gpt-6-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/hex-gpt-6-astra",
-      "category": "Startup",
-      "date": "2026-09-16T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
-        "th": "Hex turns complex analysis into visual reports with GPT‑6 Astra"
-      },
-      "summary": {
-        "en": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-        "th": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share."
       }
     },
     {

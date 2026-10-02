@@ -1,0 +1,985 @@
+{
+  "id": "openai__practical-guide-building-gpt-6",
+  "slug": "practical-guide-building-gpt-6",
+  "source": "openai",
+  "url": "https://openai.com/index/practical-guide-building-gpt-6",
+  "category": "Product",
+  "date": "2026-10-02T16:15:00.000Z",
+  "image": null,
+  "title": {
+    "en": "A model guide for the GPT-6 family",
+    "th": "A model guide for the GPT-6 family"
+  },
+  "summary": {
+    "en": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+    "th": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "October 2, 2026",
+        "th": "October 2, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Practical tips for getting the best results from GPT‑6 models while managing time and cost",
+        "th": "Practical tips for getting the best results from GPT‑6 models while managing time and cost"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "TL;DR",
+        "th": "TL;ดร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1. Run effectively in productionPrepare your workflow for productionMatch the model to the workload",
+        "th": "1. Run effectively in productionPrepare your workflow for productionMatch the model to the workload"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Prepare your workflow for production",
+        "th": "Prepare your workflow for production"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Match the model to the workload",
+        "th": "Match the model to the workload"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2. Adjust your prompts and skillsGive the model a clear assignmentDefine the output you need",
+        "th": "2. Adjust your prompts and skillsGive the model a clear assignmentDefine the output you need"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Give the model a clear assignment",
+        "th": "Give the model a clear assignment"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Define the output you need",
+        "th": "Define the output you need"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "3. Optimize long-running tasksKeep complex work movingAPICodexLeverage computer use to do more of the jobFrom testing to production: How teams are building with GPT-6 Astra",
+        "th": "3. Optimize long-running tasksKeep complex work movingAPICodexLeverage computer use to do more of the jobFrom testing to production: How teams are building with GPT-6 Astra"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Keep complex work movingAPICodex",
+        "th": "Keep complex work movingAPICodex"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "API",
+        "th": "API"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Codex",
+        "th": "Codex"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Leverage computer use to do more of the job",
+        "th": "Leverage computer use to do more of the job"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "From testing to production: How teams are building with GPT-6 Astra",
+        "th": "From testing to production: How teams are building with GPT-6 Astra"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "TL;DR",
+        "th": "TL;ดร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1. Run effectively in productionPrepare your workflow for productionMatch the model to the workload",
+        "th": "1. Run effectively in productionPrepare your workflow for productionMatch the model to the workload"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Prepare your workflow for production",
+        "th": "Prepare your workflow for production"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Match the model to the workload",
+        "th": "Match the model to the workload"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2. Adjust your prompts and skillsGive the model a clear assignmentDefine the output you need",
+        "th": "2. Adjust your prompts and skillsGive the model a clear assignmentDefine the output you need"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Give the model a clear assignment",
+        "th": "Give the model a clear assignment"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Define the output you need",
+        "th": "Define the output you need"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "3. Optimize long-running tasksKeep complex work movingAPICodexLeverage computer use to do more of the jobFrom testing to production: How teams are building with GPT-6 Astra",
+        "th": "3. Optimize long-running tasksKeep complex work movingAPICodexLeverage computer use to do more of the jobFrom testing to production: How teams are building with GPT-6 Astra"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Keep complex work movingAPICodex",
+        "th": "Keep complex work movingAPICodex"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "API",
+        "th": "API"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Codex",
+        "th": "Codex"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Leverage computer use to do more of the job",
+        "th": "Leverage computer use to do more of the job"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "From testing to production: How teams are building with GPT-6 Astra",
+        "th": "From testing to production: How teams are building with GPT-6 Astra"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6 is our most advanced suite of models yet, and offers you a choice of models for different kinds of work.",
+        "th": "GPT‑6 is our most advanced suite of models yet, and offers you a choice of models for different kinds of work."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Whether you’re turning an idea into a working prototype, building and testing a feature, or orchestrating multi-step workflows across code repositories, databases, and external APIs, this guide explains how to choose a GPT‑6 model, give it effective instructions, manage long-running work, and prepare for production.",
+        "th": "Whether you’re turning an idea into a working prototype, building and testing a feature, or orchestrating multi-step workflows across code repositories, databases, and external APIs, this guide explains how to choose a GPT‑6 model, give it effective instructions, manage long-running work, and prepare for production."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/68RU4PW9KL2Hk5fJOJiO7R/95058fa69ccb300b4c326cfdc057ac6e/desktop-transparent.png?w=3840&q=90&fm=webp",
+      "alt": "Three model cards: GPT-6 Astra, our most intelligent model for the best results, $10 input, $50 output, and $1 cached input; GPT-6.1 Sol, near-Astra intelligence for a fifth of the price, $2 input, $10 output, and $0.10 cached input; GPT-6 Luna, fast and efficient everyday work at scale, $0.10 input, $0.50 output, and $0.01 cached input."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "TL;DR",
+        "th": "TL;ดร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Run effectively in production. Use caching⁠(opens in a new window) and compaction⁠(opens in a new window) to manage context and cost. Measure task success and latency, and plan for monitoring and data controls.",
+        "th": "Run effectively in production. Use caching⁠(opens in a new window) and compaction⁠(opens in a new window) to manage context and cost. Measure task success and latency, and plan for monitoring and data controls."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Run effectively in production. Use caching⁠(opens in a new window) and compaction⁠(opens in a new window) to manage context and cost. Measure task success and latency, and plan for monitoring and data controls.",
+        "th": "Run effectively in production. Use caching⁠(opens in a new window) and compaction⁠(opens in a new window) to manage context and cost. Measure task success and latency, and plan for monitoring and data controls."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Match the model to your workload. Balance capability, cost, and latency by choosing the model, reasoning effort⁠(opens in a new window), and speed that fit the task.",
+        "th": "Match the model to your workload. Balance capability, cost, and latency by choosing the model, reasoning effort⁠(opens in a new window), and speed that fit the task."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Match the model to your workload. Balance capability, cost, and latency by choosing the model, reasoning effort⁠(opens in a new window), and speed that fit the task.",
+        "th": "Match the model to your workload. Balance capability, cost, and latency by choosing the model, reasoning effort⁠(opens in a new window), and speed that fit the task."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Adjust your prompts and skills. Keep prompts, skills, and repository instructions consistent about what the model should deliver, what it can do independently, and what counts as done.",
+        "th": "Adjust your prompts and skills. Keep prompts, skills, and repository instructions consistent about what the model should deliver, what it can do independently, and what counts as done."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Adjust your prompts and skills. Keep prompts, skills, and repository instructions consistent about what the model should deliver, what it can do independently, and what counts as done.",
+        "th": "Adjust your prompts and skills. Keep prompts, skills, and repository instructions consistent about what the model should deliver, what it can do independently, and what counts as done."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Keep long-running work on track. Use steering⁠(opens in a new window), async tools⁠(opens in a new window), and delegation⁠(opens in a new window) to handle updates and independent work. Set clear boundaries for when the model should ask for input.",
+        "th": "Keep long-running work on track. Use steering⁠(opens in a new window), async tools⁠(opens in a new window), and delegation⁠(opens in a new window) to handle updates and independent work. Set clear boundaries for when the model should ask for input."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Keep long-running work on track. Use steering⁠(opens in a new window), async tools⁠(opens in a new window), and delegation⁠(opens in a new window) to handle updates and independent work. Set clear boundaries for when the model should ask for input.",
+        "th": "Keep long-running work on track. Use steering⁠(opens in a new window), async tools⁠(opens in a new window), and delegation⁠(opens in a new window) to handle updates and independent work. Set clear boundaries for when the model should ask for input."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "1. Run effectively in production",
+        "th": "1. Run effectively in production"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Prepare your workflow for production",
+        "th": "Prepare your workflow for production"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before deploying, there are several checks and best practices you’ll want to put into place.",
+        "th": "Before deploying, there are several checks and best practices you’ll want to put into place."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Keep efficiency in mind. Cut context the task doesn’t need⁠(opens in a new window) while keeping the evidence it does. Where your application supports it, run independent tasks together⁠(opens in a new window) so one slow step doesn’t hold up unrelated work.",
+        "th": "Keep efficiency in mind. Cut context the task doesn’t need⁠(opens in a new window) while keeping the evidence it does. Where your application supports it, run independent tasks together⁠(opens in a new window) so one slow step doesn’t hold up unrelated work."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Keep efficiency in mind. Cut context the task doesn’t need⁠(opens in a new window) while keeping the evidence it does. Where your application supports it, run independent tasks together⁠(opens in a new window) so one slow step doesn’t hold up unrelated work.",
+        "th": "Keep efficiency in mind. Cut context the task doesn’t need⁠(opens in a new window) while keeping the evidence it does. Where your application supports it, run independent tasks together⁠(opens in a new window) so one slow step doesn’t hold up unrelated work."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Reuse shared context through prompt caching⁠(opens in a new window) for recurring work. Cached input tokens cost up to 95% less⁠(opens in a new window) than uncached input tokens, depending on the model. Put stable instructions and reference material before changing task details, and keep tool definitions consistent. The caching dashboard⁠(opens in a new window) and diagnostics guide⁠(opens in a new window) help you see where that reuse breaks down. Include cache writes and any long-context rates when estimating the cost of a complete workflow.",
+        "th": "Reuse shared context through prompt caching⁠(opens in a new window) for recurring work. Cached input tokens cost up to 95% less⁠(opens in a new window) than uncached input tokens, depending on the model. Put stable instructions and reference material before changing task details, and keep tool definitions consistent. The caching dashboard⁠(opens in a new window) and diagnostics guide⁠(opens in a new window) help you see where that reuse breaks down. Include cache writes and any long-context rates when estimating the cost of a complete workflow."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reuse shared context through prompt caching⁠(opens in a new window) for recurring work. Cached input tokens cost up to 95% less⁠(opens in a new window) than uncached input tokens, depending on the model. Put stable instructions and reference material before changing task details, and keep tool definitions consistent. The caching dashboard⁠(opens in a new window) and diagnostics guide⁠(opens in a new window) help you see where that reuse breaks down. Include cache writes and any long-context rates when estimating the cost of a complete workflow.",
+        "th": "Reuse shared context through prompt caching⁠(opens in a new window) for recurring work. Cached input tokens cost up to 95% less⁠(opens in a new window) than uncached input tokens, depending on the model. Put stable instructions and reference material before changing task details, and keep tool definitions consistent. The caching dashboard⁠(opens in a new window) and diagnostics guide⁠(opens in a new window) help you see where that reuse breaks down. Include cache writes and any long-context rates when estimating the cost of a complete workflow."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For longer conversations, compaction⁠(opens in a new window) reduces context size while preserving the state needed to continue.",
+        "th": "For longer conversations, compaction⁠(opens in a new window) reduces context size while preserving the state needed to continue."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For longer conversations, compaction⁠(opens in a new window) reduces context size while preserving the state needed to continue.",
+        "th": "For longer conversations, compaction⁠(opens in a new window) reduces context size while preserving the state needed to continue."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Decide how you’ll monitor behavior⁠(opens in a new window) and review the data controls⁠(opens in a new window) for your application.",
+        "th": "Decide how you’ll monitor behavior⁠(opens in a new window) and review the data controls⁠(opens in a new window) for your application."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Decide how you’ll monitor behavior⁠(opens in a new window) and review the data controls⁠(opens in a new window) for your application.",
+        "th": "Decide how you’ll monitor behavior⁠(opens in a new window) and review the data controls⁠(opens in a new window) for your application."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Test before deploying: Run representative tasks and measure task success, latency, and cost per successful task. Check out our API deployment checklist⁠(opens in a new window).",
+        "th": "Test before deploying: Run representative tasks and measure task success, latency, and cost per successful task. Check out our API deployment checklist⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Test before deploying: Run representative tasks and measure task success, latency, and cost per successful task. Check out our API deployment checklist⁠(opens in a new window).",
+        "th": "Test before deploying: Run representative tasks and measure task success, latency, and cost per successful task. Check out our API deployment checklist⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Match the model to the workload",
+        "th": "Match the model to the workload"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Think of the model choice and reasoning level as an intelligence/ price tradeoff.",
+        "th": "Think of the model choice and reasoning level as an intelligence/ price tradeoff."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Model:GPT‑6 Astra⁠(opens in a new window) for the hardest reasoning work where maximum intelligence is needed.GPT‑6.1 Sol⁠(opens in a new window) for complex coding, research, and computer use.GPT‑6 Luna⁠(opens in a new window) for focused tasks at scale and everyday, repeated work with a clear goal, such as extracting invoice fields, classifying requests, or producing structured summaries.",
+        "th": "Model:GPT‑6 Astra⁠(opens in a new window) for the hardest reasoning work where maximum intelligence is needed.GPT‑6.1 Sol⁠(opens in a new window) for complex coding, research, and computer use.GPT‑6 Luna⁠(opens in a new window) for focused tasks at scale and everyday, repeated work with a clear goal, such as extracting invoice fields, classifying requests, or producing structured summaries."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Model:",
+        "th": "Model:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "GPT‑6 Astra⁠(opens in a new window) for the hardest reasoning work where maximum intelligence is needed.",
+        "th": "GPT‑6 Astra⁠(opens in a new window) for the hardest reasoning work where maximum intelligence is needed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6 Astra⁠(opens in a new window) for the hardest reasoning work where maximum intelligence is needed.",
+        "th": "GPT‑6 Astra⁠(opens in a new window) for the hardest reasoning work where maximum intelligence is needed."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "GPT‑6.1 Sol⁠(opens in a new window) for complex coding, research, and computer use.",
+        "th": "GPT‑6.1 Sol⁠(opens in a new window) for complex coding, research, and computer use."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6.1 Sol⁠(opens in a new window) for complex coding, research, and computer use.",
+        "th": "GPT‑6.1 Sol⁠(opens in a new window) for complex coding, research, and computer use."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "GPT‑6 Luna⁠(opens in a new window) for focused tasks at scale and everyday, repeated work with a clear goal, such as extracting invoice fields, classifying requests, or producing structured summaries.",
+        "th": "GPT‑6 Luna⁠(opens in a new window) for focused tasks at scale and everyday, repeated work with a clear goal, such as extracting invoice fields, classifying requests, or producing structured summaries."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6 Luna⁠(opens in a new window) for focused tasks at scale and everyday, repeated work with a clear goal, such as extracting invoice fields, classifying requests, or producing structured summaries.",
+        "th": "GPT‑6 Luna⁠(opens in a new window) for focused tasks at scale and everyday, repeated work with a clear goal, such as extracting invoice fields, classifying requests, or producing structured summaries."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When evaluating the best model for the task, compare pricing⁠(opens in a new window) for each model.",
+        "th": "When evaluating the best model for the task, compare pricing⁠(opens in a new window) for each model."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Reasoning level: In the API, choose how much effort the model spends on the task.Low: Routine tasks, such as extracting facts or making small edits.Medium: Work requiring judgment, such as planning a feature or comparing options.High: Difficult debugging, deeper analysis, or careful review.Extra high / Max: Test where supported when High falls short, and keep only if the improvement justifies the added time and cost.",
+        "th": "Reasoning level: In the API, choose how much effort the model spends on the task.Low: Routine tasks, such as extracting facts or making small edits.Medium: Work requiring judgment, such as planning a feature or comparing options.High: Difficult debugging, deeper analysis, or careful review.Extra high / Max: Test where supported when High falls short, and keep only if the improvement justifies the added time and cost."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reasoning level: In the API, choose how much effort the model spends on the task.",
+        "th": "Reasoning level: In the API, choose how much effort the model spends on the task."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Low: Routine tasks, such as extracting facts or making small edits.",
+        "th": "Low: Routine tasks, such as extracting facts or making small edits."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Low: Routine tasks, such as extracting facts or making small edits.",
+        "th": "Low: Routine tasks, such as extracting facts or making small edits."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Medium: Work requiring judgment, such as planning a feature or comparing options.",
+        "th": "Medium: Work requiring judgment, such as planning a feature or comparing options."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Medium: Work requiring judgment, such as planning a feature or comparing options.",
+        "th": "Medium: Work requiring judgment, such as planning a feature or comparing options."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "High: Difficult debugging, deeper analysis, or careful review.",
+        "th": "High: Difficult debugging, deeper analysis, or careful review."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "High: Difficult debugging, deeper analysis, or careful review.",
+        "th": "High: Difficult debugging, deeper analysis, or careful review."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Extra high / Max: Test where supported when High falls short, and keep only if the improvement justifies the added time and cost.",
+        "th": "Extra high / Max: Test where supported when High falls short, and keep only if the improvement justifies the added time and cost."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Extra high / Max: Test where supported when High falls short, and keep only if the improvement justifies the added time and cost.",
+        "th": "Extra high / Max: Test where supported when High falls short, and keep only if the improvement justifies the added time and cost."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In the API, you can change reasoning effort mid-conversation⁠(opens in a new window) without breaking cache.",
+        "th": "In the API, you can change reasoning effort mid-conversation⁠(opens in a new window) without breaking cache."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In Codex, start with the default reasoning level for that model, then lower it for simpler tasks or increase it for deeper analysis.",
+        "th": "In Codex, start with the default reasoning level for that model, then lower it for simpler tasks or increase it for deeper analysis."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Speed:In the API, use Fast mode⁠(opens in a new window) when response time matters, such as in chat apps or coding tools. It provides faster, more consistent response times at a higher per-token cost than Standard processing.In Codex and the API, use Ultrafast⁠(opens in a new window) when faster responses are worth the premium, such as rapid coding iterations. It speeds up token generation independently of reasoning effort. Available for GPT‑6 Astra⁠(opens in a new window).",
+        "th": "Speed:In the API, use Fast mode⁠(opens in a new window) when response time matters, such as in chat apps or coding tools. It provides faster, more consistent response times at a higher per-token cost than Standard processing.In Codex and the API, use Ultrafast⁠(opens in a new window) when faster responses are worth the premium, such as rapid coding iterations. It speeds up token generation independently of reasoning effort. Available for GPT‑6 Astra⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Speed:",
+        "th": "Speed:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "In the API, use Fast mode⁠(opens in a new window) when response time matters, such as in chat apps or coding tools. It provides faster, more consistent response times at a higher per-token cost than Standard processing.",
+        "th": "In the API, use Fast mode⁠(opens in a new window) when response time matters, such as in chat apps or coding tools. It provides faster, more consistent response times at a higher per-token cost than Standard processing."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In the API, use Fast mode⁠(opens in a new window) when response time matters, such as in chat apps or coding tools. It provides faster, more consistent response times at a higher per-token cost than Standard processing.",
+        "th": "In the API, use Fast mode⁠(opens in a new window) when response time matters, such as in chat apps or coding tools. It provides faster, more consistent response times at a higher per-token cost than Standard processing."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "In Codex and the API, use Ultrafast⁠(opens in a new window) when faster responses are worth the premium, such as rapid coding iterations. It speeds up token generation independently of reasoning effort. Available for GPT‑6 Astra⁠(opens in a new window).",
+        "th": "In Codex and the API, use Ultrafast⁠(opens in a new window) when faster responses are worth the premium, such as rapid coding iterations. It speeds up token generation independently of reasoning effort. Available for GPT‑6 Astra⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In Codex and the API, use Ultrafast⁠(opens in a new window) when faster responses are worth the premium, such as rapid coding iterations. It speeds up token generation independently of reasoning effort. Available for GPT‑6 Astra⁠(opens in a new window).",
+        "th": "In Codex and the API, use Ultrafast⁠(opens in a new window) when faster responses are worth the premium, such as rapid coding iterations. It speeds up token generation independently of reasoning effort. Available for GPT‑6 Astra⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6nQdXeHQXmiZChoipK4uRH/36e1a5934003392045ae4cdfa58d5957/paul-solt-tweet-textured-light.png?w=3840&q=90&fm=webp",
+      "alt": "Paul Solt describes building apps and fixing iPad compatibility with Ultrafast and live steering."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "2. Adjust your prompts and skills",
+        "th": "2. Adjust your prompts and skills"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Give the model a clear assignment",
+        "th": "Give the model a clear assignment"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Models have gotten much better at understanding nuance and ambiguity, so overly specific guidance can now hinder results where it previously helped.”⁠(opens in a new window)",
+        "th": "“Models have gotten much better at understanding nuance and ambiguity, so overly specific guidance can now hinder results where it previously helped.”⁠(opens in a new window)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "—Eric Provencher, Developer Experience at OpenAI",
+        "th": "—Eric Provencher, Developer Experience at OpenAI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Start with a clear assignment: the result you want, who it’s for, the relevant context and constraints, and what counts as done. Then review these four areas, summarized from Rethinking skills and prompts for GPT‑6 Astra⁠(opens in a new window), for a deeper dive into updating your instructions:",
+        "th": "Start with a clear assignment: the result you want, who it’s for, the relevant context and constraints, and what counts as done. Then review these four areas, summarized from Rethinking skills and prompts for GPT‑6 Astra⁠(opens in a new window), for a deeper dive into updating your instructions:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Create better skills: Keep descriptions short and explicit about when each skill should run, load supporting details only when needed, and replace rigid recipes with guidance suited to the models your team uses.",
+        "th": "Create better skills: Keep descriptions short and explicit about when each skill should run, load supporting details only when needed, and replace rigid recipes with guidance suited to the models your team uses."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Create better skills: Keep descriptions short and explicit about when each skill should run, load supporting details only when needed, and replace rigid recipes with guidance suited to the models your team uses.",
+        "th": "Create better skills: Keep descriptions short and explicit about when each skill should run, load supporting details only when needed, and replace rigid recipes with guidance suited to the models your team uses."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Update your AGENTS.md: Explain when particular documents and tests are relevant, and explicitly authorize safe routine workflows, such as running local tests with disposable data and no production access.",
+        "th": "Update your AGENTS.md: Explain when particular documents and tests are relevant, and explicitly authorize safe routine workflows, such as running local tests with disposable data and no production access."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Update your AGENTS.md: Explain when particular documents and tests are relevant, and explicitly authorize safe routine workflows, such as running local tests with disposable data and no production access.",
+        "th": "Update your AGENTS.md: Explain when particular documents and tests are relevant, and explicitly authorize safe routine workflows, such as running local tests with disposable data and no production access."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Set decision boundaries: State which actions can proceed independently and which require approval, replacing blanket “always ask” rules with clear boundaries.",
+        "th": "Set decision boundaries: State which actions can proceed independently and which require approval, replacing blanket “always ask” rules with clear boundaries."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Set decision boundaries: State which actions can proceed independently and which require approval, replacing blanket “always ask” rules with clear boundaries.",
+        "th": "Set decision boundaries: State which actions can proceed independently and which require approval, replacing blanket “always ask” rules with clear boundaries."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Be prescriptive about persistence: Define what “done” includes—implementing the change, running it, inspecting the result, and fixing failures—and identify any decisions that require your review.",
+        "th": "Be prescriptive about persistence: Define what “done” includes—implementing the change, running it, inspecting the result, and fixing failures—and identify any decisions that require your review."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Be prescriptive about persistence: Define what “done” includes—implementing the change, running it, inspecting the result, and fixing failures—and identify any decisions that require your review.",
+        "th": "Be prescriptive about persistence: Define what “done” includes—implementing the change, running it, inspecting the result, and fixing failures—and identify any decisions that require your review."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For additional guidance, see reasoning best practices⁠(opens in a new window).",
+        "th": "For additional guidance, see reasoning best practices⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Define the output you need",
+        "th": "Define the output you need"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Whether you’re working in Codex or building with the API, specify which decisions the model can make, when it should ask for input, and what a useful response looks like.",
+        "th": "Whether you’re working in Codex or building with the API, specify which decisions the model can make, when it should ask for input, and what a useful response looks like."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Give the model enough direction to keep work moving without guessing at decisions that matter. Tell it which choices it can make and when to ask for your input⁠(opens in a new window), for example, it can choose how to organize a summary, but should check with you before changing the project’s scope. Describe what a useful response looks like⁠(opens in a new window), for example plain language, technical detail suited to your audience, and a short handoff covering what changed, what was checked, and what still needs attention.",
+        "th": "Give the model enough direction to keep work moving without guessing at decisions that matter. Tell it which choices it can make and when to ask for your input⁠(opens in a new window), for example, it can choose how to organize a summary, but should check with you before changing the project’s scope. Describe what a useful response looks like⁠(opens in a new window), for example plain language, technical detail suited to your audience, and a short handoff covering what changed, what was checked, and what still needs attention."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "3. Optimize long-running tasks",
+        "th": "3. Optimize long-running tasks"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Keep complex work moving",
+        "th": "Keep complex work moving"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With the GPT‑6 family of models, you can now take on tasks that span hours or days. Use the following features to better manage agents on long-running tasks.",
+        "th": "With the GPT‑6 family of models, you can now take on tasks that span hours or days. Use the following features to better manage agents on long-running tasks."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In the API, use steering, asynchronous tools, and parallel work to keep long-running tasks moving.",
+        "th": "In the API, use steering, asynchronous tools, and parallel work to keep long-running tasks moving."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Update instructions during a run: Mid-turn steering⁠(opens in a new window) lets you send a correction through the Responses WebSocket API⁠(opens in a new window) while the model works. Updates are queued; they don’t cancel running tools or undo completed actions.",
+        "th": "Update instructions during a run: Mid-turn steering⁠(opens in a new window) lets you send a correction through the Responses WebSocket API⁠(opens in a new window) while the model works. Updates are queued; they don’t cancel running tools or undo completed actions."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Update instructions during a run: Mid-turn steering⁠(opens in a new window) lets you send a correction through the Responses WebSocket API⁠(opens in a new window) while the model works. Updates are queued; they don’t cancel running tools or undo completed actions.",
+        "th": "Update instructions during a run: Mid-turn steering⁠(opens in a new window) lets you send a correction through the Responses WebSocket API⁠(opens in a new window) while the model works. Updates are queued; they don’t cancel running tools or undo completed actions."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Keep working while a tool runs: Asynchronous tool calling⁠(opens in a new window) lets the model continue independent work while your app runs a slower task, such as tests. Your app returns the result when it’s ready. Wait for that result before starting work that depends on it.",
+        "th": "Keep working while a tool runs: Asynchronous tool calling⁠(opens in a new window) lets the model continue independent work while your app runs a slower task, such as tests. Your app returns the result when it’s ready. Wait for that result before starting work that depends on it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Keep working while a tool runs: Asynchronous tool calling⁠(opens in a new window) lets the model continue independent work while your app runs a slower task, such as tests. Your app returns the result when it’s ready. Wait for that result before starting work that depends on it.",
+        "th": "Keep working while a tool runs: Asynchronous tool calling⁠(opens in a new window) lets the model continue independent work while your app runs a slower task, such as tests. Your app returns the result when it’s ready. Wait for that result before starting work that depends on it."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Delegate independent subtasks: GPT‑6.1 Sol supports multi-agent workflows in the Responses API⁠(opens in a new window). It can assign independent work to subagents (such as investigating different parts of a codebase) and combine their findings into a final response. Multi-agent is currently in beta.",
+        "th": "Delegate independent subtasks: GPT‑6.1 Sol supports multi-agent workflows in the Responses API⁠(opens in a new window). It can assign independent work to subagents (such as investigating different parts of a codebase) and combine their findings into a final response. Multi-agent is currently in beta."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Delegate independent subtasks: GPT‑6.1 Sol supports multi-agent workflows in the Responses API⁠(opens in a new window). It can assign independent work to subagents (such as investigating different parts of a codebase) and combine their findings into a final response. Multi-agent is currently in beta.",
+        "th": "Delegate independent subtasks: GPT‑6.1 Sol supports multi-agent workflows in the Responses API⁠(opens in a new window). It can assign independent work to subagents (such as investigating different parts of a codebase) and combine their findings into a final response. Multi-agent is currently in beta."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Long-running tasks can uncover decisions you wouldn’t necessarily anticipate in the initial prompt. Use clarification and steering to keep the work on course.",
+        "th": "Long-running tasks can uncover decisions you wouldn’t necessarily anticipate in the initial prompt. Use clarification and steering to keep the work on course."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Answer questions as work progresses: With GPT‑6 Astra, Codex can ask for clarification while it works⁠(opens in a new window). Resolve questions that affect the next step, and specify which independent work can continue while you decide. If you’ll be away, tell Codex which tasks can continue and when it should pause for your answer.",
+        "th": "Answer questions as work progresses: With GPT‑6 Astra, Codex can ask for clarification while it works⁠(opens in a new window). Resolve questions that affect the next step, and specify which independent work can continue while you decide. If you’ll be away, tell Codex which tasks can continue and when it should pause for your answer."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Answer questions as work progresses: With GPT‑6 Astra, Codex can ask for clarification while it works⁠(opens in a new window). Resolve questions that affect the next step, and specify which independent work can continue while you decide. If you’ll be away, tell Codex which tasks can continue and when it should pause for your answer.",
+        "th": "Answer questions as work progresses: With GPT‑6 Astra, Codex can ask for clarification while it works⁠(opens in a new window). Resolve questions that affect the next step, and specify which independent work can continue while you decide. If you’ll be away, tell Codex which tasks can continue and when it should pause for your answer."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Redirect work when requirements change: Steer the active task⁠(opens in a new window) with new information, explaining what should change and what should stay the same. This helps avoid spending more time on an approach that no longer meets your needs.",
+        "th": "Redirect work when requirements change: Steer the active task⁠(opens in a new window) with new information, explaining what should change and what should stay the same. This helps avoid spending more time on an approach that no longer meets your needs."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Redirect work when requirements change: Steer the active task⁠(opens in a new window) with new information, explaining what should change and what should stay the same. This helps avoid spending more time on an approach that no longer meets your needs.",
+        "th": "Redirect work when requirements change: Steer the active task⁠(opens in a new window) with new information, explaining what should change and what should stay the same. This helps avoid spending more time on an approach that no longer meets your needs."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2OX0vajCJwQiYaxHP7gP6k/98f40c01020b65b1c6f999fd21616d8c/peter-steinberger-tweet-textured-light.png?w=3840&q=90&fm=webp",
+      "alt": "Peter Steinberger describes using Astra for a long-running refactor to asynchronous workers."
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Leverage computer use to do more of the job",
+        "th": "Leverage computer use to do more of the job"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Computer use⁠(opens in a new window) lets GPT‑6 Astra, GPT‑6.1 Sol, and GPT‑6 Luna interact directly with websites and desktop apps, even applications without an API. For example, you can ask the model to investigate a bug, fix the code, and open your product in a browser to check that the fix works.",
+        "th": "Computer use⁠(opens in a new window) lets GPT‑6 Astra, GPT‑6.1 Sol, and GPT‑6 Luna interact directly with websites and desktop apps, even applications without an API. For example, you can ask the model to investigate a bug, fix the code, and open your product in a browser to check that the fix works."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Choose the simplest reliable way to do each step:",
+        "th": "Choose the simplest reliable way to do each step:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Use an API or connected tool when it can do the job directly.",
+        "th": "Use an API or connected tool when it can do the job directly."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Use an API or connected tool when it can do the job directly.",
+        "th": "Use an API or connected tool when it can do the job directly."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Use computer use when the model needs to read a screen, click buttons, or fill in a form for you.",
+        "th": "Use computer use when the model needs to read a screen, click buttons, or fill in a form for you."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Use computer use when the model needs to read a screen, click buttons, or fill in a form for you.",
+        "th": "Use computer use when the model needs to read a screen, click buttons, or fill in a form for you."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If you’re building computer use into your own app, give the model a tool that can run code to control a browser or desktop. Playwright works with browsers⁠(opens in a new window); PyAutoGUI works with desktop apps.",
+        "th": "If you’re building computer use into your own app, give the model a tool that can run code to control a browser or desktop. Playwright works with browsers⁠(opens in a new window); PyAutoGUI works with desktop apps."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4hpVcAhs91d4pc8IFCucvF/e22b669e9d4de0ff54464d997d39d0d7/higgsfield-tweet-textured-light.png?w=3840&q=90&fm=webp",
+      "alt": "Higgsfield AI demonstrates GPT-6.1 Sol multitasking and computer use in ChatGPT."
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "From testing to production: How teams are building with GPT‑6 Astra",
+        "th": "From testing to production: How teams are building with GPT‑6 Astra"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Harvey",
+        "th": "Harvey"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Cognition",
+        "th": "Cognition"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Hex",
+        "th": "Hex"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Invideo",
+        "th": "Invideo"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ChatGPT",
+        "th": "ChatGPT"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1C75hfnvbohzm6Fx3hd7ux/1391c894029045aa51d520e4d80f6f4b/DevDay_Blog_ArtCard_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "DevDay 2026 Recap — cover image (1:1)"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanySep 29, 2026",
+        "th": "CompanySep 29, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7reVkD9GZT81EppPxXgW4D/44c5d09530a17bf45d153b86760ee30a/GPT-6-1-Sol_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "GPT-6-1-Sol_Blog 1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductSep 29, 2026",
+        "th": "ProductSep 29, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2TCcE1IdEPpWT2vaC3PDWu/e78bceb30c38422b1461a2326838e762/Art_Card___1_1_1080x1080.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing dots — cover art card (square)"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductSep 29, 2026",
+        "th": "ProductSep 29, 2026"
+      }
+    }
+  ]
+}

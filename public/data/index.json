@@ -1,6 +1,57 @@
 {
-  "generatedAt": "2026-10-02T10:13:04.832Z",
+  "generatedAt": "2026-10-02T17:11:07.257Z",
   "items": [
+    {
+      "id": "openai__practical-guide-building-gpt-6",
+      "slug": "practical-guide-building-gpt-6",
+      "source": "openai",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "category": "Product",
+      "date": "2026-10-02T16:15:00.000Z",
+      "image": null,
+      "title": {
+        "en": "A model guide for the GPT-6 family",
+        "th": "A model guide for the GPT-6 family"
+      },
+      "summary": {
+        "en": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+        "th": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production."
+      }
+    },
+    {
+      "id": "huggingface__astabrief",
+      "slug": "astabrief",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "category": "News",
+      "date": "2026-10-02T15:19:50.000Z",
+      "image": null,
+      "title": {
+        "en": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+        "th": "Open-sourcing AstaBrief, the fast report-generation model in Asta"
+      },
+      "summary": {
+        "en": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+        "th": "Open-sourcing AstaBrief, the fast report-generation model in Asta"
+      }
+    },
+    {
+      "id": "google-ai__google-ai-updates-september-2026",
+      "slug": "google-ai-updates-september-2026",
+      "source": "google-ai",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "category": "Google DeepMind",
+      "date": "2026-10-02T15:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/September_AI_Recap_hero.max-600x600.format-webp.webp",
+      "title": {
+        "en": "The latest AI news we announced in September 2026",
+        "th": "The latest AI news we announced in September 2026"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/September_AI_Recap_hero.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from September 2026",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/September_AI_Recap_hero.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from September 2026"
+      }
+    },
     {
       "id": "huggingface__autosynthdata",
       "slug": "autosynthdata",
@@ -16,6 +67,23 @@
       "summary": {
         "en": "AutoSynthData: Generating Training Data for Enterprise Agents",
         "th": "AutoSynthData: การสร้างข้อมูลการฝึกอบรมสำหรับตัวแทนระดับองค์กร"
+      }
+    },
+    {
+      "id": "anthropic__claude-frontier-academy",
+      "slug": "claude-frontier-academy",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "category": "News",
+      "date": "2026-10-02T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Build&backgroundColor=heather",
+      "title": {
+        "en": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+        "th": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap"
+      },
+      "summary": {
+        "en": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.",
+        "th": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027."
       }
     },
     {
@@ -50,23 +118,6 @@
       "summary": {
         "en": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
         "th": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers."
-      }
-    },
-    {
-      "id": "huggingface__olmocore3",
-      "slug": "olmocore3",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/allenai/olmocore3",
-      "category": "News",
-      "date": "2026-10-01T15:01:43.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-        "th": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs"
-      },
-      "summary": {
-        "en": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-        "th": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs"
       }
     },
     {
@@ -274,23 +325,6 @@
       }
     },
     {
-      "id": "openai__how-we-will-do-better-for-australia",
-      "slug": "how-we-will-do-better-for-australia",
-      "source": "openai",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "category": "Company",
-      "date": "2026-09-28T19:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How we will do better for Australia",
-        "th": "How we will do better for Australia"
-      },
-      "summary": {
-        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
-      }
-    },
-    {
       "id": "openai__towards-safety-cases-for-frontier-ai-training",
       "slug": "towards-safety-cases-for-frontier-ai-training",
       "source": "openai",
@@ -305,6 +339,23 @@
       "summary": {
         "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
         "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
+      }
+    },
+    {
+      "id": "openai__how-we-will-do-better-for-australia",
+      "slug": "how-we-will-do-better-for-australia",
+      "source": "openai",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "category": "Company",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How we will do better for Australia",
+        "th": "How we will do better for Australia"
+      },
+      "summary": {
+        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
       }
     },
     {
@@ -529,23 +580,6 @@
       }
     },
     {
-      "id": "openai__harvey-from-context-to-confidence-with-astra",
-      "slug": "harvey-from-context-to-confidence-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "category": "Startup",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-        "th": "Harvey turns legal context into stronger drafts with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-        "th": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
-      }
-    },
-    {
       "id": "openai__sam-altman-un-security-council-remarks",
       "slug": "sam-altman-un-security-council-remarks",
       "source": "openai",
@@ -563,23 +597,6 @@
       }
     },
     {
-      "id": "openai__invideo-builds-with-gpt-6-astra",
-      "slug": "invideo-builds-with-gpt-6-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "category": "News",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How invideo improves color grading 3x with GPT‑6 Astra",
-        "th": "How invideo improves color grading 3x with GPT‑6 Astra"
-      },
-      "summary": {
-        "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-        "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
-      }
-    },
-    {
       "id": "openai__ringg",
       "slug": "ringg",
       "source": "openai",
@@ -594,6 +611,40 @@
       "summary": {
         "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
         "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
+      }
+    },
+    {
+      "id": "openai__harvey-from-context-to-confidence-with-astra",
+      "slug": "harvey-from-context-to-confidence-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "category": "Startup",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+        "th": "Harvey turns legal context into stronger drafts with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+        "th": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
+      }
+    },
+    {
+      "id": "openai__invideo-builds-with-gpt-6-astra",
+      "slug": "invideo-builds-with-gpt-6-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "category": "News",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How invideo improves color grading 3x with GPT‑6 Astra",
+        "th": "How invideo improves color grading 3x with GPT‑6 Astra"
+      },
+      "summary": {
+        "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+        "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
       }
     },
     {
@@ -1087,23 +1138,6 @@
       "summary": {
         "en": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
         "th": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share."
-      }
-    },
-    {
-      "id": "openai__how-to-connect-ai-usage-to-business-value",
-      "slug": "how-to-connect-ai-usage-to-business-value",
-      "source": "openai",
-      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "category": "Product",
-      "date": "2026-09-16T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How to connect AI usage to business value",
-        "th": "How to connect AI usage to business value"
-      },
-      "summary": {
-        "en": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-        "th": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes."
       }
     },
     {
@@ -1889,23 +1923,6 @@
       }
     },
     {
-      "id": "google-ai__back-to-school-study-tools",
-      "slug": "back-to-school-study-tools",
-      "source": "google-ai",
-      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
-      "category": "Learning & Education",
-      "date": "2026-08-19T19:00:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp",
-      "title": {
-        "en": "5 new ways to level up your learning with Search",
-        "th": "5 วิธีใหม่ในการยกระดับการเรียนรู้ของคุณด้วยการค้นหา"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp\">Here’s how you can use Google Search tools to study for classes and standardized tests.",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp\">ต่อไปนี้คือวิธีที่คุณสามารถใช้เครื่องมือค้นหาของ Google เพื่อศึกษาชั้นเรียนและการทดสอบมาตรฐาน"
-      }
-    },
-    {
       "id": "huggingface__altk-evolve-hmm",
       "slug": "altk-evolve-hmm",
       "source": "huggingface",
@@ -1954,23 +1971,6 @@
       "summary": {
         "en": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
         "th": "คลัสเตอร์เดียวกัน ใช้ประโยชน์ได้มากขึ้น 33 แต้ม: สิ่งที่เปลี่ยนแปลงคือลำดับ"
-      }
-    },
-    {
-      "id": "anthropic__claude-text-watermark",
-      "slug": "claude-text-watermark",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/claude-text-watermark",
-      "category": "News",
-      "date": "2026-08-14T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Quill&backgroundColor=heather",
-      "title": {
-        "en": "How Claude’s text watermark works",
-        "th": "ลายน้ำข้อความของ Claude ทำงานอย่างไร"
-      },
-      "summary": {
-        "en": "Future Claude models will generate text that contains a watermark to comply with the EU AI Act. We answer questions about how it works and whether it affects outputs.",
-        "th": "Future Claude models will generate text that contains a watermark to comply with the EU AI Act. We answer questions about how it works and whether it affects outputs."
       }
     },
     {

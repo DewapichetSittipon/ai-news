@@ -226,9 +226,67 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/68RU4PW9KL2Hk5fJOJiO7R/95058fa69ccb300b4c326cfdc057ac6e/desktop-transparent.png?w=3840&q=90&fm=webp",
-      "alt": "Three model cards: GPT-6 Astra, our most intelligent model for the best results, $10 input, $50 output, and $1 cached input; GPT-6.1 Sol, near-Astra intelligence for a fifth of the price, $2 input, $10 output, and $0.10 cached input; GPT-6 Luna, fast and efficient everyday work at scale, $0.10 input, $0.50 output, and $0.01 cached input."
+      "type": "li",
+      "text": {
+        "en": "GPT-6AstraOur most intelligent model for the best results.input$10.00output$50.00cached input$1.00",
+        "th": "GPT-6AstraOur most intelligent model for the best results.input$10.00output$50.00cached input$1.00"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "GPT-6Astra",
+        "th": "GPT-6Astra"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our most intelligent model for the best results.",
+        "th": "Our most intelligent model for the best results."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "GPT-6.1SolNear-Astra intelligence for a fifth of the price.input$2.00output$10.00cached input$0.10",
+        "th": "GPT-6.1SolNear-Astra intelligence for a fifth of the price.input$2.00output$10.00cached input$0.10"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "GPT-6.1Sol",
+        "th": "GPT-6.1Sol"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Near-Astra intelligence for a fifth of the price.",
+        "th": "Near-Astra intelligence for a fifth of the price."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "GPT-6LunaFast and efficient everyday work at scale.input$0.10output$0.50cached input$0.01",
+        "th": "GPT-6LunaFast and efficient everyday work at scale.input$0.10output$0.50cached input$0.01"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "GPT-6Luna",
+        "th": "GPT-6Luna"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Fast and efficient everyday work at scale.",
+        "th": "Fast and efficient everyday work at scale."
+      }
     },
     {
       "type": "h2",

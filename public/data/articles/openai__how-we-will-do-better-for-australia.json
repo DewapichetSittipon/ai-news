@@ -331,6 +331,34 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "October 4, 2026: Update on model activity involving the NSW National Parks and Wildlife Service",
+        "th": "October 4, 2026: Update on model activity involving the NSW National Parks and Wildlife Service"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our ongoing review has identified activity affecting the NSW National Parks and Wildlife Service’s (NPWS) Fire History records. In June, a model researching Australian wildfire statistics used crafted queries against NPWS’s Fire History mapping service to infer database metadata that was not intended to be publicly exposed through the service. Separately, the model also downloaded the publicly available NPWS Fire History mapping dataset. The results we reviewed do not show that the model retrieved personal information.",
+        "th": "Our ongoing review has identified activity affecting the NSW National Parks and Wildlife Service’s (NPWS) Fire History records. In June, a model researching Australian wildfire statistics used crafted queries against NPWS’s Fire History mapping service to infer database metadata that was not intended to be publicly exposed through the service. Separately, the model also downloaded the publicly available NPWS Fire History mapping dataset. The results we reviewed do not show that the model retrieved personal information."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "After we became aware of this activity on Tuesday, September 29, we conducted an urgent internal technical and legal review to understand what happened. Once that review was complete, we provided a high-level briefing to the NSW Premier’s office and confirmed the appropriate contact at the NSW Department of Climate Change, Energy, the Environment and Water (DCCEEW), which includes NPWS. That initial contact took place within 48 hours of us first identifying the activity. We sent a technical notification through the appropriate NSW Government channel and obtained details for the relevant DCCEEW contacts. After receipt was confirmed, we followed up with those contacts to offer a technical briefing.",
+        "th": "After we became aware of this activity on Tuesday, September 29, we conducted an urgent internal technical and legal review to understand what happened. Once that review was complete, we provided a high-level briefing to the NSW Premier’s office and confirmed the appropriate contact at the NSW Department of Climate Change, Energy, the Environment and Water (DCCEEW), which includes NPWS. That initial contact took place within 48 hours of us first identifying the activity. We sent a technical notification through the appropriate NSW Government channel and obtained details for the relevant DCCEEW contacts. After receipt was confirmed, we followed up with those contacts to offer a technical briefing."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We will continue to support DCCEEW and NPWS, including sharing relevant technical findings and arranging engagement with our response teams through appropriate information-sharing arrangements.",
+        "th": "We will continue to support DCCEEW and NPWS, including sharing relevant technical findings and arranging engagement with our response teams through appropriate information-sharing arrangements."
+      }
+    },
+    {
       "type": "li",
       "text": {
         "en": "2026",

@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-10-03T20:25:56.698Z",
+  "generatedAt": "2026-10-04T00:17:42.920Z",
   "items": [
+    {
+      "id": "huggingface__thinkingbox",
+      "slug": "thinkingbox",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "category": "News",
+      "date": "2026-10-03T22:56:48.000Z",
+      "image": null,
+      "title": {
+        "en": "The Agent Said It Was Done. The Database Disagreed.",
+        "th": "The Agent Said It Was Done. The Database Disagreed."
+      },
+      "summary": {
+        "en": "The Agent Said It Was Done. The Database Disagreed.",
+        "th": "The Agent Said It Was Done. The Database Disagreed."
+      }
+    },
     {
       "id": "openai__practical-guide-building-gpt-6",
       "slug": "practical-guide-building-gpt-6",
@@ -2158,23 +2175,6 @@
       "summary": {
         "en": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
         "th": "WeatherNext: โมเดล AI ประสบความสำเร็จในการพยากรณ์พายุไซโคลน"
-      }
-    },
-    {
-      "id": "huggingface__baseten",
-      "slug": "baseten",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/baseten",
-      "category": "News",
-      "date": "2026-08-06T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Baseten on Hugging Face Inference Providers 🔥",
-        "th": "พื้นฐานจากผู้ให้บริการการอนุมานใบหน้าแบบกอด 🔥"
-      },
-      "summary": {
-        "en": "Baseten on Hugging Face Inference Providers 🔥",
-        "th": "พื้นฐานจากผู้ให้บริการการอนุมานใบหน้าแบบกอด 🔥"
       }
     },
     {

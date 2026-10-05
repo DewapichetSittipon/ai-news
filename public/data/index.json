@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-10-05T08:01:50.481Z",
+  "generatedAt": "2026-10-05T19:00:45.276Z",
   "items": [
+    {
+      "id": "openai__eu-text-provenance",
+      "slug": "eu-text-provenance",
+      "source": "openai",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "category": "Safety",
+      "date": "2026-10-05T15:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Our approach to EU text provenance rules",
+        "th": "Our approach to EU text provenance rules"
+      },
+      "summary": {
+        "en": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+        "th": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers."
+      }
+    },
+    {
+      "id": "openai__new-chatgpt-ads-format-and-measurement",
+      "slug": "new-chatgpt-ads-format-and-measurement",
+      "source": "openai",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "category": "Product",
+      "date": "2026-10-05T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Building advertising for the way people use AI",
+        "th": "Building advertising for the way people use AI"
+      },
+      "summary": {
+        "en": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+        "th": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers."
+      }
+    },
     {
       "id": "huggingface__thinkingbox",
       "slug": "thinkingbox",
@@ -359,23 +393,6 @@
       }
     },
     {
-      "id": "openai__how-we-will-do-better-for-australia",
-      "slug": "how-we-will-do-better-for-australia",
-      "source": "openai",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "category": "Company",
-      "date": "2026-09-28T19:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How we will do better for Australia",
-        "th": "How we will do better for Australia"
-      },
-      "summary": {
-        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
-      }
-    },
-    {
       "id": "openai__towards-safety-cases-for-frontier-ai-training",
       "slug": "towards-safety-cases-for-frontier-ai-training",
       "source": "openai",
@@ -390,6 +407,23 @@
       "summary": {
         "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
         "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
+      }
+    },
+    {
+      "id": "openai__how-we-will-do-better-for-australia",
+      "slug": "how-we-will-do-better-for-australia",
+      "source": "openai",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "category": "Company",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How we will do better for Australia",
+        "th": "How we will do better for Australia"
+      },
+      "summary": {
+        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
       }
     },
     {
@@ -444,6 +478,23 @@
       }
     },
     {
+      "id": "openai__codex-originals",
+      "slug": "codex-originals",
+      "source": "openai",
+      "url": "https://openai.com/form/codex-originals",
+      "category": "News",
+      "date": "2026-09-28T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Are you a Codex Original?",
+        "th": "Are you a Codex Original?"
+      },
+      "summary": {
+        "en": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about",
+        "th": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about"
+      }
+    },
+    {
       "id": "openai__basis-tax-workbook-with-astra",
       "slug": "basis-tax-workbook-with-astra",
       "source": "openai",
@@ -461,20 +512,20 @@
       }
     },
     {
-      "id": "openai__codex-originals",
-      "slug": "codex-originals",
-      "source": "openai",
-      "url": "https://openai.com/form/codex-originals",
+      "id": "huggingface__rl-environments",
+      "slug": "rl-environments",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/rl-environments",
       "category": "News",
       "date": "2026-09-28T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Are you a Codex Original?",
-        "th": "Are you a Codex Original?"
+        "en": "Welcome RL Environments to the hub",
+        "th": "Welcome RL Environments to the hub"
       },
       "summary": {
-        "en": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about",
-        "th": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about"
+        "en": "Welcome RL Environments to the hub",
+        "th": "Welcome RL Environments to the hub"
       }
     },
     {
@@ -614,23 +665,6 @@
       }
     },
     {
-      "id": "openai__sam-altman-un-security-council-remarks",
-      "slug": "sam-altman-un-security-council-remarks",
-      "source": "openai",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "category": "Global Affairs",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Sam Altman’s remarks at the United Nations Security Council",
-        "th": "Sam Altman’s remarks at the United Nations Security Council"
-      },
-      "summary": {
-        "en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-        "th": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
-      }
-    },
-    {
       "id": "openai__ringg",
       "slug": "ringg",
       "source": "openai",
@@ -648,23 +682,6 @@
       }
     },
     {
-      "id": "openai__invideo-builds-with-gpt-6-astra",
-      "slug": "invideo-builds-with-gpt-6-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "category": "News",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How invideo improves color grading 3x with GPT‑6 Astra",
-        "th": "How invideo improves color grading 3x with GPT‑6 Astra"
-      },
-      "summary": {
-        "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-        "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
-      }
-    },
-    {
       "id": "openai__harvey-from-context-to-confidence-with-astra",
       "slug": "harvey-from-context-to-confidence-with-astra",
       "source": "openai",
@@ -679,6 +696,40 @@
       "summary": {
         "en": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
         "th": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
+      }
+    },
+    {
+      "id": "openai__sam-altman-un-security-council-remarks",
+      "slug": "sam-altman-un-security-council-remarks",
+      "source": "openai",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "category": "Global Affairs",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Sam Altman’s remarks at the United Nations Security Council",
+        "th": "Sam Altman’s remarks at the United Nations Security Council"
+      },
+      "summary": {
+        "en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+        "th": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
+      }
+    },
+    {
+      "id": "openai__invideo-builds-with-gpt-6-astra",
+      "slug": "invideo-builds-with-gpt-6-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "category": "News",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How invideo improves color grading 3x with GPT‑6 Astra",
+        "th": "How invideo improves color grading 3x with GPT‑6 Astra"
+      },
+      "summary": {
+        "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+        "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
       }
     },
     {
@@ -886,23 +937,6 @@
       }
     },
     {
-      "id": "openai__advisory-group-on-mathematics-and-ai",
-      "slug": "advisory-group-on-mathematics-and-ai",
-      "source": "openai",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "category": "Company",
-      "date": "2026-09-21T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Advisory Group on Mathematics and Artificial Intelligence",
-        "th": "Advisory Group on Mathematics and Artificial Intelligence"
-      },
-      "summary": {
-        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
-      }
-    },
-    {
       "id": "openai__higgsfield-from-prompt-to-production-with-astra",
       "slug": "higgsfield-from-prompt-to-production-with-astra",
       "source": "openai",
@@ -917,6 +951,23 @@
       "summary": {
         "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
         "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
+      }
+    },
+    {
+      "id": "openai__advisory-group-on-mathematics-and-ai",
+      "slug": "advisory-group-on-mathematics-and-ai",
+      "source": "openai",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "category": "Company",
+      "date": "2026-09-21T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Advisory Group on Mathematics and Artificial Intelligence",
+        "th": "Advisory Group on Mathematics and Artificial Intelligence"
+      },
+      "summary": {
+        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
       }
     },
     {
@@ -1121,40 +1172,6 @@
       "summary": {
         "en": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
         "th": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work."
-      }
-    },
-    {
-      "id": "openai__helping-older-adults-use-ai-in-everyday-life",
-      "slug": "helping-older-adults-use-ai-in-everyday-life",
-      "source": "openai",
-      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "category": "Global Affairs",
-      "date": "2026-09-16T16:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Helping older adults use AI in everyday life",
-        "th": "Helping older adults use AI in everyday life"
-      },
-      "summary": {
-        "en": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-        "th": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely."
-      }
-    },
-    {
-      "id": "openai__reimagining-advertising-with-ai",
-      "slug": "reimagining-advertising-with-ai",
-      "source": "openai",
-      "url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "category": "Product",
-      "date": "2026-09-16T13:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Reimagining advertising with AI",
-        "th": "Reimagining advertising with AI"
-      },
-      "summary": {
-        "en": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-        "th": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify."
       }
     },
     {
@@ -2141,23 +2158,6 @@
       "summary": {
         "en": "Making Knowledge Distillation Cheap Enough to Run at Scale",
         "th": "ทำให้การกลั่นความรู้มีราคาถูกพอที่จะดำเนินการตามขนาดที่ต้องการ"
-      }
-    },
-    {
-      "id": "huggingface__muse-glimmer",
-      "slug": "muse-glimmer",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/muse-glimmer",
-      "category": "News",
-      "date": "2026-08-10T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-        "th": "Meta กลับมาพร้อมกับ Muse Glimmer: ในท้องถิ่น, ตัวแทน, ต่อเนื่องหลายรูปแบบและโอเพ่นซอร์ส"
-      },
-      "summary": {
-        "en": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-        "th": "Meta กลับมาพร้อมกับ Muse Glimmer: ในท้องถิ่น, ตัวแทน, ต่อเนื่องหลายรูปแบบและโอเพ่นซอร์ส"
       }
     },
     {

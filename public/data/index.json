@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-10-06T01:04:45.418Z",
+  "generatedAt": "2026-10-06T08:23:55.494Z",
   "items": [
+    {
+      "id": "huggingface__falcon-emirati",
+      "slug": "falcon-emirati",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "category": "News",
+      "date": "2026-10-06T06:44:39.000Z",
+      "image": null,
+      "title": {
+        "en": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+        "th": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance"
+      },
+      "summary": {
+        "en": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+        "th": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance"
+      }
+    },
     {
       "id": "openai__eu-text-provenance",
       "slug": "eu-text-provenance",
@@ -2141,23 +2158,6 @@
       "summary": {
         "en": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
         "th": "สร้างตัวแทนเสียงหลายภาษาที่มีความหน่วงต่ำ: น้ำหนักแบบเปิดและการควบคุมการใช้งานเต็มรูปแบบด้วย NVIDIA Magpie TTS"
-      }
-    },
-    {
-      "id": "huggingface__efficient-knowledge-distillation",
-      "slug": "efficient-knowledge-distillation",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-      "category": "News",
-      "date": "2026-08-10T10:05:36.000Z",
-      "image": null,
-      "title": {
-        "en": "Making Knowledge Distillation Cheap Enough to Run at Scale",
-        "th": "ทำให้การกลั่นความรู้มีราคาถูกพอที่จะดำเนินการตามขนาดที่ต้องการ"
-      },
-      "summary": {
-        "en": "Making Knowledge Distillation Cheap Enough to Run at Scale",
-        "th": "ทำให้การกลั่นความรู้มีราคาถูกพอที่จะดำเนินการตามขนาดที่ต้องการ"
       }
     },
     {

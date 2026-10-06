@@ -1,0 +1,382 @@
+{
+  "id": "deepmind__embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+  "slug": "embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+  "category": "News",
+  "date": "2026-10-06T19:57:04.000Z",
+  "image": null,
+  "title": {
+    "en": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+    "th": "EmbeddingGemma 2: an open, lightweight multimodal embedding model"
+  },
+  "summary": {
+    "en": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+    "th": "EmbeddingGemma 2: an open, lightweight multimodal embedding model"
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "นวัตกรรมและเอไอ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Technology",
+        "th": "เทคโนโลยี"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Developer tools",
+        "th": "เครื่องมือสำหรับนักพัฒนา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Oct 06, 2026",
+        "th": "Oct 06, 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EmbeddingGemma 2 is the most capable model for on-device multimodal embeddings, natively mapping combinations of text, images, audio, and video into a unified embedding space.",
+        "th": "EmbeddingGemma 2 is the most capable model for on-device multimodal embeddings, natively mapping combinations of text, images, audio, and video into a unified embedding space."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sahil Dua",
+        "th": "Sahil Dua"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Research Engineer, Google DeepMind",
+        "th": "Research Engineer, Google DeepMind"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Henrique Schechter Vera",
+        "th": "Henrique Schechter Vera"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Research Engineer, Google DeepMind",
+        "th": "Research Engineer, Google DeepMind"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-200.format-webp.webp",
+      "alt": "EmbeddingGemma 2"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We introduced EmbeddingGemma last year to provide a lightweight option for high-quality text embeddings, to help your apps organize, search, and connect information directly on consumer hardware. The developer community’s response blew past our expectations. With more than 20 million downloads, builders have used it to power smarter on-device search tools and privacy-first retrieval augmented generation (RAG) pipelines.",
+        "th": "We introduced EmbeddingGemma last year to provide a lightweight option for high-quality text embeddings, to help your apps organize, search, and connect information directly on consumer hardware. The developer community’s response blew past our expectations. With more than 20 million downloads, builders have used it to power smarter on-device search tools and privacy-first retrieval augmented generation (RAG) pipelines."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re launching EmbeddingGemma 2, expanding beyond text to unify code, images, video, and audio in a shared embedding space. Built on the Gemma 4 architecture and released under a commercially permissive Apache 2.0 license, EmbeddingGemma 2 has 740 million parameters, making it optimal for on-device inference. It can help find a specific video clip from a voice memo, or search through hours of audio recordings based on a text query, all processed by a single, natively multimodal model.",
+        "th": "Today, we’re launching EmbeddingGemma 2, expanding beyond text to unify code, images, video, and audio in a shared embedding space. Built on the Gemma 4 architecture and released under a commercially permissive Apache 2.0 license, EmbeddingGemma 2 has 740 million parameters, making it optimal for on-device inference. It can help find a specific video clip from a voice memo, or search through hours of audio recordings based on a text query, all processed by a single, natively multimodal model."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Built from the same technology as Gemini Embedding models, EmbeddingGemma 2 is:",
+        "th": "Built from the same technology as Gemini Embedding models, EmbeddingGemma 2 is:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Best-in-class for its size: Achieves leading scores among sub-1B multimodal embedders for its size across benchmarks like MTEB (Massive Text Embedding Benchmark) Code and MAEB (Massive Audio Embedding Benchmark), while matching or outperforming many larger models across text, vision, and audio tasks.",
+        "th": "Best-in-class for its size: Achieves leading scores among sub-1B multimodal embedders for its size across benchmarks like MTEB (Massive Text Embedding Benchmark) Code and MAEB (Massive Audio Embedding Benchmark), while matching or outperforming many larger models across text, vision, and audio tasks."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Modular by design: Requires as little as 270M parameters for text-only workloads with optional vision (170M) and audio (300M) encoders for full multimodal support.",
+        "th": "Modular by design: Requires as little as 270M parameters for text-only workloads with optional vision (170M) and audio (300M) encoders for full multimodal support."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Storage-efficient: Using Matryoshka Representation Learning (MRL), developers can dynamically truncate output vectors from 768 dimensions down to 512, 256, or 128 dimensions. This provides up to 6x storage reduction for local vector databases and memory usage.",
+        "th": "Storage-efficient: Using Matryoshka Representation Learning (MRL), developers can dynamically truncate output vectors from 768 dimensions down to 512, 256, or 128 dimensions. This provides up to 6x storage reduction for local vector databases and memory usage."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Optimized for on-device performance: Runs efficiently within tight resource constraints. With quantization, on a Google Pixel 11 Pro, EmbeddingGemma 2 requires as little as ~191MB active RAM for text-only weights and ~567MB for the full multimodal model.",
+        "th": "Optimized for on-device performance: Runs efficiently within tight resource constraints. With quantization, on a Google Pixel 11 Pro, EmbeddingGemma 2 requires as little as ~191MB active RAM for text-only weights and ~567MB for the full multimodal model."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Extended context ready: Features an 8K token context window (4x larger than EmbeddingGemma 1), allowing it to process up to 5.5 minutes of audio, 29 images, 58 video frames, or interleaved combinations thereof directly on local hardware.",
+        "th": "Extended context ready: Features an 8K token context window (4x larger than EmbeddingGemma 1), allowing it to process up to 5.5 minutes of audio, 29 images, 58 video frames, or interleaved combinations thereof directly on local hardware."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Achieving top-tier quality for code, vision, and audio",
+        "th": "Achieving top-tier quality for code, vision, and audio"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EmbeddingGemma 2 matches the strong multilingual text performance of EmbeddingGemma while delivering a significant 9.92-point improvement on code performance (in MTEB Code, from 68.76 to 78.68), making it well-suited for local codebase indexing, semantic code search, and coding agent retrieval. Across image, video, documents, and audio, it sets a new standard in quality-per-parameter for sub-1B models and even outperforms some specialist models more than twice its size.",
+        "th": "EmbeddingGemma 2 matches the strong multilingual text performance of EmbeddingGemma while delivering a significant 9.92-point improvement on code performance (in MTEB Code, from 68.76 to 78.68), making it well-suited for local codebase indexing, semantic code search, and coding agent retrieval. Across image, video, documents, and audio, it sets a new standard in quality-per-parameter for sub-1B models and even outperforms some specialist models more than twice its size."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Massive_Text_Embedding_Benchmark_.width-100.format-webp.webp",
+      "alt": "Massive Text Embedding Benchmark (Code)"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Massive_Image_Embedding_Benchmark.width-100.format-webp.webp",
+      "alt": "Massive Image Embedding Benchmark (Lite)"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Massive_Audio_Embedding_Benchmark.width-100.format-webp.webp",
+      "alt": "Massive Audio Embedding Benchmark"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Find full evaluation metrics and model information in the EmbeddingGemma 2 model card.",
+        "th": "Find full evaluation metrics and model information in the EmbeddingGemma 2 model card."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Enabling semantic search, routing, and retrieval, fully on-device",
+        "th": "Enabling semantic search, routing, and retrieval, fully on-device"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EmbeddingGemma 2 brings robust capabilities directly to edge hardware. Generating embeddings locally helps ensure data privacy, reduces pipeline latency, and empowers developers to build cross-modal search and retrieval that works entirely offline.",
+        "th": "EmbeddingGemma 2 brings robust capabilities directly to edge hardware. Generating embeddings locally helps ensure data privacy, reduces pipeline latency, and empowers developers to build cross-modal search and retrieval that works entirely offline."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When paired with generative models such as Gemma 4, EmbeddingGemma 2 enables on-device RAG pipelines that understand complex multimodal data. Because EmbeddingGemma 2 is built on Gemma 4 and shares its text tokenizer and audio encoder, developers can run both models together in a unified pipeline with a lower combined total memory footprint.",
+        "th": "When paired with generative models such as Gemma 4, EmbeddingGemma 2 enables on-device RAG pipelines that understand complex multimodal data. Because EmbeddingGemma 2 is built on Gemma 4 and shares its text tokenizer and audio encoder, developers can run both models together in a unified pipeline with a lower combined total memory footprint."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Use text or an image to find the top matches in your media library based on semantic similarity. Try it in Google AI Edge Gallery’s Instant Media Search.",
+        "th": "Use text or an image to find the top matches in your media library based on semantic similarity. Try it in Google AI Edge Gallery’s Instant Media Search."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Locate specific moments in video using text or audio queries. Try it in Google AI Edge Gallery’s Video Moments Finder.",
+        "th": "Locate specific moments in video using text or audio queries. Try it in Google AI Edge Gallery’s Video Moments Finder."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Pair EmbeddingGemma 2 for local file retrieval with Gemma 4 for contextual reasoning. Try it in the Google AI Edge Foresight app.",
+        "th": "Pair EmbeddingGemma 2 for local file retrieval with Gemma 4 for contextual reasoning. Try it in the Google AI Edge Foresight app."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Create real-time decision engines leveraging multimodal context for classification, routing, and predictive capabilities via the MediaPipe Decision Task API.",
+        "th": "Create real-time decision engines leveraging multimodal context for classification, routing, and predictive capabilities via the MediaPipe Decision Task API."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To learn how to build on-device search and RAG systems with LiteRT, read the Google AI Edge blog post.",
+        "th": "To learn how to build on-device search and RAG systems with LiteRT, read the Google AI Edge blog post."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Getting started with EmbeddingGemma 2",
+        "th": "Getting started with EmbeddingGemma 2"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We worked closely with the following partners to ensure EmbeddingGemma 2 works immediately where you build:",
+        "th": "We worked closely with the following partners to ensure EmbeddingGemma 2 works immediately where you build:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Download the models: Find the model weights on Hugging Face and Kaggle, with Gemini Enterprise Agent Platform Model Garden availability coming soon. Visit LiteRT Community on Hugging Face for models optimized for on-device.",
+        "th": "Download the models: Find the model weights on Hugging Face and Kaggle, with Gemini Enterprise Agent Platform Model Garden availability coming soon. Visit LiteRT Community on Hugging Face for models optimized for on-device."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "On-device deployment: Develop cross-platform apps with Google AI Edge MediaPipe for turnkey embedding, retrieval & decision tasks or LiteRT for custom model integration. Build for the browser with transformers.js or WebGPU.",
+        "th": "On-device deployment: Develop cross-platform apps with Google AI Edge MediaPipe for turnkey embedding, retrieval & decision tasks or LiteRT for custom model integration. Build for the browser with transformers.js or WebGPU."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Use your favorite development tools: Serve the model efficiently using transformers, sentence-transformers, MLX, vLLM, llama.cpp, SGLang, Ollama, and LMStudio. Store your embedding vectors with Qdrant.",
+        "th": "Use your favorite development tools: Serve the model efficiently using transformers, sentence-transformers, MLX, vLLM, llama.cpp, SGLang, Ollama, and LMStudio. Store your embedding vectors with Qdrant."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Fine-tuning: Follow guidance by Unsloth for how to fine-tune EmbeddingGemma 2 for your use cases.",
+        "th": "Fine-tuning: Follow guidance by Unsloth for how to fine-tune EmbeddingGemma 2 for your use cases."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Explore our developer guide, documentation, and guides for inference and fine-tuning.",
+        "th": "Explore our developer guide, documentation, and guides for inference and fine-tuning."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Google DeepMind",
+        "th": "Google Deep Mind"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Developer tools",
+        "th": "เครื่องมือสำหรับนักพัฒนา"
+      }
+    }
+  ]
+}

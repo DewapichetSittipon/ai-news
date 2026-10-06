@@ -1,6 +1,57 @@
 {
-  "generatedAt": "2026-10-06T16:27:01.014Z",
+  "generatedAt": "2026-10-06T22:06:29.919Z",
   "items": [
+    {
+      "id": "deepmind__embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+      "slug": "embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "category": "News",
+      "date": "2026-10-06T19:57:04.000Z",
+      "image": null,
+      "title": {
+        "en": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+        "th": "EmbeddingGemma 2: an open, lightweight multimodal embedding model"
+      },
+      "summary": {
+        "en": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+        "th": "EmbeddingGemma 2: an open, lightweight multimodal embedding model"
+      }
+    },
+    {
+      "id": "openai__atlassian-partnership",
+      "slug": "atlassian-partnership",
+      "source": "openai",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "category": "Company",
+      "date": "2026-10-06T16:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+        "th": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action"
+      },
+      "summary": {
+        "en": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+        "th": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work."
+      }
+    },
+    {
+      "id": "openai__advancing-computer-use-with-ironclad",
+      "slug": "advancing-computer-use-with-ironclad",
+      "source": "openai",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "category": "Company",
+      "date": "2026-10-06T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Advancing computer use with Ironclad",
+        "th": "Advancing computer use with Ironclad"
+      },
+      "summary": {
+        "en": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+        "th": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work."
+      }
+    },
     {
       "id": "huggingface__falcon-emirati",
       "slug": "falcon-emirati",
@@ -16,6 +67,23 @@
       "summary": {
         "en": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
         "th": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance"
+      }
+    },
+    {
+      "id": "anthropic__cyber-verification-program",
+      "slug": "cyber-verification-program",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/cyber-verification-program",
+      "category": "News",
+      "date": "2026-10-06T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Lock&backgroundColor=heather",
+      "title": {
+        "en": "Expanding the Cyber Verification Program",
+        "th": "Expanding the Cyber Verification Program"
+      },
+      "summary": {
+        "en": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+        "th": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals."
       }
     },
     {
@@ -359,23 +427,6 @@
       }
     },
     {
-      "id": "openai__devday-2026-recap",
-      "slug": "devday-2026-recap",
-      "source": "openai",
-      "url": "https://openai.com/index/devday-2026-recap",
-      "category": "Company",
-      "date": "2026-09-29T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "DevDay 2026 Recap",
-        "th": "DevDay 2026 Recap"
-      },
-      "summary": {
-        "en": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-        "th": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
-      }
-    },
-    {
       "id": "openai__introducing-gpt-6-1-sol",
       "slug": "introducing-gpt-6-1-sol",
       "source": "openai",
@@ -390,6 +441,23 @@
       "summary": {
         "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
         "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
+      }
+    },
+    {
+      "id": "openai__devday-2026-recap",
+      "slug": "devday-2026-recap",
+      "source": "openai",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "category": "Company",
+      "date": "2026-09-29T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "DevDay 2026 Recap",
+        "th": "DevDay 2026 Recap"
+      },
+      "summary": {
+        "en": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+        "th": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
       }
     },
     {
@@ -699,23 +767,6 @@
       }
     },
     {
-      "id": "openai__ringg",
-      "slug": "ringg",
-      "source": "openai",
-      "url": "https://openai.com/index/ringg",
-      "category": "News",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
-      },
-      "summary": {
-        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
-      }
-    },
-    {
       "id": "openai__sam-altman-un-security-council-remarks",
       "slug": "sam-altman-un-security-council-remarks",
       "source": "openai",
@@ -764,6 +815,23 @@
       "summary": {
         "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
         "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
+      }
+    },
+    {
+      "id": "openai__ringg",
+      "slug": "ringg",
+      "source": "openai",
+      "url": "https://openai.com/index/ringg",
+      "category": "News",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
+      },
+      "summary": {
+        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
       }
     },
     {
@@ -971,23 +1039,6 @@
       }
     },
     {
-      "id": "openai__advisory-group-on-mathematics-and-ai",
-      "slug": "advisory-group-on-mathematics-and-ai",
-      "source": "openai",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "category": "Company",
-      "date": "2026-09-21T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Advisory Group on Mathematics and Artificial Intelligence",
-        "th": "Advisory Group on Mathematics and Artificial Intelligence"
-      },
-      "summary": {
-        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
-      }
-    },
-    {
       "id": "openai__higgsfield-from-prompt-to-production-with-astra",
       "slug": "higgsfield-from-prompt-to-production-with-astra",
       "source": "openai",
@@ -1002,6 +1053,23 @@
       "summary": {
         "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
         "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
+      }
+    },
+    {
+      "id": "openai__advisory-group-on-mathematics-and-ai",
+      "slug": "advisory-group-on-mathematics-and-ai",
+      "source": "openai",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "category": "Company",
+      "date": "2026-09-21T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Advisory Group on Mathematics and Artificial Intelligence",
+        "th": "Advisory Group on Mathematics and Artificial Intelligence"
+      },
+      "summary": {
+        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
       }
     },
     {
@@ -1107,23 +1175,6 @@
       }
     },
     {
-      "id": "openai__australian-youth-safety-blueprint",
-      "slug": "australian-youth-safety-blueprint",
-      "source": "openai",
-      "url": "https://openai.com/index/australian-youth-safety-blueprint",
-      "category": "Company",
-      "date": "2026-09-18T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing the Australian Youth Safety Blueprint",
-        "th": "Introducing the Australian Youth Safety Blueprint"
-      },
-      "summary": {
-        "en": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-        "th": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people."
-      }
-    },
-    {
       "id": "anthropic__accenture-embedded-evaluation",
       "slug": "accenture-embedded-evaluation",
       "source": "anthropic",
@@ -1155,23 +1206,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/data-commons.max-600x600.format-webp.webp\">Google and the UN system have launched the UN System Data Commons, a new open platform making global st",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/data-commons.max-600x600.format-webp.webp\">Google and the UN system have launched the UN System Data Commons, a new open platform making global st"
-      }
-    },
-    {
-      "id": "openai__cooley-gopublic",
-      "slug": "cooley-gopublic",
-      "source": "openai",
-      "url": "https://openai.com/index/cooley-gopublic",
-      "category": "News",
-      "date": "2026-09-17T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How Cooley is accelerating IPO work with ChatGPT",
-        "th": "How Cooley is accelerating IPO work with ChatGPT"
-      },
-      "summary": {
-        "en": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-        "th": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most."
       }
     },
     {
@@ -1872,23 +1906,6 @@
       }
     },
     {
-      "id": "anthropic__wellbeing-research-grants",
-      "slug": "wellbeing-research-grants",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/wellbeing-research-grants",
-      "category": "News",
-      "date": "2026-08-25T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadFlower&backgroundColor=heather",
-      "title": {
-        "en": "Funding better evaluations of AI’s impact on wellbeing",
-        "th": "Funding better evaluations of AI’s impact on wellbeing"
-      },
-      "summary": {
-        "en": "Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.",
-        "th": "Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing."
-      }
-    },
-    {
       "id": "huggingface__gradio-workflow-guide",
       "slug": "gradio-workflow-guide",
       "source": "huggingface",
@@ -2532,23 +2549,6 @@
       "summary": {
         "en": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
         "th": "นักชีววิทยาใช้นักวิทยาศาสตร์ร่วมเพื่อค้นหาปัจจัยใหม่ๆ ที่ช่วยฟื้นฟูเซลล์ของมนุษย์ได้สำเร็จ"
-      }
-    },
-    {
-      "id": "deepmind__simulate-real-world-places-with-project-genie-and-street-view",
-      "slug": "simulate-real-world-places-with-project-genie-and-street-view",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
-      "category": "News",
-      "date": "2026-05-17T19:53:18.000Z",
-      "image": null,
-      "title": {
-        "en": "Simulate real-world places with Project Genie and Street View",
-        "th": "จำลองสถานที่ในโลกแห่งความเป็นจริงด้วย Project Genie และ Street View"
-      },
-      "summary": {
-        "en": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
-        "th": "เรากำลังขยายการเข้าถึงสมาชิก Google AI Ultra ทั่วโลก และแนะนำความสามารถใหม่ที่ขับเคลื่อนโดย Street View"
       }
     }
   ]

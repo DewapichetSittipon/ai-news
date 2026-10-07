@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T18:14:26.945Z",
+  "generatedAt": "2026-10-07T23:58:11.694Z",
   "items": [
     {
       "id": "huggingface__open-d1",
@@ -84,6 +84,23 @@
       "summary": {
         "en": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
         "th": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips."
+      }
+    },
+    {
+      "id": "openai__gpt-6-for-everyone",
+      "slug": "gpt-6-for-everyone",
+      "source": "openai",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "category": "Product",
+      "date": "2026-10-07T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "GPT-6 and Intelligent UI for everyone",
+        "th": "GPT-6 และ UI อัจฉริยะสำหรับทุกคน"
+      },
+      "summary": {
+        "en": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+        "th": "GPT‑6 กำลังเปิดตัวทั่วโลกใน ChatGPT พร้อม UI อัจฉริยะ ซึ่งให้การตอบสนองที่รวดเร็วยิ่งขึ้นด้วยภาพและประสบการณ์เชิงโต้ตอบที่คุณสามารถสำรวจและใช้งานได้โดยตรง"
       }
     },
     {
@@ -563,23 +580,6 @@
       }
     },
     {
-      "id": "openai__how-we-will-do-better-for-australia",
-      "slug": "how-we-will-do-better-for-australia",
-      "source": "openai",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "category": "Company",
-      "date": "2026-09-28T19:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How we will do better for Australia",
-        "th": "How we will do better for Australia"
-      },
-      "summary": {
-        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
-      }
-    },
-    {
       "id": "openai__towards-safety-cases-for-frontier-ai-training",
       "slug": "towards-safety-cases-for-frontier-ai-training",
       "source": "openai",
@@ -594,6 +594,23 @@
       "summary": {
         "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
         "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
+      }
+    },
+    {
+      "id": "openai__how-we-will-do-better-for-australia",
+      "slug": "how-we-will-do-better-for-australia",
+      "source": "openai",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "category": "Company",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How we will do better for Australia",
+        "th": "How we will do better for Australia"
+      },
+      "summary": {
+        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
       }
     },
     {
@@ -835,23 +852,6 @@
       }
     },
     {
-      "id": "openai__ringg",
-      "slug": "ringg",
-      "source": "openai",
-      "url": "https://openai.com/index/ringg",
-      "category": "News",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
-      },
-      "summary": {
-        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
-      }
-    },
-    {
       "id": "openai__sam-altman-un-security-council-remarks",
       "slug": "sam-altman-un-security-council-remarks",
       "source": "openai",
@@ -900,6 +900,23 @@
       "summary": {
         "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
         "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
+      }
+    },
+    {
+      "id": "openai__ringg",
+      "slug": "ringg",
+      "source": "openai",
+      "url": "https://openai.com/index/ringg",
+      "category": "News",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
+      },
+      "summary": {
+        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
       }
     },
     {
@@ -1104,23 +1121,6 @@
       "summary": {
         "en": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
         "th": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community"
-      }
-    },
-    {
-      "id": "openai__advisory-group-on-mathematics-and-ai",
-      "slug": "advisory-group-on-mathematics-and-ai",
-      "source": "openai",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "category": "Company",
-      "date": "2026-09-21T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Advisory Group on Mathematics and Artificial Intelligence",
-        "th": "Advisory Group on Mathematics and Artificial Intelligence"
-      },
-      "summary": {
-        "en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-        "th": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
       }
     },
     {

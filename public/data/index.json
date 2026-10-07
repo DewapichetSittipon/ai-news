@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T22:06:29.919Z",
+  "generatedAt": "2026-10-07T03:34:47.079Z",
   "items": [
     {
       "id": "deepmind__embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
@@ -36,11 +36,45 @@
       }
     },
     {
+      "id": "openai__jump-trading",
+      "slug": "jump-trading",
+      "source": "openai",
+      "url": "https://openai.com/index/jump-trading",
+      "category": "News",
+      "date": "2026-10-06T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How Jump Trading is scaling quant research with ChatGPT",
+        "th": "How Jump Trading is scaling quant research with ChatGPT"
+      },
+      "summary": {
+        "en": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+        "th": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review."
+      }
+    },
+    {
+      "id": "openai__sharing-ai-progress-in-mathematics",
+      "slug": "sharing-ai-progress-in-mathematics",
+      "source": "openai",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "category": "Research",
+      "date": "2026-10-06T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Sharing AI progress in mathematics",
+        "th": "Sharing AI progress in mathematics"
+      },
+      "summary": {
+        "en": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+        "th": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub."
+      }
+    },
+    {
       "id": "openai__advancing-computer-use-with-ironclad",
       "slug": "advancing-computer-use-with-ironclad",
       "source": "openai",
       "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "category": "Company",
+      "category": "Publication",
       "date": "2026-10-06T10:00:00.000Z",
       "image": null,
       "title": {
@@ -478,23 +512,6 @@
       }
     },
     {
-      "id": "openai__how-we-will-do-better-for-australia",
-      "slug": "how-we-will-do-better-for-australia",
-      "source": "openai",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "category": "Company",
-      "date": "2026-09-28T19:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How we will do better for Australia",
-        "th": "How we will do better for Australia"
-      },
-      "summary": {
-        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
-      }
-    },
-    {
       "id": "openai__towards-safety-cases-for-frontier-ai-training",
       "slug": "towards-safety-cases-for-frontier-ai-training",
       "source": "openai",
@@ -509,6 +526,23 @@
       "summary": {
         "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
         "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
+      }
+    },
+    {
+      "id": "openai__how-we-will-do-better-for-australia",
+      "slug": "how-we-will-do-better-for-australia",
+      "source": "openai",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "category": "Company",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How we will do better for Australia",
+        "th": "How we will do better for Australia"
+      },
+      "summary": {
+        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
       }
     },
     {
@@ -563,23 +597,6 @@
       }
     },
     {
-      "id": "openai__basis-tax-workbook-with-astra",
-      "slug": "basis-tax-workbook-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "category": "News",
-      "date": "2026-09-28T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-        "th": "Basis completes a tax workbook 2x faster with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-        "th": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use."
-      }
-    },
-    {
       "id": "openai__codex-originals",
       "slug": "codex-originals",
       "source": "openai",
@@ -594,6 +611,23 @@
       "summary": {
         "en": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about",
         "th": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about"
+      }
+    },
+    {
+      "id": "openai__basis-tax-workbook-with-astra",
+      "slug": "basis-tax-workbook-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "category": "News",
+      "date": "2026-09-28T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+        "th": "Basis completes a tax workbook 2x faster with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+        "th": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use."
       }
     },
     {
@@ -767,23 +801,6 @@
       }
     },
     {
-      "id": "openai__sam-altman-un-security-council-remarks",
-      "slug": "sam-altman-un-security-council-remarks",
-      "source": "openai",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "category": "Global Affairs",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Sam Altman’s remarks at the United Nations Security Council",
-        "th": "Sam Altman’s remarks at the United Nations Security Council"
-      },
-      "summary": {
-        "en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-        "th": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
-      }
-    },
-    {
       "id": "openai__harvey-from-context-to-confidence-with-astra",
       "slug": "harvey-from-context-to-confidence-with-astra",
       "source": "openai",
@@ -801,20 +818,20 @@
       }
     },
     {
-      "id": "openai__invideo-builds-with-gpt-6-astra",
-      "slug": "invideo-builds-with-gpt-6-astra",
+      "id": "openai__sam-altman-un-security-council-remarks",
+      "slug": "sam-altman-un-security-council-remarks",
       "source": "openai",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "category": "News",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "category": "Global Affairs",
       "date": "2026-09-23T12:00:00.000Z",
       "image": null,
       "title": {
-        "en": "How invideo improves color grading 3x with GPT‑6 Astra",
-        "th": "How invideo improves color grading 3x with GPT‑6 Astra"
+        "en": "Sam Altman’s remarks at the United Nations Security Council",
+        "th": "Sam Altman’s remarks at the United Nations Security Council"
       },
       "summary": {
-        "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-        "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
+        "en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+        "th": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
       }
     },
     {
@@ -832,6 +849,23 @@
       "summary": {
         "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
         "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
+      }
+    },
+    {
+      "id": "openai__invideo-builds-with-gpt-6-astra",
+      "slug": "invideo-builds-with-gpt-6-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "category": "News",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How invideo improves color grading 3x with GPT‑6 Astra",
+        "th": "How invideo improves color grading 3x with GPT‑6 Astra"
+      },
+      "summary": {
+        "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+        "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
       }
     },
     {
@@ -1039,23 +1073,6 @@
       }
     },
     {
-      "id": "openai__higgsfield-from-prompt-to-production-with-astra",
-      "slug": "higgsfield-from-prompt-to-production-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "category": "Startup",
-      "date": "2026-09-21T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-        "th": "Higgsfield AI ships new video features in a day with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-        "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
-      }
-    },
-    {
       "id": "openai__advisory-group-on-mathematics-and-ai",
       "slug": "advisory-group-on-mathematics-and-ai",
       "source": "openai",
@@ -1073,6 +1090,23 @@
       }
     },
     {
+      "id": "openai__higgsfield-from-prompt-to-production-with-astra",
+      "slug": "higgsfield-from-prompt-to-production-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "category": "Startup",
+      "date": "2026-09-21T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+        "th": "Higgsfield AI ships new video features in a day with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+        "th": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
+      }
+    },
+    {
       "id": "openai__building-standards-next-phase-ai",
       "slug": "building-standards-next-phase-ai",
       "source": "openai",
@@ -1087,40 +1121,6 @@
       "summary": {
         "en": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
         "th": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety."
-      }
-    },
-    {
-      "id": "openai__expanding-openai-academy-with-new-learning-paths",
-      "slug": "expanding-openai-academy-with-new-learning-paths",
-      "source": "openai",
-      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-      "category": "Company",
-      "date": "2026-09-21T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Expanding OpenAI Academy with new learning paths",
-        "th": "Expanding OpenAI Academy with new learning paths"
-      },
-      "summary": {
-        "en": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-        "th": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills."
-      }
-    },
-    {
-      "id": "openai__v7",
-      "slug": "v7",
-      "source": "openai",
-      "url": "https://openai.com/index/v7",
-      "category": "Startup",
-      "date": "2026-09-21T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
-        "th": "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna"
-      },
-      "summary": {
-        "en": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-        "th": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work."
       }
     },
     {

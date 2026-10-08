@@ -1,6 +1,108 @@
 {
-  "generatedAt": "2026-10-08T12:34:22.728Z",
+  "generatedAt": "2026-10-08T19:38:28.212Z",
   "items": [
+    {
+      "id": "openai__oracle",
+      "slug": "oracle",
+      "source": "openai",
+      "url": "https://openai.com/index/oracle",
+      "category": "News",
+      "date": "2026-10-08T16:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+        "th": "How Oracle turns days of work into minutes with ChatGPT and Codex"
+      },
+      "summary": {
+        "en": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+        "th": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex."
+      }
+    },
+    {
+      "id": "openai__pollo-ai",
+      "slug": "pollo-ai",
+      "source": "openai",
+      "url": "https://openai.com/index/pollo-ai",
+      "category": "Startup",
+      "date": "2026-10-08T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Pollo AI turns creative ideas into campaigns with OpenAI",
+        "th": "Pollo AI turns creative ideas into campaigns with OpenAI"
+      },
+      "summary": {
+        "en": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+        "th": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads."
+      }
+    },
+    {
+      "id": "anthropic__2026-usage-policy-update",
+      "slug": "2026-usage-policy-update",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "category": "News",
+      "date": "2026-10-08T00:00:00.000Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "2026 Usage Policy update",
+        "th": "2026 Usage Policy update"
+      },
+      "summary": {
+        "en": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.",
+        "th": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made."
+      }
+    },
+    {
+      "id": "anthropic__genesis-mission-commitment",
+      "slug": "genesis-mission-commitment",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+      "category": "News",
+      "date": "2026-10-08T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20DoubleHelix&backgroundColor=heather",
+      "title": {
+        "en": "Building on our commitment to American scientific discovery",
+        "th": "Building on our commitment to American scientific discovery"
+      },
+      "summary": {
+        "en": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.",
+        "th": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI."
+      }
+    },
+    {
+      "id": "anthropic__anthropic-cyber-mission",
+      "slug": "anthropic-cyber-mission",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "category": "News",
+      "date": "2026-10-08T00:00:00.000Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2af4f6715cbe9766a47430a24420cfca0a2c588-1200x630.jpg",
+      "title": {
+        "en": "Introducing the Anthropic Cyber Mission",
+        "th": "Introducing the Anthropic Cyber Mission"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+      }
+    },
+    {
+      "id": "openai__disrupting-ai-enabled-false-front-operations",
+      "slug": "disrupting-ai-enabled-false-front-operations",
+      "source": "openai",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "category": "Safety",
+      "date": "2026-10-08T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Disrupting AI-enabled “false front” operations",
+        "th": "Disrupting AI-enabled “false front” operations"
+      },
+      "summary": {
+        "en": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+        "th": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging."
+      }
+    },
     {
       "id": "huggingface__open-d1",
       "slug": "open-d1",
@@ -16,6 +118,23 @@
       "summary": {
         "en": "Multimodal open d1 decision models for the edge",
         "th": "Multimodal open d1 decision models for the edge"
+      }
+    },
+    {
+      "id": "huggingface__falcon-asr",
+      "slug": "falcon-asr",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "category": "News",
+      "date": "2026-10-07T13:21:03.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing Falcon ASR",
+        "th": "Introducing Falcon ASR"
+      },
+      "summary": {
+        "en": "Introducing Falcon ASR",
+        "th": "Introducing Falcon ASR"
       }
     },
     {
@@ -512,23 +631,6 @@
       }
     },
     {
-      "id": "openai__introducing-gpt-6-1-sol",
-      "slug": "introducing-gpt-6-1-sol",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "category": "Product",
-      "date": "2026-09-29T17:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing GPT-6.1 Sol",
-        "th": "Introducing GPT-6.1 Sol"
-      },
-      "summary": {
-        "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-        "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
-      }
-    },
-    {
       "id": "huggingface__getting-the-source-right-not-just-the-fact-source",
       "slug": "getting-the-source-right-not-just-the-fact-source",
       "source": "huggingface",
@@ -563,6 +665,23 @@
       }
     },
     {
+      "id": "openai__introducing-gpt-6-1-sol",
+      "slug": "introducing-gpt-6-1-sol",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "category": "Product",
+      "date": "2026-09-29T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing GPT-6.1 Sol",
+        "th": "Introducing GPT-6.1 Sol"
+      },
+      "summary": {
+        "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+        "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
+      }
+    },
+    {
       "id": "openai__introducing-dots",
       "slug": "introducing-dots",
       "source": "openai",
@@ -580,23 +699,6 @@
       }
     },
     {
-      "id": "openai__towards-safety-cases-for-frontier-ai-training",
-      "slug": "towards-safety-cases-for-frontier-ai-training",
-      "source": "openai",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "category": "Safety",
-      "date": "2026-09-28T19:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Towards safety cases for frontier AI training",
-        "th": "Towards safety cases for frontier AI training"
-      },
-      "summary": {
-        "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-        "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
-      }
-    },
-    {
       "id": "openai__how-we-will-do-better-for-australia",
       "slug": "how-we-will-do-better-for-australia",
       "source": "openai",
@@ -611,6 +713,23 @@
       "summary": {
         "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
         "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
+      }
+    },
+    {
+      "id": "openai__towards-safety-cases-for-frontier-ai-training",
+      "slug": "towards-safety-cases-for-frontier-ai-training",
+      "source": "openai",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "category": "Safety",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Towards safety cases for frontier AI training",
+        "th": "Towards safety cases for frontier AI training"
+      },
+      "summary": {
+        "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+        "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
       }
     },
     {
@@ -852,23 +971,6 @@
       }
     },
     {
-      "id": "openai__ringg",
-      "slug": "ringg",
-      "source": "openai",
-      "url": "https://openai.com/index/ringg",
-      "category": "News",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
-      },
-      "summary": {
-        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
-      }
-    },
-    {
       "id": "openai__harvey-from-context-to-confidence-with-astra",
       "slug": "harvey-from-context-to-confidence-with-astra",
       "source": "openai",
@@ -900,6 +1002,23 @@
       "summary": {
         "en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
         "th": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
+      }
+    },
+    {
+      "id": "openai__ringg",
+      "slug": "ringg",
+      "source": "openai",
+      "url": "https://openai.com/index/ringg",
+      "category": "News",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
+      },
+      "summary": {
+        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
       }
     },
     {
@@ -1019,40 +1138,6 @@
       "summary": {
         "en": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
         "th": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs."
-      }
-    },
-    {
-      "id": "openai__introducing-gpt-6-sol-and-luna",
-      "slug": "introducing-gpt-6-sol-and-luna",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "category": "Product",
-      "date": "2026-09-22T18:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing GPT-6 Sol and Luna",
-        "th": "Introducing GPT-6 Sol and Luna"
-      },
-      "summary": {
-        "en": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-        "th": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost."
-      }
-    },
-    {
-      "id": "openai__parallel-cuts-time-and-cost-with-astra",
-      "slug": "parallel-cuts-time-and-cost-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "category": "Startup",
-      "date": "2026-09-22T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Parallel cut research time and cost in half with GPT‑6 Astra",
-        "th": "Parallel cut research time and cost in half with GPT‑6 Astra"
-      },
-      "summary": {
-        "en": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-        "th": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models."
       }
     },
     {
@@ -1685,23 +1770,6 @@
       }
     },
     {
-      "id": "anthropic__improving-alignment-security-efforts",
-      "slug": "improving-alignment-security-efforts",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "category": "News",
-      "date": "2026-08-31T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20ShapeBuild&backgroundColor=cactus",
-      "title": {
-        "en": "Improving our alignment and security efforts",
-        "th": "Improving our alignment and security efforts"
-      },
-      "summary": {
-        "en": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.",
-        "th": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month."
-      }
-    },
-    {
       "id": "huggingface__open-asr-leaderboard-global-south",
       "slug": "open-asr-leaderboard-global-south",
       "source": "huggingface",
@@ -1767,40 +1835,6 @@
       "summary": {
         "en": "Piloting the world's first double-blind AI evaluations",
         "th": "Piloting the world's first double-blind AI evaluations"
-      }
-    },
-    {
-      "id": "anthropic__model-hardware-standard-research-preview",
-      "slug": "model-hardware-standard-research-preview",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "category": "News",
-      "date": "2026-08-27T00:00:00.000Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/5008271abbababe59f4fbb01998697f7dd0b5b60-1280x720.jpg",
-      "title": {
-        "en": "Previewing the Model Hardware Standard",
-        "th": "Previewing the Model Hardware Standard"
-      },
-      "summary": {
-        "en": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
-        "th": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers."
-      }
-    },
-    {
-      "id": "anthropic__expanding-support-for-scientists",
-      "slug": "expanding-support-for-scientists",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
-      "category": "News",
-      "date": "2026-08-27T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadNodeThink&backgroundColor=olive",
-      "title": {
-        "en": "Expanding our support for scientists",
-        "th": "Expanding our support for scientists"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
       }
     },
     {
@@ -2141,23 +2175,6 @@
       "summary": {
         "en": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
         "th": "สร้างตัวแทนเสียงหลายภาษาที่มีความหน่วงต่ำ: น้ำหนักแบบเปิดและการควบคุมการใช้งานเต็มรูปแบบด้วย NVIDIA Magpie TTS"
-      }
-    },
-    {
-      "id": "huggingface__efficient-knowledge-distillation",
-      "slug": "efficient-knowledge-distillation",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-      "category": "News",
-      "date": "2026-08-10T10:05:36.000Z",
-      "image": null,
-      "title": {
-        "en": "Making Knowledge Distillation Cheap Enough to Run at Scale",
-        "th": "Making Knowledge Distillation Cheap Enough to Run at Scale"
-      },
-      "summary": {
-        "en": "Making Knowledge Distillation Cheap Enough to Run at Scale",
-        "th": "Making Knowledge Distillation Cheap Enough to Run at Scale"
       }
     },
     {

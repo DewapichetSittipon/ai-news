@@ -1,0 +1,366 @@
+{
+  "id": "anthropic__anthropic-cyber-mission",
+  "slug": "anthropic-cyber-mission",
+  "source": "anthropic",
+  "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+  "category": "News",
+  "date": "2026-10-08T00:00:00.000Z",
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2af4f6715cbe9766a47430a24420cfca0a2c588-1200x630.jpg",
+  "title": {
+    "en": "Introducing the Anthropic Cyber Mission",
+    "th": "Introducing the Anthropic Cyber Mission"
+  },
+  "summary": {
+    "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+    "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe6614df689675126bb32ceb5cfcaaae016050c36-2000x1125.jpg&w=3840&q=75",
+      "alt": "Introducing the Anthropic Cyber Mission"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today we’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on. The Cyber Mission is a new effort to support defenders with tools, research, and resources to secure their software and systems. We’re starting with two areas:",
+        "th": "Today we’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on. The Cyber Mission is a new effort to support defenders with tools, research, and resources to secure their software and systems. We’re starting with two areas:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Critical infrastructure: Starting with securing the operational technology behind power grids, water systems, and transportation networks, and protecting government systems. Today, we’re introducing the Critical Infrastructure Defense Program (CIDP), which brings frontier models, on-site engineers, and threat research to the defenders that protect operational technology.",
+        "th": "Critical infrastructure: Starting with securing the operational technology behind power grids, water systems, and transportation networks, and protecting government systems. Today, we’re introducing the Critical Infrastructure Defense Program (CIDP), which brings frontier models, on-site engineers, and threat research to the defenders that protect operational technology."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Open-source software: Finding vulnerabilities and proposing patches in the free, shared code that most software depends on, and hardening the underlying code. Today, we’re launching OSS Scanner, which offers open-source projects regular security scans from our strongest models, for free.",
+        "th": "Open-source software: Finding vulnerabilities and proposing patches in the free, shared code that most software depends on, and hardening the underlying code. Today, we’re launching OSS Scanner, which offers open-source projects regular security scans from our strongest models, for free."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Frontier models can be misused to exploit vulnerabilities and conduct cyber operations. Despite best efforts, many areas of technology remain dangerously exposed. State-sponsored adversaries have spent years gaining footholds in these systems, across many sectors, so that they can disrupt them. Defenders of critical infrastructure and the OSS community have decades of security experience but have faced severe resource shortages that are exacerbated by this moment. We are recognizing their expertise in these domains and offering our support. We will also expand the Cyber Mission to release tools, research, and resources in new areas to help secure the world.",
+        "th": "Frontier models can be misused to exploit vulnerabilities and conduct cyber operations. Despite best efforts, many areas of technology remain dangerously exposed. State-sponsored adversaries have spent years gaining footholds in these systems, across many sectors, so that they can disrupt them. Defenders of critical infrastructure and the OSS community have decades of security experience but have faced severe resource shortages that are exacerbated by this moment. We are recognizing their expertise in these domains and offering our support. We will also expand the Cyber Mission to release tools, research, and resources in new areas to help secure the world."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As part of Project Glasswing, partners uncovered many vulnerabilities, but we haven’t yet achieved a sufficient reduction in cyber risk. It’s easier than ever to find vulnerabilities, but verifying, prioritizing, and fixing these findings remains challenging. Based on lessons from Project Glasswing, we’re starting these new efforts to support defenders. Earlier this week, we merged Project Glasswing into our expanded Cyber Verification Program, which gives many more defenders access to our most capable models. And through the Anthropic Cyber Mission, we’ll deploy Anthropic engineering talent and provide tools and funding for those who secure critical infrastructure and open-source software.",
+        "th": "As part of Project Glasswing, partners uncovered many vulnerabilities, but we haven’t yet achieved a sufficient reduction in cyber risk. It’s easier than ever to find vulnerabilities, but verifying, prioritizing, and fixing these findings remains challenging. Based on lessons from Project Glasswing, we’re starting these new efforts to support defenders. Earlier this week, we merged Project Glasswing into our expanded Cyber Verification Program, which gives many more defenders access to our most capable models. And through the Anthropic Cyber Mission, we’ll deploy Anthropic engineering talent and provide tools and funding for those who secure critical infrastructure and open-source software."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Defending critical infrastructure",
+        "th": "Defending critical infrastructure"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Power grids, water utilities, factories, and transportation networks run on controllers, control software, and industrial networks built to last for decades. These systems are known as “operational technology,” and they often cannot be taken offline to patch, so known vulnerabilities can stay unresolved for years. Securing them is specialized work: the equipment is proprietary, changes are risky, and a mistake can take down a plant. Operators of every size rely on a small set of trusted providers to support that work, telling them what’s exposed and which fixes to make on a running system.",
+        "th": "Power grids, water utilities, factories, and transportation networks run on controllers, control software, and industrial networks built to last for decades. These systems are known as “operational technology,” and they often cannot be taken offline to patch, so known vulnerabilities can stay unresolved for years. Securing them is specialized work: the equipment is proprietary, changes are risky, and a mistake can take down a plant. Operators of every size rely on a small set of trusted providers to support that work, telling them what’s exposed and which fixes to make on a running system."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re introducing the Critical Infrastructure Defense Program, which brings frontier Claude models, on-site engineers, and our threat research to those trusted providers. Its founding partners are Accenture, Booz Allen, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC, and Rockwell Automation.",
+        "th": "Today, we’re introducing the Critical Infrastructure Defense Program, which brings frontier Claude models, on-site engineers, and our threat research to those trusted providers. Its founding partners are Accenture, Booz Allen, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC, and Rockwell Automation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These organizations represent the providers that operators rely on to secure these systems: the consulting and advanced technology companies that run security programs, the security companies that guard the business and industrial networks, and the manufacturers that build and patch the equipment itself.",
+        "th": "These organizations represent the providers that operators rely on to secure these systems: the consulting and advanced technology companies that run security programs, the security companies that guard the business and industrial networks, and the manufacturers that build and patch the equipment itself."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This work is underway. Several partners are currently working with Claude to fix vulnerabilities and help customers do the same. Critical infrastructure is hard to defend in many ways that AI cannot fix, but we believe that frontier models can help find and repair weaknesses before those weaknesses are used to cut off power or make water unsafe. Our first step is to work with a small cohort of providers to learn which strategies are most effective and practical.",
+        "th": "This work is underway. Several partners are currently working with Claude to fix vulnerabilities and help customers do the same. Critical infrastructure is hard to defend in many ways that AI cannot fix, but we believe that frontier models can help find and repair weaknesses before those weaknesses are used to cut off power or make water unsafe. Our first step is to work with a small cohort of providers to learn which strategies are most effective and practical."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If your company builds security products or services for critical infrastructure, you can register your interest here.",
+        "th": "If your company builds security products or services for critical infrastructure, you can register your interest here."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb5b302afe2b6445df7cfd07b59a520739faae688-2487x576.png&w=256&q=75",
+      "alt": "Rockwell Automation logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6049322bb2dc6256425834a250066598c6d427da-359x174.svg",
+      "alt": "PwC logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc052b975e699b0755c9f88db2252aa7db240b0d0-1356x248.png&w=256&q=75",
+      "alt": "Palo Alto Networks logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5b0d738fdb3c3f953d71ee17e6bbd0767e0df033-1192x378.png&w=256&q=75",
+      "alt": "Nozomi Networks logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff828a5e1806e6c944944ca84b578c54f1057a785-326x179.png&w=256&q=75",
+      "alt": "Insane Cyber logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcdfeed6ae5eb94835f2ef8a07da6392899360699-1931x439.png&w=256&q=75",
+      "alt": "Dragos logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6720c9a2f90d251bf05c201a82f080383755da6a-1734x815.png&w=256&q=75",
+      "alt": "CrowdStrike logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F725713983720f6f6ef335910412d7b133a33632a-3840x2160.png&w=256&q=75",
+      "alt": "Hitachi, Ltd. logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F22857317c8e8d0c1cd3f6d00b8c10a85796df710-1614x656.png&w=256&q=75",
+      "alt": "Deloitte & Touche LLP logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a5a6f8dd7f1fe55e08c535953b3ed7ed3cf72dc9-1185x792.svg",
+      "alt": "Booz Allen logo"
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8cf3e7a12583cce3f9afe1f1081619045776d449-6251x1648.png&w=256&q=75",
+      "alt": "Accenture logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In June, we launched a cyber defense program for state, local, tribal, and territorial governments. Since then, we’ve offered frontier Claude models and technical support to more than half of all US states and some of the country’s largest public critical infrastructure operators, speeding up code scanning and patching, incident response, red teaming, and other security workflows.",
+        "th": "In June, we launched a cyber defense program for state, local, tribal, and territorial governments. Since then, we’ve offered frontier Claude models and technical support to more than half of all US states and some of the country’s largest public critical infrastructure operators, speeding up code scanning and patching, incident response, red teaming, and other security workflows."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are listening to and learning from the people who know this landscape best. Our approach is to work with the companies, coalitions, governments, and nonprofits that know this landscape and that operators trust, and provide support where it’s most needed.",
+        "th": "We are listening to and learning from the people who know this landscape best. Our approach is to work with the companies, coalitions, governments, and nonprofits that know this landscape and that operators trust, and provide support where it’s most needed."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Securing open-source software",
+        "th": "Securing open-source software"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Almost all software relies on open-source code, much of it maintained by small teams of volunteers. Under Project Glasswing, we scanned hundreds of widely used open-source projects, had humans triage and review many of the potential vulnerabilities uncovered, and privately reported what we found to their maintainers through our coordinated vulnerability disclosure process.",
+        "th": "Almost all software relies on open-source code, much of it maintained by small teams of volunteers. Under Project Glasswing, we scanned hundreds of widely used open-source projects, had humans triage and review many of the potential vulnerabilities uncovered, and privately reported what we found to their maintainers through our coordinated vulnerability disclosure process."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Some maintainers with the capacity to triage at scale asked us for everything our models had found in their project, reviewed or not. In response, we’re launching OSS Scanner, an opt-in service inspired by Google’s OSS-Fuzz. Enrolled projects receive periodic scans from our most capable models, free of charge. Each report includes a proof of concept of how the bug could be exploited, an explanation, and a suggested fix where one is available. The reports are model-generated and sent without human review. That means maintainers receive them faster, but it also means that some will contain inaccuracies, such as a wrong severity rating. We expect a true-positive rate above 90%, and will work to improve the true positive rate and fix quality over time. The team’s post explains how it works and how to enroll.",
+        "th": "Some maintainers with the capacity to triage at scale asked us for everything our models had found in their project, reviewed or not. In response, we’re launching OSS Scanner, an opt-in service inspired by Google’s OSS-Fuzz. Enrolled projects receive periodic scans from our most capable models, free of charge. Each report includes a proof of concept of how the bug could be exploited, an explanation, and a suggested fix where one is available. The reports are model-generated and sent without human review. That means maintainers receive them faster, but it also means that some will contain inaccuracies, such as a wrong severity rating. We expect a true-positive rate above 90%, and will work to improve the true positive rate and fix quality over time. The team’s post explains how it works and how to enroll."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The service is meant for projects with the capacity to keep up with surfaced findings. For others, we will continue to share human-verified disclosures under our CVD policy.",
+        "th": "The service is meant for projects with the capacity to keep up with surfaced findings. For others, we will continue to share human-verified disclosures under our CVD policy."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OSS Scanner is a first step. From here, our open-source work aims to:",
+        "th": "OSS Scanner is a first step. From here, our open-source work aims to:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Get findings to maintainers faster. Bring OSS Scanner to more projects while keeping human-verified disclosure for those that need it.",
+        "th": "Get findings to maintainers faster. Bring OSS Scanner to more projects while keeping human-verified disclosure for those that need it."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Accelerate fixes. Automate triage and patching, which are still mostly manual, for projects that want it.",
+        "th": "Accelerate fixes. Automate triage and patching, which are still mostly manual, for projects that want it."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Explore new secure architectures and coding practices. Research and share methods for hardening or rewriting code with projects that want to go further than patching.",
+        "th": "Explore new secure architectures and coding practices. Research and share methods for hardening or rewriting code with projects that want to go further than patching."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’ll do this based on guidance from open-source maintainers and foundations, and share what works so other projects can replicate it. We funded the organizations behind widely used open-source code, including the Python Software Foundation, Alpha-Omega and OpenSSF through the Linux Foundation, and the Apache Software Foundation, as well as supporting Akrites and Gold Eagle, which collect and coordinate vulnerability reports from many sources to avoid overwhelming maintainers. The Defender Advantage Fund (0xDAF), which we launched in August, supports pilot programs in these areas and keeps OSS Scanner free.",
+        "th": "We’ll do this based on guidance from open-source maintainers and foundations, and share what works so other projects can replicate it. We funded the organizations behind widely used open-source code, including the Python Software Foundation, Alpha-Omega and OpenSSF through the Linux Foundation, and the Apache Software Foundation, as well as supporting Akrites and Gold Eagle, which collect and coordinate vulnerability reports from many sources to avoid overwhelming maintainers. The Defender Advantage Fund (0xDAF), which we launched in August, supports pilot programs in these areas and keeps OSS Scanner free."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Maintainers can also apply to Claude for Open Source for free Claude Max subscriptions, and to the Cyber Verification Program for expanded access to Claude’s cyber capabilities for defensive work.",
+        "th": "Maintainers can also apply to Claude for Open Source for free Claude Max subscriptions, and to the Cyber Verification Program for expanded access to Claude’s cyber capabilities for defensive work."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Why we're doing this",
+        "th": "Why we're doing this"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Highly cyber-capable AI models are widely available to attackers now. But defensive tools—including our own—have not yet reached enough of the defenders who need them. OSS Scanner, our Cyber Verification Program, defensive products our partners build on our platform, and Claude Security are some of our efforts here, and we’ll be adding others as soon as possible.",
+        "th": "Highly cyber-capable AI models are widely available to attackers now. But defensive tools—including our own—have not yet reached enough of the defenders who need them. OSS Scanner, our Cyber Verification Program, defensive products our partners build on our platform, and Claude Security are some of our efforts here, and we’ll be adding others as soon as possible."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our forecast is that in two years, AI will favor defense: it will be easier to catch bugs before they ship, write fundamentally secure software from scratch, and actively defend systems with models. But in the near term, that may not be true. The cost of exploiting vulnerabilities has dropped, while verifying, disclosing, and fixing them is slow and still depends on people. In Glasswing, we often saw months pass between a vulnerability being found and being fixed. With operational technology, a fix may have to wait until it can be applied safely to running machinery—in some rare cases, this might take decades.",
+        "th": "Our forecast is that in two years, AI will favor defense: it will be easier to catch bugs before they ship, write fundamentally secure software from scratch, and actively defend systems with models. But in the near term, that may not be true. The cost of exploiting vulnerabilities has dropped, while verifying, disclosing, and fixing them is slow and still depends on people. In Glasswing, we often saw months pass between a vulnerability being found and being fixed. With operational technology, a fix may have to wait until it can be applied safely to running machinery—in some rare cases, this might take decades."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Success means critical infrastructure such as water, power, transport, and communications keep running in the face of attacks by capable adversaries, with fewer exploitable paths in and faster recovery when something gets through. This will take years and we expect the Anthropic Cyber Mission to change as we, together with the public and private sector, learn what works.",
+        "th": "Success means critical infrastructure such as water, power, transport, and communications keep running in the face of attacks by capable adversaries, with fewer exploitable paths in and faster recovery when something gets through. This will take years and we expect the Anthropic Cyber Mission to change as we, together with the public and private sector, learn what works."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The path ahead",
+        "th": "The path ahead"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Over the coming months, we’ll bring the Critical Infrastructure Defense Program to more partners and more sectors, and we’ll share what we learn along the way, including what didn’t work. We also expect other AI developers, security companies, and governments to run efforts of their own, and we’d like to collaborate with them wherever that helps defenders.",
+        "th": "Over the coming months, we’ll bring the Critical Infrastructure Defense Program to more partners and more sectors, and we’ll share what we learn along the way, including what didn’t work. We also expect other AI developers, security companies, and governments to run efforts of their own, and we’d like to collaborate with them wherever that helps defenders."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We will also expand our work to help secure open source and the broader supply chain. This includes researching new ways of writing software and new ways of defending systems. We intend to share frontier research, tools, and resources to help others secure their software and supply chain.",
+        "th": "We will also expand our work to help secure open source and the broader supply chain. This includes researching new ways of writing software and new ways of defending systems. We intend to share frontier research, tools, and resources to help others secure their software and supply chain."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If you’d like to work with us:",
+        "th": "If you’d like to work with us:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Companies that build security products or services for critical infrastructure, including security vendors, system integrators, and equipment manufacturers, can register their interest in the Critical Infrastructure Defense Program as we expand it.",
+        "th": "Companies that build security products or services for critical infrastructure, including security vendors, system integrators, and equipment manufacturers, can register their interest in the Critical Infrastructure Defense Program as we expand it."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Core maintainers of critical open-source projects can enroll in OSS Scanner.",
+        "th": "Core maintainers of critical open-source projects can enroll in OSS Scanner."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Security teams of any size, including operators of critical infrastructure and open-source maintainers, can apply to our expanded Cyber Verification Program for access to our models.",
+        "th": "Security teams of any size, including operators of critical infrastructure and open-source maintainers, can apply to our expanded Cyber Verification Program for access to our models."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Related content",
+        "th": "เนื้อหาที่เกี่ยวข้อง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "2026 Usage Policy update",
+        "th": "2026 Usage Policy update"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.",
+        "th": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Building on our commitment to American scientific discovery",
+        "th": "Building on our commitment to American scientific discovery"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.",
+        "th": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Expanding the Cyber Verification Program",
+        "th": "Expanding the Cyber Verification Program"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+        "th": "We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals."
+      }
+    }
+  ]
+}

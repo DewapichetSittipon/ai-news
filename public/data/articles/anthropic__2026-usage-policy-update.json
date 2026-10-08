@@ -1,0 +1,243 @@
+{
+  "id": "anthropic__2026-usage-policy-update",
+  "slug": "2026-usage-policy-update",
+  "source": "anthropic",
+  "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+  "category": "News",
+  "date": "2026-10-08T00:00:00.000Z",
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+  "title": {
+    "en": "2026 Usage Policy update",
+    "th": "2026 Usage Policy update"
+  },
+  "summary": {
+    "en": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.",
+    "th": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "Each year, Anthropic updates its Usage Policy in response to the evolving capabilities of our models, and the feedback we’ve received from our customers. We're publishing a new version of the policy today. In this post, we summarize the changes we’ve made.",
+        "th": "Each year, Anthropic updates its Usage Policy in response to the evolving capabilities of our models, and the feedback we’ve received from our customers. We're publishing a new version of the policy today. In this post, we summarize the changes we’ve made."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Most of the updates in the latest version are intended to clarify existing rules. In the year since our last refresh, Claude has taken on longer, more independent work. This update provides new examples that show how our rules apply to Claude’s new capabilities. It draws on new patterns of misuse in influence operations, weapons development, and surveillance that we’ve observed in the past year (as we’ve documented in our latest threat intelligence report). We’ve also made updates to clarify our requirements for high-risk use cases in areas like health and finance, to add controls for when Claude is used to autonomously take physical actions, and to address abusive behavior toward our models.",
+        "th": "Most of the updates in the latest version are intended to clarify existing rules. In the year since our last refresh, Claude has taken on longer, more independent work. This update provides new examples that show how our rules apply to Claude’s new capabilities. It draws on new patterns of misuse in influence operations, weapons development, and surveillance that we’ve observed in the past year (as we’ve documented in our latest threat intelligence report). We’ve also made updates to clarify our requirements for high-risk use cases in areas like health and finance, to add controls for when Claude is used to autonomously take physical actions, and to address abusive behavior toward our models."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The updated policy takes effect on November 12. The full Usage Policy and Supported Regions Policy can be found on their respective pages.",
+        "th": "The updated policy takes effect on November 12. The full Usage Policy and Supported Regions Policy can be found on their respective pages."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "A new section on deceptive activity",
+        "th": "A new section on deceptive activity"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As we wrote about last month, we’ve seen examples of state media outlets, government propaganda offices, and commercial firms using Claude to run networks of fake accounts and fabricated news sites. Our policy already prohibited this activity, but the restrictions were scattered across our elections, fraud, privacy, and disinformation sections.",
+        "th": "As we wrote about last month, we’ve seen examples of state media outlets, government propaganda offices, and commercial firms using Claude to run networks of fake accounts and fabricated news sites. Our policy already prohibited this activity, but the restrictions were scattered across our elections, fraud, privacy, and disinformation sections."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We've consolidated those rules into a new section titled Do Not Engage in Deceptive Campaigns or Artificial Activity, which applies to deceptive activity of any kind (whether political or commercial). It covers efforts to obscure who is behind a message or amplify content through fake accounts or posts, along with building the tools and infrastructure for running influence operation campaigns.",
+        "th": "We've consolidated those rules into a new section titled Do Not Engage in Deceptive Campaigns or Artificial Activity, which applies to deceptive activity of any kind (whether political or commercial). It covers efforts to obscure who is behind a message or amplify content through fake accounts or posts, along with building the tools and infrastructure for running influence operation campaigns."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Refocusing our elections section",
+        "th": "Refocusing our elections section"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’ve refined our political content restrictions in each version of our Usage Policy in order to ensure that our models can be used appropriately in democratic processes. In this version, we’ve further sharpened our section on elections, focusing it specifically on disallowing the use of Claude to deceive voters or disrupt elections (for instance, by spreading false information about candidates or how to vote, impersonating candidates or election officials, or trying to suppress turnout). We’ve renamed it Do Not Undermine Democratic Processes to reflect that scope.",
+        "th": "We’ve refined our political content restrictions in each version of our Usage Policy in order to ensure that our models can be used appropriately in democratic processes. In this version, we’ve further sharpened our section on elections, focusing it specifically on disallowing the use of Claude to deceive voters or disrupt elections (for instance, by spreading false information about candidates or how to vote, impersonating candidates or election officials, or trying to suppress turnout). We’ve renamed it Do Not Undermine Democratic Processes to reflect that scope."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For a similar reason, we’ve also removed our blanket prohibition on personalized vote and campaign targeting. This prohibition covered legitimate civic work, such as nonprofits using Claude to write information for voters in other languages, or election officials sending ballot cure notices. The behaviors that motivated the original rule (like voter targeting that relies on deception or the misuse of voters’ personal data) remain prohibited under our deceptive campaigns, surveillance, and privacy sections.",
+        "th": "For a similar reason, we’ve also removed our blanket prohibition on personalized vote and campaign targeting. This prohibition covered legitimate civic work, such as nonprofits using Claude to write information for voters in other languages, or election officials sending ballot cure notices. The behaviors that motivated the original rule (like voter targeting that relies on deception or the misuse of voters’ personal data) remain prohibited under our deceptive campaigns, surveillance, and privacy sections."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Clarifying our weapons prohibitions",
+        "th": "Clarifying our weapons prohibitions"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our Usage Policy has always prohibited using Claude to develop weapons. Recently, we’ve seen people attempt to use our models to build guidance and control software for weapons. The updated section makes clear that our prohibitions include the software and components that make weapons work, as well as actions like arming drones and other autonomous vehicles. These changes reflect how we’ve enforced our previous policy.",
+        "th": "Our Usage Policy has always prohibited using Claude to develop weapons. Recently, we’ve seen people attempt to use our models to build guidance and control software for weapons. The updated section makes clear that our prohibitions include the software and components that make weapons work, as well as actions like arming drones and other autonomous vehicles. These changes reflect how we’ve enforced our previous policy."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "More precise language on surveillance and law enforcement",
+        "th": "More precise language on surveillance and law enforcement"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our September threat intelligence report documented the growing use of AI to build surveillance systems that identify and track political dissidents. We’ve rewritten our surveillance and criminal justice section to state more precisely what we prohibit. For instance, tracking people without their consent is prohibited, whether it happens in real time or through analysis of previously collected data. Claude cannot be used to decide or recommend who to investigate, arrest, or charge in a law enforcement or criminal justice process. We also prohibit Claude from being used to build or improve tools designed for surveillance.",
+        "th": "Our September threat intelligence report documented the growing use of AI to build surveillance systems that identify and track political dissidents. We’ve rewritten our surveillance and criminal justice section to state more precisely what we prohibit. For instance, tracking people without their consent is prohibited, whether it happens in real time or through analysis of previously collected data. Claude cannot be used to decide or recommend who to investigate, arrest, or charge in a law enforcement or criminal justice process. We also prohibit Claude from being used to build or improve tools designed for surveillance."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As with the previous update to our weapons prohibitions, this update does not reflect a change in what we enforce in practice: it is just intended to make our policy more explicit. The new section also spells out which uses remain permitted, including tracking that people have agreed to (such as fraud monitoring), content moderation, journalism, and legal research.",
+        "th": "As with the previous update to our weapons prohibitions, this update does not reflect a change in what we enforce in practice: it is just intended to make our policy more explicit. The new section also spells out which uses remain permitted, including tracking that people have agreed to (such as fraud monitoring), content moderation, journalism, and legal research."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Clearer requirements for high-risk use cases",
+        "th": "Clearer requirements for high-risk use cases"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When our products are used in ways that can affect someone's health, legal rights, finances, livelihood, or access to essential services, we require there to be a qualified “human in the loop” (that is, someone who has the authority to review and, if necessary, change Claude’s recommendations), and for the individual affected to be told that AI was used.",
+        "th": "When our products are used in ways that can affect someone's health, legal rights, finances, livelihood, or access to essential services, we require there to be a qualified “human in the loop” (that is, someone who has the authority to review and, if necessary, change Claude’s recommendations), and for the individual affected to be told that AI was used."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These requirements haven’t changed with the updated version of our Usage Policy. However, users have often asked us whether a given use case has these requirements, so we've rewritten our High-risk Use Case Requirements section to answer that more directly. It now lists which kinds of recommendations are covered and which are not.",
+        "th": "These requirements haven’t changed with the updated version of our Usage Policy. However, users have often asked us whether a given use case has these requirements, so we've rewritten our High-risk Use Case Requirements section to answer that more directly. It now lists which kinds of recommendations are covered and which are not."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Following the launch of our Model Hardware Standard, this section also adds requirements for the use of our models when they’re connected to hardware that takes autonomous physical actions and which might be capable of causing injury. A qualified operator must be able to observe the equipment and stop it if needed; the equipment must also be able to hold a safe state if Claude is disconnected.",
+        "th": "Following the launch of our Model Hardware Standard, this section also adds requirements for the use of our models when they’re connected to hardware that takes autonomous physical actions and which might be capable of causing injury. A qualified operator must be able to observe the equipment and stop it if needed; the equipment must also be able to hold a safe state if Claude is disconnected."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Addressing abusive behavior toward our models",
+        "th": "Addressing abusive behavior toward our models"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’ve added a prohibition on sustained and needless abusive or cruel behavior toward our models. The policy update is meant to apply only in extreme cases, where users repeatedly act cruelly toward our models, with no discernible purpose. It does not apply to common versions of user frustration, pushback, dark creative themes, or model testing and research.",
+        "th": "We’ve added a prohibition on sustained and needless abusive or cruel behavior toward our models. The policy update is meant to apply only in extreme cases, where users repeatedly act cruelly toward our models, with no discernible purpose. It does not apply to common versions of user frustration, pushback, dark creative themes, or model testing and research."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This addition aligns with a step we've already taken, allowing Claude models to end rare conversations with persistently abusive users on Claude.ai and Claude Code. Such abuse is the main focus of this update; Claude’s ability to end these interactions will remain the primary enforcement mechanism.",
+        "th": "This addition aligns with a step we've already taken, allowing Claude models to end rare conversations with persistently abusive users on Claude.ai and Claude Code. Such abuse is the main focus of this update; Claude’s ability to end these interactions will remain the primary enforcement mechanism."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Clarifying our Supported Regions Policy",
+        "th": "Clarifying our Supported Regions Policy"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Last year, we updated our Supported Regions Policy to restrict access to Claude for companies who are majority-owned by entities headquartered in our unsupported regions. We've updated our Supported Regions page to clarify how we enforce this policy. Our policy prohibits the use of Claude by people who are physically located in an unsupported region, by entities who are incorporated or headquartered in one, and by entities who are majority-owned or controlled by persons or entities in those regions.",
+        "th": "Last year, we updated our Supported Regions Policy to restrict access to Claude for companies who are majority-owned by entities headquartered in our unsupported regions. We've updated our Supported Regions page to clarify how we enforce this policy. Our policy prohibits the use of Claude by people who are physically located in an unsupported region, by entities who are incorporated or headquartered in one, and by entities who are majority-owned or controlled by persons or entities in those regions."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Looking ahead",
+        "th": "มองไปข้างหน้า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We'll keep updating our Usage Policy as Claude’s capabilities and risks change. As with this and our prior updates, we’ll seek input from across Anthropic, and from policymakers, subject matter experts, civil society, and the people who use our products.",
+        "th": "We'll keep updating our Usage Policy as Claude’s capabilities and risks change. As with this and our prior updates, we’ll seek input from across Anthropic, and from policymakers, subject matter experts, civil society, and the people who use our products."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Related content",
+        "th": "เนื้อหาที่เกี่ยวข้อง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Building on our commitment to American scientific discovery",
+        "th": "Building on our commitment to American scientific discovery"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.",
+        "th": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Introducing the Anthropic Cyber Mission",
+        "th": "Introducing the Anthropic Cyber Mission"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.",
+        "th": "We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Expanding the Cyber Verification Program",
+        "th": "Expanding the Cyber Verification Program"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+        "th": "We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals."
+      }
+    }
+  ]
+}

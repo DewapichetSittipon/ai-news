@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-10-09T00:05:56.957Z",
+  "generatedAt": "2026-10-09T16:45:50.048Z",
   "items": [
+    {
+      "id": "huggingface__impactful-scheduling",
+      "slug": "impactful-scheduling",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "category": "News",
+      "date": "2026-10-09T15:20:29.000Z",
+      "image": null,
+      "title": {
+        "en": "Impactful scheduling for GPU clusters",
+        "th": "Impactful scheduling for GPU clusters"
+      },
+      "summary": {
+        "en": "Impactful scheduling for GPU clusters",
+        "th": "Impactful scheduling for GPU clusters"
+      }
+    },
+    {
+      "id": "openai__sophos",
+      "slug": "sophos",
+      "source": "openai",
+      "url": "https://openai.com/index/sophos",
+      "category": "News",
+      "date": "2026-10-09T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+        "th": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak"
+      },
+      "summary": {
+        "en": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+        "th": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
+      }
+    },
     {
       "id": "openai__oracle",
       "slug": "oracle",
@@ -427,23 +461,6 @@
       }
     },
     {
-      "id": "huggingface__astabrief",
-      "slug": "astabrief",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/allenai/astabrief",
-      "category": "News",
-      "date": "2026-10-02T15:19:50.000Z",
-      "image": null,
-      "title": {
-        "en": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-        "th": "Open-sourcing AstaBrief, the fast report-generation model in Asta"
-      },
-      "summary": {
-        "en": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-        "th": "Open-sourcing AstaBrief, the fast report-generation model in Asta"
-      }
-    },
-    {
       "id": "google-ai__google-ai-updates-september-2026",
       "slug": "google-ai-updates-september-2026",
       "source": "google-ai",
@@ -733,23 +750,6 @@
       }
     },
     {
-      "id": "openai__towards-safety-cases-for-frontier-ai-training",
-      "slug": "towards-safety-cases-for-frontier-ai-training",
-      "source": "openai",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "category": "Safety",
-      "date": "2026-09-28T19:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Towards safety cases for frontier AI training",
-        "th": "Towards safety cases for frontier AI training"
-      },
-      "summary": {
-        "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-        "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
-      }
-    },
-    {
       "id": "openai__how-we-will-do-better-for-australia",
       "slug": "how-we-will-do-better-for-australia",
       "source": "openai",
@@ -764,6 +764,23 @@
       "summary": {
         "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
         "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
+      }
+    },
+    {
+      "id": "openai__towards-safety-cases-for-frontier-ai-training",
+      "slug": "towards-safety-cases-for-frontier-ai-training",
+      "source": "openai",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "category": "Safety",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Towards safety cases for frontier AI training",
+        "th": "Towards safety cases for frontier AI training"
+      },
+      "summary": {
+        "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+        "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
       }
     },
     {
@@ -818,23 +835,6 @@
       }
     },
     {
-      "id": "openai__codex-originals",
-      "slug": "codex-originals",
-      "source": "openai",
-      "url": "https://openai.com/form/codex-originals",
-      "category": "News",
-      "date": "2026-09-28T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Are you a Codex Original?",
-        "th": "Are you a Codex Original?"
-      },
-      "summary": {
-        "en": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about",
-        "th": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about"
-      }
-    },
-    {
       "id": "openai__basis-tax-workbook-with-astra",
       "slug": "basis-tax-workbook-with-astra",
       "source": "openai",
@@ -849,6 +849,23 @@
       "summary": {
         "en": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
         "th": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use."
+      }
+    },
+    {
+      "id": "openai__codex-originals",
+      "slug": "codex-originals",
+      "source": "openai",
+      "url": "https://openai.com/form/codex-originals",
+      "category": "News",
+      "date": "2026-09-28T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Are you a Codex Original?",
+        "th": "Are you a Codex Original?"
+      },
+      "summary": {
+        "en": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about",
+        "th": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about"
       }
     },
     {
@@ -1005,6 +1022,23 @@
       }
     },
     {
+      "id": "openai__invideo-builds-with-gpt-6-astra",
+      "slug": "invideo-builds-with-gpt-6-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "category": "News",
+      "date": "2026-09-23T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How invideo improves color grading 3x with GPT‑6 Astra",
+        "th": "How invideo improves color grading 3x with GPT‑6 Astra"
+      },
+      "summary": {
+        "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+        "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
+      }
+    },
+    {
       "id": "openai__sam-altman-un-security-council-remarks",
       "slug": "sam-altman-un-security-council-remarks",
       "source": "openai",
@@ -1036,23 +1070,6 @@
       "summary": {
         "en": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
         "th": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
-      }
-    },
-    {
-      "id": "openai__invideo-builds-with-gpt-6-astra",
-      "slug": "invideo-builds-with-gpt-6-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "category": "News",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How invideo improves color grading 3x with GPT‑6 Astra",
-        "th": "How invideo improves color grading 3x with GPT‑6 Astra"
-      },
-      "summary": {
-        "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-        "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
       }
     },
     {
@@ -1138,23 +1155,6 @@
       "summary": {
         "en": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
         "th": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown."
-      }
-    },
-    {
-      "id": "openai__grab-openai-ai-skills-southeast-asia",
-      "slug": "grab-openai-ai-skills-southeast-asia",
-      "source": "openai",
-      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-      "category": "Global Affairs",
-      "date": "2026-09-23T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-        "th": "Grab and OpenAI bring practical AI skills to Southeast Asia"
-      },
-      "summary": {
-        "en": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
-        "th": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia."
       }
     },
     {

@@ -1,0 +1,522 @@
+{
+  "id": "openai__asana-browser-agent",
+  "slug": "asana-browser-agent",
+  "source": "openai",
+  "url": "https://openai.com/index/asana-browser-agent",
+  "category": "News",
+  "date": "2026-10-09T07:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+    "th": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
+  },
+  "summary": {
+    "en": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+    "th": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "October 9, 2026",
+        "th": "October 9, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using GPT‑6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+        "th": "Using GPT‑6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5jKBDi2Ijxu2ADlbRlTx2l/264f9736cd845e56d3a01e76e1b6c7db/asana-blue-layered-paper-cover-hero-1080x1080.png?w=3840&q=90&fm=webp",
+      "alt": "White Asana logo over a blue layered-paper texture."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "76x",
+        "th": "76x"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Lower estimated model costs with the optimized GPT-6.1 Sol workflow",
+        "th": "Lower estimated model costs with the optimized GPT-6.1 Sol workflow"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "5x",
+        "th": "5x"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Faster browser runs with the optimized GPT-6.1 Sol workflow",
+        "th": "Faster browser runs with the optimized GPT-6.1 Sol workflow"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "$0.47",
+        "th": "$0.47"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Average estimated model cost with the optimized GPT-6.1 Sol workflow",
+        "th": "Average estimated model cost with the optimized GPT-6.1 Sol workflow"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Identifying browser-agent inefficiencies with GPT-6 Astra",
+        "th": "Identifying browser-agent inefficiencies with GPT-6 Astra"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "From an estimated two months of research to one week with GPT-6 Astra",
+        "th": "From an estimated two months of research to one week with GPT-6 Astra"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Bringing model cost below $0.50 per run",
+        "th": "Bringing model cost below $0.50 per run"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Scaling experimentation and product testing",
+        "th": "Scaling experimentation and product testing"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Identifying browser-agent inefficiencies with GPT-6 Astra",
+        "th": "Identifying browser-agent inefficiencies with GPT-6 Astra"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "From an estimated two months of research to one week with GPT-6 Astra",
+        "th": "From an estimated two months of research to one week with GPT-6 Astra"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Bringing model cost below $0.50 per run",
+        "th": "Bringing model cost below $0.50 per run"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Scaling experimentation and product testing",
+        "th": "Scaling experimentation and product testing"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With GPT‑6 Astra in Codex running experiments, Asana optimized its browser agent’s workflow on GPT‑6.1 Sol to run 76x cheaper and 5x faster.",
+        "th": "With GPT‑6 Astra in Codex running experiments, Asana optimized its browser agent’s workflow on GPT‑6.1 Sol to run 76x cheaper and 5x faster."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Asana helps customers automate work across business applications through StackAI⁠(opens in a new window), a platform it acquired⁠(opens in a new window). Using StackAI, customers can build workflows that navigate websites, fill out forms, and gather information without writing code. At Asana’s scale, small inefficiencies in these workflows add up.",
+        "th": "Asana helps customers automate work across business applications through StackAI⁠(opens in a new window), a platform it acquired⁠(opens in a new window). Using StackAI, customers can build workflows that navigate websites, fill out forms, and gather information without writing code. At Asana’s scale, small inefficiencies in these workflows add up."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Asana’s StackAI CTO, Frank Hidalgo, PhD, set out to make the browser agent faster and cheaper to run. He directed GPT‑6 Astra in Codex to investigate the agent, test improvements, and compare the results. Work he estimates would have taken one to two months by hand took about a week.",
+        "th": "Asana’s StackAI CTO, Frank Hidalgo, PhD, set out to make the browser agent faster and cheaper to run. He directed GPT‑6 Astra in Codex to investigate the agent, test improvements, and compare the results. Work he estimates would have taken one to two months by hand took about a week."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Asana’s 144-run study⁠(opens in a new window) tested GPT‑6.1 Sol and three other frontier models, called here Models A, B and C. The optimized workflow that emerged on GPT‑6.1 Sol averaged $0.47 in estimated model costs and about four minutes per run, 76x cheaper and 5x faster than the original production setup on Model B.",
+        "th": "Asana’s 144-run study⁠(opens in a new window) tested GPT‑6.1 Sol and three other frontier models, called here Models A, B and C. The optimized workflow that emerged on GPT‑6.1 Sol averaged $0.47 in estimated model costs and about four minutes per run, 76x cheaper and 5x faster than the original production setup on Model B."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Identifying browser-agent inefficiencies with GPT‑6 Astra",
+        "th": "Identifying browser-agent inefficiencies with GPT‑6 Astra"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To move quickly, Hidalgo started by using GPT‑6 Astra in Codex to map the codebase and explain how the agent built each model request. GPT‑6 Astra discovered that the agent cached its fixed instructions and tool definitions, but not the growing history of page text and screenshots it gathered, so every request resent that history at full price.",
+        "th": "To move quickly, Hidalgo started by using GPT‑6 Astra in Codex to map the codebase and explain how the agent built each model request. GPT‑6 Astra discovered that the agent cached its fixed instructions and tool definitions, but not the growing history of page text and screenshots it gathered, so every request resent that history at full price."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The agent also dropped older screenshots and trimmed text at nearly every step. Each edit altered the history, so caching the history alone would not have helped, and losing those facts could require the agent to revisit pages it had already read.",
+        "th": "The agent also dropped older screenshots and trimmed text at nearly every step. Each edit altered the history, so caching the history alone would not have helped, and losing those facts could require the agent to revisit pages it had already read."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "From an estimated two months of research to one week with GPT‑6 Astra",
+        "th": "From an estimated two months of research to one week with GPT‑6 Astra"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hidalgo reviewed GPT‑6 Astra’s proposed fixes and selected three to test:",
+        "th": "Hidalgo reviewed GPT‑6 Astra’s proposed fixes and selected three to test:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Extending caching to the agent’s browsing history",
+        "th": "Extending caching to the agent’s browsing history"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Extending caching to the agent’s browsing history",
+        "th": "Extending caching to the agent’s browsing history"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Increasing the amount of text it could retain",
+        "th": "Increasing the amount of text it could retain"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Increasing the amount of text it could retain",
+        "th": "Increasing the amount of text it could retain"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Removing screenshots in batches rather than at every step",
+        "th": "Removing screenshots in batches rather than at every step"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Removing screenshots in batches rather than at every step",
+        "th": "Removing screenshots in batches rather than at every step"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6 Astra began with quick tests to establish which variables mattered. Because the code was not designed for controlled experiments, it then refactored the code so one frontend and backend could support many workflows in parallel, each with its own settings.",
+        "th": "GPT‑6 Astra began with quick tests to establish which variables mattered. Because the code was not designed for controlled experiments, it then refactored the code so one frontend and backend could support many workflows in parallel, each with its own settings."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Astra conducted the full study: history budgets of 120,000 and 480,000 characters and six caching and screenshot policies, each tested three times on each of the four models (see the table below). The best-performing policy allowed screenshots to accumulate to 20 before cutting back to the most recent one. This kept earlier history unchanged for longer stretches between removals. Combined with the larger history budget, it became the optimized workflow. Each configuration performed the same task: collecting six fields for each of 32 books from a public demo catalog, representative of what some Asana customers run in StackAI.",
+        "th": "Astra conducted the full study: history budgets of 120,000 and 480,000 characters and six caching and screenshot policies, each tested three times on each of the four models (see the table below). The best-performing policy allowed screenshots to accumulate to 20 before cutting back to the most recent one. This kept earlier history unchanged for longer stretches between removals. Combined with the larger history budget, it became the optimized workflow. Each configuration performed the same task: collecting six fields for each of 32 books from a public demo catalog, representative of what some Asana customers run in StackAI."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Model",
+        "th": "Model"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Description",
+        "th": "Description"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Price",
+        "th": "Price"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Model A",
+        "th": "Model A"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A smaller, less expensive model from another frontier lab, released Fall 2025",
+        "th": "A smaller, less expensive model from another frontier lab, released Fall 2025"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Half the price of GPT‑6.1 Sol",
+        "th": "Half the price of GPT‑6.1 Sol"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Model B",
+        "th": "Model B"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The model originally used in production, from the same lab as Model A, released Summer 2026",
+        "th": "The model originally used in production, from the same lab as Model A, released Summer 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Same price as GPT‑6.1 Sol",
+        "th": "Same price as GPT‑6.1 Sol"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Model C",
+        "th": "Model C"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An updated version of Model B, released Fall 2026",
+        "th": "An updated version of Model B, released Fall 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Same price as GPT‑6.1 Sol",
+        "th": "Same price as GPT‑6.1 Sol"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6.1 Sol",
+        "th": "GPT‑6.1 Sol"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI’s model",
+        "th": "OpenAI’s model"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6 Astra ran the workflows and examined the requests, usage records and outputs, and separate model sessions reviewed the work. Every session’s requests, data traces and results were recorded in Command⁠(opens in a new window), Asana’s software delivery platform, so the team could review the complete study afterward. From Command, the findings were turned into tickets, then pull requests, and the changes went to production.",
+        "th": "GPT‑6 Astra ran the workflows and examined the requests, usage records and outputs, and separate model sessions reviewed the work. Every session’s requests, data traces and results were recorded in Command⁠(opens in a new window), Asana’s software delivery platform, so the team could review the complete study afterward. From Command, the findings were turned into tickets, then pull requests, and the changes went to production."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Bringing model cost below $0.50 per run",
+        "th": "Bringing model cost below $0.50 per run"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For Model B, the optimization reduced estimated model cost from at least $36.21 (some original runs reached the step limit before they finished) to $1.24 per run, a reduction of 29x. The optimized workflow on GPT‑6.1 Sol was 2.6x cheaper still, at $0.47. Every run in the optimized workflow completed the task and returned the correct answer.",
+        "th": "For Model B, the optimization reduced estimated model cost from at least $36.21 (some original runs reached the step limit before they finished) to $1.24 per run, a reduction of 29x. The optimized workflow on GPT‑6.1 Sol was 2.6x cheaper still, at $0.47. Every run in the optimized workflow completed the task and returned the correct answer."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Means of 3 runs. ≥: the baseline includes capped runs, so its mean is a lower bound.",
+        "th": "Means of 3 runs. ≥: the baseline includes capped runs, so its mean is a lower bound."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The two right folds compare against Model B optimized. Model B ran in phase 1, Model C and Sol 6.1 in phase 2 of the same study (dotted line).",
+        "th": "The two right folds compare against Model B optimized. Model B ran in phase 1, Model C and Sol 6.1 in phase 2 of the same study (dotted line)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On GPT‑6.1 Sol alone, with the larger history budget, the new caching and screenshot policy reduced cost 4x, from $1.97 to $0.47 per run. Each call was about 3x cheaper, because 89% of the input came from cache at 5% of the uncached price. Runs also became faster: at least 22.5 minutes on the original setup on Model B, roughly four minutes with the optimized workflow on GPT‑6.1 Sol.",
+        "th": "On GPT‑6.1 Sol alone, with the larger history budget, the new caching and screenshot policy reduced cost 4x, from $1.97 to $0.47 per run. Each call was about 3x cheaper, because 89% of the input came from cache at 5% of the uncached price. Runs also became faster: at least 22.5 minutes on the original setup on Model B, roughly four minutes with the optimized workflow on GPT‑6.1 Sol."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mean of 3 runs, SD whiskers. ≥: mean includes a capped or unfinished run, so the true value is at least this large.",
+        "th": "Mean of 3 runs, SD whiskers. ≥: mean includes a capped or unfinished run, so the true value is at least this large."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Bars use the blue theme. Read caching effects against the 480k larger-budget bar.",
+        "th": "Bars use the blue theme. Read caching effects against the 480k larger-budget bar."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Run markers and SD whiskers are approximate reconstructions from the source image; underlying run values and standard deviations were not available.",
+        "th": "Run markers and SD whiskers are approximate reconstructions from the source image; underlying run values and standard deviations were not available."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mean of 3 runs, SD whiskers. ≥: mean includes a capped or unfinished run, so the true value is at least this large.",
+        "th": "Mean of 3 runs, SD whiskers. ≥: mean includes a capped or unfinished run, so the true value is at least this large."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Bars use the blue theme. Read caching effects against the 480k larger-budget bar.",
+        "th": "Bars use the blue theme. Read caching effects against the 480k larger-budget bar."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Run markers and SD whiskers are approximate reconstructions from the source image; underlying run values and standard deviations were not available.",
+        "th": "Run markers and SD whiskers are approximate reconstructions from the source image; underlying run values and standard deviations were not available."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The investigation also showed how history management affected whether the agent produced an answer at all. Giving GPT‑6.1 Sol more room to retain its browsing history increased the number of runs that produced an answer from three of 18 with the smaller history budget to all 18 with the larger budget, each with the correct answer. For Hidalgo, the business value is giving customers access to faster, more capable models while keeping operating costs sustainable.",
+        "th": "The investigation also showed how history management affected whether the agent produced an answer at all. Giving GPT‑6.1 Sol more room to retain its browsing history increased the number of runs that produced an answer from three of 18 with the smaller history budget to all 18 with the larger budget, each with the correct answer. For Hidalgo, the business value is giving customers access to faster, more capable models while keeping operating costs sustainable."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Scaling experimentation and product testing",
+        "th": "Scaling experimentation and product testing"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Asana has released the changes to browser navigation in StackAI and is developing tools to make similar experiments easier to repeat. Over time, the team plans to incorporate this testing into the platform’s evaluations, so customers and internal teams can compare cost, runtime, and answer quality when configuring their agents.",
+        "th": "Asana has released the changes to browser navigation in StackAI and is developing tools to make similar experiments easier to repeat. Over time, the team plans to incorporate this testing into the platform’s evaluations, so customers and internal teams can compare cost, runtime, and answer quality when configuring their agents."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Asana is now using GPT‑6 Astra in Codex to test product features before release: Astra navigates the platform, tries different inputs and reports bugs for human QA reviewers. Hidalgo views this as the foundation for a new software development lifecycle, with many cloud agent sessions testing features in parallel.",
+        "th": "Asana is now using GPT‑6 Astra in Codex to test product features before release: Astra navigates the platform, tries different inputs and reports bugs for human QA reviewers. Hidalgo views this as the foundation for a new software development lifecycle, with many cloud agent sessions testing features in parallel."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The complete study is available on the Asana⁠(opens in a new window) and StackAI⁠(opens in a new window) blogs.",
+        "th": "The complete study is available on the Asana⁠(opens in a new window) and StackAI⁠(opens in a new window) blogs."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Join the new era of work",
+        "th": "Join the new era of work"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5JxYHD7gUHvBzLkA7N1o9p/2926751bbb4c4d0bae48dbfdc8507466/oracle-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Oracle — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Oct 8, 2026",
+        "th": "Oct 8, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6IJsWuQa1blfxNfvbdIF1m/0868067102440aea5fd1ad35ba436a77/square.png?w=3840&q=90&fm=webp",
+      "alt": "1Password > Card image > Fiber ridge close-up"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sep 8, 2026",
+        "th": "Sep 8, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/42xFRYjHeI7h1ELHyL62wf/2a1c83c585109d5735c19967bb2a4e05/loveholidays-hero-art-card-v4.png?w=3840&q=90&fm=webp",
+      "alt": "loveholidays customer story art card v4"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Aug 26, 2026",
+        "th": "Aug 26, 2026"
+      }
+    }
+  ]
+}

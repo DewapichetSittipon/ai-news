@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-10-13T17:18:18.642Z",
+  "generatedAt": "2026-10-13T22:09:23.153Z",
   "items": [
+    {
+      "id": "deepmind__developing-gemini-4-argon-responsibly-and-safely",
+      "slug": "developing-gemini-4-argon-responsibly-and-safely",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "category": "News",
+      "date": "2026-10-13T19:43:07.000Z",
+      "image": null,
+      "title": {
+        "en": "Developing Gemini 4 Argon responsibly and safely",
+        "th": "Developing Gemini 4 Argon responsibly and safely"
+      },
+      "summary": {
+        "en": "Developing Gemini 4 Argon responsibly and safely",
+        "th": "Developing Gemini 4 Argon responsibly and safely"
+      }
+    },
     {
       "id": "huggingface__lfm25-24b-a2b",
       "slug": "lfm25-24b-a2b",
@@ -67,6 +84,23 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp\">We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 A",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp\">เราให้นักพัฒนา องค์กร นักวิทยาศาสตร์ และผู้บริโภคสามารถเข้าถึง Gemini 4 A"
+      }
+    },
+    {
+      "id": "openai__higgsfield-longer-videos-voice",
+      "slug": "higgsfield-longer-videos-voice",
+      "source": "openai",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "category": "Startup",
+      "date": "2026-10-13T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Higgsfield takes AI video from 1 minute to over 10",
+        "th": "Higgsfield takes AI video from 1 minute to over 10"
+      },
+      "summary": {
+        "en": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+        "th": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live."
       }
     },
     {
@@ -1107,20 +1141,20 @@
       }
     },
     {
-      "id": "openai__ringg",
-      "slug": "ringg",
+      "id": "openai__harvey-from-context-to-confidence-with-astra",
+      "slug": "harvey-from-context-to-confidence-with-astra",
       "source": "openai",
-      "url": "https://openai.com/index/ringg",
-      "category": "News",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "category": "Startup",
       "date": "2026-09-23T12:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
+        "en": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+        "th": "Harvey turns legal context into stronger drafts with GPT-6 Astra"
       },
       "summary": {
-        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
+        "en": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+        "th": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
       }
     },
     {
@@ -1141,20 +1175,20 @@
       }
     },
     {
-      "id": "openai__harvey-from-context-to-confidence-with-astra",
-      "slug": "harvey-from-context-to-confidence-with-astra",
+      "id": "openai__ringg",
+      "slug": "ringg",
       "source": "openai",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "category": "Startup",
+      "url": "https://openai.com/index/ringg",
+      "category": "News",
       "date": "2026-09-23T12:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-        "th": "Harvey turns legal context into stronger drafts with GPT-6 Astra"
+        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
       },
       "summary": {
-        "en": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-        "th": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
+        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
       }
     },
     {
@@ -1172,23 +1206,6 @@
       "summary": {
         "en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
         "th": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
-      }
-    },
-    {
-      "id": "openai__introducing-mentalhealthbench",
-      "slug": "introducing-mentalhealthbench",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-mentalhealthbench",
-      "category": "Publication",
-      "date": "2026-09-23T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing MentalHealthBench",
-        "th": "Introducing MentalHealthBench"
-      },
-      "summary": {
-        "en": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
-        "th": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations."
       }
     },
     {
@@ -2532,23 +2549,6 @@
       "summary": {
         "en": "Powering the future of robotics in Europe",
         "th": "ขับเคลื่อนอนาคตของหุ่นยนต์ในยุโรป"
-      }
-    },
-    {
-      "id": "deepmind__measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond",
-      "slug": "measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
-      "category": "News",
-      "date": "2026-06-08T13:04:59.000Z",
-      "image": "https://lh3.googleusercontent.com/5g2RQPPxqVGuOzfaYj1-8r_6B-Ytp79c9mpWXzBIrk2vUhtxZmA7bMywH41h-8b0EJAdW_K4l7kqHZlfS-QTFk8kFB5MA2bgxZ4hxbuAiOuDIn3ohA=w528-h297-n-nu-rw-lo",
-      "title": {
-        "en": "Measuring the impact of learning with AI in Sierra Leone and beyond",
-        "th": "การวัดผลกระทบของการเรียนรู้ด้วย AI ในเซียร์ราลีโอนและที่อื่นๆ"
-      },
-      "summary": {
-        "en": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
-        "th": "ผลลัพธ์จากการทดลองแบบสุ่มที่มีกลุ่มควบคุมแสดงให้เห็นถึงศักยภาพของฟีเจอร์การเรียนรู้พร้อมคำแนะนำของ Gemini ในการเพิ่มการมีส่วนร่วมและเร่งการเรียนรู้"
       }
     }
   ]

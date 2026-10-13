@@ -1,0 +1,642 @@
+{
+  "id": "google-ai__introducing-gemini-4-argon",
+  "slug": "introducing-gemini-4-argon",
+  "source": "google-ai",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+  "category": "Gemini models",
+  "date": "2026-10-13T16:00:00.000Z",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp",
+  "title": {
+    "en": "Gemini 4 Argon: Built to solve your hardest problems",
+    "th": "Gemini 4 Argon: สร้างขึ้นเพื่อแก้ไขปัญหาที่ยากที่สุดของคุณ"
+  },
+  "summary": {
+    "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp\">We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 A",
+    "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp\">เราให้นักพัฒนา องค์กร นักวิทยาศาสตร์ และผู้บริโภคสามารถเข้าถึง Gemini 4 A"
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "นวัตกรรมและเอไอ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Models & research",
+        "th": "แบบจำลองและการวิจัย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini Models",
+        "th": "โมเดลราศีเมถุน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Oct 13, 2026",
+        "th": "13 ต.ค. 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re giving developers, enterprises, scientists, and consumers access to our latest frontier model.",
+        "th": "เราให้นักพัฒนา องค์กร นักวิทยาศาสตร์ และผู้บริโภคสามารถเข้าถึงโมเดลชายแดนล่าสุดของเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Koray Kavukcuoglu",
+        "th": "โคเรย์ คาวูคคูโอกลู"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SVP, Google DeepMind and Chief AI Architect, Google",
+        "th": "SVP, Google DeepMind and Chief AI Architect, Google"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Built to solve your hardest problems",
+        "th": "สร้างขึ้นเพื่อแก้ไขปัญหาที่ยากที่สุดของคุณ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Solving complex engineering tasks",
+        "th": "การแก้ปัญหางานวิศวกรรมที่ซับซ้อน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Transforming critical business and professional workflows",
+        "th": "พลิกโฉมธุรกิจที่สำคัญและขั้นตอนการทำงานระดับมืออาชีพ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Accelerating real-world impact with researchers and domain experts",
+        "th": "เร่งสร้างผลกระทบในโลกแห่งความเป็นจริงด้วยนักวิจัยและผู้เชี่ยวชาญในโดเมน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Developing Argon responsibly and safely",
+        "th": "การพัฒนาอาร์กอนอย่างมีความรับผิดชอบและปลอดภัย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Get started today",
+        "th": "เริ่มต้นวันนี้เลย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini 4 Argon is now globally available today for developers and enterprises via the API in AI Studio and Gemini platform, for Google AI Ultra subscribers in Google Antigravity, and Google AI Ultra and Pro subscribers in the Gemini app and AI Mode in Search.",
+        "th": "Gemini 4 Argon พร้อมใช้งานทั่วโลกแล้ววันนี้สำหรับนักพัฒนาและองค์กรผ่าน API ใน AI Studio และแพลตฟอร์ม Gemini สำหรับสมาชิก Google AI Ultra ใน Google Antigravity และสมาชิก Google AI Ultra และ Pro ในแอป Gemini และโหมด AI ในการค้นหา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Argon excels at deep work in complex, real-world tasks across domains including coding, finance, legal, cybersecurity, and science. Its depth and precision across multi-step tasks leads Argon to outperform other frontier models on benchmarks across domains, ranking #1 on the Vals Index, which measures model performance across critical economic sectors like finance, coding, legal, and tax work.",
+        "th": "Argon เป็นเลิศในการทำงานเชิงลึกในงานที่ซับซ้อนและในโลกแห่งความเป็นจริงทั่วทั้งโดเมน รวมถึงการเขียนโค้ด การเงิน กฎหมาย ความปลอดภัยทางไซเบอร์ และวิทยาศาสตร์ ความลึกซึ้งและความแม่นยำในงานหลายขั้นตอนทำให้ Argon มีประสิทธิภาพเหนือกว่าโมเดลขอบเขตอื่นๆ ในการวัดประสิทธิภาพทั่วทั้งโดเมน โดยอยู่ในอันดับที่ 1 ใน Vals Index ซึ่งวัดประสิทธิภาพของโมเดลในภาคส่วนเศรษฐกิจที่สำคัญ เช่น การเงิน การเขียนโค้ด กฎหมาย และงานด้านภาษี"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The model launches today at an introductory price 1 of $2 per million input tokens and $10 per million output tokens (with cached input tokens at 95% off).",
+        "th": "โมเดลนี้เปิดตัววันนี้ในราคาเบื้องต้น 1 ดอลลาร์ต่อโทเค็นอินพุต 2 ดอลลาร์ต่อล้านโทเค็น และ 10 ดอลลาร์ต่อโทเค็นเอาท์พุต 10 ล้านดอลลาร์ (พร้อมโทเค็นอินพุตแคชที่ส่วนลด 95%)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Teams at Google, across enterprises, and in the research community have already been using Argon to land significant impact across fields:",
+        "th": "ทีมงานของ Google ทั่วทั้งองค์กร และในชุมชนการวิจัยได้ใช้ Argon เพื่อสร้างผลกระทบที่สำคัญในสาขาต่างๆ แล้ว:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "To solve major engineering problems like large codebase refactoring and optimizations",
+        "th": "เพื่อแก้ไขปัญหาทางวิศวกรรมที่สำคัญ เช่น การปรับโครงสร้างฐานโค้ดขนาดใหญ่และการเพิ่มประสิทธิภาพ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "To optimize business workflows across domains like legal, finance, and science",
+        "th": "เพื่อเพิ่มประสิทธิภาพเวิร์กโฟลว์ทางธุรกิจในโดเมนต่างๆ เช่น กฎหมาย การเงิน และวิทยาศาสตร์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "To find and patch critical cybersecurity vulnerabilities",
+        "th": "เพื่อค้นหาและแก้ไขช่องโหว่ด้านความปลอดภัยทางไซเบอร์ที่สำคัญ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "To enable novel breakthroughs in quantum computing, nuclear fusion, and life sciences",
+        "th": "เพื่อทำให้เกิดความก้าวหน้าครั้งใหม่ในด้านคอมพิวเตอร์ควอนตัม นิวเคลียร์ฟิวชัน และวิทยาศาสตร์เพื่อชีวิต"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Solving complex engineering tasks",
+        "th": "การแก้ปัญหางานวิศวกรรมที่ซับซ้อน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "At Google, we’ve been using Argon on our hardest engineering problems. Over the past few weeks, software engineers have been shipping high-quality code faster than ever. Argon in Antigravity has helped teams increase agentic code submissions by more than 35% while reducing code rollbacks by nearly a third.",
+        "th": "ที่ Google เราใช้ Argon กับปัญหาทางวิศวกรรมที่ยากที่สุดของเรา ในช่วงไม่กี่สัปดาห์ที่ผ่านมา วิศวกรซอฟต์แวร์ได้จัดส่งโค้ดคุณภาพสูงได้เร็วกว่าที่เคย Argon in Antigravity ช่วยให้ทีมเพิ่มการส่งโค้ดเอเจนต์ได้มากกว่า 35% ในขณะที่ลดการย้อนกลับโค้ดได้เกือบหนึ่งในสาม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Untangling browser feature code in Chrome: Argon helped the Chrome team separate core webpage handling from a ~6 million line legacy folder of browser features held within Chromium’s 40 million-line codebase. Piping multiple clean code changes at a time, Argon helped the team finish an architectural refactor across hundreds of files, completing months of work in weeks. For Chrome's billions of global users, this will unlock the ability for live webpages to move fluidly between tabs, side panels, and floating windows without reloading, eliminating an entire category of browser crashes.",
+        "th": "การแยกโค้ดคุณลักษณะของเบราว์เซอร์ที่พันกันใน Chrome: Argon ช่วยให้ทีมงาน Chrome แยกการจัดการหน้าเว็บหลักออกจากโฟลเดอร์เดิมประมาณ 6 ล้านบรรทัดของคุณลักษณะเบราว์เซอร์ที่จัดเก็บไว้ในฐานโค้ด 40 ล้านบรรทัดของ Chromium ด้วยการวางท่อการเปลี่ยนแปลงโค้ดที่สะอาดหลายครั้ง Argon ช่วยให้ทีมรีแฟคเตอร์สถาปัตยกรรมในไฟล์หลายร้อยไฟล์จนเสร็จ ทำงานหลายเดือนให้เสร็จภายในไม่กี่สัปดาห์ สำหรับผู้ใช้ Chrome นับพันล้านรายทั่วโลก สิ่งนี้จะปลดล็อกความสามารถของหน้าเว็บที่ใช้งานอยู่เพื่อย้ายไปมาระหว่างแท็บ แผงด้านข้าง และหน้าต่างแบบลอยได้อย่างลื่นไหลโดยไม่ต้องโหลดซ้ำ ซึ่งช่วยลดปัญหาเบราว์เซอร์ขัดข้องทั้งหมวดหมู่"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Optimizing a production Python codebase in hours: Argon in Antigravity is helping the team behind Google's open-source Agent Development Kit (ADK), a framework powering enterprise agents, push their performance engineering further. The team gave Argon their .agents/skills rulebook and a one-paragraph goal to eliminate framework overhead without breaking existing apps. Working autonomously overnight, Argon surfaced optimizations, now live in google/adk-python, that cut in-memory session prep time by 40% in long sessions and sped up cold imports by 21%. Read the engineering deep dive to learn more.",
+        "th": "การเพิ่มประสิทธิภาพฐานรหัส Python ที่ใช้งานจริงภายในไม่กี่ชั่วโมง: Argon in Antigravity กำลังช่วยเหลือทีมที่อยู่เบื้องหลัง Agent Development Kit (ADK) โอเพ่นซอร์สของ Google ซึ่งเป็นเฟรมเวิร์กที่ขับเคลื่อนตัวแทนระดับองค์กร ผลักดันวิศวกรรมประสิทธิภาพของพวกเขาให้ดียิ่งขึ้น ทีมงานได้มอบกฎเกณฑ์ .agents/skills ให้กับ Argon และมีเป้าหมายหนึ่งย่อหน้าเพื่อขจัดค่าใช้จ่ายด้านเฟรมเวิร์กโดยไม่ทำลายแอปที่มีอยู่ การทำงานอัตโนมัติข้ามคืน Argon ได้แสดงการเพิ่มประสิทธิภาพ ซึ่งขณะนี้ใช้งานได้ใน google/adk-python ซึ่งลดเวลาเตรียมเซสชันในหน่วยความจำลง 40% ในเซสชันยาว และเร่งการนำเข้าเย็นลง 21% อ่านข้อมูลเชิงลึกด้านวิศวกรรมเพื่อเรียนรู้เพิ่มเติม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Quantum chemistry open-source package optimization: xTB (Semiempirical Extended Tight-Binding) is one of the most-cited open-source quantum chemistry packages for molecules. Scientists use it to predict molecules' 3D shapes and to screen large numbers of drug and materials candidates. Using Argon in Antigravity, our researchers made xTB up to 2.3x faster at predicting molecular structures and 1.8x faster at conformer search. The changes have been contributed to the official xTB repository on GitHub.",
+        "th": "การเพิ่มประสิทธิภาพแพ็คเกจโอเพ่นซอร์สเคมีควอนตัม: xTB (Semiempirical Extended Tight-Binding) เป็นหนึ่งในแพ็คเกจเคมีควอนตัมโอเพ่นซอร์สที่มีผู้อ้างถึงมากที่สุดสำหรับโมเลกุล นักวิทยาศาสตร์ใช้เพื่อทำนายรูปร่าง 3 มิติของโมเลกุล และคัดกรองตัวยาและวัสดุจำนวนมาก การใช้อาร์กอนในการต้านแรงโน้มถ่วง นักวิจัยของเราทำให้ xTB เร็วขึ้นสูงสุด 2.3 เท่าในการทำนายโครงสร้างโมเลกุล และเร็วขึ้น 1.8 เท่าในการค้นหาคอนฟอร์เมอร์ การเปลี่ยนแปลงดังกล่าวได้รับการสนับสนุนไปยังพื้นที่เก็บข้อมูล xTB อย่างเป็นทางการบน GitHub"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Making our open Gemma models nearly three times as fast: Using Argon, we achieved a 2.85x end-to-end inference speedup on an A100 via vLLM (accelerating throughput from ~37,900 to over 108,000 tokens per second on Gemma 4 E2B) with 100% token parity and zero quality drop in just a few days, a process that would usually take months. Check out the upstream pull requests (optimizing everything from attention tuning to speculative decoding) to see the exact changes.",
+        "th": "ทำให้โมเดล Gemma แบบเปิดของเราเร็วขึ้นเกือบสามเท่า: การใช้ Argon ช่วยให้เราสามารถเร่งความเร็วการอนุมานแบบต้นทางถึงปลายทางได้ 2.85 เท่าบน A100 ผ่าน vLLM (เร่งความเร็วปริมาณงานจาก ~37,900 เป็นมากกว่า 108,000 โทเค็นต่อวินาทีบน Gemma 4 E2B) โดยมีความเท่าเทียมกันของโทเค็น 100% และคุณภาพลดลงเป็นศูนย์ในเวลาเพียงไม่กี่วัน ซึ่งเป็นกระบวนการที่โดยปกติจะใช้เวลาหลายเดือน ตรวจสอบคำขอดึงอัปสตรีม (เพิ่มประสิทธิภาพทุกอย่างตั้งแต่การปรับความสนใจไปจนถึงการถอดรหัสแบบเก็งกำไร) เพื่อดูการเปลี่ยนแปลงที่แน่นอน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Delivering complex 3D visualizations: Argon brings major improvements in spatial reasoning, mathematical precision, and visual coding compared to previous Gemini models. Using slash commands like /goal and prompting for multi-agent loops with custom skills in Antigravity, Googlers are using Argon to prototype complex 3D visualizations, high-fidelity games, and interactive animations in vanilla code that can be rendered directly in the browser.",
+        "th": "นำเสนอการแสดงภาพ 3 มิติที่ซับซ้อน: Argon นำการปรับปรุงที่สำคัญในด้านการใช้เหตุผลเชิงพื้นที่ ความแม่นยำทางคณิตศาสตร์ และการเขียนโค้ดภาพ เมื่อเทียบกับรุ่น Gemini รุ่นก่อนๆ การใช้คำสั่งเครื่องหมายทับ เช่น /goal และแจ้งให้ใช้ multi-agent loops พร้อมทักษะที่กำหนดเองใน Antigravity ทำให้ Googler ใช้ Argon เพื่อสร้างต้นแบบการสร้างภาพ 3 มิติที่ซับซ้อน เกมที่มีความเที่ยงตรงสูง และภาพเคลื่อนไหวเชิงโต้ตอบในโค้ดวานิลลาที่สามารถแสดงผลได้โดยตรงในเบราว์เซอร์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Argon built a highly detailed model of a Pagoda using multi-agent visual critique loops in Antigravity. The model autonomously sculpted a multi-building temple complex with photorealistic architecture, foliage and lighting in Blender.",
+        "th": "อาร์กอนสร้างแบบจำลองที่มีรายละเอียดสูงของเจดีย์โดยใช้ลูปการวิจารณ์ภาพแบบหลายตัวแทนใน Antigravity แบบจำลองนี้สร้างวิหารที่ซับซ้อนหลายอาคารโดยอัตโนมัติด้วยสถาปัตยกรรมเสมือนจริง ใบไม้ และการจัดแสงใน Blender"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Argon turned pictures of a real desk into a playable miniature racing game using a multi-agent loop in Antigravity. The desk objects, room and race track were modeled and collision-checked using Blender MCP, textured with Nano Banana, and wired with physics, custom shaders, and car engine audio from Gemini Omni Flash in Three.js. Try it now in Google AI Studio.",
+        "th": "Argon เปลี่ยนรูปภาพโต๊ะจริง ๆ ให้กลายเป็นเกมแข่งรถขนาดจิ๋วที่สามารถเล่นได้โดยใช้ multi-agent loop ใน Antigravity วัตถุบนโต๊ะ ห้อง และสนามแข่งได้รับการสร้างแบบจำลองและตรวจสอบการชนกันโดยใช้ Blender MCP พื้นผิวด้วย Nano Banana และเชื่อมต่อกับระบบฟิสิกส์ เชเดอร์แบบกำหนดเอง และเสียงเครื่องยนต์ของรถยนต์จาก Gemini Omni Flash ใน Three.js ลองใช้เลยใน Google AI Studio"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Argon in Antigravity wrote Python scripts to procedurally sculpt, rig, animate, and PBR-bake a complex 3D game using multi-agent visual critique loops then wired it for the web in Three.js with GLSL shaders, shatter physics, and a single-player AI. Try it now in Google AI Studio.",
+        "th": "Argon ใน Antigravity เขียนสคริปต์ Python เพื่อแกะสลัก สร้างภาพเคลื่อนไหว และ PBR เพื่อสร้างเกม 3 มิติที่ซับซ้อนโดยใช้ลูปการวิจารณ์ภาพแบบหลายเอเจนต์ จากนั้นต่อเข้ากับเว็บใน Three.js ด้วยเชเดอร์ GLSL ระบบฟิสิกส์ที่แตกสลาย และ AI สำหรับผู้เล่นเดี่ยว ลองใช้เลยใน Google AI Studio"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With zero external libraries and 100% pure Python, Argon wrote its own 3D ray-tracing engine with a custom video tool and audio mixer to build and document a sunlit library from scratch, producing, narrating, and assembling this video with Gemini 3.8 TTS voiceover and music by Lyria 3.5. View the source code.",
+        "th": "ด้วยไลบรารีภายนอกที่เป็นศูนย์และ Python บริสุทธิ์ 100% Argon ได้เขียนเอ็นจิ้น 3D ray-tracing ของตัวเองด้วยเครื่องมือวิดีโอที่กำหนดเองและตัวผสมเสียงเพื่อสร้างและบันทึกไลบรารีที่มีแสงแดดส่องถึงตั้งแต่เริ่มต้น การผลิต การบรรยาย และการประกอบวิดีโอนี้ด้วยเสียงพากย์ Gemini 3.8 TTS และดนตรีโดย Lyria 3.5 ดูซอร์สโค้ด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Starting from a single Nano Banana image in Antigravity, Argon drives Blender MCP in an autonomous loop, aligning camera grids, sculpting Gothic architecture, and staging audio-reactive lighting, to create a finished 3D scene.",
+        "th": "เริ่มต้นจากภาพ Nano Banana ภาพเดียวใน Antigravity Argon ขับเคลื่อน Blender MCP ในลูปอัตโนมัติ จัดแนวตารางของกล้อง สร้างสถาปัตยกรรมแบบโกธิก และจัดเตรียมแสงที่ตอบสนองต่อเสียง เพื่อสร้างฉาก 3D ที่เสร็จสมบูรณ์"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Transforming critical business and professional workflows",
+        "th": "พลิกโฉมธุรกิจที่สำคัญและขั้นตอนการทำงานระดับมืออาชีพ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Argon combines frontier reasoning, deep visual perception, expanded domain knowledge, and stronger writing capabilities across legal, finance, science, and coding to help with high-stakes professional workflows. It communicates clearly, keeping you in the loop, and follows style instructions better than any of our previous Gemini models. Argon answers questions more directly with less hedging, doesn’t repeat itself more than necessary, and skips clichés throughout the responses.",
+        "th": "Argon ผสมผสานการใช้เหตุผลระดับแนวหน้า การรับรู้ด้วยภาพเชิงลึก ความรู้ในขอบเขตที่ขยายออกไป และความสามารถในการเขียนที่แข็งแกร่งยิ่งขึ้นในด้านกฎหมาย การเงิน วิทยาศาสตร์ และการเขียนโค้ด เพื่อช่วยในกระบวนการทำงานระดับมืออาชีพที่มีเดิมพันสูง มันสื่อสารได้อย่างชัดเจน ทำให้คุณอยู่ในวง และปฏิบัติตามคำแนะนำด้านสไตล์ได้ดีกว่ารุ่น Gemini รุ่นก่อนๆ ของเรา Argon ตอบคำถามได้โดยตรงมากขึ้นโดยมีการป้องกันความเสี่ยงน้อยลง ไม่ทำซ้ำเกินความจำเป็น และข้ามความคิดเดิมๆ ตลอดทั้งคำตอบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Enterprise customers and startups in our early access program are already seeing strong wins with Argon.",
+        "th": "ลูกค้าองค์กรและบริษัทสตาร์ทอัพในโปรแกรมทดลองใช้ก่อนเปิดตัวของเราต่างได้รับชัยชนะอย่างแข็งแกร่งจาก Argon แล้ว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using its advanced reasoning and multimodal capabilities while maintaining strict grounding, Argon excels in deep multimodal document comprehension, longitudinal data analysis, and interactive analytical sandboxes.",
+        "th": "การใช้เหตุผลขั้นสูงและความสามารถหลายรูปแบบในขณะที่ยังคงรักษาพื้นฐานที่เข้มงวด Argon จึงเป็นเลิศในการทำความเข้าใจเอกสารหลายรูปแบบเชิงลึก การวิเคราะห์ข้อมูลตามยาว และแซนด์บ็อกซ์การวิเคราะห์เชิงโต้ตอบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "See how Argon synthesizes ~50 GB of Airborne LiDAR scans, GIS room vectors, Library of Congress CAD drawings, and NPS archives to reconstruct 3D models of Chaco Canyon, turning fragmented archaeological records into explorable digital heritage sites. Try it now in Google AI Studio.",
+        "th": "ดูว่า Argon สังเคราะห์การสแกน Airborne LiDAR ประมาณ 50 GB, เวกเตอร์ห้อง GIS, ภาพวาด CAD ของ Library of Congress และเอกสารสำคัญของ NPS เพื่อสร้างแบบจำลอง 3 มิติของ Chaco Canyon ขึ้นใหม่ได้อย่างไร โดยเปลี่ยนบันทึกทางโบราณคดีที่กระจัดกระจายให้กลายเป็นแหล่งมรดกทางดิจิทัลที่น่าสำรวจ ลองใช้เลยใน Google AI Studio"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In Gemini App, Argon takes an unstructured folder full of project context and formats it into a clean proposal deck for a client using a custom skill. Gemini then drafts and emails the deck to a client while creating an automated workflow for all future incoming client requests with a scheduled task.",
+        "th": "ในแอป Gemini นั้น Argon นำโฟลเดอร์ที่ไม่มีโครงสร้างซึ่งเต็มไปด้วยบริบทของโปรเจ็กต์ และจัดรูปแบบให้เป็นชุดข้อเสนอที่ดูสะอาดตาสำหรับลูกค้าที่ใช้ทักษะที่กำหนดเอง จากนั้น Gemini จะร่างและส่งสำรับอีเมลไปยังลูกค้าในขณะเดียวกันก็สร้างเวิร์กโฟลว์อัตโนมัติสำหรับคำขอของลูกค้าที่เข้ามาในอนาคตทั้งหมดด้วยงานที่กำหนดเวลาไว้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Watch Argon synthesize data from 3 open-source repositories into a medical learning tool where you can peel back anatomical layers, inspect clinical metadata, and trigger biomechanics in a 3D exploration of the human body.",
+        "th": "ดู Argon สังเคราะห์ข้อมูลจากแหล่งเก็บข้อมูลโอเพ่นซอร์ส 3 แห่งลงในเครื่องมือการเรียนรู้ทางการแพทย์ที่คุณสามารถลอกชั้นกายวิภาค ตรวจสอบข้อมูลเมตาทางคลินิก และกระตุ้นชีวกลศาสตร์ในการสำรวจร่างกายมนุษย์แบบ 3 มิติ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Argon using Antigravity in the Gemini macOS app generates design iterations for new legs for a sofa using Nano Banana then generates a 3d printable file for one. Starting from a sketch of the measurements and a photo of the couch Argon builds the model to the correct size to fit the sofa.",
+        "th": "Argon ที่ใช้ Antigravity ในแอพ Gemini macOS สร้างการออกแบบซ้ำสำหรับขาใหม่สำหรับโซฟาโดยใช้ Nano Banana จากนั้นสร้างไฟล์ที่พิมพ์ได้ 3 มิติสำหรับขาโซฟาตัวหนึ่ง เริ่มต้นจากการสเก็ตช์ขนาดและรูปถ่ายโซฟา อาร์กอนสร้างโมเดลให้มีขนาดที่ถูกต้องเพื่อให้พอดีกับโซฟา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "At Isomorphic Labs, the team is using Argon as a partner to accelerate their drug discovery and design research workflows. Argon is able to quickly synthesize complex PDFs and patents to extract pertinent information, reducing a process that typically takes weeks into hours.",
+        "th": "ที่ Isomorphic Labs ทีมงานใช้ Argon เป็นพันธมิตรเพื่อเร่งการค้นคว้ายาและออกแบบขั้นตอนการวิจัย Argon สามารถสังเคราะห์ PDF และสิทธิบัตรที่ซับซ้อนได้อย่างรวดเร็วเพื่อดึงข้อมูลที่เกี่ยวข้อง ช่วยลดขั้นตอนที่ปกติจะใช้เวลาหลายสัปดาห์จนเหลือหลายชั่วโมง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Accelerating real-world impact with researchers and domain experts",
+        "th": "เร่งสร้างผลกระทบในโลกแห่งความเป็นจริงด้วยนักวิจัยและผู้เชี่ยวชาญในโดเมน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Researchers, engineers, and security specialists are already using Argon to push the boundaries of cyber defense, science, math, and robotics. It’s helping cyber defenders and researchers test hypotheses, autonomously audit critical codebases and formal proofs, and catch subtle zero-day vulnerabilities and logic flaws.",
+        "th": "นักวิจัย วิศวกร และผู้เชี่ยวชาญด้านความปลอดภัยกำลังใช้ Argon เพื่อก้าวข้ามขอบเขตของการป้องกันทางไซเบอร์ วิทยาศาสตร์ คณิตศาสตร์ และหุ่นยนต์ ช่วยให้ผู้พิทักษ์และนักวิจัยในโลกไซเบอร์ทดสอบสมมติฐาน ตรวจสอบฐานรหัสที่สำคัญและการพิสูจน์อย่างเป็นทางการโดยอัตโนมัติ และตรวจจับช่องโหว่แบบละเอียดอ่อนและข้อบกพร่องทางตรรกะ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Bringing state-of-the-art cyber capabilities to more trusted defenders",
+        "th": "นำความสามารถทางไซเบอร์ที่ล้ำสมัยมาสู่ผู้พิทักษ์ที่เชื่อถือได้มากขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Starting today, we’re beginning expansion to hundreds of additional Fairwind Program partners.",
+        "th": "ตั้งแต่วันนี้เป็นต้นไป เรากำลังเริ่มขยายไปสู่พันธมิตรโปรแกรม Fairwind เพิ่มเติมหลายร้อยราย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Wiz is already using Argon for its \"Scan for Good\" initiative, which protects critical infrastructure for the public good and for free. With early access to the model, Wiz has demonstrated Argon's real-world impact across multiple high-stakes sectors:",
+        "th": "Wiz กำลังใช้ Argon สำหรับโครงการริเริ่ม \"Scan for Good\" ซึ่งปกป้องโครงสร้างพื้นฐานที่สำคัญเพื่อสาธารณประโยชน์และฟรี ด้วยการเข้าถึงโมเดลนี้ก่อนกำหนด Wiz ได้แสดงให้เห็นถึงผลกระทบในโลกแห่งความเป็นจริงของ Argon ในภาคส่วนต่างๆ ที่มีความเสี่ยงสูง:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Securing sensitive government data: As part of a long-standing cyber resilience program and in collaboration with a federal agency, Argon helped to proactively identify and remediate a gap that risked exposing sensitive data and government infrastructure. This effort helped prevent against the exposure of critical security sector development details and unauthorized access to specialized models.",
+        "th": "การรักษาความปลอดภัยข้อมูลรัฐบาลที่ละเอียดอ่อน: ในฐานะส่วนหนึ่งของโปรแกรมความยืดหยุ่นทางไซเบอร์ที่มีมายาวนานและด้วยความร่วมมือกับหน่วยงานรัฐบาลกลาง Argon ช่วยในการระบุและแก้ไขช่องว่างในเชิงรุกที่เสี่ยงต่อการเปิดเผยข้อมูลที่ละเอียดอ่อนและโครงสร้างพื้นฐานของรัฐบาล ความพยายามนี้ช่วยป้องกันการเปิดเผยรายละเอียดการพัฒนาภาคการรักษาความปลอดภัยที่สำคัญและการเข้าถึงโมเดลพิเศษโดยไม่ได้รับอนุญาต"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Protecting critical healthcare infrastructure: Wiz also used Argon to protect vital healthcare infrastructure. By chaining complex vulnerabilities, the model helped the team discover and quickly fix a public file download bypass that exposed a master key and granted administrator access. Argon went beyond spotting a vulnerability to proactively safeguarding hundreds of thousands of private patient records.",
+        "th": "การปกป้องโครงสร้างพื้นฐานด้านการดูแลสุขภาพที่สำคัญ: Wiz ยังใช้ Argon เพื่อปกป้องโครงสร้างพื้นฐานด้านการดูแลสุขภาพที่สำคัญอีกด้วย ด้วยการเชื่อมโยงช่องโหว่ที่ซับซ้อน โมเดลนี้ช่วยให้ทีมค้นพบและแก้ไขการเลี่ยงการดาวน์โหลดไฟล์สาธารณะที่เปิดเผยคีย์หลักและให้สิทธิ์การเข้าถึงของผู้ดูแลระบบได้อย่างรวดเร็ว อาร์กอนทำมากกว่าการระบุจุดอ่อนในการปกป้องบันทึกส่วนตัวของผู้ป่วยนับแสนรายในเชิงรุก"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Unlocking new scientific breakthroughs",
+        "th": "ปลดล็อกความก้าวหน้าทางวิทยาศาสตร์ใหม่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Argon is already having real-world impact across the scientific community — enabling novel discovery for scientists and experts across multiple domains.",
+        "th": "อาร์กอนมีผลกระทบในโลกแห่งความเป็นจริงทั่วทั้งชุมชนวิทยาศาสตร์ ทำให้นักวิทยาศาสตร์และผู้เชี่ยวชาญสามารถค้นพบสิ่งใหม่ๆ ในหลายโดเมนได้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Quantum computing: Argon is helping our researchers accelerate progress across both quantum error correction and algorithm design. To help error decoders keep pace with quantum hardware in real-time, Argon translated an internal version of AlphaQubit, our ML quantum error correction decoder, into a single, highly optimized hardware kernel — nearly doubling its inference throughput so we can deploy larger, more capable models and scale to larger quantum devices, while continuing to meet strict real-time thresholds. Argon is also reducing spacetime costs for quantum subroutines. For arcsin, a building block in recent quantum simulation algorithms, an implementation written by Argon and formally verified in Lean cuts spacetime cost by more than 100x compared to a published quantum CORDIC baseline, a step toward a standard library of optimized quantum circuits.",
+        "th": "การประมวลผลควอนตัม: อาร์กอนช่วยให้นักวิจัยของเราเร่งความคืบหน้าทั้งการแก้ไขข้อผิดพลาดควอนตัมและการออกแบบอัลกอริทึม เพื่อช่วยให้ตัวถอดรหัสข้อผิดพลาดก้าวทันฮาร์ดแวร์ควอนตัมแบบเรียลไทม์ Argon ได้แปลเวอร์ชันภายในของ AlphaQubit ซึ่งเป็นตัวถอดรหัสการแก้ไขข้อผิดพลาดควอนตัม ML ของเราไปเป็นเคอร์เนลฮาร์ดแวร์ตัวเดียวที่ได้รับการปรับปรุงประสิทธิภาพขั้นสูง — เพิ่มปริมาณงานการอนุมานเกือบสองเท่า ดังนั้นเราจึงสามารถปรับใช้โมเดลที่ใหญ่ขึ้นและมีความสามารถมากขึ้น และปรับขนาดไปยังอุปกรณ์ควอนตัมที่ใหญ่ขึ้นได้ ขณะเดียวกันก็ยังคงปฏิบัติตามเกณฑ์แบบเรียลไทม์ที่เข้มงวดต่อไป อาร์กอนยังช่วยลดต้นทุนกาลอวกาศสำหรับรูทีนย่อยควอนตัมอีกด้วย สำหรับ arcsin ซึ่งเป็นองค์ประกอบสำคัญของอัลกอริธึมการจำลองควอนตัมล่าสุด การใช้งานที่เขียนโดย Argon และได้รับการตรวจสอบอย่างเป็นทางการในแบบ Lean ช่วยลดต้นทุนกาลอวกาศได้มากกว่า 100 เท่า เมื่อเทียบกับข้อมูลพื้นฐานควอนตัม CORDIC ที่เผยแพร่ ซึ่งถือเป็นก้าวสู่คลังมาตรฐานของวงจรควอนตัมที่ได้รับการปรับปรุงประสิทธิภาพ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Nuclear fusion: Stellarators are incredibly complex machines that represent a leading candidate for limitless clean fusion energy, but optimizing their 3D magnetic fields is famously difficult. Since 1967, a long-standing hypothesis known as “Grad’s conjecture” assumed that finding exact mathematical solutions for these fields was impossible, until recent counterexamples were found, including by Professor Matt Landreman (University of Maryland). Now, a team at Google alongside Professor Landreman has discovered a broader class of counterexamples to Grad's conjecture. These new solutions give the fusion community reliable benchmarks to test their stellarator simulations codes, which are valuable tools for future designs.",
+        "th": "นิวเคลียร์ฟิวชัน: เครื่อง Stellarators เป็นเครื่องจักรที่ซับซ้อนอย่างไม่น่าเชื่อ ซึ่งเป็นตัวแทนของตัวเลือกชั้นนำสำหรับพลังงานฟิวชันสะอาดที่ไร้ขีดจำกัด แต่การปรับสนามแม่เหล็ก 3 มิติให้เหมาะสมนั้นเป็นเรื่องยากที่โด่งดัง ตั้งแต่ปี 1967 เป็นต้นมา สมมติฐานที่มีมายาวนานซึ่งเรียกว่า \"การคาดเดาของผู้สำเร็จการศึกษา\" สันนิษฐานว่าการค้นหาคำตอบทางคณิตศาสตร์ที่แน่นอนสำหรับสาขาเหล่านี้เป็นไปไม่ได้ จนกระทั่งพบตัวอย่างแย้งล่าสุด ซึ่งรวมถึงศาสตราจารย์ Matt Landreman (มหาวิทยาลัยแมริแลนด์) ขณะนี้ ทีมงานของ Google ร่วมกับศาสตราจารย์ Landreman ได้ค้นพบตัวอย่างแย้งที่กว้างขวางมากขึ้นต่อการคาดเดาของ Grad โซลูชันใหม่เหล่านี้ให้เกณฑ์มาตรฐานที่เชื่อถือได้สำหรับชุมชนฟิวชั่นในการทดสอบโค้ดการจำลอง Stellarator ซึ่งเป็นเครื่องมืออันมีค่าสำหรับการออกแบบในอนาคต"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Rare disease research: Researchers at Gamow Labs used Argon to analyze de-identified genomes from newborns with rare developmental lung disorders. In one case, Argon pinpointed a chromosomal rearrangement that routine software missed for years, and explained why it went undetected. On private Gamow Labs evals derived from real clinical and lab data, Argon topped on RareBench (57% on assistance with rare-disease diagnosis) and LabBench (52.2% on wet-lab reasoning). These advances point to faster diagnosis for families facing rare conditions. See blog 2 for more details.",
+        "th": "การวิจัยโรคที่พบไม่บ่อย: นักวิจัยที่ Gamow Labs ใช้ Argon ในการวิเคราะห์จีโนมที่ไม่ระบุตัวตนจากทารกแรกเกิดที่มีความผิดปกติของปอดในพัฒนาการซึ่งพบไม่บ่อย ในกรณีหนึ่ง Argon ระบุการจัดเรียงโครโมโซมใหม่ที่ซอฟต์แวร์ประจำพลาดมานานหลายปี และอธิบายว่าทำไมจึงตรวจไม่พบ ในการประเมิน Gamow Labs ส่วนตัวที่ได้มาจากข้อมูลทางคลินิกและห้องปฏิบัติการจริง Argon อยู่ในอันดับสูงสุดใน RareBench (57% ในด้านความช่วยเหลือในการวินิจฉัยโรคที่หายาก) และ LabBench (52.2% ในด้านการให้เหตุผลในห้องปฏิบัติการเปียก) ความก้าวหน้าเหล่านี้ชี้ให้เห็นถึงการวินิจฉัยที่รวดเร็วยิ่งขึ้นสำหรับครอบครัวที่เผชิญกับภาวะที่หายาก ดูบล็อก 2 สำหรับรายละเอียดเพิ่มเติม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Enzyme design: Engineering enzymes with precise reactivity is notoriously slow, often demanding months of bespoke model tuning and candidate screening. Serine esterases are a class of enzymes that cut ester bonds on targeted molecules, widely used in recycling, and the manufacture of pharmaceuticals, biofuels and detergents. Our scientists worked with Argon to design serine esterases, targeting the benchmark molecule 4MU-acetate that glows under UV light once its ester bonds are broken. In a matter of hours, Argon assembled relevant data, performed model tuning and identified multiple biochemistry-inspired filters to get to a final set of five novel designs. Subsequent laboratory testing confirmed robust catalytic activity across these designs. The speed and ease of successful enzyme generation demonstrates the potential for rapid acceleration in enzyme engineering in fields such as biomanufacturing, green chemistry, and drug development.",
+        "th": "การออกแบบเอนไซม์: เอ็นไซม์ทางวิศวกรรมที่มีปฏิกิริยาที่แม่นยำนั้นช้าอย่างฉาวโฉ่ โดยมักต้องใช้เวลาหลายเดือนในการปรับแต่งแบบจำลองและการคัดกรองผู้สมัครตามความต้องการ ซีรีนเอสเทอเรสเป็นเอนไซม์ประเภทหนึ่งที่ตัดพันธะเอสเทอร์บนโมเลกุลเป้าหมาย ซึ่งใช้กันอย่างแพร่หลายในการรีไซเคิล และการผลิตยา เชื้อเพลิงชีวภาพ และผงซักฟอก นักวิทยาศาสตร์ของเราทำงานร่วมกับ Argon ในการออกแบบซีรีนเอสเทอเรส โดยมุ่งเป้าไปที่โมเลกุลมาตรฐาน 4MU-อะซิเตต ซึ่งจะเรืองแสงภายใต้แสงยูวีเมื่อพันธะเอสเทอร์ถูกทำลาย ภายในเวลาไม่กี่ชั่วโมง Argon รวบรวมข้อมูลที่เกี่ยวข้อง ดำเนินการปรับแต่งแบบจำลอง และระบุตัวกรองที่ได้รับแรงบันดาลใจจากชีวเคมีหลายตัว เพื่อให้ได้ชุดสุดท้ายของการออกแบบใหม่ห้าชุด การทดสอบในห้องปฏิบัติการต่อมาได้ยืนยันกิจกรรมการเร่งปฏิกิริยาที่มีประสิทธิภาพในการออกแบบเหล่านี้ ความเร็วและความง่ายในการสร้างเอนไซม์ที่ประสบความสำเร็จแสดงให้เห็นถึงศักยภาพในการเร่งความเร็วอย่างรวดเร็วในวิศวกรรมเอนไซม์ในสาขาต่างๆ เช่น การผลิตทางชีวภาพ เคมีสีเขียว และการพัฒนายา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To further advance the pace of research, we’re offering 10,000 scientists the highest usage tier in Google Antigravity free of charge for 6 months (onboarded on a rolling basis), subject to eligibility, capacity, and selection. Applications are now open.",
+        "th": "เพื่อพัฒนาการวิจัยให้ก้าวหน้ายิ่งขึ้น เราขอเสนอระดับการใช้งานสูงสุดใน Google Antigravity ให้กับนักวิทยาศาสตร์ 10,000 คนโดยไม่เสียค่าใช้จ่ายเป็นเวลา 6 เดือน (เริ่มใช้งานแบบต่อเนื่อง) ขึ้นอยู่กับคุณสมบัติ ความสามารถ และการคัดเลือก เปิดรับสมัครแล้ว"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Speeding up robotics development",
+        "th": "เร่งพัฒนาหุ่นยนต์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By bringing together advanced visual-semantic reasoning, deep physical understanding, and autonomous code generation, Argon unlocks new workflows across the robotics stack and accelerates progress toward physical AGI. This leap in capability is reflected in Argon’s performance on the Embodied Reasoning (ERQA) benchmark, which tests a model's ability to understand and solve physical, spatial problems in 3D environments. Relying on pure reasoning, Argon outperforms all other frontier models, with an 87% score.",
+        "th": "ด้วยการนำการใช้เหตุผลเชิงภาพและความหมายขั้นสูง ความเข้าใจทางกายภาพเชิงลึก และการสร้างโค้ดอัตโนมัติ Argon ปลดล็อกขั้นตอนการทำงานใหม่ทั่วทั้งกลุ่มหุ่นยนต์ และเร่งความก้าวหน้าไปสู่ ​​AGI ทางกายภาพ ความสามารถที่ก้าวกระโดดนี้สะท้อนให้เห็นในประสิทธิภาพของ Argon ในเกณฑ์มาตรฐาน Embodied Reasoning (ERQA) ซึ่งจะทดสอบความสามารถของโมเดลในการทำความเข้าใจและแก้ไขปัญหาทางกายภาพและเชิงพื้นที่ในสภาพแวดล้อม 3 มิติ ด้วยการใช้เหตุผลล้วนๆ Argon มีประสิทธิภาพเหนือกว่าโมเดลขอบเขตอื่นๆ ทั้งหมด ด้วยคะแนน 87%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To demonstrate these capabilities in action, we tested Argon’s ability to learn an out-of-distribution physical skill simply by watching. In an internal test, Argon watched a raw video of a human playing cornhole, mapped the spatial coordinates of the environment, and calculated the required whole-body joint movements. It then autonomously built the simulation code. When transferred onto Apptronik’s Apollo humanoid, the robot quickly sank seven consecutive shots in a real-world trial.",
+        "th": "เพื่อแสดงให้เห็นถึงความสามารถเหล่านี้ในทางปฏิบัติ เราได้ทดสอบความสามารถของ Argon ในการเรียนรู้ทักษะทางกายภาพที่ไม่เผยแพร่เพียงแค่รับชม ในการทดสอบภายใน Argon ได้ดูวิดีโอดิบของมนุษย์กำลังเล่น cornhole ทำแผนที่พิกัดเชิงพื้นที่ของสภาพแวดล้อม และคำนวณการเคลื่อนไหวของข้อต่อทั้งร่างกายที่จำเป็น จากนั้นจะสร้างโค้ดจำลองขึ้นมาโดยอัตโนมัติ เมื่อถ่ายโอนไปยังหุ่นยนต์ Apollo ของ Apptronik หุ่นยนต์จะจมลงอย่างรวดเร็วเจ็ดนัดติดต่อกันในการทดลองในโลกแห่งความเป็นจริง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This \"Video-to-Sim-to-Real\" pipeline compresses weeks of manual simulation modeling into a few hours, transforming ordinary videos into a scalable, infinite training ground for robotics. Learn more about how this accelerates the pace of development in robotics in our developers blog.",
+        "th": "ไปป์ไลน์ \"Video-to-Sim-to-Real\" นี้บีบอัดการสร้างแบบจำลองด้วยตนเองหลายสัปดาห์ให้เหลือเพียงไม่กี่ชั่วโมง เปลี่ยนวิดีโอธรรมดาให้กลายเป็นพื้นที่ฝึกอบรมที่ไม่มีที่สิ้นสุดสำหรับวิทยาการหุ่นยนต์ เรียนรู้เพิ่มเติมเกี่ยวกับวิธีที่สิ่งนี้ช่วยเร่งการพัฒนาด้านวิทยาการหุ่นยนต์ในบล็อกนักพัฒนาของเรา"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Developing Argon responsibly and safely",
+        "th": "การพัฒนาอาร์กอนอย่างมีความรับผิดชอบและปลอดภัย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Safety and security are foundational to model development at Google. Because Argon is a highly capable model, we collaborated with a variety of third-party partners on measurement of certain model capabilities and safeguards. Gemini 4 Argon represents our most comprehensive safety and security stack yet:",
+        "th": "ความปลอดภัยและการรักษาความปลอดภัยเป็นรากฐานของการพัฒนาแบบจำลองที่ Google เนื่องจาก Argon เป็นโมเดลที่มีความสามารถสูง เราจึงร่วมมือกับพันธมิตรบุคคลที่สามหลายรายในการวัดความสามารถและการป้องกันบางอย่างของโมเดล Gemini 4 Argon เป็นตัวแทนกลุ่มความปลอดภัยและการรักษาความปลอดภัยที่ครอบคลุมที่สุดของเรา:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Misuse & jailbreak defenses: The same coding and scientific capabilities that help defenders patch hospital software or accelerate bioengineering also require strong safeguards against malicious actors. Under our Frontier Safety Framework, we evaluated Argon’s enhanced capabilities across several domains, and deployed a multi-layer defense stack combining jailbreak resistance, monitoring, and enforcement. This greatly improved our robustness — for instance, external bio red teaming could only unlock less than 1% of bio sub-tasks we test for. Further, when it comes to dangerous requests — from writing exploit code to helping with dangerous biological materials — Argon is significantly better at not fulfilling harmful requests than our previous models. On an adversarial set meant to stress test the model, violations reduced nearly 2-fold — also significantly better than previous Gemini models.",
+        "th": "การป้องกันการใช้งานในทางที่ผิดและการเจลเบรค: ความสามารถด้านการเขียนโค้ดและวิทยาศาสตร์แบบเดียวกันที่ช่วยให้ผู้พิทักษ์แพตช์ซอฟต์แวร์ของโรงพยาบาลหรือเร่งวิศวกรรมชีวภาพยังต้องการการป้องกันที่แข็งแกร่งต่อผู้กระทำผิด ภายใต้กรอบการทำงานด้านความปลอดภัยชายแดน เราได้ประเมินความสามารถที่ได้รับการปรับปรุงของ Argon ในหลายโดเมน และปรับใช้สแต็คการป้องกันหลายชั้นที่ผสมผสานการต้านทานการแหกคุก การตรวจสอบ และการบังคับใช้ สิ่งนี้ช่วยปรับปรุงความแข็งแกร่งของเราอย่างมาก ตัวอย่างเช่น การรวมทีม bio red ภายนอกสามารถปลดล็อกงานย่อยทางชีวภาพที่เราทดสอบได้น้อยกว่า 1% เท่านั้น นอกจากนี้ เมื่อพูดถึงคำขอที่เป็นอันตราย ตั้งแต่การเขียนโค้ดช่องโหว่ไปจนถึงการช่วยเหลือเกี่ยวกับวัสดุชีวภาพที่เป็นอันตราย Argon ทำได้ดีกว่ามากที่จะไม่ตอบสนองคำขอที่เป็นอันตรายมากกว่ารุ่นก่อนๆ ของเรา ในชุดฝ่ายตรงข้ามที่มีไว้เพื่อทดสอบความเครียดกับโมเดล การละเมิดกฎลดลงเกือบ 2 เท่า และยังดีกว่ารุ่น Gemini รุ่นก่อนๆ อย่างมากอีกด้วย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Agent alignment & real-time monitoring: As agents become more capable problem solvers, we have to ensure they don’t get overly eager to finish a task by taking unauthorized shortcuts when they hit a roadblock, like a permission error or a failing test.First, we trained Argon to respect system boundaries, report negative findings honestly, and pause for human confirmation before taking irreversible steps. On coding benchmarks where models have no incentive to hold back, shortcut attempts dropped to just 2% on Gemini 4 Argon, our best performance compared to previous Gemini models.Second, as a defense-in-depth layer, we built an automated misalignment monitor that reads the agent’s step-by-step reasoning and actions to catch and block unintended workarounds in real time. We used this monitor across internal deployments, capability evaluations, and reinforcement learning training runs — while strictly avoiding penalizing the model’s thoughts during training so its reasoning remains transparent and monitorable.",
+        "th": "การจัดตำแหน่งเจ้าหน้าที่และการตรวจสอบแบบเรียลไทม์: เนื่องจากเจ้าหน้าที่กลายเป็นนักแก้ปัญหาที่มีความสามารถมากขึ้น เราต้องแน่ใจว่าพวกเขาไม่กระตือรือร้นมากเกินไปที่จะทำงานให้เสร็จโดยใช้ทางลัดที่ไม่ได้รับอนุญาตเมื่อพบสิ่งกีดขวาง เช่น ข้อผิดพลาดในการอนุญาตหรือการทดสอบล้มเหลว อันดับแรก เราฝึก Argon ให้เคารพขอบเขตของระบบ รายงานผลการค้นพบเชิงลบอย่างตรงไปตรงมา และหยุดชั่วคราวเพื่อยืนยันโดยมนุษย์ก่อนที่จะดำเนินการขั้นตอนที่ไม่สามารถย้อนกลับได้ ในเกณฑ์มาตรฐานการเข้ารหัสซึ่งโมเดลไม่มีแรงจูงใจที่จะระงับ ความพยายามทางลัดลดลงเหลือเพียง 2% ใน Gemini 4 Argon ซึ่งเป็นประสิทธิภาพที่ดีที่สุดของเราเมื่อเทียบกับรุ่น Gemini รุ่นก่อนๆ ประการที่สอง ในฐานะเลเยอร์การป้องกันในเชิงลึก เราได้สร้างการตรวจสอบการวางแนวที่ไม่ตรงโดยอัตโนมัติ ซึ่งจะอ่านการให้เหตุผลและการดำเนินการทีละขั้นตอนของตัวแทนเพื่อตรวจจับและบล็อกวิธีแก้ปัญหาที่ไม่ได้ตั้งใจในแบบเรียลไทม์ เราใช้การตรวจสอบนี้ในการปรับใช้ภายใน การประเมินความสามารถ และการฝึกอบรมการเรียนรู้แบบเสริมกำลัง — ในขณะเดียวกันก็หลีกเลี่ยงการลงโทษความคิดของแบบจำลองในระหว่างการฝึกอบรมอย่างเคร่งครัด ดังนั้นการให้เหตุผลจึงยังคงโปร่งใสและตรวจสอบได้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "First, we trained Argon to respect system boundaries, report negative findings honestly, and pause for human confirmation before taking irreversible steps. On coding benchmarks where models have no incentive to hold back, shortcut attempts dropped to just 2% on Gemini 4 Argon, our best performance compared to previous Gemini models.",
+        "th": "อันดับแรก เราได้ฝึก Argon ให้เคารพขอบเขตของระบบ รายงานการค้นพบเชิงลบอย่างตรงไปตรงมา และหยุดชั่วคราวเพื่อยืนยันโดยมนุษย์ก่อนที่จะดำเนินการขั้นตอนที่ไม่สามารถย้อนกลับได้ ในเกณฑ์มาตรฐานการเข้ารหัสซึ่งโมเดลไม่มีแรงจูงใจที่จะระงับ ความพยายามทางลัดลดลงเหลือเพียง 2% ใน Gemini 4 Argon ซึ่งเป็นประสิทธิภาพที่ดีที่สุดของเราเมื่อเทียบกับรุ่น Gemini ก่อนหน้า"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Second, as a defense-in-depth layer, we built an automated misalignment monitor that reads the agent’s step-by-step reasoning and actions to catch and block unintended workarounds in real time. We used this monitor across internal deployments, capability evaluations, and reinforcement learning training runs — while strictly avoiding penalizing the model’s thoughts during training so its reasoning remains transparent and monitorable.",
+        "th": "ประการที่สอง ในฐานะเลเยอร์การป้องกันในเชิงลึก เราได้สร้างการตรวจสอบการวางแนวที่ไม่ตรงโดยอัตโนมัติซึ่งจะอ่านการให้เหตุผลและการดำเนินการทีละขั้นตอนของตัวแทนเพื่อตรวจจับและบล็อกวิธีแก้ปัญหาที่ไม่ได้ตั้งใจในแบบเรียลไทม์ เราใช้การตรวจสอบนี้ในการปรับใช้ภายใน การประเมินความสามารถ และการฝึกอบรมการเรียนรู้แบบเสริมกำลัง — ในขณะเดียวกันก็หลีกเลี่ยงการลงโทษความคิดของแบบจำลองในระหว่างการฝึกอบรมอย่างเคร่งครัด ดังนั้นการให้เหตุผลจึงยังคงโปร่งใสและตรวจสอบได้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Prompt injection resistance: When agents browse webpages, read emails, or inspect code, they can encounter hidden malicious instructions designed to hijack their task. Through adversarial training and automated red teaming, Argon leads the Gray Swan Indirect Prompt Injection (IPI) benchmark, cutting attack success across 15 adaptive attempts to 0.7%.",
+        "th": "การต่อต้านการฉีดทันที: เมื่อเจ้าหน้าที่เรียกดูหน้าเว็บ อ่านอีเมล หรือตรวจสอบโค้ด พวกเขาอาจพบคำแนะนำที่เป็นอันตรายที่ซ่อนอยู่ซึ่งออกแบบมาเพื่อแย่งชิงงานของพวกเขา ด้วยการฝึกอบรมฝ่ายตรงข้ามและการรวมทีมสีแดงแบบอัตโนมัติ Argon เป็นผู้นำเกณฑ์มาตรฐาน Grey Swan Indirect Prompt Injection (IPI) ซึ่งลดความสำเร็จในการโจมตีจากความพยายามในการปรับตัว 15 ครั้งเหลือ 0.7%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For more information, see the Gemini 4 Argon Model Card.",
+        "th": "สำหรับข้อมูลเพิ่มเติม โปรดดูการ์ดโมเดล Gemini 4 Argon"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get started today",
+        "th": "เริ่มต้นวันนี้เลย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Argon works longer and harder to solve highly complex scientific, coding, and agentic problems. This is enabled by an industry-leading 1M unified input-output token limit via the Gemini API. Read through our documentation for developers and enterprises to learn about the new continuation protocol and ensure the appropriate setup for your needs. Argon is rolling out today globally:",
+        "th": "อาร์กอนทำงานนานขึ้นและหนักขึ้นในการแก้ปัญหาทางวิทยาศาสตร์ การเข้ารหัส และเอเจนต์ที่ซับซ้อนสูง สิ่งนี้เปิดใช้งานโดยการจำกัดโทเค็นอินพุต-เอาท์พุตแบบรวม 1M ชั้นนำของอุตสาหกรรมผ่าน Gemini API อ่านเอกสารประกอบของเราสำหรับนักพัฒนาและองค์กรเพื่อเรียนรู้เกี่ยวกับโปรโตคอลความต่อเนื่องใหม่และให้แน่ใจว่ามีการตั้งค่าที่เหมาะสมกับความต้องการของคุณ Argon กำลังเปิดตัวทั่วโลกแล้ววันนี้:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For developers: Build with the Gemini API paid tier in AI Studio and Android Studio, and if you’re a Google AI Ultra subscriber, you can try it in Google Antigravity and AI Studio.",
+        "th": "สำหรับนักพัฒนา: สร้างด้วย Gemini API ระดับที่ต้องชำระเงินใน AI Studio และ Android Studio และหากคุณเป็นสมาชิก Google AI Ultra คุณสามารถลองใช้ได้ใน Google Antigravity และ AI Studio"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For enterprises: Try it in Gemini for business, the API, and in Google Antigravity.",
+        "th": "สำหรับองค์กร: ลองใช้ใน Gemini สำหรับธุรกิจ, API และใน Google Antigravity"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For everyday users: Try it starting today in the Gemini app and AI Mode in Search if you’re a Google AI Ultra or Pro subscriber.",
+        "th": "สำหรับผู้ใช้ทั่วไป: ลองใช้ตั้งแต่วันนี้ในแอป Gemini และโหมด AI ในการค้นหา หากคุณเป็นสมาชิก Google AI Ultra หรือ Pro"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For scientists & researchers: Apply for a chance to get access to Google Antigravity’s highest usage tier free of charge for 6 months (onboarded on a rolling basis), subject to eligibility, capacity, and selection. Applications are now open.",
+        "th": "สำหรับนักวิทยาศาสตร์และนักวิจัย: สมัครเพื่อรับโอกาสเข้าถึงระดับการใช้งานสูงสุดของ Google Antigravity โดยไม่เสียค่าใช้จ่ายเป็นเวลา 6 เดือน (เริ่มใช้งานแบบต่อเนื่อง) ขึ้นอยู่กับคุณสมบัติ ความจุ และการคัดเลือก เปิดรับสมัครแล้ว"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For cybersecurity defenders: Apply to join the Fairwind Program to get access to Argon without cyber guardrails on a rolling basis.",
+        "th": "สำหรับผู้พิทักษ์ความปลอดภัยทางไซเบอร์: สมัครเพื่อเข้าร่วมโปรแกรม Fairwind เพื่อเข้าถึง Argon โดยไม่มีรั้วกั้นทางไซเบอร์อย่างต่อเนื่อง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini 4 Argon is just the beginning. We’re looking forward to bringing you the rest of the Gemini 4 family.",
+        "th": "Gemini 4 Argon เป็นเพียงจุดเริ่มต้น เรารอคอยที่จะนำเสนอส่วนที่เหลือของครอบครัว Gemini 4 ให้กับคุณ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini models",
+        "th": "โมเดลราศีเมถุน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "AI",
+        "th": "AI"
+      }
+    }
+  ]
+}

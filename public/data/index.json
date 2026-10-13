@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-10-13T08:47:30.477Z",
+  "generatedAt": "2026-10-13T17:18:18.642Z",
   "items": [
+    {
+      "id": "huggingface__lfm25-24b-a2b",
+      "slug": "lfm25-24b-a2b",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "category": "News",
+      "date": "2026-10-13T17:05:48.000Z",
+      "image": null,
+      "title": {
+        "en": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+        "th": "เรียกใช้ตัวแทนส่วนตัวอย่างรวดเร็วบนอุปกรณ์ด้วย LFM2.5-24B-A2B"
+      },
+      "summary": {
+        "en": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+        "th": "เรียกใช้ตัวแทนส่วนตัวอย่างรวดเร็วบนอุปกรณ์ด้วย LFM2.5-24B-A2B"
+      }
+    },
+    {
+      "id": "deepmind__gemini-4-argon-for-robotics",
+      "slug": "gemini-4-argon-for-robotics",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "category": "News",
+      "date": "2026-10-13T16:01:58.000Z",
+      "image": null,
+      "title": {
+        "en": "Gemini 4 Argon for Robotics",
+        "th": "Gemini 4 Argon สำหรับวิทยาการหุ่นยนต์"
+      },
+      "summary": {
+        "en": "Gemini 4 Argon for Robotics",
+        "th": "Gemini 4 Argon สำหรับวิทยาการหุ่นยนต์"
+      }
+    },
+    {
+      "id": "deepmind__introducing-gemini-4-argon",
+      "slug": "introducing-gemini-4-argon",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "category": "News",
+      "date": "2026-10-13T16:01:52.000Z",
+      "image": null,
+      "title": {
+        "en": "Gemini 4 Argon: Built to solve your hardest problems",
+        "th": "Gemini 4 Argon: สร้างขึ้นเพื่อแก้ไขปัญหาที่ยากที่สุดของคุณ"
+      },
+      "summary": {
+        "en": "Gemini 4 Argon: Built to solve your hardest problems",
+        "th": "Gemini 4 Argon: สร้างขึ้นเพื่อแก้ไขปัญหาที่ยากที่สุดของคุณ"
+      }
+    },
+    {
+      "id": "google-ai__introducing-gemini-4-argon",
+      "slug": "introducing-gemini-4-argon",
+      "source": "google-ai",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "category": "Gemini models",
+      "date": "2026-10-13T16:00:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp",
+      "title": {
+        "en": "Gemini 4 Argon: Built to solve your hardest problems",
+        "th": "Gemini 4 Argon: สร้างขึ้นเพื่อแก้ไขปัญหาที่ยากที่สุดของคุณ"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp\">We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 A",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp\">เราให้นักพัฒนา องค์กร นักวิทยาศาสตร์ และผู้บริโภคสามารถเข้าถึง Gemini 4 A"
+      }
+    },
     {
       "id": "huggingface__impactful-scheduling",
       "slug": "impactful-scheduling",
@@ -186,23 +254,6 @@
       "summary": {
         "en": "The model that didn't exist, so you made it yourself",
         "th": "The model that didn't exist, so you made it yourself"
-      }
-    },
-    {
-      "id": "huggingface__open-d1",
-      "slug": "open-d1",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "category": "News",
-      "date": "2026-10-07T16:54:33.000Z",
-      "image": null,
-      "title": {
-        "en": "Multimodal open d1 decision models for the edge",
-        "th": "Multimodal open d1 decision models for the edge"
-      },
-      "summary": {
-        "en": "Multimodal open d1 decision models for the edge",
-        "th": "Multimodal open d1 decision models for the edge"
       }
     },
     {
@@ -1821,23 +1872,6 @@
       }
     },
     {
-      "id": "google-ai__book-travel-ai-mode",
-      "slug": "book-travel-ai-mode",
-      "source": "google-ai",
-      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
-      "category": "Search",
-      "date": "2026-08-27T16:00:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Travel_Blog_Hero_8.27.max-600x600.format-webp.webp",
-      "title": {
-        "en": "3 new ways to plan and book travel in Search",
-        "th": "3 new ways to plan and book travel in Search"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Travel_Blog_Hero_8.27.max-600x600.format-webp.webp\">Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Sear",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Travel_Blog_Hero_8.27.max-600x600.format-webp.webp\">Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Sear"
-      }
-    },
-    {
       "id": "deepmind__piloting-the-worlds-first-double-blind-ai-evaluations",
       "slug": "piloting-the-worlds-first-double-blind-ai-evaluations",
       "source": "deepmind",
@@ -2515,40 +2549,6 @@
       "summary": {
         "en": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
         "th": "ผลลัพธ์จากการทดลองแบบสุ่มที่มีกลุ่มควบคุมแสดงให้เห็นถึงศักยภาพของฟีเจอร์การเรียนรู้พร้อมคำแนะนำของ Gemini ในการเพิ่มการมีส่วนร่วมและเร่งการเรียนรู้"
-      }
-    },
-    {
-      "id": "deepmind__were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle",
-      "slug": "were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
-      "category": "News",
-      "date": "2026-05-21T19:46:42.000Z",
-      "image": null,
-      "title": {
-        "en": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
-        "th": "เรากำลังเปิดตัวโปรแกรม Google DeepMind Accelerator ในเอเชียแปซิฟิกเพื่อรับมือกับความเสี่ยงด้านสิ่งแวดล้อม"
-      },
-      "summary": {
-        "en": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
-        "th": "เรากำลังเปิดตัวโปรแกรม Google DeepMind Accelerator ในเอเชียแปซิฟิกเพื่อรับมือกับความเสี่ยงด้านสิ่งแวดล้อม"
-      }
-    },
-    {
-      "id": "deepmind__fast-tracking-genetic-leads-to-reverse-cellular-aging",
-      "slug": "fast-tracking-genetic-leads-to-reverse-cellular-aging",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
-      "category": "News",
-      "date": "2026-05-18T18:21:39.000Z",
-      "image": "https://lh3.googleusercontent.com/Xyt_1kwd_q4W4dKV0YND9MzHJF0UOGAYyZjfKEVQK0LoE2HC7i29ZnIG32Sd8RR1qj5iXEzbexg20aePXF5vLjYUB5vO_zdoqAZhKrSV4VVyce5VT1s=w528-h297-n-nu-rw-lo",
-      "title": {
-        "en": "Fast-tracking genetic leads to reverse cellular aging",
-        "th": "พันธุกรรมที่ติดตามอย่างรวดเร็วนำไปสู่การชะลอวัยของเซลล์"
-      },
-      "summary": {
-        "en": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
-        "th": "นักชีววิทยาใช้นักวิทยาศาสตร์ร่วมเพื่อค้นหาปัจจัยใหม่ๆ ที่ช่วยฟื้นฟูเซลล์ของมนุษย์ได้สำเร็จ"
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T09:11:31.958Z",
+  "generatedAt": "2026-10-14T14:49:46.184Z",
   "items": [
     {
       "id": "deepmind__on-device-ai-scam-detection-mddi",
@@ -8,7 +8,7 @@
       "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
       "category": "News",
       "date": "2026-10-14T02:00:14.000Z",
-      "image": "https://lh3.googleusercontent.com/m134KeViYlQXqWaac-fW1TuTvCk1ZQ2EnHF72xH6anzjd4iKukfGHvV3o5PiDTJfSytjxUF2E1rwAAHlZ4ZyCkGkOHV7Uij2ZZ3zsbVZUAFCMCccZQ=w528-h297-n-nu-rw-lo",
+      "image": "https://lh3.googleusercontent.com/5PC4h7MzjC0ojOxiK-nPcRz0b6kUybKnCBjLL3nsb9T9qt7-2ciORJPnrObeFaYbAMqPxIhH4Wq9HD-U73lCivpFBcK8gABvhXXDo2lzUUSk9olsZQ=w528-h297-n-nu-rw-lo",
       "title": {
         "en": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
         "th": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection"
@@ -16,6 +16,40 @@
       "summary": {
         "en": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
         "th": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress."
+      }
+    },
+    {
+      "id": "anthropic__singapore-office-opening",
+      "slug": "singapore-office-opening",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "category": "News",
+      "date": "2026-10-14T00:00:00.000Z",
+      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Globe&backgroundColor=olive",
+      "title": {
+        "en": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+        "th": "Anthropic opens Singapore office and signs MOU with the Government of Singapore"
+      },
+      "summary": {
+        "en": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.",
+        "th": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption."
+      }
+    },
+    {
+      "id": "openai__the-eus-next-chapter-in-ai-is-agentic",
+      "slug": "the-eus-next-chapter-in-ai-is-agentic",
+      "source": "openai",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "category": "Global Affairs",
+      "date": "2026-10-14T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "The EU’s next chapter in AI is agentic",
+        "th": "The EU’s next chapter in AI is agentic"
+      },
+      "summary": {
+        "en": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+        "th": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value."
       }
     },
     {
@@ -869,23 +903,6 @@
       }
     },
     {
-      "id": "openai__how-we-will-do-better-for-australia",
-      "slug": "how-we-will-do-better-for-australia",
-      "source": "openai",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "category": "Company",
-      "date": "2026-09-28T19:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How we will do better for Australia",
-        "th": "How we will do better for Australia"
-      },
-      "summary": {
-        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
-      }
-    },
-    {
       "id": "openai__towards-safety-cases-for-frontier-ai-training",
       "slug": "towards-safety-cases-for-frontier-ai-training",
       "source": "openai",
@@ -900,6 +917,23 @@
       "summary": {
         "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
         "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
+      }
+    },
+    {
+      "id": "openai__how-we-will-do-better-for-australia",
+      "slug": "how-we-will-do-better-for-australia",
+      "source": "openai",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "category": "Company",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How we will do better for Australia",
+        "th": "How we will do better for Australia"
+      },
+      "summary": {
+        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
       }
     },
     {
@@ -954,23 +988,6 @@
       }
     },
     {
-      "id": "openai__codex-originals",
-      "slug": "codex-originals",
-      "source": "openai",
-      "url": "https://openai.com/form/codex-originals",
-      "category": "News",
-      "date": "2026-09-28T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Are you a Codex Original?",
-        "th": "Are you a Codex Original?"
-      },
-      "summary": {
-        "en": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about",
-        "th": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about"
-      }
-    },
-    {
       "id": "openai__basis-tax-workbook-with-astra",
       "slug": "basis-tax-workbook-with-astra",
       "source": "openai",
@@ -985,6 +1002,23 @@
       "summary": {
         "en": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
         "th": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use."
+      }
+    },
+    {
+      "id": "openai__codex-originals",
+      "slug": "codex-originals",
+      "source": "openai",
+      "url": "https://openai.com/form/codex-originals",
+      "category": "News",
+      "date": "2026-09-28T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Are you a Codex Original?",
+        "th": "Are you a Codex Original?"
+      },
+      "summary": {
+        "en": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about",
+        "th": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about"
       }
     },
     {
@@ -1158,20 +1192,20 @@
       }
     },
     {
-      "id": "openai__harvey-from-context-to-confidence-with-astra",
-      "slug": "harvey-from-context-to-confidence-with-astra",
+      "id": "openai__ringg",
+      "slug": "ringg",
       "source": "openai",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "category": "Startup",
+      "url": "https://openai.com/index/ringg",
+      "category": "News",
       "date": "2026-09-23T12:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-        "th": "Harvey turns legal context into stronger drafts with GPT-6 Astra"
+        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
       },
       "summary": {
-        "en": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-        "th": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
+        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
       }
     },
     {
@@ -1189,23 +1223,6 @@
       "summary": {
         "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
         "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
-      }
-    },
-    {
-      "id": "openai__ringg",
-      "slug": "ringg",
-      "source": "openai",
-      "url": "https://openai.com/index/ringg",
-      "category": "News",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
-      },
-      "summary": {
-        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
       }
     },
     {

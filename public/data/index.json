@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-10-13T22:09:23.153Z",
+  "generatedAt": "2026-10-14T02:56:51.440Z",
   "items": [
+    {
+      "id": "deepmind__on-device-ai-scam-detection-mddi",
+      "slug": "on-device-ai-scam-detection-mddi",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "category": "News",
+      "date": "2026-10-14T02:00:14.000Z",
+      "image": "https://lh3.googleusercontent.com/m134KeViYlQXqWaac-fW1TuTvCk1ZQ2EnHF72xH6anzjd4iKukfGHvV3o5PiDTJfSytjxUF2E1rwAAHlZ4ZyCkGkOHV7Uij2ZZ3zsbVZUAFCMCccZQ=w528-h297-n-nu-rw-lo",
+      "title": {
+        "en": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+        "th": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams"
+      },
+      "summary": {
+        "en": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+        "th": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress."
+      }
+    },
     {
       "id": "deepmind__developing-gemini-4-argon-responsibly-and-safely",
       "slug": "developing-gemini-4-argon-responsibly-and-safely",
@@ -2532,23 +2549,6 @@
       "summary": {
         "en": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
         "th": "ขอแนะนำ Gemma 4 12B: โมเดลต่อเนื่องหลายรูปแบบที่เป็นหนึ่งเดียวและไม่มีการเข้ารหัส"
-      }
-    },
-    {
-      "id": "deepmind__powering-the-future-of-robotics-in-europe",
-      "slug": "powering-the-future-of-robotics-in-europe",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
-      "category": "News",
-      "date": "2026-06-09T14:02:33.000Z",
-      "image": null,
-      "title": {
-        "en": "Powering the future of robotics in Europe",
-        "th": "ขับเคลื่อนอนาคตของหุ่นยนต์ในยุโรป"
-      },
-      "summary": {
-        "en": "Powering the future of robotics in Europe",
-        "th": "ขับเคลื่อนอนาคตของหุ่นยนต์ในยุโรป"
       }
     }
   ]

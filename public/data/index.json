@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-10-14T14:49:46.184Z",
+  "generatedAt": "2026-10-14T19:55:26.970Z",
   "items": [
+    {
+      "id": "huggingface__hiro-acev2",
+      "slug": "hiro-acev2",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "category": "News",
+      "date": "2026-10-14T16:12:42.000Z",
+      "image": null,
+      "title": {
+        "en": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+        "th": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost"
+      },
+      "summary": {
+        "en": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+        "th": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost"
+      }
+    },
+    {
+      "id": "openai__amp-beyond-coding",
+      "slug": "amp-beyond-coding",
+      "source": "openai",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "category": "Startup",
+      "date": "2026-10-14T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Amp puts AI agents to work beyond code with OpenAI models",
+        "th": "Amp puts AI agents to work beyond code with OpenAI models"
+      },
+      "summary": {
+        "en": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+        "th": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT."
+      }
+    },
+    {
+      "id": "openai__sentinelone",
+      "slug": "sentinelone",
+      "source": "openai",
+      "url": "https://openai.com/index/sentinelone",
+      "category": "News",
+      "date": "2026-10-14T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "SentinelOne cuts malware analysis from weeks to hours",
+        "th": "SentinelOne cuts malware analysis from weeks to hours"
+      },
+      "summary": {
+        "en": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+        "th": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats."
+      }
+    },
+    {
+      "id": "openai__third-moment-research",
+      "slug": "third-moment-research",
+      "source": "openai",
+      "url": "https://openai.com/index/third-moment-research",
+      "category": "Startup",
+      "date": "2026-10-14T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How Third Moment Research runs 10,000 agents for 36+ hours",
+        "th": "How Third Moment Research runs 10,000 agents for 36+ hours"
+      },
+      "summary": {
+        "en": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+        "th": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use."
+      }
+    },
     {
       "id": "deepmind__on-device-ai-scam-detection-mddi",
       "slug": "on-device-ai-scam-detection-mddi",
@@ -16,6 +84,23 @@
       "summary": {
         "en": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
         "th": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress."
+      }
+    },
+    {
+      "id": "anthropic__2026-us-midterms",
+      "slug": "2026-us-midterms",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/2026-us-midterms",
+      "category": "News",
+      "date": "2026-10-14T00:00:00.000Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4de18fb9523480ac8492ed4c2484933ba3e7c1bd-1200x630.jpg",
+      "title": {
+        "en": "Preparing for the 2026 US midterms",
+        "th": "Preparing for the 2026 US midterms"
+      },
+      "summary": {
+        "en": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.",
+        "th": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms."
       }
     },
     {
@@ -155,20 +240,20 @@
       }
     },
     {
-      "id": "huggingface__impactful-scheduling",
-      "slug": "impactful-scheduling",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "id": "openai__asana-browser-agent",
+      "slug": "asana-browser-agent",
+      "source": "openai",
+      "url": "https://openai.com/index/asana-browser-agent",
       "category": "News",
-      "date": "2026-10-09T15:20:29.000Z",
+      "date": "2026-10-09T07:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Impactful scheduling for GPU clusters",
-        "th": "Impactful scheduling for GPU clusters"
+        "en": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+        "th": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
       },
       "summary": {
-        "en": "Impactful scheduling for GPU clusters",
-        "th": "Impactful scheduling for GPU clusters"
+        "en": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+        "th": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
       }
     },
     {
@@ -186,23 +271,6 @@
       "summary": {
         "en": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
         "th": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
-      }
-    },
-    {
-      "id": "openai__asana-browser-agent",
-      "slug": "asana-browser-agent",
-      "source": "openai",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "category": "News",
-      "date": "2026-10-09T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-        "th": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
-      },
-      "summary": {
-        "en": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-        "th": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
       }
     },
     {
@@ -903,23 +971,6 @@
       }
     },
     {
-      "id": "openai__towards-safety-cases-for-frontier-ai-training",
-      "slug": "towards-safety-cases-for-frontier-ai-training",
-      "source": "openai",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "category": "Safety",
-      "date": "2026-09-28T19:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Towards safety cases for frontier AI training",
-        "th": "Towards safety cases for frontier AI training"
-      },
-      "summary": {
-        "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-        "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
-      }
-    },
-    {
       "id": "openai__how-we-will-do-better-for-australia",
       "slug": "how-we-will-do-better-for-australia",
       "source": "openai",
@@ -934,6 +985,23 @@
       "summary": {
         "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
         "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
+      }
+    },
+    {
+      "id": "openai__towards-safety-cases-for-frontier-ai-training",
+      "slug": "towards-safety-cases-for-frontier-ai-training",
+      "source": "openai",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "category": "Safety",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Towards safety cases for frontier AI training",
+        "th": "Towards safety cases for frontier AI training"
+      },
+      "summary": {
+        "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+        "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
       }
     },
     {
@@ -1192,57 +1260,6 @@
       }
     },
     {
-      "id": "openai__ringg",
-      "slug": "ringg",
-      "source": "openai",
-      "url": "https://openai.com/index/ringg",
-      "category": "News",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "th": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
-      },
-      "summary": {
-        "en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-        "th": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
-      }
-    },
-    {
-      "id": "openai__invideo-builds-with-gpt-6-astra",
-      "slug": "invideo-builds-with-gpt-6-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "category": "News",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How invideo improves color grading 3x with GPT‑6 Astra",
-        "th": "How invideo improves color grading 3x with GPT‑6 Astra"
-      },
-      "summary": {
-        "en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-        "th": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
-      }
-    },
-    {
-      "id": "openai__sam-altman-un-security-council-remarks",
-      "slug": "sam-altman-un-security-council-remarks",
-      "source": "openai",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "category": "Global Affairs",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Sam Altman’s remarks at the United Nations Security Council",
-        "th": "Sam Altman’s remarks at the United Nations Security Council"
-      },
-      "summary": {
-        "en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-        "th": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
-      }
-    },
-    {
       "id": "anthropic__claude-discovers-novel-enzyme-system",
       "slug": "claude-discovers-novel-enzyme-system",
       "source": "anthropic",
@@ -1393,23 +1410,6 @@
       "summary": {
         "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/data-commons.max-600x600.format-webp.webp\">Google and the UN system have launched the UN System Data Commons, a new open platform making global st",
         "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/data-commons.max-600x600.format-webp.webp\">Google and the UN system have launched the UN System Data Commons, a new open platform making global st"
-      }
-    },
-    {
-      "id": "anthropic__life-sciences-verification-program",
-      "slug": "life-sciences-verification-program",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
-      "category": "News",
-      "date": "2026-09-17T00:00:00.000Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20DoubleHelix&backgroundColor=cactus",
-      "title": {
-        "en": "Introducing the Life Sciences Verification Program",
-        "th": "Introducing the Life Sciences Verification Program"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
       }
     },
     {

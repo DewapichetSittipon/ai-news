@@ -5,7 +5,7 @@
   "url": "https://www.anthropic.com/news/2026-us-midterms",
   "category": "News",
   "date": "2026-10-14T00:00:00.000Z",
-  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4de18fb9523480ac8492ed4c2484933ba3e7c1bd-1200x630.jpg",
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/609927c7af2a454cedad848e4b2adc980c1f5fe6-2000x1125.jpg",
   "title": {
     "en": "Preparing for the 2026 US midterms",
     "th": "Preparing for the 2026 US midterms"
@@ -16,6 +16,11 @@
   },
   "body": [
     {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F609927c7af2a454cedad848e4b2adc980c1f5fe6-2000x1125.jpg&w=3840&q=75",
+      "alt": "Preparing for the 2026 US midterms"
+    },
+    {
       "type": "p",
       "text": {
         "en": "Earlier this year, we shared an update on our election safeguards, which described how we measure and prevent political bias, detect misuse, and direct people to accurate voting information.",
@@ -25,8 +30,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Below, we outline how we’ve built on that work and continued to strengthen our election safeguards ahead of this year’s US midterms.",
-        "th": "Below, we outline how we’ve built on that work and continued to strengthen our election safeguards ahead of this year’s US midterms."
+        "en": "Below, we outline how we've built on that work and continued to strengthen our election safeguards ahead of this year’s US midterms.",
+        "th": "Below, we outline how we've built on that work and continued to strengthen our election safeguards ahead of this year’s US midterms."
       }
     },
     {
@@ -46,15 +51,15 @@
     {
       "type": "p",
       "text": {
-        "en": "Today, conversations that touch broadly on politics, public policy or social issues account for about 5.75% of all conversations in the United States on Claude.ai, our consumer app. This includes people turning to Claude to follow the news, conduct academic or professional research on public policy, learn about candidates, and navigate government services. About 0.51% of all conversations are specifically about elections or voting. As we get closer to Election Day, we expect the share of political and election-related queries to increase.",
-        "th": "Today, conversations that touch broadly on politics, public policy or social issues account for about 5.75% of all conversations in the United States on Claude.ai, our consumer app. This includes people turning to Claude to follow the news, conduct academic or professional research on public policy, learn about candidates, and navigate government services. About 0.51% of all conversations are specifically about elections or voting. As we get closer to Election Day, we expect the share of political and election-related queries to increase."
+        "en": "Today, conversations that touch broadly on politics, public policy, or social issues account for about 5.75% of all conversations in the United States on Claude.ai, our consumer app. This includes people turning to Claude to follow the news, conduct academic or professional research on public policy, learn about candidates, and navigate government services. About 0.51% of all conversations are specifically about elections or voting. As we get closer to Election Day, we expect the share of political and election-related queries to increase.",
+        "th": "Today, conversations that touch broadly on politics, public policy, or social issues account for about 5.75% of all conversations in the United States on Claude.ai, our consumer app. This includes people turning to Claude to follow the news, conduct academic or professional research on public policy, learn about candidates, and navigate government services. About 0.51% of all conversations are specifically about elections or voting. As we get closer to Election Day, we expect the share of political and election-related queries to increase."
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "This sample suggests people rarely ask Claude who or what to vote for. These kinds of requests showed up in about 0.01% of US Claude conversations. More often, we observed people asking Claude questions that could help them reach their own conclusions, like where candidates stand on a particular issue. Requests that violated our election integrity policies were even less common, appearing in about 0.002% of conversations.2",
-        "th": "This sample suggests people rarely ask Claude who or what to vote for. These kinds of requests showed up in about 0.01% of US Claude conversations. More often, we observed people asking Claude questions that could help them reach their own conclusions, like where candidates stand on a particular issue. Requests that violated our election integrity policies were even less common, appearing in about 0.002% of conversations.2"
+        "en": "This sample suggests people rarely ask Claude whom or what to vote for. These kinds of requests showed up in about 0.01% of US Claude conversations. More often, we observed people asking Claude questions that could help them reach their own conclusions, like where candidates stand on a particular issue. Requests that violated our election integrity policies were even less common, appearing in about 0.002% of conversations.2",
+        "th": "This sample suggests people rarely ask Claude whom or what to vote for. These kinds of requests showed up in about 0.01% of US Claude conversations. More often, we observed people asking Claude questions that could help them reach their own conclusions, like where candidates stand on a particular issue. Requests that violated our election integrity policies were even less common, appearing in about 0.002% of conversations.2"
       }
     },
     {
@@ -77,8 +82,15 @@
     {
       "type": "p",
       "text": {
-        "en": "Ahead of Election Day, we've added two new ways for people to get reliable information directly in their conversations with Claude. As we shared in April, when people ask Claude.ai about voter registration, polling places, or election dates, we’ll continue to display a banner linking to TurboVote, a nonpartisan resource from Democracy Works. These resources are standard across the industry.Later this month, Claude will start drawing official voting information from Democracy Works into its responses on Claude.ai for users in the US. Someone asking where to vote or what ID to bring to their polling place can now get an answer specific to their state, without leaving the conversation. These responses draw on publicly available information that Democracy Works collects from state and local election sources.",
-        "th": "Ahead of Election Day, we've added two new ways for people to get reliable information directly in their conversations with Claude. As we shared in April, when people ask Claude.ai about voter registration, polling places, or election dates, we’ll continue to display a banner linking to TurboVote, a nonpartisan resource from Democracy Works. These resources are standard across the industry.Later this month, Claude will start drawing official voting information from Democracy Works into its responses on Claude.ai for users in the US. Someone asking where to vote or what ID to bring to their polling place can now get an answer specific to their state, without leaving the conversation. These responses draw on publicly available information that Democracy Works collects from state and local election sources."
+        "en": "Ahead of Election Day, we've added two ways for people to get reliable information directly in their conversations with Claude. As we shared in April, when people ask Claude.ai about voter registration, polling places, or election dates, we’ll continue to display a banner linking to TurboVote, a nonpartisan resource from Democracy Works.",
+        "th": "Ahead of Election Day, we've added two ways for people to get reliable information directly in their conversations with Claude. As we shared in April, when people ask Claude.ai about voter registration, polling places, or election dates, we’ll continue to display a banner linking to TurboVote, a nonpartisan resource from Democracy Works."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Later this month, Claude will start drawing official voting information from Democracy Works into its responses on Claude.ai for users in the US. Someone asking where to vote or what ID to bring to their polling place will now get an answer specific to their state, without leaving the conversation. These responses draw on publicly available information that Democracy Works collects from state and local election sources.",
+        "th": "Later this month, Claude will start drawing official voting information from Democracy Works into its responses on Claude.ai for users in the US. Someone asking where to vote or what ID to bring to their polling place will now get an answer specific to their state, without leaving the conversation. These responses draw on publicly available information that Democracy Works collects from state and local election sources."
       }
     },
     {
@@ -103,8 +115,8 @@
     {
       "type": "p",
       "text": {
-        "en": "When people ask Claude about politics, they should get accurate and even-handed answers that don't favor any particular political viewpoint. That’s why we test our models extensively for political bias before every model launch. Claude Opus 5.5, Sonnet 5.5 and Haiku 5.5 are our most even-handed to date, scoring 99% on our political even-handedness evaluation. Our latest models also engage more readily with political discussions and decline fewer requests, so people can get the information they came for. We’re continuing to refine these evaluations, and also looking beyond them for new ways to pressure-test how our models handle political topics.",
-        "th": "When people ask Claude about politics, they should get accurate and even-handed answers that don't favor any particular political viewpoint. That’s why we test our models extensively for political bias before every model launch. Claude Opus 5.5, Sonnet 5.5 and Haiku 5.5 are our most even-handed to date, scoring 99% on our political even-handedness evaluation. Our latest models also engage more readily with political discussions and decline fewer requests, so people can get the information they came for. We’re continuing to refine these evaluations, and also looking beyond them for new ways to pressure-test how our models handle political topics."
+        "en": "When people ask Claude about politics, they should get accurate and evenhanded answers that don't favor any particular political viewpoint. That’s why we test our models extensively for political bias before every model launch. Claude Opus 5.5, Sonnet 5.5, and Haiku 5.5 are our most evenhanded to date, scoring 99% on our political evenhandedness evaluation. Our latest models also engage more readily with political discussions and decline fewer requests, so people can get the information they came for. We're continuing to refine these evaluations, and also looking beyond them for new ways to pressure-test how our models handle political topics.",
+        "th": "When people ask Claude about politics, they should get accurate and evenhanded answers that don't favor any particular political viewpoint. That’s why we test our models extensively for political bias before every model launch. Claude Opus 5.5, Sonnet 5.5, and Haiku 5.5 are our most evenhanded to date, scoring 99% on our political evenhandedness evaluation. Our latest models also engage more readily with political discussions and decline fewer requests, so people can get the information they came for. We're continuing to refine these evaluations, and also looking beyond them for new ways to pressure-test how our models handle political topics."
       }
     },
     {
@@ -117,8 +129,15 @@
     {
       "type": "p",
       "text": {
-        "en": "These evaluations also identified areas where Claude still falls short. The Future of Free Speech and the Collective Intelligence Project both found that Claude rarely refused requests, but sometimes added unsolicited caveats and counterarguments, such as inserting an opposing view into an advocacy email.And the Foundation for American Innovation found that Claude Sonnet 4.5 didn’t always hedge evenly, and was more likely to soften arguments for right-leaning positions.We’re addressing this in a few ways. We’ve improved how Claude responds to direct yes-or-no questions and requests for shorter answers, where we found its answers could be less balanced. We’re also using these findings to improve when and how Claude adds caveats or counterarguments, so it treats requests from across the political spectrum more consistently. And we’re continuing to improve how we test for uneven hedging, building on existing evaluations that use matched prompts from the left and right. More broadly, we’re working to expand our political bias evaluations to better reflect real conversations and to cover candidates and voting questions as well as policy issues.",
-        "th": "These evaluations also identified areas where Claude still falls short. The Future of Free Speech and the Collective Intelligence Project both found that Claude rarely refused requests, but sometimes added unsolicited caveats and counterarguments, such as inserting an opposing view into an advocacy email.And the Foundation for American Innovation found that Claude Sonnet 4.5 didn’t always hedge evenly, and was more likely to soften arguments for right-leaning positions.We’re addressing this in a few ways. We’ve improved how Claude responds to direct yes-or-no questions and requests for shorter answers, where we found its answers could be less balanced. We’re also using these findings to improve when and how Claude adds caveats or counterarguments, so it treats requests from across the political spectrum more consistently. And we’re continuing to improve how we test for uneven hedging, building on existing evaluations that use matched prompts from the left and right. More broadly, we’re working to expand our political bias evaluations to better reflect real conversations and to cover candidates and voting questions as well as policy issues."
+        "en": "These evaluations also identified areas where Claude still falls short. The Future of Free Speech and the Collective Intelligence Project both found that Claude rarely refused requests, but sometimes added unsolicited caveats and counterarguments, such as inserting an opposing view into an advocacy email. And the Foundation for American Innovation found that Claude Sonnet 4.5 didn’t always hedge evenly, and was more likely to soften arguments for right-leaning positions.",
+        "th": "These evaluations also identified areas where Claude still falls short. The Future of Free Speech and the Collective Intelligence Project both found that Claude rarely refused requests, but sometimes added unsolicited caveats and counterarguments, such as inserting an opposing view into an advocacy email. And the Foundation for American Innovation found that Claude Sonnet 4.5 didn’t always hedge evenly, and was more likely to soften arguments for right-leaning positions."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We're addressing this in a few ways. We've improved how Claude responds to direct yes-or-no questions and requests for shorter answers, where we found its answers could be less balanced. We're also using these findings to improve when and how Claude adds caveats or counterarguments, so it treats requests from across the political spectrum more consistently. And we're continuing to improve how we test for uneven hedging, building on existing evaluations that use matched prompts from the left and right. More broadly, we're working to expand our political bias evaluations to better reflect real conversations and to cover candidates and voting questions as well as policy issues.",
+        "th": "We're addressing this in a few ways. We've improved how Claude responds to direct yes-or-no questions and requests for shorter answers, where we found its answers could be less balanced. We're also using these findings to improve when and how Claude adds caveats or counterarguments, so it treats requests from across the political spectrum more consistently. And we're continuing to improve how we test for uneven hedging, building on existing evaluations that use matched prompts from the left and right. More broadly, we're working to expand our political bias evaluations to better reflect real conversations and to cover candidates and voting questions as well as policy issues."
       }
     },
     {
@@ -131,8 +150,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Our Usage Policy prohibits using Claude to deceive voters or disrupt elections, from spreading false information about candidates or how to vote, to impersonating election officials or trying to suppress turnout. Each year, we update the policy to reflect our models’ evolving capabilities and feedback from our customers. This year’s update, which we announced last week, clarifies what our election rules cover and what they don’t, and adds new examples to help people understand where the lines fall.",
-        "th": "Our Usage Policy prohibits using Claude to deceive voters or disrupt elections, from spreading false information about candidates or how to vote, to impersonating election officials or trying to suppress turnout. Each year, we update the policy to reflect our models’ evolving capabilities and feedback from our customers. This year’s update, which we announced last week, clarifies what our election rules cover and what they don’t, and adds new examples to help people understand where the lines fall."
+        "en": "Our Usage Policy prohibits using Claude to deceive voters or disrupt elections, from spreading false information about candidates or how to vote, to impersonating election officials or trying to suppress turnout. Each year, we update the policy to reflect our models’ evolving capabilities and feedback from our customers. This year’s update, which we announced last week, clarifies what our election rules cover and what they don't, and adds new examples to help people understand where the lines fall.",
+        "th": "Our Usage Policy prohibits using Claude to deceive voters or disrupt elections, from spreading false information about candidates or how to vote, to impersonating election officials or trying to suppress turnout. Each year, we update the policy to reflect our models’ evolving capabilities and feedback from our customers. This year’s update, which we announced last week, clarifies what our election rules cover and what they don't, and adds new examples to help people understand where the lines fall."
       }
     },
     {
@@ -159,22 +178,22 @@
     {
       "type": "p",
       "text": {
-        "en": "Building on these findings and our own, we’ve added new classifiers to better identify novel and multi-step misuse, including attempts to build fake social media accounts and news sites aimed at political discussions, or to run financially motivated election schemes. We also enhanced our ability to detect election-related misuse by foreign state actors, and strengthened our cyber protections for election infrastructure and campaigns. Finally, we built targeted safeguards for localized risks identified in the US, Israel, and Brazil, which all have major national elections this year.",
-        "th": "Building on these findings and our own, we’ve added new classifiers to better identify novel and multi-step misuse, including attempts to build fake social media accounts and news sites aimed at political discussions, or to run financially motivated election schemes. We also enhanced our ability to detect election-related misuse by foreign state actors, and strengthened our cyber protections for election infrastructure and campaigns. Finally, we built targeted safeguards for localized risks identified in the US, Israel, and Brazil, which all have major national elections this year."
+        "en": "Building on these findings and our own, we've added new classifiers to better identify novel and multi-step misuse, including attempts to build fake social media accounts and news sites aimed at political discussions, or to run financially motivated election schemes. We also enhanced our ability to detect election-related misuse by foreign state actors, and strengthened our cyber protections for election infrastructure and campaigns. Finally, we built targeted safeguards for localized risks identified in the US, Israel, and Brazil, which all have major national elections this year.",
+        "th": "Building on these findings and our own, we've added new classifiers to better identify novel and multi-step misuse, including attempts to build fake social media accounts and news sites aimed at political discussions, or to run financially motivated election schemes. We also enhanced our ability to detect election-related misuse by foreign state actors, and strengthened our cyber protections for election infrastructure and campaigns. Finally, we built targeted safeguards for localized risks identified in the US, Israel, and Brazil, which all have major national elections this year."
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "Our threat intelligence and enforcement teams review flagged activity and take action when they confirm a violation, including banning accounts. We also routinely share examples of unintended model actions or behavior we’ve observed during our evaluations and internal use of Claude.",
-        "th": "Our threat intelligence and enforcement teams review flagged activity and take action when they confirm a violation, including banning accounts. We also routinely share examples of unintended model actions or behavior we’ve observed during our evaluations and internal use of Claude."
+        "en": "Our threat intelligence and enforcement teams review flagged activity and take action when they confirm a violation, including banning accounts. We also routinely share examples of unintended model actions or behavior we've observed during our evaluations and internal use of Claude.",
+        "th": "Our threat intelligence and enforcement teams review flagged activity and take action when they confirm a violation, including banning accounts. We also routinely share examples of unintended model actions or behavior we've observed during our evaluations and internal use of Claude."
       }
     },
     {
       "type": "h3",
       "text": {
-        "en": "What we’ve found",
-        "th": "What we’ve found"
+        "en": "What we've found",
+        "th": "What we've found"
       }
     },
     {
@@ -187,8 +206,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Our teams have continued to investigate and prevent coordinated abuse around elections, including the US midterms. In one case, foreign-based operators of a fake news site used Claude to produce US midterm coverage favoring Russian, Iranian, and North Korean narratives. We’ve also observed threat actors seeking to exploit the election for financial gain, using Claude to produce fabricated news and other content designed to attract American audiences and generate advertising revenue. We banned the accounts involved in these cases and improved our ability to detect this type of abuse.",
-        "th": "Our teams have continued to investigate and prevent coordinated abuse around elections, including the US midterms. In one case, foreign-based operators of a fake news site used Claude to produce US midterm coverage favoring Russian, Iranian, and North Korean narratives. We’ve also observed threat actors seeking to exploit the election for financial gain, using Claude to produce fabricated news and other content designed to attract American audiences and generate advertising revenue. We banned the accounts involved in these cases and improved our ability to detect this type of abuse."
+        "en": "Our teams have continued to investigate and prevent coordinated abuse around elections, including the US midterms. In one case, foreign-based operators of a fake news site used Claude to produce US midterm coverage favoring Russian, Iranian, and North Korean narratives. We've also observed threat actors seeking to exploit the election for financial gain, using Claude to produce fabricated news and other content designed to attract American audiences and generate advertising revenue. We banned the accounts involved in these cases and improved our ability to detect this type of abuse.",
+        "th": "Our teams have continued to investigate and prevent coordinated abuse around elections, including the US midterms. In one case, foreign-based operators of a fake news site used Claude to produce US midterm coverage favoring Russian, Iranian, and North Korean narratives. We've also observed threat actors seeking to exploit the election for financial gain, using Claude to produce fabricated news and other content designed to attract American audiences and generate advertising revenue. We banned the accounts involved in these cases and improved our ability to detect this type of abuse."
       }
     },
     {

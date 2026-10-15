@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-10-15T14:35:45.429Z",
+  "generatedAt": "2026-10-15T19:37:03.369Z",
   "items": [
+    {
+      "id": "deepmind__accelerating-antimicrobial-discovery",
+      "slug": "accelerating-antimicrobial-discovery",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "category": "News",
+      "date": "2026-10-15T16:08:03.000Z",
+      "image": "https://lh3.googleusercontent.com/Xgnc_DxAUS2Fs9H2rokxsYwPnnM_KOkPyPtKm7V2C_sjZ7YS4N1-D6lD8wjYIRQoKaiSwHUXB7qmw77m6FCfHLZenWdNymO7B_JLChlB6ied6emR=w528-h297-n-nu-rw-lo",
+      "title": {
+        "en": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+        "th": "Accelerating the search for antimicrobial peptides with Google Antigravity"
+      },
+      "summary": {
+        "en": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+        "th": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science."
+      }
+    },
     {
       "id": "openai__teaching-students-to-think-and-learn-through-questions",
       "slug": "teaching-students-to-think-and-learn-through-questions",
@@ -33,6 +50,57 @@
       "summary": {
         "en": "Apertus 1.5 Release Notes",
         "th": "บันทึกประจำรุ่น Apertus 1.5"
+      }
+    },
+    {
+      "id": "anthropic__an-update-on-independent-evaluators",
+      "slug": "an-update-on-independent-evaluators",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "category": "News",
+      "date": "2026-10-15T00:00:00.000Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2e351e6311a0ada8ea4a0304ce6cda39243eaf4-1200x630.jpg",
+      "title": {
+        "en": "An update on independent evaluators",
+        "th": "An update on independent evaluators"
+      },
+      "summary": {
+        "en": "Anthropic announces updates to embedding independent evaluators",
+        "th": "Anthropic announces updates to embedding independent evaluators"
+      }
+    },
+    {
+      "id": "huggingface__meta-muse-spark-open",
+      "slug": "meta-muse-spark-open",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "category": "News",
+      "date": "2026-10-15T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+        "th": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta"
+      },
+      "summary": {
+        "en": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+        "th": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta"
+      }
+    },
+    {
+      "id": "huggingface__flux-3",
+      "slug": "flux-3",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/flux-3",
+      "category": "News",
+      "date": "2026-10-15T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Welcome FLUX.3 Image Klein in Diffusers",
+        "th": "Welcome FLUX.3 Image Klein in Diffusers"
+      },
+      "summary": {
+        "en": "Welcome FLUX.3 Image Klein in Diffusers",
+        "th": "Welcome FLUX.3 Image Klein in Diffusers"
       }
     },
     {
@@ -1396,23 +1464,6 @@
       }
     },
     {
-      "id": "anthropic__accenture-embedded-evaluation",
-      "slug": "accenture-embedded-evaluation",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-      "category": "News",
-      "date": "2026-09-18T00:00:00.000Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Partnering with Accenture on embedded evaluation",
-        "th": "Partnering with Accenture on embedded evaluation"
-      },
-      "summary": {
-        "en": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
-        "th": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years."
-      }
-    },
-    {
       "id": "google-ai__google-un-data-commons-platform",
       "slug": "google-un-data-commons-platform",
       "source": "google-ai",
@@ -2195,40 +2246,6 @@
       }
     },
     {
-      "id": "huggingface__icml-2026-open-reproductions",
-      "slug": "icml-2026-open-reproductions",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
-      "category": "News",
-      "date": "2026-08-13T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "What We Learned by Reproducing 2,200 papers from ICML",
-        "th": "สิ่งที่เราเรียนรู้จากการผลิตเอกสาร 2,200 ฉบับจาก ICML"
-      },
-      "summary": {
-        "en": "What We Learned by Reproducing 2,200 papers from ICML",
-        "th": "สิ่งที่เราเรียนรู้จากการผลิตเอกสาร 2,200 ฉบับจาก ICML"
-      }
-    },
-    {
-      "id": "huggingface__olmoearth-embeddings",
-      "slug": "olmoearth-embeddings",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-      "category": "News",
-      "date": "2026-08-12T16:14:36.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-        "th": "ขอแนะนำการฝัง OlmoEarth: การส่งออกการฝังแบบกำหนดเองจาก OlmoEarth Studio สำหรับการวิเคราะห์ขั้นปลาย"
-      },
-      "summary": {
-        "en": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-        "th": "ขอแนะนำการฝัง OlmoEarth: การส่งออกการฝังแบบกำหนดเองจาก OlmoEarth Studio สำหรับการวิเคราะห์ขั้นปลาย"
-      }
-    },
-    {
       "id": "deepmind__putting-sign-language-ai-into-users-hands",
       "slug": "putting-sign-language-ai-into-users-hands",
       "source": "deepmind",
@@ -2532,23 +2549,6 @@
       "summary": {
         "en": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
         "th": "Gemini 3.5 Live Translate นำการแปลคำพูดที่ใกล้เคียงแบบเรียลไทม์และเป็นธรรมชาติมาสู่ Google AI Studio, Google Translate และ Google Meet"
-      }
-    },
-    {
-      "id": "deepmind__introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model",
-      "slug": "introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
-      "category": "News",
-      "date": "2026-06-09T14:10:19.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
-        "th": "ขอแนะนำ Gemma 4 12B: โมเดลต่อเนื่องหลายรูปแบบที่เป็นหนึ่งเดียวและไม่มีการเข้ารหัส"
-      },
-      "summary": {
-        "en": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
-        "th": "ขอแนะนำ Gemma 4 12B: โมเดลต่อเนื่องหลายรูปแบบที่เป็นหนึ่งเดียวและไม่มีการเข้ารหัส"
       }
     }
   ]

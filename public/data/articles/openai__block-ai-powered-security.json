@@ -1,0 +1,417 @@
+{
+  "id": "openai__block-ai-powered-security",
+  "slug": "block-ai-powered-security",
+  "source": "openai",
+  "url": "https://openai.com/index/block-ai-powered-security",
+  "category": "News",
+  "date": "2026-10-14T07:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "How Block is building AI-powered security with OpenAI technology",
+    "th": "How Block is building AI-powered security with OpenAI technology"
+  },
+  "summary": {
+    "en": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+    "th": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "October 14, 2026",
+        "th": "October 14, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Block is using AI systems including OpenAI Daybreak to compress the time to fix vulnerabilities, freeing its security team to focus on strategic work.",
+        "th": "Block is using AI systems including OpenAI Daybreak to compress the time to fix vulnerabilities, freeing its security team to focus on strategic work."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/Z12BmLOhsavjEqC9OijAQ/d49b038444434e95d72421c9b77d886a/Block-AI-Powered-Security-Art-Card-1080x1080.png?w=3840&q=90&fm=webp",
+      "alt": "White Block logo over layered deep teal translucent texture with a warm amber edge."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Detection tuning",
+        "th": "Detection tuning"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "<1",
+        "th": "<1"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hour to replay a proposed detection change against seven months of telemetry",
+        "th": "Hour to replay a proposed detection change against seven months of telemetry"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Proposed patch",
+        "th": "Proposed patch"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "18",
+        "th": "18"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Minutes from submitting a high-level vulnerability to an automated proposed patch",
+        "th": "Minutes from submitting a high-level vulnerability to an automated proposed patch"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "False-positive triage",
+        "th": "False-positive triage"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "~600",
+        "th": "~600"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Analyst-hours per quarter handed back",
+        "th": "Analyst-hours per quarter handed back"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Investigations",
+        "th": "Investigations"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "~1,100",
+        "th": "~1,100"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Analyst-hours of investigation completed each quarter",
+        "th": "Analyst-hours of investigation completed each quarter"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The OpenAI Defense Factory at work",
+        "th": "The OpenAI Defense Factory at work"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Results at a glance",
+        "th": "Results at a glance"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What’s next",
+        "th": "What’s next"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The OpenAI Defense Factory at work",
+        "th": "The OpenAI Defense Factory at work"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Results at a glance",
+        "th": "Results at a glance"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What’s next",
+        "th": "What’s next"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "At Block, the company behind Square, Cash App, and Afterpay, the security team leverages the OpenAI Defense Factory: where AI handles vulnerability discovery, detection, and response at a scale that no human team could keep up with. With AI systems including OpenAI Daybreak, Block is taking just hours to do work that used to take weeks.",
+        "th": "At Block, the company behind Square, Cash App, and Afterpay, the security team leverages the OpenAI Defense Factory: where AI handles vulnerability discovery, detection, and response at a scale that no human team could keep up with. With AI systems including OpenAI Daybreak, Block is taking just hours to do work that used to take weeks."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Block’s security team has been focused on responsibly adopting AI across workflows, whether that’s code generation or security operations. “What it’s really centered on is having a new teammate that you can scale with,” James Nettesheim, Chief Information Security Officer, says. “It’s not like a more traditional automation where you had to go step by step. You can prompt it with a fairly bespoke, ambiguous problem and work through it together.”",
+        "th": "Block’s security team has been focused on responsibly adopting AI across workflows, whether that’s code generation or security operations. “What it’s really centered on is having a new teammate that you can scale with,” James Nettesheim, Chief Information Security Officer, says. “It’s not like a more traditional automation where you had to go step by step. You can prompt it with a fairly bespoke, ambiguous problem and work through it together.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Projects like reviewing a software bug or parsing a log would take days or weeks to complete. Now the team can complete those projects in a fraction of the time, with a human still validating every result.",
+        "th": "Projects like reviewing a software bug or parsing a log would take days or weeks to complete. Now the team can complete those projects in a fraction of the time, with a human still validating every result."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For example, for detection tuning, every investigation stores its raw query evidence, so the team can now replay a proposed detection change against seven months of production telemetry in under an hour. That work used to mean requerying hundreds of old cases by hand, and often it rarely happened in practice since it was so time-consuming.",
+        "th": "For example, for detection tuning, every investigation stores its raw query evidence, so the team can now replay a proposed detection change against seven months of production telemetry in under an hour. That work used to mean requerying hundreds of old cases by hand, and often it rarely happened in practice since it was so time-consuming."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The team has also gotten more particular about which model they’re using for which job. “We used to use the latest model, but you don’t need to do that anymore,” he says. “It’s been a learning experience to choose different models for different tasks.” Block’s security harness is built on top of Daybreak to help route tasks to the right model, and it includes hooks for humans to take over tasks or for agents to verify each other’s work. The team continually evaluates these systems against internal benchmarks and real-world performance, adjusting its approach when needed, including routing work to human review when that is the responsible path.",
+        "th": "The team has also gotten more particular about which model they’re using for which job. “We used to use the latest model, but you don’t need to do that anymore,” he says. “It’s been a learning experience to choose different models for different tasks.” Block’s security harness is built on top of Daybreak to help route tasks to the right model, and it includes hooks for humans to take over tasks or for agents to verify each other’s work. The team continually evaluates these systems against internal benchmarks and real-world performance, adjusting its approach when needed, including routing work to human review when that is the responsible path."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The automated triage system has resulted in faster work (and more of it) getting done. Block’s security team has seen a 50% boost to triage throughput, a 50% increase in intelligence gathering and investigations, and an entirely new autonomous hunting capability. Nettesheim says, “This performs ~1,100 analyst-hours of investigation per quarter, because every alert now gets a full, deep investigation across all elements the alert involves. Our system works every alert like it’s the only alert we’ve got that day.”",
+        "th": "The automated triage system has resulted in faster work (and more of it) getting done. Block’s security team has seen a 50% boost to triage throughput, a 50% increase in intelligence gathering and investigations, and an entirely new autonomous hunting capability. Nettesheim says, “This performs ~1,100 analyst-hours of investigation per quarter, because every alert now gets a full, deep investigation across all elements the alert involves. Our system works every alert like it’s the only alert we’ve got that day.”"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The OpenAI Defense Factory at work",
+        "th": "The OpenAI Defense Factory at work"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Traditional scanning tools flag a single vulnerability in isolation, but Block’s security team can go much further with Daybreak. The model helps hypothesize about attack patterns and chain together a series of attacks into a full end-to-end compromise path, surfacing vulnerabilities that might have existed for years.",
+        "th": "Traditional scanning tools flag a single vulnerability in isolation, but Block’s security team can go much further with Daybreak. The model helps hypothesize about attack patterns and chain together a series of attacks into a full end-to-end compromise path, surfacing vulnerabilities that might have existed for years."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In one case, an alert on a single laptop looked like a minor policy issue on its own. But during peer review, the model followed an indicator that appeared only incidentally in the evidence, joined it against Block’s identity logs, and surfaced a much larger set of issues. “One routine endpoint alert became a campaign takedown. No single tool makes that join. The signal only exists across two products’ logs,” James says.",
+        "th": "In one case, an alert on a single laptop looked like a minor policy issue on its own. But during peer review, the model followed an indicator that appeared only incidentally in the evidence, joined it against Block’s identity logs, and surfaced a much larger set of issues. “One routine endpoint alert became a campaign takedown. No single tool makes that join. The signal only exists across two products’ logs,” James says."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Another example when Daybreak helped was during a recent red team exercise. The model was given a few hints about an internal system, and it chained together a full attack path—SQL injection, privilege escalation, a foothold, credential enumeration, and a pivot to other systems—in about two hours. This would typically take a human red teamer several days. In recent red team exercises, the time from submitting a high-level vulnerability to an automated proposed patch was 18 minutes.",
+        "th": "Another example when Daybreak helped was during a recent red team exercise. The model was given a few hints about an internal system, and it chained together a full attack path—SQL injection, privilege escalation, a foothold, credential enumeration, and a pivot to other systems—in about two hours. This would typically take a human red teamer several days. In recent red team exercises, the time from submitting a high-level vulnerability to an automated proposed patch was 18 minutes."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Finding the vulnerabilities is only as good as the ability to fix them. Nettesheim walks through the process his team uses on every finding: locate where the issue lives in the code and identify who owns it, then move to remediation. “You propose a patch, you confirm exploitability, and then you verify that you have fixed it, with a human in the loop guiding it and deploying the code changes.”",
+        "th": "Finding the vulnerabilities is only as good as the ability to fix them. Nettesheim walks through the process his team uses on every finding: locate where the issue lives in the code and identify who owns it, then move to remediation. “You propose a patch, you confirm exploitability, and then you verify that you have fixed it, with a human in the loop guiding it and deploying the code changes.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "While agents are technically capable, they don’t carry an organization’s context or the reasoning behind previous decisions. A human provides that context and strategy, and that’s where his team comes in to provide a human layer of review. As AI’s judgment is proven out in practice, Nettesheim says, “we’ll slowly ladder up the risk level to use it for more sensitive systems.”",
+        "th": "While agents are technically capable, they don’t carry an organization’s context or the reasoning behind previous decisions. A human provides that context and strategy, and that’s where his team comes in to provide a human layer of review. As AI’s judgment is proven out in practice, Nettesheim says, “we’ll slowly ladder up the risk level to use it for more sensitive systems.”"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Results at a glance",
+        "th": "Results at a glance"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Less than one hour to replay a proposed detection change against seven months of telemetry.",
+        "th": "Less than one hour to replay a proposed detection change against seven months of telemetry."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Less than one hour to replay a proposed detection change against seven months of telemetry.",
+        "th": "Less than one hour to replay a proposed detection change against seven months of telemetry."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "18 minutes from submitting a high-level vulnerability to an automated proposed patch in recent red team exercises.",
+        "th": "18 minutes from submitting a high-level vulnerability to an automated proposed patch in recent red team exercises."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "18 minutes from submitting a high-level vulnerability to an automated proposed patch in recent red team exercises.",
+        "th": "18 minutes from submitting a high-level vulnerability to an automated proposed patch in recent red team exercises."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Roughly 600 analyst-hours per quarter of false-positive triage handed back.",
+        "th": "Roughly 600 analyst-hours per quarter of false-positive triage handed back."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Roughly 600 analyst-hours per quarter of false-positive triage handed back.",
+        "th": "Roughly 600 analyst-hours per quarter of false-positive triage handed back."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Approximately 1,100 analyst-hours of investigation completed per quarter.",
+        "th": "Approximately 1,100 analyst-hours of investigation completed per quarter."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Approximately 1,100 analyst-hours of investigation completed per quarter.",
+        "th": "Approximately 1,100 analyst-hours of investigation completed per quarter."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "50% boost to triage throughput.",
+        "th": "50% boost to triage throughput."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "50% boost to triage throughput.",
+        "th": "50% boost to triage throughput."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "50% increase in intelligence gathering and investigations.",
+        "th": "50% increase in intelligence gathering and investigations."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "50% increase in intelligence gathering and investigations.",
+        "th": "50% increase in intelligence gathering and investigations."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What’s next",
+        "th": "What’s next"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Detection and response work alone has handed back roughly 600 analyst-hours per quarter that used to go toward triaging false positives. With that time back, the team now spends more time on deeper investigations and building more automation responsibly.",
+        "th": "Detection and response work alone has handed back roughly 600 analyst-hours per quarter that used to go toward triaging false positives. With that time back, the team now spends more time on deeper investigations and building more automation responsibly."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As the pace of attack increases and AI models keep advancing, Nettesheim sees an opportunity to reduce the number of vulnerabilities introduced in the first place. That would free security teams to spend less time patching and more time on preventative, strategic work.",
+        "th": "As the pace of attack increases and AI models keep advancing, Nettesheim sees an opportunity to reduce the number of vulnerabilities introduced in the first place. That would free security teams to spend less time patching and more time on preventative, strategic work."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“OpenAI is shifting the advantage to defenders by putting these advanced capabilities in everyone’s hands,” he says. “It’s typically only been in very high-profile technology companies and government hands. But everyone, including critical infrastructure, schools, small businesses, can now start utilizing this technology to defend their networks.”",
+        "th": "“OpenAI is shifting the advantage to defenders by putting these advanced capabilities in everyone’s hands,” he says. “It’s typically only been in very high-profile technology companies and government hands. But everyone, including critical infrastructure, schools, small businesses, can now start utilizing this technology to defend their networks.”"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Join the new era of work",
+        "th": "Join the new era of work"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6dB5D4UP3HM0JcORjPMaDG/0d9055a178aaf98f4ce24b3127a2d737/sentinelone-woven-texture-cover.png?w=3840&q=90&fm=webp",
+      "alt": "SentinelOne — Woven texture cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Oct 14, 2026",
+        "th": "Oct 14, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6IJsWuQa1blfxNfvbdIF1m/0868067102440aea5fd1ad35ba436a77/square.png?w=3840&q=90&fm=webp",
+      "alt": "1Password > Card image > Fiber ridge close-up"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sep 8, 2026",
+        "th": "Sep 8, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2FIcBGapiag2CMnbtEEQ2T/68089dc4c97b9f8f88f9fc80e74a6850/oai_Ramp_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "Ramp customer story > Hero media > 1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "May 20, 2026",
+        "th": "May 20, 2026"
+      }
+    }
+  ]
+}

@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-10-15T19:37:03.369Z",
+  "generatedAt": "2026-10-15T22:49:29.976Z",
   "items": [
+    {
+      "id": "huggingface__granite-switch-4-1",
+      "slug": "granite-switch-4-1",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "category": "News",
+      "date": "2026-10-15T20:34:01.000Z",
+      "image": null,
+      "title": {
+        "en": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+        "th": "Granite Switch 4.1: การสนทนา การตัดสินใจ และคำพูดจากจุดสิ้นสุดจุดเดียว"
+      },
+      "summary": {
+        "en": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+        "th": "Granite Switch 4.1: การสนทนา การตัดสินใจ และคำพูดจากจุดสิ้นสุดจุดเดียว"
+      }
+    },
+    {
+      "id": "openai__introducing-the-rosalind-academic-plan",
+      "slug": "introducing-the-rosalind-academic-plan",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "category": "Research",
+      "date": "2026-10-15T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Bringing GPT-Rosalind to academic research labs",
+        "th": "นำ GPT-Rosalind มาสู่ห้องปฏิบัติการวิจัยทางวิชาการ"
+      },
+      "summary": {
+        "en": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+        "th": "การแนะนำแผนการศึกษาของ Rosalind โดยเสนอห้องปฏิบัติการทางวิชาการที่มีสิทธิ์ซึ่งสนับสนุนการเข้าถึง GPT-Rosalind และเครื่องมือในการพัฒนาการวิจัยด้านวิทยาศาสตร์ชีวภาพ"
+      }
+    },
     {
       "id": "deepmind__accelerating-antimicrobial-discovery",
       "slug": "accelerating-antimicrobial-discovery",
@@ -359,23 +393,6 @@
       }
     },
     {
-      "id": "openai__asana-browser-agent",
-      "slug": "asana-browser-agent",
-      "source": "openai",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "category": "News",
-      "date": "2026-10-09T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-        "th": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
-      },
-      "summary": {
-        "en": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-        "th": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
-      }
-    },
-    {
       "id": "openai__sophos",
       "slug": "sophos",
       "source": "openai",
@@ -390,6 +407,23 @@
       "summary": {
         "en": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
         "th": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
+      }
+    },
+    {
+      "id": "openai__asana-browser-agent",
+      "slug": "asana-browser-agent",
+      "source": "openai",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "category": "News",
+      "date": "2026-10-09T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+        "th": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
+      },
+      "summary": {
+        "en": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+        "th": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
       }
     },
     {
@@ -1039,23 +1073,6 @@
       }
     },
     {
-      "id": "openai__devday-2026-recap",
-      "slug": "devday-2026-recap",
-      "source": "openai",
-      "url": "https://openai.com/index/devday-2026-recap",
-      "category": "Company",
-      "date": "2026-09-29T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "DevDay 2026 Recap",
-        "th": "DevDay 2026 Recap"
-      },
-      "summary": {
-        "en": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-        "th": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
-      }
-    },
-    {
       "id": "openai__introducing-gpt-6-1-sol",
       "slug": "introducing-gpt-6-1-sol",
       "source": "openai",
@@ -1070,6 +1087,23 @@
       "summary": {
         "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
         "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
+      }
+    },
+    {
+      "id": "openai__devday-2026-recap",
+      "slug": "devday-2026-recap",
+      "source": "openai",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "category": "Company",
+      "date": "2026-09-29T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "DevDay 2026 Recap",
+        "th": "DevDay 2026 Recap"
+      },
+      "summary": {
+        "en": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+        "th": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
       }
     },
     {
@@ -1090,23 +1124,6 @@
       }
     },
     {
-      "id": "openai__towards-safety-cases-for-frontier-ai-training",
-      "slug": "towards-safety-cases-for-frontier-ai-training",
-      "source": "openai",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "category": "Safety",
-      "date": "2026-09-28T19:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Towards safety cases for frontier AI training",
-        "th": "Towards safety cases for frontier AI training"
-      },
-      "summary": {
-        "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-        "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
-      }
-    },
-    {
       "id": "openai__how-we-will-do-better-for-australia",
       "slug": "how-we-will-do-better-for-australia",
       "source": "openai",
@@ -1121,6 +1138,23 @@
       "summary": {
         "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
         "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
+      }
+    },
+    {
+      "id": "openai__towards-safety-cases-for-frontier-ai-training",
+      "slug": "towards-safety-cases-for-frontier-ai-training",
+      "source": "openai",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "category": "Safety",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Towards safety cases for frontier AI training",
+        "th": "Towards safety cases for frontier AI training"
+      },
+      "summary": {
+        "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+        "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
       }
     },
     {
@@ -1257,23 +1291,6 @@
       "summary": {
         "en": "Lowe’s uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and move home improvement projects forward.",
         "th": "Lowe’s uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and move home improvement projects forward."
-      }
-    },
-    {
-      "id": "openai__wayfair",
-      "slug": "wayfair",
-      "source": "openai",
-      "url": "https://openai.com/index/wayfair",
-      "category": "News",
-      "date": "2026-09-25T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-        "th": "Wayfair boosts catalog accuracy and support speed with OpenAI"
-      },
-      "summary": {
-        "en": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
-        "th": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale."
       }
     },
     {
@@ -2209,23 +2226,6 @@
       "summary": {
         "en": "State of Open Models: Summer 2026 Observations",
         "th": "สถานะของโมเดลเปิด: การสังเกตการณ์ช่วงฤดูร้อนปี 2026"
-      }
-    },
-    {
-      "id": "huggingface__strands-lerobot-streaming-data-loop",
-      "slug": "strands-lerobot-streaming-data-loop",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "category": "News",
-      "date": "2026-08-13T17:16:04.000Z",
-      "image": null,
-      "title": {
-        "en": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-        "th": "บันทึก ฝึกอบรม และปรับใช้จากที่เดียวด้วย Strands Agents, LeRobot และ Hugging Face Storage Buckets"
-      },
-      "summary": {
-        "en": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-        "th": "บันทึก ฝึกอบรม และปรับใช้จากที่เดียวด้วย Strands Agents, LeRobot และ Hugging Face Storage Buckets"
       }
     },
     {

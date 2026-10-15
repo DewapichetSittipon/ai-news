@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-10-15T02:36:03.384Z",
+  "generatedAt": "2026-10-15T14:35:45.429Z",
   "items": [
+    {
+      "id": "openai__teaching-students-to-think-and-learn-through-questions",
+      "slug": "teaching-students-to-think-and-learn-through-questions",
+      "source": "openai",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "category": "Company",
+      "date": "2026-10-15T13:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Teaching students to think and learn through questions",
+        "th": "การสอนให้นักเรียนคิดและเรียนรู้ผ่านคำถาม"
+      },
+      "summary": {
+        "en": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+        "th": "เฉลิมฉลองวันครูด้วย AI สำหรับนักการศึกษาในภาษาโปรตุเกสแบบบราซิล และดูว่าโหมดการศึกษาสามารถช่วยครูสนับสนุนการเรียนรู้แบบกระตือรือร้นทีละขั้นตอนได้อย่างไร"
+      }
+    },
+    {
+      "id": "huggingface__apertus-v15-release-notes",
+      "slug": "apertus-v15-release-notes",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "category": "News",
+      "date": "2026-10-15T09:08:45.000Z",
+      "image": null,
+      "title": {
+        "en": "Apertus 1.5 Release Notes",
+        "th": "บันทึกประจำรุ่น Apertus 1.5"
+      },
+      "summary": {
+        "en": "Apertus 1.5 Release Notes",
+        "th": "บันทึกประจำรุ่น Apertus 1.5"
+      }
+    },
     {
       "id": "huggingface__hiro-acev2",
       "slug": "hiro-acev2",
@@ -988,23 +1022,6 @@
       }
     },
     {
-      "id": "openai__how-we-will-do-better-for-australia",
-      "slug": "how-we-will-do-better-for-australia",
-      "source": "openai",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "category": "Company",
-      "date": "2026-09-28T19:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How we will do better for Australia",
-        "th": "How we will do better for Australia"
-      },
-      "summary": {
-        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
-      }
-    },
-    {
       "id": "openai__towards-safety-cases-for-frontier-ai-training",
       "slug": "towards-safety-cases-for-frontier-ai-training",
       "source": "openai",
@@ -1019,6 +1036,23 @@
       "summary": {
         "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
         "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
+      }
+    },
+    {
+      "id": "openai__how-we-will-do-better-for-australia",
+      "slug": "how-we-will-do-better-for-australia",
+      "source": "openai",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "category": "Company",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How we will do better for Australia",
+        "th": "How we will do better for Australia"
+      },
+      "summary": {
+        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
       }
     },
     {
@@ -1073,23 +1107,6 @@
       }
     },
     {
-      "id": "openai__basis-tax-workbook-with-astra",
-      "slug": "basis-tax-workbook-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "category": "News",
-      "date": "2026-09-28T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-        "th": "Basis completes a tax workbook 2x faster with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-        "th": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use."
-      }
-    },
-    {
       "id": "openai__codex-originals",
       "slug": "codex-originals",
       "source": "openai",
@@ -1104,6 +1121,23 @@
       "summary": {
         "en": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about",
         "th": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about"
+      }
+    },
+    {
+      "id": "openai__basis-tax-workbook-with-astra",
+      "slug": "basis-tax-workbook-with-astra",
+      "source": "openai",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "category": "News",
+      "date": "2026-09-28T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+        "th": "Basis completes a tax workbook 2x faster with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+        "th": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use."
       }
     },
     {
@@ -1223,23 +1257,6 @@
       "summary": {
         "en": "Introducing private, server-side memory to Private AI Compute for personal AI.",
         "th": "Introducing private, server-side memory to Private AI Compute for personal AI."
-      }
-    },
-    {
-      "id": "openai__two-years-of-openai-academy",
-      "slug": "two-years-of-openai-academy",
-      "source": "openai",
-      "url": "https://openai.com/index/two-years-of-openai-academy",
-      "category": "Company",
-      "date": "2026-09-23T16:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Two years of OpenAI Academy",
-        "th": "Two years of OpenAI Academy"
-      },
-      "summary": {
-        "en": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-        "th": "Marking two years of OpenAI Academy and bringing AI skills to even more communities."
       }
     },
     {
@@ -2226,23 +2243,6 @@
       "summary": {
         "en": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
         "th": "ขอแนะนำภาษามือเป็นข้อความ (SL2T) โมเดลล้ำสมัยของเราที่ขับเคลื่อนฟีเจอร์ภาษามือใหม่สำหรับผู้ใช้ที่หูหนวกและมีปัญหาในการได้ยิน"
-      }
-    },
-    {
-      "id": "huggingface__altk-evolve-sldd",
-      "slug": "altk-evolve-sldd",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-      "category": "News",
-      "date": "2026-08-11T13:37:10.000Z",
-      "image": null,
-      "title": {
-        "en": "Thinking of ACE? We Can Do It with Fewer Tokens",
-        "th": "คิดถึงเอซมั้ย? เราสามารถทำได้โดยใช้โทเค็นน้อยลง"
-      },
-      "summary": {
-        "en": "Thinking of ACE? We Can Do It with Fewer Tokens",
-        "th": "คิดถึงเอซมั้ย? เราสามารถทำได้โดยใช้โทเค็นน้อยลง"
       }
     },
     {

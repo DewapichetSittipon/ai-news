@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T02:30:50.605Z",
+  "generatedAt": "2026-10-16T14:26:47.762Z",
   "items": [
     {
       "id": "huggingface__scaling-indic-pretraining",
@@ -16,6 +16,23 @@
       "summary": {
         "en": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
         "th": "การปรับขนาดการฝึกอบรมเบื้องต้นของตัวบ่งชี้: โทเค็น 2.8 ล้านล้านโทเค็นและไปป์ไลน์การสร้างข้อมูลแบบเปิด"
+      }
+    },
+    {
+      "id": "huggingface__reflection-beam",
+      "slug": "reflection-beam",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "category": "News",
+      "date": "2026-10-16T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Welcome Beam: a 501B open model you can own, customize, and scale",
+        "th": "Welcome Beam: รุ่นเปิด 501B ที่คุณสามารถเป็นเจ้าของ ปรับแต่ง และปรับขนาดได้"
+      },
+      "summary": {
+        "en": "Welcome Beam: a 501B open model you can own, customize, and scale",
+        "th": "Welcome Beam: รุ่นเปิด 501B ที่คุณสามารถเป็นเจ้าของ ปรับแต่ง และปรับขนาดได้"
       }
     },
     {
@@ -2209,23 +2226,6 @@
       "summary": {
         "en": "State of Open Models: Summer 2026 Observations",
         "th": "สถานะของโมเดลเปิด: การสังเกตการณ์ช่วงฤดูร้อนปี 2026"
-      }
-    },
-    {
-      "id": "huggingface__strands-lerobot-streaming-data-loop",
-      "slug": "strands-lerobot-streaming-data-loop",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "category": "News",
-      "date": "2026-08-13T17:16:04.000Z",
-      "image": null,
-      "title": {
-        "en": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-        "th": "บันทึก ฝึกอบรม และปรับใช้จากที่เดียวด้วย Strands Agents, LeRobot และ Hugging Face Storage Buckets"
-      },
-      "summary": {
-        "en": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-        "th": "บันทึก ฝึกอบรม และปรับใช้จากที่เดียวด้วย Strands Agents, LeRobot และ Hugging Face Storage Buckets"
       }
     },
     {

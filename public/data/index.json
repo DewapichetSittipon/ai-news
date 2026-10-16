@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T19:10:23.731Z",
+  "generatedAt": "2026-10-16T22:22:55.566Z",
   "items": [
     {
       "id": "huggingface__scaling-indic-pretraining",
@@ -16,6 +16,23 @@
       "summary": {
         "en": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
         "th": "การปรับขนาดการฝึกอบรมเบื้องต้นของตัวบ่งชี้: โทเค็น 2.8 ล้านล้านโทเค็นและไปป์ไลน์การสร้างข้อมูลแบบเปิด"
+      }
+    },
+    {
+      "id": "openai__stack-overflow-chatgpt-plugin",
+      "slug": "stack-overflow-chatgpt-plugin",
+      "source": "openai",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "category": "Startup",
+      "date": "2026-10-16T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+        "th": "Stack Overflow สำหรับ Agents เพิ่มการสมัครใช้งานเป็นสามเท่าด้วยปลั๊กอิน ChatGPT"
+      },
+      "summary": {
+        "en": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+        "th": "วิศวกรสองคนจัดส่ง Stack Overflow สำหรับตัวแทนภายในไม่กี่สัปดาห์ด้วย Codex และปลั๊กอิน ChatGPT ช่วยเพิ่มการเติบโตถึง 10 เท่าในการสร้างตัวแทน"
       }
     },
     {
@@ -427,23 +444,6 @@
       }
     },
     {
-      "id": "openai__asana-browser-agent",
-      "slug": "asana-browser-agent",
-      "source": "openai",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "category": "News",
-      "date": "2026-10-09T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-        "th": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
-      },
-      "summary": {
-        "en": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-        "th": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
-      }
-    },
-    {
       "id": "openai__sophos",
       "slug": "sophos",
       "source": "openai",
@@ -458,6 +458,23 @@
       "summary": {
         "en": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
         "th": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
+      }
+    },
+    {
+      "id": "openai__asana-browser-agent",
+      "slug": "asana-browser-agent",
+      "source": "openai",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "category": "News",
+      "date": "2026-10-09T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+        "th": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
+      },
+      "summary": {
+        "en": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+        "th": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
       }
     },
     {
@@ -1226,23 +1243,6 @@
       }
     },
     {
-      "id": "openai__codex-originals",
-      "slug": "codex-originals",
-      "source": "openai",
-      "url": "https://openai.com/form/codex-originals",
-      "category": "News",
-      "date": "2026-09-28T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Are you a Codex Original?",
-        "th": "Are you a Codex Original?"
-      },
-      "summary": {
-        "en": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about",
-        "th": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about"
-      }
-    },
-    {
       "id": "openai__basis-tax-workbook-with-astra",
       "slug": "basis-tax-workbook-with-astra",
       "source": "openai",
@@ -1260,6 +1260,23 @@
       }
     },
     {
+      "id": "openai__codex-originals",
+      "slug": "codex-originals",
+      "source": "openai",
+      "url": "https://openai.com/form/codex-originals",
+      "category": "News",
+      "date": "2026-09-28T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Are you a Codex Original?",
+        "th": "Are you a Codex Original?"
+      },
+      "summary": {
+        "en": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about",
+        "th": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about"
+      }
+    },
+    {
       "id": "huggingface__rl-environments",
       "slug": "rl-environments",
       "source": "huggingface",
@@ -1274,23 +1291,6 @@
       "summary": {
         "en": "Welcome RL Environments to the hub",
         "th": "Welcome RL Environments to the hub"
-      }
-    },
-    {
-      "id": "openai__proaction",
-      "slug": "proaction",
-      "source": "openai",
-      "url": "https://openai.com/index/proaction",
-      "category": "News",
-      "date": "2026-09-25T19:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-        "th": "Proaction boosts sales 60% and saves 75+ hours with Codex"
-      },
-      "summary": {
-        "en": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-        "th": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster."
       }
     },
     {

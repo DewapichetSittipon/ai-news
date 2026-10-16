@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-10-15T22:49:29.976Z",
+  "generatedAt": "2026-10-16T02:30:50.605Z",
   "items": [
+    {
+      "id": "huggingface__scaling-indic-pretraining",
+      "slug": "scaling-indic-pretraining",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "category": "News",
+      "date": "2026-10-16T01:44:47.000Z",
+      "image": null,
+      "title": {
+        "en": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+        "th": "การปรับขนาดการฝึกอบรมเบื้องต้นของตัวบ่งชี้: โทเค็น 2.8 ล้านล้านโทเค็นและไปป์ไลน์การสร้างข้อมูลแบบเปิด"
+      },
+      "summary": {
+        "en": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+        "th": "การปรับขนาดการฝึกอบรมเบื้องต้นของตัวบ่งชี้: โทเค็น 2.8 ล้านล้านโทเค็นและไปป์ไลน์การสร้างข้อมูลแบบเปิด"
+      }
+    },
     {
       "id": "huggingface__granite-switch-4-1",
       "slug": "granite-switch-4-1",
@@ -70,23 +87,6 @@
       }
     },
     {
-      "id": "huggingface__apertus-v15-release-notes",
-      "slug": "apertus-v15-release-notes",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-      "category": "News",
-      "date": "2026-10-15T09:08:45.000Z",
-      "image": null,
-      "title": {
-        "en": "Apertus 1.5 Release Notes",
-        "th": "บันทึกประจำรุ่น Apertus 1.5"
-      },
-      "summary": {
-        "en": "Apertus 1.5 Release Notes",
-        "th": "บันทึกประจำรุ่น Apertus 1.5"
-      }
-    },
-    {
       "id": "anthropic__an-update-on-independent-evaluators",
       "slug": "an-update-on-independent-evaluators",
       "source": "anthropic",
@@ -101,6 +101,23 @@
       "summary": {
         "en": "Anthropic announces updates to embedding independent evaluators",
         "th": "Anthropic announces updates to embedding independent evaluators"
+      }
+    },
+    {
+      "id": "openai__sullivan-cromwell",
+      "slug": "sullivan-cromwell",
+      "source": "openai",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "category": "News",
+      "date": "2026-10-15T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Sullivan & Cromwell brings legal expertise into agreement review",
+        "th": "Sullivan & Cromwell นำความเชี่ยวชาญทางกฎหมายมาสู่การทบทวนข้อตกลง"
+      },
+      "summary": {
+        "en": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+        "th": "Sullivan & Cromwell ร่วมมือกับ OpenAI พัฒนาเครื่องมือวิเคราะห์ข้อตกลง ซึ่งเป็นเครื่องมือ AI สำหรับระบุปัญหาในร่างข้อตกลง"
       }
     },
     {
@@ -393,23 +410,6 @@
       }
     },
     {
-      "id": "openai__sophos",
-      "slug": "sophos",
-      "source": "openai",
-      "url": "https://openai.com/index/sophos",
-      "category": "News",
-      "date": "2026-10-09T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-        "th": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak"
-      },
-      "summary": {
-        "en": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-        "th": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
-      }
-    },
-    {
       "id": "openai__asana-browser-agent",
       "slug": "asana-browser-agent",
       "source": "openai",
@@ -424,6 +424,23 @@
       "summary": {
         "en": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
         "th": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
+      }
+    },
+    {
+      "id": "openai__sophos",
+      "slug": "sophos",
+      "source": "openai",
+      "url": "https://openai.com/index/sophos",
+      "category": "News",
+      "date": "2026-10-09T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+        "th": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak"
+      },
+      "summary": {
+        "en": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+        "th": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
       }
     },
     {
@@ -577,23 +594,6 @@
       "summary": {
         "en": "Introducing Falcon ASR",
         "th": "Introducing Falcon ASR"
-      }
-    },
-    {
-      "id": "huggingface__nemotron-ioi-and-imo-2026",
-      "slug": "nemotron-ioi-and-imo-2026",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-      "category": "News",
-      "date": "2026-10-07T12:45:31.000Z",
-      "image": null,
-      "title": {
-        "en": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-        "th": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO"
-      },
-      "summary": {
-        "en": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-        "th": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO"
       }
     },
     {
@@ -1073,23 +1073,6 @@
       }
     },
     {
-      "id": "openai__introducing-gpt-6-1-sol",
-      "slug": "introducing-gpt-6-1-sol",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "category": "Product",
-      "date": "2026-09-29T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing GPT-6.1 Sol",
-        "th": "Introducing GPT-6.1 Sol"
-      },
-      "summary": {
-        "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-        "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
-      }
-    },
-    {
       "id": "openai__devday-2026-recap",
       "slug": "devday-2026-recap",
       "source": "openai",
@@ -1104,6 +1087,23 @@
       "summary": {
         "en": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
         "th": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
+      }
+    },
+    {
+      "id": "openai__introducing-gpt-6-1-sol",
+      "slug": "introducing-gpt-6-1-sol",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "category": "Product",
+      "date": "2026-09-29T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing GPT-6.1 Sol",
+        "th": "Introducing GPT-6.1 Sol"
+      },
+      "summary": {
+        "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+        "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
       }
     },
     {
@@ -1124,23 +1124,6 @@
       }
     },
     {
-      "id": "openai__how-we-will-do-better-for-australia",
-      "slug": "how-we-will-do-better-for-australia",
-      "source": "openai",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "category": "Company",
-      "date": "2026-09-28T19:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How we will do better for Australia",
-        "th": "How we will do better for Australia"
-      },
-      "summary": {
-        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
-      }
-    },
-    {
       "id": "openai__towards-safety-cases-for-frontier-ai-training",
       "slug": "towards-safety-cases-for-frontier-ai-training",
       "source": "openai",
@@ -1155,6 +1138,23 @@
       "summary": {
         "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
         "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
+      }
+    },
+    {
+      "id": "openai__how-we-will-do-better-for-australia",
+      "slug": "how-we-will-do-better-for-australia",
+      "source": "openai",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "category": "Company",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How we will do better for Australia",
+        "th": "How we will do better for Australia"
+      },
+      "summary": {
+        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
       }
     },
     {
@@ -1274,23 +1274,6 @@
       "summary": {
         "en": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
         "th": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster."
-      }
-    },
-    {
-      "id": "openai__lowes",
-      "slug": "lowes",
-      "source": "openai",
-      "url": "https://openai.com/index/lowes",
-      "category": "News",
-      "date": "2026-09-25T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Lowe’s answers millions of home improvement questions with OpenAI",
-        "th": "Lowe’s answers millions of home improvement questions with OpenAI"
-      },
-      "summary": {
-        "en": "Lowe’s uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and move home improvement projects forward.",
-        "th": "Lowe’s uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and move home improvement projects forward."
       }
     },
     {
@@ -2226,6 +2209,23 @@
       "summary": {
         "en": "State of Open Models: Summer 2026 Observations",
         "th": "สถานะของโมเดลเปิด: การสังเกตการณ์ช่วงฤดูร้อนปี 2026"
+      }
+    },
+    {
+      "id": "huggingface__strands-lerobot-streaming-data-loop",
+      "slug": "strands-lerobot-streaming-data-loop",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "category": "News",
+      "date": "2026-08-13T17:16:04.000Z",
+      "image": null,
+      "title": {
+        "en": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+        "th": "บันทึก ฝึกอบรม และปรับใช้จากที่เดียวด้วย Strands Agents, LeRobot และ Hugging Face Storage Buckets"
+      },
+      "summary": {
+        "en": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+        "th": "บันทึก ฝึกอบรม และปรับใช้จากที่เดียวด้วย Strands Agents, LeRobot และ Hugging Face Storage Buckets"
       }
     },
     {

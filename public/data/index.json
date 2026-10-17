@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-10-16T22:22:55.566Z",
+  "generatedAt": "2026-10-17T02:24:00.333Z",
   "items": [
+    {
+      "id": "openai__itau-generative-ai",
+      "slug": "itau-generative-ai",
+      "source": "openai",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "category": "News",
+      "date": "2026-10-16T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How Itaú is building generative AI for its entire customer base",
+        "th": "How Itaú is building generative AI for its entire customer base"
+      },
+      "summary": {
+        "en": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+        "th": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors."
+      }
+    },
     {
       "id": "huggingface__scaling-indic-pretraining",
       "slug": "scaling-indic-pretraining",
@@ -1107,23 +1124,6 @@
       }
     },
     {
-      "id": "openai__devday-2026-recap",
-      "slug": "devday-2026-recap",
-      "source": "openai",
-      "url": "https://openai.com/index/devday-2026-recap",
-      "category": "Company",
-      "date": "2026-09-29T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "DevDay 2026 Recap",
-        "th": "DevDay 2026 Recap"
-      },
-      "summary": {
-        "en": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-        "th": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
-      }
-    },
-    {
       "id": "openai__introducing-gpt-6-1-sol",
       "slug": "introducing-gpt-6-1-sol",
       "source": "openai",
@@ -1138,6 +1138,23 @@
       "summary": {
         "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
         "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
+      }
+    },
+    {
+      "id": "openai__devday-2026-recap",
+      "slug": "devday-2026-recap",
+      "source": "openai",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "category": "Company",
+      "date": "2026-09-29T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "DevDay 2026 Recap",
+        "th": "DevDay 2026 Recap"
+      },
+      "summary": {
+        "en": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+        "th": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
       }
     },
     {
@@ -1240,23 +1257,6 @@
       "summary": {
         "en": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
         "th": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support."
-      }
-    },
-    {
-      "id": "openai__basis-tax-workbook-with-astra",
-      "slug": "basis-tax-workbook-with-astra",
-      "source": "openai",
-      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "category": "News",
-      "date": "2026-09-28T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-        "th": "Basis completes a tax workbook 2x faster with GPT-6 Astra"
-      },
-      "summary": {
-        "en": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-        "th": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use."
       }
     },
     {

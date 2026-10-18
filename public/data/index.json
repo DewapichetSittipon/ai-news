@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-10-17T13:24:20.892Z",
+  "generatedAt": "2026-10-18T19:55:30.497Z",
   "items": [
+    {
+      "id": "anthropic__public-benefit-fund",
+      "slug": "public-benefit-fund",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "category": "News",
+      "date": "2026-10-18T00:00:00.000Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+      "title": {
+        "en": "Investing in the public benefit",
+        "th": "Investing in the public benefit"
+      },
+      "summary": {
+        "en": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+        "th": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows."
+      }
+    },
     {
       "id": "openai__itau-generative-ai",
       "slug": "itau-generative-ai",
@@ -36,23 +53,6 @@
       }
     },
     {
-      "id": "openai__stack-overflow-chatgpt-plugin",
-      "slug": "stack-overflow-chatgpt-plugin",
-      "source": "openai",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "category": "Startup",
-      "date": "2026-10-16T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-        "th": "Stack Overflow สำหรับ Agents เพิ่มการสมัครใช้งานเป็นสามเท่าด้วยปลั๊กอิน ChatGPT"
-      },
-      "summary": {
-        "en": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-        "th": "วิศวกรสองคนจัดส่ง Stack Overflow สำหรับตัวแทนภายในไม่กี่สัปดาห์ด้วย Codex และปลั๊กอิน ChatGPT ช่วยเพิ่มการเติบโตถึง 10 เท่าในการสร้างตัวแทน"
-      }
-    },
-    {
       "id": "openai__benefit-street-partners",
       "slug": "benefit-street-partners",
       "source": "openai",
@@ -67,6 +67,23 @@
       "summary": {
         "en": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
         "th": "Anant Kumar สร้างเครื่องมือเพื่อเปรียบเทียบการประเมินมูลค่าสินเชื่อและวิเคราะห์ข้อตกลงสินเชื่อ โดยใช้ Codex สำหรับการตรวจสอบโค้ดและการติดตามผลที่รวดเร็วยิ่งขึ้น"
+      }
+    },
+    {
+      "id": "openai__stack-overflow-chatgpt-plugin",
+      "slug": "stack-overflow-chatgpt-plugin",
+      "source": "openai",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "category": "Startup",
+      "date": "2026-10-16T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+        "th": "Stack Overflow สำหรับ Agents เพิ่มการสมัครใช้งานเป็นสามเท่าด้วยปลั๊กอิน ChatGPT"
+      },
+      "summary": {
+        "en": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+        "th": "วิศวกรสองคนจัดส่ง Stack Overflow สำหรับตัวแทนภายในไม่กี่สัปดาห์ด้วย Codex และปลั๊กอิน ChatGPT ช่วยเพิ่มการเติบโตถึง 10 เท่าในการสร้างตัวแทน"
       }
     },
     {
@@ -478,23 +495,6 @@
       }
     },
     {
-      "id": "openai__sophos",
-      "slug": "sophos",
-      "source": "openai",
-      "url": "https://openai.com/index/sophos",
-      "category": "News",
-      "date": "2026-10-09T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-        "th": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak"
-      },
-      "summary": {
-        "en": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-        "th": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
-      }
-    },
-    {
       "id": "openai__asana-browser-agent",
       "slug": "asana-browser-agent",
       "source": "openai",
@@ -509,6 +509,23 @@
       "summary": {
         "en": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
         "th": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
+      }
+    },
+    {
+      "id": "openai__sophos",
+      "slug": "sophos",
+      "source": "openai",
+      "url": "https://openai.com/index/sophos",
+      "category": "News",
+      "date": "2026-10-09T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+        "th": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak"
+      },
+      "summary": {
+        "en": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+        "th": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
       }
     },
     {
@@ -1141,23 +1158,6 @@
       }
     },
     {
-      "id": "openai__introducing-gpt-6-1-sol",
-      "slug": "introducing-gpt-6-1-sol",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "category": "Product",
-      "date": "2026-09-29T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing GPT-6.1 Sol",
-        "th": "Introducing GPT-6.1 Sol"
-      },
-      "summary": {
-        "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-        "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
-      }
-    },
-    {
       "id": "openai__devday-2026-recap",
       "slug": "devday-2026-recap",
       "source": "openai",
@@ -1172,6 +1172,23 @@
       "summary": {
         "en": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
         "th": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
+      }
+    },
+    {
+      "id": "openai__introducing-gpt-6-1-sol",
+      "slug": "introducing-gpt-6-1-sol",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "category": "Product",
+      "date": "2026-09-29T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing GPT-6.1 Sol",
+        "th": "Introducing GPT-6.1 Sol"
+      },
+      "summary": {
+        "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+        "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
       }
     },
     {
@@ -1192,23 +1209,6 @@
       }
     },
     {
-      "id": "openai__how-we-will-do-better-for-australia",
-      "slug": "how-we-will-do-better-for-australia",
-      "source": "openai",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "category": "Company",
-      "date": "2026-09-28T19:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "How we will do better for Australia",
-        "th": "How we will do better for Australia"
-      },
-      "summary": {
-        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
-      }
-    },
-    {
       "id": "openai__towards-safety-cases-for-frontier-ai-training",
       "slug": "towards-safety-cases-for-frontier-ai-training",
       "source": "openai",
@@ -1223,6 +1223,23 @@
       "summary": {
         "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
         "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
+      }
+    },
+    {
+      "id": "openai__how-we-will-do-better-for-australia",
+      "slug": "how-we-will-do-better-for-australia",
+      "source": "openai",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "category": "Company",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "How we will do better for Australia",
+        "th": "How we will do better for Australia"
+      },
+      "summary": {
+        "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+        "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
       }
     },
     {
@@ -1359,23 +1376,6 @@
       "summary": {
         "en": "Gemini 3.8 text-to-speech says hello",
         "th": "Gemini 3.8 text-to-speech says hello"
-      }
-    },
-    {
-      "id": "anthropic__claude-discovers-novel-enzyme-system",
-      "slug": "claude-discovers-novel-enzyme-system",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "category": "News",
-      "date": "2026-09-23T00:00:00.000Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/394de337d8a5d8db93a1c048fa1cb53e16a09625-2048x1240.jpg",
-      "title": {
-        "en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-        "th": "Claude discovers a novel enzyme system with CRISPR-like repeats"
-      },
-      "summary": {
-        "en": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
-        "th": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown."
       }
     },
     {

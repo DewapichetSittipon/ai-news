@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T19:55:30.497Z",
+  "generatedAt": "2026-10-19T09:29:19.378Z",
   "items": [
     {
       "id": "anthropic__public-benefit-fund",
@@ -169,6 +169,23 @@
       "summary": {
         "en": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
         "th": "เฉลิมฉลองวันครูด้วย AI สำหรับนักการศึกษาในภาษาโปรตุเกสแบบบราซิล และดูว่าโหมดการศึกษาสามารถช่วยครูสนับสนุนการเรียนรู้แบบกระตือรือร้นทีละขั้นตอนได้อย่างไร"
+      }
+    },
+    {
+      "id": "huggingface__apertus-v15-release-notes",
+      "slug": "apertus-v15-release-notes",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "category": "News",
+      "date": "2026-10-15T09:08:45.000Z",
+      "image": null,
+      "title": {
+        "en": "Apertus 1.5 Release Notes",
+        "th": "Apertus 1.5 Release Notes"
+      },
+      "summary": {
+        "en": "Apertus 1.5 Release Notes",
+        "th": "Apertus 1.5 Release Notes"
       }
     },
     {
@@ -1158,23 +1175,6 @@
       }
     },
     {
-      "id": "openai__devday-2026-recap",
-      "slug": "devday-2026-recap",
-      "source": "openai",
-      "url": "https://openai.com/index/devday-2026-recap",
-      "category": "Company",
-      "date": "2026-09-29T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "DevDay 2026 Recap",
-        "th": "DevDay 2026 Recap"
-      },
-      "summary": {
-        "en": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-        "th": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
-      }
-    },
-    {
       "id": "openai__introducing-gpt-6-1-sol",
       "slug": "introducing-gpt-6-1-sol",
       "source": "openai",
@@ -1189,6 +1189,23 @@
       "summary": {
         "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
         "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
+      }
+    },
+    {
+      "id": "openai__devday-2026-recap",
+      "slug": "devday-2026-recap",
+      "source": "openai",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "category": "Company",
+      "date": "2026-09-29T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "DevDay 2026 Recap",
+        "th": "DevDay 2026 Recap"
+      },
+      "summary": {
+        "en": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+        "th": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
       }
     },
     {
@@ -2209,23 +2226,6 @@
       "summary": {
         "en": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
         "th": "คลัสเตอร์เดียวกัน ใช้ประโยชน์ได้มากขึ้น 33 แต้ม: สิ่งที่เปลี่ยนแปลงคือลำดับ"
-      }
-    },
-    {
-      "id": "huggingface__state-of-open-models-summer-2026",
-      "slug": "state-of-open-models-summer-2026",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "category": "News",
-      "date": "2026-08-14T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "State of Open Models: Summer 2026 Observations",
-        "th": "สถานะของโมเดลเปิด: การสังเกตการณ์ช่วงฤดูร้อนปี 2026"
-      },
-      "summary": {
-        "en": "State of Open Models: Summer 2026 Observations",
-        "th": "สถานะของโมเดลเปิด: การสังเกตการณ์ช่วงฤดูร้อนปี 2026"
       }
     },
     {

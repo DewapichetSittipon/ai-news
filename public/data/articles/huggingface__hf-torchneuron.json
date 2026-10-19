@@ -1,0 +1,463 @@
+{
+  "id": "huggingface__hf-torchneuron",
+  "slug": "hf-torchneuron",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/hf-torchneuron",
+  "category": "News",
+  "date": "2026-10-19T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+    "th": "TorchNeuron: running HF models on AWS Trainium is easier than ever"
+  },
+  "summary": {
+    "en": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+    "th": "TorchNeuron: running HF models on AWS Trainium is easier than ever"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/620b7c408f5871b8a1a168a7/49M2lucv3I24rOMJFnhVd.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677431596830-631ce4b244503b72277fc89f.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1605114051380-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/iJ0wGL2442tLffjc8tBM-.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/18c08f2a1061a8de4da76da16a67f45b.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/620b7c408f5871b8a1a168a7/49M2lucv3I24rOMJFnhVd.jpeg",
+      "alt": "Régis Pierrard's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/w3Z6xyKVBA6np65Tb16dP.jpeg",
+      "alt": "Simon Pagezy's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1615890856777-6047a3315da6ba4b1dfb9e18.png",
+      "alt": "Michael Benayoun's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/61a50668cd3eb3043f38e445/E_M7m93Ou6d-XJij59VGF.jpeg",
+      "alt": "Jingya Huang's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6311157564939fabc00c87ec/eOaySRhZnV2maIUC_7HgC.jpeg",
+      "alt": "Alvaro Moran's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/647995564be04c76ce4547b3/-tlmMQgr-CTm5TCIjGApB.jpeg",
+      "alt": "David Corvoysier's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1605114051380-noauth.jpeg",
+      "alt": "Jeff Boudier's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "TorchNeuron",
+        "th": "TorchNeuron"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "New backend, native interface in HF libraries Transformers Diffusers Kernels",
+        "th": "New backend, native interface in HF libraries Transformers Diffusers Kernels"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Transformers",
+        "th": "Transformers"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Diffusers",
+        "th": "Diffusers"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Kernels",
+        "th": "Kernels"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Acknowledgments",
+        "th": "Acknowledgments"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "TorchNeuron",
+        "th": "TorchNeuron"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "TorchNeuron is a PyTorch plugin that brings a new backend for Trainium enabling support for eager mode, torch.compile and native distributed APIs like FSDP and TP. Read the Pytorch blog to learn more about TorchNeuron.",
+        "th": "TorchNeuron เป็นปลั๊กอิน PyTorch ที่นำแบ็คเอนด์ใหม่สำหรับ Trainium ที่รองรับโหมดกระตือรือร้น, torch.compile และ API แบบกระจายแบบเนทิฟ เช่น FSDP และ TP อ่านบล็อกของ Pytorch เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับ TorchNeuron"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Starting Oct. 20, 2026, TorchNeuron will be available as a public beta. Researchers and developers will be able to install it with pip install torch-neuronx.",
+        "th": "Starting Oct. 20, 2026, TorchNeuron will be available as a public beta. Researchers and developers will be able to install it with pip install torch-neuronx."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "New backend, native interface in HF libraries",
+        "th": "New backend, native interface in HF libraries"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To date, the Hugging Face experience on AWS Trainium and Inferentia — AI chips designed respectively for cost-effective training and inference at scale — has been delivered through optimum-neuron. This library relies on the torch-neuronx package, which is based on PyTorch XLA. It was the natural choice at the time, but it meant thinking like a compiler: lazy tensors instead of eager execution, static shapes only, a recompilation for every graph break. Optimum Neuron existed to hide that complexity, and maintained custom code (modeling classes, trainers, etc) to do so.",
+        "th": "To date, the Hugging Face experience on AWS Trainium and Inferentia — AI chips designed respectively for cost-effective training and inference at scale — has been delivered through optimum-neuron. This library relies on the torch-neuronx package, which is based on PyTorch XLA. It was the natural choice at the time, but it meant thinking like a compiler: lazy tensors instead of eager execution, static shapes only, a recompilation for every graph break. Optimum Neuron existed to hide that complexity, and maintained custom code (modeling classes, trainers, etc) to do so."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "TorchNeuron changes this. It integrates directly into PyTorch and exposes neuron as a native device, with eager execution, PyTorch's own distributed primitives (DTensor, FSDP2) and torch.compile.",
+        "th": "TorchNeuron changes this. It integrates directly into PyTorch and exposes neuron as a native device, with eager execution, PyTorch's own distributed primitives (DTensor, FSDP2) and torch.compile."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For the Hugging Face libraries, Trainium becomes a device like any other: Transformers, Diffusers, Accelerate, PEFT and TRL run on it directly, with the same classes and scripts you would use on any other accelerator. From now on, we recommend that Neuron users use these libraries directly instead of going through Optimum Neuron.",
+        "th": "For the Hugging Face libraries, Trainium becomes a device like any other: Transformers, Diffusers, Accelerate, PEFT and TRL run on it directly, with the same classes and scripts you would use on any other accelerator. From now on, we recommend that Neuron users use these libraries directly instead of going through Optimum Neuron."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Transformers",
+        "th": "Transformers"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Text generation is now natively supported in Transformers for a wide range of models. With TorchNeuron, 89% of the top 100 most-used text-generation model architectures are supported out of the box, compared to 46% with Optimum Neuron v0.4.5. You just need to pass the device_map=neuron argument in your code and your model will be moved to the Neuron devices.",
+        "th": "Text generation is now natively supported in Transformers for a wide range of models. With TorchNeuron, 89% of the top 100 most-used text-generation model architectures are supported out of the box, compared to 46% with Optimum Neuron v0.4.5. You just need to pass the device_map=neuron argument in your code and your model will be moved to the Neuron devices."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The following is an example of text-generation with tensor parallelism, which will enable to fully benefit from your Neuron instance. Note that it uses a static cache for generation as this is strongly recommended with Neuron to prevent frequent recompilations.",
+        "th": "The following is an example of text-generation with tensor parallelism, which will enable to fully benefit from your Neuron instance. Note that it uses a static cache for generation as this is strongly recommended with Neuron to prevent frequent recompilations."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Now that Neuron is a native PyTorch device, training on Trainium uses the same Hugging Face libraries as any other accelerator: Transformers, Accelerate, PEFT and TRL. You no longer need a dedicated trainer or a Neuron-specific fork of the model code. A standard TRL fine-tuning script runs on a Trainium instance with only a few Neuron-specific settings.",
+        "th": "Now that Neuron is a native PyTorch device, training on Trainium uses the same Hugging Face libraries as any other accelerator: Transformers, Accelerate, PEFT and TRL. You no longer need a dedicated trainer or a Neuron-specific fork of the model code. A standard TRL fine-tuning script runs on a Trainium instance with only a few Neuron-specific settings."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Here is a supervised fine-tuning script built on TRL's SFTTrainer. If you have fine-tuned a model with TRL on GPUs before, it should look familiar.",
+        "th": "Here is a supervised fine-tuning script built on TRL's SFTTrainer. If you have fine-tuned a model with TRL on GPUs before, it should look familiar."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Parallelism is handled natively by Transformers. You put a DistributedConfig with the tensor-parallel (TP) and FSDP sizes in model_init_kwargs, SFTTrainer passes it to from_pretrained, and the model is sharded as its weights are loaded. The Trainer sees that the model is already distributed and does not wrap it again. You don't need an --fsdp flag or an Accelerate FSDP config.",
+        "th": "Parallelism is handled natively by Transformers. You put a DistributedConfig with the tensor-parallel (TP) and FSDP sizes in model_init_kwargs, SFTTrainer passes it to from_pretrained, and the model is sharded as its weights are loaded. The Trainer sees that the model is already distributed and does not wrap it again. You don't need an --fsdp flag or an Accelerate FSDP config."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Nothing in the script is tied to Trainium: the same code runs on any hardware. A few things are worth knowing when you run it on Trainium:",
+        "th": "ไม่มีสิ่งใดในสคริปต์ที่เชื่อมโยงกับ Trainium: รหัสเดียวกันนี้ทำงานบนฮาร์ดแวร์ใดๆ มีบางสิ่งที่ควรรู้เมื่อคุณใช้งานบน Trainium:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Static shapes. The script disables automatic dynamic shapes in torch.compile and uses wrapped packing to produce sequences of up to 2048 tokens. With TRL ≥ 1.16, batches on Neuron are padded to a multiple of 128 tokens, limiting the number of input shapes. Compiled graphs are reused for subsequent steps with the same shapes.",
+        "th": "Static shapes. The script disables automatic dynamic shapes in torch.compile and uses wrapped packing to produce sequences of up to 2048 tokens. With TRL ≥ 1.16, batches on Neuron are padded to a multiple of 128 tokens, limiting the number of input shapes. Compiled graphs are reused for subsequent steps with the same shapes."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "torch.compile on. Passing --torch_compile true is all it takes: on a Trainium instance, torch.compile detects the device and picks the Neuron backend automatically, with nothing else to configure.",
+        "th": "torch.compile บน การส่ง --torch_compile true ทำได้ทั้งหมด: ในอินสแตนซ์ Trainium torch.compile จะตรวจจับอุปกรณ์และเลือกแบ็กเอนด์ของ Neuron โดยอัตโนมัติ โดยไม่ต้องกำหนดค่าอะไรอีก"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Async weight loading off. The built-in asynchronous weight loading in Transformers is not supported on Neuron, so for now we disable it with HF_DEACTIVATE_ASYNC_LOAD=1.",
+        "th": "Async weight loading off. The built-in asynchronous weight loading in Transformers is not supported on Neuron, so for now we disable it with HF_DEACTIVATE_ASYNC_LOAD=1."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The command below launches training with torchrun, which starts one process per NeuronCore. TP_SIZE and FSDP_SIZE set the parallelism layout, and their product is the number of processes: here 4 x 8 = 32, matching --nproc_per_node. The 32 processes form a 4 x 8 grid. Tensor parallelism splits each layer across the 4 cores of a TP group, and FSDP shards the parameters, gradients and optimizer state across the 8 TP groups.",
+        "th": "The command below launches training with torchrun, which starts one process per NeuronCore. TP_SIZE and FSDP_SIZE set the parallelism layout, and their product is the number of processes: here 4 x 8 = 32, matching --nproc_per_node. The 32 processes form a 4 x 8 grid. Tensor parallelism splits each layer across the 4 cores of a TP group, and FSDP shards the parameters, gradients and optimizer state across the 8 TP groups."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We ran it on 8 Trainium2 chips (32 NeuronCores), which is half a trn2.48xlarge instance.",
+        "th": "We ran it on 8 Trainium2 chips (32 NeuronCores), which is half a trn2.48xlarge instance."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Training runs to completion, and trainer.save_model writes a standard Transformers checkpoint. Nothing in it is tied to Neuron: you can push it to the Hugging Face Hub as is and load it on any other hardware.",
+        "th": "Training runs to completion, and trainer.save_model writes a standard Transformers checkpoint. Nothing in it is tied to Neuron: you can push it to the Hugging Face Hub as is and load it on any other hardware."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Diffusers",
+        "th": "Diffusers"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Many pipelines from the Diffusers library are compatible with TorchNeuron in eager and compiled mode. FLUX.1-dev, FLUX.2, Qwen-Image, Qwen-Image-2.1 and H3 are also compatible with tensor parallelism to make the most of your Neuron devices. The following is an example showing how you can use TP:",
+        "th": "Many pipelines from the Diffusers library are compatible with TorchNeuron in eager and compiled mode. FLUX.1-dev, FLUX.2, Qwen-Image, Qwen-Image-2.1 and H3 are also compatible with tensor parallelism to make the most of your Neuron devices. The following is an example showing how you can use TP:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can run this piece of code with: NEURON_LOGICAL_NC_CONFIG=2 torchrun --nproc_per_node=8 run.py.",
+        "th": "You can run this piece of code with: NEURON_LOGICAL_NC_CONFIG=2 torchrun --nproc_per_node=8 run.py."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More and more pipleines will be compatible with TP. If a pipeline you like is not, you can also add support for it following this guide.",
+        "th": "More and more pipleines will be compatible with TP. If a pipeline you like is not, you can also add support for it following this guide."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Kernels",
+        "th": "Kernels"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Make sure to check out the kernels from the Neuron team as more and more Neuron kernels will become available on the Hub to speed up your models. Neuron kernels can be written using the Neuron Kernel Interface (NKI), which gives lower control to optimize operations. This way, users can run their own custom operations and share them on the hub.",
+        "th": "Make sure to check out the kernels from the Neuron team as more and more Neuron kernels will become available on the Hub to speed up your models. Neuron kernels can be written using the Neuron Kernel Interface (NKI), which gives lower control to optimize operations. This way, users can run their own custom operations and share them on the hub."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can use for example this kernel to speed up your vision transformers with up to a x2.4 speedup on Trainium!",
+        "th": "You can use for example this kernel to speed up your vision transformers with up to a x2.4 speedup on Trainium!"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/hf-torchneuron/kernel.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Acknowledgments",
+        "th": "Acknowledgments"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Special thanks to the AWS team for their work on TorchNeuron and for their reactivity to our feedback to make the HF integration as good as possible.",
+        "th": "Special thanks to the AWS team for their work on TorchNeuron and for their reactivity to our feedback to make the HF integration as good as possible."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More Articles from our Blog",
+        "th": "บทความเพิ่มเติมจากบล็อกของเรา"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/torch-mlp-fusion/thumbnail.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+        "th": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/608aabf24955d2bfc3cd99c6/-YxmtpzEmf3NKOTktODRP.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6123945a0ed258ebc83f3d56/8wMHFQHEV24G_ljl4kPxQ.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/61929226ded356549e20c5da/ONUjP2S5fUWd07BiFXm0i.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617264212503-603d25b75f9d390ab190b777.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+1",
+        "th": "+1"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/torch-profiler/thumbnail.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
+        "th": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/608aabf24955d2bfc3cd99c6/-YxmtpzEmf3NKOTktODRP.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1649681653581-5f7fbd813e94f16a85448745.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/61929226ded356549e20c5da/ONUjP2S5fUWd07BiFXm0i.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6123945a0ed258ebc83f3d56/8wMHFQHEV24G_ljl4kPxQ.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+1",
+        "th": "+1"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "ชุมชน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· ลงทะเบียนหรือเข้าสู่ระบบเพื่อแสดงความคิดเห็น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/620b7c408f5871b8a1a168a7/49M2lucv3I24rOMJFnhVd.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677431596830-631ce4b244503b72277fc89f.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1605114051380-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/iJ0wGL2442tLffjc8tBM-.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/18c08f2a1061a8de4da76da16a67f45b.svg",
+      "alt": ""
+    }
+  ]
+}

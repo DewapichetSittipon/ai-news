@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-10-19T16:46:28.312Z",
+  "generatedAt": "2026-10-19T21:54:57.460Z",
   "items": [
+    {
+      "id": "huggingface__hf-torchneuron",
+      "slug": "hf-torchneuron",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "category": "News",
+      "date": "2026-10-19T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+        "th": "TorchNeuron: running HF models on AWS Trainium is easier than ever"
+      },
+      "summary": {
+        "en": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+        "th": "TorchNeuron: running HF models on AWS Trainium is easier than ever"
+      }
+    },
     {
       "id": "anthropic__public-benefit-fund",
       "slug": "public-benefit-fund",
@@ -512,23 +529,6 @@
       }
     },
     {
-      "id": "openai__asana-browser-agent",
-      "slug": "asana-browser-agent",
-      "source": "openai",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "category": "News",
-      "date": "2026-10-09T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-        "th": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
-      },
-      "summary": {
-        "en": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-        "th": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
-      }
-    },
-    {
       "id": "openai__sophos",
       "slug": "sophos",
       "source": "openai",
@@ -543,6 +543,23 @@
       "summary": {
         "en": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
         "th": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
+      }
+    },
+    {
+      "id": "openai__asana-browser-agent",
+      "slug": "asana-browser-agent",
+      "source": "openai",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "category": "News",
+      "date": "2026-10-09T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+        "th": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
+      },
+      "summary": {
+        "en": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+        "th": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
       }
     },
     {
@@ -1226,23 +1243,6 @@
       }
     },
     {
-      "id": "openai__towards-safety-cases-for-frontier-ai-training",
-      "slug": "towards-safety-cases-for-frontier-ai-training",
-      "source": "openai",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "category": "Safety",
-      "date": "2026-09-28T19:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Towards safety cases for frontier AI training",
-        "th": "Towards safety cases for frontier AI training"
-      },
-      "summary": {
-        "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-        "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
-      }
-    },
-    {
       "id": "openai__how-we-will-do-better-for-australia",
       "slug": "how-we-will-do-better-for-australia",
       "source": "openai",
@@ -1257,6 +1257,23 @@
       "summary": {
         "en": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
         "th": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
+      }
+    },
+    {
+      "id": "openai__towards-safety-cases-for-frontier-ai-training",
+      "slug": "towards-safety-cases-for-frontier-ai-training",
+      "source": "openai",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "category": "Safety",
+      "date": "2026-09-28T19:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Towards safety cases for frontier AI training",
+        "th": "Towards safety cases for frontier AI training"
+      },
+      "summary": {
+        "en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+        "th": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
       }
     },
     {
@@ -2209,23 +2226,6 @@
       "summary": {
         "en": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
         "th": "Multi-Vector (การโต้ตอบล่าช้า) การฝังโมเดลด้วย Sentence Transformers"
-      }
-    },
-    {
-      "id": "huggingface__gpu-management-pt2",
-      "slug": "gpu-management-pt2",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "category": "News",
-      "date": "2026-08-17T19:46:21.000Z",
-      "image": null,
-      "title": {
-        "en": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-        "th": "คลัสเตอร์เดียวกัน ใช้ประโยชน์ได้มากขึ้น 33 แต้ม: สิ่งที่เปลี่ยนแปลงคือลำดับ"
-      },
-      "summary": {
-        "en": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-        "th": "คลัสเตอร์เดียวกัน ใช้ประโยชน์ได้มากขึ้น 33 แต้ม: สิ่งที่เปลี่ยนแปลงคือลำดับ"
       }
     },
     {

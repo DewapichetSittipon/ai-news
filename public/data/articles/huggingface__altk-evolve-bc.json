@@ -1,0 +1,709 @@
+{
+  "id": "huggingface__altk-evolve-bc",
+  "slug": "altk-evolve-bc",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+  "category": "News",
+  "date": "2026-10-20T15:19:48.000Z",
+  "image": null,
+  "title": {
+    "en": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+    "th": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model"
+  },
+  "summary": {
+    "en": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+    "th": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/60a641594e4508065fac8ceb/NvsnsnsWXzTMlUdqsDasp.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/643993faeb7c5616ef3fdbc9/zo55b-nrQcwpgmQGRvj4K.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/67b5ae21ed03e92b01a32342/X1XgnmMAGWN4Uz_Gabj4K.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/be40b5bce28c1378042615d9349747f8.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/645e4bc1d9187cd3e07535c2/YYhUQPu19hB2OTTN1l4zE.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/voQatzALsIDEbM2JR25ei.png",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+9",
+        "th": "+9"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/avatars/8ba2912d52fca21df2caa3aac681c8c3.svg",
+      "alt": "Ashwath Vaithinathan Aravindan's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6435a1131860001f144239ea/smzcd7SHs33E2ArxBLBBK.png",
+      "alt": "Vatche Isahagian's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/645e4bc1d9187cd3e07535c2/YYhUQPu19hB2OTTN1l4zE.jpeg",
+      "alt": "Vinod Muthusamy's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "/avatars/981da7aa42bc31072a5f6e04ce8e6c3a.svg",
+      "alt": "Jayaram Radhakrishnan's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/643993faeb7c5616ef3fdbc9/zo55b-nrQcwpgmQGRvj4K.png",
+      "alt": "Evelyn Duesterwald's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "/avatars/18f132b7a7dabcdf5fb933edb554ea68.svg",
+      "alt": "Gaodan Fang's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "/avatars/c20bc90f9b6a68b53d1b66c6ff37090b.svg",
+      "alt": "Punleuk Oum's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "/avatars/7567e1a8588c0bee6293c3cb88c11c8d.svg",
+      "alt": "G Thomas's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/60a641594e4508065fac8ceb/NvsnsnsWXzTMlUdqsDasp.png",
+      "alt": "Michał Ulewicz's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/voQatzALsIDEbM2JR25ei.png",
+      "alt": "Merve Unuvar's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/64e8143f6de557454220921e/aNouKBrKm1dnN9pI1JXlp.jpeg",
+      "alt": "Ayhan Sebin's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": "IBM Research's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Learned memory takes a basic ReAct agent with GPT-4.1 to the top",
+        "th": "Learned memory takes a basic ReAct agent with GPT-4.1 to the top"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "τ²-bench tests policy-bound customer service",
+        "th": "τ²-bench tests policy-bound customer service"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Guidelines improve capability and reliability The best amount of guidance depends on the domain",
+        "th": "Guidelines improve capability and reliability The best amount of guidance depends on the domain"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The best amount of guidance depends on the domain",
+        "th": "The best amount of guidance depends on the domain"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Better performance costs more tokens, not more turns",
+        "th": "Better performance costs more tokens, not more turns"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Learned guidelines also improve agents using frontier models",
+        "th": "Learned guidelines also improve agents using frontier models"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ALTK-Evolve tops the leaderboard comparison",
+        "th": "ALTK-Evolve tops the leaderboard comparison"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Agents can improve without weight updates Links:",
+        "th": "Agents can improve without weight updates Links:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Links:",
+        "th": "Links:"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Learned memory takes a basic ReAct agent with GPT-4.1 to the top",
+        "th": "Learned memory takes a basic ReAct agent with GPT-4.1 to the top"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using GPT-4.1, an older, non-reasoning model, a basic customer-service agent reaches 67.5% Pass^4 on τ²-bench retail — meaning it solves the task on all four independent attempts for 67.5% of tasks. It scores above every retail entry in our October 12, 2026 leaderboard snapshot. It runs on the benchmark's stock ReAct scaffold, with learned guidelines appended to its system prompt.",
+        "th": "Using GPT-4.1, an older, non-reasoning model, a basic customer-service agent reaches 67.5% Pass^4 on τ²-bench retail — meaning it solves the task on all four independent attempts for 67.5% of tasks. It scores above every retail entry in our October 12, 2026 leaderboard snapshot. It runs on the benchmark's stock ReAct scaffold, with learned guidelines appended to its system prompt."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ALTK-Evolve builds that playbook using GPT-4.1. It analyzes the agent's training-task attempts and uses the model to distill successes and failures into short behavioral rules: how to authenticate a customer, confirm a transaction, or handle a return. Those guidelines are then added to the agent's prompt for subsequent conversations. The same model powers both guideline extraction and the agent; no weight updates or human annotation are needed.",
+        "th": "ALTK-Evolve builds that playbook using GPT-4.1. It analyzes the agent's training-task attempts and uses the model to distill successes and failures into short behavioral rules: how to authenticate a customer, confirm a transaction, or handle a return. Those guidelines are then added to the agent's prompt for subsequent conversations. The same model powers both guideline extraction and the agent; no weight updates or human annotation are needed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our previous work demonstrated this approach on coding agents. Here, we test it on customer service, where success requires following domain policies, understanding a customer's request, and executing the right tool actions.",
+        "th": "Our previous work demonstrated this approach on coding agents. Here, we test it on customer service, where success requires following domain policies, understanding a customer's request, and executing the right tool actions."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "τ²-bench tests policy-bound customer service",
+        "th": "τ²-bench tests policy-bound customer service"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "τ²-bench (from Sierra) measures how well an agent handles customer-service conversations under real constraints. Each task pairs the agent with an LLM-simulated customer who has a goal in mind, a set of domain tools (look up an order, issue a refund, rebook a flight), and a written policy document the agent must follow. The agent has to draw out the right details, stay within policy, and take the correct — often irreversible — actions; a task counts as solved only when the final database state matches the expected outcome, a strict binary reward. We use its two customer-service domains, retail and airline.",
+        "th": "τ²-bench (from Sierra) measures how well an agent handles customer-service conversations under real constraints. Each task pairs the agent with an LLM-simulated customer who has a goal in mind, a set of domain tools (look up an order, issue a refund, rebook a flight), and a written policy document the agent must follow. The agent has to draw out the right details, stay within policy, and take the correct — often irreversible — actions; a task counts as solved only when the final database state matches the expected outcome, a strict binary reward. We use its two customer-service domains, retail and airline."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We run τ²-bench's own implementation of a basic ReAct agent with a two-phase THINK → ACT loop, using gpt-4.1 as the agent model and gpt-5.5 as the customer-simulator model; 4 trials per task. The only change we make is a block of learned guidelines appended to the system prompt — everything else (policy, tools, scaffold) is stock τ²-bench. Concretely, the learned guidelines are tacked on after the domain policy as a plain markdown list:",
+        "th": "We run τ²-bench's own implementation of a basic ReAct agent with a two-phase THINK → ACT loop, using gpt-4.1 as the agent model and gpt-5.5 as the customer-simulator model; 4 trials per task. The only change we make is a block of learned guidelines appended to the system prompt — everything else (policy, tools, scaffold) is stock τ²-bench. Concretely, the learned guidelines are tacked on after the domain policy as a plain markdown list:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We extract guidelines from the agent's trajectories on τ²-bench train tasks using gpt-4.1, the same model that powers the agent, then apply them unchanged on the held-out test set.",
+        "th": "We extract guidelines from the agent's trajectories on τ²-bench train tasks using gpt-4.1, the same model that powers the agent, then apply them unchanged on the held-out test set."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Guidelines improve capability and reliability",
+        "th": "Guidelines improve capability and reliability"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In a prior post, we talked about how different models / tasks require different dosage of guidance. Inline with the idea, we also evaluate different amounts of guidelines provided to the model.",
+        "th": "In a prior post, we talked about how different models / tasks require different dosage of guidance. Inline with the idea, we also evaluate different amounts of guidelines provided to the model."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each guideline carries a support count — the number of distinct training tasks it was extracted from, so higher support means a rule that generalized across more tasks rather than a one-off. We compare three configurations: baseline (no guidelines), sup3 (keep only guidelines with support ≥ 3 — a small, high-confidence core), and lossless (keep every guideline retained after consolidation, i.e. support ≥ 1).",
+        "th": "Each guideline carries a support count — the number of distinct training tasks it was extracted from, so higher support means a rule that generalized across more tasks rather than a one-off. We compare three configurations: baseline (no guidelines), sup3 (keep only guidelines with support ≥ 3 — a small, high-confidence core), and lossless (keep every guideline retained after consolidation, i.e. support ≥ 1)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Table 1. Guideline configurations and retained guideline counts by domain.",
+        "th": "Table 1. Guideline configurations and retained guideline counts by domain."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The metrics we track. Every task is attempted 4 times, and we read those trials two ways:",
+        "th": "The metrics we track. Every task is attempted 4 times, and we read those trials two ways:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mean Accuracy — the average success rate across the 4 trials. This is the capability axis: how often does the agent get this right?",
+        "th": "Mean Accuracy — the average success rate across the 4 trials. This is the capability axis: how often does the agent get this right?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Pass^4 — the percentage of tasks that passed across all 4 trials. This measures along the reliability axis and the metric the τ²-bench leaderboard reports. It matters here because a support agent that resolves a refund 3 times out of 4 still fails a quarter of real customers — Pass^4 asks whether you can trust the agent every time, not just on average.",
+        "th": "Pass^4 — the percentage of tasks that passed across all 4 trials. This measures along the reliability axis and the metric the τ²-bench leaderboard reports. It matters here because a support agent that resolves a refund 3 times out of 4 still fails a quarter of real customers — Pass^4 asks whether you can trust the agent every time, not just on average."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/HtL2uTn98-xHkcTxKqkFY.png",
+      "alt": "Mean Accuracy and Pass^4 on the held-out test tasks, by variant, for Retail and Airline. Lossless lifts retail accuracy +4.4 pp and Pass^4 +10.0 pp; airline accuracy rises +7.5 pp with lossless while sup3 gives the best Pass^4 at +10.0 pp."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Figure 1. Mean Accuracy and Pass^4 on held-out retail and airline tasks for agents using gpt-4.1 across four trials per task.",
+        "th": "Figure 1. Mean Accuracy and Pass^4 on held-out retail and airline tasks for agents using gpt-4.1 across four trials per task."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Agent model: gpt-4.1 (user simulator: gpt-5.5).",
+        "th": "Agent model: gpt-4.1 (user simulator: gpt-5.5)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Table 2. Held-out agent performance using gpt-4.1 across four trials per task. Parentheses show percentage-point changes from baseline.",
+        "th": "Table 2. Held-out agent performance using gpt-4.1 across four trials per task. Parentheses show percentage-point changes from baseline."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mean Accuracy climbs in both domains — retail +4.4 pts (78.1 → 82.5) and airline +7.5 pts (57.5 → 65.0). Reliability moves further: the strict Pass^4 rises +10 pts in retail (57.5 → 67.5) and +10 pts in airline (35.0 → 45.0). And the gains come from better-informed calls, not longer conversations — we look at conversation length directly in Better performance costs more tokens, not more turns below.",
+        "th": "Mean Accuracy climbs in both domains — retail +4.4 pts (78.1 → 82.5) and airline +7.5 pts (57.5 → 65.0). Reliability moves further: the strict Pass^4 rises +10 pts in retail (57.5 → 67.5) and +10 pts in airline (35.0 → 45.0). And the gains come from better-informed calls, not longer conversations — we look at conversation length directly in Better performance costs more tokens, not more turns below."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "The best amount of guidance depends on the domain",
+        "th": "The best amount of guidance depends on the domain"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The two domains disagree about how much guidance pays off. In retail, more is better on every metric — the small sup3 core barely beats baseline on accuracy, and you need the full lossless set for the real jump. In airline the picture flips at the reliability end: lossless leads on accuracy (65% vs 60%), but the compact sup3 core (14 guidelines) is the more reliable one, taking Pass^4 to 45% against lossless's 40%. Echoing the earlier finding that delivery is a dial, not a constant, support count is a knob worth tuning per domain, not a value to hard-code.",
+        "th": "The two domains disagree about how much guidance pays off. In retail, more is better on every metric — the small sup3 core barely beats baseline on accuracy, and you need the full lossless set for the real jump. In airline the picture flips at the reliability end: lossless leads on accuracy (65% vs 60%), but the compact sup3 core (14 guidelines) is the more reliable one, taking Pass^4 to 45% against lossless's 40%. Echoing the earlier finding that delivery is a dial, not a constant, support count is a knob worth tuning per domain, not a value to hard-code."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Better performance costs more tokens, not more turns",
+        "th": "Better performance costs more tokens, not more turns"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Guidelines aren't free, but the cost lands where you'd expect — in prompt input tokens, not in a longer, more meandering conversation:",
+        "th": "Guidelines aren't free, but the cost lands where you'd expect — in prompt input tokens, not in a longer, more meandering conversation:"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/MsqhICXsHtpJozVFZYEm7.png",
+      "alt": "Cost per conversation grouped by Retail and Airline. Lossless increases cost by 65% and 32%, respectively, over the no-guideline baseline."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Figure 2. Total LLM cost per conversation by domain and guideline configuration on the full base split.",
+        "th": "Figure 2. Total LLM cost per conversation by domain and guideline configuration on the full base split."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Table 3. Total LLM cost per conversation (agent and user simulator) on the full base split across four trials. Lower is better.",
+        "th": "Table 3. Total LLM cost per conversation (agent and user simulator) on the full base split across four trials. Lower is better."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Does the agent get there by talking longer? To answer that cleanly we compare like for like: the task runs solved under both baseline and the guideline variant — identical scenario and seed, a true \"same task, done right\" set — and count assistant turns on each side.",
+        "th": "Does the agent get there by talking longer? To answer that cleanly we compare like for like: the task runs solved under both baseline and the guideline variant — identical scenario and seed, a true \"same task, done right\" set — and count assistant turns on each side."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Table 4. Assistant turns per conversation for matched runs solved under both settings on the test split, pooling four trials.",
+        "th": "Table 4. Assistant turns per conversation for matched runs solved under both settings on the test split, pooling four trials."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The agent isn't talking longer — on the shared set, guidelines make conversations slightly shorter: lossless trims ~0.3–0.4 turns in both domains (retail 10.59 → 10.16, airline 9.15 → 8.82), and no variant lengthens them. That matters beyond cost: each turn is a sequential LLM round-trip, so fewer turns means lower end-to-end latency — a faster time-to-completion for the customer, not just a cheaper one. The only real price is on the input side — the larger system prompt riding on every LLM call: retail's 292-guideline prompt pushes cost from ~$0.084 to ~$0.139 per conversation, while airline's smaller playbook is cheaper. And in production even that is largely reclaimable with prompt caching, since the guideline block is identical across every call.",
+        "th": "The agent isn't talking longer — on the shared set, guidelines make conversations slightly shorter: lossless trims ~0.3–0.4 turns in both domains (retail 10.59 → 10.16, airline 9.15 → 8.82), and no variant lengthens them. That matters beyond cost: each turn is a sequential LLM round-trip, so fewer turns means lower end-to-end latency — a faster time-to-completion for the customer, not just a cheaper one. The only real price is on the input side — the larger system prompt riding on every LLM call: retail's 292-guideline prompt pushes cost from ~$0.084 to ~$0.139 per conversation, while airline's smaller playbook is cheaper. And in production even that is largely reclaimable with prompt caching, since the guideline block is identical across every call."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "So the trade is a favorable one: for a slightly higher input cost (much of it cached away in practice) the agent lands higher accuracy, higher reliability, and lower time-to-completion at once — not the usual quality-for-latency tradeoff, but all three moving the right way together.",
+        "th": "So the trade is a favorable one: for a slightly higher input cost (much of it cached away in practice) the agent lands higher accuracy, higher reliability, and lower time-to-completion at once — not the usual quality-for-latency tradeoff, but all three moving the right way together."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Learned guidelines also improve agents using frontier models",
+        "th": "Learned guidelines also improve agents using frontier models"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "So far, we have used an older, non-reasoning model — gpt-4.1. A fair objection is that learned guidelines might have less to add to an agent using a frontier model: maybe they only patch the gaps of a weaker model. So we tested it directly — we reran airline using gpt-5.5 for both the agent and guideline extraction, on the same τ²-bench ReAct scaffold, with guidelines re-mined from the agent's own runs. One detail changes with the model: none of the guidelines extracted in this setup reached support ≥ 3 (they top out at support 2), so the high-support core here is sup2 rather than sup3.",
+        "th": "So far, we have used an older, non-reasoning model — gpt-4.1. A fair objection is that learned guidelines might have less to add to an agent using a frontier model: maybe they only patch the gaps of a weaker model. So we tested it directly — we reran airline using gpt-5.5 for both the agent and guideline extraction, on the same τ²-bench ReAct scaffold, with guidelines re-mined from the agent's own runs. One detail changes with the model: none of the guidelines extracted in this setup reached support ≥ 3 (they top out at support 2), so the high-support core here is sup2 rather than sup3."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Table 5. Held-out airline performance for the gpt-5.5 agent across four trials per task.",
+        "th": "Table 5. Held-out airline performance for the gpt-5.5 agent across four trials per task."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The learned guidelines improve this setup too. On the same held-out test tasks, appending them to the prompt lifts accuracy +10 pts (72.5 → 82.5) and the strict Pass^4 by +15 pts (55.0 → 70.0) — a larger reliability gain than we observed with gpt-4.1 on these very tasks (+10 pts), and from a much higher floor. Learning guidelines around the model can improve an agent even when it starts from a stronger base. And where the baseline's reliability swung between reruns, the lossless configuration reproduced exactly — the gain it buys is dependable, not a lucky draw.",
+        "th": "The learned guidelines improve this setup too. On the same held-out test tasks, appending them to the prompt lifts accuracy +10 pts (72.5 → 82.5) and the strict Pass^4 by +15 pts (55.0 → 70.0) — a larger reliability gain than we observed with gpt-4.1 on these very tasks (+10 pts), and from a much higher floor. Learning guidelines around the model can improve an agent even when it starts from a stronger base. And where the baseline's reliability swung between reruns, the lossless configuration reproduced exactly — the gain it buys is dependable, not a lucky draw."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "ALTK-Evolve tops the leaderboard comparison",
+        "th": "ALTK-Evolve tops the leaderboard comparison"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Submissions are scored on the full base split (train ∪ test), as τ²-bench requires, and reported at Pass^4. Because that covers the full task set rather than the held-out test split, these figures differ from the test-task numbers reported above. This is where the practical upshot shows up — prompt-level memory carries agents using each base model into, or past, current frontier company:",
+        "th": "Submissions are scored on the full base split (train ∪ test), as τ²-bench requires, and reported at Pass^4. Because that covers the full task set rather than the held-out test split, these figures differ from the test-task numbers reported above. This is where the practical upshot shows up — prompt-level memory carries agents using each base model into, or past, current frontier company:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Retail: #1. On the base split the agent with learned guidelines reaches Pass^4 = 67.5%, ahead of every frontier model and ahead of RAFT-30B-A3B (61.4%), a model fine-tuned on synthetic τ²-bench retail data. Using stock gpt-4.1 and a prompt-appended playbook, it outperforms that fine-tuned system by +6.1 points.",
+        "th": "Retail: #1. On the base split the agent with learned guidelines reaches Pass^4 = 67.5%, ahead of every frontier model and ahead of RAFT-30B-A3B (61.4%), a model fine-tuned on synthetic τ²-bench retail data. Using stock gpt-4.1 and a prompt-appended playbook, it outperforms that fine-tuned system by +6.1 points."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Airline: #1 using gpt-5.5, #8 using gpt-4.1 Against the published board, the compact sup3 core gives the agent using gpt-4.1 Pass^4 = 44% — 8th, beating GPT-5.2 (no reasoning) and nearly matching Claude Sonnet 4.5. Swap in the stronger base and the same approach tops the field outright: the agent using gpt-5.5 reaches 82.0%, clearing every frontier entry (66–72%).",
+        "th": "Airline: #1 using gpt-5.5, #8 using gpt-4.1 Against the published board, the compact sup3 core gives the agent using gpt-4.1 Pass^4 = 44% — 8th, beating GPT-5.2 (no reasoning) and nearly matching Claude Sonnet 4.5. Swap in the stronger base and the same approach tops the field outright: the agent using gpt-5.5 reaches 82.0%, clearing every frontier entry (66–72%)."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/iOmv6o938CgNfFlULP-VV.png",
+      "alt": "Saved Pass^4 leaderboard comparison for Retail and Airline, highlighting ALTK-Evolve runs at 67.5% in Retail and 82.0% and 44.0% in Airline."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Figure 3. Pass^4 comparison between ALTK-Evolve runs and the τ²-bench leaderboard snapshot from October 12, 2026.",
+        "th": "Figure 3. Pass^4 comparison between ALTK-Evolve runs and the τ²-bench leaderboard snapshot from October 12, 2026."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Same message in both domains: learning guidelines around the model works across different base models — bringing an agent using an older, non-reasoning model into frontier company on retail, and taking an agent using a frontier model to the top on airline.",
+        "th": "Same message in both domains: learning guidelines around the model works across different base models — bringing an agent using an older, non-reasoning model into frontier company on retail, and taking an agent using a frontier model to the top on airline."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Agents can improve without weight updates",
+        "th": "Agents can improve without weight updates"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Fine-tuning a model on a benchmark is expensive, brittle, and doesn't transfer to the next domain. Here, ALTK-Evolve improves a stock agent on a stock model in both domains — and matches or beats a fine-tuned system on retail — using only prompt-level guidelines extracted from the agent's own runs, automatically, without human annotation, and without any test-set leakage.",
+        "th": "Fine-tuning a model on a benchmark is expensive, brittle, and doesn't transfer to the next domain. Here, ALTK-Evolve improves a stock agent on a stock model in both domains — and matches or beats a fine-tuned system on retail — using only prompt-level guidelines extracted from the agent's own runs, automatically, without human annotation, and without any test-set leakage."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Links:",
+        "th": "Links:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Prior posts Thinking of ACE? We Can Do It with Fewer Tokens How much memory does your agent actually need?",
+        "th": "Prior posts Thinking of ACE? We Can Do It with Fewer Tokens How much memory does your agent actually need?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Thinking of ACE? We Can Do It with Fewer Tokens",
+        "th": "Thinking of ACE? We Can Do It with Fewer Tokens"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How much memory does your agent actually need?",
+        "th": "How much memory does your agent actually need?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ALTK-Evolve library — https://github.com/AgentToolkit/altk-evolve",
+        "th": "ALTK-Evolve library — https://github.com/AgentToolkit/altk-evolve"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "τ²-bench — https://github.com/sierra-research/tau2-bench",
+        "th": "τ²-bench — https://github.com/sierra-research/tau2-bench"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Retail leaderboard submission — τ²-bench PR #542",
+        "th": "Retail leaderboard submission — τ²-bench PR #542"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Airline leaderboard submission - τ²-bench PR #551",
+        "th": "Airline leaderboard submission - τ²-bench PR #551"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More from this author",
+        "th": "เพิ่มเติมจากผู้เขียนคนนี้"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/dI5J2sSc3TSprk9VB4EVJ.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Your Agent Aced the Task. Will It Do It Again?",
+        "th": "Your Agent Aced the Task. Will It Do It Again?"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/69d3d41eef229c09afea5d83/KYse3pX6t3l8FnI-1pKsi.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+        "th": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/637bfdf60dc13843b468ac20/npxapKcW-cXX3J2JBl2vY.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "ชุมชน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· ลงทะเบียนหรือเข้าสู่ระบบเพื่อแสดงความคิดเห็น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/60a641594e4508065fac8ceb/NvsnsnsWXzTMlUdqsDasp.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/643993faeb7c5616ef3fdbc9/zo55b-nrQcwpgmQGRvj4K.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/67b5ae21ed03e92b01a32342/X1XgnmMAGWN4Uz_Gabj4K.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/be40b5bce28c1378042615d9349747f8.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/645e4bc1d9187cd3e07535c2/YYhUQPu19hB2OTTN1l4zE.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/voQatzALsIDEbM2JR25ei.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/a532e8ece9767dde21278ec06fd21b31.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/UT2mHX2WuCm5Ws4rGKyCB.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/8ba2912d52fca21df2caa3aac681c8c3.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6435a1131860001f144239ea/smzcd7SHs33E2ArxBLBBK.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/c2670566c5cbdfccf87954a9caf7d381.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/b71be4ef8a21d10746bdec6d271f055d.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+3",
+        "th": "+3"
+      }
+    }
+  ]
+}

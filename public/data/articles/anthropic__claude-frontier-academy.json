@@ -4,8 +4,8 @@
   "source": "anthropic",
   "url": "https://www.anthropic.com/news/claude-frontier-academy",
   "category": "News",
-  "date": "2026-10-02T00:00:00.000Z",
-  "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Build&backgroundColor=heather",
+  "date": "2026-10-20T18:12:30.939Z",
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
   "title": {
     "en": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
     "th": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap"
@@ -16,15 +16,122 @@
   },
   "body": [
     {
-      "type": "img",
-      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg",
-      "alt": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap"
+      "type": "li",
+      "text": {
+        "en": "PublishedOct 2, 2026",
+        "th": "PublishedOct 2, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Published",
+        "th": "Published"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Oct 2, 2026",
+        "th": "2 ต.ค. 2569"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "CategoryAnnouncements",
+        "th": "CategoryAnnouncements"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Category",
+        "th": "Category"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Announcements",
+        "th": "Announcements"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "TopicsEducationFundingPartnershipsClaude for EnterpriseAgentsSee more...",
+        "th": "TopicsEducationFundingPartnershipsClaude for EnterpriseAgentsSee more..."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Topics",
+        "th": "Topics"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Education",
+        "th": "การศึกษา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Funding",
+        "th": "Funding"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Partnerships",
+        "th": "Partnerships"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Claude for Enterprise",
+        "th": "Claude for Enterprise"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Agents",
+        "th": "Agents"
+      }
     },
     {
       "type": "p",
       "text": {
         "en": "The first-of-its-kind Academy trains Frontier Deployed Engineers using the same standard of skills as Anthropic’s own engineers, starting with cohorts from Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley, Novo Nordisk and others.",
         "th": "The first-of-its-kind Academy trains Frontier Deployed Engineers using the same standard of skills as Anthropic’s own engineers, starting with cohorts from Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley, Novo Nordisk and others."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "PartnershipsJul 27, 2026Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
+        "th": "PartnershipsJul 27, 2026Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Partnerships",
+        "th": "Partnerships"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jul 27, 2026",
+        "th": "Jul 27, 2026"
       }
     },
     {
@@ -49,7 +156,7 @@
       }
     },
     {
-      "type": "h2",
+      "type": "h3",
       "text": {
         "en": "The first program trains 10,000 Frontier Deployed Engineers",
         "th": "The first program trains 10,000 Frontier Deployed Engineers"
@@ -77,7 +184,7 @@
       }
     },
     {
-      "type": "h2",
+      "type": "h3",
       "text": {
         "en": "The first cohorts are running now",
         "th": "The first cohorts are running now"
@@ -91,14 +198,161 @@
       }
     },
     {
-      "type": "h2",
+      "type": "h3",
       "text": {
         "en": "Leading enterprises and consulting firms are in the first cohorts",
         "th": "Leading enterprises and consulting firms are in the first cohorts"
       }
     },
     {
-      "type": "h2",
+      "type": "p",
+      "text": {
+        "en": "“At Accenture, forward deployed engineers translate AI ambition into enterprise-wide impact, working inside client workflows as part of multidisciplinary teams that engineer AI concepts into production-ready, governed solutions built to scale. Anthropic built the residency the same way we think about the role: judgment tested against a simulated enterprise deployment, not technical skills in isolation. Joining Claude Frontier Academy will deepen our engineers’ Claude expertise and accelerate the value we deliver for our clients.”",
+        "th": "“At Accenture, forward deployed engineers translate AI ambition into enterprise-wide impact, working inside client workflows as part of multidisciplinary teams that engineer AI concepts into production-ready, governed solutions built to scale. Anthropic built the residency the same way we think about the role: judgment tested against a simulated enterprise deployment, not technical skills in isolation. Joining Claude Frontier Academy will deepen our engineers’ Claude expertise and accelerate the value we deliver for our clients.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Ram Ramalingam",
+        "th": "Ram Ramalingam"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "FDE and Software & Platform Engineering lead, Accenture",
+        "th": "FDE and Software & Platform Engineering lead, Accenture"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Building deep, hands-on AI engineering capability is critical to helping clients move from experimentation to impact at scale. The Frontier Deployed Engineer Residency will give our engineers the opportunity to sharpen their expertise working directly with Anthropic and bring that experience to our work with clients.”",
+        "th": "“Building deep, hands-on AI engineering capability is critical to helping clients move from experimentation to impact at scale. The Frontier Deployed Engineer Residency will give our engineers the opportunity to sharpen their expertise working directly with Anthropic and bring that experience to our work with clients.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Michael Blake",
+        "th": "Michael Blake"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Partner, Global Head of Engineering, Bain",
+        "th": "Partner, Global Head of Engineering, Bain"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“What I’m hearing from clients isn’t about certification counts or training volume; it’s about knowing firsthand how to solve real-world problems that create value to our clients. By working side by side with Anthropic’s own engineers, Capgemini is investing in and building the delivery excellence that clients recognize immediately.”",
+        "th": "“What I’m hearing from clients isn’t about certification counts or training volume; it’s about knowing firsthand how to solve real-world problems that create value to our clients. By working side by side with Anthropic’s own engineers, Capgemini is investing in and building the delivery excellence that clients recognize immediately.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Geoffroy Pajot",
+        "th": "Geoffroy Pajot"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Global Head of AI Partnerships Ecosystem, Capgemini",
+        "th": "Global Head of AI Partnerships Ecosystem, Capgemini"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“AI is transforming the way we build, deliver and innovate for customers. Our engineers use AI tools every day, and our teams have produced up to 3x more code changes in the past year. The Frontier Deployed Engineer Residency takes them deeper, with hands-on experience building, securing and shipping alongside peers at the frontier. We are building tomorrow’s bank today, and this program gives our teams the tools and expertise to engineer the best possible products for our customers.”",
+        "th": "“AI is transforming the way we build, deliver and innovate for customers. Our engineers use AI tools every day, and our teams have produced up to 3x more code changes in the past year. The Frontier Deployed Engineer Residency takes them deeper, with hands-on experience building, securing and shipping alongside peers at the frontier. We are building tomorrow’s bank today, and this program gives our teams the tools and expertise to engineer the best possible products for our customers.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Rodrigo Castillo",
+        "th": "Rodrigo Castillo"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Group Chief Technology Officer, Commonwealth Bank of Australia",
+        "th": "Group Chief Technology Officer, Commonwealth Bank of Australia"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“AI deployment at enterprise scale requires skilled people who can drive a project from first requirements through security review to real adoption. The Claude Frontier Academy’s FDE Residency enables us to scale a discipline we’ve already tested in the field, which is why we are excited to be part of the inaugural cohort, bringing our engineers in early to extend our bench of Claude-ready talent.”",
+        "th": "“AI deployment at enterprise scale requires skilled people who can drive a project from first requirements through security review to real adoption. The Claude Frontier Academy’s FDE Residency enables us to scale a discipline we’ve already tested in the field, which is why we are excited to be part of the inaugural cohort, bringing our engineers in early to extend our bench of Claude-ready talent.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Faruk Muratovic",
+        "th": "Faruk Muratovic"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Principal, Deloitte Consulting LLP",
+        "th": "Principal, Deloitte Consulting LLP"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“This collaboration between McKinsey and Anthropic is about leveraging frontier AI to create superior business outcomes for clients. Our technologists bring frontier AI expertise, sector depth and a value-creation mindset to our client work. The Residency sets the bar for how they apply Claude in service of our clients’ business goals, giving our world-class talent experience learning frontier techniques alongside Anthropic’s engineers. The Claude Frontier Academy and FDE Residency extend our technologists’ toolkit, helping them solve our clients’ toughest problems hands-on-keys.”",
+        "th": "“This collaboration between McKinsey and Anthropic is about leveraging frontier AI to create superior business outcomes for clients. Our technologists bring frontier AI expertise, sector depth and a value-creation mindset to our client work. The Residency sets the bar for how they apply Claude in service of our clients’ business goals, giving our world-class talent experience learning frontier techniques alongside Anthropic’s engineers. The Claude Frontier Academy and FDE Residency extend our technologists’ toolkit, helping them solve our clients’ toughest problems hands-on-keys.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Dan Tinkoff",
+        "th": "Dan Tinkoff"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Senior Partner and Global Co-leader of QuantumBlack, McKinsey",
+        "th": "Senior Partner and Global Co-leader of QuantumBlack, McKinsey"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“AI is already changing how we discover and develop medicines at Novo. With Claude Science in our R&D workflows, Anthropic’s frontier models in our software development, lab in the loop research in drug discovery, and Anthropic engineers working alongside our scientists, we have seen what is possible when frontier AI meets deep scientific expertise. We’re excited to join the Claude Frontier Academy and the FDE Residency, giving our engineers the same hands on training and expertise behind Anthropic’s most successful deployments, so together we can bring the next generation of medicines to patients faster.”",
+        "th": "“AI is already changing how we discover and develop medicines at Novo. With Claude Science in our R&D workflows, Anthropic’s frontier models in our software development, lab in the loop research in drug discovery, and Anthropic engineers working alongside our scientists, we have seen what is possible when frontier AI meets deep scientific expertise. We’re excited to join the Claude Frontier Academy and the FDE Residency, giving our engineers the same hands on training and expertise behind Anthropic’s most successful deployments, so together we can bring the next generation of medicines to patients faster.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Loic Giraud",
+        "th": "Loic Giraud"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "VP Data & AI, Novo Nordisk",
+        "th": "VP Data & AI, Novo Nordisk"
+      }
+    },
+    {
+      "type": "h3",
       "text": {
         "en": "The Claude Partner Network",
         "th": "The Claude Partner Network"
@@ -109,55 +363,6 @@
       "text": {
         "en": "Claude Frontier Academy builds on the Claude Partner Network, where professionals across 46,000 firms have earned more than 175,000 Claude certifications and nearly 4,000 people have completed Basecamp, an immersive program that teaches the same curriculum our Applied AI teams receive when they onboard. Claude Frontier Academy is for the people who will lead the work, and training 10,000 Frontier Deployed Engineers is the first step of many.",
         "th": "Claude Frontier Academy builds on the Claude Partner Network, where professionals across 46,000 firms have earned more than 175,000 Claude certifications and nearly 4,000 people have completed Basecamp, an immersive program that teaches the same curriculum our Applied AI teams receive when they onboard. Claude Frontier Academy is for the people who will lead the work, and training 10,000 Frontier Deployed Engineers is the first step of many."
-      }
-    },
-    {
-      "type": "h2",
-      "text": {
-        "en": "Related content",
-        "th": "เนื้อหาที่เกี่ยวข้อง"
-      }
-    },
-    {
-      "type": "h3",
-      "text": {
-        "en": "Investing in the public benefit",
-        "th": "Investing in the public benefit"
-      }
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
-        "th": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows."
-      }
-    },
-    {
-      "type": "h3",
-      "text": {
-        "en": "An update on independent evaluators",
-        "th": "An update on independent evaluators"
-      }
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.",
-        "th": "To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face."
-      }
-    },
-    {
-      "type": "h3",
-      "text": {
-        "en": "Preparing for the 2026 US midterms",
-        "th": "Preparing for the 2026 US midterms"
-      }
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.",
-        "th": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms."
       }
     }
   ]

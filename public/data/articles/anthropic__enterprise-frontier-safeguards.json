@@ -1,0 +1,821 @@
+{
+  "id": "anthropic__enterprise-frontier-safeguards",
+  "slug": "enterprise-frontier-safeguards",
+  "source": "anthropic",
+  "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+  "category": "News",
+  "date": "2026-10-20T18:12:30.939Z",
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+  "title": {
+    "en": "Developing Enterprise Frontier Safeguards with our customers",
+    "th": "Developing Enterprise Frontier Safeguards with our customers"
+  },
+  "summary": {
+    "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+    "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+  },
+  "body": [
+    {
+      "type": "h3",
+      "text": {
+        "en": "Chapter 01: Solving the dilemma of frontier security",
+        "th": "Chapter 01: Solving the dilemma of frontier security"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "01Solving the dilemma of frontier security",
+        "th": "01Solving the dilemma of frontier security"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "02Designed with our customers",
+        "th": "02Designed with our customers"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "03How EFS works",
+        "th": "03How EFS works"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "04Getting started",
+        "th": "04Getting started"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "PublishedSep 1, 2026",
+        "th": "PublishedSep 1, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Published",
+        "th": "Published"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sep 1, 2026",
+        "th": "Sep 1, 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "CategorySafeguards",
+        "th": "CategorySafeguards"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Category",
+        "th": "Category"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Safeguards",
+        "th": "Safeguards"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "TopicsSafeguardsPrivacyClaude for EnterpriseLimits on abuseCybersecurityFinancial servicesSee more...",
+        "th": "TopicsSafeguardsPrivacyClaude for EnterpriseLimits on abuseCybersecurityFinancial servicesSee more..."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Topics",
+        "th": "Topics"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Safeguards",
+        "th": "Safeguards"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Privacy",
+        "th": "Privacy"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Claude for Enterprise",
+        "th": "Claude for Enterprise"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Limits on abuse",
+        "th": "Limits on abuse"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Cybersecurity",
+        "th": "Cybersecurity"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Financial services",
+        "th": "Financial services"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "PolicyFeb 26, 2026Statement from Dario Amodei on our discussions with the Department of War",
+        "th": "PolicyFeb 26, 2026Statement from Dario Amodei on our discussions with the Department of War"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Policy",
+        "th": "Policy"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Feb 26, 2026",
+        "th": "Feb 26, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today we’re announcing Enterprise Frontier Safeguards (EFS), a solution that combines the privacy of zero data retention (ZDR) with state-of-the-art safeguards for detecting misuse. EFS works by storing data in cloud infrastructure controlled by the customer, not Anthropic. EFS will be rolling out to customers in phases, starting later this fall. To make the transition smooth, eligible customers will receive ZDR on Fable 5 and Fable 5.1 until EFS is ready.",
+        "th": "Today we’re announcing Enterprise Frontier Safeguards (EFS), a solution that combines the privacy of zero data retention (ZDR) with state-of-the-art safeguards for detecting misuse. EFS works by storing data in cloud infrastructure controlled by the customer, not Anthropic. EFS will be rolling out to customers in phases, starting later this fall. To make the transition smooth, eligible customers will receive ZDR on Fable 5 and Fable 5.1 until EFS is ready."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We developed EFS in close collaboration with more than 100 customers in industries like financial services, healthcare, manufacturing, telecom, law, retail, and the public sector, and with our cloud partners at Amazon Web Services, Google Cloud, and Microsoft Azure.",
+        "th": "We developed EFS in close collaboration with more than 100 customers in industries like financial services, healthcare, manufacturing, telecom, law, retail, and the public sector, and with our cloud partners at Amazon Web Services, Google Cloud, and Microsoft Azure."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EFS will be supported on Claude Code, Claude Enterprise, the Claude Platform, Amazon Bedrock, Claude Platform on AWS, Google’s Agent Platform, and Microsoft Foundry.",
+        "th": "EFS will be supported on Claude Code, Claude Enterprise, the Claude Platform, Amazon Bedrock, Claude Platform on AWS, Google’s Agent Platform, and Microsoft Foundry."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FFoteuzPpx7E%2Fmaxresdefault.jpg&w=3840&q=75",
+      "alt": "Video thumbnail"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Solving the dilemma of frontier security",
+        "th": "Solving the dilemma of frontier security"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mythos-class models, like Claude Fable 5.1, represent a major increase in intelligence and agentic capabilities. However, with that increase comes the potential for both misuse and autonomous misbehavior.",
+        "th": "Mythos-class models, like Claude Fable 5.1, represent a major increase in intelligence and agentic capabilities. However, with that increase comes the potential for both misuse and autonomous misbehavior."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Over the last few months, we’ve seen substantial evidence of attempted misuse of AI models. These range from typical forms of abuse, such as fraud, to sophisticated cyberattacks, which can include agents autonomously engaging in destructive behavior. Some of these instances involve theft or misappropriation of enterprise customers’ credentials, which are difficult to detect without the ability to monitor traffic and detect abnormal behavior.",
+        "th": "Over the last few months, we’ve seen substantial evidence of attempted misuse of AI models. These range from typical forms of abuse, such as fraud, to sophisticated cyberattacks, which can include agents autonomously engaging in destructive behavior. Some of these instances involve theft or misappropriation of enterprise customers’ credentials, which are difficult to detect without the ability to monitor traffic and detect abnormal behavior."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Furthermore, because the most sophisticated misuse can involve many tasks spread across multiple sessions and accounts, it is not sufficient to run automated analysis on each interaction separately and then instantaneously discard the data. Effective detection requires storing data for a meaningful period of time so that it can be correlated across time and accounts.",
+        "th": "Furthermore, because the most sophisticated misuse can involve many tasks spread across multiple sessions and accounts, it is not sufficient to run automated analysis on each interaction separately and then instantaneously discard the data. Effective detection requires storing data for a meaningful period of time so that it can be correlated across time and accounts."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For this reason, we introduced 30-day data retention starting with Fable 5. This policy was not motivated by a desire to train on enterprise data: Anthropic has never trained on enterprise data without explicit permission, and never will.",
+        "th": "For this reason, we introduced 30-day data retention starting with Fable 5. This policy was not motivated by a desire to train on enterprise data: Anthropic has never trained on enterprise data without explicit permission, and never will."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The enterprises we worked with generally understood the safety and security value of data retention, but many–especially in regulated industries–found it difficult to use models with data retention. We therefore sat down with customers to design a solution that could provide the best of both worlds: the privacy of ZDR and the safety allowed by monitoring across time and accounts.",
+        "th": "The enterprises we worked with generally understood the safety and security value of data retention, but many–especially in regulated industries–found it difficult to use models with data retention. We therefore sat down with customers to design a solution that could provide the best of both worlds: the privacy of ZDR and the safety allowed by monitoring across time and accounts."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Designed with our customers",
+        "th": "Designed with our customers"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We built Enterprise Frontier Safeguards with feedback from the experts who will use it every day: security, product, compliance, and delivery teams. One of the groups we worked with was the Analysis and Resilience Center for Systemic Risk (ARC), whose members include the chief information security officers of the largest US banks, including Goldman Sachs, Morgan Stanley, Citi, Bank of America, and Wells Fargo.",
+        "th": "We built Enterprise Frontier Safeguards with feedback from the experts who will use it every day: security, product, compliance, and delivery teams. One of the groups we worked with was the Analysis and Resilience Center for Systemic Risk (ARC), whose members include the chief information security officers of the largest US banks, including Goldman Sachs, Morgan Stanley, Citi, Bank of America, and Wells Fargo."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We also worked with leaders at companies such as Comcast, KPMG, Mastercard, Salesforce, and Visa, to make sure the design held up across industries. Our conversations spanned a quarter of the Fortune 100, every US global systemically important bank, and virtually every regulated industry.",
+        "th": "We also worked with leaders at companies such as Comcast, KPMG, Mastercard, Salesforce, and Visa, to make sure the design held up across industries. Our conversations spanned a quarter of the Fortune 100, every US global systemically important bank, and virtually every regulated industry."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Here is what we heard from this wide range of customers, and what we built into EFS to address these common concerns:",
+        "th": "Here is what we heard from this wide range of customers, and what we built into EFS to address these common concerns:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "On monitoring",
+        "th": "On monitoring"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Enterprises have long applied monitoring for insider risk, and now want help upleveling monitoring for agents. Their concerns were about Anthropic’s automated monitoring systems meeting their regulatory standards.",
+        "th": "Enterprises have long applied monitoring for insider risk, and now want help upleveling monitoring for agents. Their concerns were about Anthropic’s automated monitoring systems meeting their regulatory standards."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With EFS, customers control how data gets reviewed. When monitoring detects a pattern that needs attention, those signals are sent directly to customers so they can review what the automated systems detected.",
+        "th": "With EFS, customers control how data gets reviewed. When monitoring detects a pattern that needs attention, those signals are sent directly to customers so they can review what the automated systems detected."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "On data storage",
+        "th": "On data storage"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It’s a lot of work for enterprises to add another “trusted data vendor” for a number of reasons. They need to notify all of their customers who these vendors are and update contracts. They also have internal requirements for safely storing and auditing data, given its high level of sensitivity. Because of these concerns, we architected EFS so that customers have the ability to store data on their existing cloud infrastructure.",
+        "th": "It’s a lot of work for enterprises to add another “trusted data vendor” for a number of reasons. They need to notify all of their customers who these vendors are and update contracts. They also have internal requirements for safely storing and auditing data, given its high level of sensitivity. Because of these concerns, we architected EFS so that customers have the ability to store data on their existing cloud infrastructure."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In EFS, customers can control their data storage and management. Customers want the ability to have their data live in infrastructure they control, under their own encryption keys, access policies, and audit logging. Activity data used for monitoring can be stored in the customer’s own cloud account (such as Amazon S3, Azure Blob Storage, or Google Cloud Storage).",
+        "th": "In EFS, customers can control their data storage and management. Customers want the ability to have their data live in infrastructure they control, under their own encryption keys, access policies, and audit logging. Activity data used for monitoring can be stored in the customer’s own cloud account (such as Amazon S3, Azure Blob Storage, or Google Cloud Storage)."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "On automated and human review",
+        "th": "On automated and human review"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Even as automated review is becoming more effective, a person looking at a flag still adds value by confirming real misuse and clearing false positives. But what we heard from many customers, especially those in regulated industries, is that the person doing that review needs to be one of their own. Many operate under rules that tightly govern who may see certain information—privileged legal material, non-public information, drug-safety reports. Their teams are already trained and cleared for that work.",
+        "th": "Even as automated review is becoming more effective, a person looking at a flag still adds value by confirming real misuse and clearing false positives. But what we heard from many customers, especially those in regulated industries, is that the person doing that review needs to be one of their own. Many operate under rules that tightly govern who may see certain information—privileged legal material, non-public information, drug-safety reports. Their teams are already trained and cleared for that work."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EFS has automated safety monitoring, no Anthropic human review required. Customers want protection against cyberattacks, and appreciate that these can be difficult to detect if they unfold across many sessions and accounts. With EFS, automated systems analyze a rolling window of traffic for signals of serious misuse, including attempts to develop offensive cyber or biological capabilities and signs of stolen or leaked credentials. Those flags go directly to the customer and their people take it from there – no human review by Anthropic employees is required.",
+        "th": "EFS has automated safety monitoring, no Anthropic human review required. Customers want protection against cyberattacks, and appreciate that these can be difficult to detect if they unfold across many sessions and accounts. With EFS, automated systems analyze a rolling window of traffic for signals of serious misuse, including attempts to develop offensive cyber or biological capabilities and signs of stolen or leaked credentials. Those flags go directly to the customer and their people take it from there – no human review by Anthropic employees is required."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9f37b737d862a71f1fbcd15e5d9d5f98d3ca1ca2-1200x675.png&w=1200&q=75",
+      "alt": "Matt Chung logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“AI controls need to be designed to protect sensitive information, and model safeguards are an important part of that process. Anthropic engaged us as they developed Enterprise Frontier Safeguards to ensure alignment with our requirements and standards.”",
+        "th": "“AI controls need to be designed to protect sensitive information, and model safeguards are an important part of that process. Anthropic engaged us as they developed Enterprise Frontier Safeguards to ensure alignment with our requirements and standards.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Matt Chung",
+        "th": "Matt Chung"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Chief Information Security Officer and Head of Technology Risk",
+        "th": "Chief Information Security Officer and Head of Technology Risk"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b69808ab3e32d697507696823e2e3d481474cdac-155x64.svg",
+      "alt": "Munish Kumar Sharma logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Enterprise Frontier Safeguards gives us exactly what we asked for: our logs stay in a Wells-managed environment under Wells-managed keys. We keep custody of our data while Anthropic operates the detection. That split is what lets our teams put frontier models to work safely and meet our obligations to customers, employees, and regulators. We helped shape these safeguards because our industry needs them.”",
+        "th": "“Enterprise Frontier Safeguards gives us exactly what we asked for: our logs stay in a Wells-managed environment under Wells-managed keys. We keep custody of our data while Anthropic operates the detection. That split is what lets our teams put frontier models to work safely and meet our obligations to customers, employees, and regulators. We helped shape these safeguards because our industry needs them.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Munish Kumar Sharma",
+        "th": "Munish Kumar Sharma"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Chief Information Security Officer",
+        "th": "Chief Information Security Officer"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/da5b4cfb98abd20aa33357f44216a41279e57e0d-155x62.svg",
+      "alt": "Noopur Davis logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“As a company that runs critical infrastructure, the capability of models is important. Just as important are solutions that allow us to keep our data in our own account, and Enterprise Frontier Safeguards settled it.”",
+        "th": "“As a company that runs critical infrastructure, the capability of models is important. Just as important are solutions that allow us to keep our data in our own account, and Enterprise Frontier Safeguards settled it.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Noopur Davis",
+        "th": "Noopur Davis"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EVP, Chief Information Security and Product Privacy Officer",
+        "th": "EVP, Chief Information Security and Product Privacy Officer"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b847b0a49194adb0df9674c8b5e5fe176e845bda-109x27.svg",
+      "alt": "Scott DePasquale logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Eight of our members worked with Anthropic to define what it would take to run the most capable frontier models inside a systemically important bank: who holds the data, who holds the keys, what automated review can and cannot see, and under what conditions a human is ever permitted to look. This collaboration is leading to the development and delivery of improved safeguards and standards that could scale across our industry and beyond.”",
+        "th": "“Eight of our members worked with Anthropic to define what it would take to run the most capable frontier models inside a systemically important bank: who holds the data, who holds the keys, what automated review can and cannot see, and under what conditions a human is ever permitted to look. This collaboration is leading to the development and delivery of improved safeguards and standards that could scale across our industry and beyond.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Scott DePasquale",
+        "th": "Scott DePasquale"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "President and CEO",
+        "th": "President and CEO"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/632ae4b5eb52539491a30a3c1cb2694febdb53ab-187x75.svg",
+      "alt": "Todd Lohr logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“One of the key tenets of the safeguards architecture is the ability for us to retain data and have it held outside the model itself, protected within our environment. There are areas of the firm, and of our clients' work, that are regulated and highly sensitive. Those safeguards actually allow us to apply AI in parts of the business that we wouldn't have been able to before. Service Partner”",
+        "th": "“One of the key tenets of the safeguards architecture is the ability for us to retain data and have it held outside the model itself, protected within our environment. There are areas of the firm, and of our clients' work, that are regulated and highly sensitive. Those safeguards actually allow us to apply AI in parts of the business that we wouldn't have been able to before. Service Partner”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Todd Lohr",
+        "th": "Todd Lohr"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "National Managing Partner, Clients and Markets",
+        "th": "National Managing Partner, Clients and Markets"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/ad6656fb6427494ec5696471e61947bb72035ee9-273x191.svg",
+      "alt": "Meir Amiel logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Our customers have trusted us with their data for more than two decades. That experience is exactly why we wanted to help think this through with Anthropic, rather than wait on the sidelines. We were able to work together on new security and privacy capabilities at the architecture level, not just the policy level.”",
+        "th": "“Our customers have trusted us with their data for more than two decades. That experience is exactly why we wanted to help think this through with Anthropic, rather than wait on the sidelines. We were able to work together on new security and privacy capabilities at the architecture level, not just the policy level.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Meir Amiel",
+        "th": "Meir Amiel"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "President, Chief Trust and Infrastructure Officer",
+        "th": "President, Chief Trust and Infrastructure Officer"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d6a5b3cb817f5f2541603acf0c9c1e59d868fb9e-140x64.svg",
+      "alt": "Lan Guan logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Our clients want to put frontier models to work, and their security teams want the data to stay in infrastructure they control. Anthropic built Enterprise Frontier Safeguards with more than a hundred enterprises to do exactly that. Service Partner”",
+        "th": "“Our clients want to put frontier models to work, and their security teams want the data to stay in infrastructure they control. Anthropic built Enterprise Frontier Safeguards with more than a hundred enterprises to do exactly that. Service Partner”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Lan Guan",
+        "th": "Lan Guan"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Chief AI and Data Officer",
+        "th": "Chief AI and Data Officer"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/fc0cf984de735ef64c17f033f10efb9e273d69d8-125x64.svg",
+      "alt": "Adnan Amjad logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“As AI models take on more regulated, sensitive workloads, scaling responsibly also comes down to architecture, not just policy commitments. Direct control over the data environment, paired with pattern-based automated safety monitoring, gives enterprises the concrete, structural capabilities they need to deploy with real oversight, accountability, and confidence. Service Partner”",
+        "th": "“As AI models take on more regulated, sensitive workloads, scaling responsibly also comes down to architecture, not just policy commitments. Direct control over the data environment, paired with pattern-based automated safety monitoring, gives enterprises the concrete, structural capabilities they need to deploy with real oversight, accountability, and confidence. Service Partner”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Adnan Amjad",
+        "th": "Adnan Amjad"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "US Cyber Leader",
+        "th": "US Cyber Leader"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/7b6dc90891455bc4c8624591184e5e826fc56541-156x53.svg",
+      "alt": "Philip Martin logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“The safeguards and the design of them—clearly, you heard our feedback. They put us in the driver's seat. The logs are under our control; they don't go anywhere else unless we want them to. It gives us control of the data, control of the information, and control of what's done after something that might exceed a safeguard is detected.”",
+        "th": "“The safeguards and the design of them—clearly, you heard our feedback. They put us in the driver's seat. The logs are under our control; they don't go anywhere else unless we want them to. It gives us control of the data, control of the information, and control of what's done after something that might exceed a safeguard is detected.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Philip Martin",
+        "th": "Philip Martin"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Chief Information Security Officer",
+        "th": "Chief Information Security Officer"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/468fc2c0bb3ca80ff2b112002d4d665c1e2bff65-360x180.svg",
+      "alt": "Morgan Adamski logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“As AI becomes more embedded across the enterprise, security and trust are what move organizations from experimentation to deployment at scale. Enterprise Frontier Safeguards will build those in from the start: monitoring data stays in infrastructure the customer controls, and their own team decides who can access it. Service Partner”",
+        "th": "“As AI becomes more embedded across the enterprise, security and trust are what move organizations from experimentation to deployment at scale. Enterprise Frontier Safeguards will build those in from the start: monitoring data stays in infrastructure the customer controls, and their own team decides who can access it. Service Partner”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Morgan Adamski",
+        "th": "Morgan Adamski"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "US Cyber, Data & Tech Leader",
+        "th": "US Cyber, Data & Tech Leader"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/721103059e160dd255816a622fc8d3e3cffe0047-150x48.svg",
+      "alt": "Mayank Upadhyay logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Keeping customer data confidential is a promise Snowflake makes to every customer. We've always moved fast getting frontier models into their hands. The hard part was doing that safely under the strictest data guarantees. We partnered with Anthropic to design Enterprise Frontier Safeguards so we can do both: data stays in the customer's environment, under keys they control, running Anthropic's most capable models from day one. This is what responsible frontier AI looks like when it's built with platforms in mind.”",
+        "th": "“Keeping customer data confidential is a promise Snowflake makes to every customer. We've always moved fast getting frontier models into their hands. The hard part was doing that safely under the strictest data guarantees. We partnered with Anthropic to design Enterprise Frontier Safeguards so we can do both: data stays in the customer's environment, under keys they control, running Anthropic's most capable models from day one. This is what responsible frontier AI looks like when it's built with platforms in mind.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mayank Upadhyay",
+        "th": "Mayank Upadhyay"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Chief Security and Trust Officer",
+        "th": "Chief Security and Trust Officer"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d514853a44cf69f069306c98b558f214112c4ef3-91x64.svg",
+      "alt": "Matthew Kemelhar logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“At Stripe, protecting customer data is foundational to how we operate. Anthropic’s Enterprise Frontier Safeguards will enable us to use covered frontier models while retaining conversation logs in Stripe’s AWS environment, with access and review governed by Stripe’s security controls.”",
+        "th": "“At Stripe, protecting customer data is foundational to how we operate. Anthropic’s Enterprise Frontier Safeguards will enable us to use covered frontier models while retaining conversation logs in Stripe’s AWS environment, with access and review governed by Stripe’s security controls.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Matthew Kemelhar",
+        "th": "Matthew Kemelhar"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Head of Security",
+        "th": "Head of Security"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/beb4f74e935e111be9a63875ae7743aaea2cb0a2-88x64.svg",
+      "alt": "Strib Walker logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Rogo’s customers expect access to the best intelligence available, but never at the expense of security and guardrails around their data. Enterprise Frontier Safeguards will bring the most capable models to financial institutions while meeting the institutional-grade data requirements they demand. That combination of frontier intelligence and enterprise-grade controls is critical to deploying AI across financial services.”",
+        "th": "“Rogo’s customers expect access to the best intelligence available, but never at the expense of security and guardrails around their data. Enterprise Frontier Safeguards will bring the most capable models to financial institutions while meeting the institutional-grade data requirements they demand. That combination of frontier intelligence and enterprise-grade controls is critical to deploying AI across financial services.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Strib Walker",
+        "th": "Strib Walker"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Head of Product",
+        "th": "Head of Product"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d212647f70dab46581bb98aab2e7c487df3ce53d-91x64.svg",
+      "alt": "Greg Barnett logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“FIS powers the infrastructure behind how money moves and how financial institutions operate, so any AI safeguard we deploy has to meet that scale and standard of trust. Our partnership with Anthropic already includes testing their most advanced frontier models against our own systems through Project Glasswing. Claude Enterprise Frontier Safeguards expands that work, keeping retained data in our own account and routing flags directly to our security team.”",
+        "th": "“FIS powers the infrastructure behind how money moves and how financial institutions operate, so any AI safeguard we deploy has to meet that scale and standard of trust. Our partnership with Anthropic already includes testing their most advanced frontier models against our own systems through Project Glasswing. Claude Enterprise Frontier Safeguards expands that work, keeping retained data in our own account and routing flags directly to our security team.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Greg Barnett",
+        "th": "Greg Barnett"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Chief Information Security Officer",
+        "th": "Chief Information Security Officer"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/ad249bca4e8e195e08764efc43ecbc586ca37482-143x64.svg",
+      "alt": "Scott Wu logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Companies trust Cognition's autonomous engineers with real production work, and that trust depends on their work staying private. With Enterprise Frontier Safeguards, customer data and identities never leave our side. It will let us bring frontier AI to production work, no privacy tradeoff required.”",
+        "th": "“Companies trust Cognition's autonomous engineers with real production work, and that trust depends on their work staying private. With Enterprise Frontier Safeguards, customer data and identities never leave our side. It will let us bring frontier AI to production work, no privacy tradeoff required.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Scott Wu",
+        "th": "Scott Wu"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CEO",
+        "th": "CEO"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/18f900625532e1baaa3302bdf9539f73592bdf60-164x64.svg",
+      "alt": "Eno Reyes logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Our customers' code and data are some of their most valuable intellectual property. Protecting that information is foundational to how we build at Factory. Together with Anthropic, we're enabling customers to use Claude's most capable models while keeping control of proprietary data in their hands. Enterprise Frontier Safeguards gives enterprises access to frontier intelligence with the data protections their security teams require.”",
+        "th": "“Our customers' code and data are some of their most valuable intellectual property. Protecting that information is foundational to how we build at Factory. Together with Anthropic, we're enabling customers to use Claude's most capable models while keeping control of proprietary data in their hands. Enterprise Frontier Safeguards gives enterprises access to frontier intelligence with the data protections their security teams require.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Eno Reyes",
+        "th": "Eno Reyes"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Co-founder and CTO",
+        "th": "Co-founder and CTO"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6dfc3bd55cc5f9d5ebdd8d5437505ae4b8560412-120x64.svg",
+      "alt": "John LaBarre logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“We have always maintained an unwavering commitment to client confidentiality and security. The leading legal and professional teams we serve view these principles as nonnegotiable, and we hold ourselves to the same standard. Enterprise Frontier Safeguards reflects this commitment, enabling customers with the most rigorous confidentiality requirements access to frontier models without the model provider retaining their data.”",
+        "th": "“We have always maintained an unwavering commitment to client confidentiality and security. The leading legal and professional teams we serve view these principles as nonnegotiable, and we hold ourselves to the same standard. Enterprise Frontier Safeguards reflects this commitment, enabling customers with the most rigorous confidentiality requirements access to frontier models without the model provider retaining their data.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "John LaBarre",
+        "th": "John LaBarre"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Chief Legal Officer",
+        "th": "Chief Legal Officer"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How EFS works",
+        "th": "How EFS works"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These controls are designed to work the same way whether you access Claude directly from Anthropic or through a cloud partner. Customers on Amazon Web Services, Google Cloud, and Microsoft Azure will get equivalent controls, with their activity data stored in their own cloud account, in the environment they already trust. We’re also working to support third-party offerings that serve customers that are eligible for Enterprise Frontier Safeguards.",
+        "th": "These controls are designed to work the same way whether you access Claude directly from Anthropic or through a cloud partner. Customers on Amazon Web Services, Google Cloud, and Microsoft Azure will get equivalent controls, with their activity data stored in their own cloud account, in the environment they already trust. We’re also working to support third-party offerings that serve customers that are eligible for Enterprise Frontier Safeguards."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Customer-owned storage, Customer-Managed Encryption Keys, and fully automated review are each opt-in, so you enable the ones your organization needs. None of them change model behavior, API pricing, or rate limits.",
+        "th": "Customer-owned storage, Customer-Managed Encryption Keys, and fully automated review are each opt-in, so you enable the ones your organization needs. None of them change model behavior, API pricing, or rate limits."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Anthropic doesn’t charge for Enterprise Frontier Safeguards. If customers elect to store their data in their cloud account, their cloud provider bills them for that storage, as well as reads, writes, and data egress fees, the same way it bills any other resource.",
+        "th": "Anthropic doesn’t charge for Enterprise Frontier Safeguards. If customers elect to store their data in their cloud account, their cloud provider bills them for that storage, as well as reads, writes, and data egress fees, the same way it bills any other resource."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F021fdfc765d03eaac26f5d2aa9cb06111b7a9297-3840x4644.png&w=3840&q=75",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Getting started",
+        "th": "เริ่มต้นใช้งาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Enterprise Frontier Safeguards will roll out to customers in phases, with the goal of making it broadly available later this fall. To request access to Enterprise Frontier Safeguards, please complete this form.",
+        "th": "Enterprise Frontier Safeguards will roll out to customers in phases, with the goal of making it broadly available later this fall. To request access to Enterprise Frontier Safeguards, please complete this form."
+      }
+    }
+  ]
+}

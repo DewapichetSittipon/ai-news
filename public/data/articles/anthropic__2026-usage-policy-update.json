@@ -4,7 +4,7 @@
   "source": "anthropic",
   "url": "https://www.anthropic.com/news/2026-usage-policy-update",
   "category": "News",
-  "date": "2026-10-08T00:00:00.000Z",
+  "date": "2026-10-20T18:12:30.939Z",
   "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
   "title": {
     "en": "2026 Usage Policy update",
@@ -15,6 +15,125 @@
     "th": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made."
   },
   "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "PublishedOct 8, 2026",
+        "th": "PublishedOct 8, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Published",
+        "th": "Published"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Oct 8, 2026",
+        "th": "Oct 8, 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "CategoryPolicy",
+        "th": "CategoryPolicy"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Category",
+        "th": "Category"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Policy",
+        "th": "Policy"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "TopicsLimits on abuseDemocratic integritySafeguardsThreat IntelligenceModel welfareRoboticsSee more...",
+        "th": "TopicsLimits on abuseDemocratic integritySafeguardsThreat IntelligenceModel welfareRoboticsSee more..."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Topics",
+        "th": "Topics"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Limits on abuse",
+        "th": "Limits on abuse"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Democratic integrity",
+        "th": "Democratic integrity"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Safeguards",
+        "th": "Safeguards"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Threat Intelligence",
+        "th": "Threat Intelligence"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Model welfare",
+        "th": "Model welfare"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Robotics",
+        "th": "Robotics"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "SecuritySep 10, 2026Detecting and countering misuse of AI: September 2026",
+        "th": "SecuritySep 10, 2026Detecting and countering misuse of AI: September 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Security",
+        "th": "Security"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sep 10, 2026",
+        "th": "Sep 10, 2026"
+      }
+    },
     {
       "type": "p",
       "text": {
@@ -37,7 +156,7 @@
       }
     },
     {
-      "type": "h2",
+      "type": "h3",
       "text": {
         "en": "A new section on deceptive activity",
         "th": "A new section on deceptive activity"
@@ -58,7 +177,7 @@
       }
     },
     {
-      "type": "h2",
+      "type": "h3",
       "text": {
         "en": "Refocusing our elections section",
         "th": "Refocusing our elections section"
@@ -79,7 +198,7 @@
       }
     },
     {
-      "type": "h2",
+      "type": "h3",
       "text": {
         "en": "Clarifying our weapons prohibitions",
         "th": "Clarifying our weapons prohibitions"
@@ -93,7 +212,7 @@
       }
     },
     {
-      "type": "h2",
+      "type": "h3",
       "text": {
         "en": "More precise language on surveillance and law enforcement",
         "th": "More precise language on surveillance and law enforcement"
@@ -114,7 +233,7 @@
       }
     },
     {
-      "type": "h2",
+      "type": "h3",
       "text": {
         "en": "Clearer requirements for high-risk use cases",
         "th": "Clearer requirements for high-risk use cases"
@@ -142,7 +261,7 @@
       }
     },
     {
-      "type": "h2",
+      "type": "h3",
       "text": {
         "en": "Addressing abusive behavior toward our models",
         "th": "Addressing abusive behavior toward our models"
@@ -163,7 +282,7 @@
       }
     },
     {
-      "type": "h2",
+      "type": "h3",
       "text": {
         "en": "Clarifying our Supported Regions Policy",
         "th": "Clarifying our Supported Regions Policy"
@@ -177,7 +296,7 @@
       }
     },
     {
-      "type": "h2",
+      "type": "h3",
       "text": {
         "en": "Looking ahead",
         "th": "มองไปข้างหน้า"
@@ -188,55 +307,6 @@
       "text": {
         "en": "We'll keep updating our Usage Policy as Claude’s capabilities and risks change. As with this and our prior updates, we’ll seek input from across Anthropic, and from policymakers, subject matter experts, civil society, and the people who use our products.",
         "th": "We'll keep updating our Usage Policy as Claude’s capabilities and risks change. As with this and our prior updates, we’ll seek input from across Anthropic, and from policymakers, subject matter experts, civil society, and the people who use our products."
-      }
-    },
-    {
-      "type": "h2",
-      "text": {
-        "en": "Related content",
-        "th": "เนื้อหาที่เกี่ยวข้อง"
-      }
-    },
-    {
-      "type": "h3",
-      "text": {
-        "en": "Investing in the public benefit",
-        "th": "Investing in the public benefit"
-      }
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
-        "th": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows."
-      }
-    },
-    {
-      "type": "h3",
-      "text": {
-        "en": "An update on independent evaluators",
-        "th": "An update on independent evaluators"
-      }
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.",
-        "th": "To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face."
-      }
-    },
-    {
-      "type": "h3",
-      "text": {
-        "en": "Preparing for the 2026 US midterms",
-        "th": "Preparing for the 2026 US midterms"
-      }
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.",
-        "th": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms."
       }
     }
   ]

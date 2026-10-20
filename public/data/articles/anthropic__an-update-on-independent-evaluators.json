@@ -4,7 +4,7 @@
   "source": "anthropic",
   "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
   "category": "News",
-  "date": "2026-10-15T00:00:00.000Z",
+  "date": "2026-10-20T18:12:30.939Z",
   "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2e351e6311a0ada8ea4a0304ce6cda39243eaf4-1200x630.jpg",
   "title": {
     "en": "An update on independent evaluators",
@@ -16,9 +16,142 @@
   },
   "body": [
     {
+      "type": "h3",
+      "text": {
+        "en": "Chapter 01: Why we work with independent evaluators",
+        "th": "Chapter 01: Why we work with independent evaluators"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "01Why we work with independent evaluators",
+        "th": "01Why we work with independent evaluators"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "02What we mean by “employee-like access”",
+        "th": "02What we mean by “employee-like access”"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "03Our other evaluator partnerships",
+        "th": "03Our other evaluator partnerships"
+      }
+    },
+    {
       "type": "img",
-      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc2af6aeedb4995d202c7543f3d59c6bbbd5352f1-2000x1125.jpg&w=3840&q=75",
+      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc2af6aeedb4995d202c7543f3d59c6bbbd5352f1-2000x1125.jpg&w=1920&q=75",
       "alt": "An update on independent evaluators"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "PublishedOct 15, 2026",
+        "th": "PublishedOct 15, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Published",
+        "th": "Published"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Oct 15, 2026",
+        "th": "Oct 15, 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "CategoryPolicy",
+        "th": "CategoryPolicy"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Category",
+        "th": "Category"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Policy",
+        "th": "Policy"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "TopicsSafety evaluationsTransparencyPartnershipsRace to the topSee more...",
+        "th": "TopicsSafety evaluationsTransparencyPartnershipsRace to the topSee more..."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Topics",
+        "th": "Topics"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Safety evaluations",
+        "th": "Safety evaluations"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Transparency",
+        "th": "Transparency"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Partnerships",
+        "th": "Partnerships"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Race to the top",
+        "th": "Race to the top"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "PartnershipsSep 18, 2026 Partnering with Accenture on embedded evaluation",
+        "th": "PartnershipsSep 18, 2026 Partnering with Accenture on embedded evaluation"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Partnerships",
+        "th": "Partnerships"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sep 18, 2026",
+        "th": "Sep 18, 2026"
+      }
     },
     {
       "type": "p",
@@ -196,73 +329,31 @@
       }
     },
     {
-      "type": "li",
-      "text": {
-        "en": "Because these evaluators (like bank examiners) may also work with other companies, we exercise caution around the possibility of inadvertent leaks. Information about architectures presents a high risk of inadvertent leaks, and its relevance to risk assessment is typically low. When it is highly relevant, we will generally seek to share it, though this will require explicit internal approvals.",
-        "th": "Because these evaluators (like bank examiners) may also work with other companies, we exercise caution around the possibility of inadvertent leaks. Information about architectures presents a high risk of inadvertent leaks, and its relevance to risk assessment is typically low. When it is highly relevant, we will generally seek to share it, though this will require explicit internal approvals."
-      }
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "Updated on October 16 to clarify METR's current project terms with Anthropic.",
-        "th": "อัปเดตเมื่อวันที่ 16 ตุลาคมเพื่อชี้แจงข้อกำหนดโครงการปัจจุบันของ METR กับ Anthropic"
-      }
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "Updated on October 15 to clarify SecureBio's current project terms with Anthropic.",
-        "th": "อัปเดตเมื่อวันที่ 15 ตุลาคมเพื่อชี้แจงข้อกำหนดโครงการปัจจุบันของ SecureBio กับ Anthropic"
-      }
-    },
-    {
       "type": "h2",
       "text": {
-        "en": "Related content",
-        "th": "เนื้อหาที่เกี่ยวข้อง"
-      }
-    },
-    {
-      "type": "h3",
-      "text": {
-        "en": "Investing in the public benefit",
-        "th": "Investing in the public benefit"
+        "en": "Footnotes",
+        "th": "Footnotes"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
-        "th": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows."
-      }
-    },
-    {
-      "type": "h3",
-      "text": {
-        "en": "Preparing for the 2026 US midterms",
-        "th": "Preparing for the 2026 US midterms"
+        "en": "01Because these evaluators (like bank examiners) may also work with other companies, we exercise caution around the possibility of inadvertent leaks. Information about architectures presents a high risk of inadvertent leaks, and its relevance to risk assessment is typically low. When it is highly relevant, we will generally seek to share it, though this will require explicit internal approvals.",
+        "th": "01Because these evaluators (like bank examiners) may also work with other companies, we exercise caution around the possibility of inadvertent leaks. Information about architectures presents a high risk of inadvertent leaks, and its relevance to risk assessment is typically low. When it is highly relevant, we will generally seek to share it, though this will require explicit internal approvals."
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.",
-        "th": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms."
-      }
-    },
-    {
-      "type": "h3",
-      "text": {
-        "en": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
-        "th": "Anthropic opens Singapore office and signs MOU with the Government of Singapore"
+        "en": "02Updated on October 16 to clarify METR's current project terms with Anthropic.",
+        "th": "02Updated on October 16 to clarify METR's current project terms with Anthropic."
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.",
-        "th": "Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption."
+        "en": "03Updated on October 15 to clarify SecureBio's current project terms with Anthropic.",
+        "th": "03Updated on October 15 to clarify SecureBio's current project terms with Anthropic."
       }
     }
   ]

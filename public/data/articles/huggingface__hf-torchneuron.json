@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+15",
-        "th": "+15"
+        "en": "+16",
+        "th": "+16"
       }
     },
     {
@@ -430,6 +430,18 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/7d519f6df140add7d590c3f90e5eb651.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "hi, which models are supported with this? is mobernbert and t5gemma2 on the list?",
+        "th": "hi, which models are supported with this? is mobernbert and t5gemma2 on the list?"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -499,8 +511,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+9",
-        "th": "+9"
+        "en": "+10",
+        "th": "+10"
       }
     }
   ]

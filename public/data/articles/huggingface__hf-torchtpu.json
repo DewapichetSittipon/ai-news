@@ -1,0 +1,499 @@
+{
+  "id": "huggingface__hf-torchtpu",
+  "slug": "hf-torchtpu",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/hf-torchtpu",
+  "category": "News",
+  "date": "2026-10-20T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+    "th": "Hugging Face ❤️ TorchTPU: TPUs, Natively"
+  },
+  "summary": {
+    "en": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+    "th": "Hugging Face ❤️ TorchTPU: TPUs, Natively"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/620b7c408f5871b8a1a168a7/49M2lucv3I24rOMJFnhVd.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6264f9655f6f2e14d6ac981c/bJ5lPjGaOfatQne--KQ10.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/60db433e432bcf121f559073/a7LbJFHx2GUm9sH05Ns8Q.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1605114051380-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6311157564939fabc00c87ec/eOaySRhZnV2maIUC_7HgC.jpeg",
+      "alt": "Alvaro Moran's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/61a50668cd3eb3043f38e445/E_M7m93Ou6d-XJij59VGF.jpeg",
+      "alt": "Jingya Huang's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/w3Z6xyKVBA6np65Tb16dP.jpeg",
+      "alt": "Simon Pagezy's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1605114051380-noauth.jpeg",
+      "alt": "Jeff Boudier's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/620b7c408f5871b8a1a168a7/49M2lucv3I24rOMJFnhVd.jpeg",
+      "alt": "Régis Pierrard's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://huggingface.co/buckets/huggingface/hf-torchtpu-blog-assets/resolve/images/banner.jpg",
+      "alt": "The Hugging Face mascot and a smiling PyTorch logo cheering over a glowing chip, on a manga-style background."
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Wait, what's a TPU? 🤔",
+        "th": "Wait, what's a TPU? 🤔"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The old way",
+        "th": "The old way"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Enter TorchTPU 🚀",
+        "th": "Enter TorchTPU 🚀"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Your favourite libraries, now on TPU Transformers Images? Videos? Diffusers paints them on TPUs 🎨 Kernels",
+        "th": "Your favourite libraries, now on TPU Transformers Images? Videos? Diffusers paints them on TPUs 🎨 Kernels"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Transformers",
+        "th": "Transformers"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Images? Videos? Diffusers paints them on TPUs 🎨",
+        "th": "Images? Videos? Diffusers paints them on TPUs 🎨"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Kernels",
+        "th": "Kernels"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We test it so you don't have to 🧪",
+        "th": "We test it so you don't have to 🧪"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Get started",
+        "th": "เริ่มต้นเลย"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Wait, what's a TPU? 🤔",
+        "th": "Wait, what's a TPU? 🤔"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "TPU stands for Tensor Processing Unit. TPUs are Google's own AI accelerators. They are chips built for one job: the matrix math that neural networks spend most of their time on. Google has been designing them for about ten years, and uses them to train and serve its own models, including Gemini.",
+        "th": "TPU stands for Tensor Processing Unit. TPUs are Google's own AI accelerators. They are chips built for one job: the matrix math that neural networks spend most of their time on. Google has been designing them for about ten years, and uses them to train and serve its own models, including Gemini."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "TPUs are available on Google Cloud, from a single chip up to pods of thousands of chips. They shine when you need a lot of compute, for training or for serving at scale.",
+        "th": "TPUs are available on Google Cloud, from a single chip up to pods of thousands of chips. They shine when you need a lot of compute, for training or for serving at scale."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The catch has always been software. The TPU stack grew up around TensorFlow and JAX, and PyTorch users had to work harder to get in.",
+        "th": "The catch has always been software. The TPU stack grew up around TensorFlow and JAX, and PyTorch users had to work harder to get in."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The old way",
+        "th": "The old way"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Until now, running PyTorch on TPUs meant going through PyTorch/XLA (torch_xla). It worked, but it had its quirks. Tensors were lazy (the tensors, not you), so your code didn't always run when you thought it did. Small changes could trigger graph recompilations, and debugging was hard to reason about.",
+        "th": "Until now, running PyTorch on TPUs meant going through PyTorch/XLA (torch_xla). It worked, but it had its quirks. Tensors were lazy (the tensors, not you), so your code didn't always run when you thought it did. Small changes could trigger graph recompilations, and debugging was hard to reason about."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To make life easier, we built Optimum TPU. It gave Hugging Face models inference and training support on TPUs. Now that TorchTPU brings native support, Optimum TPU is not required anymore to run Hugging Face models with Transformers and Diffusers.",
+        "th": "To make life easier, we built Optimum TPU. It gave Hugging Face models inference and training support on TPUs. Now that TorchTPU brings native support, Optimum TPU is not required anymore to run Hugging Face models with Transformers and Diffusers."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Enter TorchTPU 🚀",
+        "th": "Enter TorchTPU 🚀"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "TorchTPU adds TPU as a new backend to PyTorch. You write regular PyTorch code. It comes with Pallas kernels tuned for TPUs, support for distributed training, and a torch.compile integration for when you want more speed. Installing it on a TPU VM takes one command:",
+        "th": "TorchTPU adds TPU as a new backend to PyTorch. You write regular PyTorch code. It comes with Pallas kernels tuned for TPUs, support for distributed training, and a torch.compile integration for when you want more speed. Installing it on a TPU VM takes one command:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The extra index gives you the CPU build of torch. Without it, pip pulls the much bigger CUDA build, which you don't need on a TPU.",
+        "th": "The extra index gives you the CPU build of torch. Without it, pip pulls the much bigger CUDA build, which you don't need on a TPU."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Your favourite libraries, now on TPU",
+        "th": "Your favourite libraries, now on TPU"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Transformers",
+        "th": "Transformers"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Transformers v5 was built around one idea: be the source of truth for model definitions, so they can run anywhere. \"Anywhere\" now includes TPUs. To load a model on a TPU, pass device_map=\"tpu\". That's it.",
+        "th": "Transformers v5 was built around one idea: be the source of truth for model definitions, so they can run anywhere. \"Anywhere\" now includes TPUs. To load a model on a TPU, pass device_map=\"tpu\". That's it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The model runs in eager mode by default. You can also use torch.compile for better performance, or run it in a distributed setup.",
+        "th": "The model runs in eager mode by default. You can also use torch.compile for better performance, or run it in a distributed setup."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Images? Videos? Diffusers paints them on TPUs 🎨",
+        "th": "Images? Videos? Diffusers paints them on TPUs 🎨"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "TPU is now a first-class device in Diffusers. For prototyping or debugging, eager mode only needs pipe.to(\"tpu\"). For deployment, compiled mode adds one compile call. Your pipelines and code stay the same, and there's no TPU fork to maintain.",
+        "th": "TPU is now a first-class device in Diffusers. For prototyping or debugging, eager mode only needs pipe.to(\"tpu\"). For deployment, compiled mode adds one compile call. Your pipelines and code stay the same, and there's no TPU fork to maintain."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The first call compiles, and every call after that with the same image size reuses the graph.",
+        "th": "The first call compiles, and every call after that with the same image size reuses the graph."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Models too big for one chip? Pass a TensorParallelConfig to from_pretrained and the transformer is sharded across chips as it loads, so the full model never has to fit in one place. Many popular pipelines support it out of the box, and the ones that don't are just a tp_plan away. The Diffusers TPU guide has the full recipe.",
+        "th": "Models too big for one chip? Pass a TensorParallelConfig to from_pretrained and the transformer is sharded across chips as it loads, so the full model never has to fit in one place. Many popular pipelines support it out of the box, and the ones that don't are just a tp_plan away. The Diffusers TPU guide has the full recipe."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Here are some examples run on a Cloud TPU v6e-4:",
+        "th": "Here are some examples run on a Cloud TPU v6e-4:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "TP=4 (each model split across four chips) · bf16 · batch 1",
+        "th": "TP=4 (each model split across four chips) · bf16 · batch 1"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://huggingface.co/buckets/huggingface/hf-torchtpu-blog-assets/resolve/images/qwen-image-21-capybara-1024.jpg",
+      "alt": "A capybara wearing a wizard hat, reading a book by candlelight, oil painting"
+    },
+    {
+      "type": "img",
+      "src": "https://huggingface.co/buckets/huggingface/hf-torchtpu-blog-assets/resolve/images/qwen-image-21-neon-2048.jpg",
+      "alt": "Neon shop sign reading QWEN IMAGE 2.1"
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Kernels",
+        "th": "Kernels"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Kernels Hub has ready-to-use TPU kernels. Load one with the Kernels library and give your model a speed boost.",
+        "th": "The Kernels Hub has ready-to-use TPU kernels. Load one with the Kernels library and give your model a speed boost."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "TPU kernels are written in Pallas, which gives you low-level control over the hardware. You can also bring in kernels from the Tokamax library. Here is a ragged-dot kernel from Tokamax plugged into a Mixture-of-Experts model:",
+        "th": "TPU kernels are written in Pallas, which gives you low-level control over the hardware. You can also bring in kernels from the Tokamax library. Here is a ragged-dot kernel from Tokamax plugged into a Mixture-of-Experts model:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The bigger the batch, the bigger the win. At batch size 64, decoding is 21.5× faster on Qwen3-30B-A3B and 12.8× faster on Gemma 4 26B-A4B.",
+        "th": "The bigger the batch, the bigger the win. At batch size 64, decoding is 21.5× faster on Qwen3-30B-A3B and 12.8× faster on Gemma 4 26B-A4B."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Decode throughput on a TPU v6e-8, Hub kernel vs. the default implementation.",
+        "th": "Decode throughput on a TPU v6e-8, Hub kernel vs. the default implementation."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://huggingface.co/buckets/huggingface/hf-torchtpu-blog-assets/resolve/images/kernel-ragged-dot-speedup.png",
+      "alt": "Decode throughput with the Hub ragged-dot kernel versus the default grouped_mm, for Qwen3-30B-A3B and Gemma 4 26B-A4B"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "We test it so you don't have to 🧪",
+        "th": "We test it so you don't have to 🧪"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We're continuously improving TPU support in transformers by running the library test suite. We are working to add a nightly CI on TPU and make the results available in the (transformers dashboard)[https://huggingface.co/spaces/transformers-community/transformers-ci-dashboard].",
+        "th": "We're continuously improving TPU support in transformers by running the library test suite. We are working to add a nightly CI on TPU and make the results available in the (transformers dashboard)[https://huggingface.co/spaces/transformers-community/transformers-ci-dashboard]."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Transformers CI dashboard, with TPU results next to other accelerators. Work in progress!",
+        "th": "The Transformers CI dashboard, with TPU results next to other accelerators. Work in progress!"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://huggingface.co/buckets/huggingface/hf-torchtpu-blog-assets/resolve/images/tpu-ci-dashboard.png",
+      "alt": "Transformers CI dashboard with TPU test results next to other accelerators"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It's not all green yet, and we're fine with that. Of the tests that run on TPU, 96.5% pass. Every failure we find becomes a small repro script and an issue on the TorchTPU repo. So far we have reported 34 issues, and 19 are already fixed. Running on TPU also caught a few bugs in Transformers itself, like in StaticCache and the Qwen3 tensor-parallel plans. We fixed those upstream.",
+        "th": "It's not all green yet, and we're fine with that. Of the tests that run on TPU, 96.5% pass. Every failure we find becomes a small repro script and an issue on the TorchTPU repo. So far we have reported 34 issues, and 19 are already fixed. Running on TPU also caught a few bugs in Transformers itself, like in StaticCache and the Qwen3 tensor-parallel plans. We fixed those upstream."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If something breaks on TPU, we want to find out before you do.",
+        "th": "If something breaks on TPU, we want to find out before you do."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get started",
+        "th": "เริ่มต้นเลย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "TPUs are no longer a side quest for PyTorch users. Install TorchTPU, grab a model from the Hub, and send it to \"tpu\".",
+        "th": "TPUs are no longer a side quest for PyTorch users. Install TorchTPU, grab a model from the Hub, and send it to \"tpu\"."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "TorchTPU on GitHub",
+        "th": "TorchTPU on GitHub"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "TPU kernels on the Hub",
+        "th": "TPU kernels on the Hub"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Cloud TPU documentation",
+        "th": "Cloud TPU documentation"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We can't wait to see what you build 🤗. If you hit a problem, open an issue and tell us about it.",
+        "th": "We can't wait to see what you build 🤗. If you hit a problem, open an issue and tell us about it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More Articles from our Blog",
+        "th": "บทความเพิ่มเติมจากบล็อกของเรา"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/tpu-inference-endpoints-spaces/thumbnail.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Google Cloud TPUs made available to Hugging Face users",
+        "th": "Google Cloud TPUs made available to Hugging Face users"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/w3Z6xyKVBA6np65Tb16dP.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/62175099ae3a893ac7ce86a7/ZSFoej_60rG-hT-gmo3Pr.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1624629516652-5ff5d596f244529b3ec0fb89.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6311157564939fabc00c87ec/eOaySRhZnV2maIUC_7HgC.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/173_gcp-partnership/thumbnail.jpg",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Making thousands of open LLMs bloom in the Vertex AI Model Garden",
+        "th": "Making thousands of open LLMs bloom in the Vertex AI Model Garden"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1624629516652-5ff5d596f244529b3ec0fb89.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1605114051380-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "ชุมชน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· ลงทะเบียนหรือเข้าสู่ระบบเพื่อแสดงความคิดเห็น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/620b7c408f5871b8a1a168a7/49M2lucv3I24rOMJFnhVd.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6264f9655f6f2e14d6ac981c/bJ5lPjGaOfatQne--KQ10.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/60db433e432bcf121f559073/a7LbJFHx2GUm9sH05Ns8Q.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1605114051380-noauth.jpeg",
+      "alt": ""
+    }
+  ]
+}

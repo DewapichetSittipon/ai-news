@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-10-19T21:54:57.460Z",
+  "generatedAt": "2026-10-20T00:52:27.009Z",
   "items": [
+    {
+      "id": "openai__low-resource-programming-languages",
+      "slug": "low-resource-programming-languages",
+      "source": "openai",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "category": "Publication",
+      "date": "2026-10-19T12:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Advancing coding in low‑resource programming languages",
+        "th": "Advancing coding in low‑resource programming languages"
+      },
+      "summary": {
+        "en": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+        "th": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration."
+      }
+    },
     {
       "id": "huggingface__hf-torchneuron",
       "slug": "hf-torchneuron",
@@ -70,23 +87,6 @@
       }
     },
     {
-      "id": "openai__benefit-street-partners",
-      "slug": "benefit-street-partners",
-      "source": "openai",
-      "url": "https://openai.com/index/benefit-street-partners",
-      "category": "News",
-      "date": "2026-10-16T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Benefit Street Partners answers questions faster with Codex",
-        "th": "Benefit Street Partners ตอบคำถามได้เร็วขึ้นด้วย Codex"
-      },
-      "summary": {
-        "en": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-        "th": "Anant Kumar สร้างเครื่องมือเพื่อเปรียบเทียบการประเมินมูลค่าสินเชื่อและวิเคราะห์ข้อตกลงสินเชื่อ โดยใช้ Codex สำหรับการตรวจสอบโค้ดและการติดตามผลที่รวดเร็วยิ่งขึ้น"
-      }
-    },
-    {
       "id": "openai__stack-overflow-chatgpt-plugin",
       "slug": "stack-overflow-chatgpt-plugin",
       "source": "openai",
@@ -101,6 +101,23 @@
       "summary": {
         "en": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
         "th": "วิศวกรสองคนจัดส่ง Stack Overflow สำหรับตัวแทนภายในไม่กี่สัปดาห์ด้วย Codex และปลั๊กอิน ChatGPT ช่วยเพิ่มการเติบโตถึง 10 เท่าในการสร้างตัวแทน"
+      }
+    },
+    {
+      "id": "openai__benefit-street-partners",
+      "slug": "benefit-street-partners",
+      "source": "openai",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "category": "News",
+      "date": "2026-10-16T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Benefit Street Partners answers questions faster with Codex",
+        "th": "Benefit Street Partners ตอบคำถามได้เร็วขึ้นด้วย Codex"
+      },
+      "summary": {
+        "en": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+        "th": "Anant Kumar สร้างเครื่องมือเพื่อเปรียบเทียบการประเมินมูลค่าสินเชื่อและวิเคราะห์ข้อตกลงสินเชื่อ โดยใช้ Codex สำหรับการตรวจสอบโค้ดและการติดตามผลที่รวดเร็วยิ่งขึ้น"
       }
     },
     {
@@ -529,23 +546,6 @@
       }
     },
     {
-      "id": "openai__sophos",
-      "slug": "sophos",
-      "source": "openai",
-      "url": "https://openai.com/index/sophos",
-      "category": "News",
-      "date": "2026-10-09T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-        "th": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak"
-      },
-      "summary": {
-        "en": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-        "th": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
-      }
-    },
-    {
       "id": "openai__asana-browser-agent",
       "slug": "asana-browser-agent",
       "source": "openai",
@@ -560,6 +560,23 @@
       "summary": {
         "en": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
         "th": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
+      }
+    },
+    {
+      "id": "openai__sophos",
+      "slug": "sophos",
+      "source": "openai",
+      "url": "https://openai.com/index/sophos",
+      "category": "News",
+      "date": "2026-10-09T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+        "th": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak"
+      },
+      "summary": {
+        "en": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+        "th": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
       }
     },
     {
@@ -1192,23 +1209,6 @@
       }
     },
     {
-      "id": "openai__introducing-gpt-6-1-sol",
-      "slug": "introducing-gpt-6-1-sol",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "category": "Product",
-      "date": "2026-09-29T10:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing GPT-6.1 Sol",
-        "th": "Introducing GPT-6.1 Sol"
-      },
-      "summary": {
-        "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-        "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
-      }
-    },
-    {
       "id": "openai__devday-2026-recap",
       "slug": "devday-2026-recap",
       "source": "openai",
@@ -1223,6 +1223,23 @@
       "summary": {
         "en": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
         "th": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
+      }
+    },
+    {
+      "id": "openai__introducing-gpt-6-1-sol",
+      "slug": "introducing-gpt-6-1-sol",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "category": "Product",
+      "date": "2026-09-29T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing GPT-6.1 Sol",
+        "th": "Introducing GPT-6.1 Sol"
+      },
+      "summary": {
+        "en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+        "th": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
       }
     },
     {
@@ -1308,23 +1325,6 @@
       "summary": {
         "en": "Holo4: powering generalist computer-use agents",
         "th": "Holo4: powering generalist computer-use agents"
-      }
-    },
-    {
-      "id": "openai__lenfest-ai-collaborative-expansion",
-      "slug": "lenfest-ai-collaborative-expansion",
-      "source": "openai",
-      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "category": "Company",
-      "date": "2026-09-28T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-        "th": "The Lenfest Institute grows landmark program with expanded OpenAI support"
-      },
-      "summary": {
-        "en": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-        "th": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support."
       }
     },
     {

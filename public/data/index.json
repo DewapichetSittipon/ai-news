@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-10-20T06:56:50.845Z",
+  "generatedAt": "2026-10-20T13:12:52.108Z",
   "items": [
+    {
+      "id": "huggingface__anylanguagemodel-1-0",
+      "slug": "anylanguagemodel-1-0",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "category": "News",
+      "date": "2026-10-20T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+        "th": "AnyLanguageModel 1.0: โมเดลท้องถิ่นหนึ่งปีบนแพลตฟอร์ม Apple"
+      },
+      "summary": {
+        "en": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+        "th": "AnyLanguageModel 1.0: โมเดลท้องถิ่นหนึ่งปีบนแพลตฟอร์ม Apple"
+      }
+    },
+    {
+      "id": "huggingface__mps-pytorch-2-15",
+      "slug": "mps-pytorch-2-15",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "category": "News",
+      "date": "2026-10-20T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "MPS in PyTorch 2.15",
+        "th": "MPS ใน PyTorch 2.15"
+      },
+      "summary": {
+        "en": "MPS in PyTorch 2.15",
+        "th": "MPS ใน PyTorch 2.15"
+      }
+    },
     {
       "id": "openai__low-resource-programming-languages",
       "slug": "low-resource-programming-languages",
@@ -2192,40 +2226,6 @@
       "summary": {
         "en": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
         "th": "การอนุมานเร็วขึ้นสูงสุด 3.2 เท่าด้วย LFM2.5-DSpark"
-      }
-    },
-    {
-      "id": "huggingface__altk-evolve-hmm",
-      "slug": "altk-evolve-hmm",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "category": "News",
-      "date": "2026-08-18T18:09:38.000Z",
-      "image": null,
-      "title": {
-        "en": "How Much Memory Does Your Agent Actually Need?",
-        "th": "จริงๆ แล้วตัวแทนของคุณต้องการหน่วยความจำจำนวนเท่าใด?"
-      },
-      "summary": {
-        "en": "How Much Memory Does Your Agent Actually Need?",
-        "th": "จริงๆ แล้วตัวแทนของคุณต้องการหน่วยความจำจำนวนเท่าใด?"
-      }
-    },
-    {
-      "id": "huggingface__multi-vector-encoder",
-      "slug": "multi-vector-encoder",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
-      "category": "News",
-      "date": "2026-08-18T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-        "th": "Multi-Vector (การโต้ตอบล่าช้า) การฝังโมเดลด้วย Sentence Transformers"
-      },
-      "summary": {
-        "en": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-        "th": "Multi-Vector (การโต้ตอบล่าช้า) การฝังโมเดลด้วย Sentence Transformers"
       }
     },
     {

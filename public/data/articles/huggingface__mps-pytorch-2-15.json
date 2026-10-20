@@ -1,0 +1,848 @@
+{
+  "id": "huggingface__mps-pytorch-2-15",
+  "slug": "mps-pytorch-2-15",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+  "category": "News",
+  "date": "2026-10-20T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "MPS in PyTorch 2.15",
+    "th": "MPS ใน PyTorch 2.15"
+  },
+  "summary": {
+    "en": "MPS in PyTorch 2.15",
+    "th": "MPS ใน PyTorch 2.15"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/69e2191b89c9afe46240fde2/4P9gAZ1_a2vLdHIcyt3PN.png",
+      "alt": "Irakli Salia's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/mHXfX1t4hIyJjQ1Vd5g0f.jpeg",
+      "alt": "Khushi Agrawal's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "TL;DR",
+        "th": "TL;ดร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What this means for you",
+        "th": "สิ่งนี้มีความหมายต่อคุณอย่างไร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Contents",
+        "th": "สารบัญ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Getting started",
+        "th": "เริ่มต้นใช้งาน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "FP8 comes to MPS",
+        "th": "FP8 มาถึง MPS"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Faster language-model decoding Linear layers Mixture-of-experts layers",
+        "th": "การถอดรหัสโมเดลภาษาที่เร็วขึ้น เลเยอร์เชิงเส้น เลเยอร์ส่วนผสมของผู้เชี่ยวชาญ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Linear layers",
+        "th": "เลเยอร์เชิงเส้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mixture-of-experts layers",
+        "th": "ชั้นส่วนผสมของผู้เชี่ยวชาญ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Linear algebra gets a boost Complex-valued computations Small matrices and larger solves",
+        "th": "พีชคณิตเชิงเส้นได้รับการเพิ่มประสิทธิภาพ การคำนวณค่าเชิงซ้อน เมทริกซ์ขนาดเล็กและการแก้โจทย์ที่ใหญ่กว่า"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Complex-valued computations",
+        "th": "การคำนวณมูลค่าเชิงซ้อน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Small matrices and larger solves",
+        "th": "เมทริกซ์ขนาดเล็กและการแก้โจทย์ที่ใหญ่กว่า"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Convolutions, padding, and training",
+        "th": "การโน้มตัว การเสริมกำลัง และการฝึก"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Softmax and reductions",
+        "th": "Softmax และการลดลง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A much smaller memory footprint for video decoding",
+        "th": "หน่วยความจำขนาดเล็กกว่ามากสำหรับการถอดรหัสวิดีโอ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More control with MPS streams",
+        "th": "ควบคุมได้มากขึ้นด้วยสตรีม MPS"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More operations work on MPS",
+        "th": "การดำเนินงานเพิ่มเติมทำงานบน MPS"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A sneak peek at PyTorch 2.16 Faster LLM decoding Attention runs entirely on Metal More MPSGraph to Metal migrations A smaller install",
+        "th": "ดูการถอดรหัส PyTorch 2.16 ที่เร็วขึ้น LLM ความสนใจทำงานบน Metal ทั้งหมด การย้าย MPSGraph ไปสู่ ​​Metal มากขึ้น การติดตั้งที่เล็กลง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Faster LLM decoding",
+        "th": "การถอดรหัส LLM ที่เร็วขึ้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Attention runs entirely on Metal",
+        "th": "ความสนใจพุ่งไปที่โลหะทั้งหมด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More MPSGraph to Metal migrations",
+        "th": "MPSGraph สู่การโยกย้ายโลหะเพิ่มเติม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A smaller install",
+        "th": "การติดตั้งที่เล็กลง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Wrapping up What's next for us",
+        "th": "สรุปสิ่งต่อไปสำหรับเรา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What's next for us",
+        "th": "อะไรต่อไปสำหรับเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A quick word about who we are: we're the PyTorch team at Hugging Face. We contribute across PyTorch, and one of our focus areas is the MPS backend, where the goal is to make your Mac a first-class place to run and train PyTorch models. At the start of 2026, running even small models on MPS often meant working around unsupported operations, performance cliffs and unexpected memory growth. So we run real models from the Hugging Face Hub across language, image and video, find where MPS falls short and fix it upstream in PyTorch, more and more often by replacing MPSGraph with dedicated Metal kernels. Much of this post is the result of that work, done together with the PyTorch maintainers and community contributors.",
+        "th": "บอกสั้นๆ ว่าเราเป็นใคร: เราคือทีม PyTorch ที่ Hugging Face เราสนับสนุน PyTorch และหนึ่งในประเด็นที่เรามุ่งเน้นคือแบ็กเอนด์ MPS โดยมีเป้าหมายเพื่อทำให้ Mac ของคุณเป็นสถานที่ชั้นนำในการรันและฝึกฝนโมเดล PyTorch เมื่อต้นปี 2569 การใช้ MPS แม้แต่โมเดลขนาดเล็กมักหมายถึงการแก้ไขการทำงานที่ไม่ได้รับการสนับสนุน ประสิทธิภาพที่ลดลง และหน่วยความจำที่เพิ่มขึ้นอย่างไม่คาดคิด ดังนั้นเราจึงเรียกใช้โมเดลจริงจาก Hugging Face Hub ในภาษา รูปภาพ และวิดีโอ ค้นหาจุดที่ MPS ขาดและแก้ไขต้นทางใน PyTorch บ่อยขึ้นเรื่อยๆ โดยการแทนที่ MPSGraph ด้วย Metal Kernel เฉพาะ โพสต์นี้ส่วนใหญ่เป็นผลมาจากงานดังกล่าว ซึ่งทำร่วมกับผู้ดูแล PyTorch และผู้มีส่วนร่วมในชุมชน"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "TL;DR",
+        "th": "TL;ดร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "FP8 comes to the Mac: store float8_e4m3fn values in half the space of BF16 and use scaled matrix multiplication and all other ops which are supported on CUDA/CPU!",
+        "th": "FP8 มาพร้อมกับ Mac: เก็บค่า float8_e4m3fn ไว้ครึ่งหนึ่งของ BF16 และใช้การคูณเมทริกซ์แบบปรับขนาดและ ops อื่น ๆ ทั้งหมดที่รองรับ CUDA/CPU!"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "MoE models decode 5–6.5× faster than in 2.14: Qwen3.6-35B-A3B goes from 9.4 to 61.3 tokens/s on an M3 Ultra, thanks to a native grouped matmul with a dedicated decoding path, fewer GPU-CPU syncs and faster top-k routing.",
+        "th": "รุ่น MoE ถอดรหัสเร็วกว่ารุ่น 2.14 5–6.5 เท่า: Qwen3.6-35B-A3B เปลี่ยนจาก 9.4 เป็น 61.3 โทเค็น/วินาทีบน M3 Ultra ต้องขอบคุณ matmul ที่จัดกลุ่มแบบเนทีฟพร้อมเส้นทางการถอดรหัสเฉพาะ การซิงค์ GPU-CPU น้อยลง และการกำหนดเส้นทาง top-k ที่เร็วขึ้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Less time per token for every LLM: single-row linear layers use specialized matrix-vector kernels, and softmax over the vocabulary is about 8× faster.",
+        "th": "เวลาต่อโทเค็นน้อยลงสำหรับ LLM ทุกอัน: เลเยอร์เชิงเส้นแถวเดี่ยวใช้เคอร์เนลเมทริกซ์-เวกเตอร์แบบพิเศษ และ softmax เหนือคำศัพท์นั้นเร็วขึ้นประมาณ 8 เท่า"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More linear algebra on the GPU: complex LU and triangular solves, faster small-matrix inverses, and faster QR decomposition.",
+        "th": "พีชคณิตเชิงเส้นเพิ่มเติมบน GPU: LU ที่ซับซ้อนและการแก้สามเหลี่ยม การผกผันเมทริกซ์ขนาดเล็กที่เร็วขึ้น และการสลายตัวของ QR ที่เร็วขึ้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Audio, video, and training get attention too: faster paths for convolutions, padding, dropout, interpolation backward and reductions. Wan2.2's video VAE decode now peaks at 8 GiB of memory instead of 270 GiB.",
+        "th": "เสียง วิดีโอ และการฝึกอบรมก็ได้รับความสนใจเช่นกัน: เส้นทางที่เร็วขึ้นสำหรับการบิด การแพดดิ้ง การดรอปเอาต์ การประมาณค่าย้อนกลับและการลดลง การถอดรหัส VAE วิดีโอของ Wan2.2 ตอนนี้สูงสุดที่หน่วยความจำ 8 GiB แทนที่จะเป็น 270 GiB"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More control from Python: public MPS streams and more reliable event timing.",
+        "th": "ควบคุมได้มากขึ้นจาก Python: สตรีม MPS สาธารณะและเวลาเหตุการณ์ที่เชื่อถือได้มากขึ้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Updated requirements: MPS now requires macOS 15 or later; PyTorch 2.15 requires Python 3.11 or later.",
+        "th": "ข้อกำหนดที่อัปเดต: ตอนนี้ MPS ต้องใช้ macOS 15 หรือใหม่กว่า PyTorch 2.15 ต้องใช้ Python 3.11 หรือใหม่กว่า"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A peek at 2.16: attention fully on Metal, more MPSGraph-to-Metal migrations and faster LLM decoding.",
+        "th": "ดูที่ 2.16: ให้ความสนใจอย่างเต็มที่กับ Metal, การโยกย้าย MPSGraph-to-Metal ที่มากขึ้น และการถอดรหัส LLM ที่เร็วขึ้น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What this means for you",
+        "th": "สิ่งนี้มีความหมายต่อคุณอย่างไร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If you run models on a Mac with transformers, diffusers or tools like ComfyUI, here's what 2.15 changes in practice:",
+        "th": "หากคุณใช้งานโมเดลบน Mac ที่มีหม้อแปลง ตัวกระจาย หรือเครื่องมืออย่าง ComfyUI ต่อไปนี้คือสิ่งที่เปลี่ยนแปลงในทางปฏิบัติในเวอร์ชัน 2.15:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Much faster local LLMs. Mixture-of-experts models decode 5–6.5× faster than in 2.14: on an M3 Ultra with torch.compile, Qwen3.6-35B-A3B goes from 9.4 to 61.3 tokens/s and LFM2.5-8B-A1B from 23.6 to 123.6 tokens/s. Dense models benefit too, from faster linear layers and an 8× faster softmax for sampling. (More)",
+        "th": "LLM ท้องถิ่นที่เร็วกว่ามาก โมเดลแบบผสมผสานของผู้เชี่ยวชาญถอดรหัสได้เร็วกว่าใน 2.14 5–6.5 เท่า: บน M3 Ultra ที่มี torch.compile, Qwen3.6-35B-A3B เปลี่ยนจาก 9.4 เป็น 61.3 โทเค็น/วินาที และ LFM2.5-8B-A1B จาก 23.6 ถึง 123.6 โทเค็น/วินาที โมเดลที่มีความหนาแน่นจะได้รับประโยชน์เช่นกัน จากเลเยอร์เชิงเส้นที่เร็วกว่าและซอฟต์แม็กซ์ที่เร็วขึ้น 8 เท่าสำหรับการสุ่มตัวอย่าง (มากกว่า)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Video generation that fits in memory. Decoding a video with Wan2.2's tiled VAE used to push driver memory to 270 GiB; it now peaks at about 8 GiB. (More)",
+        "th": "การสร้างวิดีโอที่เหมาะกับหน่วยความจำ การถอดรหัสวิดีโอด้วย VAE แบบเรียงต่อกันของ Wan2.2 ที่ใช้ในการดันหน่วยความจำไดรเวอร์ไปที่ 270 GiB ตอนนี้สูงสุดที่ประมาณ 8 GiB (มากกว่า)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Correct image editing with Qwen-Image-2.1. On 2.14, the Qwen-Image-2.1 VAE encoder silently corrupted images on MPS, breaking image-edit workflows (reported in ComfyUI). The same padding change fixes it: an encode-decode round trip now matches CPU at 29.95 dB PSNR, up from 10.06 dB.",
+        "th": "แก้ไขภาพด้วย Qwen-Image-2.1 ในเวอร์ชัน 2.14 ตัวเข้ารหัส Qwen-Image-2.1 VAE ได้สร้างความเสียหายให้กับรูปภาพบน MPS โดยไม่แจ้งให้ทราบ ทำให้เวิร์กโฟลว์การแก้ไขรูปภาพเสียหาย (รายงานใน ComfyUI) การเปลี่ยนแปลงช่องว่างภายในแบบเดียวกันจะแก้ไขได้: ขณะนี้การเดินทางไปกลับแบบเข้ารหัสและถอดรหัสตรงกับ CPU ที่ 29.95 dB PSNR เพิ่มขึ้นจาก 10.06 dB"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "FP8 weights on your Mac. FP8 tensors take half the memory of BF16, and F.scaled_mm multiplies them directly on the GPU. (More)",
+        "th": "ตุ้มน้ำหนัก FP8 บน Mac ของคุณ เทนเซอร์ FP8 ใช้หน่วยความจำครึ่งหนึ่งของ BF16 และ F.scaled_mm จะคูณพวกมันโดยตรงบน GPU (มากกว่า)"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Contents",
+        "th": "สารบัญ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Getting started",
+        "th": "เริ่มต้นใช้งาน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "FP8 comes to MPS",
+        "th": "FP8 มาถึง MPS"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Faster language-model decoding",
+        "th": "การถอดรหัสโมเดลภาษาที่เร็วขึ้น"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Linear algebra gets a boost",
+        "th": "พีชคณิตเชิงเส้นได้รับการส่งเสริม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Convolutions, padding, and training",
+        "th": "การโน้มตัว การเสริมกำลัง และการฝึก"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Softmax and reductions",
+        "th": "Softmax และการลดลง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A much smaller memory footprint for video decoding",
+        "th": "หน่วยความจำขนาดเล็กกว่ามากสำหรับการถอดรหัสวิดีโอ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More control with MPS streams",
+        "th": "ควบคุมได้มากขึ้นด้วยสตรีม MPS"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More operations work on MPS",
+        "th": "การดำเนินงานเพิ่มเติมทำงานบน MPS"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A sneak peek at PyTorch 2.16",
+        "th": "แอบดู PyTorch 2.16"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Wrapping up",
+        "th": "ห่อขึ้น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Getting started",
+        "th": "เริ่มต้นใช้งาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You'll need an Apple silicon Mac with macOS 15 or later and Python 3.11 or later (see the 2.15 compatibility matrix). If your OS is too old or no Metal GPU is available, the MPS availability check now tells you why.",
+        "th": "คุณจะต้องมี Apple Silicon Mac ที่ใช้ macOS 15 หรือใหม่กว่า และ Python 3.11 หรือใหม่กว่า (ดูเมทริกซ์ความเข้ากันได้ 2.15) หากระบบปฏิบัติการของคุณเก่าเกินไปหรือไม่มี Metal GPU การตรวจสอบความพร้อมใช้งานของ MPS จะบอกคุณว่าทำไม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To try the release candidate in a separate environment:",
+        "th": "หากต้องการลองใช้ตัวเลือกรุ่นในสภาพแวดล้อมที่แยกจากกัน ให้ทำดังนี้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "FP8 comes to MPS",
+        "th": "FP8 มาถึง MPS"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "FP8 gives you another way to save memory on your Mac. PyTorch 2.15 adds torch.float8_e4m3fn tensors on MPS: one byte per value, half the storage of FP16 or BF16.",
+        "th": "FP8 เป็นอีกวิธีหนึ่งในการประหยัดหน่วยความจำบน Mac ของคุณ PyTorch 2.15 เพิ่มเทนเซอร์ torch.float8_e4m3fn บน MPS: หนึ่งไบต์ต่อค่า ครึ่งหนึ่งของพื้นที่จัดเก็บของ FP16 หรือ BF16"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can multiply these tensors with F.scaled_mm, which supports both tensorwise and rowwise scaling. Here's a small example with one scale per tensor:",
+        "th": "คุณสามารถคูณเทนเซอร์เหล่านี้ด้วย F.scaled_mm ซึ่งรองรับทั้งการปรับขนาดเทนเซอร์และแถว นี่เป็นตัวอย่างเล็กๆ ที่มีหนึ่งสเกลต่อเทนเซอร์:"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Faster language-model decoding",
+        "th": "การถอดรหัสโมเดลภาษาที่เร็วขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Every LLM has a prefill phase and a decode phase. During decode, each new token goes through the model as a single row, so the big matrix multiplications turn into matrix-vector products. PyTorch 2.15 speeds up both kinds of layers that dominate this step: dense linear layers and mixture-of-experts layers.",
+        "th": "LLM ทุกแห่งมีขั้นตอนการกรอกข้อมูลล่วงหน้าและขั้นตอนการถอดรหัส ในระหว่างการถอดรหัส โทเค็นใหม่แต่ละโทเค็นจะผ่านโมเดลเป็นแถวเดียว ดังนั้นการคูณเมทริกซ์ขนาดใหญ่จึงกลายเป็นผลคูณเมทริกซ์-เวกเตอร์ PyTorch 2.15 เร่งความเร็วเลเยอร์ทั้งสองประเภทที่ครอบงำขั้นตอนนี้: เลเยอร์เชิงเส้นหนาแน่นและเลเยอร์ผสมของผู้เชี่ยวชาญ"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Linear layers",
+        "th": "เลเยอร์เชิงเส้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "MPS has had GEMV kernels for torch.mm since 2.14, but F.linear still went through MPSGraph. PyTorch 2.15 connects them to F.linear, so the common [1, 1, hidden_size] decoding input uses them directly, with eligible bias additions fused in. Across 96 BF16 layer shapes from real models, that's a 1.23× geometric-mean speedup. The biggest wins land on small projections, such as the gates in MoE models, where the old path left most of the memory bandwidth unused. Large layers and LM heads were already close to bandwidth-bound, so they stay near 1×.",
+        "th": "MPS มีเคอร์เนล GEMV สำหรับ torch.mm ตั้งแต่ 2.14 แต่ F.linear ยังคงผ่าน MPSGraph PyTorch 2.15 เชื่อมต่อพวกมันกับ F.linear ดังนั้นอินพุตการถอดรหัส [1, 1, Hidden_size] ทั่วไปจึงใช้พวกมันโดยตรง โดยมีการเพิ่มอคติที่เข้าเกณฑ์ผสมเข้าด้วยกัน รูปร่างเลเยอร์ BF16 96 แบบจากแบบจำลองจริง นั่นคือการเร่งความเร็วเฉลี่ยเรขาคณิต 1.23 เท่า ชัยชนะที่ยิ่งใหญ่ที่สุดจะเกิดขึ้นจากการฉายภาพขนาดเล็ก เช่น ประตูในรุ่น MoE ซึ่งเส้นทางเก่าทำให้แบนด์วิดท์หน่วยความจำส่วนใหญ่ไม่ได้ใช้ เลเยอร์ขนาดใหญ่และหัว LM อยู่ใกล้กับแบนด์วิธที่ถูกผูกไว้อยู่แล้ว ดังนั้นจึงอยู่ใกล้ 1×"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Mixture-of-experts layers",
+        "th": "ชั้นส่วนผสมของผู้เชี่ยวชาญ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A mixture-of-experts layer sends different numbers of tokens to each expert. Grouped matmul handles those uneven groups in a single operation, and 2.15 gives MPS a native implementation.",
+        "th": "เลเยอร์แบบผสมของผู้เชี่ยวชาญจะส่งโทเค็นในจำนวนที่แตกต่างกันไปยังผู้เชี่ยวชาญแต่ละคน matmul ที่จัดกลุ่มจะจัดการกลุ่มที่ไม่สม่ำเสมอเหล่านั้นในการดำเนินการเดียว และ 2.15 ให้ MPS ใช้งานแบบเนทิฟ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In 2.14, grouped matmul copied the group offsets to the CPU and looped over the groups. The new Metal kernels read the offsets directly on the GPU, using Metal Performance Primitives where available and a separate Metal path elsewhere. Small groups, the common case during decoding, get their own kernel as well.",
+        "th": "ใน 2.14 matmul ที่จัดกลุ่มจะคัดลอกกลุ่มออฟเซ็ตไปยัง CPU และวนซ้ำกลุ่มต่างๆ เคอร์เนล Metal ใหม่จะอ่านออฟเซ็ตโดยตรงบน GPU โดยใช้ Metal Performance Primitives หากมี และเส้นทาง Metal ที่แยกต่างหากในที่อื่น กลุ่มเล็กๆ ซึ่งเป็นกรณีทั่วไประหว่างการถอดรหัส จะได้รับเคอร์เนลของตนเองเช่นกัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For example, 64 tokens can be split into groups of 16, 32, and 16:",
+        "th": "ตัวอย่างเช่น โทเค็น 64 รายการสามารถแบ่งออกเป็นกลุ่มละ 16, 32 และ 16:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The decoding kernel shows up directly in token throughput. On an M3 Ultra with torch.compile, MoE models generate about 1.3× more tokens per second:",
+        "th": "เคอร์เนลการถอดรหัสจะแสดงโดยตรงในปริมาณการประมวลผลของโทเค็น บน M3 Ultra ที่มี torch.compile โมเดล MoE จะสร้างโทเค็นเพิ่มขึ้นประมาณ 1.3 เท่าต่อวินาที:"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/mps-pytorch-2-15/moe-decode-throughput.png",
+      "alt": "Bar chart of MoE decoding throughput on M3 Ultra with torch.compile. Qwen3.6-35B-A3B goes from 38.7 to 51.7 tokens/s at context 512 and 36.8 to 48.7 at context 2048; LFM2.5-8B-A1B goes from 77.1 to 103.2 and 74.9 to 98.7 tokens/s."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Linear algebra gets a boost",
+        "th": "พีชคณิตเชิงเส้นได้รับการส่งเสริม"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Complex-valued computations",
+        "th": "การคำนวณมูลค่าเชิงซ้อน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Working with complex tensors gets easier. complex64 LU factorization, LU solve and triangular solve now run on MPS, which also unlocks the operations and gradients built on them, such as complex determinants. Here's a small system solved directly on the GPU:",
+        "th": "การทำงานกับเทนเซอร์ที่ซับซ้อนจะง่ายขึ้น การแยกตัวประกอบ LU ที่ซับซ้อน 64 การแก้โจทย์ LU และการแก้โจทย์สามเหลี่ยมตอนนี้ทำงานบน MPS ซึ่งปลดล็อคการดำเนินการและการไล่ระดับสีที่สร้างขึ้นด้วย เช่น ตัวกำหนดที่ซับซ้อน นี่คือระบบขนาดเล็กที่แก้ไขได้โดยตรงบน GPU:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Small matrices and larger solves",
+        "th": "เมทริกซ์ขนาดเล็กและการแก้โจทย์ที่ใหญ่กว่า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Small matrices get fast kernels too. For camera geometry and image transformations, batches of FP32 matrices up to 4 × 4 are inverted in a single Metal kernel that combines factorization and solving. Larger problems get attention as well: QR uses blocked updates, and triangular solves turn much of their work into efficient matrix multiplication.",
+        "th": "เมทริกซ์ขนาดเล็กจะได้เมล็ดที่เร็วเช่นกัน สำหรับเรขาคณิตของกล้องและการแปลงรูปภาพ ชุดของเมทริกซ์ FP32 ที่มีขนาดไม่เกิน 4 × 4 จะถูกกลับด้านในเคอร์เนลโลหะตัวเดียวที่รวมการแยกตัวประกอบและการแก้โจทย์เข้าด้วยกัน ปัญหาที่ใหญ่กว่าก็ได้รับความสนใจเช่นกัน: QR ใช้การอัปเดตที่ถูกบล็อก และการแก้แบบสามเหลี่ยมเปลี่ยนงานส่วนใหญ่ให้กลายเป็นการคูณเมทริกซ์ที่มีประสิทธิภาพ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gated DeltaNet workloads get a dedicated fast path for batches of 16 × 16, 32 × 32 and 64 × 64 FP32 triangular systems with at least eight right-hand sides.",
+        "th": "ปริมาณงาน DeltaNet ที่มีรั้วรอบขอบชิดได้รับเส้นทางที่รวดเร็วเฉพาะสำหรับชุดระบบสามเหลี่ยม 16 × 16, 32 × 32 และ 64 × 64 FP32 ที่มีด้านขวามืออย่างน้อยแปดด้าน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SVD is also more robust at numerical extremes. It now correctly handles very small singular values, very large or very small input magnitudes and basis completion with full_matrices=True, which in turn makes pseudoinverse and least-squares results more reliable.",
+        "th": "SVD ยังแข็งแกร่งกว่าเมื่อถึงจุดสุดขั้วเชิงตัวเลข ตอนนี้สามารถจัดการค่าเอกพจน์ที่เล็กมาก ขนาดอินพุตที่ใหญ่มากหรือเล็กมากได้อย่างถูกต้อง และการเติมพื้นฐานให้สมบูรณ์ด้วย full_matrices=True ซึ่งจะทำให้ผลลัพธ์ pseudoinverse และกำลังสองน้อยที่สุดเชื่อถือได้มากขึ้น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Convolutions, padding, and training",
+        "th": "การโน้มตัว การเสริมกำลัง และการฝึก"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Audio models, video decoders and training loops have their own expensive operations. This release gives several of them new paths through Metal:",
+        "th": "โมเดลเสียง ตัวถอดรหัสวิดีโอ และลูปการฝึกอบรมมีการดำเนินการที่มีราคาแพงในตัวเอง การเปิดตัวครั้งนี้ได้มอบเส้นทางใหม่ให้กับพวกเขาหลายรายใน Metal:"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Softmax and reductions",
+        "th": "Softmax และการลดลง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Token sampling gets faster in 2.15 as well. softmax and log_softmax now run on dedicated Metal kernels, and large vocabularies benefit the most: an FP32 softmax over a [1, 128256] row of logits drops from 57 µs to 7 µs, about 8× faster than the MPSGraph version. The speedup holds across other common vocabulary sizes:",
+        "th": "การสุ่มตัวอย่างโทเค็นจะเร็วขึ้นใน 2.15 เช่นกัน ขณะนี้ softmax และ log_softmax ทำงานบน Metal Kernel โดยเฉพาะ และคำศัพท์ขนาดใหญ่จะได้รับประโยชน์สูงสุด: FP32 softmax บนแถว [1, 128256] ของ logits ลดลงจาก 57 µs เป็น 7 µs ซึ่งเร็วกว่าเวอร์ชัน MPSGraph ประมาณ 8 เท่า การเร่งความเร็วถือเป็นขนาดคำศัพท์ทั่วไปอื่น ๆ :"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/mps-pytorch-2-15/softmax-sampling.png",
+      "alt": "Bar chart of FP32 softmax time for a single row of logits at five vocabulary sizes from 128,256 to 201,088. MPSGraph takes 50 to 74 microseconds; the Metal kernel takes 7 to 10 microseconds, a 7.1x to 8.0x speedup."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "A much smaller memory footprint for video decoding",
+        "th": "หน่วยความจำขนาดเล็กกว่ามากสำหรับการถอดรหัสวิดีโอ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One of the most striking results in this release comes from the constant-padding change. The VAE decode in Wan-AI/Wan2.2-TI2V-5B-Diffusers makes 8,764 padding calls over a full 28-tile decode. With padding on Metal, peak driver memory drops from about 270 GiB to 8 GiB:",
+        "th": "ผลลัพธ์ที่โดดเด่นที่สุดอย่างหนึ่งในรุ่นนี้มาจากการเปลี่ยนแปลงการเติมอย่างต่อเนื่อง การถอดรหัส VAE ใน Wan-AI/Wan2.2-TI2V-5B-Diffusers ทำการเรียก padding 8,764 ครั้งผ่านการถอดรหัส 28 ช่องเต็ม ด้วยการเสริมบน Metal หน่วยความจำสูงสุดของไดรเวอร์จะลดลงจากประมาณ 270 GiB เป็น 8 GiB:"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/mps-pytorch-2-15/wan-vae-memory.png",
+      "alt": "Stacked bar chart of peak driver memory during the Wan2.2 tiled VAE decode. With MPSGraph padding, 8.07 GiB of allocator-reserved memory plus 262 GiB outside the allocator gives 270.1 GiB; with Metal padding the total is 8.1 GiB."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "More control with MPS streams",
+        "th": "ควบคุมได้มากขึ้นด้วยสตรีม MPS"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can now pick which MPS stream runs your work, directly from Python. torch.mps.Stream and the torch.mps.stream context manager provide the interface, and Tensor.record_stream lets the allocator track a tensor's use on another stream.",
+        "th": "ตอนนี้คุณสามารถเลือกสตรีม MPS ที่จะรันงานของคุณได้โดยตรงจาก Python torch.mps.Stream และตัวจัดการบริบท torch.mps.stream จัดเตรียมอินเทอร์เฟซ และ Tensor.record_stream ช่วยให้ตัวจัดสรรติดตามการใช้งานของเทนเซอร์ในสตรีมอื่น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Here's a small example that sends work to a separate stream and synchronizes before reading the result:",
+        "th": "นี่คือตัวอย่างเล็กๆ น้อยๆ ที่ส่งงานไปยังสตรีมแยกต่างหากและซิงโครไนซ์ก่อนที่จะอ่านผลลัพธ์:"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "More operations work on MPS",
+        "th": "การดำเนินงานเพิ่มเติมทำงานบน MPS"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Several more operations now run on MPS: torch.frexp, torch.logspace, torch.take and Tensor.put_, torch.heaviside, torch.special.laguerre_polynomial_l and unsigned-integer comparisons. logspace doesn't yet support integer or boolean outputs with more than one element.",
+        "th": "ขณะนี้มีการดำเนินการอื่นๆ อีกหลายอย่างบน MPS: torch.frexp, torch.logspace, torch.take และ Tensor.put_, torch.heaviside, torch.special.laguerre_polynomial_l และการเปรียบเทียบจำนวนเต็มที่ไม่ได้ลงนาม logspace ยังไม่รองรับเอาต์พุตจำนวนเต็มหรือบูลีนที่มีองค์ประกอบมากกว่าหนึ่งองค์ประกอบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Attention gets a correctness fix too: the MPS math implementation of scaled dot-product attention now handles batch and head broadcasting correctly.",
+        "th": "ความสนใจได้รับการแก้ไขอย่างถูกต้องเช่นกัน: การใช้คณิตศาสตร์ MPS ของความสนใจแบบดอทโปรดักส์ที่ปรับขนาดได้ในขณะนี้สามารถจัดการการออกอากาศแบบกลุ่มและส่วนหัวได้อย่างถูกต้อง"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "A sneak peek at PyTorch 2.16",
+        "th": "แอบดู PyTorch 2.16"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Work on 2.16 is already well underway. Some of the changes below have landed on main and are available in the nightlies; others are still in review, so details may change before the release.",
+        "th": "การปรับปรุง 2.16 ดำเนินไปด้วยดีอยู่แล้ว การเปลี่ยนแปลงบางส่วนด้านล่างนี้เกิดขึ้นที่รายการหลักและจะมีให้ใช้งานในช่วงกลางคืน ส่วนอื่นๆ ยังอยู่ระหว่างการตรวจสอบ ดังนั้นรายละเอียดอาจมีการเปลี่ยนแปลงก่อนการเปิดตัว"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Faster LLM decoding",
+        "th": "การถอดรหัส LLM ที่เร็วขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Once a model's decode path no longer contains any MPSGraph ops, the GPU only starts on a token after the CPU has finished encoding all of its kernels. PyTorch 2.16 commits the command buffer every 16 kernels, so the GPU gets to work while the CPU is still encoding the rest. For compiled BF16 decoding at a 2048-token context:",
+        "th": "เมื่อเส้นทางการถอดรหัสของโมเดลไม่มี MPSGraph ops อีกต่อไป GPU จะเริ่มทำงานบนโทเค็นหลังจากที่ CPU เข้ารหัสเคอร์เนลทั้งหมดเสร็จแล้วเท่านั้น PyTorch 2.16 คอมมิตบัฟเฟอร์คำสั่งทุกๆ 16 เคอร์เนล ดังนั้น GPU จะทำงานในขณะที่ CPU ยังคงเข้ารหัสส่วนที่เหลือ สำหรับการถอดรหัส BF16 ที่คอมไพล์ในบริบทโทเค็น 2048:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Attention runs entirely on Metal",
+        "th": "ความสนใจพุ่งไปที่โลหะทั้งหมด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Scaled dot-product attention is dropping MPSGraph completely: every shape will run on Metal kernels, with dedicated vector kernels for decoding and Metal Performance Primitives for half-precision prefill on newer macOS versions. The shapes that used to fall back to MPSGraph benefit the most. On an M5 Pro, decoding with grouped-query attention (32 query heads, 8 KV heads, head dim 80, 4K context) drops from 465 µs to 65 µs, and a 4K × 4K prefill with head dim 40 goes from 42 ms to 6 ms.",
+        "th": "ความสนใจแบบดอทโปรดักที่ถูกปรับขนาดทำให้ MPSGraph ลดลงโดยสิ้นเชิง ทุกรูปร่างจะทำงานบนเคอร์เนลโลหะ พร้อมด้วยเคอร์เนลเวกเตอร์เฉพาะสำหรับการถอดรหัส และ Metal Performance Primitives สำหรับการเติมล่วงหน้าแบบความแม่นยำครึ่งหนึ่งใน macOS เวอร์ชันใหม่กว่า รูปร่างที่เคยถอยกลับไปเป็น MPSGraph จะได้รับประโยชน์สูงสุด บน M5 Pro การถอดรหัสด้วยความสนใจในการสืบค้นแบบกลุ่ม (ส่วนหัวของแบบสอบถาม 32 หัว, ส่วนหัวของ KV 8 ชิ้น, head dim 80, บริบท 4K) จะลดลงจาก 465 µs เป็น 65 µs และการเติมล่วงหน้า 4K × 4K ด้วย head dim 40 จะเปลี่ยนจาก 42 ms เป็น 6 ms"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "More MPSGraph to Metal migrations",
+        "th": "MPSGraph สู่การโยกย้ายโลหะเพิ่มเติม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The move away from MPSGraph continues. Batch norm forward and backward are in progress, while MSE loss (up to 12× faster on small inputs), std_mean and var_mean (up to 4× faster) and bincount have already landed. bincount is the most dramatic: when most values fall into a single bin, counting 4 million integers used to take 6.8 seconds and now takes half a millisecond.",
+        "th": "การย้ายออกจาก MPSGraph ยังคงดำเนินต่อไป Batch norm ไปข้างหน้าและข้างหลังกำลังดำเนินการอยู่ ในขณะที่การสูญเสีย MSE (เร็วกว่าสูงสุด 12× สำหรับอินพุตขนาดเล็ก), std_mean และ var_mean (เร็วกว่าสูงสุด 4×) และ bincount ได้มาถึงแล้ว bincount นั้นน่าทึ่งที่สุด: เมื่อค่าส่วนใหญ่ตกอยู่ในถังขยะเดียว การนับจำนวนเต็ม 4 ล้านจำนวน เคยใช้เวลา 6.8 วินาที และตอนนี้ใช้เวลาครึ่งมิลลิวินาที"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "A smaller install",
+        "th": "การติดตั้งที่เล็กลง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Bundled shaders will build for Metal 3.1 by default, with Metal 4 versions compiled only for the kernels that need them. That shrinks libtorch_cpu.dylib by about 25%, from 384 MiB to 287 MiB, and lays the groundwork for Metal 4.1 shaders with faster matmuls and native FP8 matrix multiplication.",
+        "th": "ชุดเชเดอร์จะสร้างสำหรับ Metal 3.1 ตามค่าเริ่มต้น โดยเวอร์ชัน Metal 4 จะคอมไพล์สำหรับเคอร์เนลที่ต้องการเท่านั้น ซึ่งลดขนาด libtorch_cpu.dylib ลงประมาณ 25% จาก 384 MiB เหลือ 287 MiB และวางรากฐานสำหรับ Metal 4.1 shaders ด้วย matmuls ที่เร็วขึ้นและการคูณเมทริกซ์ FP8 ดั้งเดิม"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Wrapping up",
+        "th": "ห่อขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "PyTorch 2.15 brings FP8 to the Mac, faster LLM decoding for dense and MoE models, more linear algebra on the GPU and a long list of operations moved from MPSGraph to dedicated Metal kernels. Give the release candidate a try!",
+        "th": "PyTorch 2.15 นำ FP8 มาสู่ Mac, การถอดรหัส LLM ที่เร็วขึ้นสำหรับโมเดลหนาแน่นและ MoE, พีชคณิตเชิงเส้นที่มากขึ้นบน GPU และรายการการดำเนินการจำนวนมากที่ย้ายจาก MPSGraph ไปยัง Metal Kernel โดยเฉพาะ ปล่อยให้ผู้สมัครลอง!"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "What's next for us",
+        "th": "อะไรต่อไปสำหรับเรา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More MPS: 2.16 will run attention entirely on Metal, and we'll keep moving operations off MPSGraph.",
+        "th": "MPS เพิ่มเติม: 2.16 จะเน้นไปที่ Metal ทั้งหมด และเราจะย้ายการดำเนินการออกจาก MPSGraph ต่อไป"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "torch.compile: we're working on getting rid of graph breaks, so more models compile end to end.",
+        "th": "torch.compile: เรากำลังดำเนินการกำจัดตัวแบ่งกราฟ จึงมีโมเดลจำนวนมากขึ้นที่คอมไพล์ตั้งแต่ต้นจนจบ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Your ideas: what else should we work on in PyTorch? If something is slow, missing or broken, on MPS or anywhere else, open an issue on GitHub and let us know.",
+        "th": "ความคิดของคุณ: เราควรทำอะไรอีกใน PyTorch หากมีบางอย่างช้า สูญหาย หรือเสียหาย บน MPS หรือที่อื่นใด ให้เปิดปัญหาบน GitHub แล้วแจ้งให้เราทราบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A big thank you to Nikita Shulga, Kurt Mohler and Aaron Gokaslan for reviewing much of this work, and to everyone who contributed to MPS in this release.",
+        "th": "ขอขอบคุณ Nikita Shulga, Kurt Mohler และ Aaron Gokaslan เป็นอย่างยิ่งสำหรับการทบทวนงานนี้ และทุกคนที่มีส่วนสนับสนุน MPS ในข่าวประชาสัมพันธ์ฉบับนี้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More Articles from our Blog",
+        "th": "บทความเพิ่มเติมจากบล็อกของเรา"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/tokenizers-v1/thumbnail.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "tokenizers v1: encode, decode and scaling, measured",
+        "th": "tokenizers v1: encode, decode and scaling, measured"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674683851722-62441cb7456803e95009a08f.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608146735109-5fcfb7c407408029ba3577e2.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1666977434736-617bc8d1000dbbbf7c225eed.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/continuous_async/thumbnail.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Unlocking asynchronicity in continuous batching",
+        "th": "ปลดล็อกความไม่ซิงโครไนซ์ในการแบทช์ต่อเนื่อง"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6123945a0ed258ebc83f3d56/8wMHFQHEV24G_ljl4kPxQ.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617264212503-603d25b75f9d390ab190b777.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/608aabf24955d2bfc3cd99c6/-YxmtpzEmf3NKOTktODRP.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "ชุมชน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· ลงทะเบียนหรือเข้าสู่ระบบเพื่อแสดงความคิดเห็น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg",
+      "alt": ""
+    }
+  ]
+}

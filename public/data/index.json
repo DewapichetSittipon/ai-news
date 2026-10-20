@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T00:52:27.009Z",
+  "generatedAt": "2026-10-20T06:56:50.845Z",
   "items": [
     {
       "id": "openai__low-resource-programming-languages",
@@ -87,23 +87,6 @@
       }
     },
     {
-      "id": "openai__stack-overflow-chatgpt-plugin",
-      "slug": "stack-overflow-chatgpt-plugin",
-      "source": "openai",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "category": "Startup",
-      "date": "2026-10-16T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-        "th": "Stack Overflow สำหรับ Agents เพิ่มการสมัครใช้งานเป็นสามเท่าด้วยปลั๊กอิน ChatGPT"
-      },
-      "summary": {
-        "en": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-        "th": "วิศวกรสองคนจัดส่ง Stack Overflow สำหรับตัวแทนภายในไม่กี่สัปดาห์ด้วย Codex และปลั๊กอิน ChatGPT ช่วยเพิ่มการเติบโตถึง 10 เท่าในการสร้างตัวแทน"
-      }
-    },
-    {
       "id": "openai__benefit-street-partners",
       "slug": "benefit-street-partners",
       "source": "openai",
@@ -118,6 +101,23 @@
       "summary": {
         "en": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
         "th": "Anant Kumar สร้างเครื่องมือเพื่อเปรียบเทียบการประเมินมูลค่าสินเชื่อและวิเคราะห์ข้อตกลงสินเชื่อ โดยใช้ Codex สำหรับการตรวจสอบโค้ดและการติดตามผลที่รวดเร็วยิ่งขึ้น"
+      }
+    },
+    {
+      "id": "openai__stack-overflow-chatgpt-plugin",
+      "slug": "stack-overflow-chatgpt-plugin",
+      "source": "openai",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "category": "Startup",
+      "date": "2026-10-16T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+        "th": "Stack Overflow สำหรับ Agents เพิ่มการสมัครใช้งานเป็นสามเท่าด้วยปลั๊กอิน ChatGPT"
+      },
+      "summary": {
+        "en": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+        "th": "วิศวกรสองคนจัดส่ง Stack Overflow สำหรับตัวแทนภายในไม่กี่สัปดาห์ด้วย Codex และปลั๊กอิน ChatGPT ช่วยเพิ่มการเติบโตถึง 10 เท่าในการสร้างตัวแทน"
       }
     },
     {
@@ -546,23 +546,6 @@
       }
     },
     {
-      "id": "openai__asana-browser-agent",
-      "slug": "asana-browser-agent",
-      "source": "openai",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "category": "News",
-      "date": "2026-10-09T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-        "th": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
-      },
-      "summary": {
-        "en": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-        "th": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
-      }
-    },
-    {
       "id": "openai__sophos",
       "slug": "sophos",
       "source": "openai",
@@ -577,6 +560,23 @@
       "summary": {
         "en": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
         "th": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
+      }
+    },
+    {
+      "id": "openai__asana-browser-agent",
+      "slug": "asana-browser-agent",
+      "source": "openai",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "category": "News",
+      "date": "2026-10-09T07:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+        "th": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
+      },
+      "summary": {
+        "en": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+        "th": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
       }
     },
     {

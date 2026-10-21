@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+5",
-        "th": "+5"
+        "en": "+9",
+        "th": "+9"
       }
     },
     {
@@ -221,6 +221,13 @@
       "text": {
         "en": "What's next for us",
         "th": "อะไรต่อไปสำหรับเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If you run models on your Mac or use MPS as your primary acceleration tool for computing, there's plenty to look forward to in PyTorch 2.15! FP8 arrives on MPS, language-model decoding gets faster paths through linear layers and softmax and new Metal kernels tackle some surprisingly expensive parts of audio, video and training workloads.",
+        "th": "หากคุณใช้งานโมเดลต่างๆ บน Mac ของคุณ หรือใช้ MPS เป็นเครื่องมือเร่งความเร็วหลักในการคำนวณ มีอะไรอีกมากมายให้คุณตั้งตารอใน PyTorch 2.15! FP8 มาถึงบน MPS การถอดรหัสโมเดลภาษาได้รับเส้นทางที่เร็วขึ้นผ่านเลเยอร์เชิงเส้น และ softmax และเคอร์เนล Metal ใหม่จะจัดการกับปริมาณงานเสียง วิดีโอ และการฝึกอบรมบางส่วนที่มีราคาแพงอย่างน่าประหลาดใจ"
       }
     },
     {
@@ -925,6 +932,18 @@
       "type": "img",
       "src": "/avatars/333ade364cc29eba01b5f3c2b2d985cf.svg",
       "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1659922312540-610a70f35a40a8bfebfbf09b.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+3",
+        "th": "+3"
+      }
     }
   ]
 }

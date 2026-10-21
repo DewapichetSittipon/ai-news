@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+5",
-        "th": "+5"
+        "en": "+7",
+        "th": "+7"
       }
     },
     {
@@ -76,11 +76,6 @@
       "type": "img",
       "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/620b7c408f5871b8a1a168a7/49M2lucv3I24rOMJFnhVd.jpeg",
       "alt": "Régis Pierrard's avatar"
-    },
-    {
-      "type": "img",
-      "src": "https://huggingface.co/buckets/huggingface/hf-torchtpu-blog-assets/resolve/images/banner.jpg",
-      "alt": "The Hugging Face mascot and a smiling PyTorch logo cheering over a glowing chip, on a manga-style background."
     },
     {
       "type": "li",
@@ -143,6 +138,18 @@
       "text": {
         "en": "Get started",
         "th": "เริ่มต้นเลย"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://huggingface.co/buckets/huggingface/hf-torchtpu-blog-assets/resolve/images/banner.jpg",
+      "alt": "The Hugging Face mascot and a smiling PyTorch logo cheering over a glowing chip, on a manga-style background."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If you ever tried to run PyTorch on a TPU, you probably ported your code to torch_xla, or you ended up having to learn JAX. With TorchTPU, a native PyTorch backend, TPU is now just another device. It opens up native support of TPU in the Hugging Face ecosystem. Transformers, Diffusers and Kernels run natively on TPU. Pick a model from the Hub, send it to \"tpu\", and you're done.",
+        "th": "หากคุณเคยพยายามเรียกใช้ PyTorch บน TPU คุณอาจย้ายโค้ดของคุณไปที่ torch_xla หรือท้ายที่สุดคุณต้องเรียนรู้ JAX ด้วย TorchTPU ซึ่งเป็นแบ็กเอนด์ PyTorch ดั้งเดิม ทำให้ TPU กลายเป็นเพียงอุปกรณ์อีกเครื่องหนึ่ง เปิดการรองรับ TPU แบบเนทิฟในระบบนิเวศ Hugging Face Transformers, Diffusers และ Kernels ทำงานบน TPU เลือกรุ่นจาก Hub แล้วส่งไปที่ \"tpu\" เท่านี้ก็เสร็จเรียบร้อย"
       }
     },
     {
@@ -546,6 +553,18 @@
       "type": "img",
       "src": "/avatars/dc1eb0ae709cdef96446ff5f6edd59de.svg",
       "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/69bec6a2dce49f992efacd84/pC60baXsEalyaknBIEfHV.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+1",
+        "th": "+1"
+      }
     }
   ]
 }

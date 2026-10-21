@@ -130,6 +130,13 @@
       }
     },
     {
+      "type": "p",
+      "text": {
+        "en": "TorchNeuron provides a new native backend for PyTorch on AWS Trainium. Transformers, Diffusers and Kernels natively support it, making it easier than ever to run models on Trainium and to share them on the HF hub.",
+        "th": "TorchNeuron มอบแบ็กเอนด์ดั้งเดิมใหม่สำหรับ PyTorch บน AWS Trainium Transformers, Diffusers และ Kernels รองรับโดยกำเนิด ทำให้การรันโมเดลบน Trainium และแบ่งปันบนฮับ HF เป็นเรื่องง่ายกว่าที่เคย"
+      }
+    },
+    {
       "type": "h2",
       "text": {
         "en": "TorchNeuron",

@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+14",
-        "th": "+14"
+        "en": "+15",
+        "th": "+15"
       }
     },
     {
@@ -223,6 +223,13 @@
       "text": {
         "en": "Links:",
         "th": "Links:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ALTK-Evolve learns and applies a playbook using GPT-4.1, outperforming the retail entries on τ²-bench, a customer service agent benchmark—without updating model weights.",
+        "th": "ALTK-Evolve เรียนรู้และใช้ Playbook โดยใช้ GPT-4.1 ซึ่งมีประสิทธิภาพเหนือกว่ารายการขายปลีกใน τ²-bench ซึ่งเป็นเกณฑ์มาตรฐานตัวแทนบริการลูกค้า โดยไม่ต้องอัปเดตน้ำหนักโมเดล"
       }
     },
     {
@@ -701,8 +708,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+8",
-        "th": "+8"
+        "en": "+9",
+        "th": "+9"
       }
     }
   ]

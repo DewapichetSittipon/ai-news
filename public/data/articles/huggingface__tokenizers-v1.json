@@ -159,6 +159,13 @@
     {
       "type": "p",
       "text": {
+        "en": "The tokenizer has not historically been the bottleneck within ML workflows. Compute-wise, tokenization is light compared to the heavy modeling happening in the rest of the pipeline. Yet, in some cases, it has rapidly become key to accelerating (or slowing down) your machine learning work.",
+        "th": "ในอดีต Tokenizer ไม่เคยเป็นจุดคอขวดภายในเวิร์กโฟลว์ ML การประมวลผลโทเค็นนั้นถือว่าเบาเมื่อเทียบกับการสร้างแบบจำลองจำนวนมากที่เกิดขึ้นในไปป์ไลน์ที่เหลือ แต่ในบางกรณี มันก็กลายเป็นกุญแจสำคัญอย่างรวดเร็วในการเร่ง (หรือชะลอ) งานแมชชีนเลิร์นนิงของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
         "en": "As models become faster and workloads scale, that balance begins to shift. Training on massive datasets, serving many concurrent requests, or repeatedly processing long inputs can put enough pressure on the tokenizer that it starves the model of data.",
         "th": "As models become faster and workloads scale, that balance begins to shift. Training on massive datasets, serving many concurrent requests, or repeatedly processing long inputs can put enough pressure on the tokenizer that it starves the model of data."
       }

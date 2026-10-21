@@ -114,6 +114,13 @@
     {
       "type": "p",
       "text": {
+        "en": "One of our biggest goals on the WebAI team at Hugging Face is to make browser inference as fast and as user-friendly as possible. Getting there is a multi-layer effort: models need browser-friendly representations, runtimes need to build efficient execution plans, and the individual GPU operations at the bottom of the stack need to make the most of many different devices and browser implementations.",
+        "th": "หนึ่งในเป้าหมายที่ใหญ่ที่สุดของเราในทีม WebAI ที่ Hugging Face คือการทำให้การอนุมานเบราว์เซอร์รวดเร็วและเป็นมิตรต่อผู้ใช้มากที่สุดเท่าที่จะเป็นไปได้ การบรรลุเป้าหมายต้องใช้ความพยายามหลายชั้น: โมเดลต้องการการแสดงที่เป็นมิตรต่อเบราว์เซอร์ รันไทม์จำเป็นต้องสร้างแผนการดำเนินการที่มีประสิทธิภาพ และการทำงานของ GPU แต่ละตัวที่ด้านล่างของสแต็กจำเป็นต้องใช้ประโยชน์จากอุปกรณ์และการใช้งานเบราว์เซอร์ที่แตกต่างกันมากมาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
         "en": "Today, we are releasing the first layer of that effort: @huggingface/kernels, a minimal library for loading and running optimized WebGPU kernels from the Hugging Face Hub, together with an initial collection of 207 kernels at huggingface.co/webgpu-kernels.",
         "th": "Today, we are releasing the first layer of that effort: @huggingface/kernels, a minimal library for loading and running optimized WebGPU kernels from the Hugging Face Hub, together with an initial collection of 207 kernels at huggingface.co/webgpu-kernels."
       }

@@ -238,6 +238,13 @@
     {
       "type": "p",
       "text": {
+        "en": "Your agent works in rehearsal, but during the live demo, it takes a different path and fails the same task.",
+        "th": "ตัวแทนของคุณอยู่ระหว่างการซ้อม แต่ในระหว่างการสาธิตสด ตัวแทนจะใช้เส้นทางที่แตกต่างและล้มเหลวในงานเดียวกัน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
         "en": "That is embarrassing onstage. In production, it is a reliability problem: a workflow that succeeded once may fail the next time a user makes the same request. For mission-critical work, such as reconciling a financial transaction or checking a contract for an obligation, that can be a showstopper.",
         "th": "That is embarrassing onstage. In production, it is a reliability problem: a workflow that succeeded once may fail the next time a user makes the same request. For mission-critical work, such as reconciling a financial transaction or checking a contract for an obligation, that can be a showstopper."
       }

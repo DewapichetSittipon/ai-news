@@ -1,0 +1,371 @@
+{
+  "id": "openai__terminal-x",
+  "slug": "terminal-x",
+  "source": "openai",
+  "url": "https://openai.com/index/terminal-x",
+  "category": "Startup",
+  "date": "2026-10-20T07:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+    "th": "Terminal X matches senior investor judgment 88.6% with GPT-6.1"
+  },
+  "summary": {
+    "en": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+    "th": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "October 20, 2026",
+        "th": "October 20, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT‑6.1 Sol.",
+        "th": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT‑6.1 Sol."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/29IRF5U5FEXGBdiixWvNg2/96d2b7012e134930671a998d0ae31d05/Terminal-X-A-square-1080.png?w=3840&q=90&fm=webp",
+      "alt": "Terminal X logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "25%",
+        "th": "25%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Higher detection rate when agent answers fall outside a fund’s mandate on GPT‑6.1 Sol vs. next-best model",
+        "th": "Higher detection rate when agent answers fall outside a fund’s mandate on GPT‑6.1 Sol vs. next-best model"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "$2.4M",
+        "th": "$2.4M"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Annualized savings for one customer on due diligence and investment workflows",
+        "th": "Annualized savings for one customer on due diligence and investment workflows"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "+220bps",
+        "th": "+220bps"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Higher agent agreement with human reviewers on GPT‑6.1 Sol vs. next-best model",
+        "th": "Higher agent agreement with human reviewers on GPT‑6.1 Sol vs. next-best model"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "30%",
+        "th": "30%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Lower cost per query with GPT‑6.1 Sol vs. next-best model",
+        "th": "Lower cost per query with GPT‑6.1 Sol vs. next-best model"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Encoding the reasoning of each firm’s best investors",
+        "th": "Encoding the reasoning of each firm’s best investors"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Scoring answers with an Eval Agent and improving the system",
+        "th": "Scoring answers with an Eval Agent and improving the system"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Testing every model, choosing by task",
+        "th": "Testing every model, choosing by task"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Moving toward a Memory for every investor",
+        "th": "Moving toward a Memory for every investor"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Encoding the reasoning of each firm’s best investors",
+        "th": "Encoding the reasoning of each firm’s best investors"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Scoring answers with an Eval Agent and improving the system",
+        "th": "Scoring answers with an Eval Agent and improving the system"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Testing every model, choosing by task",
+        "th": "Testing every model, choosing by task"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Moving toward a Memory for every investor",
+        "th": "Moving toward a Memory for every investor"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An investment firm’s edge is built deal by deal, but the judgment behind each decision usually lives in the heads of a few senior investors. When they leave, the firm takes on what Terminal X⁠(opens in a new window) calls memory debt: the firm may keep the documents, but it loses the reasoning.",
+        "th": "An investment firm’s edge is built deal by deal, but the judgment behind each decision usually lives in the heads of a few senior investors. When they leave, the firm takes on what Terminal X⁠(opens in a new window) calls memory debt: the firm may keep the documents, but it loses the reasoning."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Terminal X’s Capital Memory operating system is designed to pay that debt down. The company’s forward-deployed engineers, former finance and investment professionals at JPMorgan and Blackstone, sit with each customer’s investment teams, design the firm’s agentic architecture, and encode how the firm invests into agents the firm owns, deployed on-premise or in its own cloud.",
+        "th": "Terminal X’s Capital Memory operating system is designed to pay that debt down. The company’s forward-deployed engineers, former finance and investment professionals at JPMorgan and Blackstone, sit with each customer’s investment teams, design the firm’s agentic architecture, and encode how the firm invests into agents the firm owns, deployed on-premise or in its own cloud."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI models, including GPT‑6.1 Sol and GPT‑6 Luna, handle the reasoning inside those agents. And Terminal X’s Eval Agent grades the agents’ output against the firm’s standards. GPT‑6.1 Sol helped the Eval Agent catch about 25% more recommendations that strayed from a fund’s mandate and ran the same workflows at approximately 30% lower cost per query than the next-best model.",
+        "th": "OpenAI models, including GPT‑6.1 Sol and GPT‑6 Luna, handle the reasoning inside those agents. And Terminal X’s Eval Agent grades the agents’ output against the firm’s standards. GPT‑6.1 Sol helped the Eval Agent catch about 25% more recommendations that strayed from a fund’s mandate and ran the same workflows at approximately 30% lower cost per query than the next-best model."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5CzaqF5VSGZhQKktbbrlca/db3ce28c2c38484bd0e160b015561946/terminal-x-capital-memory-paper-background-thin-border.png?w=3840&q=90&fm=webp",
+      "alt": "Capital Memory connects a firm’s investment judgment, research work, and entities to Terminal X’s private data room and investment workflows."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Encoding the reasoning of each firm’s best investors",
+        "th": "Encoding the reasoning of each firm’s best investors"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For each customer, Terminal X builds agents designed to invest the way the firm’s best investors do. Terminal X engineers spend weeks onsite with the customer, reverse-engineering the firm’s trusted memos and capturing processes that were never written down, such as how the credit desk screens a borrower or which sources the co-investment team pulls before a memo.",
+        "th": "For each customer, Terminal X builds agents designed to invest the way the firm’s best investors do. Terminal X engineers spend weeks onsite with the customer, reverse-engineering the firm’s trusted memos and capturing processes that were never written down, such as how the credit desk screens a borrower or which sources the co-investment team pulls before a memo."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Next, those processes are encoded in hundreds of agents, customized by asset class and strategy, with sub-agents for each investment stage. GPT‑6.1 Sol handles the stages that require judgment and a huge context window: synthesizing the investment thesis, identifying key considerations, and assessing fit with the firm’s mandate. GPT‑6 Luna runs the high-volume steps where token efficiency matters more than depth.",
+        "th": "Next, those processes are encoded in hundreds of agents, customized by asset class and strategy, with sub-agents for each investment stage. GPT‑6.1 Sol handles the stages that require judgment and a huge context window: synthesizing the investment thesis, identifying key considerations, and assessing fit with the firm’s mandate. GPT‑6 Luna runs the high-volume steps where token efficiency matters more than depth."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The agents work inside each firm’s private data room, a dedicated environment for enterprises to share and manage sensitive investment data. The agents process documents in English, Korean, Japanese, and Chinese, and store what they learn as a firm Memory: a versioned record of how one desk makes one kind of decision, including its past analyses, committee decisions, workflow instructions, and house views.",
+        "th": "The agents work inside each firm’s private data room, a dedicated environment for enterprises to share and manage sensitive investment data. The agents process documents in English, Korean, Japanese, and Chinese, and store what they learn as a firm Memory: a versioned record of how one desk makes one kind of decision, including its past analyses, committee decisions, workflow instructions, and house views."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Engineers turn each Memory into a repeatable workflow on Terminal X’s platform, where every production query is auditable with its full trail: the steps taken, sources retrieved, model used, and the reasoning.",
+        "th": "Engineers turn each Memory into a repeatable workflow on Terminal X’s platform, where every production query is auditable with its full trail: the steps taken, sources retrieved, model used, and the reasoning."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "According to Terminal X, customers see significant savings as a result of this approach, including one private equity firm that reported $2.4 million in annualized savings from automated due diligence and investment memo workflows.",
+        "th": "According to Terminal X, customers see significant savings as a result of this approach, including one private equity firm that reported $2.4 million in annualized savings from automated due diligence and investment memo workflows."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Scoring answers with an Eval Agent and improving the system",
+        "th": "Scoring answers with an Eval Agent and improving the system"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To check agents’ answers against the firm’s own standard, Terminal X built an Eval Agent. It’s an orchestrated workflow on GPT‑6.1 Sol and other OpenAI models designed to read every agent output the way a VP reads an analyst’s work.",
+        "th": "To check agents’ answers against the firm’s own standard, Terminal X built an Eval Agent. It’s an orchestrated workflow on GPT‑6.1 Sol and other OpenAI models designed to read every agent output the way a VP reads an analyst’s work."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Eval Agent checks each output against a 54-criterion rubric. It asks: Are the numbers, comps, consensus figures, and quotes pulled from the right sources? Does the narrative hold? Does the recommendation tie to the house view?",
+        "th": "The Eval Agent checks each output against a 54-criterion rubric. It asks: Are the numbers, comps, consensus figures, and quotes pulled from the right sources? Does the narrative hold? Does the recommendation tie to the house view?"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2TfOmA6DYwo9dYjcrmzQPt/e23da6e7e88388dbdd3ec932ad3cf85f/terminal-x-eval-agent-paper-background-thin-border.png?w=3840&q=90&fm=webp",
+      "alt": "Terminal X Eval runner compares investment memo outputs with an answer key and highlights a corrected EBITDA multiple in the candidate model."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each check scores pass or fail. Every fail includes a one-line reason and a better source or corrected text and becomes a Memory. For example, a missed source, a wrong comparable, or a thesis that drifts from the house view is encoded as a new workflow instruction or a new test case for that desk.",
+        "th": "Each check scores pass or fail. Every fail includes a one-line reason and a better source or corrected text and becomes a Memory. For example, a missed source, a wrong comparable, or a thesis that drifts from the house view is encoded as a new workflow instruction or a new test case for that desk."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Every answer gets eval’d, and whatever the analyst corrects teaches the system a little more about how that firm works,” says Ken Lee, Co-Founder and CTO of Terminal X. “So the longer a firm uses it, the more it thinks like their own team.”",
+        "th": "“Every answer gets eval’d, and whatever the analyst corrects teaches the system a little more about how that firm works,” says Ken Lee, Co-Founder and CTO of Terminal X. “So the longer a firm uses it, the more it thinks like their own team.”"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Testing every model, choosing by task",
+        "th": "Testing every model, choosing by task"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Terminal X picks models based on its own evaluation results. Across 500 scored judgments, its Eval Agent on GPT‑6.1 Sol agreed with the senior human reviewer 88.6% of the time, vs. 86.4% for the next-best model, an improvement of 220 basis points.",
+        "th": "Terminal X picks models based on its own evaluation results. Across 500 scored judgments, its Eval Agent on GPT‑6.1 Sol agreed with the senior human reviewer 88.6% of the time, vs. 86.4% for the next-best model, an improvement of 220 basis points."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One class of error where GPT‑6.1 Sol outperformed is style drift. For example, a buyout fund’s mandate is to find take-private candidates trading at a discount to NAV, underwrite the business, and structure the financing. When scenario models suggest a market turn, deals start recommending a distressed credit position or a rescue financing. The Eval Agent on GPT‑6.1 Sol caught about 25% more of these departures than the next-best model did.",
+        "th": "One class of error where GPT‑6.1 Sol outperformed is style drift. For example, a buyout fund’s mandate is to find take-private candidates trading at a discount to NAV, underwrite the business, and structure the financing. When scenario models suggest a market turn, deals start recommending a distressed credit position or a rescue financing. The Eval Agent on GPT‑6.1 Sol caught about 25% more of these departures than the next-best model did."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6.1 Sol’s token efficiency on long-context work enabled Terminal X to build a deeper review workflow within the same budget. The thesis is tested first against the fund’s mandate, then against its recent deals. Uncertain verdicts are re-run, and the agent reconciles the results before reporting.",
+        "th": "GPT‑6.1 Sol’s token efficiency on long-context work enabled Terminal X to build a deeper review workflow within the same budget. The thesis is tested first against the fund’s mandate, then against its recent deals. Uncertain verdicts are re-run, and the agent reconciles the results before reporting."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That deeper review flagged deals that a single pass on a comparable model had waved through. GPT‑6.1 Sol also ran the same workflows at about 30% lower cost per query than the next-best model, at similar speed.",
+        "th": "That deeper review flagged deals that a single pass on a comparable model had waved through. GPT‑6.1 Sol also ran the same workflows at about 30% lower cost per query than the next-best model, at similar speed."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Moving toward a Memory for every investor",
+        "th": "Moving toward a Memory for every investor"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using GPT‑6.1 Sol and GPT‑6 Luna, Terminal X has built 1,700 firm Memories, run more than 1 million custom workflows, and reached a weekly active user count equal to 81% of its monthly active users.",
+        "th": "Using GPT‑6.1 Sol and GPT‑6 Luna, Terminal X has built 1,700 firm Memories, run more than 1 million custom workflows, and reached a weekly active user count equal to 81% of its monthly active users."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Terminal X’s next step is to extend firm Memories from desks to individuals, so that each investment professional’s standard is captured as it is practiced, not only as it is described.",
+        "th": "Terminal X’s next step is to extend firm Memories from desks to individuals, so that each investment professional’s standard is captured as it is practiced, not only as it is described."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For Hyun, co-founder and CEO of Terminal X, that is the point: “The firms that win the next decade will own their judgment as data. Our job is to make that judgment measurable, so it can be kept, improved, and reused.”",
+        "th": "For Hyun, co-founder and CEO of Terminal X, that is the point: “The firms that win the next decade will own their judgment as data. Our job is to make that judgment measurable, so it can be kept, improved, and reused.”"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "OpenAI <3 startups",
+        "th": "OpenAI <3 startups"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3Av2nLs9MOiSrB5wMXLvL2/35fbde20aca9773bd64b1e8ea2897750/square.png?w=3840&q=90&fm=webp",
+      "alt": "V7 customer story art card - smaller logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupSep 21, 2026",
+        "th": "StartupSep 21, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3STNMQMrFRC8mFdLYtjkV4/9cc21e9c729b2ae7cdf75aa3f49b3033/modelml-card.png?w=3840&q=90&fm=webp",
+      "alt": "Model ML customer story card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupAug 10, 2026",
+        "th": "StartupAug 10, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5KZQBYyY2LBtllikqf9aul/6143158d9c259eed5aafb47cdac9bcdd/oai_GradientLabs_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "oai GradientLabs 1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupApr 1, 2026",
+        "th": "StartupApr 1, 2026"
+      }
+    }
+  ]
+}

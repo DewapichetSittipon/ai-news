@@ -1,0 +1,869 @@
+{
+  "id": "openai__building-chatgpt-ad-stack",
+  "slug": "building-chatgpt-ad-stack",
+  "source": "openai",
+  "url": "https://openai.com/index/building-chatgpt-ad-stack",
+  "category": "Engineering",
+  "date": "2026-10-21T07:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+    "th": "เราสร้างกลุ่มโฆษณาใหม่ของ ChatGPT เพื่อความไว้วางใจและความเกี่ยวข้องของผู้ใช้ได้อย่างไร"
+  },
+  "summary": {
+    "en": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+    "th": "เรียนรู้วิธีที่ OpenAI สร้างกลุ่มโฆษณาที่ขับเคลื่อนโดย LLM ของ ChatGPT เพื่อทำความเข้าใจจุดประสงค์ในการสนทนา แยกโฆษณาออกจากคำตอบ และแสดงโฆษณาที่เกี่ยวข้องในวงกว้าง"
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "October 21, 2026",
+        "th": "21 ตุลาคม 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By Ritendra Datta and Karthik Gopalratnam, Members of Technical Staff",
+        "th": "โดย Ritendra Datta และ Karthik Gopalratnam สมาชิกของเจ้าหน้าที่ด้านเทคนิค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How should ads work in agentic chat?",
+        "th": "โฆษณาควรทำงานอย่างไรในการแชทตัวแทน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Conversation memory, without influencing ChatGPT answers",
+        "th": "หน่วยความจำการสนทนา โดยไม่ส่งผลต่อคำตอบของ ChatGPT"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "An LLM interprets conversations and calls tools",
+        "th": "LLM ตีความเครื่องมือการสนทนาและการโทร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How the orchestrator calls ad tools in an agentic loopPreparing retrieval queries that capture intentRetrieving possible adsFiltering ineligible candidatesEvaluating relevance and qualityRunning the ads auctionFinal eligibility checks",
+        "th": "วิธีที่ผู้เรียบเรียงเรียกใช้เครื่องมือโฆษณาในลูปตัวแทน การเตรียมการสืบค้นที่ดึงข้อมูลซึ่งรวบรวมความตั้งใจ การดึงโฆษณาที่เป็นไปได้ การกรองผู้สมัครที่ไม่มีสิทธิ์ การประเมินความเกี่ยวข้องและคุณภาพ เรียกใช้การประมูลโฆษณา การตรวจสอบสิทธิ์ขั้นสุดท้าย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Preparing retrieval queries that capture intent",
+        "th": "การเตรียมการสืบค้นข้อมูลที่จับเจตนา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Retrieving possible ads",
+        "th": "การดึงโฆษณาที่เป็นไปได้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Filtering ineligible candidates",
+        "th": "การกรองผู้สมัครที่ไม่มีสิทธิ์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Evaluating relevance and quality",
+        "th": "การประเมินความเกี่ยวข้องและคุณภาพ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Running the ads auction",
+        "th": "ดำเนินการประมูลโฆษณา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Final eligibility checks",
+        "th": "การตรวจสอบคุณสมบัติขั้นสุดท้าย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The final step: showing the ads to the user",
+        "th": "ขั้นตอนสุดท้าย: การแสดงโฆษณาต่อผู้ใช้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What happens after the ad is shownHigh-power models evaluate and improve the entire stackHuman feedback steers tasteful direction",
+        "th": "จะเกิดอะไรขึ้นหลังจากที่โฆษณาแสดง โมเดลพลังงานสูงจะประเมินและปรับปรุงทั้งสแต็ก ความคิดเห็นของมนุษย์จะนำทางไปสู่ทิศทางที่มีรสนิยม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "High-power models evaluate and improve the entire stack",
+        "th": "โมเดลกำลังสูงจะประเมินและปรับปรุงสแต็กทั้งหมด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Human feedback steers tasteful direction",
+        "th": "เสียงตอบรับจากมนุษย์เป็นตัวกำหนดทิศทางอย่างมีรสนิยม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What’s next",
+        "th": "What’s next"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How should ads work in agentic chat?",
+        "th": "โฆษณาควรทำงานอย่างไรในการแชทตัวแทน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Conversation memory, without influencing ChatGPT answers",
+        "th": "หน่วยความจำการสนทนา โดยไม่ส่งผลต่อคำตอบของ ChatGPT"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "An LLM interprets conversations and calls tools",
+        "th": "LLM ตีความเครื่องมือการสนทนาและการโทร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How the orchestrator calls ad tools in an agentic loopPreparing retrieval queries that capture intentRetrieving possible adsFiltering ineligible candidatesEvaluating relevance and qualityRunning the ads auctionFinal eligibility checks",
+        "th": "วิธีที่ผู้เรียบเรียงเรียกใช้เครื่องมือโฆษณาในลูปตัวแทน การเตรียมการสืบค้นที่ดึงข้อมูลซึ่งรวบรวมความตั้งใจ การดึงโฆษณาที่เป็นไปได้ การกรองผู้สมัครที่ไม่มีสิทธิ์ การประเมินความเกี่ยวข้องและคุณภาพ เรียกใช้การประมูลโฆษณา การตรวจสอบสิทธิ์ขั้นสุดท้าย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Preparing retrieval queries that capture intent",
+        "th": "การเตรียมการสืบค้นข้อมูลที่จับเจตนา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Retrieving possible ads",
+        "th": "การดึงโฆษณาที่เป็นไปได้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Filtering ineligible candidates",
+        "th": "การกรองผู้สมัครที่ไม่มีสิทธิ์"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Evaluating relevance and quality",
+        "th": "การประเมินความเกี่ยวข้องและคุณภาพ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Running the ads auction",
+        "th": "ดำเนินการประมูลโฆษณา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Final eligibility checks",
+        "th": "การตรวจสอบคุณสมบัติขั้นสุดท้าย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The final step: showing the ads to the user",
+        "th": "ขั้นตอนสุดท้าย: การแสดงโฆษณาต่อผู้ใช้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What happens after the ad is shownHigh-power models evaluate and improve the entire stackHuman feedback steers tasteful direction",
+        "th": "จะเกิดอะไรขึ้นหลังจากที่โฆษณาแสดง โมเดลพลังงานสูงจะประเมินและปรับปรุงทั้งสแต็ก ความคิดเห็นของมนุษย์จะนำทางไปสู่ทิศทางที่มีรสนิยม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "High-power models evaluate and improve the entire stack",
+        "th": "โมเดลกำลังสูงจะประเมินและปรับปรุงสแต็กทั้งหมด"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Human feedback steers tasteful direction",
+        "th": "เสียงตอบรับจากมนุษย์เป็นตัวกำหนดทิศทางอย่างมีรสนิยม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What’s next",
+        "th": "What’s next"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Traditional advertising systems are built to respond to discrete units of user intent. A user searches for or views something online, the ads system receives those queries and page views as events, and the system looks for matching ads based on those events. Building an ads stack for ChatGPT was different: user intent develops across conversations and shifts over multiple turns of a conversation, sometimes without a fitting advertising moment. To support this new paradigm, we built a bespoke ads delivery system. This new type of ad stack is based on a custom, post-trained frontier LLM that makes tool calls for retrieval (identifying the top options), ranking (predicting user engagement), relevance (evaluating the usefulness of the ad), and running auctions for final ad selection and pricing.",
+        "th": "ระบบการโฆษณาแบบดั้งเดิมถูกสร้างขึ้นเพื่อตอบสนองต่อหน่วยความตั้งใจของผู้ใช้ที่แยกจากกัน ผู้ใช้ค้นหาหรือดูบางสิ่งทางออนไลน์ ระบบโฆษณาได้รับข้อความค้นหาและการดูหน้าเว็บเหล่านั้นเป็นเหตุการณ์ และระบบค้นหาโฆษณาที่ตรงกันตามเหตุการณ์เหล่านั้น การสร้างกลุ่มโฆษณาสำหรับ ChatGPT นั้นแตกต่างออกไป โดยความตั้งใจของผู้ใช้จะพัฒนาในการสนทนาและเปลี่ยนไปในการสนทนาหลายรอบ ซึ่งบางครั้งก็ไม่มีช่วงเวลาโฆษณาที่เหมาะสม เพื่อสนับสนุนกระบวนทัศน์ใหม่นี้ เราได้สร้างระบบการแสดงโฆษณาตามความต้องการ กลุ่มโฆษณาประเภทใหม่นี้อิงตาม LLM ชายแดนหลังการฝึกอบรมที่กำหนดเอง ซึ่งเรียกใช้เครื่องมือเพื่อรับการดึงข้อมูล (ระบุตัวเลือกอันดับต้นๆ) การจัดอันดับ (คาดการณ์การมีส่วนร่วมของผู้ใช้) ความเกี่ยวข้อง (ประเมินประโยชน์ของโฆษณา) และดำเนินการประมูลสำหรับการเลือกโฆษณาขั้นสุดท้ายและการกำหนดราคา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our ads system supports the nuance of evolving user goals by making three key design decisions: 1) implementing stateful ads sessions, meaning information is remembered across turns of a conversation and across multiple conversations, 2) relying on a custom, post-trained LLM that uses a tool call architecture to interpret a conversation’s context and underlying intent, and then effectively select, rank, and deliver ads, and 3) running the ads selection process separately from ChatGPT’s answer generation, in its own service, to keep ads from influencing answers and maintain ChatGPT’s neutral voice. We use our post-trained LLM to orchestrate the entire ads flow, determining the right ad to surface at the right time based on both the user’s current turn and conversation history. While bootstrapping a self-improving ads system like this used to take years, ChatGPT Ads reached $1 billion in annualized revenue run rate less than 200 days after launch; now, more than 100,000 advertisers have run ads on ChatGPT since launch.",
+        "th": "ระบบโฆษณาของเราสนับสนุนความแตกต่างเล็กๆ น้อยๆ ของเป้าหมายผู้ใช้ที่เปลี่ยนแปลงไปโดยการตัดสินใจออกแบบที่สำคัญ 3 ประการ ได้แก่ 1) การใช้เซสชันโฆษณาแบบมีสถานะ หมายความว่าข้อมูลจะถูกจดจำตลอดการสนทนาและการสนทนาหลายรายการ 2) อาศัย LLM ที่กำหนดเองหลังการฝึกอบรม ซึ่งใช้สถาปัตยกรรมการเรียกเครื่องมือเพื่อตีความบริบทของการสนทนาและจุดประสงค์ที่ซ่อนอยู่ จากนั้นเลือก จัดอันดับ และแสดงโฆษณาอย่างมีประสิทธิภาพ และ 3) ดำเนินกระบวนการเลือกโฆษณาแยกจากการสร้างคำตอบของ ChatGPT ในตัวมันเอง บริการ เพื่อป้องกันไม่ให้โฆษณามีอิทธิพลต่อคำตอบและรักษาเสียงที่เป็นกลางของ ChatGPT เราใช้ LLM หลังการฝึกอบรมเพื่อจัดเตรียมโฟลว์โฆษณาทั้งหมด โดยกำหนดโฆษณาที่เหมาะสมที่จะแสดงในเวลาที่เหมาะสมโดยพิจารณาจากจำนวนครั้งปัจจุบันและประวัติการสนทนาของผู้ใช้ แม้ว่าการเริ่มระบบโฆษณาที่ปรับปรุงตนเองเช่นนี้เคยใช้เวลานานหลายปี แต่ ChatGPT Ads ก็มีรายได้ต่อปีถึง 1 พันล้านดอลลาร์ภายในเวลาน้อยกว่า 200 วันหลังจากเปิดตัว ปัจจุบันมีผู้ลงโฆษณามากกว่า 100,000 รายลงโฆษณาบน ChatGPT นับตั้งแต่เปิดตัว"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How should ads work in agentic chat?",
+        "th": "โฆษณาควรทำงานอย่างไรในการแชทตัวแทน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A conventional advertising request usually starts with a well-defined event. A user submits a search query or opens a webpage and the ads system receives a request. This type of system is fairly simple: it retrieves potential ad candidates, ranks them, runs an auction to appropriately price the opportunity, and shows the resulting ad to the user. ChatGPT does not naturally produce such a concrete moment.",
+        "th": "คำขอโฆษณาแบบเดิมๆ มักจะเริ่มต้นด้วยเหตุการณ์ที่มีการกำหนดชัดเจน ผู้ใช้ส่งข้อความค้นหาหรือเปิดหน้าเว็บและระบบโฆษณาได้รับคำขอ ระบบประเภทนี้ค่อนข้างเรียบง่าย: โดยดึงข้อมูลผู้สมัครโฆษณาที่มีศักยภาพ จัดอันดับ ดำเนินการประมูลเพื่อกำหนดราคาโอกาสอย่างเหมาะสม และแสดงโฆษณาที่เป็นผลให้ผู้ใช้เห็น ChatGPT ไม่ได้สร้างช่วงเวลาที่เป็นรูปธรรมเช่นนี้ตามธรรมชาติ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In a ChatGPT conversation, people arrive with goals rather than a one-answer search query. They might be planning a trip, choosing software for their business, furnishing a home, or learning a new hobby. This doesn’t all happen in one turn of a conversation. ChatGPT often helps the user clarify what matters along the way.",
+        "th": "ในการสนทนา ChatGPT ผู้คนมาถึงโดยมีเป้าหมายแทนที่จะเป็นคำค้นหาที่มีคำตอบเดียว พวกเขาอาจกำลังวางแผนการเดินทาง เลือกซอฟต์แวร์สำหรับธุรกิจ ตกแต่งบ้าน หรือเรียนรู้งานอดิเรกใหม่ๆ ทั้งหมดนี้ไม่ได้เกิดขึ้นในการสนทนาคราวเดียว ChatGPT มักจะช่วยให้ผู้ใช้ชี้แจงสิ่งที่สำคัญระหว่างทาง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As an example, our engineering team asked ChatGPT how to train for a race: A conversation begins with a general question about running. Several turns later, they ask about shoes to help train. The commercial meaning of the conversation changes as each constraint arrives—and this personalized context evolves across multiple sessions. A system that acted on the first message could retrieve the wrong intent entirely, potentially degrading the user’s experience and getting in their way.",
+        "th": "ตัวอย่างเช่น ทีมวิศวกรของเราถาม ChatGPT ถึงวิธีฝึกซ้อมสำหรับการแข่งขัน: บทสนทนาเริ่มต้นด้วยคำถามทั่วไปเกี่ยวกับการวิ่ง หลายรอบต่อมา พวกเขาถามถึงรองเท้าเพื่อช่วยฝึกซ้อม ความหมายเชิงพาณิชย์ของการสนทนาจะเปลี่ยนไปเมื่อข้อจำกัดแต่ละข้อมาถึง และบริบทส่วนบุคคลนี้จะพัฒนาไปในหลายเซสชัน ระบบที่ดำเนินการกับข้อความแรกอาจดึงข้อมูลเจตนาที่ไม่ถูกต้องทั้งหมด อาจทำให้ประสบการณ์ของผู้ใช้เสื่อมถอยและขวางทางพวกเขา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Building our ads system required us to move beyond the request-response advertising architecture and build an ads stack from scratch to find potential economic opportunities while prioritizing user trust or value.",
+        "th": "การสร้างระบบโฆษณาของเราทำให้เราต้องก้าวไปไกลกว่าสถาปัตยกรรมการโฆษณาที่ตอบสนองต่อคำขอ และสร้างกลุ่มโฆษณาตั้งแต่ต้นเพื่อค้นหาโอกาสทางเศรษฐกิจที่อาจเกิดขึ้นในขณะเดียวกันก็ให้ความสำคัญกับความไว้วางใจหรือมูลค่าของผู้ใช้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Conversation memory, without influencing ChatGPT answers",
+        "th": "หน่วยความจำการสนทนา โดยไม่ส่งผลต่อคำตอบของ ChatGPT"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Turning every message into a standalone request, like a traditional ads system, would have carried a few risks in our chat use case: 1) misreading the user goal by oversimplifying it, 2) beginning the advertising flow too soon, before the user’s real need has become clear, 3) showing ads that get in the way of the user journey instead of supporting it, and 4) inefficiently rerunning the ads flow every time the request changes, creating noise and wasting cost. Instead of building around individual events, the ads system (consisting of retrieval, ranking, and delivery) maintains a stateful session, meaning the ads session runs for the duration of an eligible turn, remembering and updating information as it evolves. ChatGPT sends the initial request context to the ads server. The ads system follows and adapts to the developing exchange rather than relying on a single flattened query.",
+        "th": "การเปลี่ยนทุกข้อความให้เป็นคำขอแบบสแตนด์อโลน เช่นเดียวกับระบบโฆษณาแบบดั้งเดิม อาจมีความเสี่ยงเล็กน้อยในกรณีการใช้งานแชทของเรา: 1) การอ่านเป้าหมายผู้ใช้ผิดโดยการลดความซับซ้อนเกินไป 2) เริ่มต้นกระแสโฆษณาเร็วเกินไป ก่อนที่ความต้องการที่แท้จริงของผู้ใช้จะชัดเจน 3) การแสดงโฆษณาที่ขวางเส้นทางของผู้ใช้แทนที่จะสนับสนุน และ 4) เรียกใช้โฆษณาอีกครั้งอย่างไม่มีประสิทธิภาพทุกครั้งที่คำขอเปลี่ยนแปลง ทำให้เกิดเสียงรบกวนและสิ้นเปลืองต้นทุน แทนที่จะสร้างตามแต่ละเหตุการณ์ ระบบโฆษณา (ประกอบด้วยการดึงข้อมูล การจัดอันดับ และการนำส่ง) จะรักษาเซสชันแบบมีสถานะ ซึ่งหมายความว่าเซสชันโฆษณาจะทำงานตามระยะเวลาของรอบที่มีสิทธิ์ โดยจะจดจำและอัปเดตข้อมูลเมื่อมีการพัฒนา ChatGPT จะส่งบริบทคำขอเริ่มต้นไปยังเซิร์ฟเวอร์โฆษณา ระบบโฆษณาจะติดตามและปรับให้เข้ากับการแลกเปลี่ยนที่กำลังพัฒนา แทนที่จะอาศัยคำค้นหาเดียว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The ads selection process runs alongside ChatGPT’s normal response generation to ensure the ads flow doesn’t influence ChatGPT’s responses. Ads are filtered and selected through a separate system consuming the conversation under its own eligibility, quality, and delivery constraints. This important architectural boundary—different services that use separate models and separate code— lets core ChatGPT servers handle generating the organic response; meanwhile, the ads system independently evaluates whether there’s an appropriate advertising opportunity and, if so, prepares a sponsored placement through a separate serving process.",
+        "th": "กระบวนการเลือกโฆษณาทำงานควบคู่ไปกับการสร้างการตอบสนองตามปกติของ ChatGPT เพื่อให้แน่ใจว่ากระแสโฆษณาจะไม่ส่งผลต่อการตอบสนองของ ChatGPT โฆษณาจะถูกกรองและเลือกผ่านระบบแยกต่างหากที่ใช้การสนทนาภายใต้คุณสมบัติ คุณภาพ และข้อจำกัดในการแสดงโฆษณาของตัวเอง ขอบเขตทางสถาปัตยกรรมที่สำคัญนี้—บริการที่แตกต่างกันซึ่งใช้โมเดลที่แยกจากกันและโค้ดที่แยกจากกัน— ช่วยให้เซิร์ฟเวอร์หลัก ChatGPT สามารถจัดการสร้างการตอบสนองแบบออร์แกนิกได้ ในขณะเดียวกัน ระบบโฆษณาจะประเมินอย่างอิสระว่ามีโอกาสในการโฆษณาที่เหมาะสมหรือไม่ และหากเป็นเช่นนั้น จะเตรียมตำแหน่งที่ได้รับการสนับสนุนผ่านขั้นตอนการให้บริการที่แยกต่างหาก"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3bfD7ZJLF0722p5KBycdFk/8123d88226e58fb25563917cdb5c0dca/advertising-desktop-light.svg?w=3840&q=90",
+      "alt": "Flow diagram showing a user conversation branching into a ChatGPT answer path that produces an organic response and a separate ads eligibility and serving path that produces a clearly labeled sponsored placement."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Advertising runs alongside the ChatGPT answer path.",
+        "th": "การโฆษณาทำงานควบคู่ไปกับเส้นทางคำตอบของ ChatGPT"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Beyond protecting the user experience, this separation has some practical consequences. ChatGPT has no dependency on the ads system—the services are in no way intertwined and don’t share a content generation model. So if the ads serving system is unavailable or slow, ChatGPT’s organic response continues unaffected. This means the ads system can’t take down or delay the ChatGPT product. The other benefit of this separation is that it keeps the bar very high for valuable ads. Returning no ad is an ordinary, successful outcome. The system only delivers an ad if it’s clearly beneficial to users and advertisers.",
+        "th": "นอกเหนือจากการปกป้องประสบการณ์ผู้ใช้แล้ว การแยกนี้ยังมีผลกระทบในทางปฏิบัติบางประการอีกด้วย ChatGPT ไม่มีการพึ่งพาระบบโฆษณา บริการไม่มีการเชื่อมโยงกันและไม่มีรูปแบบการสร้างเนื้อหาร่วมกัน ดังนั้น หากระบบการแสดงโฆษณาไม่พร้อมใช้งานหรือช้า การตอบสนองทั่วไปของ ChatGPT จะยังคงไม่ได้รับผลกระทบ ซึ่งหมายความว่าระบบโฆษณาไม่สามารถลบหรือชะลอผลิตภัณฑ์ ChatGPT ได้ ข้อดีอีกประการของการแยกนี้คือการรักษามาตรฐานที่สูงมากสำหรับโฆษณาที่มีคุณค่า การไม่แสดงโฆษณาถือเป็นผลลัพธ์ที่ประสบความสำเร็จและธรรมดา ระบบจะแสดงโฆษณาเฉพาะเมื่อเป็นประโยชน์ต่อผู้ใช้และผู้โฆษณาอย่างชัดเจนเท่านั้น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "An LLM interprets conversations and calls tools",
+        "th": "LLM ตีความเครื่องมือการสนทนาและการโทร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The other key architectural component in our ads stack is the post-trained LLM that interprets conversations and runs the entire ads flow in an agentic loop—making tool calls to the core functions of the ads system, from the retrieval stage to ranking to auction and, ultimately, delivery. We call this LLM the orchestrator.",
+        "th": "องค์ประกอบทางสถาปัตยกรรมที่สำคัญอื่นๆ ในกลุ่มโฆษณาของเราคือ LLM หลังการฝึกอบรม ซึ่งจะตีความการสนทนาและเรียกใช้โฟลว์โฆษณาทั้งหมดในลูปตัวแทน โดยทำการเรียกใช้เครื่องมือไปยังฟังก์ชันหลักของระบบโฆษณา ตั้งแต่ขั้นตอนการดึงข้อมูลไปจนถึงการจัดอันดับไปจนถึงการประมูล และสุดท้ายคือการส่งมอบ เราเรียก LLM นี้ว่าผู้เรียบเรียง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The first part of an ads flow is understanding user intent to start the retrieval process, which is a fast and deliberately broad sourcing of potential ads to later filter through. Receiving the conversation incrementally creates a richer but more ambiguous retrieval problem because the ads system needs to distinguish current intent from stale context. The orchestrator must interpret references to earlier messages, recognize when a user is speaking hypothetically, and avoid treating every mention of a product or service as a request to buy something.",
+        "th": "ส่วนแรกของกระแสโฆษณาคือการทำความเข้าใจจุดประสงค์ของผู้ใช้เพื่อเริ่มกระบวนการดึงข้อมูล ซึ่งเป็นการจัดหาโฆษณาที่เป็นไปได้ในวงกว้างอย่างรวดเร็วและจงใจเพื่อกรองในภายหลัง การรับการสนทนาทีละน้อยจะสร้างปัญหาในการเรียกข้อมูลที่สมบูรณ์ยิ่งขึ้นแต่มีความคลุมเครือมากขึ้น เนื่องจากระบบโฆษณาจำเป็นต้องแยกแยะจุดประสงค์ปัจจุบันจากบริบทเก่า ผู้เรียบเรียงต้องตีความการอ้างอิงถึงข้อความก่อนหน้านี้ รับรู้เมื่อผู้ใช้พูดอย่างสมมุติ และหลีกเลี่ยงการถือว่าการกล่าวถึงผลิตภัณฑ์หรือบริการทุกครั้งเป็นการร้องขอให้ซื้อบางสิ่งบางอย่าง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The ads orchestrator uses the available conversation and user context, iterating to find good ads and repeatedly choosing when to call which tool with the underlying goal of finding the most appropriate ad (the ad that balances high user value and high advertiser value) for that conversation and context. If the user chooses to personalize ads, the orchestrator also considers available nonsensitive information about the user’s past conversations to find the best ad matches.",
+        "th": "ผู้เรียบเรียงโฆษณาใช้บทสนทนาและบริบทของผู้ใช้ที่มีอยู่ วนซ้ำเพื่อค้นหาโฆษณาที่ดี และเลือกซ้ำๆ ว่าเมื่อใดจะเรียกใช้เครื่องมือใดโดยมีเป้าหมายหลักในการค้นหาโฆษณาที่เหมาะสมที่สุด (โฆษณาที่สร้างสมดุลระหว่างมูลค่าผู้ใช้สูงและมูลค่าผู้ลงโฆษณาสูง) สำหรับการสนทนาและบริบทนั้น หากผู้ใช้เลือกที่จะปรับเปลี่ยนโฆษณาในแบบของคุณ ผู้เรียบเรียงยังพิจารณาข้อมูลที่ไม่ละเอียดอ่อนที่มีอยู่เกี่ยวกับการสนทนาในอดีตของผู้ใช้เพื่อค้นหาโฆษณาที่ตรงกันที่สุด"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5zteskDpk7VeYDOhPLz2HZ/2c87e51276aeb518fb0502918c94409d/orchestrator-desktop-light.svg?w=3840&q=90",
+      "alt": "Architecture diagram showing conversation context and user profile feeding an ads orchestrator with retrieval, relevance estimation, event prediction, eligibility, pacing and budgets, and auction and pricing tools that balance user and advertiser value."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The ads orchestrator iteratively calls ads delivery tools to find valuable ads.",
+        "th": "ผู้เรียบเรียงโฆษณาเรียกเครื่องมือการแสดงโฆษณาซ้ำๆ เพื่อค้นหาโฆษณาที่มีคุณค่า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As the conversation progresses and the ads orchestrator gets more updated information, the orchestrator can run a fresh set of tool calls with the updated context to find better ads and return them to the client, which can then use these new ads if they arrive in time.",
+        "th": "เมื่อการสนทนาดำเนินไปและผู้เรียบเรียงโฆษณาได้รับข้อมูลที่อัปเดตมากขึ้น ผู้เรียบเรียงสามารถเรียกใช้ชุดการเรียกเครื่องมือชุดใหม่พร้อมบริบทที่อัปเดตเพื่อค้นหาโฆษณาที่ดีขึ้นและส่งคืนให้กับลูกค้า ซึ่งจากนั้นจะสามารถใช้โฆษณาใหม่เหล่านี้ได้หากมาถึงทันเวลา"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2FBQczHif8ZhtqpXflsd1Z/0692ded1f726e6f5943a126ea1b90576/printed-throw-pillow.webp?w=256&q=90&fm=webp",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Printed Throw Pillow",
+        "th": "หมอนอิงพิมพ์ลาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The orchestrator is designed to balance user value and advertiser value, always putting users first.",
+        "th": "ผู้เรียบเรียงได้รับการออกแบบมาเพื่อสร้างสมดุลระหว่างมูลค่าของผู้ใช้และมูลค่าของผู้ลงโฆษณา โดยให้ความสำคัญกับผู้ใช้เป็นอันดับแรกเสมอ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How the orchestrator calls ad tools in an agentic loop",
+        "th": "วิธีที่ผู้เรียบเรียงเรียกใช้เครื่องมือโฆษณาในลูปเอเจนต์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The ads system consists of individual tools, and the orchestrator calls them iteratively to find the best ads for a conversation. At a high level, the orchestrator turns conversations into brief text summaries, which are then turned into semantic embeddings (stored meanings that are easier for an ads system to sift through), retrieves ad candidates using those semantic embeddings, filters those candidates for eligibility (based on budget, user settings, and other preliminary checks), assesses their quality and relevance, and does a final ranking to identify high value opportunities for placement at the end of a chat response. Each ad must therefore meet a high bar on eligibility and relevance in order to be eligible for placement.",
+        "th": "ระบบโฆษณาประกอบด้วยเครื่องมือแต่ละรายการ และผู้เรียบเรียงจะเรียกเครื่องมือเหล่านั้นซ้ำๆ เพื่อค้นหาโฆษณาที่ดีที่สุดสำหรับการสนทนา ในระดับสูง ผู้เรียบเรียงเปลี่ยนการสนทนาเป็นบทสรุปข้อความสั้นๆ ซึ่งจากนั้นจะกลายเป็นการฝังความหมาย (ความหมายที่เก็บไว้ซึ่งง่ายกว่าสำหรับระบบโฆษณาในการกรอง) ดึงผู้สมัครโฆษณาโดยใช้การฝังความหมายเหล่านั้น กรองผู้สมัครเหล่านั้นเพื่อดูคุณสมบัติ (ตามงบประมาณ การตั้งค่าผู้ใช้ และการตรวจสอบเบื้องต้นอื่นๆ) ประเมินคุณภาพและความเกี่ยวข้อง และทำการจัดอันดับขั้นสุดท้ายเพื่อระบุโอกาสที่มีมูลค่าสูงสำหรับตำแหน่งเมื่อสิ้นสุดการแชท การตอบสนอง ดังนั้น โฆษณาแต่ละรายการจึงต้องมีคุณสมบัติตรงตามเกณฑ์และความเกี่ยวข้องที่สูงจึงจะมีสิทธิ์สำหรับตำแหน่ง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Preparing retrieval queries that capture intent",
+        "th": "การเตรียมการสืบค้นข้อมูลที่จับเจตนา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The orchestrator LLM first prepares one or more queries representing the relevant commercial intent. This can include rewriting conversation context to broaden the commercial possibilities beyond 1:1 search queries and then creating semantic representations, where the orchestrator distills a multiturn conversation into a summarized version for the retrieval system—retrieving ads from our database in a focused way.",
+        "th": "ก่อนอื่น LLM ผู้เรียบเรียงจะเตรียมคำถามตั้งแต่หนึ่งข้อขึ้นไปที่แสดงถึงจุดประสงค์ทางการค้าที่เกี่ยวข้อง ซึ่งอาจรวมถึงการเขียนบริบทการสนทนาใหม่เพื่อขยายความเป็นไปได้ทางการค้าให้กว้างกว่าคำค้นหาแบบ 1:1 จากนั้นจึงสร้างการแสดงความหมาย โดยที่ผู้เรียบเรียงกลั่นกรองการสนทนาหลายรอบเป็นเวอร์ชันสรุปสำหรับระบบดึงข้อมูล โดยดึงโฆษณาจากฐานข้อมูลของเราในลักษณะที่มุ่งเน้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Ad placements will be better for both users and advertisers if they only appear when there’s deep understanding of the user’s intent. Multiple queries can preserve different aspects of intent. A conversation about planning a trip, for example, might contain distinct needs related to transportation, lodging, or activities. The retrieval system can preserve these distinctions rather than compressing the entire conversation into one literal string.",
+        "th": "ตำแหน่งโฆษณาจะดีกว่าสำหรับทั้งผู้ใช้และผู้ลงโฆษณาหากปรากฏเฉพาะเมื่อมีความเข้าใจอย่างลึกซึ้งเกี่ยวกับจุดประสงค์ของผู้ใช้ ข้อความค้นหาหลายรายการสามารถรักษาเจตนาในแง่มุมที่แตกต่างกันได้ ตัวอย่างเช่น การสนทนาเกี่ยวกับการวางแผนการเดินทางอาจมีความต้องการที่แตกต่างกันเกี่ยวกับการเดินทาง ที่พัก หรือกิจกรรม ระบบการดึงข้อมูลสามารถรักษาความแตกต่างเหล่านี้ได้ แทนที่จะบีบอัดการสนทนาทั้งหมดให้เป็นสตริงตัวอักษรเดียว"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As an example, let’s look at a potential conversation sequence about hiking shoes:",
+        "th": "ตัวอย่างเช่น มาดูลำดับการสนทนาที่เป็นไปได้เกี่ยวกับรองเท้าเดินป่า:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What should I cover on a two-day trip to Yosemite?",
+        "th": "ฉันควรครอบคลุมอะไรบ้างในการเดินทางสองวันไปยังโยเซมิตี?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "What should I cover on a two-day trip to Yosemite?",
+        "th": "ฉันควรครอบคลุมอะไรบ้างในการเดินทางสองวันไปยังโยเซมิตี?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Will it be cold next week?",
+        "th": "อาทิตย์หน้าจะหนาวมั้ย?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Will it be cold next week?",
+        "th": "อาทิตย์หน้าจะหนาวมั้ย?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "New [insert brand] product lines?",
+        "th": "สายผลิตภัณฑ์ใหม่ [ใส่แบรนด์]?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "New [insert brand] product lines?",
+        "th": "สายผลิตภัณฑ์ใหม่ [ใส่แบรนด์]?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Although the user hasn’t connected the shoe brand question to the Yosemite trip, this conversation might be represented in our ads system by two queries, such as [shoes appropriate for hiking trip] and [new [brand] product lines good for travel]. This might only be the first attempt; the orchestrator is designed to iterate on these representations until it finds ads in our inventory that are highly valuable to the user.",
+        "th": "แม้ว่าผู้ใช้จะไม่ได้เชื่อมโยงคำถามเกี่ยวกับแบรนด์รองเท้าเข้ากับทริปโยเซมิตี แต่การสนทนานี้อาจแสดงในระบบโฆษณาของเราด้วยคำถาม 2 ข้อ เช่น [รองเท้าที่เหมาะสมสำหรับทริปเดินป่า] และ [สายผลิตภัณฑ์ [แบรนด์] ใหม่ที่ดีสำหรับการท่องเที่ยว] นี่อาจเป็นเพียงความพยายามครั้งแรกเท่านั้น ผู้เรียบเรียงได้รับการออกแบบมาเพื่อย้ำการนำเสนอเหล่านี้จนกว่าจะพบโฆษณาที่มีคุณค่าสูงต่อผู้ใช้ในพื้นที่โฆษณาของเรา"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Retrieving possible ads",
+        "th": "การดึงโฆษณาที่เป็นไปได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Retrieval is the process of creating a deliberately broad pool of ad options. Candidates may come from different retrieval strategies and can later compete under the same serving constraints. We build multiple indices that optimize for different system and product constraints (for example, the index for product feed ads is designed to be aware of positive or negative product reviews as it fetches the best possible ads. This is not relevant to other ads that may not have reviews associated with them). Each index is optimized for some version of approximate-nearest-neighbor (ANN) search, using embeddings representing the user’s intent. This ANN search is an approximation algorithm for retrieval over large semantic indices, meaning ads are fetched very quickly, getting close to a good solution rather than looking for “the right” solution, while retaining most of the relevant candidates.",
+        "th": "การเรียกข้อมูลเป็นกระบวนการสร้างกลุ่มตัวเลือกโฆษณาที่กว้างขวางโดยเจตนา ผู้สมัครอาจมาจากกลยุทธ์การดึงข้อมูลที่แตกต่างกัน และสามารถแข่งขันภายใต้ข้อจำกัดการให้บริการเดียวกันได้ในภายหลัง เราสร้างดัชนีหลายรายการที่ปรับให้เหมาะสมสำหรับระบบและข้อจำกัดของผลิตภัณฑ์ที่แตกต่างกัน (เช่น ดัชนีสำหรับโฆษณาฟีดผลิตภัณฑ์ได้รับการออกแบบมาให้คำนึงถึงบทวิจารณ์ผลิตภัณฑ์เชิงบวกหรือเชิงลบ เนื่องจากดึงโฆษณาที่ดีที่สุดเท่าที่จะเป็นไปได้ ซึ่งไม่เกี่ยวข้องกับโฆษณาอื่นๆ ที่อาจไม่มีบทวิจารณ์ที่เกี่ยวข้องกัน) แต่ละดัชนีได้รับการปรับให้เหมาะสมสำหรับการค้นหาโดยประมาณใกล้เคียงที่สุด (ANN) บางเวอร์ชัน โดยใช้การฝังที่แสดงถึงความตั้งใจของผู้ใช้ การค้นหา ANN นี้เป็นอัลกอริธึมการประมาณสำหรับการดึงข้อมูลดัชนีความหมายขนาดใหญ่ ซึ่งหมายความว่าโฆษณาจะถูกเรียกอย่างรวดเร็ว เข้าใกล้วิธีแก้ปัญหาที่ดีแทนที่จะมองหาโซลูชันที่ \"ถูกต้อง\" ในขณะที่ยังคงรักษาตัวเลือกที่เกี่ยวข้องส่วนใหญ่ไว้"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6F3yNWmGw0m9mY9u3BtKT8/c811e3d73a0d72b9deb12fe92ac59f2c/candidate-desktop-light.svg?w=3840&q=90",
+      "alt": "Flow diagram showing rewritten queries encoded into high-dimensional semantic embeddings, searched across regular ads, product ads, and optional strategies, then combined into a broad candidate pool."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The ads system uses rewritten queries to create semantic embeddings during the ad retrieval process and produce a broad pool of ad candidates.",
+        "th": "ระบบโฆษณาใช้คำค้นหาที่เขียนใหม่เพื่อสร้างการฝังความหมายในระหว่างกระบวนการเรียกค้นโฆษณา และสร้างกลุ่มตัวเลือกโฆษณาในวงกว้าง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Filtering ineligible candidates",
+        "th": "การกรองผู้สมัครที่ไม่มีสิทธิ์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The goal of filtering is to eliminate all ad candidates from consideration that don't meet the bar for placement when it comes to relevance, bids, and budget. Depending on the candidate and configuration, filtering checks can include creative and campaign availability (whether the campaign or ad-creatives are active), campaign targeting (e.g., which locales a campaign is allowed to operate in), policy restrictions (compliance requirements around what can be advertised), budget availability (whether or not a campaign still has budget available to spend), pacing (whether a campaign should be spending budget now versus another time in the day), placement compatibility (what kinds of conversations this advertisement is eligible for), and advertiser and campaign level deduplication (picking an appropriate number of ads per advertiser to ensure fair participation across businesses).",
+        "th": "เป้าหมายของการกรองคือกำจัดผู้สมัครโฆษณาทั้งหมดออกจากการพิจารณาที่ไม่ตรงตามเกณฑ์ตำแหน่งเมื่อพิจารณาถึงความเกี่ยวข้อง การเสนอราคา และงบประมาณ การตรวจสอบการกรองอาจรวมถึงครีเอทีฟโฆษณาและความพร้อมของแคมเปญ (ไม่ว่าแคมเปญหรือครีเอทีฟโฆษณาจะทำงานอยู่หรือไม่ก็ตาม) การกำหนดเป้าหมายแคมเปญ (เช่น พื้นที่ใดที่แคมเปญได้รับอนุญาตให้ดำเนินการได้) ข้อจำกัดด้านนโยบาย (ข้อกำหนดการปฏิบัติตามข้อกำหนดเกี่ยวกับสิ่งที่สามารถโฆษณาได้) ความพร้อมของงบประมาณ (ไม่ว่าแคมเปญจะยังมีงบประมาณเหลืออยู่หรือไม่ก็ตาม) การเว้นจังหวะ (ไม่ว่าแคมเปญควรใช้งบประมาณตอนนี้เทียบกับเวลาอื่นของวัน) ความเข้ากันได้ของตำแหน่ง (ประเภทของการสนทนาที่โฆษณานี้มีสิทธิ์) และ การขจัดความซ้ำซ้อนในระดับผู้ลงโฆษณาและแคมเปญ (เลือกจำนวนโฆษณาที่เหมาะสมต่อผู้ลงโฆษณาเพื่อให้แน่ใจว่าการมีส่วนร่วมอย่างยุติธรรมในธุรกิจต่างๆ)"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Evaluating relevance and quality",
+        "th": "การประเมินความเกี่ยวข้องและคุณภาพ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Candidates that survive eligibility checks move on to a scoring phase, where the orchestrator makes tool calls to various scoring systems—for serving considerations such as semantic relevance (is the ad relevant to the user’s goal?), predicted engagement (is the ad likely to get viewed, clicked, and converted into the advertiser’s desired outcome?), historical performance (has the ad performed well when shown to users so far?). The orchestrator also filters ads to ensure relevance and safety before the auction. These systems narrow the field into a smaller candidate pool ready for auction, but they still don’t determine the final delivered ad.",
+        "th": "ผู้สมัครที่รอดจากการตรวจสอบคุณสมบัติจะเข้าสู่ขั้นตอนการให้คะแนน โดยที่ผู้เรียบเรียงเรียกใช้เครื่องมือไปยังระบบการให้คะแนนต่างๆ เพื่อให้บริการการพิจารณา เช่น ความเกี่ยวข้องทางความหมาย (โฆษณาเกี่ยวข้องกับเป้าหมายของผู้ใช้หรือไม่) การมีส่วนร่วมที่คาดการณ์ไว้ (โฆษณามีแนวโน้มที่จะได้รับการดู คลิก และแปลงเป็นผลลัพธ์ที่ต้องการของผู้ลงโฆษณาหรือไม่) ประสิทธิภาพที่ผ่านมา (โฆษณาทำงานได้ดีเมื่อแสดงต่อผู้ใช้จนถึงตอนนี้หรือไม่) ผู้เรียบเรียงยังกรองโฆษณาเพื่อให้แน่ใจว่ามีความเกี่ยวข้องและปลอดภัยก่อนการประมูล ระบบเหล่านี้จะจำกัดขอบเขตให้เหลือกลุ่มผู้สมัครที่มีขนาดเล็กลงซึ่งพร้อมสำหรับการประมูล แต่ยังคงไม่สามารถระบุโฆษณาที่ส่งในขั้นสุดท้ายได้"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Running the ads auction",
+        "th": "ดำเนินการประมูลโฆษณา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The orchestrator evaluates the prepared candidates in the context of the conversation and chooses which ad candidates are plausible enough to enter the final auction. The orchestrator doesn’t directly decide which ad will be served, nor does it set a price. It nominates contextually appropriate candidates for the auction tool to evaluate.",
+        "th": "ผู้เรียบเรียงจะประเมินผู้สมัครที่เตรียมไว้ในบริบทของการสนทนา และเลือกผู้สมัครโฆษณาที่น่าเชื่อถือเพียงพอที่จะเข้าสู่การประมูลครั้งสุดท้าย ผู้เรียบเรียงไม่ได้ตัดสินใจโดยตรงว่าจะแสดงโฆษณาใดและไม่ได้กำหนดราคา โดยจะเสนอชื่อผู้สมัครที่เหมาะสมตามบริบทสำหรับเครื่องมือการประมูลเพื่อประเมิน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The auction applies the final serving mechanics, including auction admission (passing a minimum threshold of relevance and value), pacing (spending ad budget more evenly), bid and auction-feature computation, quality-adjusted ranking, pricing, and final selection.",
+        "th": "การประมูลใช้กลไกการแสดงครั้งสุดท้าย รวมถึงการเข้าร่วมการประมูล (ผ่านเกณฑ์ขั้นต่ำของความเกี่ยวข้องและมูลค่า) การเว้นจังหวะ (ใช้งบประมาณโฆษณาเท่าๆ กันมากขึ้น) การคำนวณราคาเสนอและคุณลักษณะการประมูล การจัดอันดับที่ปรับคุณภาพ การกำหนดราคา และการเลือกขั้นสุดท้าย"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Final eligibility checks",
+        "th": "การตรวจสอบคุณสมบัติขั้นสุดท้าย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "After the auction, there are two ways an ad might fail to deliver, both specific to the ChatGPT conversational medium.",
+        "th": "หลังการประมูล มี 2 วิธีที่โฆษณาอาจแสดงไม่สำเร็จ ทั้งแบบเฉพาะเจาะจงกับสื่อการสนทนา ChatGPT"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The ad might not feel appropriate in the chat: Even though the conversation itself was deemed safe for ad placement by integrity models (the models that decide when it’s appropriate to serve an ad), and the ad itself was deemed policy-compliant, sometimes the ad might feel inappropriate in the context of certain conversations. The orchestrator blocks these ads from being shown.",
+        "th": "โฆษณาอาจรู้สึกว่าไม่เหมาะสมในการแชท: แม้ว่าการสนทนาจะถือว่าปลอดภัยสำหรับการวางโฆษณาตามรูปแบบความสมบูรณ์ (แบบจำลองที่ตัดสินใจว่าเมื่อใดจึงเหมาะสมที่จะแสดงโฆษณา) และตัวโฆษณาเองก็ถือว่าเป็นไปตามนโยบาย แต่บางครั้งโฆษณาอาจรู้สึกว่าไม่เหมาะสมในบริบทของการสนทนาบางอย่าง ผู้เรียบเรียงบล็อกโฆษณาเหล่านี้ไม่ให้แสดง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The ad might not feel appropriate in the chat: Even though the conversation itself was deemed safe for ad placement by integrity models (the models that decide when it’s appropriate to serve an ad), and the ad itself was deemed policy-compliant, sometimes the ad might feel inappropriate in the context of certain conversations. The orchestrator blocks these ads from being shown.",
+        "th": "โฆษณาอาจรู้สึกว่าไม่เหมาะสมในการแชท: แม้ว่าการสนทนาจะถือว่าปลอดภัยสำหรับการวางโฆษณาตามรูปแบบความสมบูรณ์ (แบบจำลองที่ตัดสินใจว่าเมื่อใดจึงเหมาะสมที่จะแสดงโฆษณา) และตัวโฆษณาเองก็ถือว่าเป็นไปตามนโยบาย แต่บางครั้งโฆษณาอาจรู้สึกว่าไม่เหมาะสมในบริบทของการสนทนาบางอย่าง ผู้เรียบเรียงบล็อกโฆษณาเหล่านี้ไม่ให้แสดง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The ad request might not arrive in time: If the ChatGPT model is ready to respond, but the ad is not yet ready to place, the ad request times out and the ad doesn’t get delivered. One goal of the ads system, therefore, is to run as fast as possible. The ChatGPT model response time is dynamic, and we don’t delay chat responses to wait for ads to load.",
+        "th": "คำขอโฆษณาอาจไม่มาถึงทันเวลา: หากโมเดล ChatGPT พร้อมที่จะตอบสนอง แต่โฆษณายังไม่พร้อมที่จะวาง คำขอโฆษณาจะหมดเวลาและโฆษณาจะไม่ถูกส่ง เป้าหมายประการหนึ่งของระบบโฆษณาคือการทำงานให้เร็วที่สุดเท่าที่จะเป็นไปได้ เวลาตอบกลับของโมเดล ChatGPT นั้นเป็นแบบไดนามิก และเราจะไม่ชะลอการตอบกลับแชทเพื่อรอให้โฆษณาโหลด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The ad request might not arrive in time: If the ChatGPT model is ready to respond, but the ad is not yet ready to place, the ad request times out and the ad doesn’t get delivered. One goal of the ads system, therefore, is to run as fast as possible. The ChatGPT model response time is dynamic, and we don’t delay chat responses to wait for ads to load.",
+        "th": "คำขอโฆษณาอาจไม่มาถึงทันเวลา: หากโมเดล ChatGPT พร้อมที่จะตอบสนอง แต่โฆษณายังไม่พร้อมที่จะวาง คำขอโฆษณาจะหมดเวลาและโฆษณาจะไม่ถูกส่ง เป้าหมายประการหนึ่งของระบบโฆษณาคือการทำงานให้เร็วที่สุดเท่าที่จะเป็นไปได้ เวลาตอบกลับของโมเดล ChatGPT นั้นเป็นแบบไดนามิก และเราจะไม่ชะลอการตอบกลับแชทเพื่อรอให้โฆษณาโหลด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If all of the above checks are met, we send the ad to the frontend for rendering. We consider this a server-side ad delivery, but we still might not show the ad to the user—and this is by design.",
+        "th": "หากเป็นไปตามการตรวจสอบข้างต้นทั้งหมด เราจะส่งโฆษณาไปที่ส่วนหน้าเพื่อแสดงผล เราถือว่านี่เป็นการแสดงโฆษณาฝั่งเซิร์ฟเวอร์ แต่เรายังคงอาจไม่แสดงโฆษณาต่อผู้ใช้ และนี่เป็นไปตามการออกแบบ"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The final step: showing the ads to the user",
+        "th": "ขั้นตอนสุดท้าย: การแสดงโฆษณาต่อผู้ใช้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In a conversational product like ChatGPT, server-side delivery of an ad creative does not guarantee an ad will be displayed; the ad must also arrive in time to be included in the current turn. The ad creative includes the title, description, destination link, and any call to action. Additionally, a model-generated preamble, which is a short, neutral introduction explaining how the ad relates to the conversation, is also returned by the ads system. Keeping the preamble separate from the creative preserves the advertiser’s message while keeping ChatGPT’s voice neutral.",
+        "th": "ในผลิตภัณฑ์เชิงสนทนา เช่น ChatGPT การแสดงโฆษณาฝั่งเซิร์ฟเวอร์ไม่ได้รับประกันว่าโฆษณาจะแสดง โฆษณาจะต้องมาถึงทันเวลาจึงจะรวมไว้ในเทิร์นปัจจุบัน โฆษณาประกอบด้วยชื่อ คำอธิบาย ลิงก์ปลายทาง และคำกระตุ้นการตัดสินใจ นอกจากนี้ คำนำที่สร้างโดยโมเดลซึ่งเป็นการแนะนำสั้นๆ ที่เป็นกลางซึ่งอธิบายว่าโฆษณาเกี่ยวข้องกับการสนทนาอย่างไรนั้น จะถูกส่งกลับโดยระบบโฆษณาด้วย การแยกคำนำออกจากครีเอทีฟโฆษณาจะรักษาข้อความของผู้ลงโฆษณา ในขณะเดียวกันก็รักษาเสียงของ ChatGPT ให้เป็นกลาง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The ChatGPT frontend receives the preamble and ad creative as a bundle. If it arrives before ChatGPT's response is fully generated, the frontend displays the ad below ChatGPT’s response, clearly labeled as sponsored. If it arrives too late, the ad is not shown for that turn. This is the difference between server-side ad delivery and a user-facing ad impression.",
+        "th": "ส่วนหน้า ChatGPT ได้รับคำนำและครีเอทีฟโฆษณาเป็นกลุ่ม หากมาถึงก่อนที่จะสร้างการตอบกลับของ ChatGPT โดยสมบูรณ์ ส่วนหน้าจะแสดงโฆษณาด้านล่างการตอบกลับของ ChatGPT โดยมีป้ายกำกับชัดเจนว่าได้รับการสนับสนุน หากมาถึงช้าเกินไป โฆษณาจะไม่แสดงสำหรับเทิร์นนั้น นี่คือความแตกต่างระหว่างการแสดงโฆษณาฝั่งเซิร์ฟเวอร์และการแสดงโฆษณาที่ผู้ใช้เห็น"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6vmYf9DmmKLaEK7tpg4fcl/81d90e06c50c558a5196fb4b91fb3cc9/selecting-ads-desktop-light.svg?w=3840&q=90",
+      "alt": "Sequence diagram showing an ad winner prepared by the serving system, final checks by ChatGPT, display in the user experience, and acknowledgements that distinguish selection from successful delivery."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Winner selection and delivery are separate events. A selected ad becomes a delivery only after ChatGPT approves and displays the placement and the delivery is acknowledged.",
+        "th": "การคัดเลือกผู้ชนะและการส่งมอบเป็นกิจกรรมที่แยกจากกัน โฆษณาที่เลือกจะกลายเป็นการแสดงโฆษณาหลังจากที่ ChatGPT อนุมัติและแสดงตำแหน่งและยอมรับการแสดงโฆษณาแล้วเท่านั้น"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What happens after the ad is shown",
+        "th": "จะเกิดอะไรขึ้นหลังจากที่โฆษณาแสดง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our advertising stack uses traditional logging and data pipelines, which have three main benefits: advertisers can more easily integrate their existing systems with our stack, advertisers can improve their strategies with the reporting data, and our team can find areas of the system to improve. Beyond these reporting and optimization tools, we deploy a high quality model to evaluate our delivery and train other ads models, creating a powerful self-improvement loop.",
+        "th": "กลุ่มโฆษณาของเราใช้การบันทึกและไปป์ไลน์ข้อมูลแบบดั้งเดิม ซึ่งมีคุณประโยชน์หลักสามประการ: ผู้ลงโฆษณาสามารถรวมระบบที่มีอยู่เข้ากับกลุ่มของเราได้ง่ายขึ้น ผู้ลงโฆษณาสามารถปรับปรุงกลยุทธ์ของตนด้วยข้อมูลการรายงาน และทีมของเราสามารถค้นหาส่วนต่างๆ ของระบบที่จะปรับปรุงได้ นอกเหนือจากเครื่องมือการรายงานและการเพิ่มประสิทธิภาพเหล่านี้แล้ว เรายังใช้โมเดลคุณภาพสูงเพื่อประเมินการแสดงโฆษณาของเราและฝึกอบรมโมเดลโฆษณาอื่นๆ เพื่อสร้างวงจรการพัฒนาตนเองที่มีประสิทธิภาพ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Detailed breakdowns of what happened help us understand and improve each part of the ad system in isolation. The logs processing system also records granular outcomes such as:",
+        "th": "รายละเอียดสิ่งที่เกิดขึ้นช่วยให้เราเข้าใจและปรับปรุงระบบโฆษณาแต่ละส่วนแยกกัน ระบบประมวลผลบันทึกยังบันทึกผลลัพธ์แบบละเอียด เช่น:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The turn was not eligible for advertising.",
+        "th": "เทิร์นไม่มีสิทธิ์สำหรับการโฆษณา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The turn was not eligible for advertising.",
+        "th": "เทิร์นไม่มีสิทธิ์สำหรับการโฆษณา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "An ads session started but no retrieval was requested.",
+        "th": "เซสชันโฆษณาเริ่มต้นขึ้นแต่ไม่มีการเรียกข้อมูลใดๆ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An ads session started but no retrieval was requested.",
+        "th": "เซสชันโฆษณาเริ่มต้นขึ้นแต่ไม่มีการเรียกข้อมูลใดๆ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Retrieval returned no candidates.",
+        "th": "การเรียกค้นกลับไม่มีผู้สมัคร"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Retrieval returned no candidates.",
+        "th": "การเรียกค้นกลับไม่มีผู้สมัคร"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Candidates were retrieved but failed hydration or eligibility.",
+        "th": "ผู้สมัครถูกเรียกค้นแล้ว แต่ล้มเหลวในการให้น้ำหรือมีคุณสมบัติเหมาะสม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Candidates were retrieved but failed hydration or eligibility.",
+        "th": "ผู้สมัครถูกเรียกค้นแล้ว แต่ล้มเหลวในการให้น้ำหรือมีคุณสมบัติเหมาะสม"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "An ad was delivered and later received an interaction.",
+        "th": "มีการแสดงโฆษณาและได้รับการโต้ตอบในภายหลัง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An ad was delivered and later received an interaction.",
+        "th": "มีการแสดงโฆษณาและได้รับการโต้ตอบในภายหลัง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These detailed breakdowns help us improve each part of the ad serving system in isolation. Improving opportunity detection requires different evidence from improving retrieval, candidate quality, auction participation, or delivery reliability.",
+        "th": "รายละเอียดโดยละเอียดเหล่านี้ช่วยให้เราปรับปรุงแต่ละส่วนของระบบการแสดงโฆษณาแบบแยกส่วนได้ การปรับปรุงการตรวจจับโอกาสต้องใช้หลักฐานที่แตกต่างจากการปรับปรุงการดึงข้อมูล คุณภาพผู้สมัคร การเข้าร่วมการประมูล หรือความน่าเชื่อถือในการส่งมอบ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1pmJyqwks8d8KQ97APZQ5o/5b7b9af4998894ef42b394adaf19bb90/privacy-desktop-light.svg?w=3840&q=90",
+      "alt": "Flow diagram showing an eligible ChatGPT turn producing product, ads serving, and quality outcomes that pass through privacy-controlled analytics to aggregate measurement and permitted model-improvement data."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Delivery, serving, and quality systems observe a different part of the lifecycle. Privacy-controlled processing determines what may be used for measurement and model improvement.",
+        "th": "ระบบการจัดส่ง การให้บริการ และระบบคุณภาพจะสังเกตส่วนต่างๆ ของวงจรชีวิต การประมวลผลที่ควบคุมความเป็นส่วนตัวจะกำหนดสิ่งที่อาจใช้สำหรับการวัดและการปรับปรุงแบบจำลอง"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "High-power models evaluate and improve the entire stack",
+        "th": "โมเดลกำลังสูงจะประเมินและปรับปรุงสแต็กทั้งหมด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The idea behind model-based evaluation is that our strongest, highest-reasoning models watch and judge the results of our system, then improve the post-trained LLM by training it to perform better. For instance, we can use smaller, more efficient models or lower-reasoning models for orchestration or retrieval if our most powerful model gathers feedback and trains these small workers to do the best job possible.",
+        "th": "แนวคิดเบื้องหลังการประเมินตามแบบจำลองคือโมเดลที่แข็งแกร่งที่สุดและมีเหตุผลสูงสุดจะคอยดูและตัดสินผลลัพธ์ของระบบของเรา จากนั้นจึงปรับปรุง LLM หลังการฝึกอบรมโดยการฝึกอบรมให้ทำงานได้ดีขึ้น ตัวอย่างเช่น เราสามารถใช้แบบจำลองที่เล็กกว่าและมีประสิทธิภาพมากกว่า หรือแบบจำลองที่มีเหตุผลต่ำกว่าสำหรับการเตรียมการหรือดึงข้อมูล หากแบบจำลองที่ทรงพลังที่สุดของเรารวบรวมคำติชมและฝึกคนงานขนาดเล็กเหล่านี้ให้ทำงานได้ดีที่สุดเท่าที่จะเป็นไปได้"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Human feedback steers tasteful direction",
+        "th": "เสียงตอบรับจากมนุษย์เป็นตัวกำหนดทิศทางอย่างมีรสนิยม"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We gather and act on human feedback (clicks and hides from users), as well as surveys for users and direct feedback from advertisers through our Ads Manager. We also make our team available for feedback as we build, and directly listen to what both ChatGPT users and advertisers want. This source of feedback informs our direction even more than the model’s observational feedback and is part of what allowed us to iterate toward the right product decisions quickly. The model may be able to understand user intent and think critically to deliver something valuable, but people shape taste.",
+        "th": "เรารวบรวมและดำเนินการตามความคิดเห็นของมนุษย์ (การคลิกและซ่อนจากผู้ใช้) รวมถึงแบบสำรวจสำหรับผู้ใช้และข้อเสนอแนะโดยตรงจากผู้ลงโฆษณาผ่านตัวจัดการโฆษณาของเรา นอกจากนี้เรายังทำให้ทีมของเราพร้อมรับข้อเสนอแนะในขณะที่เราสร้าง และรับฟังสิ่งที่ทั้งผู้ใช้ ChatGPT และผู้ลงโฆษณาต้องการโดยตรง แหล่งที่มาของความคิดเห็นนี้แจ้งทิศทางของเราได้มากกว่าความคิดเห็นจากการสังเกตของโมเดล และเป็นส่วนหนึ่งของสิ่งที่ช่วยให้เราสามารถวนซ้ำไปสู่การตัดสินใจผลิตภัณฑ์ที่ถูกต้องได้อย่างรวดเร็ว โมเดลนี้อาจเข้าใจจุดประสงค์ของผู้ใช้และคิดอย่างมีวิจารณญาณในการส่งมอบสิ่งที่มีคุณค่า แต่ผู้คนกำหนดรสนิยมได้"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What’s next",
+        "th": "What’s next"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A year ago, we had no ads system and only a few people thinking about this problem space. Now we have a robust ads system powering more than $1 billion in annualized run rate, with an LLM-based orchestrator running the ads flow. Codex was a fundamental force multiplier that allowed us to bootstrap our system to achieve this major usage milestone with unparalleled speed. From the start, we set up the team and development workflows to use Codex to rapidly build and scale the system. We built guardrails for Codex to reliably and safely ship code. In parallel, we set up data infrastructure plugins for Codex to massively tighten the loop of insight gathering and landing improvements to the system, including new product features, quality improvements, and better system performance.",
+        "th": "ปีที่แล้ว เราไม่มีระบบโฆษณาและมีเพียงไม่กี่คนที่คิดถึงประเด็นปัญหานี้ ขณะนี้ เรามีระบบโฆษณาที่มีประสิทธิภาพซึ่งขับเคลื่อนอัตราการดำเนินการต่อปีมากกว่า 1 พันล้านเหรียญสหรัฐ โดยมีผู้เรียบเรียงที่ใช้ LLM เป็นผู้ดำเนินการโฟลว์โฆษณา Codex เป็นตัวคูณแรงพื้นฐานที่ช่วยให้เราสามารถบูตระบบของเราเพื่อบรรลุหลักชัยการใช้งานหลักนี้ด้วยความเร็วที่ไม่มีใครเทียบได้ ตั้งแต่เริ่มต้น เราได้ตั้งค่าทีมและเวิร์กโฟลว์การพัฒนาเพื่อใช้ Codex เพื่อสร้างและปรับขนาดระบบอย่างรวดเร็ว เราสร้างราวกั้นสำหรับ Codex เพื่อจัดส่งรหัสได้อย่างน่าเชื่อถือและปลอดภัย ในขณะเดียวกัน เราได้ตั้งค่าปลั๊กอินโครงสร้างพื้นฐานข้อมูลสำหรับ Codex เพื่อกระชับวงการรวบรวมข้อมูลเชิงลึกและการปรับปรุงระบบให้แน่นขึ้นอย่างหนาแน่น รวมถึงคุณสมบัติผลิตภัณฑ์ใหม่ การปรับปรุงคุณภาพ และประสิทธิภาพของระบบที่ดีขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The combination of our system’s boundaries (grounded in our advertising principles⁠) and our LLM-based orchestrator lets us make advertising useful without treating every conversation as an ad request. Looking ahead, we’ll continue to experiment with more dynamic ad formats to increase user value (e.g. giving users the ability to talk directly to businesses through ads) and advertiser value. The stack’s self-improving architecture, built on OpenAI models with continuous feedback loops will accelerate our ability to keep improving relevance and personalization over time.",
+        "th": "การรวมกันของขอบเขตของระบบของเรา (ตามหลักการการโฆษณาของเรา⁠) และผู้เรียบเรียงที่ใช้ LLM ของเราช่วยให้เราสร้างการโฆษณาที่มีประโยชน์โดยไม่ต้องถือว่าทุกการสนทนาเป็นคำขอโฆษณา เมื่อมองไปข้างหน้า เราจะทดลองรูปแบบโฆษณาแบบไดนามิกมากขึ้นต่อไปเพื่อเพิ่มมูลค่าให้กับผู้ใช้ (เช่น ทำให้ผู้ใช้สามารถพูดคุยกับธุรกิจได้โดยตรงผ่านโฆษณา) และมูลค่าของผู้ลงโฆษณา สถาปัตยกรรมการปรับปรุงตนเองของสแต็กที่สร้างขึ้นบนโมเดล OpenAI พร้อมลูปข้อเสนอแนะอย่างต่อเนื่องจะช่วยเร่งความสามารถของเราในการปรับปรุงความเกี่ยวข้องและความเป็นส่วนตัวเมื่อเวลาผ่านไป"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ChatGPT",
+        "th": "ChatGPT"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Authors",
+        "th": "Authors"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2X23NOb0P4V1KDzUBkeNpl/888204b45a1c84ddfa24c9ed31111a9c/OAI_HabitatPT1_Art_Card_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "Scaling Storage for 1 Billion ChatGPT Users (Part I) card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EngineeringSep 11, 2026",
+        "th": "วิศวกรรม 11 ก.ย. 2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/26K8mLbrpbaDvoFY0NrE04/8e4ad0b3f28042c22d6d5130bd4f4019/jalapeno-art-card.png?w=3840&q=90&fm=webp",
+      "alt": "Jalapeño inference — Art Card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EngineeringAug 25, 2026",
+        "th": "วิศวกรรม 25 ส.ค. 2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3PyfDzfjOozLbJnaZIkRLD/6aef080bb4e7d6a6b8a6dc23436848db/gpt-live-art-card.png?w=3840&q=90&fm=webp",
+      "alt": "Continuous voice interaction with GPT Live - art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EngineeringAug 3, 2026",
+        "th": "วิศวกรรม 3 ส.ค. 2569"
+      }
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "openai__openai-models-google-cloud",
+  "slug": "openai-models-google-cloud",
+  "source": "openai",
+  "url": "https://openai.com/index/openai-models-google-cloud",
+  "category": "Company",
+  "date": "2026-10-21T12:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "OpenAI models are coming to Google Cloud",
+    "th": "โมเดล OpenAI กำลังจะมาใน Google Cloud"
+  },
+  "summary": {
+    "en": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+    "th": "OpenAI และ Google Cloud กำลังนำโมเดลระดับแนวหน้าและเวิร์กโฟลว์ Codex มาสู่ Model Garden ของ Gemini ซึ่งมีให้บริการผ่าน Google Cloud Marketplace"
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "October 21, 2026",
+        "th": "21 ตุลาคม 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI and Google Cloud⁠(opens in a new window) are partnering to bring OpenAI’s frontier models and Codex⁠(opens in a new window) agentic workflows into Google Cloud’s Model Garden. The integration will give customers native access to these models to power complex agentic workflows at scale, backed by Google Cloud’s data governance and high-performance infrastructure.",
+        "th": "OpenAI และ Google Cloud (เปิดในหน้าต่างใหม่) กำลังร่วมมือกันเพื่อนำโมเดลระดับแนวหน้าของ OpenAI และเวิร์กโฟลว์เอเจนต์ Codex (เปิดในหน้าต่างใหม่) มาไว้ใน Model Garden ของ Google Cloud การผสานรวมนี้จะทำให้ลูกค้าสามารถเข้าถึงโมเดลเหล่านี้ได้แบบเนทีฟเพื่อขับเคลื่อนเวิร์กโฟลว์เอเจนต์ที่ซับซ้อนในวงกว้าง โดยได้รับการสนับสนุนจากการกำกับดูแลข้อมูลของ Google Cloud และโครงสร้างพื้นฐานประสิทธิภาพสูง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Google Cloud’s longstanding investment in machine learning and AI has made it a destination for AI workloads and the developers and data scientists building them. Bringing OpenAI models to its model garden gives these teams access to OpenAI’s frontier models within the environment where they already work, enabling enterprises to modernize their software development lifecycle, build agentic workflows, and change how people work.",
+        "th": "การลงทุนอันยาวนานของ Google Cloud ในด้านแมชชีนเลิร์นนิงและ AI ทำให้ Google Cloud เป็นจุดหมายปลายทางสำหรับปริมาณงาน AI รวมถึงนักพัฒนาและนักวิทยาศาสตร์ข้อมูลที่สร้างภาระงานเหล่านี้ การนำโมเดล OpenAI มาสู่สวนโมเดลทำให้ทีมเหล่านี้สามารถเข้าถึงโมเดลระดับแนวหน้าของ OpenAI ภายในสภาพแวดล้อมที่พวกเขาทำงานอยู่แล้ว ช่วยให้องค์กรต่างๆ ปรับปรุงวงจรการพัฒนาซอฟต์แวร์ให้ทันสมัย ​​สร้างเวิร์กโฟลว์แบบเอเจนต์ และเปลี่ยนแปลงวิธีการทำงานของผู้คน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For organizations in regulated industries, deploying AI requires control over who can access sensitive data and how it is used. The integration will pair OpenAI’s frontier models with Google Cloud’s built-in access controls, centralized data governance, and high-performance infrastructure to support demanding enterprise workloads.",
+        "th": "สำหรับองค์กรในอุตสาหกรรมที่มีการควบคุม การปรับใช้ AI จำเป็นต้องมีการควบคุมว่าใครสามารถเข้าถึงข้อมูลที่ละเอียดอ่อนและวิธีการใช้งาน การบูรณาการจะจับคู่โมเดลแนวหน้าของ OpenAI กับการควบคุมการเข้าถึงในตัวของ Google Cloud การกำกับดูแลข้อมูลแบบรวมศูนย์ และโครงสร้างพื้นฐานประสิทธิภาพสูงเพื่อรองรับปริมาณงานขององค์กรที่มีความต้องการสูง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Google Cloud customers will be able to purchase OpenAI frontier models via model garden, transacted through the Google Cloud Marketplace. Enterprises with Google Cloud spend commitments will be able to draw down their GCP commitments for these purchases.",
+        "th": "ลูกค้า Google Cloud จะสามารถซื้อโมเดลชายแดนของ OpenAI ผ่านทาง Model Garden ซึ่งทำธุรกรรมผ่าน Google Cloud Marketplace องค์กรที่มีข้อผูกพันการใช้จ่ายของ Google Cloud จะสามารถดึงข้อผูกพัน GCP สำหรับการซื้อเหล่านี้ได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Additionally, OpenAI models will soon be available in Google Antigravity and the Gemini Agent, providing enterprise customers with model choice flexibility and the best model for each task. By expanding access through Google Cloud, we are giving enterprises greater choice in how they discover and use frontier models, with a path from evaluation to broader adoption.",
+        "th": "นอกจากนี้ โมเดล OpenAI จะพร้อมใช้งานใน Google Antigravity และ Gemini Agent เร็วๆ นี้ เพื่อให้ลูกค้าองค์กรมีความยืดหยุ่นในการเลือกแบบจำลองและเป็นแบบจำลองที่ดีที่สุดสำหรับแต่ละงาน การขยายการเข้าถึงผ่าน Google Cloud ช่วยให้องค์กรมีทางเลือกมากขึ้นในการค้นหาและใช้โมเดลขอบเขต พร้อมเส้นทางตั้งแต่การประเมินไปจนถึงการนำไปใช้ในวงกว้าง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Greg Brockman",
+        "th": "เกร็ก บร็อคแมน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Thomas Kurian",
+        "th": "โธมัส คูเรียน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Greg Brockman",
+        "th": "เกร็ก บร็อคแมน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Thomas Kurian",
+        "th": "โธมัส คูเรียน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "General availability is planned in the coming weeks. Request access to OpenAI on Google Cloud here.",
+        "th": "ความพร้อมใช้งานทั่วไปมีการวางแผนในอีกไม่กี่สัปดาห์ข้างหน้า ขอเข้าถึง OpenAI บน Google Cloud ที่นี่"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Microsoft remains OpenAI’s primary cloud partner.",
+        "th": "Microsoft ยังคงเป็นพันธมิตรระบบคลาวด์หลักของ OpenAI"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Partnerships",
+        "th": "Partnerships"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Codex",
+        "th": "Codex"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7zjGwFPBZMvK6zwFSMVWRm/6721ac33e5b1aaf88a9b705a3d10c90a/OAI_Oracle_Partnership_1x1_Art_Card.png?w=3840&q=90&fm=webp",
+      "alt": "Oracle partnership 1x1 art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanyJun 10, 2026",
+        "th": "บริษัท10มิ.ย.2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6bPStWA6pc66cahnhg0jo6/61786b178401b6e902e9da65fa4da095/Blog_Thumbnail_-_OpenAI_Blog.png?w=3840&q=90&fm=webp",
+      "alt": "Our commitment to Zero Data Retention as AI advances — card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanyAug 19, 2026",
+        "th": "บริษัท19 ส.ค.2569"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2iQBiqMQEsAlEMnWTgmkaM/ea72c00d0563d60b861c17fffc548d31/Frame.png?w=3840&q=90&fm=webp",
+      "alt": "From assistance to execution: How enterprises put AI to work > Cover image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanyAug 12, 2026",
+        "th": "บริษัท12 ส.ค.2569"
+      }
+    }
+  ]
+}

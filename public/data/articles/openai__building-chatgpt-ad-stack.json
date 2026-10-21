@@ -284,8 +284,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Building our ads system required us to move beyond the request-response advertising architecture and build an ads stack from scratch to find potential economic opportunities while prioritizing user trust or value.",
-        "th": "การสร้างระบบโฆษณาของเราทำให้เราต้องก้าวไปไกลกว่าสถาปัตยกรรมการโฆษณาที่ตอบสนองต่อคำขอ และสร้างกลุ่มโฆษณาตั้งแต่ต้นเพื่อค้นหาโอกาสทางเศรษฐกิจที่อาจเกิดขึ้นในขณะเดียวกันก็ให้ความสำคัญกับความไว้วางใจหรือมูลค่าของผู้ใช้"
+        "en": "Building our ads system required us to move beyond the request-response advertising architecture and build an ads stack from scratch to find potential economic opportunities while prioritizing user trust and value.",
+        "th": "การสร้างระบบโฆษณาของเราทำให้เราต้องก้าวไปไกลกว่าสถาปัตยกรรมการโฆษณาที่ตอบสนองต่อคำขอ และสร้างกลุ่มโฆษณาตั้งแต่ต้นเพื่อค้นหาโอกาสทางเศรษฐกิจที่อาจเกิดขึ้น ขณะเดียวกันก็ให้ความสำคัญกับความไว้วางใจและมูลค่าของผู้ใช้"
       }
     },
     {
@@ -305,8 +305,8 @@
     {
       "type": "p",
       "text": {
-        "en": "The ads selection process runs alongside ChatGPT’s normal response generation to ensure the ads flow doesn’t influence ChatGPT’s responses. Ads are filtered and selected through a separate system consuming the conversation under its own eligibility, quality, and delivery constraints. This important architectural boundary—different services that use separate models and separate code— lets core ChatGPT servers handle generating the organic response; meanwhile, the ads system independently evaluates whether there’s an appropriate advertising opportunity and, if so, prepares a sponsored placement through a separate serving process.",
-        "th": "กระบวนการเลือกโฆษณาทำงานควบคู่ไปกับการสร้างการตอบสนองตามปกติของ ChatGPT เพื่อให้แน่ใจว่ากระแสโฆษณาจะไม่ส่งผลต่อการตอบสนองของ ChatGPT โฆษณาจะถูกกรองและเลือกผ่านระบบแยกต่างหากที่ใช้การสนทนาภายใต้คุณสมบัติ คุณภาพ และข้อจำกัดในการแสดงโฆษณาของตัวเอง ขอบเขตทางสถาปัตยกรรมที่สำคัญนี้—บริการที่แตกต่างกันซึ่งใช้โมเดลที่แยกจากกันและโค้ดที่แยกจากกัน— ช่วยให้เซิร์ฟเวอร์หลัก ChatGPT สามารถจัดการสร้างการตอบสนองแบบออร์แกนิกได้ ในขณะเดียวกัน ระบบโฆษณาจะประเมินอย่างอิสระว่ามีโอกาสในการโฆษณาที่เหมาะสมหรือไม่ และหากเป็นเช่นนั้น จะเตรียมตำแหน่งที่ได้รับการสนับสนุนผ่านขั้นตอนการให้บริการที่แยกต่างหาก"
+        "en": "The ads selection process runs alongside ChatGPT’s normal response generation to ensure the ads flow doesn’t influence ChatGPT’s responses. Ads are filtered and selected through a separate system consuming the conversation under its own eligibility, quality, and delivery constraints. This important architectural boundary—different services that use separate models and separate code—lets core ChatGPT servers handle generating the organic response; meanwhile, the ads system independently evaluates whether there’s an appropriate advertising opportunity and, if so, prepares a sponsored placement through a separate serving process.",
+        "th": "The ads selection process runs alongside ChatGPT’s normal response generation to ensure the ads flow doesn’t influence ChatGPT’s responses. Ads are filtered and selected through a separate system consuming the conversation under its own eligibility, quality, and delivery constraints. This important architectural boundary—different services that use separate models and separate code—lets core ChatGPT servers handle generating the organic response; meanwhile, the ads system independently evaluates whether there’s an appropriate advertising opportunity and, if so, prepares a sponsored placement through a separate serving process."
       }
     },
     {
@@ -797,8 +797,8 @@
     {
       "type": "p",
       "text": {
-        "en": "The combination of our system’s boundaries (grounded in our advertising principles⁠) and our LLM-based orchestrator lets us make advertising useful without treating every conversation as an ad request. Looking ahead, we’ll continue to experiment with more dynamic ad formats to increase user value (e.g. giving users the ability to talk directly to businesses through ads) and advertiser value. The stack’s self-improving architecture, built on OpenAI models with continuous feedback loops will accelerate our ability to keep improving relevance and personalization over time.",
-        "th": "การรวมกันของขอบเขตของระบบของเรา (ตามหลักการการโฆษณาของเรา⁠) และผู้เรียบเรียงที่ใช้ LLM ของเราช่วยให้เราสร้างการโฆษณาที่มีประโยชน์โดยไม่ต้องถือว่าทุกการสนทนาเป็นคำขอโฆษณา เมื่อมองไปข้างหน้า เราจะทดลองรูปแบบโฆษณาแบบไดนามิกมากขึ้นต่อไปเพื่อเพิ่มมูลค่าให้กับผู้ใช้ (เช่น ทำให้ผู้ใช้สามารถพูดคุยกับธุรกิจได้โดยตรงผ่านโฆษณา) และมูลค่าของผู้ลงโฆษณา สถาปัตยกรรมการปรับปรุงตนเองของสแต็กที่สร้างขึ้นบนโมเดล OpenAI พร้อมลูปข้อเสนอแนะอย่างต่อเนื่องจะช่วยเร่งความสามารถของเราในการปรับปรุงความเกี่ยวข้องและความเป็นส่วนตัวเมื่อเวลาผ่านไป"
+        "en": "The combination of our system’s boundaries (grounded in our advertising principles⁠) and our LLM-based orchestrator lets us make advertising useful without treating every conversation as an ad request. Looking ahead, we’ll continue to experiment with more dynamic ad formats to increase user value (e.g. giving users the ability to talk directly to businesses through ads) and advertiser value. The stack’s self-improving architecture, built on OpenAI models with continuous feedback loops, will accelerate our ability to keep improving relevance and personalization over time.",
+        "th": "The combination of our system’s boundaries (grounded in our advertising principles⁠) and our LLM-based orchestrator lets us make advertising useful without treating every conversation as an ad request. Looking ahead, we’ll continue to experiment with more dynamic ad formats to increase user value (e.g. giving users the ability to talk directly to businesses through ads) and advertiser value. The stack’s self-improving architecture, built on OpenAI models with continuous feedback loops, will accelerate our ability to keep improving relevance and personalization over time."
       }
     },
     {

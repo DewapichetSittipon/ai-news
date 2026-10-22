@@ -124,7 +124,7 @@
     },
     {
       "type": "img",
-      "src": "/avatars/a4a7560c008247b50f2a85ea373fdc9f.svg",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6a5ea6e2d2e985541cd038ea/GXenvxWteAvhQ3D0YjiFB.jpeg",
       "alt": "Ardrian Wong's avatar"
     },
     {
@@ -294,13 +294,6 @@
       }
     },
     {
-      "type": "p",
-      "text": {
-        "en": "![Overview of the NVIDIA Kumo Relational system: (a) database integration, (b) a prompting interface that turns natural language into a predictive query, and (c) automatic context generation feeding the NVIDIA Kumo Relational model, which scales horizontally across tenants.]",
-        "th": "![Overview of the NVIDIA Kumo Relational system: (a) database integration, (b) a prompting interface that turns natural language into a predictive query, and (c) automatic context generation feeding the NVIDIA Kumo Relational model, which scales horizontally across tenants.]"
-      }
-    },
-    {
       "type": "img",
       "src": "https://cdn-uploads.huggingface.co/production/uploads/6ad8e88370f69967fafc8703/FY-lkWrNmBYRFrosRD2Le.png",
       "alt": "kumo-relational-architecture"
@@ -317,13 +310,6 @@
       "text": {
         "en": "To make a prediction, Kumo Relational has to do three things: (1) understand the values within each table, (2) relate records across tables, and (3) relate context examples with known targets to the entity being predicted. Here is how it works:",
         "th": "To make a prediction, Kumo Relational has to do three things: (1) understand the values within each table, (2) relate records across tables, and (3) relate context examples with known targets to the entity being predicted. Here is how it works:"
-      }
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "![Kumo Relational architecture: (a) context input with task, users, orders and items tables; (b) column and row attention within tables with injected context targets; (c) graph attention and cross-sample attention across tables.]",
-        "th": "![Kumo Relational architecture: (a) context input with task, users, orders and items tables; (b) column and row attention within tables with injected context targets; (c) graph attention and cross-sample attention across tables.]"
       }
     },
     {
@@ -563,8 +549,8 @@
     {
       "type": "p",
       "text": {
-        "en": "We thank the entire Kumo team for their invaluable support. Special thanks go to Josh Przybylko, Adi Wadaskar, Hema Raghavan, Manush Murali, Raja Rao DV, Keti Jovanovska, Zack Drach, Vanja Josifovski, Myungwhan Kim, Blaž Stojanovič, Siyang Xie, Alan Krumholz, Effy Fang, Abdullah Al-chihabi, Disha Dubey, Devan Johnson, Joseph Oliveira, Angela Liu, Miha Pelko, Vedaant Jain, Sally Liu, Aleksandar S. Sokolovski, Alex Porter, and Ramona Bendias.",
-        "th": "We thank the entire Kumo team for their invaluable support. Special thanks go to Josh Przybylko, Adi Wadaskar, Hema Raghavan, Manush Murali, Raja Rao DV, Keti Jovanovska, Zack Drach, Vanja Josifovski, Myungwhan Kim, Blaž Stojanovič, Siyang Xie, Alan Krumholz, Effy Fang, Abdullah Al-chihabi, Disha Dubey, Devan Johnson, Joseph Oliveira, Angela Liu, Miha Pelko, Vedaant Jain, Sally Liu, Aleksandar S. Sokolovski, Alex Porter, and Ramona Bendias."
+        "en": "We thank the entire Kumo team for their invaluable support. Special thanks go to Adi Wadaskar, Hema Raghavan, Manush Murali, Zack Drach, Vanja Josifovski, Myungwhan Kim, Siyang Xie, Alan Krumholz, Effy Fang, Abdullah Al-chihabi, Disha Dubey, Devan Johnson, Joseph Oliveira, Angela Liu, Miha Pelko, Vedaant Jain, Sally Liu, Aleksandar S. Sokolovski, Alex Porter, and Ramona Bendias.",
+        "th": "We thank the entire Kumo team for their invaluable support. Special thanks go to Adi Wadaskar, Hema Raghavan, Manush Murali, Zack Drach, Vanja Josifovski, Myungwhan Kim, Siyang Xie, Alan Krumholz, Effy Fang, Abdullah Al-chihabi, Disha Dubey, Devan Johnson, Joseph Oliveira, Angela Liu, Miha Pelko, Vedaant Jain, Sally Liu, Aleksandar S. Sokolovski, Alex Porter, and Ramona Bendias."
       }
     },
     {

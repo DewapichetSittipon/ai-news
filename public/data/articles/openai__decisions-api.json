@@ -1,0 +1,653 @@
+{
+  "id": "openai__decisions-api",
+  "slug": "decisions-api",
+  "source": "openai",
+  "url": "https://openai.com/index/decisions-api",
+  "category": "Product",
+  "date": "2026-10-22T19:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Build more responsive apps with the Decisions API",
+    "th": "Build more responsive apps with the Decisions API"
+  },
+  "summary": {
+    "en": "Fast, focused, low-cost decisions for any application.",
+    "th": "Fast, focused, low-cost decisions for any application."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "October 22, 2026",
+        "th": "October 22, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Fast, focused, low-cost decisions for any application.",
+        "th": "Fast, focused, low-cost decisions for any application."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How teams are using the Decisions API",
+        "th": "How teams are using the Decisions API"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Select the type of decision your application needs",
+        "th": "Select the type of decision your application needs"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Build real-time voice experiences with the Decisions API and GPT-Live",
+        "th": "Build real-time voice experiences with the Decisions API and GPT-Live"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Try Decisions with GPT-Live for yourself",
+        "th": "Try Decisions with GPT-Live for yourself"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Build and evaluate your first decision",
+        "th": "Build and evaluate your first decision"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How teams are using the Decisions API",
+        "th": "How teams are using the Decisions API"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Select the type of decision your application needs",
+        "th": "Select the type of decision your application needs"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Build real-time voice experiences with the Decisions API and GPT-Live",
+        "th": "Build real-time voice experiences with the Decisions API and GPT-Live"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Try Decisions with GPT-Live for yourself",
+        "th": "Try Decisions with GPT-Live for yourself"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Build and evaluate your first decision",
+        "th": "Build and evaluate your first decision"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Applications and agents make many small decisions throughout a workflow: how to classify an input, where to route a request, or which action to take next. Individually, they are simple. At scale, their latency and cost add up.",
+        "th": "Applications and agents make many small decisions throughout a workflow: how to classify an input, where to route a request, or which action to take next. Individually, they are simple. At scale, their latency and cost add up."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re making the Decisions API generally available. Built with GPT‑6 Luna, the Decisions API focuses Luna’s intelligence on questions with bounded answers, helping applications and agents make near real-time decisions from text, images, and structured inputs up to 10x faster than GPT‑6 Luna through the Responses API.",
+        "th": "Today, we’re making the Decisions API generally available. Built with GPT‑6 Luna, the Decisions API focuses Luna’s intelligence on questions with bounded answers, helping applications and agents make near real-time decisions from text, images, and structured inputs up to 10x faster than GPT‑6 Luna through the Responses API."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Since public beta, we’ve added a native GPT‑Live integration, prompt caching for reused context, and inference residency in the US and EU. Developers can also pass native JSON inputs, include images in question instructions, and ask up to 400 questions per request, twice the previous limit. We’ve also continued to improve latency, including additional capacity in several regions in Asia.",
+        "th": "Since public beta, we’ve added a native GPT‑Live integration, prompt caching for reused context, and inference residency in the US and EU. Developers can also pass native JSON inputs, include images in question instructions, and ask up to 400 questions per request, twice the previous limit. We’ve also continued to improve latency, including additional capacity in several regions in Asia."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How teams are using the Decisions API",
+        "th": "How teams are using the Decisions API"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Early adoption of Decisions has shown its applicability across a variety of use cases.",
+        "th": "Early adoption of Decisions has shown its applicability across a variety of use cases."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Across OpenAI, teams are applying the Decisions API across product and business workflows. The dots team is using it to reduce response times and improve interactivity. Our Personal Finance team is using it to categorize transaction descriptions, while our Communications team is using Decisions to classify coverage by the themes and scores whether it reinforces or challenges key narratives—helping identify what warrants closer review.",
+        "th": "Across OpenAI, teams are applying the Decisions API across product and business workflows. The dots team is using it to reduce response times and improve interactivity. Our Personal Finance team is using it to categorize transaction descriptions, while our Communications team is using Decisions to classify coverage by the themes and scores whether it reinforces or challenges key narratives—helping identify what warrants closer review."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These early examples show how fast, structured decision-making can turn incoming information into useful action across a wide range of use cases. Customers are applying the Decisions API just as broadly, from accurately attributing AI costs to making language-learning experiences more interactive.",
+        "th": "These early examples show how fast, structured decision-making can turn incoming information into useful action across a wide range of use cases. Customers are applying the Decisions API just as broadly, from accurately attributing AI costs to making language-learning experiences more interactive."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Box",
+        "th": "Box"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Datadog",
+        "th": "Datadog"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Ramp",
+        "th": "Ramp"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Sierra",
+        "th": "Sierra"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Speak",
+        "th": "Speak"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Box",
+        "th": "Box"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Datadog",
+        "th": "Datadog"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Ramp",
+        "th": "Ramp"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Sierra",
+        "th": "Sierra"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Speak",
+        "th": "Speak"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Select the type of decision your application needs",
+        "th": "Select the type of decision your application needs"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using the Decisions API is simple: developers define a question and its allowed answers, then provide context as text, images, or native JSON. The API returns one of three supported answer types—a probability, choice, or score—that applications can use to determine what happens next. The variety of answer types allows Decisions to be applicable across a wide variety of use cases. Decisions API supports three answer types:",
+        "th": "Using the Decisions API is simple: developers define a question and its allowed answers, then provide context as text, images, or native JSON. The API returns one of three supported answer types—a probability, choice, or score—that applications can use to determine what happens next. The variety of answer types allows Decisions to be applicable across a wide variety of use cases. Decisions API supports three answer types:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Type",
+        "th": "Type"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Use it to",
+        "th": "Use it to"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Main result",
+        "th": "Main result"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "predicate",
+        "th": "predicate"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Estimate the probability that a condition is true, such as whether a product has visible damage.",
+        "th": "Estimate the probability that a condition is true, such as whether a product has visible damage."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "probability: an estimate from 0 to 1 that the condition is true.",
+        "th": "probability: an estimate from 0 to 1 that the condition is true."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "choice",
+        "th": "choice"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Select one of your predefined options, such as whether an agent should continue, retry, or ask for clarification.",
+        "th": "Select one of your predefined options, such as whether an agent should continue, retry, or ask for clarification."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "choice: one of your supplied values. The response also includes probabilities and confidence.",
+        "th": "choice: one of your supplied values. The response also includes probabilities and confidence."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "score",
+        "th": "score"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Rate an input against ordered levels in a rubric, such as the severity of damage.",
+        "th": "Rate an input against ordered levels in a rubric, such as the severity of damage."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "score: the probability-weighted average of the level indices.",
+        "th": "score: the probability-weighted average of the level indices."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Build real-time voice experiences with the Decisions API and GPT‑Live",
+        "th": "Build real-time voice experiences with the Decisions API and GPT‑Live"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With GPT‑Live, you can bring natural, expressive conversation to your voice applications, with smooth interruption handling that keeps conversations flowing. Decisions API now integrates natively with GPT‑Live⁠(opens in a new window), helping applications make fast, focused decisions during live conversations. A customer support agent can decide whether to ask a clarifying question, route a request, or escalate an issue. An avatar can adjust its facial expressions as a user speaks to it, and based on the user’s words, respond with a wink or a smile to create a more interactive experience.",
+        "th": "With GPT‑Live, you can bring natural, expressive conversation to your voice applications, with smooth interruption handling that keeps conversations flowing. Decisions API now integrates natively with GPT‑Live⁠(opens in a new window), helping applications make fast, focused decisions during live conversations. A customer support agent can decide whether to ask a clarifying question, route a request, or escalate an issue. An avatar can adjust its facial expressions as a user speaks to it, and based on the user’s words, respond with a wink or a smile to create a more interactive experience."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The example below uses transcript updates to select an avatar’s expression. Add this configuration to session.triggers in an existing GPT‑Live session.",
+        "th": "The example below uses transcript updates to select an avatar’s expression. Add this configuration to session.triggers in an existing GPT‑Live session."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Live emits a decision.event; the application reads the selected reaction and animates the character accordingly. Learn more about connecting voice to Decisions API. ⁠(opens in a new window)",
+        "th": "Live emits a decision.event; the application reads the selected reaction and animates the character accordingly. Learn more about connecting voice to Decisions API. ⁠(opens in a new window)"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Try Decisions with GPT‑Live for yourself",
+        "th": "Try Decisions with GPT‑Live for yourself"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/_next/static/immutable/media/neutral.0e2e43zp24lhc.webp",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/_next/static/immutable/media/thinking-bulb.1z1_50iiwd5ra.webp",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Microphone off until you start",
+        "th": "Microphone off until you start"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Connecting",
+        "th": "Connecting"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Session ends in 0:00",
+        "th": "Session ends in 0:00"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Session ended. Start again if you'd like to keep talking.",
+        "th": "Session ended. Start again if you'd like to keep talking."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Microphone off until you start",
+        "th": "Microphone off until you start"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Expression palette",
+        "th": "Expression palette"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Tap a face to preview it.",
+        "th": "Tap a face to preview it."
+      }
+    },
+    {
+      "type": "img",
+      "src": "/_next/static/immutable/media/curious.1z8d03c0o-3de.webp?w=96&q=90&fm=webp",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/_next/static/immutable/media/delighted.3o_81fgq98onp.webp?w=96&q=90&fm=webp",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/_next/static/immutable/media/surprised.3rw2p6nwkx66y.webp?w=96&q=90&fm=webp",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/_next/static/immutable/media/thinking-palette.1z5po-ddh-20f.webp?w=96&q=90&fm=webp",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/_next/static/immutable/media/empathetic.0mexjnh3muccz.webp?w=96&q=90&fm=webp",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/_next/static/immutable/media/mischievous.0piy4jm2de8n-.webp?w=96&q=90&fm=webp",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/_next/static/immutable/media/neutral.0e2e43zp24lhc.webp?w=96&q=90&fm=webp",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Live decisions",
+        "th": "Live decisions"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Watch as the Decisions API chooses a facial expression based on what each of you says.",
+        "th": "Watch as the Decisions API chooses a facial expression based on what each of you says."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Your words",
+        "th": "Your words"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Watch the reaction as you speak.",
+        "th": "Watch the reaction as you speak."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Assistant’s words",
+        "th": "Assistant’s words"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Watch the face as the assistant replies.",
+        "th": "Watch the face as the assistant replies."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Try saying",
+        "th": "Try saying"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "I rehearsed my audition for my cat. She walked out halfway through.",
+        "th": "I rehearsed my audition for my cat. She walked out halfway through."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "I have a secret. Lean in a little closer.",
+        "th": "I have a secret. Lean in a little closer."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Actually, my sister got the part. It’s her first show!",
+        "th": "Actually, my sister got the part. It’s her first show!"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "I’m nervous about tomorrow. Can you sit with me?",
+        "th": "I’m nervous about tomorrow. Can you sit with me?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "I just got the part! Can you celebrate with me?",
+        "th": "I just got the part! Can you celebrate with me?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Look surprised, then tell me what you saw.",
+        "th": "Look surprised, then tell me what you saw."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Could you search the web for the next meteor shower?",
+        "th": "Could you search the web for the next meteor shower?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "I rehearsed my audition for my cat. She walked out halfway through.",
+        "th": "I rehearsed my audition for my cat. She walked out halfway through."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This demo is time-limited. By using it, you agree to OpenAI's Terms⁠ and acknowledge our Privacy Policy⁠.",
+        "th": "This demo is time-limited. By using it, you agree to OpenAI's Terms⁠ and acknowledge our Privacy Policy⁠."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Build and evaluate your first decision",
+        "th": "Build and evaluate your first decision"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Decisions API is generally available today with GPT‑6 Luna through the dedicated Decisions endpoint. See the pricing and availability guide⁠(opens in a new window) for current rates and caching details.",
+        "th": "Decisions API is generally available today with GPT‑6 Luna through the dedicated Decisions endpoint. See the pricing and availability guide⁠(opens in a new window) for current rates and caching details."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Start with one recurring decision your application makes often. Define the question, the possible answers, and the context needed to distinguish them. Test it on examples that reflect real usage, in the Decisions Playground⁠(opens in a new window) with your own text or images, or follow the developer guide⁠(opens in a new window) to make your first request.",
+        "th": "Start with one recurring decision your application makes often. Define the question, the possible answers, and the context needed to distinguish them. Test it on examples that reflect real usage, in the Decisions Playground⁠(opens in a new window) with your own text or images, or follow the developer guide⁠(opens in a new window) to make your first request."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Decisions API costs $0.10 per million input tokens. Cached input costs $0.01 per million tokens. For 30-minute and 12-hour cached writes, read our pricing guide.⁠(opens in a new window) You only pay for input tokens: there are no output-token charges. Regional processing is available in the US and EU, and Zero Data Retention⁠(opens in a new window) is available to eligible customers. See pricing and caching⁠(opens in a new window) and data controls ⁠(opens in a new window)for details.",
+        "th": "Decisions API costs $0.10 per million input tokens. Cached input costs $0.01 per million tokens. For 30-minute and 12-hour cached writes, read our pricing guide.⁠(opens in a new window) You only pay for input tokens: there are no output-token charges. Regional processing is available in the US and EU, and Zero Data Retention⁠(opens in a new window) is available to eligible customers. See pricing and caching⁠(opens in a new window) and data controls ⁠(opens in a new window)for details."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "API",
+        "th": "API"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4HANTuYDvaT04gpR91bEQ9/885481304c5675cb7525bcccbe8c5580/gpt-6-sol-luna-art.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing GPT-6 Sol and Luna — Art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductSep 22, 2026",
+        "th": "ProductSep 22, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6iP1bamSOXsPLwzFAepmx2/8b8fec31ba235a13ee695a607d7fe641/cover-image.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing the Agents API — cover image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductSep 10, 2026",
+        "th": "ProductSep 10, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/72ZKzMh8JgRDfdg4EYRtwY/ee5e406a08b69f00b0beb4ac00270364/7kneoqlc2qh37z1utkmtfk-cover-v1.png?w=3840&q=90&fm=webp",
+      "alt": "Better prompt caching for GPT-6 — Card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductSep 22, 2026",
+        "th": "ProductSep 22, 2026"
+      }
+    }
+  ]
+}

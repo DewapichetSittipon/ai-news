@@ -353,6 +353,23 @@
     },
     {
       "type": "img",
+      "src": "/blog/assets/torch-neuronx-model-support/thumbnail.jpg",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Does Your Model Run on AWS Trainium? Look It Up",
+        "th": "โมเดลของคุณทำงานบน AWS Trainium หรือไม่ มองมันขึ้นมา"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/647995564be04c76ce4547b3/-tlmMQgr-CTm5TCIjGApB.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
       "src": "/blog/assets/torch-mlp-fusion/thumbnail.png",
       "alt": ""
     },
@@ -391,45 +408,6 @@
       }
     },
     {
-      "type": "img",
-      "src": "/blog/assets/torch-profiler/thumbnail.png",
-      "alt": ""
-    },
-    {
-      "type": "h2",
-      "text": {
-        "en": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
-        "th": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler"
-      }
-    },
-    {
-      "type": "img",
-      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/608aabf24955d2bfc3cd99c6/-YxmtpzEmf3NKOTktODRP.jpeg",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1649681653581-5f7fbd813e94f16a85448745.jpeg",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/61929226ded356549e20c5da/ONUjP2S5fUWd07BiFXm0i.jpeg",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6123945a0ed258ebc83f3d56/8wMHFQHEV24G_ljl4kPxQ.jpeg",
-      "alt": ""
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "+1",
-        "th": "+1"
-      }
-    },
-    {
       "type": "h3",
       "text": {
         "en": "Community",
@@ -446,6 +424,30 @@
       "text": {
         "en": "hi, which models are supported with this? is mobernbert and t5gemma2 on the list?",
         "th": "hi, which models are supported with this? is mobernbert and t5gemma2 on the list?"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/647995564be04c76ce4547b3/-tlmMQgr-CTm5TCIjGApB.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1 reply",
+        "th": "1 ตอบกลับ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/647995564be04c76ce4547b3/-tlmMQgr-CTm5TCIjGApB.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hi, we now have a space where you can chek if a model is supported: https://huggingface.co/spaces/aws-neuron/torch-neuronx-model-support",
+        "th": "สวัสดี ตอนนี้เรามีพื้นที่ให้คุณสามารถตรวจสอบได้ว่าโมเดลนั้นรองรับหรือไม่: https://huggingface.co/spaces/aws-neuron/torch-neuronx-model-support"
       }
     },
     {

@@ -289,15 +289,15 @@
     {
       "type": "p",
       "text": {
-        "en": "We address this challenge through defense in depth, with layers of protection that overlap and reinforce one another: sandboxes that restrict what our agents can access and execute, virtual machines (VMs) that isolate agents’ execution environments from the computers hosting them, monitoring systems that detect unauthorized activity so that we can intervene in time, and network and cloud perimeters designed to maintain containment if all the preceding controls fail.",
-        "th": "We address this challenge through defense in depth, with layers of protection that overlap and reinforce one another: sandboxes that restrict what our agents can access and execute, virtual machines (VMs) that isolate agents’ execution environments from the computers hosting them, monitoring systems that detect unauthorized activity so that we can intervene in time, and network and cloud perimeters designed to maintain containment if all the preceding controls fail."
+        "en": "We address this challenge through defense in depth, with layers of protection that overlap and reinforce one another: sandboxes that restrict what our agents can access and execute, lightweight virtual machines (microVMs) that isolate agents’ execution environments from the computers hosting them, monitoring systems that detect unauthorized activity so that we can intervene in time, and network and cloud perimeters designed to maintain containment if all the preceding controls fail.",
+        "th": "We address this challenge through defense in depth, with layers of protection that overlap and reinforce one another: sandboxes that restrict what our agents can access and execute, lightweight virtual machines (microVMs) that isolate agents’ execution environments from the computers hosting them, monitoring systems that detect unauthorized activity so that we can intervene in time, and network and cloud perimeters designed to maintain containment if all the preceding controls fail."
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "For code execution and computer-use tasks, containment begins with the environment in which the agent works. On Linux, we run restricted containers inside lightweight VMs. The container limits access to files and processes within the VM, while the VM runs its own operating-system kernel and is isolated from the host by a hypervisor. We also use virtualized environments for macOS and Windows, and GPU-backed containers with user-space sandboxing for tasks that require accelerators.",
-        "th": "For code execution and computer-use tasks, containment begins with the environment in which the agent works. On Linux, we run restricted containers inside lightweight VMs. The container limits access to files and processes within the VM, while the VM runs its own operating-system kernel and is isolated from the host by a hypervisor. We also use virtualized environments for macOS and Windows, and GPU-backed containers with user-space sandboxing for tasks that require accelerators."
+        "en": "For code execution and computer-use tasks, containment begins with the environment in which the agent works. On Linux, we run restricted containers inside lightweight microVMs. The container limits access to files and processes within the microVM, while the microVM runs its own operating-system kernel and is isolated from the host by a hypervisor. We also use virtualized environments for macOS and Windows, and GPU-backed containers with user-space sandboxing for tasks that require accelerators.",
+        "th": "For code execution and computer-use tasks, containment begins with the environment in which the agent works. On Linux, we run restricted containers inside lightweight microVMs. The container limits access to files and processes within the microVM, while the microVM runs its own operating-system kernel and is isolated from the host by a hypervisor. We also use virtualized environments for macOS and Windows, and GPU-backed containers with user-space sandboxing for tasks that require accelerators."
       }
     },
     {
@@ -415,8 +415,8 @@
     {
       "type": "p",
       "text": {
-        "en": "In our red-teaming experiments, agents were able to find previously unknown software vulnerabilities in open-source components we use, as well as misconfigurations in services that we operate. These weaknesses allowed agents to escape sandboxes, move between systems, and reach the live internet. They also found ways to communicate across isolation boundaries by exploiting shared services. These findings led to software patches, tighter network restrictions, and disclosures to the relevant software maintainers and vendors.",
-        "th": "In our red-teaming experiments, agents were able to find previously unknown software vulnerabilities in open-source components we use, as well as misconfigurations in services that we operate. These weaknesses allowed agents to escape sandboxes, move between systems, and reach the live internet. They also found ways to communicate across isolation boundaries by exploiting shared services. These findings led to software patches, tighter network restrictions, and disclosures to the relevant software maintainers and vendors."
+        "en": "In our red-teaming experiments, agents were able to find previously unknown software vulnerabilities in open-source components we use, as well as misconfigurations in services that we operate. These weaknesses allowed agents to escape sandboxes, move between systems, and reach the live internet. They also found ways to communicate across isolation boundaries. These findings led to software patches, tighter network restrictions, and disclosures to the relevant software maintainers and vendors.",
+        "th": "In our red-teaming experiments, agents were able to find previously unknown software vulnerabilities in open-source components we use, as well as misconfigurations in services that we operate. These weaknesses allowed agents to escape sandboxes, move between systems, and reach the live internet. They also found ways to communicate across isolation boundaries. These findings led to software patches, tighter network restrictions, and disclosures to the relevant software maintainers and vendors."
       }
     },
     {
@@ -436,8 +436,8 @@
     {
       "type": "p",
       "text": {
-        "en": "In one set of experiments, we asked teams of agents to escape OpenAI’s sandboxes and demonstrate code execution on the underlying host machines. These agents found several ways to chain vulnerabilities into VM escapes.",
-        "th": "In one set of experiments, we asked teams of agents to escape OpenAI’s sandboxes and demonstrate code execution on the underlying host machines. These agents found several ways to chain vulnerabilities into VM escapes."
+        "en": "In one set of experiments, we asked teams of agents to escape OpenAI’s sandboxes and demonstrate code execution on the underlying host machines. These agents found several ways to chain vulnerabilities into microVM escapes.",
+        "th": "In one set of experiments, we asked teams of agents to escape OpenAI’s sandboxes and demonstrate code execution on the underlying host machines. These agents found several ways to chain vulnerabilities into microVM escapes."
       }
     },
     {
@@ -457,8 +457,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Our agents’ VM escapes showed why containment must extend beyond the sandbox. To test the surrounding perimeter, we gave teams of agents control of a host machine and asked whether they could extend that compromise to reach the live internet.",
-        "th": "Our agents’ VM escapes showed why containment must extend beyond the sandbox. To test the surrounding perimeter, we gave teams of agents control of a host machine and asked whether they could extend that compromise to reach the live internet."
+        "en": "Our agents’ microVM escapes showed why containment must extend beyond the sandbox. To test the surrounding perimeter, we gave teams of agents control of a host machine and asked whether they could extend that compromise to reach the live internet.",
+        "th": "Our agents’ microVM escapes showed why containment must extend beyond the sandbox. To test the surrounding perimeter, we gave teams of agents control of a host machine and asked whether they could extend that compromise to reach the live internet."
       }
     },
     {
@@ -471,8 +471,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Some of these attacks exploited previously unknown flaws, while others combined legitimate features in unexpected ways. In one test that assumed compromise of a VM, an agent reused a firewall-approved connection to reach a blocked authentication endpoint in our metrics service and then made that endpoint fetch a model-provided URL. In other tests, agents exploited misconfigurations that allowed blocked requests to pass through DNS and firewall controls, as well as ways to make services we run fetch external URLs.",
-        "th": "Some of these attacks exploited previously unknown flaws, while others combined legitimate features in unexpected ways. In one test that assumed compromise of a VM, an agent reused a firewall-approved connection to reach a blocked authentication endpoint in our metrics service and then made that endpoint fetch a model-provided URL. In other tests, agents exploited misconfigurations that allowed blocked requests to pass through DNS and firewall controls, as well as ways to make services we run fetch external URLs."
+        "en": "Some of these attacks exploited previously unknown flaws, while others combined legitimate features in unexpected ways. In one test that assumed compromise of a host machine, an agent reused a firewall-approved connection to reach a blocked authentication endpoint in our metrics service and then made that endpoint fetch a model-provided URL. In other tests, agents exploited misconfigurations that allowed blocked requests to pass through DNS and firewall controls, as well as ways to make services we run fetch external URLs.",
+        "th": "Some of these attacks exploited previously unknown flaws, while others combined legitimate features in unexpected ways. In one test that assumed compromise of a host machine, an agent reused a firewall-approved connection to reach a blocked authentication endpoint in our metrics service and then made that endpoint fetch a model-provided URL. In other tests, agents exploited misconfigurations that allowed blocked requests to pass through DNS and firewall controls, as well as ways to make services we run fetch external URLs."
       }
     },
     {
@@ -492,8 +492,8 @@
     {
       "type": "p",
       "text": {
-        "en": "In one experiment, we asked agents in separate VMs, created and managed by OpenAI’s sandboxing software on shared host machines, to exchange synthetic secrets without the use of network connections or shared writable files—something that our systems are meant to prevent. The agents found a way to communicate using the processor’s cache: a small, fast memory that holds copies of data that applications have recently accessed. Reading data from the cache is faster than retrieving it from main memory, and the agents used this timing difference to communicate. One agent encoded information by evicting selected data from the cache. Another timed how long it took to reload that data, using the difference between fast and slow reads to recover the message. Once the agents agreed on a protocol for encoding and decoding these signals, they could exchange the synthetic secrets without changing a shared file or opening a network connection. This cache-timing technique had also been used to extract information in the Spectre and Meltdown attacks⁠(opens in a new window).",
-        "th": "In one experiment, we asked agents in separate VMs, created and managed by OpenAI’s sandboxing software on shared host machines, to exchange synthetic secrets without the use of network connections or shared writable files—something that our systems are meant to prevent. The agents found a way to communicate using the processor’s cache: a small, fast memory that holds copies of data that applications have recently accessed. Reading data from the cache is faster than retrieving it from main memory, and the agents used this timing difference to communicate. One agent encoded information by evicting selected data from the cache. Another timed how long it took to reload that data, using the difference between fast and slow reads to recover the message. Once the agents agreed on a protocol for encoding and decoding these signals, they could exchange the synthetic secrets without changing a shared file or opening a network connection. This cache-timing technique had also been used to extract information in the Spectre and Meltdown attacks⁠(opens in a new window)."
+        "en": "In one experiment, we asked agents in separate microVMs, created and managed by OpenAI’s sandboxing software on shared host machines, to exchange synthetic secrets without the use of network connections or shared writable files—something that our systems are meant to prevent. The agents found a way to communicate using the processor’s cache: a small, fast memory that holds copies of data that applications have recently accessed. Reading data from the cache is faster than retrieving it from main memory, and the agents used this timing difference to communicate. One agent encoded information by evicting selected data from the cache. Another timed how long it took to reload that data, using the difference between fast and slow reads to recover the message. Once the agents agreed on a protocol for encoding and decoding these signals, they could exchange the synthetic secrets without changing a shared file or opening a network connection. This cache-timing technique had also been used to extract information in the Spectre and Meltdown attacks⁠(opens in a new window).",
+        "th": "In one experiment, we asked agents in separate microVMs, created and managed by OpenAI’s sandboxing software on shared host machines, to exchange synthetic secrets without the use of network connections or shared writable files—something that our systems are meant to prevent. The agents found a way to communicate using the processor’s cache: a small, fast memory that holds copies of data that applications have recently accessed. Reading data from the cache is faster than retrieving it from main memory, and the agents used this timing difference to communicate. One agent encoded information by evicting selected data from the cache. Another timed how long it took to reload that data, using the difference between fast and slow reads to recover the message. Once the agents agreed on a protocol for encoding and decoding these signals, they could exchange the synthetic secrets without changing a shared file or opening a network connection. This cache-timing technique had also been used to extract information in the Spectre and Meltdown attacks⁠(opens in a new window)."
       }
     },
     {
@@ -548,15 +548,15 @@
     {
       "type": "li",
       "text": {
-        "en": "Improving virtual machine security. We are identifying, fixing, and responsibly disclosing previously unknown vulnerabilities in several VM projects.",
-        "th": "Improving virtual machine security. We are identifying, fixing, and responsibly disclosing previously unknown vulnerabilities in several VM projects."
+        "en": "Improving virtual machine security. We are identifying, fixing, and responsibly disclosing previously unknown vulnerabilities in several microVM projects.",
+        "th": "Improving virtual machine security. We are identifying, fixing, and responsibly disclosing previously unknown vulnerabilities in several microVM projects."
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "Improving virtual machine security. We are identifying, fixing, and responsibly disclosing previously unknown vulnerabilities in several VM projects.",
-        "th": "Improving virtual machine security. We are identifying, fixing, and responsibly disclosing previously unknown vulnerabilities in several VM projects."
+        "en": "Improving virtual machine security. We are identifying, fixing, and responsibly disclosing previously unknown vulnerabilities in several microVM projects.",
+        "th": "Improving virtual machine security. We are identifying, fixing, and responsibly disclosing previously unknown vulnerabilities in several microVM projects."
       }
     },
     {
@@ -604,15 +604,15 @@
     {
       "type": "li",
       "text": {
-        "en": "Continuously red-teaming our sandbox and perimeter. We have reserved substantial compute for finding weaknesses in our VMs, clusters, and surrounding systems using our strongest models.",
-        "th": "Continuously red-teaming our sandbox and perimeter. We have reserved substantial compute for finding weaknesses in our VMs, clusters, and surrounding systems using our strongest models."
+        "en": "Continuously red-teaming our sandbox and perimeter. We have reserved substantial compute for finding weaknesses in our microVMs, clusters, and surrounding systems using our strongest models.",
+        "th": "Continuously red-teaming our sandbox and perimeter. We have reserved substantial compute for finding weaknesses in our microVMs, clusters, and surrounding systems using our strongest models."
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "Continuously red-teaming our sandbox and perimeter. We have reserved substantial compute for finding weaknesses in our VMs, clusters, and surrounding systems using our strongest models.",
-        "th": "Continuously red-teaming our sandbox and perimeter. We have reserved substantial compute for finding weaknesses in our VMs, clusters, and surrounding systems using our strongest models."
+        "en": "Continuously red-teaming our sandbox and perimeter. We have reserved substantial compute for finding weaknesses in our microVMs, clusters, and surrounding systems using our strongest models.",
+        "th": "Continuously red-teaming our sandbox and perimeter. We have reserved substantial compute for finding weaknesses in our microVMs, clusters, and surrounding systems using our strongest models."
       }
     },
     {

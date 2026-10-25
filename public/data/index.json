@@ -1,302 +1,13 @@
 {
-  "generatedAt": "2026-10-25T08:52:08.412Z",
+  "generatedAt": "2026-10-25T14:02:59.117Z",
   "items": [
-    {
-      "id": "anthropic__life-sciences-verification-program",
-      "slug": "life-sciences-verification-program",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
-      "category": "News",
-      "date": "2026-10-25T08:50:48.679Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Introducing the Life Sciences Verification Program",
-        "th": "Introducing the Life Sciences Verification Program"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
-      }
-    },
-    {
-      "id": "anthropic__enterprise-frontier-safeguards",
-      "slug": "enterprise-frontier-safeguards",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-      "category": "News",
-      "date": "2026-10-25T08:50:48.679Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Developing Enterprise Frontier Safeguards with our customers",
-        "th": "Developing Enterprise Frontier Safeguards with our customers"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
-      }
-    },
-    {
-      "id": "anthropic__improving-alignment-security-efforts",
-      "slug": "improving-alignment-security-efforts",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "category": "News",
-      "date": "2026-10-25T08:50:48.679Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Improving our alignment and security efforts",
-        "th": "Improving our alignment and security efforts"
-      },
-      "summary": {
-        "en": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.",
-        "th": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month."
-      }
-    },
-    {
-      "id": "anthropic__model-hardware-standard-research-preview",
-      "slug": "model-hardware-standard-research-preview",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "category": "News",
-      "date": "2026-10-25T08:50:48.679Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/5008271abbababe59f4fbb01998697f7dd0b5b60-1280x720.jpg",
-      "title": {
-        "en": "Previewing the Model Hardware Standard",
-        "th": "Previewing the Model Hardware Standard"
-      },
-      "summary": {
-        "en": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
-        "th": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers."
-      }
-    },
-    {
-      "id": "anthropic__announcements",
-      "slug": "announcements",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/announcements",
-      "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Announcements",
-        "th": "Announcements"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
-      }
-    },
-    {
-      "id": "anthropic__public-benefit-fund",
-      "slug": "public-benefit-fund",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/public-benefit-fund",
-      "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
-      "title": {
-        "en": "Investing in the public benefit",
-        "th": "Investing in the public benefit"
-      },
-      "summary": {
-        "en": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
-        "th": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows."
-      }
-    },
-    {
-      "id": "anthropic__cyber-verification-program",
-      "slug": "cyber-verification-program",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/cyber-verification-program",
-      "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Expanding the Cyber Verification Program",
-        "th": "Expanding the Cyber Verification Program"
-      },
-      "summary": {
-        "en": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
-        "th": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals."
-      }
-    },
-    {
-      "id": "anthropic__features",
-      "slug": "features",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/features",
-      "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Features",
-        "th": "Features"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
-      }
-    },
-    {
-      "id": "anthropic__donating-agent-skills-to-the-agentic-ai-foundation",
-      "slug": "donating-agent-skills-to-the-agentic-ai-foundation",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
-      "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Donating Agent Skills to the Agentic AI Foundation",
-        "th": "Donating Agent Skills to the Agentic AI Foundation"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
-      }
-    },
-    {
-      "id": "anthropic__product",
-      "slug": "product",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/product",
-      "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Product",
-        "th": "Product"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
-      }
-    },
-    {
-      "id": "anthropic__open-call-guest-investigators-life-sciences",
-      "slug": "open-call-guest-investigators-life-sciences",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
-      "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/633e51e2d75a5c14022fa48961b886553d41ce9d-1200x630.jpg",
-      "title": {
-        "en": "Open call for guest investigators in the life sciences",
-        "th": "Open call for guest investigators in the life sciences"
-      },
-      "summary": {
-        "en": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects.",
-        "th": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects."
-      }
-    },
-    {
-      "id": "anthropic__christopher-stubbs-joins-long-term-benefit-trust",
-      "slug": "christopher-stubbs-joins-long-term-benefit-trust",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
-      "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
-        "th": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust"
-      },
-      "summary": {
-        "en": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement. He has also advised the US government on national security and arms control.  “I am honored to join Anthropic’s Long-Term Benefit Trust and to help the company deliver on its public benefit mission,” said Stubbs. “I use AI tools in my research every day and see what they make possible, and as an educator I have confronted some of the hard questions they raise. As a grandfather, I want to help ensure that AI is developed and deployed for the long-term benefit of humanity.” Stubbs is the Samuel C. Moncher Professor of Physics and of Astronomy at Harvard, where he served as Dean of Science from 2018 to 2024. In 1998, as a member of the High-Z Supernova Search Team, he helped discover the accelerating expansion of the universe, work that later earned the team the Breakthrough Prize in Fundamental Physics. He was also the inaugural project scientist for what is now the Vera C. Rubin Observatory, which started a 10-year survey of the southern sky in June. One of its aims is to study the accelerating expansion he helped discover. More recently, he’s written about how to keep AI-assisted research reproducible when models can give different answers to the same question. He’s a member of JASON, an independent group of scientists who have advised the US government on defense and technology since 1960. \"When Chris found evidence that the universe was expanding at a rate no one expected, he and his team followed the data even when it went against the prevailing wisdom of the field. As AI starts to transform how science itself is done, Chris’s intellectual honesty, rigor, and commitment to the truth are the values we want shaping the future of this technology, and I’m grateful he’s bringing his deep expertise to the Trust,\" said Daniela Amodei, Co-founder and President of Anthropic. Anthropic is a Public Benefit Corporation, which means we’re structured to balance commercial growth with our public benefit purpose. The Trust exists to help us hold that balance over the long term. It has the authority to appoint a majority of Anthropic’s board, and Trustees advise the board and our leadership on critical decisions, particularly those involving risks and societal impacts of AI.  This week we published our first Public Benefit Report [link], a public account of how we’re working toward our mission and where we’re falling short. The Trustees helped define the five mission pillars it measures us against, and the report closes with their assessment of our progress to date. Subject to stockholder approval, we’ve also committed to setting aside a portion of Anthropic’s shares to Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.  “Anthropic's Public Benefit Report sets out what we’re all working toward: helping the world build powerful AI safely, and making sure the technology drives advances that meaningfully improve people’s lives and society as a whole,” added Neil Buddy Shah, Chair of the Long-Term Benefit Trust. “Both goals depend on a deep understanding of frontier science and leading with integrity. Not only has Chris worked on some of the hardest problems in science, but he has consistently been a high-integrity leader of large, complex, collaborative scientific endeavors across academia, government, and the national laboratories. That will be of great value to the Trust as we support Anthropic in developing AI for the long-term benefit of humanity.” Stubbs, the Trust’s first physicist, joins Shah, national security expert Richard Fontaine, and former Federal Reserve Chair Ben Bernanke. Trustees are independent of the company’s management and investors.",
-        "th": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement. He has also advised the US government on national security and arms control. “I am honored to join Anthropic’s Long-Term Benefit Trust and to help the company deliver on its public benefit mission,” said Stubbs. “I use AI tools in my research every day and see what they make possible, and as an educator I have confronted some of the hard questions they raise. As a grandfather, I want to help ensure that AI is developed and deployed for the long-term benefit of humanity.” Stubbs is the Samuel C. Moncher Professor of Physics and of Astronomy at Harvard, where he served as Dean of Science from 2018 to 2024. In 1998, as a member of the High-Z Supernova Search Team, he helped discover the accelerating expansion of the universe, work that later earned the team the Breakthrough Prize in Fundamental Physics. He was also the inaugural project scientist for what is now the Vera C. Rubin Observatory, which started a 10-year survey of the southern sky in June. One of its aims is to study the accelerating expansion he helped discover. More recently, he’s written about how to keep AI-assisted research reproducible when models can give different answers to the same question. He’s a member of JASON, an independent group of scientists who have advised the US government on defense and technology since 1960. \"When Chris found evidence that the universe was expanding at a rate no one expected, he and his team followed the data even when it went against the prevailing wisdom of the field. As AI starts to transform how science itself is done, Chris’s intellectual honesty, rigor, and commitment to the truth are the values we want shaping the future of this technology, and I’m grateful he’s bringing his deep expertise to the Trust,\" said Daniela Amodei, Co-founder and President of Anthropic. Anthropic is a Public Benefit Corporation, which means we’re structured to balance commercial growth with our public benefit purpose. The Trust exists to help us hold that balance over the long term. It has the authority to appoint a majority of Anthropic’s board, and Trustees advise the board and our leadership on critical decisions, particularly those involving risks and societal impacts of AI. This week we published our first Public Benefit Report [link], a public account of how we’re working toward our mission and where we’re falling short. The Trustees helped define the five mission pillars it measures us against, and the report closes with their assessment of our progress to date. Subject to stockholder approval, we’ve also committed to setting aside a portion of Anthropic’s shares to Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. “Anthropic's Public Benefit Report sets out what we’re all working toward: helping the world build powerful AI safely, and making sure the technology drives advances that meaningfully improve people’s lives and society as a whole,” added Neil Buddy Shah, Chair of the Long-Term Benefit Trust. “Both goals depend on a deep understanding of frontier science and leading with integrity. Not only has Chris worked on some of the hardest problems in science, but he has consistently been a high-integrity leader of large, complex, collaborative scientific endeavors across academia, government, and the national laboratories. That will be of great value to the Trust as we support Anthropic in developing AI for the long-term benefit of humanity.” Stubbs, the Trust’s first physicist, joins Shah, national security expert Richard Fontaine, and former Federal Reserve Chair Ben Bernanke. Trustees are independent of the company’s management and investors."
-      }
-    },
-    {
-      "id": "anthropic__an-update-on-independent-evaluators",
-      "slug": "an-update-on-independent-evaluators",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-      "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2e351e6311a0ada8ea4a0304ce6cda39243eaf4-1200x630.jpg",
-      "title": {
-        "en": "An update on independent evaluators",
-        "th": "An update on independent evaluators"
-      },
-      "summary": {
-        "en": "Anthropic announces updates to embedding independent evaluators",
-        "th": "Anthropic announces updates to embedding independent evaluators"
-      }
-    },
-    {
-      "id": "anthropic__policy",
-      "slug": "policy",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/policy",
-      "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Policy",
-        "th": "Policy"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
-      }
-    },
-    {
-      "id": "anthropic__2026-us-midterms",
-      "slug": "2026-us-midterms",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/2026-us-midterms",
-      "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/609927c7af2a454cedad848e4b2adc980c1f5fe6-2000x1125.jpg",
-      "title": {
-        "en": "Preparing for the 2026 US midterms",
-        "th": "Preparing for the 2026 US midterms"
-      },
-      "summary": {
-        "en": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.",
-        "th": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms."
-      }
-    },
-    {
-      "id": "anthropic__safeguards",
-      "slug": "safeguards",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/safeguards",
-      "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Safeguards",
-        "th": "Safeguards"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
-      }
-    },
-    {
-      "id": "anthropic__singapore-office-opening",
-      "slug": "singapore-office-opening",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/singapore-office-opening",
-      "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
-        "th": "Anthropic opens Singapore office and signs MOU with the Government of Singapore"
-      },
-      "summary": {
-        "en": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.",
-        "th": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption."
-      }
-    },
     {
       "id": "anthropic__distillation-defenses",
       "slug": "distillation-defenses",
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/distillation-defenses",
       "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
+      "date": "2026-10-25T14:01:46.503Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a5934d1ae8428b2a97fae1963a5f427594fc7202-1200x630.jpg",
       "title": {
         "en": "Strengthening our defenses against distillation attacks",
@@ -313,7 +24,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
       "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
+      "date": "2026-10-25T14:01:46.503Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2af4f6715cbe9766a47430a24420cfca0a2c588-1200x630.jpg",
       "title": {
         "en": "Introducing the Anthropic Cyber Mission",
@@ -330,7 +41,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/security",
       "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
+      "date": "2026-10-25T14:01:46.503Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Security",
@@ -347,7 +58,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/2026-usage-policy-update",
       "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
+      "date": "2026-10-25T14:01:46.503Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "2026 Usage Policy update",
@@ -364,7 +75,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/genesis-mission-commitment",
       "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
+      "date": "2026-10-25T14:01:46.503Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Building on our commitment to American scientific discovery",
@@ -381,7 +92,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/partnerships",
       "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
+      "date": "2026-10-25T14:01:46.503Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Partnerships",
@@ -398,7 +109,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/claude-frontier-academy",
       "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
+      "date": "2026-10-25T14:01:46.503Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
@@ -415,7 +126,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/barclays-scales-claude",
       "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
+      "date": "2026-10-25T14:01:46.503Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Barclays scales Claude to upgrade operations and improve client experience",
@@ -432,7 +143,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
       "category": "News",
-      "date": "2026-10-25T08:50:48.678Z",
+      "date": "2026-10-25T14:01:46.503Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Partnering with Accenture on embedded evaluation",
@@ -441,6 +152,295 @@
       "summary": {
         "en": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
         "th": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years."
+      }
+    },
+    {
+      "id": "anthropic__life-sciences-verification-program",
+      "slug": "life-sciences-verification-program",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "category": "News",
+      "date": "2026-10-25T14:01:46.503Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Introducing the Life Sciences Verification Program",
+        "th": "Introducing the Life Sciences Verification Program"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+      }
+    },
+    {
+      "id": "anthropic__enterprise-frontier-safeguards",
+      "slug": "enterprise-frontier-safeguards",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "category": "News",
+      "date": "2026-10-25T14:01:46.503Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Developing Enterprise Frontier Safeguards with our customers",
+        "th": "Developing Enterprise Frontier Safeguards with our customers"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+      }
+    },
+    {
+      "id": "anthropic__improving-alignment-security-efforts",
+      "slug": "improving-alignment-security-efforts",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "category": "News",
+      "date": "2026-10-25T14:01:46.503Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Improving our alignment and security efforts",
+        "th": "Improving our alignment and security efforts"
+      },
+      "summary": {
+        "en": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.",
+        "th": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month."
+      }
+    },
+    {
+      "id": "anthropic__model-hardware-standard-research-preview",
+      "slug": "model-hardware-standard-research-preview",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "category": "News",
+      "date": "2026-10-25T14:01:46.503Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/5008271abbababe59f4fbb01998697f7dd0b5b60-1280x720.jpg",
+      "title": {
+        "en": "Previewing the Model Hardware Standard",
+        "th": "Previewing the Model Hardware Standard"
+      },
+      "summary": {
+        "en": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
+        "th": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers."
+      }
+    },
+    {
+      "id": "anthropic__announcements",
+      "slug": "announcements",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/announcements",
+      "category": "News",
+      "date": "2026-10-25T14:01:46.502Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Announcements",
+        "th": "Announcements"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+      }
+    },
+    {
+      "id": "anthropic__public-benefit-fund",
+      "slug": "public-benefit-fund",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "category": "News",
+      "date": "2026-10-25T14:01:46.502Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+      "title": {
+        "en": "Investing in the public benefit",
+        "th": "Investing in the public benefit"
+      },
+      "summary": {
+        "en": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+        "th": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows."
+      }
+    },
+    {
+      "id": "anthropic__cyber-verification-program",
+      "slug": "cyber-verification-program",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/cyber-verification-program",
+      "category": "News",
+      "date": "2026-10-25T14:01:46.502Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Expanding the Cyber Verification Program",
+        "th": "Expanding the Cyber Verification Program"
+      },
+      "summary": {
+        "en": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+        "th": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals."
+      }
+    },
+    {
+      "id": "anthropic__features",
+      "slug": "features",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/features",
+      "category": "News",
+      "date": "2026-10-25T14:01:46.502Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Features",
+        "th": "Features"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+      }
+    },
+    {
+      "id": "anthropic__donating-agent-skills-to-the-agentic-ai-foundation",
+      "slug": "donating-agent-skills-to-the-agentic-ai-foundation",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "category": "News",
+      "date": "2026-10-25T14:01:46.502Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Donating Agent Skills to the Agentic AI Foundation",
+        "th": "Donating Agent Skills to the Agentic AI Foundation"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+      }
+    },
+    {
+      "id": "anthropic__product",
+      "slug": "product",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/product",
+      "category": "News",
+      "date": "2026-10-25T14:01:46.502Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Product",
+        "th": "Product"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+      }
+    },
+    {
+      "id": "anthropic__open-call-guest-investigators-life-sciences",
+      "slug": "open-call-guest-investigators-life-sciences",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+      "category": "News",
+      "date": "2026-10-25T14:01:46.502Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/633e51e2d75a5c14022fa48961b886553d41ce9d-1200x630.jpg",
+      "title": {
+        "en": "Open call for guest investigators in the life sciences",
+        "th": "Open call for guest investigators in the life sciences"
+      },
+      "summary": {
+        "en": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects.",
+        "th": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects."
+      }
+    },
+    {
+      "id": "anthropic__christopher-stubbs-joins-long-term-benefit-trust",
+      "slug": "christopher-stubbs-joins-long-term-benefit-trust",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+      "category": "News",
+      "date": "2026-10-25T14:01:46.502Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+        "th": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust"
+      },
+      "summary": {
+        "en": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement. He has also advised the US government on national security and arms control.  “I am honored to join Anthropic’s Long-Term Benefit Trust and to help the company deliver on its public benefit mission,” said Stubbs. “I use AI tools in my research every day and see what they make possible, and as an educator I have confronted some of the hard questions they raise. As a grandfather, I want to help ensure that AI is developed and deployed for the long-term benefit of humanity.” Stubbs is the Samuel C. Moncher Professor of Physics and of Astronomy at Harvard, where he served as Dean of Science from 2018 to 2024. In 1998, as a member of the High-Z Supernova Search Team, he helped discover the accelerating expansion of the universe, work that later earned the team the Breakthrough Prize in Fundamental Physics. He was also the inaugural project scientist for what is now the Vera C. Rubin Observatory, which started a 10-year survey of the southern sky in June. One of its aims is to study the accelerating expansion he helped discover. More recently, he’s written about how to keep AI-assisted research reproducible when models can give different answers to the same question. He’s a member of JASON, an independent group of scientists who have advised the US government on defense and technology since 1960. \"When Chris found evidence that the universe was expanding at a rate no one expected, he and his team followed the data even when it went against the prevailing wisdom of the field. As AI starts to transform how science itself is done, Chris’s intellectual honesty, rigor, and commitment to the truth are the values we want shaping the future of this technology, and I’m grateful he’s bringing his deep expertise to the Trust,\" said Daniela Amodei, Co-founder and President of Anthropic. Anthropic is a Public Benefit Corporation, which means we’re structured to balance commercial growth with our public benefit purpose. The Trust exists to help us hold that balance over the long term. It has the authority to appoint a majority of Anthropic’s board, and Trustees advise the board and our leadership on critical decisions, particularly those involving risks and societal impacts of AI.  This week we published our first Public Benefit Report [link], a public account of how we’re working toward our mission and where we’re falling short. The Trustees helped define the five mission pillars it measures us against, and the report closes with their assessment of our progress to date. Subject to stockholder approval, we’ve also committed to setting aside a portion of Anthropic’s shares to Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.  “Anthropic's Public Benefit Report sets out what we’re all working toward: helping the world build powerful AI safely, and making sure the technology drives advances that meaningfully improve people’s lives and society as a whole,” added Neil Buddy Shah, Chair of the Long-Term Benefit Trust. “Both goals depend on a deep understanding of frontier science and leading with integrity. Not only has Chris worked on some of the hardest problems in science, but he has consistently been a high-integrity leader of large, complex, collaborative scientific endeavors across academia, government, and the national laboratories. That will be of great value to the Trust as we support Anthropic in developing AI for the long-term benefit of humanity.” Stubbs, the Trust’s first physicist, joins Shah, national security expert Richard Fontaine, and former Federal Reserve Chair Ben Bernanke. Trustees are independent of the company’s management and investors.",
+        "th": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement. He has also advised the US government on national security and arms control. “I am honored to join Anthropic’s Long-Term Benefit Trust and to help the company deliver on its public benefit mission,” said Stubbs. “I use AI tools in my research every day and see what they make possible, and as an educator I have confronted some of the hard questions they raise. As a grandfather, I want to help ensure that AI is developed and deployed for the long-term benefit of humanity.” Stubbs is the Samuel C. Moncher Professor of Physics and of Astronomy at Harvard, where he served as Dean of Science from 2018 to 2024. In 1998, as a member of the High-Z Supernova Search Team, he helped discover the accelerating expansion of the universe, work that later earned the team the Breakthrough Prize in Fundamental Physics. He was also the inaugural project scientist for what is now the Vera C. Rubin Observatory, which started a 10-year survey of the southern sky in June. One of its aims is to study the accelerating expansion he helped discover. More recently, he’s written about how to keep AI-assisted research reproducible when models can give different answers to the same question. He’s a member of JASON, an independent group of scientists who have advised the US government on defense and technology since 1960. \"When Chris found evidence that the universe was expanding at a rate no one expected, he and his team followed the data even when it went against the prevailing wisdom of the field. As AI starts to transform how science itself is done, Chris’s intellectual honesty, rigor, and commitment to the truth are the values we want shaping the future of this technology, and I’m grateful he’s bringing his deep expertise to the Trust,\" said Daniela Amodei, Co-founder and President of Anthropic. Anthropic is a Public Benefit Corporation, which means we’re structured to balance commercial growth with our public benefit purpose. The Trust exists to help us hold that balance over the long term. It has the authority to appoint a majority of Anthropic’s board, and Trustees advise the board and our leadership on critical decisions, particularly those involving risks and societal impacts of AI. This week we published our first Public Benefit Report [link], a public account of how we’re working toward our mission and where we’re falling short. The Trustees helped define the five mission pillars it measures us against, and the report closes with their assessment of our progress to date. Subject to stockholder approval, we’ve also committed to setting aside a portion of Anthropic’s shares to Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. “Anthropic's Public Benefit Report sets out what we’re all working toward: helping the world build powerful AI safely, and making sure the technology drives advances that meaningfully improve people’s lives and society as a whole,” added Neil Buddy Shah, Chair of the Long-Term Benefit Trust. “Both goals depend on a deep understanding of frontier science and leading with integrity. Not only has Chris worked on some of the hardest problems in science, but he has consistently been a high-integrity leader of large, complex, collaborative scientific endeavors across academia, government, and the national laboratories. That will be of great value to the Trust as we support Anthropic in developing AI for the long-term benefit of humanity.” Stubbs, the Trust’s first physicist, joins Shah, national security expert Richard Fontaine, and former Federal Reserve Chair Ben Bernanke. Trustees are independent of the company’s management and investors."
+      }
+    },
+    {
+      "id": "anthropic__an-update-on-independent-evaluators",
+      "slug": "an-update-on-independent-evaluators",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "category": "News",
+      "date": "2026-10-25T14:01:46.502Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2e351e6311a0ada8ea4a0304ce6cda39243eaf4-1200x630.jpg",
+      "title": {
+        "en": "An update on independent evaluators",
+        "th": "An update on independent evaluators"
+      },
+      "summary": {
+        "en": "Anthropic announces updates to embedding independent evaluators",
+        "th": "Anthropic announces updates to embedding independent evaluators"
+      }
+    },
+    {
+      "id": "anthropic__policy",
+      "slug": "policy",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/policy",
+      "category": "News",
+      "date": "2026-10-25T14:01:46.502Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Policy",
+        "th": "Policy"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+      }
+    },
+    {
+      "id": "anthropic__2026-us-midterms",
+      "slug": "2026-us-midterms",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/2026-us-midterms",
+      "category": "News",
+      "date": "2026-10-25T14:01:46.502Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/609927c7af2a454cedad848e4b2adc980c1f5fe6-2000x1125.jpg",
+      "title": {
+        "en": "Preparing for the 2026 US midterms",
+        "th": "Preparing for the 2026 US midterms"
+      },
+      "summary": {
+        "en": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.",
+        "th": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms."
+      }
+    },
+    {
+      "id": "anthropic__safeguards",
+      "slug": "safeguards",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/safeguards",
+      "category": "News",
+      "date": "2026-10-25T14:01:46.502Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Safeguards",
+        "th": "Safeguards"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+      }
+    },
+    {
+      "id": "anthropic__singapore-office-opening",
+      "slug": "singapore-office-opening",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "category": "News",
+      "date": "2026-10-25T14:01:46.502Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+        "th": "Anthropic opens Singapore office and signs MOU with the Government of Singapore"
+      },
+      "summary": {
+        "en": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.",
+        "th": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption."
       }
     },
     {

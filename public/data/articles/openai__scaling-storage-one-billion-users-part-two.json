@@ -1026,8 +1026,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Throttling the hottest keys first prevents noisy neighbors from consuming all of the available throughput for a given physical partition This reduces the noisy neighbor effect, where one hot key can have a site-wide blast radius.",
-        "th": "Throttling the hottest keys first prevents noisy neighbors from consuming all of the available throughput for a given physical partition This reduces the noisy neighbor effect, where one hot key can have a site-wide blast radius."
+        "en": "Throttling the hottest keys first prevents noisy neighbors from consuming all of the available throughput for a given physical partition. This reduces the noisy neighbor effect, where one hot key can have a site-wide blast radius.",
+        "th": "Throttling the hottest keys first prevents noisy neighbors from consuming all of the available throughput for a given physical partition. This reduces the noisy neighbor effect, where one hot key can have a site-wide blast radius."
       }
     },
     {

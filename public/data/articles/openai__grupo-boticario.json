@@ -1,0 +1,692 @@
+{
+  "id": "openai__grupo-boticario",
+  "slug": "grupo-boticario",
+  "source": "openai",
+  "url": "https://openai.com/index/grupo-boticario",
+  "category": "News",
+  "date": "2026-10-16T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "How Grupo Boticário uses AI to strengthen human connections",
+    "th": "How Grupo Boticário uses AI to strengthen human connections"
+  },
+  "summary": {
+    "en": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take",
+    "th": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take"
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "October 16, 2026",
+        "th": "16 ตุลาคม 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
+        "th": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Up to 80%",
+        "th": "Up to 80%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "autonomous resolution of operational requests",
+        "th": "autonomous resolution of operational requests"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "100%",
+        "th": "100%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "of conversations generated in appchat and WhatsApp Enterprise covered since November 2025",
+        "th": "of conversations generated in appchat and WhatsApp Enterprise covered since November 2025"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "90%",
+        "th": "90%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "of direct-sales leads initially received and qualified by AI",
+        "th": "of direct-sales leads initially received and qualified by AI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "30+",
+        "th": "30+"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "agents across the reseller journey",
+        "th": "agents across the reseller journey"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Two things done well, now at scale",
+        "th": "Two things done well, now at scale"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why the platform had to be proprietary",
+        "th": "Why the platform had to be proprietary"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "An agent platform for the entire reseller journey",
+        "th": "An agent platform for the entire reseller journey"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The people serving customers write the prompts",
+        "th": "The people serving customers write the prompts"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Results overview",
+        "th": "Results overview"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Lessons for leaders",
+        "th": "Lessons for leaders"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Tips",
+        "th": "Tips"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Next steps",
+        "th": "Next steps"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Two things done well, now at scale",
+        "th": "Two things done well, now at scale"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why the platform had to be proprietary",
+        "th": "Why the platform had to be proprietary"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "An agent platform for the entire reseller journey",
+        "th": "An agent platform for the entire reseller journey"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The people serving customers write the prompts",
+        "th": "The people serving customers write the prompts"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Results overview",
+        "th": "Results overview"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Lessons for leaders",
+        "th": "Lessons for leaders"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Tips",
+        "th": "Tips"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Next steps",
+        "th": "Next steps"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Two things done well, now at scale",
+        "th": "Two things done well, now at scale"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Grupo Boticário began in 1977 as a small compounding pharmacy in Paraná. According to Renato Pedigoni, the group’s CTO, the founder did two things very well: he served customers with care and affection, understanding their needs, and created high-quality products.",
+        "th": "Grupo Boticário began in 1977 as a small compounding pharmacy in Paraná. According to Renato Pedigoni, the group’s CTO, the founder did two things very well: he served customers with care and affection, understanding their needs, and created high-quality products."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Almost five decades later, its ecosystem encompasses laboratories, factories, innovation, technology, logistics, marketing, and retail—with a presence in more than 40 countries, more than 4,000 physical stores across more than 1,700 Brazilian cities, and an ecosystem of 200,000 points of sale across retail, partners, and suppliers. It is one of Brazil’s largest beauty franchise networks.",
+        "th": "Almost five decades later, its ecosystem encompasses laboratories, factories, innovation, technology, logistics, marketing, and retail—with a presence in more than 40 countries, more than 4,000 physical stores across more than 1,700 Brazilian cities, and an ecosystem of 200,000 points of sale across retail, partners, and suppliers. It is one of Brazil’s largest beauty franchise networks."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The company’s premise is that technology exists to keep doing those same two things—on a massive scale.",
+        "th": "The company’s premise is that technology exists to keep doing those same two things—on a massive scale."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Today, almost 50 years later, we use technology to continue doing those two things well, and at scale,” says Pedigoni.",
+        "th": "“Today, almost 50 years later, we use technology to continue doing those two things well, and at scale,” says Pedigoni."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This is the origin of the term the company adopted to describe itself: Lovetech—the union of technology and human sensitivity as pillars of its culture, helping the company innovate while preserving the human touch.",
+        "th": "This is the origin of the term the company adopted to describe itself: Lovetech—the union of technology and human sensitivity as pillars of its culture, helping the company innovate while preserving the human touch."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Why the platform had to be proprietary",
+        "th": "Why the platform had to be proprietary"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The decision to develop solutions internally stems from how the group operates: a vertically integrated chain that runs from research and development laboratories through manufacturing, distribution, and logistics to the final interaction with customers.",
+        "th": "The decision to develop solutions internally stems from how the group operates: a vertically integrated chain that runs from research and development laboratories through manufacturing, distribution, and logistics to the final interaction with customers."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That interaction happens on many fronts at once. Beyond being multi-brand, the group is multichannel: physical stores, e-commerce, marketplaces, franchising, direct sales, B2B, and B2P. More than 10 consumer brands—including O Boticário, Eudora, Quem Disse Berenice, Vult, and Truss—operate under different business models, with franchisees, resellers, and beauty professionals in salons.",
+        "th": "That interaction happens on many fronts at once. Beyond being multi-brand, the group is multichannel: physical stores, e-commerce, marketplaces, franchising, direct sales, B2B, and B2P. More than 10 consumer brands—including O Boticário, Eudora, Quem Disse Berenice, Vult, and Truss—operate under different business models, with franchisees, resellers, and beauty professionals in salons."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Once we have this complexity of multiple brands, categories, and channels, we can build our own technology that brings it all together,” Pedigoni explains.",
+        "th": "“Once we have this complexity of multiple brands, categories, and channels, we can build our own technology that brings it all together,” Pedigoni explains."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The return is twofold: better listening to customers at the point of contact and optimization of the production chain—which inputs to buy, where to distribute them, to which store, and how many units of each SKU need to be delivered.",
+        "th": "The return is twofold: better listening to customers at the point of contact and optimization of the production chain—which inputs to buy, where to distribute them, to which store, and how many units of each SKU need to be delivered."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Grupo Boticário was not born digital. But it has reached a stage where it develops critical solutions and processes internally—supported by the premise of digital democratization: making data accessible across the company for analyses, AI models, and dashboards. For the fifth consecutive year, the company was recognized among Latin America’s most admired companies in data, ranking second in State of Data Brazil 2025–2026, by Data Hackers in partnership with Bain & Company.",
+        "th": "Grupo Boticário was not born digital. But it has reached a stage where it develops critical solutions and processes internally—supported by the premise of digital democratization: making data accessible across the company for analyses, AI models, and dashboards. For the fifth consecutive year, the company was recognized among Latin America’s most admired companies in data, ranking second in State of Data Brazil 2025–2026, by Data Hackers in partnership with Bain & Company."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "An agent platform for the entire reseller journey",
+        "th": "An agent platform for the entire reseller journey"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI provides the technology in the group’s proprietary agent orchestration platform, which combines foundation models with business rules to democratize the creation of agents focused on activating and serving its key partners: resellers and franchisees.",
+        "th": "OpenAI provides the technology in the group’s proprietary agent orchestration platform, which combines foundation models with business rules to democratize the creation of agents focused on activating and serving its key partners: resellers and franchisees."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Today we have hundreds of agents in our ecosystem serving customers, partners, franchisees, and resellers,” says Pedigoni.",
+        "th": "“Today we have hundreds of agents in our ecosystem serving customers, partners, franchisees, and resellers,” says Pedigoni."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The reseller journey alone has more than 30 agents, covering everything from registration and the first order to day-to-day operational support—alongside agents dedicated to validating the content and effectiveness of responses, ensuring continuous improvement of the solution. The architecture combines generative and predictive AI.",
+        "th": "The reseller journey alone has more than 30 agents, covering everything from registration and the first order to day-to-day operational support—alongside agents dedicated to validating the content and effectiveness of responses, ensuring continuous improvement of the solution. The architecture combines generative and predictive AI."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The journey is divided into two areas.",
+        "th": "The journey is divided into two areas."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For reseller onboarding, AI qualifies leads: a lead arrives through a digital channel and is received by AI to clarify questions about joining. When the lead signals an intention to complete an order, it is transferred to human support. This ensures a prompt first response, with service available 24 hours a day, and directs leads ready to advance through the journey to the human team. The solution covers 90% of leads captured in direct sales.",
+        "th": "For reseller onboarding, AI qualifies leads: a lead arrives through a digital channel and is received by AI to clarify questions about joining. When the lead signals an intention to complete an order, it is transferred to human support. This ensures a prompt first response, with service available 24 hours a day, and directs leads ready to advance through the journey to the human team. The solution covers 90% of leads captured in direct sales."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For reseller support, agents autonomously resolve day-to-day operational requests: sending catalogs, answering questions about payment slips, handling app questions, and addressing general topics. Since November 2025, they have covered 100% of conversations generated in appchat and WhatsApp Enterprise, with up to 80% autonomous resolution.",
+        "th": "For reseller support, agents autonomously resolve day-to-day operational requests: sending catalogs, answering questions about payment slips, handling app questions, and addressing general topics. Since November 2025, they have covered 100% of conversations generated in appchat and WhatsApp Enterprise, with up to 80% autonomous resolution."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“OpenAI helps us enormously by delivering foundation models at scale, so we can focus on our business rules and what our resellers need,” says Pedigoni.",
+        "th": "“OpenAI helps us enormously by delivering foundation models at scale, so we can focus on our business rules and what our resellers need,” says Pedigoni."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "He is careful to shift the interpretation of these figures.",
+        "th": "He is careful to shift the interpretation of these figures."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Sometimes we think of automation as something closely tied to efficiency. We prefer to see this automation as improving the quality of our service and enabling our supervisors to have an even deeper relationship with consumers and resellers, too.”",
+        "th": "“Sometimes we think of automation as something closely tied to efficiency. We prefer to see this automation as improving the quality of our service and enabling our supervisors to have an even deeper relationship with consumers and resellers, too.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Repetitive work is removed from the sales force’s routine, allowing it to focus on better understanding resellers, their context, and their customers. On the other side, resellers receive quick answers and gain time to act as advisors within their own businesses.",
+        "th": "Repetitive work is removed from the sales force’s routine, allowing it to focus on better understanding resellers, their context, and their customers. On the other side, resellers receive quick answers and gain time to act as advisors within their own businesses."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The people serving customers write the prompts",
+        "th": "The people serving customers write the prompts"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One of the operation’s distinguishing features is organizational rather than technical: the business team manages prompts on the platform.",
+        "th": "One of the operation’s distinguishing features is organizational rather than technical: the business team manages prompts on the platform."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It was not always this way. When the first agents were built years ago, prompts were the technology team’s responsibility—a more technical task in unfamiliar territory. Results were good, but the group saw value in continuous iteration: optimizing prompts every day and running A/B tests between approaches.",
+        "th": "It was not always this way. When the first agents were built years ago, prompts were the technology team’s responsibility—a more technical task in unfamiliar territory. Results were good, but the group saw value in continuous iteration: optimizing prompts every day and running A/B tests between approaches."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“And there is no one better to do that than the team serving customers today,” Pedigoni says.",
+        "th": "“And there is no one better to do that than the team serving customers today,” Pedigoni says."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The change altered the teams’ roles. Sales, customer service, and support teams began managing their own prompts, with continuous incremental improvements based on feedback from daily use. They expanded their focus beyond direct work with resellers to include service systems and models—drawing on their own frontline experience.",
+        "th": "The change altered the teams’ roles. Sales, customer service, and support teams began managing their own prompts, with continuous incremental improvements based on feedback from daily use. They expanded their focus beyond direct work with resellers to include service systems and models—drawing on their own frontline experience."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Results overview",
+        "th": "Results overview"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Since November 2025, agents have covered 100% of conversations generated in appchat and WhatsApp Enterprise, with up to 80% autonomous resolution of operational requests.",
+        "th": "Since November 2025, agents have covered 100% of conversations generated in appchat and WhatsApp Enterprise, with up to 80% autonomous resolution of operational requests."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Since November 2025, agents have covered 100% of conversations generated in appchat and WhatsApp Enterprise, with up to 80% autonomous resolution of operational requests.",
+        "th": "Since November 2025, agents have covered 100% of conversations generated in appchat and WhatsApp Enterprise, with up to 80% autonomous resolution of operational requests."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The solution covers 90% of direct-sales leads, initially received and qualified by AI, with 24-hour service at first contact and transfer to the human team when there is an intention to proceed with an order.",
+        "th": "The solution covers 90% of direct-sales leads, initially received and qualified by AI, with 24-hour service at first contact and transfer to the human team when there is an intention to proceed with an order."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The solution covers 90% of direct-sales leads, initially received and qualified by AI, with 24-hour service at first contact and transfer to the human team when there is an intention to proceed with an order.",
+        "th": "The solution covers 90% of direct-sales leads, initially received and qualified by AI, with 24-hour service at first contact and transfer to the human team when there is an intention to proceed with an order."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The group operates hundreds of agents across its ecosystem; the reseller journey alone has more than 30, from registration and the first order to operational support, with agents dedicated to validating content and response effectiveness.",
+        "th": "The group operates hundreds of agents across its ecosystem; the reseller journey alone has more than 30, from registration and the first order to operational support, with agents dedicated to validating content and response effectiveness."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The group operates hundreds of agents across its ecosystem; the reseller journey alone has more than 30, from registration and the first order to operational support, with agents dedicated to validating content and response effectiveness.",
+        "th": "The group operates hundreds of agents across its ecosystem; the reseller journey alone has more than 30, from registration and the first order to operational support, with agents dedicated to validating content and response effectiveness."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The solution is proprietary, combines generative and predictive AI, and operates with business-team autonomy: the team manages prompts directly on the platform.",
+        "th": "The solution is proprietary, combines generative and predictive AI, and operates with business-team autonomy: the team manages prompts directly on the platform."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The solution is proprietary, combines generative and predictive AI, and operates with business-team autonomy: the team manages prompts directly on the platform.",
+        "th": "The solution is proprietary, combines generative and predictive AI, and operates with business-team autonomy: the team manages prompts directly on the platform."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Sales, customer service, and support teams began contributing directly to the system’s evolution, creating new career paths.",
+        "th": "Sales, customer service, and support teams began contributing directly to the system’s evolution, creating new career paths."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sales, customer service, and support teams began contributing directly to the system’s evolution, creating new career paths.",
+        "th": "Sales, customer service, and support teams began contributing directly to the system’s evolution, creating new career paths."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Lessons for leaders",
+        "th": "Lessons for leaders"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Automation is about service quality before efficiency. The benefit appears in the deeper relationships that humans have time to build.",
+        "th": "Automation is about service quality before efficiency. The benefit appears in the deeper relationships that humans have time to build."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Automation is about service quality before efficiency. The benefit appears in the deeper relationships that humans have time to build.",
+        "th": "Automation is about service quality before efficiency. The benefit appears in the deeper relationships that humans have time to build."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Put the agent where users already are. Convenience determines adoption more than technical capability.",
+        "th": "Put the agent where users already are. Convenience determines adoption more than technical capability."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Put the agent where users already are. Convenience determines adoption more than technical capability.",
+        "th": "Put the agent where users already are. Convenience determines adoption more than technical capability."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Give prompt control to the people who know the customer. Those serving customers daily iterate better and faster than those who only implement the technology.",
+        "th": "Give prompt control to the people who know the customer. Those serving customers daily iterate better and faster than those who only implement the technology."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Give prompt control to the people who know the customer. Those serving customers daily iterate better and faster than those who only implement the technology.",
+        "th": "Give prompt control to the people who know the customer. Those serving customers daily iterate better and faster than those who only implement the technology."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A proprietary platform makes sense when complexity is your advantage. Many brands, channels, and partnership models require a layer that no one provides out of the box.",
+        "th": "A proprietary platform makes sense when complexity is your advantage. Many brands, channels, and partnership models require a layer that no one provides out of the box."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A proprietary platform makes sense when complexity is your advantage. Many brands, channels, and partnership models require a layer that no one provides out of the box.",
+        "th": "A proprietary platform makes sense when complexity is your advantage. Many brands, channels, and partnership models require a layer that no one provides out of the box."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Treat the change as career design. New paths keep frontline knowledge involved in building the system.",
+        "th": "Treat the change as career design. New paths keep frontline knowledge involved in building the system."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Treat the change as career design. New paths keep frontline knowledge involved in building the system.",
+        "th": "Treat the change as career design. New paths keep frontline knowledge involved in building the system."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Tips",
+        "th": "Tips"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Use foundation models to avoid spending energy on areas outside your business rules.",
+        "th": "Use foundation models to avoid spending energy on areas outside your business rules."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Use foundation models to avoid spending energy on areas outside your business rules.",
+        "th": "Use foundation models to avoid spending energy on areas outside your business rules."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Separate lead qualification from operational support—these journeys have different success criteria.",
+        "th": "Separate lead qualification from operational support—these journeys have different success criteria."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Separate lead qualification from operational support—these journeys have different success criteria.",
+        "th": "Separate lead qualification from operational support—these journeys have different success criteria."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Define the handoff to humans early; at Boticário, it is the intention to complete an order.",
+        "th": "Define the handoff to humans early; at Boticário, it is the intention to complete an order."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Define the handoff to humans early; at Boticário, it is the intention to complete an order.",
+        "th": "Define the handoff to humans early; at Boticário, it is the intention to complete an order."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Create dedicated agents to validate other agents’ responses.",
+        "th": "Create dedicated agents to validate other agents’ responses."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Create dedicated agents to validate other agents’ responses.",
+        "th": "Create dedicated agents to validate other agents’ responses."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Establish a routine of prompt A/B testing run by business teams.",
+        "th": "Establish a routine of prompt A/B testing run by business teams."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Establish a routine of prompt A/B testing run by business teams.",
+        "th": "Establish a routine of prompt A/B testing run by business teams."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Next steps",
+        "th": "Next steps"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The group sees agent adoption as creating space: removing day-to-day operational overload to free up higher-value work—performed by people with practical frontline knowledge.",
+        "th": "The group sees agent adoption as creating space: removing day-to-day operational overload to free up higher-value work—performed by people with practical frontline knowledge."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Join the new era of work",
+        "th": "Join the new era of work"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4X3HwsNsncluAzNEqlXFg3/558227ebd1d4edc388dc325ecbcd75f0/oai_Lowe_s_hero_4.5.png?w=3840&q=90&fm=webp",
+      "alt": "Lowes > Cover media"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sep 25, 2026",
+        "th": "Sep 25, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5uPNx6tKKw9bfKsi7uepmm/9ac19cf10103ab0c10bd4407b7050e8b/oai_Rakuten_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "oai Rakuten 1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mar 11, 2026",
+        "th": "Mar 11, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/48A6scKmmPQtueG1S4m4zx/27ce75835cbe76e668c8a910d2661480/EF__lowe-s_1.1.png?w=3840&q=90&fm=webp",
+      "alt": "Lowe's EF > Hero image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "May 5, 2025",
+        "th": "May 5, 2025"
+      }
+    }
+  ]
+}

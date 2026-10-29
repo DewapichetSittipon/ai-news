@@ -203,9 +203,11 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/6a0pYiVoGAAH0sutAfOxaS/93dce3f41d38db59e85991d128c2a3f7/retell-ai-voice-agent-benchmark.png?w=3840&q=90&fm=webp",
-      "alt": "Bar chart ranking five models on Retell’s vCX instruction-following benchmark, led by GPT-6 Astra at 89.7%."
+      "type": "p",
+      "text": {
+        "en": "Source: bench.retellai.com · October 13, 2026 · All providers · “None/low” reasoning · Fast variants excluded",
+        "th": "Source: bench.retellai.com · October 13, 2026 · All providers · “None/low” reasoning · Fast variants excluded"
+      }
     },
     {
       "type": "p",

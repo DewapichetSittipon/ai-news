@@ -1,166 +1,13 @@
 {
-  "generatedAt": "2026-11-02T08:41:45.627Z",
+  "generatedAt": "2026-11-02T19:56:33.741Z",
   "items": [
-    {
-      "id": "anthropic__barclays-scales-claude",
-      "slug": "barclays-scales-claude",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/barclays-scales-claude",
-      "category": "News",
-      "date": "2026-11-02T08:40:39.145Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Barclays scales Claude to upgrade operations and improve client experience",
-        "th": "Barclays scales Claude to upgrade operations and improve client experience"
-      },
-      "summary": {
-        "en": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
-        "th": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations."
-      }
-    },
-    {
-      "id": "anthropic__accenture-embedded-evaluation",
-      "slug": "accenture-embedded-evaluation",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-      "category": "News",
-      "date": "2026-11-02T08:40:39.145Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Partnering with Accenture on embedded evaluation",
-        "th": "Partnering with Accenture on embedded evaluation"
-      },
-      "summary": {
-        "en": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
-        "th": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years."
-      }
-    },
-    {
-      "id": "anthropic__life-sciences-verification-program",
-      "slug": "life-sciences-verification-program",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
-      "category": "News",
-      "date": "2026-11-02T08:40:39.145Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Introducing the Life Sciences Verification Program",
-        "th": "Introducing the Life Sciences Verification Program"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
-      }
-    },
-    {
-      "id": "anthropic__announcements",
-      "slug": "announcements",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/announcements",
-      "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Announcements",
-        "th": "Announcements"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
-      }
-    },
-    {
-      "id": "anthropic__public-benefit-fund",
-      "slug": "public-benefit-fund",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/public-benefit-fund",
-      "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
-      "title": {
-        "en": "Investing in the public benefit",
-        "th": "Investing in the public benefit"
-      },
-      "summary": {
-        "en": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
-        "th": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows."
-      }
-    },
-    {
-      "id": "anthropic__s1-sec",
-      "slug": "s1-sec",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/s1-sec",
-      "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Anthropic files S-1 with the SEC for proposed initial public offering",
-        "th": "Anthropic files S-1 with the SEC for proposed initial public offering"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
-      }
-    },
-    {
-      "id": "anthropic__features",
-      "slug": "features",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/features",
-      "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-      "title": {
-        "en": "Features",
-        "th": "Features"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
-      }
-    },
-    {
-      "id": "anthropic__ai-for-science-expands-foundations-research-institutions",
-      "slug": "ai-for-science-expands-foundations-research-institutions",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
-      "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2c317246f4ac7eaf0667d90a76ac05a7a7b601fc-1200x630.jpg",
-      "title": {
-        "en": "AI for Science expands to foundations and research institutions",
-        "th": "AI for Science expands to foundations and research institutions"
-      },
-      "summary": {
-        "en": "We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program.",
-        "th": "We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program."
-      }
-    },
-    {
-      "id": "anthropic__expanding-partnership-gsa",
-      "slug": "expanding-partnership-gsa",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
-      "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
-      "title": {
-        "en": "Expanding our partnership with GSA to bring Claude to all levels of government",
-        "th": "Expanding our partnership with GSA to bring Claude to all levels of government"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
-      }
-    },
     {
       "id": "anthropic__partnerships",
       "slug": "partnerships",
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/partnerships",
       "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
+      "date": "2026-11-02T19:54:50.768Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Partnerships",
@@ -177,7 +24,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
       "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
+      "date": "2026-11-02T19:54:50.768Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Donating Agent Skills to the Agentic AI Foundation",
@@ -194,7 +41,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/product",
       "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
+      "date": "2026-11-02T19:54:50.768Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Product",
@@ -211,7 +58,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
       "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
+      "date": "2026-11-02T19:54:50.768Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/633e51e2d75a5c14022fa48961b886553d41ce9d-1200x630.jpg",
       "title": {
         "en": "Open call for guest investigators in the life sciences",
@@ -228,7 +75,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
       "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
+      "date": "2026-11-02T19:54:50.768Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
@@ -245,7 +92,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
       "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
+      "date": "2026-11-02T19:54:50.768Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2e351e6311a0ada8ea4a0304ce6cda39243eaf4-1200x630.jpg",
       "title": {
         "en": "An update on independent evaluators",
@@ -262,7 +109,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/policy",
       "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
+      "date": "2026-11-02T19:54:50.768Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Policy",
@@ -279,7 +126,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/2026-us-midterms",
       "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
+      "date": "2026-11-02T19:54:50.768Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/609927c7af2a454cedad848e4b2adc980c1f5fe6-2000x1125.jpg",
       "title": {
         "en": "Preparing for the 2026 US midterms",
@@ -296,7 +143,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/safeguards",
       "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
+      "date": "2026-11-02T19:54:50.768Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Safeguards",
@@ -313,7 +160,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/singapore-office-opening",
       "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
+      "date": "2026-11-02T19:54:50.768Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
@@ -330,7 +177,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/distillation-defenses",
       "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
+      "date": "2026-11-02T19:54:50.768Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a5934d1ae8428b2a97fae1963a5f427594fc7202-1200x630.jpg",
       "title": {
         "en": "Strengthening our defenses against distillation attacks",
@@ -347,7 +194,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
       "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
+      "date": "2026-11-02T19:54:50.768Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2af4f6715cbe9766a47430a24420cfca0a2c588-1200x630.jpg",
       "title": {
         "en": "Introducing the Anthropic Cyber Mission",
@@ -364,7 +211,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/security",
       "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
+      "date": "2026-11-02T19:54:50.768Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Security",
@@ -381,7 +228,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/2026-usage-policy-update",
       "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
+      "date": "2026-11-02T19:54:50.768Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "2026 Usage Policy update",
@@ -398,7 +245,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/genesis-mission-commitment",
       "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
+      "date": "2026-11-02T19:54:50.768Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Building on our commitment to American scientific discovery",
@@ -415,7 +262,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/cyber-verification-program",
       "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
+      "date": "2026-11-02T19:54:50.768Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Expanding the Cyber Verification Program",
@@ -432,7 +279,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/claude-frontier-academy",
       "category": "News",
-      "date": "2026-11-02T08:40:39.144Z",
+      "date": "2026-11-02T19:54:50.768Z",
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
       "title": {
         "en": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
@@ -441,6 +288,227 @@
       "summary": {
         "en": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.",
         "th": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027."
+      }
+    },
+    {
+      "id": "anthropic__barclays-scales-claude",
+      "slug": "barclays-scales-claude",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "category": "News",
+      "date": "2026-11-02T19:54:50.768Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Barclays scales Claude to upgrade operations and improve client experience",
+        "th": "Barclays scales Claude to upgrade operations and improve client experience"
+      },
+      "summary": {
+        "en": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
+        "th": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations."
+      }
+    },
+    {
+      "id": "anthropic__accenture-embedded-evaluation",
+      "slug": "accenture-embedded-evaluation",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "category": "News",
+      "date": "2026-11-02T19:54:50.768Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Partnering with Accenture on embedded evaluation",
+        "th": "Partnering with Accenture on embedded evaluation"
+      },
+      "summary": {
+        "en": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
+        "th": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years."
+      }
+    },
+    {
+      "id": "anthropic__life-sciences-verification-program",
+      "slug": "life-sciences-verification-program",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "category": "News",
+      "date": "2026-11-02T19:54:50.768Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Introducing the Life Sciences Verification Program",
+        "th": "Introducing the Life Sciences Verification Program"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+      }
+    },
+    {
+      "id": "anthropic__announcements",
+      "slug": "announcements",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/announcements",
+      "category": "News",
+      "date": "2026-11-02T19:54:50.767Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Announcements",
+        "th": "Announcements"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+      }
+    },
+    {
+      "id": "anthropic__public-benefit-fund",
+      "slug": "public-benefit-fund",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "category": "News",
+      "date": "2026-11-02T19:54:50.767Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+      "title": {
+        "en": "Investing in the public benefit",
+        "th": "Investing in the public benefit"
+      },
+      "summary": {
+        "en": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+        "th": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows."
+      }
+    },
+    {
+      "id": "anthropic__s1-sec",
+      "slug": "s1-sec",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "category": "News",
+      "date": "2026-11-02T19:54:50.767Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Anthropic files S-1 with the SEC for proposed initial public offering",
+        "th": "Anthropic files S-1 with the SEC for proposed initial public offering"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+      }
+    },
+    {
+      "id": "anthropic__features",
+      "slug": "features",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/features",
+      "category": "News",
+      "date": "2026-11-02T19:54:50.767Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "title": {
+        "en": "Features",
+        "th": "Features"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+      }
+    },
+    {
+      "id": "anthropic__ai-for-science-expands-foundations-research-institutions",
+      "slug": "ai-for-science-expands-foundations-research-institutions",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+      "category": "News",
+      "date": "2026-11-02T19:54:50.767Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2c317246f4ac7eaf0667d90a76ac05a7a7b601fc-1200x630.jpg",
+      "title": {
+        "en": "AI for Science expands to foundations and research institutions",
+        "th": "AI for Science expands to foundations and research institutions"
+      },
+      "summary": {
+        "en": "We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program.",
+        "th": "We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program."
+      }
+    },
+    {
+      "id": "anthropic__expanding-partnership-gsa",
+      "slug": "expanding-partnership-gsa",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "category": "News",
+      "date": "2026-11-02T19:54:50.767Z",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+      "title": {
+        "en": "Expanding our partnership with GSA to bring Claude to all levels of government",
+        "th": "Expanding our partnership with GSA to bring Claude to all levels of government"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic เป็นบริษัทวิจัยและความปลอดภัยด้าน AI ซึ่งทำงานเพื่อสร้างระบบ AI ที่เชื่อถือได้ ตีความได้ และควบคุมทิศทางได้"
+      }
+    },
+    {
+      "id": "google-ai__google-ai-updates-october-2026",
+      "slug": "google-ai-updates-october-2026",
+      "source": "google-ai",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "category": "Google DeepMind",
+      "date": "2026-11-02T17:45:00.000Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp",
+      "title": {
+        "en": "The latest AI news we announced in October 2026",
+        "th": "ข่าว AI ล่าสุดที่เราประกาศในเดือนตุลาคม 2026"
+      },
+      "summary": {
+        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from October 2026",
+        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp\">นี่คือการอัปเดต AI ล่าสุดของ Google ตั้งแต่เดือนตุลาคม 2026"
+      }
+    },
+    {
+      "id": "openai__grid-protectors-program",
+      "slug": "grid-protectors-program",
+      "source": "openai",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "category": "Global Affairs",
+      "date": "2026-11-02T15:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing the Grid Protectors Program",
+        "th": "ขอแนะนำโปรแกรมป้องกันกริด"
+      },
+      "summary": {
+        "en": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+        "th": "โปรแกรม Grid Protectors ของ OpenAI จะทำงานร่วมกับระบบสาธารณูปโภคเพื่อช่วยให้แคมปัสการประมวลผลในอนาคตสนับสนุนความน่าเชื่อถือของกริดและปกป้องค่าไฟฟ้าของผู้บริโภค"
+      }
+    },
+    {
+      "id": "openai__lifeval",
+      "slug": "lifeval",
+      "source": "openai",
+      "url": "https://openai.com/index/lifeval",
+      "category": "Research",
+      "date": "2026-11-02T09:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "LifeVal",
+        "th": "ไลฟ์วาล"
+      },
+      "summary": {
+        "en": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+        "th": "ขอแนะนำ LifeVal ซึ่งเป็นเกณฑ์มาตรฐานที่วัดว่า AI ช่วยให้ผู้คนทำงานในแต่ละวันได้ดีเพียงใด ตั้งแต่การค้นหาการดูแลเด็กไปจนถึงการจัดการการเงินและงานเอกสารของรัฐบาล"
+      }
+    },
+    {
+      "id": "openai__qodo-codex-plugin",
+      "slug": "qodo-codex-plugin",
+      "source": "openai",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "category": "Startup",
+      "date": "2026-11-02T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Qodo builds context into AI code review with Codex",
+        "th": "Qodo สร้างบริบทในการตรวจสอบโค้ด AI ด้วย Codex"
+      },
+      "summary": {
+        "en": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+        "th": "Qodo นำความรู้ของบริษัทและมาตรฐานการเข้ารหัสมาสู่ Codex ช่วยให้นักพัฒนาตรวจพบปัญหา P0 ในที่เก็บข้อมูลต่างๆ ก่อนที่จะเปิดคำขอดึง"
       }
     },
     {
@@ -458,6 +526,23 @@
       "summary": {
         "en": "nemotron-halloween",
         "th": "nemotron-halloween"
+      }
+    },
+    {
+      "id": "deepmind__speeding-up-planning-decisions-with-ai",
+      "slug": "speeding-up-planning-decisions-with-ai",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+      "category": "News",
+      "date": "2026-10-30T14:18:30.000Z",
+      "image": "https://lh3.googleusercontent.com/AnSfPLyNIwSu1XsT_WUP3aYfQrc9jo8lwlotms7NmryT7RhWXnwdF4_zzYBMlJOcNT1U_ZbDMCM7AzpnFDPeYKJDardybJGlm447xeEXo1eQqgjCEg=w528-h297-n-nu-rw-lo",
+      "title": {
+        "en": "Speeding up planning decisions with AI",
+        "th": "เร่งการตัดสินใจวางแผนด้วย AI"
+      },
+      "summary": {
+        "en": "Google DeepMind and UK government work together to reduce planning assessment times",
+        "th": "Google DeepMind และรัฐบาลสหราชอาณาจักรทำงานร่วมกันเพื่อลดเวลาการประเมินการวางแผน"
       }
     },
     {
@@ -1362,40 +1447,6 @@
       }
     },
     {
-      "id": "openai__terminal-x",
-      "slug": "terminal-x",
-      "source": "openai",
-      "url": "https://openai.com/index/terminal-x",
-      "category": "Startup",
-      "date": "2026-10-20T07:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-        "th": "Terminal X matches senior investor judgment 88.6% with GPT-6.1"
-      },
-      "summary": {
-        "en": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-        "th": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol."
-      }
-    },
-    {
-      "id": "openai__openai-to-acquire-orchestra-bio",
-      "slug": "openai-to-acquire-orchestra-bio",
-      "source": "openai",
-      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "category": "Company",
-      "date": "2026-10-20T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "OpenAI acquires Orchestra Bio",
-        "th": "OpenAI acquires Orchestra Bio"
-      },
-      "summary": {
-        "en": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-        "th": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments."
-      }
-    },
-    {
       "id": "huggingface__hf-torchtpu",
       "slug": "hf-torchtpu",
       "source": "huggingface",
@@ -1444,23 +1495,6 @@
       "summary": {
         "en": "MPS in PyTorch 2.15",
         "th": "MPS ใน PyTorch 2.15"
-      }
-    },
-    {
-      "id": "openai__low-resource-programming-languages",
-      "slug": "low-resource-programming-languages",
-      "source": "openai",
-      "url": "https://openai.com/index/low-resource-programming-languages",
-      "category": "Publication",
-      "date": "2026-10-19T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Advancing coding in low‑resource programming languages",
-        "th": "Advancing coding in low‑resource programming languages"
-      },
-      "summary": {
-        "en": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-        "th": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration."
       }
     },
     {
@@ -2450,23 +2484,6 @@
       }
     },
     {
-      "id": "google-ai__fairwind-program",
-      "slug": "fairwind-program",
-      "source": "google-ai",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "category": "Gemini models",
-      "date": "2026-09-02T15:40:00.000Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__b.max-600x600.format-webp.webp",
-      "title": {
-        "en": "Proactive cyber defense for governments and enterprises",
-        "th": "Proactive cyber defense for governments and enterprises"
-      },
-      "summary": {
-        "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__b.max-600x600.format-webp.webp\">The Fairwind Program is a limited access program for governments and trusted partner",
-        "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__b.max-600x600.format-webp.webp\">The Fairwind Program is a limited access program for governments and trusted partner"
-      }
-    },
-    {
       "id": "deepmind__introducing-agentic-video-in-gemini",
       "slug": "introducing-agentic-video-in-gemini",
       "source": "deepmind",
@@ -2804,23 +2821,6 @@
       "summary": {
         "en": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
         "th": "รัฐบาลสหราชอาณาจักรร่วมมือกับ Google DeepMind เพื่อสร้างต้นแบบที่ขับเคลื่อนด้วย AI ใหม่โดยมีเป้าหมายเพื่อการตัดสินใจเรื่องที่อยู่อาศัยที่รวดเร็วยิ่งขึ้น"
-      }
-    },
-    {
-      "id": "deepmind__securing-the-future-of-ai-agents",
-      "slug": "securing-the-future-of-ai-agents",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
-      "category": "News",
-      "date": "2026-06-16T15:46:31.000Z",
-      "image": "https://lh3.googleusercontent.com/X6w_t9eA7TLFiq3JMp1kXlon25qi9N6O0AxPyp7j0qOIu8oz-QDsaOP-oKz7FIuqlA3W1evDbeLYssDJM_fjkqeyscPO_fHJd0xeD0IoDlHkiUQW1w=w528-h297-n-nu-rw-lo",
-      "title": {
-        "en": "Securing the future of AI agents",
-        "th": "การรักษาความปลอดภัยแห่งอนาคตของตัวแทน AI"
-      },
-      "summary": {
-        "en": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
-        "th": "การรักษาความปลอดภัยระบบภายในด้วยแผนงานการควบคุม AI ผสมผสานการป้องกันแบบดั้งเดิมและการตรวจสอบแบบเรียลไทม์"
       }
     }
   ]

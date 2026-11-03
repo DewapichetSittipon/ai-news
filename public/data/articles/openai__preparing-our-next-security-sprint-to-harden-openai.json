@@ -1,0 +1,132 @@
+{
+  "id": "openai__preparing-our-next-security-sprint-to-harden-openai",
+  "slug": "preparing-our-next-security-sprint-to-harden-openai",
+  "source": "openai",
+  "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+  "category": "Security",
+  "date": "2026-11-02T18:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Preparing our next security sprint to harden OpenAI",
+    "th": "เตรียมการรักษาความปลอดภัยครั้งต่อไปของเราเพื่อทำให้ OpenAI แข็งแกร่งขึ้น"
+  },
+  "summary": {
+    "en": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+    "th": "OpenAI กำลังเตรียมการรักษาความปลอดภัยภายในครั้งต่อไปด้วย Cathedral Systems เพื่อทดสอบและเสริมสร้างการป้องกันโดยใช้ AI"
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 2, 2026",
+        "th": "2 พฤศจิกายน 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re planning our next internal security sprint at OpenAI, bringing new researchers and security partners together with our own teams to use our models to test and strengthen our systems. We’re partnering with Cathedral, whose researchers will use OpenAI’s models alongside our teams to challenge our defenses, bringing differentiated expertise and approaches to finding weaknesses and helping us protect our platforms.",
+        "th": "เรากำลังวางแผนการรักษาความปลอดภัยภายในครั้งต่อไปที่ OpenAI โดยนำนักวิจัยใหม่และพันธมิตรด้านความปลอดภัยมารวมกันกับทีมของเราเองเพื่อใช้แบบจำลองของเราเพื่อทดสอบและเสริมความแข็งแกร่งให้กับระบบของเรา เรากำลังร่วมมือกับ Cathedral ซึ่งนักวิจัยจะใช้แบบจำลองของ OpenAI ควบคู่ไปกับทีมของเราเพื่อท้าทายการป้องกันของเรา โดยนำความเชี่ยวชาญที่แตกต่างและแนวทางในการค้นหาจุดอ่อนและช่วยให้เราปกป้องแพลตฟอร์มของเรา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re also making improvements to our Security Bug Bounty program including more than quadrupling our rewards for critical findings. We want researchers to challenge our assumptions and help strengthen both our systems and the methods we use to defend them.",
+        "th": "นอกจากนี้เรายังทำการปรับปรุงโปรแกรม Security Bug Bounty ของเรา รวมถึงรางวัลมากกว่าสี่เท่าสำหรับการค้นพบที่สำคัญ เราต้องการให้นักวิจัยท้าทายสมมติฐานของเราและช่วยเสริมสร้างทั้งระบบของเราและวิธีการที่เราใช้ในการปกป้องพวกเขา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This is part of our ongoing effort to use AI to continuously find and fix weaknesses in our systems. Our last sprint showed what this approach can deliver. We dedicated 25% of our product engineers to finding and fixing weaknesses in our systems. Using Codex, engineers investigated findings, reproduced vulnerabilities in isolated environments and prepared patches for review.",
+        "th": "นี่เป็นส่วนหนึ่งของความพยายามอย่างต่อเนื่องของเราในการใช้ AI เพื่อค้นหาและแก้ไขจุดอ่อนในระบบของเราอย่างต่อเนื่อง การวิ่งครั้งสุดท้ายของเราแสดงให้เห็นว่าแนวทางนี้สามารถส่งมอบอะไรได้บ้าง เราทุ่มเทวิศวกรผลิตภัณฑ์ของเรา 25% ในการค้นหาและแก้ไขจุดอ่อนในระบบของเรา วิศวกรใช้ Codex ในการตรวจสอบการค้นพบ สร้างช่องโหว่ในสภาพแวดล้อมที่แยกออกมา และเตรียมแพตช์สำหรับการตรวจสอบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re building on that work because traditional cyber defenses alone are no longer sufficient. Recent incidents across the industry show how quickly threats can emerge and how important it is to build continuous defensive loops to find and fix weaknesses before attackers do.",
+        "th": "เรากำลังต่อยอดงานนี้เพราะการป้องกันทางไซเบอร์แบบดั้งเดิมเพียงอย่างเดียวไม่เพียงพออีกต่อไป เหตุการณ์ล่าสุดทั่วทั้งอุตสาหกรรมแสดงให้เห็นว่าภัยคุกคามสามารถเกิดขึ้นได้เร็วเพียงใด และความสำคัญของการสร้างลูปการป้องกันอย่างต่อเนื่องเพื่อค้นหาและแก้ไขจุดอ่อนก่อนที่ผู้โจมตีจะเกิดขึ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Keeping the defender’s window open requires organizations to use frontier cyber capabilities to harden their systems. We’re using our most capable models to strengthen our own defenses and making them available to Daybreak customers. We’ve committed $1 billion in subsidized access over six months for frontline defenders protecting essential services and digital infrastructure. We’re also sharing our architecture and lessons⁠ from the last sprint, alongside our blueprint for empowering cyber defenders across industry and government.",
+        "th": "การเปิดหน้าต่างของผู้พิทักษ์ไว้นั้นทำให้องค์กรต้องใช้ความสามารถทางไซเบอร์ระดับแนวหน้าเพื่อทำให้ระบบแข็งแกร่งขึ้น เรากำลังใช้โมเดลที่มีความสามารถมากที่สุดเพื่อเสริมความแข็งแกร่งให้กับการป้องกันของเราเอง และทำให้พร้อมใช้งานสำหรับลูกค้า Daybreak เราได้ให้เงินสนับสนุนการเข้าถึง 1 พันล้านดอลลาร์ในช่วงหกเดือนสำหรับผู้พิทักษ์แนวหน้าในการปกป้องบริการที่จำเป็นและโครงสร้างพื้นฐานดิจิทัล นอกจากนี้เรายังแบ่งปันสถาปัตยกรรมและบทเรียนของเราจากการดำเนินการครั้งล่าสุด ควบคู่ไปกับพิมพ์เขียวของเราในการเพิ่มศักยภาพให้กับผู้พิทักษ์ในโลกไซเบอร์ทั่วทั้งอุตสาหกรรมและภาครัฐ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’ll keep advancing our models, using them to strengthen our own systems, and expanding access for trusted defenders. Keeping the defender’s window open will take action across the industry, and that work needs to start now.",
+        "th": "เราจะพัฒนาโมเดลของเราต่อไป ใช้โมเดลเหล่านี้เพื่อเสริมความแข็งแกร่งให้กับระบบของเราเอง และขยายการเข้าถึงสำหรับผู้พิทักษ์ที่เชื่อถือได้ การเปิดหน้าต่างของกองหลังไว้จะเป็นการดำเนินการทั่วทั้งอุตสาหกรรม และงานนั้นจำเป็นต้องเริ่มต้นตั้งแต่ตอนนี้"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Cybersecurity",
+        "th": "Cybersecurity"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2We7bguC4FuOofZ8Lu6LUZ/02049fcee47c460695acab59bdb8f648/the-defenders-window-clean-cover.png?w=3840&q=90&fm=webp",
+      "alt": "The Defender’s Window > Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SecurityAug 17, 2026",
+        "th": "SecurityAug 17, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2PwBCyZF0Z5WLRtsbOpDdQ/338e19fbc39e5b9a63b1db664c006e74/Art_Card__5_.png?w=3840&q=90&fm=webp",
+      "alt": "Patch the Planet Art Card 1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SecurityJun 22, 2026",
+        "th": "SecurityJun 22, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7s66NRbeeddt0jh03kqYVr/e24d600e7890401b9ee82255ec7cb915/empowering-cyber-defenders-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Democratic governance of frontier AI, part II: Empowering cyber defenders — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Global AffairsOct 21, 2026",
+        "th": "Global AffairsOct 21, 2026"
+      }
+    }
+  ]
+}

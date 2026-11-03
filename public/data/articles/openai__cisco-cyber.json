@@ -1,0 +1,221 @@
+{
+  "id": "openai__cisco-cyber",
+  "slug": "cisco-cyber",
+  "source": "openai",
+  "url": "https://openai.com/index/cisco-cyber",
+  "category": "News",
+  "date": "2026-11-03T08:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "How Cisco defends at machine speed with OpenAI",
+    "th": "How Cisco defends at machine speed with OpenAI"
+  },
+  "summary": {
+    "en": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+    "th": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 3, 2026",
+        "th": "November 3, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cisco combines network intelligence and OpenAI models to build more adaptive defenses.",
+        "th": "Cisco combines network intelligence and OpenAI models to build more adaptive defenses."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4F9glSk1Ol9EvmYUT66hbC/2a16eb5c0091746b1c8a83264369cd92/cisco-cyber-cover.png?w=3840&q=90&fm=webp",
+      "alt": "White Cisco logo over an abstract close-up of textured blue stone."
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Connecting network intelligence for stronger defense",
+        "th": "Connecting network intelligence for stronger defense"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "From investigation to remediation",
+        "th": "From investigation to remediation"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Rethinking security for an agentic world",
+        "th": "Rethinking security for an agentic world"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Connecting network intelligence for stronger defense",
+        "th": "Connecting network intelligence for stronger defense"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "From investigation to remediation",
+        "th": "From investigation to remediation"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Rethinking security for an agentic world",
+        "th": "Rethinking security for an agentic world"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cisco builds the networking and security infrastructure that organizations rely on to connect and protect their systems. As adversaries leverage AI to scale automated attacks and craft exploits at machine-speed, defending enterprise infrastructure must evolve. Pairing Cisco’s vast network telemetry with frontier AI reasoning gives defenders the toolkit necessary to outpace emerging threats. OpenAI’s rigorous approach to enterprise data privacy—centered on zero data retention, strict customer data boundaries, and verifiable isolation—means Cisco could confidently deploy frontier intelligence across mission-critical systems without compromising customer priorities or sensitive telemetry.",
+        "th": "Cisco builds the networking and security infrastructure that organizations rely on to connect and protect their systems. As adversaries leverage AI to scale automated attacks and craft exploits at machine-speed, defending enterprise infrastructure must evolve. Pairing Cisco’s vast network telemetry with frontier AI reasoning gives defenders the toolkit necessary to outpace emerging threats. OpenAI’s rigorous approach to enterprise data privacy—centered on zero data retention, strict customer data boundaries, and verifiable isolation—means Cisco could confidently deploy frontier intelligence across mission-critical systems without compromising customer priorities or sensitive telemetry."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Connecting network intelligence for stronger defense",
+        "th": "Connecting network intelligence for stronger defense"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cisco’s defense starts where threats move: the network. Patel describes a shift from a single security perimeter to controls distributed across microservices, containers, and clusters. “We can put a mini security stack in front of every microservice, every Kubernetes container, and every Kubernetes cluster, and fuse security into the fabric of the network,” he says.",
+        "th": "Cisco’s defense starts where threats move: the network. Patel describes a shift from a single security perimeter to controls distributed across microservices, containers, and clusters. “We can put a mini security stack in front of every microservice, every Kubernetes container, and every Kubernetes cluster, and fuse security into the fabric of the network,” he says."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Controls at the application level can restrict communication to the connections each service needs, reducing the paths an attacker can use to spread. Security teams can also isolate affected systems more selectively, allowing unaffected services to keep running while they investigate and respond.",
+        "th": "Controls at the application level can restrict communication to the connections each service needs, reducing the paths an attacker can use to spread. Security teams can also isolate affected systems more selectively, allowing unaffected services to keep running while they investigate and respond."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Combining that network intelligence with OpenAI’s models allows Cisco to correlate signals at machine scale, Patel says. “Two signals might seem benign in isolation, but together they can reveal a meaningful pattern. Network intelligence allows us to correlate data across the network and derive insights to inform secure operations.”",
+        "th": "Combining that network intelligence with OpenAI’s models allows Cisco to correlate signals at machine scale, Patel says. “Two signals might seem benign in isolation, but together they can reveal a meaningful pattern. Network intelligence allows us to correlate data across the network and derive insights to inform secure operations.”"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "From investigation to remediation",
+        "th": "From investigation to remediation"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Patel points to a pressing challenge for defenders: the gap between how quickly attackers can exploit a vulnerability and how long organizations take to patch it. He sees AI as a way to help narrow that gap, giving defenders the capacity to investigate more threats and respond faster. “AI hands attackers speed and scale. Using AI for defense is a prerequisite for staying safe,” he says.",
+        "th": "Patel points to a pressing challenge for defenders: the gap between how quickly attackers can exploit a vulnerability and how long organizations take to patch it. He sees AI as a way to help narrow that gap, giving defenders the capacity to investigate more threats and respond faster. “AI hands attackers speed and scale. Using AI for defense is a prerequisite for staying safe,” he says."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "He describes initiatives like Daybreak and GPT‑6 Astra as advances that strengthen security for both Cisco and its customers. “We’re able to find and patch vulnerabilities more efficiently, while shortening the time needed for investigation, response, and remediation,” Patel says.",
+        "th": "He describes initiatives like Daybreak and GPT‑6 Astra as advances that strengthen security for both Cisco and its customers. “We’re able to find and patch vulnerabilities more efficiently, while shortening the time needed for investigation, response, and remediation,” Patel says."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Patel sees a path to adoption that builds on the processes teams already use to find and address vulnerabilities. “These capabilities can fit into your existing scanning workflows, so you don’t have to fundamentally change how your team works.”",
+        "th": "Patel sees a path to adoption that builds on the processes teams already use to find and address vulnerabilities. “These capabilities can fit into your existing scanning workflows, so you don’t have to fundamentally change how your team works.”"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Rethinking security for an agentic world",
+        "th": "Rethinking security for an agentic world"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As agents become more autonomous, security teams also need to distinguish malicious interference from an agent pursuing a legitimate goal in an unintended way. Patel says that requires security telemetry alongside observability data, so teams can assess both threats and agent behavior.",
+        "th": "As agents become more autonomous, security teams also need to distinguish malicious interference from an agent pursuing a legitimate goal in an unintended way. Patel says that requires security telemetry alongside observability data, so teams can assess both threats and agent behavior."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "He outlines three priorities: protect agents from malicious attacks, detect and intercept unintended behavior, and operate in near real time. These priorities are guiding the shift towards policies and controls that can adapt as agents act.",
+        "th": "He outlines three priorities: protect agents from malicious attacks, detect and intercept unintended behavior, and operate in near real time. These priorities are guiding the shift towards policies and controls that can adapt as agents act."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Through the Daybreak Defense Network, Cisco and OpenAI are exploring how to help security teams triage exposure faster and enforce the right controls in Cisco Cloud Control. For Patel, that can help shift the advantage back to defenders.",
+        "th": "Through the Daybreak Defense Network, Cisco and OpenAI are exploring how to help security teams triage exposure faster and enforce the right controls in Cisco Cloud Control. For Patel, that can help shift the advantage back to defenders."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Join the new era of work",
+        "th": "Join the new era of work"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5Y1dBlCmidTus4VzGKYQln/eed9a19caecad1a88d67f0719bf86bf4/ropes-gray-ai-diligence-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Ropes & Gray — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Oct 29, 2026",
+        "th": "Oct 29, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5TJMrIH6Uo5jnQFOXAuLWq/4a6804999f5a3b8a55c0f3be39d65441/check-point-precision-cover-large.png?w=3840&q=90&fm=webp",
+      "alt": "Check Point — Precision surface cover, larger logo"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Oct 27, 2026",
+        "th": "Oct 27, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1MwtZ6lvHj9Et5r15FI6Lh/f5c7f182a3892a5a8f2773e37f6264ee/att-legal-cover.png?w=3840&q=90&fm=webp",
+      "alt": "How AT&T is rethinking in-house legal work with OpenAI — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Oct 21, 2026",
+        "th": "21 ต.ค. 2026"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1419 @@
+{
+  "id": "openai__scaling-git-at-openai",
+  "slug": "scaling-git-at-openai",
+  "source": "openai",
+  "url": "https://openai.com/index/scaling-git-at-openai",
+  "category": "Engineering",
+  "date": "2026-11-02T15:30:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Scaling Git at OpenAI",
+    "th": "Scaling Git at OpenAI"
+  },
+  "summary": {
+    "en": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+    "th": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 2, 2026",
+        "th": "2 พฤศจิกายน 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Building agentic-scale scale source control while investing in the Git ecosystem.",
+        "th": "Building agentic-scale scale source control while investing in the Git ecosystem."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By Aaron Friel, Taylor Blau, and Ted Nyman, Members of Technical Staff",
+        "th": "By Aaron Friel, Taylor Blau, and Ted Nyman, Members of Technical Staff"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why we needed a new source control systemEngineering for Git at scaleGit object storage primer",
+        "th": "Why we needed a new source control systemEngineering for Git at scaleGit object storage primer"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Engineering for Git at scale",
+        "th": "Engineering for Git at scale"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Git object storage primer",
+        "th": "Git object storage primer"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Existing distributed Git service patternsThree-phase commit (3PC)Write-ahead log (WAL)",
+        "th": "Existing distributed Git service patternsThree-phase commit (3PC)Write-ahead log (WAL)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Three-phase commit (3PC)",
+        "th": "การกระทำสามเฟส (3PC)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Write-ahead log (WAL)",
+        "th": "Write-ahead log (WAL)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Architecting PandoRethinking constraintsCausal consistency (CC)Comparing ApproachesScaling pushesLine-rate fetch and clone performanceCompaction and time to first byte",
+        "th": "Architecting PandoRethinking constraintsCausal consistency (CC)Comparing ApproachesScaling pushesLine-rate fetch and clone performanceCompaction and time to first byte"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Rethinking constraints",
+        "th": "Rethinking constraints"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Causal consistency (CC)",
+        "th": "Causal consistency (CC)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Comparing Approaches",
+        "th": "Comparing Approaches"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Scaling pushes",
+        "th": "Scaling pushes"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Line-rate fetch and clone performance",
+        "th": "Line-rate fetch and clone performance"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Compaction and time to first byte",
+        "th": "Compaction and time to first byte"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building Pando",
+        "th": "Building Pando"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deploying Pando",
+        "th": "Deploying Pando"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Contributing back to the Git project",
+        "th": "Contributing back to the Git project"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What’s next",
+        "th": "What’s next"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why we needed a new source control systemEngineering for Git at scaleGit object storage primer",
+        "th": "Why we needed a new source control systemEngineering for Git at scaleGit object storage primer"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Engineering for Git at scale",
+        "th": "Engineering for Git at scale"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Git object storage primer",
+        "th": "Git object storage primer"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Existing distributed Git service patternsThree-phase commit (3PC)Write-ahead log (WAL)",
+        "th": "Existing distributed Git service patternsThree-phase commit (3PC)Write-ahead log (WAL)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Three-phase commit (3PC)",
+        "th": "การกระทำสามเฟส (3PC)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Write-ahead log (WAL)",
+        "th": "Write-ahead log (WAL)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Architecting PandoRethinking constraintsCausal consistency (CC)Comparing ApproachesScaling pushesLine-rate fetch and clone performanceCompaction and time to first byte",
+        "th": "Architecting PandoRethinking constraintsCausal consistency (CC)Comparing ApproachesScaling pushesLine-rate fetch and clone performanceCompaction and time to first byte"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Rethinking constraints",
+        "th": "Rethinking constraints"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Causal consistency (CC)",
+        "th": "Causal consistency (CC)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Comparing Approaches",
+        "th": "Comparing Approaches"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Scaling pushes",
+        "th": "Scaling pushes"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Line-rate fetch and clone performance",
+        "th": "Line-rate fetch and clone performance"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Compaction and time to first byte",
+        "th": "Compaction and time to first byte"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building Pando",
+        "th": "Building Pando"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Deploying Pando",
+        "th": "Deploying Pando"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Contributing back to the Git project",
+        "th": "Contributing back to the Git project"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What’s next",
+        "th": "What’s next"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Over the past year, the size and demands on our monorepo have increased at a staggering pace. It was clear that we needed to revamp our source control system to scale to the level of concurrent work that Codex makes possible.",
+        "th": "Over the past year, the size and demands on our monorepo have increased at a staggering pace. It was clear that we needed to revamp our source control system to scale to the level of concurrent work that Codex makes possible."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We built Pando, a new backend for Git repositories, without interrupting any engineering work or changing how our team uses Git. Pando now powers all development in OpenAI’s monorepo. Pando is designed to meet two ambitious goals: first, horizontally scalable writes, optimized for concurrent pushes to many branches. And second, maximize read throughput, so clients can download data fast enough to fully saturate their available network bandwidth.",
+        "th": "We built Pando, a new backend for Git repositories, without interrupting any engineering work or changing how our team uses Git. Pando now powers all development in OpenAI’s monorepo. Pando is designed to meet two ambitious goals: first, horizontally scalable writes, optimized for concurrent pushes to many branches. And second, maximize read throughput, so clients can download data fast enough to fully saturate their available network bandwidth."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We met these goals while retaining compatibility with the Git protocol and client, enabling both our engineers and agents to seamlessly adopt Pando into their existing workflows. In production, Pando cut median push latency by nearly 5x. It now delivers nearly a petabyte of Git data per day.",
+        "th": "We met these goals while retaining compatibility with the Git protocol and client, enabling both our engineers and agents to seamlessly adopt Pando into their existing workflows. In production, Pando cut median push latency by nearly 5x. It now delivers nearly a petabyte of Git data per day."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Here, we’ll cover our motivations for building a new source-control system, along with why we chose to retain compatibility with Git. We’ll compare our system with common approaches to scaling Git, describing why Pando is uniquely capable of meeting OpenAI’s scalability needs. We also discuss what’s next, and how we’ll continue contributing to Git to support agent-scale work.",
+        "th": "Here, we’ll cover our motivations for building a new source-control system, along with why we chose to retain compatibility with Git. We’ll compare our system with common approaches to scaling Git, describing why Pando is uniquely capable of meeting OpenAI’s scalability needs. We also discuss what’s next, and how we’ll continue contributing to Git to support agent-scale work."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Why we needed a new source control system",
+        "th": "Why we needed a new source control system"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Codex has changed the scale and pace of development at OpenAI, enabling engineers to do far more work in parallel. That means more branches and pushes, more merges, and more fetches and clones from development environments, research jobs, and CI.",
+        "th": "Codex has changed the scale and pace of development at OpenAI, enabling engineers to do far more work in parallel. That means more branches and pushes, more merges, and more fetches and clones from development environments, research jobs, and CI."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These demands compound. One engineer now has several changes ready for CI at once, and each push can set several jobs fetching the same commit.",
+        "th": "These demands compound. One engineer now has several changes ready for CI at once, and each push can set several jobs fetching the same commit."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Starting around the end of last year, the systems supporting our monorepo were struggling to keep up. We suffered slow fetches and pushes along with failed merges, with reliability at times falling below 90%. Had we reached a limit of Git itself, or of the way we served our monorepo? Git grew out of a community that exchanged patches to the kernel via email. For more than two decades, developers have adapted their tools around Git as the way they build software has changed. When we started to feel friction in our own monorepo, it mattered to us that we could keep building on that work.",
+        "th": "Starting around the end of last year, the systems supporting our monorepo were struggling to keep up. We suffered slow fetches and pushes along with failed merges, with reliability at times falling below 90%. Had we reached a limit of Git itself, or of the way we served our monorepo? Git grew out of a community that exchanged patches to the kernel via email. For more than two decades, developers have adapted their tools around Git as the way they build software has changed. When we started to feel friction in our own monorepo, it mattered to us that we could keep building on that work."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We saw a way to keep that familiar workflow while rebuilding the backend to handle pushes to different branches in parallel and serve the same history to many readers concurrently. Building on Git as the foundation of our source-control workflow meant that improvements to the client could be useful beyond OpenAI. We wanted to contribute those improvements from our copy of Git⁠(opens in a new window) to upstream, sharing them with the broader community.",
+        "th": "We saw a way to keep that familiar workflow while rebuilding the backend to handle pushes to different branches in parallel and serve the same history to many readers concurrently. Building on Git as the foundation of our source-control workflow meant that improvements to the client could be useful beyond OpenAI. We wanted to contribute those improvements from our copy of Git⁠(opens in a new window) to upstream, sharing them with the broader community."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Engineering for Git at scale",
+        "th": "Engineering for Git at scale"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Scaling a source control system has two essential dimensions: many writers pushing to different branches, and many readers fetching the same history. Pando optimizes for both.",
+        "th": "Scaling a source control system has two essential dimensions: many writers pushing to different branches, and many readers fetching the same history. Pando optimizes for both."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "First, Pando coordinates updates to each branch independently. Updates to unrelated branches can proceed in parallel, and a reader fetching a branch gets the history needed for that revision. The tradeoff is that a reader looking at several branches can see them at different points of time.",
+        "th": "First, Pando coordinates updates to each branch independently. Updates to unrelated branches can proceed in parallel, and a reader fetching a branch gets the history needed for that revision. The tradeoff is that a reader looking at several branches can see them at different points of time."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Second, Pando reuses packfiles (Git’s format for compressing multiple objects together) across fetches instead of generating an individual packfile for each client. A client may download some objects it already has, but the server can serve the same bytes to many clients with little computation.",
+        "th": "Second, Pando reuses packfiles (Git’s format for compressing multiple objects together) across fetches instead of generating an individual packfile for each client. A client may download some objects it already has, but the server can serve the same bytes to many clients with little computation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These choices let us scale writes across branches and serve reads from caches. To see how they fit together, let’s start with how Git stores and transfers history.",
+        "th": "These choices let us scale writes across branches and serve reads from caches. To see how they fit together, let’s start with how Git stores and transfers history."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Git object storage primer",
+        "th": "Git object storage primer"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Git must be able to keep two parts of a repository in sync: objects and references.",
+        "th": "Git must be able to keep two parts of a repository in sync: objects and references."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A Git repository records snapshots of files and the history connecting them as a graph of objects. An object may be either a blob, tree, commit, or tag. Blobs hold the content of an individual file, and trees associate names with blobs or other trees to form a directory structure. Commits point to a root tree and zero or more parent commits, forming the history of your repository.",
+        "th": "A Git repository records snapshots of files and the history connecting them as a graph of objects. An object may be either a blob, tree, commit, or tag. Blobs hold the content of an individual file, and trees associate names with blobs or other trees to form a directory structure. Commits point to a root tree and zero or more parent commits, forming the history of your repository."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Objects are identified by a hash of their type and contents. Objects are also immutable: recording a changed file creates a new blob, while unchanged files and directories can reuse existing objects.",
+        "th": "Objects are identified by a hash of their type and contents. Objects are also immutable: recording a changed file creates a new blob, while unchanged files and directories can reuse existing objects."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Branches and tags are references, or “refs”, that point to commits. Committing on a branch creates a new commit and updates the branch’s ref to point to it.",
+        "th": "Branches and tags are references, or “refs”, that point to commits. Committing on a branch creates a new commit and updates the branch’s ref to point to it."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2HM5lol94vaZXcGl7zXuf1/96c979a79f2b5971397cf3068a4767da/how-git-objects-reference-each-other-diagram-desktop-light.svg?w=3840&q=90",
+      "alt": "The branch refs/heads/main points to commit C2, whose parent is C1. C1 points to root tree T1, where parser.py refers to blob B1. C2 points to root tree T2, where parser.py refers to blob B2. In both root trees, docs/ refers to the same tree, T3. Its README.md entry points to blob B3, and usage.md points to blob B4."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Git objects reference each other by their ID, commits to trees, and trees to trees and blobs. The branch refs/heads/main points to commit C2, whose parent is C1. C1 points to root tree T1, where parser.py refers to blob B1. C2 points to root tree T2, where parser.py refers to blob B2. In both root trees, docs/ refers to the same tree, T3. Its README.md entry points to blob B3, and usage.md points to blob B4.",
+        "th": "Git objects reference each other by their ID, commits to trees, and trees to trees and blobs. The branch refs/heads/main points to commit C2, whose parent is C1. C1 points to root tree T1, where parser.py refers to blob B1. C2 points to root tree T2, where parser.py refers to blob B2. In both root trees, docs/ refers to the same tree, T3. Its README.md entry points to blob B3, and usage.md points to blob B4."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Git stores objects in either a “loose” or “packed” state. Loose objects are stored in individual files identified by their object ID. Packed objects are stored together in a packfile, enabling similar objects to be stored as deltas against one another.",
+        "th": "Git stores objects in either a “loose” or “packed” state. Loose objects are stored in individual files identified by their object ID. Packed objects are stored together in a packfile, enabling similar objects to be stored as deltas against one another."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4xklltw3tJY3qRk8mzW0l3/f7f44a2cb856b00677a31506465e6d1a/storing-git-objects-in-packfiles-diagram-desktop-light.svg?w=3840&q=90",
+      "alt": "Two versions of parser.py appear under $GIT_DIR/objects . As loose objects, blob A contains parse(), and blob B contains both parse() and parse_file(). The packfile stores A in full and represents B as instructions to copy all of A and append parse_file(). The accompanying *.idx file locates both blobs in the packfile by object ID."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Git can store blobs as separate files or pack them together, encoding one blob as a delta against another.",
+        "th": "Git can store blobs as separate files or pack them together, encoding one blob as a delta against another."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In Git, an object is reachable from a commit if Git can find it by following links from that commit through its parents, trees, and blobs. During a fetch, the client tells the server which commits it wants and which it already has. The server finds the objects reachable from the wanted commits, excludes those it knows the client already has, and sends the remainder as a packfile in the same format Git uses on disk. A full clone starts without any objects, so it needs all the objects reachable from the history being cloned.",
+        "th": "In Git, an object is reachable from a commit if Git can find it by following links from that commit through its parents, trees, and blobs. During a fetch, the client tells the server which commits it wants and which it already has. The server finds the objects reachable from the wanted commits, excludes those it knows the client already has, and sends the remainder as a packfile in the same format Git uses on disk. A full clone starts without any objects, so it needs all the objects reachable from the history being cloned."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A push transfers objects in the other direction by asking the server to update one or more refs. The client uses the server’s set of advertised refs to avoid sending objects the server already has. The pack being sent can therefore depend on existing objects: receiving the pack alone is not enough to reconstruct the new history.",
+        "th": "A push transfers objects in the other direction by asking the server to update one or more refs. The client uses the server’s set of advertised refs to avoid sending objects the server already has. The pack being sent can therefore depend on existing objects: receiving the pack alone is not enough to reconstruct the new history."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Replicating a Git repository means keeping both objects and references available across multiple servers. Before a replica can serve a reference’s new value, it must be able to supply the objects reachable from that value. The service also needs to coordinate competing reference updates, i.e., pushes that try to move the same branch from the same old tip to different new commits. Systems that impose a single order on all writes to a repository can make pushes to unrelated branches wait on one another.",
+        "th": "Replicating a Git repository means keeping both objects and references available across multiple servers. Before a replica can serve a reference’s new value, it must be able to supply the objects reachable from that value. The service also needs to coordinate competing reference updates, i.e., pushes that try to move the same branch from the same old tip to different new commits. Systems that impose a single order on all writes to a repository can make pushes to unrelated branches wait on one another."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Existing distributed Git service patterns",
+        "th": "Existing distributed Git service patterns"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "While designing Pando, we evaluated conventional approaches for scaling source control using Git: one that coordinates ref updates across repository replicas using three-phase commit (3PC, a protocol for coordinating a commit across multiple nodes), and one that orders updates through a shared write-ahead log (WAL, a record of changes written before they’re applied) in blob storage.",
+        "th": "While designing Pando, we evaluated conventional approaches for scaling source control using Git: one that coordinates ref updates across repository replicas using three-phase commit (3PC, a protocol for coordinating a commit across multiple nodes), and one that orders updates through a shared write-ahead log (WAL, a record of changes written before they’re applied) in blob storage."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Three-phase commit (3PC)",
+        "th": "การกระทำสามเฟส (3PC)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In the three-phase commit design we modeled, the Git service keeps a complete copy of the repository on several replicas. When any server receives a push, the incoming packfile is copied and sent to all replicas in parallel. To publish the push, a majority of replicas must accept the ref update. The server managing this is the coordinator, and it requires multiple rounds of communication between the coordinator and each other replica.",
+        "th": "In the three-phase commit design we modeled, the Git service keeps a complete copy of the repository on several replicas. When any server receives a push, the incoming packfile is copied and sent to all replicas in parallel. To publish the push, a majority of replicas must accept the ref update. The server managing this is the coordinator, and it requires multiple rounds of communication between the coordinator and each other replica."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To accept a reference update, each replica locks its copy of the ref and checks that it still points to the commit the client expects. The coordinator then sends a pre-commit message to the replicas that accept. Once a majority acknowledges the pre-commit message, the coordinator tells them to perform the update. Any up-to-date replica can then advertise the new branch tip from its local copy of the repository.",
+        "th": "To accept a reference update, each replica locks its copy of the ref and checks that it still points to the commit the client expects. The coordinator then sends a pre-commit message to the replicas that accept. Once a majority acknowledges the pre-commit message, the coordinator tells them to perform the update. Any up-to-date replica can then advertise the new branch tip from its local copy of the repository."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Keeping complete replicas makes it possible to serve reads locally, and guarantees that clients get a consistent view of all references no matter which replica they pick. As a consequence, references are updated one at a time, and each push requires multiple round trips to coordinate the ref update among replicas.",
+        "th": "Keeping complete replicas makes it possible to serve reads locally, and guarantees that clients get a consistent view of all references no matter which replica they pick. As a consequence, references are updated one at a time, and each push requires multiple round trips to coordinate the ref update among replicas."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Waiting for a quorum puts replica disk performance and communication latency on the push path. As write volume grows, the replicas must keep up with incoming packs as well as read traffic.",
+        "th": "Waiting for a quorum puts replica disk performance and communication latency on the push path. As write volume grows, the replicas must keep up with incoming packs as well as read traffic."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Write-ahead log (WAL)",
+        "th": "Write-ahead log (WAL)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In the WAL-based design we modeled, the Git service uses a shared manifest in blob storage to order updates across the repository. When a server receives a push, it uploads the incoming packfile to a blob store and prepares the ref update in its local copy of the repository. To publish the push, it adds an entry to a shared manifest stored in the blob store that records the ref update and points to the packfile. The Git server then updates the manifest using a compare-and-swap operation. This atomically replaces the manifest, or otherwise rejects the change. If another writer has updated it in the meantime, the server reads the intervening entries, checks that its ref update is still valid, and retries using the packfile it already uploaded.",
+        "th": "In the WAL-based design we modeled, the Git service uses a shared manifest in blob storage to order updates across the repository. When a server receives a push, it uploads the incoming packfile to a blob store and prepares the ref update in its local copy of the repository. To publish the push, it adds an entry to a shared manifest stored in the blob store that records the ref update and points to the packfile. The Git server then updates the manifest using a compare-and-swap operation. This atomically replaces the manifest, or otherwise rejects the change. If another writer has updated it in the meantime, the server reads the intervening entries, checks that its ref update is still valid, and retries using the packfile it already uploaded."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Writers can upload their packfiles in parallel, but even pushes to unrelated branches require updating the same manifest. The round-trip time for a successful compare-and-swap limits how often the repository can publish a new manifest. A low-latency blob store makes this step fast. Batching lets one manifest update several refs at the same time, at the cost of queueing updates and increasing latency.",
+        "th": "Writers can upload their packfiles in parallel, but even pushes to unrelated branches require updating the same manifest. The round-trip time for a successful compare-and-swap limits how often the repository can publish a new manifest. A low-latency blob store makes this step fast. Batching lets one manifest update several refs at the same time, at the cost of queueing updates and increasing latency."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The blob store can receive packfiles in parallel, but updates to the shared manifest still compete with one another. Increasing the blob store’s capacity alone doesn’t resolve that bottleneck. Each replica still needs to read and index packs from the blob store before it can serve them locally. If incoming writes outpace that work, replicas fall behind and clients wait longer to fetch newly pushed commits.",
+        "th": "The blob store can receive packfiles in parallel, but updates to the shared manifest still compete with one another. Increasing the blob store’s capacity alone doesn’t resolve that bottleneck. Each replica still needs to read and index packs from the blob store before it can serve them locally. If incoming writes outpace that work, replicas fall behind and clients wait longer to fetch newly pushed commits."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Architecting Pando",
+        "th": "Architecting Pando"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That brings us to Pando. Pando is a new architecture for serving Git repositories with the goal of scaling to many clients pushing simultaneously. Here’s how it works:",
+        "th": "That brings us to Pando. Pando is a new architecture for serving Git repositories with the goal of scaling to many clients pushing simultaneously. Here’s how it works:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Rethinking constraints",
+        "th": "Rethinking constraints"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prior to developing Pando, we had a hunch that we could meet our requirements without compromising on Git, but we did need to compromise on some of the things that most Git systems assume to be requirements:",
+        "th": "Prior to developing Pando, we had a hunch that we could meet our requirements without compromising on Git, but we did need to compromise on some of the things that most Git systems assume to be requirements:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Repository-wide consistency: Providing a consistent, point-in-time snapshot of all refs requires coordination across the repository. In a system that orders all ref updates together, pushes to unrelated branches contend on a single coordination point.",
+        "th": "Repository-wide consistency: Providing a consistent, point-in-time snapshot of all refs requires coordination across the repository. In a system that orders all ref updates together, pushes to unrelated branches contend on a single coordination point."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Repository-wide consistency: Providing a consistent, point-in-time snapshot of all refs requires coordination across the repository. In a system that orders all ref updates together, pushes to unrelated branches contend on a single coordination point.",
+        "th": "Repository-wide consistency: Providing a consistent, point-in-time snapshot of all refs requires coordination across the repository. In a system that orders all ref updates together, pushes to unrelated branches contend on a single coordination point."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Unique packfiles for every client: If two clients with different local histories fetch the same branch, the server may need to generate a different pack for each to avoid sending objects they already have. Creating these responses costs CPU and disk I/O, making it difficult to scale to high volumes of readers.",
+        "th": "Unique packfiles for every client: If two clients with different local histories fetch the same branch, the server may need to generate a different pack for each to avoid sending objects they already have. Creating these responses costs CPU and disk I/O, making it difficult to scale to high volumes of readers."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Unique packfiles for every client: If two clients with different local histories fetch the same branch, the server may need to generate a different pack for each to avoid sending objects they already have. Creating these responses costs CPU and disk I/O, making it difficult to scale to high volumes of readers.",
+        "th": "Unique packfiles for every client: If two clients with different local histories fetch the same branch, the server may need to generate a different pack for each to avoid sending objects they already have. Creating these responses costs CPU and disk I/O, making it difficult to scale to high volumes of readers."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Instead, Pando provides a relaxed consistency model (causal consistency) to scale writes, and reuses packfiles to scale reads.",
+        "th": "Instead, Pando provides a relaxed consistency model (causal consistency) to scale writes, and reuses packfiles to scale reads."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Causal consistency (CC)",
+        "th": "Causal consistency (CC)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When a client pushes to a branch, Pando stores the incoming packfile as an immutable blob in a blob store. Each time the branch moves, Pando records a ref version containing the new tip, the pack that supplied it, and any earlier ref versions the pack depends on in a metadata store. Both the blob store and metadata store are horizontally scalable.",
+        "th": "When a client pushes to a branch, Pando stores the incoming packfile as an immutable blob in a blob store. Each time the branch moves, Pando records a ref version containing the new tip, the pack that supplied it, and any earlier ref versions the pack depends on in a metadata store. Both the blob store and metadata store are horizontally scalable."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Fetching a commit or reference from Pando requires replaying a set of ref versions (packfiles) to the client, reconstructing the state of the client that created the ref version being fetched. This provides a weaker form of consistency across the entire repository, while providing serializability for updates to individual refs. Clients only conflict when pushing to the same ref simultaneously. A client reading several branches cannot assume those reads describe a single point in time across the repository.",
+        "th": "Fetching a commit or reference from Pando requires replaying a set of ref versions (packfiles) to the client, reconstructing the state of the client that created the ref version being fetched. This provides a weaker form of consistency across the entire repository, while providing serializability for updates to individual refs. Clients only conflict when pushing to the same ref simultaneously. A client reading several branches cannot assume those reads describe a single point in time across the repository."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5wDkqDPp9fjzOjtAQRDRzw/117b2f107fd11818f7e9154c958b0878/representing-branches-in-pando-diagram-desktop-light.svg?w=3840&q=90",
+      "alt": "On the left, three successive trunk packs contain commits A, B and C; D and E; and F. On the right, trunk and topic diverge at C. Trunk advances to G, while topic advances through D, E, and F. The latest topic pack contains D, E, and F. A dashed outline marks D and E as also present in the earlier topic pack. The blue arrow marks the new pack’s dependency on trunk at G. F’s Git parent is E."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A push to trunk adds an incremental pack, containing one or more commits. Each push to a side branch includes the topic’s earlier commits again, so a client with the advertised trunk version can fetch the topic in one pack.",
+        "th": "A push to trunk adds an incremental pack, containing one or more commits. Each push to a side branch includes the topic’s earlier commits again, so a client with the advertised trunk version can fetch the topic in one pack."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This is a form of causal consistency. In order to fetch a reference, the reader observes the history of the writer that produced it. During a push, Pando controls what shared history the client and server agree on, ensuring clients produce more easily shared packfiles.",
+        "th": "This is a form of causal consistency. In order to fetch a reference, the reader observes the history of the writer that produced it. During a push, Pando controls what shared history the client and server agree on, ensuring clients produce more easily shared packfiles."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As a consequence, Pando doesn’t provide a point-in-time state of all references during Git operations or an ordering of ref updates within a clone or fetch. Concretely, suppose that branches foo and bar are both updated during the negotiation of a full clone. During the negotiation, one client may observe foo at version 1 and bar at version 2, while another client observes foo at version 2 and bar at version 1. In practice, users and agents are agnostic to the global ordering of ref updates, and instead depend on the order of updates to a single reference.",
+        "th": "As a consequence, Pando doesn’t provide a point-in-time state of all references during Git operations or an ordering of ref updates within a clone or fetch. Concretely, suppose that branches foo and bar are both updated during the negotiation of a full clone. During the negotiation, one client may observe foo at version 1 and bar at version 2, while another client observes foo at version 2 and bar at version 1. In practice, users and agents are agnostic to the global ordering of ref updates, and instead depend on the order of updates to a single reference."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Comparing Approaches",
+        "th": "Comparing Approaches"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In this simulation of the three consistency models we configure 1,000 clients to each select a distinct branch and then repeatedly push unique commits, measuring total wall clock duration and push to fetch latency. The latter is an important metric for workloads, as it measures round trip time for users and agents to collaborate or to use other systems which rely on version control. The simulation models hardware ranging from commodity to premium virtual machines and blob storage systems. In this simulation, we’ve relaxed repository-wide consistency for three-phase commit.",
+        "th": "In this simulation of the three consistency models we configure 1,000 clients to each select a distinct branch and then repeatedly push unique commits, measuring total wall clock duration and push to fetch latency. The latter is an important metric for workloads, as it measures round trip time for users and agents to collaborate or to use other systems which rely on version control. The simulation models hardware ranging from commodity to premium virtual machines and blob storage systems. In this simulation, we’ve relaxed repository-wide consistency for three-phase commit."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Simulating Git Server Implementations",
+        "th": "Simulating Git Server Implementations"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Follow each writer through repeated pushes, and separately measure when an independent reader can check out each commit.",
+        "th": "Follow each writer through repeated pushes, and separately measure when an independent reader can check out each commit."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Three-phase commit",
+        "th": "Three-phase commit"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each square represents one writer. All selected architectures run the same workload. Squares lighten as pushes are acknowledged and turn blue when a writer finishes. The chart shows writers finished over simulated time; independent readers can continue fetching afterward. Use arrow keys to select a writer, Home or End to jump, and Escape to clear.",
+        "th": "Each square represents one writer. All selected architectures run the same workload. Squares lighten as pushes are acknowledged and turn blue when a writer finishes. The chart shows writers finished over simulated time; independent readers can continue fetching afterward. Use arrow keys to select a writer, Home or End to jump, and Escape to clear."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "0 / 10,000 pushes acknowledged · 0 fetched",
+        "th": "0 / 10,000 pushes acknowledged · 0 fetched"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Select a square to inspect that writer.",
+        "th": "Select a square to inspect that writer."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Object-store WAL",
+        "th": "Object-store WAL"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each square represents one writer. All selected architectures run the same workload. Squares lighten as pushes are acknowledged and turn blue when a writer finishes. The chart shows writers finished over simulated time; independent readers can continue fetching afterward. Use arrow keys to select a writer, Home or End to jump, and Escape to clear.",
+        "th": "Each square represents one writer. All selected architectures run the same workload. Squares lighten as pushes are acknowledged and turn blue when a writer finishes. The chart shows writers finished over simulated time; independent readers can continue fetching afterward. Use arrow keys to select a writer, Home or End to jump, and Escape to clear."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "0 / 10,000 pushes acknowledged · 0 fetched",
+        "th": "0 / 10,000 pushes acknowledged · 0 fetched"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Select a square to inspect that writer.",
+        "th": "Select a square to inspect that writer."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Pando",
+        "th": "Pando"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each square represents one writer. All selected architectures run the same workload. Squares lighten as pushes are acknowledged and turn blue when a writer finishes. The chart shows writers finished over simulated time; independent readers can continue fetching afterward. Use arrow keys to select a writer, Home or End to jump, and Escape to clear.",
+        "th": "Each square represents one writer. All selected architectures run the same workload. Squares lighten as pushes are acknowledged and turn blue when a writer finishes. The chart shows writers finished over simulated time; independent readers can continue fetching afterward. Use arrow keys to select a writer, Home or End to jump, and Escape to clear."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "0 / 10,000 pushes acknowledged · 0 fetched",
+        "th": "0 / 10,000 pushes acknowledged · 0 fetched"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Select a square to inspect that writer.",
+        "th": "Select a square to inspect that writer."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Writer progress through verified fetches",
+        "th": "Writer progress through verified fetches"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Three-phase commit",
+        "th": "Three-phase commit"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Object-store WAL",
+        "th": "Object-store WAL"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Pando",
+        "th": "Pando"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Waiting",
+        "th": "Waiting"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Pushing",
+        "th": "Pushing"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "All pushes acknowledged",
+        "th": "All pushes acknowledged"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Synthetic teaching models, not production benchmarks. Mean push to fetch covers topic pushes, from the first attempt through retries until an independent reader verifies that commit. It includes waiting for a reader slot and excludes builds and tests. With merges enabled, writer completion includes the required fetches and trunk merge.",
+        "th": "รูปแบบการสอนสังเคราะห์ ไม่ใช่เกณฑ์มาตรฐานการผลิต การพุชเพื่อดึงข้อมูลแบบเฉลี่ยครอบคลุมการพุชหัวข้อ ตั้งแต่ความพยายามครั้งแรกจนถึงการลองใหม่จนกระทั่งผู้อ่านอิสระตรวจสอบการคอมมิตนั้น ซึ่งรวมถึงการรอสล็อตตัวอ่าน และไม่รวมบิลด์และการทดสอบ เมื่อเปิดใช้งานการผสาน การเขียนให้เสร็จสมบูรณ์จะรวมการดึงข้อมูลที่จำเป็นและการผสานลำตัวด้วย"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Experiment settings",
+        "th": "Experiment settings"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Preparing simulation…",
+        "th": "Preparing simulation…"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Results",
+        "th": "Results"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Play the comparison to see the recorded results.",
+        "th": "Play the comparison to see the recorded results."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Synthetic teaching models, not production benchmarks. Mean push to fetch covers topic pushes, from the first attempt through retries until an independent reader verifies that commit. It includes waiting for a reader slot and excludes builds and tests. With merges enabled, writer completion includes the required fetches and trunk merge.",
+        "th": "รูปแบบการสอนสังเคราะห์ ไม่ใช่เกณฑ์มาตรฐานการผลิต การพุชเพื่อดึงข้อมูลแบบเฉลี่ยครอบคลุมการพุชหัวข้อ ตั้งแต่ความพยายามครั้งแรกจนถึงการลองใหม่จนกระทั่งผู้อ่านอิสระตรวจสอบการคอมมิตนั้น ซึ่งรวมถึงการรอสล็อตตัวอ่าน และไม่รวมบิลด์และการทดสอบ เมื่อเปิดใช้งานการผสาน การเขียนให้เสร็จสมบูรณ์จะรวมการดึงข้อมูลที่จำเป็นและการผสานลำตัวด้วย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Run this simulation comparing Pando with two other approaches. Choose infrastructure from commodity to premium hardware, number of clients, and more settings to see how they compare.",
+        "th": "Run this simulation comparing Pando with two other approaches. Choose infrastructure from commodity to premium hardware, number of clients, and more settings to see how they compare."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The modeled three-phase commit system shows significantly greater write latency under load as their disks saturate; meanwhile, write-ahead log systems show significantly greater read latency for the same reason, as servers struggle to keep up with reading from the journal. In both real world testing on our monorepo and in this simulation, Pando supports many thousands of clients able to push concurrently without impacting performance under load.",
+        "th": "ระบบคอมมิตสามเฟสที่จำลองไว้จะแสดงเวลาแฝงในการเขียนที่มากขึ้นอย่างมีนัยสำคัญภายใต้โหลดเมื่อดิสก์อิ่มตัว ในขณะเดียวกัน ระบบบันทึกการเขียนล่วงหน้าจะแสดงเวลาแฝงในการอ่านที่มากขึ้นอย่างมีนัยสำคัญด้วยเหตุผลเดียวกัน เนื่องจากเซิร์ฟเวอร์ประสบปัญหาในการติดตามการอ่านจากบันทึกประจำวัน ในการทดสอบทั้งในโลกจริงบน monorepo ของเราและในการจำลองนี้ Pando สนับสนุนลูกค้าหลายพันรายที่สามารถพุชพร้อมกันได้โดยไม่กระทบต่อประสิทธิภาพการทำงานภายใต้ภาระงาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On handling a push, Pando validates the incoming packfile while streaming it to blob storage, without unpacking it into a local repository. When a client begins a fetch Pando selects the stored packs the reader needs, and the reader downloads them. No server needs to apply packfiles to a local repository or perform costly unpack and packing operations. Because these servers primarily perform negotiation and packfile selection, Pando servers can run on commodity hardware.",
+        "th": "On handling a push, Pando validates the incoming packfile while streaming it to blob storage, without unpacking it into a local repository. When a client begins a fetch Pando selects the stored packs the reader needs, and the reader downloads them. No server needs to apply packfiles to a local repository or perform costly unpack and packing operations. Because these servers primarily perform negotiation and packfile selection, Pando servers can run on commodity hardware."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This allows Pando to scale to the limits of clients, the network between clients and Pando, and the blob storage service. With enough capacity, clients working on independent branches can each transfer packs as fast as their own connection allows. To serve more clients at that rate, we can add Pando servers and scale the metadata store and blob store alongside them.",
+        "th": "This allows Pando to scale to the limits of clients, the network between clients and Pando, and the blob storage service. With enough capacity, clients working on independent branches can each transfer packs as fast as their own connection allows. To serve more clients at that rate, we can add Pando servers and scale the metadata store and blob store alongside them."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Pushing and Fetching a Branch in Pando",
+        "th": "Pushing and Fetching a Branch in Pando"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Pando stores the writer’s packfile in blob storage and records the ref version in metadata service. On fetch, Pando selects the packs the reader needs, and Express serves them.",
+        "th": "Pando จัดเก็บไฟล์แพ็คของผู้เขียนไว้ในที่เก็บข้อมูล blob และบันทึกเวอร์ชันอ้างอิงในบริการข้อมูลเมตา เมื่อดึงข้อมูล Pando จะเลือกแพ็คที่ผู้อ่านต้องการ และ Express จะให้บริการ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Stream the pushFetch the branch",
+        "th": "Stream the pushFetch the branch"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Packfile bytes",
+        "th": "Packfile bytes"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Metadata",
+        "th": "Metadata"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Request / acknowledgment",
+        "th": "การร้องขอ/การรับทราบ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Packfile URIs",
+        "th": "Packfile URIs"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An agent edits files and creates a commit locally and runs git push, which creates a packfile of those changes to update a branch. Pando receives the pack and streams it to blob storage. After validating the incoming push with a single pass decode, Pando uses a multi-key transaction to record a ref version in our metadata store and atomically update the ref pointer. This enables Pando to provide “read-your-own-write” consistency. This entire write operation requires O(1)O(1)O(1) metadata reads and writes.",
+        "th": "เอเจนต์แก้ไขไฟล์และสร้างการคอมมิตในเครื่องและรัน git push ซึ่งสร้างแพ็คไฟล์ของการเปลี่ยนแปลงเหล่านั้นเพื่ออัปเดตสาขา Pando รับแพ็กและสตรีมไปยังที่เก็บข้อมูลหยด หลังจากตรวจสอบความถูกต้องของการพุชขาเข้าด้วยการถอดรหัสผ่านครั้งเดียว Pando จะใช้ธุรกรรมแบบหลายคีย์เพื่อบันทึกเวอร์ชันการอ้างอิงในที่เก็บข้อมูลเมตาของเรา และอัปเดตตัวชี้การอ้างอิงแบบอะตอมมิก สิ่งนี้ทำให้ Pando สามารถมอบความสอดคล้องแบบ \"อ่านของคุณเอง-เขียน\" ได้ การดำเนินการเขียนทั้งหมดนี้ต้องมีการอ่านและเขียนข้อมูลเมตา O(1)O(1)O(1)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When another client fetches the branch, Pando selects a set of stored packs using the history the client already has. This operation requires O(log⁡Δ)O(\\log \\Delta)O(logΔ) metadata reads, Δ\\DeltaΔ being the shortest distance in ref versions between what the client has and what the client wants. The server returns packfile URIs, and the client downloads them through a service, Express, that stores packfiles in regional caches.",
+        "th": "When another client fetches the branch, Pando selects a set of stored packs using the history the client already has. This operation requires O(log⁡Δ)O(\\log \\Delta)O(logΔ) metadata reads, Δ\\DeltaΔ being the shortest distance in ref versions between what the client has and what the client wants. The server returns packfile URIs, and the client downloads them through a service, Express, that stores packfiles in regional caches."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This design relies on the three central services of Pando’s architecture: pushes, fetches, and compaction.",
+        "th": "This design relies on the three central services of Pando’s architecture: pushes, fetches, and compaction."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Scaling pushes",
+        "th": "Scaling pushes"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When a client pushes, a conventional Git server is like a poker player showing all of its cards, revealing to the client every branch it has. The client then gathers the commits, trees, and blobs to create a packfile that excludes objects it knows the server already has.",
+        "th": "When a client pushes, a conventional Git server is like a poker player showing all of its cards, revealing to the client every branch it has. The client then gathers the commits, trees, and blobs to create a packfile that excludes objects it knows the server already has."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Advertising more refs can make the push smaller. It can also make the pack harder to reuse, because another client may be missing objects the writer left out.",
+        "th": "Advertising more refs can make the push smaller. It can also make the pack harder to reuse, because another client may be missing objects the writer left out."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Pando takes a different approach. Instead of showing its full hand, it only advertises a select set of branches to the client. This is done for two reasons:",
+        "th": "Pando takes a different approach. Instead of showing its full hand, it only advertises a select set of branches to the client. This is done for two reasons:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Providing a consistent view of every ref is expensive. With millions of branches, the ref advertisement alone can exceed 100 MiB. Providing this requires each server to either maintain a current mapping, requiring significant coordination overhead, or a database query that scales with the number of refs.",
+        "th": "Providing a consistent view of every ref is expensive. With millions of branches, the ref advertisement alone can exceed 100 MiB. Providing this requires each server to either maintain a current mapping, requiring significant coordination overhead, or a database query that scales with the number of refs."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Providing a consistent view of every ref is expensive. With millions of branches, the ref advertisement alone can exceed 100 MiB. Providing this requires each server to either maintain a current mapping, requiring significant coordination overhead, or a database query that scales with the number of refs.",
+        "th": "Providing a consistent view of every ref is expensive. With millions of branches, the ref advertisement alone can exceed 100 MiB. Providing this requires each server to either maintain a current mapping, requiring significant coordination overhead, or a database query that scales with the number of refs."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "By providing only a subset of the refs to the client, the client will generate a pack that depends only on what the server explicitly allows the client to exclude. Tracking the dependencies allows Pando to reuse the packfile a client generates in one push by serving it as the response to a subsequent fetch.",
+        "th": "By providing only a subset of the refs to the client, the client will generate a pack that depends only on what the server explicitly allows the client to exclude. Tracking the dependencies allows Pando to reuse the packfile a client generates in one push by serving it as the response to a subsequent fetch."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By providing only a subset of the refs to the client, the client will generate a pack that depends only on what the server explicitly allows the client to exclude. Tracking the dependencies allows Pando to reuse the packfile a client generates in one push by serving it as the response to a subsequent fetch.",
+        "th": "By providing only a subset of the refs to the client, the client will generate a pack that depends only on what the server explicitly allows the client to exclude. Tracking the dependencies allows Pando to reuse the packfile a client generates in one push by serving it as the response to a subsequent fetch."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As a Git server advertises more refs, clients pushing have more sources from which to exclude objects, enabling them to produce smaller packs. However, reusing these packfiles requires the server to be able to prove the clients fetching have each of the dependencies. Otherwise, the packfile may omit objects the client needs.",
+        "th": "As a Git server advertises more refs, clients pushing have more sources from which to exclude objects, enabling them to produce smaller packs. However, reusing these packfiles requires the server to be able to prove the clients fetching have each of the dependencies. Otherwise, the packfile may omit objects the client needs."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On the other hand, if a Git server advertises none at all, the client would generate a packfile containing the repository’s full history. That packfile can be used by any other client, but at the significant cost of making fetching any branch effectively a full clone.",
+        "th": "ในทางกลับกัน หากเซิร์ฟเวอร์ Git ไม่ได้โฆษณาเลย ไคลเอ็นต์จะสร้างไฟล์แพ็คที่มีประวัติเต็มของพื้นที่เก็บข้อมูล ไคลเอนต์อื่น ๆ สามารถใช้แพ็คไฟล์นั้นได้ แต่ต้องเสียค่าใช้จ่ายจำนวนมากในการดึงข้อมูลสาขาใด ๆ ให้เป็นโคลนแบบเต็มอย่างมีประสิทธิภาพ"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3H8EcvD2zWlkO6LDnf4Zzy/90597498322b48ae7215638f012fe716/how-advertised-refs-affect-packfile-size-diagram-desktop-light.svg?w=3840&q=90",
+      "alt": "Curve showing how advertised references affect packfile size, from full history with none, through advertising trunk, to only new objects with all references."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Advertising more refs results in smaller packfiles. Most of the size reduction can come from advertising just one.",
+        "th": "Advertising more refs results in smaller packfiles. Most of the size reduction can come from advertising just one."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By default, when a client pushes a new feature branch, Pando advertises only a designated trunk branch as a base. This keeps the advertisement the same size as the repository gains branches, but comes with tradeoffs. When an engineer either pushes to a single branch many times, or stacks one feature branch on top of another the client has to resend everything outside of the trunk.",
+        "th": "ตามค่าเริ่มต้น เมื่อไคลเอนต์พุชฟีเจอร์แบรนช์ใหม่ Pando จะโฆษณาเฉพาะแบรนช์ trunk ที่กำหนดเป็นฐาน ซึ่งจะทำให้โฆษณามีขนาดเท่ากันกับพื้นที่เก็บข้อมูลที่มีการขยายสาขา แต่ก็มีข้อดีข้อเสียอยู่ด้วย เมื่อวิศวกรผลักไปที่สาขาเดียวหลายครั้ง หรือซ้อนฟีเจอร์สาขาหนึ่งไว้ทับอีกสาขาหนึ่ง ไคลเอนต์จะต้องส่งทุกอย่างที่อยู่นอก Trunk อีกครั้ง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This causes successive branch pushes to be larger, containing potentially-redundant objects, and uses additional client bandwidth. In our monorepo, the median packfile produced this way was under 20 KiB, and the 99th percentile was under 3 MiB. For us, this was a sensible trade-off because a reader that already has the advertised trunk history can fetch the branch with that one packfile.",
+        "th": "This causes successive branch pushes to be larger, containing potentially-redundant objects, and uses additional client bandwidth. In our monorepo, the median packfile produced this way was under 20 KiB, and the 99th percentile was under 3 MiB. For us, this was a sensible trade-off because a reader that already has the advertised trunk history can fetch the branch with that one packfile."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "After choosing the set of refs to advertise to the client, Pando accepts the push and updates its metadata store. Pando splits the metadata update into synchronous and asynchronous portions. The synchronous metadata update ensures clients can immediately fetch the newly updated commit. This writes a new ref version and updates the ref pointer mapping to that new version storing that new tip, the dependencies used to negotiate the packfile, and a link to the packfile that was pushed.",
+        "th": "After choosing the set of refs to advertise to the client, Pando accepts the push and updates its metadata store. Pando splits the metadata update into synchronous and asynchronous portions. The synchronous metadata update ensures clients can immediately fetch the newly updated commit. This writes a new ref version and updates the ref pointer mapping to that new version storing that new tip, the dependencies used to negotiate the packfile, and a link to the packfile that was pushed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "At the same time, asynchronous work is recorded in the same transaction, such as scheduling compaction. For very large pushes, only a subset of commits are written synchronously. This allows us to require only a constant number of reads and writes to the metadata store, regardless of the size of the push.",
+        "th": "At the same time, asynchronous work is recorded in the same transaction, such as scheduling compaction. For very large pushes, only a subset of commits are written synchronously. This allows us to require only a constant number of reads and writes to the metadata store, regardless of the size of the push."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Importantly, Pando servers can accept pushes to unrelated refs independently. The only contended key is the ref pointer, which we guard using an atomic compare-and-swap-like operation. We can scale up write throughput by adding Pando servers, metadata store scaling units, or blob stores.",
+        "th": "Importantly, Pando servers can accept pushes to unrelated refs independently. The only contended key is the ref pointer, which we guard using an atomic compare-and-swap-like operation. We can scale up write throughput by adding Pando servers, metadata store scaling units, or blob stores."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Line-rate fetch and clone performance",
+        "th": "Line-rate fetch and clone performance"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When a client performs a fetch, it provides the server with two sets of commit IDs, known in the protocol as haves and wants. In a conventional Git server, the server computes the set difference among the objects reachable by the haves and those reachable by the wants, compresses them, and sends the result to the client. While the open-source Git server has a variety of indexes locally to accelerate this operation, these packfiles can be expensive to compute and are generally resistant to caching.",
+        "th": "When a client performs a fetch, it provides the server with two sets of commit IDs, known in the protocol as haves and wants. In a conventional Git server, the server computes the set difference among the objects reachable by the haves and those reachable by the wants, compresses them, and sends the result to the client. While the open-source Git server has a variety of indexes locally to accelerate this operation, these packfiles can be expensive to compute and are generally resistant to caching."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Instead, Pando uses the commit mappings recorded on pushes to look up the client’s haves and wants, resolving them to a set of ref versions that contain those commits. Each of those ref versions links to a packfile previously received by Pando. The server uses this to solve for what the client needs, selecting the packfiles that cover the set of objects the client needs.",
+        "th": "Instead, Pando uses the commit mappings recorded on pushes to look up the client’s haves and wants, resolving them to a set of ref versions that contain those commits. Each of those ref versions links to a packfile previously received by Pando. The server uses this to solve for what the client needs, selecting the packfiles that cover the set of objects the client needs."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Pando compares what a client has with what it wants, then selects the stored packfiles needed—including any missing branch dependencies.",
+        "th": "Pando compares what a client has with what it wants, then selects the stored packfiles needed—including any missing branch dependencies."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Fetch 27 trunk packs.",
+        "th": "รับสัมภาระท้ายรถจำนวน 27 ชิ้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Select a branch to include its trunk dependencies.",
+        "th": "Select a branch to include its trunk dependencies."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Pando maps the Git protocol’s haves and wants to a sequence of ref versions. Wanting a side branch implies wanting up to its dependencies on the trunk.",
+        "th": "Pando maps the Git protocol’s haves and wants to a sequence of ref versions. Wanting a side branch implies wanting up to its dependencies on the trunk."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Git protocol only allows a single packfile to be sent in the HTTP response on a clone or fetch. However, an under-appreciated feature of the Git protocol, packfile-uri, allows a server to return links to download additional packs separately. Pando uses this exclusively, and transmits an empty packfile inline. To support this feature, OpenAI contributed a number of improvements to packfile-uri upstream.",
+        "th": "The Git protocol only allows a single packfile to be sent in the HTTP response on a clone or fetch. However, an under-appreciated feature of the Git protocol, packfile-uri, allows a server to return links to download additional packs separately. Pando uses this exclusively, and transmits an empty packfile inline. To support this feature, OpenAI contributed a number of improvements to packfile-uri upstream."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI systems operate in many geographic regions, so we maintain Pando clusters with local caches in each. A pack delivery service, Express, caches our blob store, and a separate service caches the metadata store. These caches enable Pando to serve requests for a commit ID or a special read of a ref entirely from the cached state in that cluster. We use consistent hashing to route requests for a packfile to Express servers, with cache hit rates of over 99%.",
+        "th": "OpenAI systems operate in many geographic regions, so we maintain Pando clusters with local caches in each. A pack delivery service, Express, caches our blob store, and a separate service caches the metadata store. These caches enable Pando to serve requests for a commit ID or a special read of a ref entirely from the cached state in that cluster. We use consistent hashing to route requests for a packfile to Express servers, with cache hit rates of over 99%."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This system of caches provides extremely high throughput, capable of saturating the network limit between clients and Pando. Using these packfile URIs and local caches, we’ve validated that using only standard cloud provider virtual machines, we see clone and fetch operations saturate 10 Gbps network links.",
+        "th": "This system of caches provides extremely high throughput, capable of saturating the network limit between clients and Pando. Using these packfile URIs and local caches, we’ve validated that using only standard cloud provider virtual machines, we see clone and fetch operations saturate 10 Gbps network links."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Compaction and time to first byte",
+        "th": "Compaction and time to first byte"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For most Git servers, repacking and garbage collection are necessary to maintain the performance of a growing repository. Both of these steps reclaim space, but are compute- and I/O-intensive.",
+        "th": "For most Git servers, repacking and garbage collection are necessary to maintain the performance of a growing repository. Both of these steps reclaim space, but are compute- and I/O-intensive."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In a fast-moving repository like OpenAI’s monorepo, it is infeasible to send an individual packfile URI for every push that has occurred since the last fetch. Each day, a client would need to download tens of thousands of packfiles to catch up their trunk.",
+        "th": "In a fast-moving repository like OpenAI’s monorepo, it is infeasible to send an individual packfile URI for every push that has occurred since the last fetch. Each day, a client would need to download tens of thousands of packfiles to catch up their trunk."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Instead, Pando combines packs in the background to reduce this overhead, adopting a design similar to compaction in log-structured merge-trees. Each push produces what Pando refers to as an “L0” packfile, representing the smallest unit of data Pando can transmit. Over time, background workers collect these packfiles into covers spanning a sequence of ref versions, scaling geometrically from L0. Today, our monorepo uses up to L4 packfile covers.",
+        "th": "แต่ Pando จะรวมแพ็คต่างๆ ในพื้นหลังเพื่อลดค่าใช้จ่ายนี้ โดยใช้การออกแบบที่คล้ายกับการบดอัดในต้นไม้ผสานที่มีโครงสร้างเป็นบันทึก การกดแต่ละครั้งจะสร้างสิ่งที่ Pando เรียกว่าเป็นแพ็คไฟล์ “L0” ซึ่งแสดงถึงหน่วยข้อมูลที่เล็กที่สุดที่ Pando สามารถส่งได้ เมื่อเวลาผ่านไป ผู้ปฏิบัติงานเบื้องหลังจะรวบรวมไฟล์แพ็คเหล่านี้ไว้เป็นหน้าปกซึ่งครอบคลุมลำดับเวอร์ชันการอ้างอิง โดยปรับขนาดทางเรขาคณิตจาก L0 ปัจจุบัน monorepo ของเราใช้ปกไฟล์แพ็คไฟล์ L4 สูงสุด"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These covers serve a dual purpose. After a cover is sufficiently full, a compaction worker will claim it and produce a single packfile. This improves the compression ratio by reorganizing the objects inside the packfile. But it also improves fetch negotiation performance by acting as skip list over ref versions. By scanning through indexes at each level simultaneously, Pando can select a set of packs to send to a client in logarithmic time. These packfile covers, repacked or not, enable a more efficient solution to fetch planning, reducing both throughput and latency requirements for Pando.",
+        "th": "These covers serve a dual purpose. After a cover is sufficiently full, a compaction worker will claim it and produce a single packfile. This improves the compression ratio by reorganizing the objects inside the packfile. But it also improves fetch negotiation performance by acting as skip list over ref versions. By scanning through indexes at each level simultaneously, Pando can select a set of packs to send to a client in logarithmic time. These packfile covers, repacked or not, enable a more efficient solution to fetch planning, reducing both throughput and latency requirements for Pando."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Small packfiles are grouped into larger covers across levels, improving compression and speeding up fetches.",
+        "th": "Small packfiles are grouped into larger covers across levels, improving compression and speeding up fetches."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Compaction combines packfiles from many ref versions in the background, enabling more efficient fetches with fewer files.",
+        "th": "Compaction combines packfiles from many ref versions in the background, enabling more efficient fetches with fewer files."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Unlike many Git servers, packfiles are kept at every level and not discarded or garbage collected. Packs at every level are used to serve clients continuously, based on the haves and wants they request in a fetch. And for clients using Pando as an API, reading an arbitrary object from a packfile tends to require reading less data from an L0 than an L4, because it’s less likely to be compressed.",
+        "th": "Unlike many Git servers, packfiles are kept at every level and not discarded or garbage collected. Packs at every level are used to serve clients continuously, based on the haves and wants they request in a fetch. And for clients using Pando as an API, reading an arbitrary object from a packfile tends to require reading less data from an L0 than an L4, because it’s less likely to be compressed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Compaction in Pando significantly reduces both the total transfer size sent to clients and enables pack planning to scale sub-linearly in how far behind the client is. This is especially important for large and quickly changing repositories, which we expect to be a new normal in software development.",
+        "th": "Compaction in Pando significantly reduces both the total transfer size sent to clients and enables pack planning to scale sub-linearly in how far behind the client is. This is especially important for large and quickly changing repositories, which we expect to be a new normal in software development."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Building Pando",
+        "th": "Building Pando"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We built Pando with Codex, moving from kick-off to production, in just 10 weeks. The core of Pando was designed by a single engineer, implemented by teams of agents, and deployed by a handful of engineers. Pando began serving production traffic in April of this year, and is one part of a larger system of source control management tools used at OpenAI.",
+        "th": "We built Pando with Codex, moving from kick-off to production, in just 10 weeks. The core of Pando was designed by a single engineer, implemented by teams of agents, and deployed by a handful of engineers. Pando began serving production traffic in April of this year, and is one part of a larger system of source control management tools used at OpenAI."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We employed a wide variety of approaches when validating Pando’s design. We applied our principles for building more secure software foundations⁠. As a greenfield project, we chose to implement Pando in Rust and without legacy dependencies. We wrote a conformance test suite so agents could test their changes against standard Git behavior. We also developed deterministic simulation testing harnesses allowing us to check invariants and properties of the system, enabling us to find and mitigate subtle race conditions and regressions in negotiation and pack planning.",
+        "th": "We employed a wide variety of approaches when validating Pando’s design. We applied our principles for building more secure software foundations⁠. As a greenfield project, we chose to implement Pando in Rust and without legacy dependencies. We wrote a conformance test suite so agents could test their changes against standard Git behavior. We also developed deterministic simulation testing harnesses allowing us to check invariants and properties of the system, enabling us to find and mitigate subtle race conditions and regressions in negotiation and pack planning."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Many models contributed to this system; as new models became available, we used them to improve Pando’s performance and reliability. Using GPT‑6 Astra, agents wrote Lean and TLA+ to formalize a “theory of Pando” that we used to find and fix bugs in the implementation, and prove properties of the system. Multiple continuous sessions ran for hundreds of hours finding and fixing edge cases in Pando. We also run agents around the clock to red-team Git and Pando using Daybreak-capable models.",
+        "th": "Many models contributed to this system; as new models became available, we used them to improve Pando’s performance and reliability. Using GPT‑6 Astra, agents wrote Lean and TLA+ to formalize a “theory of Pando” that we used to find and fix bugs in the implementation, and prove properties of the system. Multiple continuous sessions ran for hundreds of hours finding and fixing edge cases in Pando. We also run agents around the clock to red-team Git and Pando using Daybreak-capable models."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Deploying Pando",
+        "th": "Deploying Pando"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our initial deployment of Pando was as a read- and write-through proxy to our existing source control system. This allowed us to keep Pando and the previous system in sync, so we could safely move traffic onto Pando without downtime.",
+        "th": "Our initial deployment of Pando was as a read- and write-through proxy to our existing source control system. This allowed us to keep Pando and the previous system in sync, so we could safely move traffic onto Pando without downtime."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As part of its caching design, Pando can also deduplicate and combine requests before proxying. This allowed us to keep our existing tools healthy as we moved systems to Pando one at a time. As we migrated more workloads to Pando, their pushes populated Pando’s cache and improved the reliability of our previous backend.",
+        "th": "As part of its caching design, Pando can also deduplicate and combine requests before proxying. This allowed us to keep our existing tools healthy as we moved systems to Pando one at a time. As we migrated more workloads to Pando, their pushes populated Pando’s cache and improved the reliability of our previous backend."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In order to optimize performance when using Pando, we began shipping our public distribution of Git to developer machines and within the ChatGPT desktop app. To migrate clients to Pando, we used an internal wrapper around the Git CLI to migrate clients in phases. We created many other tools for handling change requests, code review, and APIs for automations. We migrated hundreds of integrations that depended on legacy APIs, webhooks, and repository downloads alongside Git traffic.",
+        "th": "In order to optimize performance when using Pando, we began shipping our public distribution of Git to developer machines and within the ChatGPT desktop app. To migrate clients to Pando, we used an internal wrapper around the Git CLI to migrate clients in phases. We created many other tools for handling change requests, code review, and APIs for automations. We migrated hundreds of integrations that depended on legacy APIs, webhooks, and repository downloads alongside Git traffic."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Codex itself helped developers and teams make the move. We created skills for preparing existing checkouts, and for guiding agents to use the new system. As a result, developers could simply ask Codex to migrate their development environments and services.",
+        "th": "Codex itself helped developers and teams make the move. We created skills for preparing existing checkouts, and for guiding agents to use the new system. As a result, developers could simply ask Codex to migrate their development environments and services."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Switching to Pando improved merge reliability and reduced the latency of the median push by nearly 80%.",
+        "th": "Switching to Pando improved merge reliability and reduced the latency of the median push by nearly 80%."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Pando can deliver a petabyte of Git data per day with just a handful of CPU cores. Pando has served more than 57 terabytes of Git packs in a single hour, with more than 99% of those bytes from local disk cache.",
+        "th": "Pando can deliver a petabyte of Git data per day with just a handful of CPU cores. Pando has served more than 57 terabytes of Git packs in a single hour, with more than 99% of those bytes from local disk cache."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reusing packs lets many clients download the same repository history with little computation on the serving nodes. This example shows a single repository, but Pando is designed to support many more. As demand grows, we can scale data delivery and Git negotiation independently.",
+        "th": "Reusing packs lets many clients download the same repository history with little computation on the serving nodes. This example shows a single repository, but Pando is designed to support many more. As demand grows, we can scale data delivery and Git negotiation independently."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Contributing back to the Git project",
+        "th": "Contributing back to the Git project"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Building Pando on the Git protocol and client helped us identify bugs and opportunities to improve Git’s own performance.",
+        "th": "Building Pando on the Git protocol and client helped us identify bugs and opportunities to improve Git’s own performance."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For example, Pando serves reusable packs directly to clients, so downloading and indexing those packs became a central part of making the system fast and reliable. That work surfaced edge cases in concurrent downloads, cleanup after interrupted transfers, and resuming downloads that had already completed. We fixed those paths, added validations when accepting an existing pack for a fetch, and contributed that work back upstream.",
+        "th": "For example, Pando serves reusable packs directly to clients, so downloading and indexing those packs became a central part of making the system fast and reliable. That work surfaced edge cases in concurrent downloads, cleanup after interrupted transfers, and resuming downloads that had already completed. We fixed those paths, added validations when accepting an existing pack for a fetch, and contributed that work back upstream."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We also needed to see where time and bandwidth were going, so we added tracing for packfile-uri downloads and byte counts for pack generation, making it easier to tell whether a slow fetch was spending its time generating packs or transferring them.",
+        "th": "We also needed to see where time and bandwidth were going, so we added tracing for packfile-uri downloads and byte counts for pack generation, making it easier to tell whether a slow fetch was spending its time generating packs or transferring them."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In OpenAI’s Git build⁠(opens in a new window), the client can download and index independent packs in parallel. We added the concept of “explicit haves” so a server can advertise a branch’s current tip separately from the history a pushing client may leave out of its pack. On Pando, this enables clients to use --force-with-lease to check that a feature branch hasn’t moved and build its pack against trunk alone. Anyone with that trunk history can then fetch the branch using the same pack.",
+        "th": "In OpenAI’s Git build⁠(opens in a new window), the client can download and index independent packs in parallel. We added the concept of “explicit haves” so a server can advertise a branch’s current tip separately from the history a pushing client may leave out of its pack. On Pando, this enables clients to use --force-with-lease to check that a feature branch hasn’t moved and build its pack against trunk alone. Anyone with that trunk history can then fetch the branch using the same pack."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Several of these improvements are already in upstream Git, and many others in our public repository. We’re continuing to work with the Git community to make these improvements useful beyond Pando. You can follow that work in our public patch tracker⁠(opens in a new window).",
+        "th": "Several of these improvements are already in upstream Git, and many others in our public repository. We’re continuing to work with the Git community to make these improvements useful beyond Pando. You can follow that work in our public patch tracker⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What’s next",
+        "th": "What’s next"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By rethinking conventional wisdom on how to scale Git repositories, Pando enables us to scale our monorepo without changing the Git workflows our engineers and agents already use. In our monorepo, Pando has unlocked a greater degree of parallelism, improved merge reliability, and reduced the time it takes to publish code changes. Beyond our monorepo, we’re also exploring other uses for Pando within OpenAI, including workloads where large numbers of agents need to collaborate on a shared Git repository.",
+        "th": "By rethinking conventional wisdom on how to scale Git repositories, Pando enables us to scale our monorepo without changing the Git workflows our engineers and agents already use. In our monorepo, Pando has unlocked a greater degree of parallelism, improved merge reliability, and reduced the time it takes to publish code changes. Beyond our monorepo, we’re also exploring other uses for Pando within OpenAI, including workloads where large numbers of agents need to collaborate on a shared Git repository."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As engineers and agents produce more software, more teams beyond OpenAI will encounter the limits we hit in source control. We’re currently exploring ways to share the technology that makes Pando possible with our users.",
+        "th": "As engineers and agents produce more software, more teams beyond OpenAI will encounter the limits we hit in source control. We’re currently exploring ways to share the technology that makes Pando possible with our users."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Pando builds on two decades of experience from users and operators of Git repositories. We’ll continue to develop Pando while working with the open-source Git community to share any improvements that benefit Git users more broadly.",
+        "th": "Pando builds on two decades of experience from users and operators of Git repositories. We’ll continue to develop Pando while working with the open-source Git community to share any improvements that benefit Git users more broadly."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Codex",
+        "th": "Codex"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3a839ECHaGsidJPLJqqm5s/55968ec17735b96514d1bb4851f43bf8/scaling-storage-one-billion-users-part-two-card.png?w=3840&q=90&fm=webp",
+      "alt": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) — card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EngineeringOct 23, 2026",
+        "th": "EngineeringOct 23, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3aewhPPb5NQ5IqOKEkrtzA/7209065f6e6ccf3a0476b43feb8336e1/rethinking-ads-card.png?w=3840&q=90&fm=webp",
+      "alt": "Rethinking the ad stack around a new user journey — Art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EngineeringOct 21, 2026",
+        "th": "EngineeringOct 21, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2X23NOb0P4V1KDzUBkeNpl/888204b45a1c84ddfa24c9ed31111a9c/OAI_HabitatPT1_Art_Card_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "Scaling Storage for 1 Billion ChatGPT Users (Part I) card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EngineeringSep 11, 2026",
+        "th": "วิศวกรรม 11 ก.ย. 2569"
+      }
+    }
+  ]
+}

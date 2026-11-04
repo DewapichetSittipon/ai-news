@@ -1,0 +1,949 @@
+{
+  "id": "huggingface__mps-pytorch-2-15",
+  "slug": "mps-pytorch-2-15",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+  "category": "News",
+  "date": "2026-10-20T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "MPS in PyTorch 2.15",
+    "th": "MPS in PyTorch 2.15"
+  },
+  "summary": {
+    "en": "MPS in PyTorch 2.15",
+    "th": "MPS in PyTorch 2.15"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/vzx7ZhfOJEJM9ba5TRC1Y.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/64789feb79f2d49511ed7db4/IzaIwiVgnkTZHrcLDQk0C.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/69abd374bcc4eb2abd02a423/Ywz6VRnwaR0wW4p4_PiXD.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6264f9655f6f2e14d6ac981c/bJ5lPjGaOfatQne--KQ10.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/645d0b4203fc86c46b3e961a/Y8vvqeLUJa6_845lRra_W.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+29",
+        "th": "+29"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/69e2191b89c9afe46240fde2/4P9gAZ1_a2vLdHIcyt3PN.png",
+      "alt": "Irakli Salia's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/mHXfX1t4hIyJjQ1Vd5g0f.jpeg",
+      "alt": "Khushi Agrawal's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "TL;DR",
+        "th": "TL;DR"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What this means for you",
+        "th": "What this means for you"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Contents",
+        "th": "Contents"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Getting started",
+        "th": "เริ่มต้นใช้งาน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "FP8 comes to MPS",
+        "th": "FP8 comes to MPS"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Faster language-model decoding Linear layers Mixture-of-experts layers",
+        "th": "Faster language-model decoding Linear layers Mixture-of-experts layers"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Linear layers",
+        "th": "Linear layers"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mixture-of-experts layers",
+        "th": "Mixture-of-experts layers"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Linear algebra gets a boost Complex-valued computations Small matrices and larger solves",
+        "th": "Linear algebra gets a boost Complex-valued computations Small matrices and larger solves"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Complex-valued computations",
+        "th": "Complex-valued computations"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Small matrices and larger solves",
+        "th": "Small matrices and larger solves"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Convolutions, padding, and training",
+        "th": "Convolutions, padding, and training"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Softmax and reductions",
+        "th": "Softmax and reductions"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A much smaller memory footprint for video decoding",
+        "th": "A much smaller memory footprint for video decoding"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More control with MPS streams",
+        "th": "More control with MPS streams"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More operations work on MPS",
+        "th": "More operations work on MPS"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A sneak peek at PyTorch 2.16 Faster LLM decoding Attention runs entirely on Metal More MPSGraph to Metal migrations A smaller install",
+        "th": "A sneak peek at PyTorch 2.16 Faster LLM decoding Attention runs entirely on Metal More MPSGraph to Metal migrations A smaller install"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Faster LLM decoding",
+        "th": "Faster LLM decoding"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Attention runs entirely on Metal",
+        "th": "Attention runs entirely on Metal"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More MPSGraph to Metal migrations",
+        "th": "More MPSGraph to Metal migrations"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A smaller install",
+        "th": "A smaller install"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Wrapping up What's next for us",
+        "th": "Wrapping up What's next for us"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What's next for us",
+        "th": "What's next for us"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If you run models on your Mac or use MPS as your primary acceleration tool for computing, there's plenty to look forward to in PyTorch 2.15! FP8 arrives on MPS, language-model decoding gets faster paths through linear layers and softmax and new Metal kernels tackle some surprisingly expensive parts of audio, video and training workloads.",
+        "th": "If you run models on your Mac or use MPS as your primary acceleration tool for computing, there's plenty to look forward to in PyTorch 2.15! FP8 arrives on MPS, language-model decoding gets faster paths through linear layers and softmax and new Metal kernels tackle some surprisingly expensive parts of audio, video and training workloads."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A quick word about who we are: we're the PyTorch team at Hugging Face. We contribute across PyTorch, and one of our focus areas is the MPS backend, where the goal is to make your Mac a first-class place to run and train PyTorch models. At the start of 2026, running even small models on MPS often meant working around unsupported operations, performance cliffs and unexpected memory growth. So we run real models from the Hugging Face Hub across language, image and video, find where MPS falls short and fix it upstream in PyTorch, more and more often by replacing MPSGraph with dedicated Metal kernels. Much of this post is the result of that work, done together with the PyTorch maintainers and community contributors.",
+        "th": "A quick word about who we are: we're the PyTorch team at Hugging Face. We contribute across PyTorch, and one of our focus areas is the MPS backend, where the goal is to make your Mac a first-class place to run and train PyTorch models. At the start of 2026, running even small models on MPS often meant working around unsupported operations, performance cliffs and unexpected memory growth. So we run real models from the Hugging Face Hub across language, image and video, find where MPS falls short and fix it upstream in PyTorch, more and more often by replacing MPSGraph with dedicated Metal kernels. Much of this post is the result of that work, done together with the PyTorch maintainers and community contributors."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "TL;DR",
+        "th": "TL;DR"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "FP8 comes to the Mac: store float8_e4m3fn values in half the space of BF16 and use scaled matrix multiplication and all other ops which are supported on CUDA/CPU!",
+        "th": "FP8 comes to the Mac: store float8_e4m3fn values in half the space of BF16 and use scaled matrix multiplication and all other ops which are supported on CUDA/CPU!"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "MoE models decode 5–6.5× faster than in 2.14: Qwen3.6-35B-A3B goes from 9.4 to 61.3 tokens/s on an M3 Ultra, thanks to a native grouped matmul with a dedicated decoding path, fewer GPU-CPU syncs and faster top-k routing.",
+        "th": "MoE models decode 5–6.5× faster than in 2.14: Qwen3.6-35B-A3B goes from 9.4 to 61.3 tokens/s on an M3 Ultra, thanks to a native grouped matmul with a dedicated decoding path, fewer GPU-CPU syncs and faster top-k routing."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Less time per token for every LLM: single-row linear layers use specialized matrix-vector kernels, and softmax over the vocabulary is about 8× faster.",
+        "th": "Less time per token for every LLM: single-row linear layers use specialized matrix-vector kernels, and softmax over the vocabulary is about 8× faster."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More linear algebra on the GPU: complex LU and triangular solves, faster small-matrix inverses, and faster QR decomposition.",
+        "th": "More linear algebra on the GPU: complex LU and triangular solves, faster small-matrix inverses, and faster QR decomposition."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Audio, video, and training get attention too: faster paths for convolutions, padding, dropout, interpolation backward and reductions. Wan2.2's video VAE decode now peaks at 8 GiB of memory instead of 270 GiB.",
+        "th": "Audio, video, and training get attention too: faster paths for convolutions, padding, dropout, interpolation backward and reductions. Wan2.2's video VAE decode now peaks at 8 GiB of memory instead of 270 GiB."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More control from Python: public MPS streams and more reliable event timing.",
+        "th": "More control from Python: public MPS streams and more reliable event timing."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Updated requirements: MPS now requires macOS 15 or later; PyTorch 2.15 requires Python 3.11 or later.",
+        "th": "Updated requirements: MPS now requires macOS 15 or later; PyTorch 2.15 requires Python 3.11 or later."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A peek at 2.16: attention fully on Metal, more MPSGraph-to-Metal migrations and faster LLM decoding.",
+        "th": "A peek at 2.16: attention fully on Metal, more MPSGraph-to-Metal migrations and faster LLM decoding."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What this means for you",
+        "th": "What this means for you"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "If you run models on a Mac with transformers, diffusers or tools like ComfyUI, here's what 2.15 changes in practice:",
+        "th": "If you run models on a Mac with transformers, diffusers or tools like ComfyUI, here's what 2.15 changes in practice:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Much faster local LLMs. Mixture-of-experts models decode 5–6.5× faster than in 2.14: on an M3 Ultra with torch.compile, Qwen3.6-35B-A3B goes from 9.4 to 61.3 tokens/s and LFM2.5-8B-A1B from 23.6 to 123.6 tokens/s. Dense models benefit too, from faster linear layers and an 8× faster softmax for sampling. (More)",
+        "th": "Much faster local LLMs. Mixture-of-experts models decode 5–6.5× faster than in 2.14: on an M3 Ultra with torch.compile, Qwen3.6-35B-A3B goes from 9.4 to 61.3 tokens/s and LFM2.5-8B-A1B from 23.6 to 123.6 tokens/s. Dense models benefit too, from faster linear layers and an 8× faster softmax for sampling. (More)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Video generation that fits in memory. Decoding a video with Wan2.2's tiled VAE used to push driver memory to 270 GiB; it now peaks at about 8 GiB. (More)",
+        "th": "Video generation that fits in memory. Decoding a video with Wan2.2's tiled VAE used to push driver memory to 270 GiB; it now peaks at about 8 GiB. (More)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Correct image editing with Qwen-Image-2.1. On 2.14, the Qwen-Image-2.1 VAE encoder silently corrupted images on MPS, breaking image-edit workflows (reported in ComfyUI). The same padding change fixes it: an encode-decode round trip now matches CPU at 29.95 dB PSNR, up from 10.06 dB.",
+        "th": "Correct image editing with Qwen-Image-2.1. On 2.14, the Qwen-Image-2.1 VAE encoder silently corrupted images on MPS, breaking image-edit workflows (reported in ComfyUI). The same padding change fixes it: an encode-decode round trip now matches CPU at 29.95 dB PSNR, up from 10.06 dB."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "FP8 weights on your Mac. FP8 tensors take half the memory of BF16, and F.scaled_mm multiplies them directly on the GPU. (More)",
+        "th": "FP8 weights on your Mac. FP8 tensors take half the memory of BF16, and F.scaled_mm multiplies them directly on the GPU. (More)"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Contents",
+        "th": "Contents"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Getting started",
+        "th": "เริ่มต้นใช้งาน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "FP8 comes to MPS",
+        "th": "FP8 comes to MPS"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Faster language-model decoding",
+        "th": "Faster language-model decoding"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Linear algebra gets a boost",
+        "th": "Linear algebra gets a boost"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Convolutions, padding, and training",
+        "th": "Convolutions, padding, and training"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Softmax and reductions",
+        "th": "Softmax and reductions"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A much smaller memory footprint for video decoding",
+        "th": "A much smaller memory footprint for video decoding"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More control with MPS streams",
+        "th": "More control with MPS streams"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More operations work on MPS",
+        "th": "More operations work on MPS"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A sneak peek at PyTorch 2.16",
+        "th": "A sneak peek at PyTorch 2.16"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Wrapping up",
+        "th": "Wrapping up"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Getting started",
+        "th": "เริ่มต้นใช้งาน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You'll need an Apple silicon Mac with macOS 15 or later and Python 3.11 or later (see the 2.15 compatibility matrix). If your OS is too old or no Metal GPU is available, the MPS availability check now tells you why.",
+        "th": "You'll need an Apple silicon Mac with macOS 15 or later and Python 3.11 or later (see the 2.15 compatibility matrix). If your OS is too old or no Metal GPU is available, the MPS availability check now tells you why."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To try the release candidate in a separate environment:",
+        "th": "To try the release candidate in a separate environment:"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "FP8 comes to MPS",
+        "th": "FP8 comes to MPS"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "FP8 gives you another way to save memory on your Mac. PyTorch 2.15 adds torch.float8_e4m3fn tensors on MPS: one byte per value, half the storage of FP16 or BF16.",
+        "th": "FP8 gives you another way to save memory on your Mac. PyTorch 2.15 adds torch.float8_e4m3fn tensors on MPS: one byte per value, half the storage of FP16 or BF16."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can multiply these tensors with F.scaled_mm, which supports both tensorwise and rowwise scaling. Here's a small example with one scale per tensor:",
+        "th": "You can multiply these tensors with F.scaled_mm, which supports both tensorwise and rowwise scaling. Here's a small example with one scale per tensor:"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Faster language-model decoding",
+        "th": "Faster language-model decoding"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Every LLM has a prefill phase and a decode phase. During decode, each new token goes through the model as a single row, so the big matrix multiplications turn into matrix-vector products. PyTorch 2.15 speeds up both kinds of layers that dominate this step: dense linear layers and mixture-of-experts layers.",
+        "th": "Every LLM has a prefill phase and a decode phase. During decode, each new token goes through the model as a single row, so the big matrix multiplications turn into matrix-vector products. PyTorch 2.15 speeds up both kinds of layers that dominate this step: dense linear layers and mixture-of-experts layers."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Linear layers",
+        "th": "Linear layers"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "MPS has had GEMV kernels for torch.mm since 2.14, but F.linear still went through MPSGraph. PyTorch 2.15 connects them to F.linear, so the common [1, 1, hidden_size] decoding input uses them directly, with eligible bias additions fused in. Across 96 BF16 layer shapes from real models, that's a 1.23× geometric-mean speedup. The biggest wins land on small projections, such as the gates in MoE models, where the old path left most of the memory bandwidth unused. Large layers and LM heads were already close to bandwidth-bound, so they stay near 1×.",
+        "th": "MPS has had GEMV kernels for torch.mm since 2.14, but F.linear still went through MPSGraph. PyTorch 2.15 connects them to F.linear, so the common [1, 1, hidden_size] decoding input uses them directly, with eligible bias additions fused in. Across 96 BF16 layer shapes from real models, that's a 1.23× geometric-mean speedup. The biggest wins land on small projections, such as the gates in MoE models, where the old path left most of the memory bandwidth unused. Large layers and LM heads were already close to bandwidth-bound, so they stay near 1×."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Mixture-of-experts layers",
+        "th": "Mixture-of-experts layers"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A mixture-of-experts layer sends different numbers of tokens to each expert. Grouped matmul handles those uneven groups in a single operation, and 2.15 gives MPS a native implementation.",
+        "th": "A mixture-of-experts layer sends different numbers of tokens to each expert. Grouped matmul handles those uneven groups in a single operation, and 2.15 gives MPS a native implementation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In 2.14, grouped matmul copied the group offsets to the CPU and looped over the groups. The new Metal kernels read the offsets directly on the GPU, using Metal Performance Primitives where available and a separate Metal path elsewhere. Small groups, the common case during decoding, get their own kernel as well.",
+        "th": "In 2.14, grouped matmul copied the group offsets to the CPU and looped over the groups. The new Metal kernels read the offsets directly on the GPU, using Metal Performance Primitives where available and a separate Metal path elsewhere. Small groups, the common case during decoding, get their own kernel as well."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For example, 64 tokens can be split into groups of 16, 32, and 16:",
+        "th": "For example, 64 tokens can be split into groups of 16, 32, and 16:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The decoding kernel shows up directly in token throughput. On an M3 Ultra with torch.compile, MoE models generate about 1.3× more tokens per second:",
+        "th": "The decoding kernel shows up directly in token throughput. On an M3 Ultra with torch.compile, MoE models generate about 1.3× more tokens per second:"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/mps-pytorch-2-15/moe-decode-throughput.png",
+      "alt": "Bar chart of MoE decoding throughput on M3 Ultra with torch.compile. Qwen3.6-35B-A3B goes from 38.7 to 51.7 tokens/s at context 512 and 36.8 to 48.7 at context 2048; LFM2.5-8B-A1B goes from 77.1 to 103.2 and 74.9 to 98.7 tokens/s."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Linear algebra gets a boost",
+        "th": "Linear algebra gets a boost"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Complex-valued computations",
+        "th": "Complex-valued computations"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Working with complex tensors gets easier. complex64 LU factorization, LU solve and triangular solve now run on MPS, which also unlocks the operations and gradients built on them, such as complex determinants. Here's a small system solved directly on the GPU:",
+        "th": "Working with complex tensors gets easier. complex64 LU factorization, LU solve and triangular solve now run on MPS, which also unlocks the operations and gradients built on them, such as complex determinants. Here's a small system solved directly on the GPU:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Small matrices and larger solves",
+        "th": "Small matrices and larger solves"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Small matrices get fast kernels too. For camera geometry and image transformations, batches of FP32 matrices up to 4 × 4 are inverted in a single Metal kernel that combines factorization and solving. Larger problems get attention as well: QR uses blocked updates, and triangular solves turn much of their work into efficient matrix multiplication.",
+        "th": "Small matrices get fast kernels too. For camera geometry and image transformations, batches of FP32 matrices up to 4 × 4 are inverted in a single Metal kernel that combines factorization and solving. Larger problems get attention as well: QR uses blocked updates, and triangular solves turn much of their work into efficient matrix multiplication."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gated DeltaNet workloads get a dedicated fast path for batches of 16 × 16, 32 × 32 and 64 × 64 FP32 triangular systems with at least eight right-hand sides.",
+        "th": "Gated DeltaNet workloads get a dedicated fast path for batches of 16 × 16, 32 × 32 and 64 × 64 FP32 triangular systems with at least eight right-hand sides."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SVD is also more robust at numerical extremes. It now correctly handles very small singular values, very large or very small input magnitudes and basis completion with full_matrices=True, which in turn makes pseudoinverse and least-squares results more reliable.",
+        "th": "SVD is also more robust at numerical extremes. It now correctly handles very small singular values, very large or very small input magnitudes and basis completion with full_matrices=True, which in turn makes pseudoinverse and least-squares results more reliable."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Convolutions, padding, and training",
+        "th": "Convolutions, padding, and training"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Audio models, video decoders and training loops have their own expensive operations. This release gives several of them new paths through Metal:",
+        "th": "Audio models, video decoders and training loops have their own expensive operations. This release gives several of them new paths through Metal:"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Softmax and reductions",
+        "th": "Softmax and reductions"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Token sampling gets faster in 2.15 as well. softmax and log_softmax now run on dedicated Metal kernels, and large vocabularies benefit the most: an FP32 softmax over a [1, 128256] row of logits drops from 57 µs to 7 µs, about 8× faster than the MPSGraph version. The speedup holds across other common vocabulary sizes:",
+        "th": "Token sampling gets faster in 2.15 as well. softmax and log_softmax now run on dedicated Metal kernels, and large vocabularies benefit the most: an FP32 softmax over a [1, 128256] row of logits drops from 57 µs to 7 µs, about 8× faster than the MPSGraph version. The speedup holds across other common vocabulary sizes:"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/mps-pytorch-2-15/softmax-sampling.png",
+      "alt": "Bar chart of FP32 softmax time for a single row of logits at five vocabulary sizes from 128,256 to 201,088. MPSGraph takes 50 to 74 microseconds; the Metal kernel takes 7 to 10 microseconds, a 7.1x to 8.0x speedup."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "A much smaller memory footprint for video decoding",
+        "th": "A much smaller memory footprint for video decoding"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One of the most striking results in this release comes from the constant-padding change. The VAE decode in Wan-AI/Wan2.2-TI2V-5B-Diffusers makes 8,764 padding calls over a full 28-tile decode. With padding on Metal, peak driver memory drops from about 270 GiB to 8 GiB:",
+        "th": "One of the most striking results in this release comes from the constant-padding change. The VAE decode in Wan-AI/Wan2.2-TI2V-5B-Diffusers makes 8,764 padding calls over a full 28-tile decode. With padding on Metal, peak driver memory drops from about 270 GiB to 8 GiB:"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/mps-pytorch-2-15/wan-vae-memory.png",
+      "alt": "Stacked bar chart of peak driver memory during the Wan2.2 tiled VAE decode. With MPSGraph padding, 8.07 GiB of allocator-reserved memory plus 262 GiB outside the allocator gives 270.1 GiB; with Metal padding the total is 8.1 GiB."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "More control with MPS streams",
+        "th": "More control with MPS streams"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can now pick which MPS stream runs your work, directly from Python. torch.mps.Stream and the torch.mps.stream context manager provide the interface, and Tensor.record_stream lets the allocator track a tensor's use on another stream.",
+        "th": "You can now pick which MPS stream runs your work, directly from Python. torch.mps.Stream and the torch.mps.stream context manager provide the interface, and Tensor.record_stream lets the allocator track a tensor's use on another stream."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Here's a small example that sends work to a separate stream and synchronizes before reading the result:",
+        "th": "Here's a small example that sends work to a separate stream and synchronizes before reading the result:"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "More operations work on MPS",
+        "th": "More operations work on MPS"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Several more operations now run on MPS: torch.frexp, torch.logspace, torch.take and Tensor.put_, torch.heaviside, torch.special.laguerre_polynomial_l and unsigned-integer comparisons. logspace doesn't yet support integer or boolean outputs with more than one element.",
+        "th": "Several more operations now run on MPS: torch.frexp, torch.logspace, torch.take and Tensor.put_, torch.heaviside, torch.special.laguerre_polynomial_l and unsigned-integer comparisons. logspace doesn't yet support integer or boolean outputs with more than one element."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Attention gets a correctness fix too: the MPS math implementation of scaled dot-product attention now handles batch and head broadcasting correctly.",
+        "th": "Attention gets a correctness fix too: the MPS math implementation of scaled dot-product attention now handles batch and head broadcasting correctly."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "A sneak peek at PyTorch 2.16",
+        "th": "A sneak peek at PyTorch 2.16"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Work on 2.16 is already well underway. Some of the changes below have landed on main and are available in the nightlies; others are still in review, so details may change before the release.",
+        "th": "Work on 2.16 is already well underway. Some of the changes below have landed on main and are available in the nightlies; others are still in review, so details may change before the release."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Faster LLM decoding",
+        "th": "Faster LLM decoding"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Once a model's decode path no longer contains any MPSGraph ops, the GPU only starts on a token after the CPU has finished encoding all of its kernels. PyTorch 2.16 commits the command buffer every 16 kernels, so the GPU gets to work while the CPU is still encoding the rest. For compiled BF16 decoding at a 2048-token context:",
+        "th": "Once a model's decode path no longer contains any MPSGraph ops, the GPU only starts on a token after the CPU has finished encoding all of its kernels. PyTorch 2.16 commits the command buffer every 16 kernels, so the GPU gets to work while the CPU is still encoding the rest. For compiled BF16 decoding at a 2048-token context:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Attention runs entirely on Metal",
+        "th": "Attention runs entirely on Metal"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Scaled dot-product attention is dropping MPSGraph completely: every shape will run on Metal kernels, with dedicated vector kernels for decoding and Metal Performance Primitives for half-precision prefill on newer macOS versions. The shapes that used to fall back to MPSGraph benefit the most. On an M5 Pro, decoding with grouped-query attention (32 query heads, 8 KV heads, head dim 80, 4K context) drops from 465 µs to 65 µs, and a 4K × 4K prefill with head dim 40 goes from 42 ms to 6 ms.",
+        "th": "Scaled dot-product attention is dropping MPSGraph completely: every shape will run on Metal kernels, with dedicated vector kernels for decoding and Metal Performance Primitives for half-precision prefill on newer macOS versions. The shapes that used to fall back to MPSGraph benefit the most. On an M5 Pro, decoding with grouped-query attention (32 query heads, 8 KV heads, head dim 80, 4K context) drops from 465 µs to 65 µs, and a 4K × 4K prefill with head dim 40 goes from 42 ms to 6 ms."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "More MPSGraph to Metal migrations",
+        "th": "More MPSGraph to Metal migrations"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The move away from MPSGraph continues. Batch norm forward and backward are in progress, while MSE loss (up to 12× faster on small inputs), std_mean and var_mean (up to 4× faster) and bincount have already landed. bincount is the most dramatic: when most values fall into a single bin, counting 4 million integers used to take 6.8 seconds and now takes half a millisecond.",
+        "th": "The move away from MPSGraph continues. Batch norm forward and backward are in progress, while MSE loss (up to 12× faster on small inputs), std_mean and var_mean (up to 4× faster) and bincount have already landed. bincount is the most dramatic: when most values fall into a single bin, counting 4 million integers used to take 6.8 seconds and now takes half a millisecond."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "A smaller install",
+        "th": "A smaller install"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Bundled shaders will build for Metal 3.1 by default, with Metal 4 versions compiled only for the kernels that need them. That shrinks libtorch_cpu.dylib by about 25%, from 384 MiB to 287 MiB, and lays the groundwork for Metal 4.1 shaders with faster matmuls and native FP8 matrix multiplication.",
+        "th": "Bundled shaders will build for Metal 3.1 by default, with Metal 4 versions compiled only for the kernels that need them. That shrinks libtorch_cpu.dylib by about 25%, from 384 MiB to 287 MiB, and lays the groundwork for Metal 4.1 shaders with faster matmuls and native FP8 matrix multiplication."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Wrapping up",
+        "th": "Wrapping up"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "PyTorch 2.15 brings FP8 to the Mac, faster LLM decoding for dense and MoE models, more linear algebra on the GPU and a long list of operations moved from MPSGraph to dedicated Metal kernels. Give the release candidate a try!",
+        "th": "PyTorch 2.15 brings FP8 to the Mac, faster LLM decoding for dense and MoE models, more linear algebra on the GPU and a long list of operations moved from MPSGraph to dedicated Metal kernels. Give the release candidate a try!"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "What's next for us",
+        "th": "What's next for us"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More MPS: 2.16 will run attention entirely on Metal, and we'll keep moving operations off MPSGraph.",
+        "th": "More MPS: 2.16 will run attention entirely on Metal, and we'll keep moving operations off MPSGraph."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "torch.compile: we're working on getting rid of graph breaks, so more models compile end to end.",
+        "th": "torch.compile: we're working on getting rid of graph breaks, so more models compile end to end."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Your ideas: what else should we work on in PyTorch? If something is slow, missing or broken, on MPS or anywhere else, open an issue on GitHub and let us know.",
+        "th": "Your ideas: what else should we work on in PyTorch? If something is slow, missing or broken, on MPS or anywhere else, open an issue on GitHub and let us know."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A big thank you to Nikita Shulga, Kurt Mohler and Aaron Gokaslan for reviewing much of this work, and to everyone who contributed to MPS in this release.",
+        "th": "A big thank you to Nikita Shulga, Kurt Mohler and Aaron Gokaslan for reviewing much of this work, and to everyone who contributed to MPS in this release."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More Articles from our Blog",
+        "th": "More Articles from our Blog"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/tokenizers-v1/thumbnail.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "tokenizers v1: encode, decode and scaling, measured",
+        "th": "tokenizers v1: encode, decode and scaling, measured"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674683851722-62441cb7456803e95009a08f.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608146735109-5fcfb7c407408029ba3577e2.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1666977434736-617bc8d1000dbbbf7c225eed.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/continuous_async/thumbnail.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Unlocking asynchronicity in continuous batching",
+        "th": "Unlocking asynchronicity in continuous batching"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6123945a0ed258ebc83f3d56/8wMHFQHEV24G_ljl4kPxQ.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617264212503-603d25b75f9d390ab190b777.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/608aabf24955d2bfc3cd99c6/-YxmtpzEmf3NKOTktODRP.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "Community"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· Sign up or log in to comment"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/vzx7ZhfOJEJM9ba5TRC1Y.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/64789feb79f2d49511ed7db4/IzaIwiVgnkTZHrcLDQk0C.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/69abd374bcc4eb2abd02a423/Ywz6VRnwaR0wW4p4_PiXD.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6264f9655f6f2e14d6ac981c/bJ5lPjGaOfatQne--KQ10.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/645d0b4203fc86c46b3e961a/Y8vvqeLUJa6_845lRra_W.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/2555abf1a9f003ed9663512e55b1de0f.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/c60c55e9abdb627fbd8d4ed20b466659.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/38ddb6fac06f9bb0053fd45ef1625347.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/tI3V8-PZ8d3CC32fzO31e.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/2562634f684622069ad2865b607a027d.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1659922312540-610a70f35a40a8bfebfbf09b.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+23",
+        "th": "+23"
+      }
+    }
+  ]
+}

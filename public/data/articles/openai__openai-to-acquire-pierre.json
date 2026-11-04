@@ -1,0 +1,188 @@
+{
+  "id": "openai__openai-to-acquire-pierre",
+  "slug": "openai-to-acquire-pierre",
+  "source": "openai",
+  "url": "https://openai.com/index/openai-to-acquire-pierre",
+  "category": "Company",
+  "date": "2026-11-04T14:30:00.000Z",
+  "image": null,
+  "title": {
+    "en": "OpenAI to acquire Pierre Computer Company, Inc.",
+    "th": "OpenAI to acquire Pierre Computer Company, Inc."
+  },
+  "summary": {
+    "en": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+    "th": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 4, 2026",
+        "th": "November 4, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Expanding Codex’s tools for building, understanding, and reviewing code.",
+        "th": "Expanding Codex’s tools for building, understanding, and reviewing code."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Craftsmanship meets scale for the agentic era",
+        "th": "Craftsmanship meets scale for the agentic era"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Bringing the work together in Codex",
+        "th": "Bringing the work together in Codex"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Craftsmanship meets scale for the agentic era",
+        "th": "Craftsmanship meets scale for the agentic era"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Bringing the work together in Codex",
+        "th": "Bringing the work together in Codex"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today we're announcing that OpenAI will acquire Pierre Computer Company, Inc⁠(opens in a new window). (“Pierre”), the company behind Code Storage⁠(opens in a new window) and a family of standout open-source developer tools. If you’ve browsed files or reviewed a change in the Codex app, you’ve already used Pierre’s Trees and Diffs libraries. We’re excited to work with the Pierre team to build on the Git workflows that developers already rely on and adapt them to how teams work with coding agents.",
+        "th": "Today we're announcing that OpenAI will acquire Pierre Computer Company, Inc⁠(opens in a new window). (“Pierre”), the company behind Code Storage⁠(opens in a new window) and a family of standout open-source developer tools. If you’ve browsed files or reviewed a change in the Codex app, you’ve already used Pierre’s Trees and Diffs libraries. We’re excited to work with the Pierre team to build on the Git workflows that developers already rely on and adapt them to how teams work with coding agents."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’ve seen in our own engineering work how the systems around Git need to evolve as more of that work happens in parallel. Earlier this week, we shared how we’re scaling Git at OpenAI with Pando, our in-house source control backend for engineers and agents. With the Pierre team, we wish to set the standard for modern software development: from the first branch an agent creates to that magic moment when code is deployed to the world. We want to make Codex the place where developers and agents take on their most ambitious projects.",
+        "th": "We’ve seen in our own engineering work how the systems around Git need to evolve as more of that work happens in parallel. Earlier this week, we shared how we’re scaling Git at OpenAI with Pando, our in-house source control backend for engineers and agents. With the Pierre team, we wish to set the standard for modern software development: from the first branch an agent creates to that magic moment when code is deployed to the world. We want to make Codex the place where developers and agents take on their most ambitious projects."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Craftsmanship meets scale for the agentic era",
+        "th": "Craftsmanship meets scale for the agentic era"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’ve long appreciated the care Pierre brings to another part of working with Git: how developers review code. You can see that care in the libraries we use in Codex today. Trees lets developers quickly navigate a project’s files, and Diffs makes it easy to see what changed. Both of these tools make it easy to review and navigate large volumes of code with uncompromising performance.",
+        "th": "We’ve long appreciated the care Pierre brings to another part of working with Git: how developers review code. You can see that care in the libraries we use in Codex today. Trees lets developers quickly navigate a project’s files, and Diffs makes it easy to see what changed. Both of these tools make it easy to review and navigate large volumes of code with uncompromising performance."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That same attention to detail runs through Pierre’s other work. Diffs’ Edit mode lets a reviewer fix a line of code right where they spot the problem. Pierre recently released Highlights, an extremely fast syntax highlighter that updates as a developer types or an agent streams code. The same small team that put an editor inside a diff also designed the API for Code Storage, a service that lets apps store code and track its history using Git.",
+        "th": "That same attention to detail runs through Pierre’s other work. Diffs’ Edit mode lets a reviewer fix a line of code right where they spot the problem. Pierre recently released Highlights, an extremely fast syntax highlighter that updates as a developer types or an agent streams code. The same small team that put an editor inside a diff also designed the API for Code Storage, a service that lets apps store code and track its history using Git."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Bringing the work together in Codex",
+        "th": "Bringing the work together in Codex"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Pierre has built tools that developers love, and together, we will ship new products and platforms that benefit all. Once the acquisition closes, our ambition is to advance the future of source control across the industry. We want Codex to connect the code a company ships with the decisions its people make, at the scale the future demands.",
+        "th": "Pierre has built tools that developers love, and together, we will ship new products and platforms that benefit all. Once the acquisition closes, our ambition is to advance the future of source control across the industry. We want Codex to connect the code a company ships with the decisions its people make, at the scale the future demands."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Pierre’s open-source projects will remain open-source, and we’ll continue to contribute to them. Customers can continue using Code Storage after the acquisition closes while we work to bring its features and functionality into Codex.",
+        "th": "Pierre’s open-source projects will remain open-source, and we’ll continue to contribute to them. Customers can continue using Code Storage after the acquisition closes while we work to bring its features and functionality into Codex."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The closing of the acquisition is subject to customary closing conditions, including receipt of regulatory approvals. Until closing, OpenAI and Pierre will remain separate and independent companies.",
+        "th": "The closing of the acquisition is subject to customary closing conditions, including receipt of regulatory approvals. Until closing, OpenAI and Pierre will remain separate and independent companies."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Codex",
+        "th": "Codex"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6G64B5haCxDuphl2iqwZ1N/4f8d319293f5e5e98b319e01b4fbdf59/scaling-git-at-openai-art-card.png?w=3840&q=90&fm=webp",
+      "alt": "Scaling Git at OpenAI — art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EngineeringNov 2, 2026",
+        "th": "EngineeringNov 2, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5RFmrNey5oX93M1WyqCs4o/5b6ccdce4022764200e06739cda7c21f/Codex_maxxing_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "Codex maxxing 1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "AI AdoptionJun 22, 2026",
+        "th": "AI AdoptionJun 22, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2mUBSQZ1FwfTFJR5Yco4nQ/9a775c8c69a1d1e161bd7f56f4fdb7e7/OAIonOAI_ChadNelson_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "OAIonOAI ChadNelson 1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI on OpenAIJul 16, 2026",
+        "th": "OpenAI on OpenAIJul 16, 2026"
+      }
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "id": "openai__introducing-images-2-6",
+  "slug": "introducing-images-2-6",
+  "source": "openai",
+  "url": "https://openai.com/index/introducing-images-2-6",
+  "category": "Product",
+  "date": "2026-11-04T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Introducing Images 2.6",
+    "th": "Introducing Images 2.6"
+  },
+  "summary": {
+    "en": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+    "th": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 4, 2026",
+        "th": "November 4, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Generate images faster and with more control over editing rounds.",
+        "th": "Generate images faster and with more control over editing rounds."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Faster iteration and more professional visuals",
+        "th": "Faster iteration and more professional visuals"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Animate your ideas with GIFs",
+        "th": "Animate your ideas with GIFs"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More ways to create and edit in the API",
+        "th": "More ways to create and edit in the API"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Pricing and availability",
+        "th": "Pricing and availability"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Faster iteration and more professional visuals",
+        "th": "Faster iteration and more professional visuals"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Animate your ideas with GIFs",
+        "th": "Animate your ideas with GIFs"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More ways to create and edit in the API",
+        "th": "More ways to create and edit in the API"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Pricing and availability",
+        "th": "Pricing and availability"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re introducing Images 2.6 in ChatGPT, Codex, and the API, bringing your ideas to life faster. With this, you can bring motion to your images with GIFs — from animating a brand mascot or character to turning a product shot into an eye-catching loop. You can also create polished visuals faster and refine them with greater precision — keeping characters, products, and brand details consistent as you edit.",
+        "th": "We’re introducing Images 2.6 in ChatGPT, Codex, and the API, bringing your ideas to life faster. With this, you can bring motion to your images with GIFs — from animating a brand mascot or character to turning a product shot into an eye-catching loop. You can also create polished visuals faster and refine them with greater precision — keeping characters, products, and brand details consistent as you edit."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "People around the world now create 4 billion images per week across ChatGPT, Codex, and the API. On average, that’s more than half a billion images created per day.",
+        "th": "People around the world now create 4 billion images per week across ChatGPT, Codex, and the API. On average, that’s more than half a billion images created per day."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Faster iteration and more professional visuals",
+        "th": "Faster iteration and more professional visuals"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Images 2.6 generates images 50% faster than before. In the API, we offer GPT‑Image‑2.6 Flare and Sunburst for developers to choose from. When quality is set to low, Flare can generate images in as little as six seconds. For work that calls for greater detail and precision, GPT‑Image‑2.6 Sunburst brings higher-quality image generation and even greater image consistency across edits when quality is set to medium or high. Flare also improves layout quality for posters, product imagery, and other professional visuals.",
+        "th": "Images 2.6 generates images 50% faster than before. In the API, we offer GPT‑Image‑2.6 Flare and Sunburst for developers to choose from. When quality is set to low, Flare can generate images in as little as six seconds. For work that calls for greater detail and precision, GPT‑Image‑2.6 Sunburst brings higher-quality image generation and even greater image consistency across edits when quality is set to medium or high. Flare also improves layout quality for posters, product imagery, and other professional visuals."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Animate your ideas with GIFs",
+        "th": "Animate your ideas with GIFs"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For moments that call for motion, GIFs bring another dimension to your ideas. Marketers and creators can animate a brand mascot for a campaign, create reactions and memes for social media, or use animated storyboards to explore character movement before video production.",
+        "th": "For moments that call for motion, GIFs bring another dimension to your ideas. Marketers and creators can animate a brand mascot for a campaign, create reactions and memes for social media, or use animated storyboards to explore character movement before video production."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Created by OpenArt",
+        "th": "Created by OpenArt"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt 1: Create a single animation sprite sheet for a seamless looping GIF. A super-cute chibi adult office worker sits at a desk watching a computer monitor with a clearly plunging stock-market line chart. The sequence: hopeful expression, notices the chart falling, eyes widen, face crumples, large cartoon tears stream down both cheeks, then quietly wipes tears while still staring at the falling chart. Oversized round head, tiny body, big expressive eyes, soft rounded features, messy fluffy hair, white shirt and loosened tie. Exactly 6 sequential frames arranged in a precise 3-column by 2-row grid, read left-to-right then top-to-bottom. Every panel has identical dimensions. Fixed front three-quarter camera, same character, same desk, monitor, outfit, and cozy miniature office background. Clear incremental facial and tear motion; sixth frame transitions smoothly toward the first. Polished kawaii chibi 3D toy-like style, warm pastel lighting, funny and sympathetic mood. No captions, no words, no numbers, no logos, no speech bubbles, no panel labels, no borders, no gutters.",
+        "th": "Prompt 1: Create a single animation sprite sheet for a seamless looping GIF. A super-cute chibi adult office worker sits at a desk watching a computer monitor with a clearly plunging stock-market line chart. The sequence: hopeful expression, notices the chart falling, eyes widen, face crumples, large cartoon tears stream down both cheeks, then quietly wipes tears while still staring at the falling chart. Oversized round head, tiny body, big expressive eyes, soft rounded features, messy fluffy hair, white shirt and loosened tie. Exactly 6 sequential frames arranged in a precise 3-column by 2-row grid, read left-to-right then top-to-bottom. Every panel has identical dimensions. Fixed front three-quarter camera, same character, same desk, monitor, outfit, and cozy miniature office background. Clear incremental facial and tear motion; sixth frame transitions smoothly toward the first. Polished kawaii chibi 3D toy-like style, warm pastel lighting, funny and sympathetic mood. No captions, no words, no numbers, no logos, no speech bubbles, no panel labels, no borders, no gutters."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Created by OpenArt",
+        "th": "Created by OpenArt"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Prompt 2: Create a single animation sprite sheet for a seamless looping GIF. A super-cute chibi adult office worker sits at a desk watching a computer monitor with a clearly soaring stock-market line chart and a large upward arrow. The sequence: notices the chart rising, eyes widen with delight, jumps up cheering, grabs a handful of generic paper banknotes with no readable currency markings, then happily tosses the banknotes into the air like confetti while laughing. Oversized round head, tiny body, big sparkling expressive eyes, soft rounded features, messy fluffy hair, white shirt and loosened tie. Exactly 6 sequential frames arranged in a precise 3-column by 2-row grid, read left-to-right then top-to-bottom. Every panel has identical dimensions. Fixed front three-quarter camera, same character, desk, monitor, outfit, and cozy miniature office background. Clear incremental body, arm, and flying-paper motion; sixth frame transitions smoothly toward the first. Polished kawaii chibi 3D toy-like style, bright celebratory pastel lighting, funny joyful mood. No captions, no words, no numbers, no logos, no real currency symbols, no speech bubbles, no panel labels, no borders, no gutters.",
+        "th": "Prompt 2: Create a single animation sprite sheet for a seamless looping GIF. A super-cute chibi adult office worker sits at a desk watching a computer monitor with a clearly soaring stock-market line chart and a large upward arrow. The sequence: notices the chart rising, eyes widen with delight, jumps up cheering, grabs a handful of generic paper banknotes with no readable currency markings, then happily tosses the banknotes into the air like confetti while laughing. Oversized round head, tiny body, big sparkling expressive eyes, soft rounded features, messy fluffy hair, white shirt and loosened tie. Exactly 6 sequential frames arranged in a precise 3-column by 2-row grid, read left-to-right then top-to-bottom. Every panel has identical dimensions. Fixed front three-quarter camera, same character, desk, monitor, outfit, and cozy miniature office background. Clear incremental body, arm, and flying-paper motion; sixth frame transitions smoothly toward the first. Polished kawaii chibi 3D toy-like style, bright celebratory pastel lighting, funny joyful mood. No captions, no words, no numbers, no logos, no real currency symbols, no speech bubbles, no panel labels, no borders, no gutters."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "And you don’t need a polished design to get started — even a simple sketch can become an expressive, animated character for videos, games, and more.",
+        "th": "And you don’t need a polished design to get started — even a simple sketch can become an expressive, animated character for videos, games, and more."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7xC8whl4xN2cOTxQSLMfQ8/60b25185d53ca63f000341f0acbfba7a/owl-sketch-square.png?w=3840&q=90&fm=webp",
+      "alt": "An owl drawn in pen on lined paper."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "From personal reactions to brand mascots and product visuals, GIFs give people and businesses a playful way to communicate. Town, a startup building an AI work assistant, used Images 2.6 in the API to explore how animated characters could bring more personality to everyday interactions at work.",
+        "th": "From personal reactions to brand mascots and product visuals, GIFs give people and businesses a playful way to communicate. Town, a startup building an AI work assistant, used Images 2.6 in the API to explore how animated characters could bring more personality to everyday interactions at work."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "More ways to create and edit in the API",
+        "th": "More ways to create and edit in the API"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With Images 2.6, developers get more control over how images are created, edited, and carried into the next stage of a project. Image markup, already available in ChatGPT, comes to the API so teams can pinpoint exactly where to make specific changes. SVG exports make designs ready to use across websites, apps, and print.",
+        "th": "With Images 2.6, developers get more control over how images are created, edited, and carried into the next stage of a project. Image markup, already available in ChatGPT, comes to the API so teams can pinpoint exactly where to make specific changes. SVG exports make designs ready to use across websites, apps, and print."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A new complexity parameter lets developers adjust how much planning the model does to meet a request, with lower settings suited to quick edits. Image quality controls visual detail and fidelity, while complexity guides how much goes into the scene.",
+        "th": "A new complexity parameter lets developers adjust how much planning the model does to meet a request, with lower settings suited to quick edits. Image quality controls visual detail and fidelity, while complexity guides how much goes into the scene."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For most editing tasks, we recommend low complexity for faster edits, paired with the image quality your workflow requires. For scenes with many elements or constraints, try medium or high complexity effort.",
+        "th": "For most editing tasks, we recommend low complexity for faster edits, paired with the image quality your workflow requires. For scenes with many elements or constraints, try medium or high complexity effort."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "See what early access customers generated using Images 2.6:",
+        "th": "See what early access customers generated using Images 2.6:"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Pricing and availability",
+        "th": "Pricing and availability"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Images 2.6 is available globally today in ChatGPT and Codex across all subscription tiers on desktop, mobile, and web.",
+        "th": "Images 2.6 is available globally today in ChatGPT and Codex across all subscription tiers on desktop, mobile, and web."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑Image‑2.6 Sunburst and GPT‑Image‑2.6 Flare are available in the API. See pricing details here.⁠(opens in a new window)",
+        "th": "GPT‑Image‑2.6 Sunburst and GPT‑Image‑2.6 Flare are available in the API. See pricing details here.⁠(opens in a new window)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Learn more about our safety evaluations and safeguards for Images 2.6 in the system card.",
+        "th": "Learn more about our safety evaluations and safeguards for Images 2.6 in the system card."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "API",
+        "th": "API"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn.openai.com/mdx-assets/71f084db-a08b-48c5-b96e-5fbdc21a1a00/terra-art-card-1x1.9a2f828b.png",
+      "alt": "Sunlight illuminates Earth against a starry sky."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductOct 26, 2026",
+        "th": "ProductOct 26, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6E0HwFxJrpWOEiFct0ZfQE/bb595e7e6ab06dfd2c953cb915c8f89a/build-more-responsive-apps-with-the-decisions-api-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Build more responsive apps with the Decisions API — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductOct 22, 2026",
+        "th": "ProductOct 22, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7qpi2dSmegt9iF29oioze0/4446550c373728d28b054322caf946ae/lifeval-cover-crayon.png?w=3840&q=90&fm=webp",
+      "alt": "LifeVal — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchNov 2, 2026",
+        "th": "การวิจัย 2 พ.ย. 2569"
+      }
+    }
+  ]
+}

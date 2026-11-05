@@ -1,0 +1,507 @@
+{
+  "id": "google-ai__introducing-gemini-omni-1-2-flash",
+  "slug": "introducing-gemini-omni-1-2-flash",
+  "source": "google-ai",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+  "category": "Gemini models",
+  "date": "2026-11-05T17:00:00.000Z",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.max-600x600.format-webp.webp",
+  "title": {
+    "en": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+    "th": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips"
+  },
+  "summary": {
+    "en": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.max-600x600.format-webp.webp\">Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consist",
+    "th": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.max-600x600.format-webp.webp\">Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consist"
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "นวัตกรรมและเอไอ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Technology",
+        "th": "เทคโนโลยี"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Developer tools",
+        "th": "เครื่องมือสำหรับนักพัฒนา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Nov 05, 2026",
+        "th": "Nov 05, 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Omni 1.2 Flash brings 15-second clips, stronger consistency, and faster, more cost-effective generation.",
+        "th": "Gemini Omni 1.2 Flash brings 15-second clips, stronger consistency, and faster, more cost-effective generation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Anish Nangia",
+        "th": "อานิช นังเกีย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Product Manager, Google DeepMind",
+        "th": "ผู้จัดการผลิตภัณฑ์ Google DeepMind"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-200.format-webp.webp",
+      "alt": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re rolling out Gemini Omni 1.2 Flash, which offers native 15-second video creation, improved reference adherence, and multi-turn conversational editing. This update lowers costs by 30% and provides better consistency for your professional projects. You can start using these capabilities today across the Gemini API, Google Vids, and Gemini for business to produce high-quality video content at scale.",
+        "th": "We’re rolling out Gemini Omni 1.2 Flash, which offers native 15-second video creation, improved reference adherence, and multi-turn conversational editing. This update lowers costs by 30% and provides better consistency for your professional projects. You can start using these capabilities today across the Gemini API, Google Vids, and Gemini for business to produce high-quality video content at scale."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We are launching Gemini Omni 1.2 Flash with support for fifteen-second videos and improved reference adherence.",
+        "th": "We are launching Gemini Omni 1.2 Flash with support for fifteen-second videos and improved reference adherence."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "You can now edit clips through multi-turn conversations, which allows for faster adjustments without starting over.",
+        "th": "You can now edit clips through multi-turn conversations, which allows for faster adjustments without starting over."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "We reduced the price by 30% to help you produce high-quality video content at a lower cost.",
+        "th": "We reduced the price by 30% to help you produce high-quality video content at a lower cost."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "This model is generally available on the Gemini API and Google Cloud for your production needs.",
+        "th": "This model is generally available on the Gemini API and Google Cloud for your production needs."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "General summary",
+        "th": "สรุปทั่วไป"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Bullet points",
+        "th": "สัญลักษณ์แสดงหัวข้อย่อย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re rolling out Gemini Omni 1.2 Flash, and making it generally available across the Gemini API and Gemini for business. Gemini Omni 1.2 Flash introduces native 15-second video creation, multi-turn conversational editing capabilities, and enhanced reference following. We have dropped the price 30% from Gemini Omni 1.1 making it available at $0.07 per second for 720p video.",
+        "th": "Today, we’re rolling out Gemini Omni 1.2 Flash, and making it generally available across the Gemini API and Gemini for business. Gemini Omni 1.2 Flash introduces native 15-second video creation, multi-turn conversational editing capabilities, and enhanced reference following. We have dropped the price 30% from Gemini Omni 1.1 making it available at $0.07 per second for 720p video."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Here’s an overview of what’s new:",
+        "th": "Here’s an overview of what’s new:"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Fast and cost-effective at scale",
+        "th": "Fast and cost-effective at scale"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Beyond the lower price, the workflow keeps costs down: you can draft fast at 360p or 720p, fix a detail with a follow-up edit instead of re-generating the entire clip, and then upscale your best creations to 1080p or 4K.",
+        "th": "Beyond the lower price, the workflow keeps costs down: you can draft fast at 360p or 720p, fix a detail with a follow-up edit instead of re-generating the entire clip, and then upscale your best creations to 1080p or 4K."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Longer clips up to 15 seconds",
+        "th": "Longer clips up to 15 seconds"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can now generate and edit videos natively up to 15 seconds long, up from 10 seconds with Omni 1.1. You can also specify duration in one-second increments from 3 to 15 seconds, giving you room to tell complete stories, create product explainers, or produce full social ad spots in a single generation.",
+        "th": "You can now generate and edit videos natively up to 15 seconds long, up from 10 seconds with Omni 1.1. You can also specify duration in one-second increments from 3 to 15 seconds, giving you room to tell complete stories, create product explainers, or produce full social ad spots in a single generation."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Better reference adherence",
+        "th": "Better reference adherence"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can guide generation combining character, product, or style images, short motion clips (up to three seconds), and audio cues — and Omni 1.2 Flash holds onto those details from start to finish. Faces, garments, packaging typography, and brand colors stay consistent across camera angles, making it easy to turn existing product photography or character sheets into virtual try-on clips, catalog spins, and branded video ads.",
+        "th": "You can guide generation combining character, product, or style images, short motion clips (up to three seconds), and audio cues — and Omni 1.2 Flash holds onto those details from start to finish. Faces, garments, packaging typography, and brand colors stay consistent across camera angles, making it easy to turn existing product photography or character sheets into virtual try-on clips, catalog spins, and branded video ads."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Combining one model photo with front-and-back product shots of three outfits, Gemini Omni 1.2 Flash generates a 15-second virtual try-on sequence across 360-degree turns and match cuts while keeping the model’s identity and each garment’s cut, drape, and back details consistent.",
+        "th": "Combining one model photo with front-and-back product shots of three outfits, Gemini Omni 1.2 Flash generates a 15-second virtual try-on sequence across 360-degree turns and match cuts while keeping the model’s identity and each garment’s cut, drape, and back details consistent."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "More consistent results",
+        "th": "More consistent results"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can maintain stronger character, object, and scene consistency from the first to the last frame, with less visual drift or morphing across motion and camera transitions. Whether you’re interpolating between a first and last keyframe, or extending a clip to build a longer sequence, products, characters, props, and environments stay consistent from shot to shot.",
+        "th": "You can maintain stronger character, object, and scene consistency from the first to the last frame, with less visual drift or morphing across motion and camera transitions. Whether you’re interpolating between a first and last keyframe, or extending a clip to build a longer sequence, products, characters, props, and environments stay consistent from shot to shot."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Given the same static studio lighting exhibition poster and five-layer animation prompt, Gemini Omni 1.1 Flash does not match the reference image as closely as 1.2 does. Gemini Omni 1.2 Flash builds the poster sequentially layer by layer on the dusty-pink cyclorama rising the hexagonal plinth, assembling the ribbed glass, warm filament, faceted crystal, and coiled-cord letterforms for HALO, GLOW, and LUMEN, and locking every material, shadow, and typographic detail consistently through the final frame.",
+        "th": "Given the same static studio lighting exhibition poster and five-layer animation prompt, Gemini Omni 1.1 Flash does not match the reference image as closely as 1.2 does. Gemini Omni 1.2 Flash builds the poster sequentially layer by layer on the dusty-pink cyclorama rising the hexagonal plinth, assembling the ribbed glass, warm filament, faceted crystal, and coiled-cord letterforms for HALO, GLOW, and LUMEN, and locking every material, shadow, and typographic detail consistently through the final frame."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Easier editing in conversation",
+        "th": "Easier editing in conversation"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can refine the same clip turn by turn — such as swapping a product or background, changing the lighting or weather, or switching the aspect ratio — instead of starting over from scratch. Multi-turn conversational editing works across full 15-second clips, making it easy to produce ad variants for different audiences and placements without re-briefing or re-generating.",
+        "th": "You can refine the same clip turn by turn — such as swapping a product or background, changing the lighting or weather, or switching the aspect ratio — instead of starting over from scratch. Multi-turn conversational editing works across full 15-second clips, making it easy to produce ad variants for different audiences and placements without re-briefing or re-generating."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Starting from one generated clip, multi-turn conversational prompts swap the background turn by turn — from a striped pavilion tent to an oak forest, a stable with a white horse, a market fair, and a stone castle — while keeping both characters’ performances, armor reflections, and camera framing intact.",
+        "th": "Starting from one generated clip, multi-turn conversational prompts swap the background turn by turn — from a striped pavilion tent to an oak forest, a stable with a white horse, a market fair, and a stone castle — while keeping both characters’ performances, armor reflections, and camera framing intact."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "More natural speech",
+        "th": "More natural speech"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can generate scenes with more fluid, natural-sounding dialogue, clearer lip-sync, and distinct multi-speaker conditioning. This will show up whether you’re directing multi-character dialogue in Flow, creating video explainers in Gemini for business, or creating polished, pro videos with avatars, music and narration in Google Vids.",
+        "th": "You can generate scenes with more fluid, natural-sounding dialogue, clearer lip-sync, and distinct multi-speaker conditioning. This will show up whether you’re directing multi-character dialogue in Flow, creating video explainers in Gemini for business, or creating polished, pro videos with avatars, music and narration in Google Vids."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Conditioned on one conservatory scene image alongside four character, mouth, and one-second voice references, Gemini Omni 1.2 Flash routes each sampled voice to the right character with expressive lip-sync and natural comedic timing across a 15-second animated scene.",
+        "th": "Conditioned on one conservatory scene image alongside four character, mouth, and one-second voice references, Gemini Omni 1.2 Flash routes each sampled voice to the right character with expressive lip-sync and natural comedic timing across a 15-second animated scene."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "More controllable, cinematic look",
+        "th": "More controllable, cinematic look"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can direct complex, continuous camera movements like sweeping FPV flythroughs to dramatic zoom-outs and orbits with significantly fewer unwanted jump cuts, steadier scale, and a more polished, cinematic look.",
+        "th": "You can direct complex, continuous camera movements like sweeping FPV flythroughs to dramatic zoom-outs and orbits with significantly fewer unwanted jump cuts, steadier scale, and a more polished, cinematic look."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Guided by two architectural reference photos, Gemini Omni 1.2 Flash directs one continuous FPV drone flight across the piazza, through the bronze doors, and up through the Pantheon’s coffered dome to the oculus with zero jump cuts.",
+        "th": "Guided by two architectural reference photos, Gemini Omni 1.2 Flash directs one continuous FPV drone flight across the piazza, through the bronze doors, and up through the Pantheon’s coffered dome to the oculus with zero jump cuts."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Longer clips with smoother motion and tighter consistency",
+        "th": "Longer clips with smoother motion and tighter consistency"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Omni 1.2 Flash generates clips up to 15 seconds long that hold references together better than before. You can scroll through to see characters, text, and camera moves stay consistent across longer shots, multiple turns and transitions with no cuts.",
+        "th": "Gemini Omni 1.2 Flash generates clips up to 15 seconds long that hold references together better than before. You can scroll through to see characters, text, and camera moves stay consistent across longer shots, multiple turns and transitions with no cuts."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "15 second long clips: Turns one style frame into a 4-shot, 15-second macro science explainer with accurately spelled, motion-tracked callouts.",
+        "th": "15 second long clips: Turns one style frame into a 4-shot, 15-second macro science explainer with accurately spelled, motion-tracked callouts."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Multi-turn motion transfer: Generates a rippling octopus in Turn 1, then replaces it in Turn 2 with a dancer whose gown mirrors the exact fluid motion.",
+        "th": "Multi-turn motion transfer: Generates a rippling octopus in Turn 1, then replaces it in Turn 2 with a dancer whose gown mirrors the exact fluid motion."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "First-to-last frame consistency (1.1 vs. 1.2): Connects an exterior start frame and interior end frame in one continuous camera push in 1.2 Flash. You can see subtle differences like the cats on the roof, the soup ladle turning into chopsticks, and some other minor changes.",
+        "th": "First-to-last frame consistency (1.1 vs. 1.2): Connects an exterior start frame and interior end frame in one continuous camera push in 1.2 Flash. You can see subtle differences like the cats on the roof, the soup ladle turning into chopsticks, and some other minor changes."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Unbroken crash zoom-out: Pulls continuously from a tight shoreline close-up to an aerial island vista in one 10-second shot with natural scale and zero cuts.",
+        "th": "Unbroken crash zoom-out: Pulls continuously from a tight shoreline close-up to an aerial island vista in one 10-second shot with natural scale and zero cuts."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Real-world results, from creatives to global brands",
+        "th": "Real-world results, from creatives to global brands"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Businesses, startups, and creatives are already using Gemini Omni 1.2 Flash in their workflows. And for the first time, Gemini Omni is now generally available, backed by Google Cloud’s enterprise-grade infrastructure and security. Provisioned Throughput is available, and outputs carry an imperceptible SynthID watermark.",
+        "th": "Businesses, startups, and creatives are already using Gemini Omni 1.2 Flash in their workflows. And for the first time, Gemini Omni is now generally available, backed by Google Cloud’s enterprise-grade infrastructure and security. Provisioned Throughput is available, and outputs carry an imperceptible SynthID watermark."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get started with Gemini Omni 1.2 Flash",
+        "th": "Get started with Gemini Omni 1.2 Flash"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "While development is ongoing to further improve things like fast sports action, rapid script changes and complex physics, Gemini Omni 1.2 Flash is ideal for businesses, developers, and creators producing videos at scale. You can get started with Gemini Omni 1.2 Flash today as it rolls out across Google’s products and developer platforms:",
+        "th": "While development is ongoing to further improve things like fast sports action, rapid script changes and complex physics, Gemini Omni 1.2 Flash is ideal for businesses, developers, and creators producing videos at scale. You can get started with Gemini Omni 1.2 Flash today as it rolls out across Google’s products and developer platforms:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For developers using the Gemini API: Prototype in Google AI Studio, explore interactive starter apps, and check out the developer documentation and pricing.",
+        "th": "For developers using the Gemini API: Prototype in Google AI Studio, explore interactive starter apps, and check out the developer documentation and pricing."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For businesses: Try it in the Google Cloud console, and build enterprise solutions with the API.",
+        "th": "For businesses: Try it in the Google Cloud console, and build enterprise solutions with the API."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For everyone using Google apps: Direct scenes and multi-turn edits in Flow, generate 15-second clips at no additional cost in Google Vids with a Google account or Google Workspace subscription, create 15-second videos in the Gemini app (rolling out to Google AI Ultra subscribers), and scale video campaigns in Google Ads.",
+        "th": "For everyone using Google apps: Direct scenes and multi-turn edits in Flow, generate 15-second clips at no additional cost in Google Vids with a Google account or Google Workspace subscription, create 15-second videos in the Gemini app (rolling out to Google AI Ultra subscribers), and scale video campaigns in Google Ads."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get the latest news from Google in your inbox",
+        "th": "รับข่าวสารล่าสุดจาก Google ในกล่องจดหมายของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sign up for our newsletters with product updates, event information, special offers, and more.",
+        "th": "ลงทะเบียนรับจดหมายข่าวของเราพร้อมข้อมูลอัปเดตผลิตภัณฑ์ ข้อมูลกิจกรรม ข้อเสนอพิเศษ และอื่นๆ อีกมากมาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Done. Just one step more.",
+        "th": "เสร็จแล้ว. อีกเพียงก้าวเดียวเท่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check your inbox to confirm your subscription.",
+        "th": "ตรวจสอบกล่องจดหมายของคุณเพื่อยืนยันการสมัครของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also subscribe with a different email address.",
+        "th": "คุณสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your information will be used in accordance with Google's privacy policy. You may opt out at any time.",
+        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google คุณสามารถเลือกไม่รับได้ตลอดเวลา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Developer tools",
+        "th": "เครื่องมือสำหรับนักพัฒนา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini models",
+        "th": "โมเดลราศีเมถุน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "AI",
+        "th": "AI"
+      }
+    }
+  ]
+}

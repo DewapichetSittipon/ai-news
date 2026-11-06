@@ -275,6 +275,13 @@
     {
       "type": "li",
       "text": {
+        "en": "CrowdStrike",
+        "th": "CrowdStrike"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Perplexity",
         "th": "Perplexity"
       }
@@ -326,6 +333,13 @@
       "text": {
         "en": "SentinelOne",
         "th": "SentinelOne"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "CrowdStrike",
+        "th": "CrowdStrike"
       }
     },
     {
@@ -615,6 +629,18 @@
     },
     {
       "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6xmxSENf49pAUFzVokN3KG/3206934563d5b072f5a75139d6b26497/a-thousand-fewer-paths-to-root-cover.png?w=3840&q=90&fm=webp",
+      "alt": "A thousand fewer paths to root — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SecurityNov 4, 2026",
+        "th": "SecurityNov 4, 2026"
+      }
+    },
+    {
+      "type": "img",
       "src": "https://images.ctfassets.net/kftzwdyauwt9/2E8ts1o0xQpNfGigwDDkUx/f144a75f6a59d0307eba199c518e5a83/gpt-image-2-6-card.png?w=3840&q=90&fm=webp",
       "alt": "GPT-Image 2.6 — listing art card"
     },
@@ -623,18 +649,6 @@
       "text": {
         "en": "ProductNov 4, 2026",
         "th": "ProductNov 4, 2026"
-      }
-    },
-    {
-      "type": "img",
-      "src": "https://cdn.openai.com/mdx-assets/71f084db-a08b-48c5-b96e-5fbdc21a1a00/terra-art-card-1x1.9a2f828b.png",
-      "alt": "Sunlight illuminates Earth against a starry sky."
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "ProductOct 26, 2026",
-        "th": "ProductOct 26, 2026"
       }
     }
   ]

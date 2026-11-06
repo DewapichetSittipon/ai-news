@@ -1,0 +1,125 @@
+{
+  "id": "openai__partnering-with-hacktron",
+  "slug": "partnering-with-hacktron",
+  "source": "openai",
+  "url": "https://openai.com/index/partnering-with-hacktron",
+  "category": "Security",
+  "date": "2026-11-06T08:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+    "th": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems"
+  },
+  "summary": {
+    "en": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+    "th": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 6, 2026",
+        "th": "November 6, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today we’re announcing a partnership with Hacktron to find vulnerabilities in OpenAI’s systems. Our engineers and Hacktron’s security researchers will choose high-priority areas to test together, with a focus on how our systems interact with third-party services. As part of the partnership, we’re expanding Hacktron’s access to our frontier models through Daybreak Red.",
+        "th": "Today we’re announcing a partnership with Hacktron to find vulnerabilities in OpenAI’s systems. Our engineers and Hacktron’s security researchers will choose high-priority areas to test together, with a focus on how our systems interact with third-party services. As part of the partnership, we’re expanding Hacktron’s access to our frontier models through Daybreak Red."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As we work to accelerate cyber defense with frontier AI, we’re applying the same urgency to finding and fixing vulnerabilities in our own systems. Earlier this week, we announced that Cathedral’s researchers will work alongside our teams in our next security sprint. We also raised our bug bounty rewards to give independent researchers more reason to pursue vulnerabilities our own testing may have missed.",
+        "th": "As we work to accelerate cyber defense with frontier AI, we’re applying the same urgency to finding and fixing vulnerabilities in our own systems. Earlier this week, we announced that Cathedral’s researchers will work alongside our teams in our next security sprint. We also raised our bug bounty rewards to give independent researchers more reason to pursue vulnerabilities our own testing may have missed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We became familiar with Hacktron through our Security Bug Bounty program and were impressed by the impact of the vulnerabilities its researchers have discovered and disclosed to us. The team builds AI agents for code review, penetration testing, and red teaming. Their research⁠(opens in a new window) has uncovered vulnerabilities in how applications, cloud infrastructure, and identity systems interact. Their work shows what’s possible when security engineers build around AI to move faster and take on more ambitious research.",
+        "th": "We became familiar with Hacktron through our Security Bug Bounty program and were impressed by the impact of the vulnerabilities its researchers have discovered and disclosed to us. The team builds AI agents for code review, penetration testing, and red teaming. Their research⁠(opens in a new window) has uncovered vulnerabilities in how applications, cloud infrastructure, and identity systems interact. Their work shows what’s possible when security engineers build around AI to move faster and take on more ambitious research."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As AI agents connect services in new ways, that combination of skills becomes even more valuable. Working alongside Hacktron will help us test those connections more deeply and use what we learn to strengthen our defenses.",
+        "th": "As AI agents connect services in new ways, that combination of skills becomes even more valuable. Working alongside Hacktron will help us test those connections more deeply and use what we learn to strengthen our defenses."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re grateful to Hacktron and other independent researchers who put time into finding and reporting weaknesses to help strengthen the security that protects all our users. To see which systems are in scope or submit a finding, visit our Security Bug Bounty program⁠(opens in a new window).",
+        "th": "We’re grateful to Hacktron and other independent researchers who put time into finding and reporting weaknesses to help strengthen the security that protects all our users. To see which systems are in scope or submit a finding, visit our Security Bug Bounty program⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Cybersecurity",
+        "th": "Cybersecurity"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7u6rk94yLviNcTzUzcsqCY/fbb0fc303e3289c62dd27d1679cac86d/preparing-our-next-security-sprint-to-harden-openai-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Preparing our next security sprint to harden OpenAI — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SecurityNov 2, 2026",
+        "th": "SecurityNov 2, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6Z34J1fph8Xf0II1ZD7Uyu/da22206f343ac07d547ba09b94ac3a9c/rewarding-defenders-with-bigger-bug-bounties-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Rewarding defenders with bigger bug bounties — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SecurityNov 2, 2026",
+        "th": "SecurityNov 2, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2iqsbTTLvgMNteNampw3gW/a38ed04432ee5548c4aec6c7b7a506f2/1x1_Art_Card.png?w=3840&q=90&fm=webp",
+      "alt": "GPT-Daybreak > Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SecurityAug 10, 2026",
+        "th": "SecurityAug 10, 2026"
+      }
+    }
+  ]
+}

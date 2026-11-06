@@ -1,0 +1,1261 @@
+{
+  "id": "openai__measuring-how-ai-agents-handle-wet-lab-science",
+  "slug": "measuring-how-ai-agents-handle-wet-lab-science",
+  "source": "openai",
+  "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+  "category": "Publication",
+  "date": "2026-11-06T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Measuring how AI agents handle everyday wet-lab science",
+    "th": "Measuring how AI agents handle everyday wet-lab science"
+  },
+  "summary": {
+    "en": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+    "th": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 6, 2026",
+        "th": "November 6, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Introducing BioBasicsBench, a benchmark measuring how well AI agents interpret raw experimental data across 100 routine wet-lab tasks.",
+        "th": "Introducing BioBasicsBench, a benchmark measuring how well AI agents interpret raw experimental data across 100 routine wet-lab tasks."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Inside BioBasicsBench",
+        "th": "Inside BioBasicsBench"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Results",
+        "th": "Results"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "GPT-6 Astra improvements from GPT-5.6 Sol",
+        "th": "GPT-6 Astra improvements from GPT-5.6 Sol"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Where models still fall short",
+        "th": "Where models still fall short"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building toward reliable lab assistance",
+        "th": "Building toward reliable lab assistance"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Inside BioBasicsBench",
+        "th": "Inside BioBasicsBench"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Results",
+        "th": "Results"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "GPT-6 Astra improvements from GPT-5.6 Sol",
+        "th": "GPT-6 Astra improvements from GPT-5.6 Sol"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Where models still fall short",
+        "th": "Where models still fall short"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building toward reliable lab assistance",
+        "th": "Building toward reliable lab assistance"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our mission is to ensure that artificial general intelligence benefits all of humanity. As part of that mission, we want to help scientists accelerate biological research—from understanding disease to developing new treatments. For AI agents to contribute, they need to reliably interpret the experimental evidence scientists work with every day in wet labs, where they run experiments with biological samples. Everyday wet-lab work involves failed experiments, ambiguous images and conflicting observations. Existing benchmarks are built around charts and images selected for scientific papers may miss this ambiguity and the troubleshooting it requires. That’s why we’re introducing BioBasicsBench, a new benchmark developed with Ligo, a biotech company focused on enzyme design, to measure how well agents handle routine wet-lab analysis.",
+        "th": "Our mission is to ensure that artificial general intelligence benefits all of humanity. As part of that mission, we want to help scientists accelerate biological research—from understanding disease to developing new treatments. For AI agents to contribute, they need to reliably interpret the experimental evidence scientists work with every day in wet labs, where they run experiments with biological samples. Everyday wet-lab work involves failed experiments, ambiguous images and conflicting observations. Existing benchmarks are built around charts and images selected for scientific papers may miss this ambiguity and the troubleshooting it requires. That’s why we’re introducing BioBasicsBench, a new benchmark developed with Ligo, a biotech company focused on enzyme design, to measure how well agents handle routine wet-lab analysis."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The benchmark’s 100 tasks test whether agents can interpret raw experimental data, identify errors, and recognize when the evidence cannot support a conclusion. Getting these tasks right matters because misreading an image or overlooking a problem with the controls used to check an experiment’s results can lead scientists to draw the wrong conclusion and spend time on experiments that won’t help answer their question.",
+        "th": "The benchmark’s 100 tasks test whether agents can interpret raw experimental data, identify errors, and recognize when the evidence cannot support a conclusion. Getting these tasks right matters because misreading an image or overlooking a problem with the controls used to check an experiment’s results can lead scientists to draw the wrong conclusion and spend time on experiments that won’t help answer their question."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "At the ‘xhigh’ setting, which allows more reasoning per task, GPT‑6 Astra earned an average of 66.7% of the available credit, compared with 43.8% for GPT‑5.6 Sol. The results show progress on routine lab analysis, with room for further improvements in interpreting images, checking controls and applying experimental context.",
+        "th": "At the ‘xhigh’ setting, which allows more reasoning per task, GPT‑6 Astra earned an average of 66.7% of the available credit, compared with 43.8% for GPT‑5.6 Sol. The results show progress on routine lab analysis, with room for further improvements in interpreting images, checking controls and applying experimental context."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Inside BioBasicsBench",
+        "th": "Inside BioBasicsBench"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "BioBasicsBench uses raw experimental evidence, from gel images and colony plates to microscopy and instrument readouts.",
+        "th": "BioBasicsBench uses raw experimental evidence, from gel images and colony plates to microscopy and instrument readouts."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "BioBasicsBench has 100 tasks across five areas of routine wet-lab work: protein methods, imaging and cytometry, quantification and assays, nucleic acid methods, and molecular cloning. Tasks range from simple requests, such as reading the molecular weight of a DNA sample in a gel, to detailed assay analysis, but all involve routine work that wet-lab scientists should be able to complete reliably.",
+        "th": "BioBasicsBench has 100 tasks across five areas of routine wet-lab work: protein methods, imaging and cytometry, quantification and assays, nucleic acid methods, and molecular cloning. Tasks range from simple requests, such as reading the molecular weight of a DNA sample in a gel, to detailed assay analysis, but all involve routine work that wet-lab scientists should be able to complete reliably."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Scientists created the tasks using data from their own experiments, pairing each question with expert-written grading criteria. Each task underwent an internal review by a Ligo scientist who had not written it, an external review by a PhD-level scientist working in a wet lab, and a final internal review.",
+        "th": "Scientists created the tasks using data from their own experiments, pairing each question with expert-written grading criteria. Each task underwent an internal review by a Ligo scientist who had not written it, an external review by a PhD-level scientist working in a wet lab, and a final internal review."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Agents return a structured answer with the requested conclusion, measurement or recommendation and, where required, supporting reasoning. Answers receive credit against individual rubric criteria, allowing the benchmark to distinguish a correct conclusion from a partially correct analysis. Most tasks test several skills together, including biological knowledge, interpretation of images and other data, error detection and protocol understanding.",
+        "th": "Agents return a structured answer with the requested conclusion, measurement or recommendation and, where required, supporting reasoning. Answers receive credit against individual rubric criteria, allowing the benchmark to distinguish a correct conclusion from a partially correct analysis. Most tasks test several skills together, including biological knowledge, interpretation of images and other data, error detection and protocol understanding."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Unique tasks” counts each task once. The skill columns count tasks with each skill tag. These categories overlap: one task can appear in several columns, so the skill counts should not be added to obtain a task total. Color identifies the domain; stronger shading indicates a larger share of that domain’s tasks testing a skill.",
+        "th": "“Unique tasks” counts each task once. The skill columns count tasks with each skill tag. These categories overlap: one task can appear in several columns, so the skill counts should not be added to obtain a task total. Color identifies the domain; stronger shading indicates a larger share of that domain’s tasks testing a skill."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The inputs preserve the forms of evidence scientists work with: gel and blot images, plate photographs, microscopy stacks, sequencing reads, plate-reader exports and videos of bench work. A task can include several kinds of data. Reference sheets, such as ladder charts and plasmid maps, support the interpretation of the experimental evidence.",
+        "th": "The inputs preserve the forms of evidence scientists work with: gel and blot images, plate photographs, microscopy stacks, sequencing reads, plate-reader exports and videos of bench work. A task can include several kinds of data. Reference sheets, such as ladder charts and plasmid maps, support the interpretation of the experimental evidence."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "What the agent is given",
+        "th": "What the agent is given"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Kind of data",
+        "th": "Kind of data"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Tasks",
+        "th": "Tasks"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "What it includes",
+        "th": "What it includes"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gels & blots",
+        "th": "Gels & blots"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "31",
+        "th": "31"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Agarose DNA gels, SDS-PAGE gels, Western blots",
+        "th": "Agarose DNA gels, SDS-PAGE gels, Western blots"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Protocols, notes & specs",
+        "th": "Protocols, notes & specs"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "27",
+        "th": "27"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Protocols and SOPs, lab notebooks and run records, photographed handwritten notes, catalogues, instrument specs, published methods",
+        "th": "Protocols and SOPs, lab notebooks and run records, photographed handwritten notes, catalogues, instrument specs, published methods"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Tables & instrument exports",
+        "th": "Tables & instrument exports"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "20",
+        "th": "20"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CSV and Excel exports, lane layouts and inventories, raw flow cytometry (FCS) files",
+        "th": "CSV and Excel exports, lane layouts and inventories, raw flow cytometry (FCS) files"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Bench, apparatus & reagent photos",
+        "th": "Bench, apparatus & reagent photos"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "18",
+        "th": "18"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Benches, gel rigs, reagent and culture tubes, a PCR plate, tube racks, pH strips, a concentrator, a freezer, a liquid-handler deck",
+        "th": "Benches, gel rigs, reagent and culture tubes, a PCR plate, tube racks, pH strips, a concentrator, a freezer, a liquid-handler deck"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Microscopy",
+        "th": "Microscopy"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "14",
+        "th": "14"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Raw brightfield and fluorescence images, multi-channel sets, z-stacks, time-lapse movies",
+        "th": "Raw brightfield and fluorescence images, multi-channel sets, z-stacks, time-lapse movies"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Instrument screens & plots",
+        "th": "Instrument screens & plots"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "13",
+        "th": "13"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Photos of flow cytometer, microscope, NanoDrop, plate reader and balance screens; exported standard curves, chromatograms and plots",
+        "th": "Photos of flow cytometer, microscope, NanoDrop, plate reader and balance screens; exported standard curves, chromatograms and plots"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sequencing files",
+        "th": "Sequencing files"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "12",
+        "th": "12"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Raw long-read FASTQs, FASTA sequences, GenBank maps",
+        "th": "Raw long-read FASTQs, FASTA sequences, GenBank maps"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Protocol videos",
+        "th": "Protocol videos"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Streaking, inoculation, serial dilution, SDS-PAGE tank and incubator setups, weighing on a balance",
+        "th": "Streaking, inoculation, serial dilution, SDS-PAGE tank and incubator setups, weighing on a balance"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Agar plates & colonies",
+        "th": "Agar plates & colonies"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Transformation plates, blue/white screens, antibiotic-disc plates",
+        "th": "Transformation plates, blue/white screens, antibiotic-disc plates"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reference sheets",
+        "th": "Reference sheets"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "21",
+        "th": "21"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Ladder charts, plasmid maps, pH charts (supporting material)",
+        "th": "Ladder charts, plasmid maps, pH charts (supporting material)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Number of tasks that include each kind of data. Categories overlap; reference sheets are supporting material.",
+        "th": "Number of tasks that include each kind of data. Categories overlap; reference sheets are supporting material."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Scientists wrote the tasks using data from their own experiments, pairing the experimental evidence with a question and an expert-written grading rubric. Each task went through an internal review by a Ligo scientist who had not written it, an external review by a PhD-level scientist working in a wet lab, and a final internal review. Reviewers checked the prompt, experimental evidence, rubric, author notes and a graded model attempt.",
+        "th": "Scientists wrote the tasks using data from their own experiments, pairing the experimental evidence with a question and an expert-written grading rubric. Each task went through an internal review by a Ligo scientist who had not written it, an external review by a PhD-level scientist working in a wet lab, and a final internal review. Reviewers checked the prompt, experimental evidence, rubric, author notes and a graded model attempt."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Answers are scored against the task’s rubric, which assigns credit to individual criteria. Depending on the task, these criteria assess the conclusion, numerical results, supporting reasoning or recognition that the evidence is insufficient.",
+        "th": "Answers are scored against the task’s rubric, which assigns credit to individual criteria. Depending on the task, these criteria assess the conclusion, numerical results, supporting reasoning or recognition that the evidence is insufficient."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Results",
+        "th": "Results"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We evaluated seven models on BioBasicsBench: GPT‑5.2, GPT‑5.4, GPT‑5.5, GPT‑5.6 Sol, GPT‑6.1 Sol, GPT‑6 Luna and GPT‑6 Astra. The evaluation covers 37 model and reasoning-effort settings, with five attempts on each of the 100 tasks per setting, for a total of 18,500 results.",
+        "th": "We evaluated seven models on BioBasicsBench: GPT‑5.2, GPT‑5.4, GPT‑5.5, GPT‑5.6 Sol, GPT‑6.1 Sol, GPT‑6 Luna and GPT‑6 Astra. The evaluation covers 37 model and reasoning-effort settings, with five attempts on each of the 100 tasks per setting, for a total of 18,500 results."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We report mean reward: the average task score, expressed as a percentage of the available credit. Error bars show 95% confidence intervals calculated by resampling whole tasks, keeping the five attempts for each task together.",
+        "th": "We report mean reward: the average task score, expressed as a percentage of the available credit. Error bars show 95% confidence intervals calculated by resampling whole tasks, keeping the five attempts for each task together."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mean reward versus average output tokens per task, shown on a logarithmic scale. Each point represents a tested reasoning-effort setting; lines connect those settings in order. The x-axis doubles at each tick. Dashed orange lines show GPT‑5 models, and solid blue lines show GPT‑6 models. Faint whiskers show 95% whole-task bootstrap confidence intervals. Each setting includes all 100 tasks and five attempts per task. Effort settings differ across models.",
+        "th": "Mean reward versus average output tokens per task, shown on a logarithmic scale. Each point represents a tested reasoning-effort setting; lines connect those settings in order. The x-axis doubles at each tick. Dashed orange lines show GPT‑5 models, and solid blue lines show GPT‑6 models. Faint whiskers show 95% whole-task bootstrap confidence intervals. Each setting includes all 100 tasks and five attempts per task. Effort settings differ across models."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6 Astra substantially improves on GPT‑5.6 Sol, even at low reasoning effort. These gains suggest that stronger native multimodal capabilities may be key to improving performance on everyday wet-lab analysis.",
+        "th": "GPT‑6 Astra substantially improves on GPT‑5.6 Sol, even at low reasoning effort. These gains suggest that stronger native multimodal capabilities may be key to improving performance on everyday wet-lab analysis."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Performance at xhigh reasoning effort",
+        "th": "Performance at xhigh reasoning effort"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Model",
+        "th": "Model"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mean reward",
+        "th": "Mean reward"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "95% CI",
+        "th": "95% CI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Output tokens / task",
+        "th": "Output tokens / task"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6 Astra",
+        "th": "GPT‑6 Astra"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "66.7%",
+        "th": "66.7%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "60.3–73.1%",
+        "th": "60.3–73.1%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "4,704",
+        "th": "4,704"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6.1 Sol",
+        "th": "GPT‑6.1 Sol"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "62.0%",
+        "th": "62.0%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "55.6–68.4%",
+        "th": "55.6–68.4%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "5,238",
+        "th": "5,238"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑5.6 Sol",
+        "th": "GPT‑5.6 Sol"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "43.8%",
+        "th": "43.8%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "37.6–50.0%",
+        "th": "37.6–50.0%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "9,099",
+        "th": "9,099"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6 Luna",
+        "th": "GPT‑6 Luna"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "38.3%",
+        "th": "38.3%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "32.3–44.5%",
+        "th": "32.3–44.5%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "13,120",
+        "th": "13,120"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑5.5",
+        "th": "GPT‑5.5"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "35.4%",
+        "th": "35.4%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "29.7–41.0%",
+        "th": "29.7–41.0%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "11,135",
+        "th": "11,135"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑5.4",
+        "th": "GPT‑5.4"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "33.2%",
+        "th": "33.2%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "28.3–38.4%",
+        "th": "28.3–38.4%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "13,717",
+        "th": "13,717"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑5.2",
+        "th": "GPT‑5.2"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "31.2%",
+        "th": "31.2%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "26.2–36.3%",
+        "th": "26.2–36.3%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "27,620",
+        "th": "27,620"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Xhigh is the highest reasoning-effort setting reported for all seven models. Each row includes all 100 tasks and five attempts per task. Max-effort results, where available, are included in the chart above.",
+        "th": "Xhigh is the highest reasoning-effort setting reported for all seven models. Each row includes all 100 tasks and five attempts per task. Max-effort results, where available, are included in the chart above."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "GPT‑6 Astra improvements from GPT‑5.6 Sol",
+        "th": "GPT‑6 Astra improvements from GPT‑5.6 Sol"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Recognizing what the data can and cannot show",
+        "th": "Recognizing what the data can and cannot show"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A common trap in science is over-interpreting the data, especially given the nature of bias that occurs when testing a hypothesis. Astra demonstrated a better ability to discern the limit of what the data shows and not draw unwarranted conclusions.",
+        "th": "A common trap in science is over-interpreting the data, especially given the nature of bias that occurs when testing a hypothesis. Astra demonstrated a better ability to discern the limit of what the data shows and not draw unwarranted conclusions."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In this example, GPT‑5.6 Sol classified cells as dead based on the signal from a dye used to detect dead cells. But the detector could also pick up light from a second dye, so brightness alone could not justify that conclusion. Astra recognized this ambiguity and called for better controls to separate the signals.",
+        "th": "In this example, GPT‑5.6 Sol classified cells as dead based on the signal from a dye used to detect dead cells. But the detector could also pick up light from a second dye, so brightness alone could not justify that conclusion. Astra recognized this ambiguity and called for better controls to separate the signals."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4jbbwTdCFaIjpSQaPpGxqD/bf38a7e78e4d2843fa3714b0d1379e61/biobasicsbench-brightfield-paired-regions.svg?w=3840&q=90",
+      "alt": "Brightfield: cell regions 1 and 2."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Brightfield · transmitted light",
+        "th": "Brightfield · transmitted light"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4ZsKWfQkRokWxJzypxZNgo/94e66ff8b65f892f73e663873ce464b4/biobasicsbench-channel-2-paired-regions.svg?w=3840&q=90",
+      "alt": "Channel 2: cell regions 1 and 2."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Channel 2 · SYTOX-labelled · 470–540 nm",
+        "th": "Channel 2 · SYTOX-labelled · 470–540 nm"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5TmYJtELT7kRDcnH2LXQOF/d2c17688f201571b681ca0df43f6bc55/biobasicsbench-channel-3-paired-regions.svg?w=3840&q=90",
+      "alt": "Channel 3: cell regions 1 and 2."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Channel 3 · FUN-1 green · 525–580 nm",
+        "th": "Channel 3 · FUN-1 green · 525–580 nm"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The same cell regions in three channels; the detection windows overlap at 525–540 nm. The shared window permits interference; its amount has not been measured. Each channel is displayed with a separate linear intensity scale, fixed across both regions; brightness cannot be compared quantitatively between channels.",
+        "th": "The same cell regions in three channels; the detection windows overlap at 525–540 nm. The shared window permits interference; its amount has not been measured. Each channel is displayed with a separate linear intensity scale, fixed across both regions; brightness cannot be compared quantitatively between channels."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Better multimodal handling",
+        "th": "Better multimodal handling"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Scientific research is highly multimodal, requiring constant visual interpretation and decision making. Astra displayed a significant improvement at handling multimodal data which was given in the form of photos and videos, as well as raw outputs from sequencing, plate-reader assays, microscopy and flow cytometry.",
+        "th": "Scientific research is highly multimodal, requiring constant visual interpretation and decision making. Astra displayed a significant improvement at handling multimodal data which was given in the form of photos and videos, as well as raw outputs from sequencing, plate-reader assays, microscopy and flow cytometry."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "At the most basic level, this improvement was noticeable through GPT‑6 Astra’s ability to pick up on finer detail from images taken during experiments and therefore draw more accurate conclusions as shown in this example. This task asked agents to draw conclusions from a DNA cloning experiment, where controls are essential. GPT‑5.6 Sol saw no colonies on the negative control plate and based its conclusions on that observation. GPT‑6 Astra noticed that the plate was labeled with the wrong antibiotic and correctly rejected it as a reliable control.",
+        "th": "At the most basic level, this improvement was noticeable through GPT‑6 Astra’s ability to pick up on finer detail from images taken during experiments and therefore draw more accurate conclusions as shown in this example. This task asked agents to draw conclusions from a DNA cloning experiment, where controls are essential. GPT‑5.6 Sol saw no colonies on the negative control plate and based its conclusions on that observation. GPT‑6 Astra noticed that the plate was labeled with the wrong antibiotic and correctly rejected it as a reliable control."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn.openai.com/mdx-assets/16da4f0a-d37c-4056-a78c-4e1db6f08a14/plate-and-rim-mark.9c6764fa.png?w=3840&q=90&fm=webp",
+      "alt": "A gloved hand holds the plate. The handwritten rim label is circled."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Original photograph",
+        "th": "Original photograph"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/17RD6AxS99qL9qHk9OW2T0/8379bb6fb920c8aff89f9e86d9d1c771/biobasicsbench-rim-label-inline-centered.svg?w=3840&q=90",
+      "alt": "Enlarged rim label reading LB Kan50."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The label on the rim",
+        "th": "The label on the rim"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The original benchmark photograph, with the rim label circled and enlarged. “LB Kan50” identifies kanamycin, a different antibiotic from the ampicillin used in the experiment.",
+        "th": "The original benchmark photograph, with the rim label circled and enlarged. “LB Kan50” identifies kanamycin, a different antibiotic from the ampicillin used in the experiment."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Keeping experimental context in mind",
+        "th": "Keeping experimental context in mind"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Scientists must be able to hold tacit biological knowledge and experimental context in mind whilst analysing data in order to correctly interpret what it shows. Astra demonstrated an improved ability to maintain this context and apply it throughout its analysis.",
+        "th": "Scientists must be able to hold tacit biological knowledge and experimental context in mind whilst analysing data in order to correctly interpret what it shows. Astra demonstrated an improved ability to maintain this context and apply it throughout its analysis."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One task showed cells coming into and out of focus in a series of microscope images. While GPT‑5.6 Sol looked for a biological explanation for the cells’ apparent disappearance, GPT‑6 Astra correctly recognized a z-stack: a series of images taken at different depths.",
+        "th": "One task showed cells coming into and out of focus in a series of microscope images. While GPT‑5.6 Sol looked for a biological explanation for the cells’ apparent disappearance, GPT‑6 Astra correctly recognized a z-stack: a series of images taken at different depths."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn.openai.com/mdx-assets/16da4f0a-d37c-4056-a78c-4e1db6f08a14/depth-0s.f7bcd8a5.png?w=3840&q=90&fm=webp",
+      "alt": "Frame at 0 seconds with the same cell location boxed."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "0 s",
+        "th": "0 s"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn.openai.com/mdx-assets/16da4f0a-d37c-4056-a78c-4e1db6f08a14/depth-3s.642c1b13.png?w=3840&q=90&fm=webp",
+      "alt": "Frame at 3 seconds with the same cell location boxed."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3 s",
+        "th": "3 s"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn.openai.com/mdx-assets/16da4f0a-d37c-4056-a78c-4e1db6f08a14/depth-6s.579b27aa.png?w=3840&q=90&fm=webp",
+      "alt": "Frame at 6 seconds with the same cell location boxed."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "6 s",
+        "th": "6 s"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn.openai.com/mdx-assets/16da4f0a-d37c-4056-a78c-4e1db6f08a14/depth-9s.332948ac.png?w=3840&q=90&fm=webp",
+      "alt": "Frame at 9 seconds with the same cell location boxed."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "9 s",
+        "th": "9 s"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn.openai.com/mdx-assets/16da4f0a-d37c-4056-a78c-4e1db6f08a14/depth-12s.18f51074.png?w=3840&q=90&fm=webp",
+      "alt": "Frame at 12 seconds with the same cell location boxed."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "12 s",
+        "th": "12 s"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn.openai.com/mdx-assets/16da4f0a-d37c-4056-a78c-4e1db6f08a14/depth-15s.15017a8a.png?w=3840&q=90&fm=webp",
+      "alt": "Frame at 15 seconds with the same cell location boxed."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "15 s",
+        "th": "15 s"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Six frames from the original recording. Dashed boxes mark the same location as the microscope scans through depth. Times refer to playback position in the supplied video.",
+        "th": "Six frames from the original recording. Dashed boxes mark the same location as the microscope scans through depth. Times refer to playback position in the supplied video."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Where models still fall short",
+        "th": "Where models still fall short"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Higher benchmark scores do not yet mean models can make reliable judgments in the lab. These Astra examples show how assumptions, expected answers and supplied labels can override the evidence, and how a correct intermediate observation can fail to guide the final decision.",
+        "th": "Higher benchmark scores do not yet mean models can make reliable judgments in the lab. These Astra examples show how assumptions, expected answers and supplied labels can override the evidence, and how a correct intermediate observation can fail to guide the final decision."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Letting an assumption override the controls",
+        "th": "Letting an assumption override the controls"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Astra lets a familiar assumption override the interpretation supported by the experimental controls. It can distinguish the two groups of colony bands, but assumes that a larger PCR product would identify successful cloning. On that condition it proposes lanes 4, 6, 7 and 8; the reference’s control comparison instead selects lanes 5, 9 and 10.",
+        "th": "Astra lets a familiar assumption override the interpretation supported by the experimental controls. It can distinguish the two groups of colony bands, but assumes that a larger PCR product would identify successful cloning. On that condition it proposes lanes 4, 6, 7 and 8; the reference’s control comparison instead selects lanes 5, 9 and 10."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn.openai.com/mdx-assets/16da4f0a-d37c-4056-a78c-4e1db6f08a14/pcr-lanes.9b38de80.png?w=3840&q=90&fm=webp",
+      "alt": "Annotated colony PCR gel. Pink lane numbers 4, 6, 7 and 8 match the old-plasmid band. Teal lane numbers 5, 9 and 10 match the new-product band."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The reference selects colonies 5, 9 and 10; Astra proposes 4, 6, 7 and 8.",
+        "th": "The reference selects colonies 5, 9 and 10; Astra proposes 4, 6, 7 and 8."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "1: marker · 2: cloning mixture · 3: original plasmid · 4–10: colony samples",
+        "th": "1: marker · 2: cloning mixture · 3: original plasmid · 4–10: colony samples"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Lane 3 contains only the original plasmid PCR. Its band provides the old-plasmid reference position.",
+        "th": "Lane 3 contains only the original plasmid PCR. Its band provides the old-plasmid reference position."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Lane 3 contains only the original plasmid PCR. Its band provides the old-plasmid reference position.",
+        "th": "Lane 3 contains only the original plasmid PCR. Its band provides the old-plasmid reference position."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "In the reference interpretation, lane 2 contains both patterns: incomplete assembly leaves old template/backbone alongside the new product.",
+        "th": "In the reference interpretation, lane 2 contains both patterns: incomplete assembly leaves old template/backbone alongside the new product."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In the reference interpretation, lane 2 contains both patterns: incomplete assembly leaves old template/backbone alongside the new product.",
+        "th": "In the reference interpretation, lane 2 contains both patterns: incomplete assembly leaves old template/backbone alongside the new product."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The resulting colonies can carry either old or new plasmid. Compare their bands with these reference patterns.",
+        "th": "The resulting colonies can carry either old or new plasmid. Compare their bands with these reference patterns."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The resulting colonies can carry either old or new plasmid. Compare their bands with these reference patterns.",
+        "th": "The resulting colonies can carry either old or new plasmid. Compare their bands with these reference patterns."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reference selection: 5, 9 and 10",
+        "th": "Reference selection: 5, 9 and 10"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Astra’s selection: 4, 6, 7 and 8. Astra nominates this group suggesting the larger PCR product represents the intended construct.",
+        "th": "Astra’s selection: 4, 6, 7 and 8. Astra nominates this group suggesting the larger PCR product represents the intended construct."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The visual grouping is correct but the experimental identities attached to those groups are reversed relative to the reference. Astra therefore selects the wrong colonies from the colony PCR results which would result in the down-stream purification of the incorrect plasmid.",
+        "th": "The visual grouping is correct but the experimental identities attached to those groups are reversed relative to the reference. Astra therefore selects the wrong colonies from the colony PCR results which would result in the down-stream purification of the incorrect plasmid."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Discounting data that contradict its preferred interpretation",
+        "th": "Discounting data that contradict its preferred interpretation"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Astra discounts observations that contradict its preferred interpretation. It concludes that vacuoles, compartments inside cells, are generally darker than the surrounding cell, even though some appear lighter in the same image. Both appearances matter: changing the microscope’s focus can reverse the contrast, so the darker examples do not establish a general rule.",
+        "th": "Astra discounts observations that contradict its preferred interpretation. It concludes that vacuoles, compartments inside cells, are generally darker than the surrounding cell, even though some appear lighter in the same image. Both appearances matter: changing the microscope’s focus can reverse the contrast, so the darker examples do not establish a general rule."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2aW0ho7APO5LnXzbTPP7fo/0a1404f9559b7a61b31578322efd1337/biobasicsbench-cell-contrast-darker.svg?w=3840&q=90",
+      "alt": "Microscope image of cells showing the darker appearance in the contrast comparison."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Darker appearance",
+        "th": "Darker appearance"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3MC7gCtOqgIrJkNwWJFx5c/23494791f1915a2cbfc18b24f9e3ea05/biobasicsbench-cell-contrast-lighter.svg?w=3840&q=90",
+      "alt": "Microscope image of cells showing the lighter appearance in the contrast comparison."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Lighter appearance",
+        "th": "Lighter appearance"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Astra’s darker-vacuole generalisation omits the lighter vacuoles visible in the same field.",
+        "th": "Astra’s darker-vacuole generalisation omits the lighter vacuoles visible in the same field."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Some cells have an opposite contrast. Both appearances occur because different focal depths can reverse the contrast.",
+        "th": "Some cells have an opposite contrast. Both appearances occur because different focal depths can reverse the contrast."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Astra inspects several regions and even comments that contrast varies with focus. It then gives greater weight to the cells it calls better focused and retains only their darker-vacuole description in the final answer. The contradictory lighter regions have been inspected but are not considered in the conclusion.",
+        "th": "Astra inspects several regions and even comments that contrast varies with focus. It then gives greater weight to the cells it calls better focused and retains only their darker-vacuole description in the final answer. The contradictory lighter regions have been inspected but are not considered in the conclusion."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Miscounting colonies in a routine laboratory measurement",
+        "th": "Miscounting colonies in a routine laboratory measurement"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Astra’s counting marks do not reliably correspond to individual colonies: it fails to resolve close neighbours, misses visible colonies and marks empty agar. The net result on this plate is an overcount of approximately 12% relative to the benchmark reference.",
+        "th": "Astra’s counting marks do not reliably correspond to individual colonies: it fails to resolve close neighbours, misses visible colonies and marks empty agar. The net result on this plate is an overcount of approximately 12% relative to the benchmark reference."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn.openai.com/mdx-assets/16da4f0a-d37c-4056-a78c-4e1db6f08a14/counting-neighbors-original.d9e76de5.png?w=3840&q=90&fm=webp",
+      "alt": "Closely spaced colonies in the original crop."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Original image",
+        "th": "Original image"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn.openai.com/mdx-assets/16da4f0a-d37c-4056-a78c-4e1db6f08a14/counting-neighbors-marked.25f5526f.png?w=3840&q=90&fm=webp",
+      "alt": "Closely spaced colonies with one mark between neighbours."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Astra’s counting marks",
+        "th": "Astra’s counting marks"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn.openai.com/mdx-assets/16da4f0a-d37c-4056-a78c-4e1db6f08a14/counting-unmarked-original.3111ff58.png?w=3840&q=90&fm=webp",
+      "alt": "Two visible colonies in the original crop."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Original image",
+        "th": "Original image"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn.openai.com/mdx-assets/16da4f0a-d37c-4056-a78c-4e1db6f08a14/counting-unmarked-marked.518abaf4.png?w=3840&q=90&fm=webp",
+      "alt": "Two visible colonies without a counting mark."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Astra’s counting marks",
+        "th": "Astra’s counting marks"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn.openai.com/mdx-assets/16da4f0a-d37c-4056-a78c-4e1db6f08a14/counting-empty-agar-original.98da744f.png?w=3840&q=90&fm=webp",
+      "alt": "Empty agar in the original crop."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Original image",
+        "th": "Original image"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn.openai.com/mdx-assets/16da4f0a-d37c-4056-a78c-4e1db6f08a14/counting-empty-agar-marked.6b30ead7.png?w=3840&q=90&fm=webp",
+      "alt": "Empty agar with an incorrect counting mark."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Astra’s counting marks",
+        "th": "Astra’s counting marks"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A: one counting mark between neighbouring colonies. B: two visible colonies left unmarked. C: empty agar counted as a colony. Red circles indicate Astra’s counting positions. Black arrows are editorial guides.",
+        "th": "A: one counting mark between neighbouring colonies. B: two visible colonies left unmarked. C: empty agar counted as a colony. Red circles indicate Astra’s counting positions. Black arrows are editorial guides."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An inaccurate colony count directly affects estimates of how efficiently DNA was introduced into cells. With the plated volume and dilution held fixed, an overcount inflates that estimate by the same proportion.",
+        "th": "An inaccurate colony count directly affects estimates of how efficiently DNA was introduced into cells. With the plated volume and dilution held fixed, an overcount inflates that estimate by the same proportion."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Building toward reliable lab assistance",
+        "th": "Building toward reliable lab assistance"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Accelerating biological research requires getting the everyday work right. BioBasicsBench makes that work a target for improvement: interpreting raw experimental data, checking controls and recognizing when a conclusion is not supported. Progress on these tasks could help scientists spend less time troubleshooting and more time deciding which experiments to pursue next. Tracking these capabilities will also help us understand their implications for biosafety and biosecurity.",
+        "th": "Accelerating biological research requires getting the everyday work right. BioBasicsBench makes that work a target for improvement: interpreting raw experimental data, checking controls and recognizing when a conclusion is not supported. Progress on these tasks could help scientists spend less time troubleshooting and more time deciding which experiments to pursue next. Tracking these capabilities will also help us understand their implications for biosafety and biosecurity."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Life Sciences",
+        "th": "Life Sciences"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6xmxSENf49pAUFzVokN3KG/3206934563d5b072f5a75139d6b26497/a-thousand-fewer-paths-to-root-cover.png?w=3840&q=90&fm=webp",
+      "alt": "A thousand fewer paths to root — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SecurityNov 4, 2026",
+        "th": "SecurityNov 4, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/57kuzOPUZjrDUJwHE8nub0/30011dcc7969dfca81d5ac9e06aa31e5/accelerating-engineering-physical-world-card.png?w=3840&q=90&fm=webp",
+      "alt": "Accelerating engineering for the physical world — card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchNov 3, 2026",
+        "th": "ResearchNov 3, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7qpi2dSmegt9iF29oioze0/4446550c373728d28b054322caf946ae/lifeval-cover-crayon.png?w=3840&q=90&fm=webp",
+      "alt": "LifeVal — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchNov 2, 2026",
+        "th": "การวิจัย 2 พ.ย. 2569"
+      }
+    }
+  ]
+}

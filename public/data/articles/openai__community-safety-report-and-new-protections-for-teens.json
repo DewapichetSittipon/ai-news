@@ -248,6 +248,18 @@
     },
     {
       "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/XFHiXwklxhUiqEYuo22MD/0767c09bbe4c850f05339215f444f097/introducing-control-room-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing Control Room — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SafetyNov 9, 2026",
+        "th": "SafetyNov 9, 2026"
+      }
+    },
+    {
+      "type": "img",
       "src": "https://images.ctfassets.net/kftzwdyauwt9/1AiFc9sQFyo6YguQtfjHHN/3ac0a37435e1dfd2b532eaefe26b18bb/gpt-6-cyber-cover.png?w=3840&q=90&fm=webp",
       "alt": "GPT-6 Cyber — Cover"
     },
@@ -268,18 +280,6 @@
       "text": {
         "en": "SafetyOct 29, 2026",
         "th": "SafetyOct 29, 2026"
-      }
-    },
-    {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/43ZavE2amLHMmbxH8EL8VM/1464d0f68c0f3c45e9d255992aab32b1/how-we-detect-frontier-model-misalignment-cover.png?w=3840&q=90&fm=webp",
-      "alt": "How we detect frontier model misalignment — Cover"
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "SecurityOct 29, 2026",
-        "th": "SecurityOct 29, 2026"
       }
     }
   ]

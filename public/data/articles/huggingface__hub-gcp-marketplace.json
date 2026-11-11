@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+2",
-        "th": "+2"
+        "en": "+3",
+        "th": "+3"
       }
     },
     {
@@ -424,6 +424,11 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/4cd3e9ca1f8a0f21448954f869311d37.svg",
+      "alt": ""
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -468,6 +473,11 @@
     {
       "type": "img",
       "src": "/avatars/8d0bf92e0cbecbea990c1f119a1ad22c.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/ud6uDZIEA3g-ZBoij_AUf.png",
       "alt": ""
     }
   ]

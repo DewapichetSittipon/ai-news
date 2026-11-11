@@ -1,0 +1,331 @@
+{
+  "id": "openai__cogent-security",
+  "slug": "cogent-security",
+  "source": "openai",
+  "url": "https://openai.com/index/cogent-security",
+  "category": "Startup",
+  "date": "2026-11-10T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Cogent and OpenAI build cyber defense factories for enterprises",
+    "th": "Cogent and OpenAI build cyber defense factories for enterprises"
+  },
+  "summary": {
+    "en": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+    "th": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 10, 2026",
+        "th": "November 10, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+        "th": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1b77wWqxMlNBg59VRDTuuQ/46601ae75270e4d037359127eb09a76c/cogent-security-cover-sienna.png?w=3840&q=90&fm=webp",
+      "alt": "White Cogent logo over a dark brushed-metal surface with a warm sienna reflection."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "75%",
+        "th": "75%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Lower mean time to remediate vulnerabilities",
+        "th": "Lower mean time to remediate vulnerabilities"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "5x",
+        "th": "5x"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More vulnerabilities triaged",
+        "th": "More vulnerabilities triaged"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Giving agents context and permission to act",
+        "th": "Giving agents context and permission to act"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "From vulnerability disclosure to verified fixes",
+        "th": "From vulnerability disclosure to verified fixes"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why Cogent builds with OpenAI models and Codex",
+        "th": "Why Cogent builds with OpenAI models and Codex"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Expanding autonomous cyber defense",
+        "th": "Expanding autonomous cyber defense"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Giving agents context and permission to act",
+        "th": "Giving agents context and permission to act"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "From vulnerability disclosure to verified fixes",
+        "th": "From vulnerability disclosure to verified fixes"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why Cogent builds with OpenAI models and Codex",
+        "th": "Why Cogent builds with OpenAI models and Codex"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Expanding autonomous cyber defense",
+        "th": "Expanding autonomous cyber defense"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As Cogent Security⁠(opens in a new window) sees enterprises facing more security risks than ever, it has found that the hardest part is not finding vulnerabilities, but fixing them. Remediation work is complex and spans multiple teams. It requires contextual understanding of a company’s environment: how could an attacker exploit a vulnerability, which business systems are at stake, and what changes can be made safely.",
+        "th": "As Cogent Security⁠(opens in a new window) sees enterprises facing more security risks than ever, it has found that the hardest part is not finding vulnerabilities, but fixing them. Remediation work is complex and spans multiple teams. It requires contextual understanding of a company’s environment: how could an attacker exploit a vulnerability, which business systems are at stake, and what changes can be made safely."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cogent builds Cyber Defense Factories for enterprises to autonomously find and eliminate those risks. The factories are designed to help defenders move at machine speed, in response to the acceleration in vulnerability discovery and exploitation.",
+        "th": "Cogent builds Cyber Defense Factories for enterprises to autonomously find and eliminate those risks. The factories are designed to help defenders move at machine speed, in response to the acceleration in vulnerability discovery and exploitation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The company’s AI agents combine GPT‑6.1 Sol and GPT‑5.6 with its enterprise context and controls to handle investigation through verified remediation. The agents assess exposures, execute permitted changes, and confirm the risk has been eliminated. Cogent also conducts internal research with Cyber and Daybreak, exploring attack paths and defensive capabilities.",
+        "th": "The company’s AI agents combine GPT‑6.1 Sol and GPT‑5.6 with its enterprise context and controls to handle investigation through verified remediation. The agents assess exposures, execute permitted changes, and confirm the risk has been eliminated. Cogent also conducts internal research with Cyber and Daybreak, exploring attack paths and defensive capabilities."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/78WRVzMMXnkXRcl48nSNt/b37e2ab0da4eadbeca2e6a5ae384d248/cogent-security-diagram-light.png?w=3840&q=90&fm=webp",
+      "alt": "Cogent Cyber Defense Factory connects enterprise cloud, code, endpoints, identity, and scanner data to agents that investigate, prioritize, remediate, and verify risk, powered by OpenAI models, context, and customer controls."
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Giving agents context and permission to act",
+        "th": "Giving agents context and permission to act"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For each customer, Cogent’s Context Engine maintains an enterprise knowledge graph of assets, vulnerabilities, identities, ownership, and dependencies. Specialized background agents continuously reconcile information across security tools and systems, giving investigation and remediation agents a shared understanding of the environment.",
+        "th": "For each customer, Cogent’s Context Engine maintains an enterprise knowledge graph of assets, vulnerabilities, identities, ownership, and dependencies. Specialized background agents continuously reconcile information across security tools and systems, giving investigation and remediation agents a shared understanding of the environment."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6 Astra handles upfront planning and complex reasoning for that work. This enables what Geng Sng, Co-founder and CTO of Cogent, describes as a “memory harness for the enterprise.” He says, “We don’t have to relearn what the world looks like every time a new task happens.” Reusing context reduces latency, inference costs, and inconsistent results.",
+        "th": "GPT‑6 Astra handles upfront planning and complex reasoning for that work. This enables what Geng Sng, Co-founder and CTO of Cogent, describes as a “memory harness for the enterprise.” He says, “We don’t have to relearn what the world looks like every time a new task happens.” Reusing context reduces latency, inference costs, and inconsistent results."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cogent’s Agent Policies define each enterprise’s permitted changes and approval requirements, and its policy-enforcement engine, TRACE, checks tool calls against the policies before execution. The checks are deterministic and require no separate model inference.",
+        "th": "Cogent’s Agent Policies define each enterprise’s permitted changes and approval requirements, and its policy-enforcement engine, TRACE, checks tool calls against the policies before execution. The checks are deterministic and require no separate model inference."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An Agent Gateway independently checks authorization, and higher-risk work can run in isolated sandboxes. Customers can delegate investigation, require approval for changes, or permit bounded autonomous remediation.",
+        "th": "An Agent Gateway independently checks authorization, and higher-risk work can run in isolated sandboxes. Customers can delegate investigation, require approval for changes, or permit bounded autonomous remediation."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "From vulnerability disclosure to verified fixes",
+        "th": "From vulnerability disclosure to verified fixes"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When critical security flaws known as PHP2Shell were disclosed in PHP, a programming language used to run websites, customers turned to the Cyber Defense Factories that Cogent had already deployed in their environments.",
+        "th": "When critical security flaws known as PHP2Shell were disclosed in PHP, a programming language used to run websites, customers turned to the Cyber Defense Factories that Cogent had already deployed in their environments."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6.1 Sol and GPT‑6 Astra provided the deep reasoning for investigation and remediation planning. Using Cogent’s context layer, agents identified affected systems, assessed exposure, and developed plans that accounted for application dependencies and operational constraints. Then they orchestrated fixes using customer-defined approval and execution workflows and verified the resolution.",
+        "th": "GPT‑6.1 Sol and GPT‑6 Astra provided the deep reasoning for investigation and remediation planning. Using Cogent’s context layer, agents identified affected systems, assessed exposure, and developed plans that accounted for application dependencies and operational constraints. Then they orchestrated fixes using customer-defined approval and execution workflows and verified the resolution."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cogent reports that customers are using its Cyber Defense Factories to resolve vulnerabilities faster and expand investigation capacity. With Cogent, a Fortune 1000 automotive customer reduced its mean time to remediate critical vulnerabilities by 75%, and a Fortune 500 IT services customer achieved 5× vulnerability-triage throughput.",
+        "th": "Cogent reports that customers are using its Cyber Defense Factories to resolve vulnerabilities faster and expand investigation capacity. With Cogent, a Fortune 1000 automotive customer reduced its mean time to remediate critical vulnerabilities by 75%, and a Fortune 500 IT services customer achieved 5× vulnerability-triage throughput."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Trading platform MarketAxess says Cogent helps it decide which exposures to fix first: “Cogent sees our environment the way an attacker would. It traces the route from the internet to a vulnerable system and checks controls on the way. Our remediation work now focuses on the greatest risks and the paths an adversary could use to break in,” says Vijay Bala, Global CISO at MarketAxess.",
+        "th": "Trading platform MarketAxess says Cogent helps it decide which exposures to fix first: “Cogent sees our environment the way an attacker would. It traces the route from the internet to a vulnerable system and checks controls on the way. Our remediation work now focuses on the greatest risks and the paths an adversary could use to break in,” says Vijay Bala, Global CISO at MarketAxess."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Why Cogent builds with OpenAI models and Codex",
+        "th": "Why Cogent builds with OpenAI models and Codex"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cogent continuously evaluates closed-source and open-source alternatives and reports stronger reasoning on long-running security tasks, higher fidelity, fewer hallucinations on technical codebases, and more reliable execution with OpenAI models. The models can chain tool calls sequentially and in parallel while retaining context across remediation workflows.",
+        "th": "Cogent continuously evaluates closed-source and open-source alternatives and reports stronger reasoning on long-running security tasks, higher fidelity, fewer hallucinations on technical codebases, and more reliable execution with OpenAI models. The models can chain tool calls sequentially and in parallel while retaining context across remediation workflows."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cogent prioritizes reasoning quality for complex investigations and cost for more straightforward work. It uses GPT‑6.1 Sol for general execution and GPT‑5.6 for routine vulnerability-management tasks where advanced reasoning is less critical.",
+        "th": "Cogent prioritizes reasoning quality for complex investigations and cost for more straightforward work. It uses GPT‑6.1 Sol for general execution and GPT‑5.6 for routine vulnerability-management tasks where advanced reasoning is less critical."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using OpenAI models has also reduced the supporting software Cogent needs to build for remediation and patching. “A lot of the work that we had to do at the harness level is no longer required,” Geng says. He also shared that OpenAI APIs have “streamlined request routing and agent orchestration, significantly reducing internal engineering overhead and accelerating our time-to-market for complex security workflows.”",
+        "th": "Using OpenAI models has also reduced the supporting software Cogent needs to build for remediation and patching. “A lot of the work that we had to do at the harness level is no longer required,” Geng says. He also shared that OpenAI APIs have “streamlined request routing and agent orchestration, significantly reducing internal engineering overhead and accelerating our time-to-market for complex security workflows.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Most of Cogent’s engineers also choose Codex for development. Geng says they’re more productive pairing Codex with OpenAI models vs. using the same models in an open-source coding environment. “Codex just comes with tools that we don’t have to build ourselves,” says Geng.",
+        "th": "Most of Cogent’s engineers also choose Codex for development. Geng says they’re more productive pairing Codex with OpenAI models vs. using the same models in an open-source coding environment. “Codex just comes with tools that we don’t have to build ourselves,” says Geng."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Expanding autonomous cyber defense",
+        "th": "Expanding autonomous cyber defense"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Through Trusted Access for Cyber and Daybreak, Cogent receives technical support for its internal red-teaming and attack-path research. Daybreak Red, an access tier within Daybreak, provides the team with specialized OpenAI models for authorized offensive and vulnerability research. “Good defense requires good offense,” Geng says.",
+        "th": "Through Trusted Access for Cyber and Daybreak, Cogent receives technical support for its internal red-teaming and attack-path research. Daybreak Red, an access tier within Daybreak, provides the team with specialized OpenAI models for authorized offensive and vulnerability research. “Good defense requires good offense,” Geng says."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Cogent plans to expand its capabilities as the key partner for enterprises to build their own Cyber Defense Factories. Its roadmap includes increasingly autonomous remediation, broadening the range and complexity of fixes agents can execute, from straightforward configuration changes to multi-step workflows spanning different enterprise systems.",
+        "th": "Cogent plans to expand its capabilities as the key partner for enterprises to build their own Cyber Defense Factories. Its roadmap includes increasingly autonomous remediation, broadening the range and complexity of fixes agents can execute, from straightforward configuration changes to multi-step workflows spanning different enterprise systems."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The company is also developing autonomous discovery and validation. Its goal is a closed-loop system that finds and eliminates risk while continuously learning from every vulnerability to improve future investigations and fixes.",
+        "th": "The company is also developing autonomous discovery and validation. Its goal is a closed-loop system that finds and eliminates risk while continuously learning from every vulnerability to improve future investigations and fixes."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "OpenAI <3 startups",
+        "th": "OpenAI <3 startups"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1YFM9mFKP6ZzABichElFUi/9a6569f02f982f80d80941019f522a99/coderabbit-art-card-1080x1080.png?w=3840&q=90&fm=webp",
+      "alt": "CodeRabbit — Indigo texture art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupNov 9, 2026",
+        "th": "StartupNov 9, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/36lbF0ijotVJ7zCUyEf21D/842824cd2382520c374de4bad52759fb/square.png?w=3840&q=90&fm=webp",
+      "alt": "DevRev — Layered paper art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupNov 4, 2026",
+        "th": "StartupNov 4, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4ULILLHBZ90nYlxaqovNjs/69aa61a7c6db0d1c6dbe31deafbddcc2/qodo-codex-frosted-acrylic-art-card-1080x1080.png?w=3840&q=90&fm=webp",
+      "alt": "Qodo — Frosted acrylic art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupNov 2, 2026",
+        "th": "เริ่มต้น 2 พ.ย. 2569"
+      }
+    }
+  ]
+}

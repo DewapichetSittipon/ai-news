@@ -1,0 +1,410 @@
+{
+  "id": "openai__jiostar-vijay-seshadri",
+  "slug": "jiostar-vijay-seshadri",
+  "source": "openai",
+  "url": "https://openai.com/index/jiostar-vijay-seshadri",
+  "category": "News",
+  "date": "2026-11-11T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "JioStar’s chief architect on AI discovery at 500M-user scale",
+    "th": "JioStar’s chief architect on AI discovery at 500M-user scale"
+  },
+  "summary": {
+    "en": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+    "th": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 11, 2026",
+        "th": "November 11, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A conversation with Vijay Seshadri, Chief Architect at JioStar.",
+        "th": "A conversation with Vijay Seshadri, Chief Architect at JioStar."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6yXeyZ5Lph5wYnDiSxL1Rf/fe6264331b54720f59b3c7e90a05b2b8/EF_Ep20_16.9.png?w=3840&q=90&fm=webp",
+      "alt": "Executive Function, Episode 20, on a green textured background."
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What convinced you that AI would fundamentally change how people discover content?",
+        "th": "What convinced you that AI would fundamentally change how people discover content?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How did you turn that idea into a product in time for a major cricket tournament?",
+        "th": "How did you turn that idea into a product in time for a major cricket tournament?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "At JioStar’s scale, what tradeoffs shaped the technical design?",
+        "th": "At JioStar’s scale, what tradeoffs shaped the technical design?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What does an effective evaluation system look like in production?",
+        "th": "What does an effective evaluation system look like in production?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How did a small team build and launch the experience in about eight weeks?",
+        "th": "How did a small team build and launch the experience in about eight weeks?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Looking back, what would you do differently?",
+        "th": "Looking back, what would you do differently?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What should executives keep in mind as they move from AI experiments to production systems?",
+        "th": "What should executives keep in mind as they move from AI experiments to production systems?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What convinced you that AI would fundamentally change how people discover content?",
+        "th": "What convinced you that AI would fundamentally change how people discover content?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How did you turn that idea into a product in time for a major cricket tournament?",
+        "th": "How did you turn that idea into a product in time for a major cricket tournament?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "At JioStar’s scale, what tradeoffs shaped the technical design?",
+        "th": "At JioStar’s scale, what tradeoffs shaped the technical design?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What does an effective evaluation system look like in production?",
+        "th": "What does an effective evaluation system look like in production?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How did a small team build and launch the experience in about eight weeks?",
+        "th": "How did a small team build and launch the experience in about eight weeks?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Looking back, what would you do differently?",
+        "th": "Looking back, what would you do differently?"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What should executives keep in mind as they move from AI experiments to production systems?",
+        "th": "What should executives keep in mind as they move from AI experiments to production systems?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our Executive Function series features perspectives from leaders driving transformation through AI.",
+        "th": "Our Executive Function series features perspectives from leaders driving transformation through AI."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "JioStar operates entertainment and live-sports platforms used by more than 500 million consumers and has supported as many as 72.5 million concurrent live-sports viewers. At that scale, AI has to be fast, reliable, and ready for production.",
+        "th": "JioStar operates entertainment and live-sports platforms used by more than 500 million consumers and has supported as many as 72.5 million concurrent live-sports viewers. At that scale, AI has to be fast, reliable, and ready for production."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using the OpenAI API, JioStar built a conversational video and cricket-stat discovery assistant into JioHotstar. Viewers can speak naturally to find movies and shows, historical highlights, live-match moments, or cricket statistics, with results returned through a visual, conversational experience.",
+        "th": "Using the OpenAI API, JioStar built a conversational video and cricket-stat discovery assistant into JioHotstar. Viewers can speak naturally to find movies and shows, historical highlights, live-match moments, or cricket statistics, with results returned through a visual, conversational experience."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "At OpenAI’s Executive Summit in Singapore, Sidharth Sharma, OpenAI’s Head of Go-to-Market for ASEAN, spoke with Vijay Seshadri—Chief Architect, JioStar, about building the experience for more than 15 languages in about eight weeks, and the lessons for leaders taking AI from demo to production.",
+        "th": "At OpenAI’s Executive Summit in Singapore, Sidharth Sharma, OpenAI’s Head of Go-to-Market for ASEAN, spoke with Vijay Seshadri—Chief Architect, JioStar, about building the experience for more than 15 languages in about eight weeks, and the lessons for leaders taking AI from demo to production."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What convinced you that AI would fundamentally change how people discover content?",
+        "th": "What convinced you that AI would fundamentally change how people discover content?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Content discovery has evolved very little in the past 25 years. Recommendations were the last major shift. Much of what followed has been an iteration of the same idea.",
+        "th": "Content discovery has evolved very little in the past 25 years. Recommendations were the last major shift. Much of what followed has been an iteration of the same idea."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "But choosing what to watch is deeply personal. A person might say, “I’m feeling sad. Show me something that will cheer me up.” Even that simple request contains a lot of nuance. What kind of sad? What usually cheers that person up? Do they want comedy, comfort viewing or something completely distracting?",
+        "th": "But choosing what to watch is deeply personal. A person might say, “I’m feeling sad. Show me something that will cheer me up.” Even that simple request contains a lot of nuance. What kind of sad? What usually cheers that person up? Do they want comedy, comfort viewing or something completely distracting?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A traditional recommendation system may struggle to understand that moment. Conversation gives the viewer a way to explain it. We call this a voice-visual interface.",
+        "th": "A traditional recommendation system may struggle to understand that moment. Conversation gives the viewer a way to explain it. We call this a voice-visual interface."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How did you turn that idea into a product in time for a major cricket tournament?",
+        "th": "How did you turn that idea into a product in time for a major cricket tournament?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We began working through the concept in October and November, with a major cricket tournament coming in February. We had roughly two months and two very different audiences: entertainment viewers and cricket fans.",
+        "th": "We began working through the concept in October and November, with a major cricket tournament coming in February. We had roughly two months and two very different audiences: entertainment viewers and cricket fans."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An entertainment viewer might say, “It’s Friday evening—surprise me,” or describe a movie without knowing its title. Sports viewers may want a more specific update, like fall of wickets, a series of sixes, or the match in which a player scored a certain number of runs. Cricket experts may want statistics about every ball.",
+        "th": "An entertainment viewer might say, “It’s Friday evening—surprise me,” or describe a movie without knowing its title. Sports viewers may want a more specific update, like fall of wickets, a series of sixes, or the match in which a player scored a certain number of runs. Cricket experts may want statistics about every ball."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These are very different discovery problems. We worked on bringing entertainment, sports moments and detailed cricket statistics into one experience, across multiple languages, in a very short period.",
+        "th": "These are very different discovery problems. We worked on bringing entertainment, sports moments and detailed cricket statistics into one experience, across multiple languages, in a very short period."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "At JioStar’s scale, what tradeoffs shaped the technical design?",
+        "th": "At JioStar’s scale, what tradeoffs shaped the technical design?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Very early, we framed the problem as a three-way tradeoff among accuracy, latency, and cost. Every engineering decision had to balance all three at once.",
+        "th": "Very early, we framed the problem as a three-way tradeoff among accuracy, latency, and cost. Every engineering decision had to balance all three at once."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Voice made that especially important. More than 60% of our users use voice rather than text: people prefer to say what they want to watch. The response still has to be relevant, fast, and economically viable at scale.",
+        "th": "Voice made that especially important. More than 60% of our users use voice rather than text: people prefer to say what they want to watch. The response still has to be relevant, fast, and economically viable at scale."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What does an effective evaluation system look like in production?",
+        "th": "What does an effective evaluation system look like in production?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "I think about it in two parts: an evaluation framework and a validation layer. Before production, the evaluation framework should prompt changes. In production, a feedback loop should turn customer behavior and failures into new eval cases.",
+        "th": "I think about it in two parts: an evaluation framework and a validation layer. Before production, the evaluation framework should prompt changes. In production, a feedback loop should turn customer behavior and failures into new eval cases."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That flywheel can become self-amplified, but it is extremely difficult to get right.",
+        "th": "That flywheel can become self-amplified, but it is extremely difficult to get right."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Domain experts are essential. For sports-statistics evals, we worked with people such as sports-magazine editors who understood what serious fans might ask. You cannot begin with a prompt alone; you need to seed the system with deep human expertise.",
+        "th": "Domain experts are essential. For sports-statistics evals, we worked with people such as sports-magazine editors who understood what serious fans might ask. You cannot begin with a prompt alone; you need to seed the system with deep human expertise."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How did a small team build and launch the experience in about eight weeks?",
+        "th": "How did a small team build and launch the experience in about eight weeks?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One thing we got right was the team. We started with a small team of data scientists and engineers around a clear problem statement. OpenAI’s forward-deployed engineers worked alongside us to further identify the few things we absolutely had to get right.",
+        "th": "One thing we got right was the team. We started with a small team of data scientists and engineers around a clear problem statement. OpenAI’s forward-deployed engineers worked alongside us to further identify the few things we absolutely had to get right."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The first was scope. A voice or text interface lets users ask almost anything, so we began by deciding what the system should not answer. Guardrails came first.",
+        "th": "The first was scope. A voice or text interface lets users ask almost anything, so we began by deciding what the system should not answer. Guardrails came first."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For evals, we began with a seed dataset and used models to expand it with more variation. We created what you might now call a maker-checker pattern: one model helped determine how to answer a question, while another acted as a validator—an LLM as judge—with a competing objective.",
+        "th": "For evals, we began with a seed dataset and used models to expand it with more variation. We created what you might now call a maker-checker pattern: one model helped determine how to answer a question, while another acted as a validator—an LLM as judge—with a competing objective."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That raised another question: who tests the judge? Designing the validator was itself an evaluation problem. Codex helped the team accelerate work such as generating eval cases and updating the system, but faster building did not remove the need for judgment and validation.",
+        "th": "That raised another question: who tests the judge? Designing the validator was itself an evaluation problem. Codex helped the team accelerate work such as generating eval cases and updating the system, but faster building did not remove the need for judgment and validation."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Looking back, what would you do differently?",
+        "th": "Looking back, what would you do differently?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "I would invest earlier in production monitoring for model efficacy.",
+        "th": "I would invest earlier in production monitoring for model efficacy."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Traditional infrastructure measures such as P99 latency remain important, but they are not enough. You also need to monitor model efficacy in production.",
+        "th": "Traditional infrastructure measures such as P99 latency remain important, but they are not enough. You also need to monitor model efficacy in production."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What should executives keep in mind as they move from AI experiments to production systems?",
+        "th": "What should executives keep in mind as they move from AI experiments to production systems?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "First, there is a large gap between what technology can do and the reality inside an enterprise. If your company has not matched every frontier-model announcement, you are not alone.",
+        "th": "First, there is a large gap between what technology can do and the reality inside an enterprise. If your company has not matched every frontier-model announcement, you are not alone."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Second, keep focusing on outcomes rather than activity. It is easy to mistake visible motion for meaningful progress, particularly when companies emphasize input metrics. Lines of code generated, for example, do not tell you whether you created meaningful value.",
+        "th": "Second, keep focusing on outcomes rather than activity. It is easy to mistake visible motion for meaningful progress, particularly when companies emphasize input metrics. Lines of code generated, for example, do not tell you whether you created meaningful value."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Finally, most enterprises underestimate the human skill and agency required. This cannot be only a generic skilling program. Leaders need people who can apply these tools with judgment. Give a strong engineer a tool like Codex and the impact can multiply; without the judgment to validate production systems, the risk multiplies too.",
+        "th": "Finally, most enterprises underestimate the human skill and agency required. This cannot be only a generic skilling program. Leaders need people who can apply these tools with judgment. Give a strong engineer a tool like Codex and the impact can multiply; without the judgment to validate production systems, the risk multiplies too."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You have a rocket in your hands. Especially in production systems, you need validation and guardrails, and you need to give the keys to the right people.",
+        "th": "You have a rocket in your hands. Especially in production systems, you need validation and guardrails, and you need to give the keys to the right people."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Join the new era of work",
+        "th": "Join the new era of work"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/HIYdv6bQSaXtHQehqsoMn/0d0fddcbf9618f4d676236799dce3934/EF_Ep21_1.1.png?w=3840&q=90&fm=webp",
+      "alt": "Executive Function Episode 21 — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Nov 12, 2026",
+        "th": "Nov 12, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2xsjEAOhgideekNE2Xxxqk/fe4d5c8aecf7d6498d1e8026a5a56599/oai_GA_Stories_1.1.png?w=3840&q=90&fm=webp",
+      "alt": "ChatGPT for Veterans > Cover Image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanyNov 11, 2026",
+        "th": "CompanyNov 11, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2wwJf21F4rMJ6FffmYbEa5/0e9a21de969e280e77ae8ae66eaa03f6/helping-caregivers-use-ai-in-everyday-life-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Helping caregivers use AI in everyday life — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CompanyNov 10, 2026",
+        "th": "CompanyNov 10, 2026"
+      }
+    }
+  ]
+}

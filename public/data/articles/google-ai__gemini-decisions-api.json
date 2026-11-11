@@ -1,0 +1,405 @@
+{
+  "id": "google-ai__gemini-decisions-api",
+  "slug": "gemini-decisions-api",
+  "source": "google-ai",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+  "category": "Developer tools",
+  "date": "2026-11-11T18:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+    "th": "Gemini Decisions API: Fast, calibrated multimodal decisions"
+  },
+  "summary": {
+    "en": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+    "th": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions."
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "นวัตกรรมและเอไอ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Technology",
+        "th": "เทคโนโลยี"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Developer tools",
+        "th": "เครื่องมือสำหรับนักพัฒนา"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Nov 11, 2026",
+        "th": "Nov 11, 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Introducing the Gemini Decisions API, powered by our new Gemini Decision 1 model. Evaluate up to 1,000 yes/no, choice, and rubric-scoring questions in a fast, single pass across text, images, audio, video, and PDFs.",
+        "th": "Introducing the Gemini Decisions API, powered by our new Gemini Decision 1 model. Evaluate up to 1,000 yes/no, choice, and rubric-scoring questions in a fast, single pass across text, images, audio, video, and PDFs."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Min Choi",
+        "th": "Min Choi"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Product Manager, Google DeepMind",
+        "th": "ผู้จัดการผลิตภัณฑ์ Google DeepMind"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Felix Yu",
+        "th": "Felix Yu"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Principal Scientist, Google DeepMind",
+        "th": "Principal Scientist, Google DeepMind"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are introducing the Gemini Decisions API to help you make fast, probabilistic choices across text, images, audio, video, and PDFs. This tool computes confidence scores for multiple questions in a single pass, providing a cost-effective way to route queries, grade content, or check policy rules. You can start building today by accessing your API key in Google AI Studio and reviewing our documentation for Python, JavaScript, and REST guides.",
+        "th": "We are introducing the Gemini Decisions API to help you make fast, probabilistic choices across text, images, audio, video, and PDFs. This tool computes confidence scores for multiple questions in a single pass, providing a cost-effective way to route queries, grade content, or check policy rules. You can start building today by accessing your API key in Google AI Studio and reviewing our documentation for Python, JavaScript, and REST guides."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model (gemini-decision-1), available through the Gemini API in Google AI Studio.",
+        "th": "Today, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model (gemini-decision-1), available through the Gemini API in Google AI Studio."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Decisions API gives you purpose-built primitives for bounded choices like tool selection, policy checks, model routing, and context grading. You can pass one multimodal input across text, images, audio, video, and PDFs (up to 256K tokens) along with up to 1,000 independent questions. Rather than generating answer text token by token, Gemini Decision 1 scores your candidate options in a single forward pass, returning probabilities and confidence scores in 150-250 ms end-to-end latency at $0.10 per 1M input tokens with zero output tokens billed.",
+        "th": "The Decisions API gives you purpose-built primitives for bounded choices like tool selection, policy checks, model routing, and context grading. You can pass one multimodal input across text, images, audio, video, and PDFs (up to 256K tokens) along with up to 1,000 independent questions. Rather than generating answer text token by token, Gemini Decision 1 scores your candidate options in a single forward pass, returning probabilities and confidence scores in 150-250 ms end-to-end latency at $0.10 per 1M input tokens with zero output tokens billed."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/decisions-architecture_f0NFXU9.width-1200.format-webp.webp",
+      "alt": "Comparison of Gemini Decision and other APIs against various benchmarks"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Strong performance and calibration",
+        "th": "Strong performance and calibration"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On benchmarks spanning agent routing, reasoning, ranking, and multimodal understanding, Gemini Decision 1 leads across the suite, with the lowest calibration error.",
+        "th": "On benchmarks spanning agent routing, reasoning, ranking, and multimodal understanding, Gemini Decision 1 leads across the suite, with the lowest calibration error."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-decision__benchmarks__tab.width-1200.format-webp_3LrengT.webp",
+      "alt": "Comparison of the Decisions API and other APIs to benchmark"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Decision 1 scores options without token-by-token decoding, keeping median latency 50-100 ms of model compute (150-250 ms end-to-end), across multimodal inputs and contexts up to 16K tokens, remaining nearly flat from 1 to 100 questions per request. With zero output tokens billed, Gemini Decision 1 with the Decisions API is nearly 5x cheaper across the shared benchmark suite than Gemini 3.5 Flash-Lite with the Interactions API.",
+        "th": "Gemini Decision 1 scores options without token-by-token decoding, keeping median latency 50-100 ms of model compute (150-250 ms end-to-end), across multimodal inputs and contexts up to 16K tokens, remaining nearly flat from 1 to 100 questions per request. With zero output tokens billed, Gemini Decision 1 with the Decisions API is nearly 5x cheaper across the shared benchmark suite than Gemini 3.5 Flash-Lite with the Interactions API."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Native multimodal evaluation across three decision types in one pass",
+        "th": "Native multimodal evaluation across three decision types in one pass"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Built on Gemini’s native multimodal architecture, Gemini Decision 1 can process text, images, audio, video, and PDFs directly in a single forward pass. You can combine modalities in one shared input, such as pairing a call recording with account metadata or a scanned PDF claim with damage photos, and tune resolution on image and video inputs to control visual detail and token cost.",
+        "th": "Built on Gemini’s native multimodal architecture, Gemini Decision 1 can process text, images, audio, video, and PDFs directly in a single forward pass. You can combine modalities in one shared input, such as pairing a call recording with account metadata or a scanned PDF claim with damage photos, and tune resolution on image and video inputs to control visual detail and token cost."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can evaluate multiple questions against that shared input in a single request, mixing yes/no checks, multiple choice, and rubric scores. Every answer includes a confidence score (from 0 to 1) so your code can route ambiguous cases to a fallback or human reviewer:",
+        "th": "You can evaluate multiple questions against that shared input in a single request, mixing yes/no checks, multiple choice, and rubric scores. Every answer includes a confidence score (from 0 to 1) so your code can route ambiguous cases to a fallback or human reviewer:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "noul (Yes/No): Estimates the probability that a yes/no condition holds, with optional true and false description criteria.",
+        "th": "noul (Yes/No): Estimates the probability that a yes/no condition holds, with optional true and false description criteria."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "choice (Multiple Choice): Selects from 2 to 255 choices, returning the winner and normalized probabilities for every candidate.",
+        "th": "choice (Multiple Choice): Selects from 2 to 255 choices, returning the winner and normalized probabilities for every candidate."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "score (Ordered Rubric): Grades inputs across an ordered rubric (starting at 0), returning a continuous weighted score and per-level probabilities.",
+        "th": "score (Ordered Rubric): Grades inputs across an ordered rubric (starting at 0), returning a continuous weighted score and per-level probabilities."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The input field uses the same Content block format as the Interactions API. Here is how to check a photo of a breakroom counter, together with a text note, against all three question types in one request:",
+        "th": "The input field uses the same Content block format as the Interactions API. Here is how to check a photo of a breakroom counter, together with a text note, against all three question types in one request:"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/decisions-hero-hud_l8rnHOK.width-1200.format-webp.webp",
+      "alt": "Gemini detected a spill with a next_action wipe_with_cloth"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How teams are building with the Decisions API",
+        "th": "How teams are building with the Decisions API"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Teams across Google are already using the Decisions API as a low-latency control plane, shipping features simply by defining options rather than training custom classifiers or waiting on generative calls:",
+        "th": "Teams across Google are already using the Decisions API as a low-latency control plane, shipping features simply by defining options rather than training custom classifiers or waiting on generative calls:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Dynamic model routing in Gemini Notebook: Gemini Notebook uses the Decisions API as a real-time router to instantly direct incoming queries to the optimal model tier and thinking level for each request. The Decisions API classifies intent in milliseconds to serve everyday queries with up to 40% lower latency while reserving deep reasoning models for complex tasks.",
+        "th": "Dynamic model routing in Gemini Notebook: Gemini Notebook uses the Decisions API as a real-time router to instantly direct incoming queries to the optimal model tier and thinking level for each request. The Decisions API classifies intent in milliseconds to serve everyday queries with up to 40% lower latency while reserving deep reasoning models for complex tasks."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Rapid design iteration in Stitch: The new rapid canvas experiment in Stitch uses the Decisions API to generate playable wireframes of a product flow in seconds and to apply edits made by voice or tap almost instantly. When the flow feels right, one click hands the screens off to the full Stitch experience for deeper design polish.",
+        "th": "Rapid design iteration in Stitch: The new rapid canvas experiment in Stitch uses the Decisions API to generate playable wireframes of a product flow in seconds and to apply edits made by voice or tap almost instantly. When the flow feels right, one click hands the screens off to the full Stitch experience for deeper design polish."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Emoji selection in CC: CC from Google Labs uses the Decisions API to pick the right emoji reaction from a palette of more than 200 options in a fraction of a second, so reactions appear instantly without adding latency.",
+        "th": "Emoji selection in CC: CC from Google Labs uses the Decisions API to pick the right emoji reaction from a palette of more than 200 options in a fraction of a second, so reactions appear instantly without adding latency."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Safety layer for MCP tools in Search: Google Search uses the Decision API to detect adversarial behavior and content against adversarial evals with high efficacy within the latency envelope.",
+        "th": "Safety layer for MCP tools in Search: Google Search uses the Decision API to detect adversarial behavior and content against adversarial evals with high efficacy within the latency envelope."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Stitch Rapid uses the Decisions API to design an entire product flow in seconds (1x speed).",
+        "th": "Stitch Rapid uses the Decisions API to design an entire product flow in seconds (1x speed)."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Start building today",
+        "th": "Start building today"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini Decision 1 is priced at $0.10 per 1M input tokens and $0 for output tokens, with an API no-cost tier you can use in Google AI Studio for prototyping. Your shared input is billed once per request no matter how many questions you evaluate (each question adds only its own instruction and criteria tokens). There are no output-token charges, variable thinking-token bills, or separate audio transcription and OCR costs.",
+        "th": "Gemini Decision 1 is priced at $0.10 per 1M input tokens and $0 for output tokens, with an API no-cost tier you can use in Google AI Studio for prototyping. Your shared input is billed once per request no matter how many questions you evaluate (each question adds only its own instruction and criteria tokens). There are no output-token charges, variable thinking-token bills, or separate audio transcription and OCR costs."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can start building today by grabbing an API key in Google AI Studio, trying our Doorstep Parcels, Speed Sketch, and Find the Zoo Keeper demo apps, and following the Python, JavaScript, and REST guides in the Decisions API documentation.",
+        "th": "You can start building today by grabbing an API key in Google AI Studio, trying our Doorstep Parcels, Speed Sketch, and Find the Zoo Keeper demo apps, and following the Python, JavaScript, and REST guides in the Decisions API documentation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Ecosystem integrations are rolling out across OpenRouter, LangChain, Vercel, LiteLLM, Pydantic AI, Pipecat, LiveKit, and OpenCode alongside the google-genai SDKs, with support coming soon to Gemini in Google Cloud.",
+        "th": "Ecosystem integrations are rolling out across OpenRouter, LangChain, Vercel, LiteLLM, Pydantic AI, Pipecat, LiveKit, and OpenCode alongside the google-genai SDKs, with support coming soon to Gemini in Google Cloud."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get the latest news from Google in your inbox",
+        "th": "รับข่าวสารล่าสุดจาก Google ในกล่องจดหมายของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sign up for our newsletters with product updates, event information, special offers, and more.",
+        "th": "ลงทะเบียนรับจดหมายข่าวของเราพร้อมข้อมูลอัปเดตผลิตภัณฑ์ ข้อมูลกิจกรรม ข้อเสนอพิเศษ และอื่นๆ อีกมากมาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Done. Just one step more.",
+        "th": "เสร็จแล้ว. อีกเพียงก้าวเดียวเท่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check your inbox to confirm your subscription.",
+        "th": "ตรวจสอบกล่องจดหมายของคุณเพื่อยืนยันการสมัครของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also subscribe with a different email address.",
+        "th": "คุณสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your information will be used in accordance with Google's privacy policy. You may opt out at any time.",
+        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google คุณสามารถเลือกไม่รับได้ตลอดเวลา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Developer tools",
+        "th": "เครื่องมือสำหรับนักพัฒนา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "AI",
+        "th": "AI"
+      }
+    }
+  ]
+}

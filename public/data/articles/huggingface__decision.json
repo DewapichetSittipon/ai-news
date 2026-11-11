@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+47",
-        "th": "+47"
+        "en": "+55",
+        "th": "+55"
       }
     },
     {
@@ -1156,6 +1156,39 @@
       }
     },
     {
+      "type": "img",
+      "src": "/avatars/9cc70e139affd25788ae880b62b88e4e.svg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Great write-up. The step the post leaves to the application, turning noul: 0.83 into an action, is where things get hard in production. It's usually a threshold (if p > 0.9), and it quietly goes stale: raw probabilities are rarely calibrated, the right cut-off depends on what a mistake costs, and the outcome that says whether the decision was right (a chargeback, a reassigned ticket) arrives days or months later.",
+        "th": "Great write-up. The step the post leaves to the application, turning noul: 0.83 into an action, is where things get hard in production. It's usually a threshold (if p > 0.9), and it quietly goes stale: raw probabilities are rarely calibrated, the right cut-off depends on what a mistake costs, and the outcome that says whether the decision was right (a chargeback, a reassigned ticket) arrives days or months later."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "I'm building an open-source, self-hosted tool for that loop: trimset. It sits in front of any /v1/systemone server (so transformers serve or llama.cpp) with a one-line URL change. It logs every decision and joins the real outcome when it arrives. It calibrates per question and model, then compiles thresholds and an escalation band with a stated guarantee (\"false passes ≤ 2% with 95% confidence\"), which your app applies locally. It's pre-alpha; drift and silent-upgrade alerts come next.",
+        "th": "I'm building an open-source, self-hosted tool for that loop: trimset. It sits in front of any /v1/systemone server (so transformers serve or llama.cpp) with a one-line URL change. It logs every decision and joins the real outcome when it arrives. It calibrates per question and model, then compiles thresholds and an escalation band with a stated guarantee (\"false passes ≤ 2% with 95% confidence\"), which your app applies locally. It's pre-alpha; drift and silent-upgrade alerts come next."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Live demo on recorded data, threshold simulator included: https://demo.trimset.dev/#/questions/refund_fraud/simulator",
+        "th": "Live demo on recorded data, threshold simulator included: https://demo.trimset.dev/#/questions/refund_fraud/simulator"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For anyone running decision models in production: how do you pick your cut-offs today?",
+        "th": "For anyone running decision models in production: how do you pick your cut-offs today?"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",
@@ -1225,8 +1258,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+41",
-        "th": "+41"
+        "en": "+49",
+        "th": "+49"
       }
     }
   ]

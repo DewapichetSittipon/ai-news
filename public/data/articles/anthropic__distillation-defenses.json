@@ -4,8 +4,8 @@
   "source": "anthropic",
   "url": "https://www.anthropic.com/news/distillation-defenses",
   "category": "News",
-  "date": "2026-11-12T14:22:29.644Z",
-  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a5934d1ae8428b2a97fae1963a5f427594fc7202-1200x630.jpg",
+  "date": "2026-11-12T21:58:55.649Z",
+  "image": "https://assets.claude.com/8c43ae859fe55c00a4b42a1c71e269ad55f95f99.jpg",
   "title": {
     "en": "Strengthening our defenses against distillation attacks",
     "th": "Strengthening our defenses against distillation attacks"
@@ -17,7 +17,7 @@
   "body": [
     {
       "type": "img",
-      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F46303b759b178149b34f19321645a0ede17b3f82-2000x1125.jpg&w=1920&q=75",
+      "src": "https://assets.claude.com/919f933a2518ba673326a22d96532edc1e185606.jpg?w=1920&q=75&fm=webp&fit=max",
       "alt": "Strengthening our defenses against distillation attacks"
     },
     {
@@ -155,7 +155,7 @@
     },
     {
       "type": "img",
-      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Faab3f9927b5be6b7abba51df907e05c925dbe4c5-1920x1080.png&w=3840&q=75",
+      "src": "https://assets.claude.com/aab3f9927b5be6b7abba51df907e05c925dbe4c5.png?w=3840&q=75&fm=webp&fit=max",
       "alt": "Graph showing how the pretrained model performs more strongly when trained on full rather than summarized reasoning transcripts."
     },
     {
@@ -258,7 +258,7 @@
     },
     {
       "type": "img",
-      "src": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fff06a1bf78f76dcfef1bf8d8c67a488e965999b4-1920x1162.png&w=3840&q=75",
+      "src": "https://assets.claude.com/ff06a1bf78f76dcfef1bf8d8c67a488e965999b4.png?w=3840&q=75&fm=webp&fit=max",
       "alt": "Graph showing the reasoning tokens exposed to distillers by day (log scale), before and after our new safeguards."
     },
     {

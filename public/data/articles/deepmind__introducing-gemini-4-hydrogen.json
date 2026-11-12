@@ -1,0 +1,589 @@
+{
+  "id": "deepmind__introducing-gemini-4-hydrogen",
+  "slug": "introducing-gemini-4-hydrogen",
+  "source": "deepmind",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+  "category": "News",
+  "date": "2026-11-12T18:00:50.000Z",
+  "image": null,
+  "title": {
+    "en": "Introducing Gemini 4 Hydrogen",
+    "th": "Introducing Gemini 4 Hydrogen"
+  },
+  "summary": {
+    "en": "Introducing Gemini 4 Hydrogen",
+    "th": "Introducing Gemini 4 Hydrogen"
+  },
+  "body": [
+    {
+      "type": "li",
+      "text": {
+        "en": "Home",
+        "th": "บ้าน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Innovation & AI",
+        "th": "นวัตกรรมและเอไอ"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Models & research",
+        "th": "แบบจำลองและการวิจัย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini Models",
+        "th": "โมเดลราศีเมถุน"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Nov 12, 2026",
+        "th": "Nov 12, 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hydrogen brings cutting-edge intelligence to everyone.",
+        "th": "Hydrogen brings cutting-edge intelligence to everyone."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Koray Kavukcuoglu",
+        "th": "โคเรย์ คาวูคคูโอกลู"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SVP, Google DeepMind and Chief AI Architect, Google",
+        "th": "SVP, Google DeepMind and Chief AI Architect, Google"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "x.com",
+        "th": "x.com"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Facebook",
+        "th": "เฟสบุ๊ค"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "LinkedIn",
+        "th": "ลิงค์อิน"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mail",
+        "th": "จดหมาย"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Copy link",
+        "th": "คัดลอกลิงก์"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini 4 Hydrogen is available",
+        "th": "Gemini 4 Hydrogen is available"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Unlocking efficiencies in multi-model workloads",
+        "th": "Unlocking efficiencies in multi-model workloads"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Scaling developer and enterprise workflows",
+        "th": "Scaling developer and enterprise workflows"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Adaptable speed and intelligence across thinking levels",
+        "th": "Adaptable speed and intelligence across thinking levels"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Fast, everyday help in the Gemini app and Search",
+        "th": "Fast, everyday help in the Gemini app and Search"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Designed for safe, dependable execution for scale",
+        "th": "Designed for safe, dependable execution for scale"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Available to everyone today",
+        "th": "Available to everyone today"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re introducing Gemini 4 Hydrogen, bringing cutting-edge intelligence to everyone — with speed and efficiency for everyday coding and agentic workflows.",
+        "th": "Today, we’re introducing Gemini 4 Hydrogen, bringing cutting-edge intelligence to everyone — with speed and efficiency for everyday coding and agentic workflows."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "While our frontier models, Gemini 4 Carbon and Gemini 4 Argon, excel at deep, long-horizon reasoning on your hardest problems, Hydrogen is built for rapid execution across diverse agentic workflows. With Hydrogen, we’re also bringing Gemini 4 to everyone — for all tiers of Google AI Studio, the Gemini API, Gemini for business, the Gemini app, Google Search, and paid Google AI Pro and Ultra subscribers in Google Antigravity.",
+        "th": "While our frontier models, Gemini 4 Carbon and Gemini 4 Argon, excel at deep, long-horizon reasoning on your hardest problems, Hydrogen is built for rapid execution across diverse agentic workflows. With Hydrogen, we’re also bringing Gemini 4 to everyone — for all tiers of Google AI Studio, the Gemini API, Gemini for business, the Gemini app, Google Search, and paid Google AI Pro and Ultra subscribers in Google Antigravity."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hydrogen surpasses Argon on the Artificial Analysis Intelligence Index at its default high thinking level (51 vs. 50, and reaching 54 at its highest xhigh thinking setting), while often completing tasks faster than models in its class. Gemini 4 Hydrogen is priced flat across its entire 1 million-token context window at $1.50 per million input tokens and $7.50 per million output tokens.",
+        "th": "Hydrogen surpasses Argon on the Artificial Analysis Intelligence Index at its default high thinking level (51 vs. 50, and reaching 54 at its highest xhigh thinking setting), while often completing tasks faster than models in its class. Gemini 4 Hydrogen is priced flat across its entire 1 million-token context window at $1.50 per million input tokens and $7.50 per million output tokens."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Unlocking efficiencies in multi-model workloads",
+        "th": "Unlocking efficiencies in multi-model workloads"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In real-world software development, while teams rely on frontier models like Carbon and Argon for deep architectural judgment when designing systems or untangling subtle bugs, they still need a fast, disciplined execution model for writing code, running tests, and verifying changes. Hydrogen is built to stand on its own as a model for everyday work — or to pair with Carbon and Argon as the high-efficiency execution engine in multi-model workflows.",
+        "th": "In real-world software development, while teams rely on frontier models like Carbon and Argon for deep architectural judgment when designing systems or untangling subtle bugs, they still need a fast, disciplined execution model for writing code, running tests, and verifying changes. Hydrogen is built to stand on its own as a model for everyday work — or to pair with Carbon and Argon as the high-efficiency execution engine in multi-model workflows."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To help make this multi-model collaboration automatic, we’re introducing Orchestrator in Google Antigravity. Rather than using a single model from start to finish, Orchestrator dynamically switches between models like Carbon and Hydrogen within the same session. On Terminal-Bench 4.0, Orchestrator reached near-Carbon task success rates while, on average, consuming 24% less quota and completing 19% faster. For workflows that require parallel agents, Carbon can act as the coordinator while Hydrogen can power worker and verifier agents to build and test changes simultaneously across isolated workspaces — helping teams ship complex projects faster without driving up token costs.",
+        "th": "To help make this multi-model collaboration automatic, we’re introducing Orchestrator in Google Antigravity. Rather than using a single model from start to finish, Orchestrator dynamically switches between models like Carbon and Hydrogen within the same session. On Terminal-Bench 4.0, Orchestrator reached near-Carbon task success rates while, on average, consuming 24% less quota and completing 19% faster. For workflows that require parallel agents, Carbon can act as the coordinator while Hydrogen can power worker and verifier agents to build and test changes simultaneously across isolated workspaces — helping teams ship complex projects faster without driving up token costs."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Scaling developer and enterprise workflows",
+        "th": "Scaling developer and enterprise workflows"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini-4-hydrogen_benchmarks_table.gif",
+      "alt": "Benchmark chart comparing Gemini 4 Hydrogen to other models"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Beyond multi-model workflows, Hydrogen is a major standalone upgrade for teams migrating from Gemini 3.8 Flash. It delivers significant leaps in both speed and intelligence — finishing tasks 2.5 times faster at its high default setting while more than tripling Terminal-Bench 4.1 scores (57% vs. 18.2%), cutting fabricated claims by more than 5x, and adapting cleanly when a tool call fails or a search returns empty. It also matches or outperforms competing models in its class across core developer and enterprise workflows:",
+        "th": "Beyond multi-model workflows, Hydrogen is a major standalone upgrade for teams migrating from Gemini 3.8 Flash. It delivers significant leaps in both speed and intelligence — finishing tasks 2.5 times faster at its high default setting while more than tripling Terminal-Bench 4.1 scores (57% vs. 18.2%), cutting fabricated claims by more than 5x, and adapting cleanly when a tool call fails or a search returns empty. It also matches or outperforms competing models in its class across core developer and enterprise workflows:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Iterative repository coding and debugging: Hydrogen handles issue resolution, debugging, rapid iteration, and codebase Q&A with focused, surgical edits — delivering cleaner, production-ready code without rewriting unrelated files. It outperforms similar-tier models on SWE-sweep where it has to discover and repair bugs without breaking existing code. To explore large repositories efficiently, the model excels at natively batching file-read and search calls in parallel rather than inspecting files one by one; in early testing across complex graphs, SQL, and data-heavy enterprise workflows, our partners have seen Hydrogen run 2x to 2.8x faster while reducing token usage by 12% to 23%, compared to 3.8 Flash.",
+        "th": "Iterative repository coding and debugging: Hydrogen handles issue resolution, debugging, rapid iteration, and codebase Q&A with focused, surgical edits — delivering cleaner, production-ready code without rewriting unrelated files. It outperforms similar-tier models on SWE-sweep where it has to discover and repair bugs without breaking existing code. To explore large repositories efficiently, the model excels at natively batching file-read and search calls in parallel rather than inspecting files one by one; in early testing across complex graphs, SQL, and data-heavy enterprise workflows, our partners have seen Hydrogen run 2x to 2.8x faster while reducing token usage by 12% to 23%, compared to 3.8 Flash."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Open-ended agentic execution: On multi-step tasks like deep research, data analysis, and broad codebase navigation, Hydrogen ranks #5 on Agent Arena, arena.ai’s live benchmark. For deep domain reasoning and analysis, it leads its class on HLE-Diamond (58.8%), ranks #1 overall on Vals Tax Agent Bench (52.3%), ties for #1 on the Vals Legal Research Bench (55.8%), and leads its class on AutomationBench-AA.",
+        "th": "Open-ended agentic execution: On multi-step tasks like deep research, data analysis, and broad codebase navigation, Hydrogen ranks #5 on Agent Arena, arena.ai’s live benchmark. For deep domain reasoning and analysis, it leads its class on HLE-Diamond (58.8%), ranks #1 overall on Vals Tax Agent Bench (52.3%), ties for #1 on the Vals Legal Research Bench (55.8%), and leads its class on AutomationBench-AA."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Multimodal knowledge work: Hydrogen pairs native 1 million-token input with up to 1 million output tokens to synthesize dense PDFs, spreadsheets, charts, audio, and recorded video into polished, cited reports and structured deliverables. It outperforms other models on the new Multimodal Knowledge Agent (MKA) benchmark (53.4%) for end-to-end agentic knowledge work over complex visual files, and on Agents’ Last Exam v1.1 (71.6%) for end-to-end professional workflows.",
+        "th": "Multimodal knowledge work: Hydrogen pairs native 1 million-token input with up to 1 million output tokens to synthesize dense PDFs, spreadsheets, charts, audio, and recorded video into polished, cited reports and structured deliverables. It outperforms other models on the new Multimodal Knowledge Agent (MKA) benchmark (53.4%) for end-to-end agentic knowledge work over complex visual files, and on Agents’ Last Exam v1.1 (71.6%) for end-to-end professional workflows."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Web development: On tasks where speed matters to developers, like live UI prototyping, design-to-code iteration, and interactive app building, Hydrogen generates more functional, feature-complete layouts in fewer prompts.",
+        "th": "Web development: On tasks where speed matters to developers, like live UI prototyping, design-to-code iteration, and interactive app building, Hydrogen generates more functional, feature-complete layouts in fewer prompts."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using Hydrogen for on-the-fly 3D coding, Geminisland lets anyone add to a shared voxel island from a single prompt to generate custom structures live on the map that players can walk around and explore in first person. Try the live app.",
+        "th": "Using Hydrogen for on-the-fly 3D coding, Geminisland lets anyone add to a shared voxel island from a single prompt to generate custom structures live on the map that players can walk around and explore in first person. Try the live app."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Paired with our new Gemini front end design skill in Google Antigravity, Hydrogen built an e-commerce storefront in one shot complete with a WebGL2 topographic shader, pinned four-stage scrollytelling, a thermal split-slider, a 3D wireframe spec card, and a live finish configurator. Try the live app and the Gemini front end design skill.",
+        "th": "Paired with our new Gemini front end design skill in Google Antigravity, Hydrogen built an e-commerce storefront in one shot complete with a WebGL2 topographic shader, pinned four-stage scrollytelling, a thermal split-slider, a 3D wireframe spec card, and a live finish configurator. Try the live app and the Gemini front end design skill."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In Google Antigravity, Hydrogen turned Google Sheets into an animated pixel canvas by shrinking thousands of cells combining Python, native =LET(...) formulas, and conditional formatting to paint and animate full-motion scenes directly inside a live spreadsheet.",
+        "th": "In Google Antigravity, Hydrogen turned Google Sheets into an animated pixel canvas by shrinking thousands of cells combining Python, native =LET(...) formulas, and conditional formatting to paint and animate full-motion scenes directly inside a live spreadsheet."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Starting from a YouTube keynote video and a design template in Google Antigravity, Hydrogen generated a multi-slide presentation directly in Google Slides, then ran an autonomous audit-and-fix loop to catch overlapping text and clean up every slide layout.",
+        "th": "Starting from a YouTube keynote video and a design template in Google Antigravity, Hydrogen generated a multi-slide presentation directly in Google Slides, then ran an autonomous audit-and-fix loop to catch overlapping text and clean up every slide layout."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With Gemini in Google Sheets, Hydrogen can help teams rapidly turn financial data into interactive models that dynamically adjust based on various forecasting scenarios, generating outputs over 30% faster than previous models in Sheets canvas.",
+        "th": "With Gemini in Google Sheets, Hydrogen can help teams rapidly turn financial data into interactive models that dynamically adjust based on various forecasting scenarios, generating outputs over 30% faster than previous models in Sheets canvas."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Adaptable speed and intelligence across four thinking levels",
+        "th": "Adaptable speed and intelligence across four thinking levels"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini-4-hydrogen_aa-index_score-time_graph.gif",
+      "alt": "a chart showing Artificial analysis intelligence index"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We built Gemini 4 Hydrogen for real-world usability. Hydrogen’s four thinking levels — low, medium, high (default), and a new xhigh tier — offer a wide range of options across quality, latency, and cost, scaling in a smooth, predictable progression so you only wait and pay for the reasoning depth a task requires. Across thinking levels, Hydrogen matches or outperforms some of the competing models in its class while often finishing tasks faster and using fewer output tokens.",
+        "th": "We built Gemini 4 Hydrogen for real-world usability. Hydrogen’s four thinking levels — low, medium, high (default), and a new xhigh tier — offer a wide range of options across quality, latency, and cost, scaling in a smooth, predictable progression so you only wait and pay for the reasoning depth a task requires. Across thinking levels, Hydrogen matches or outperforms some of the competing models in its class while often finishing tasks faster and using fewer output tokens."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini-4-hydrogen_automation-bench_graph.gif",
+      "alt": "a chart showing AutomationBench-AA"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini-4-hydrogen_aa-index_graph.gif",
+      "alt": "A chart showing AA Index 5.01"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini-4-hydrogen_t-bench_graph.gif",
+      "alt": "A chart showing Terminal-Bench 4.0"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini-4-hydrogen_hle_graph.gif",
+      "alt": "a chart showing HLE-Diamond"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Fast, everyday help in the Gemini app and Search",
+        "th": "Fast, everyday help in the Gemini app and Search"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For consumers, Gemini 4 Hydrogen makes it easier to get things done, staying on track and following instructions more closely across multi-turn conversations.",
+        "th": "For consumers, Gemini 4 Hydrogen makes it easier to get things done, staying on track and following instructions more closely across multi-turn conversations."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In the Gemini app, Hydrogen makes your everyday assistant even more helpful — it’s better at following your guidance, calling the right tools, and getting you to a reliable output with less back-and-forth.",
+        "th": "In the Gemini app, Hydrogen makes your everyday assistant even more helpful — it’s better at following your guidance, calling the right tools, and getting you to a reliable output with less back-and-forth."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Ready-to-go writing, research, and everyday work: Hydrogen sticks closely to your tone, format, and specific rules, so email drafts, study guides, rewrites, and documents come back ready to use on the first try. When you are comparing products or synthesizing dense material, it pulls together clear tables and visual breakdowns without dropping key details.",
+        "th": "Ready-to-go writing, research, and everyday work: Hydrogen sticks closely to your tone, format, and specific rules, so email drafts, study guides, rewrites, and documents come back ready to use on the first try. When you are comparing products or synthesizing dense material, it pulls together clear tables and visual breakdowns without dropping key details."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Connects the dots and gets more tasks done: Hydrogen breaks down your goal step-by-step, pulling relevant context from your uploads, Google apps like Gmail and Google Drive, and Connected Apps like Airtable and Dropbox. When you start a task in Gemini, it also more frequently calls the right tools and skills for the job, helping save you time as you check things off your to-do list.",
+        "th": "Connects the dots and gets more tasks done: Hydrogen breaks down your goal step-by-step, pulling relevant context from your uploads, Google apps like Gmail and Google Drive, and Connected Apps like Airtable and Dropbox. When you start a task in Gemini, it also more frequently calls the right tools and skills for the job, helping save you time as you check things off your to-do list."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Everyday prototyping and iteration: For exploring and testing ideas, Hydrogen generates clean, working layouts in fewer prompts, making it easy to prototype and refine interactive projects quickly, like synthesizing real-time global lightning strike data into an interactive 3D globe.",
+        "th": "Everyday prototyping and iteration: For exploring and testing ideas, Hydrogen generates clean, working layouts in fewer prompts, making it easy to prototype and refine interactive projects quickly, like synthesizing real-time global lightning strike data into an interactive 3D globe."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Moving fast from idea to working prototype, Hydrogen built an interactive 3D globe and Web Audio music engine driven by real-time lightning strikes and mapped every bolt around the world into visual ripples and live ambient music.",
+        "th": "Moving fast from idea to working prototype, Hydrogen built an interactive 3D globe and Web Audio music engine driven by real-time lightning strikes and mapped every bolt around the world into visual ripples and live ambient music."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When tasked to create a WebGL2 water and glass visualizer, Hydrogen built it from pure math and SDF textures — simulating real-time light refraction, reflection, dispersion, and absorption.",
+        "th": "When tasked to create a WebGL2 water and glass visualizer, Hydrogen built it from pure math and SDF textures — simulating real-time light refraction, reflection, dispersion, and absorption."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Using a custom skill for video assembly and adhering to a creative brief, Gemini 4 Hydrogen created an archival sizzle reel about the element ‘Hydrogen’, sourcing public-domain footage and cutting it into one continuous edit with clean narration.",
+        "th": "Using a custom skill for video assembly and adhering to a creative brief, Gemini 4 Hydrogen created an archival sizzle reel about the element ‘Hydrogen’, sourcing public-domain footage and cutting it into one continuous edit with clean narration."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hydrogen is significantly upgrading Search, delivering more helpful, intuitive responses for all users globally.",
+        "th": "Hydrogen is significantly upgrading Search, delivering more helpful, intuitive responses for all users globally."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Better understands your true intent: With Hydrogen, you can ask your question in your natural flow of thought — even if you have multiple parts to your query, hard-to-understand typos, or highly specific requests — and Search will intelligently comprehend what you’re looking for.",
+        "th": "Better understands your true intent: With Hydrogen, you can ask your question in your natural flow of thought — even if you have multiple parts to your query, hard-to-understand typos, or highly specific requests — and Search will intelligently comprehend what you’re looking for."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More visual responses: You’ll get highly adaptive, visual, and easy-to-scan responses that are uniquely relevant to your needs, at the speed you expect from Search.",
+        "th": "More visual responses: You’ll get highly adaptive, visual, and easy-to-scan responses that are uniquely relevant to your needs, at the speed you expect from Search."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Wider range of relevant links: With Hydrogen’s advanced reasoning, we’re also upgrading our query fan-out technique in Search, connecting you to a broader range of helpful links than before, helping you find sites you previously might not have discovered.",
+        "th": "Wider range of relevant links: With Hydrogen’s advanced reasoning, we’re also upgrading our query fan-out technique in Search, connecting you to a broader range of helpful links than before, helping you find sites you previously might not have discovered."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini4Hydrogen-01-Studio_Apt-fu.width-1200.format-webp.webp",
+      "alt": "A smartphone screen with a side by side comparison of Gemini 3.5 Flash and Gemini 4 Hydrogen in a search for fixing an apartment"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini4Hydrogen-03-Boston-full.width-1200.format-webp.webp",
+      "alt": "A smartphone screen with a side by side comparison of Gemini 3.5 Flash and Gemini 4 Hydrogen in a search of neighborhoods in Boston"
+    },
+    {
+      "type": "img",
+      "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini4Hydrogen-02-Sneakers-full.width-1200.format-webp.webp",
+      "alt": "A smartphone screen with a side by side comparison of Gemini 3.5 Flash and Gemini 4 Hydrogen in a search for sneakers"
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Designed for safe, dependable execution at scale",
+        "th": "Designed for safe, dependable execution at scale"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gemini 4 Hydrogen brings improvements from our latest Gemini 4 safety and security stack to our broadest audience yet, combining built-in training with real-time surface safeguards to help mitigate both misalignment and misuse. Beyond foundational protections, we focused on two areas that matter most for a faster model that’s for everyday work:",
+        "th": "Gemini 4 Hydrogen brings improvements from our latest Gemini 4 safety and security stack to our broadest audience yet, combining built-in training with real-time surface safeguards to help mitigate both misalignment and misuse. Beyond foundational protections, we focused on two areas that matter most for a faster model that’s for everyday work:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Safe, aligned, and secure agentic workflows: While 3.8 Flash has strong alignment and safeguards, Hydrogen is a leap ahead. It reduces overreach in agentic tasks by up to 81% and under-service by up to 79%, and cuts misaligned actions and task shortcutting across tool-use and coding evaluations by 12x. When faced with impossible or blocked tasks, it is up to 2x less likely to bypass permission boundaries and achieves a 96.7% honesty rate on our internal agent honesty evaluation.Building on our commitment to reasoning transparency, Hydrogen also preserves 99.9% chain-of-thought legibility with zero deceptive reasoning edits across more than 200,000 audited turns. Against indirect prompt injection attacks, Hydrogen is more than 2.3x more resilient on the Gray Swan IPI benchmark, while significantly improving robustness across tool use, computer use, and coding agents.",
+        "th": "Safe, aligned, and secure agentic workflows: While 3.8 Flash has strong alignment and safeguards, Hydrogen is a leap ahead. It reduces overreach in agentic tasks by up to 81% and under-service by up to 79%, and cuts misaligned actions and task shortcutting across tool-use and coding evaluations by 12x. When faced with impossible or blocked tasks, it is up to 2x less likely to bypass permission boundaries and achieves a 96.7% honesty rate on our internal agent honesty evaluation.Building on our commitment to reasoning transparency, Hydrogen also preserves 99.9% chain-of-thought legibility with zero deceptive reasoning edits across more than 200,000 audited turns. Against indirect prompt injection attacks, Hydrogen is more than 2.3x more resilient on the Gray Swan IPI benchmark, while significantly improving robustness across tool use, computer use, and coding agents."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Helpful, reliable everyday interactions: Across our product surfaces, we tuned Hydrogen to make everyday conversations more reliable and safe. Our updated safeguards are also much more precise at distinguishing between real biosecurity risks and legitimate medical or scientific questions — keeping false refusals on HealthBench Pro under 0.4%.",
+        "th": "Helpful, reliable everyday interactions: Across our product surfaces, we tuned Hydrogen to make everyday conversations more reliable and safe. Our updated safeguards are also much more precise at distinguishing between real biosecurity risks and legitimate medical or scientific questions — keeping false refusals on HealthBench Pro under 0.4%."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For more details see the Gemini 4 Hydrogen model card.",
+        "th": "For more details see the Gemini 4 Hydrogen model card."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Gemini 4 Hydrogen, available to everyone today",
+        "th": "Gemini 4 Hydrogen, available to everyone today"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Starting today, Hydrogen is rolling out globally across our developer, enterprise, and consumer surfaces:",
+        "th": "Starting today, Hydrogen is rolling out globally across our developer, enterprise, and consumer surfaces:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For developers: Build with the Gemini API in AI Studio and Android Studio, try it in AI Studio and if you’re a paid Google AI Pro or Ultra subscriber, you can try it in Google Antigravity.",
+        "th": "For developers: Build with the Gemini API in AI Studio and Android Studio, try it in AI Studio and if you’re a paid Google AI Pro or Ultra subscriber, you can try it in Google Antigravity."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For enterprises: Deploy it in Gemini for business via the API or model drop down, Google Antigravity, and in Gemini in Google Sheets for eligible business subscriptions.",
+        "th": "For enterprises: Deploy it in Gemini for business via the API or model drop down, Google Antigravity, and in Gemini in Google Sheets for eligible business subscriptions."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For everyone: Start using it in the Gemini app model drop down 1 and in Google Search for all users, and in Gemini in Google Sheets starting with Google AI Pro and Ultra subscribers.",
+        "th": "For everyone: Start using it in the Gemini app model drop down 1 and in Google Search for all users, and in Gemini in Google Sheets starting with Google AI Pro and Ultra subscribers."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get the latest news from Google in your inbox",
+        "th": "รับข่าวสารล่าสุดจาก Google ในกล่องจดหมายของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sign up for our newsletters with product updates, event information, special offers, and more.",
+        "th": "ลงทะเบียนรับจดหมายข่าวของเราพร้อมข้อมูลอัปเดตผลิตภัณฑ์ ข้อมูลกิจกรรม ข้อเสนอพิเศษ และอื่นๆ อีกมากมาย"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Done. Just one step more.",
+        "th": "เสร็จแล้ว. อีกเพียงก้าวเดียวเท่านั้น"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Check your inbox to confirm your subscription.",
+        "th": "ตรวจสอบกล่องจดหมายของคุณเพื่อยืนยันการสมัครของคุณ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can also subscribe with a different email address.",
+        "th": "คุณสามารถสมัครสมาชิกด้วยที่อยู่อีเมลอื่นได้"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Your information will be used in accordance with Google's privacy policy. You may opt out at any time.",
+        "th": "ข้อมูลของคุณจะถูกนำไปใช้ตามนโยบายความเป็นส่วนตัวของ Google คุณสามารถเลือกไม่รับได้ตลอดเวลา"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Gemini models",
+        "th": "โมเดลราศีเมถุน"
+      }
+    }
+  ]
+}

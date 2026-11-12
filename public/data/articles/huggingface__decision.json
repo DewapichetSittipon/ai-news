@@ -48,8 +48,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+65",
-        "th": "+65"
+        "en": "+68",
+        "th": "+68"
       }
     },
     {
@@ -577,22 +577,22 @@
     {
       "type": "p",
       "text": {
-        "en": "The model assigns a logit to each option. For logits ($z_1,\\ldots,z_K$), (with K classes) we can obtain the probabilities using softmax:",
-        "th": "The model assigns a logit to each option. For logits ($z_1,\\ldots,z_K$), (with K classes) we can obtain the probabilities using softmax:"
+        "en": "The model assigns a logit to each option. For logits z1,…,zKz_1,\\ldots,z_Kz1​,…,zK​, (with KKK classes) we can obtain the probabilities using softmax:",
+        "th": "The model assigns a logit to each option. For logits z1,…,zKz_1,\\ldots,z_Kz1​,…,zK​, (with KKK classes) we can obtain the probabilities using softmax:"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "pi=exp⁡(zi/T)∑j=1Kexp⁡(zj) p_i=\\frac{\\exp(z_i/T)}{\\sum_{j=1}^{K}\\exp(z_j)} pi​=∑j=1K​exp(zj​)exp(zi​/T)​",
-        "th": "pi=exp⁡(zi/T)∑j=1Kexp⁡(zj) p_i=\\frac{\\exp(z_i/T)}{\\sum_{j=1}^{K}\\exp(z_j)} pi​=∑j=1K​exp(zj​)exp(zi​/T)​"
+        "en": "pi=exp⁡(zi)∑j=1Kexp⁡(zj) p_i=\\frac{\\exp(z_i)}{\\sum_{j=1}^{K}\\exp(z_j)} pi​=∑j=1K​exp(zj​)exp(zi​)​",
+        "th": "pi=exp⁡(zi)∑j=1Kexp⁡(zj) p_i=\\frac{\\exp(z_i)}{\\sum_{j=1}^{K}\\exp(z_j)} pi​=∑j=1K​exp(zj​)exp(zi​)​"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "Here, (K) is the number of choices.",
-        "th": "Here, (K) is the number of choices."
+        "en": "Here, KKK is the number of choices.",
+        "th": "Here, KKK is the number of choices."
       }
     },
     {
@@ -703,8 +703,8 @@
     {
       "type": "p",
       "text": {
-        "en": "For a random variable (X) representing the level, the expectation is:",
-        "th": "For a random variable (X) representing the level, the expectation is:"
+        "en": "For a random variable XXX representing the level, the expectation is:",
+        "th": "For a random variable XXX representing the level, the expectation is:"
       }
     },
     {
@@ -773,8 +773,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Let (Y) represent a binary outcome:",
-        "th": "Let (Y) represent a binary outcome:"
+        "en": "Let YYY represent a binary outcome:",
+        "th": "Let YYY represent a binary outcome:"
       }
     },
     {
@@ -836,8 +836,8 @@
     {
       "type": "p",
       "text": {
-        "en": "For a Choice with (K) options, the confidence is:",
-        "th": "For a Choice with (K) options, the confidence is:"
+        "en": "For a Choice with KKK options, the confidence is:",
+        "th": "For a Choice with KKK options, the confidence is:"
       }
     },
     {
@@ -850,8 +850,8 @@
     {
       "type": "p",
       "text": {
-        "en": "where ($p_{\\max}$) is the largest predicted probability.",
-        "th": "where ($p_{\\max}$) is the largest predicted probability."
+        "en": "where pmax⁡p_{\\max}pmax​ is the largest predicted probability.",
+        "th": "where pmax⁡p_{\\max}pmax​ is the largest predicted probability."
       }
     },
     {
@@ -864,15 +864,15 @@
     {
       "type": "li",
       "text": {
-        "en": "A uniform distribution has confidence 0. ($p_{\\max} = \\frac{1}{K}$). This means the model estimates that all choices are equally likely.",
-        "th": "A uniform distribution has confidence 0. ($p_{\\max} = \\frac{1}{K}$). This means the model estimates that all choices are equally likely."
+        "en": "A uniform distribution has confidence 0. pmax⁡=1Kp_{\\max} = \\frac{1}{K}pmax​=K1​. This means the model estimates that all choices are equally likely.",
+        "th": "A uniform distribution has confidence 0. pmax⁡=1Kp_{\\max} = \\frac{1}{K}pmax​=K1​. This means the model estimates that all choices are equally likely."
       }
     },
     {
       "type": "li",
       "text": {
-        "en": "A distribution concentrated entirely on one option has confidence 1. ($p_{\\max} = 1$)",
-        "th": "A distribution concentrated entirely on one option has confidence 1. ($p_{\\max} = 1$)"
+        "en": "A distribution concentrated entirely on one option has confidence 1. pmax⁡=1p_{\\max} = 1pmax​=1",
+        "th": "A distribution concentrated entirely on one option has confidence 1. pmax⁡=1p_{\\max} = 1pmax​=1"
       }
     },
     {
@@ -885,22 +885,22 @@
     {
       "type": "p",
       "text": {
-        "en": "In our previous three-choice example, Billing had probability 0.80:",
-        "th": "In our previous three-choice example, Billing had probability 0.80:"
+        "en": "In our previous three-choice example, Billing had probability 0.998:",
+        "th": "In our previous three-choice example, Billing had probability 0.998:"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "C=3(0.99)−12=0.98 C=\\frac{3(0.99)-1}{2}=0.98 C=23(0.99)−1​=0.98",
-        "th": "C=3(0.99)−12=0.98 C=\\frac{3(0.99)-1}{2}=0.98 C=23(0.99)−1​=0.98"
+        "en": "C=3(0.998)−12=0.997 C=\\frac{3(0.998)-1}{2}=0.997 C=23(0.998)−1​=0.997",
+        "th": "C=3(0.998)−12=0.997 C=\\frac{3(0.998)-1}{2}=0.997 C=23(0.998)−1​=0.997"
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "Notice that the winning probability is 0.99, but the reported confidence is 0.98. The confidence normalizes the largest probability relative to the number of available options. In contrast, the ordered Score example only had a confidence of 0.558.",
-        "th": "Notice that the winning probability is 0.99, but the reported confidence is 0.98. The confidence normalizes the largest probability relative to the number of available options. In contrast, the ordered Score example only had a confidence of 0.558."
+        "en": "Notice that the winning probability is 0.998, but the reported confidence is 0.997. The confidence normalizes the largest probability relative to the number of available options. In contrast, the ordered Score example only had a confidence of 0.558.",
+        "th": "Notice that the winning probability is 0.998, but the reported confidence is 0.997. The confidence normalizes the largest probability relative to the number of available options. In contrast, the ordered Score example only had a confidence of 0.558."
       }
     },
     {
@@ -1258,8 +1258,8 @@
     {
       "type": "li",
       "text": {
-        "en": "+59",
-        "th": "+59"
+        "en": "+62",
+        "th": "+62"
       }
     }
   ]

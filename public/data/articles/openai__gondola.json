@@ -1,0 +1,387 @@
+{
+  "id": "openai__gondola",
+  "slug": "gondola",
+  "source": "openai",
+  "url": "https://openai.com/business/customer-stories/gondola",
+  "category": "Startup",
+  "date": "2026-11-12T12:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Gondola doubles revenue as its team builds more with Codex",
+    "th": "Gondola doubles revenue as its team builds more with Codex"
+  },
+  "summary": {
+    "en": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+    "th": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 12, 2026",
+        "th": "November 12, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+        "th": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5B8tYqcVtztQ9PNAvMLPLO/8f2fc1472cb497b2d2b8ff82c0c1eeba/Gondola-Option-A-Art-Card-1080x1080.png?w=3840&q=90&fm=webp",
+      "alt": "White Gondola logo centered on a dark silver halftone texture."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "25%",
+        "th": "25%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Increase in engineering output, with no change in headcount, using Codex",
+        "th": "Increase in engineering output, with no change in headcount, using Codex"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "50%",
+        "th": "50%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Increase in lead engineer’s merged changes using Codex",
+        "th": "Increase in lead engineer’s merged changes using Codex"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "2x",
+        "th": "2x"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Company revenue YoY, with no added payroll costs or significant overhead",
+        "th": "Company revenue YoY, with no added payroll costs or significant overhead"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "2.5x",
+        "th": "2.5x"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Creators hired by brands through Gondola YoY",
+        "th": "Creators hired by brands through Gondola YoY"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Enabling business teams to build alongside engineers with Codex",
+        "th": "Enabling business teams to build alongside engineers with Codex"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building faster for a timely customer need",
+        "th": "Building faster for a timely customer need"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Running the business with a small team using ChatGPT",
+        "th": "Running the business with a small team using ChatGPT"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Creating more capacity to help creatives thrive",
+        "th": "Creating more capacity to help creatives thrive"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Enabling business teams to build alongside engineers with Codex",
+        "th": "Enabling business teams to build alongside engineers with Codex"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building faster for a timely customer need",
+        "th": "Building faster for a timely customer need"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Running the business with a small team using ChatGPT",
+        "th": "Running the business with a small team using ChatGPT"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Creating more capacity to help creatives thrive",
+        "th": "Creating more capacity to help creatives thrive"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "While running his creative production agency, Fresh Tape Media, Jared Kleinstein noticed a problem: incredible creative work was being made for social media, but the makers weren’t getting proper credit. So he built the Gondola⁠(opens in a new window) platform to help creatives show what they made, prove its impact, and turn their work into their next opportunity.",
+        "th": "While running his creative production agency, Fresh Tape Media, Jared Kleinstein noticed a problem: incredible creative work was being made for social media, but the makers weren’t getting proper credit. So he built the Gondola⁠(opens in a new window) platform to help creatives show what they made, prove its impact, and turn their work into their next opportunity."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For Gondola’s small team, one of the biggest constraints was how much product and operational work it could take on. Even small experiments competed with core product priorities for engineering time, and finding information and drafting work required sifting through tools and systems.",
+        "th": "For Gondola’s small team, one of the biggest constraints was how much product and operational work it could take on. Even small experiments competed with core product priorities for engineering time, and finding information and drafting work required sifting through tools and systems."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, the team uses Codex to turn more ideas into software and ChatGPT to simplify daily operations. Monthly engineering output is up 25% across the team and up 50% for its lead engineer. Company revenue has more than doubled year over year. For Jared, this has changed what feels possible for the team.",
+        "th": "Today, the team uses Codex to turn more ideas into software and ChatGPT to simplify daily operations. Monthly engineering output is up 25% across the team and up 50% for its lead engineer. Company revenue has more than doubled year over year. For Jared, this has changed what feels possible for the team."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Enabling business teams to build alongside engineers with Codex",
+        "th": "Enabling business teams to build alongside engineers with Codex"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Many of Gondola’s product ideas come directly from customer conversations and operational problems that the business development and leadership team sees firsthand. Before Codex, they would have to define the need and write requirements and then wait for an engineer to have capacity to build the first version.",
+        "th": "Many of Gondola’s product ideas come directly from customer conversations and operational problems that the business development and leadership team sees firsthand. Before Codex, they would have to define the need and write requirements and then wait for an engineer to have capacity to build the first version."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Now the same team uses Codex Cloud to explore the codebase, prototype an interface or workflow, test assumptions, and often get to a functional first version before an engineer needs to step in. Jared and Gondola’s Creator and Client Partnerships Manager Jojo Hesketh have both merged their first-ever code contributions into the main codebase.",
+        "th": "Now the same team uses Codex Cloud to explore the codebase, prototype an interface or workflow, test assumptions, and often get to a functional first version before an engineer needs to step in. Jared and Gondola’s Creator and Client Partnerships Manager Jojo Hesketh have both merged their first-ever code contributions into the main codebase."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One example is Programs, a tool Gondola built to help companies find creatives, review applicants, manage projects, and track budgets, with plans to help coordinate contracts and payments.",
+        "th": "One example is Programs, a tool Gondola built to help companies find creatives, review applicants, manage projects, and track budgets, with plans to help coordinate contracts and payments."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jojo sponsored Programs and used Codex to prototype its workflows before handing them to engineers to refine and release. The team started with GPT‑5.4, did most of the work with GPT‑5.5, and used GPT‑6.1 for later features, optimizations, and bug fixes.",
+        "th": "Jojo sponsored Programs and used Codex to prototype its workflows before handing them to engineers to refine and release. The team started with GPT‑5.4, did most of the work with GPT‑5.5, and used GPT‑6.1 for later features, optimizations, and bug fixes."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jared estimates that Codex saved days, if not weeks, of development time and helped the team launch Programs with fewer bugs than if they had coded it by hand. “The Programs feature benefited from our ability to rapidly prototype, throw away things that didn’t work, and keep the things that did,” says Jared.",
+        "th": "Jared estimates that Codex saved days, if not weeks, of development time and helped the team launch Programs with fewer bugs than if they had coded it by hand. “The Programs feature benefited from our ability to rapidly prototype, throw away things that didn’t work, and keep the things that did,” says Jared."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3F5ftJp6446ugr5LGTYtjI/7675183af70038f17a8bb522f7bf870a/gondola-inline-02.gif?w=3840&q=90&fm=webp",
+      "alt": "Demonstration of searching and tracking social media content in Gondola."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gondola’s engineers use Codex through the command-line interface (CLI) and editor tools to accelerate implementation, and in GitHub to review pull requests. The company connects Codex to its repositories, development environments, and Slack, so product context can inform development. Engineers remain responsible for architecture, security, data handling, and production readiness.",
+        "th": "Gondola’s engineers use Codex through the command-line interface (CLI) and editor tools to accelerate implementation, and in GitHub to review pull requests. The company connects Codex to its repositories, development environments, and Slack, so product context can inform development. Engineers remain responsible for architecture, security, data handling, and production readiness."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Building faster for a timely customer need",
+        "th": "Building faster for a timely customer need"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before Codex, time-sensitive ideas might sit in a backlog awaiting engineering resources while the opportunity passed by. But this summer, Codex enabled Gondola to build and test a World Cup Creator Map while it was still timely.",
+        "th": "Before Codex, time-sensitive ideas might sit in a backlog awaiting engineering resources while the opportunity passed by. But this summer, Codex enabled Gondola to build and test a World Cup Creator Map while it was still timely."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The team used Codex to rapidly turn data it already held into an experience built for an immediate customer need, creating a map that allowed brands, teams, and agencies to find photographers and videographers in World Cup host cities.",
+        "th": "The team used Codex to rapidly turn data it already held into an experience built for an immediate customer need, creating a map that allowed brands, teams, and agencies to find photographers and videographers in World Cup host cities."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jojo also sponsored the Creator Map and built a fully working prototype with Codex. Engineers polished it for launch shortly afterward. Jared describes the build as “incredibly quick,” thanks to its small, self-contained scope and hard deadline. He believes both the Creator Map and Programs launched with fewer bugs and more polish than they would have without Codex.",
+        "th": "Jojo also sponsored the Creator Map and built a fully working prototype with Codex. Engineers polished it for launch shortly afterward. Jared describes the build as “incredibly quick,” thanks to its small, self-contained scope and hard deadline. He believes both the Creator Map and Programs launched with fewer bugs and more polish than they would have without Codex."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Running the business with a small team using ChatGPT",
+        "th": "Running the business with a small team using ChatGPT"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Building products is only part of running Gondola. The team also uses ChatGPT to prepare proposals, manage schedules, and find information across company systems, as well as to automate tasks.",
+        "th": "Building products is only part of running Gondola. The team also uses ChatGPT to prepare proposals, manage schedules, and find information across company systems, as well as to automate tasks."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gondola used ChatGPT to build a daily report template that employees can use first thing in the morning to plan their day. It integrates Google Workspace, including Gmail, Calendar, Sheets, and Drive, as well as Asana, Slack, QuickBooks, weather information, and other sources to give them a comprehensive look at the day ahead.",
+        "th": "Gondola used ChatGPT to build a daily report template that employees can use first thing in the morning to plan their day. It integrates Google Workspace, including Gmail, Calendar, Sheets, and Drive, as well as Asana, Slack, QuickBooks, weather information, and other sources to give them a comprehensive look at the day ahead."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jared says preparing such a thorough report manually would take “hours and hours of work,” but it comes together quickly in the ChatGPT setup. A person still reviews consequential work before it’s sent externally or used to make a business decision.",
+        "th": "Jared says preparing such a thorough report manually would take “hours and hours of work,” but it comes together quickly in the ChatGPT setup. A person still reviews consequential work before it’s sent externally or used to make a business decision."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Creating more capacity to help creatives thrive",
+        "th": "Creating more capacity to help creatives thrive"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Since adopting Codex in early 2026, Gondola’s lead engineer has increased monthly shipping output by about 50%, measured in merged changes. Across the team, output is up about 25%, with no change in engineering headcount. The team is also shipping larger changes, while PR review time has held steady.",
+        "th": "Since adopting Codex in early 2026, Gondola’s lead engineer has increased monthly shipping output by about 50%, measured in merged changes. Across the team, output is up about 25%, with no change in engineering headcount. The team is also shipping larger changes, while PR review time has held steady."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gondola reports that company revenue has more than doubled year over year, with no added payroll costs or significant overhead. The company has also helped brands hire 2.5 times as many creators year over year.",
+        "th": "Gondola reports that company revenue has more than doubled year over year, with no added payroll costs or significant overhead. The company has also helped brands hire 2.5 times as many creators year over year."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Looking ahead, Gondola wants AI to help complete more of the work that connects companies and creatives. For Programs, that could mean reducing the coordination involved in finding talent, managing budgets and approvals, handling contracts, and getting people paid.",
+        "th": "Looking ahead, Gondola wants AI to help complete more of the work that connects companies and creatives. For Programs, that could mean reducing the coordination involved in finding talent, managing budgets and approvals, handling contracts, and getting people paid."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Gondola aims to keep expanding what its small team can deliver to advance its founding mission: helping creatives get credit for their work and turn it into their next opportunity.",
+        "th": "Gondola aims to keep expanding what its small team can deliver to advance its founding mission: helping creatives get credit for their work and turn it into their next opportunity."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "OpenAI <3 startups",
+        "th": "OpenAI <3 startups"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get OpenAI for Business updates",
+        "th": "Get OpenAI for Business updates"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Product updates, practical guides, upcoming events, and more.",
+        "th": "Product updates, practical guides, upcoming events, and more."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By subscribing, you agree to receive emails from OpenAI. You can unsubscribe at any time. Read our Privacy Policy⁠.",
+        "th": "By subscribing, you agree to receive emails from OpenAI. You can unsubscribe at any time. Read our Privacy Policy⁠."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1b77wWqxMlNBg59VRDTuuQ/46601ae75270e4d037359127eb09a76c/cogent-security-cover-sienna.png?w=3840&q=90&fm=webp",
+      "alt": "Cogent Security — cover (sienna)"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupNov 10, 2026",
+        "th": "StartupNov 10, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1YFM9mFKP6ZzABichElFUi/9a6569f02f982f80d80941019f522a99/coderabbit-art-card-1080x1080.png?w=3840&q=90&fm=webp",
+      "alt": "CodeRabbit — Indigo texture art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupNov 9, 2026",
+        "th": "StartupNov 9, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/36lbF0ijotVJ7zCUyEf21D/842824cd2382520c374de4bad52759fb/square.png?w=3840&q=90&fm=webp",
+      "alt": "DevRev — Layered paper art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupNov 4, 2026",
+        "th": "StartupNov 4, 2026"
+      }
+    }
+  ]
+}

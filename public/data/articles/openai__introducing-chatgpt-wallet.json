@@ -1,0 +1,335 @@
+{
+  "id": "openai__introducing-chatgpt-wallet",
+  "slug": "introducing-chatgpt-wallet",
+  "source": "openai",
+  "url": "https://openai.com/index/introducing-chatgpt-wallet",
+  "category": "Product",
+  "date": "2026-11-13T15:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Introducing ChatGPT Wallet",
+    "th": "Introducing ChatGPT Wallet"
+  },
+  "summary": {
+    "en": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+    "th": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 13, 2026",
+        "th": "November 13, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Building trusted agentic payments with networks, banks, and businesses.",
+        "th": "Building trusted agentic payments with networks, banks, and businesses."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How a purchase works",
+        "th": "How a purchase works"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Equipping businesses for agentic commerce",
+        "th": "Equipping businesses for agentic commerce"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Availability",
+        "th": "Availability"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How a purchase works",
+        "th": "How a purchase works"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Equipping businesses for agentic commerce",
+        "th": "Equipping businesses for agentic commerce"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Availability",
+        "th": "Availability"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re introducing ChatGPT Wallet, setting a new bar for secure payments by agents. It’s the first wallet that lets agents pay without access to users’ actual card details and that requires a security check for every purchase, while also preserving existing card rewards and protections for eligible disputes. Built in partnership with American Express, Mastercard, and Visa, ChatGPT Wallet will initially be available through dots⁠ for ChatGPT Pro subscribers in the US. Alongside ChatGPT Wallet, we’re releasing tools and guidance to help businesses support customers using agents.",
+        "th": "We’re introducing ChatGPT Wallet, setting a new bar for secure payments by agents. It’s the first wallet that lets agents pay without access to users’ actual card details and that requires a security check for every purchase, while also preserving existing card rewards and protections for eligible disputes. Built in partnership with American Express, Mastercard, and Visa, ChatGPT Wallet will initially be available through dots⁠ for ChatGPT Pro subscribers in the US. Alongside ChatGPT Wallet, we’re releasing tools and guidance to help businesses support customers using agents."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "1.2B people use ChatGPT each week, and many of them turn to it to research products, compare options, and decide what to buy. With ChatGPT Wallet, we’re now helping people complete purchases, and giving their agents a way to pay that businesses can accept with their existing systems.",
+        "th": "1.2B people use ChatGPT each week, and many of them turn to it to research products, compare options, and decide what to buy. With ChatGPT Wallet, we’re now helping people complete purchases, and giving their agents a way to pay that businesses can accept with their existing systems."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To accept payment from ChatGPT Wallet, websites need to ensure agents are not inadvertently blocked, and payment and risk systems need to recognize legitimate purchases made by agents. We’re starting with limited availability to ChatGPT Pro users, so we can learn from real-world use and work with businesses, banks, and payment networks to improve compatibility and reliability.",
+        "th": "To accept payment from ChatGPT Wallet, websites need to ensure agents are not inadvertently blocked, and payment and risk systems need to recognize legitimate purchases made by agents. We’re starting with limited availability to ChatGPT Pro users, so we can learn from real-world use and work with businesses, banks, and payment networks to improve compatibility and reliability."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How a purchase works",
+        "th": "How a purchase works"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ChatGPT Wallet gives agents a secure way to pay on a user’s behalf. Users add a card once, then approve each purchase without re-entering their payment details.",
+        "th": "ChatGPT Wallet gives agents a secure way to pay on a user’s behalf. Users add a card once, then approve each purchase without re-entering their payment details."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before each purchase, the user reviews the items, total, and selected card, then approves it with a security check such as Face ID or a fingerprint scan. Each approval creates a clear record of the purchase the user authorized the agent to make.",
+        "th": "Before each purchase, the user reviews the items, total, and selected card, then approves it with a security check such as Face ID or a fingerprint scan. Each approval creates a clear record of the purchase the user authorized the agent to make."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "After the user approves, the payment network provides a payment token—a substitute for the user’s actual card details—with a card number, security code, and expiration date. The payment is charged to their selected card without ChatGPT Wallet sharing their actual card details with the business or agent.",
+        "th": "After the user approves, the payment network provides a payment token—a substitute for the user’s actual card details—with a card number, security code, and expiration date. The payment is charged to their selected card without ChatGPT Wallet sharing their actual card details with the business or agent."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re building agent-led commerce to fit reliably into existing systems. Users keep their card’s existing rewards and protections for eligible disputes with businesses, for example when an item is defective. Banks and networks bring their expertise to evaluating transactions. Users transact directly with businesses, which keep their customer relationships and control over pricing, fulfillment, returns, and customer service.",
+        "th": "We’re building agent-led commerce to fit reliably into existing systems. Users keep their card’s existing rewards and protections for eligible disputes with businesses, for example when an item is defective. Banks and networks bring their expertise to evaluating transactions. Users transact directly with businesses, which keep their customer relationships and control over pricing, fulfillment, returns, and customer service."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Over time, we expect users to be able to delegate purchases entirely to their agent by setting clear parameters—such as spending limits, purchase categories, or time periods—and pre-approve those purchases with enhanced safeguards that build on today’s protections, including biometric checks and clear records of authorization.",
+        "th": "Over time, we expect users to be able to delegate purchases entirely to their agent by setting clear parameters—such as spending limits, purchase categories, or time periods—and pre-approve those purchases with enhanced safeguards that build on today’s protections, including biometric checks and clear records of authorization."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "American Express",
+        "th": "American Express"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mastercard",
+        "th": "Mastercard"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Visa",
+        "th": "Visa"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "American Express",
+        "th": "American Express"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Mastercard",
+        "th": "Mastercard"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Visa",
+        "th": "Visa"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Equipping businesses for agentic commerce",
+        "th": "Equipping businesses for agentic commerce"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Agentic commerce is still in its early days. As agents begin to take on more shopping and purchasing tasks, many websites and payment systems are still adapting to this modality. Some sites may unintentionally block purchases through ChatGPT Wallet or other agentic payment products, and we are focused on helping businesses make that transition.",
+        "th": "Agentic commerce is still in its early days. As agents begin to take on more shopping and purchasing tasks, many websites and payment systems are still adapting to this modality. Some sites may unintentionally block purchases through ChatGPT Wallet or other agentic payment products, and we are focused on helping businesses make that transition."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Alongside ChatGPT Wallet, we’re publishing a Commerce Partner Playbook⁠(opens in a new window) with tools and practical guidance to help businesses support customers using agents through their existing websites and systems. It covers making product information available, ensuring agent access, and working with payment and risk providers to reduce unnecessary declines. Businesses can start with the areas most relevant to their customers:",
+        "th": "Alongside ChatGPT Wallet, we’re publishing a Commerce Partner Playbook⁠(opens in a new window) with tools and practical guidance to help businesses support customers using agents through their existing websites and systems. It covers making product information available, ensuring agent access, and working with payment and risk providers to reduce unnecessary declines. Businesses can start with the areas most relevant to their customers:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Help customers find accurate product information. Claim your business in ChatGPT and, once verified, update your business details and upload a product feed with current pricing and availability.",
+        "th": "Help customers find accurate product information. Claim your business in ChatGPT and, once verified, update your business details and upload a product feed with current pricing and availability."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Help customers find accurate product information. Claim your business in ChatGPT and, once verified, update your business details and upload a product feed with current pricing and availability.",
+        "th": "Help customers find accurate product information. Claim your business in ChatGPT and, once verified, update your business details and upload a product feed with current pricing and availability."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Ensure ChatGPT agents can access your website. Configure your CDN or firewall to recognize signed requests using Web Bot Auth and confirm your general site security measures are not inadvertently blocking ChatGPT agents. Browser access does not require a plugin or product feed.",
+        "th": "Ensure ChatGPT agents can access your website. Configure your CDN or firewall to recognize signed requests using Web Bot Auth and confirm your general site security measures are not inadvertently blocking ChatGPT agents. Browser access does not require a plugin or product feed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Ensure ChatGPT agents can access your website. Configure your CDN or firewall to recognize signed requests using Web Bot Auth and confirm your general site security measures are not inadvertently blocking ChatGPT agents. Browser access does not require a plugin or product feed.",
+        "th": "Ensure ChatGPT agents can access your website. Configure your CDN or firewall to recognize signed requests using Web Bot Auth and confirm your general site security measures are not inadvertently blocking ChatGPT agents. Browser access does not require a plugin or product feed."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Work with your payments and risk providers to support agent purchases. Wallet’s payment tokens work with existing checkout flows, but risk systems may still flag legitimate purchases made by agents, leading to declines or cancellations. You can work with your providers to understand how they recognize these transactions. We’re also working with fraud prevention partners including Forter, Riskified, Sardine and Signifyd and payment service providers including Adyen, Checkout.com, and Stripe to help their systems recognize legitimate purchases made by agents.",
+        "th": "Work with your payments and risk providers to support agent purchases. Wallet’s payment tokens work with existing checkout flows, but risk systems may still flag legitimate purchases made by agents, leading to declines or cancellations. You can work with your providers to understand how they recognize these transactions. We’re also working with fraud prevention partners including Forter, Riskified, Sardine and Signifyd and payment service providers including Adyen, Checkout.com, and Stripe to help their systems recognize legitimate purchases made by agents."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Work with your payments and risk providers to support agent purchases. Wallet’s payment tokens work with existing checkout flows, but risk systems may still flag legitimate purchases made by agents, leading to declines or cancellations. You can work with your providers to understand how they recognize these transactions. We’re also working with fraud prevention partners including Forter, Riskified, Sardine and Signifyd and payment service providers including Adyen, Checkout.com, and Stripe to help their systems recognize legitimate purchases made by agents.",
+        "th": "Work with your payments and risk providers to support agent purchases. Wallet’s payment tokens work with existing checkout flows, but risk systems may still flag legitimate purchases made by agents, leading to declines or cancellations. You can work with your providers to understand how they recognize these transactions. We’re also working with fraud prevention partners including Forter, Riskified, Sardine and Signifyd and payment service providers including Adyen, Checkout.com, and Stripe to help their systems recognize legitimate purchases made by agents."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Give agents more ways to work with your business. Build a plugin to let agents check availability, manage carts, or take other actions through your existing systems. Websites can also add WebMCP tools.",
+        "th": "Give agents more ways to work with your business. Build a plugin to let agents check availability, manage carts, or take other actions through your existing systems. Websites can also add WebMCP tools."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Give agents more ways to work with your business. Build a plugin to let agents check availability, manage carts, or take other actions through your existing systems. Websites can also add WebMCP tools.",
+        "th": "Give agents more ways to work with your business. Build a plugin to let agents check availability, manage carts, or take other actions through your existing systems. Websites can also add WebMCP tools."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Availability",
+        "th": "Availability"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ChatGPT Wallet begins rolling out today in dots, enabling users to have their dot complete purchases on their behalf. It will initially be available to ChatGPT Pro subscribers aged 18 and older in the US with eligible US-issued cards. We’ll work with businesses, banks, and payment networks to learn from early use and expand availability, helping more customers and businesses benefit from agentic commerce.",
+        "th": "ChatGPT Wallet begins rolling out today in dots, enabling users to have their dot complete purchases on their behalf. It will initially be available to ChatGPT Pro subscribers aged 18 and older in the US with eligible US-issued cards. We’ll work with businesses, banks, and payment networks to learn from early use and expand availability, helping more customers and businesses benefit from agentic commerce."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ChatGPT",
+        "th": "ChatGPT"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6HUezUUToOnuW0xWUXK9n/935b788b2167e7bc30600e610ac92408/business-agents-blog-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing Businesses in ChatGPT, with a blue verification badge surrounded by a handbag, shopping cart, shopping bag, parcel, and storefront on a blue background."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductNov 10, 2026",
+        "th": "ProductNov 10, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2ReOJcrRGjSgkG3HOVYAf8/7793b38e6bf5c2f68cc3899874d5a832/chatgpt-enterprise-now-available-in-aws-marketplace-cover.png?w=3840&q=90&fm=webp",
+      "alt": "ChatGPT Enterprise now available in AWS Marketplace — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductNov 9, 2026",
+        "th": "ProductNov 9, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1AiFc9sQFyo6YguQtfjHHN/3ac0a37435e1dfd2b532eaefe26b18bb/gpt-6-cyber-cover.png?w=3840&q=90&fm=webp",
+      "alt": "GPT-6 Cyber — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductNov 5, 2026",
+        "th": "ProductNov 5, 2026"
+      }
+    }
+  ]
+}

@@ -1,268 +1,13 @@
 {
-  "generatedAt": "2026-11-13T11:46:40.350Z",
+  "generatedAt": "2026-11-13T19:02:15.000Z",
   "items": [
-    {
-      "id": "anthropic__an-update-on-independent-evaluators",
-      "slug": "an-update-on-independent-evaluators",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-      "category": "News",
-      "date": "2026-11-13T11:45:27.631Z",
-      "image": "https://assets.claude.com/838f435f6184a6d5e3820c31a311c2567c0c8e35.jpg",
-      "title": {
-        "en": "An update on independent evaluators",
-        "th": "An update on independent evaluators"
-      },
-      "summary": {
-        "en": "Anthropic announces updates to embedding independent evaluators",
-        "th": "Anthropic announces updates to embedding independent evaluators"
-      }
-    },
-    {
-      "id": "anthropic__policy",
-      "slug": "policy",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/policy",
-      "category": "News",
-      "date": "2026-11-13T11:45:27.631Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "Policy",
-        "th": "Policy"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      }
-    },
-    {
-      "id": "anthropic__2026-us-midterms",
-      "slug": "2026-us-midterms",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/2026-us-midterms",
-      "category": "News",
-      "date": "2026-11-13T11:45:27.631Z",
-      "image": "https://assets.claude.com/c8dca2b2bfb758ec0357831a3b3fed67f63fa612.jpg",
-      "title": {
-        "en": "Preparing for the 2026 US midterms",
-        "th": "Preparing for the 2026 US midterms"
-      },
-      "summary": {
-        "en": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.",
-        "th": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms."
-      }
-    },
-    {
-      "id": "anthropic__safeguards",
-      "slug": "safeguards",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/safeguards",
-      "category": "News",
-      "date": "2026-11-13T11:45:27.631Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "Safeguards",
-        "th": "Safeguards"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      }
-    },
-    {
-      "id": "anthropic__singapore-office-opening",
-      "slug": "singapore-office-opening",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/singapore-office-opening",
-      "category": "News",
-      "date": "2026-11-13T11:45:27.631Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
-        "th": "Anthropic opens Singapore office and signs MOU with the Government of Singapore"
-      },
-      "summary": {
-        "en": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.",
-        "th": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption."
-      }
-    },
-    {
-      "id": "anthropic__distillation-defenses",
-      "slug": "distillation-defenses",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/distillation-defenses",
-      "category": "News",
-      "date": "2026-11-13T11:45:27.631Z",
-      "image": "https://assets.claude.com/8c43ae859fe55c00a4b42a1c71e269ad55f95f99.jpg",
-      "title": {
-        "en": "Strengthening our defenses against distillation attacks",
-        "th": "Strengthening our defenses against distillation attacks"
-      },
-      "summary": {
-        "en": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
-        "th": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%."
-      }
-    },
-    {
-      "id": "anthropic__anthropic-cyber-mission",
-      "slug": "anthropic-cyber-mission",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
-      "category": "News",
-      "date": "2026-11-13T11:45:27.631Z",
-      "image": "https://assets.claude.com/5758e6c92662c56f208525e00acb800c702c79b6.jpg",
-      "title": {
-        "en": "Introducing the Anthropic Cyber Mission",
-        "th": "Introducing the Anthropic Cyber Mission"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      }
-    },
-    {
-      "id": "anthropic__security",
-      "slug": "security",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/security",
-      "category": "News",
-      "date": "2026-11-13T11:45:27.631Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "Security",
-        "th": "Security"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      }
-    },
-    {
-      "id": "anthropic__2026-usage-policy-update",
-      "slug": "2026-usage-policy-update",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
-      "category": "News",
-      "date": "2026-11-13T11:45:27.631Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "2026 Usage Policy update",
-        "th": "2026 Usage Policy update"
-      },
-      "summary": {
-        "en": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.",
-        "th": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made."
-      }
-    },
-    {
-      "id": "anthropic__genesis-mission-commitment",
-      "slug": "genesis-mission-commitment",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/genesis-mission-commitment",
-      "category": "News",
-      "date": "2026-11-13T11:45:27.631Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "Building on our commitment to American scientific discovery",
-        "th": "Building on our commitment to American scientific discovery"
-      },
-      "summary": {
-        "en": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.",
-        "th": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI."
-      }
-    },
-    {
-      "id": "anthropic__cyber-verification-program",
-      "slug": "cyber-verification-program",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/cyber-verification-program",
-      "category": "News",
-      "date": "2026-11-13T11:45:27.631Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "Expanding the Cyber Verification Program",
-        "th": "Expanding the Cyber Verification Program"
-      },
-      "summary": {
-        "en": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
-        "th": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals."
-      }
-    },
-    {
-      "id": "anthropic__claude-frontier-academy",
-      "slug": "claude-frontier-academy",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/claude-frontier-academy",
-      "category": "News",
-      "date": "2026-11-13T11:45:27.631Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
-        "th": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap"
-      },
-      "summary": {
-        "en": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.",
-        "th": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027."
-      }
-    },
-    {
-      "id": "anthropic__barclays-scales-claude",
-      "slug": "barclays-scales-claude",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/barclays-scales-claude",
-      "category": "News",
-      "date": "2026-11-13T11:45:27.631Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "Barclays scales Claude to upgrade operations and improve client experience",
-        "th": "Barclays scales Claude to upgrade operations and improve client experience"
-      },
-      "summary": {
-        "en": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
-        "th": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations."
-      }
-    },
-    {
-      "id": "anthropic__accenture-embedded-evaluation",
-      "slug": "accenture-embedded-evaluation",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-      "category": "News",
-      "date": "2026-11-13T11:45:27.631Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "Partnering with Accenture on embedded evaluation",
-        "th": "Partnering with Accenture on embedded evaluation"
-      },
-      "summary": {
-        "en": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
-        "th": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years."
-      }
-    },
-    {
-      "id": "anthropic__announcements",
-      "slug": "announcements",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/announcements",
-      "category": "News",
-      "date": "2026-11-13T11:45:27.630Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "Announcements",
-        "th": "Announcements"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      }
-    },
     {
       "id": "anthropic__public-benefit-fund",
       "slug": "public-benefit-fund",
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/public-benefit-fund",
       "category": "News",
-      "date": "2026-11-13T11:45:27.630Z",
+      "date": "2026-11-13T19:00:20.862Z",
       "image": "https://assets.claude.com/f3afec5c5951eebed280125c907ef53524024eba.jpg",
       "title": {
         "en": "Investing in the public benefit",
@@ -279,7 +24,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/s1-sec",
       "category": "News",
-      "date": "2026-11-13T11:45:27.630Z",
+      "date": "2026-11-13T19:00:20.862Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Anthropic files S-1 with the SEC for proposed initial public offering",
@@ -296,7 +41,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/features",
       "category": "News",
-      "date": "2026-11-13T11:45:27.630Z",
+      "date": "2026-11-13T19:00:20.862Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Features",
@@ -313,7 +58,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/roadshow-launch",
       "category": "News",
-      "date": "2026-11-13T11:45:27.630Z",
+      "date": "2026-11-13T19:00:20.862Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Anthropic launches roadshow for proposed initial public offering",
@@ -330,7 +75,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
       "category": "News",
-      "date": "2026-11-13T11:45:27.630Z",
+      "date": "2026-11-13T19:00:20.862Z",
       "image": "https://assets.claude.com/470508b8c3c653e1e53e59e9818e8e63761dc4b6.jpg",
       "title": {
         "en": "AI for Science expands to foundations and research institutions",
@@ -347,7 +92,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
       "category": "News",
-      "date": "2026-11-13T11:45:27.630Z",
+      "date": "2026-11-13T19:00:20.862Z",
       "image": "https://assets.claude.com/197a2df5664af9cd602fae73bb2ada3935444cbe.jpg",
       "title": {
         "en": "Expanding our partnership with GSA to bring Claude to all levels of government",
@@ -364,7 +109,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/partnerships",
       "category": "News",
-      "date": "2026-11-13T11:45:27.630Z",
+      "date": "2026-11-13T19:00:20.862Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Partnerships",
@@ -381,7 +126,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
       "category": "News",
-      "date": "2026-11-13T11:45:27.630Z",
+      "date": "2026-11-13T19:00:20.862Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Donating Agent Skills to the Agentic AI Foundation",
@@ -398,7 +143,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/product",
       "category": "News",
-      "date": "2026-11-13T11:45:27.630Z",
+      "date": "2026-11-13T19:00:20.862Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Product",
@@ -415,7 +160,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
       "category": "News",
-      "date": "2026-11-13T11:45:27.630Z",
+      "date": "2026-11-13T19:00:20.862Z",
       "image": "https://assets.claude.com/34e1c1e6b1c7c99870d9e2ad0dc4aa563e5b2365.jpg",
       "title": {
         "en": "Open call for guest investigators in the life sciences",
@@ -432,7 +177,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
       "category": "News",
-      "date": "2026-11-13T11:45:27.630Z",
+      "date": "2026-11-13T19:00:20.862Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
@@ -441,6 +186,329 @@
       "summary": {
         "en": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement. He has also advised the US government on national security and arms control.  “I am honored to join Anthropic’s Long-Term Benefit Trust and to help the company deliver on its public benefit mission,” said Stubbs. “I use AI tools in my research every day and see what they make possible, and as an educator I have confronted some of the hard questions they raise. As a grandfather, I want to help ensure that AI is developed and deployed for the long-term benefit of humanity.” Stubbs is the Samuel C. Moncher Professor of Physics and of Astronomy at Harvard, where he served as Dean of Science from 2018 to 2024. In 1998, as a member of the High-Z Supernova Search Team, he helped discover the accelerating expansion of the universe, work that later earned the team the Breakthrough Prize in Fundamental Physics. He was also the inaugural project scientist for what is now the Vera C. Rubin Observatory, which started a 10-year survey of the southern sky in June. One of its aims is to study the accelerating expansion he helped discover. More recently, he’s written about how to keep AI-assisted research reproducible when models can give different answers to the same question. He’s a member of JASON, an independent group of scientists who have advised the US government on defense and technology since 1960. \"When Chris found evidence that the universe was expanding at a rate no one expected, he and his team followed the data even when it went against the prevailing wisdom of the field. As AI starts to transform how science itself is done, Chris’s intellectual honesty, rigor, and commitment to the truth are the values we want shaping the future of this technology, and I’m grateful he’s bringing his deep expertise to the Trust,\" said Daniela Amodei, Co-founder and President of Anthropic. Anthropic is a Public Benefit Corporation, which means we’re structured to balance commercial growth with our public benefit purpose. The Trust exists to help us hold that balance over the long term. It has the authority to appoint a majority of Anthropic’s board, and Trustees advise the board and our leadership on critical decisions, particularly those involving risks and societal impacts of AI.  This week we published our first Public Benefit Report [link], a public account of how we’re working toward our mission and where we’re falling short. The Trustees helped define the five mission pillars it measures us against, and the report closes with their assessment of our progress to date. Subject to stockholder approval, we’ve also committed to setting aside a portion of Anthropic’s shares to Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.  “Anthropic's Public Benefit Report sets out what we’re all working toward: helping the world build powerful AI safely, and making sure the technology drives advances that meaningfully improve people’s lives and society as a whole,” added Neil Buddy Shah, Chair of the Long-Term Benefit Trust. “Both goals depend on a deep understanding of frontier science and leading with integrity. Not only has Chris worked on some of the hardest problems in science, but he has consistently been a high-integrity leader of large, complex, collaborative scientific endeavors across academia, government, and the national laboratories. That will be of great value to the Trust as we support Anthropic in developing AI for the long-term benefit of humanity.” Stubbs, the Trust’s first physicist, joins Shah, national security expert Richard Fontaine, and former Federal Reserve Chair Ben Bernanke. Trustees are independent of the company’s management and investors.",
         "th": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement. He has also advised the US government on national security and arms control. “I am honored to join Anthropic’s Long-Term Benefit Trust and to help the company deliver on its public benefit mission,” said Stubbs. “I use AI tools in my research every day and see what they make possible, and as an educator I have confronted some of the hard questions they raise. As a grandfather, I want to help ensure that AI is developed and deployed for the long-term benefit of humanity.” Stubbs is the Samuel C. Moncher Professor of Physics and of Astronomy at Harvard, where he served as Dean of Science from 2018 to 2024. In 1998, as a member of the High-Z Supernova Search Team, he helped discover the accelerating expansion of the universe, work that later earned the team the Breakthrough Prize in Fundamental Physics. He was also the inaugural project scientist for what is now the Vera C. Rubin Observatory, which started a 10-year survey of the southern sky in June. One of its aims is to study the accelerating expansion he helped discover. More recently, he’s written about how to keep AI-assisted research reproducible when models can give different answers to the same question. He’s a member of JASON, an independent group of scientists who have advised the US government on defense and technology since 1960. \"When Chris found evidence that the universe was expanding at a rate no one expected, he and his team followed the data even when it went against the prevailing wisdom of the field. As AI starts to transform how science itself is done, Chris’s intellectual honesty, rigor, and commitment to the truth are the values we want shaping the future of this technology, and I’m grateful he’s bringing his deep expertise to the Trust,\" said Daniela Amodei, Co-founder and President of Anthropic. Anthropic is a Public Benefit Corporation, which means we’re structured to balance commercial growth with our public benefit purpose. The Trust exists to help us hold that balance over the long term. It has the authority to appoint a majority of Anthropic’s board, and Trustees advise the board and our leadership on critical decisions, particularly those involving risks and societal impacts of AI. This week we published our first Public Benefit Report [link], a public account of how we’re working toward our mission and where we’re falling short. The Trustees helped define the five mission pillars it measures us against, and the report closes with their assessment of our progress to date. Subject to stockholder approval, we’ve also committed to setting aside a portion of Anthropic’s shares to Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. “Anthropic's Public Benefit Report sets out what we’re all working toward: helping the world build powerful AI safely, and making sure the technology drives advances that meaningfully improve people’s lives and society as a whole,” added Neil Buddy Shah, Chair of the Long-Term Benefit Trust. “Both goals depend on a deep understanding of frontier science and leading with integrity. Not only has Chris worked on some of the hardest problems in science, but he has consistently been a high-integrity leader of large, complex, collaborative scientific endeavors across academia, government, and the national laboratories. That will be of great value to the Trust as we support Anthropic in developing AI for the long-term benefit of humanity.” Stubbs, the Trust’s first physicist, joins Shah, national security expert Richard Fontaine, and former Federal Reserve Chair Ben Bernanke. Trustees are independent of the company’s management and investors."
+      }
+    },
+    {
+      "id": "anthropic__an-update-on-independent-evaluators",
+      "slug": "an-update-on-independent-evaluators",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "category": "News",
+      "date": "2026-11-13T19:00:20.862Z",
+      "image": "https://assets.claude.com/838f435f6184a6d5e3820c31a311c2567c0c8e35.jpg",
+      "title": {
+        "en": "An update on independent evaluators",
+        "th": "An update on independent evaluators"
+      },
+      "summary": {
+        "en": "Anthropic announces updates to embedding independent evaluators",
+        "th": "Anthropic announces updates to embedding independent evaluators"
+      }
+    },
+    {
+      "id": "anthropic__policy",
+      "slug": "policy",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/policy",
+      "category": "News",
+      "date": "2026-11-13T19:00:20.862Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "Policy",
+        "th": "Policy"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      }
+    },
+    {
+      "id": "anthropic__2026-us-midterms",
+      "slug": "2026-us-midterms",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/2026-us-midterms",
+      "category": "News",
+      "date": "2026-11-13T19:00:20.862Z",
+      "image": "https://assets.claude.com/c8dca2b2bfb758ec0357831a3b3fed67f63fa612.jpg",
+      "title": {
+        "en": "Preparing for the 2026 US midterms",
+        "th": "Preparing for the 2026 US midterms"
+      },
+      "summary": {
+        "en": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.",
+        "th": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms."
+      }
+    },
+    {
+      "id": "anthropic__safeguards",
+      "slug": "safeguards",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/safeguards",
+      "category": "News",
+      "date": "2026-11-13T19:00:20.862Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "Safeguards",
+        "th": "Safeguards"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      }
+    },
+    {
+      "id": "anthropic__singapore-office-opening",
+      "slug": "singapore-office-opening",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "category": "News",
+      "date": "2026-11-13T19:00:20.862Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+        "th": "Anthropic opens Singapore office and signs MOU with the Government of Singapore"
+      },
+      "summary": {
+        "en": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.",
+        "th": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption."
+      }
+    },
+    {
+      "id": "anthropic__distillation-defenses",
+      "slug": "distillation-defenses",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/distillation-defenses",
+      "category": "News",
+      "date": "2026-11-13T19:00:20.862Z",
+      "image": "https://assets.claude.com/8c43ae859fe55c00a4b42a1c71e269ad55f95f99.jpg",
+      "title": {
+        "en": "Strengthening our defenses against distillation attacks",
+        "th": "Strengthening our defenses against distillation attacks"
+      },
+      "summary": {
+        "en": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
+        "th": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%."
+      }
+    },
+    {
+      "id": "anthropic__anthropic-cyber-mission",
+      "slug": "anthropic-cyber-mission",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "category": "News",
+      "date": "2026-11-13T19:00:20.862Z",
+      "image": "https://assets.claude.com/5758e6c92662c56f208525e00acb800c702c79b6.jpg",
+      "title": {
+        "en": "Introducing the Anthropic Cyber Mission",
+        "th": "Introducing the Anthropic Cyber Mission"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      }
+    },
+    {
+      "id": "anthropic__security",
+      "slug": "security",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/security",
+      "category": "News",
+      "date": "2026-11-13T19:00:20.862Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "Security",
+        "th": "Security"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      }
+    },
+    {
+      "id": "anthropic__2026-usage-policy-update",
+      "slug": "2026-usage-policy-update",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "category": "News",
+      "date": "2026-11-13T19:00:20.862Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "2026 Usage Policy update",
+        "th": "2026 Usage Policy update"
+      },
+      "summary": {
+        "en": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.",
+        "th": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made."
+      }
+    },
+    {
+      "id": "anthropic__genesis-mission-commitment",
+      "slug": "genesis-mission-commitment",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+      "category": "News",
+      "date": "2026-11-13T19:00:20.862Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "Building on our commitment to American scientific discovery",
+        "th": "Building on our commitment to American scientific discovery"
+      },
+      "summary": {
+        "en": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.",
+        "th": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI."
+      }
+    },
+    {
+      "id": "anthropic__cyber-verification-program",
+      "slug": "cyber-verification-program",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/cyber-verification-program",
+      "category": "News",
+      "date": "2026-11-13T19:00:20.862Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "Expanding the Cyber Verification Program",
+        "th": "Expanding the Cyber Verification Program"
+      },
+      "summary": {
+        "en": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+        "th": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals."
+      }
+    },
+    {
+      "id": "anthropic__claude-frontier-academy",
+      "slug": "claude-frontier-academy",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "category": "News",
+      "date": "2026-11-13T19:00:20.862Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+        "th": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap"
+      },
+      "summary": {
+        "en": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.",
+        "th": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027."
+      }
+    },
+    {
+      "id": "anthropic__barclays-scales-claude",
+      "slug": "barclays-scales-claude",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "category": "News",
+      "date": "2026-11-13T19:00:20.862Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "Barclays scales Claude to upgrade operations and improve client experience",
+        "th": "Barclays scales Claude to upgrade operations and improve client experience"
+      },
+      "summary": {
+        "en": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
+        "th": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations."
+      }
+    },
+    {
+      "id": "anthropic__accenture-embedded-evaluation",
+      "slug": "accenture-embedded-evaluation",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "category": "News",
+      "date": "2026-11-13T19:00:20.862Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "Partnering with Accenture on embedded evaluation",
+        "th": "Partnering with Accenture on embedded evaluation"
+      },
+      "summary": {
+        "en": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
+        "th": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years."
+      }
+    },
+    {
+      "id": "anthropic__announcements",
+      "slug": "announcements",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/announcements",
+      "category": "News",
+      "date": "2026-11-13T19:00:20.861Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "Announcements",
+        "th": "Announcements"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      }
+    },
+    {
+      "id": "huggingface__simready-assets-robot-pick-and-place",
+      "slug": "simready-assets-robot-pick-and-place",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "category": "News",
+      "date": "2026-11-13T18:00:39.000Z",
+      "image": null,
+      "title": {
+        "en": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+        "th": "Build a Robot Pick-and-Place Simulation with SimReady Assets"
+      },
+      "summary": {
+        "en": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+        "th": "Build a Robot Pick-and-Place Simulation with SimReady Assets"
+      }
+    },
+    {
+      "id": "huggingface__xybench",
+      "slug": "xybench",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "category": "News",
+      "date": "2026-11-13T17:02:35.000Z",
+      "image": null,
+      "title": {
+        "en": "XYBench: Helping with the problem behind the question",
+        "th": "XYBench: Helping with the problem behind the question"
+      },
+      "summary": {
+        "en": "XYBench: Helping with the problem behind the question",
+        "th": "XYBench: Helping with the problem behind the question"
+      }
+    },
+    {
+      "id": "openai__introducing-chatgpt-wallet",
+      "slug": "introducing-chatgpt-wallet",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "category": "Product",
+      "date": "2026-11-13T15:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing ChatGPT Wallet",
+        "th": "Introducing ChatGPT Wallet"
+      },
+      "summary": {
+        "en": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+        "th": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections."
+      }
+    },
+    {
+      "id": "huggingface__llama-cpp-v1",
+      "slug": "llama-cpp-v1",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "category": "News",
+      "date": "2026-11-13T14:05:22.000Z",
+      "image": null,
+      "title": {
+        "en": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+        "th": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem"
+      },
+      "summary": {
+        "en": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+        "th": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem"
       }
     },
     {
@@ -835,6 +903,23 @@
       }
     },
     {
+      "id": "deepmind__opening-the-datasets-behind-our-ai-weather-models",
+      "slug": "opening-the-datasets-behind-our-ai-weather-models",
+      "source": "deepmind",
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "category": "News",
+      "date": "2026-11-10T11:13:04.000Z",
+      "image": "https://lh3.googleusercontent.com/ggsqfaBnOayx-i7z9Kj8AeZruz8BSo0N7tsnqwH8Z3REnHcDKBt-QSA3DR4UUM8lcwklWihSARoEN2AyQFhoRFGFlk2-0-xGuKt_rtGoFwpJg8LHVQ=w528-h297-n-nu-rw-lo",
+      "title": {
+        "en": "Opening the datasets behind our AI weather models",
+        "th": "Opening the datasets behind our AI weather models"
+      },
+      "summary": {
+        "en": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+        "th": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly."
+      }
+    },
+    {
       "id": "openai__introducing-businesses-chatgpt",
       "slug": "introducing-businesses-chatgpt",
       "source": "openai",
@@ -988,23 +1073,6 @@
       }
     },
     {
-      "id": "huggingface__nemotron-personas-finance-japan",
-      "slug": "nemotron-personas-finance-japan",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-      "category": "News",
-      "date": "2026-11-09T15:05:57.000Z",
-      "image": null,
-      "title": {
-        "en": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-        "th": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context"
-      },
-      "summary": {
-        "en": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-        "th": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context"
-      }
-    },
-    {
       "id": "openai__control-room",
       "slug": "control-room",
       "source": "openai",
@@ -1070,23 +1138,6 @@
       "summary": {
         "en": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
         "th": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour."
-      }
-    },
-    {
-      "id": "huggingface__toyblocks",
-      "slug": "toyblocks",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/allenai/toyblocks",
-      "category": "News",
-      "date": "2026-11-06T14:00:48.000Z",
-      "image": null,
-      "title": {
-        "en": "ToyBlocks: A controlled world for robot learning and evaluation",
-        "th": "ToyBlocks: A controlled world for robot learning and evaluation"
-      },
-      "summary": {
-        "en": "ToyBlocks: A controlled world for robot learning and evaluation",
-        "th": "ToyBlocks: A controlled world for robot learning and evaluation"
       }
     },
     {
@@ -1549,23 +1600,6 @@
       }
     },
     {
-      "id": "openai__preparing-our-next-security-sprint-to-harden-openai",
-      "slug": "preparing-our-next-security-sprint-to-harden-openai",
-      "source": "openai",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "category": "Security",
-      "date": "2026-11-02T18:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Preparing our next security sprint to harden OpenAI",
-        "th": "เตรียมการรักษาความปลอดภัยครั้งต่อไปของเราเพื่อทำให้ OpenAI แข็งแกร่งขึ้น"
-      },
-      "summary": {
-        "en": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-        "th": "OpenAI กำลังเตรียมการรักษาความปลอดภัยภายในครั้งต่อไปด้วย Cathedral Systems เพื่อทดสอบและเสริมสร้างการป้องกันโดยใช้ AI"
-      }
-    },
-    {
       "id": "openai__rewarding-defenders-with-bigger-bug-bounties",
       "slug": "rewarding-defenders-with-bigger-bug-bounties",
       "source": "openai",
@@ -1580,6 +1614,23 @@
       "summary": {
         "en": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
         "th": "OpenAI กำลังเพิ่มรางวัล Security Bug Bounty และแนะนำคุณภาพรายงาน ความภักดี และโบนัสแคมเปญลำดับความสำคัญสำหรับนักวิจัยด้านความปลอดภัยอิสระ"
+      }
+    },
+    {
+      "id": "openai__preparing-our-next-security-sprint-to-harden-openai",
+      "slug": "preparing-our-next-security-sprint-to-harden-openai",
+      "source": "openai",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "category": "Security",
+      "date": "2026-11-02T18:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Preparing our next security sprint to harden OpenAI",
+        "th": "เตรียมการรักษาความปลอดภัยครั้งต่อไปของเราเพื่อทำให้ OpenAI แข็งแกร่งขึ้น"
+      },
+      "summary": {
+        "en": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+        "th": "OpenAI กำลังเตรียมการรักษาความปลอดภัยภายในครั้งต่อไปด้วย Cathedral Systems เพื่อทดสอบและเสริมสร้างการป้องกันโดยใช้ AI"
       }
     },
     {
@@ -1631,23 +1682,6 @@
       "summary": {
         "en": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
         "th": "โปรแกรม Grid Protectors ของ OpenAI จะทำงานร่วมกับระบบสาธารณูปโภคเพื่อช่วยให้แคมปัสการประมวลผลในอนาคตสนับสนุนความน่าเชื่อถือของกริดและปกป้องค่าไฟฟ้าของผู้บริโภค"
-      }
-    },
-    {
-      "id": "openai__lifeval",
-      "slug": "lifeval",
-      "source": "openai",
-      "url": "https://openai.com/index/lifeval",
-      "category": "Research",
-      "date": "2026-11-02T09:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "LifeVal",
-        "th": "ไลฟ์วาล"
-      },
-      "summary": {
-        "en": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
-        "th": "ขอแนะนำ LifeVal ซึ่งเป็นเกณฑ์มาตรฐานที่วัดว่า AI ช่วยให้ผู้คนทำงานในแต่ละวันได้ดีเพียงใด ตั้งแต่การค้นหาการดูแลเด็กไปจนถึงการจัดการการเงินและงานเอกสารของรัฐบาล"
       }
     },
     {
@@ -2365,23 +2399,6 @@
       }
     },
     {
-      "id": "huggingface__holo4",
-      "slug": "holo4",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/Hcompany/holo4",
-      "category": "News",
-      "date": "2026-09-28T09:44:05.000Z",
-      "image": null,
-      "title": {
-        "en": "Holo4: powering generalist computer-use agents",
-        "th": "Holo4: powering generalist computer-use agents"
-      },
-      "summary": {
-        "en": "Holo4: powering generalist computer-use agents",
-        "th": "Holo4: powering generalist computer-use agents"
-      }
-    },
-    {
       "id": "deepmind__introducing-gemini-38-live-with-live-avatar",
       "slug": "introducing-gemini-38-live-with-live-avatar",
       "source": "deepmind",
@@ -2804,23 +2821,6 @@
       "summary": {
         "en": "Google commits $40M in AI tokens and credits for the Genesis Mission",
         "th": "Google ทุ่มเงิน 40 ล้านเหรียญสหรัฐในโทเค็น AI และเครดิตสำหรับ Genesis Mission"
-      }
-    },
-    {
-      "id": "deepmind__introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber",
-      "slug": "introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber",
-      "source": "deepmind",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
-      "category": "News",
-      "date": "2026-07-21T15:16:30.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-        "th": "ขอแนะนำ Gemini 3.6 Flash, 3.5 Flash-Lite และ 3.5 Flash Cyber"
-      },
-      "summary": {
-        "en": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
-        "th": "เรากำลังเปิดตัวโมเดล Gemini ใหม่ รวมถึง Gemini 3.6 Flash, 3.5 Flash-Lite และ 3.5 Flash Cyber"
       }
     }
   ]

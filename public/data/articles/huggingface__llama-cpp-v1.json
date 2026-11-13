@@ -1,0 +1,543 @@
+{
+  "id": "huggingface__llama-cpp-v1",
+  "slug": "llama-cpp-v1",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+  "category": "News",
+  "date": "2026-11-13T14:05:22.000Z",
+  "image": null,
+  "title": {
+    "en": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+    "th": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem"
+  },
+  "summary": {
+    "en": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+    "th": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/NQtzmrDdbG0H8qkZvRyGk.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63148d3b996c52bf0142cdbe/ec7pRNrQQy70d-11FiACq.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583857146757-5e67bdd61009063689407479.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617264212503-603d25b75f9d390ab190b777.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/698f3e5bbb8868af0007ee11/ljEcnVumnqdKB8KLdbTfj.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/UP6XBeYna_xGflooV6RF5.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+95",
+        "th": "+95"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/64b12f9135c2e9909c1eca3b/aNTLmtyO_cLuhZgNi9uAQ.jpeg",
+      "alt": "Daniel Bevenius's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63148d3b996c52bf0142cdbe/HXyNkyB0_nHI5WDNdiKHZ.png",
+      "alt": "ggml-org's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63148d3b996c52bf0142cdbe/ec7pRNrQQy70d-11FiACq.jpeg",
+      "alt": "Georgi Gerganov's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63148d3b996c52bf0142cdbe/HXyNkyB0_nHI5WDNdiKHZ.png",
+      "alt": "ggml-org's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6141a88b3a0ec78603c9e784/DJsxSmWV39M33JFheLobC.jpeg",
+      "alt": "merve's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63148d3b996c52bf0142cdbe/HXyNkyB0_nHI5WDNdiKHZ.png",
+      "alt": "ggml-org's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Releases",
+        "th": "Releases"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Semantic version update rules",
+        "th": "Semantic version update rules"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Distribution",
+        "th": "Distribution"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Development",
+        "th": "Development"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Backend and model coverage",
+        "th": "Backend and model coverage"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Thanks",
+        "th": "Thanks"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Additional resources",
+        "th": "Additional resources"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "llama.cpp makes it possible to run multi-modal LLMs across a wide range of hardware - from consumer-grade local machines to high-end enterprise servers. Through quantization, optimized backends, and a portable C/C++ implementation, we make AI inference accessible at every level of the software stack. We believe this is the most lightweight, versatile and sensible platform for building cross-platform and private AI products.",
+        "th": "llama.cpp makes it possible to run multi-modal LLMs across a wide range of hardware - from consumer-grade local machines to high-end enterprise servers. Through quantization, optimized backends, and a portable C/C++ implementation, we make AI inference accessible at every level of the software stack. We believe this is the most lightweight, versatile and sensible platform for building cross-platform and private AI products."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "During the 3.5 years since its inception, the project has grown a lot and many downstream applications already depend on our work. We expect this trend to continue as local AI and privacy become increasingly important in our everyday lives. Every new integration means more developers depending on our library interfaces and therefore having a flexible but stable API is paramount.",
+        "th": "During the 3.5 years since its inception, the project has grown a lot and many downstream applications already depend on our work. We expect this trend to continue as local AI and privacy become increasingly important in our everyday lives. Every new integration means more developers depending on our library interfaces and therefore having a flexible but stable API is paramount."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today we release libraries v1.0.0, highlighting our responsibility to those developers. Moving forward, both llama.cpp and ggml will reflect API and ABI incompatibilities with major-version bumps. As adoption grows, we will be stricter about making those boundaries visible to downstream consumers.",
+        "th": "Today we release libraries v1.0.0, highlighting our responsibility to those developers. Moving forward, both llama.cpp and ggml will reflect API and ABI incompatibilities with major-version bumps. As adoption grows, we will be stricter about making those boundaries visible to downstream consumers."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Releases",
+        "th": "Releases"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Semantic version update rules",
+        "th": "Semantic version update rules"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The following rules apply to all ggml-org projects using semantic versioning:",
+        "th": "The following rules apply to all ggml-org projects using semantic versioning:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Distribution",
+        "th": "Distribution"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are looking forward to expanding the ways in which ggml-org software is distributed and reaches developers and end-users. For more information about how to add ggml-org projects to your packaging and release pipelines, please check the following discussion.",
+        "th": "We are looking forward to expanding the ways in which ggml-org software is distributed and reaches developers and end-users. For more information about how to add ggml-org projects to your packaging and release pipelines, please check the following discussion."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Development",
+        "th": "Development"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The project has fostered an amazing open-source community with highly-skilled and talented contributors. With the rapid advance of AI capabilities in the field of software engineering, we continue to adapt and integrate LLMs in our developement cycle in a thoughtful and resonable manner. Maintaining a high quality codebase, staying in control of the architecture and understanding the implementation details will remain our top priorities.",
+        "th": "The project has fostered an amazing open-source community with highly-skilled and talented contributors. With the rapid advance of AI capabilities in the field of software engineering, we continue to adapt and integrate LLMs in our developement cycle in a thoughtful and resonable manner. Maintaining a high quality codebase, staying in control of the architecture and understanding the implementation details will remain our top priorities."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To reinforce the faster pace of development we continue to invest more and more resources in improving the CI infrastructure behind the projects. Thanks to HF technologies such as HF Buckets and HF Jobs we are able to scale the capacity necessary to guarantee correctness for every change that lands on the master branches. With hardware support from NVIDIA, AMD, Qualcomm, Arm, IBM and Intel, we continue to enroll more self-hosted runners across all major hardware platforms.",
+        "th": "To reinforce the faster pace of development we continue to invest more and more resources in improving the CI infrastructure behind the projects. Thanks to HF technologies such as HF Buckets and HF Jobs we are able to scale the capacity necessary to guarantee correctness for every change that lands on the master branches. With hardware support from NVIDIA, AMD, Qualcomm, Arm, IBM and Intel, we continue to enroll more self-hosted runners across all major hardware platforms."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Backend and model coverage",
+        "th": "Backend and model coverage"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The underlying machine learning engine of llama.cpp - ggml is designed to run on virtually any hardware in existence. This is achieved by implementing dedicated ggml backends. Each backend can be compiled as a dynamic library and optionally loaded at runtime.",
+        "th": "The underlying machine learning engine of llama.cpp - ggml is designed to run on virtually any hardware in existence. This is achieved by implementing dedicated ggml backends. Each backend can be compiled as a dynamic library and optionally loaded at runtime."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A complete list of the currently implemented backends can be found here.",
+        "th": "A complete list of the currently implemented backends can be found here."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We are committed to provide continuous support of all model architectures. Currently, llama.cpp supports more than 150 architecture variants as well as all mainstream speculative decoding methods.",
+        "th": "We are committed to provide continuous support of all model architectures. Currently, llama.cpp supports more than 150 architecture variants as well as all mainstream speculative decoding methods."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Thanks",
+        "th": "Thanks"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The llama.cpp team at Hugging Face is thankful for the incredible support from the community. Special thanks to the long-time maintainers of the project and all contributors. This is a significant milestone which would not have been possible without our joint efforts!",
+        "th": "The llama.cpp team at Hugging Face is thankful for the incredible support from the community. Special thanks to the long-time maintainers of the project and all contributors. This is a significant milestone which would not have been possible without our joint efforts!"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Additional resources",
+        "th": "Additional resources"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "llama.cpp examples",
+        "th": "llama.cpp examples"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ggml-org at Hugging Face",
+        "th": "ggml-org at Hugging Face"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ggml-org at Github",
+        "th": "ggml-org at Github"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Check out Llama desktop apps for MacOS and Windows, shipped with love by the team behind llama.cpp and Hugging Face.",
+        "th": "Check out Llama desktop apps for MacOS and Windows, shipped with love by the team behind llama.cpp and Hugging Face."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More from this author",
+        "th": "More from this author"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/qD9H-b23e-X70mlX5XIx1.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "New in llama.cpp: Decision Models",
+        "th": "New in llama.cpp: Decision Models"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63148d3b996c52bf0142cdbe/HXyNkyB0_nHI5WDNdiKHZ.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/63ca214abedad7e2bf1d1517/PxuOfUbyKOlauU650Wios.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Using OCR models with llama.cpp",
+        "th": "Using OCR models with llama.cpp"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63148d3b996c52bf0142cdbe/HXyNkyB0_nHI5WDNdiKHZ.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "Community"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583857146757-5e67bdd61009063689407479.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "🔥🔥🔥",
+        "th": "🔥🔥🔥"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617264212503-603d25b75f9d390ab190b777.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Let's go!!",
+        "th": "Let's go!!"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65d66b494bbd0d92b641cdbb/6-7dm7B-JxcoS1QlCPdMN.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "THIS",
+        "th": "THIS"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/67c5d537358173ae2f6a038c/kjxn09Z7NFluvjY_R00cC.png",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "🚀",
+        "th": "🚀"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d648291fa3e4e7ae3fa6e8/oatOwf8Xqe5eDbCSuYqCd.png",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "YES!",
+        "th": "YES!"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65bb837dbfb878f46c77de4c/23gZ_lBEwyoqjexFy9QLD.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "🔥🔥🚀🚀",
+        "th": "🔥🔥🚀🚀"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/Yt6lTHZzIvVuGpj_Fka_t.png",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Nice!!!",
+        "th": "Nice!!!"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/oFYkELh-lKfDSTmtSdmF0.png",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "👏👏👏",
+        "th": "👏👏👏"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1643148576788-6196cf5c7bf349604352ecda.png",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "COOL",
+        "th": "COOL"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6776855be57a4c8f9e6e7aaf/rPvn5Og7NX7PXk1d1mnXP.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Is there no Linux desktop app?",
+        "th": "Is there no Linux desktop app?"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6036cca833b7b6f8f2e6748e/MiSTtrrXz1_KxJJwtK23N.png",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Great news!!!",
+        "th": "Great news!!!"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· Sign up or log in to comment"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/NQtzmrDdbG0H8qkZvRyGk.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63148d3b996c52bf0142cdbe/ec7pRNrQQy70d-11FiACq.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583857146757-5e67bdd61009063689407479.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617264212503-603d25b75f9d390ab190b777.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/698f3e5bbb8868af0007ee11/ljEcnVumnqdKB8KLdbTfj.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/UP6XBeYna_xGflooV6RF5.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/J45uU0ctfprHaqrGfNoCy.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/OD5-IRD81mXlt3HQd6x3u.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/f3b23beb0241ff3c32975da592c00af4.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65d66b494bbd0d92b641cdbb/6-7dm7B-JxcoS1QlCPdMN.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/2b8b4cf7d8930887629e7bcaf0401f61.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/67c5d537358173ae2f6a038c/kjxn09Z7NFluvjY_R00cC.png",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+89",
+        "th": "+89"
+      }
+    }
+  ]
+}

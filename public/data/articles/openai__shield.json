@@ -1,0 +1,284 @@
+{
+  "id": "openai__shield",
+  "slug": "shield",
+  "source": "openai",
+  "url": "https://openai.com/business/customer-stories/shield",
+  "category": "News",
+  "date": "2026-11-13T08:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Shield helps technicians hand off legacy portal work with OpenAI",
+    "th": "Shield helps technicians hand off legacy portal work with OpenAI"
+  },
+  "summary": {
+    "en": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+    "th": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 13, 2026",
+        "th": "November 13, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With GPT‑6 Astra, the agents in Shield’s Forge platform navigate legacy portals so technicians can focus on issues that need their attention.",
+        "th": "With GPT‑6 Astra, the agents in Shield’s Forge platform navigate legacy portals so technicians can focus on issues that need their attention."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4CfbTP671OIBXAefIhFylo/55459081ad76a55d751bda065ff309f3/square.png?w=3840&q=90&fm=webp",
+      "alt": "White Shield logo on a dark green smoked-glass texture."
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Access as a bottleneck",
+        "th": "Access as a bottleneck"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Agents that work like a technician",
+        "th": "Agents that work like a technician"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More work technicians can hand off",
+        "th": "More work technicians can hand off"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What’s next",
+        "th": "What’s next"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Access as a bottleneck",
+        "th": "Access as a bottleneck"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Agents that work like a technician",
+        "th": "Agents that work like a technician"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More work technicians can hand off",
+        "th": "More work technicians can hand off"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What’s next",
+        "th": "What’s next"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For many small and medium-sized businesses, an outsourced IT services provider handles everything from an employee locked out of their laptop to a misconfigured firewall that took the office offline.",
+        "th": "For many small and medium-sized businesses, an outsourced IT services provider handles everything from an employee locked out of their laptop to a misconfigured firewall that took the office offline."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Shield built Forge⁠(opens in a new window), an AI operating system for IT services providers. The platform brings together business data and customer context to help providers complete IT support tasks end to end. That means its agents also need to work in the older portals technicians use every day. With OpenAI’s GPT‑6 Astra, Shield can now hand supported browser tasks to agents instead of leaving a technician to log in and finish them manually.",
+        "th": "Shield built Forge⁠(opens in a new window), an AI operating system for IT services providers. The platform brings together business data and customer context to help providers complete IT support tasks end to end. That means its agents also need to work in the older portals technicians use every day. With OpenAI’s GPT‑6 Astra, Shield can now hand supported browser tasks to agents instead of leaving a technician to log in and finish them manually."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Access as a bottleneck",
+        "th": "Access as a bottleneck"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“If a customer is locked out of their computer or there’s a phishing attack, speed is paramount,” says Jain. “Whether you’re going to solve their issue or you’re going to escalate to a human, you want to do either as fast as possible.”",
+        "th": "“If a customer is locked out of their computer or there’s a phishing attack, speed is paramount,” says Jain. “Whether you’re going to solve their issue or you’re going to escalate to a human, you want to do either as fast as possible.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before using GPT‑6 Astra, Forge’s agents could get stuck at systems they could not access. Customers then had to wait for a technician to complete that step.",
+        "th": "Before using GPT‑6 Astra, Forge’s agents could get stuck at systems they could not access. Customers then had to wait for a technician to complete that step."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Shield tried computer use, where an AI model reads the screen, clicks, and types, with earlier models. Jain says they were not reliable or fast enough. “Usually, a system that doesn’t have an API is an old-school system that also doesn’t look very nice and is very hard to use, even by a human,” Jain says.",
+        "th": "Shield tried computer use, where an AI model reads the screen, clicks, and types, with earlier models. Jain says they were not reliable or fast enough. “Usually, a system that doesn’t have an API is an old-school system that also doesn’t look very nice and is very hard to use, even by a human,” Jain says."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Agents that work like a technician",
+        "th": "Agents that work like a technician"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Technicians spend much of their day in portals that manage tickets, devices and software licenses. Many of those systems lack APIs, so an agent needs to navigate the screen much as a person would.",
+        "th": "Technicians spend much of their day in portals that manage tickets, devices and software licenses. Many of those systems lack APIs, so an agent needs to navigate the screen much as a person would."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Forge’s AI Engineer assigns the work to a computer-use agent, and GPT‑6 Astra navigates the interface to complete supported tasks. Technicians decide which actions it can take on its own and where they need to review or approve the work.",
+        "th": "Forge’s AI Engineer assigns the work to a computer-use agent, and GPT‑6 Astra navigates the interface to complete supported tasks. Technicians decide which actions it can take on its own and where they need to review or approve the work."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Shield says these browser workflows are live, with thousands of runs each month across its IT providers. Phone calls, on-site work and remote-desktop tasks still need human involvement.",
+        "th": "Shield says these browser workflows are live, with thousands of runs each month across its IT providers. Phone calls, on-site work and remote-desktop tasks still need human involvement."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“GPT‑6 Astra allows our agents to embody what a technician does by logging into portals and legacy websites that might not have API access and performing tasks that only a human could six months ago,” says Mayank Jain, Head of Technology at Shield.",
+        "th": "“GPT‑6 Astra allows our agents to embody what a technician does by logging into portals and legacy websites that might not have API access and performing tasks that only a human could six months ago,” says Mayank Jain, Head of Technology at Shield."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "More work technicians can hand off",
+        "th": "More work technicians can hand off"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jain says GPT‑6 Astra was 35-40% faster on average than the legacy models Shield had used for computer-use tasks. He also says customer satisfaction is higher on tickets where AI is used, with speed of resolution being a critical factor.",
+        "th": "Jain says GPT‑6 Astra was 35-40% faster on average than the legacy models Shield had used for computer-use tasks. He also says customer satisfaction is higher on tickets where AI is used, with speed of resolution being a critical factor."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Shield reports faster execution, fewer failures and fewer timeouts. Its teams also spend less time writing detailed instructions to an agent or helping it through a task.",
+        "th": "Shield reports faster execution, fewer failures and fewer timeouts. Its teams also spend less time writing detailed instructions to an agent or helping it through a task."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What’s next",
+        "th": "What’s next"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Shield is testing remote-desktop workflows that would let agents perform more complex actions directly on a computer’s desktop.",
+        "th": "Shield is testing remote-desktop workflows that would let agents perform more complex actions directly on a computer’s desktop."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Jain says, “With GPT‑6 Astra, Forge is now truly an extension of our human technicians.”",
+        "th": "Jain says, “With GPT‑6 Astra, Forge is now truly an extension of our human technicians.”"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Join the new era of work",
+        "th": "Join the new era of work"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get OpenAI for Business updates",
+        "th": "Get OpenAI for Business updates"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Product updates, practical guides, upcoming events, and more.",
+        "th": "Product updates, practical guides, upcoming events, and more."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By subscribing, you agree to receive emails from OpenAI. You can unsubscribe at any time. Read our Privacy Policy⁠.",
+        "th": "By subscribing, you agree to receive emails from OpenAI. You can unsubscribe at any time. Read our Privacy Policy⁠."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3G81mAbtfFHHKICLGkAdZa/d19f1ad229a8aeee17fc65303127bd68/oai_Podium_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "oai Podium 1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Dec 11, 2025",
+        "th": "Dec 11, 2025"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6x9wAoJk0NrMRUfbs3R0w/01105ca1fd669c1f89f6d030c7cedebe/oai_HYGH_1.1.png?w=3840&q=90&fm=webp",
+      "alt": "HYGH > Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Oct 10, 2025",
+        "th": "Oct 10, 2025"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5B8tYqcVtztQ9PNAvMLPLO/8f2fc1472cb497b2d2b8ff82c0c1eeba/Gondola-Option-A-Art-Card-1080x1080.png?w=3840&q=90&fm=webp",
+      "alt": "Gondola — art card and hero"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupNov 12, 2026",
+        "th": "StartupNov 12, 2026"
+      }
+    }
+  ]
+}

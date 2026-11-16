@@ -1229,6 +1229,25 @@
       }
     },
     {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/fw_tTVJHXX5zpn2hs0GnU.png",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The state + questions interface carries over to hosted decision models too. meraGPT Decider 1.1 takes the same shape through an API (model decider-1.1) rather than as open weights: up to 255 options per choice question, images in the state, and if you offer an \"I don't know\" option it takes it when the state doesn't support an answer. Against TypeSafe Jev 1.14 on the same items it's ahead on typed decisions, calibration and large label sets. Input is $0.04 per million tokens and output is free.",
+        "th": "The state + questions interface carries over to hosted decision models too. meraGPT Decider 1.1 takes the same shape through an API (model decider-1.1) rather than as open weights: up to 255 options per choice question, images in the state, and if you offer an \"I don't know\" option it takes it when the state doesn't support an answer. Against TypeSafe Jev 1.14 on the same items it's ahead on typed decisions, calibration and large label sets. Input is $0.04 per million tokens and output is free."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Release notes: https://meragpt.com/blog/introducing-decider-1-1?utm_source=huggingface&utm_medium=social&utm_campaign=hf_decision_blog",
+        "th": "Release notes: https://meragpt.com/blog/introducing-decider-1-1?utm_source=huggingface&utm_medium=social&utm_campaign=hf_decision_blog"
+      }
+    },
+    {
       "type": "p",
       "text": {
         "en": "· Sign up or log in to comment",

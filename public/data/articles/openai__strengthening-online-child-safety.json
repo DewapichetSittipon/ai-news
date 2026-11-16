@@ -1,0 +1,319 @@
+{
+  "id": "openai__strengthening-online-child-safety",
+  "slug": "strengthening-online-child-safety",
+  "source": "openai",
+  "url": "https://openai.com/index/strengthening-online-child-safety",
+  "category": "Safety",
+  "date": "2026-11-16T17:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Strengthening the fight against online child sexual abuse with new tools and support",
+    "th": "Strengthening the fight against online child sexual abuse with new tools and support"
+  },
+  "summary": {
+    "en": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+    "th": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 16, 2026",
+        "th": "November 16, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+        "th": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re releasing a new tool to detect child sexual abuse material (CSAM), interventions that interrupt harmful behavior and point people toward help, practical resources for developers, and support for child-safety law enforcement investigators. These efforts build on our Child Safety Blueprint and our ongoing work to detect, block, and report abuse. For parents, the goal is simple: technology that helps keep children safe, with people in control.",
+        "th": "Today, we’re releasing a new tool to detect child sexual abuse material (CSAM), interventions that interrupt harmful behavior and point people toward help, practical resources for developers, and support for child-safety law enforcement investigators. These efforts build on our Child Safety Blueprint and our ongoing work to detect, block, and report abuse. For parents, the goal is simple: technology that helps keep children safe, with people in control."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It is well⁠(opens in a new window) established⁠(opens in a new window) that combatting online child predators requires coordination across many organizations. Individual companies like OpenAI have a responsibility to prevent our technology from being exploited by predators to harm children, and we also must work together with the broader industry, child safety organizations and law enforcement to advance our collective efforts to protect children online.",
+        "th": "It is well⁠(opens in a new window) established⁠(opens in a new window) that combatting online child predators requires coordination across many organizations. Individual companies like OpenAI have a responsibility to prevent our technology from being exploited by predators to harm children, and we also must work together with the broader industry, child safety organizations and law enforcement to advance our collective efforts to protect children online."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Helping more organizations detect abusive material",
+        "th": "Helping more organizations detect abusive material"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re building on our current protections with the release of a new image classifier that can detect potential CSAM, including AI-generated material. This new classifier looks for visual signs of abuse, helping teams identify novel images that may not have been seen before. It returns scores that help reviewers decide which images may need attention first. This is the first CSAM classifier with broad availability that has a specific signal on indicating if CSAM may be AI generated.",
+        "th": "We’re building on our current protections with the release of a new image classifier that can detect potential CSAM, including AI-generated material. This new classifier looks for visual signs of abuse, helping teams identify novel images that may not have been seen before. It returns scores that help reviewers decide which images may need attention first. This is the first CSAM classifier with broad availability that has a specific signal on indicating if CSAM may be AI generated."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our teams trained, evaluated, and designed the classifier for real-world deployment with assistance from the National Center for Missing and Exploited Children (NCMEC)⁠(opens in a new window), a nonprofit that operates the CyberTipline, a centralized reporting hub for the online exploitation of children.",
+        "th": "Our teams trained, evaluated, and designed the classifier for real-world deployment with assistance from the National Center for Missing and Exploited Children (NCMEC)⁠(opens in a new window), a nonprofit that operates the CyberTipline, a centralized reporting hub for the online exploitation of children."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re offering access to the classifier to vetted organizations through the OpenAI API at no cost, making CSAM detection more accessible to child safety organizations and the broader industry, including those with teams of varying sizes.",
+        "th": "We’re offering access to the classifier to vetted organizations through the OpenAI API at no cost, making CSAM detection more accessible to child safety organizations and the broader industry, including those with teams of varying sizes."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Child safety is an industry-wide issue that requires strong collaboration across organizations and a variety of solutions. We’ve engaged the Tech Coalition⁠(opens in a new window) and ROOST⁠(opens in a new window) to help us share access to this new tool, and we are strong supporters of tools developed by others such as Thorn’s Safer⁠(opens in a new window) CSAM detection system. In addition, we recently began participating in the Tech Coalition's Lantern program⁠(opens in a new window), where we will share and receive signals relating to online child sexual exploitation and abuse to strengthen cross- platform collaboration.",
+        "th": "Child safety is an industry-wide issue that requires strong collaboration across organizations and a variety of solutions. We’ve engaged the Tech Coalition⁠(opens in a new window) and ROOST⁠(opens in a new window) to help us share access to this new tool, and we are strong supporters of tools developed by others such as Thorn’s Safer⁠(opens in a new window) CSAM detection system. In addition, we recently began participating in the Tech Coalition's Lantern program⁠(opens in a new window), where we will share and receive signals relating to online child sexual exploitation and abuse to strengthen cross- platform collaboration."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’ve tested the classifier internally and with early partners to measure how much abusive material it detects, how often it flags other images, and how it can support safety teams. Their feedback helped us identify weaknesses and improve the system.",
+        "th": "We’ve tested the classifier internally and with early partners to measure how much abusive material it detects, how often it flags other images, and how it can support safety teams. Their feedback helped us identify weaknesses and improve the system."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Results",
+        "th": "Results"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Early tests suggest the classifier can help reviewers focus on abusive images while reducing review of false positives. In an evaluation of user-uploaded images, we compared the new classifier with our current protections and found:",
+        "th": "Early tests suggest the classifier can help reviewers focus on abusive images while reducing review of false positives. In an evaluation of user-uploaded images, we compared the new classifier with our current protections and found:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The new classifier could reduce review work: we estimated that it would flag 48% fewer images while finding roughly the same number of abusive images as the existing tool.",
+        "th": "The new classifier could reduce review work: we estimated that it would flag 48% fewer images while finding roughly the same number of abusive images as the existing tool."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The new classifier could reduce review work: we estimated that it would flag 48% fewer images while finding roughly the same number of abusive images as the existing tool.",
+        "th": "The new classifier could reduce review work: we estimated that it would flag 48% fewer images while finding roughly the same number of abusive images as the existing tool."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Images flagged by the new classifier were about twice as likely to contain abuse.",
+        "th": "Images flagged by the new classifier were about twice as likely to contain abuse."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Images flagged by the new classifier were about twice as likely to contain abuse.",
+        "th": "Images flagged by the new classifier were about twice as likely to contain abuse."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Early access partners have also evaluated how the classifier supports their own safety teams. In fal⁠(opens in a new window)’s testing on human-reviewed production images, reviewers confirmed 72% of the classifier’s high-confidence flags as novel CSAM. invideo AI⁠(opens in a new window)’s testing showed one in four flagged cases led to a ban. In SafetyKit⁠(opens in a new window)’s evaluations involving drawings or animations that sexualize children, the classifier detected 90% of cases.",
+        "th": "Early access partners have also evaluated how the classifier supports their own safety teams. In fal⁠(opens in a new window)’s testing on human-reviewed production images, reviewers confirmed 72% of the classifier’s high-confidence flags as novel CSAM. invideo AI⁠(opens in a new window)’s testing showed one in four flagged cases led to a ban. In SafetyKit⁠(opens in a new window)’s evaluations involving drawings or animations that sexualize children, the classifier detected 90% of cases."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More information about the classifier is available in the CSAM classifier model card⁠(opens in a new window). Organizations interested in the classifier will be able to request access through our intake form⁠. We’ll continue improving the classifier with feedback from those that use it.",
+        "th": "More information about the classifier is available in the CSAM classifier model card⁠(opens in a new window). Organizations interested in the classifier will be able to request access through our intake form⁠. We’ll continue improving the classifier with feedback from those that use it."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Interrupting harmful behavior and pointing people toward help",
+        "th": "Interrupting harmful behavior and pointing people toward help"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We already prohibit CSAM, train our models to refuse requests for it, and take action against accounts that violate our policies. We’re building on those safeguards with new product warnings in ChatGPT that interrupt attempts to find abusive material, explain the consequences, and point people toward help to stop harmful behavior.",
+        "th": "We already prohibit CSAM, train our models to refuse requests for it, and take action against accounts that violate our policies. We’re building on those safeguards with new product warnings in ChatGPT that interrupt attempts to find abusive material, explain the consequences, and point people toward help to stop harmful behavior."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The warning makes clear that sexualizing children causes harm, including when the requested material is AI-generated. Alongside the warning, we’ll remove the flagged conversation and pause access to ChatGPT for 24 hours, while keeping specialist support available to help people stop harmful behavior. Repeated violations may lead to longer restrictions and ultimately account closure or reports to authorities.",
+        "th": "The warning makes clear that sexualizing children causes harm, including when the requested material is AI-generated. Alongside the warning, we’ll remove the flagged conversation and pause access to ChatGPT for 24 hours, while keeping specialist support available to help people stop harmful behavior. Repeated violations may lead to longer restrictions and ultimately account closure or reports to authorities."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6phKwsBa1TVzc2XxxUJSNQ/ff62c0fb3cea0b4e799a7177210c1a19/strengthening-online-child-safety-inline-warning.png?w=3840&q=90&fm=webp",
+      "alt": "ChatGPT warnings explain that sexualizing children is harmful and can be illegal, suspend the account for 24 hours, and offer specialist support."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We developed this approach with input from organizations and academic advisors that research and develop programs to prevent child sexual abuse, including Protect Children⁠(opens in a new window), the Lucy Faithfull Foundation⁠(opens in a new window), Dr. Caoilte Ó Ciardha, Researcher & Honorary Reader in Forensic Psychology at the University of Kent and Joel Scanlan at the University of Tasmania, who independently evaluated a trial⁠(opens in a new window) of deterrent messages.",
+        "th": "We developed this approach with input from organizations and academic advisors that research and develop programs to prevent child sexual abuse, including Protect Children⁠(opens in a new window), the Lucy Faithfull Foundation⁠(opens in a new window), Dr. Caoilte Ó Ciardha, Researcher & Honorary Reader in Forensic Psychology at the University of Kent and Joel Scanlan at the University of Tasmania, who independently evaluated a trial⁠(opens in a new window) of deterrent messages."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Practical support for developers",
+        "th": "Practical support for developers"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The protection of children online doesn’t end with detection. We’ve published CSAM guidance⁠(opens in a new window) to give developers practical steps to prevent abuse, detect harmful content, and act on it. Developed with input from the Tech Coalition⁠(opens in a new window), Thorn⁠(opens in a new window), NCMEC⁠(opens in a new window), and the Internet Watch Foundation⁠(opens in a new window), it is designed for organizations at different stages of building their safety systems.",
+        "th": "The protection of children online doesn’t end with detection. We’ve published CSAM guidance⁠(opens in a new window) to give developers practical steps to prevent abuse, detect harmful content, and act on it. Developed with input from the Tech Coalition⁠(opens in a new window), Thorn⁠(opens in a new window), NCMEC⁠(opens in a new window), and the Internet Watch Foundation⁠(opens in a new window), it is designed for organizations at different stages of building their safety systems."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The guidance provides clear rules, ways for users to report concerns, detection tools, and processes for reviewing and reporting suspected abuse. It also explains how safety identifiers can help developers connect misuse to individual users and how to support the people reviewing sensitive content. Developers can use it alongside tools such as our new image classifier, Moderation API⁠(opens in a new window), ROOST’s self-hosted review console Coop⁠(opens in a new window), and dedicated CSAM detection services such as Thorn’s Safer⁠(opens in a new window).",
+        "th": "The guidance provides clear rules, ways for users to report concerns, detection tools, and processes for reviewing and reporting suspected abuse. It also explains how safety identifiers can help developers connect misuse to individual users and how to support the people reviewing sensitive content. Developers can use it alongside tools such as our new image classifier, Moderation API⁠(opens in a new window), ROOST’s self-hosted review console Coop⁠(opens in a new window), and dedicated CSAM detection services such as Thorn’s Safer⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our commitment to collaboration and supporting the broader developer ecosystem also is reflected in our work with Anthropic and Google to jointly commission new guidance on responding to disclosures of child sexual exploitation and abuse in AI systems. Recently published by the Tech Coalition⁠(opens in a new window), this guidance provides developers with practical recommendations for addressing these sensitive situations.",
+        "th": "Our commitment to collaboration and supporting the broader developer ecosystem also is reflected in our work with Anthropic and Google to jointly commission new guidance on responding to disclosures of child sexual exploitation and abuse in AI systems. Recently published by the Tech Coalition⁠(opens in a new window), this guidance provides developers with practical recommendations for addressing these sensitive situations."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’ve already seen this guidance lead to increased numbers of developers accessing child safety tooling and registering to report CSAM to NCMEC.",
+        "th": "We’ve already seen this guidance lead to increased numbers of developers accessing child safety tooling and registering to report CSAM to NCMEC."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Supporting child-safety law enforcement units",
+        "th": "Supporting child-safety law enforcement units"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Protecting children also means supporting the specialist child safety investigators working to find victims and stop abuse. As we’ve discussed publicly with Thorn⁠(opens in a new window), AI can help investigators organize and prioritize information and reduce unnecessary exposure to abusive material.",
+        "th": "Protecting children also means supporting the specialist child safety investigators working to find victims and stop abuse. As we’ve discussed publicly with Thorn⁠(opens in a new window), AI can help investigators organize and prioritize information and reduce unnecessary exposure to abusive material."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re also supporting child-safety law enforcement units with new tools and trainings on how to use AI in their investigations, including dedicated plugins, investigative tools, and complex data analysis, with access managed by program administrators. At launch, the first tool will help investigators review lengthy chat logs and legal process returns, identify potential connections, and create timelines, with findings linked to source material.",
+        "th": "We’re also supporting child-safety law enforcement units with new tools and trainings on how to use AI in their investigations, including dedicated plugins, investigative tools, and complex data analysis, with access managed by program administrators. At launch, the first tool will help investigators review lengthy chat logs and legal process returns, identify potential connections, and create timelines, with findings linked to source material."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The initial training is planned as an overview and demonstration, supported by a practical field guide that teams can refer to afterward. It will introduce the tools and how they fit into investigative work. Access will depend on agency authorization and program requirements. Future iterations of the training will be proposed at regional, national and international conferences.",
+        "th": "The initial training is planned as an overview and demonstration, supported by a practical field guide that teams can refer to afterward. It will introduce the tools and how they fit into investigative work. Access will depend on agency authorization and program requirements. Future iterations of the training will be proposed at regional, national and international conferences."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Continuing the work together",
+        "th": "Continuing the work together"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These efforts share one goal: preventing harm to children and strengthening the response when abuse occurs. We’ll continue improving our safeguards while empowering child protection organizations, developers, researchers, and investigators with the tools, resources, and expertise they need to protect children, combat exploitation, and bring perpetrators to justice. By working together, we can harness the power of AI to make a meaningful difference in the fight against child sexual exploitation and abuse.",
+        "th": "These efforts share one goal: preventing harm to children and strengthening the response when abuse occurs. We’ll continue improving our safeguards while empowering child protection organizations, developers, researchers, and investigators with the tools, resources, and expertise they need to protect children, combat exploitation, and bring perpetrators to justice. By working together, we can harness the power of AI to make a meaningful difference in the fight against child sexual exploitation and abuse."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "User Safety & Control",
+        "th": "User Safety & Control"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/26M5hp4fA7fMTS8SG5TPyX/249d63025408a0b8ba02b8cffd10ce8e/embedded-assessments-neutral-023-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Announcing our first phase of embedded assessments — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SafetyNov 16, 2026",
+        "th": "SafetyNov 16, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/XFHiXwklxhUiqEYuo22MD/0767c09bbe4c850f05339215f444f097/introducing-control-room-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing Control Room — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SafetyNov 9, 2026",
+        "th": "SafetyNov 9, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1AiFc9sQFyo6YguQtfjHHN/3ac0a37435e1dfd2b532eaefe26b18bb/gpt-6-cyber-cover.png?w=3840&q=90&fm=webp",
+      "alt": "GPT-6 Cyber — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductNov 5, 2026",
+        "th": "ProductNov 5, 2026"
+      }
+    }
+  ]
+}

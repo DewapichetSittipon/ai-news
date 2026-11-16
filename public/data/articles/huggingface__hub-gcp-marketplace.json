@@ -340,6 +340,45 @@
     },
     {
       "type": "img",
+      "src": "/blog/assets/openrouter/thumbnail.jpg",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+        "th": "Hugging Face and OpenRouter join forces to make open-weight models easy to run"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6192895f3b8aa351a46fadfd/gsGa2PvHTKAv7MNbyLH8y.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/5f17f0a0925b9863e28ad517/78BR8GuQiX9a8wbbRlSAC.webp",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d6c40ba71903fb4c1e3261/SQGmYShjtveXBf8HVpxPp.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1659336880158-6273f303f6d63a28483fde12.png",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+3",
+        "th": "+3"
+      }
+    },
+    {
+      "type": "img",
       "src": "/blog/assets/hf-torchtpu/thumbnail.png",
       "alt": ""
     },
@@ -375,45 +414,6 @@
       "text": {
         "en": "+1",
         "th": "+1"
-      }
-    },
-    {
-      "type": "img",
-      "src": "/blog/assets/inference-providers/welcome-baseten.png",
-      "alt": ""
-    },
-    {
-      "type": "h2",
-      "text": {
-        "en": "Baseten on Hugging Face Inference Providers 🔥",
-        "th": "Baseten on Hugging Face Inference Providers 🔥"
-      }
-    },
-    {
-      "type": "img",
-      "src": "/avatars/03669abbb72c99a299d0d24dae76ce43.svg",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/avatars/4f997bf5afe1840c4c6e57319b0bed73.svg",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1667348060565-noauth.png",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "/avatars/547c30b7a5a6d53ca44a8e5b7f3b5b56.svg",
-      "alt": ""
-    },
-    {
-      "type": "li",
-      "text": {
-        "en": "+4",
-        "th": "+4"
       }
     },
     {

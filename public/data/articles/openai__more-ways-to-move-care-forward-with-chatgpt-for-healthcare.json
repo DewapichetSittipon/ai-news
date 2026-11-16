@@ -1,0 +1,1019 @@
+{
+  "id": "openai__more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+  "slug": "more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+  "source": "openai",
+  "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+  "category": "Product",
+  "date": "2026-11-16T06:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "More ways to move care forward with ChatGPT for Healthcare",
+    "th": "More ways to move care forward with ChatGPT for Healthcare"
+  },
+  "summary": {
+    "en": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+    "th": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 16, 2026",
+        "th": "November 16, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+        "th": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Carry work forward across healthcare systems with computer-use agents",
+        "th": "Carry work forward across healthcare systems with computer-use agents"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Stronger clinical answers, everywhere teams work",
+        "th": "Stronger clinical answers, everywhere teams work"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Bring healthcare tools into one conversation",
+        "th": "Bring healthcare tools into one conversation"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Availability and next steps",
+        "th": "Availability and next steps"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Carry work forward across healthcare systems with computer-use agents",
+        "th": "Carry work forward across healthcare systems with computer-use agents"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Stronger clinical answers, everywhere teams work",
+        "th": "Stronger clinical answers, everywhere teams work"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Bring healthcare tools into one conversation",
+        "th": "Bring healthcare tools into one conversation"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Availability and next steps",
+        "th": "Availability and next steps"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Healthcare teams need to piece together information from the EHR, hospital policies, scheduling systems, and payer portals to deliver care and manage operations. With ChatGPT for Healthcare, we’re bringing the tools teams already use and the medical evidence they need into one platform to help them spend less time navigating systems and more time caring for patients.",
+        "th": "Healthcare teams need to piece together information from the EHR, hospital policies, scheduling systems, and payer portals to deliver care and manage operations. With ChatGPT for Healthcare, we’re bringing the tools teams already use and the medical evidence they need into one platform to help them spend less time navigating systems and more time caring for patients."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re sharing advances in computer-use agents⁠, which lets AI agents carry out multi-step work across existing healthcare software. We’re also improving trusted clinical search, which finds, evaluates, and cites medical evidence, and introducing more than 20 new plugins to the healthcare plugin ecosystem.",
+        "th": "Today, we’re sharing advances in computer-use agents⁠, which lets AI agents carry out multi-step work across existing healthcare software. We’re also improving trusted clinical search, which finds, evaluates, and cites medical evidence, and introducing more than 20 new plugins to the healthcare plugin ecosystem."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Together, these capabilities help healthcare teams find the information they need, make decisions grounded in medical evidence, and carry out next steps across the systems they already use.",
+        "th": "Together, these capabilities help healthcare teams find the information they need, make decisions grounded in medical evidence, and carry out next steps across the systems they already use."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Carry work forward across healthcare systems with computer-use agents",
+        "th": "Carry work forward across healthcare systems with computer-use agents"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Organizations often need to move information between disconnected systems to prepare documentation, coordinate care, and complete administrative tasks. Computer-use agents can help with these steps by navigating the software that teams already use: reading screens, clicking, typing, and moving between applications.",
+        "th": "Organizations often need to move information between disconnected systems to prepare documentation, coordinate care, and complete administrative tasks. Computer-use agents can help with these steps by navigating the software that teams already use: reading screens, clicking, typing, and moving between applications."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re sharing advances in computer-use agents for healthcare, including more capable, safe, and affordable models for clinical and administrative workflows, and access controls and audit logs for secure deployments. We’re also sharing our work with healthcare organizations that are deploying agents, including Abridge, Ambience, Cigna Healthcare, and CVS Health, to process referrals, move documents between systems, and bring together the information care teams need. In the demo below, a clinician uses Voice in the ChatGPT app to ask for help following up on an MRI request. The agent reviews the chart and drafts an order and patient reply for review.",
+        "th": "Today, we’re sharing advances in computer-use agents for healthcare, including more capable, safe, and affordable models for clinical and administrative workflows, and access controls and audit logs for secure deployments. We’re also sharing our work with healthcare organizations that are deploying agents, including Abridge, Ambience, Cigna Healthcare, and CVS Health, to process referrals, move documents between systems, and bring together the information care teams need. In the demo below, a clinician uses Voice in the ChatGPT app to ask for help following up on an MRI request. The agent reviews the chart and drafts an order and patient reply for review."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Healthcare organizations can start with a workflow that spans existing applications, set which applications agents can access, and establish clear controls for which steps require human review. To support HIPAA-compliant workflows involving protected health information, organizations must use eligible services covered by their BAA with OpenAI, apply required security and retention settings, and extend protections to connected systems. Content shared with ChatGPT for Healthcare is not used to train models.",
+        "th": "Healthcare organizations can start with a workflow that spans existing applications, set which applications agents can access, and establish clear controls for which steps require human review. To support HIPAA-compliant workflows involving protected health information, organizations must use eligible services covered by their BAA with OpenAI, apply required security and retention settings, and extend protections to connected systems. Content shared with ChatGPT for Healthcare is not used to train models."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Read more about our computer use research, customer stories, and demonstrations in Advancing computer-use agents for healthcare teams⁠.",
+        "th": "Read more about our computer use research, customer stories, and demonstrations in Advancing computer-use agents for healthcare teams⁠."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Stronger clinical answers, everywhere teams work",
+        "th": "Stronger clinical answers, everywhere teams work"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re improving trusted clinical search in ChatGPT for Healthcare and ChatGPT for Clinicians, including how ChatGPT finds, evaluates, and cites medical evidence. These updates help clinicians connect relevant evidence to clinical questions and translate it into practical next steps, with citations they can inspect.",
+        "th": "We’re improving trusted clinical search in ChatGPT for Healthcare and ChatGPT for Clinicians, including how ChatGPT finds, evaluates, and cites medical evidence. These updates help clinicians connect relevant evidence to clinical questions and translate it into practical next steps, with citations they can inspect."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To measure the impact of these updates, in a blind evaluation, physicians reviewed responses to real-world clinical questions across multiple specialties, including multi-turn conversations. In over 1300 reviews, physicians rated the updated experience more highly across all eight dimensions evaluated, including factual correctness, safety, actionability, and source authoritativeness.",
+        "th": "To measure the impact of these updates, in a blind evaluation, physicians reviewed responses to real-world clinical questions across multiple specialties, including multi-turn conversations. In over 1300 reviews, physicians rated the updated experience more highly across all eight dimensions evaluated, including factual correctness, safety, actionability, and source authoritativeness."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Bring healthcare tools into one conversation",
+        "th": "Bring healthcare tools into one conversation"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re expanding our healthcare plugin ecosystem with more than 20 new healthcare plugins from leading companies across clinical care, care coordination, and business operations. All of these are available today in ChatGPT for Healthcare, including through ChartGPT, which brings ChatGPT into the EHR workflow⁠.",
+        "th": "We’re expanding our healthcare plugin ecosystem with more than 20 new healthcare plugins from leading companies across clinical care, care coordination, and business operations. All of these are available today in ChatGPT for Healthcare, including through ChartGPT, which brings ChatGPT into the EHR workflow⁠."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Aiva",
+        "th": "Aiva"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000910881f782057a26289550c7&cdn=1&cp=pi&ma=31449600&ts=0&p=pi&cid=8&sig=864c122a6bd0c093c722e66ef496e33153b81fbbece4bb66c04a49c2604a436a&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000a09081f780afca44edc0cbac&cdn=1&cp=pi&ma=30758400&ts=0&p=pi&cid=8&sig=1679c1219fa61235cdd3ad87c3bcb801a9e474f5df6196feda83246c98045c02&v=0",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Amion",
+        "th": "Amion"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5PNEG3XBhICudyrpVwNNsh/95b2bb200e6777faa903904fb8573563/amion.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5PNEG3XBhICudyrpVwNNsh/95b2bb200e6777faa903904fb8573563/amion.png",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Assort Health",
+        "th": "Assort Health"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000a35c81f59a69906d4b6e03e0&cdn=1&cp=pi&ma=31795200&ts=0&p=pi&cid=8&sig=10a6f30ef0326f42a2075c17c2dd7bd054e65e5504a27081a78b349586d2b7bd&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000a35c81f59a69906d4b6e03e0&cdn=1&cp=pi&ma=31795200&ts=0&p=pi&cid=8&sig=10a6f30ef0326f42a2075c17c2dd7bd054e65e5504a27081a78b349586d2b7bd&v=0",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Availity Extend",
+        "th": "Availity Extend"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5llPzdEuwhYcAuayOlB7It/ee612f7b357a18926097e7d3eda2c01d/availity-extend-logo.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5llPzdEuwhYcAuayOlB7It/ee612f7b357a18926097e7d3eda2c01d/availity-extend-logo.png",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Elation Health",
+        "th": "Elation Health"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_0000000061c881f7b2d1f274ece31a2b&cdn=1&cp=pi&ma=31190400&ts=0&p=pi&cid=8&sig=38e66c99c25ef2b832bfdb5fb4020525e7cb7eef2a3db8d2ac0bc9048fed0d97&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_0000000061c881f7b2d1f274ece31a2b&cdn=1&cp=pi&ma=31190400&ts=0&p=pi&cid=8&sig=38e66c99c25ef2b832bfdb5fb4020525e7cb7eef2a3db8d2ac0bc9048fed0d97&v=0",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Ferry",
+        "th": "Ferry"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000ae2c820dad7f4ad9611ec9c0&cdn=1&cp=pi&ma=32227200&ts=0&p=pi&cid=8&sig=6e8cf9553a23fbcf29108bedd9551063a6c0c23c2bc909cf4085fb86ef594422&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000ae2c820dad7f4ad9611ec9c0&cdn=1&cp=pi&ma=32227200&ts=0&p=pi&cid=8&sig=6e8cf9553a23fbcf29108bedd9551063a6c0c23c2bc909cf4085fb86ef594422&v=0",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "IMO Health MCP Server",
+        "th": "IMO Health MCP Server"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_000000001b8881f5b4877bf355afaefd&cdn=1&cp=pi&ma=30758400&ts=0&p=pi&cid=8&sig=0dc6a5cb5e8fd8782da0aa6f841753ba0a79dd51916e089f1f407ea261a842a5&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_000000001b8881f5b4877bf355afaefd&cdn=1&cp=pi&ma=30758400&ts=0&p=pi&cid=8&sig=0dc6a5cb5e8fd8782da0aa6f841753ba0a79dd51916e089f1f407ea261a842a5&v=0",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Infinitus Relay",
+        "th": "Infinitus Relay"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3DozDOAYNUEtEWVhc72Fp1/2317e788646b34de91f31cc041fa18a4/infinitus-relay.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3DozDOAYNUEtEWVhc72Fp1/2317e788646b34de91f31cc041fa18a4/infinitus-relay.png",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "K Health",
+        "th": "K Health"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_0000000004c88212b7ca95c5179cc314&cdn=1&cp=pi&ma=32227200&ts=0&p=pi&cid=8&sig=686cd5309cbbdb771a695798eade11f68e80f84e764a83a781946bc00ca0032d&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_0000000004c88212b7ca95c5179cc314&cdn=1&cp=pi&ma=32227200&ts=0&p=pi&cid=8&sig=686cd5309cbbdb771a695798eade11f68e80f84e764a83a781946bc00ca0032d&v=0",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Luma Health",
+        "th": "Luma Health"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_000000004b4081f483c2e7f74f390bf4&cdn=1&cp=pi&ma=30672000&ts=0&p=pi&cid=8&sig=bddaaf5ce03c514e4d55b010c81fdfa505d75ecb6fb9ded37609b3a22703ef4b&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_000000004b4081f483c2e7f74f390bf4&cdn=1&cp=pi&ma=30672000&ts=0&p=pi&cid=8&sig=bddaaf5ce03c514e4d55b010c81fdfa505d75ecb6fb9ded37609b3a22703ef4b&v=0",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Metriport",
+        "th": "Metriport"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1gXvWVoOD6mI3Ysq0rV2jP/253c9d0a8ea589f99abe7368134f30b4/metriport.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1gXvWVoOD6mI3Ysq0rV2jP/253c9d0a8ea589f99abe7368134f30b4/metriport.png",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Notable Integration Specs",
+        "th": "Notable Integration Specs"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000379081f68fd09edbc12acccb&cdn=1&cp=pi&ma=31363200&ts=0&p=pi&cid=8&sig=f1d16758b58a4c6caa32dbe1b887143e62cfcb83e7e82f370a5f4a4382f1eba3&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000379081f68fd09edbc12acccb&cdn=1&cp=pi&ma=31363200&ts=0&p=pi&cid=8&sig=f1d16758b58a4c6caa32dbe1b887143e62cfcb83e7e82f370a5f4a4382f1eba3&v=0",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Oracle HDI Overview",
+        "th": "Oracle HDI Overview"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_0000000022d882309a3c07f04b7de5f0&cdn=1&cp=pi&ma=30326400&ts=0&p=pi&cid=8&sig=c3b0b8645f5d3512bdd24367fca30725282cb686696f71fc8421b0d17597dc21&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_0000000022d882309a3c07f04b7de5f0&cdn=1&cp=pi&ma=30326400&ts=0&p=pi&cid=8&sig=c3b0b8645f5d3512bdd24367fca30725282cb686696f71fc8421b0d17597dc21&v=0",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "PenguinAI Medical Coding",
+        "th": "PenguinAI Medical Coding"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_000000000dec820887b81134f0e645d8&cdn=1&cp=pi&ma=32659200&ts=0&p=pi&cid=8&sig=24951a0935e4f1614fbe48a5492ee1bb140d6512200f764fdc8e33148ee2490e&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_000000000dec820887b81134f0e645d8&cdn=1&cp=pi&ma=32659200&ts=0&p=pi&cid=8&sig=24951a0935e4f1614fbe48a5492ee1bb140d6512200f764fdc8e33148ee2490e&v=0",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Photon",
+        "th": "Photon"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_000000002f0881f79e084073db2c5827&cdn=1&cp=pi&ma=31449600&ts=0&p=pi&cid=8&sig=4fcb283c16dca4e280620606cbb8b8d7cab12374cb0b953a29e03c4f698b4e3b&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_000000002f0881f79e084073db2c5827&cdn=1&cp=pi&ma=31449600&ts=0&p=pi&cid=8&sig=4fcb283c16dca4e280620606cbb8b8d7cab12374cb0b953a29e03c4f698b4e3b&v=0",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Redox",
+        "th": "Redox"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2cjSTasFjRAxKmnqbVF4MY/f15e0422d4fb2a9ca0f8e55669c06a51/redox.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2cjSTasFjRAxKmnqbVF4MY/f15e0422d4fb2a9ca0f8e55669c06a51/redox.png",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Stedi",
+        "th": "Stedi"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000a18471f49b5d9036b735e9c6&cdn=1&cp=pi&ma=30672000&ts=0&p=pi&cid=8&sig=189c02ed76d9c393442ff3dac6db8edc8211d3afc4f10a12a37680fd7c695068&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000c8847243af0f2ea762e96f66&cdn=1&cp=pi&ma=32400000&ts=0&p=pi&cid=8&sig=5278eb1485076d56126c672a312ac9d8af0719259f91ce120785001b78af21b4&v=0",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Subsalt",
+        "th": "Subsalt"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_000000001d8c81f7ae5b13142d62d045&cdn=1&cp=pi&ma=32400000&ts=0&p=pi&cid=8&sig=286fba4819db21e66f752e06b8aac8a2e41be62708cafe4f7df7d073723a7b8a&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_000000001d8c81f7ae5b13142d62d045&cdn=1&cp=pi&ma=32400000&ts=0&p=pi&cid=8&sig=286fba4819db21e66f752e06b8aac8a2e41be62708cafe4f7df7d073723a7b8a&v=0",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Trizetto",
+        "th": "Trizetto"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3aacGc2k40FVeNRPSC625Q/e02de2b7a65fcce109fa39c7835a9459/trizetto-provider-solutions.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3aacGc2k40FVeNRPSC625Q/e02de2b7a65fcce109fa39c7835a9459/trizetto-provider-solutions.png",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Turquoise",
+        "th": "Turquoise"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_000000003704822fa84f1770a9e6dca7&cdn=1&cp=pi&ma=31968000&ts=0&p=pi&cid=8&sig=4cd9f0da4830e86d5cc524493ce4fd61372095e6ddde664b21bb40f26597b189&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_0000000081a0820da72a6f1f55e9683c&cdn=1&cp=pi&ma=31276800&ts=0&p=pi&cid=8&sig=1729d03a924c1d407235b96991ac0048f75fb87b61527d24814cfbd18fccada6&v=0",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "UpToDate Expert AI",
+        "th": "UpToDate Expert AI"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_000000002eb881f4b03e27aba35eacb6&cdn=1&cp=pi&ma=31968000&ts=0&p=pi&cid=8&sig=942e0bcd8c3b60385413c22434dd6940b40dbba0e30e9c35cac4b4136e87216b&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_000000002eb881f4b03e27aba35eacb6&cdn=1&cp=pi&ma=31968000&ts=0&p=pi&cid=8&sig=942e0bcd8c3b60385413c22434dd6940b40dbba0e30e9c35cac4b4136e87216b&v=0",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These plugins let teams bring more of their work into the same conversation: reviewing patient records and hospital protocols, preparing prescriptions for clinician review, coordinating patient outreach, checking insurance eligibility, and analyzing healthcare costs and operational performance.",
+        "th": "These plugins let teams bring more of their work into the same conversation: reviewing patient records and hospital protocols, preparing prescriptions for clinician review, coordinating patient outreach, checking insurance eligibility, and analyzing healthcare costs and operational performance."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "See how healthcare teams can use these plugins together in ChatGPT.",
+        "th": "See how healthcare teams can use these plugins together in ChatGPT."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Care coordinator | Resolve barriers before the visit",
+        "th": "Care coordinator | Resolve barriers before the visit"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Use Luma Health to find tomorrow’s appointments that still need confirmation, then check those patients’ insurance eligibility with TriZetto. Build a call list showing what I need to confirm or resolve with each patient before their visit.",
+        "th": "Use Luma Health to find tomorrow’s appointments that still need confirmation, then check those patients’ insurance eligibility with TriZetto. Build a call list showing what I need to confirm or resolve with each patient before their visit."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_0000000038d48211a78834f6fd2ee80e&cdn=1&cp=pi&ma=31104000&ts=0&p=pi&cid=8&sig=b1c982248956e9c91281f8970ee47fe4d2fd5832398f6543a71cefa9fb713b15&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3aacGc2k40FVeNRPSC625Q/e02de2b7a65fcce109fa39c7835a9459/trizetto-provider-solutions.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3aacGc2k40FVeNRPSC625Q/e02de2b7a65fcce109fa39c7835a9459/trizetto-provider-solutions.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Primary care physician | Follow up after a hospital stay",
+        "th": "Primary care physician | Follow up after a hospital stay"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "My patient was hospitalized elsewhere for heart failure - find the discharge summary using Metriport. Which medications changed? What follow-up monitoring does UpToDate recommend for those changes? Link me to both sources.",
+        "th": "My patient was hospitalized elsewhere for heart failure - find the discharge summary using Metriport. Which medications changed? What follow-up monitoring does UpToDate recommend for those changes? Link me to both sources."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1gXvWVoOD6mI3Ysq0rV2jP/253c9d0a8ea589f99abe7368134f30b4/metriport.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1gXvWVoOD6mI3Ysq0rV2jP/253c9d0a8ea589f99abe7368134f30b4/metriport.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000932c81f4b824fd9d97a55a6f&cdn=1&cp=pi&ma=31881600&ts=0&p=pi&cid=8&sig=4c78224a09f86884c880e47a0170fee5c15b1422d26e451f162b74874b1eda6c&v=0",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Inpatient nurse | Navigate complex care",
+        "th": "Inpatient nurse | Navigate complex care"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "I’m admitting a patient who uses their own insulin pump, and the admitting team has requested endocrinology input. Pull up our hospital’s inpatient pump policy in AIVA, including required nursing checks and documentation, and use Amion to find the covering endocrinologist and how to reach them.",
+        "th": "I’m admitting a patient who uses their own insulin pump, and the admitting team has requested endocrinology input. Pull up our hospital’s inpatient pump policy in AIVA, including required nursing checks and documentation, and use Amion to find the covering endocrinologist and how to reach them."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000910881f782057a26289550c7&cdn=1&cp=pi&ma=31449600&ts=0&p=pi&cid=8&sig=864c122a6bd0c093c722e66ef496e33153b81fbbece4bb66c04a49c2604a436a&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000a09081f780afca44edc0cbac&cdn=1&cp=pi&ma=30758400&ts=0&p=pi&cid=8&sig=1679c1219fa61235cdd3ad87c3bcb801a9e474f5df6196feda83246c98045c02&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5PNEG3XBhICudyrpVwNNsh/95b2bb200e6777faa903904fb8573563/amion.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5PNEG3XBhICudyrpVwNNsh/95b2bb200e6777faa903904fb8573563/amion.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Care navigator | Compare two sites for an MRI",
+        "th": "Care navigator | Compare two sites for an MRI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "My patient can get a knee MRI without contrast at either of these two hospitals. Use IMO Health to identify the matching procedure code, check their insurance eligibility and benefits in Stedi, then show me their plan’s negotiated rate for that code at each hospital using Turquoise Health. Also identify any additional information needed to estimate what the patient would owe.",
+        "th": "My patient can get a knee MRI without contrast at either of these two hospitals. Use IMO Health to identify the matching procedure code, check their insurance eligibility and benefits in Stedi, then show me their plan’s negotiated rate for that code at each hospital using Turquoise Health. Also identify any additional information needed to estimate what the patient would owe."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_000000002da481f58d1fd426644f9967&cdn=1&cp=pi&ma=32227200&ts=0&p=pi&cid=8&sig=00e9f45a8caa06eaabdf01416c2735eae5c07a0320d693df5056ac7945f22e65&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000a18471f49b5d9036b735e9c6&cdn=1&cp=pi&ma=30672000&ts=0&p=pi&cid=8&sig=189c02ed76d9c393442ff3dac6db8edc8211d3afc4f10a12a37680fd7c695068&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000c8847243af0f2ea762e96f66&cdn=1&cp=pi&ma=32400000&ts=0&p=pi&cid=8&sig=5278eb1485076d56126c672a312ac9d8af0719259f91ce120785001b78af21b4&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_000000005a28822f8ef184b3943ed23f&cdn=1&cp=pi&ma=30758400&ts=0&p=pi&cid=8&sig=0962b4e69c6c12e1a6475757922913bf0b782c53636923cf0a2979081fe31408&v=0",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Referral manager | Review referrals and scheduling follow-ups",
+        "th": "Referral manager | Review referrals and scheduling follow-ups"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For our weekly referral review, use Assort Health to summarize referral volume, conversion trends, and our main referring practices. Use Ferry Health to show appointment tasks by status and link to those awaiting follow-up. Put the referral trends and outstanding scheduling work into a brief my team can use to prioritize patient follow-up.",
+        "th": "For our weekly referral review, use Assort Health to summarize referral volume, conversion trends, and our main referring practices. Use Ferry Health to show appointment tasks by status and link to those awaiting follow-up. Put the referral trends and outstanding scheduling work into a brief my team can use to prioritize patient follow-up."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000a35c81f59a69906d4b6e03e0&cdn=1&cp=pi&ma=31795200&ts=0&p=pi&cid=8&sig=10a6f30ef0326f42a2075c17c2dd7bd054e65e5504a27081a78b349586d2b7bd&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000a35c81f59a69906d4b6e03e0&cdn=1&cp=pi&ma=31795200&ts=0&p=pi&cid=8&sig=10a6f30ef0326f42a2075c17c2dd7bd054e65e5504a27081a78b349586d2b7bd&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000ae2c820dad7f4ad9611ec9c0&cdn=1&cp=pi&ma=32227200&ts=0&p=pi&cid=8&sig=6e8cf9553a23fbcf29108bedd9551063a6c0c23c2bc909cf4085fb86ef594422&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000ae2c820dad7f4ad9611ec9c0&cdn=1&cp=pi&ma=32227200&ts=0&p=pi&cid=8&sig=6e8cf9553a23fbcf29108bedd9551063a6c0c23c2bc909cf4085fb86ef594422&v=0",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Care coordinator | Resolve barriers before the visit",
+        "th": "Care coordinator | Resolve barriers before the visit"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Use Luma Health to find tomorrow’s appointments that still need confirmation, then check those patients’ insurance eligibility with TriZetto. Build a call list showing what I need to confirm or resolve with each patient before their visit.",
+        "th": "Use Luma Health to find tomorrow’s appointments that still need confirmation, then check those patients’ insurance eligibility with TriZetto. Build a call list showing what I need to confirm or resolve with each patient before their visit."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_0000000038d48211a78834f6fd2ee80e&cdn=1&cp=pi&ma=31104000&ts=0&p=pi&cid=8&sig=b1c982248956e9c91281f8970ee47fe4d2fd5832398f6543a71cefa9fb713b15&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3aacGc2k40FVeNRPSC625Q/e02de2b7a65fcce109fa39c7835a9459/trizetto-provider-solutions.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3aacGc2k40FVeNRPSC625Q/e02de2b7a65fcce109fa39c7835a9459/trizetto-provider-solutions.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Primary care physician | Follow up after a hospital stay",
+        "th": "Primary care physician | Follow up after a hospital stay"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "My patient was hospitalized elsewhere for heart failure - find the discharge summary using Metriport. Which medications changed? What follow-up monitoring does UpToDate recommend for those changes? Link me to both sources.",
+        "th": "My patient was hospitalized elsewhere for heart failure - find the discharge summary using Metriport. Which medications changed? What follow-up monitoring does UpToDate recommend for those changes? Link me to both sources."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1gXvWVoOD6mI3Ysq0rV2jP/253c9d0a8ea589f99abe7368134f30b4/metriport.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1gXvWVoOD6mI3Ysq0rV2jP/253c9d0a8ea589f99abe7368134f30b4/metriport.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000932c81f4b824fd9d97a55a6f&cdn=1&cp=pi&ma=31881600&ts=0&p=pi&cid=8&sig=4c78224a09f86884c880e47a0170fee5c15b1422d26e451f162b74874b1eda6c&v=0",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Inpatient nurse | Navigate complex care",
+        "th": "Inpatient nurse | Navigate complex care"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "I’m admitting a patient who uses their own insulin pump, and the admitting team has requested endocrinology input. Pull up our hospital’s inpatient pump policy in AIVA, including required nursing checks and documentation, and use Amion to find the covering endocrinologist and how to reach them.",
+        "th": "I’m admitting a patient who uses their own insulin pump, and the admitting team has requested endocrinology input. Pull up our hospital’s inpatient pump policy in AIVA, including required nursing checks and documentation, and use Amion to find the covering endocrinologist and how to reach them."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000910881f782057a26289550c7&cdn=1&cp=pi&ma=31449600&ts=0&p=pi&cid=8&sig=864c122a6bd0c093c722e66ef496e33153b81fbbece4bb66c04a49c2604a436a&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000a09081f780afca44edc0cbac&cdn=1&cp=pi&ma=30758400&ts=0&p=pi&cid=8&sig=1679c1219fa61235cdd3ad87c3bcb801a9e474f5df6196feda83246c98045c02&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5PNEG3XBhICudyrpVwNNsh/95b2bb200e6777faa903904fb8573563/amion.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5PNEG3XBhICudyrpVwNNsh/95b2bb200e6777faa903904fb8573563/amion.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Care navigator | Compare two sites for an MRI",
+        "th": "Care navigator | Compare two sites for an MRI"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "My patient can get a knee MRI without contrast at either of these two hospitals. Use IMO Health to identify the matching procedure code, check their insurance eligibility and benefits in Stedi, then show me their plan’s negotiated rate for that code at each hospital using Turquoise Health. Also identify any additional information needed to estimate what the patient would owe.",
+        "th": "My patient can get a knee MRI without contrast at either of these two hospitals. Use IMO Health to identify the matching procedure code, check their insurance eligibility and benefits in Stedi, then show me their plan’s negotiated rate for that code at each hospital using Turquoise Health. Also identify any additional information needed to estimate what the patient would owe."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_000000002da481f58d1fd426644f9967&cdn=1&cp=pi&ma=32227200&ts=0&p=pi&cid=8&sig=00e9f45a8caa06eaabdf01416c2735eae5c07a0320d693df5056ac7945f22e65&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000a18471f49b5d9036b735e9c6&cdn=1&cp=pi&ma=30672000&ts=0&p=pi&cid=8&sig=189c02ed76d9c393442ff3dac6db8edc8211d3afc4f10a12a37680fd7c695068&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000c8847243af0f2ea762e96f66&cdn=1&cp=pi&ma=32400000&ts=0&p=pi&cid=8&sig=5278eb1485076d56126c672a312ac9d8af0719259f91ce120785001b78af21b4&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_000000005a28822f8ef184b3943ed23f&cdn=1&cp=pi&ma=30758400&ts=0&p=pi&cid=8&sig=0962b4e69c6c12e1a6475757922913bf0b782c53636923cf0a2979081fe31408&v=0",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Referral manager | Review referrals and scheduling follow-ups",
+        "th": "Referral manager | Review referrals and scheduling follow-ups"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For our weekly referral review, use Assort Health to summarize referral volume, conversion trends, and our main referring practices. Use Ferry Health to show appointment tasks by status and link to those awaiting follow-up. Put the referral trends and outstanding scheduling work into a brief my team can use to prioritize patient follow-up.",
+        "th": "For our weekly referral review, use Assort Health to summarize referral volume, conversion trends, and our main referring practices. Use Ferry Health to show appointment tasks by status and link to those awaiting follow-up. Put the referral trends and outstanding scheduling work into a brief my team can use to prioritize patient follow-up."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000a35c81f59a69906d4b6e03e0&cdn=1&cp=pi&ma=31795200&ts=0&p=pi&cid=8&sig=10a6f30ef0326f42a2075c17c2dd7bd054e65e5504a27081a78b349586d2b7bd&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000a35c81f59a69906d4b6e03e0&cdn=1&cp=pi&ma=31795200&ts=0&p=pi&cid=8&sig=10a6f30ef0326f42a2075c17c2dd7bd054e65e5504a27081a78b349586d2b7bd&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000ae2c820dad7f4ad9611ec9c0&cdn=1&cp=pi&ma=32227200&ts=0&p=pi&cid=8&sig=6e8cf9553a23fbcf29108bedd9551063a6c0c23c2bc909cf4085fb86ef594422&v=0",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://files.openai.com/content?id=file_00000000ae2c820dad7f4ad9611ec9c0&cdn=1&cp=pi&ma=32227200&ts=0&p=pi&cid=8&sig=6e8cf9553a23fbcf29108bedd9551063a6c0c23c2bc909cf4085fb86ef594422&v=0",
+      "alt": ""
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The new plugins join ChatGPT’s broader ecosystem of plugins supporting work across industries, from healthcare data and research⁠ to documents, presentations, and software development.",
+        "th": "The new plugins join ChatGPT’s broader ecosystem of plugins supporting work across industries, from healthcare data and research⁠ to documents, presentations, and software development."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With our plugin partners, we’re making it easier for care teams to bring clinical evidence, patient information, and their everyday tools into ChatGPT. We’re continuing to invest in this ecosystem and inviting more healthcare companies to build with us.",
+        "th": "With our plugin partners, we’re making it easier for care teams to bring clinical evidence, patient information, and their everyday tools into ChatGPT. We’re continuing to invest in this ecosystem and inviting more healthcare companies to build with us."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Availability and next steps",
+        "th": "Availability and next steps"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ChatGPT for Healthcare supports clinical, research, and administrative teams in a governed workspace. ChatGPT for Clinicians is free for eligible, verified clinicians in the U.S. to review medical evidence and prepare clinical documentation. Both products offer customers a Business Associate Agreement (BAA) with OpenAI to support HIPAA-compliant workflows.",
+        "th": "ChatGPT for Healthcare supports clinical, research, and administrative teams in a governed workspace. ChatGPT for Clinicians is free for eligible, verified clinicians in the U.S. to review medical evidence and prepare clinical documentation. Both products offer customers a Business Associate Agreement (BAA) with OpenAI to support HIPAA-compliant workflows."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ChatGPT for Healthcare customers: Computer-use agents in ChatGPT Work and Codex and improved trusted clinical search are available today, subject to workspace settings. Ask your workspace administrator to enable new healthcare plugins.",
+        "th": "ChatGPT for Healthcare customers: Computer-use agents in ChatGPT Work and Codex and improved trusted clinical search are available today, subject to workspace settings. Ask your workspace administrator to enable new healthcare plugins."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ChatGPT for Healthcare customers: Computer-use agents in ChatGPT Work and Codex and improved trusted clinical search are available today, subject to workspace settings. Ask your workspace administrator to enable new healthcare plugins.",
+        "th": "ChatGPT for Healthcare customers: Computer-use agents in ChatGPT Work and Codex and improved trusted clinical search are available today, subject to workspace settings. Ask your workspace administrator to enable new healthcare plugins."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Individual clinicians: Computer-use agents in ChatGPT Work and Codex and improved trusted clinical search are available today. Select plugins are also available. To get started, sign up for a free ChatGPT for Clinicians account⁠(opens in a new window).",
+        "th": "Individual clinicians: Computer-use agents in ChatGPT Work and Codex and improved trusted clinical search are available today. Select plugins are also available. To get started, sign up for a free ChatGPT for Clinicians account⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Individual clinicians: Computer-use agents in ChatGPT Work and Codex and improved trusted clinical search are available today. Select plugins are also available. To get started, sign up for a free ChatGPT for Clinicians account⁠(opens in a new window).",
+        "th": "Individual clinicians: Computer-use agents in ChatGPT Work and Codex and improved trusted clinical search are available today. Select plugins are also available. To get started, sign up for a free ChatGPT for Clinicians account⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Developers exploring computer use: Computer-use agent capability is available in the OpenAI API, ChatGPT Work, and Codex. Contact our sales team⁠ to discuss using these capabilities in your clinical and administrative workflows.",
+        "th": "Developers exploring computer use: Computer-use agent capability is available in the OpenAI API, ChatGPT Work, and Codex. Contact our sales team⁠ to discuss using these capabilities in your clinical and administrative workflows."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Developers exploring computer use: Computer-use agent capability is available in the OpenAI API, ChatGPT Work, and Codex. Contact our sales team⁠ to discuss using these capabilities in your clinical and administrative workflows.",
+        "th": "Developers exploring computer use: Computer-use agent capability is available in the OpenAI API, ChatGPT Work, and Codex. Contact our sales team⁠ to discuss using these capabilities in your clinical and administrative workflows."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To purchase ChatGPT for Healthcare directly or through an AWS Marketplace private offer, contact our sales team⁠.",
+        "th": "To purchase ChatGPT for Healthcare directly or through an AWS Marketplace private offer, contact our sales team⁠."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ChatGPT",
+        "th": "ChatGPT"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "API Platform",
+        "th": "API Platform"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/25dsYCnNJGsdRrXkjPjQI3/a1369c52af783f250d9a6becc4f208bc/advancing-computer-use-for-healthcare-teams-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Advancing computer use for healthcare teams — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductNov 16, 2026",
+        "th": "ProductNov 16, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5XXHqQ61pm335AlEJ6i24k/05c87c234b2be2cd3fdc68645fc24f18/introducing-chatgpt-wallet-for-agents-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing ChatGPT Wallet for agents — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductNov 13, 2026",
+        "th": "ProductNov 13, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6HUezUUToOnuW0xWUXK9n/935b788b2167e7bc30600e610ac92408/business-agents-blog-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing Businesses in ChatGPT, with a blue verification badge surrounded by a handbag, shopping cart, shopping bag, parcel, and storefront on a blue background."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductNov 10, 2026",
+        "th": "ProductNov 10, 2026"
+      }
+    }
+  ]
+}

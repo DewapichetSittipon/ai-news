@@ -1,0 +1,664 @@
+{
+  "id": "openai__our-first-phase-of-embedded-assessments",
+  "slug": "our-first-phase-of-embedded-assessments",
+  "source": "openai",
+  "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+  "category": "Safety",
+  "date": "2026-11-16T08:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Our first phase of embedded assessments",
+    "th": "Our first phase of embedded assessments"
+  },
+  "summary": {
+    "en": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+    "th": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 16, 2026",
+        "th": "November 16, 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Our pilot embedded assessorsApollo ResearchGoodfireMETRTransluce",
+        "th": "Our pilot embedded assessorsApollo ResearchGoodfireMETRTransluce"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Apollo Research",
+        "th": "Apollo Research"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Goodfire",
+        "th": "Goodfire"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "METR",
+        "th": "METR"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Transluce",
+        "th": "Transluce"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Protocols for embedded assessmentsScoping and iterationA secure, on-site environmentOversight and dispute resolutionEmployee discussions and attestationConflict disclosures & cool off periodsPublication and responsible disclosure periods",
+        "th": "Protocols for embedded assessmentsScoping and iterationA secure, on-site environmentOversight and dispute resolutionEmployee discussions and attestationConflict disclosures & cool off periodsPublication and responsible disclosure periods"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Scoping and iteration",
+        "th": "Scoping and iteration"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A secure, on-site environment",
+        "th": "A secure, on-site environment"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Oversight and dispute resolution",
+        "th": "Oversight and dispute resolution"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Employee discussions and attestation",
+        "th": "Employee discussions and attestation"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Conflict disclosures & cool off periods",
+        "th": "Conflict disclosures & cool off periods"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Publication and responsible disclosure periods",
+        "th": "Publication and responsible disclosure periods"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Looking ahead",
+        "th": "มองไปข้างหน้า"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Our pilot embedded assessorsApollo ResearchGoodfireMETRTransluce",
+        "th": "Our pilot embedded assessorsApollo ResearchGoodfireMETRTransluce"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Apollo Research",
+        "th": "Apollo Research"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Goodfire",
+        "th": "Goodfire"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "METR",
+        "th": "METR"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Transluce",
+        "th": "Transluce"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Protocols for embedded assessmentsScoping and iterationA secure, on-site environmentOversight and dispute resolutionEmployee discussions and attestationConflict disclosures & cool off periodsPublication and responsible disclosure periods",
+        "th": "Protocols for embedded assessmentsScoping and iterationA secure, on-site environmentOversight and dispute resolutionEmployee discussions and attestationConflict disclosures & cool off periodsPublication and responsible disclosure periods"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Scoping and iteration",
+        "th": "Scoping and iteration"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A secure, on-site environment",
+        "th": "A secure, on-site environment"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Oversight and dispute resolution",
+        "th": "Oversight and dispute resolution"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Employee discussions and attestation",
+        "th": "Employee discussions and attestation"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Conflict disclosures & cool off periods",
+        "th": "Conflict disclosures & cool off periods"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Publication and responsible disclosure periods",
+        "th": "Publication and responsible disclosure periods"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Looking ahead",
+        "th": "มองไปข้างหน้า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We have signed agreements with four independent assessors—Apollo Research, METR, Transluce, and Goodfire—for our first phase of embedded assessments. As AI capabilities advance rapidly and the potential risks grow, public reporting from independent assessments can give people a clearer view of how labs are evaluating and managing those risks.",
+        "th": "We have signed agreements with four independent assessors—Apollo Research, METR, Transluce, and Goodfire—for our first phase of embedded assessments. As AI capabilities advance rapidly and the potential risks grow, public reporting from independent assessments can give people a clearer view of how labs are evaluating and managing those risks."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Embedded assessments give independent experts deep access to a lab’s internal models and systems to assess model alignment and the effectiveness of safeguards over an extended period of time, especially where relevant to our safety cases. Based on what each evaluation needs, assessors receive access to some of the same internal resources our researchers use, including model checkpoints, source code, training and evaluation data, monitoring systems, technical documentation, and discussions with the researchers and engineers responsible for the work. This access gives assessors the evidence and context to pursue independent evaluations and uncover failures we may not have anticipated.",
+        "th": "Embedded assessments give independent experts deep access to a lab’s internal models and systems to assess model alignment and the effectiveness of safeguards over an extended period of time, especially where relevant to our safety cases. Based on what each evaluation needs, assessors receive access to some of the same internal resources our researchers use, including model checkpoints, source code, training and evaluation data, monitoring systems, technical documentation, and discussions with the researchers and engineers responsible for the work. This access gives assessors the evidence and context to pursue independent evaluations and uncover failures we may not have anticipated."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our initial assessments focus on alignment and safeguards for models during training and internal use, complementing our safety cases. They build on our priorities and principles for third party assessments and years of work with third party evaluators, including a recent pilot assessment of our internal monitoring systems⁠(opens in a new window) with deep internal access and an investigation of the Hugging Face incident⁠(opens in a new window). We’ll use what we learn to deepen our work with independent experts in the coming months. These efforts also support our commitments under the White House Accord on Super Intelligence, where we agreed to independent assessments of our safety controls. These collaborations can contribute to stronger shared standards for independent assessment and public transparency across the industry.",
+        "th": "Our initial assessments focus on alignment and safeguards for models during training and internal use, complementing our safety cases. They build on our priorities and principles for third party assessments and years of work with third party evaluators, including a recent pilot assessment of our internal monitoring systems⁠(opens in a new window) with deep internal access and an investigation of the Hugging Face incident⁠(opens in a new window). We’ll use what we learn to deepen our work with independent experts in the coming months. These efforts also support our commitments under the White House Accord on Super Intelligence, where we agreed to independent assessments of our safety controls. These collaborations can contribute to stronger shared standards for independent assessment and public transparency across the industry."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Our pilot embedded assessors",
+        "th": "Our pilot embedded assessors"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Apollo Research",
+        "th": "Apollo Research"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In this pilot assessment, Apollo Research⁠(opens in a new window) will assess whether models could covertly work against their developers’ intentions and whether our safeguards would detect such behavior. Drawing on evidence from training, safety testing, and internal use. Apollo will assess four claims in two stages:",
+        "th": "In this pilot assessment, Apollo Research⁠(opens in a new window) will assess whether models could covertly work against their developers’ intentions and whether our safeguards would detect such behavior. Drawing on evidence from training, safety testing, and internal use. Apollo will assess four claims in two stages:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Training did not incentivize subversion.",
+        "th": "Training did not incentivize subversion."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Training did not incentivize subversion.",
+        "th": "Training did not incentivize subversion."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Strong evaluations and red teaming do not elicit subversion.",
+        "th": "Strong evaluations and red teaming do not elicit subversion."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Strong evaluations and red teaming do not elicit subversion.",
+        "th": "Strong evaluations and red teaming do not elicit subversion."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Models have not attempted subversion during internal use.",
+        "th": "Models have not attempted subversion during internal use."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Models have not attempted subversion during internal use.",
+        "th": "Models have not attempted subversion during internal use."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Reasoning behind subversion would be detectable.",
+        "th": "Reasoning behind subversion would be detectable."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reasoning behind subversion would be detectable.",
+        "th": "Reasoning behind subversion would be detectable."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For the first stage of Apollo’s assessment, we’ll provide access to selected public and unreleased models and training checkpoints, relevant training data and evaluation results, training intervention records, monitoring systems and flagged behaviors, and researchers who can provide context, alongside the tools and compute needed to conduct independent testing.",
+        "th": "For the first stage of Apollo’s assessment, we’ll provide access to selected public and unreleased models and training checkpoints, relevant training data and evaluation results, training intervention records, monitoring systems and flagged behaviors, and researchers who can provide context, alongside the tools and compute needed to conduct independent testing."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Goodfire",
+        "th": "Goodfire"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Goodfire⁠(opens in a new window) will embed interpretability researchers and use the Goodfire platform to analyze model internals. The main objective of their assessment is training run monitoring, debugging, and alignment. The primary audience for their assessments are internal OpenAI researchers, who will use their findings to make safety improvements. Goodfire will also publish learnings and findings as the collaboration progresses.",
+        "th": "Goodfire⁠(opens in a new window) will embed interpretability researchers and use the Goodfire platform to analyze model internals. The main objective of their assessment is training run monitoring, debugging, and alignment. The primary audience for their assessments are internal OpenAI researchers, who will use their findings to make safety improvements. Goodfire will also publish learnings and findings as the collaboration progresses."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "METR",
+        "th": "METR"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We intend to conduct two assessments with METR⁠(opens in a new window), focused on model alignment and monitoring:",
+        "th": "We intend to conduct two assessments with METR⁠(opens in a new window), focused on model alignment and monitoring:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Alignment assessment: For the first phase, METR will assess misaligned behavior in our largest reinforcement learning run to date, including failures that our existing tests and monitors may have missed. Within the selected run and agreed access, resources, and safety arrangements, METR would independently set assessment priorities and iterate on searches, analyses, and elicitation experiments. Access will include sampling relevant checkpoints, training and eval rollouts, and misalignment monitoring records for this run. For this first phase, the assessment will focus on our largest frontier RL run.1",
+        "th": "Alignment assessment: For the first phase, METR will assess misaligned behavior in our largest reinforcement learning run to date, including failures that our existing tests and monitors may have missed. Within the selected run and agreed access, resources, and safety arrangements, METR would independently set assessment priorities and iterate on searches, analyses, and elicitation experiments. Access will include sampling relevant checkpoints, training and eval rollouts, and misalignment monitoring records for this run. For this first phase, the assessment will focus on our largest frontier RL run.1"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Alignment assessment: For the first phase, METR will assess misaligned behavior in our largest reinforcement learning run to date, including failures that our existing tests and monitors may have missed. Within the selected run and agreed access, resources, and safety arrangements, METR would independently set assessment priorities and iterate on searches, analyses, and elicitation experiments. Access will include sampling relevant checkpoints, training and eval rollouts, and misalignment monitoring records for this run. For this first phase, the assessment will focus on our largest frontier RL run.1",
+        "th": "Alignment assessment: For the first phase, METR will assess misaligned behavior in our largest reinforcement learning run to date, including failures that our existing tests and monitors may have missed. Within the selected run and agreed access, resources, and safety arrangements, METR would independently set assessment priorities and iterate on searches, analyses, and elicitation experiments. Access will include sampling relevant checkpoints, training and eval rollouts, and misalignment monitoring records for this run. For this first phase, the assessment will focus on our largest frontier RL run.1"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Monitor assessment: We recently worked with METR to conduct a monitor stress testing exercise2. We have preliminarily agreed to conduct another monitor assessment⁠(opens in a new window) which we intend to be broader, but this is pending mutual agreement on the assessment scope.",
+        "th": "Monitor assessment: We recently worked with METR to conduct a monitor stress testing exercise2. We have preliminarily agreed to conduct another monitor assessment⁠(opens in a new window) which we intend to be broader, but this is pending mutual agreement on the assessment scope."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Monitor assessment: We recently worked with METR to conduct a monitor stress testing exercise2. We have preliminarily agreed to conduct another monitor assessment⁠(opens in a new window) which we intend to be broader, but this is pending mutual agreement on the assessment scope.",
+        "th": "Monitor assessment: We recently worked with METR to conduct a monitor stress testing exercise2. We have preliminarily agreed to conduct another monitor assessment⁠(opens in a new window) which we intend to be broader, but this is pending mutual agreement on the assessment scope."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Transluce",
+        "th": "Transluce"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Transluce⁠(opens in a new window) will conduct an initial assessment of our post-training alignment evaluations, examining their quality and coverage. For the initial assessment, we will provide Transluce with access to selected public and unreleased models, our post-training alignment evaluations and relevant results, supporting model behavior data and safety case documentation, and researchers who can provide context, alongside the tools and compute needed to conduct independent testing.",
+        "th": "Transluce⁠(opens in a new window) will conduct an initial assessment of our post-training alignment evaluations, examining their quality and coverage. For the initial assessment, we will provide Transluce with access to selected public and unreleased models, our post-training alignment evaluations and relevant results, supporting model behavior data and safety case documentation, and researchers who can provide context, alongside the tools and compute needed to conduct independent testing."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI and Transluce also share the intent to conduct a follow-on assessment of approximately eight weeks in early 2027, with broader access to additional models, deeper access to our alignment evaluations, and information on how evaluation results inform model release decisions.",
+        "th": "OpenAI and Transluce also share the intent to conduct a follow-on assessment of approximately eight weeks in early 2027, with broader access to additional models, deeper access to our alignment evaluations, and information on how evaluation results inform model release decisions."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Protocols for embedded assessments",
+        "th": "Protocols for embedded assessments"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’ve developed protocols and processes with input from the assessors to balance deep access with security, confidentiality, oversight, and the independence and integrity of assessments. We are sharing them to shed light on how we will work with embedded assessors, and to advance discussion about norms for embedded assessments, which have yet to be standardized. We expect that these will need to evolve as we learn more about how to best conduct these assessments. Especially in the early stages of embedded assessments, we expect technical access challenges, space constraints, evolving security protocols, and other unexpected issues to arise. We hope to work through these challenges collaboratively with our embedded assessors and share lessons learned.",
+        "th": "We’ve developed protocols and processes with input from the assessors to balance deep access with security, confidentiality, oversight, and the independence and integrity of assessments. We are sharing them to shed light on how we will work with embedded assessors, and to advance discussion about norms for embedded assessments, which have yet to be standardized. We expect that these will need to evolve as we learn more about how to best conduct these assessments. Especially in the early stages of embedded assessments, we expect technical access challenges, space constraints, evolving security protocols, and other unexpected issues to arise. We hope to work through these challenges collaboratively with our embedded assessors and share lessons learned."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Scoping and iteration",
+        "th": "Scoping and iteration"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each engagement begins with an agreed scope and the access, resources, and safety arrangements needed to conduct a rigorous assessment. Some assessments test specific safety claims; others give assessors room to discover unexpected failure modes within a defined system or training run. In both cases, assessors need the freedom to follow evidence, refine their methods, and propose further assessments when findings warrant it. We also have a process for addressing additional access needs as assessments develop. When direct access could expose our most sensitive IP, such as model weights or architecture, we will consider alternatives, including pairing assessors with OpenAI researchers to run analyses.",
+        "th": "Each engagement begins with an agreed scope and the access, resources, and safety arrangements needed to conduct a rigorous assessment. Some assessments test specific safety claims; others give assessors room to discover unexpected failure modes within a defined system or training run. In both cases, assessors need the freedom to follow evidence, refine their methods, and propose further assessments when findings warrant it. We also have a process for addressing additional access needs as assessments develop. When direct access could expose our most sensitive IP, such as model weights or architecture, we will consider alternatives, including pairing assessors with OpenAI researchers to run analyses."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "A secure, on-site environment",
+        "th": "A secure, on-site environment"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Assessors who need access to sensitive confidential information will work on site at OpenAI offices and be provided OpenAI devices to conduct their work. The primary purpose is to protect the security of the information they access. Working onsite also gives assessors the opportunity to engage with dedicated staff who can help them navigate their access and provide context for their assessments. We also expect our embedded assessors to follow at minimum3 the same security standards as OpenAI employees when running experiments and evaluations.",
+        "th": "Assessors who need access to sensitive confidential information will work on site at OpenAI offices and be provided OpenAI devices to conduct their work. The primary purpose is to protect the security of the information they access. Working onsite also gives assessors the opportunity to engage with dedicated staff who can help them navigate their access and provide context for their assessments. We also expect our embedded assessors to follow at minimum3 the same security standards as OpenAI employees when running experiments and evaluations."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Oversight and dispute resolution",
+        "th": "Oversight and dispute resolution"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our Safety and Security Committee (SSC), an independent oversight committee of the OpenAI Foundation’s Board, will have visibility into the embedded assessment and the ability to exercise their oversight responsibilities before, during, and at their conclusion. They will receive unredacted reports, and both the assessors and the SSC will be able to speak with each other during the assessment, including privately. Disagreements among OpenAI and any evaluator will be escalated to the Safety Advisory Group and OpenAI executives, who will have a specified time period to resolve them, and the SSC will be notified of any such disagreements promptly when escalated. If a disagreement remains, the matter will be referred to the SSC for resolution.",
+        "th": "Our Safety and Security Committee (SSC), an independent oversight committee of the OpenAI Foundation’s Board, will have visibility into the embedded assessment and the ability to exercise their oversight responsibilities before, during, and at their conclusion. They will receive unredacted reports, and both the assessors and the SSC will be able to speak with each other during the assessment, including privately. Disagreements among OpenAI and any evaluator will be escalated to the Safety Advisory Group and OpenAI executives, who will have a specified time period to resolve them, and the SSC will be notified of any such disagreements promptly when escalated. If a disagreement remains, the matter will be referred to the SSC for resolution."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Employee discussions and attestation",
+        "th": "Employee discussions and attestation"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Discussions with employees help assessors understand internal information and the context behind the work. OpenAI will authorize and provide guidance to staff members who can speak to assessors, and assessors may request additional staff to speak with as needed. To encourage open, candid conversations and protect the privacy of our staff, these discussions are off the record, meaning that they can inform the assessments but cannot be published or attributed to employees. Through a separate attestation pathway, assessors can request OpenAI-attested statements verifying, correcting, or clarifying something they learned in conversation with employees. These statements are not attributed to individuals or intended to characterize individual views. Assessors may publish statements that OpenAI attests to, or disclose that OpenAI declined to attest to a statement.",
+        "th": "Discussions with employees help assessors understand internal information and the context behind the work. OpenAI will authorize and provide guidance to staff members who can speak to assessors, and assessors may request additional staff to speak with as needed. To encourage open, candid conversations and protect the privacy of our staff, these discussions are off the record, meaning that they can inform the assessments but cannot be published or attributed to employees. Through a separate attestation pathway, assessors can request OpenAI-attested statements verifying, correcting, or clarifying something they learned in conversation with employees. These statements are not attributed to individuals or intended to characterize individual views. Assessors may publish statements that OpenAI attests to, or disclose that OpenAI declined to attest to a statement."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Conflict disclosures & cool off periods",
+        "th": "Conflict disclosures & cool off periods"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Managing conflicts of interest clearly and transparently—including those involving personal relationships, financial interests4, and other issues—is important to the integrity and independence of evaluations. Cool-off periods5 also need to be designed carefully, so assessors can work responsibly across labs while handling competitive information sensitively. We are working with our assessors to develop clear processes for both conflicts and cool-off periods, including allowing for flexibility in mitigations and transparency in decisions to request recusal.",
+        "th": "Managing conflicts of interest clearly and transparently—including those involving personal relationships, financial interests4, and other issues—is important to the integrity and independence of evaluations. Cool-off periods5 also need to be designed carefully, so assessors can work responsibly across labs while handling competitive information sensitively. We are working with our assessors to develop clear processes for both conflicts and cool-off periods, including allowing for flexibility in mitigations and transparency in decisions to request recusal."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Publication and responsible disclosure periods",
+        "th": "Publication and responsible disclosure periods"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Assessors maintain independence in publishing their assessments, but we will retain the right to redact confidential information, consistent with our previous third-party engagements. We may also request responsible disclosure delays to allow time to act on findings that could pose security or safety risks and remediate issues that remain.",
+        "th": "Assessors maintain independence in publishing their assessments, but we will retain the right to redact confidential information, consistent with our previous third-party engagements. We may also request responsible disclosure delays to allow time to act on findings that could pose security or safety risks and remediate issues that remain."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Public reporting will help people understand the findings and their limitations, while more detailed confidential reports give oversight bodies the evidence they need to act. We want these assessments to improve how we identify and address risks, and give the public a clearer basis for judging our safety work.",
+        "th": "Public reporting will help people understand the findings and their limitations, while more detailed confidential reports give oversight bodies the evidence they need to act. We want these assessments to improve how we identify and address risks, and give the public a clearer basis for judging our safety work."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Looking ahead",
+        "th": "มองไปข้างหน้า"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "These assessments bring an independent perspective to our ongoing alignment and safety work. Public reporting on their findings will make that work more transparent and provide greater assurance about how risks are being identified and addressed. We expect this first phase of assessments to lead to longer-term, consistent embedded engagements over time that can continuously provide third party safety signals and recommended improvements on our most load bearing safety claims and safety cases.",
+        "th": "These assessments bring an independent perspective to our ongoing alignment and safety work. Public reporting on their findings will make that work more transparent and provide greater assurance about how risks are being identified and addressed. We expect this first phase of assessments to lead to longer-term, consistent embedded engagements over time that can continuously provide third party safety signals and recommended improvements on our most load bearing safety claims and safety cases."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’ll continue working with multiple independent third parties to help build a healthy assessment ecosystem with diverse expertise and approaches. Some investigations need sustained, on-site work with sensitive systems; others primarily evaluate deployed or soon to be deployed models or review public documentation.",
+        "th": "We’ll continue working with multiple independent third parties to help build a healthy assessment ecosystem with diverse expertise and approaches. Some investigations need sustained, on-site work with sensitive systems; others primarily evaluate deployed or soon to be deployed models or review public documentation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In the coming months, we’ll support external assessments across a broader range of safety questions. We are also exploring future embedded assessments that would examine compliance with our safety frameworks, as well as our organizational culture and processes. We are committed to expanding this work and helping build the capacity and shared standards needed to sustain it.",
+        "th": "In the coming months, we’ll support external assessments across a broader range of safety questions. We are also exploring future embedded assessments that would examine compliance with our safety frameworks, as well as our organizational culture and processes. We are committed to expanding this work and helping build the capacity and shared standards needed to sustain it."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Alignment",
+        "th": "Alignment"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Footnotes",
+        "th": "Footnotes"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "1This scope is less expansive than what METR outlines in their alignment assessment proposal⁠(opens in a new window), which envisions a broad survey of misalignment.",
+        "th": "1This scope is less expansive than what METR outlines in their alignment assessment proposal⁠(opens in a new window), which envisions a broad survey of misalignment."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This scope is less expansive than what METR outlines in their alignment assessment proposal⁠(opens in a new window), which envisions a broad survey of misalignment.",
+        "th": "This scope is less expansive than what METR outlines in their alignment assessment proposal⁠(opens in a new window), which envisions a broad survey of misalignment."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2We recently conducted a 3 week long monitor red teaming exercise with METR, which granted them access to our codebase, monitors, relevant trajectories, and discussions with OpenAI research staff for the purpose of better understanding our monitors. https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/⁠(opens in a new window)",
+        "th": "2We recently conducted a 3 week long monitor red teaming exercise with METR, which granted them access to our codebase, monitors, relevant trajectories, and discussions with OpenAI research staff for the purpose of better understanding our monitors. https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/⁠(opens in a new window)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We recently conducted a 3 week long monitor red teaming exercise with METR, which granted them access to our codebase, monitors, relevant trajectories, and discussions with OpenAI research staff for the purpose of better understanding our monitors. https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/⁠(opens in a new window)",
+        "th": "We recently conducted a 3 week long monitor red teaming exercise with METR, which granted them access to our codebase, monitors, relevant trajectories, and discussions with OpenAI research staff for the purpose of better understanding our monitors. https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/⁠(opens in a new window)"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "3In some cases, there will be more stringent standards applied depending on the conditions of the experiment to allow for careful security vetting.",
+        "th": "3In some cases, there will be more stringent standards applied depending on the conditions of the experiment to allow for careful security vetting."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In some cases, there will be more stringent standards applied depending on the conditions of the experiment to allow for careful security vetting.",
+        "th": "In some cases, there will be more stringent standards applied depending on the conditions of the experiment to allow for careful security vetting."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "4Apollo Research and Goodfire accept financial compensation for their work, but their compensation is not contingent on the results of their assessment. METR and Transluce do not accept financial compensation for their assessments, but may accept API credits / compute to use within their assessments. We do not believe that accepting financial compensation prevents assessors from maintaining independence - but we believe it is important to disclose this.",
+        "th": "4Apollo Research and Goodfire accept financial compensation for their work, but their compensation is not contingent on the results of their assessment. METR and Transluce do not accept financial compensation for their assessments, but may accept API credits / compute to use within their assessments. We do not believe that accepting financial compensation prevents assessors from maintaining independence - but we believe it is important to disclose this."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Apollo Research and Goodfire accept financial compensation for their work, but their compensation is not contingent on the results of their assessment. METR and Transluce do not accept financial compensation for their assessments, but may accept API credits / compute to use within their assessments. We do not believe that accepting financial compensation prevents assessors from maintaining independence - but we believe it is important to disclose this.",
+        "th": "Apollo Research and Goodfire accept financial compensation for their work, but their compensation is not contingent on the results of their assessment. METR and Transluce do not accept financial compensation for their assessments, but may accept API credits / compute to use within their assessments. We do not believe that accepting financial compensation prevents assessors from maintaining independence - but we believe it is important to disclose this."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "5We ask staff at third party organizations who participate in an embedded assessment to observe a brief cool-off period before embedding with another AI developer, to reduce the risk of inadvertent disclosure of confidential information.",
+        "th": "5We ask staff at third party organizations who participate in an embedded assessment to observe a brief cool-off period before embedding with another AI developer, to reduce the risk of inadvertent disclosure of confidential information."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We ask staff at third party organizations who participate in an embedded assessment to observe a brief cool-off period before embedding with another AI developer, to reduce the risk of inadvertent disclosure of confidential information.",
+        "th": "We ask staff at third party organizations who participate in an embedded assessment to observe a brief cool-off period before embedding with another AI developer, to reduce the risk of inadvertent disclosure of confidential information."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4A8yDKzHroI90UwxXoflij/114ad9e05b9a7a271d375e08d563efa8/strengthening-online-child-safety-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Strengthening online child safety — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SafetyNov 16, 2026",
+        "th": "SafetyNov 16, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/XFHiXwklxhUiqEYuo22MD/0767c09bbe4c850f05339215f444f097/introducing-control-room-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing Control Room — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SafetyNov 9, 2026",
+        "th": "SafetyNov 9, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1AiFc9sQFyo6YguQtfjHHN/3ac0a37435e1dfd2b532eaefe26b18bb/gpt-6-cyber-cover.png?w=3840&q=90&fm=webp",
+      "alt": "GPT-6 Cyber — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductNov 5, 2026",
+        "th": "ProductNov 5, 2026"
+      }
+    }
+  ]
+}

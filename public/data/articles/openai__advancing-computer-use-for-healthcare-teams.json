@@ -1,0 +1,440 @@
+{
+  "id": "openai__advancing-computer-use-for-healthcare-teams",
+  "slug": "advancing-computer-use-for-healthcare-teams",
+  "source": "openai",
+  "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+  "category": "Product",
+  "date": "2026-11-16T06:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Advancing computer-use agents for healthcare teams",
+    "th": "Advancing computer-use agents for healthcare teams"
+  },
+  "summary": {
+    "en": "Advancing computer-use agents for healthcare teams",
+    "th": "Advancing computer-use agents for healthcare teams"
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 16, 2026",
+        "th": "November 16, 2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "From a patient’s message to an MRI authorization request",
+        "th": "From a patient’s message to an MRI authorization request"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Evaluating helpfulness, safety, and cost",
+        "th": "Evaluating helpfulness, safety, and cost"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Developing computer use with healthcare organizations",
+        "th": "Developing computer use with healthcare organizations"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Patient data security and agent controls",
+        "th": "Patient data security and agent controls"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Get started with computer use agents",
+        "th": "Get started with computer use agents"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "From a patient’s message to an MRI authorization request",
+        "th": "From a patient’s message to an MRI authorization request"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Evaluating helpfulness, safety, and cost",
+        "th": "Evaluating helpfulness, safety, and cost"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Developing computer use with healthcare organizations",
+        "th": "Developing computer use with healthcare organizations"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Patient data security and agent controls",
+        "th": "Patient data security and agent controls"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Get started with computer use agents",
+        "th": "Get started with computer use agents"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Healthcare is fragmented, and teams often need to move information between systems manually before a patient can get care. When a clinician recommends an MRI, for example, the information an insurer needs may be in a patient’s medical record, but a team member still needs to retrieve it and enter it into a separate portal to complete an authorization request.",
+        "th": "Healthcare is fragmented, and teams often need to move information between systems manually before a patient can get care. When a clinician recommends an MRI, for example, the information an insurer needs may be in a patient’s medical record, but a team member still needs to retrieve it and enter it into a separate portal to complete an authorization request."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Computer-use agents carry out multi-step workflows by clicking, typing, and moving between applications. In healthcare, this enables AI to help with repetitive workflows in the software teams already use.",
+        "th": "Computer-use agents carry out multi-step workflows by clicking, typing, and moving between applications. In healthcare, this enables AI to help with repetitive workflows in the software teams already use."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Today, we’re sharing new results measuring model performance, safety, and cost in clinical and administrative workflows. We’re also sharing the ways we’re working with leading healthcare organizations like Abridge, Ambience, Cigna Healthcare, and CVS Health to advance and apply computer use, across authorization requests, referrals, discharge planning, and outreach between visits.",
+        "th": "Today, we’re sharing new results measuring model performance, safety, and cost in clinical and administrative workflows. We’re also sharing the ways we’re working with leading healthcare organizations like Abridge, Ambience, Cigna Healthcare, and CVS Health to advance and apply computer use, across authorization requests, referrals, discharge planning, and outreach between visits."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Healthcare teams, developers, and individual clinicians can access these capabilities today through the OpenAI API, ChatGPT for Healthcare, and ChatGPT for Clinicians. Organizations can support HIPAA-compliant workflows, configure approvals and agent access, and record audit logs for secure deployments.",
+        "th": "Healthcare teams, developers, and individual clinicians can access these capabilities today through the OpenAI API, ChatGPT for Healthcare, and ChatGPT for Clinicians. Organizations can support HIPAA-compliant workflows, configure approvals and agent access, and record audit logs for secure deployments."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "From a patient’s message to an MRI authorization request",
+        "th": "From a patient’s message to an MRI authorization request"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To show how a computer-use agent can help a clinician and an authorization specialist work on the same MRI request, we built a demo using synthetic patient data. A patient messages their clinician about lower back pain. A computer-use agent reviews the patient’s visit notes, physical therapy records, and prior imaging in the EHR. It drafts an MRI order, an encounter note, and a reply to the patient for the clinician to review. The agent then uses the same records to prepare a prior authorization request in the insurer’s portal for an authorization specialist to review.",
+        "th": "To show how a computer-use agent can help a clinician and an authorization specialist work on the same MRI request, we built a demo using synthetic patient data. A patient messages their clinician about lower back pain. A computer-use agent reviews the patient’s visit notes, physical therapy records, and prior imaging in the EHR. It drafts an MRI order, an encounter note, and a reply to the patient for the clinician to review. The agent then uses the same records to prepare a prior authorization request in the insurer’s portal for an authorization specialist to review."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Evaluating helpfulness, safety, and cost",
+        "th": "Evaluating helpfulness, safety, and cost"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We evaluated GPT‑6 Astra on tasks clinicians handle in their EHR inboxes. These tasks, shaped by physician input, require Astra to carry out multi-step workflows designed to test both clinical reasoning over longitudinal patient context and navigation of complex interfaces. Reviewers examined the model’s actions alongside the notes, orders, and patient messages it produced, assessing whether the work would be helpful and clinically safe in the context of the task.",
+        "th": "We evaluated GPT‑6 Astra on tasks clinicians handle in their EHR inboxes. These tasks, shaped by physician input, require Astra to carry out multi-step workflows designed to test both clinical reasoning over longitudinal patient context and navigation of complex interfaces. Reviewers examined the model’s actions alongside the notes, orders, and patient messages it produced, assessing whether the work would be helpful and clinically safe in the context of the task."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Clinical safety was assessed by evaluating whether inaccuracies, omissions, or actions in the model’s work could plausibly lead to patient harm. Overall, 99% of 325 reviewed tasks were rated safe. Physicians rated helpfulness on a five-point scale, selecting “very helpful” or “extremely helpful” in 93% of 646 assessments.",
+        "th": "Clinical safety was assessed by evaluating whether inaccuracies, omissions, or actions in the model’s work could plausibly lead to patient harm. Overall, 99% of 325 reviewed tasks were rated safe. Physicians rated helpfulness on a five-point scale, selecting “very helpful” or “extremely helpful” in 93% of 646 assessments."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Examples of EHR Inbox work",
+        "th": "Examples of EHR Inbox work"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We also evaluated computer-use agents for administrative tasks, such as prior authorizations, appeals, and medical equipment orders. On HealthAdminBench⁠(opens in a new window), an independent benchmark from Stanford researchers measuring performance on common administrative workflows, GPT‑6 Astra earned 94.3% of available rubric points, while GPT‑6 Luna earned 91.8%, despite costing 98% less at 8.5 cents per task. Both models were evaluated at maximum reasoning effort. These results show progress toward capable, affordable agents for high-volume administrative workflows.",
+        "th": "We also evaluated computer-use agents for administrative tasks, such as prior authorizations, appeals, and medical equipment orders. On HealthAdminBench⁠(opens in a new window), an independent benchmark from Stanford researchers measuring performance on common administrative workflows, GPT‑6 Astra earned 94.3% of available rubric points, while GPT‑6 Luna earned 91.8%, despite costing 98% less at 8.5 cents per task. Both models were evaluated at maximum reasoning effort. These results show progress toward capable, affordable agents for high-volume administrative workflows."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Developing computer use with healthcare organizations",
+        "th": "Developing computer use with healthcare organizations"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our partners build software used in hundreds of health systems, coordinate care for members globally, and deliver care to hundreds of millions of patients. The following examples showcase how organizations are developing, piloting, and deploying computer-use applications to save time, solve critical problems, and improve patient care.",
+        "th": "Our partners build software used in hundreds of health systems, coordinate care for members globally, and deliver care to hundreds of millions of patients. The following examples showcase how organizations are developing, piloting, and deploying computer-use applications to save time, solve critical problems, and improve patient care."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "CVS Health: Completing administrative work across clinical systems",
+        "th": "CVS Health: Completing administrative work across clinical systems"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "CVS Health is using OpenAI’s computer-use capabilities to automate repetitive work across clinical systems, including sending documents, processing referrals, and supporting specialist consults. The agents navigate existing applications to complete steps that APIs do not fully support.",
+        "th": "CVS Health is using OpenAI’s computer-use capabilities to automate repetitive work across clinical systems, including sending documents, processing referrals, and supporting specialist consults. The agents navigate existing applications to complete steps that APIs do not fully support."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In one production workflow, an agent cleared a months-long document-sending backlog over a weekend. Another handles the system steps for tens of thousands of consults each day, helping team members focus on work that needs their expertise. CVS Health uses validation checks and human oversight, with screenshots and action records to verify actions and application state. CVS Health is open sourcing its Agent Kit⁠(opens in a new window), built with OpenAI’s Agents SDK, which packages this approach as a repeatable process for broader use.",
+        "th": "In one production workflow, an agent cleared a months-long document-sending backlog over a weekend. Another handles the system steps for tens of thousands of consults each day, helping team members focus on work that needs their expertise. CVS Health uses validation checks and human oversight, with screenshots and action records to verify actions and application state. CVS Health is open sourcing its Agent Kit⁠(opens in a new window), built with OpenAI’s Agents SDK, which packages this approach as a repeatable process for broader use."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Data remains within the CVS Health enterprise-controlled infrastructure, governed by their enterprise AI Governance team and established responsible AI policies. Production data is not used to train foundation models.",
+        "th": "Data remains within the CVS Health enterprise-controlled infrastructure, governed by their enterprise AI Governance team and established responsible AI policies. Production data is not used to train foundation models."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Abridge: Coordination across systems for every moment of care",
+        "th": "Abridge: Coordination across systems for every moment of care"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Abridge is developing computer-use agents to help clinicians carry out care plans across use cases and applications they use daily, including those without APIs. Their planned inpatient use case builds on the clinical conversation, adding EHR information and nurse and clinician context to identify what needs attention and to coordinate next steps.",
+        "th": "Abridge is developing computer-use agents to help clinicians carry out care plans across use cases and applications they use daily, including those without APIs. Their planned inpatient use case builds on the clinical conversation, adding EHR information and nurse and clinician context to identify what needs attention and to coordinate next steps."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For example, a clinician can ask the Abridge Assistant to help resolve a patient’s discharge barriers. Agents can work concurrently on medication access and home-health coordination, using computer interaction alongside calls and messages. The clinician stays focused on the patient and is brought in for decisions requiring clinical judgment.",
+        "th": "For example, a clinician can ask the Abridge Assistant to help resolve a patient’s discharge barriers. Agents can work concurrently on medication access and home-health coordination, using computer interaction alongside calls and messages. The clinician stays focused on the patient and is brought in for decisions requiring clinical judgment."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Learn more⁠(opens in a new window)",
+        "th": "Learn more⁠(opens in a new window)"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Cigna: Preparing care managers for member outreach",
+        "th": "Cigna: Preparing care managers for member outreach"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As part of The Cigna Group’s broader collaboration with OpenAI, Cigna Healthcare is using OpenAI’s frontier models alongside its own clinical expertise to bring together relevant information across systems and give care teams more complete context about each member’s needs and experience. That can include information about benefits and coverage, providers, appointments and prior interactions, helping care teams better support members around care plans established by their treating providers.",
+        "th": "As part of The Cigna Group’s broader collaboration with OpenAI, Cigna Healthcare is using OpenAI’s frontier models alongside its own clinical expertise to bring together relevant information across systems and give care teams more complete context about each member’s needs and experience. That can include information about benefits and coverage, providers, appointments and prior interactions, helping care teams better support members around care plans established by their treating providers."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Previously, Cigna Healthcare case managers had to navigate more than 10 separate clinical and administrative systems to gather this context. Computer use can now help navigate these systems and bring relevant information together in seconds, reducing the time spent searching for information – ultimately giving case managers more time to support members.",
+        "th": "Previously, Cigna Healthcare case managers had to navigate more than 10 separate clinical and administrative systems to gather this context. Computer use can now help navigate these systems and bring relevant information together in seconds, reducing the time spent searching for information – ultimately giving case managers more time to support members."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Ambience: Making computer use governable in healthcare",
+        "th": "Ambience: Making computer use governable in healthcare"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Computer use lets agents complete tasks in EHRs and payer portals that APIs don’t reach. In healthcare, that capability is only usable if every action is controlled and auditable. Ambience built additional controls to support that oversight.",
+        "th": "Computer use lets agents complete tasks in EHRs and payer portals that APIs don’t reach. In healthcare, that capability is only usable if every action is controlled and auditable. Ambience built additional controls to support that oversight."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In this demonstration, Ambience uses evidence from the patient’s chart to prepare a prior-authorization request on an insurer’s website. When the record is ambiguous, the agent stops and asks the clinician, then waits for approval before submitting. Health systems set which actions the agent can take, can pause it at any point, and get a step-by-step log for audit.",
+        "th": "In this demonstration, Ambience uses evidence from the patient’s chart to prepare a prior-authorization request on an insurer’s website. When the record is ambiguous, the agent stops and asks the clinician, then waits for approval before submitting. Health systems set which actions the agent can take, can pause it at any point, and get a step-by-step log for audit."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Healthcare startups are helping turn advances in computer use into new ways to support care teams. These five companies are combining AI agents with healthcare expertise to help teams navigate systems, coordinate next steps, and move care forward.",
+        "th": "Healthcare startups are helping turn advances in computer use into new ways to support care teams. These five companies are combining AI agents with healthcare expertise to help teams navigate systems, coordinate next steps, and move care forward."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Patient data security and agent controls",
+        "th": "Patient data security and agent controls"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Computer-use agents in healthcare require evaluating clinical safety, protecting patient information, and setting clear limits on what agents can do without human review.",
+        "th": "Computer-use agents in healthcare require evaluating clinical safety, protecting patient information, and setting clear limits on what agents can do without human review."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ChatGPT for Healthcare provides role-based access controls and audit logs to support oversight. Organizations can build additional review and approval steps into their workflows and configure the applications and environments agents use to limit access to the records and actions needed for each task. Organization data is not used to train OpenAI foundation models.",
+        "th": "ChatGPT for Healthcare provides role-based access controls and audit logs to support oversight. Organizations can build additional review and approval steps into their workflows and configure the applications and environments agents use to limit access to the records and actions needed for each task. Organization data is not used to train OpenAI foundation models."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To support HIPAA-compliant workflows involving protected health information, organizations must use eligible services covered by their Business Associate Agreement with OpenAI and the required security and retention settings.",
+        "th": "To support HIPAA-compliant workflows involving protected health information, organizations must use eligible services covered by their Business Associate Agreement with OpenAI and the required security and retention settings."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get started with computer use agents",
+        "th": "Get started with computer use agents"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Computer-use agents for healthcare are available today in ChatGPT for Healthcare, ChatGPT for Clinicians, and the OpenAI API. Here’s how healthcare organizations, clinicians, and developers can get started.",
+        "th": "Computer-use agents for healthcare are available today in ChatGPT for Healthcare, ChatGPT for Clinicians, and the OpenAI API. Here’s how healthcare organizations, clinicians, and developers can get started."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Healthcare organizations: Contact our sales team⁠ to discuss using AI in your clinical and administrative workflows. Existing customers can ask their workspace administrator to enable computer use in ChatGPT Work and Codex.",
+        "th": "Healthcare organizations: Contact our sales team⁠ to discuss using AI in your clinical and administrative workflows. Existing customers can ask their workspace administrator to enable computer use in ChatGPT Work and Codex."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Healthcare organizations: Contact our sales team⁠ to discuss using AI in your clinical and administrative workflows. Existing customers can ask their workspace administrator to enable computer use in ChatGPT Work and Codex.",
+        "th": "Healthcare organizations: Contact our sales team⁠ to discuss using AI in your clinical and administrative workflows. Existing customers can ask their workspace administrator to enable computer use in ChatGPT Work and Codex."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Individual clinicians: U.S. clinicians can sign up for a free ChatGPT for Clinicians account today⁠(opens in a new window) and experience computer use in ChatGPT Work and Codex.",
+        "th": "Individual clinicians: U.S. clinicians can sign up for a free ChatGPT for Clinicians account today⁠(opens in a new window) and experience computer use in ChatGPT Work and Codex."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Individual clinicians: U.S. clinicians can sign up for a free ChatGPT for Clinicians account today⁠(opens in a new window) and experience computer use in ChatGPT Work and Codex.",
+        "th": "Individual clinicians: U.S. clinicians can sign up for a free ChatGPT for Clinicians account today⁠(opens in a new window) and experience computer use in ChatGPT Work and Codex."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Developers: Build healthcare applications with the OpenAI API⁠(opens in a new window), and explore our computer use guide⁠(opens in a new window) to build agents that work across existing software.",
+        "th": "Developers: Build healthcare applications with the OpenAI API⁠(opens in a new window), and explore our computer use guide⁠(opens in a new window) to build agents that work across existing software."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Developers: Build healthcare applications with the OpenAI API⁠(opens in a new window), and explore our computer use guide⁠(opens in a new window) to build agents that work across existing software.",
+        "th": "Developers: Build healthcare applications with the OpenAI API⁠(opens in a new window), and explore our computer use guide⁠(opens in a new window) to build agents that work across existing software."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We hope these advances enable healthcare teams to spend less time moving information through systems and more time caring for patients.",
+        "th": "We hope these advances enable healthcare teams to spend less time moving information through systems and more time caring for patients."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/z04YGXDiiB9gJhtnjWey2/1cef69c9ddda33271ccfdf8a5b4986e5/more-ways-to-move-care-forward-with-chatgpt-for-healthcare-cover.png?w=3840&q=90&fm=webp",
+      "alt": "More ways to move care forward with ChatGPT for Healthcare — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductNov 16, 2026",
+        "th": "ProductNov 16, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5XXHqQ61pm335AlEJ6i24k/05c87c234b2be2cd3fdc68645fc24f18/introducing-chatgpt-wallet-for-agents-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing ChatGPT Wallet for agents — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductNov 13, 2026",
+        "th": "ProductNov 13, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6HUezUUToOnuW0xWUXK9n/935b788b2167e7bc30600e610ac92408/business-agents-blog-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Introducing Businesses in ChatGPT, with a blue verification badge surrounded by a handbag, shopping cart, shopping bag, parcel, and storefront on a blue background."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductNov 10, 2026",
+        "th": "ProductNov 10, 2026"
+      }
+    }
+  ]
+}

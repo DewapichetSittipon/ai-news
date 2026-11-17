@@ -1,0 +1,643 @@
+{
+  "id": "openai__revolut",
+  "slug": "revolut",
+  "source": "openai",
+  "url": "https://openai.com/business/customer-stories/revolut",
+  "category": "News",
+  "date": "2026-11-16T09:30:00.000Z",
+  "image": null,
+  "title": {
+    "en": "How Revolut raises ambition without lowering the bar",
+    "th": "How Revolut raises ambition without lowering the bar"
+  },
+  "summary": {
+    "en": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+    "th": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 16, 2026",
+        "th": "November 16, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "With OpenAI models and Codex, Revolut is giving its teams more room to solve complex problems—from software engineering to financial crime.",
+        "th": "With OpenAI models and Codex, Revolut is giving its teams more room to solve complex problems—from software engineering to financial crime."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "30–60%",
+        "th": "30–60%"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Reduction in coding time from task start to feature merge",
+        "th": "Reduction in coding time from task start to feature merge"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One day",
+        "th": "One day"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To turn seven years of design documentation into AI-readable context",
+        "th": "To turn seven years of design documentation into AI-readable context"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "1–2 days",
+        "th": "1–2 days"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Saved on security code review with Codex",
+        "th": "Saved on security code review with Codex"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Moving faster on the everyday",
+        "th": "Moving faster on the everyday"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Starting where scale meets impact",
+        "th": "Starting where scale meets impact"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Delegating implementation, not accountability",
+        "th": "Delegating implementation, not accountability"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building trust into the system",
+        "th": "Building trust into the system"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Results at a glance",
+        "th": "Results at a glance"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Leadership lessons",
+        "th": "Leadership lessons"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What’s next",
+        "th": "What’s next"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Moving faster on the everyday",
+        "th": "Moving faster on the everyday"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Starting where scale meets impact",
+        "th": "Starting where scale meets impact"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Delegating implementation, not accountability",
+        "th": "Delegating implementation, not accountability"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building trust into the system",
+        "th": "Building trust into the system"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Results at a glance",
+        "th": "Results at a glance"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Leadership lessons",
+        "th": "Leadership lessons"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What’s next",
+        "th": "What’s next"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Moving faster on the everyday",
+        "th": "Moving faster on the everyday"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Revolut⁠(opens in a new window) was built to challenge the way people interact with money. That ambition now stretches across more than 40 markets, 800,000 businesses and a consumer base that’s grown by 23% in the last 12 months.",
+        "th": "Revolut⁠(opens in a new window) was built to challenge the way people interact with money. That ambition now stretches across more than 40 markets, 800,000 businesses and a consumer base that’s grown by 23% in the last 12 months."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Add to that a company culture that expects small, lean teams to move quickly and it’s no surprise that ChatGPT and Codex have proven a natural fit.",
+        "th": "Add to that a company culture that expects small, lean teams to move quickly and it’s no surprise that ChatGPT and Codex have proven a natural fit."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“The perfect description for a high-caliber Revolut person is someone who can identify a problem really quickly, deduce the solution, design four scenarios, identify the best one of those four then take it to market,” says Kim Maniovich, Revolut’s Global Head of Business Marketing.",
+        "th": "“The perfect description for a high-caliber Revolut person is someone who can identify a problem really quickly, deduce the solution, design four scenarios, identify the best one of those four then take it to market,” says Kim Maniovich, Revolut’s Global Head of Business Marketing."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Partnering with OpenAI enables us to build a lot of these solutions in a way that’s incredibly lean, cost-efficient and really tailored to the unique way that we work.”",
+        "th": "“Partnering with OpenAI enables us to build a lot of these solutions in a way that’s incredibly lean, cost-efficient and really tailored to the unique way that we work.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "But moving faster is only part of the opportunity. For Revolut, the bigger question is what becomes possible when talented people spend less time on the mechanics of getting things done—and more time tackling problems that could fundamentally change financial services.",
+        "th": "But moving faster is only part of the opportunity. For Revolut, the bigger question is what becomes possible when talented people spend less time on the mechanics of getting things done—and more time tackling problems that could fundamentally change financial services."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Starting where scale meets impact",
+        "th": "Starting where scale meets impact"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As Revolut grows, so does the complexity of protecting its customers. According to one report⁠(opens in a new window), over half of adults worldwide reported a scam encounter in 2025.",
+        "th": "As Revolut grows, so does the complexity of protecting its customers. According to one report⁠(opens in a new window), over half of adults worldwide reported a scam encounter in 2025."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For Revolut, every transaction creates another opportunity to identify suspicious activity, investigate potential risks and implement robust and tailored protections for its customers. But the sheer volume of those transactions far outstrips the human resources available to any bank.",
+        "th": "For Revolut, every transaction creates another opportunity to identify suspicious activity, investigate potential risks and implement robust and tailored protections for its customers. But the sheer volume of those transactions far outstrips the human resources available to any bank."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“The biggest problem we can tackle with AI today is the scaling of humans versus the demand that we get,” says AI Lead David Abitbol. That’s why one of Revolut’s largest AI applications is a FinCrime agent powered by OpenAI models.",
+        "th": "“The biggest problem we can tackle with AI today is the scaling of humans versus the demand that we get,” says AI Lead David Abitbol. That’s why one of Revolut’s largest AI applications is a FinCrime agent powered by OpenAI models."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Rather than requiring investigators to work through every eligible case manually, the agent can examine information, apply Revolut’s rules and complete the defined process automatically.",
+        "th": "Rather than requiring investigators to work through every eligible case manually, the agent can examine information, apply Revolut’s rules and complete the defined process automatically."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The release of GPT‑5.5 was a turning point. It was then, says Abitbol, that the models had become capable and cost-effective enough for Revolut to delegate screening and investigation workflows entirely to the agent. The result is greater capacity to monitor transactions without increasing investigator headcount at the same rate as demand.",
+        "th": "The release of GPT‑5.5 was a turning point. It was then, says Abitbol, that the models had become capable and cost-effective enough for Revolut to delegate screening and investigation workflows entirely to the agent. The result is greater capacity to monitor transactions without increasing investigator headcount at the same rate as demand."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That, adds Information Security Engineer Mo Amiri, “translates directly into stronger protection and a more resilient system our customers can trust.”",
+        "th": "That, adds Information Security Engineer Mo Amiri, “translates directly into stronger protection and a more resilient system our customers can trust.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "‘Move fast but build trust’ could easily be Revolut’s internal engineering slogan. While Abitbol points out that Codex has delivered a 30-60% reduction in coding time, he’s also clear that certain guardrails are non-negotiable.",
+        "th": "‘Move fast but build trust’ could easily be Revolut’s internal engineering slogan. While Abitbol points out that Codex has delivered a 30-60% reduction in coding time, he’s also clear that certain guardrails are non-negotiable."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“We have a systematic framework where anyone in the company who’s building anything with AI has the same set of standards across development, A/B testing, and business metric prediction,” he says. “So every engineer is held to the same standard of quality across the company. We started to get enough intelligence for reasonable costs where we could increasingly delegate initial investigations and screenings to the agent.”",
+        "th": "“We have a systematic framework where anyone in the company who’s building anything with AI has the same set of standards across development, A/B testing, and business metric prediction,” he says. “So every engineer is held to the same standard of quality across the company. We started to get enough intelligence for reasonable costs where we could increasingly delegate initial investigations and screenings to the agent.”"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Delegating implementation, not accountability",
+        "th": "Delegating implementation, not accountability"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For Senior Platform Engineer Dmitry Pitik, that 30-60% reduction in coding time became tangible while he was building an internal code-review service. He designed the system, broke it into features and initially assumed he’d need a development team to implement it.",
+        "th": "For Senior Platform Engineer Dmitry Pitik, that 30-60% reduction in coding time became tangible while he was building an internal code-review service. He designed the system, broke it into features and initially assumed he’d need a development team to implement it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“I realised I don’t need a whole team of developers to implement this,” he recalls. “I can just launch different agents and assign each of them a particular task.” Codex became his implementation team, while Dmitry spent more time designing the system, planning the work and reviewing what came back.",
+        "th": "“I realised I don’t need a whole team of developers to implement this,” he recalls. “I can just launch different agents and assign each of them a particular task.” Codex became his implementation team, while Dmitry spent more time designing the system, planning the work and reviewing what came back."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This is a pattern that Abitbol has seen across Revolut. As Codex returns capacity to engineers they’re using that reclaimed time “to spend more time discussing design and the best solution. So we spend more time designing instead of implementing.”",
+        "th": "This is a pattern that Abitbol has seen across Revolut. As Codex returns capacity to engineers they’re using that reclaimed time “to spend more time discussing design and the best solution. So we spend more time designing instead of implementing.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That doesn’t remove the need for engineering expertise, it just changes where that expertise is applied. “Every developer is responsible for the code they produce, and we don’t blindly trust AI,” Pitik says. The result is a different division of work: AI can help with implementation, while engineers devote more attention to the decisions that determine whether the software is useful, reliable and worth building.",
+        "th": "That doesn’t remove the need for engineering expertise, it just changes where that expertise is applied. “Every developer is responsible for the code they produce, and we don’t blindly trust AI,” Pitik says. The result is a different division of work: AI can help with implementation, while engineers devote more attention to the decisions that determine whether the software is useful, reliable and worth building."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That overhead is worth it. As Codex works on one task, Pitik can work in parallel on another. That kind of multitasking is essential in a company where, as Kim Maniovich explains, the average employee has “three different jobs.” Using Codex creates a virtuous (if challenging) flywheel where “month on month the targets we’re setting get more aggressive, but also more attainable. And so the bar keeps moving up. AI is making that possible.”",
+        "th": "That overhead is worth it. As Codex works on one task, Pitik can work in parallel on another. That kind of multitasking is essential in a company where, as Kim Maniovich explains, the average employee has “three different jobs.” Using Codex creates a virtuous (if challenging) flywheel where “month on month the targets we’re setting get more aggressive, but also more attainable. And so the bar keeps moving up. AI is making that possible.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Examples of what Revolut has been able to do with this new-found capacity include developing a tool to build web UIs for internal apps and external-facing products.",
+        "th": "Examples of what Revolut has been able to do with this new-found capacity include developing a tool to build web UIs for internal apps and external-facing products."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Or turning seven years of design documentation into AI-readable context in a single day, creating a foundation for tools intended to help designers work more effectively. The exercise illustrates how AI can make accumulated organisational knowledge more accessible, reducing the effort required to work with complex systems. “We can shift focus from the things which are important but hard to do without AI to the things which matter for customers,” says Senior Designer Dmytro Pavlov.",
+        "th": "Or turning seven years of design documentation into AI-readable context in a single day, creating a foundation for tools intended to help designers work more effectively. The exercise illustrates how AI can make accumulated organisational knowledge more accessible, reducing the effort required to work with complex systems. “We can shift focus from the things which are important but hard to do without AI to the things which matter for customers,” says Senior Designer Dmytro Pavlov."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Building trust into the system",
+        "th": "Building trust into the system"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mo Amiri’s job is to make sure all of this speed is matched by security—not just for customers but for Revolut’s own employees. That gives him two views of AI at once: how it can help Revolut investigate a problem, and what teams need before they can deploy it safely.",
+        "th": "Mo Amiri’s job is to make sure all of this speed is matched by security—not just for customers but for Revolut’s own employees. That gives him two views of AI at once: how it can help Revolut investigate a problem, and what teams need before they can deploy it safely."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In a phishing investigation, for example, an analyst once had to gather an email, inspect its links and attachments, trace the sender and assemble the evidence manually. “With stronger AI tools, we can uncover those connections instantly, and dig deeper into the questions that really matter,” he says.",
+        "th": "In a phishing investigation, for example, an analyst once had to gather an email, inspect its links and attachments, trace the sender and assemble the evidence manually. “With stronger AI tools, we can uncover those connections instantly, and dig deeper into the questions that really matter,” he says."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "While AI does the legwork and presents an investigator with a structured case, it’s still down to the individual to review the original records, decide whether the explanation makes sense and approve any action.",
+        "th": "While AI does the legwork and presents an investigator with a structured case, it’s still down to the individual to review the original records, decide whether the explanation makes sense and approve any action."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Amiri applies the same thinking when teams bring new AI applications into Revolut. He follows the complete chain: what information the system sees, where that information goes, which tools it can reach, what it can do with that access and what happens when something fails. He also tests whether apparently convincing conclusions are actually supported by the evidence.",
+        "th": "Amiri applies the same thinking when teams bring new AI applications into Revolut. He follows the complete chain: what information the system sees, where that information goes, which tools it can reach, what it can do with that access and what happens when something fails. He also tests whether apparently convincing conclusions are actually supported by the evidence."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“The most critical decision is always about accountability,” he says. “If an AI tool suggests a code change, a human engineer needs to understand that change well enough to stand by it. That directly drives how we design the review process, giving developers the context they need without cluttering their everyday workflow.”",
+        "th": "“The most critical decision is always about accountability,” he says. “If an AI tool suggests a code change, a human engineer needs to understand that change well enough to stand by it. That directly drives how we design the review process, giving developers the context they need without cluttering their everyday workflow.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For Revolut, safeguards aren’t separate from innovation. They help establish the conditions under which teams can confidently adopt more capable technology. “That’s how you earn real confidence in AI,” he explains, “by making thoughtful decisions upfront and testing as you go.”",
+        "th": "For Revolut, safeguards aren’t separate from innovation. They help establish the conditions under which teams can confidently adopt more capable technology. “That’s how you earn real confidence in AI,” he explains, “by making thoughtful decisions upfront and testing as you go.”"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Results at a glance",
+        "th": "Results at a glance"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "30–60% reduction in coding time from task start to feature merge",
+        "th": "30–60% reduction in coding time from task start to feature merge"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "30–60% reduction in coding time from task start to feature merge",
+        "th": "30–60% reduction in coding time from task start to feature merge"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "One engineer built an internal code-review service by delegating implementation tasks to multiple Codex agents",
+        "th": "One engineer built an internal code-review service by delegating implementation tasks to multiple Codex agents"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One engineer built an internal code-review service by delegating implementation tasks to multiple Codex agents",
+        "th": "One engineer built an internal code-review service by delegating implementation tasks to multiple Codex agents"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "One day to transform existing design-system documentation developed over roughly seven years into AI-readable context",
+        "th": "One day to transform existing design-system documentation developed over roughly seven years into AI-readable context"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One day to transform existing design-system documentation developed over roughly seven years into AI-readable context",
+        "th": "One day to transform existing design-system documentation developed over roughly seven years into AI-readable context"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "One to two days saved on one substantial security code-review task",
+        "th": "One to two days saved on one substantial security code-review task"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One to two days saved on one substantial security code-review task",
+        "th": "One to two days saved on one substantial security code-review task"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "More transactions screened through the FinCrime agent without scaling investigators one for one",
+        "th": "More transactions screened through the FinCrime agent without scaling investigators one for one"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More transactions screened through the FinCrime agent without scaling investigators one for one",
+        "th": "More transactions screened through the FinCrime agent without scaling investigators one for one"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Leadership lessons",
+        "th": "Leadership lessons"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Start with a problem worth solving. Revolut has put AI to work where demand is growing fastest and the stakes for customers are highest.",
+        "th": "Start with a problem worth solving. Revolut has put AI to work where demand is growing fastest and the stakes for customers are highest."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Start with a problem worth solving. Revolut has put AI to work where demand is growing fastest and the stakes for customers are highest.",
+        "th": "Start with a problem worth solving. Revolut has put AI to work where demand is growing fastest and the stakes for customers are highest."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Use speed to raise ambition, not lower standards. Time saved on coding and investigation creates room for better design, harder questions and more consequential work.",
+        "th": "Use speed to raise ambition, not lower standards. Time saved on coding and investigation creates room for better design, harder questions and more consequential work."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Use speed to raise ambition, not lower standards. Time saved on coding and investigation creates room for better design, harder questions and more consequential work.",
+        "th": "Use speed to raise ambition, not lower standards. Time saved on coding and investigation creates room for better design, harder questions and more consequential work."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Keep people on the hook. AI can gather evidence, write code and recommend action. A person still needs to understand the work well enough to stand behind it.",
+        "th": "Keep people on the hook. AI can gather evidence, write code and recommend action. A person still needs to understand the work well enough to stand behind it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Keep people on the hook. AI can gather evidence, write code and recommend action. A person still needs to understand the work well enough to stand behind it.",
+        "th": "Keep people on the hook. AI can gather evidence, write code and recommend action. A person still needs to understand the work well enough to stand behind it."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Build trust before you scale. Be clear about what a system can see, what it can do and what happens when it fails—then test those decisions as you go.",
+        "th": "Build trust before you scale. Be clear about what a system can see, what it can do and what happens when it fails—then test those decisions as you go."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Build trust before you scale. Be clear about what a system can see, what it can do and what happens when it fails—then test those decisions as you go.",
+        "th": "Build trust before you scale. Be clear about what a system can see, what it can do and what happens when it fails—then test those decisions as you go."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Make your knowledge usable. AI works better when it can reach clear, well-organised context. The same exercise often shows where the organisation itself needs to be clearer.",
+        "th": "Make your knowledge usable. AI works better when it can reach clear, well-organised context. The same exercise often shows where the organisation itself needs to be clearer."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Make your knowledge usable. AI works better when it can reach clear, well-organised context. The same exercise often shows where the organisation itself needs to be clearer.",
+        "th": "Make your knowledge usable. AI works better when it can reach clear, well-organised context. The same exercise often shows where the organisation itself needs to be clearer."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What’s next",
+        "th": "What’s next"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Revolut has already shown how AI can increase the amount and complexity of work its teams can attempt. Its next opportunity is to carry that combination of capability, judgment and design into the way customers interact with their money.",
+        "th": "Revolut has already shown how AI can increase the amount and complexity of work its teams can attempt. Its next opportunity is to carry that combination of capability, judgment and design into the way customers interact with their money."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Abitbol imagines a more conversational interface in which customers can ask Revolut to help with everyday financial tasks: blocking a card, managing a subscription or finding ways to save for a trip. Pavlov sees the design challenge underneath that experience—turning complexity into something consistent, familiar and easy to use.",
+        "th": "Abitbol imagines a more conversational interface in which customers can ask Revolut to help with everyday financial tasks: blocking a card, managing a subscription or finding ways to save for a trip. Pavlov sees the design challenge underneath that experience—turning complexity into something consistent, familiar and easy to use."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Kim Maniovich connects that future to the culture driving the work. “I hope that we can take the values that we operate by every day—this unapologetic ambition, the desire to never settle—and enable people to apply that to their own lives through the products that we build for them.”",
+        "th": "Kim Maniovich connects that future to the culture driving the work. “I hope that we can take the values that we operate by every day—this unapologetic ambition, the desire to never settle—and enable people to apply that to their own lives through the products that we build for them.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As AI makes it easier to build, the differentiator becomes knowing what to build—and maintaining the judgment, standards and customer understanding to do it well. For Revolut, that’s the bigger promise of intelligence at work: less time spent on the mechanics of getting things done, and more capacity to make financial services safer, simpler and more useful for everyone.Banking services provided by licensed Revolut Group entities. Visit Revolut.com⁠(opens in a new window).",
+        "th": "As AI makes it easier to build, the differentiator becomes knowing what to build—and maintaining the judgment, standards and customer understanding to do it well. For Revolut, that’s the bigger promise of intelligence at work: less time spent on the mechanics of getting things done, and more capacity to make financial services safer, simpler and more useful for everyone.Banking services provided by licensed Revolut Group entities. Visit Revolut.com⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Join the new era of work",
+        "th": "Join the new era of work"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get OpenAI for Business updates",
+        "th": "Get OpenAI for Business updates"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Product updates, practical guides, upcoming events, and more.",
+        "th": "Product updates, practical guides, upcoming events, and more."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By subscribing, you agree to receive emails from OpenAI. You can unsubscribe at any time. Read our Privacy Policy⁠.",
+        "th": "By subscribing, you agree to receive emails from OpenAI. You can unsubscribe at any time. Read our Privacy Policy⁠."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4hoSVzGnXTL7t0Lc8leJTZ/bc394d73a743bc7c555a0ef89df90c2a/square.png?w=3840&q=90&fm=webp",
+      "alt": "Benefit Street Partners — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Oct 16, 2026",
+        "th": "Oct 16, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6IJsWuQa1blfxNfvbdIF1m/0868067102440aea5fd1ad35ba436a77/square.png?w=3840&q=90&fm=webp",
+      "alt": "1Password > Card image > Fiber ridge close-up"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Sep 8, 2026",
+        "th": "Sep 8, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4Xbch93T1BBvgoZ1l9G1hD/097c1514aee377faba18810c482e620b/credit-saison-art-card-crop-c.png?w=3840&q=90&fm=webp",
+      "alt": "credit-saison-art-card-crop-c"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Oct 29, 2026",
+        "th": "Oct 29, 2026"
+      }
+    }
+  ]
+}

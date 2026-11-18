@@ -4,7 +4,7 @@
   "source": "anthropic",
   "url": "https://www.anthropic.com/news/cyber-verification-program",
   "category": "News",
-  "date": "2026-11-18T14:52:27.334Z",
+  "date": "2026-11-18T22:47:35.329Z",
   "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
   "title": {
     "en": "Expanding the Cyber Verification Program",
@@ -172,15 +172,22 @@
     {
       "type": "p",
       "text": {
-        "en": "Specialized Access, which has the fewest cyber blocks, is reserved for a limited set of verified organizations that are authorized to test safety systems that could impact people’s lives or disrupt markets, such as flight operating systems, power grids, telecom networks, interbank transfer infrastructure, and government administrative networks.",
-        "th": "Specialized Access, which has the fewest cyber blocks, is reserved for a limited set of verified organizations that are authorized to test safety systems that could impact people’s lives or disrupt markets, such as flight operating systems, power grids, telecom networks, interbank transfer infrastructure, and government administrative networks."
+        "en": "Specialized Access, which has the fewest cyber blocks, is reserved for a limited set of verified organizations dedicated to red-teaming systemically important infrastructure whose failure could impact people’s lives or disrupt markets, such as flight operating systems, power grids, telecom networks, interbank transfer infrastructure, and government administrative networks. Organizations in this tier can conduct authorized penetration testing and red-teaming of this infrastructure, as well as research into the highest-severity techniques.",
+        "th": "Specialized Access, which has the fewest cyber blocks, is reserved for a limited set of verified organizations dedicated to red-teaming systemically important infrastructure whose failure could impact people’s lives or disrupt markets, such as flight operating systems, power grids, telecom networks, interbank transfer infrastructure, and government administrative networks. Organizations in this tier can conduct authorized penetration testing and red-teaming of this infrastructure, as well as research into the highest-severity techniques."
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "For this tier, we currently review every organization in depth in collaboration with the US government. Existing members of Project Glasswing will transition to this tier and do not require reapproval for current models.",
-        "th": "For this tier, we currently review every organization in depth in collaboration with the US government. Existing members of Project Glasswing will transition to this tier and do not require reapproval for current models."
+        "en": "Most critical infrastructure organizations can do their security work with Defense or Red Team Access. Operating critical infrastructure doesn’t, by itself, qualify an organization for Specialized Access; applicants must show that they’re authorized to test this type of infrastructure and describe the work they can’t do with Red Team Access. Like Red Team Access, this tier is available only on Enterprise and API plans.",
+        "th": "Most critical infrastructure organizations can do their security work with Defense or Red Team Access. Operating critical infrastructure doesn’t, by itself, qualify an organization for Specialized Access; applicants must show that they’re authorized to test this type of infrastructure and describe the work they can’t do with Red Team Access. Like Red Team Access, this tier is available only on Enterprise and API plans."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We currently review every application for this tier in depth, in collaboration with the US government, so reviews take longer than they do for Red Team Access. Organizations that qualify for a lower tier will receive access to that tier while we complete our review. Existing members of Project Glasswing will transition to Specialized Access and won’t need to be reapproved for current models.",
+        "th": "We currently review every application for this tier in depth, in collaboration with the US government, so reviews take longer than they do for Red Team Access. Organizations that qualify for a lower tier will receive access to that tier while we complete our review. Existing members of Project Glasswing will transition to Specialized Access and won’t need to be reapproved for current models."
       }
     },
     {
@@ -206,7 +213,7 @@
     },
     {
       "type": "img",
-      "src": "https://assets.claude.com/2ba6c7a952f96fe64cd47303ae20d367f51e0b6a.png?w=3840&q=75&fm=webp&fit=max",
+      "src": "https://assets.claude.com/0ab0a4a146f7058b9553e4f34ddd70a5b180d7c5.png?w=3840&q=75&fm=webp&fit=max",
       "alt": ""
     },
     {
@@ -322,6 +329,13 @@
       "text": {
         "en": "If you’re blocked on work you think your tier should allow, you can report it here. Full details on each tier can be found in our Help Center.",
         "th": "If you’re blocked on work you think your tier should allow, you can report it here. Full details on each tier can be found in our Help Center."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Updated November 18, 2026, to reflect changes to plan availability for Red Team Access and Specialized Access, and to clarify who qualifies for Specialized Access.",
+        "th": "Updated November 18, 2026, to reflect changes to plan availability for Red Team Access and Specialized Access, and to clarify who qualifies for Specialized Access."
       }
     }
   ]

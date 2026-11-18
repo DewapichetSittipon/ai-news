@@ -1,0 +1,965 @@
+{
+  "id": "openai__managing-frontier-ai-risk",
+  "slug": "managing-frontier-ai-risk",
+  "source": "openai",
+  "url": "https://openai.com/index/managing-frontier-ai-risk",
+  "category": "Safety",
+  "date": "2026-11-18T06:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Managing frontier AI risk: From training to deployment",
+    "th": "Managing frontier AI risk: From training to deployment"
+  },
+  "summary": {
+    "en": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+    "th": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 18, 2026 · Safety",
+        "th": "November 18, 2026 · Safety"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Defense in depth across the model lifecycleDuring research: contain models in sandboxed environmentsInternal deployment: test alignment, closely monitor behaviorExternal deployment: protect against misuse and misalignment at scale",
+        "th": "Defense in depth across the model lifecycleDuring research: contain models in sandboxed environmentsInternal deployment: test alignment, closely monitor behaviorExternal deployment: protect against misuse and misalignment at scale"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "During research: contain models in sandboxed environments",
+        "th": "During research: contain models in sandboxed environments"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Internal deployment: test alignment, closely monitor behavior",
+        "th": "Internal deployment: test alignment, closely monitor behavior"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "External deployment: protect against misuse and misalignment at scale",
+        "th": "External deployment: protect against misuse and misalignment at scale"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Incident Response and Disclosure",
+        "th": "Incident Response and Disclosure"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Related research and resources",
+        "th": "Related research and resources"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Defense in depth across the model lifecycleDuring research: contain models in sandboxed environmentsInternal deployment: test alignment, closely monitor behaviorExternal deployment: protect against misuse and misalignment at scale",
+        "th": "Defense in depth across the model lifecycleDuring research: contain models in sandboxed environmentsInternal deployment: test alignment, closely monitor behaviorExternal deployment: protect against misuse and misalignment at scale"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "During research: contain models in sandboxed environments",
+        "th": "During research: contain models in sandboxed environments"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Internal deployment: test alignment, closely monitor behavior",
+        "th": "Internal deployment: test alignment, closely monitor behavior"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "External deployment: protect against misuse and misalignment at scale",
+        "th": "External deployment: protect against misuse and misalignment at scale"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Incident Response and Disclosure",
+        "th": "Incident Response and Disclosure"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Related research and resources",
+        "th": "Related research and resources"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The capabilities of frontier models are rapidly accelerating, and our ability to understand, align, and secure them must stay ahead. We are pacing the development and release of our models, including pausing internal training⁠(opens in a new window) or holding back models like GPT‑6.1 Astra when we need more time to meet our safety standards. We’ve introduced new processes such as safety cases and require stronger evidence of aligned behavior throughout training. These requirements slow the pace of model releases, but they give us greater confidence to safely move forward.",
+        "th": "The capabilities of frontier models are rapidly accelerating, and our ability to understand, align, and secure them must stay ahead. We are pacing the development and release of our models, including pausing internal training⁠(opens in a new window) or holding back models like GPT‑6.1 Astra when we need more time to meet our safety standards. We’ve introduced new processes such as safety cases and require stronger evidence of aligned behavior throughout training. These requirements slow the pace of model releases, but they give us greater confidence to safely move forward."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Since the Hugging Face incident⁠ in July, we've strengthened safeguards and alignment requirements for how we train, test, and deploy models. This post explains how we evaluate and manage risk at each stage, from highly sandboxed training environments to the Codex deployment you use on your computer. We evaluate both models and safeguards at each stage, requiring a safety review to advance to the next stage.",
+        "th": "Since the Hugging Face incident⁠ in July, we've strengthened safeguards and alignment requirements for how we train, test, and deploy models. This post explains how we evaluate and manage risk at each stage, from highly sandboxed training environments to the Codex deployment you use on your computer. We evaluate both models and safeguards at each stage, requiring a safety review to advance to the next stage."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Defense in depth across the model lifecycle",
+        "th": "Defense in depth across the model lifecycle"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We use defense in depth with multiple layers of protection that reduce dependence on any single safeguard. If one layer fails, others help prevent harm, limit consequences, or alert us so we can intervene.",
+        "th": "We use defense in depth with multiple layers of protection that reduce dependence on any single safeguard. If one layer fails, others help prevent harm, limit consequences, or alert us so we can intervene."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We organize our protections around four layers:",
+        "th": "We organize our protections around four layers:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Effective monitoring depends on model monitorability - how reliably monitors can detect mistakes or unsafe behavior from a model’s reasoning and actions. For example, a model that verbalizes its intention to cheat in its chain-of-thought (CoT) is more monitorable than one that omits this information. We evaluate monitorability during training and before deployment, develop better methods for measuring⁠(opens in a new window) it, and study what affects it⁠(opens in a new window).",
+        "th": "Effective monitoring depends on model monitorability - how reliably monitors can detect mistakes or unsafe behavior from a model’s reasoning and actions. For example, a model that verbalizes its intention to cheat in its chain-of-thought (CoT) is more monitorable than one that omits this information. We evaluate monitorability during training and before deployment, develop better methods for measuring⁠(opens in a new window) it, and study what affects it⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Hugging Face incident showed why we should not rely on sandboxing alone to contain highly capable models. We now monitor frontier models across most internal and external deployment settings, including all internal deployments that use tools.",
+        "th": "The Hugging Face incident showed why we should not rely on sandboxing alone to contain highly capable models. We now monitor frontier models across most internal and external deployment settings, including all internal deployments that use tools."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The role of each layer changes across three stages of model development and deployment:",
+        "th": "The role of each layer changes across three stages of model development and deployment:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Research: We train, test, and use models in sandboxed environments.",
+        "th": "Research: We train, test, and use models in sandboxed environments."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Research: We train, test, and use models in sandboxed environments.",
+        "th": "Research: We train, test, and use models in sandboxed environments."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Internal deployment: OpenAI employees use models for practical work.",
+        "th": "Internal deployment: OpenAI employees use models for practical work."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Internal deployment: OpenAI employees use models for practical work.",
+        "th": "Internal deployment: OpenAI employees use models for practical work."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "External deployment: Models become available to people and organizations more broadly.",
+        "th": "External deployment: Models become available to people and organizations more broadly."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "External deployment: Models become available to people and organizations more broadly.",
+        "th": "External deployment: Models become available to people and organizations more broadly."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We rely on different layers at different stages. During training, when alignment is less certain, we depend more heavily on sandboxing and monitoring. As models gain broader access during deployment, alignment and system-level controls become increasingly important. At each stage, we evaluate whether the combined protections are sufficient for the model’s capabilities and access. Our determinations may be reviewed with our Safety Advisory Group (SAG) and overseen by the Safety and Security Committee (SSC) of the OpenAI Foundation’s Board of Directors.",
+        "th": "We rely on different layers at different stages. During training, when alignment is less certain, we depend more heavily on sandboxing and monitoring. As models gain broader access during deployment, alignment and system-level controls become increasingly important. At each stage, we evaluate whether the combined protections are sufficient for the model’s capabilities and access. Our determinations may be reviewed with our Safety Advisory Group (SAG) and overseen by the Safety and Security Committee (SSC) of the OpenAI Foundation’s Board of Directors."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "During research: contain models in sandboxed environments",
+        "th": "During research: contain models in sandboxed environments"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "During the research phase, we evaluate models to gain confidence in their alignment properties. Because we cannot yet fully rely on alignment to prevent harm, we rely heavily on security and sandboxing to restrict what they can access and do.",
+        "th": "During the research phase, we evaluate models to gain confidence in their alignment properties. Because we cannot yet fully rely on alignment to prevent harm, we rely heavily on security and sandboxing to restrict what they can access and do."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no live internet access. After the Hugging Face incident, we significantly restructured our internal research systems to contain models using:",
+        "th": "Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no live internet access. After the Hugging Face incident, we significantly restructured our internal research systems to contain models using:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "sandboxes that restrict the privileges of the model",
+        "th": "sandboxes that restrict the privileges of the model"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "sandboxes that restrict the privileges of the model",
+        "th": "sandboxes that restrict the privileges of the model"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "virtual machines to further isolate the workload from the underlying computer",
+        "th": "virtual machines to further isolate the workload from the underlying computer"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "virtual machines to further isolate the workload from the underlying computer",
+        "th": "virtual machines to further isolate the workload from the underlying computer"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "network and cloud perimeters that cut the entire cluster off from the internet",
+        "th": "network and cloud perimeters that cut the entire cluster off from the internet"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "network and cloud perimeters that cut the entire cluster off from the internet",
+        "th": "network and cloud perimeters that cut the entire cluster off from the internet"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We continuously red-team this system, having teams of our strongest models try to reach the live internet, escape security boundaries, or communicate with agents they are meant to be isolated from. This helps us test whether containment holds against the capabilities of the models it is intended to constrain.",
+        "th": "We continuously red-team this system, having teams of our strongest models try to reach the live internet, escape security boundaries, or communicate with agents they are meant to be isolated from. This helps us test whether containment holds against the capabilities of the models it is intended to constrain."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As an additional layer of defense, we monitor all frontier inference to detect if the model has bypassed our security invariants. If our monitoring detects that the model has reached the internet, we page our security teams and autopause the workload.",
+        "th": "As an additional layer of defense, we monitor all frontier inference to detect if the model has bypassed our security invariants. If our monitoring detects that the model has reached the internet, we page our security teams and autopause the workload."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Monitoring provides a critical backstop when containment fails. In a recent misalignment report, we shared that monitors detected an internal research model exploiting a DNS misconfiguration⁠(opens in a new window) to gain limited internet access. We paused training and evaluation of our most capable models from September 20th to October 1st while we investigated and addressed the security gap.",
+        "th": "Monitoring provides a critical backstop when containment fails. In a recent misalignment report, we shared that monitors detected an internal research model exploiting a DNS misconfiguration⁠(opens in a new window) to gain limited internet access. We paused training and evaluation of our most capable models from September 20th to October 1st while we investigated and addressed the security gap."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "To make interventions fast and reliable, we built Control Room⁠, a central system that tracks research workloads and stops further model output within 35 seconds of receiving an instruction to halt a job. These controls are enforced directly in the inference infrastructure, so they do not depend on each research workload implementing its own shutdown mechanism. For frontier-model research workloads, they also stop model output if Control Room becomes unavailable.",
+        "th": "To make interventions fast and reliable, we built Control Room⁠, a central system that tracks research workloads and stops further model output within 35 seconds of receiving an instruction to halt a job. These controls are enforced directly in the inference infrastructure, so they do not depend on each research workload implementing its own shutdown mechanism. For frontier-model research workloads, they also stop model output if Control Room becomes unavailable."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Red-teaming and monitoring work together. We cannot guarantee that a sandbox is impenetrable, but red-teaming helps us assess how much effort a model would need to escape it. The more effort the model requires, the more the opportunity for monitors to detect and stop it.",
+        "th": "Red-teaming and monitoring work together. We cannot guarantee that a sandbox is impenetrable, but red-teaming helps us assess how much effort a model would need to escape it. The more effort the model requires, the more the opportunity for monitors to detect and stop it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We mandate strong security and monitoring controls at the research stage for a few reasons:",
+        "th": "We mandate strong security and monitoring controls at the research stage for a few reasons:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Models are still being evaluated. Some have not yet completed the safety training, alignment audits, and reviews required for public release.",
+        "th": "Models are still being evaluated. Some have not yet completed the safety training, alignment audits, and reviews required for public release."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Models are still being evaluated. Some have not yet completed the safety training, alignment audits, and reviews required for public release.",
+        "th": "Models are still being evaluated. Some have not yet completed the safety training, alignment audits, and reviews required for public release."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Frontier research settings can amplify risks. Certain research tasks require more ambitious setups, making the model more persistent or capable than typically seen during external deployment (for example, a team of 10,000 agents was required to solve the Navier Stokes problem).",
+        "th": "Frontier research settings can amplify risks. Certain research tasks require more ambitious setups, making the model more persistent or capable than typically seen during external deployment (for example, a team of 10,000 agents was required to solve the Navier Stokes problem)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Frontier research settings can amplify risks. Certain research tasks require more ambitious setups, making the model more persistent or capable than typically seen during external deployment (for example, a team of 10,000 agents was required to solve the Navier Stokes problem).",
+        "th": "Frontier research settings can amplify risks. Certain research tasks require more ambitious setups, making the model more persistent or capable than typically seen during external deployment (for example, a team of 10,000 agents was required to solve the Navier Stokes problem)."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Training runs at scale with less direct human oversight. Unlike a typical Codex session, our training workloads involve large numbers of model actions without a person following each interaction.",
+        "th": "Training runs at scale with less direct human oversight. Unlike a typical Codex session, our training workloads involve large numbers of model actions without a person following each interaction."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Training runs at scale with less direct human oversight. Unlike a typical Codex session, our training workloads involve large numbers of model actions without a person following each interaction.",
+        "th": "Training runs at scale with less direct human oversight. Unlike a typical Codex session, our training workloads involve large numbers of model actions without a person following each interaction."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Internal deployment: test alignment, closely monitor behavior",
+        "th": "Internal deployment: test alignment, closely monitor behavior"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before broad release, employees switch from sandboxed research use of frontier models to unsandboxed internal use, e.g. making the model accessible in ChatGPT to employees. This gives us a better understanding of how the models behave in practical settings⁠(opens in a new window), and informs deployment decisions.",
+        "th": "Before broad release, employees switch from sandboxed research use of frontier models to unsandboxed internal use, e.g. making the model accessible in ChatGPT to employees. This gives us a better understanding of how the models behave in practical settings⁠(opens in a new window), and informs deployment decisions."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "During this phase, we give the model access to the broader internet, our Slack, our codebase, and internal infrastructure. This is a significant change in risk, as the model’s actions now have a direct impact on the systems we use to build and run OpenAI. During internal deployment, we need to rely more on model alignment, system safeguards, and monitoring as opposed to security controls.",
+        "th": "During this phase, we give the model access to the broader internet, our Slack, our codebase, and internal infrastructure. This is a significant change in risk, as the model’s actions now have a direct impact on the systems we use to build and run OpenAI. During internal deployment, we need to rely more on model alignment, system safeguards, and monitoring as opposed to security controls."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before a frontier model can be deployed outside of the sandbox, it must first go through alignment and monitorability testing⁠(opens in a new window). We have a suite of alignment evaluations, which test both for specific alignment failure modes (such as circumventing safety and security restrictions) and broad measurements of propensity (such as resampling internal Codex trajectories and checking for misalignment). You can see more about our alignment and monitorability evaluations in the latest GPT‑6 Astra system card⁠(opens in a new window).",
+        "th": "Before a frontier model can be deployed outside of the sandbox, it must first go through alignment and monitorability testing⁠(opens in a new window). We have a suite of alignment evaluations, which test both for specific alignment failure modes (such as circumventing safety and security restrictions) and broad measurements of propensity (such as resampling internal Codex trajectories and checking for misalignment). You can see more about our alignment and monitorability evaluations in the latest GPT‑6 Astra system card⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mimicking our production setups, we add an additional layer of defense with system-level classifiers, which are designed to protect against frontier harms such as cyberabuse and bioweaponization. We also generally require Auto-Review⁠(opens in a new window) for employees using Codex, which evaluates potentially risk actions and escalates them back to the user.",
+        "th": "Mimicking our production setups, we add an additional layer of defense with system-level classifiers, which are designed to protect against frontier harms such as cyberabuse and bioweaponization. We also generally require Auto-Review⁠(opens in a new window) for employees using Codex, which evaluates potentially risk actions and escalates them back to the user."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Finally, we monitor for misaligned behavior on every frontier inference during internal deployment. Since the model now has expanded privileges and access to internal information and systems, risks such as data exfiltration, or sending sensitive data to an unauthorized destination, become especially important to detect. Monitoring also helps us investigate new forms of misalignment⁠(opens in a new window).",
+        "th": "Finally, we monitor for misaligned behavior on every frontier inference during internal deployment. Since the model now has expanded privileges and access to internal information and systems, risks such as data exfiltration, or sending sensitive data to an unauthorized destination, become especially important to detect. Monitoring also helps us investigate new forms of misalignment⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "External deployment: protect against misuse and misalignment at scale",
+        "th": "External deployment: protect against misuse and misalignment at scale"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Public deployment exposes models to far more users, tasks, and environments, increasing both the scale and variety of risks. At this stage, we also need to protect against potentially malicious actors who purposefully direct the model to perform harm.",
+        "th": "Public deployment exposes models to far more users, tasks, and environments, increasing both the scale and variety of risks. At this stage, we also need to protect against potentially malicious actors who purposefully direct the model to perform harm."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before public release, models and system safeguards must meet our external deployment safety requirements. We assess them through:",
+        "th": "Before public release, models and system safeguards must meet our external deployment safety requirements. We assess them through:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Performing a larger suite of alignment and safety evaluations. For our frontier models, this includes performing new rounds of adaptive testing⁠ with our internal automated redteamers to stress-test the robustness of the model. We publish the results of our capability and safety evaluations in our system cards⁠(opens in a new window).",
+        "th": "Performing a larger suite of alignment and safety evaluations. For our frontier models, this includes performing new rounds of adaptive testing⁠ with our internal automated redteamers to stress-test the robustness of the model. We publish the results of our capability and safety evaluations in our system cards⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Performing a larger suite of alignment and safety evaluations. For our frontier models, this includes performing new rounds of adaptive testing⁠ with our internal automated redteamers to stress-test the robustness of the model. We publish the results of our capability and safety evaluations in our system cards⁠(opens in a new window).",
+        "th": "Performing a larger suite of alignment and safety evaluations. For our frontier models, this includes performing new rounds of adaptive testing⁠ with our internal automated redteamers to stress-test the robustness of the model. We publish the results of our capability and safety evaluations in our system cards⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "For our most capable models, we also perform testing with third parties to stress-test both our safeguards against misuse and the underlying alignment of our models.",
+        "th": "For our most capable models, we also perform testing with third parties to stress-test both our safeguards against misuse and the underlying alignment of our models."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For our most capable models, we also perform testing with third parties to stress-test both our safeguards against misuse and the underlying alignment of our models.",
+        "th": "For our most capable models, we also perform testing with third parties to stress-test both our safeguards against misuse and the underlying alignment of our models."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Examining monitoring flags from the internal deployment stage to track any changes in the base model’s underlying alignment.",
+        "th": "Examining monitoring flags from the internal deployment stage to track any changes in the base model’s underlying alignment."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Examining monitoring flags from the internal deployment stage to track any changes in the base model’s underlying alignment.",
+        "th": "Examining monitoring flags from the internal deployment stage to track any changes in the base model’s underlying alignment."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In addition to our “synchronous” safeguards (such as model safety training and system classifiers), for external deployments we also leverage offline enforcement and investigation. These teams use a combination of scaled agentic investigators and human review to detect and identify potential threat actors, ranging from cyberabuse, bioweaponization, distillation⁠, and misalignment from the model itself. Offline enforcement is especially helpful to gather information across accounts in order to build a more holistic picture of a potential threat.",
+        "th": "In addition to our “synchronous” safeguards (such as model safety training and system classifiers), for external deployments we also leverage offline enforcement and investigation. These teams use a combination of scaled agentic investigators and human review to detect and identify potential threat actors, ranging from cyberabuse, bioweaponization, distillation⁠, and misalignment from the model itself. Offline enforcement is especially helpful to gather information across accounts in order to build a more holistic picture of a potential threat."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Trusted access programs, such as Daybreak and Rosalind⁠, offer another layer of security, and accelerate defenders and legitimate researchers while restricting access by potential attackers.",
+        "th": "Trusted access programs, such as Daybreak and Rosalind⁠, offer another layer of security, and accelerate defenders and legitimate researchers while restricting access by potential attackers."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Incident Response and Disclosure",
+        "th": "Incident Response and Disclosure"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When we notice a failure in one of our layers of safety, regardless of whether any harm actually occurred, we want to quickly investigate, triage, and if possible and appropriate, disclose the failure externally. Under our misalignment reporting⁠ policy, any employee can flag an incident for public disclosure. These reports are investigated, and if there is a disagreement on whether they should be externally disclosed, the decision is escalated to our Safety Advisory Group (SAG). In addition to relying on employee reports, we proactively look for misalignment incidents so we can address them and share findings.",
+        "th": "When we notice a failure in one of our layers of safety, regardless of whether any harm actually occurred, we want to quickly investigate, triage, and if possible and appropriate, disclose the failure externally. Under our misalignment reporting⁠ policy, any employee can flag an incident for public disclosure. These reports are investigated, and if there is a disagreement on whether they should be externally disclosed, the decision is escalated to our Safety Advisory Group (SAG). In addition to relying on employee reports, we proactively look for misalignment incidents so we can address them and share findings."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can see our misalignment reports here⁠(opens in a new window).",
+        "th": "You can see our misalignment reports here⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This work depends on both research progress and operational discipline: configuring controls correctly, testing how they interact, and responding decisively when they fail. A misconfigured network service or a failed automatic stop can undermine otherwise strong protections.",
+        "th": "This work depends on both research progress and operational discipline: configuring controls correctly, testing how they interact, and responding decisively when they fail. A misconfigured network service or a failed automatic stop can undermine otherwise strong protections."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As models gain new capabilities, we will need to keep challenging the assumptions behind our safeguards and improving them where necessary. Lessons from research, internal use, and public deployment must inform how we train, evaluate, and deploy the next models.",
+        "th": "As models gain new capabilities, we will need to keep challenging the assumptions behind our safeguards and improving them where necessary. Lessons from research, internal use, and public deployment must inform how we train, evaluate, and deploy the next models."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We will continue sharing findings through system cards, incident reports, internal deployment risk reports⁠(opens in a new window), and external evaluations⁠ so that others can scrutinize our approach, including its limitations. When that evidence falls short of the bar we hold for safety, we will again pause training or withhold release until those requirements are met.",
+        "th": "We will continue sharing findings through system cards, incident reports, internal deployment risk reports⁠(opens in a new window), and external evaluations⁠ so that others can scrutinize our approach, including its limitations. When that evidence falls short of the bar we hold for safety, we will again pause training or withhold release until those requirements are met."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Related research and resources",
+        "th": "Related research and resources"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Setting safety standards",
+        "th": "Setting safety standards"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Pacing model development in an era of cyber-critical capabilities — How we slowed frontier training while strengthening containment, expanding monitoring, and requiring stronger evidence of alignment.",
+        "th": "Pacing model development in an era of cyber-critical capabilities — How we slowed frontier training while strengthening containment, expanding monitoring, and requiring stronger evidence of alignment."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Pacing model development in an era of cyber-critical capabilities — How we slowed frontier training while strengthening containment, expanding monitoring, and requiring stronger evidence of alignment.",
+        "th": "Pacing model development in an era of cyber-critical capabilities — How we slowed frontier training while strengthening containment, expanding monitoring, and requiring stronger evidence of alignment."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Towards safety cases for frontier AI training — Initial guidelines for evidence-based safety arguments covering technical safeguards, operational practices, and investigations of misalignment.",
+        "th": "Towards safety cases for frontier AI training — Initial guidelines for evidence-based safety arguments covering technical safeguards, operational practices, and investigations of misalignment."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Towards safety cases for frontier AI training — Initial guidelines for evidence-based safety arguments covering technical safeguards, operational practices, and investigations of misalignment.",
+        "th": "Towards safety cases for frontier AI training — Initial guidelines for evidence-based safety arguments covering technical safeguards, operational practices, and investigations of misalignment."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Priorities and principles for effective third party assessments⁠ — Our proposed approach to independent scrutiny of safety cases, safeguards, evaluations, and model behavior.",
+        "th": "Priorities and principles for effective third party assessments⁠ — Our proposed approach to independent scrutiny of safety cases, safeguards, evaluations, and model behavior."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Priorities and principles for effective third party assessments⁠ — Our proposed approach to independent scrutiny of safety cases, safeguards, evaluations, and model behavior.",
+        "th": "Priorities and principles for effective third party assessments⁠ — Our proposed approach to independent scrutiny of safety cases, safeguards, evaluations, and model behavior."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Periodic Summary of Internal Use Catastrophic-Risk Assessments⁠(opens in a new window) — Our public report covering June–September 2026 describes internal frontier-model deployments, their assessed risks, and changes to safeguards and governance.",
+        "th": "Periodic Summary of Internal Use Catastrophic-Risk Assessments⁠(opens in a new window) — Our public report covering June–September 2026 describes internal frontier-model deployments, their assessed risks, and changes to safeguards and governance."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Periodic Summary of Internal Use Catastrophic-Risk Assessments⁠(opens in a new window) — Our public report covering June–September 2026 describes internal frontier-model deployments, their assessed risks, and changes to safeguards and governance.",
+        "th": "Periodic Summary of Internal Use Catastrophic-Risk Assessments⁠(opens in a new window) — Our public report covering June–September 2026 describes internal frontier-model deployments, their assessed risks, and changes to safeguards and governance."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Defining and evaluating aligned behavior",
+        "th": "Defining and evaluating aligned behavior"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "An updated Model Spec for more capable and beneficial AI⁠ — How we updated the Model Spec around five core values to guide models’ judgment, behavior, and respect for human oversight.",
+        "th": "An updated Model Spec for more capable and beneficial AI⁠ — How we updated the Model Spec around five core values to guide models’ judgment, behavior, and respect for human oversight."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An updated Model Spec for more capable and beneficial AI⁠ — How we updated the Model Spec around five core values to guide models’ judgment, behavior, and respect for human oversight.",
+        "th": "An updated Model Spec for more capable and beneficial AI⁠ — How we updated the Model Spec around five core values to guide models’ judgment, behavior, and respect for human oversight."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Eval-production behavior gaps in agent safety and the role of eval-awareness⁠(opens in a new window) — A study of differences between safety-evaluation results and production behavior, including how models’ interpretations of evaluation objectives affect performance.",
+        "th": "Eval-production behavior gaps in agent safety and the role of eval-awareness⁠(opens in a new window) — A study of differences between safety-evaluation results and production behavior, including how models’ interpretations of evaluation objectives affect performance."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Eval-production behavior gaps in agent safety and the role of eval-awareness⁠(opens in a new window) — A study of differences between safety-evaluation results and production behavior, including how models’ interpretations of evaluation objectives affect performance.",
+        "th": "Eval-production behavior gaps in agent safety and the role of eval-awareness⁠(opens in a new window) — A study of differences between safety-evaluation results and production behavior, including how models’ interpretations of evaluation objectives affect performance."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Beyond g-mean²: complementary metrics for monitorability⁠(opens in a new window) — New metrics for comparing monitorability and estimating residual risk in simulated systems where monitors reject model outputs.",
+        "th": "Beyond g-mean²: complementary metrics for monitorability⁠(opens in a new window) — New metrics for comparing monitorability and estimating residual risk in simulated systems where monitors reject model outputs."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Beyond g-mean²: complementary metrics for monitorability⁠(opens in a new window) — New metrics for comparing monitorability and estimating residual risk in simulated systems where monitors reject model outputs.",
+        "th": "Beyond g-mean²: complementary metrics for monitorability⁠(opens in a new window) — New metrics for comparing monitorability and estimating residual risk in simulated systems where monitors reject model outputs."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "GPT‑6 Astra System Card⁠(opens in a new window) — Detailed evaluations of Astra’s capabilities, safety, alignment, and monitorability, alongside its deployment safeguards and limitations.",
+        "th": "GPT‑6 Astra System Card⁠(opens in a new window) — Detailed evaluations of Astra’s capabilities, safety, alignment, and monitorability, alongside its deployment safeguards and limitations."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6 Astra System Card⁠(opens in a new window) — Detailed evaluations of Astra’s capabilities, safety, alignment, and monitorability, alongside its deployment safeguards and limitations.",
+        "th": "GPT‑6 Astra System Card⁠(opens in a new window) — Detailed evaluations of Astra’s capabilities, safety, alignment, and monitorability, alongside its deployment safeguards and limitations."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Containing models and improving safeguards",
+        "th": "Containing models and improving safeguards"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Securing our frontier model training environment — How we strengthened isolation, built offline research environments, and used our strongest models to test containment boundaries.",
+        "th": "Securing our frontier model training environment — How we strengthened isolation, built offline research environments, and used our strongest models to test containment boundaries."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Securing our frontier model training environment — How we strengthened isolation, built offline research environments, and used our strongest models to test containment boundaries.",
+        "th": "Securing our frontier model training environment — How we strengthened isolation, built offline research environments, and used our strongest models to test containment boundaries."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Training activation classifiers for safety and alignment⁠(opens in a new window) — How classifiers use models’ internal activations to detect potentially harmful behavior and interrupt responses or tool calls.",
+        "th": "Training activation classifiers for safety and alignment⁠(opens in a new window) — How classifiers use models’ internal activations to detect potentially harmful behavior and interrupt responses or tool calls."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Training activation classifiers for safety and alignment⁠(opens in a new window) — How classifiers use models’ internal activations to detect potentially harmful behavior and interrupt responses or tool calls.",
+        "th": "Training activation classifiers for safety and alignment⁠(opens in a new window) — How classifiers use models’ internal activations to detect potentially harmful behavior and interrupt responses or tool calls."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Auto-review of agent actions without synchronous human oversight⁠(opens in a new window) — How a separate review agent assesses actions that cross sandbox boundaries, helping coding agents work autonomously while blocking potentially harmful or unauthorized actions.",
+        "th": "Auto-review of agent actions without synchronous human oversight⁠(opens in a new window) — How a separate review agent assesses actions that cross sandbox boundaries, helping coding agents work autonomously while blocking potentially harmful or unauthorized actions."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Auto-review of agent actions without synchronous human oversight⁠(opens in a new window) — How a separate review agent assesses actions that cross sandbox boundaries, helping coding agents work autonomously while blocking potentially harmful or unauthorized actions.",
+        "th": "Auto-review of agent actions without synchronous human oversight⁠(opens in a new window) — How a separate review agent assesses actions that cross sandbox boundaries, helping coding agents work autonomously while blocking potentially harmful or unauthorized actions."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "GPT‑Red: Unlocking Self-Improvement for Robustness⁠ — How we train automated red-teamers through self-play to discover vulnerabilities and improve models’ robustness against prompt injections.",
+        "th": "GPT‑Red: Unlocking Self-Improvement for Robustness⁠ — How we train automated red-teamers through self-play to discover vulnerabilities and improve models’ robustness against prompt injections."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑Red: Unlocking Self-Improvement for Robustness⁠ — How we train automated red-teamers through self-play to discover vulnerabilities and improve models’ robustness against prompt injections.",
+        "th": "GPT‑Red: Unlocking Self-Improvement for Robustness⁠ — How we train automated red-teamers through self-play to discover vulnerabilities and improve models’ robustness against prompt injections."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Control Room⁠ — How we track workloads across our research infrastructure and enforce rapid stops to model output when safety or security concerns require intervention.",
+        "th": "Control Room⁠ — How we track workloads across our research infrastructure and enforce rapid stops to model output when safety or security concerns require intervention."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Control Room⁠ — How we track workloads across our research infrastructure and enforce rapid stops to model output when safety or security concerns require intervention.",
+        "th": "Control Room⁠ — How we track workloads across our research infrastructure and enforce rapid stops to model output when safety or security concerns require intervention."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Incident response and disclosure",
+        "th": "Incident response and disclosure"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How we detect frontier model misalignment — Our monitoring system combines activation probes, model-based review, automated investigation, and human response to detect and investigate concerning behavior.",
+        "th": "How we detect frontier model misalignment — Our monitoring system combines activation probes, model-based review, automated investigation, and human response to detect and investigate concerning behavior."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "How we detect frontier model misalignment — Our monitoring system combines activation probes, model-based review, automated investigation, and human response to detect and investigate concerning behavior.",
+        "th": "How we detect frontier model misalignment — Our monitoring system combines activation probes, model-based review, automated investigation, and human response to detect and investigate concerning behavior."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The Hugging Face incident and the road ahead⁠ — Our findings from the Hugging Face incident and the changes it prompted across security, monitoring, and alignment.",
+        "th": "The Hugging Face incident and the road ahead⁠ — Our findings from the Hugging Face incident and the changes it prompted across security, monitoring, and alignment."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Hugging Face incident and the road ahead⁠ — Our findings from the Hugging Face incident and the changes it prompted across security, monitoring, and alignment.",
+        "th": "The Hugging Face incident and the road ahead⁠ — Our findings from the Hugging Face incident and the changes it prompted across security, monitoring, and alignment."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "An agent used DNS to reach an external chatbot⁠(opens in a new window) — How a research model bypassed internet restrictions through insufficient DNS filtering, how monitoring detected it, and the controls added afterward.",
+        "th": "An agent used DNS to reach an external chatbot⁠(opens in a new window) — How a research model bypassed internet restrictions through insufficient DNS filtering, how monitoring detected it, and the controls added afterward."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An agent used DNS to reach an external chatbot⁠(opens in a new window) — How a research model bypassed internet restrictions through insufficient DNS filtering, how monitoring detected it, and the controls added afterward.",
+        "th": "An agent used DNS to reach an external chatbot⁠(opens in a new window) — How a research model bypassed internet restrictions through insufficient DNS filtering, how monitoring detected it, and the controls added afterward."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Disrupting a coordinated model-distillation campaign⁠ — How we investigated and disrupted attempts to extract protected model reasoning through account enforcement, technical controls, and partner coordination.",
+        "th": "Disrupting a coordinated model-distillation campaign⁠ — How we investigated and disrupted attempts to extract protected model reasoning through account enforcement, technical controls, and partner coordination."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Disrupting a coordinated model-distillation campaign⁠ — How we investigated and disrupted attempts to extract protected model reasoning through account enforcement, technical controls, and partner coordination.",
+        "th": "Disrupting a coordinated model-distillation campaign⁠ — How we investigated and disrupted attempts to extract protected model reasoning through account enforcement, technical controls, and partner coordination."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Our framework for reporting model misalignment⁠ — Our process for tracking, investigating, and disclosing concerning model behavior, including cases whose causes or significance remain uncertain.",
+        "th": "Our framework for reporting model misalignment⁠ — Our process for tracking, investigating, and disclosing concerning model behavior, including cases whose causes or significance remain uncertain."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our framework for reporting model misalignment⁠ — Our process for tracking, investigating, and disclosing concerning model behavior, including cases whose causes or significance remain uncertain.",
+        "th": "Our framework for reporting model misalignment⁠ — Our process for tracking, investigating, and disclosing concerning model behavior, including cases whose causes or significance remain uncertain."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Misalignment Reports and Notices⁠(opens in a new window) — Our collection of disclosed incidents and notices showing how misalignment arises and where safeguards succeed or fail.",
+        "th": "Misalignment Reports and Notices⁠(opens in a new window) — Our collection of disclosed incidents and notices showing how misalignment arises and where safeguards succeed or fail."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Misalignment Reports and Notices⁠(opens in a new window) — Our collection of disclosed incidents and notices showing how misalignment arises and where safeguards succeed or fail.",
+        "th": "Misalignment Reports and Notices⁠(opens in a new window) — Our collection of disclosed incidents and notices showing how misalignment arises and where safeguards succeed or fail."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Research progress and applications",
+        "th": "Research progress and applications"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Research acceleration: The view inside OpenAI — Early evidence of how coding agents are changing research inside OpenAI, including their growing use, increasingly complex tasks, and effects on experimentation.",
+        "th": "Research acceleration: The view inside OpenAI — Early evidence of how coding agents are changing research inside OpenAI, including their growing use, increasingly complex tasks, and effects on experimentation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Research acceleration: The view inside OpenAI — Early evidence of how coding agents are changing research inside OpenAI, including their growing use, increasingly complex tasks, and effects on experimentation.",
+        "th": "Research acceleration: The view inside OpenAI — Early evidence of how coding agents are changing research inside OpenAI, including their growing use, increasingly complex tasks, and effects on experimentation."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "On the Navier–Stokes Millennium Prize Problem — A mathematical proof produced by an internal AI system, accompanied by a Lean formalization, illustrating the capabilities of large-scale research deployments.",
+        "th": "On the Navier–Stokes Millennium Prize Problem — A mathematical proof produced by an internal AI system, accompanied by a Lean formalization, illustrating the capabilities of large-scale research deployments."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "On the Navier–Stokes Millennium Prize Problem — A mathematical proof produced by an internal AI system, accompanied by a Lean formalization, illustrating the capabilities of large-scale research deployments.",
+        "th": "On the Navier–Stokes Millennium Prize Problem — A mathematical proof produced by an internal AI system, accompanied by a Lean formalization, illustrating the capabilities of large-scale research deployments."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Daybreak — Our cybersecurity program provides vetted defenders with advanced AI capabilities, security tools, and support to find vulnerabilities and strengthen defenses.",
+        "th": "Daybreak — Our cybersecurity program provides vetted defenders with advanced AI capabilities, security tools, and support to find vulnerabilities and strengthen defenses."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Daybreak — Our cybersecurity program provides vetted defenders with advanced AI capabilities, security tools, and support to find vulnerabilities and strengthen defenses.",
+        "th": "Daybreak — Our cybersecurity program provides vetted defenders with advanced AI capabilities, security tools, and support to find vulnerabilities and strengthen defenses."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Introducing GPT‑Rosalind for life sciences research⁠ — A specialized model for biology, drug discovery, and translational medicine, available to eligible organizations through a trusted-access program.",
+        "th": "Introducing GPT‑Rosalind for life sciences research⁠ — A specialized model for biology, drug discovery, and translational medicine, available to eligible organizations through a trusted-access program."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Introducing GPT‑Rosalind for life sciences research⁠ — A specialized model for biology, drug discovery, and translational medicine, available to eligible organizations through a trusted-access program.",
+        "th": "Introducing GPT‑Rosalind for life sciences research⁠ — A specialized model for biology, drug discovery, and translational medicine, available to eligible organizations through a trusted-access program."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Alignment",
+        "th": "Alignment"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Cybersecurity",
+        "th": "Cybersecurity"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "User Safety & Control",
+        "th": "User Safety & Control"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/1YAlC4a6FgYc9r73SDH0Ef/bcd6bdf945006094fbc327ac46dee04d/new-approach-to-research-model-containment-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Securing our frontier model training environment — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SecurityOct 23, 2026",
+        "th": "SecurityOct 23, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/43ZavE2amLHMmbxH8EL8VM/1464d0f68c0f3c45e9d255992aab32b1/how-we-detect-frontier-model-misalignment-cover.png?w=3840&q=90&fm=webp",
+      "alt": "How we detect frontier model misalignment — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SecurityOct 29, 2026",
+        "th": "SecurityOct 29, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3mJz9GkBOjZvAMYPx8M1dj/2a9ac4b7e18b1c08feef5368c4fde2e2/model-misalignment-reporting-framework--cover-v002.png?w=3840&q=90&fm=webp",
+      "alt": "Our framework for reporting model misalignment — card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchSep 16, 2026",
+        "th": "ResearchSep 16, 2026"
+      }
+    }
+  ]
+}

@@ -116,8 +116,8 @@
     {
       "type": "p",
       "text": {
-        "en": "We started using GPT‑4o to help design Jalapeño in early 2025. Even that early model found ways to make nontrivial PPA improvements, such as:",
-        "th": "We started using GPT‑4o to help design Jalapeño in early 2025. Even that early model found ways to make nontrivial PPA improvements, such as:"
+        "en": "We started using GPT‑o3 mini to help design Jalapeño in early 2025. Even that early model found ways to make nontrivial PPA improvements, such as:",
+        "th": "We started using GPT‑o3 mini to help design Jalapeño in early 2025. Even that early model found ways to make nontrivial PPA improvements, such as:"
       }
     },
     {
@@ -304,6 +304,18 @@
     },
     {
       "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3q9FXuH69IDGjPgpzj2Ayv/95477fdeea31ffb7eae01ec1c191b1f0/research-acceleration-the-jagged-frontier-of-rsi-cover.png",
+      "alt": "A softly textured blue and turquoise gradient."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchNov 18, 2026",
+        "th": "ResearchNov 18, 2026"
+      }
+    },
+    {
+      "type": "img",
       "src": "https://images.ctfassets.net/kftzwdyauwt9/1FaKIo74WEGULSjb4ooTrV/718f3bc75e7b2ddd276d43a0fc97760a/academic-researchers-art-card.png?w=3840&q=90&fm=webp",
       "alt": "Academic researchers — art card"
     },
@@ -324,18 +336,6 @@
       "text": {
         "en": "ResearchNov 16, 2026",
         "th": "ResearchNov 16, 2026"
-      }
-    },
-    {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/jNZJCNxCnXJEalE02MRYi/9c7ad4cdb35bae08e5e49eb6a2f65622/biobasicsbench-cover.png?w=3840&q=90&fm=webp",
-      "alt": "BioBasicsBench — Cover"
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "PublicationNov 6, 2026",
-        "th": "PublicationNov 6, 2026"
       }
     }
   ]

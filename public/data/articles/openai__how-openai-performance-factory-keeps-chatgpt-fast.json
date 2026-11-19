@@ -1,0 +1,1010 @@
+{
+  "id": "openai__how-openai-performance-factory-keeps-chatgpt-fast",
+  "slug": "how-openai-performance-factory-keeps-chatgpt-fast",
+  "source": "openai",
+  "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+  "category": "Engineering",
+  "date": "2026-11-19T08:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+    "th": "How OpenAI’s Performance Factory keeps ChatGPT fast"
+  },
+  "summary": {
+    "en": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+    "th": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 19, 2026",
+        "th": "November 19, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our Codex-powered system automates finding and fixing performance issues.",
+        "th": "Our Codex-powered system automates finding and fixing performance issues."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By Okay Zed and Cyrus Forbes, Members of Technical Staff",
+        "th": "By Okay Zed and Cyrus Forbes, Members of Technical Staff"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The path from manual investigations to automated workflows",
+        "th": "The path from manual investigations to automated workflows"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The Performance Factory system’s four partsTask service with configurable workflowsDispatch loop that assigns workCodex in the cloudSubscriptions that wake the agent when something changes",
+        "th": "The Performance Factory system’s four partsTask service with configurable workflowsDispatch loop that assigns workCodex in the cloudSubscriptions that wake the agent when something changes"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Task service with configurable workflows",
+        "th": "Task service with configurable workflows"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Dispatch loop that assigns work",
+        "th": "Dispatch loop that assigns work"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Codex in the cloud",
+        "th": "Codex in the cloud"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Subscriptions that wake the agent when something changes",
+        "th": "Subscriptions that wake the agent when something changes"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The first workflow: from alert to recoveryAgents find the root causeAdversarial review strengthens the diagnosisFixing the regression is the hard part",
+        "th": "The first workflow: from alert to recoveryAgents find the root causeAdversarial review strengthens the diagnosisFixing the regression is the hard part"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Agents find the root cause",
+        "th": "Agents find the root cause"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Adversarial review strengthens the diagnosis",
+        "th": "Adversarial review strengthens the diagnosis"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Fixing the regression is the hard part",
+        "th": "Fixing the regression is the hard part"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What we learnedProtect engineers’ attentionEvaluate changes to your agentsTurn recurring failures into self-repair",
+        "th": "What we learnedProtect engineers’ attentionEvaluate changes to your agentsTurn recurring failures into self-repair"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Protect engineers’ attention",
+        "th": "Protect engineers’ attention"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Evaluate changes to your agents",
+        "th": "Evaluate changes to your agents"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Turn recurring failures into self-repair",
+        "th": "Turn recurring failures into self-repair"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What’s next: broader applications, proactive monitoring",
+        "th": "What’s next: broader applications, proactive monitoring"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The path from manual investigations to automated workflows",
+        "th": "The path from manual investigations to automated workflows"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The Performance Factory system’s four partsTask service with configurable workflowsDispatch loop that assigns workCodex in the cloudSubscriptions that wake the agent when something changes",
+        "th": "The Performance Factory system’s four partsTask service with configurable workflowsDispatch loop that assigns workCodex in the cloudSubscriptions that wake the agent when something changes"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Task service with configurable workflows",
+        "th": "Task service with configurable workflows"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Dispatch loop that assigns work",
+        "th": "Dispatch loop that assigns work"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Codex in the cloud",
+        "th": "Codex in the cloud"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Subscriptions that wake the agent when something changes",
+        "th": "Subscriptions that wake the agent when something changes"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The first workflow: from alert to recoveryAgents find the root causeAdversarial review strengthens the diagnosisFixing the regression is the hard part",
+        "th": "The first workflow: from alert to recoveryAgents find the root causeAdversarial review strengthens the diagnosisFixing the regression is the hard part"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Agents find the root cause",
+        "th": "Agents find the root cause"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Adversarial review strengthens the diagnosis",
+        "th": "Adversarial review strengthens the diagnosis"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Fixing the regression is the hard part",
+        "th": "Fixing the regression is the hard part"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What we learnedProtect engineers’ attentionEvaluate changes to your agentsTurn recurring failures into self-repair",
+        "th": "What we learnedProtect engineers’ attentionEvaluate changes to your agentsTurn recurring failures into self-repair"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Protect engineers’ attention",
+        "th": "Protect engineers’ attention"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Evaluate changes to your agents",
+        "th": "Evaluate changes to your agents"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Turn recurring failures into self-repair",
+        "th": "Turn recurring failures into self-repair"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What’s next: broader applications, proactive monitoring",
+        "th": "What’s next: broader applications, proactive monitoring"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The staggering pace of agentic development has made traditional approaches to performance engineering unsustainable. To keep up, we built the Performance Factory, an autonomous system that uses the full capabilities of Codex and our models to find and fix regressions at an unprecedented speed. The Performance Factory, which runs in the cloud and automates investigating and resolving performance problems, enables us to keep pace with the ambition of our roadmap.",
+        "th": "The staggering pace of agentic development has made traditional approaches to performance engineering unsustainable. To keep up, we built the Performance Factory, an autonomous system that uses the full capabilities of Codex and our models to find and fix regressions at an unprecedented speed. The Performance Factory, which runs in the cloud and automates investigating and resolving performance problems, enables us to keep pace with the ambition of our roadmap."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In the Performance Factory, our engineers define workflows for recurring jobs and write instructions for the Codex agents that carry them out. In particular, the Regression Workflow opens a task when a performance alert fires. An agent investigates the slowdown, records its findings in the task, and proposes a fix for an engineer to review. After deployment, another agent picks up the same task to check whether performance has returned to baseline. From investigating to authoring the fix to verifying mitigation, this first workflow in the Performance Factory has automated the entire process of fixing regressions. In just over three months, the Regression Workflow tracked more than 1,700 investigations and root caused over 600 cases. That’s 17 automated investigations every day.",
+        "th": "In the Performance Factory, our engineers define workflows for recurring jobs and write instructions for the Codex agents that carry them out. In particular, the Regression Workflow opens a task when a performance alert fires. An agent investigates the slowdown, records its findings in the task, and proposes a fix for an engineer to review. After deployment, another agent picks up the same task to check whether performance has returned to baseline. From investigating to authoring the fix to verifying mitigation, this first workflow in the Performance Factory has automated the entire process of fixing regressions. In just over three months, the Regression Workflow tracked more than 1,700 investigations and root caused over 600 cases. That’s 17 automated investigations every day."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Here, we’ll share how our use of Codex evolved into what’s now the Performance Factory, walk through our first running workflow, and share early lessons from building and running agent workflows in production.",
+        "th": "Here, we’ll share how our use of Codex evolved into what’s now the Performance Factory, walk through our first running workflow, and share early lessons from building and running agent workflows in production."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The path from manual investigations to automated workflows",
+        "th": "The path from manual investigations to automated workflows"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "As we used Codex for more of our performance work, we noticed a progression in how our team worked. We hope other service teams can learn from our process as they adopt agentic workflows in other domains.",
+        "th": "As we used Codex for more of our performance work, we noticed a progression in how our team worked. We hope other service teams can learn from our process as they adopt agentic workflows in other domains."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/581rKVIvguLraKii21zIgr/83deca5cdcec639b656a9a5ec1954f4b/performance-factory-evolution-light.png?w=3840&q=90&fm=webp",
+      "alt": "The evolution of performance engineering: manual work, reusable tools, engineers working with Codex, engineers dispatching tasks, systems dispatching tasks, and a factory of agents coordinating automated workflows."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Software work evolves from manual labor to partnering with machines to agent factories.",
+        "th": "Software work evolves from manual labor to partnering with machines to agent factories."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "1. Pre-Codex. Before Codex, engineers manually examined metrics and logs, compared traces, debugged live machines, and read code to investigate a slowdown. This work was time consuming, and knowing where to look often required deep knowledge of the service. Relevant signals were easy to miss. When we encountered the same kinds of problems repeatedly—like regressions in ChatGPT’s first token latency—we built advanced tools, like CPU and allocation profilers, to make those investigations easier. Over time, we accumulated more than 30 performance tools.",
+        "th": "1. Pre-Codex. Before Codex, engineers manually examined metrics and logs, compared traces, debugged live machines, and read code to investigate a slowdown. This work was time consuming, and knowing where to look often required deep knowledge of the service. Relevant signals were easy to miss. When we encountered the same kinds of problems repeatedly—like regressions in ChatGPT’s first token latency—we built advanced tools, like CPU and allocation profilers, to make those investigations easier. Over time, we accumulated more than 30 performance tools."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "2. Codex as a partner. Once we had Codex as a partner, engineers could ask, “Why did this get slower?” and work with Codex to investigate, even in an unfamiliar system. Codex could search large codebases, find relevant metrics and traces, follow interactions across services, and do appropriate profiling to piece together what had happened. But engineers still had to steer the process, knowing which performance tools to use and how to guide the investigation. Difficult investigations were more debuggable for more people, with less expertise and time required.",
+        "th": "2. Codex as a partner. Once we had Codex as a partner, engineers could ask, “Why did this get slower?” and work with Codex to investigate, even in an unfamiliar system. Codex could search large codebases, find relevant metrics and traces, follow interactions across services, and do appropriate profiling to piece together what had happened. But engineers still had to steer the process, knowing which performance tools to use and how to guide the investigation. Difficult investigations were more debuggable for more people, with less expertise and time required."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "3. Reusable skills. To automate further, we captured our performance team’s investigation process in a shared skill called perf-forensics. It tells Codex which tools are available, when to use them, and how to work through a slowdown so Codex can try to resolve the problem from a few angles:",
+        "th": "3. Reusable skills. To automate further, we captured our performance team’s investigation process in a shared skill called perf-forensics. It tells Codex which tools are available, when to use them, and how to work through a slowdown so Codex can try to resolve the problem from a few angles:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Find when the slowdown began",
+        "th": "Find when the slowdown began"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Find when the slowdown began",
+        "th": "Find when the slowdown began"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Identify the affected requests",
+        "th": "Identify the affected requests"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Identify the affected requests",
+        "th": "Identify the affected requests"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Investigate whether deployments or configuration changes could explain it",
+        "th": "Investigate whether deployments or configuration changes could explain it"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Investigate whether deployments or configuration changes could explain it",
+        "th": "Investigate whether deployments or configuration changes could explain it"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We tested and refined the perf-forensics skill using evals based on past regressions. For the types of regressions we focused on (for example, ChatGPT latency and availability drops), we could now give Codex an alert and get back a diagnosis in a single run, without guiding it through each step.",
+        "th": "We tested and refined the perf-forensics skill using evals based on past regressions. For the types of regressions we focused on (for example, ChatGPT latency and availability drops), we could now give Codex an alert and get back a diagnosis in a single run, without guiding it through each step."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "4. The human proxy. As we added and refined perf-related Codex skills like perf-forensics, we started to feel like a proxy between our alerts and Codex. An alert would fire, and an engineer would simply copy and paste it into Codex with the right skill, then paste the findings back into Slack.",
+        "th": "4. The human proxy. As we added and refined perf-related Codex skills like perf-forensics, we started to feel like a proxy between our alerts and Codex. An alert would fire, and an engineer would simply copy and paste it into Codex with the right skill, then paste the findings back into Slack."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "5. Automated investigations. Next, we moved investigations to the cloud so an alert could start a Codex session automatically. Codex investigated the slowdown and posted its findings in the Slack thread, but the automation ended with that reply. An engineer still had to pick up the diagnosis, develop a fix, and check whether it worked after deployment. As alerts accumulated, even figuring out which regressions needed attention meant sifting through Slack threads.",
+        "th": "5. Automated investigations. Next, we moved investigations to the cloud so an alert could start a Codex session automatically. Codex investigated the slowdown and posted its findings in the Slack thread, but the automation ended with that reply. An engineer still had to pick up the diagnosis, develop a fix, and check whether it worked after deployment. As alerts accumulated, even figuring out which regressions needed attention meant sifting through Slack threads."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "6. The factory. We built the Performance Factory to run end-to-end agentic performance engineering workflows. It tracks what each active task needs next and assigns an agent when that step is ready. Each task keeps its state and findings, so work can pass between agents and engineers and resume after a code review or deployment. For a regression, the work starts with investigating an alert and ends with verifying recovery in production. We can turn common optimizations into workflows that run regularly across our services. A workflow that spots a potential optimization can open a task in another workflow to test and implement it.",
+        "th": "6. The factory. We built the Performance Factory to run end-to-end agentic performance engineering workflows. It tracks what each active task needs next and assigns an agent when that step is ready. Each task keeps its state and findings, so work can pass between agents and engineers and resume after a code review or deployment. For a regression, the work starts with investigating an alert and ends with verifying recovery in production. We can turn common optimizations into workflows that run regularly across our services. A workflow that spots a potential optimization can open a task in another workflow to test and implement it."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The Performance Factory system’s four parts",
+        "th": "The Performance Factory system’s four parts"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Performance Factory is made up of four components: a task tracker with configurable workflows, a dispatch loop that assigns ready work to agents, an API that runs Codex in the cloud, and subscriptions that wake agents when something changes (such as a GitHub review comment posting or a deployment completing).",
+        "th": "The Performance Factory is made up of four components: a task tracker with configurable workflows, a dispatch loop that assigns ready work to agents, an API that runs Codex in the cloud, and subscriptions that wake agents when something changes (such as a GitHub review comment posting or a deployment completing)."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4GVsirng1kgJ1GzSsQ9Iof/f21a0b8682d456132be1ef8e1b9ce0ed/performance-factory-orchestrator-architecture-light.png?w=3840&q=90&fm=webp",
+      "alt": "Performance Factory orchestration workflow: alerts, engineers, and other agents create tasks; the task service sends ready tasks to a dispatch loop, which starts Codex turns in the cloud. Agents record progress, while subscriptions wake waiting tasks after PR comments or deployments."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Performance Factory consists of a task service, dispatch loop, cloud execution, and subscriptions.",
+        "th": "Performance Factory consists of a task service, dispatch loop, cloud execution, and subscriptions."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Task service with configurable workflows",
+        "th": "Task service with configurable workflows"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The task service is where engineers define workflows by adding configuration files and prompts for the agents to follow, written in Markdown. The configuration lists the states a task can move through, the allowed transitions, and which steps need an engineer. Separate prompts tell agents what to do at each step.",
+        "th": "The task service is where engineers define workflows by adding configuration files and prompts for the agents to follow, written in Markdown. The configuration lists the states a task can move through, the allowed transitions, and which steps need an engineer. Separate prompts tell agents what to do at each step."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A code change task contains a configuration file, along with Markdown prompts for implementing and reviewing.",
+        "th": "A code change task contains a configuration file, along with Markdown prompts for implementing and reviewing."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Each piece of work becomes a task in a workflow, and all workflows are visible in a UI. Engineers can see what’s open, follow progress, and share a task with a teammate who might have more context or be able to help with the next step.",
+        "th": "Each piece of work becomes a task in a workflow, and all workflows are visible in a UI. Engineers can see what’s open, follow progress, and share a task with a teammate who might have more context or be able to help with the next step."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Dispatch loop that assigns work",
+        "th": "Dispatch loop that assigns work"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A dispatch loop periodically checks which tasks are ready for the next step. It assigns an agent to each task by starting a Codex turn with the instructions for the task’s current state. The agent records its progress on the task and moves it to the next state if it completes the step.",
+        "th": "A dispatch loop periodically checks which tasks are ready for the next step. It assigns an agent to each task by starting a Codex turn with the instructions for the task’s current state. The agent records its progress on the task and moves it to the next state if it completes the step."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Codex in the cloud",
+        "th": "Codex in the cloud"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Once a task is assigned, the agent needs a place to do the work, with access to the same tools an engineer would use. We built an internal API to programmatically invoke a Codex turn in the cloud. The Codex turn runs on an environment inside our network, with access to our code repositories and the observability tools our engineers use, such as metrics, logs, traces, CPU profiles, and memory snapshots.",
+        "th": "Once a task is assigned, the agent needs a place to do the work, with access to the same tools an engineer would use. We built an internal API to programmatically invoke a Codex turn in the cloud. The Codex turn runs on an environment inside our network, with access to our code repositories and the observability tools our engineers use, such as metrics, logs, traces, CPU profiles, and memory snapshots."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The agent runs under a service identity, so we can scope its permissions and see which actions came from our performance agents. Moving agentic work to the cloud lets us run work in parallel without relying on engineers’ laptops being open or manually managing individual cloud development boxes.",
+        "th": "The agent runs under a service identity, so we can scope its permissions and see which actions came from our performance agents. Moving agentic work to the cloud lets us run work in parallel without relying on engineers’ laptops being open or manually managing individual cloud development boxes."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Subscriptions that wake the agent when something changes",
+        "th": "Subscriptions that wake the agent when something changes"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Some work has to wait for a person or a deployment; an agent shouldn’t have to keep running in the meantime. When a task needs to wait, it can subscribe to events like review comments or failed CI checks on a GitHub pull request to get notified when it’s time to pick the work back up. When an incoming event matches the subscription, the task becomes ready again and the dispatch loop can then assign an agent to continue the work.",
+        "th": "Some work has to wait for a person or a deployment; an agent shouldn’t have to keep running in the meantime. When a task needs to wait, it can subscribe to events like review comments or failed CI checks on a GitHub pull request to get notified when it’s time to pick the work back up. When an incoming event matches the subscription, the task becomes ready again and the dispatch loop can then assign an agent to continue the work."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The first workflow: from alert to recovery",
+        "th": "The first workflow: from alert to recovery"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Finding, root causing, and solving regressions is the first workflow we built inside the Performance Factory. We call it the Regression Workflow. A performance regression moves through several stages: needs investigation, root caused, fix proposed, and resolved, so we built the automated workflow to reflect and move a task through those same stages.",
+        "th": "Finding, root causing, and solving regressions is the first workflow we built inside the Performance Factory. We call it the Regression Workflow. A performance regression moves through several stages: needs investigation, root caused, fix proposed, and resolved, so we built the automated workflow to reflect and move a task through those same stages."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "When one of its configured performance alerts fires, the Regression Workflow opens a task that agents pick up and move across these stages. The task records its status and key findings outside of any one agent’s context so that other agents or engineers can pick up the work. Engineers can follow the work in Slack or the Regression Workflow UI, add context, and review proposed changes. After a fix is deployed, an agent checks whether the performance has recovered to its original state before resolving the task.",
+        "th": "When one of its configured performance alerts fires, the Regression Workflow opens a task that agents pick up and move across these stages. The task records its status and key findings outside of any one agent’s context so that other agents or engineers can pick up the work. Engineers can follow the work in Slack or the Regression Workflow UI, add context, and review proposed changes. After a fix is deployed, an agent checks whether the performance has recovered to its original state before resolving the task."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Performance Factory regression workflow",
+        "th": "Performance Factory regression workflow"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A regression is detected.An agent finds the cause and proposes a fix.An engineer takes over and decides what ships.After deployment, the agent wakes up to check recovery.Still regressed? Back to investigation.A regression is detected.A regression is detected.",
+        "th": "A regression is detected.An agent finds the cause and proposes a fix.An engineer takes over and decides what ships.After deployment, the agent wakes up to check recovery.Still regressed? Back to investigation.A regression is detected.A regression is detected."
+      }
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/icon-play.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/lines-base.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/lines-first.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/lines-second.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/lines-alert.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/lines-success.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/lines-first-purple.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/lines-second-purple.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/lines-third-purple.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/icon-warning.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/icon-search.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/icon-marker-multiple.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/icon-code.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/icon-deploy.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/icon-check.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/agent-face.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/agent-face-sleep.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/agent-arm.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/agent-claw.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/images/performance-factory-workflow/user.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "DetectedSystem",
+        "th": "DetectedSystem"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Find root causeAgent",
+        "th": "Find root causeAgent"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Propose fixAgent",
+        "th": "Propose fixAgent"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Review & deployEngineer",
+        "th": "Review & deployEngineer"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Verify recoveryAgent",
+        "th": "Verify recoveryAgent"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Resolved",
+        "th": "Resolved"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Active stage: Detected",
+        "th": "Active stage: Detected"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Regression Workflow’s steps include finding the root cause, proposing a fix, reviewing and deploying, and verifying recovery.",
+        "th": "The Regression Workflow’s steps include finding the root cause, proposing a fix, reviewing and deploying, and verifying recovery."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Agents find the root cause",
+        "th": "Agents find the root cause"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Finding the root cause (or causes) is the first major step in the workflow. The agent starts by figuring out which metrics got worse, when they started to change, and which service requests were affected. The perf-forensics skill gives Codex access to the tools our performance engineers use and a playbook for working through those questions.",
+        "th": "Finding the root cause (or causes) is the first major step in the workflow. The agent starts by figuring out which metrics got worse, when they started to change, and which service requests were affected. The perf-forensics skill gives Codex access to the tools our performance engineers use and a playbook for working through those questions."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An alert fires when a metric crosses a threshold, but the regression may have started hours earlier. The agent looks back through the data to find when the metric first got worse. It then compares groups of requests: did similar requests actually get slower, or were we serving more requests that were already slow? Those findings point to different causes.",
+        "th": "An alert fires when a metric crosses a threshold, but the regression may have started hours earlier. The agent looks back through the data to find when the metric first got worse. It then compares groups of requests: did similar requests actually get slower, or were we serving more requests that were already slow? Those findings point to different causes."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Once it knows when and where to look, the agent examines deployments and feature flag changes, then reads the relevant code. It checks when a change actually reached the affected requests and uses logs or traces to test whether the code could explain what happened.",
+        "th": "Once it knows when and where to look, the agent examines deployments and feature flag changes, then reads the relevant code. It checks when a change actually reached the affected requests and uses logs or traces to test whether the code could explain what happened."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Adversarial review strengthens the diagnosis",
+        "th": "Adversarial review strengthens the diagnosis"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Early on, agents sometimes stopped at the first plausible explanation they found, and some of those diagnoses turned out to be wrong. To catch these mistakes, we added an adversarial review: a separate Codex session that tries to disprove the proposed diagnosis. The reviewer rechecks the assumptions and tests counterfactuals. If a rollout caused the slowdown, did similar requests that weren’t exposed stay healthy? If the suspected change was rolled back, did the affected metric recover?",
+        "th": "Early on, agents sometimes stopped at the first plausible explanation they found, and some of those diagnoses turned out to be wrong. To catch these mistakes, we added an adversarial review: a separate Codex session that tries to disprove the proposed diagnosis. The reviewer rechecks the assumptions and tests counterfactuals. If a rollout caused the slowdown, did similar requests that weren’t exposed stay healthy? If the suspected change was rolled back, did the affected metric recover?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In one investigation, an agent traced failing ChatGPT conversations to errors in image downloads and marked the cause as found. The Codex reviewer noticed that the internal service responsible for locating files had already recovered while image requests were still failing. The diagnosis did not explain the continuing failures, so the AI reviewer reopened the investigation and recorded what still needed to be established.",
+        "th": "In one investigation, an agent traced failing ChatGPT conversations to errors in image downloads and marked the cause as found. The Codex reviewer noticed that the internal service responsible for locating files had already recovered while image requests were still failing. The diagnosis did not explain the continuing failures, so the AI reviewer reopened the investigation and recorded what still needed to be established."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’ve had success breaking larger jobs into focused Codex turns. In a manual review of 100 root cause suggestions, we graded 70% as accurate, with 30% needing further refinement or not fully establishing causality. In the Regression Workflow, different turns investigate regressions, challenge diagnoses, and propose fixes to increase accuracy numbers through checks and balances.",
+        "th": "We’ve had success breaking larger jobs into focused Codex turns. In a manual review of 100 root cause suggestions, we graded 70% as accurate, with 30% needing further refinement or not fully establishing causality. In the Regression Workflow, different turns investigate regressions, challenge diagnoses, and propose fixes to increase accuracy numbers through checks and balances."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Fixing the regression is the hard part",
+        "th": "Fixing the regression is the hard part"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Once the diagnosis passes adversarial review, the workflow asks Codex to implement a fix and open a pull request. An engineer reviews the PR and decides whether to merge it. We’ve put a significant amount of work into making this handoff as easy as possible. Each task has a report with an automatically generated summary of the regression, its impact, the root cause, and the proposed fix. We’ve tuned these summaries to be easy to scan, including metrics time series, CPU flame graphs, and traces to help engineers quickly understand the findings and inspect the evidence. Engineers can edit the PR directly or use the diagnosis to write their own fix. If they leave comments on the PR, the workflow wakes an agent to address them.",
+        "th": "Once the diagnosis passes adversarial review, the workflow asks Codex to implement a fix and open a pull request. An engineer reviews the PR and decides whether to merge it. We’ve put a significant amount of work into making this handoff as easy as possible. Each task has a report with an automatically generated summary of the regression, its impact, the root cause, and the proposed fix. We’ve tuned these summaries to be easy to scan, including metrics time series, CPU flame graphs, and traces to help engineers quickly understand the findings and inspect the evidence. Engineers can edit the PR directly or use the diagnosis to write their own fix. If they leave comments on the PR, the workflow wakes an agent to address them."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5w8KpwlFR3tNfJbAStImkG/ee5f1df65a302cb09dde0a7d52d09138/performance-factory-worker-startup-report.png?w=3840&q=90&fm=webp",
+      "alt": "Performance Factory report showing worker startup time more than doubling, with impact and recovery, root cause, and proposed fix."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An example task report for a regression shows key details, root cause, and proposed fix.",
+        "th": "An example task report for a regression shows key details, root cause, and proposed fix."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "After an engineer deploys the fix, the workflow wakes an agent to check whether performance has returned to its earlier baseline. If it has, the agent marks the task as resolved. If performance has only partially recovered, the agent resolves the original regression and opens a new task for the remaining slowdown, which may have a different cause. If there’s no improvement, the agent records what happened and sends the regression back for investigation.",
+        "th": "After an engineer deploys the fix, the workflow wakes an agent to check whether performance has returned to its earlier baseline. If it has, the agent marks the task as resolved. If performance has only partially recovered, the agent resolves the original regression and opens a new task for the remaining slowdown, which may have a different cause. If there’s no improvement, the agent records what happened and sends the regression back for investigation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Getting fixes right has been harder than finding the cause. For example, we’ve seen cases where the agent-proposed changes are more complicated than necessary or introduce new issues. Similar to the root cause step, we added an adversarial review of each proposed fix to check whether they address the root cause and help catch bugs or unintended consequences. Some fixes also require higher level architectural decisions. For example, adding a cache might improve performance but introduce stale data. Changes like these benefit from guidance from an engineer who knows the service and can weigh the tradeoffs.",
+        "th": "Getting fixes right has been harder than finding the cause. For example, we’ve seen cases where the agent-proposed changes are more complicated than necessary or introduce new issues. Similar to the root cause step, we added an adversarial review of each proposed fix to check whether they address the root cause and help catch bugs or unintended consequences. Some fixes also require higher level architectural decisions. For example, adding a cache might improve performance but introduce stale data. Changes like these benefit from guidance from an engineer who knows the service and can weigh the tradeoffs."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re building an evaluation and improvement loop using these cases. By comparing the fixes agents propose with the changes engineers ultimately merge, we can better understand where proposals fall short, build evals, and improve the workflow. We’re also working on using synthetic performance tests so agents can measure proposed fixes and revise them before asking an engineer for review. We’re also exploring how agents could use our other agentic review tools to identify low-risk changes and eventually ship those fixes without a human in the loop.",
+        "th": "We’re building an evaluation and improvement loop using these cases. By comparing the fixes agents propose with the changes engineers ultimately merge, we can better understand where proposals fall short, build evals, and improve the workflow. We’re also working on using synthetic performance tests so agents can measure proposed fixes and revise them before asking an engineer for review. We’re also exploring how agents could use our other agentic review tools to identify low-risk changes and eventually ship those fixes without a human in the loop."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What we learned",
+        "th": "What we learned"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Building and running the Performance Factory has taught us a lot about developing and operating agent workflows in production. Here are some lessons for teams building their own agentic workflows.",
+        "th": "Building and running the Performance Factory has taught us a lot about developing and operating agent workflows in production. Here are some lessons for teams building their own agentic workflows."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Protect engineers’ attention",
+        "th": "Protect engineers’ attention"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The raw output from a Codex investigation can be a wall of text that’s hard to parse. It takes effort to figure out what the agent is claiming and track down the graphs to see whether the data backs it up. We want engineers to spend their attention on decisions rather than reconstructing the agent’s work.",
+        "th": "The raw output from a Codex investigation can be a wall of text that’s hard to parse. It takes effort to figure out what the agent is claiming and track down the graphs to see whether the data backs it up. We want engineers to spend their attention on decisions rather than reconstructing the agent’s work."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Agents can investigate more regressions than a team has time to read about. Our first version gave engineers a UI full of findings, but someone still had to decide which information mattered. One regression can also appear as several incidents across alerts, monitors, and channels. The workflow now links related incidents, groups them by the metrics teams care about, and ranks their estimated impact. Engineers can focus on adding context, weighing tradeoffs, and deciding what to ship.",
+        "th": "Agents can investigate more regressions than a team has time to read about. Our first version gave engineers a UI full of findings, but someone still had to decide which information mattered. One regression can also appear as several incidents across alerts, monitors, and channels. The workflow now links related incidents, groups them by the metrics teams care about, and ranks their estimated impact. Engineers can focus on adding context, weighing tradeoffs, and deciding what to ship."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Evaluate changes to your agents",
+        "th": "Evaluate changes to your agents"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Updating an investigation skill or upgrading the model can make the agent better at diagnosing some cases and worse at others, so we need to test their impact before updating them. We test two things separately: 1) how well the agent investigates and 2) how useful its summaries are to engineers.",
+        "th": "Updating an investigation skill or upgrading the model can make the agent better at diagnosing some cases and worse at others, so we need to test their impact before updating them. We test two things separately: 1) how well the agent investigates and 2) how useful its summaries are to engineers."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For investigations, we backtest against past production incidents. We turn those incidents into a suite of test cases we can rerun when we change the skill. A Codex agent attempts to investigate and resolve the incident, and we compare the agent’s behavior to the actual past resolution data. Each case starts with a fresh Codex investigator and the original signal, stripped of details that might give away the answer.",
+        "th": "For investigations, we backtest against past production incidents. We turn those incidents into a suite of test cases we can rerun when we change the skill. A Codex agent attempts to investigate and resolve the incident, and we compare the agent’s behavior to the actual past resolution data. Each case starts with a fresh Codex investigator and the original signal, stripped of details that might give away the answer."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Historical tests need care. Metrics and traces expire, while evidence collected after recovery can give away the cause. A test is only useful if we understand what evidence the investigator could see. The agent can inspect code and query production telemetry within set limits. It cannot use saved memories (notes from earlier investigations), read the incident writeup, or see results from previous runs. We also inspect its transcript afterward for information that might have spoiled the test.",
+        "th": "Historical tests need care. Metrics and traces expire, while evidence collected after recovery can give away the cause. A test is only useful if we understand what evidence the investigator could see. The agent can inspect code and query production telemetry within set limits. It cannot use saved memories (notes from earlier investigations), read the incident writeup, or see results from previous runs. We also inspect its transcript afterward for information that might have spoiled the test."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We score when the problem began, how large it was, and which requests were affected. We also evaluate how the agent uses evidence to rank possible causes and explain what remains uncertain. An agent can get the timing right and still blame the wrong deployment, so we score those separately.",
+        "th": "We score when the problem began, how large it was, and which requests were affected. We also evaluate how the agent uses evidence to rank possible causes and explain what remains uncertain. An agent can get the timing right and still blame the wrong deployment, so we score those separately."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We evaluate task summaries using snapshots of saved tasks. These make particularly good backtests because summarization does not depend on external metrics or traces that expire. A separate grader checks whether an engineer unfamiliar with the system can understand what happened and why it matters, whether useful charts were kept, and whether the proposed next step is supported by the evidence.",
+        "th": "We evaluate task summaries using snapshots of saved tasks. These make particularly good backtests because summarization does not depend on external metrics or traces that expire. A separate grader checks whether an engineer unfamiliar with the system can understand what happened and why it matters, whether useful charts were kept, and whether the proposed next step is supported by the evidence."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Turn recurring failures into self-repair",
+        "th": "Turn recurring failures into self-repair"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Lastly, our agents need monitoring just as much as the services they investigate. A broken profiler or a missing permission can keep an agent from verifying what caused a slowdown. Those failures can be hard to spot in the final report, so we run an agent every day to look through messages and logs from recent runs for tool failures and access errors.",
+        "th": "Lastly, our agents need monitoring just as much as the services they investigate. A broken profiler or a missing permission can keep an agent from verifying what caused a slowdown. Those failures can be hard to spot in the final report, so we run an agent every day to look through messages and logs from recent runs for tool failures and access errors."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We use the Performance Factory to self-repair and fix the problems this check uncovers. When the same tool error blocks several investigations, the agent creates a task to fix it. If the cause is clear, an agent proposes a fix, and an engineer reviews the change and decides whether to merge it. After merging changes like this, we also use evals to check whether agents can get past the step that previously blocked them.",
+        "th": "We use the Performance Factory to self-repair and fix the problems this check uncovers. When the same tool error blocks several investigations, the agent creates a task to fix it. If the cause is clear, an agent proposes a fix, and an engineer reviews the change and decides whether to merge it. After merging changes like this, we also use evals to check whether agents can get past the step that previously blocked them."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What’s next: broader applications, proactive monitoring",
+        "th": "What’s next: broader applications, proactive monitoring"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Regression Workflow is just one instance of the agent factory pattern that moves tasks through explicit states. Agents advance the task when more work is ready; separate reviewers challenge the conclusions; engineers step in when the next decision requires judgment. Other workflows can reuse the same machinery with different states, instructions, and events.",
+        "th": "The Regression Workflow is just one instance of the agent factory pattern that moves tasks through explicit states. Agents advance the task when more work is ready; separate reviewers challenge the conclusions; engineers step in when the next decision requires judgment. Other workflows can reuse the same machinery with different states, instructions, and events."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "From one workflow to many. The Performance Factory can coordinate agents across workflows, with agents in one workflow creating tasks for another.",
+        "th": "From one workflow to many. The Performance Factory can coordinate agents across workflows, with agents in one workflow creating tasks for another."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Currently, our Regression Workflow starts when an alert fires. However, we’re working on more proactive ways for the Performance Factory to find slowdowns and optimizations even when no alert fires. We want agents to use the large amount of fine-grained performance data we already collect to spot regressions our alerts miss or discover optimizations. By comparing different kinds of data (batches of CPU and memory profiles, heap dumps, and request traces across releases), an agent might notice a small increase in CPU for a given request. It can then open a task in the Regression Workflow to trace the increase to its cause, implement a fix, and open a PR for an engineer to review.",
+        "th": "Currently, our Regression Workflow starts when an alert fires. However, we’re working on more proactive ways for the Performance Factory to find slowdowns and optimizations even when no alert fires. We want agents to use the large amount of fine-grained performance data we already collect to spot regressions our alerts miss or discover optimizations. By comparing different kinds of data (batches of CPU and memory profiles, heap dumps, and request traces across releases), an agent might notice a small increase in CPU for a given request. It can then open a task in the Regression Workflow to trace the increase to its cause, implement a fix, and open a PR for an engineer to review."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In cases where we already know what to look for, we’re working to encode known signals into more Performance Factory workflows. Our service rightsizing skill, for example, helps agents spot autoscaling settings that keep more replicas running than a service needs. When we learn to recognize a pattern like that, we want to build and regularly run a workflow for it across all our services, constantly optimizing in a rapidly changing environment. With the Performance Factory, what an engineer learns from one slowdown can shape how we investigate and fix the next one, even months later in a different service.",
+        "th": "In cases where we already know what to look for, we’re working to encode known signals into more Performance Factory workflows. Our service rightsizing skill, for example, helps agents spot autoscaling settings that keep more replicas running than a service needs. When we learn to recognize a pattern like that, we want to build and regularly run a workflow for it across all our services, constantly optimizing in a rapidly changing environment. With the Performance Factory, what an engineer learns from one slowdown can shape how we investigate and fix the next one, even months later in a different service."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Next time you’re using ChatGPT and notice a slowdown, there’s a good chance the Performance Factory is already figuring out why. Today, the bottleneck may be waiting for an engineer to review and merge the fix. We’re already exploring whether agents can do this themselves. As product development keeps accelerating with Codex, performance systems need to become increasingly autonomous and self-improving to keep up. Codex already helps us build ChatGPT faster. Now it’s helping us keep ChatGPT fast.",
+        "th": "Next time you’re using ChatGPT and notice a slowdown, there’s a good chance the Performance Factory is already figuring out why. Today, the bottleneck may be waiting for an engineer to review and merge the fix. We’re already exploring whether agents can do this themselves. As product development keeps accelerating with Codex, performance systems need to become increasingly autonomous and self-improving to keep up. Codex already helps us build ChatGPT faster. Now it’s helping us keep ChatGPT fast."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Codex",
+        "th": "Codex"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "ChatGPT",
+        "th": "ChatGPT"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Authors",
+        "th": "Authors"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Acknowledgements",
+        "th": "รับทราบ"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Special thanks to the team that built the Performance Factory, as well as our post contributors Brendan Gregg, Pieter Hooimeijer, Nick Cooper, and Louis Brandy.",
+        "th": "Special thanks to the team that built the Performance Factory, as well as our post contributors Brendan Gregg, Pieter Hooimeijer, Nick Cooper, and Louis Brandy."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/17rE7b6kMUdw2yIiz0HMiL/55db38c36cab045cc6b9b67093560f14/inside-the-codex-sandbox-art-card.png?w=3840&q=90&fm=webp",
+      "alt": "Inside the Codex sandbox — art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EngineeringNov 18, 2026",
+        "th": "EngineeringNov 18, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6G64B5haCxDuphl2iqwZ1N/4f8d319293f5e5e98b319e01b4fbdf59/scaling-git-at-openai-art-card.png?w=3840&q=90&fm=webp",
+      "alt": "Scaling Git at OpenAI — art card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EngineeringNov 2, 2026",
+        "th": "EngineeringNov 2, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3a839ECHaGsidJPLJqqm5s/55968ec17735b96514d1bb4851f43bf8/scaling-storage-one-billion-users-part-two-card.png?w=3840&q=90&fm=webp",
+      "alt": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) — card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "EngineeringOct 23, 2026",
+        "th": "EngineeringOct 23, 2026"
+      }
+    }
+  ]
+}

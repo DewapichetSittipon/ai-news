@@ -1,0 +1,364 @@
+{
+  "id": "openai__hebbia",
+  "slug": "hebbia",
+  "source": "openai",
+  "url": "https://openai.com/business/customer-stories/hebbia",
+  "category": "News",
+  "date": "2026-11-20T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Hebbia sees improvements in financial research with GPT-6 Astra",
+    "th": "Hebbia sees improvements in financial research with GPT-6 Astra"
+  },
+  "summary": {
+    "en": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+    "th": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 20, 2026",
+        "th": "November 20, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hebbia sees gains in financial research in tests of GPT‑6 Astra.",
+        "th": "Hebbia sees gains in financial research in tests of GPT‑6 Astra."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2j2sOeYR5anL69nJvTbPot/4758d44649f585b33d96cdf14742c0d4/hebbia-smoked-depth-cover.png?w=3840&q=90&fm=webp",
+      "alt": "White Hebbia wordmark centered on a dark smoked bronze texture with soft amber reflections."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Required source types cited",
+        "th": "Required source types cited"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "13.6",
+        "th": "13.6"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Percentage-point lead over the best alternative tested in Hebbia’s tests.",
+        "th": "Percentage-point lead over the best alternative tested in Hebbia’s tests."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Citation relevance",
+        "th": "Citation relevance"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "99.5",
+        "th": "99.5"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Percent of cited excerpts relevant to the question in Hebbia’s tests.",
+        "th": "Percent of cited excerpts relevant to the question in Hebbia’s tests."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Presentation requirements met",
+        "th": "Presentation requirements met"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "97.9",
+        "th": "97.9"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Percent of applicable presentation requirements met in Hebbia’s tests.",
+        "th": "Percent of applicable presentation requirements met in Hebbia’s tests."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Presentation requirement lead",
+        "th": "Presentation requirement lead"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "14.4",
+        "th": "14.4"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Percentage-point lead over the best alternative tested on presentation requirements.",
+        "th": "Percentage-point lead over the best alternative tested on presentation requirements."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "From source documents to presentations",
+        "th": "From source documents to presentations"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A future role for agents",
+        "th": "A future role for agents"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "From source documents to presentations",
+        "th": "From source documents to presentations"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A future role for agents",
+        "th": "A future role for agents"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before a banker can recommend an acquisition to their client, they need to make sense of financial statements, customer contracts and management presentations. Hebbia’s Matrix helps bring that research together, linking answers to the documents behind them.",
+        "th": "Before a banker can recommend an acquisition to their client, they need to make sense of financial statements, customer contracts and management presentations. Hebbia’s Matrix helps bring that research together, linking answers to the documents behind them."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hebbia tested OpenAI’s GPT‑6 Astra to improve two parts of that work: finding the sources a question requires and building a presentation that follows the banker’s brief.",
+        "th": "Hebbia tested OpenAI’s GPT‑6 Astra to improve two parts of that work: finding the sources a question requires and building a presentation that follows the banker’s brief."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "From source documents to presentations",
+        "th": "From source documents to presentations"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "It could work like this: a banker is helping their client assess a strategic acquisition of an industrial-software company, with roughly 2,000 files to review. What makes its revenue durable? How does it compare with peers? In Hebbia’s hypothetical example, the banker could load the data room into Matrix and examine customer concentration, contract terms and churn in cited cells. Matrix could bring in peer filings and industry news to help develop the deal thesis, then turn that research into a diligence summary and valuation deck in the firm’s template.",
+        "th": "It could work like this: a banker is helping their client assess a strategic acquisition of an industrial-software company, with roughly 2,000 files to review. What makes its revenue durable? How does it compare with peers? In Hebbia’s hypothetical example, the banker could load the data room into Matrix and examine customer concentration, contract terms and churn in cited cells. Matrix could bring in peer filings and industry news to help develop the deal thesis, then turn that research into a diligence summary and valuation deck in the firm’s template."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In that workflow, GPT‑6 Astra selects documents or Matrix cells to support an answer, then turns the analysis into native PowerPoint slides that follow the user’s structure and guidelines.",
+        "th": "In that workflow, GPT‑6 Astra selects documents or Matrix cells to support an answer, then turns the analysis into native PowerPoint slides that follow the user’s structure and guidelines."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3I47jibmRIaesj0H0Gc5OH/70f4bf13077e5b8c09b322a8e2ab8d41/hebbia-example-01-smoked-depth.png?w=3840&q=90&fm=webp",
+      "alt": "Hebbia creates a Fastmart company profile presentation from a user prompt, with financial tables and charts."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Traceability is really important to our users because they’re basing millions of dollars of decisions on what the AI actually comes back with,” Kavita says. “Citations help with traceability as well as giving users confidence that the AI found the right answer.”",
+        "th": "“Traceability is really important to our users because they’re basing millions of dollars of decisions on what the AI actually comes back with,” Kavita says. “Citations help with traceability as well as giving users confidence that the AI found the right answer.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In Hebbia’s tests, GPT‑6 Astra combined broader source coverage with highly relevant citations. It scored 13.6 percentage points above the best alternative tested on citing the required types of sources, while 99.5% of the excerpts it cited were relevant to the question.",
+        "th": "In Hebbia’s tests, GPT‑6 Astra combined broader source coverage with highly relevant citations. It scored 13.6 percentage points above the best alternative tested on citing the required types of sources, while 99.5% of the excerpts it cited were relevant to the question."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hebbia tested a prerelease build in August-September 2026, using the same financial research cases and grading criteria for each model. Domain experts wrote or audited the criteria against source documents.",
+        "th": "Hebbia tested a prerelease build in August-September 2026, using the same financial research cases and grading criteria for each model. Domain experts wrote or audited the criteria against source documents."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“When you’re looking at a data room with thousands of documents, that’s extremely important. Even a single percentage-point gain can yield a lot of marginal benefit,” Kavita says.",
+        "th": "“When you’re looking at a data room with thousands of documents, that’s extremely important. Even a single percentage-point gain can yield a lot of marginal benefit,” Kavita says."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A presentation also has to look like work the banker would send to a client.",
+        "th": "A presentation also has to look like work the banker would send to a client."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“I don’t want to create a deck and send that to my partner that looks like AI made it,” Kavita says. “I want it to be made in my firm’s branding, and I want it to look like a human-made slide.”",
+        "th": "“I don’t want to create a deck and send that to my partner that looks like AI made it,” Kavita says. “I want it to be made in my firm’s branding, and I want it to look like a human-made slide.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6 Astra led on both following the brief and presentation quality. In Hebbia’s tests, it met 97.9% of the applicable presentation requirements, putting it 14.4 percentage points ahead of the best alternative tested on that measure. Other models traded off polish and adherence to the brief; GPT‑6 Astra ranked first on both.",
+        "th": "GPT‑6 Astra led on both following the brief and presentation quality. In Hebbia’s tests, it met 97.9% of the applicable presentation requirements, putting it 14.4 percentage points ahead of the best alternative tested on that measure. Other models traded off polish and adherence to the brief; GPT‑6 Astra ranked first on both."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“In the past, we’ve seen models that really shine on one or the other of these dimensions where they’re really good at craft, but the instruction following and adhering to guidelines is not strong, or vice versa. GPT‑6 Astra is the first model we’ve seen where it’s number one on both of those fronts,” Kavita says.",
+        "th": "“In the past, we’ve seen models that really shine on one or the other of these dimensions where they’re really good at craft, but the instruction following and adhering to guidelines is not strong, or vice versa. GPT‑6 Astra is the first model we’ve seen where it’s number one on both of those fronts,” Kavita says."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "In Hebbia, users can open a citation to see the underlying document and highlighted passage; slide footnotes lead back to the source material, too. A review could be as specific as checking a customer-concentration figure against the source table and correcting the reporting period before the deck goes to the investment committee.",
+        "th": "In Hebbia, users can open a citation to see the underlying document and highlighted passage; slide footnotes lead back to the source material, too. A review could be as specific as checking a customer-concentration figure against the source table and correcting the reporting period before the deck goes to the investment committee."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7IwIf5YpXjsfb6CscupJjO/7aa15b85fcce3df8e25248178d42250a/hebbia-example-02-smoked-depth.png?w=3840&q=90&fm=webp",
+      "alt": "Hebbia displays a Fastmart company profile presentation beside a citations panel with source figures and documents."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hebbia wants bankers to spend less time reformatting decks and checking sources, and more time assessing a deal. Kavita describes what a better first draft could make possible:",
+        "th": "Hebbia wants bankers to spend less time reformatting decks and checking sources, and more time assessing a deal. Kavita describes what a better first draft could make possible:"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "A future role for agents",
+        "th": "A future role for agents"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Kavita sees a future role for agents that monitor information in the background and surface signals for finance professionals to assess.",
+        "th": "Kavita sees a future role for agents that monitor information in the background and surface signals for finance professionals to assess."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Imagine getting an important signal a few hours before your competitors,” she says. “You can get started thinking about it and see and process more opportunities that a human is not manually hunting. It can unlock a lot of value for our users.”",
+        "th": "“Imagine getting an important signal a few hours before your competitors,” she says. “You can get started thinking about it and see and process more opportunities that a human is not manually hunting. It can unlock a lot of value for our users.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hebbia wants to build on these results to help finance professionals assess deals with research they can trace back to its sources.",
+        "th": "Hebbia wants to build on these results to help finance professionals assess deals with research they can trace back to its sources."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "OpenAI <3 startups",
+        "th": "OpenAI <3 startups"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get OpenAI for Business updates",
+        "th": "Get OpenAI for Business updates"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Product updates, practical guides, upcoming events, and more.",
+        "th": "Product updates, practical guides, upcoming events, and more."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By subscribing, you agree to receive emails from OpenAI. You can unsubscribe at any time. Read our Privacy Policy⁠.",
+        "th": "By subscribing, you agree to receive emails from OpenAI. You can unsubscribe at any time. Read our Privacy Policy⁠."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3STNMQMrFRC8mFdLYtjkV4/9cc21e9c729b2ae7cdf75aa3f49b3033/modelml-card.png?w=3840&q=90&fm=webp",
+      "alt": "Model ML customer story card image"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupAug 10, 2026",
+        "th": "StartupAug 10, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/IE8b4WhSed5XqFQUzyyp7/40124aabc92ea8266c99be14d0f380f1/square.png?w=3840&q=90&fm=webp",
+      "alt": "Parallel customer story card image - Option C"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupSep 22, 2026",
+        "th": "StartupSep 22, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5bCMJ2MIvqqM2APZbalxmT/c17219c832b98a3a79a4b9d014fecda8/square.png?w=3840&q=90&fm=webp",
+      "alt": "Hex customer story art card - Option A"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "StartupSep 16, 2026",
+        "th": "StartupSep 16, 2026"
+      }
+    }
+  ]
+}

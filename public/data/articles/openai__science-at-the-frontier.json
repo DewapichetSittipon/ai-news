@@ -81,6 +81,13 @@
     {
       "type": "li",
       "text": {
+        "en": "Citation",
+        "th": "Citation"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "AI is part of scientists’ daily work",
         "th": "AI is part of scientists’ daily work"
       }
@@ -125,6 +132,13 @@
       "text": {
         "en": "About the research",
         "th": "About the research"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Citation",
+        "th": "Citation"
       }
     },
     {
@@ -484,8 +498,41 @@
     {
       "type": "h2",
       "text": {
+        "en": "Citation",
+        "th": "Citation"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
         "en": "Keep reading",
         "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4GWchdof3kw2l5OtMIvGt4/56144e08b813d6af76ae93adc2cefc1b/introducing-medchembench-cover.png?w=3840&q=90&fm=webp",
+      "alt": "MedChemBench: Benchmarking AI for medicinal chemistry — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ResearchNov 20, 2026",
+        "th": "ResearchNov 20, 2026"
       }
     },
     {
@@ -510,18 +557,6 @@
       "text": {
         "en": "ResearchNov 18, 2026",
         "th": "ResearchNov 18, 2026"
-      }
-    },
-    {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/1FaKIo74WEGULSjb4ooTrV/718f3bc75e7b2ddd276d43a0fc97760a/academic-researchers-art-card.png?w=3840&q=90&fm=webp",
-      "alt": "Academic researchers — art card"
-    },
-    {
-      "type": "p",
-      "text": {
-        "en": "ResearchNov 16, 2026",
-        "th": "ResearchNov 16, 2026"
       }
     }
   ]

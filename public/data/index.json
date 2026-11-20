@@ -1,166 +1,13 @@
 {
-  "generatedAt": "2026-11-20T14:42:15.472Z",
+  "generatedAt": "2026-11-20T22:29:37.157Z",
   "items": [
-    {
-      "id": "anthropic__anthropic-cyber-mission",
-      "slug": "anthropic-cyber-mission",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
-      "category": "News",
-      "date": "2026-11-20T14:40:54.832Z",
-      "image": "https://assets.claude.com/5758e6c92662c56f208525e00acb800c702c79b6.jpg",
-      "title": {
-        "en": "Introducing the Anthropic Cyber Mission",
-        "th": "Introducing the Anthropic Cyber Mission"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      }
-    },
-    {
-      "id": "anthropic__security",
-      "slug": "security",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/security",
-      "category": "News",
-      "date": "2026-11-20T14:40:54.832Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "Security",
-        "th": "Security"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      }
-    },
-    {
-      "id": "anthropic__2026-usage-policy-update",
-      "slug": "2026-usage-policy-update",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
-      "category": "News",
-      "date": "2026-11-20T14:40:54.832Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "2026 Usage Policy update",
-        "th": "2026 Usage Policy update"
-      },
-      "summary": {
-        "en": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.",
-        "th": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made."
-      }
-    },
-    {
-      "id": "anthropic__genesis-mission-commitment",
-      "slug": "genesis-mission-commitment",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/genesis-mission-commitment",
-      "category": "News",
-      "date": "2026-11-20T14:40:54.832Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "Building on our commitment to American scientific discovery",
-        "th": "Building on our commitment to American scientific discovery"
-      },
-      "summary": {
-        "en": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.",
-        "th": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI."
-      }
-    },
-    {
-      "id": "anthropic__cyber-verification-program",
-      "slug": "cyber-verification-program",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/cyber-verification-program",
-      "category": "News",
-      "date": "2026-11-20T14:40:54.832Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "Expanding the Cyber Verification Program",
-        "th": "Expanding the Cyber Verification Program"
-      },
-      "summary": {
-        "en": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
-        "th": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals."
-      }
-    },
-    {
-      "id": "anthropic__claude-frontier-academy",
-      "slug": "claude-frontier-academy",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/claude-frontier-academy",
-      "category": "News",
-      "date": "2026-11-20T14:40:54.832Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
-        "th": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap"
-      },
-      "summary": {
-        "en": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.",
-        "th": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027."
-      }
-    },
-    {
-      "id": "anthropic__barclays-scales-claude",
-      "slug": "barclays-scales-claude",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/barclays-scales-claude",
-      "category": "News",
-      "date": "2026-11-20T14:40:54.832Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "Barclays scales Claude to upgrade operations and improve client experience",
-        "th": "Barclays scales Claude to upgrade operations and improve client experience"
-      },
-      "summary": {
-        "en": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
-        "th": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations."
-      }
-    },
-    {
-      "id": "anthropic__announcements",
-      "slug": "announcements",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/announcements",
-      "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
-      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
-      "title": {
-        "en": "Announcements",
-        "th": "Announcements"
-      },
-      "summary": {
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-        "th": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      }
-    },
-    {
-      "id": "anthropic__public-benefit-fund",
-      "slug": "public-benefit-fund",
-      "source": "anthropic",
-      "url": "https://www.anthropic.com/news/public-benefit-fund",
-      "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
-      "image": "https://assets.claude.com/f3afec5c5951eebed280125c907ef53524024eba.jpg",
-      "title": {
-        "en": "Investing in the public benefit",
-        "th": "Investing in the public benefit"
-      },
-      "summary": {
-        "en": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
-        "th": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows."
-      }
-    },
     {
       "id": "anthropic__s1-sec",
       "slug": "s1-sec",
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/s1-sec",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Anthropic files S-1 with the SEC for proposed initial public offering",
@@ -177,7 +24,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/features",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Features",
@@ -194,7 +41,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/ipo-close",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
@@ -211,7 +58,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Anthropic prices initial public offering",
@@ -228,7 +75,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/roadshow-launch",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Anthropic launches roadshow for proposed initial public offering",
@@ -245,7 +92,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/470508b8c3c653e1e53e59e9818e8e63761dc4b6.jpg",
       "title": {
         "en": "AI for Science expands to foundations and research institutions",
@@ -262,7 +109,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/197a2df5664af9cd602fae73bb2ada3935444cbe.jpg",
       "title": {
         "en": "Expanding our partnership with GSA to bring Claude to all levels of government",
@@ -279,7 +126,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/partnerships",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Partnerships",
@@ -296,7 +143,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Donating Agent Skills to the Agentic AI Foundation",
@@ -313,7 +160,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/product",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Product",
@@ -330,7 +177,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/34e1c1e6b1c7c99870d9e2ad0dc4aa563e5b2365.jpg",
       "title": {
         "en": "Open call for guest investigators in the life sciences",
@@ -347,7 +194,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
@@ -364,7 +211,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/838f435f6184a6d5e3820c31a311c2567c0c8e35.jpg",
       "title": {
         "en": "An update on independent evaluators",
@@ -381,7 +228,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/policy",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Policy",
@@ -398,7 +245,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/2026-us-midterms",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/c8dca2b2bfb758ec0357831a3b3fed67f63fa612.jpg",
       "title": {
         "en": "Preparing for the 2026 US midterms",
@@ -415,7 +262,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/safeguards",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Safeguards",
@@ -432,7 +279,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/singapore-office-opening",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
       "title": {
         "en": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
@@ -449,7 +296,7 @@
       "source": "anthropic",
       "url": "https://www.anthropic.com/news/distillation-defenses",
       "category": "News",
-      "date": "2026-11-20T14:40:54.831Z",
+      "date": "2026-11-20T22:27:16.850Z",
       "image": "https://assets.claude.com/8c43ae859fe55c00a4b42a1c71e269ad55f95f99.jpg",
       "title": {
         "en": "Strengthening our defenses against distillation attacks",
@@ -458,6 +305,227 @@
       "summary": {
         "en": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
         "th": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%."
+      }
+    },
+    {
+      "id": "anthropic__anthropic-cyber-mission",
+      "slug": "anthropic-cyber-mission",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "category": "News",
+      "date": "2026-11-20T22:27:16.850Z",
+      "image": "https://assets.claude.com/5758e6c92662c56f208525e00acb800c702c79b6.jpg",
+      "title": {
+        "en": "Introducing the Anthropic Cyber Mission",
+        "th": "Introducing the Anthropic Cyber Mission"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      }
+    },
+    {
+      "id": "anthropic__security",
+      "slug": "security",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/security",
+      "category": "News",
+      "date": "2026-11-20T22:27:16.850Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "Security",
+        "th": "Security"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      }
+    },
+    {
+      "id": "anthropic__2026-usage-policy-update",
+      "slug": "2026-usage-policy-update",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "category": "News",
+      "date": "2026-11-20T22:27:16.850Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "2026 Usage Policy update",
+        "th": "2026 Usage Policy update"
+      },
+      "summary": {
+        "en": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.",
+        "th": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made."
+      }
+    },
+    {
+      "id": "anthropic__genesis-mission-commitment",
+      "slug": "genesis-mission-commitment",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+      "category": "News",
+      "date": "2026-11-20T22:27:16.850Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "Building on our commitment to American scientific discovery",
+        "th": "Building on our commitment to American scientific discovery"
+      },
+      "summary": {
+        "en": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.",
+        "th": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI."
+      }
+    },
+    {
+      "id": "anthropic__cyber-verification-program",
+      "slug": "cyber-verification-program",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/cyber-verification-program",
+      "category": "News",
+      "date": "2026-11-20T22:27:16.850Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "Expanding the Cyber Verification Program",
+        "th": "Expanding the Cyber Verification Program"
+      },
+      "summary": {
+        "en": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+        "th": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals."
+      }
+    },
+    {
+      "id": "anthropic__claude-frontier-academy",
+      "slug": "claude-frontier-academy",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "category": "News",
+      "date": "2026-11-20T22:27:16.850Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+        "th": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap"
+      },
+      "summary": {
+        "en": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.",
+        "th": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027."
+      }
+    },
+    {
+      "id": "anthropic__barclays-scales-claude",
+      "slug": "barclays-scales-claude",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "category": "News",
+      "date": "2026-11-20T22:27:16.850Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "Barclays scales Claude to upgrade operations and improve client experience",
+        "th": "Barclays scales Claude to upgrade operations and improve client experience"
+      },
+      "summary": {
+        "en": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
+        "th": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations."
+      }
+    },
+    {
+      "id": "anthropic__announcements",
+      "slug": "announcements",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/announcements",
+      "category": "News",
+      "date": "2026-11-20T22:27:16.849Z",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "title": {
+        "en": "Announcements",
+        "th": "Announcements"
+      },
+      "summary": {
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "th": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      }
+    },
+    {
+      "id": "anthropic__public-benefit-fund",
+      "slug": "public-benefit-fund",
+      "source": "anthropic",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "category": "News",
+      "date": "2026-11-20T22:27:16.849Z",
+      "image": "https://assets.claude.com/f3afec5c5951eebed280125c907ef53524024eba.jpg",
+      "title": {
+        "en": "Investing in the public benefit",
+        "th": "Investing in the public benefit"
+      },
+      "summary": {
+        "en": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+        "th": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows."
+      }
+    },
+    {
+      "id": "openai__combatting-adversarial-distillation",
+      "slug": "combatting-adversarial-distillation",
+      "source": "openai",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "category": "News",
+      "date": "2026-11-20T10:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Combatting adversarial distillation",
+        "th": "Combatting adversarial distillation"
+      },
+      "summary": {
+        "en": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+        "th": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction."
+      }
+    },
+    {
+      "id": "openai__hebbia",
+      "slug": "hebbia",
+      "source": "openai",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "category": "News",
+      "date": "2026-11-20T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Hebbia sees improvements in financial research with GPT-6 Astra",
+        "th": "Hebbia sees improvements in financial research with GPT-6 Astra"
+      },
+      "summary": {
+        "en": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+        "th": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality."
+      }
+    },
+    {
+      "id": "openai__introducing-medchembench",
+      "slug": "introducing-medchembench",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "category": "Research",
+      "date": "2026-11-20T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Can AI help scientists identify promising drug candidates?",
+        "th": "Can AI help scientists identify promising drug candidates?"
+      },
+      "summary": {
+        "en": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+        "th": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery."
+      }
+    },
+    {
+      "id": "huggingface__inkling2mini",
+      "slug": "inkling2mini",
+      "source": "huggingface",
+      "url": "https://huggingface.co/blog/inkling2mini",
+      "category": "News",
+      "date": "2026-11-20T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+        "th": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup"
+      },
+      "summary": {
+        "en": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+        "th": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup"
       }
     },
     {
@@ -529,20 +597,20 @@
       }
     },
     {
-      "id": "openai__deploying-daybreak-red",
-      "slug": "deploying-daybreak-red",
+      "id": "openai__codex-security-plugin-demo",
+      "slug": "codex-security-plugin-demo",
       "source": "openai",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "category": "Guides",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "category": "Demos",
       "date": "2026-11-19T00:00:00.000Z",
       "image": null,
       "title": {
-        "en": "Deploying Daybreak Red",
-        "th": "Deploying Daybreak Red"
+        "en": "Explore the Codex Security Plugin",
+        "th": "Explore the Codex Security Plugin"
       },
       "summary": {
-        "en": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-        "th": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring."
+        "en": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+        "th": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording."
       }
     },
     {
@@ -563,23 +631,6 @@
       }
     },
     {
-      "id": "openai__codex-security-plugin-demo",
-      "slug": "codex-security-plugin-demo",
-      "source": "openai",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-      "category": "Demos",
-      "date": "2026-11-19T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Explore the Codex Security Plugin",
-        "th": "Explore the Codex Security Plugin"
-      },
-      "summary": {
-        "en": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-        "th": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording."
-      }
-    },
-    {
       "id": "openai__daybreak-blue-onboarding-demo",
       "slug": "daybreak-blue-onboarding-demo",
       "source": "openai",
@@ -594,6 +645,23 @@
       "summary": {
         "en": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
         "th": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started."
+      }
+    },
+    {
+      "id": "openai__deploying-daybreak-red",
+      "slug": "deploying-daybreak-red",
+      "source": "openai",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "category": "Guides",
+      "date": "2026-11-19T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Deploying Daybreak Red",
+        "th": "Deploying Daybreak Red"
+      },
+      "summary": {
+        "en": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+        "th": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring."
       }
     },
     {
@@ -716,23 +784,6 @@
       }
     },
     {
-      "id": "openai__research-acceleration-jagged-frontier",
-      "slug": "research-acceleration-jagged-frontier",
-      "source": "openai",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "category": "Research",
-      "date": "2026-11-18T08:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Research acceleration: The jagged frontier",
-        "th": "Research acceleration: The jagged frontier"
-      },
-      "summary": {
-        "en": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-        "th": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement."
-      }
-    },
-    {
       "id": "openai__sumitomo-life",
       "slug": "sumitomo-life",
       "source": "openai",
@@ -747,6 +798,23 @@
       "summary": {
         "en": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
         "th": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption."
+      }
+    },
+    {
+      "id": "openai__research-acceleration-jagged-frontier",
+      "slug": "research-acceleration-jagged-frontier",
+      "source": "openai",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "category": "Research",
+      "date": "2026-11-18T08:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Research acceleration: The jagged frontier",
+        "th": "Research acceleration: The jagged frontier"
+      },
+      "summary": {
+        "en": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+        "th": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement."
       }
     },
     {
@@ -920,23 +988,6 @@
       }
     },
     {
-      "id": "openai__introducing-openai-for-chile",
-      "slug": "introducing-openai-for-chile",
-      "source": "openai",
-      "url": "https://openai.com/index/introducing-openai-for-chile",
-      "category": "Global Affairs",
-      "date": "2026-11-17T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Introducing OpenAI for Chile",
-        "th": "Introducing OpenAI for Chile"
-      },
-      "summary": {
-        "en": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-        "th": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications."
-      }
-    },
-    {
       "id": "openai__astra-law-6-2",
       "slug": "astra-law-6-2",
       "source": "openai",
@@ -951,6 +1002,23 @@
       "summary": {
         "en": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
         "th": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access."
+      }
+    },
+    {
+      "id": "openai__introducing-openai-for-chile",
+      "slug": "introducing-openai-for-chile",
+      "source": "openai",
+      "url": "https://openai.com/index/introducing-openai-for-chile",
+      "category": "Global Affairs",
+      "date": "2026-11-17T00:00:00.000Z",
+      "image": null,
+      "title": {
+        "en": "Introducing OpenAI for Chile",
+        "th": "Introducing OpenAI for Chile"
+      },
+      "summary": {
+        "en": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+        "th": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications."
       }
     },
     {
@@ -1515,23 +1583,6 @@
       }
     },
     {
-      "id": "openai__chatgpt-plus-for-veterans",
-      "slug": "chatgpt-plus-for-veterans",
-      "source": "openai",
-      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "category": "Company",
-      "date": "2026-11-11T08:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "ChatGPT Plus for veterans and servicemembers",
-        "th": "ChatGPT Plus for veterans and servicemembers"
-      },
-      "summary": {
-        "en": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-        "th": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers."
-      }
-    },
-    {
       "id": "huggingface__botpsy",
       "slug": "botpsy",
       "source": "huggingface",
@@ -1546,23 +1597,6 @@
       "summary": {
         "en": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
         "th": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model"
-      }
-    },
-    {
-      "id": "openai__jiostar-vijay-seshadri",
-      "slug": "jiostar-vijay-seshadri",
-      "source": "openai",
-      "url": "https://openai.com/index/jiostar-vijay-seshadri",
-      "category": "News",
-      "date": "2026-11-11T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "JioStar’s chief architect on AI discovery at 500M-user scale",
-        "th": "JioStar’s chief architect on AI discovery at 500M-user scale"
-      },
-      "summary": {
-        "en": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
-        "th": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production."
       }
     },
     {
@@ -1665,23 +1699,6 @@
       "summary": {
         "en": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
         "th": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption."
-      }
-    },
-    {
-      "id": "openai__helping-caregivers-use-ai-in-everyday-life",
-      "slug": "helping-caregivers-use-ai-in-everyday-life",
-      "source": "openai",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "category": "Company",
-      "date": "2026-11-10T12:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Helping caregivers use AI in everyday life",
-        "th": "Helping caregivers use AI in everyday life"
-      },
-      "summary": {
-        "en": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-        "th": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life."
       }
     },
     {
@@ -2328,23 +2345,6 @@
       "summary": {
         "en": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
         "th": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta"
-      }
-    },
-    {
-      "id": "huggingface__flux-3",
-      "slug": "flux-3",
-      "source": "huggingface",
-      "url": "https://huggingface.co/blog/flux-3",
-      "category": "News",
-      "date": "2026-10-15T00:00:00.000Z",
-      "image": null,
-      "title": {
-        "en": "Welcome FLUX.3 Image Klein in Diffusers",
-        "th": "Welcome FLUX.3 Image Klein in Diffusers"
-      },
-      "summary": {
-        "en": "Welcome FLUX.3 Image Klein in Diffusers",
-        "th": "Welcome FLUX.3 Image Klein in Diffusers"
       }
     },
     {

@@ -147,6 +147,13 @@
       "alt": "hero image for Gemini 4 Neon"
     },
     {
+      "type": "p",
+      "text": {
+        "en": "Your browser does not support the audio element.",
+        "th": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบเสียง"
+      }
+    },
+    {
       "type": "li",
       "text": {
         "en": "Gemini 4 Neon is available",
@@ -200,6 +207,13 @@
       "text": {
         "en": "Start building with Gemini 4 Neon today",
         "th": "Start building with Gemini 4 Neon today"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Last updated November 23, 2026",
+        "th": "Last updated November 23, 2026"
       }
     },
     {
@@ -443,8 +457,8 @@
     {
       "type": "li",
       "text": {
-        "en": "Advancing alignment and disciplined model behavior: In internal coding use, alert rates from our chain-of-thought and action misalignment monitor remained below the already low baselines set by Carbon, suggesting improved alignment propensity for Neon — and that same monitor is deployed to protect Neon across external surfaces. Neon is trained to complete multi-step work without cutting corners, fabricating results, or overstepping user boundaries — continuing to improve the balance between following through on requests and staying within scope. It matched Carbon with 0.0% cheating on Terminal-Bench 4.0 and took shortcuts on just 2.45% of tasks on our coding cheating evaluation (the lowest rate of any Gemini 4 model). It also achieved a 0.09% misaligned action rate on our agentic safety suite and a 99.2% pass rate on our agent honesty evaluation. On our agentic behavior evaluation, Neon builds on Carbon’s strong baseline by further reducing under-service by 43%–56% and overreach by 15%–35% across different effort levels.",
-        "th": "Advancing alignment and disciplined model behavior: In internal coding use, alert rates from our chain-of-thought and action misalignment monitor remained below the already low baselines set by Carbon, suggesting improved alignment propensity for Neon — and that same monitor is deployed to protect Neon across external surfaces. Neon is trained to complete multi-step work without cutting corners, fabricating results, or overstepping user boundaries — continuing to improve the balance between following through on requests and staying within scope. It matched Carbon with 0.0% cheating on Terminal-Bench 4.0 and took shortcuts on just 2.45% of tasks on our coding cheating evaluation (the lowest rate of any Gemini 4 model). It also achieved a 0.09% misaligned action rate on our agentic safety suite and a 99.2% pass rate on our agent honesty evaluation. On our agentic behavior evaluation, Neon builds on Carbon’s strong baseline by further reducing under-service by 43%–56% and overreach by 15%–35% across different effort levels."
+        "en": "Advancing alignment and disciplined model behavior: In internal coding use, alert rates from our chain-of-thought and action misalignment monitor remained below the already low baselines set by Carbon, suggesting improved alignment propensity for Neon — and that same monitor is deployed to protect Neon across external surfaces. Neon is trained to complete multi-step work without cutting corners, fabricating results, or overstepping user boundaries — continuing to improve the balance between following through on requests and staying within scope. It matched Carbon with 0.0% cheating on Terminal-Bench 4.0 and took shortcuts on just 2.45% of tasks on our coding cheating evaluation (the lowest rate of any Gemini 4 model). It also achieved a 0.09% misaligned action rate on our agentic safety suite and a 99.2% pass rate on our agent honesty evaluation. On our agentic behavior evaluation, Neon builds on Carbon’s strong baseline by further reducing under-service by 43%–56% and overreach by 13%–35% across different effort levels.",
+        "th": "Advancing alignment and disciplined model behavior: In internal coding use, alert rates from our chain-of-thought and action misalignment monitor remained below the already low baselines set by Carbon, suggesting improved alignment propensity for Neon — and that same monitor is deployed to protect Neon across external surfaces. Neon is trained to complete multi-step work without cutting corners, fabricating results, or overstepping user boundaries — continuing to improve the balance between following through on requests and staying within scope. It matched Carbon with 0.0% cheating on Terminal-Bench 4.0 and took shortcuts on just 2.45% of tasks on our coding cheating evaluation (the lowest rate of any Gemini 4 model). It also achieved a 0.09% misaligned action rate on our agentic safety suite and a 99.2% pass rate on our agent honesty evaluation. On our agentic behavior evaluation, Neon builds on Carbon’s strong baseline by further reducing under-service by 43%–56% and overreach by 13%–35% across different effort levels."
       }
     },
     {

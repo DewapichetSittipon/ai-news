@@ -135,15 +135,24 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/7elvsIiYJS1aSNbqPreAcY/55c27a90181e7ac9e5acecbda4057cd0/astra-for-law-labaa-ranking.png?w=3840&q=90&fm=webp",
-      "alt": "Bar chart comparing the share of LAB-AA assignments that earned full credit."
-    },
-    {
       "type": "p",
       "text": {
         "en": "Astra for Law ranked first at 20.8%, earning full credit about 59% more often than Muse Wonder Full, the highest-scoring non-OpenAI model.",
         "th": "Astra for Law ranked first at 20.8%, earning full credit about 59% more often than Muse Wonder Full, the highest-scoring non-OpenAI model."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An asterisk indicates no publicly available API.",
+        "th": "An asterisk indicates no publicly available API."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Source: Artificial Analysis.",
+        "th": "Source: Artificial Analysis."
       }
     },
     {
@@ -154,15 +163,24 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/6Nh3rzJD9qBELDLc4elOlF/56576a8bdc979857681eb7c834bb7a83/astra-for-law-labaa-output-tokens.png?w=3840&q=90&fm=webp",
-      "alt": "Scatterplot of average output tokens on a logarithmic scale against LAB-AA full-credit rates."
-    },
-    {
       "type": "p",
       "text": {
         "en": "Each dot is a model configuration. Higher means more assignments earned full credit; farther left means fewer output tokens, which include the text a model generates as it reasons and writes. Astra for Law averaged about 64,000 output tokens per assignment and earned full credit on 20.8%, compared with 139,000 and 13.1% for Muse Wonder Full. No configuration shown matched Astra for Law’s score using fewer output tokens.",
         "th": "Each dot is a model configuration. Higher means more assignments earned full credit; farther left means fewer output tokens, which include the text a model generates as it reasons and writes. Astra for Law averaged about 64,000 output tokens per assignment and earned full credit on 20.8%, compared with 139,000 and 13.1% for Muse Wonder Full. No configuration shown matched Astra for Law’s score using fewer output tokens."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The dotted line shows the Pareto frontier. Token counts are rounded to the nearest thousand.",
+        "th": "The dotted line shows the Pareto frontier. Token counts are rounded to the nearest thousand."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Source: Artificial Analysis.",
+        "th": "Source: Artificial Analysis."
       }
     },
     {
@@ -180,15 +198,24 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/7lXN8zH60iSckZoa3uUJ1g/458f711e3dd648cb213c56fdd9216956/astra-for-law-labaa-hallucinations.png?w=3840&q=90&fm=webp",
-      "alt": "Grouped bars comparing material and minor hallucinations per LAB-AA assignment."
-    },
-    {
       "type": "p",
       "text": {
         "en": "Astra for Law averaged 0.03 material and 0.06 minor hallucinations per assignment. Claude Opus 5.5 averaged 0.59 material and 0.51 minor hallucinations per assignment, about 20 times as many material hallucinations and 8.5 times as many minor ones.",
         "th": "Astra for Law averaged 0.03 material and 0.06 minor hallucinations per assignment. Claude Opus 5.5 averaged 0.59 material and 0.51 minor hallucinations per assignment, about 20 times as many material hallucinations and 8.5 times as many minor ones."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Material errors can mislead readers on substantive points; minor errors are unlikely to affect legal interpretation. Only material errors affect the headline score. Grid-patterned bars indicate no publicly available API.",
+        "th": "Material errors can mislead readers on substantive points; minor errors are unlikely to affect legal interpretation. Only material errors affect the headline score. Grid-patterned bars indicate no publicly available API."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Source: Artificial Analysis.",
+        "th": "Source: Artificial Analysis."
       }
     },
     {
@@ -220,11 +247,6 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/2RURPevom7fTBKWOiMyUuS/77e388efb49ae2400998d71d411e56cc/astra-law-vals-research-progress.png?w=3840&q=90&fm=webp",
-      "alt": "Bar chart showing the share of legal research questions on which Astra for Law earned full credit rising from about 46% in September to 53.8% in November."
-    },
-    {
       "type": "p",
       "text": {
         "en": "In less than two months, the share of legal research questions on which Astra for Law earned full credit rose from about 46% to 53.8%, a gain of about eight percentage points.",
@@ -232,15 +254,38 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/4vax0s3HoU2udcjEtl7l46/6dd776a1833b2f6cacac42f8fcecc485/astra-law-vals-system-comparison.png?w=3840&q=90&fm=webp",
-      "alt": "Scatter plot comparing systems on the Vals AI Legal Research Bench, with Astra for Law in green among the highest-scoring systems."
+      "type": "p",
+      "text": {
+        "en": "Vals AI’s Legal Research Bench. The September release was evaluated in October, and its score is approximate. The latest result is from the November 16, 2026 evaluation.",
+        "th": "Vals AI’s Legal Research Bench. The September release was evaluated in October, and its score is approximate. The latest result is from the November 16, 2026 evaluation."
+      }
     },
     {
       "type": "p",
       "text": {
-        "en": "Astra for Law (green) sits in the small cluster of top performers on Vals AI’s Legal Research Bench.",
-        "th": "Astra for Law (green) sits in the small cluster of top performers on Vals AI’s Legal Research Bench."
+        "en": "Source: Vals AI.",
+        "th": "Source: Vals AI."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Astra for Law (blue) sits in the small cluster of top performers on Vals AI’s Legal Research Bench.",
+        "th": "Astra for Law (blue) sits in the small cluster of top performers on Vals AI’s Legal Research Bench."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Weighted scores include partial credit; all-pass rates count answers that passed every check. The chart shows the 94-model launch comparison, with source values shown to one decimal place. Astra for Law uses the final November 16, 2026 evaluation.",
+        "th": "Weighted scores include partial credit; all-pass rates count answers that passed every check. The chart shows the 94-model launch comparison, with source values shown to one decimal place. Astra for Law uses the final November 16, 2026 evaluation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Source: Vals AI.",
+        "th": "Source: Vals AI."
       }
     },
     {
@@ -258,15 +303,17 @@
       }
     },
     {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/38EGkb4OZvdEeyQ0u6J8hb/949faf5ace6376bf617549e8395e35bc/astra-for-law-harvey-lab-all-pass.png?w=3840&q=90&fm=webp",
-      "alt": "Share of Harvey Legal Agent Benchmark assignments meeting every requirement: GPT-6 Astra, 4.6%; GPT-6.2 Astra, 14.6%; Astra for Law 6.2, 16.2%."
+      "type": "p",
+      "text": {
+        "en": "This chart shows both the rate of development in frontier intelligence, as well as the impact of the model configuration. The full-credit rate more than tripled from GPT‑6 Astra to GPT‑6.2 Astra, then rose another 11% with the legal configuration. This test comes from Harvey’s own Legal Agent Benchmark (LAB), separate from the previously discussed LAB-AA.",
+        "th": "This chart shows both the rate of development in frontier intelligence, as well as the impact of the model configuration. The full-credit rate more than tripled from GPT‑6 Astra to GPT‑6.2 Astra, then rose another 11% with the legal configuration. This test comes from Harvey’s own Legal Agent Benchmark (LAB), separate from the previously discussed LAB-AA."
+      }
     },
     {
       "type": "p",
       "text": {
-        "en": "This chart shows both the rate of development in frontier intelligence, as well as the impact of the model configuration. The full-credit rate more than tripled from GPT‑6 Astra to GPT‑6.2 Astra, then rose another 11% with the legal configuration. This test comes from Harvey’s own LAB (separate from the previously discussed LAB-AA).",
-        "th": "This chart shows both the rate of development in frontier intelligence, as well as the impact of the model configuration. The full-credit rate more than tripled from GPT‑6 Astra to GPT‑6.2 Astra, then rose another 11% with the legal configuration. This test comes from Harvey’s own LAB (separate from the previously discussed LAB-AA)."
+        "en": "Source: Harvey.",
+        "th": "Source: Harvey."
       }
     },
     {

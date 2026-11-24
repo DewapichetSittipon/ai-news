@@ -1,0 +1,366 @@
+{
+  "id": "openai__introducing-shirudo",
+  "slug": "introducing-shirudo",
+  "source": "openai",
+  "url": "https://openai.com/index/introducing-shirudo",
+  "category": "Security",
+  "date": "2026-11-23T21:20:00.000Z",
+  "image": null,
+  "title": {
+    "en": "OpenAI and Cisco introduce Shirudo",
+    "th": "OpenAI and Cisco introduce Shirudo"
+  },
+  "summary": {
+    "en": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+    "th": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches."
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 23, 2026",
+        "th": "November 23, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "An open-source runtime that helps operators protect running Linux systems without needing to wait for the patch or restarts",
+        "th": "An open-source runtime that helps operators protect running Linux systems without needing to wait for the patch or restarts"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5K7gFDr3r8vgjdIcsW6RVY/aba5325ce7902e5d1499b907f8e78f0b/shirudo-partner-logos-landscape-2x.png?w=3840&q=90&fm=webp",
+      "alt": "Shirudo logo on an orange gradient background."
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How Shirudo works",
+        "th": "How Shirudo works"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Rethinking infrastructure",
+        "th": "Rethinking infrastructure"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building in the open",
+        "th": "Building in the open"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How Shirudo works",
+        "th": "How Shirudo works"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Rethinking infrastructure",
+        "th": "Rethinking infrastructure"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Building in the open",
+        "th": "Building in the open"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI and Cisco are launching Shirudo, an open-source runtime that helps teams protect Linux systems while they roll out patches. In a controlled test⁠(opens in a new window), a Codex-generated shield blocked a Java4Shell exploit attempt against a running Elasticsearch service without requiring a restart.",
+        "th": "OpenAI and Cisco are launching Shirudo, an open-source runtime that helps teams protect Linux systems while they roll out patches. In a controlled test⁠(opens in a new window), a Codex-generated shield blocked a Java4Shell exploit attempt against a running Elasticsearch service without requiring a restart."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re inviting developers, security researchers, and infrastructure operators across the industry to help develop the project further. The project brings together OpenAI’s frontier AI, security and infrastructure research and Cisco’s infrastructure and security expertise to help protect the systems people rely on every day.",
+        "th": "We’re inviting developers, security researchers, and infrastructure operators across the industry to help develop the project further. The project brings together OpenAI’s frontier AI, security and infrastructure research and Cisco’s infrastructure and security expertise to help protect the systems people rely on every day."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Testing and deploying a patch can still take days or weeks. Protecting a service in the meantime can be challenging because an exploit and a legitimate request may rely on the same Linux operation. Blocking that operation entirely could take the service offline.",
+        "th": "Testing and deploying a patch can still take days or weeks. Protecting a service in the meantime can be challenging because an exploit and a legitimate request may rely on the same Linux operation. Blocking that operation entirely could take the service offline."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Shirudo (Japanese for “shield”) is designed to help security teams navigate this tradeoff. Teams can test whether a temporary safeguard, called a shield, blocks the behavior that exposes a vulnerability while allowing legitimate requests through. Once an operator approves the shield, it can be deployed while the service continues running.",
+        "th": "Shirudo (Japanese for “shield”) is designed to help security teams navigate this tradeoff. Teams can test whether a temporary safeguard, called a shield, blocks the behavior that exposes a vulnerability while allowing legitimate requests through. Once an operator approves the shield, it can be deployed while the service continues running."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How Shirudo works",
+        "th": "How Shirudo works"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Shirudo uses eBPF, a Linux technology that allows small programs to run at specific points inside the operating system. This makes it possible to observe suspicious activity and apply targeted security protections to running systems.",
+        "th": "Shirudo uses eBPF, a Linux technology that allows small programs to run at specific points inside the operating system. This makes it possible to observe suspicious activity and apply targeted security protections to running systems."
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/bScTLq9smNJq5XAlaHIQW/fab0e70b1aab8ca8dffb70a747056fd7/guardian-agent-desktop-light.png?w=3840&q=90&fm=webp",
+      "alt": "The guardian agent uses eBPF instruments to observe kernel and network activity and eBPF controls to apply targeted protections."
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "How the guardian agent observes and protects a running system with eBPF.",
+        "th": "How the guardian agent observes and protects a running system with eBPF."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI and Cisco are designing Shirudo around four core capabilities:",
+        "th": "OpenAI and Cisco are designing Shirudo around four core capabilities:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Live protection: eBPF shields can block vulnerable code paths without restarting the system. Security teams can monitor how a proposed shield would affect applications before enforcing it.",
+        "th": "Live protection: eBPF shields can block vulnerable code paths without restarting the system. Security teams can monitor how a proposed shield would affect applications before enforcing it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Live protection: eBPF shields can block vulnerable code paths without restarting the system. Security teams can monitor how a proposed shield would affect applications before enforcing it.",
+        "th": "Live protection: eBPF shields can block vulnerable code paths without restarting the system. Security teams can monitor how a proposed shield would affect applications before enforcing it."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Defense at machine speed: OpenAI and Cisco are designing Shirudo to give agents programmable controls to investigate vulnerabilities, develop targeted shields, and validate their effectiveness against exploits and real workloads. Security teams control what gets deployed.",
+        "th": "Defense at machine speed: OpenAI and Cisco are designing Shirudo to give agents programmable controls to investigate vulnerabilities, develop targeted shields, and validate their effectiveness against exploits and real workloads. Security teams control what gets deployed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Defense at machine speed: OpenAI and Cisco are designing Shirudo to give agents programmable controls to investigate vulnerabilities, develop targeted shields, and validate their effectiveness against exploits and real workloads. Security teams control what gets deployed.",
+        "th": "Defense at machine speed: OpenAI and Cisco are designing Shirudo to give agents programmable controls to investigate vulnerabilities, develop targeted shields, and validate their effectiveness against exploits and real workloads. Security teams control what gets deployed."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Trusted deployment: Shields are cryptographically signed and verified before loading. Linux's eBPF verifier checks eBPF programs against its safety rules, while kernel security controls restrict unauthorized changes.",
+        "th": "Trusted deployment: Shields are cryptographically signed and verified before loading. Linux's eBPF verifier checks eBPF programs against its safety rules, while kernel security controls restrict unauthorized changes."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Trusted deployment: Shields are cryptographically signed and verified before loading. Linux's eBPF verifier checks eBPF programs against its safety rules, while kernel security controls restrict unauthorized changes.",
+        "th": "Trusted deployment: Shields are cryptographically signed and verified before loading. Linux's eBPF verifier checks eBPF programs against its safety rules, while kernel security controls restrict unauthorized changes."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Hardware-backed verification: Shirudo uses a Trusted Platform Module (TPM) to support a verifiable record of protections being loaded or removed. Operators can use this evidence to check whether systems meet their security requirements.",
+        "th": "Hardware-backed verification: Shirudo uses a Trusted Platform Module (TPM) to support a verifiable record of protections being loaded or removed. Operators can use this evidence to check whether systems meet their security requirements."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Hardware-backed verification: Shirudo uses a Trusted Platform Module (TPM) to support a verifiable record of protections being loaded or removed. Operators can use this evidence to check whether systems meet their security requirements.",
+        "th": "Hardware-backed verification: Shirudo uses a Trusted Platform Module (TPM) to support a verifiable record of protections being loaded or removed. Operators can use this evidence to check whether systems meet their security requirements."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Shirudo technical walkthrough⁠(opens in a new window) from the Linux Plumbers Conference shows how to apply a shield and verify it on the target host⁠(opens in a new window). The Java4Shell vulnerability is another example illustrating how a targeted shield can protect a running application while a permanent patch is being prepared. Using OpenAI's Codex, the team generated a shield that added an input check to Java's Base64 decoder and attached it directly to a running Elasticsearch process. When attempting to exploit the vulnerability, the shield rejected the malicious input, blocking the attack while Elasticsearch continued running. You can read more here⁠(opens in a new window).",
+        "th": "The Shirudo technical walkthrough⁠(opens in a new window) from the Linux Plumbers Conference shows how to apply a shield and verify it on the target host⁠(opens in a new window). The Java4Shell vulnerability is another example illustrating how a targeted shield can protect a running application while a permanent patch is being prepared. Using OpenAI's Codex, the team generated a shield that added an input check to Java's Base64 decoder and attached it directly to a running Elasticsearch process. When attempting to exploit the vulnerability, the shield rejected the malicious input, blocking the attack while Elasticsearch continued running. You can read more here⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Rethinking infrastructure",
+        "th": "Rethinking infrastructure"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Shirudo is a first step toward infrastructure that can adapt to emerging threats while remaining reliable. We want to strengthen the operating system foundations needed to deploy these protections at scale, including hardening the kernel and core services, limiting workload permissions, and making updates and recovery safer.",
+        "th": "Shirudo is a first step toward infrastructure that can adapt to emerging threats while remaining reliable. We want to strengthen the operating system foundations needed to deploy these protections at scale, including hardening the kernel and core services, limiting workload permissions, and making updates and recovery safer."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our long-term goal is to enable defenders and AI agents to quickly identify affected systems, validate protections, and deploy eBPF shields that block exploits without disrupting workloads. Applications should run with only the permissions they need, governed by policies that are automatically generated and maintained.",
+        "th": "Our long-term goal is to enable defenders and AI agents to quickly identify affected systems, validate protections, and deploy eBPF shields that block exploits without disrupting workloads. Applications should run with only the permissions they need, governed by policies that are automatically generated and maintained."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We will combine frontier AI with security and infrastructure research to discover vulnerabilities and test defenses against realistic attacks. We aim to make it easier for operators to detect and contain compromises, prevent attackers from moving across systems, and restore services to a verified, known-good state. Hardware-backed attestation and independent network controls provide additional assurance even if individual systems are compromised.",
+        "th": "We will combine frontier AI with security and infrastructure research to discover vulnerabilities and test defenses against realistic attacks. We aim to make it easier for operators to detect and contain compromises, prevent attackers from moving across systems, and restore services to a verified, known-good state. Hardware-backed attestation and independent network controls provide additional assurance even if individual systems are compromised."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Building in the open",
+        "th": "Building in the open"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "OpenAI and Cisco are open-sourcing Shirudo⁠(opens in a new window) so developers, security researchers, and infrastructure operators can inspect the code, test protections, and contribute to its development. Shirudo is licensed under BSD 2-Clause, with its BPF programs dual-licensed under BSD and GPL.",
+        "th": "OpenAI and Cisco are open-sourcing Shirudo⁠(opens in a new window) so developers, security researchers, and infrastructure operators can inspect the code, test protections, and contribute to its development. Shirudo is licensed under BSD 2-Clause, with its BPF programs dual-licensed under BSD and GPL."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Our goal is to make tested shields available alongside vulnerability disclosures, giving operators a way to evaluate and deploy temporary protections while preparing permanent patches.",
+        "th": "Our goal is to make tested shields available alongside vulnerability disclosures, giving operators a way to evaluate and deploy temporary protections while preparing permanent patches."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Try Shirudo: Follow the VM quickstart⁠(opens in a new window) to sign, load, and verify a test protection.",
+        "th": "Try Shirudo: Follow the VM quickstart⁠(opens in a new window) to sign, load, and verify a test protection."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Try Shirudo: Follow the VM quickstart⁠(opens in a new window) to sign, load, and verify a test protection.",
+        "th": "Try Shirudo: Follow the VM quickstart⁠(opens in a new window) to sign, load, and verify a test protection."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Get hands-on: Explore Shirudo through Isovalent's self-guided lab⁠(opens in a new window).",
+        "th": "Get hands-on: Explore Shirudo through Isovalent's self-guided lab⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Get hands-on: Explore Shirudo through Isovalent's self-guided lab⁠(opens in a new window).",
+        "th": "Get hands-on: Explore Shirudo through Isovalent's self-guided lab⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Join the technical deep dive: Register for the December 15 webinar⁠(opens in a new window).",
+        "th": "Join the technical deep dive: Register for the December 15 webinar⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Join the technical deep dive: Register for the December 15 webinar⁠(opens in a new window).",
+        "th": "Join the technical deep dive: Register for the December 15 webinar⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We’re building Shirudo in the open with the people who build, run, and secure Linux systems. We welcome contributions to the runtime, new shields, and improvements to Linux and eBPF. If you'd like to get involved, take a look at the code on GitHub⁠(opens in a new window), read the docs⁠(opens in a new window), and let us know what you find⁠(opens in a new window).",
+        "th": "We’re building Shirudo in the open with the people who build, run, and secure Linux systems. We welcome contributions to the runtime, new shields, and improvements to Linux and eBPF. If you'd like to get involved, take a look at the code on GitHub⁠(opens in a new window), read the docs⁠(opens in a new window), and let us know what you find⁠(opens in a new window)."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Partnerships",
+        "th": "Partnerships"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "2026",
+        "th": "2026"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Author",
+        "th": "Author"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3fdDXi3KINgse06btdaYYq/b14a269201ec921b530470d9a3326b1e/partnering-with-hacktron-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "SecurityNov 6, 2026",
+        "th": "SecurityNov 6, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5KH9JY2iG2cCh0WjDLXBBF/dbac04f649653f3c9c474e2619c9585e/gpt-6-cyber-art-card.png?w=3840&q=90&fm=webp",
+      "alt": "GPT-6 Cyber — Art Card"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductNov 5, 2026",
+        "th": "ProductNov 5, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3NOPzjiEJ3CYIUuWfexkd5/c16ef9c6350003e5f2f161245be1f78c/daybreak-red-aws-govcloud-cover.png?w=3840&q=90&fm=webp",
+      "alt": "Daybreak Red is now available in AWS GovCloud (US-East) — Cover"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "ProductNov 4, 2026",
+        "th": "ProductNov 4, 2026"
+      }
+    }
+  ]
+}

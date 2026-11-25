@@ -1,0 +1,462 @@
+{
+  "id": "huggingface__inkling-2-mini-inference-hillclimb",
+  "slug": "inkling-2-mini-inference-hillclimb",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+  "category": "News",
+  "date": "2026-11-25T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+    "th": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000"
+  },
+  "summary": {
+    "en": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+    "th": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/60f0608166e5701b80ed3f02/H9LNnlf0W4fiOJhQMxnbW.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg",
+      "alt": "Niels Rogge's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The setup",
+        "th": "The setup"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Results Why it stops around 190 tok/s",
+        "th": "Results Why it stops around 190 tok/s"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why it stops around 190 tok/s",
+        "th": "Why it stops around 190 tok/s"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What didn't work vLLM SGLang",
+        "th": "What didn't work vLLM SGLang"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "vLLM",
+        "th": "vLLM"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "SGLang",
+        "th": "SGLang"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Benchmarking gotchas",
+        "th": "Benchmarking gotchas"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Verification and deployment",
+        "th": "Verification and deployment"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Inkling 2 Mini came out last week and sets a new state of the art for local AI and smaller open-source models. With ~26B total parameters (3B active per token), multimodal inputs, and a 1M-token context window, it leads its weight class on the Artificial Analysis Intelligence Index v5 and across 32 of 48 benchmarks against models like Gemma 4 31B and Qwen3.8-27B, making it a strong open option for coding, tool use, and reasoning on modest hardware. We wrote an extensive blog post on how you can use it within the Hugging Face ecosystem here.",
+        "th": "Inkling 2 Mini came out last week and sets a new state of the art for local AI and smaller open-source models. With ~26B total parameters (3B active per token), multimodal inputs, and a 1M-token context window, it leads its weight class on the Artificial Analysis Intelligence Index v5 and across 32 of 48 benchmarks against models like Gemma 4 31B and Qwen3.8-27B, making it a strong open option for coding, tool use, and reasoning on modest hardware. We wrote an extensive blog post on how you can use it within the Hugging Face ecosystem here."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "One of the interesting aspects of Inkling 2 Mini that might explain its great performance is its unusual architecture. Inkling 2 Mini is a looped Mixture-of-Experts (MoE) model with 24 physical layers where the middle 12 layers run three times, so every token passes through 48 layers. The checkpoint ships in mixed NVFP4 and MXFP8 and bundles a DSpark drafter for speculative decoding. Both vLLM and SGLang, the go-to frameworks for LLM inference, support it on nightly builds, though the published serving recipes target NVIDIA B200 and GB300 GPUs (sm100), leaving out sm120 cards like the NVIDIA RTX PRO 6000 where kernel compatibility can differ.",
+        "th": "One of the interesting aspects of Inkling 2 Mini that might explain its great performance is its unusual architecture. Inkling 2 Mini is a looped Mixture-of-Experts (MoE) model with 24 physical layers where the middle 12 layers run three times, so every token passes through 48 layers. The checkpoint ships in mixed NVFP4 and MXFP8 and bundles a DSpark drafter for speculative decoding. Both vLLM and SGLang, the go-to frameworks for LLM inference, support it on nightly builds, though the published serving recipes target NVIDIA B200 and GB300 GPUs (sm100), leaving out sm120 cards like the NVIDIA RTX PRO 6000 where kernel compatibility can differ."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We wanted to see how fast we could serve it on a single NVIDIA RTX PRO 6000 96 GB, the GPU behind an nvidia-rtx-pro-6000 Inference Endpoint. Rather than tuning flags by hand, we gave a coding agent the inference-optimisation skill, the hf CLI, and access to Hugging Face Jobs, and let it run experiments for an afternoon.",
+        "th": "We wanted to see how fast we could serve it on a single NVIDIA RTX PRO 6000 96 GB, the GPU behind an nvidia-rtx-pro-6000 Inference Endpoint. Rather than tuning flags by hand, we gave a coding agent the inference-optimisation skill, the hf CLI, and access to Hugging Face Jobs, and let it run experiments for an afternoon."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Across 46 valid benchmark runs, single-user decode went from 136 to 190.6 tok/s (+40%) (ahead of the 167.7 tok/s community SGLang + DSpark benchmark on LocalMaxxing for the same GPU) and 8-user aggregate throughput went from ~570 to 716 tok/s (+26%) using vLLM nightly with DSpark speculative decoding. Greedy outputs are byte-identical with and without speculation, long-context needle retrieval passes 3/3 up to 250K tokens, and the winning config is now running as an Inference Endpoint from a pinned image digest. All logs, scripts, and raw measurements are in NielsRogge/inkling-2-mini-hillclimb.",
+        "th": "Across 46 valid benchmark runs, single-user decode went from 136 to 190.6 tok/s (+40%) (ahead of the 167.7 tok/s community SGLang + DSpark benchmark on LocalMaxxing for the same GPU) and 8-user aggregate throughput went from ~570 to 716 tok/s (+26%) using vLLM nightly with DSpark speculative decoding. Greedy outputs are byte-identical with and without speculation, long-context needle retrieval passes 3/3 up to 250K tokens, and the winning config is now running as an Inference Endpoint from a pinned image digest. All logs, scripts, and raw measurements are in NielsRogge/inkling-2-mini-hillclimb."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The setup",
+        "th": "The setup"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The inference-optimisation skill gives an agent a fixed experimental protocol and a small, engine-agnostic benchmark script (bench.py):",
+        "th": "The inference-optimisation skill gives an agent a fixed experimental protocol and a small, engine-agnostic benchmark script (bench.py):"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Measure the hardware and estimate theoretical ceilings before tuning.",
+        "th": "Measure the hardware and estimate theoretical ceilings before tuning."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Change one variable at a time and bracket every candidate between two control runs (control → candidate → control). Keep a change only if it beats both controls without regressing other metrics.",
+        "th": "Change one variable at a time and bracket every candidate between two control runs (control → candidate → control). Keep a change only if it beats both controls without regressing other metrics."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Log every run in PLAN.md, including regressions and dead ends.",
+        "th": "Log every run in PLAN.md, including regressions and dead ends."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Pass long-context, concurrency, and greedy-equivalence checks before declaring a winner.",
+        "th": "Pass long-context, concurrency, and greedy-equivalence checks before declaring a winner."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "bench.py measures single-user decode, aggregate decode at concurrency N, cold prefill at several lengths, and TTFT, using token counts directly from the server's usage response. All runs used a fixed panel of six prompts (code, an explanation, a story, a comparison table, a bash script, and a history summary) at temperature 1.0 (the model's default), thinking on, 512 output tokens, and 12 repetitions whenever speculative decoding was enabled.",
+        "th": "bench.py measures single-user decode, aggregate decode at concurrency N, cold prefill at several lengths, and TTFT, using token counts directly from the server's usage response. All runs used a fixed panel of six prompts (code, an explanation, a story, a comparison table, a bash script, and a history summary) at temperature 1.0 (the model's default), thinking on, 512 output tokens, and 12 repetitions whenever speculative decoding was enabled."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The skill was written for a local GPU, so we adapted it to Hugging Face infrastructure:",
+        "th": "The skill was written for a local GPU, so we adapted it to Hugging Face infrastructure:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "HF Jobs for compute. The rtx-pro-6000 Job flavor uses the same GPU as the nvidia-rtx-pro-6000 Inference Endpoint ($2.75/h for both), so Job numbers transfer directly. A ~150-line driver (jobs/driver.py) takes a list of server configs, starts each one, runs an unmeasured warmup, calls bench.py unmodified, shuts the server down, and prints one ledger line per run. Because Jobs run on separate machines, the agent swept SGLang (lmsysorg/sglang:inkling-2-mini) and vLLM nightly (vllm/vllm-openai:nightly) in parallel.",
+        "th": "HF Jobs for compute. The rtx-pro-6000 Job flavor uses the same GPU as the nvidia-rtx-pro-6000 Inference Endpoint ($2.75/h for both), so Job numbers transfer directly. A ~150-line driver (jobs/driver.py) takes a list of server configs, starts each one, runs an unmeasured warmup, calls bench.py unmodified, shuts the server down, and prints one ledger line per run. Because Jobs run on separate machines, the agent swept SGLang (lmsysorg/sglang:inkling-2-mini) and vLLM nightly (vllm/vllm-openai:nightly) in parallel."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "CPU Jobs for reading engine source. When a flag was undocumented, the agent ran a cheap cpu-upgrade Job to grep the installed Python package inside the container. That is how it found SGLang's SGLANG_OPT_* environment variables and vLLM's speculative-config fields.",
+        "th": "CPU Jobs for reading engine source. When a flag was undocumented, the agent ran a cheap cpu-upgrade Job to grep the installed Python package inside the container. That is how it found SGLang's SGLANG_OPT_* environment variables and vLLM's speculative-config fields."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Inference Endpoints for deployment, created via hf endpoints deploy using the exact image digest and flags that passed verification.",
+        "th": "Inference Endpoints for deployment, created via hf endpoints deploy using the exact image digest and flags that passed verification."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The baseline was our existing org endpoint config: SGLang with --attention-backend fa4 and no speculative decoding.",
+        "th": "The baseline was our existing org endpoint config: SGLang with --attention-backend fa4 and no speculative decoding."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Results",
+        "th": "Results"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/inkling-2-mini-inference-hillclimb/results.png",
+      "alt": "Single-user decode speed of Inkling 2 Mini on one RTX PRO 6000 for four configurations"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Single-user decode speed (median of 12 requests). vLLM + DSpark reaches ~95% of the memory-bandwidth ceiling at its measured acceptance rate.",
+        "th": "Single-user decode speed (median of 12 requests). vLLM + DSpark reaches ~95% of the memory-bandwidth ceiling at its measured acceptance rate."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "¹ SGLang's RTX PRO 6000 DSpark recipe caps --max-running-requests at 4. Raising it to 8 reached 660 tok/s, still behind vLLM. ² Includes ~160 ms of client-to-endpoint network round trip.",
+        "th": "¹ SGLang's RTX PRO 6000 DSpark recipe caps --max-running-requests at 4. Raising it to 8 reached 660 tok/s, still behind vLLM. ² Includes ~160 ms of client-to-endpoint network round trip."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "All of the speedup comes from switching to vLLM nightly (+15% over SGLang without speculation, 136 → 157 tok/s), enabling DSpark with 7 drafts and probabilistic draft sampling (+21% on top, 157 → 190.6 tok/s across four runs: 189.3, 190.4, 191.1, and 190.7), and adding two memory flags so vLLM's DSpark setup actually starts on 96 GB:",
+        "th": "All of the speedup comes from switching to vLLM nightly (+15% over SGLang without speculation, 136 → 157 tok/s), enabling DSpark with 7 drafts and probabilistic draft sampling (+21% on top, 157 → 190.6 tok/s across four runs: 189.3, 190.4, 191.1, and 190.7), and adding two memory flags so vLLM's DSpark setup actually starts on 96 GB:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Both num_speculative_tokens: 7 and draft_sample_method: \"probabilistic\" were validated directly: shorter draft counts (such as 5) are rejected at startup because both engines enforce the checkpoint's fixed block size, and switching to greedy draft sampling dropped vLLM decode speed by 11% at temperature 1.0 (see What didn't work).",
+        "th": "Both num_speculative_tokens: 7 and draft_sample_method: \"probabilistic\" were validated directly: shorter draft counts (such as 5) are rejected at startup because both engines enforce the checkpoint's fixed block size, and switching to greedy draft sampling dropped vLLM decode speed by 11% at temperature 1.0 (see What didn't work)."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Why it stops around 190 tok/s",
+        "th": "Why it stops around 190 tok/s"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before tuning, the agent probed the RTX PRO 6000 inside a Job (1,469 GB/s copy bandwidth, 416 TFLOPS BF16, 792 TFLOPS FP8) and read tensor sizes from the safetensors header. Because every token makes 48 layer visits, plain decode re-reads ~2.7 GB of attention and dense weights, ~2 GB of routed experts (8 of 128 per layer), and ~0.9 GB for the LM head. At 1,469 GB/s, that gives a single-user bandwidth ceiling of ~256 tok/s. Without speculation, vLLM at 157 tok/s hits 61% of that ceiling, mostly limited by kernel launch latency across 48 visits.",
+        "th": "Before tuning, the agent probed the RTX PRO 6000 inside a Job (1,469 GB/s copy bandwidth, 416 TFLOPS BF16, 792 TFLOPS FP8) and read tensor sizes from the safetensors header. Because every token makes 48 layer visits, plain decode re-reads ~2.7 GB of attention and dense weights, ~2 GB of routed experts (8 of 128 per layer), and ~0.9 GB for the LM head. At 1,469 GB/s, that gives a single-user bandwidth ceiling of ~256 tok/s. Without speculation, vLLM at 157 tok/s hits 61% of that ceiling, mostly limited by kernel launch latency across 48 visits."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Speculative decoding changes the memory math on an MoE. Verifying 8 positions together activates the union of their routed experts, reading roughly 40% of each layer's experts instead of 6%. At our measured acceptance of ~2.3 tokens per step at temperature 1.0 (per-position acceptance drops from 0.6 on the first draft to 0.33 and 0.19), the bandwidth ceiling falls to ~201 tok/s. At 190.6 tok/s, vLLM + DSpark is already at ~95% of hardware bandwidth, so further flag tuning has almost nowhere left to go. Moving past 190 tok/s would take a drafter with higher acceptance at temperature 1.0 or a verification path that touches fewer experts per layer.",
+        "th": "Speculative decoding changes the memory math on an MoE. Verifying 8 positions together activates the union of their routed experts, reading roughly 40% of each layer's experts instead of 6%. At our measured acceptance of ~2.3 tokens per step at temperature 1.0 (per-position acceptance drops from 0.6 on the first draft to 0.33 and 0.19), the bandwidth ceiling falls to ~201 tok/s. At 190.6 tok/s, vLLM + DSpark is already at ~95% of hardware bandwidth, so further flag tuning has almost nowhere left to go. Moving past 190 tok/s would take a drafter with higher acceptance at temperature 1.0 or a verification path that touches fewer experts per layer."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What didn't work",
+        "th": "What didn't work"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Most candidate flags were unsupported, noisy, or slower:",
+        "th": "Most candidate flags were unsupported, noisy, or slower:"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "vLLM",
+        "th": "vLLM"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We also skipped rejection_sample_method: \"fly\" and \"synthetic\" on purpose because they alter the output distribution, and we wanted a strictly lossless speedup.",
+        "th": "We also skipped rejection_sample_method: \"fly\" and \"synthetic\" on purpose because they alter the output distribution, and we wanted a strictly lossless speedup."
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "SGLang",
+        "th": "SGLang"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Benchmarking gotchas",
+        "th": "Benchmarking gotchas"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "A few measurement issues caught us along the way:",
+        "th": "A few measurement issues caught us along the way:"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Triton JIT during timed prefill. vLLM's first 4K prefill came back at 202 tok/s instead of 20K because Triton was compiling kernels during the timed request. Running an unmeasured warmup across prompt lengths and concurrency fixed 4K prefill, though the first run in each Job still under-reported 32K prefill due to last-chunk shape differences (flagged in the ledger).",
+        "th": "Triton JIT during timed prefill. vLLM's first 4K prefill came back at 202 tok/s instead of 20K because Triton was compiling kernels during the timed request. Running an unmeasured warmup across prompt lengths and concurrency fixed 4K prefill, though the first run in each Job still under-reported 32K prefill due to last-chunk shape differences (flagged in the ledger)."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Orphaned servers holding GPU memory. The initial driver stopped servers via a PID saved from setsid … &, which is not guaranteed to match the process group ID. The previous server stayed alive on port 8000, broke the next launch, and turned into a zombie that still passed kill -0. Managing the process with subprocess.Popen(start_new_session=True) and waiting until both GPU memory and port 8000 are free fixed it.",
+        "th": "Orphaned servers holding GPU memory. The initial driver stopped servers via a PID saved from setsid … &, which is not guaranteed to match the process group ID. The previous server stayed alive on port 8000, broke the next launch, and turned into a zombie that still passed kill -0. Managing the process with subprocess.Popen(start_new_session=True) and waiting until both GPU memory and port 8000 are free fixed it."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Hidden OOM errors in vLLM logs. vLLM + DSpark twice died with \"Engine core initialization failed\" at the end of the log while the real causes sat 200 lines up. First, the default 1M-token KV cache needed 52.6 GiB with only 48.1 GiB free alongside the drafter (--max-model-len 262144 fixed this). Next, because vLLM v0.34.0 raised the default --gpu-memory-utilization from 0.92 to 1.0, the KV cache claimed the remaining VRAM and OOMed the drafter's 5 GiB allocation (--gpu-memory-utilization 0.85 fixed this). The driver now prints every error line from the server log instead of just the tail.",
+        "th": "Hidden OOM errors in vLLM logs. vLLM + DSpark twice died with \"Engine core initialization failed\" at the end of the log while the real causes sat 200 lines up. First, the default 1M-token KV cache needed 52.6 GiB with only 48.1 GiB free alongside the drafter (--max-model-len 262144 fixed this). Next, because vLLM v0.34.0 raised the default --gpu-memory-utilization from 0.92 to 1.0, the KV cache claimed the remaining VRAM and OOMed the drafter's 5 GiB allocation (--gpu-memory-utilization 0.85 fixed this). The driver now prints every error line from the server log instead of just the tail."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Engine variance. Across identical runs with speculation, vLLM stayed within 0.4% while SGLang swung by ±4.5%. That was wide enough to make SGLANG_ENABLE_NV_MEGA_RUNTIME_OPTIMIZATION=1 look like a +4% win on its first run before repeat controls ruled it out.",
+        "th": "Engine variance. Across identical runs with speculation, vLLM stayed within 0.4% while SGLang swung by ±4.5%. That was wide enough to make SGLANG_ENABLE_NV_MEGA_RUNTIME_OPTIMIZATION=1 look like a +4% win on its first run before repeat controls ruled it out."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Verification and deployment",
+        "th": "Verification and deployment"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before deploying, we pinned the exact vLLM nightly digest (vllm/vllm-openai@sha256:eaa63fd6…, build 0.34.0rc1.dev1235+gf2f9edcac) and ran the acceptance gates inside a Job:",
+        "th": "Before deploying, we pinned the exact vLLM nightly digest (vllm/vllm-openai@sha256:eaa63fd6…, build 0.34.0rc1.dev1235+gf2f9edcac) and ran the acceptance gates inside a Job:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Once those passed, we deployed the endpoint with a single hf endpoints deploy command, pinning both the image digest and model revision (authenticated access, scale-to-zero after 60 idle minutes):",
+        "th": "Once those passed, we deployed the endpoint with a single hf endpoints deploy command, pinning both the image digest and model revision (authenticated access, scale-to-zero after 60 idle minutes):"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Running bench.py against the live endpoint gave 194.9 tok/s single-user, matching the Job runs once network latency is accounted for.",
+        "th": "Running bench.py against the live endpoint gave 194.9 tok/s single-user, matching the Job runs once network latency is accounted for."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Everything from this run (PLAN.md, THEORY.md, jobs/driver.py, submit.sh, deploy.sh, and the raw ledger-*.jsonl files) is in NielsRogge/inkling-2-mini-hillclimb. To reuse the loop on another model, put your candidate and control server commands into a configs/plan-*.json file and submit it to whichever HF Jobs GPU flavor matches your target endpoint.",
+        "th": "Everything from this run (PLAN.md, THEORY.md, jobs/driver.py, submit.sh, deploy.sh, and the raw ledger-*.jsonl files) is in NielsRogge/inkling-2-mini-hillclimb. To reuse the loop on another model, put your candidate and control server commands into a configs/plan-*.json file and submit it to whichever HF Jobs GPU flavor matches your target endpoint."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More Articles from our Blog",
+        "th": "More Articles from our Blog"
+      }
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/vllm-jobs/thumbnail.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Run a vLLM Server on HF Jobs in One Command",
+        "th": "Run a vLLM Server on HF Jobs in One Command"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677431596830-631ce4b244503b72277fc89f.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/blog/assets/ml4/thumbnail.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+        "th": "Welcome Le Chonk: Mistral Large 4 on Hugging Face"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6141a88b3a0ec78603c9e784/DJsxSmWV39M33JFheLobC.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/60f0608166e5701b80ed3f02/H9LNnlf0W4fiOJhQMxnbW.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6123945a0ed258ebc83f3d56/8wMHFQHEV24G_ljl4kPxQ.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/649a943906690b959319d192/k8ZlmJWF3GNpYLHrdpejY.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+7",
+        "th": "+7"
+      }
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "Community"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· Sign up or log in to comment"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/60f0608166e5701b80ed3f02/H9LNnlf0W4fiOJhQMxnbW.jpeg",
+      "alt": ""
+    }
+  ]
+}

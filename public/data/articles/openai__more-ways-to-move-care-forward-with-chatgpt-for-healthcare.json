@@ -25,8 +25,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-        "th": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done."
+        "en": "Introducing computer-use agents, a new healthcare model configuration, and new healthcare plugins that work across healthcare software to get real work done.",
+        "th": "Introducing computer-use agents, a new healthcare model configuration, and new healthcare plugins that work across healthcare software to get real work done."
       }
     },
     {
@@ -95,8 +95,8 @@
     {
       "type": "p",
       "text": {
-        "en": "Today, we’re sharing advances in computer-use agents⁠, which lets AI agents carry out multi-step work across existing healthcare software. We’re also improving trusted clinical search, which finds, evaluates, and cites medical evidence, and introducing more than 20 new plugins to the healthcare plugin ecosystem.",
-        "th": "Today, we’re sharing advances in computer-use agents⁠, which lets AI agents carry out multi-step work across existing healthcare software. We’re also improving trusted clinical search, which finds, evaluates, and cites medical evidence, and introducing more than 20 new plugins to the healthcare plugin ecosystem."
+        "en": "Today, we’re sharing advances in computer use that help AI agents carry out multi-step work across existing healthcare software. We’re also improving how trusted clinical search finds, evaluates, and cites medical evidence. A new healthcare model configuration in the Responses API lets developers build trusted clinical search into their own applications. And we’re expanding our healthcare plugin ecosystem with more than 20 new plugins.",
+        "th": "Today, we’re sharing advances in computer use that help AI agents carry out multi-step work across existing healthcare software. We’re also improving how trusted clinical search finds, evaluates, and cites medical evidence. A new healthcare model configuration in the Responses API lets developers build trusted clinical search into their own applications. And we’re expanding our healthcare plugin ecosystem with more than 20 new plugins."
       }
     },
     {
@@ -165,6 +165,118 @@
     {
       "type": "h2",
       "text": {
+        "en": "Build trusted clinical search into your applications with Healthcare model configuration",
+        "th": "Build trusted clinical search into your applications with Healthcare model configuration"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Developers can now bring cited medical evidence into their applications with a healthcare configuration of select OpenAI models, including GPT‑6.2 Astra and GPT‑6.2 Sol. Available through the Responses API today, the configuration pairs the models with a harness tailored to clinical questions and trusted clinical search.",
+        "th": "Developers can now bring cited medical evidence into their applications with a healthcare configuration of select OpenAI models, including GPT‑6.2 Astra and GPT‑6.2 Sol. Available through the Responses API today, the configuration pairs the models with a harness tailored to clinical questions and trusted clinical search."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "GPT‑6.2 Astra with the healthcare configuration ranked first among the systems we evaluated on HealthBench Professional, a benchmark of 525 challenging tasks written by physicians to test how well AI can answer questions about patient care, draft clinical documentation, and synthesize medical evidence. It earned a length-adjusted score of 74.4%, 6.3 percentage points ahead of the highest-scoring non-OpenAI system, Claude Fable 5.2 with web search.",
+        "th": "GPT‑6.2 Astra with the healthcare configuration ranked first among the systems we evaluated on HealthBench Professional, a benchmark of 525 challenging tasks written by physicians to test how well AI can answer questions about patient care, draft clinical documentation, and synthesize medical evidence. It earned a length-adjusted score of 74.4%, 6.3 percentage points ahead of the highest-scoring non-OpenAI system, Claude Fable 5.2 with web search."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "All model configurations have web search enabled and are evaluated at their highest reasoning effort.",
+        "th": "All model configurations have web search enabled and are evaluated at their highest reasoning effort."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "During a visit, clinicians rely on rapid point-of-care responses. On HealthBench Professional, GPT‑6.2 Astra configured for healthcare delivered higher-quality responses in an average of 23 seconds, compared with nearly three minutes for the same model using general-purpose web search even when using its highest reasoning setting.",
+        "th": "During a visit, clinicians rely on rapid point-of-care responses. On HealthBench Professional, GPT‑6.2 Astra configured for healthcare delivered higher-quality responses in an average of 23 seconds, compared with nearly three minutes for the same model using general-purpose web search even when using its highest reasoning setting."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "For developers deploying these tools at scale, cost per response matters too. In a separate comparison on the same benchmark, Astra with the healthcare configuration scored higher than Claude Fable 5.2 with web search at less than half the API cost per scored response ($1.37 vs. $2.90), with both systems at their highest reasoning settings.",
+        "th": "For developers deploying these tools at scale, cost per response matters too. In a separate comparison on the same benchmark, Astra with the healthcare configuration scored higher than Claude Fable 5.2 with web search at less than half the API cost per scored response ($1.37 vs. $2.90), with both systems at their highest reasoning settings."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Customers are already seeing the value of building with the new model configuration.",
+        "th": "Customers are already seeing the value of building with the new model configuration."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Akita Health",
+        "th": "Akita Health"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Stanford Health Care",
+        "th": "Stanford Health Care"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Pomelo Care",
+        "th": "Pomelo Care"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Elation Health",
+        "th": "Elation Health"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Akita Health",
+        "th": "Akita Health"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Stanford Health Care",
+        "th": "Stanford Health Care"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Pomelo Care",
+        "th": "Pomelo Care"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Elation Health",
+        "th": "Elation Health"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The healthcare configuration builds on the API’s existing privacy and data controls. Organizations can support HIPAA-compliant workflows with an applicable Business Associate Agreement with OpenAI.",
+        "th": "The healthcare configuration builds on the API’s existing privacy and data controls. Organizations can support HIPAA-compliant workflows with an applicable Business Associate Agreement with OpenAI."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
         "en": "Bring healthcare tools into one conversation",
         "th": "Bring healthcare tools into one conversation"
       }
@@ -196,19 +308,14 @@
     {
       "type": "li",
       "text": {
-        "en": "Amion",
-        "th": "Amion"
+        "en": "Amion(opens in a new window)",
+        "th": "Amion(opens in a new window)"
       }
     },
     {
       "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/5PNEG3XBhICudyrpVwNNsh/95b2bb200e6777faa903904fb8573563/amion.png",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/5PNEG3XBhICudyrpVwNNsh/95b2bb200e6777faa903904fb8573563/amion.png",
-      "alt": ""
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/health-logo-7vnNy48tJTLPv1ULkxMHSl-light-657f76cb811a/ac7e1f2abff8d1d4b8bf2feb1b7ec0de/amion-brand-logo.svg?w=3840&q=90",
+      "alt": "Amion logo"
     },
     {
       "type": "li",
@@ -264,6 +371,18 @@
     {
       "type": "li",
       "text": {
+        "en": "EliseAI Healthcare(opens in a new window)",
+        "th": "EliseAI Healthcare(opens in a new window)"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/3p5yNjtbIvko9nIEPErOAI/f22f28f17413f23b7830c3c84db73eb3/eliseai-healthcare-app-logo.png?w=3840&q=90&fm=webp",
+      "alt": "EliseAI Healthcare logo"
+    },
+    {
+      "type": "li",
+      "text": {
         "en": "Ferry",
         "th": "Ferry"
       }
@@ -298,19 +417,14 @@
     {
       "type": "li",
       "text": {
-        "en": "Infinitus Relay",
-        "th": "Infinitus Relay"
+        "en": "Infinitus Relay(opens in a new window)",
+        "th": "Infinitus Relay(opens in a new window)"
       }
     },
     {
       "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/3DozDOAYNUEtEWVhc72Fp1/2317e788646b34de91f31cc041fa18a4/infinitus-relay.png",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/3DozDOAYNUEtEWVhc72Fp1/2317e788646b34de91f31cc041fa18a4/infinitus-relay.png",
-      "alt": ""
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/health-logo-6w1FY6qS1HqtocdTz3B7P6-light-23839e363d8f/9ea2ab00525eb8dc7730e0b4c1b30d13/infinitus-relay-brand-logo.svg?w=3840&q=90",
+      "alt": "Infinitus Relay logo"
     },
     {
       "type": "li",
@@ -349,19 +463,14 @@
     {
       "type": "li",
       "text": {
-        "en": "Metriport",
-        "th": "Metriport"
+        "en": "Metriport(opens in a new window)",
+        "th": "Metriport(opens in a new window)"
       }
     },
     {
       "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/1gXvWVoOD6mI3Ysq0rV2jP/253c9d0a8ea589f99abe7368134f30b4/metriport.png",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/1gXvWVoOD6mI3Ysq0rV2jP/253c9d0a8ea589f99abe7368134f30b4/metriport.png",
-      "alt": ""
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/health-logo-3JV7VVkTzeXfdaZ3MQ4TFG-light-ad24af94c955/9d2ad9d561fd055c5b5305ae1dcd7411/metriport-brand-logo.png?w=3840&q=90&fm=webp",
+      "alt": "Metriport logo"
     },
     {
       "type": "li",
@@ -434,19 +543,14 @@
     {
       "type": "li",
       "text": {
-        "en": "Redox",
-        "th": "Redox"
+        "en": "Redox(opens in a new window)",
+        "th": "Redox(opens in a new window)"
       }
     },
     {
       "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/2cjSTasFjRAxKmnqbVF4MY/f15e0422d4fb2a9ca0f8e55669c06a51/redox.png",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/2cjSTasFjRAxKmnqbVF4MY/f15e0422d4fb2a9ca0f8e55669c06a51/redox.png",
-      "alt": ""
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/health-logo-1kzItItTSSid1dxs5dnBLs-light-689ba07d96e2/3a073ed6a705abb09eceb1650a06a720/redox-brand-logo.svg?w=3840&q=90",
+      "alt": "Redox logo"
     },
     {
       "type": "li",
@@ -485,19 +589,14 @@
     {
       "type": "li",
       "text": {
-        "en": "Trizetto",
-        "th": "Trizetto"
+        "en": "Trizetto(opens in a new window)",
+        "th": "Trizetto(opens in a new window)"
       }
     },
     {
       "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/3aacGc2k40FVeNRPSC625Q/e02de2b7a65fcce109fa39c7835a9459/trizetto-provider-solutions.png",
-      "alt": ""
-    },
-    {
-      "type": "img",
-      "src": "https://images.ctfassets.net/kftzwdyauwt9/3aacGc2k40FVeNRPSC625Q/e02de2b7a65fcce109fa39c7835a9459/trizetto-provider-solutions.png",
-      "alt": ""
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/health-logo-1j4afzxZdaMVNvn8iuX8LC-light-646b2bf6bfbd/823d2a537867971a74e85d3fdae8e446/trizetto-brand-logo.png?w=3840&q=90&fm=webp",
+      "alt": "Trizetto logo"
     },
     {
       "type": "li",
@@ -926,15 +1025,29 @@
     {
       "type": "li",
       "text": {
-        "en": "Developers exploring computer use: Computer-use agent capability is available in the OpenAI API, ChatGPT Work, and Codex. Contact our sales team⁠ to discuss using these capabilities in your clinical and administrative workflows.",
-        "th": "Developers exploring computer use: Computer-use agent capability is available in the OpenAI API, ChatGPT Work, and Codex. Contact our sales team⁠ to discuss using these capabilities in your clinical and administrative workflows."
+        "en": "Developers: Computer-use agent capability is available in the OpenAI API for Healthcare, ChatGPT Work, and Codex. Contact our sales team⁠ to discuss using these capabilities in your clinical and administrative workflows. The healthcare model configuration is available today as part of the OpenAI API for Healthcare.",
+        "th": "Developers: Computer-use agent capability is available in the OpenAI API for Healthcare, ChatGPT Work, and Codex. Contact our sales team⁠ to discuss using these capabilities in your clinical and administrative workflows. The healthcare model configuration is available today as part of the OpenAI API for Healthcare."
       }
     },
     {
       "type": "p",
       "text": {
-        "en": "Developers exploring computer use: Computer-use agent capability is available in the OpenAI API, ChatGPT Work, and Codex. Contact our sales team⁠ to discuss using these capabilities in your clinical and administrative workflows.",
-        "th": "Developers exploring computer use: Computer-use agent capability is available in the OpenAI API, ChatGPT Work, and Codex. Contact our sales team⁠ to discuss using these capabilities in your clinical and administrative workflows."
+        "en": "Developers: Computer-use agent capability is available in the OpenAI API for Healthcare, ChatGPT Work, and Codex. Contact our sales team⁠ to discuss using these capabilities in your clinical and administrative workflows. The healthcare model configuration is available today as part of the OpenAI API for Healthcare.",
+        "th": "Developers: Computer-use agent capability is available in the OpenAI API for Healthcare, ChatGPT Work, and Codex. Contact our sales team⁠ to discuss using these capabilities in your clinical and administrative workflows. The healthcare model configuration is available today as part of the OpenAI API for Healthcare."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Plugin ecosystem partners: If you are interested in joining our plugin ecosystem, register here⁠.",
+        "th": "Plugin ecosystem partners: If you are interested in joining our plugin ecosystem, register here⁠."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Plugin ecosystem partners: If you are interested in joining our plugin ecosystem, register here⁠.",
+        "th": "Plugin ecosystem partners: If you are interested in joining our plugin ecosystem, register here⁠."
       }
     },
     {

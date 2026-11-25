@@ -1,0 +1,811 @@
+{
+  "id": "openai__ifood",
+  "slug": "ifood",
+  "source": "openai",
+  "url": "https://openai.com/business/customer-stories/ifood",
+  "category": "News",
+  "date": "2026-11-24T00:00:00.000Z",
+  "image": null,
+  "title": {
+    "en": "How iFood scales coding agents across 15,000 repositories",
+    "th": "How iFood scales coding agents across 15,000 repositories"
+  },
+  "summary": {
+    "en": "How iFood scales coding agents across 15,000 repositories",
+    "th": "How iFood scales coding agents across 15,000 repositories"
+  },
+  "body": [
+    {
+      "type": "p",
+      "text": {
+        "en": "November 24, 2026",
+        "th": "November 24, 2026"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "15,000",
+        "th": "15,000"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "code repositories at iFood",
+        "th": "code repositories at iFood"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "25,000+",
+        "th": "25,000+"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "runs completed by the platform",
+        "th": "runs completed by the platform"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "US$0.04",
+        "th": "US$0.04"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "average inference cost per run",
+        "th": "average inference cost per run"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "2x+",
+        "th": "2x+"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "as many vulnerabilities fixed through the security platform",
+        "th": "as many vulnerabilities fixed through the security platform"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The challenge isn’t the task—it’s the scale",
+        "th": "The challenge isn’t the task—it’s the scale"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A coding agent in the cloud, accessible through an API",
+        "th": "A coding agent in the cloud, accessible through an API"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why GPT-5.6 Luna",
+        "th": "Why GPT-5.6 Luna"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How to tell whether the agent completed the task",
+        "th": "How to tell whether the agent completed the task"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The first major user: security",
+        "th": "The first major user: security"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Asynchronous execution gives developers their time back",
+        "th": "Asynchronous execution gives developers their time back"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Modeled on the APIs that inspired it",
+        "th": "Modeled on the APIs that inspired it"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Results at a glance",
+        "th": "Results at a glance"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Lessons for leaders",
+        "th": "Lessons for leaders"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Tips",
+        "th": "Tips"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Next steps",
+        "th": "Next steps"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The challenge isn’t the task—it’s the scale",
+        "th": "The challenge isn’t the task—it’s the scale"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "A coding agent in the cloud, accessible through an API",
+        "th": "A coding agent in the cloud, accessible through an API"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Why GPT-5.6 Luna",
+        "th": "Why GPT-5.6 Luna"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How to tell whether the agent completed the task",
+        "th": "How to tell whether the agent completed the task"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The first major user: security",
+        "th": "The first major user: security"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Asynchronous execution gives developers their time back",
+        "th": "Asynchronous execution gives developers their time back"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Modeled on the APIs that inspired it",
+        "th": "Modeled on the APIs that inspired it"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Results at a glance",
+        "th": "Results at a glance"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Lessons for leaders",
+        "th": "Lessons for leaders"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Tips",
+        "th": "Tips"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Next steps",
+        "th": "Next steps"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Remote Agents Platform turned engineering tasks into API calls: teams delegate the work, execution takes place in a remote sandbox, and the result comes back as a merge request. In the internal security platform, the number of vulnerabilities fixed more than doubled.",
+        "th": "The Remote Agents Platform turned engineering tasks into API calls: teams delegate the work, execution takes place in a remote sandbox, and the result comes back as a merge request. In the internal security platform, the number of vulnerabilities fixed more than doubled."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The challenge isn’t the task—it’s the scale",
+        "th": "The challenge isn’t the task—it’s the scale"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "iFood maintains more than 15,000 code repositories. Each periodically needs specific tasks performed: validating code to ensure it meets internal standards, fixing vulnerable dependencies, or running an analysis.",
+        "th": "iFood maintains more than 15,000 code repositories. Each periodically needs specific tasks performed: validating code to ensure it meets internal standards, fixing vulnerable dependencies, or running an analysis."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "None of these tasks is difficult on its own. The challenge comes when those tasks multiply.",
+        "th": "None of these tasks is difficult on its own. The challenge comes when those tasks multiply."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Solving this for one repository is easy. The challenge is solving it at scale,” says Victor Coelho, Senior Software Engineer at iFood. “The Remote Agents Platform is designed to make it possible to solve this at scale across all 15,000 repositories.”",
+        "th": "“Solving this for one repository is easy. The challenge is solving it at scale,” says Victor Coelho, Senior Software Engineer at iFood. “The Remote Agents Platform is designed to make it possible to solve this at scale across all 15,000 repositories.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Before the platform, each team tackled the problem in its own way—and they all ran into the same obstacle.",
+        "th": "Before the platform, each team tackled the problem in its own way—and they all ran into the same obstacle."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“Before, we had fragmented solutions. Imagine several teams at iFood trying to solve different problems, but without this layer, this agentic runtime, available to them. In the end, those solutions always ran into the same problem.”",
+        "th": "“Before, we had fragmented solutions. Imagine several teams at iFood trying to solve different problems, but without this layer, this agentic runtime, available to them. In the end, those solutions always ran into the same problem.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "What was missing wasn’t intelligence or a use case. It was execution infrastructure. A dedicated runtime.",
+        "th": "What was missing wasn’t intelligence or a use case. It was execution infrastructure. A dedicated runtime."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "A coding agent in the cloud, accessible through an API",
+        "th": "A coding agent in the cloud, accessible through an API"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The team describes the Remote Agents Platform as an API that launches a remote agentic coding task. The cycle has three steps: the user submits a prompt and environment requirements through a REST call; the platform processes the task on a dedicated remote runner inside an isolated sandbox; and the result is retrieved later.",
+        "th": "The team describes the Remote Agents Platform as an API that launches a remote agentic coding task. The cycle has three steps: the user submits a prompt and environment requirements through a REST call; the platform processes the task on a dedicated remote runner inside an isolated sandbox; and the result is retrieved later."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“The platform’s entry point, its interface, is a simple REST API. Users can use this API to create the runs they need. Internally, we handle and manage the entire lifecycle and delegate execution to isolated sandboxes,” he explains. Task progress can be monitored in real time.",
+        "th": "“The platform’s entry point, its interface, is a simple REST API. Users can use this API to create the runs they need. Internally, we handle and manage the entire lifecycle and delegate execution to isolated sandboxes,” he explains. Task progress can be monitored in real time."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The runner’s internal design alternates between two different types of steps—and that combination makes the overall workflow predictable.",
+        "th": "The runner’s internal design alternates between two different types of steps—and that combination makes the overall workflow predictable."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Deterministic steps bookend the workflow: cloning the repository, importing the skills the agent can use, and setting up the working branch at the start; publishing the merge request and making the generated artifacts available at the end. In between is the agentic execution itself, running GPT‑5.6 Luna inside the sandbox.",
+        "th": "Deterministic steps bookend the workflow: cloning the repository, importing the skills the agent can use, and setting up the working branch at the start; publishing the merge request and making the generated artifacts available at the end. In between is the agentic execution itself, running GPT‑5.6 Luna inside the sandbox."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“It’s a combination of those two things: deterministic steps and agentic execution within the workflow.”",
+        "th": "“It’s a combination of those two things: deterministic steps and agentic execution within the workflow.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The sandbox runs Ubuntu and includes the toolchains iFood’s ecosystem requires—Python, Java, Kotlin, C#, TypeScript, Rust, JavaScript, and Go—along with general-purpose tools. Beyond the sandbox, the agent can access Nexus, GitLab, Docker, Snyk, Kubernetes, and AWS.",
+        "th": "The sandbox runs Ubuntu and includes the toolchains iFood’s ecosystem requires—Python, Java, Kotlin, C#, TypeScript, Rust, JavaScript, and Go—along with general-purpose tools. Beyond the sandbox, the agent can access Nexus, GitLab, Docker, Snyk, Kubernetes, and AWS."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Why GPT‑5.6 Luna",
+        "th": "Why GPT‑5.6 Luna"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The model choice came down to three factors considered together, rather than just one.",
+        "th": "The model choice came down to three factors considered together, rather than just one."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“We chose GPT‑5.6 Luna because, among models at the same checkpoint, the benchmarks showed it offered a great balance of intelligence, efficiency, and execution speed—how quickly it could complete tasks. Those three qualities together led us to choose GPT‑5.6 Luna.”",
+        "th": "“We chose GPT‑5.6 Luna because, among models at the same checkpoint, the benchmarks showed it offered a great balance of intelligence, efficiency, and execution speed—how quickly it could complete tasks. Those three qualities together led us to choose GPT‑5.6 Luna.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "That balance matters more for a platform built to scale than it would for a one-off use case. With tens of thousands of tokens being consumed, the average cost of four U.S. cents per run stops being a minor detail and becomes an architectural consideration.",
+        "th": "That balance matters more for a platform built to scale than it would for a one-off use case. With tens of thousands of tokens being consumed, the average cost of four U.S. cents per run stops being a minor detail and becomes an architectural consideration."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How to tell whether the agent completed the task",
+        "th": "How to tell whether the agent completed the task"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Delegating execution at scale creates a new challenge: automatically determining whether the agent did what it was supposed to do.",
+        "th": "Delegating execution at scale creates a new challenge: automatically determining whether the agent did what it was supposed to do."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "iFood’s answer comes in the step after the session. Once execution is complete, the result is processed using OpenAI’s Structured Outputs, which requires the output to conform to a predefined contract.",
+        "th": "iFood’s answer comes in the step after the session. Once execution is complete, the result is processed using OpenAI’s Structured Outputs, which requires the output to conform to a predefined contract."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "The first major user: security",
+        "th": "The first major user: security"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The platform already powers an internal iFood security product that scans the 15,000 repositories for vulnerable dependencies and attempts to fix them.",
+        "th": "The platform already powers an internal iFood security product that scans the 15,000 repositories for vulnerable dependencies and attempts to fix them."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The migration had a direct impact: “With our platform, the accuracy of those changes, those fixes, more than doubled,” says Coelho.",
+        "th": "The migration had a direct impact: “With our platform, the accuracy of those changes, those fixes, more than doubled,” says Coelho."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "This use case illustrates the idea behind the platform: the security team didn’t need to build its own agentic runtime or become experts in agent orchestration. It needed to call an API.",
+        "th": "This use case illustrates the idea behind the platform: the security team didn’t need to build its own agentic runtime or become experts in agent orchestration. It needed to call an API."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Asynchronous execution gives developers their time back",
+        "th": "Asynchronous execution gives developers their time back"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The team emphasizes what asynchronous execution frees developers to do, rather than replacement.",
+        "th": "The team emphasizes what asynchronous execution frees developers to do, rather than replacement."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Because the task is delegated and runs without supervision, the developer doesn’t have to stay focused on monitoring it.",
+        "th": "Because the task is delegated and runs without supervision, the developer doesn’t have to stay focused on monitoring it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“While they’re in a meeting, they can launch a code fix, a performance analysis, or another task that’s a little more routine—something they can delegate without having to monitor it at that moment.”",
+        "th": "“While they’re in a meeting, they can launch a code fix, a performance analysis, or another task that’s a little more routine—something they can delegate without having to monitor it at that moment.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Routine work no longer competes for the team’s attention. That leaves time for problems that require judgment.",
+        "th": "Routine work no longer competes for the team’s attention. That leaves time for problems that require judgment."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Modeled on the APIs that inspired it",
+        "th": "Modeled on the APIs that inspired it"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The Remote Agents Platform was designed as an internal layer with similarities to the way OpenAI makes this type of task available to external customers.",
+        "th": "The Remote Agents Platform was designed as an internal layer with similarities to the way OpenAI makes this type of task available to external customers."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "“The Remote Agents Platform drew a lot of inspiration from OpenAI’s APIs, both the Batch API and the Agents API, which is an even more recent OpenAI product. We built a platform that resembles those products, but is internal to iFood.”",
+        "th": "“The Remote Agents Platform drew a lot of inspiration from OpenAI’s APIs, both the Batch API and the Agents API, which is an even more recent OpenAI product. We built a platform that resembles those products, but is internal to iFood.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The inspiration went beyond the concept. It extends to the design of the interfaces, the organization of resources, and the approach to asynchronous execution with results retrieved later.",
+        "th": "The inspiration went beyond the concept. It extends to the design of the interfaces, the organization of resources, and the approach to asynchronous execution with results retrieved later."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Results at a glance",
+        "th": "Results at a glance"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The platform has completed more than 25,000 tasks, consuming more than 27 billion tokens, at an average cost of US$0.04 per run.",
+        "th": "The platform has completed more than 25,000 tasks, consuming more than 27 billion tokens, at an average cost of US$0.04 per run."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The platform has completed more than 25,000 tasks, consuming more than 27 billion tokens, at an average cost of US$0.04 per run.",
+        "th": "The platform has completed more than 25,000 tasks, consuming more than 27 billion tokens, at an average cost of US$0.04 per run."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "After migrating to the Remote Agents Platform, the internal security platform more than doubled both the accuracy of its fixes and the number of vulnerabilities resolved.",
+        "th": "After migrating to the Remote Agents Platform, the internal security platform more than doubled both the accuracy of its fixes and the number of vulnerabilities resolved."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "After migrating to the Remote Agents Platform, the internal security platform more than doubled both the accuracy of its fixes and the number of vulnerabilities resolved.",
+        "th": "After migrating to the Remote Agents Platform, the internal security platform more than doubled both the accuracy of its fixes and the number of vulnerabilities resolved."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Coverage extends across iFood’s more than 15,000 code repositories.",
+        "th": "Coverage extends across iFood’s more than 15,000 code repositories."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Coverage extends across iFood’s more than 15,000 code repositories.",
+        "th": "Coverage extends across iFood’s more than 15,000 code repositories."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "All runs use GPT‑5.6 Luna, chosen for its balance of intelligence, efficiency, and speed.",
+        "th": "All runs use GPT‑5.6 Luna, chosen for its balance of intelligence, efficiency, and speed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "All runs use GPT‑5.6 Luna, chosen for its balance of intelligence, efficiency, and speed.",
+        "th": "All runs use GPT‑5.6 Luna, chosen for its balance of intelligence, efficiency, and speed."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Structured Outputs ensures that each session returns a result that follows a predefined contract, whether positive or negative.",
+        "th": "Structured Outputs ensures that each session returns a result that follows a predefined contract, whether positive or negative."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Structured Outputs ensures that each session returns a result that follows a predefined contract, whether positive or negative.",
+        "th": "Structured Outputs ensures that each session returns a result that follows a predefined contract, whether positive or negative."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Product teams have moved from building fragmented solutions to delegating agentic execution through a REST API.",
+        "th": "Product teams have moved from building fragmented solutions to delegating agentic execution through a REST API."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Product teams have moved from building fragmented solutions to delegating agentic execution through a REST API.",
+        "th": "Product teams have moved from building fragmented solutions to delegating agentic execution through a REST API."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Lessons for leaders",
+        "th": "Lessons for leaders"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "The bottleneck is often the runtime, not the use case. Several teams already knew what they wanted to automate; they lacked an environment in which to run it.",
+        "th": "The bottleneck is often the runtime, not the use case. Several teams already knew what they wanted to automate; they lacked an environment in which to run it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The bottleneck is often the runtime, not the use case. Several teams already knew what they wanted to automate; they lacked an environment in which to run it.",
+        "th": "The bottleneck is often the runtime, not the use case. Several teams already knew what they wanted to automate; they lacked an environment in which to run it."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Combine deterministic steps with agentic execution. Cloning, publishing, and making artifacts available don’t require a model; the complex task in between does.",
+        "th": "Combine deterministic steps with agentic execution. Cloning, publishing, and making artifacts available don’t require a model; the complex task in between does."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Combine deterministic steps with agentic execution. Cloning, publishing, and making artifacts available don’t require a model; the complex task in between does.",
+        "th": "Combine deterministic steps with agentic execution. Cloning, publishing, and making artifacts available don’t require a model; the complex task in between does."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Treat cost per run as an architectural decision. At scale, the cost per task determines what is feasible to automate.",
+        "th": "Treat cost per run as an architectural decision. At scale, the cost per task determines what is feasible to automate."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Treat cost per run as an architectural decision. At scale, the cost per task determines what is feasible to automate.",
+        "th": "Treat cost per run as an architectural decision. At scale, the cost per task determines what is feasible to automate."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Require outputs to follow a contract. Without a structured response, there’s no way to know at scale whether the agent achieved its objective.",
+        "th": "Require outputs to follow a contract. Without a structured response, there’s no way to know at scale whether the agent achieved its objective."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Require outputs to follow a contract. Without a structured response, there’s no way to know at scale whether the agent achieved its objective.",
+        "th": "Require outputs to follow a contract. Without a structured response, there’s no way to know at scale whether the agent achieved its objective."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Asynchronous execution is the real productivity gain. The value lies in not having to monitor the work, rather than completing it faster while watching over it.",
+        "th": "Asynchronous execution is the real productivity gain. The value lies in not having to monitor the work, rather than completing it faster while watching over it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Asynchronous execution is the real productivity gain. The value lies in not having to monitor the work, rather than completing it faster while watching over it.",
+        "th": "Asynchronous execution is the real productivity gain. The value lies in not having to monitor the work, rather than completing it faster while watching over it."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Tips",
+        "th": "Tips"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Expose agentic capabilities through an internal API so other teams can use them without rebuilding the infrastructure.",
+        "th": "Expose agentic capabilities through an internal API so other teams can use them without rebuilding the infrastructure."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Expose agentic capabilities through an internal API so other teams can use them without rebuilding the infrastructure.",
+        "th": "Expose agentic capabilities through an internal API so other teams can use them without rebuilding the infrastructure."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Isolate each run in its own sandbox, with your ecosystem’s toolchains already installed.",
+        "th": "Isolate each run in its own sandbox, with your ecosystem’s toolchains already installed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Isolate each run in its own sandbox, with your ecosystem’s toolchains already installed.",
+        "th": "Isolate each run in its own sandbox, with your ecosystem’s toolchains already installed."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Choose a model by considering intelligence, cost, and speed together, rather than a single benchmark.",
+        "th": "Choose a model by considering intelligence, cost, and speed together, rather than a single benchmark."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Choose a model by considering intelligence, cost, and speed together, rather than a single benchmark.",
+        "th": "Choose a model by considering intelligence, cost, and speed together, rather than a single benchmark."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Use structured outputs to classify success and failure automatically.",
+        "th": "Use structured outputs to classify success and failure automatically."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Use structured outputs to classify success and failure automatically.",
+        "th": "Use structured outputs to classify success and failure automatically."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Start with an internal user with a clear pain point and high volume—at iFood, that was the security platform.",
+        "th": "Start with an internal user with a clear pain point and high volume—at iFood, that was the security platform."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Start with an internal user with a clear pain point and high volume—at iFood, that was the security platform.",
+        "th": "Start with an internal user with a clear pain point and high volume—at iFood, that was the security platform."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Next steps",
+        "th": "Next steps"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The team plans to bring the platform to many more use cases across iFood, expanding the range of internal products that delegate agentic execution to it—with cost per task determining whether that expansion can be sustained.",
+        "th": "The team plans to bring the platform to many more use cases across iFood, expanding the range of internal products that delegate agentic execution to it—with cost per task determining whether that expansion can be sustained."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Join the new era of work",
+        "th": "Join the new era of work"
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Get OpenAI for Business updates",
+        "th": "Get OpenAI for Business updates"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Product updates, practical guides, upcoming events, and more.",
+        "th": "Product updates, practical guides, upcoming events, and more."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "By subscribing, you agree to receive emails from OpenAI. You can unsubscribe at any time. Read our Privacy Policy⁠.",
+        "th": "By subscribing, you agree to receive emails from OpenAI. You can unsubscribe at any time. Read our Privacy Policy⁠."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Keep reading",
+        "th": "Keep reading"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/34uiao4dZziOAyyKO40gSJ/cb6842aa761bc32b495d19976ced17bd/oai_Cisco_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "oai Cisco 1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "May 27, 2026",
+        "th": "May 27, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5uPNx6tKKw9bfKsi7uepmm/9ac19cf10103ab0c10bd4407b7050e8b/oai_Rakuten_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "oai Rakuten 1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Mar 11, 2026",
+        "th": "Mar 11, 2026"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2R1En1qK4AOSKcuZRpKxco/64ddf998210a4e3f1a3b4c08acba25e2/oai_endava_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "oai Endava 1x1"
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "May 28, 2026",
+        "th": "May 28, 2026"
+      }
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "id": "huggingface__llamacpp-amd-bench",
+  "slug": "llamacpp-amd-bench",
+  "source": "huggingface",
+  "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+  "category": "News",
+  "date": "2026-11-26T11:37:17.000Z",
+  "image": null,
+  "title": {
+    "en": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+    "th": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon"
+  },
+  "summary": {
+    "en": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+    "th": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon"
+  },
+  "body": [
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65baa31607366d903890bcf4/6M9WaawnvJ-2h5wSUic1I.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1642598610696-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/67289c93ff90038d9a6e5675/klana6SP95tj8-VwXnIYC.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6317233cc92fd6fee317e030/cJHSvvimr1kqgQfHOjO5n.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/936bf9ad6e51d5a00fde0eace7a2e43d.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/d5819a04ccee3fff2b369754bbd0e5af.svg",
+      "alt": ""
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "+3",
+        "th": "+3"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/67289c93ff90038d9a6e5675/klana6SP95tj8-VwXnIYC.png",
+      "alt": "angt's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63148d3b996c52bf0142cdbe/HXyNkyB0_nHI5WDNdiKHZ.png",
+      "alt": "ggml-org's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/w3Z6xyKVBA6np65Tb16dP.jpeg",
+      "alt": "Simon Pagezy's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63148d3b996c52bf0142cdbe/HXyNkyB0_nHI5WDNdiKHZ.png",
+      "alt": "ggml-org's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65baa31607366d903890bcf4/6M9WaawnvJ-2h5wSUic1I.jpeg",
+      "alt": "Abdennacer Badaoui's avatar"
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63148d3b996c52bf0142cdbe/HXyNkyB0_nHI5WDNdiKHZ.png",
+      "alt": "ggml-org's avatar"
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Quick start",
+        "th": "Quick start"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "What the numbers mean",
+        "th": "What the numbers mean"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "How we run the benchmarks",
+        "th": "How we run the benchmarks"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Inspect and reuse the results",
+        "th": "Inspect and reuse the results"
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "Join the conversation",
+        "th": "Join the conversation"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The llama.cpp × AMD Benchmark dashboard is available on Hugging Face. It lets you track prompt processing and text generation performance across llama.cpp builds, models, and quantizations, so you can explore how local inference performs on AMD Ryzen and Radeon hardware.",
+        "th": "The llama.cpp × AMD Benchmark dashboard is available on Hugging Face. It lets you track prompt processing and text generation performance across llama.cpp builds, models, and quantizations, so you can explore how local inference performs on AMD Ryzen and Radeon hardware."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Local inference performance changes as models, kernels, and builds evolve. We want those changes to be easy to inspect for any AMD developer: pick a hardware, a model and a build, compare quantizations, and follow performance over time. The benchmark workflow and underlying results are public, so you can also inspect how we benchmark inference performance.",
+        "th": "Local inference performance changes as models, kernels, and builds evolve. We want those changes to be easy to inspect for any AMD developer: pick a hardware, a model and a build, compare quantizations, and follow performance over time. The benchmark workflow and underlying results are public, so you can also inspect how we benchmark inference performance."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Quick start",
+        "th": "Quick start"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "You can choose Hardware, Model, and llama.cpp build in the Configuration sidebar. The current hardware choices are Radeon 8060S (gfx1151) and Radeon AI Pro R9700S (gfx1201).",
+        "th": "You can choose Hardware, Model, and llama.cpp build in the Configuration sidebar. The current hardware choices are Radeon 8060S (gfx1151) and Radeon AI Pro R9700S (gfx1201)."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "In the Overview tab, compare quantizations for one hardware, model, and build. The two charts show PP512 (512 input tokens, no generation) and TG128 (128 generated tokens), both starting at context depth zero.",
+        "th": "In the Overview tab, compare quantizations for one hardware, model, and build. The two charts show PP512 (512 input tokens, no generation) and TG128 (128 generated tokens), both starting at context depth zero."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "In the Build history tab, track PP512 and TG128 across all recorded builds for the selected hardware, model, and quantization.",
+        "th": "In the Build history tab, track PP512 and TG128 across all recorded builds for the selected hardware, model, and quantization."
+      }
+    },
+    {
+      "type": "li",
+      "text": {
+        "en": "In the Context scaling tab, see how token-generation throughput changes as the existing context grows, for the selected build, hardware, model, and quantization.",
+        "th": "In the Context scaling tab, see how token-generation throughput changes as the existing context grows, for the selected build, hardware, model, and quantization."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "What the numbers mean",
+        "th": "What the numbers mean"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The dashboard shows two separate tests, both measured in tokens per second:",
+        "th": "The dashboard shows two separate tests, both measured in tokens per second:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Both tests start at context depth zero (n_depth=0). PP512 measures processing 512 input tokens without generation; TG128 measures generating 128 tokens without a pre-existing context. The plotted value is the mean throughput (avg_ts). These are useful reference workloads, while the Context scaling tab lets you explore token generation throughput as the context grows.",
+        "th": "Both tests start at context depth zero (n_depth=0). PP512 measures processing 512 input tokens without generation; TG128 measures generating 128 tokens without a pre-existing context. The plotted value is the mean throughput (avg_ts). These are useful reference workloads, while the Context scaling tab lets you explore token generation throughput as the context grows."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How we run the benchmarks",
+        "th": "How we run the benchmarks"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "We benchmark the prebuilt binaries distributed through llama-install.sh, the build and installation project behind llama.app. The public gfx1151 and gfx1201 workflows are scheduled weekly and run the standard benchmarks using the llama-bench tool with Flash Attention on and off, with 10 repetitions per configuration.",
+        "th": "We benchmark the prebuilt binaries distributed through llama-install.sh, the build and installation project behind llama.app. The public gfx1151 and gfx1201 workflows are scheduled weekly and run the standard benchmarks using the llama-bench tool with Flash Attention on and off, with 10 repetitions per configuration."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The model set evolves and currently includes Inkling 2 Mini, Qwen, Gemma, gpt-oss, and LFM models, covering both dense and mixture-of-experts architectures. Available GGUF formats include Q4_K_M, Q8_0, other quantizations, and higher-precision formats such as BF16 and F16.",
+        "th": "The model set evolves and currently includes Inkling 2 Mini, Qwen, Gemma, gpt-oss, and LFM models, covering both dense and mixture-of-experts architectures. Available GGUF formats include Q4_K_M, Q8_0, other quantizations, and higher-precision formats such as BF16 and F16."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Inspect and reuse the results",
+        "th": "Inspect and reuse the results"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "The explorer reads directly from the public ggml-org/install.sh-benches-data Storage Bucket on Hugging Face. The data source link beside the chart title opens the folder for the selected build, hardware, and model.",
+        "th": "The explorer reads directly from the public ggml-org/install.sh-benches-data Storage Bucket on Hugging Face. The data source link beside the chart title opens the folder for the selected build, hardware, and model."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Standard results use <build>/<hardware>/<model>/<quant>.jsonl. Workload sweeps use the same folder <quant>-tg.jsonl filename.",
+        "th": "Standard results use <build>/<hardware>/<model>/<quant>.jsonl. Workload sweeps use the same folder <quant>-tg.jsonl filename."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Use them to investigate a result, make your own charts, or compare with a local run.",
+        "th": "Use them to investigate a result, make your own charts, or compare with a local run."
+      }
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "Join the conversation",
+        "th": "Join the conversation"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "Thanks to the AMD team for providing test infrastructure and helping validate the setup! Try the dashboard, inspect the data, and let us know which models and workloads you would like to see next.",
+        "th": "Thanks to the AMD team for providing test infrastructure and helping validate the setup! Try the dashboard, inspect the data, and let us know which models and workloads you would like to see next."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "More from this author",
+        "th": "More from this author"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/6141a88b3a0ec78603c9e784/rbSCixScNzdrnmS99LWxG.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "How we optimized our workflows and overcame GitHub Actions limitations",
+        "th": "How we optimized our workflows and overcame GitHub Actions limitations"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63148d3b996c52bf0142cdbe/HXyNkyB0_nHI5WDNdiKHZ.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png",
+      "alt": ""
+    },
+    {
+      "type": "h2",
+      "text": {
+        "en": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+        "th": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/63148d3b996c52bf0142cdbe/HXyNkyB0_nHI5WDNdiKHZ.png",
+      "alt": ""
+    },
+    {
+      "type": "h3",
+      "text": {
+        "en": "Community",
+        "th": "Community"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "en": "· Sign up or log in to comment",
+        "th": "· Sign up or log in to comment"
+      }
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/65baa31607366d903890bcf4/6M9WaawnvJ-2h5wSUic1I.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/1642598610696-noauth.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/67289c93ff90038d9a6e5675/klana6SP95tj8-VwXnIYC.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/6317233cc92fd6fee317e030/cJHSvvimr1kqgQfHOjO5n.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/936bf9ad6e51d5a00fde0eace7a2e43d.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "/avatars/d5819a04ccee3fff2b369754bbd0e5af.svg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/vzx7ZhfOJEJM9ba5TRC1Y.png",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/60f0608166e5701b80ed3f02/H9LNnlf0W4fiOJhQMxnbW.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "img",
+      "src": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/w3Z6xyKVBA6np65Tb16dP.jpeg",
+      "alt": ""
+    }
+  ]
+}
